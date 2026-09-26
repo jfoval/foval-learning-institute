@@ -28,8 +28,8 @@ quiz:
       In the couples experiment, asking about all the items raised accuracy most, and asking about
       half of them raised it only on the half that was discussed, so asking only about walking tells
       Evadne about walking. Writing about a day in the partner's life was the perspective-taking
-      condition, and it did no better than no instruction at all. Trusting her instinct is the
-      control condition, where long-term partners got fewer than five of twenty opinions exactly
+      condition, and it did no better than no instruction at all. Trusting her instinct is closest
+      to the control condition, where long-term partners got fewer than five of twenty opinions exactly
       right. The study was couples predicting opinions, not a sister choosing a trip, so carrying it
       over, and deciding that the lost surprise is worth it, is this course's reading.
   - q: >-
@@ -62,7 +62,7 @@ quiz:
       showed. That the studies found disgust showing is the reverse of what they found, and the
       people in them overestimated their leakage rather than judging it well. But the studies don't
       show that faces can't be read at all: they tested people trying to hide one thing, in a lab, with
-      strangers watching, and an aunt is not a stranger.
+      strangers watching, and an aunt isn't a stranger.
   - q: >-
       Florian's flatmate comes home from a hard exam, says nothing about it, and nothing in her face
       looks unusual. On this lesson's evidence, what should Florian conclude?
@@ -73,28 +73,29 @@ quiz:
       - That she feels whatever he would feel after that exam, since imagining her position is the best guide
     answer: 2
     explain: >-
-      The transparency studies found that people hide more than they think, so a calm face is weak
-      evidence that nothing is wrong; nothing in them says silence usually means bad news either.
+      The transparency studies found that people hiding a feeling from strangers in a lab hid more
+      than they thought, so a calm face is weak evidence that nothing is wrong; nothing in them says silence usually means bad news either.
       Imagining her position is the perspective-taking strategy, which didn't improve accuracy in the
       experiments, and projecting his own feelings is the egocentric guess it was meant to replace.
       Asking is the one strategy that added information. Whether and when to ask is still a
       judgement about her, which is this course's reading, not a finding.
   - q: >-
-      An article reports that in one empathic accuracy study, friends scored 29.8 and strangers 19.9,
-      and concludes that friends read about 30 per cent of each other's thoughts. What's wrong with
-      that conclusion?
+      Suppose a magazine reports an empathic accuracy study, using Ickes's global score, in which
+      married couples averaged 0.41, and concludes that spouses read 41 per cent of each other's
+      thoughts. What's wrong with that conclusion?
     options:
-      - Nothing, since the score is simply the percentage of the partner's thoughts that were guessed exactly
+      - Nothing, since the global score is simply the share of the partner's thoughts guessed exactly right
       - The score rates how similar each guess was to the real thought, not the share of thoughts read
-      - The figures are the wrong way round, since in the study the strangers scored higher than the friends
+      - The global score runs from 0 to 10, so 0.41 would mean spouses read only about 4 per cent of them
       - The score measured how confident people felt about their guesses, not how accurate the guesses were
     answer: 1
     explain: >-
       Independent raters judged how similar each guess was to the thought the partner had actually
-      listed, and the ratings were combined into a score running from no accuracy to total accuracy.
-      It is not a count of thoughts read correctly, so "30 per cent of thoughts" misreads it. The
-      friends did score higher than the strangers, not lower, and the score was built from guesses
-      rated against real thoughts, not from anyone's confidence.
+      listed, and the ratings were combined into a score running from .00, total inaccuracy, to 1.00,
+      total accuracy. It isn't a count of thoughts read correctly, so "41 per cent of thoughts"
+      misreads it. The range is .00 to 1.00, not 0 to 10, and the score was built from guesses rated
+      against real thoughts, not from anyone's confidence. The magazine and its figure are made up
+      for this question.
   - q: >-
       Two friends argue about whether feeling what a struggling person feels makes you better at
       supporting them. Which evidence would do most to settle the empirical part of their argument?
@@ -109,16 +110,16 @@ quiz:
       feeling actually helps more, measured over time by someone other than the helper. A survey of
       what people value tells you about preferences, not effects. The training meta-analysis measured
       scores on empathy tests for up to six months, not support in anyone's life. Brain scans of
-      shared pain show that sharing happens, which neither side disputes. And the question of what
+      shared pain would show whether sharing happens, not whether it helps. And the question of what
       should guide how you care for someone is partly a question of values, which no trial settles.
 ---
 
 Two mistakes about other people feel like knowledge while you're making them. The first is about
-them: you are sure you know what your partner, your friend or your colleague thinks, because you know
+them: you're sure you know what your partner, your friend or your colleague thinks, because you know
 them and you have imagined their view. The second is about you: you are sure your irritation, your
 boredom or your hurt was obvious, because it was so obvious to you. Both have been tested. Across
-25 experiments, imagining another person's point of view did not make people better at knowing what
-that person thought, and asking did.[1] And people who tried to hide a feeling thought far more of
+25 experiments, imagining another person's point of view didn't make people better at knowing what
+that person thought. In the one experiment that tried asking, asking did.[1] And people who tried to hide a feeling thought far more of
 it showed than observers actually saw.[2]
 
 Lesson 6 was about how to ask. This lesson is about why asking beats guessing, what that means when
@@ -156,15 +157,17 @@ which is this course's calculation, not a figure from the paper, an effect of �
 perspective taker ahead of about 41% of the people who got no instruction, where no effect would be
 50%. That lesson taught the number as g; d is the same kind of number.
 
-What kind of evidence is this? **One group's programme**: 25 experiments from one team, with a
+As evidence, this is **one group's programme**: 25 experiments from one team, with a
 wide range of tests and samples, not independently repeated as far as this course read. The authors
 are careful about what it shows. "Because the scientific method is unable to confidently affirm the
 null hypothesis, our experiments are unable to confirm that perspective taking is ineffective for
-increasing interpersonal accuracy."[1] They measured accuracy and nothing else. Whether imagining
-someone's position makes you kinder, fairer or more patient with them is a different question, and
-these experiments did not ask it.
+increasing interpersonal accuracy."[1] (The null hypothesis is the claim that there's no effect. A
+study can fail to find an effect, but it cannot prove there is none.) What they measured was accuracy,
+along with things like confidence and effort, not kindness. Whether imagining someone's position
+makes you kinder, fairer or more patient with them is a different question, and these experiments
+did not ask it.
 
-Why would imagining fail? The authors found that perspective taking did reduce **egocentric**
+As for why imagining fails, the authors found that perspective taking did reduce **egocentric**
 guessing, the habit of assuming others think what you think, but "the information used in its place
 was not systematically more accurate."[1] Beyond that they say plainly that they have no explanation:
 their experiments "do not provide an explanation for why perspective taking sometimes decreased
@@ -193,7 +196,7 @@ made.
 
 :::predict Two questions. Which strategy produced the most exact predictions out of twenty? And when the predictors rated how confident they were, did the ones who had asked feel much surer than the rest?
 
-Asking about all twenty won by a wide margin: 8.60 of 20 exactly right, against 4.90 with no instruction and 3.95 after writing about the partner's day.[1] Measured by how far off each prediction was, asking about everything beat the control group by d = 1.85. On the same arithmetic as before, that would put the average asker ahead of about 97% of the no-instruction group, if the bell-shape assumption holds. With 104 couples across five conditions, about twenty in each, that is a large effect in a small experiment.
+Asking about all twenty won by a wide margin: 8.60 of 20 exactly right, against 4.90 with no instruction and 3.95 after writing about the partner's day.[1] Measured by how far off each prediction was, asking about everything beat the control group by d = 1.85. On the same arithmetic as before, which is this course's calculation, that would put the average asker ahead of about 97% of the no-instruction group, if the bell-shape assumption holds (1.85 is past the end of that lesson's table, but the working is the same). With 104 couples across five conditions, about twenty in each, that is a large effect in a small experiment.
 
 And no, confidence did not vary across the conditions. Everyone, whatever their strategy, believed they had got far more right than they had: an average of 13.71 believed, against 6.20 actually right.[1]
 :::
@@ -224,17 +227,16 @@ course from Table 14 of the paper.[1]*
 Three things in that result are worth slowing down for.
 
 First, the couples in the control group knew each other well and still got fewer than five of twenty
-exactly right. Knowing someone for ten years is not the same as knowing what they think about a
+exactly right. Knowing someone for ten years isn't the same as knowing what they think about a
 particular thing.
 
 Second, asking worked only for what was asked. The predictors who asked about half the statements
 became more accurate on that half and no more accurate on the rest. The authors point out that
 the statements were chosen to be unrelated to each other, and that "Accurate insight gained from any
 strategy generalizes to other contexts only to the extent that those contexts are intercorrelated."[1]
-Knowing your partner's view on one thing tells you about that thing.
 
 Third, nobody felt the difference. The authors call this the most interesting part of the
-experiment: a strategy that nearly doubled accuracy did not make people feel more sure, and every
+experiment: a strategy that raised accuracy by about three quarters didn't make people feel more sure, and every
 group was "dramatically overconfident".[1] Their conclusion, in their own words: "If you want to know
 what another person is thinking, it may be best to put them in a situation where they can answer
 honestly and then ask them directly."[1]
@@ -264,9 +266,9 @@ Now turn it round. You're the one with the feeling, and you think it shows.
 
 Thomas Gilovich, Kenneth Savitsky and Victoria Husted Medvec [called this](https://pubmed.ncbi.nlm.nih.gov/9731312/) the **illusion of
 transparency**: the tendency to overestimate how far other people can tell what you are feeling
-or thinking.[2] In their first study, 39 Cornell undergraduates played a lying game in groups of five.
+or thinking.[2] In their first study, 39 Cornell undergraduates played a lying game, mostly in groups of five.
 Each round, everyone answered a personal question aloud (which shampoo they use, say), one of them had been told by a card to lie, and the others guessed who. With five players,
-guessing at random would catch the liar a quarter of the time.
+guessing at random would catch the liar a quarter of the time (a third in the one group of four).
 
 :::predict When they were the liar, what share of the other four players did people expect to spot them? And what share actually did?
 
@@ -293,7 +295,7 @@ This is **one group's set of studies**, all with Cornell undergraduates, all in 
 
 Two limits matter for using it. Every study asked people to **hide** a feeling. The authors suggest
 the illusion also applies when people are trying to show one, and cite their own preliminary work,
-which this course has not read. And they do not claim it is everywhere: "In many cases, people may be
+which this course has not read. And they don't claim it is everywhere: "In many cases, people may be
 well calibrated regarding how much their thoughts, feelings, and emotions are apparent to others."[2]
 They think it needs a feeling strong enough to anchor on, and they found it for the foul drink but not
 for the pleasant one.
@@ -301,20 +303,21 @@ for the pleasant one.
 ### The meeting where nobody noticed
 
 Perpetua comes out of a project meeting sure that everyone saw how annoyed she was. Her manager
-had given her work to someone else without a word to her, and she had sat with her arms folded and
-said almost nothing for twenty minutes. Afterwards a colleague asks her, cheerfully, whether she
-wants to get lunch.
+had given her work to someone else without a word to her. She didn't want a scene, so she kept her
+face still and joined in the discussion, and she still left sure it had shown. Afterwards a
+colleague asks her, cheerfully, whether she wants to get lunch.
 
-What the studies suggest, on this course's reading, is that the colleague very likely did not see
-it. Perpetua was doing roughly what the tasters did, keeping a lid on a strong feeling, and the
-tasters hid it far better than they believed. So, for Perpetua, the lesson points one way: if she
-wants the annoyance known, she has to say it. Silence plus folded arms is not a message anyone
-reliably received. (Lesson 14, "What body language can and cannot tell you", has more on what
-folded arms can and cannot carry.)
+Perpetua was doing roughly what the tasters did: keeping a strong feeling off her face. The tasters
+hid theirs far better than they believed. But the observers in those studies were strangers watching
+a video or playing a game, not colleagues who know her, so carrying the finding into this meeting is
+this course's reading, and a weaker claim than the finding itself. On that reading the colleague may
+well not have seen it. Either way, the safe move for Perpetua is the same: if she wants the
+annoyance known, she has to say it. (Lesson 14, "What body language can and cannot tell you", has
+more on what a face or a posture can carry.)
 
 :::checkpoint Now the colleague's side. Suppose the colleague had noticed nothing. What should the colleague take from that, and what should they not?
 
-The colleague shouldn't take "she's fine". In the studies, observers were at chance: a feeling someone is holding in mostly doesn't show, so no sign is weak evidence either way. It says little either way about Perpetua.
+The colleague shouldn't take "she's fine". In these studies, a feeling people were hiding mostly went unseen by strangers, so no sign is weak evidence either way. It says little about Perpetua.
 
 Nor should the colleague decide she's secretly furious. The studies do not show that people are hiding things all the time, and the authors say people are often well calibrated.
 
@@ -331,30 +334,32 @@ other person actually listed, and the ratings are combined into one score, with 
 to show that self-ratings of empathy predict real accuracy poorly. Two more findings from the same
 programme belong here.
 
-The first is about friends. In a study of pairs of male friends and pairs of male strangers
-(Stinson and Ickes, 1992, as reported in Ickes's review), the friends' empathic accuracy was "about
-50% higher than those of male strangers (Ms 29.8 vs. 19.9, p < .02)".[3] Be careful with those
-numbers. They're similarity scores, not the share of thoughts read, so 29.8 does not mean the friends
-read 30% of each other's thoughts. But notice where both sit: far from the top of the scale.
+The first is about friends. In a study of pairs of male friends and pairs of male strangers (a
+single study, Stinson and Ickes 1992, as reported in Ickes's review, which does not give the sample
+size), the friends had empathic accuracy scores "about 50% higher than those of male strangers":
+29.8 against 19.9.[3] Be careful with those numbers. The review does not say what scale they are on.
+They look like the .00 to 1.00 score multiplied by 100, but that's this course's guess, not
+something the review states. Either way they're similarity ratings, not the share of thoughts read,
+so 29.8 does not mean the friends read 30% of each other's thoughts.
 
-Why were friends better? Not, it turned out, because they were more alike or because they talked
+The friends' advantage wasn't, it turned out, because they were more alike or because they talked
 more during the session. The friends did interact more and were more similar in sociability, but
 "these differences did not account for the friends' greater empathic accuracy". Instead, the
 advantage "appeared to be attributable to the greater knowledge they had about the structure and
-contents of each other's memory".[3] Friends are better because they know more about each other's
-lives. That is the same lesson as Experiment 25 from another direction: accuracy comes from
-information.
+contents of each other's memory".[3] Friends seemed to be better because they knew more about each
+other's lives, which is Experiment 25's point from another direction.
 
 The second finding is about feedback. In a study reported in the same review (Marangoni, Garcia and
-Ickes, 1993), 80 undergraduates watched taped therapy sessions and guessed the client's thoughts;
-half were shown, partway through, what the client had actually been thinking. The feedback
+Ickes, 1993), 80 undergraduates watched three simulated therapy sessions, each with a client
+discussing her real problems, and guessed the client's thoughts; half were shown, partway through,
+what the client had actually been thinking. The feedback
 "accelerated the rate at which the perceivers' empathic accuracy improved".[3] That is a single
 study inside one group's programme, with students watching tapes, not talking.
 
 On this course's reading, it is a reason for the habit lesson 8 teaches:
 saying back what you heard, so the other person can correct it. A correction is feedback of exactly
-the kind that helped. Nobody in daily life hands you a sentence saying what your friend was really
-thinking. Asking and checking is the nearest thing you have.
+the kind that helped, and nobody in daily life hands you a sentence saying what your friend was
+really thinking, so asking and checking is the nearest thing you have.
 
 :::checkpoint Put the three findings together. What single idea do the perspective-taking experiments, Experiment 25 and the friends-and-strangers study have in common?
 
@@ -366,7 +371,7 @@ The feedback study adds that the gap can shrink when you find out how you did, w
 ## Is empathy something you have, or something you do?
 
 "Empathy" is used for several different things, and the argument in the next section turns on
-which one is meant. Paul Bloom, a psychologist at Yale, [lists](https://doi.org/10.1016/j.tics.2016.11.004) what he sees as the four commonest
+which one is meant. Paul Bloom, a psychologist then at Yale, in a 2017 opinion article, [lists](https://doi.org/10.1016/j.tics.2016.11.004) what he sees as the four commonest
 senses:[4]
 
 - **Understanding** what someone thinks and feels, without necessarily feeling it yourself. This is
@@ -381,17 +386,18 @@ Jamil Zaki, a psychologist at Stanford, in [a 2015 conversation](https://www.edg
 As Bloom says, "Nothing of value rests on which of these (if any) we choose to call ‘empathy’,
 provided that we are clear about what we are referring to."[4]
 
-Is it fixed, or something you choose? A meta-analysis of lab experiments found that telling people
-to imagine a distressed person's view did not significantly raise the concern they reported above no
-instructions (g = .08), while telling them to stay objective lowered it (g = 0.45), which the authors
-read as concern arising by default.[6] Zaki goes further: "Lately, I've begun thinking about empathy
+Whether it's fixed or something you choose has been tested in a few ways. A meta-analysis of lab
+experiments found that telling people to imagine a distressed person's view did not significantly
+raise the concern they reported above no instructions (g = .08), while telling them to stay
+objective lowered it (g = 0.45), which the authors read as concern arising by default.[6] Zaki reads
+the same question differently: "Lately, I've begun thinking about empathy
 not as something that happens to us, but rather as a choice that we make, even if we're not aware
 we're making it."[5] In one randomised study from his lab, read here only as an abstract, 292
-first-year college students given messages that empathy can change, or that their peers value it,
-were more accurate at rating others' positive emotions eight weeks later, though not negative ones,
+first-year college students assigned to a mindset intervention (empathy can change), a social-norms
+one, or both were more accurate at rating others' positive emotions eight weeks later, though not negative ones,
 than a control group.[7]
 
-Can it be trained directly? A meta-analysis of 18 randomised trials of empathy training, with 1,018
+Training it directly has been tested too. A meta-analysis of 18 randomised trials of empathy training, with 1,018
 participants, found a medium effect, g = 0.63, "adjusted to 0.51 after trim-and-fill evaluation for
 estimated publication bias", which is a correction for studies that found nothing and were not
 published.[8] On Mental Fitness lesson 2's table, 0.51 puts the average trained person ahead of about
@@ -400,15 +406,17 @@ health professionals and university students, when trainees were paid, and on ob
 rather than self-report. The longest follow-up was six months, and nothing was measured in anyone's
 everyday relationships.[8] This course read only the abstract.
 
-So on teachability, the picture is **contested**. In-person training moves scores on empathy tests,
-at least for months; instructions to imagine do not raise concern above its default; one motivational
-intervention raised accuracy for positive emotions. Whether any of it changes how you listen to a
+So on teachability the evidence is mixed, and what's in dispute is how far it reaches rather than
+which of two named camps is right. Training moves scores on empathy tests, at least for months;
+instructions to imagine do not raise concern above its default; one motivational intervention raised
+accuracy for positive emotions. Whether any of it changes how you listen to a
 friend next year, nobody has measured.
 
 ## Is more empathy better?
 
-This is a different question, and partly a question of values. It is also one where two serious
-researchers disagree in public, so here is each in his own words.
+This is a different question, and partly a question of values. It's also one where two serious
+researchers have argued in public, and they agree on more than the argument's framing suggests, so
+here is each in his own words.
 
 **Bloom's case.** Bloom's target is emotional empathy, feeling what you think someone else feels,
 not understanding them and not caring about them. Most of his argument is about moral and policy
@@ -416,8 +424,10 @@ decisions, where he argues that "empathy is narrow in its focus, rendering it in
 to bias": it pulls you towards the one person you can picture and away from the many you can't.[4]
 He is explicit that close relationships are a harder case. "Many people believe that empathy is
 central to being a good friend, spouse, and parent. Nothing I have discussed so far implies that this
-is mistaken."[4] But when you go to someone you love feeling anxious or sad, he argues, you do not want
-them anxious or sad too: "Here, it is understanding and compassion we need, not empathy".[4] And he
+is mistaken."[4] He even offers a reason: empathy "may have evolved to facilitate certain close
+relationships", so "while it might falter in a world of strangers, it is well suited for more
+intimate interactions."[4] Still, when you go to someone you love feeling anxious or sad, he argues,
+you don't want them anxious or sad too: "Here, it is understanding and compassion we need, not empathy".[4] And he
 concedes the other side of that: "Nonetheless, even the most rabid foe of empathy has to concede that
 sometimes people really do want others to feel what they feel."[4] In his written response to Zaki he
 puts the cost in close relationships more sharply: emotional empathy "is corrosive in personal
@@ -430,15 +440,27 @@ view empathy as something that people can control, then people can choose to ali
 more with their values."[5] On that view, empathy's biases can be worked on rather than accepted,
 and the practical programme follows: "Not just training skills, but also building motives."[5]
 
-**Bloom's response** on the same page agrees that empathy can be chosen, and says that is part of
+He's just as clear that choice runs both ways. "It's easy to overdose on empathy," he says, and it
+"can cause you to burn out." Then: "The idea that you can control empathy is not just meant so that
+everyone can turn their empathy up to eleven all the time. It's just as important to know when to
+turn down one's empathy, especially if you need to engage in self-care."[5] His example is his
+wife, a clinical psychologist: "the last thing that any of her patients need if they're depressed,
+is for her to be depressed as well."[5] So Zaki isn't
+arguing for more empathy all round. His case is for control, up or down, guided by what you value
+and what the other person needs.
+
+**Bloom's response**, one of five written responses on the page and the only one this lesson uses,
+agrees that empathy can be chosen, and says that is part of
 the problem: "part of the problem with our empathy is that it can easily be manipulated by
 others."[5] The page carries no answer from Zaki to the response, and this course has not read one,
 so that exchange stops mid-argument rather than with a winner.
 
 **What they agree on**, on this course's reading of the two texts, is more than the headlines
-suggest: empathy is flexible, it can be chosen,
-compassion matters, and understanding matters. **What they disagree on** is whether the sharing of
-feeling is worth widening or worth setting aside for compassion.
+suggest: empathy is flexible, it can be chosen, compassion matters, and understanding matters. On
+support for someone in distress, both say there are times the helper shouldn't simply share the
+distress: Bloom for friends and family, Zaki with a therapist's example. **What they disagree on**
+is whether empathy, chosen well, is a good guide to moral decisions: Bloom says emotional empathy is
+too narrow and biased to be one, and Zaki says people can choose to align it with their values.
 
 **What would settle the empirical part** is long-term trials that measure behaviour, not test
 scores: whether support from people who share a friend's distress actually helps that friend more
@@ -451,27 +473,30 @@ where to go.
 
 ## What people get wrong
 
-**"Put yourself in their shoes and you'll know what they think."** Across 25 experiments it did not
+**"Put yourself in their shoes and you'll know what they think."** Across 25 experiments it didn't
 make people more accurate, and in the one that tested asking, asking did.[1]
 
-**"I can tell how people feel."** Friends scored well short of the top of the empathic accuracy scale,
-and long-term couples got fewer than five of twenty opinions exactly right, while feeling sure they'd
-got nearly fourteen.[1][3]
+**"I can tell how people feel."** Long-term couples got fewer than five of twenty opinions exactly
+right, while feeling sure they'd got nearly fourteen.[1]
 
 **"My feelings are obvious."** In the lying and tasting studies, people who hid a feeling expected
-far more of it to show than observers saw.[2] If you want it known, say it.
+far more of it to show than observers saw.[2]
 
-**"No sign means no feeling."** The same studies say the reverse: a held-in feeling mostly doesn't
-show, so a calm face is weak evidence.[2]
+**"No sign means no feeling."** The same studies point the other way: in them, a feeling people were
+hiding mostly went unseen by strangers, so a calm face is weak evidence.[2]
 
 **"Empathy is fixed; some people just have it."** Training raised scores on empathy measures for up
 to six months in trials, and one motivational intervention raised accuracy for positive emotions.[7][8]
 How far that reaches everyday life has not been measured.
 
-**"More empathy always makes better support"** and **"Bloom thinks you shouldn't care."** The first
-is what Bloom argues against, for the sharing of distress in particular; the second misreads him,
-since he argues for understanding and compassion.[4] Zaki's reply, that empathy can be widened, is a
-serious position too, and the evidence that would decide between them does not exist yet.[5]
+**"More empathy always makes better support."** Bloom argues against it for the sharing of distress
+in particular, and Zaki says there are times to turn empathy down.[4][5]
+
+**"Bloom thinks you shouldn't care."** He argues for understanding and compassion, over sharing the
+distress.[4]
+
+**"Zaki wants more empathy all round."** He argues for choosing it, and for turning it down when you
+need to look after yourself or when sharing the feeling wouldn't help the other person.[5]
 
 ## Practice
 

@@ -82,3 +82,27 @@ record decision 18 asks for.
   line's "Weger Castle Emmett 2010" to "Weger Castle Emmett 2010 full text", and fix OUTLINE lesson 8's
   "nagging"/"pressuring" pair (both are simple in TIP 35 Exhibit 3.6).
 - **Quiz keys** for 08: 2,0,3,0,3,1, unchanged by the fix; checked by script against 01 to 07.
+
+## 2026-09-26: lesson 07 Stage 4 (fixer's notes)
+
+- **Marangoni, Garcia and Ickes (R4): taught in lesson 07.** OUTLINE puts the teaching in lesson 7
+  (core ideas, mechanism, "why feedback helps accuracy") and lists it under lesson 8 only as a spaced
+  review of "lesson 7's Ickes feedback finding". Lesson 07 now says "three simulated therapy
+  sessions"; lesson 08, per its own fixer's note above, already only refers back. If lesson 08 still
+  re-teaches any of it, cut to a one-line back-reference.
+- **Zaki is not the "more empathy" side.** On the Edge page he says empathy must sometimes be turned
+  down (SOURCES "Gate closures, lesson 07 review"). On support for a distressed person he and Bloom
+  largely agree; their disagreement is whether chosen empathy is a good guide to moral decisions.
+  Lesson 10 (Bloom's Box 3 returns) and any script must keep that framing. Contested question 12 and
+  Part C C3 amended.
+- **Ickes's 29.8 and 19.9 have no stated scale.** The review gives the global score as .00 to 1.00
+  and never says how the Stinson and Ickes means relate to it. No lesson says "far from the top of
+  the scale" or treats them as out of 100.
+- **Illusion of transparency is a concealment finding, among unacquainted people.** Later lessons
+  (14 especially) don't apply it to half-displayed feelings or to people who know each other without
+  saying that's this course's reading.
+- **For the orchestrator (not done, OUTLINE is outside this fixer's files):** OUTLINE lesson 7 core
+  ideas still say "observers were somewhat better than chance on disgust" (wrong; SOURCES §7.7 now
+  corrected) and "Zaki's reply that empathy can be widened" (should be "chosen, up or down").
+- **Quiz keys** for 07: 1,3,0,2,1,0, unchanged by the fix; checked by script against 01 to 06, 08
+  and 09 (no identical or shifted sequence, no shared run of four).

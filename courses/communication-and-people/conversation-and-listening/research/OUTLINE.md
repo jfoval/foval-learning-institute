@@ -951,7 +951,8 @@ Sources and the quiz (decision 20). Each finding carries its label and the cours
   information rather than utilizing existing knowledge about another person" [V]). **The illusion of
   transparency** (Gilovich, Savitsky and Medvec 1998: liars expected 48.8% of observers to catch them,
   25.6% did, about chance; foul-drink tasters expected 4.91 of 10 to see their disgust, 3.56 did;
-  observers were somewhat better than chance on disgust, so "unreadable" is wrong too). **Empathic
+  observers "performed no better than chance" on disgust; corrected 2026-09-26, see SOURCES "Gate
+  closures, lesson 07"). **Empathic
   accuracy** (Ickes 1993: a similarity score between a person's listed thoughts and another's
   inferences, not a percentage of thoughts read; male friends 29.8 against strangers 19.9, from
   shared knowledge; feedback on the other's actual thoughts "accelerated the rate" of improvement;
