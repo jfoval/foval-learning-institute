@@ -6,7 +6,7 @@ objectives:
     Apply integrated pest management's steps (threshold, identify, prevent, then control) to a
     described pest problem, and say which step a proposed action skips
   - >-
-    Deal with mice or rats in CDC's order (seal up, trap up, clean up), with its clean-up
+    Deal with mice or rats in CDC's steps (seal up, trap up, clean up), with its clean-up
     precautions, and state, as general information, what the label and the regulators in each
     country say about who may use which rodent poisons
   - >-
@@ -49,7 +49,7 @@ quiz:
       cockroaches from apartments with heavy resistance to a common fogger chemical. Nothing in
       either abstract says a bigger dose fixes that. UC's page says the reverse of the spray
       option: "baits provide better control than sprays", and foggers and sprays "may repel and
-      disperse cockroaches to other areas". In a block, the landlord is the one to tell.
+      disperse cockroaches to other areas". Telling the landlord is this course's reading.
   - q: >-
       Back from a trip, someone in Dallas finds small bites and dark spots on the sheets. They plan
       to turn the heating up to 30°C (86°F) for two days to kill whatever it is. What does EPA's
@@ -67,14 +67,14 @@ quiz:
       wash and heat-dry bedding. It says "Never use a pesticide indoors that is intended for
       outdoor use." EPA says nothing about a sudden change in temperature.
   - q: >-
-      A 1930s oak blanket box in a Bradford house has a scatter of small round holes. Their edges
-      are soft and rounded, the insides are dark, and there's no dust under the box. On the council
+      Old oak floorboards in a Keswick cottage have a scatter of small round holes. Their edges
+      are soft and rounded, the insides are dark, and there's no dust around them. On the council
       guidance this lesson read, what's the sensible next step?
     options:
-      - Probably old; no action is normally needed, so tissue over a group of holes and wait a year
+      - Probably an old attack needing no action; if unsure, tissue over some holes for a year
       - Spray the whole room, since any hole in wood means an active attack that has to be treated
       - Drill the holes wider and inject a treatment, since beetles in old oak need it deep inside
-      - Throw the box out today, since beetles will spread from it to every other timber in the house
+      - Rip the boards up today, since beetles will spread from them to every other timber nearby
     answer: 0
     explain: >-
       Babergh and Mid Suffolk's page says an active attack can sometimes be told by sharp-edged
@@ -82,7 +82,7 @@ quiz:
       be an old infestation, and "no action is normally needed". If you're not sure, it says to
       monitor for a year under tissue paper. It advises against spraying as hard to control, and
       its line on drilling is about the damage it does to historic timber. It says nothing about
-      throwing furniture out, and it names damp, not a neighbouring piece of wood, as the cause.
+      ripping boards out, and it names damp, not a neighbouring piece of wood, as the cause.
   - q: >-
       In a Brooklyn house, there are mouse droppings on a pantry shelf and along the floor behind
       the fridge. The owner plans to vacuum them up with a filter vacuum and then wipe the shelf.
@@ -172,20 +172,21 @@ keeping the area "clean, dry and well maintained".[2] (HSE's pages use "biocide"
 as rodent poisons; the label examples it gives include products for use against ants, woodlice and
 cockroaches.)
 
-:::predict A kitchen has had a few ants and one mouse in a month. Before reading on: of IPM's four steps, which does reaching straight for a spray skip, and why might that matter more than the spray itself?
+:::predict A kitchen has had a few cockroaches and one mouse in a month. Before reading on: of IPM's four steps, which does reaching straight for a spray skip, and why might that matter more than the spray itself?
 
 It skips the first three. There's no threshold (is this a problem yet?), no identification (a spray
-chosen for ants does nothing about a mouse), and no prevention (the gap under the back door and the
+chosen for cockroaches does nothing about a mouse), and no prevention (the gap under the back door and the
 open packet in the cupboard are still there). EPA's order puts control last, and even then chooses
-"less risky" controls first.[1] A spray that kills today's ants leaves tomorrow's the same way in.
+"less risky" controls first.[1] A spray that kills today's cockroaches leaves tomorrow's the same way in.
 :::
 
 ## Mice and rats: seal up, trap up, clean up
 
 The Centers for Disease Control and Prevention (CDC), the US public health agency, puts rodent
-control in three words, in that order.[3][4][5][6] It lists the diseases rodents can spread, with
+control in three steps, seal up, trap up and clean up, and its trapping page puts sealing
+first.[3][4][5][6] It lists the diseases rodents can spread, with
 hantavirus among them, and its clean-up rules are built round breathing them in; this course read
-nothing on hantavirus in the UK. Applying CDC's order and clean-up anywhere is this course's reading, not a UK body's advice.
+nothing on hantavirus in the UK. Applying CDC's steps and clean-up anywhere is this course's reading, not a UK body's advice.
 
 ### The signs
 
@@ -194,7 +195,7 @@ hair." They turn up in cupboards, drawers and places out of sight. Old droppings
 are still there, so CDC's test is to clean the area safely and look again: "If droppings are present
 after cleaning, this indicates an active rodent presence."[3]
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/2/22/Housemouse_%28Mus_musculus%29_droppings_with_10_and_20_euro_cent_coins_and_a_ruler%2C_Utrecht%2C_The_Netherlands%2C_December_14%2C_2019.jpg | Six small dark droppings, narrow and pointed at one or both ends, on an orange surface, with two coins above them and a ruler marked in centimetres below
+:::figure https://upload.wikimedia.org/wikipedia/commons/2/22/Housemouse_%28Mus_musculus%29_droppings_with_10_and_20_euro_cent_coins_and_a_ruler%2C_Utrecht%2C_The_Netherlands%2C_December_14%2C_2019.jpg | A few small dark droppings, narrow and pointed at one or both ends, on an orange surface, with two coins above them and a ruler marked in centimetres below
 House mouse droppings found in a kitchen, photographed beside two coins and a ruler for scale. Note the pointed ends CDC describes. Photo: Hansmuller, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
 :::
 
@@ -293,7 +294,7 @@ poison only for infestations that persist after trapping, and HSE says consider 
 before anticoagulants.[5][9]
 
 A consumer bait station used by its label, after trapping has failed, is **Yours, on conditions**: the
-label's, and CDC's order. A product marked for professionals is another matter: in the US its label
+label's, and CDC's steps. A product marked for professionals is another matter: in the US its label
 says who may use it and the label is the law, and in Great Britain and Northern Ireland HSE says the
 public must never use one. A rodent problem that needs one is **Call someone**. This course's
 exercises never have you set poison. If a child may have eaten bait, First Aid and CPR lesson 14,
@@ -308,7 +309,7 @@ Three UK nations have legislated, differently; this course read the Acts on legi
 | Where | The law read | What it makes an offence | In force |
 |---|---|---|---|
 | England | Glue Traps (Offences) Act 2022, section 1 | Setting a glue trap in England to catch a rodent, or in a way that risks catching one; a licence can allow a pest controller | 31 July 2024 |
-| Wales | Agriculture (Wales) Act 2023, section 46, amending the Wildlife and Countryside Act 1981 | Setting in Wales a glue trap likely to catch any animal, or using one to kill or take any animal ("animal" meaning a vertebrate) | 17 October 2023 |
+| Wales | Agriculture (Wales) Act 2023, section 46, amending the Wildlife and Countryside Act 1981 | Setting in Wales a glue trap likely to catch any animal, or using one to kill or take any animal ("animal" meaning a vertebrate); no licence route | 17 October 2023 |
 | Scotland | Wildlife Management and Muirburn (Scotland) Act 2024, sections 1 to 3 | Using, supplying or possessing a glue trap without reasonable excuse, unless authorised | 1 July 2026 |
 | Northern Ireland | Not read | This course read no Northern Ireland law on glue traps | |
 
@@ -319,17 +320,18 @@ The details matter.[10][11][12]
   reasonable excuse, leaves it that way. Licences go only to pest controllers, "for the purpose of
   preserving public health or public safety", and only if there is "no other satisfactory solution".
   The Act extends to England and Wales, but its offences are about traps set in England.
-- **Wales.** Wider than England's: any vertebrate, not only rodents. The course read section 46, not
-  section 11 of the 1981 Act as amended, so it can't tell you what exceptions that carries.
+- **Wales.** Wider than England's: any vertebrate, not only rodents. And no licence: the same Act
+  left the new glue-trap offences out of the 1981 Act's licensing power (section 48).
 - **Scotland.** The widest: possession and supply are offences too, and authorisation, under a
   scheme the course did not read, is only for protecting public health where "no other method of
   rodent control is practicable".
 - **The US.** This course read no US law on glue traps, only CDC's advice against them.[5]
 
-One wrinkle. The cockroach guide in the next section recommends insect sticky traps for
-monitoring.[13] Scotland's Act covers a trap that "is designed, or is capable of being used, to catch
-an animal other than an invertebrate" with an adhesive.[12] Whether a small insect trap falls inside
-that, this course cannot say from what it read; in Scotland, its line is to ask your council first.
+One wrinkle. UC's monitoring tools are "Sticky traps or glue boards", and the NHM's moth traps are
+"adhesive boxes".[13][19] England's and Scotland's Acts define a glue trap as one "capable of being
+used" to catch a rodent, or any vertebrate, and Wales's offence turns on where one is set to catch a
+vertebrate.[10][11][12] Whether a small insect trap falls inside them, this course can't say from what
+it read; its line, in all three nations, is to ask your council first.
 
 Whether glue traps are humane is a value question. This course read no statement of the case for
 them, or of the welfare case against them, in their holders' own words, so it reports the laws and
@@ -387,14 +389,15 @@ UC's guide:[13]
 - **Sanitation and exclusion first.** No food left out, leaks fixed, cracks sealed.
 - **Baits**, gel or stations, placed near where cockroaches hide. They're slow: "It may take 7 days
   or longer before you see fewer cockroaches."
-- **Monitor with sticky traps**, which UC calls "the best way to detect and monitor cockroach
-  populations", placed along wall edges and under appliances (and see the Scottish question above).
+- **Monitor with sticky traps or glue boards**, which UC calls "the best way to detect and monitor
+  cockroach populations", placed along wall edges and under appliances (and see the glue-trap
+  question above).
 - **A vacuum with a HEPA (fine-particle) filter**, because shed skins and droppings in the air can
   cause allergies.
 - **No foggers, bombs or aerosol sprays.**
 
 A bait used by its label in your own home is **Yours, on conditions**. In a flat, UC's point that
-infestations spread through buildings makes it the landlord's problem too, so telling them in
+severe infestations "may spread to other parts of buildings" makes it the landlord's problem too, so telling them in
 writing comes first (this course's reading; no tenancy law was read).
 
 ## Bed bugs: confirm, then be patient
@@ -412,15 +415,15 @@ EPA's tips, in its order:[16]
 3. Cut clutter; put covers (encasements) on the mattress and box spring. "Leave the encasements on
    for a year."
 4. Wash and heat-dry bedding. Home freezing "may not be a reliable method".
-5. Heat works, but not the thermostat: "Raising the indoor temperature with the thermostat or space
-   heaters won’t do the job." "Bed bugs die when their body temperatures reaches 45°C (113°F)", and
+5. Heat, "but be very careful", and not by the thermostat: "Raising the indoor temperature with the
+   thermostat or space heaters won’t do the job." EPA says special equipment is needed. "Bed bugs die when their body temperatures reaches 45°C (113°F)", and
    the room or container has to be hotter still.
 6. Vacuum, and seal the bag and put it in an outside bin. Slash or destroy a mattress you throw out.
 7. For a professional, ask for IPM, and in the US ask your state pesticide agency.
 
 EPA's safety page adds: "Never use a pesticide indoors that is intended for outdoor use."[18]
 
-EPA's myths page corrects four ideas:[17]
+Four of the ideas EPA's myths page corrects:[17]
 
 - Dirt: "Bed bugs are not attracted to dirt and grime; they are attracted to warmth, blood and carbon
   dioxide." Clutter gives them more hiding places.
@@ -439,8 +442,7 @@ than the adult moths, that cause the damage", feeding on keratin, the protein in
 natural fibres.[19] Its controls: "Freezing to -20°C for a week or heating fabric to temperatures of
 49°C for over 30 minutes kills all life stages", which it says a home freezer or washing machine can
 do (-4°F; about 120°F). Dry cleaning, airtight storage and vacuuming help, and pheromone traps are
-for monitoring.[19] All of it is **Yours**. (The page also says one class of insecticide spray leaves
-no toxic residues; this course hasn't checked that and doesn't repeat it as advice.)
+for monitoring.[19] All of it is **Yours**.
 
 ## Woodworm: old holes, live holes and damp
 
@@ -457,8 +459,8 @@ Exit holes in a piece of beech, made by the common woodworm beetle as the photog
 The council's signs:[20]
 
 - **Active:** "An active outbreak can sometimes be identified by holes with sharp (rather than
-  rounded) edges, alongside bore dust. The interiors of the holes ('frass') are not dark, but the
-  colour of freshly-cut timber."
+  rounded) edges, alongside bore dust. The interiors of the holes ... are not dark, but the colour
+  of freshly-cut timber."
 - **Old:** "Otherwise, holes may indicate an old infestation, that's no longer active. In these
   cases, no action is normally needed."
 - **The common furniture beetle** makes holes 1 to 2 mm wide.
@@ -478,9 +480,11 @@ for every house. The commercial view, that active woodworm needs chemical treatm
 course saw only in search snippets from treatment firms, so it does not state it, and it does not
 settle the difference.
 
-The tissue-paper test, on furniture or timber that's yours (or with your landlord's agreement), is
-**Yours**. An active attack in the fabric of a house is **Call someone**: on the council's advice for
-older buildings, a surveyor first, to find the damp. That is this course's reading of a heritage page.
+The tissue-paper test, on timber that's yours (or with your landlord's agreement), is
+**Yours**. An active attack in the fabric of a house is **Call someone**. For listed buildings the
+council recommends "a surveyor, or an engineer who is accredited to work in historic buildings", for
+an independent assessment before spraying; a surveyor first for any house, to find the damp, is this
+course's reading.
 
 ## Termites, in the US
 
@@ -488,9 +492,9 @@ Termites are a US pest in this course's sources; it read nothing on them in the 
 cause "billions of dollars in structural damage" a year.[21] The signs: hollow spots in exposed wood
 when you probe it with a flathead screwdriver, and swarms. Ants get mistaken for them; EPA's test is
 the wings (a termite's roughly equal in length, an ant's front pair longer) and the antennae
-(straight on a termite, bent at a right angle on an ant).[21] Prevention is lesson 17's: dry soil at
-the foundation, gutters and downspouts working, leaks fixed, no firewood against the house. EPA
-doesn't say why moisture draws termites, and this course doesn't add a reason.
+(straight on a termite, bent at a right angle on an ant).[21] EPA's prevention list, which lesson
+17 began: dry soil at the foundation, gutters and downspouts working, leaks fixed, no firewood
+against the house. EPA gives no reason for keeping the soil dry, and this course doesn't add one.
 
 Treatment isn't a householder's job on EPA's account: "In most cases, termiticide application can
 only be properly performed by a trained pest management professional", and soil treatments done
@@ -509,9 +513,9 @@ someone**.
 
 Lesson 23, "Hiring a tradesperson, and when to stop", covers hiring in general.
 
-## Droppings in a flat on Merseyside
+## Droppings in a flat in Milton Keynes
 
-The simple case first. In a 1960s flat on Merseyside, the tenant finds droppings in the cupboard
+The simple case first. In a 1970s flat in Milton Keynes, the tenant finds droppings in the cupboard
 under the sink and a chewed corner on a packet of rice. It's the first sign in two years.
 
 1. **Identify.** Small, dark, pointed at one end: mouse droppings, on CDC's description.[3]
@@ -525,12 +529,13 @@ under the sink and a chewed corner on a packet of rice. It's the first sign in t
    disinfectant or 1 part bleach to 9 of water for 5 minutes, paper towels, wipe the cupboard.[6]
 7. **Trap.** Snap traps, baited end to the wall, in the cupboard and behind the fridge, checked
    daily.[5] Not a glue board: in England, setting one is an offence under the 2022 Act unless it's
-   done under a licence (general information, not legal advice).[10]
+   done under a licence.[10]
 8. **The all-clear.** A week with no catches and no new signs, and no fresh droppings after the
    clean-up.[5][3]
 
 Poison comes in only if trapping fails, and then a public product by its label, or a pest
-controller.[9] Everything here is **Yours**, except the building work, which is the landlord's.
+controller.[9] The traps are **Yours**, the clean-up **Yours, on conditions**, and the building work
+the landlord's.
 
 ## Cockroaches in a Philadelphia apartment
 
@@ -544,8 +549,8 @@ On DeVries and colleagues' first study, foggers "failed to reduce cockroach popu
 left kitchen surfaces with pesticide residues that averaged 603 times the level before.[14] On the
 second, apartment cockroaches were highly resistant to a common fogger chemical, and the authors say
 their results "suggest" that resistance is a major reason.[15] On UC's guide, the foggers may also
-have pushed them elsewhere, which fits the neighbours having them.[13] A third fogger would, on this
-course's reading of those studies, meet the same resistance.
+have pushed them elsewhere, which fits the neighbours having them.[13] The authors suggest foggers
+"would lack efficacy" in homes like hers.[15]
 
 Instead: (1) tell the landlord in writing, since it is a building-wide problem (this course's
 reading); (2) sanitation, food sealed away, leaks reported; (3) gel baits near where they hide,
@@ -569,7 +574,7 @@ England, Wales and Scotland each now make setting or using them an offence in th
 glue traps section).[5][10][11][12]
 
 **"Bed bugs mean a dirty home."** EPA: they're attracted to warmth, blood and carbon dioxide, not dirt.
-Nor do they spread disease between people, on EPA's account.[17]
+EPA knows of no cases or studies showing they spread disease between people.[17]
 
 **"Holes in the wood mean live woodworm."** Babergh and Mid Suffolk's page: they may be an old attack,
 needing no action; if unsure, watch for a year.[20]
@@ -593,29 +598,27 @@ anything waits for your landlord's agreement.
    cupboard base (lesson 18 if so).
 3. **Signs.** Droppings, gnaw marks, holes in timber, damage to wool, anything on a mattress
    seam. For each, name what it might be and what would confirm it.
-4. **Woodworm, if you have old holes** in furniture or timber that's yours to mark: start the
+4. **Woodworm, if you have old holes** in timber that's yours to mark: start the
    council's tissue-paper test on one group of holes, with water-soluble glue and acid-free tissue,
    and write the date in your calendar a year ahead.
 5. **Decide.** For each finding, the IPM step it belongs to, and its label: Yours, Yours on
    conditions, or Call someone.
 :::
 
-:::checkpoint Three finds. Decide each, with its source and its label. (1) In a rented flat in Stornoway, a few droppings under the sink and a glue board a previous tenant left behind a cupboard. (2) In a house in Charleston, winged insects swarming from a baseboard in spring, and a door frame with hollow spots when probed. (3) In a house in Kirkcaldy, a wool rug with bare trails and small white larvae underneath.
+:::checkpoint Three finds. Decide each, with its source and its label. (1) In a rented flat in Stornoway, a few droppings under the sink and a glue board a previous tenant left behind a cupboard. (2) In a house in Charleston, winged insects swarming from a baseboard in spring, and a door frame with hollow spots when probed. (3) In a house in Tamworth, a wool rug with bare trails and small white larvae underneath.
 
-(1) Mice, probably. CDC's order: seal up, snap traps, clean up by its method, and the landlord told
+(1) Mice, probably. CDC's steps: seal up, snap traps, clean up by its method, and the landlord told
 in writing.[4][5][6] The glue board is a legal question in Scotland, where the 2024 Act makes using
 and possessing one without reasonable excuse an offence unless authorised; tell the landlord it's
-there and ask the council how to dispose of it, which is this course's line (general information,
-not legal advice).[12] Label: Yours for the clean-up and traps, the landlord's for the building.
+there and ask the council how to dispose of it, which is this course's line.[12] Label: Yours for the traps, Yours on conditions for the clean-up, the landlord's for the building.
 
 (2) Possibly termites; EPA says
-swarms and hollow wood are the signs, and to check the wings and antennae against ants. Treatment
-needs a state-licensed professional on EPA's account. Label: Call someone.[21]
+swarms and hollow wood are the signs, and to check the wings and antennae against ants. In most
+cases treatment needs a trained professional, and the firm a state licence, on EPA's account. Label: Call someone.[21]
 
 (3) Clothes moth
 larvae, on the NHM's description of the damage. Freezing at -20°C for a week or heating to 49°C for
-over 30 minutes kills all stages, and vacuuming helps; pheromone traps then show whether it worked.
-Label: Yours.[19]
+over 30 minutes kills all stages, and vacuuming helps. Label: Yours.[19]
 :::
 
 ## For your plan
@@ -637,15 +640,13 @@ licensing", gathers the rules on who may do which job.
 ## Go deeper
 
 - **University of California Statewide IPM Program, ["Pest Notes: Cockroaches"](https://ipm.ucanr.edu/home-and-landscape/cockroaches/).**
-  Read here in full. The most thorough householder's guide this course found for any pest, with how
-  to place baits and traps.
+  Read here in full. With how to place baits and traps.
 - **CDC, ["Controlling Wild Rodent Infestations"](https://www.cdc.gov/healthy-pets/rodent-control/index.html)**
   and its three linked pages. Read here in full, from Internet Archive captures. Keep the clean-up page.
 - **HSE, ["Using biocides: Overview"](https://www.hse.gov.uk/biocides/using/overview.htm).** Read
   here in full. The regulator on whether you need a product at all, and reading the label.
 - **DeVries and colleagues, ["Exposure risks and ineffectiveness of total release foggers"](https://doi.org/10.1186/s12889-018-6371-z)**, *BMC Public Health*, 2019.
-  This course read the abstract only. The paper is openly available for anyone who wants to go
-  further.
+  This course read the abstract only.
 
 ## Sources
 
@@ -659,7 +660,7 @@ licensing", gathers the rules on who may do which job.
 8. US Environmental Protection Agency, ["Introduction to Pesticide Labels"](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels), last updated 2 June 2026. **Read: full text, 26 September 2026.** The federal statute and regulations it names were not read. <!-- lesson 21 gate closure -->
 9. Health and Safety Executive, ["Rodenticides"](https://www.hse.gov.uk/biocides/using/rodenticides.htm). **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part B §5; lesson 21 gate closure -->
 10. [Glue Traps (Offences) Act 2022](https://www.legislation.gov.uk/ukpga/2022/26/contents), on legislation.gov.uk, and the Glue Traps (Offences) Act 2022 (Commencement) Regulations 2024 (SI 2024/686). **Read: the whole Act, and the commencement regulations, 26 September 2026.** <!-- lesson 21 gate closure G-L14 -->
-11. [Agriculture (Wales) Act 2023](https://www.legislation.gov.uk/asc/2023/4/contents), section 46 and its commencement note, on legislation.gov.uk. **Read: Part 5 (sections 45 to 48), 26 September 2026.** Section 11 of the Wildlife and Countryside Act 1981 as amended was not read. <!-- lesson 21 gate closure G-L14 -->
+11. [Agriculture (Wales) Act 2023](https://www.legislation.gov.uk/asc/2023/4/contents), section 46 and its commencement note, on legislation.gov.uk. **Read: Part 5 (sections 45 to 48), and sections 11 and 16(3) of the Wildlife and Countryside Act 1981 as amended, 26 September 2026.** <!-- lesson 21 gate closure G-L14 -->
 12. [Wildlife Management and Muirburn (Scotland) Act 2024](https://www.legislation.gov.uk/asp/2024/4/contents), sections 1 to 5, on legislation.gov.uk. **Read: sections 1 to 5 and the commencement notes, 26 September 2026.** The authorisation scheme made under section 5 was not read. <!-- lesson 21 gate closure G-L14 -->
 13. A. M. Sutherland, D. H. Choe and M. K. Rust, ["Pest Notes: Cockroaches"](https://ipm.ucanr.edu/home-and-landscape/cockroaches/), UC ANR Publication 7467, University of California Statewide IPM Program. **Read: the whole page, re-read 26 September 2026.** Written for California. <!-- SOURCES Part B §5; lesson 21 gate closure -->
 14. Z. C. DeVries, R. G. Santangelo, J. Crissman, R. Mick and C. Schal, "Exposure risks and ineffectiveness of total release foggers (TRFs) used for cockroach control in residential settings", *BMC Public Health* 2019;19:96. **Read: abstract only, re-read 26 September 2026.** <!-- SOURCES Part B §5; lesson 21 gate closure -->

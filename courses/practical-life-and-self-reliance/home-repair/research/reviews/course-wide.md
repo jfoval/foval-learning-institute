@@ -460,3 +460,19 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   the notice, and the "AGAINST THE LAW" line goes with progress payments. String in SOURCES, "Stage 4
   note, lesson 23".
 - **Places.** Humberside is now taken (lesson 23's burst-pipe checkpoint); Merseyside stays lesson 21's.
+
+## 2026-09-26 — Lesson 21 fix pass: notes for later lessons and scripts
+
+- **Lesson 22 must replace its Conwy** (quiz, line 24 when reviewed). Lesson 21 had Conwy first (its
+  quiz 1). Keswick, Tamworth and Milton Keynes are now lesson 21's; Merseyside is lesson 23's alone
+  (lesson 21 moved off it, so the lesson 23 note above no longer holds). Oban is still unused.
+- **Wales has no licence route for glue traps.** The Agriculture (Wales) Act 2023 s48(6) leaves the
+  glue-trap offences (s11(1)(bc) and (bd) of the 1981 Act) out of s16(3)'s licensing power, and s11's
+  defences cover (2)(b) and (c) only. Lesson 22 and any script say so; SOURCES "Stage 4 note, lesson 21".
+- **Insect sticky traps and glue-trap law** are an open question in all three nations, not Scotland
+  alone: England's s1(11) and Scotland's s1(7) define a glue trap by what it is "capable of being
+  used" to catch. The course's line everywhere is to ask the council first.
+- **CDC's rodent steps are not an ordered slogan.** Say "CDC's steps" (seal up, trap up, clean up),
+  and cite the trap page for sealing first.
+- **Lesson 21 is at 102.47 modelled minutes** (100, with no headroom); R16's glosses were declined for
+  that reason.
