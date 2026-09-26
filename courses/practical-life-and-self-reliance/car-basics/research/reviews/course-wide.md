@@ -501,3 +501,28 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **The IMI "policy hook" sentence is the event participants', not the IMI's.** SOURCES now records that
   "calling on government to mandate its use" is in the release.
 - **Quiz keys:** 24 1,0,3,2,3,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 25 fix pass: notes for later lessons
+
+- **Citizens Advice's "Problem with a car repair" is England's page.** Its advice, including that a
+  garage may keep a car while a bill is disputed, is never applied to Wales or Northern Ireland; the
+  1977 Act's bar on selling covers England, Wales and Northern Ireland, and is subject to "the terms
+  of the bailment" (s.12(8)). The script and the test keep the split.
+- **Personal Finance lesson 10 has no section 75 and no chargeback.** It teaches US payment-method
+  protections, mostly against unauthorised use. The conventions bullet in `pipeline-briefs.md` is
+  corrected; no script or test item points there for either.
+- **"Lien" is California's word only**, defined from § 3068(a) ("dependent upon possession",
+  "legally entitled"). For the UK, no word for the right to keep the car and no mechanism (G-G4 open).
+- **Ohio: never settle "more than ten per cent" against "ten per cent or more"**, and (C)(5) ("Charge
+  for any repair or service which has not been authorized by the consumer") travels with them. Ohio's
+  page now shows "Effective: March 21, 2026" (SOURCES corrected).
+- **Florida and Michigan give the same allowance on any estimate of $100 or more**; they part only
+  below $100 (Florida's $10 floor). The exercise's $75 case shows it: $85 against $82.50.
+- **The stop-points table is "the main ones"**, not every stop, and each row names whose rule it is
+  as its own lesson does. The script and the course project use the same rows.
+- **Phone numbers:** lesson 18 prints 0300 123 5000 with ordinary spaces and lesson 23 prints
+  888-327-4236 with ASCII hyphens; use U+00A0 and U+2011 at their next open (lesson 25 now does).
+- **Not rendered:** `npm run build:drafts` fails on the course's missing `assessments/final-test.md`,
+  so lesson 25's two tables were judged at phone width from the CSS only. Look at 375 px in both
+  themes once the build runs.
+- **Quiz keys:** 25 3,2,0,1,0,1 (unchanged by the fix; items 3 and 4 replaced or moved, keys kept).
