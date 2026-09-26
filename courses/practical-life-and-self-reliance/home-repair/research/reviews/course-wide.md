@@ -251,3 +251,22 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   four at offset 1. The written rule doesn't bar a value-shifted run; if the rule is extended, the
   change is lesson 15's.
 - **Quiz keys:** lesson 10 unchanged at 0,1,3,1,3,2.
+
+## 2026-09-26 — Lesson 14 fix pass: notes for later lessons
+
+- **ESF's cable-route line is a UK requirement.** Scope it to UK homes, quote ESF's own "A quality
+  cable detector can help track buried cables before you start work" as the reason to scan anyway,
+  and say that nothing read covers where cables run in American walls (G-E3 still open).
+- **A struck gas pipe:** only National Gas (Great Britain) was read. For Northern Ireland and the US,
+  following lesson 9's steps is the course's reading and says so; SoCalGas's "DO NOT attempt to
+  control the leak or repair a damaged pipe or meter" is the US line to quote.
+- **After a cable hit:** leave the circuit off, Call someone whether or not anything tripped, and
+  point to First Aid and CPR lesson 2, "Danger, the call, and recognising cardiac arrest" (its title
+  has a comma after "call"), for a person who has had a shock.
+- **EPA's asbestos line starts at "Generally,".** `npm run quotes` passes the trimmed version, so
+  check it by eye.
+- **WIS23 is wood dust at work.** Applying its class M clean-up line to plaster or brick dust is the
+  course's reading, labelled.
+- **Places now used by lesson 14:** Bedfordshire, Caithness, Dorset and Iowa (quiz), the Isle of
+  Wight and the American Southwest (body).
+- **Quiz keys:** lesson 14 unchanged at 2,1,0,3,2; lesson 16's fixer changes its own.

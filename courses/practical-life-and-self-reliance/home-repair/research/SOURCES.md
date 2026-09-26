@@ -5545,3 +5545,32 @@ same day. Each [V] string-matched in the extracted text.
   recorded); lesson 22 may use it after re-reading.
 - **Use in lesson 10:** applying s 53 through s 11 to a paid occasional favour (the £60 case) is the
   course's reading, labelled as such; no source read applies reg 3(3) to that case in terms.
+
+## Stage 4 note, lesson 14 (2026-09-26)
+
+Recorded by lesson 14's Stage 4 fixer ("Before you drill: cables, pipes and what's in the wall").
+The reviewer re-read each page live on 26 September 2026 (curl with a browser User-Agent, then pandoc
+or pdftotext); the fixer re-fetched ESF and Bosch the same day and string-matched the two new lines.
+No correction to earlier entries; D8 already carries EPA's "Generally,", which lesson 14 had dropped.
+
+**Electrical Safety First, "Advice for DIY-ers"** (D34), live:
+- [V] "A quality cable detector can help track buried cables before you start work. Remember it is required that cables buried in walls are installed either horizontally or vertically from electrical accessories like socket-outlets or switches." (ESF is a UK charity: the requirement is scoped to UK homes; nothing read covers US walls, G-E3)
+- [V] "fuseboard (consumer unit)"
+- [V] "The most common mistakes people make when attempting to undertake DIY were cutting through power leads, drilling into wiring, or trying to repair an electrical item while it is switched on."
+- [V] "Any electrical work should be left to competent professionals."
+- [V] "For any DIY near electrical wiring or power supplies, switch off the power at your fuseboard and, where possible, only use battery-powered tools. To test that the power is off before beginning non-electrical DIY, plug an appliance in or try switching on lights."
+
+**Bosch DIY, "How to drill without any nasty surprises"** (Part B §1), live:
+- [V] "If the light turns yellow, the result is inconclusive and you need to check the spot again."
+- [V] "This is especially important when looking for power lines" (of the hand on the wall, "around 20–30 cm away from the detection device")
+- [V] "Green? Nothing was detected and you’re good to go."
+- [V] "To ensure the device can find the power supply, switch on electrical items such as a light or vacuum cleaner. A cable must have a current in order to be picked up by the device." (Bosch names no circuit; "the circuits likely to be in that wall" is the course's reading)
+
+**Other strings the reviewer verified live the same day** (no change to their entries):
+- EPA (last updated 25 June 2026): [V] "Generally, you can't tell whether a material contains asbestos simply by looking at it, unless it is labeled. If in doubt, treat the material as if it contains asbestos and leave it alone."; [V] "Don't saw, sand, scrape, or drill holes in asbestos-containing materials."; [V] "Taking samples yourself is not recommended."; wetting appears only in the contractor list, [V] "Applies a wetting agent to the asbestos material with a hand sprayer".
+- HSE asbestos introduction: [V] "Buildings constructed after 2000 are unlikely to contain asbestos."; [V] "drilling into a wall"; part 2, [V] "stop work immediately". HSE FAQ: [V] "Asbestos may be part of any commercial or domestic building which was built or refurbished before the year 2000."
+- CPSC 5133: [V] "working within electrical panel boxes that are usually electrically live, even with the main circuit breakers turned off". HSG85 para 54: [V] "the use of non-contact devices such as ‘volt sticks’".
+- CIS36: [V] "Occasional short-duration drilling with hand-held rotary power tools"; [V] "Otherwise use RPE* with an APF of 20"; Table 2, APF 20, [V] "FFP3 disposable mask or half mask with P3 filter".
+- WIS23: [V] "When cleaning up, use vacuum equipment that meets at least the dust class M (medium hazard)"; [V] "Do not use compressed airlines or dry sweeping". Written for wood dust at work; applying it to plaster and brick dust is the course's reading.
+- HSE silica: [V] "bricks, tiles, concrete and mortar". HSE dust masks: [V] "You should carry out a pre-use check every time you put on your respirator."
+- **Struck gas pipe:** only National Gas (GB) was read on a struck pipe. For Northern Ireland and the US no page on a pipe hit inside a house was read; lesson 14 labels following lesson 9's steps as the course's reading, and quotes SoCalGas's [V] "DO NOT attempt to control the leak or repair a damaged pipe or meter." (Part A §4).
