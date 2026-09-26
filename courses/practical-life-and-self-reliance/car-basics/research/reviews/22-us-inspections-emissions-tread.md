@@ -245,3 +245,112 @@ written, uses the Texas statute, the Clearfield case and "binds states that insp
 law, two worked cases, the federal tread statement, quiz 5 and every part of the contested block; a
 second reader should re-verify the new statutory text and the Virginia subsections, and the auditor
 should re-run the balance check on N1 to N12 as applied.
+
+### Neutrality re-check (2026-09-26)
+
+**Re-checker:** fresh context, against `.claude/commands/neutrality-audit.md`, standards Part 3 and the
+first audit's N1 to N12. **Re-read live** (curl, generic browser User-Agent, no personal data; no in-app
+browser): GAO-15-705 (Archive capture 20260109053421, pdftotext); the HRO digest PDF; HB03297E; HB 3297
+enrolled, SECTION 24; Transportation Code § 547.004 (capture 20251216230755) and § 548.604 (capture
+20250213061605). Every quotation the contested block, the new misconception, the weighing checkpoint
+and the Texas statute paragraph rely on matches, including "did not find statistically significant
+differences ..." (it is the three US studies' finding, as the lesson says), both GAO middle-ground
+lines, the 8-of-15 cost line, the post-1990 repeals sentence ("five states and the District of
+Columbia"), "serve only to generate revenue for the state", and the struck § 548.604(a)(2) wording.
+
+**N1 to N12 as applied: all resolved.**
+- Weighing checkpoint: the sponsor's claim is now read at its strongest first (TPMS, brake, ABS and
+  airbag lamps, Virginia's airbag rule), then its limit, and ends on an evidence ask of the same shape
+  as Pennsylvania's (defect evidence against crash evidence). The TPMS clause matches lesson 7 line 297.
+  It runs 195 words against Pennsylvania's 98, but about 60 of those are the steelman, so the extra
+  length is not extra scrutiny.
+- Stakes: both named and paired (agencies and inspection businesses; owners and the legislators who
+  answer to them), with "applies to both sides equally".
+- Misreadings: quiz 1's distractors and the two misconceptions now correct both overreadings.
+- Balance: 355 words for keeping against 355 for ending (body text, headings excluded, by `wc -w`).
+  Order: GAO, keep, end, weighing (keep's claim, then end's), where they meet, what would settle it.
+  Last word "The course stops there." No verdict anywhere: checked the opening, predicts, checkpoints,
+  quiz, misconceptions, exercise, plan, Connections and Go deeper.
+- "What would settle it" now has the cost half (8 of 15 states don't track costs) beside the benefit
+  half. Fair to both.
+- Texas statute material: sits in "Between inspections", outside the contested block, is used by
+  neither case, and quotes both the removed and the retained offence; "one of two overlapping
+  offences" is labelled as the course's reading. It reads as law, not as a point for either side. The
+  removed text also covered endangering "property", which § 547.004(a)(1) does not; both texts are
+  quoted, so a reader can see it, and no change is needed.
+
+**Fixed inline (one edit):**
+- R1 [minor] "Pennsylvania's figure needed crash evidence nobody has" overstated in the course's
+  voice; the paragraph above says it is "the evidence GAO found missing". Now "needed crash evidence
+  GAO found missing".
+
+**Further findings, not fixed:**
+- R2 [minor] **The True Texas Project is the one witness on either list whose name doesn't say what it
+  is.** Every keep-side witness is self-describing or labelled ("whose business is inspection", police
+  associations, carmakers' and dealers' representatives), and TPPF and TCCRI carry "policy research
+  organisations" (TPPF's own page: "a 501(c)3 non-profit, non-partisan research institute"). The True
+  Texas Project's about page (truetexasproject.com/about/, read 26 September 2026) describes itself as a
+  grassroots conservative political organisation that began as the NE Tarrant Tea Party. **Fix:**
+  "the True Texas Project, a conservative grassroots political group," with the page recorded in
+  SOURCES. Not applied here because it needs a SOURCES entry; it is one clause.
+- R3 [minor, optional] Go deeper gives the end side its own document ("The case for ending inspection,
+  in the legislators' own words") and the keep side none of its own; GAO is described as "the evidence
+  on both sides". If minutes allow, add PennDOT's Safety Inspection Program page as "the case for, in a
+  programme's own words", or cut the Senate item's gloss to "The bill's stated reasons". Not required
+  for balance: the body carries both cases equally.
+
+**Perspectives checked against:** a state inspection official (PennDOT, NY DMV): stakes, remedies and
+the steelmanned OBD test now satisfy; the Texas bill's author and TPPF: the OBD claim is read at its
+strongest and the revenue motive is quoted without rebuttal; an inspection station owner: labelled
+once, fairly; a road safety advocate or police association: the GAO line now carries their voice; a
+rural Texas owner: cost appears in both the case and "what would settle it".
+
+**Verdict: BALANCED.** R2 is a one-clause labelling fix worth making with the next edit; it doesn't
+hold the lesson.
+
+### Second pass (2026-09-26)
+**Reviewer:** fresh-context second pass on truth, law, safety, pedagogy and format. The neutrality re-check
+ran separately. Re-read on 26 September 2026 using curl with a generic browser User-Agent and no personal
+data: HB 3297 enrolled, SECTION 24 (§ 548.604(a)(2) struck: "in a mechanical condition that endangers a
+person, including the operator or an occupant, or property") and SECTION 29 (effective 1 January 2025);
+Transportation Code § 548.604 (Archive 20250213061605) and § 547.004(a)(1) and (2) (Archive
+20251216230755); Drive Clean PA "Other Counties", live (42 counties, Clearfield listed, the quotation keeps
+"most"); Code of Virginia § 46.2-1178, live; 49 CFR 570.2, 570.3 and 570.9 (eCFR versioner, 2026-09-01);
+Pub 45 § 175.80(d) and (e)(1); VSP manual -40, -50 B, -130; the NY DMV programme page (20260926112204) and
+the About page (20260703020606); DPS's release; BAR; HB03297H, HB03297E and the HRO digest; GAO-15-705
+(20260109053421); PennDOT's FAQ; 42 U.S.C. 7522(a)(3). Every quotation in the lesson was string-matched
+by script against those texts: all found. `npm run quotes car-basics`: 0 not found.
+
+**Verified:** the Texas reading (labelled) matches s.24 and § 547.004; Clearfield; federal tread (570.3
+"does not in itself impose requirements on any person"); lesson 8 lines 247 to 250 are right against
+570.2 and 570.3. Blacksburg: Montgomery County is in none of § 46.2-1178's lists. Split tables at 375 px:
+three columns each, no page scroll (3 px inside the scrolling wrapper), readable. Quiz 5 and every
+explanation checked against its options; option spreads 3, 3, 13, 8, 10. Keys 1,2,1,3,0: all four,
+no adjacent repeat, no identical sequence or value shift with lessons 01 to 25, no run of four at
+offsets 0 or ±1 with lessons 17 to 25. No em dashes or spaced en dashes in lessons 22 or 8; callout
+byte-identical to lesson 1.
+
+**Fixed inline (one edit each):**
+- S1 § 46.2-1178 described exactly: subsection (B)'s six localities are "subject to regulations and EPA
+  approval" (its text), not stated as testing now.
+- S2 The Blacksburg spare's fast-road clause now carries lesson 19's label: "as lesson 19 reads its
+  sources" (decision 22).
+- S3 "GAO gives the mechanism ... it's federal money" became "GAO ties the long decline to federal
+  money": GAO gives the sequence ("Since 1976, after legislation limited...") and the choice it opened,
+  not a causal finding.
+
+**Not fixed, minor, for the orchestrator:**
+- S4 "It names a motive on the other side: the inspections 'serve only to generate revenue for the
+  state'": the Senate statement says inspections "do little to improve road safety and serve only to
+  generate revenue for the state", a claim about what they do, not a motive it names. Suggested:
+  "It adds that they 'do little to improve road safety and serve only to generate revenue for the
+  state'." Left alone because it sits in the contested block the neutrality re-check owns.
+- S5 The tables drop two hedges the body keeps. Pennsylvania's anti-tampering cell leaves out "most", and
+  its sticker cell cuts PennDOT's "most passenger cars" and the "or one year from the expiration"
+  alternative. New York's fee cell says "Not read", but the page was read and gives no fee ("None on the
+  page" is exact). Texas's $7.50 leaves out DPS's $16.75 two-year initial fee for new vehicles (F-N4).
+- S6 Lesson 8 line 249 first names lesson 22 without its title (the title comes at line 263).
+- Minutes: 90 measured after S1 (7,802 words). This is at the cap, so any addition needs a cut.
+
+`npm run validate`: exit 0, no line naming lessons 8 or 22.
+**Verdict: CLEAN** (S4 to S6 are minor and don't hold the lesson).

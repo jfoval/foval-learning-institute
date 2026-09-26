@@ -137,7 +137,7 @@ About twice as many. GAO: "the mid 1970’s was the high-water mark for these pr
 and the District of Columbia implementing programs."[1]
 :::
 
-Why did the number fall? GAO gives the mechanism for the long decline, and it's federal money. From 1967,
+Why did the number fall? GAO ties the long decline to federal money. From 1967,
 the Department of Transportation "could withhold a percentage of federal-aid highway funds
 apportioned to a state that did not implement a periodic motor vehicle inspection program". Then:
 "Since 1976, after legislation limited NHTSA’s authority to withhold federal-aid highway funding,
@@ -195,9 +195,9 @@ the initial inspection."[4]
 **Virginia.** The [State Police](https://vsp.virginia.gov/safety-and-enforcement/vehicle-safety-inspection/) run it. Its published inspection procedure runs from brakes and lights to
 the hood latch, fluid levels ("Brake fluid" and "Power steering fluid"), the airbag and its readiness
 light, and the emissions parts: "No parts removed, disconnected, or rendered inoperable."[5] The emissions test
-itself is set by statute: § 46.2-1178 of the Code of Virginia applies it to vehicles registered in
-localities it names, five counties and five cities in one subsection and six more localities in
-another. Blacksburg, the case below, is in none of them.[17]
+itself is set by statute: § 46.2-1178 of the Code of Virginia applies it in localities it names:
+five counties and five cities in one subsection, and six more in another, subject to regulations
+and EPA approval. Blacksburg, the case below, is in none of them.[17]
 
 **Texas.** The Department of Public Safety (DPS) [announced the change](https://www.dps.texas.gov/news/vehicle-safety-inspection-program-changes-now-effect) in January 2025: "as of Jan. 1,
 2025, non-commercial vehicles no longer need a vehicle safety inspection prior to registration." It
@@ -238,8 +238,8 @@ to any statute governing equipment defects."[5] So fifteen days to fix it isn't 
 permission to drive a defect.
 
 Replacing the spare is **Yours, on conditions**: the conditions are lesson 19's, "Changing a wheel
-safely", and it's never on a motorway, a US freeway shoulder or any other fast road, where the
-callout's steps apply instead. Repairing the punctured tyre is **Call someone**, a tyre fitter's
+safely", and, as lesson 19 reads its sources, it's never on a motorway, a US freeway shoulder or any
+other fast road, where the callout's steps apply instead. Repairing the punctured tyre is **Call someone**, a tyre fitter's
 job, as lesson 18, "A flat tyre: the decision, and spare, space saver, sealant or run-flat", says.
 
 :::checkpoint The Blacksburg car's airbag readiness light stays on through the whole inspection. On Virginia's list, does that matter, and would it matter the same way in New York?
@@ -545,7 +545,7 @@ control systems",[11] and GAO found the commonest component failures noted in cr
 brakes and steering.[1] A pressure warning isn't a tread gauge, and on the sources this course read,
 no dashboard lamp reports tread depth or a cracked windscreen. What would test the claim is a count
 of the defects found at inspection that the car had already flagged on the dashboard.
-Pennsylvania's figure needed crash evidence nobody has; this claim needs defect evidence nobody
+Pennsylvania's figure needed crash evidence GAO found missing; this claim needs defect evidence nobody
 quoted here has. Neither tells you which way your state should go. Each tells you what evidence to
 ask for.
 :::
