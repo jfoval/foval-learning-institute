@@ -48,8 +48,9 @@ quiz:
       which is a fall of 6 inches or more over that distance (the course's arithmetic), and
       extensions that discharge at least 4 feet beyond the wall. One inch in total over six feet is a
       sixth of that slope. Taking the downspout off leaves the eave with no downspout, and the
-      extension service wants one per 50 feet of eave. Banking soil against the wall makes the
-      ground slope toward the house, which it says directs water into the basement.
+      extension service wants one per 50 feet of eave. Banking soil against the wall does slope it
+      away, but the downspout still empties a foot from the foundation, and the extension service
+      calls one without an extender or splash block "worse than no downspout at all".
   - q: >-
       In a house in the Piedmont of North Carolina, the basement walls are damp every August, when
       the windows are open, and dry all winter. A contractor quotes for a waterproof coating on the
@@ -129,7 +130,7 @@ outside: a gutter spilling over, a downpipe leaking against the brick, soil or a
 against the wall. The sources this lesson read put those causes first because they're cheap to
 check: the University of Minnesota Extension's rule is to "first do the things that are easy and
 low-cost".[2] This lesson teaches the checks that find them, in a British house and an American
-one, and where a householder's part in the job stops: at the top of a ladder you shouldn't have
+one, and where a householder's part in the job stops: at the top of a ladder you should not have
 climbed, on a roof, and at a gutter that might be asbestos cement or sit under an asbestos cement
 roof.
 
@@ -155,7 +156,7 @@ roofs, windows or floors."[1]
 
 This lesson is about the fourth. Condensation and rising damp are lesson 18's, "Damp inside:
 condensation, mould, ventilation and rising damp", and leaking pipes were lesson 2's. But the kinds
-aren't sealed off from each other. The guidance says "traumatic or penetrating dampness may
+are not sealed off from each other. The guidance says "traumatic or penetrating dampness may
 exacerbate condensation dampness", so a wall wetted from outside can make the room's own moisture
 worse.[1]
 
@@ -165,11 +166,11 @@ choices’", and it puts the fundamental cause in "building deficiencies, inadeq
 inadequate heating and/or poor energy efficiency, not tenants’ normal domestic activities".[1]
 Penetrating damp is a building defect by definition. And it tells landlords, who own the building,
 that they "should not assume they will be able to diagnose the problem themselves in all
-instances".[1] This lesson teaches the checks that are cheap and safe to make. It doesn't make you
+instances".[1] This lesson teaches the checks that are cheap and safe to make. It does not make you
 a surveyor.
 
 If you rent, the looking in this lesson is still yours. Whether a repair is yours or your landlord's
-is tenancy law, which this course doesn't teach. The US Environmental Protection Agency (EPA) tells
+is tenancy law, which this course does not teach. The US Environmental Protection Agency (EPA) tells
 renters to "Report all plumbing leaks and moisture problems immediately to your building owner,
 manager, or superintendent."[13] That's US advice. The English guidance above, written for
 landlords, says "tenants are expected to report damp and mould in their homes".[1]
@@ -212,7 +213,7 @@ A detached house in Aberdeenshire covers about 9 m by 8 m, so 72 m². A wet autu
 day brings 25 mm of rain. By the rule, 72 × 25 = 1,800 litres come off the roof. Half the roof
 slopes to the front, into a gutter with a downpipe at each end, so about 900 litres come off that
 half and about 450 go down each front pipe (the back half has its own). Split your own roof the
-same way: by the part of the roof each gutter serves. If the back of one pipe has split, that's the
+same way: by the part of the roof each gutter serves. If the back of one pipe has split, that is the
 water that runs down the wall behind it.
 
 :::checkpoint Now yours. A ranch-style house in Kansas covers 28 feet by 36 feet, and it gets an inch of rain. How many gallons come off the roof, and how many go down each of its three downspouts if they share it equally?
@@ -225,14 +226,14 @@ metric rule applied to feet.
 
 ## Gutters and downpipes
 
-Here the countries' sources differ in what they cover, so they're set out side by side.
+Here the countries' sources differ in what they cover, so they are set out side by side.
 
 ### In Britain
 
 Historic England, the public body for England's historic environment, publishes a maintenance
-checklist for older homes ([read
-here](https://historicengland.org.uk/advice/your-home/maintain-repair/checklist/) in a browser on
-26 September 2026). It's written for older homes in England. This course read no equivalent for
+checklist for older homes (this course read [the live
+page](https://historicengland.org.uk/advice/your-home/maintain-repair/checklist/) on 26 September
+2026). It's written for older homes in England. This course read no equivalent for
 Scotland, Wales or Northern Ireland, and on this course's reading its gutter and pipe checks suit
 any house. Its reason is damp: "Damp is a major cause of deterioration." And it asks owners to
 notice "design features or details that make your home more vulnerable to decay (for example
@@ -266,12 +267,12 @@ wall."[2]
 
 The two figures differ, 2 to 3 feet against at least 4 (about 0.6 to 0.9 m against 1.2 m), and
 both come from US university extension services. Neither says why it chose its number, and this
-course won't guess. The honest rule is **well away from the wall; your local extension service or
+course will not guess. The honest rule is **well away from the wall; your local extension service or
 building department may give a figure.** Neither checklist gives a method for cleaning a gutter.
 
 No British source this course read gives a distance for a downpipe's discharge. Historic England's
 checklist does list drainage gullies, the grated openings at ground level, for inspection "every
-autumn and preferably more often", checking that they're "free from silt, debris, vegetation and
+autumn and preferably more often", checking that they are "free from silt, debris, vegetation and
 other objects" and that "all gully inlets are covered by a grating".[4]
 
 ### The labels
@@ -418,7 +419,7 @@ course gives none; if the job takes a ladder, lesson 15's rules apply.
 
 Those checks are **Yours**, done from the ground, from a window and on the ceilings. Going onto the
 roof is not. This course teaches no roof work, and read no source that teaches a householder any.
-The guidance it did read is British and written for construction work, and it's stark. HSE: "All
+The guidance it did read is British and written for construction work, and it is stark. HSE: "All
 work on roofs is highly dangerous, even if a job only takes a few minutes." "Those carrying out the
 work must be trained, competent and instructed in use of the precautions required." And on what
 kills people: "almost one in five deaths in construction work involve roof work. Some are
@@ -467,14 +468,14 @@ rainwater cascade over the gutter from the roof?", answered yes.[4] After the ra
 window at the side, a clump of moss and leaves is visible in the gutter near the outlet.
 
 The chain fits: blocked outlet, overflowing gutter, wall soaked from outside, and damp on the inside
-of that wall. It's the likeliest cause, not a proven one, and the next heavy rain after clearing it
+of that wall. It is the likeliest cause, not a proven one, and the next heavy rain after clearing it
 is the test. That's penetrating damp in GOV.UK's sense, a defect letting outside water
 in.[1] It may be making condensation in the corner worse, as the guidance says penetrating damp
 can.[1]
 
 Then the labels. The house was built in the 1950s, well before 2000, so the owner first checks what
 the gutter is made of, and what roof drains into it. It's plastic, and the roof above it is clay
-tiles, not asbestos cement sheets, so on this course's reading the asbestos cement question doesn't
+tiles, not asbestos cement sheets, so on this course's reading the asbestos cement question does not
 arise. That raises the ladder question instead: HSE says not to rest a ladder against a plastic
 gutter.[11] The gutter is at the eaves, above the upstairs windows, so the ladder needs a strong
 resting point below it, such as the stand-off device lesson 15 showed, and there's no overhead line
@@ -521,7 +522,7 @@ humid weather to see whether the walls stay dry.
 :::
 
 Now the part the extension service doesn't settle for you, and the gap is yours to reason through.
-It gives no test for telling condensation from leakage, and its list of symptoms isn't sorted by
+It gives no test for telling condensation from leakage, and its list of symptoms is not sorted by
 cause. It includes "Condensation on cold walls and floor in summer.", "Water trickling out of
 walls." and "Standing water on floor."[2] The timing is the clue it does give: its condensation case
 is a summer one, with the windows open.
@@ -533,7 +534,7 @@ after storms, at one corner, doesn't fit summer condensation, and its timing poi
 course's reading that makes the outside the next place to look, and the extension service's next
 step says the same whatever the cause: the gutters, downspouts and grading. So they look at that
 corner in the next storm: where the nearest downspout discharges, and whether the ground there
-slopes toward the house.[2] An inside coating still isn't the answer; the extension service calls it
+slopes toward the house.[2] An inside coating still is not the answer; the extension service calls it
 temporary. If the outside fixes don't cure it, its last step is a drainage system, inside or out,
 from a channel fixed at the base of the wall to digging round the foundation, which it calls the
 most costly and most effective: **Call someone**, and lesson 23, "Hiring a tradesperson, and when to

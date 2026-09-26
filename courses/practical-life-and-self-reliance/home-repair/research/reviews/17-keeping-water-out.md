@@ -138,3 +138,49 @@ of four at offsets 0 or ±1 with the lessons on disk within five of it (script).
 
 **Status after review:** needs a second pass. Nine majors, several of them wrong facts, were fixed
 with new text from newly read primaries.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer, reading the fixed lesson against the primaries.
+Re-read live by curl with a browser User-Agent (no personal data in any header), pdftotext and the
+GOV.UK content API: sheet a10 and the asbestos essentials index, GOV.UK's damp and mould guidance
+(first published 2023-09-07, updated 2026-04-01), UMN "Moisture in basements", UGA Circular 1082,
+the PCA, HSE's roof work, asbestos FAQ and ladder pages (types of ladder; when and how to use), and
+EPA's mould, asbestos and termites pages. Historic England returned 403 to curl and to WebFetch, and
+the in-app browser was not used, so every Historic England quotation was checked against the live-text
+strings recorded in SOURCES "Stage 4 note, lesson 17": all match (the roof line and the design-features
+line are substrings of the recorded text).
+
+**Checked and right:** every first-pass fix (R1 to R20; R21's decline stands). Sheet a10's title and
+scope line match the PDF. Every GOV.UK, UMN, EPA, HSE, UGA and PCA quotation matches the live text.
+The US 10 feet is labelled a US federal rule for employers and matches lesson 15 (29 CFR
+1910.333(c)(3), general industry). The PCA's causes are "causes of rising dampness", patio as the
+example, consistent with lesson 18. Quiz 4's patio 5 cm above the damp-proof course fits the PCA's
+cause and Historic England's 150 millimetres, and its explanation reads against the key. Arithmetic
+redone: 72 × 25 = 1,800 L, 900 per slope, 450 per front pipe; 1,008 sq ft × 0.625 = 630 gal, 210 per
+downspout; 1,250 gal ≈ 4,732 L. Labels: "Call someone" for roof work is stated as the course's scope
+decision with HSE's British workplace guidance as the reason, which reads correctly for a US reader;
+"Yours, on conditions" for a gutter carries HSE's guidance labelled British and workplace, OSHA's
+distance beside it, EPA's asbestos line for the US, and lesson 15 and 16's conditions. Quiz keys
+1,0,2,0,3,2 pass the relaxed rule against every lesson on disk (01 to 16, 18 to 20): all four
+positions, no adjacent repeat, no identity or pure shift, no shared run of four at offsets 0 or ±1.
+No em or en dashes. `npm run quotes home-repair`: nothing for lesson 17.
+
+**Fixed (one edit each):**
+- S1 [major] Quiz 2's explanation said banking soil against the wall makes the ground slope toward
+  the house. Banked soil slopes away; the option's real flaw is the downspout left emptying a foot
+  from the foundation. Rewritten to say so, with UMN's "worse than no downspout at all". Options and
+  key unchanged.
+- S2 [minor] "([read here](...) in a browser on 26 September 2026)" read as an instruction and carried
+  a pipeline detail; now "(this course read [the live page](...) on 26 September 2026)".
+- S3 [minor] Contractions were about 9.3 per 1,000 body words, above the band. Thirteen in the
+  lesson's own prose expanded (none in quotations); now about 7.1 per 1,000 body words, about 7.4
+  counting the quiz.
+
+**Noted, not changed:** quiz 3's key opens with keeping out summer air, where UMN's order opens with
+inside sources; the explanation gives the full order and no other option is defensible, so it stands.
+
+**Final measures:** 6,930 words by `npm run minutes`, measured 75, frontmatter 75. `npm run
+validate`: exit 0, no line naming this lesson (audio-debt lines ignored as briefed).
+
+**Verdict:** CLEAN.
