@@ -571,14 +571,14 @@ my abuser, but it was because I had made the decision that if it came down to hi
 longer going to be a victim of his abuse." And her qualification: "It might not be an option for everyone, but for the majority
 of survivors, it is."[21]
 
-At the general level, the two sides of the US argument put it in their own terms. Giffords, the
-gun-control group, states on its
-[statistics page](https://giffords.org/lawcenter/gun-violence-statistics/) that "Access to a gun
-triples a person's risk of suicide", citing research this course did not read.[20] The NRA's
+At the general level, the two sides of the US argument put it in their own terms. The NRA's
 lobbying arm, NRA-ILA, on its
 [right-to-carry page](https://www.nraila.org/get-the-facts/right-to-carry-and-concealed-carry/):
 "Self-defense is a fundamental right", and "while law enforcement personnel provide protection
-generally, they are not required to protect individuals."[18]
+generally, they are not required to protect individuals."[18] Giffords, the gun-control group,
+states on its [statistics page](https://giffords.org/lawcenter/gun-violence-statistics/) that
+"Access to a gun triples a person's risk of suicide", citing research this course did not
+read.[20]
 
 Each of those is a position, quoted as one. The evidence under them is the contested evidence above,
 and the decision it bears on, whether a particular person should keep a gun, is a value question

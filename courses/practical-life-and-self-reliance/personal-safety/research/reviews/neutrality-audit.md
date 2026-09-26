@@ -460,3 +460,67 @@ test were left alone, because another agent is working on them.
 - **Fact-check note (lesson 1's 10.0%).** **Declined** for now: SOURCES records "Harassment: 10.0%
   of adults" without saying whether that is any harassment, so writing "any harassment" would go
   beyond what was recorded. A fact-checker should confirm against the bulletin.
+
+## Verification of open-findings edits (2026-09-25)
+
+A fresh-context verifier read the whole of commit 055e410 against SOURCES.md, the lessons around
+each hunk and research/pipeline-briefs.md. Live pages re-fetched with curl the same day: the Men's
+Advice Line's "Friends and family" and contact pages ("Mon–Fri 10am–5pm" on both; the friends page
+is "Offering help for friends & family of male victims"), Scotland's helpline home page (24/7;
+"family members, friends, colleagues"; "Men" under "Who is affected?") and Deering at NRA Women
+("weren't safe or reasonable in the moment" verbatim). Final test and course-wide.md not touched.
+
+**Checked and sound.**
+- Lesson 7: the Men's Advice Line hours and friends-and-family page, and Scotland's helpline
+  serving men and colleagues, match SOURCES and the live pages. Answer (c) now covers Ross and says
+  correctly that the Men's Advice Line is shut at midnight on a Tuesday. Phone number keeps its
+  non-breaking spaces; no helpline is offered to a reader without the device tie, since Euan is the
+  caller, not the person watched.
+- Lesson 13: the Deering words are hers (SOURCES, Deering entry, and live). The drinking checkpoint
+  still turns on s.76(5), with the answer's pronouns matched; nothing else in the lesson or script
+  13 refers to the old drinker. The immunity sentence and the reordered "Where each side meets"
+  keep both matches attributed as the course's.
+- Lesson 14's condition (d) paragraph: s.76(6) is the statute's ordinary rule [1]; the claim that
+  nothing read addresses a co-resident is true of SOURCES; it points to lesson 7 by title and
+  offers no contact route, so neither the device rule nor "just leave" is engaged.
+- Lesson 9's strongest form for asking first rests on Right To Be's reasons and its Delay line as
+  SOURCES §6 records them, and is labelled as the course's reading, in parallel with the case for
+  calling. "Not on the caller" is the course's inference from those reasons, and is labelled as such
+  by "as this course reads it".
+- Lesson 6: "falls more on men" repeats the sentence before it, sourced [10]. Quiz 6's explanation
+  still agrees with its key.
+- Lessons 1, 4, 11, 12 and 15: each new clause is supported (lesson 11 names male victims at
+  several points; lesson 15's "What would settle it" does call "common" a position). No em or en
+  dashes added.
+- Scripts 12, 13 and 15 mirror their lessons. Spoken words by the counter in scripts/podcast.mjs:
+  12, 1,249; 13, 1,289; 15, 1,299. All under 1,300, but 15 has one word of room.
+- `npm run validate` exits 0; `npm run quotes personal-safety`: 334 found, 0 missing.
+
+**Fixed in place (one edit each).**
+- V1, lesson 3 (around line 593): "43.2% of rape victims" broke SOURCES B20's instruction to label
+  every figure as rape or assault by penetration since 16. Now "43.2% of victims of rape or assault
+  by penetration since 16"; the paragraph rewrapped.
+- V2, lesson 7 exercise (c): "who has told him that his wife controls all his money" could be read
+  as Euan's wife. Now "who has confided that his wife controls all his money".
+- V3, lesson 13 checkpoint: "attack him, and pushes him down" had two men and an ambiguous "him".
+  Now "pushes the other man down".
+- V4, lesson 6: "An example of the advice it has in view" put the DC brochure into the critics'
+  mouths; Vera-Gray and Kelly's abstract, all this course read, names no such brochure. Now "An
+  example of the kind of advice it describes, this course's choice".
+
+**Left for another pass (not one obvious edit).**
+- V5, lesson 15, order. N1's prescribed swap means all three of lesson 15's position blocks now
+  close on the gun-rights side before the course's close: defensive gun use on the National
+  Academies' "common" (now labelled as one side in the misconceptions), the survivor pair on
+  Hottinger, and the general pair on NRA-ILA. The audit found the control side closing every block;
+  the fix has mirrored that rather than mixed it. Suggest restoring the general pair's original
+  order (NRA-ILA, then Giffords), since the survivor pair already closes on the gun-rights side, and
+  recording the reason here.
+- V6, lesson 3 (around line 545): the new clauses on rape location and on who kills adult women
+  carry no citation markers; [7] and [6] belong after them. Cosmetic.
+- V7, lesson 6: the new "Owen's figures raise a question..." restates the sentence before it
+  ("falls more on men") almost word for word. Style only.
+
+**Verdict: CLEAN** on truth, sourcing, logic and conventions after V1 to V4. V5 is a balance
+judgement the audit's own fix created, and is minor; it does not block publication, but a fixer
+should decide it before the course-wide sign-off.

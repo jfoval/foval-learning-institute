@@ -471,7 +471,7 @@ the risk to women is from men they know, not strangers on the street; it's costl
 "don't go there" and "don't go alone" is a piece of freedom given up, and shrinks the lives of people
 who have done nothing; and it shifts responsibility, because a list of precautions invites the
 question of which one a victim skipped. The figures in the last section are consistent with its
-first point. An example of the advice it has in view: the Washington DC police brochure quoted earlier, written for everyone rather than for women
+first point. An example of the kind of advice it describes, this course's choice: the Washington DC police brochure quoted earlier, written for everyone rather than for women
 in particular, says "If possible, don't walk alone during late-night hours".[3] Lesson 1 met feminist criminologists'
 related argument, as Scott summarises it, that street-crime framing hides violence behind closed
 doors.

@@ -267,7 +267,7 @@ not reasonable "if it was disproportionate in those circumstances" (s.76(6)).[1]
 direction gives a plain example: a punch would not normally justify a knife in reply, though it
 leaves room for very exceptional cases, and says whether they exist is for the jury.[4]
 
-:::checkpoint A man in England who has been drinking heavily at a party believes, wrongly, that another man walking towards him is about to attack him, and pushes him down a flight of steps. He would not have made the mistake sober. Under section 76, which part of the law on belief is the court most likely to be looking at, and why does Scotland's rule not even reach that point?
+:::checkpoint A man in England who has been drinking heavily at a party believes, wrongly, that another man walking towards him is about to attack him, and pushes the other man down a flight of steps. He would not have made the mistake sober. Under section 76, which part of the law on belief is the court most likely to be looking at, and why does Scotland's rule not even reach that point?
 
 Section 76(5): a mistaken belief "attributable to intoxication that was voluntarily induced" can't be relied on, so the honest-mistake rule in s.76(4)(b) doesn't help him on the facts as the question states them. In Scotland the belief would have to rest on reasonable grounds with "an objective background" in any case, drunk or sober. Which facts a court accepts is for the court.
 :::
