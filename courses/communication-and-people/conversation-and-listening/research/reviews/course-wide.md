@@ -66,3 +66,19 @@ record decision 18 asks for.
   cross-sex claim: same .24, mixed .11, not separated .56, differences not reliable. Setting,
   activity and author gender were significant; group size is marginal in the test but called
   significant in the conclusion. Any later lesson or script uses those terms.
+
+## 2026-09-26: lesson 08 Stage 4 (fixer's notes)
+
+- **The Marangoni, Garcia and Ickes feedback study is taught in lesson 07 only.** Lesson 08 now
+  refers back ("Lesson 7 ... showed") and does not re-teach it. Its design: feedback during the
+  middle portion of each tape, after each guess (SOURCES "Gate closures, lesson 08 review"). A lesson
+  drafted before its predecessor exists on disk has to be re-read against that predecessor before
+  review.
+- **Weger 2010 belongs to lesson 9.** Lesson 08 keeps one abstract-level sentence ("associated with",
+  never "made"), no verdict on the evidence, and no misconception built on it.
+- **Samaritans and 988 accept plain repeating**; only R U OK?, Calgary-Cambridge and PON have both
+  "own words" and an invitation to correct. Later lessons don't claim all five share the shape.
+- **For the orchestrator (not done, other agents are writing SOURCES.md):** rename the `unread:`
+  line's "Weger Castle Emmett 2010" to "Weger Castle Emmett 2010 full text", and fix OUTLINE lesson 8's
+  "nagging"/"pressuring" pair (both are simple in TIP 35 Exhibit 3.6).
+- **Quiz keys** for 08: 2,0,3,0,3,1, unchanged by the fix; checked by script against 01 to 07.

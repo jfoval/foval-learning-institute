@@ -22,7 +22,7 @@ quiz:
     options:
       - '"Everyone else has gone home and you''re still here, sorting out the rota."'
       - '"So you''re the last one left in the building again, still working on the rota."'
-      - '"It sounds as if the rota always seems to end up landing on you, and only you."'
+      - '"It sounds as if the rota keeps falling to you, and it''s starting to grate."'
       - '"Why don''t you ask your manager to share the rota out fairly between all of you?"'
     answer: 2
     explain: >-
@@ -62,7 +62,7 @@ quiz:
       explaining, is the method.
   - q: >-
       Honorine tells you her landlord still hasn't fixed the heating, three weeks on. Which response
-      follows the oncology trainers' advice on naming a feeling?
+      follows VitalTalk's advice on naming a feeling?
     options:
       - '"It sounds like it''s getting really frustrating, waiting on him week after week."'
       - '"It sounds like you''re absolutely livid with him by now, and who could blame you?"'
@@ -82,7 +82,7 @@ quiz:
       - Both hold that repeating back what you heard should be dropped from good listening
       - Both hold that nodding and eye contact are what good listening mainly consists of
       - Both rest their case on experiments that compared groups of trained listeners
-      - Both hold that signs of attention without real interest behind them won't work
+      - Both hold that a show of attention is no real substitute for actually paying it
     answer: 3
     explain: >-
       Headlee says there's no reason to learn to show attention if you're paying it, and Rogers and
@@ -114,10 +114,9 @@ version too, for arguments: nobody gets to make their own point until they have 
 person's well enough to satisfy them. Try that in a real disagreement and you may find out how often you
 can't.
 
-This lesson is about saying it back: what Rogers and Farson meant by it, the forms it takes
-(repeating, rephrasing, reflecting a meaning, naming a feeling), the check that runs the other way
-when you are the one explaining, and the case against the whole thing, made by people who think a
-restatement is usually a performance. Whether any of it works is lesson 9's question. This one is
+Saying it back takes several forms (repeating, rephrasing, reflecting a meaning, naming a
+feeling). There is a check that runs the other way when you are the one explaining, and there is a
+case against the whole thing, made by people who think a restatement is usually a performance. Whether any of it works is lesson 9's question. This one is
 about doing it well enough to find out.
 
 ## Total meaning
@@ -165,9 +164,11 @@ conditions he thought necessary for change in therapy, offered as hypotheses to 
 technique of reflecting feelings, he wrote, "is by no means an essential condition of therapy"; it
 helps only as a channel for empathy and regard, and it can carry the opposite: "Feeling may be
 “reflected” in a way which communicates the therapist's lack of empathy."[2] That is therapy, not
-conversation between friends, and it is his theory, not a finding. But he was writing about
-client-centred therapy, where reflecting feelings was a described technique, and it is the root of
-the complaint you'll meet at the end of this lesson.
+conversation between friends, and it is his theory, not a finding, though he wrote that his hypotheses
+hold "in any situation whether it is or is not labeled “psychotherapy.”"[2] His example was
+client-centred therapy (his own approach, which follows the client's lead rather than directing),
+where reflecting feelings was a described technique, and it is the root of the complaint you'll
+meet at the end of this lesson.
 
 ## The test: until they say you have got it
 
@@ -192,26 +193,19 @@ the speaker is allowed to say no.
 Lesson 2 showed a small version of this in recorded talk. In one of the repair paper's recordings,
 Lori says single beds are "awfully thin" to sleep on, and Ellen offers "Y'mean narrow?", which Lori
 takes up.[3] Other people's corrections, the authors found, are "frequently modulated in form",
-often put as a question that the speaker gets to accept or refuse.[3] That is **observed in
-recordings**, and the "Y'mean X?" form is the everyday ancestor of what Rogers and Farson turned into
+often put as a question, such as "Y'mean X?", which leaves the speaker room to take it up.[3] That is **observed in
+recordings**, and that form is the everyday ancestor of what Rogers and Farson turned into
 a rule.
 
 What makes a restatement useful is that it puts your understanding where the speaker can see it and
-correct it. Lesson 3 met the other half of this: self-ratings of empathy predicted real accuracy
-badly in one of William Ickes's studies. Ickes also reports a
-study by Marangoni, Garcia and himself in which 80 undergraduates watched three simulated therapy
-sessions, each with a client discussing her real problems, and wrote down what they thought she was
-thinking at each pause. Half got no feedback. For the other half, after each guess, the client's
-actual thought appeared on the screen, and that feedback "accelerated the rate at which the
-perceivers' empathic accuracy improved".[4] It is a **single study, as Ickes reports it**, of students
-watching tapes, not of people talking.
-
-**This course's reading** puts the two together: a restatement the speaker corrects is the
-conversational version of that feedback. You made a guess, and you have been told the answer. On that
-reading a correction is the check succeeding, which is why Rogers and Farson's rule keeps going
-"until" rather than stopping at the first try. Lesson 7, "Ask, don't guess", looks at why asking
-beat imagining in the experiments on reading another person's view; saying it back is one way of
-asking.
+correct it. Lesson 3 showed that self-ratings of empathy predicted real accuracy badly in one of
+William Ickes's studies. Lesson 7, "Ask, don't guess", showed the other side: in a study Ickes reports, students guessing a client's
+thoughts from taped therapy sessions improved faster when, partway through, they were shown what she
+had actually thought, a **single study** of students watching tapes, not talking.[4] **This course's
+reading**, as in lesson 7: a restatement the speaker corrects gives you that feedback in
+conversation. You made a guess, and you have been told the answer. On that reading a correction is the
+check succeeding, which is why Rogers and Farson's rule keeps going "until" rather than stopping at
+the first try, and saying it back is one way of doing what lesson 7 recommended: asking.
 
 ## Repeat, rephrase, reflect
 
@@ -234,7 +228,7 @@ table uses one client statement, "My wife is nagging me about my drinking", for 
 Repeat: "Your wife is nagging you about your drinking", with the note "Avoid mimicking." Rephrase:
 "Your wife is pressuring you about your drinking."[5] Both count as simple in the table, even though
 the second changes a word. The complex examples go further. To a client who wants to quit smoking
-cannabis so that the smoke will not worsen his daughter's asthma, the complex reflection of feeling is
+cannabis so that the smoke will not worsen their daughter's asthma, the complex reflection of feeling is
 "You're afraid that your daughter's asthma will get worse if you continue smoking marijuana."[5] The
 fear is the counsellor's guess. The client never said it.
 
@@ -248,7 +242,7 @@ sends it back."
 
 - "You've rewritten it three times and she still sends it back." A **repeat**. Accurate, and close
   to parroting. It shows you heard the words. Radomir can hardly say more than "Yes."
-- "So your manager keeps returning it." A **rephrase**, still simple. It picks out one thing, that
+- "So it keeps coming back to you." A **rephrase**, still simple. It picks out one thing, that
   it keeps coming back, and invites more.
 - "It sounds like you're starting to wonder whether anything you write will satisfy her." A
   **complex reflection** of meaning: a guess about what three rewrites add up to, in words he did not
@@ -292,12 +286,13 @@ says nothing about conversations between friends.
 ## Naming a feeling, lightly
 
 Radomir's "furious" shows one way a label goes wrong: it's too strong. [VitalTalk](https://www.vitaltalk.org/guides/responding-to-emotion-respecting/), an
-organisation founded by clinicians to teach communication in cancer care, teaches a set of responses
+organisation founded by clinicians to teach communication in serious illness, cancer care among it,
+teaches a set of responses
 to emotion called NURSE. Its first is Naming, with the example "It sounds like
 you are frustrated" and the note "In general, turn down the intensity a notch when you name the
 emotion".[7] The second is Understanding, with a note that doubles as advice for anyone tempted to
 say "I know exactly how you feel": "stop short of suggesting you understand everything (you
-don't)".[7] That is **practitioner advice** for oncology.
+don't)".[7] That is **practitioner advice** for clinicians with seriously ill patients.
 
 FBI crisis negotiators, as three researchers describe their model, label emotions too, and claim
 from practice that even a wrong label shows the person you are trying to understand; their model's
@@ -312,8 +307,7 @@ too strong asks the person to push back against your version of them, and some w
 
 Put the helping traditions side by side and they say nearly the same thing, in their own settings.
 
-- **Samaritans**, the UK and Ireland listening service, in [its SHUSH advice](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting someone:
-  "Say it back", with the instruction "Check you've understood, but don't interrupt or offer a
+- **Samaritans**, the UK and Ireland listening service, in [its SHUSH listening tips](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting someone (one letter stands for "Say it back"): "Say it back", with the instruction "Check you've understood, but don't interrupt or offer a
   solution."[9]
 - **988 Lifeline**, the US crisis line, on [its page for helping someone else](https://988lifeline.org/help-someone-else/), under "Summarize What You Hear", offers phrases like "what
   I'm hearing is...", after first saying to let the speaker finish before asking anything.[10]
@@ -327,9 +321,12 @@ Put the helping traditions side by side and they say nearly the same thing, in t
   details before tensions rise".[13]
 
 Every one of these is **practitioner advice**, built from experience in its own setting (a phone
-line, a surgery, a negotiation), not a tested finding. What they share is the shape Rogers and
-Farson gave it: your own words, and then a door left open for the other person to correct you. The
-open door is the part that gets dropped. "So what you're saying is..." followed by your next point
+line, a surgery, a negotiation), not a tested finding. Three of them come from crisis and
+suicide-prevention services; if someone you are listening to may be in danger, lesson 11, "When it's
+serious", and Mental Fitness lesson 1, "Where ordinary ends", are where the institute deals with it. Most of them share the shape Rogers and
+Farson gave it: your own words, and then a door left open for the other person to correct you. Not
+all: Samaritans and 988 count plain repeating too, and 988 doesn't mention inviting a correction.[9][10]
+The open door is the part that gets dropped. "So what you're saying is..." followed by your next point
 is not a check; it is a run-up.
 
 The negotiation blog adds a line that heads off a common worry: "Acknowledgment doesn't mean
@@ -402,8 +399,8 @@ A better next move is to ask her to show you, or to ask a question she can only 
 
 ## The case against saying it back
 
-Not everyone thinks this is good advice. Celeste Headlee, a radio host and writer, opens [her
-TED talk on conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation/transcript) by listing what people are usually told: "look, nod and smile to show that
+Not everyone thinks this is good advice. Celeste Headlee, a radio host and writer, early in [her
+TED talk on conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation/transcript), lists what people are usually told: "look, nod and smile to show that
 you're paying attention, repeat back what you just heard or summarize it". Then: "So I want you to
 forget all of that. It is crap."[15] Lesson 4 quoted her reason, that there is no point learning to
 show attention if you are paying it.
@@ -415,7 +412,7 @@ not mean sitting patiently while your counterpart talks. Nor does it simply invo
 maintaining eye contact, or saying, “I understand.”"[13] Even the textbook tradition hedges its own
 advice: the chapter outline for the 13th edition of Adler and Proctor's *Looking Out, Looking In*,
 which is all this course read of it, tells readers to keep paraphrases tentative and to use them
-sparingly.[16] And the strongest version of her point is
+sparingly.[16] Both still recommend paraphrasing, used with care. And the strongest version of her point is
 Rogers's own: reflecting feelings can communicate the lack of empathy it is supposed to show.[2]
 
 Where Headlee and Rogers and Farson part company is on what to do about it. She throws out
@@ -424,13 +421,13 @@ disagreement is partly about two different acts that look alike: a summary offer
 listening, and a guess offered so that you can be corrected. The first is what Headlee is attacking.
 The second is what the rule describes.
 
-Whether saying it back actually makes people feel understood is a question for evidence, and the
-evidence gives Headlee some support. In one experiment with 180 undergraduates, who gave their views
-on comprehensive exams in peer interviews and got back either a paraphrase or a simple
-acknowledgement, the paraphrases made the listener seem more socially attractive but were not
-associated with the students feeling more understood. That is a **single study**, and this course
-has read only its abstract.[17] Lesson 9, "Does active listening work?", takes up that study and the
-others, which point in more than one direction.
+Whether saying it back makes people feel understood is a question for evidence, and lesson 9, "Does
+active listening work?", takes it up. One experiment bears on Headlee's point. In it, 180 undergraduates
+gave their opinions about a kind of university exam in peer interviews and got back either a paraphrase or a
+simple acknowledgement. The paraphrases were associated with the listener seeming more likeable
+("social attractiveness", in the study's words), but not with the students feeling more
+understood. That is a **single study**, and this course has read only its abstract, which doesn't
+say how people were assigned.[17] Lesson 9 sets it beside studies that point in other directions.
 
 ## What people get wrong
 
@@ -451,18 +448,13 @@ question, because, it says, patients tend to say yes either way.[14]
 **"Saying their view back means I agree with it."** The negotiators and Rogers and Farson both say
 it does not. Lesson 16 comes back to it.[1][13]
 
-**"If you're really paying attention, there's no need to say anything back."** Paying attention is
-what Rogers and Farson asked for too, but they add that understanding is harder than it seems, and
-only the speaker can tell you whether you have it. Attention the speaker cannot see cannot be
-corrected.[1]
-
-**"Saying it back always makes people feel understood."** In one experiment, paraphrasing did not
-make students feel more understood than a plain acknowledgement did.[17] Lesson 9 has the rest.
+**"If I was paying attention, I understood."** Rogers and Farson: understanding is harder than it
+seems, and only the speaker can tell you whether you have it.[1]
 
 ## Practice
 
 :::exercise Restate before you reply
-This is a **practise with a willing partner** exercise. Take 15 minutes: 10 for the conversation and 5 for the ratings and your notes. Ask a friend who knows this is practice and has agreed to it; they can say no, and they can say nothing kind about your restatements. Pick a topic neither of you cares about much, and if it gets heated, stop. Do not record the conversation, and name nobody in your journal.
+This is a **practise with a willing partner** exercise. Take 15 minutes: 10 for the conversation and 5 for the ratings and your notes. Ask a friend who knows this is practice and has agreed to it; they can say no, and they don't have to be kind about your restatements. Pick a topic neither of you cares about much, and if it gets heated, stop. Do not record the conversation, and name nobody in your journal.
 
 1. Choose a topic from this list on which the two of you mildly disagree: whether phones belong at the dinner table; whether a holiday is better planned or left loose; whether the book is always better than the film; whether a shared kitchen needs a cleaning rota; whether it is better to get up early or stay up late.
 2. For 10 minutes, follow Rogers and Farson's rule: before either of you makes a point, you restate the other's last point in your own words, and they say whether you have got it. If not, try again. Afterwards, your partner rates each of your restatements as "got it", "partly" or "missed", and says what was missing from the partial ones.
@@ -502,12 +494,13 @@ That is Rogers and Farson's ground rule applied to arguments, with the same judg
 you understand. Lesson 2's "Y'mean X?" is the everyday form of the check, and lesson 3's evidence
 that self-ratings are weak is the reason the speaker has to be the judge.
 
-Lesson 7, "Ask, don't guess", looks at why asking beat imagining in the perspective-taking
-experiments, and what raises accuracy in reading another person. Next, lesson 9, "Does active listening work?", asks
+Lesson 7, "Ask, don't guess", showed why asking beat imagining in the perspective-taking
+experiments, and that feedback raised accuracy in reading another person; this lesson makes that
+feedback a habit. Next, lesson 9, "Does active listening work?", asks
 what the experiments found when they tested paraphrasing and good listening against other
 responses. Lesson 11, "When it's serious", uses saying it back in the hardest conversation in the
-course, and lesson 16 uses it when you disagree. Teach-back comes back in Teaching and Mentoring, a
-later course, as a check on your own explaining.
+course, and lesson 16 uses it when you disagree. Teaching and Mentoring, a later course
+still being planned, is where teach-back is meant to return, as a check on your own explaining.
 
 ## Go deeper
 
@@ -540,8 +533,8 @@ later course, as a check on your own explaining.
    archive PDF). Observed in recordings of English talk. <!-- SOURCES Part B §1.4 -->
 4. Ickes, W. (1993). Empathic accuracy. *Journal of Personality*, 61(4), 587–610.
    [Greater Good copy](https://greatergood.berkeley.edu/images/uploads/Empathic_Accuracy.pdf).
-   **Read: full text**, re-read 26 September 2026. Marangoni, Garcia and Ickes (1993) as reported by
-   Ickes; that paper itself was not read. <!-- SOURCES Part C §7.6; lesson 08 gate closures -->
+   **Read: full text**, re-read 26 September 2026. The feedback study (Marangoni, Garcia and Ickes,
+   1993, taught in lesson 7) as reported by Ickes; that paper itself was not read. <!-- SOURCES Part C §7.6; lesson 08 gate closures -->
 5. SAMHSA (2019). *TIP 35: Enhancing Motivation for Change in Substance Use Disorder Treatment*,
    chapter 3, including Exhibit 3.6, "Types of Reflective Listening Responses".
    [PDF](https://library.samhsa.gov/sites/default/files/tip-35-pep19-02-01-003.pdf). **Read: chapter

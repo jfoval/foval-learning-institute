@@ -4029,3 +4029,40 @@ Anderson and Leaper 1998, p. 242: operational definition was not a significant m
 focused tests (Z = .99, n.s. for both); the intrusive difference rests on the blocking analysis.
 Group size: combined significance marginal (Z = 1.47, p < .10), combined effect sizes n.s. (Z = .25).
 Familiarity, which the lesson calls non-significant: Z = .25 and .04, n.s.
+
+## Gate closures, lesson 08 review (2026-09-26)
+
+Stage 4 fix pass on lesson 8. Primaries re-fetched today with curl (generic browser User-Agent, no
+personal data), PDFs through pdftotext, pages stripped of markup, and each string matched against
+that text [V]. Nothing on the unread line was cleared; G1 stays open for lesson 9.
+
+- **Ickes 1993** (Greater Good copy): the feedback group "received feedback during the middle portion
+  of each tape (feedback condition). For the subjects in the feedback condition, a sentence reporting
+  the client's actual thought or feeling appeared on the television monitor following each of the
+  subject's inferences." [V]. So feedback followed each guess only in the middle part of each tape.
+  Lesson 8 no longer teaches the study; it refers back to lesson 7.
+- **Samaritans** (URL as Part E §1.1), SHUSH "Say it back": after "Check you’ve understood, but don’t
+  interrupt or offer a solution." the page continues "Repeating something back to someone is a really
+  good way to let them know you’re listening." [V]. Plain repeating counts.
+- **988 Lifeline** (URL as Part E §1.2), "Summarize What You Hear": "By repeating, paraphrasing or even
+  summarizing what the speaker has said shows that you are putting in effort to better understand
+  them." [V]. Plain repeating counts, and the section says nothing about inviting a correction.
+- **Weger, Castle and Emmett 2010**, UCF STARS record, abstract re-read: unchanged from "Gate closures,
+  lesson 08" [V]; "were associated with the social attractiveness of the listener" [V]. The abstract
+  does not say how participants were assigned to conditions.
+- **Headlee, TED transcript**: the talk opens "All right, I want to see a show of hands: how many of
+  you have unfriended someone on Facebook" [V]; the "look, nod and smile" list comes after her
+  introduction, followed by "There is no reason to learn how to show you're paying attention if you
+  are in fact paying attention." [V].
+- **Rogers 1957** (URL as Part C §1.2): "These hypotheses hold in any situation whether it is or is not
+  labeled “psychotherapy.”" [V]; "In client-centered therapy, for example, the technique of “reflecting
+  feelings” has been described" [V].
+- **VitalTalk** (URL as Part E §2.4): page banner "Learn to communicate effectively with seriously ill
+  patients" [V, case normalised]. Its scope is serious illness, not only cancer care.
+- **Stage 4 note, lesson 08: correction to Part C §8 (line beginning "TIP 35 definitions").** Its
+  "Complex: "Your wife is pressuring you about your drinking."" is wrong: Exhibit 3.6 lists that line
+  as a **simple** reflection, type "Rephrase" (see "Gate closures, lesson 08"). Read §8 with this
+  correction; OUTLINE's lesson 8 entry repeats the error.
+- **Note on the `unread:` line.** It still lists "Weger Castle Emmett 2010" beside "Weger 2010 full
+  text", although the abstract has been read. Left unedited here because other agents are writing this
+  file; recorded in `reviews/course-wide.md` for the orchestrator.

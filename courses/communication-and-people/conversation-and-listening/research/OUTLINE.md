@@ -1013,7 +1013,8 @@ Sources and the quiz (decision 20). Each finding carries its label and the cours
   essential condition" [V]; "Feeling may be 'reflected' in a way which communicates the therapist's
   lack of empathy" [V]. **Reflections** (SAMHSA TIP 35, citing Miller and Rollnick 2013, G-note:
   decision 9's clinical label): a reflection as "your best guess"; simple and complex, with TIP 35's
-  "nagging" and "pressuring" pair; the fixing reflex saved for lesson 10. **Naming a feeling**
+  "nagging" and "pressuring" pair (both are simple reflections in Exhibit 3.6, not a simple and a
+  complex; corrected at the lesson 08 review, 2026-09-26); the fixing reflex saved for lesson 10. **Naming a feeling**
   (VitalTalk's NURSE, oncology: "turn down the intensity a notch"; "stop short of suggesting you
   understand everything (you don't)"; the FBI model's emotional labelling: even a wrong label shows
   effort, as the practitioners claim). **The practitioners agree** (Part E (a)4: SHUSH "Say it back";
