@@ -16,7 +16,7 @@ objectives:
     position statement asks of a surveyor, and say what a resistance meter reading can't show
 quiz:
   - q: >-
-      A family in Utah keep a hygrometer in their bedroom. On January mornings it reads 55%, and the
+      A family in Anchorage keep a hygrometer in their bedroom. On January mornings it reads 55%, and the
       inside of the window is wet. Which reading of this lesson's sources fits best?
     options:
       - Fine, since EPA's only limit is 60%, and a 55% reading sits under it with room to spare
@@ -33,7 +33,7 @@ quiz:
       condensation on windows can be a sign of high humidity, which is moisture from inside, not rain
       from outside.
   - q: >-
-      In a finished basement in Tennessee, mould covers a patch of drywall about 4 feet by 3 feet,
+      In a finished basement in Green Bay, mould covers a patch of drywall about 4 feet by 3 feet,
       after a slow leak from a pipe that has now been fixed. On EPA's guidance, what fits?
     options:
       - Clean it yourself, since EPA's size limit is 10 square feet on each separate wall
@@ -47,10 +47,11 @@ quiz:
       larger remediation guide, and says any contractor should have experience cleaning up mould.
       EPA's limit is for the mouldy area, and it has no each-wall rule. EPA says bleach is not
       recommended as a routine practice and that dead mould can still cause allergic reactions, so it
-      has to be removed, not only killed. And EPA says not to paint or caulk mouldy surfaces. Drywall
-      is also porous, which EPA says may have to be thrown away.
+      has to be removed, not only killed. And EPA says not to paint or caulk mouldy surfaces. EPA says
+      absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away; it
+      doesn't name drywall, so ask whoever does the larger job.
   - q: >-
-      A student in a shared house on the Isle of Wight has a small patch of mould on a window frame.
+      A student in a shared house in Galloway has a small patch of mould on a window frame.
       His housemate suggests bleach with a splash of ammonia-based glass cleaner "to make it
       stronger". What do the sources this lesson read say?
     options:
@@ -67,7 +68,7 @@ quiz:
       reasons. EPA doesn't call bleach a first choice: it says a biocide such as bleach is not
       recommended as a routine practice in mould cleanup.
   - q: >-
-      A damp company's surveyor visits a stone cottage in Orkney, gets high readings on an electrical
+      A damp company's surveyor visits a stone cottage on Islay, gets high readings on an electrical
       resistance meter at the foot of a wall, and quotes for injecting a damp-proof course. Which of
       these does the 2022 joint position statement ask of surveyors?
     options:
@@ -86,7 +87,7 @@ quiz:
       that they report objectively, suggest only proportionate work, and declare any financial
       interest in what they specify.
   - q: >-
-      After new double glazing and draught-proofing, a couple in a 1970s house in Bradford notice
+      After new double glazing and draught-proofing, a couple in a 1970s semi in Halifax, in the Calder valley, notice
       more condensation than before. They taped over the new windows' trickle vents because of the
       draught. Which response fits the sources?
     options:
@@ -97,8 +98,8 @@ quiz:
     answer: 3
     explain: >-
       GOV.UK's guidance, for England, says some energy efficiency work may reduce ventilation, that an
-      inadequately ventilated home is more likely to get condensation, and that trickle vents should
-      be kept open and free from blockages. The Energy Saving Trust says not to block trickle vents
+      inadequately ventilated home is more likely to get condensation, and its checklist asks landlords
+      whether trickle vents are kept open and free from blockages. The Energy Saving Trust says not to block trickle vents
       when draught-proofing, and the US Department of Energy's archived advice is to reduce air
       leakage and provide controlled ventilation. Sealing tighter makes the problem worse, not better.
       Nothing here points to rain getting in: the change came with the new windows and the taped
@@ -108,11 +109,12 @@ quiz:
 A black bloom behind a wardrobe, a grey line along the bottom of a bathroom ceiling, a wall that
 feels cold and smells musty: damp inside a house is common, and it is easy to get wrong. It goes
 wrong in two directions. People scrub the mould and never find the water, so it comes back. Or they
-pay for a treatment aimed at a cause the house does not have. The government's guidance on damp and
+pay for a treatment aimed at a cause the house does not have; GOV.UK calls rising damp "often
+misdiagnosed".[1] The government's guidance on damp and
 mould in England was written after a death: "In December 2020, 2-year-old Awaab Ishak died from a
 severe respiratory infection caused by prolonged exposure to damp and mould in his home."[1] This
 lesson sorts damp into its kinds, explains where condensation comes from, shows how much mould is
-yours to clean and how, and sets out the one real argument in this part of the subject, over rising
+yours to clean and how, and sets out the biggest argument in this part of the subject, over rising
 damp, in the words of the people having it.
 
 :::callout Before you pick up a tool
@@ -127,9 +129,9 @@ cities, and they change.
 
 ## Four kinds of damp
 
-The UK guidance this lesson leans on most is a document published by four government bodies (the
-health and housing departments, the Office for Health Improvement and Disparities, and the UK Health
-Security Agency) on [GOV.UK](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2).
+The UK guidance this lesson leans on most is a document on [GOV.UK](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2),
+developed by the Office for Health Improvement and Disparities, part of the Department of Health and
+Social Care, with the housing department and the UK Health Security Agency.
 It's written for landlords and housing professionals in England, and it was last updated on 1 April
 2026. It sorts damp into four kinds:[1]
 
@@ -181,7 +183,7 @@ The sources give the mechanism in those words and no further, so this lesson sto
 
 The amount of moisture in the air is measured as relative humidity. The University of Minnesota
 Extension, a US university's advice service, defines it plainly: "Relative humidity is the amount of
-moisture in the air at a given temperature."[4] You measure it with a hygrometer, which EPA calls "a
+moisture in the air at a given temperature."[4] You measure it with a humidity meter, or hygrometer; EPA calls it "a
 small, inexpensive ($10-$50) instrument available at many hardware stores" (a US price, on a page
 updated in February 2026).[2]
 
@@ -194,19 +196,19 @@ relative humidity" among its warning signs but gives no figure.[1]
 | CDC (US federal agency) | "no higher than 50%"[3] |
 | University of Minnesota Extension | "25% (winter) to 50% (summer)", which it calls "generally considered healthy and comfortable for people, and better for the house"[4] |
 
-They look like they disagree, and mostly they do not. Minnesota gives the reason its winter figure is
+They look like they disagree, and on this course's reading mostly they do not. Minnesota gives the reason its winter figure is
 so low: "Generally, in cold winter conditions, the relative humidity levels need to be low to prevent
 condensation and potential damage to the house’s structure, as well as to discourage mold growth,
 which can cause allergies and respiratory problems."[4] So on Minnesota's account, a figure that
-suits a summer can be too high for a cold January. Read the three as a range and a direction, not
-three rival answers.
+suits a summer can be too high for a cold January. This course reads the three as a range and a direction,
+not three rival answers.
 
-:::checkpoint A hygrometer in a Tyneside flat reads 70% in the kitchen after cooking and 45% in the bedroom the next morning. Using the table, which reading is the concern, and what would you want to know before calling it a problem?
+:::checkpoint A hygrometer in a Wearside flat reads 70% in the kitchen after cooking and 45% in the bedroom the next morning. Using the table, which reading is the concern, and what would you want to know before calling it a problem?
 
 The 70% is above all three sources' upper figures, but it was taken just after cooking, when
 GOV.UK's own list says moisture is produced. The question is whether it comes down, which is what a
 second reading an hour or two later would tell you. The 45% sits inside EPA's ideal band and under
-CDC's 50%. The Minnesota figures are for a cold-winter climate, and none of the three sources is
+CDC's 50%. Minnesota ties its low winter figure to "cold winter conditions", and none of the three sources is
 British; the course found no UK figure. One reading is a snapshot, which is why the practice at the
 end of this lesson asks for two weeks of them.
 :::
@@ -215,23 +217,26 @@ end of this lesson asks for two weeks of them.
 
 Every piece of advice for cutting indoor moisture risks sounding like an accusation, and a lot of
 damp is lived with by people who did not cause it and can't fix it. The GOV.UK guidance is blunt
-about this, and it says it before it gives any tip: "We are absolutely clear that it is totally
+about this, and this lesson puts it before any tip: "We are absolutely clear that it is totally
 unreasonable to blame damp and mould in the home on ‘lifestyle choices’." It goes on: "It is
 unavoidable that everyday tasks, such as cooking, bathing, washing and drying laundry will
 contribute to the production of indoor moisture." Lesson 17 gave the next sentence, which puts the
-fundamental cause in the building, its ventilation and its heating. The guidance calls approaches
+fundamental cause in the building, its ventilation, heating and energy efficiency, "not tenants’
+normal domestic activities". The guidance calls approaches
 that blame occupants "unjust and counterproductive".[1]
 
-Then, and only then, it says that small changes can help, as long as they sit alongside fixing the
-building and not instead of it. The changes it lists are "leaving a gap between furniture and
+It also says landlords can help tenants make small, reasonable changes, as long as that sits
+alongside fixing the building and not instead of it. Its ventilation checklist has landlords talk to
+tenants about "leaving a gap between furniture and
 external walls, using extractor fans in kitchens and bathrooms, closing internal doors when they cook
 or shower, covering pans when cooking, drying laundry outdoors (if possible) and opening windows
-periodically".[1] Every one of those is **Yours**, costs nothing or nearly nothing, and is worth
-doing. But the guidance's own limit comes with them: "Tenants cannot be expected to reduce moisture
+periodically".[1] Every one of those is **Yours**, as far as the home allows. But the guidance's own limit comes with them: "Tenants cannot be expected to reduce moisture
 levels if their home does not enable them to do so."[1] A kitchen with no working extractor, or a
 flat that can't be kept warm, is a building problem.
 
 ## Ventilation: build tight, ventilate right
+
+This is general information, not legal advice.
 
 It's easy to assume a draughty house airs itself. The US Department of Energy's Energy Saver
 pages, which have since been taken down and are read here as archived, disagree: "Relying on air
@@ -250,15 +255,14 @@ condensation, or more, if the new windows took away the air that used to carry t
 nothing replaced it.
 :::
 
-This is general information, not legal advice.
-
-On the British side, GOV.UK's guidance starts with the windows: "Under
-building regulations, all replacement windows are required to have trickle vents", small vents in the
-frame that the occupant can open and close.[1] That is GOV.UK's statement in guidance for England; this course
-didn't read the building regulations on ventilation themselves. The guidance adds that trickle
+On the British side, GOV.UK's guidance says of windows: "Under building regulations, all replacement
+windows are required to have trickle vents".[1] That is GOV.UK's statement in guidance for England;
+this course didn't read the building regulations on ventilation themselves. Trickle vents are what
+the Energy Saving Trust describes as "small vents above windows that let fresh air trickle in".[7]
+The GOV.UK guidance adds that trickle
 vents "should be controllable by the tenant, rather than permanently open, as this may encourage
-tenants to block them", and that air bricks, the ventilated bricks low in an outside wall that air
-the space under a wooden floor, "should be kept clear and free of debris and obstruction".[1]
+tenants to block them", and that air bricks, which it calls "a cost-effective and easy means of
+addressing inadequate under-floor ventilation", "should be kept clear and free of debris and obstruction".[1]
 
 The Energy Saving Trust, the UK's government-funded energy advice body, says the same from the
 draught-proofing side. When you draught-proof, it says, don't block extractor fans, underfloor
@@ -268,15 +272,16 @@ openings are there for a fuel-burning appliance, not for damp. Lesson 11, "Carbo
 alarms that warn you", gave the Trust's warning about the fixed vents a gas heater needs, and it
 holds here without exception.
 
-There's a US twist worth knowing. The Energy Saver pages list the drawbacks of each kind of
-whole-house system, and say exhaust-only systems "Can cause backdrafting in combustion appliances",
-while supply systems "Can cause moisture problems in cold climates".[6] The pages don't say who
-should fit one. This course reads the backdrafting warning as a reason to leave whole-house
+The US pages add a warning about whole-house systems. They list the drawbacks of each kind, and say
+exhaust-only systems "Can cause backdrafting in combustion appliances",
+while supply systems "Can cause moisture problems in cold climates".[6] Of the energy-recovery kind, the pages say
+only that "Only some HVAC contractors have enough technical expertise and experience to install
+them"; they do not say whether a householder may fit any of them.[6] This course reads the backdrafting warning as a reason to leave whole-house
 ventilation in a home with a boiler, furnace or fire to a professional.
 
 Here's how the jobs sort. Keeping trickle vents open, air bricks and wall vents clear, and running
 the extractor fans you have is **Yours**, in a rented home too. Replacing windows is **Call
-someone**: GOV.UK calls it "controlled building work" that "should be undertaken by someone
+someone**: in England, GOV.UK calls installing windows "controlled building work" that "should be undertaken by someone
 competent to do so".[1] Fans and mechanical ventilation systems, the guidance says, "should be
 regularly inspected and maintained by qualified professionals".[1] So a fan that doesn't run is,
 on this course's label, **Call someone**, reported or booked and not opened up. Lesson 5,
@@ -367,8 +372,8 @@ This is a real disagreement between official bodies, if a small one, and each sa
 | EPA (US) | Using a biocide such as chlorine bleach "is not recommended as a routine practice during mold cleanup." Then: "There may be instances, however, when professional judgment may indicate its use (for example, when immune-compromised individuals are present)."[2] |
 | GOV.UK (England) | "Mould and mildew products should be used in preference to bleach, for health and safety reasons."[1] |
 
-In metric, CDC's limit is about 240 ml of bleach in 3.8 litres of water, roughly one part in
-sixteen (this course's conversion from US measures). EPA adds a reason killing isn't enough: "Dead
+In metric, CDC's limit is about 240 ml of bleach in 3.8 litres of water, roughly one part bleach
+to sixteen parts water (this course's conversion from US measures). EPA adds a reason killing isn't enough: "Dead
 mold may still cause allergic reactions in some people, so it is not enough to simply kill the mold,
 it must also be removed."[2]
 
@@ -377,9 +382,9 @@ mixing say never mix bleach with ammonia: CDC, "Never mix bleach with ammonia or
 EPA, because "toxic fumes could be produced".[2][3] Lesson 4 gave Poison Control's wider rule, never
 mix household cleaning products at all.
 
-### A flat on Tyneside, in January
+### A flat on Wearside, in January
 
-A woman renting a first-floor flat on Tyneside moves her wardrobe to hoover behind it and finds black
+A woman renting a first-floor flat on Wearside moves her wardrobe to hoover behind it and finds black
 mould on the wall, about 50 cm by 30 cm, at skirting height. It is an outside wall. The wall above the
 wardrobe line is clean.
 
@@ -414,7 +419,7 @@ before anyone cleans it, because that record is what shows whether the fix worke
 
 ## Rising damp: what's agreed, and what isn't
 
-Apart from bleach, the sources so far have agreed with each other. On rising damp they don't. How often it happens, and whether the
+Apart from bleach and the exact humidity figures, the sources so far have agreed with each other. On rising damp they don't. How often it happens, and whether the
 usual treatment works, are disputed among surveyors, damp-proofing firms and people who look after
 old buildings, and the dispute has gone on for years. This is a contested empirical question, so the
 lesson gives each side in its own words and does not decide it. Logic and Argument lesson 7, the
@@ -467,11 +472,14 @@ construction arm of RICS, said that "‘true rising damp’ is a myth" and that 
 damp-proof courses are "‘a complete waste of money’". His account of what's really going on:
 "‘The most likely causes of damp are moisture penetration and, most commonly, condensation’".[10]
 Elaine Blackett-Ord, then chair of the Register of Architects Accredited in Building Conservation,
-said of injected DPCs that "they are ineffective and grossly expensive", and of cement-based
-internal renders: "For most historic buildings this is extremely damaging and
-irreversible."[10] Jeff Howell, a qualified bricklayer and the author of *The Rising Damp Myth*
-(2008), described laboratory trials: "If you build a brick pillar and stand it in a tray of water, the bricks
-in the water will get wet, but the water doesn’t rise by capillary action".[10] This course read the
+said of injected DPCs that "they are ineffective and grossly expensive", and, of cement-based
+internal renders, that they "serve simply to conceal the problem in the wall behind. For most
+historic buildings this is extremely damaging and irreversible."[10] Jeff Howell, a qualified
+bricklayer and the author of *The Rising Damp Myth* (2008), said, in the article's words, that
+"trials in the laboratory confirm the falsehood": "If you build a brick pillar and stand it in a tray
+of water, the bricks in the water will get wet, but the water doesn’t rise by capillary action". And
+he gave his reason: "Cement-based and most lime-based mortars will not allow water to go
+through."[10] This course read the
 article, not his book.
 
 The same article carried a reply. Terry Brown, of GMW Architects, said: "It’s right to question the
@@ -481,17 +489,15 @@ professional life." And: "Of course there is no reason why inherited conventiona
 challenged." But "the challenge has to be scientific and not anecdotal."[10]
 
 Two things to hold while you weigh this. The sceptics' quotations are from 2009, and this course
-didn't read any reply from them to the 2017 thesis, or any later statement of their case. And each
-side has a stake the other would point to: the PCA is the trade body for damp-proofing specialists,
-and the conservation voices speak for old buildings that they say the treatments harm. Neither fact
-tells you who's right. The next document is one that the trade body and the conservation bodies
+did not read any later statement of their case. The thesis is known here only through the RICS
+authors' summary, and this course did not read any assessment of it by the other side. The next document is one that the trade body and the conservation bodies
 both put their names to.
 
 ### The common ground: the 2022 joint statement
 
-In September 2022, RICS, Historic England and the PCA together published a joint position
+In September 2022, RICS, Historic England and the PCA wrote and produced a joint position
 statement, [*Investigation of moisture and its effects on traditional buildings*](https://ihbc.org.uk/toolbox/docs/JPS2022%20Investigation%20of%20moisture%20v3.pdf).
-Cadw, Historic Environment Scotland, Northern Ireland's Historic Environment Division, the IHBC and the Society for the Protection of
+Cadw, Historic Environment Scotland, Northern Ireland's Historic Environment Division, the Institute of Historic Building Conservation (IHBC) and the Society for the Protection of
 Ancient Buildings adopted it too.[11] So the trade body, the surveyors' institution and the
 conservation bodies are behind the same text. It is written for surveyors, "aimed at those providing consultancy advice or surveys to owners and buyers of a
 building", and it never uses the words "rising damp".[11] It sets out how any damp in an old building
@@ -499,9 +505,12 @@ should be investigated.
 
 By "traditional" it means "buildings with solid walls built from permeable materials such as brick,
 stone, earth, timber and lime-based mortars, plasters and renders. Traditional construction absorbs
-moisture but allows it to evaporate when conditions become drier."[11] What it asks of a surveyor:
+moisture but allows it to evaporate when conditions become drier. This is in contrast to modern
+construction, which relies on impermeable barriers to prevent moisture entering the fabric."[11] On
+this course's reading, that difference is what the conservation voices above were defending when
+they objected to impermeable renders. What the statement asks of a surveyor:
 
-- Recognise that in such buildings "moisture presence in such buildings may not be down to a
+- Recognise that in old solid-walled buildings "moisture presence in such buildings may not be down to a
   construction failure."[11]
 - Understand salts and "how this might influence a resistance meter". The statement lists
   resistance meters among many measuring methods, alongside "gravimetric
@@ -510,6 +519,10 @@ moisture but allows it to evaporate when conditions become drier."[11] What it a
 - Deal with damp in stages: "Recognise how to deal with the obvious defects first (including, for
   example, matters such as ventilation, ground levels and lifestyle). Then, allow a period for
   monitoring and natural evaporation, and reassess before moving on to other treatments."[11]
+  The statement does not define "lifestyle". Elsewhere its list for surveyors includes "Understand
+  that occupation patterns can influence the moisture within the building."[11] It says nothing
+  about blame, and GOV.UK's guidance, earlier in this lesson, calls blaming damp and mould on
+  lifestyle choices "totally unreasonable".[1]
 - Make recommendations that "must be proportionate to the defect and the significance of the
   building."[11]
 - Where a surveyor or contractor also quotes for the work, "report objectively on the facts of the
@@ -524,9 +537,10 @@ on.
 
 For one wall, GOV.UK's answer is testing: chemical testing is, in its words, "the most appropriate
 way of confirming it".[1] For the general question, how common rising damp is and how well injected
-DPCs work, the RICS authors call for more research, and Terry Brown asked for the challenge to be
-"scientific and not anecdotal".[9][10] So both sides, in the sources read here, point to research
-on real walls as what would move it. Until then, a householder does not need to pick a side to act well:
+DPCs work, the sources read here disagree about what the evidence already shows. The RICS authors
+say the subject "could benefit from greater academic investigation".[9] Jeff Howell, on the other
+side, pointed to laboratory trials that he said already settle it.[10] This course did not find a
+study that both sides accept. Until then, a householder does not need to pick a side to act well:
 the cheap outside causes first, a diagnosis that does not rest on a meter alone, and a remedy in
 proportion.
 
@@ -543,9 +557,9 @@ influence a resistance meter; obvious defects first, then monitoring; proportion
 any financial interest declared.[11]
 :::
 
-### An 1890s terrace in the Rhondda
+### An 1890s terrace in the Cynon Valley
 
-A man has bought an 1890s terraced house in the Rhondda, in south Wales, with solid walls. A damp
+A man has bought an 1890s terraced house in the Cynon Valley, in south Wales, with solid walls. A damp
 company's surveyor walks round with a resistance meter, gets high readings along the bottom of the
 front room's walls, points to a stained band on the plaster, and quotes for an injected DPC and
 replastering with salt-resistant plaster.
@@ -560,9 +574,10 @@ replastering with salt-resistant plaster.
 - **The meter.** The joint statement says salts can influence a resistance meter, and the PCA says
   salts are almost always present where groundwater has risen.[8][11] Put together, which is this
   course's reading of the two, a high reading at the foot of the wall does not by itself tell him what
-  put the moisture there. GOV.UK names chemical testing as the most appropriate way to confirm rising
-  damp.[1]
-- **The quote.** The surveyor is also the seller, which the statement expects and allows, on its
+  put the moisture there. GOV.UK's guidance for England names chemical testing as the most
+  appropriate way to confirm rising damp; none of the sources this course read describes how that
+  testing is done, so ask the surveyor what they would test and how.[1]
+- **The quote.** The surveyor's firm would also do the work, which the statement expects and allows, on its
   conditions: objective reporting, proportionate work, and any financial interest in the product or
   treatment declared.[11]
 
@@ -581,8 +596,8 @@ page.[8]
 :::
 
 Getting the survey and any treatment is **Call someone**. What's yours is the outside walk-round, the
-three questions, and, if the answers don't satisfy you, a second opinion from a surveyor who isn't
-quoting for the work.
+three questions, and, if the answers don't satisfy you, a second opinion (this course's suggestion; the
+statement itself allows a surveyor who also quotes).
 
 ## If you rent
 
@@ -599,12 +614,12 @@ to contact local, state, or federal health or housing authorities."[2]
 For a renter in either country, the practical part is the same: photograph and mark the patch
 (GOV.UK), report it (EPA), and keep your own dated notes of what you reported and when, which is this
 course's suggestion rather than either source's. Cleaning a very small patch is yours on GOV.UK's
-account. Anything that changes the building, from a new vent to a new window, is the landlord's to
-agree.
+account. Anything that changes the building, from a new vent to a new window, is something to agree
+with the landlord first, on this course's reading.
 
 ## What people get wrong
 
-**"A damp meter reading means rising damp."** GOV.UK says rising damp is often misdiagnosed and names
+**"A damp meter reading means rising damp."** GOV.UK's guidance for England says rising damp is often misdiagnosed and names
 chemical testing as the way to confirm it, and the joint statement says salts can influence a
 resistance meter.[1][11]
 
@@ -696,8 +711,8 @@ takes up woodworm.
 
 ## Sources
 
-1. Department of Health and Social Care, Ministry of Housing, Communities and Local Government,
-   Office for Health Improvement and Disparities and UK Health Security Agency, ["Understanding and addressing the health risks of damp and mould in the home"](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2),
+1. Department of Health and Social Care (Office for Health Improvement and Disparities), Ministry of
+   Housing, Communities and Local Government and UK Health Security Agency, ["Understanding and addressing the health risks of damp and mould in the home"](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2),
    first published 7 September 2023, updated 1 April 2026. Guidance for landlords and housing
    professionals in England. **Read: full body text; re-read 26 September 2026.**
    <!-- SOURCES Part A §6, D48; lesson 18 gate closures -->

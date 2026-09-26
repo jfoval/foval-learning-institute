@@ -352,3 +352,21 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   count happened, never what share of all ladder injuries happen at work. Lessons 15 and 16
   corrected; SOURCES has "Stage 4 note, lesson 16, second pass". Any later lesson or podcast script
   that uses the figure keeps that scope.
+
+## 2026-09-26 — Lesson 18 fix pass: notes for later lessons
+
+- **Every US state is now named somewhere in the institute's lessons, scripts or assessments.** A
+  new US case uses a city or region not yet used (grep all of `courses/`, not only this course's
+  three neighbours), and names no state beside it. Lesson 18 took Anchorage and Green Bay.
+- **Places now used by lesson 18:** Wearside, the Cynon Valley, Galloway, Islay, Halifax (the Calder
+  valley), Anchorage, Green Bay. Tyneside, the Rhondda, the Isle of Wight, Orkney, Bradford, Utah and
+  Tennessee dropped.
+- **The GOV.UK damp guidance does not put its no-blame statement before its tips**; the tenant list
+  sits earlier, in the ventilation checklist. A lesson says only that it puts the no-blame line first
+  itself (SOURCES "Stage 4 note, lesson 18"). Lessons 20 and 21, and any podcast script, keep that.
+- **Rising damp, both sides' reasons:** Howell says "trials in the laboratory confirm the falsehood"
+  (he does not call for research), and Blackett-Ord's renders line runs from "serve simply to
+  conceal the problem in the wall behind". The joint statement's "lifestyle" is glossed with its
+  own "occupation patterns" line wherever it is quoted. Lesson 21 (woodworm and damp) and lesson 18's
+  podcast script keep the two-way dating caveat.
+- **Chemical testing** is named by GOV.UK for England and described by no source read.

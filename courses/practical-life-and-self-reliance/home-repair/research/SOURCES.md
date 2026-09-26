@@ -5878,3 +5878,112 @@ guidance by its content API (updated 2026-04-01).
   ventilation and moisture control? If not, talk to them about the importance of". The no-blame
   paragraph ("totally unreasonable") comes later, at about character 55,700. So the guidance does not
   put the no-blame statement before its tips; a lesson may say only that it puts it first itself.
+- **Spans quoted whole in lesson 18**, each [V] as one run of text in its source. The AJ: [V]
+  "serve simply to conceal the problem in the wall behind. For most historic buildings this is
+  extremely damaging and irreversible." The joint statement's definition with its closing sentence:
+  [V] "buildings with solid walls built from permeable materials such as brick, stone, earth, timber
+  and lime-based mortars, plasters and renders. Traditional construction absorbs moisture but allows
+  it to evaporate when conditions become drier. This is in contrast to modern construction, which
+  relies on impermeable barriers to prevent moisture entering the fabric."
+
+## Stage 4 note, lesson 17 (2026-09-26)
+
+Read by the lesson 17 fixer on 26 September 2026. Historic England's live pages return 403 to curl
+and to WebFetch, so they were read in the in-app browser (page text and the `main` element's
+textContent, which includes the collapsed tips). Everything else by curl with a browser User-Agent
+(no personal data in any header), pandoc or pdftotext, and the GOV.UK content API. Every [V] below
+was string-matched in the text as read.
+
+**Correction to "Gate closures, lesson 17":** Historic England's 2023 pages have moved and their text
+has changed. The old URLs (.../looking-after-your-home/maintenance/ and
+.../maintenance/maintenance-checklist/) redirect to the tips page and the checklist below. The strings
+recorded from captures 20230824101706 and 20230824101753 are the 2023 text; lessons quote the live
+text below. Several 2023 strings are not on the live pages at all: "The most important thing is to
+stop damp from getting into your home."; the "leaky roof is the most obvious issue" sentence; "in many
+older houses hard-to-access gutters ... can get forgotten"; "Inspect when it is raining and note
+leakages"; "Does rainfall cascade ..."; "Are all flashings fixed into the wall?"; "Remove plants and
+vegetation abutting and growing on the building"; "the proximity of trees".
+
+### Historic England, "Maintenance Checklist" (live; replaces the 2023 capture)
+
+https://historicengland.org.uk/advice/your-home/maintain-repair/checklist/, "Published 25 July 2013".
+Read: full page text. Written for owners of older homes; Historic England is England's public body.
+[V]:
+- "Our list below is not exhaustive, but it covers the most critical elements. Use binoculars to check high level areas like the roof or chimney from the ground if safe access is not available."
+- Heading: "Rainwater gutters, channels, hopper heads and pipes"
+- "Inspect and clear any debris or blockages after heavy leaf fall, at least every autumn and preferably more often"
+- "Are there any leaking joints?"
+- "Does rainwater cascade over the gutter from the roof? Inspect while it is raining and note any leakages"
+- "Does the water pool in any one area?"
+- "Do the gutters slope correctly towards outlets? You can check this by pouring water into the gutter and checking that it drains away"
+- "Check the rear side of pipes with a mirror and look for cracks and corrosion"
+- "Are pipes securely fixed to the wall?"
+- "Are there any signs of staining or algae growth, or any washed-out mortar joints, on the wall behind the pipe?"
+- Drainage gullies: "Inspections should be carried out every autumn and preferably more often"; "Check that drainage gullies are free from silt, debris, vegetation and other objects"; "Make sure that all gully inlets are covered by a grating"
+- Pitched roof coverings: "Inspect twice a year and after storms or high winds"; "Debris on the ground will give an indication of roof problems"; "Are there any loose, slipped, broken or missing slates or tiles?"; "Is there a lot of moss? This could potentially block gutters and pipes or stop water running off the roof. Retained water in moss can cause thatch to rot"; "Look for signs of dampness on ceilings or in loft spaces as a possible indication of roof leaks"
+- Flashings: "Are all flashings still fixed into the wall, chimney or roof covering?"; "Ensure that flashings are dressed down and have not been blown or moved away from the surface of the wall"
+- Exterior walls: "Look for defects in stonework, brickwork and rendering such as cracks, deep erosion, missing pointing or crumbling"
+- Base of walls: "Check to ensure that ground levels are at least 150 millimetres below the level of any known damp-proof course or 150 millimetres below internal floor levels"; "Ensure that vents are not obstructed"; "Remove plants and vegetation growing on or close to the building if they are causing damage" (removal is now conditional)
+The checklist gives no reason for the 150 millimetres, no method for clearing a gutter, and says
+nothing about who should do the work, beyond the binoculars line.
+
+### Historic England, "Essential Tips for Maintaining and Repairing Older Homes" (live; replaces "Maintaining an Older Home")
+
+https://historicengland.org.uk/advice/your-home/maintain-repair/tips/, "Published 19 July 2013".
+Read: full page text including the collapsed tips. [V]:
+- "Are there design features or details that make your home more vulnerable to decay (for example concealed gutters or internal rainwater pipes)?"
+- "How is the building affected by nearby trees?"
+- "Carry out routine inspections regularly (normally twice a year). Make additional inspections after severe weather or unforeseen events."
+- "Damp is a major cause of deterioration. If not tackled, it can cause timber to decay and damage decorative finishes, plaster, brick and stonework."
+- "Simple maintenance work, such as fixing a loose roof flashing, should not need any form of consent. But if you want to make repairs to your home you may need permission and should seek advice, especially if your home is listed or in a conservation area."
+
+### Historic England, "Keeping Safe When Working On an Older Home" (new)
+
+https://historicengland.org.uk/advice/your-home/maintain-repair/health-safety/, "Published 25 July
+2013", "Updated 25 September 2025". Read: full page text. Addressed to householders doing their own
+work. [V]:
+- "If you are doing work yourself, there are a number of things to bear in mind."
+- "You may well need to use a ladder. They are handy for clearing debris from gutters or doing a quick maintenance check. Only use them to gain access, not as a working platform."
+- "Make sure the ladder is securely clipped or tied, or that someone else is holding it steady for you."
+- "If you think there may be materials containing asbestos within your home you need to contact a specialist."
+The page does not say how using a ladder to clear gutters squares with "not as a working platform".
+
+### HSE, asbestos essentials sheet a10 (Part D D3; now read, page 1)
+
+https://www.hse.gov.uk/pubns/guidance/a10.pdf, two pages, "09/17", pdftotext. Written for trades
+doing non-licensed work. The sheet's own title is [V] "Cleaning debris from gutters on an asbestos
+cement (AC) roof" (the index says "guttering"). [V] "The gutters may be made of AC, or it may simply
+collect water from an AC roof." So the sheet covers a gutter of any material under an AC roof. Read
+for its scope only; its method is a trade method and is not taught.
+
+### GOV.UK damp and mould guidance (Part A §6), tenant lines
+
+Content API, first published 2023-09-07, updated 2026-04-01. [V]:
+- "The responsibility to identify damp and mould sits with both tenant and landlord. While tenants are expected to report damp and mould in their homes, landlords should also proactively collect information on the condition of their housing stock."
+- "Owner occupiers and tenants may also find this guidance helpful."
+- It has an "Annex E" of tenant guidance (heading found; annex not read for content here).
+- "Landlords may wish to consider air bricks, which are a cost-effective and easy means of addressing inadequate under-floor ventilation." (also in "Stage 4 note, lesson 18")
+
+### University of Minnesota Extension, "Moisture in basements" (Part A §6), further strings
+
+Re-read live. The page's "Symptoms" list is one list, not sorted by cause: [V] "Water trickling out
+of walls.", "Standing water on floor.", "Saturated base of concrete block walls; a ring of
+dampness.", "Damp, humid air.", "Condensation on cold walls and floor in summer." and more. [V]:
+- "This effect creates the ring of dampness seen at the base of many basement walls. This is very common at cold joints." (under "Capillary suction": water drawn up through the footing and slab)
+- Heading: "Interior membrane or coating is a temporary solution"
+- "It is appealing to solve a basement moisture problem with a membrane or coating on the inside. It's less expensive than a drainage system and seems to work for a time in some cases. The water is still there, however, and eventually, these systems deteriorate or simply move the water to another pathway into the basement."
+- "In fact, if a dehumidifier is used in a basement with moisture problems, it may cause greater damage. By drying out the basement air, moisture is drawn into the basement more rapidly causing efflorescence and spalling of concrete and further damage to interior finishes."
+- "The simplest and least costly approach is a drainage channel adhered at the base of the wall and the floor slab." (approach 3, interior)
+- Exterior drainage is "the most costly, but also the most effective water control approach" (already recorded). Drilling and cutting concrete belong to approaches 4 and 5.
+
+### University of Georgia, Circular 1082, further string
+
+[V] "Please note that maintenance frequencies may vary depending on your local climate and appliance
+manufacturing recommendations." [V] "trim branches of trees that overhang the roof" (the extraction
+breaks the line after "that").
+
+### US EPA, "Protect Your Family from Exposures to Asbestos" (Part D D8), re-read
+
+"Last updated on June 25, 2026". The D8 identification line is unchanged: [V] "Generally, you can't
+tell whether a material contains asbestos simply by looking at it, unless it is labeled. If in doubt,
+treat the material as if it contains asbestos and leave it alone."
