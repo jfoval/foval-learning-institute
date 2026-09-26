@@ -5010,3 +5010,241 @@ someone else"; samaritans.org "If you're worried about someone else"; lifeline.o
 about someone". Numbers unchanged: 988lifeline.org "Call, text, or chat"; 988.ca "Call 9-8-8", "Text
 9-8-8"; samaritans.org "116 123"; lifeline.org.au "13 11 14", "000"; findahelpline.com "Free,
 confidential support". The callout stands.
+
+## Gate closures, lesson 14 (2026-09-26)
+
+Read on 26 September 2026 by the lesson 14 drafter, with curl and a generic browser User-Agent.
+
+**G6, first half (Mehrabian's designs): not closed; fallback written.** The two 1967 papers are
+still closed (Unpaywall, OpenAlex). *Silent Messages*: the Internet Archive's library copy
+(silentmessagesim00mehr) is lending-only; a second Internet Archive item
+(albert-mehrabian-silent-messages) is a personal upload of the whole book to the "opensource"
+collection with no licence, so it was not opened, on the same footing as the course's rule against
+third-party uploads. The lesson uses only the two sentences on Mehrabian's page and "two small 1967
+laboratory studies of single spoken words and posed photographs"; no sample size, no sex of
+participants, no arithmetic. **Mehrabian's page re-read today** (http://www.kaaj.com/psych/smorder.html,
+HTTP 200, "Copyright 1995-2016"): the formula, "Unless a communicator is talking about their feelings
+or attitudes, these equations are not applicable." and "were derived from experiments dealing with
+communications of feelings and attitudes (i.e., like-dislike)" all unchanged [V].
+
+**G6, second half (GAO-14-159): closed at the level stated.** gao.gov still returns Akamai "Access
+Denied" to curl, so both were read from Internet Archive captures, fetched with curl: the product page
+(capture of 10 September 2026, http://web.archive.org/web/20260910003857/https://www.gao.gov/products/gao-14-159)
+and the report PDF (capture of 25 November 2020 of https://www.gao.gov/assets/660/658923.pdf, text
+layer good). **Read: the product page in full; the report's Highlights page, pp. 14 to 17 (the
+evidence section, with footnotes 34 to 39) and pp. 48 to 51 ("Agency and Third-Party Comments and Our
+Evaluation").** Not read: the rest of the report; DHS's own letter (Appendix VI, pp. 88 to 92) is page
+images with no text layer and was not OCR'd. So "GAO-14-159 full report" stays on the unread line.
+- Product page and report p. 16 [V]: GAO reviewed four meta-analyses "that included over 400 studies
+  from the past 60 years and found that the human ability to accurately identify deceptive behavior
+  based on behavioral indicators is the same as or slightly better than chance." Report p. 16 adds
+  "(54 percent)". Footnote 34: the four meta-analyses contained 116, 206, 108 and 206 studies; footnote
+  36 names them (Hartwig and Bond 2011; Bond and DePaulo 2006; Aamodt and Custer 2006; DePaulo et al.
+  2003).
+- Product page [V]: "Congress should consider the absence of scientifically validated evidence for
+  using behavioral indicators to identify threats to aviation security when assessing the potential
+  benefits and cost in making future funding decisions for aviation security." TSA had "spent about
+  $900 million" on SPOT since fiscal year 2007 [V]. The DHS April 2011 validation study "did not
+  demonstrate their effectiveness because of study limitations, including the use of unreliable data"
+  [V]. "Twenty-one of the 25 behavior detection officers (BDO) GAO interviewed at four airports said
+  that some behavioral indicators are subjective." [V]
+- Report footnote 35 [V]: "Examining verbal strategies used by individuals in interview or
+  interrogation settings has been cited in research as promising in detecting deception because verbal
+  cues are often more diagnostic than nonverbal cues. However, these techniques are not applicable to
+  the SPOT program and are beyond the scope of our work."
+- Report footnote 37, GAO's summary of Vrij, Granhag and Porter 2010 (that review not read): "errors
+  are also easily made when people of different ethnic backgrounds or cultures interact because
+  behaviors naturally displayed by members of one ethnic group or culture may appear suspicious to
+  members of another ethnic group or culture." [V, GAO's words]
+- **DHS's side, as GAO reports it (pp. 48 to 51).** DHS "did not concur" with the recommendation to
+  limit funding [V]. GAO reports that DHS's letter said GAO had not considered all available research,
+  that DHS's Science and Technology directorate had conducted research "not published in academic
+  circles for peer review because of various security concerns" that supported behaviour detection
+  (GAO's words), and that the research cited "lacked ecological and external validity" [V, DHS as
+  quoted by GAO] because it did not concern an airport. GAO also reports DHS as saying SPOT's goal is to
+  identify "behavior indicative of simple emotions such as fear or stress" (GAO's paraphrase, not in
+  quotation marks in the report) and does not attempt to identify lying as such, and that DHS cited a
+  2013 RAND report finding "current value and unrealized potential" for behavioural indicators (GAO's
+  words). GAO answered each point and said "We disagree" [V]; it also wrote "We acknowledge that
+  behavior detection holds promise for use in certain circumstances and in conjunction with certain
+  other technologies." [V]
+
+**Denault et al. 2020, re-read today** (https://journals.copmadrid.org/apj/art/apj2019a9, HTTP 200,
+full HTML). **Correction to Part D §2.15: the Reid manual sentence was recorded without its opening
+hedge.** Denault et al. quote Inbau, Reid, Buckley and Jayne 2013, p. 135, as [V]: "generally speaking,
+a suspect who does not make direct eye contact is probably withholding information". They also report
+that "regarding the lack of eye contact, Inbau et al. (2013) stated that it may result from various
+factors, including the suspect's culture, as well as an inferiority complex and an emotional disorder"
+[V, apostrophe normalised], and add "scientific research on nonverbal communication has even shown
+that it is not a valid sign of lying" [V]. Other [V] text used by lesson 14: John E. Reid & Associates
+describe the Behavior Analysis Interview as "designed to identify whether or not a person is telling
+the truth or withholding relevant information concerning a specific crime or act of wrongdoing" (as
+quoted by Denault et al.); the BAI is "the first step of the Reid technique, an interrogation technique
+in which more than 500,000 people have reportedly been trained"; "The belief that gaze avoidance allows
+lie detection is a widespread misconception"; SPOT officers memorised indicators including "avoiding
+eye contact, looking down" (Denault et al. citing The Intercept 2015 and GAO 2010) and observed "about
+30 seconds per passenger"; SPOT "a program estimated to have cost $1.5 billion from 2007 to 2015"
+(citing the DHS Office of Inspector General 2016); and Harrigan's sentence, "Unlike certain facial
+expressions, there are few, if any, body movements that have invariant meaning within or across
+cultures" (p. 139, as quoted). Denault et al. also say that "some other aspects of BAI may offer
+avenues for research" [V, fragment].
+
+**The BPS article on power posing, re-read today in full** (Loncar, T., "A decade of power posing:
+where do we stand?", *The Psychologist*, British Psychological Society, 8 June 2021,
+https://www.bps.org.uk/psychologist/decade-power-posing-where-do-we-stand, HTTP 200). Quoted text
+below is the article's, or the article quoting others, and is [V] as the article prints it:
+- Carney et al. 2010: "42 participants (26 females/16 males)", two postures "for one minute each",
+  and "all participants were Columbia University students" (the article's statement).
+- Carney, Cuddy and Yap's 2015 reply "listed the numerous methodological departures made by Ranehill
+  and colleagues, including a longer posture duration (six minutes)", and reviewed 33 studies (the
+  article's words).
+- Jonas et al. 2017 (the CRSP special issue, seven preregistered studies): "virtually zero effect" on
+  behavioural and hormonal measures, and "it is clear that an effect on felt power was observed" (both
+  as quoted by the article; Jonas et al. not read). Gronau et al. 2017's Bayesian meta-analysis
+  (N = 1071) "revealed significant results" for felt power (the article's words).
+- **Simmons and Simonsohn 2017's main analysis "excluded p-values associated with subjective feelings
+  of power, which the authors described as manipulation-checks rather than dependent variables"** (the
+  article's words). Any lesson that reports their p-curve says so.
+- Cuddy, Schultz and Fosse 2018, as the article describes it (the paper itself unread, and PubMed has
+  no abstract): they "argued that subjective experience is a central tenet of social psychology, and
+  worthy of treatment as an equally weighted dependent variable", added 21 studies, and found "'very
+  strong' and 'strong' evidentiary support", including for feelings of power.
+- Credé 2019 (unread), as the article describes it: most studies in Cuddy et al. 2018 lacked a neutral
+  pose, and the four that had one showed effects "predominantly driven by a negative effect from a
+  contractive pose".
+- Cuddy's response to Elkjær et al., a tweet of 27 June 2020, as quoted by the article: "At this point,
+  anyone who claims these effects are not real cannot support that claim with science. These findings
+  are vindicating".
+- Elkjær et al.: 73 studies, 7038 participants, 48 in the meta-analysis; only 14 studies with a neutral
+  control (the article's figures).
+
+**Cuddy, Schultz and Fosse 2018: checked for an abstract (PubMed 29498906): none; Unpaywall and
+OpenAlex report it closed. Stays on the unread line.** Other unread-line items checked for a free copy
+and not read: Hartwig and Bond 2011, Bond and DePaulo 2008, Carney, Cuddy and Yap 2010, Chartrand and
+Bargh 1999, Hauch et al. 2016, Levine 2014 (all closed); Elkjær et al. 2022 (accepted manuscript exists
+at pure.au.dk) and Hale and Hamilton's 2016 review (discovery.ucl.ac.uk) were not opened, since lesson
+14 uses each only at abstract level. Nothing on the unread line was read in full, so no entry is
+cleared.
+
+## Gate closures, lesson 13 (2026-09-26)
+
+Stage 3 drafting of lesson 13 ("How it ends, and how it went"). OUTLINE assigns lesson 13 **no gate**
+in the G1 to G20 table. Per drafter defect 26, the three primaries the lesson rests on were re-read in
+full today because Part B §1.2, §5.1 and §6 hold them at summary level, and **three corrections
+follow** (below). Fetched with curl and a generic browser User-Agent (no personal data), converted
+with pdftotext or an HTML-to-text script; strings marked [V] were copied from that text today (curly
+quotation marks and apostrophes given straight, line-break hyphens rejoined). Nothing on the unread
+line was read or cleared; Wolf, Nafe and Tomasello 2021 and Sprecher 2025 stay unread and are not
+cited.
+
+**Mastroianni, Gilbert, Cooney and Wilson 2021** (PNAS; PMC7958231 through the Internet Archive capture
+of 25 August 2026, http://web.archive.org/web/20260825064220/https://pmc.ncbi.nlm.nih.gov/articles/PMC7958231/;
+PMC returns 403 to curl). **Read: the full text**, including Tables 1 and 2 and Materials and Methods.
+Abstract [V]: "These studies suggest that ending conversations is a classic "coordination problem"
+that humans are unable to solve because doing so requires information that they normally keep from
+each other. As a result, most conversations appear to end when no one wants them to." Study 1: Amazon
+Mechanical Turk, $0.75, screened by a three-item test "meant to determine whether the responder was
+an English-speaking human being who was familiar with American culture" [V]; 806 analysed (367 female,
+439 male, mean age 36.78); the conversation had to be "in person (not via phone or computer), with
+exactly one other person, and between 1 and 45 min in length" [V]; 78.41% from that day or the day
+before; 79.16% with a romantic partner, friend or family member. Table 1: signed proportional
+difference -24.08% (median 0.00%), absolute 56.01% (median 33.33%); in minutes, 1.91 longer on
+average but 6.60 different. Study 1 participants believed their own desired duration was shorter than
+their partner's (by 3.87 min). Materials and Methods: 40.94% said external circumstances ended the
+conversation; of the rest, 71.43% said they took the first step, which the authors note may be a
+mistaken belief. Study 2: "talk about whatever you like, for as little time or as much time as you
+like, as long as it is more than one minute and less than 45 minutes" [V, Materials and Methods
+wording]; 366 recruited from the Harvard psychology and Decision Science Laboratory study pools, which
+"recruit from both student and nonstudent populations" [V]; they stayed a full hour whatever they did;
+combined from "three smaller studies" [V]; "57 of the 183 dyads spoke for the full 45 min allotted and
+the experimenter had to terminate their conversations" [V], excluded, and the authors state that the
+exclusion "does not meaningfully influence the results" [V]; 252 analysed (mean age 23.10). Results:
+68.65% felt ready to end; absolute discrepancy 46.03%; "in a mere 1.59% of the conversations did both
+conversants want to end at the same time and manage to do so" [V]; "Just 29.37% of conversations
+ended when one of the conversants wanted them to end" [V]; "In 46.83% of the conversations, both
+conversants wanted the conversation to end before it did, and in 9.52% of the conversations, both
+participants wanted the conversation to end after it did." [V]. (Of 126 pairs these are 2, 37, 59 and
+12; the remaining 16, 12.70%, ended strictly between the two partners' wishes, which is this course's
+arithmetic, consistent with the authors' statement that "the majority of conversations did not end at
+any point between the conversants' incompatible desires" [V].) Estimates of the partner's wish were
+off by 63.84% of the conversation (median 29.41%); partners' wishes actually differed by 68.20%
+(median 34.52%) against 29.11% believed, "more than twice as large as the participants and their
+partners thought it was" [V]. Discussion [V]: "it appears that when two humans talk, one almost always
+wants to stop talking before the other one does."; "people may generally mask those desires when they
+arise and may instead wait for the conversation to pass a suitably ambiguous offramp"; "The social
+conventions that lead people to mask their desires may be referred to as politeness when they govern
+behavior toward strangers and as kindness when they govern behavior toward intimates"; "Future
+research will determine whether these results generalize to a wider range of human beings and social
+situations."; "nearly 10% of the dyads in Study 2 did not get what they wanted because both
+conversants wanted to talk longer than they did". Introduction: linguists and others have studied the
+"closing rituals" [V] (citing Schegloff and Sacks 1973 among others) "but they have not studied how
+and when people decide to use them" [V].
+**Correction to Part B §6:** the 90.57% who kept feeling ready to end for the rest of the conversation
+is from supplementary Study S2 (asked of the 80.92% of S2 participants who had felt ready to end), not
+from Study 1. Study 1 did not ask it.
+
+**Boothby, Cooney, Sandstrom and Clark 2018** (Yale lab PDF, re-read in full). Abstract [V]: "people
+systematically underestimated how much their conversation partners liked them and enjoyed their
+company, an illusion we call the liking gap."; "The liking gap persisted in conversations of varying
+lengths and even lasted for several months, as college dorm mates developed new relationships. Our
+studies suggest that after people have conversations, they are liked more than they know."
+Introduction [V]: "conversations are conspiracies of politeness in which people do not reveal their
+true feelings". Study 1a: 36 community members recruited by fliers near Yale, same-sex pairs, about 5
+minutes with ice-breaker questions; actual liking 5.82, perceived 5.17 (1 to 7); the authors' logic
+[V]: "it cannot logically be true that participants, on average, liked their conversation partners
+more than their conversation partners liked them". **Correction to Part B §5.1:** the shyness figures
+(1.14, 0.55, 0.25) are from tertiles of **10 participants each**; rejection sensitivity, self-esteem
+and narcissism did not moderate. Study 1b: two coders unaware of the hypothesis rated 15 videos;
+observed liking predicted actual liking (b = 0.71) and not perceived liking; participants "neglected
+this information when estimating how much their conversation partners liked them" [V]. Study 2: 84
+Yale students and recent graduates, free 5-minute conversation; "What are the top 3 moments from your
+conversation that caused the other person to form the impression of you that he/she did?" [V];
+**correction: thought valence partly mediated the gap** (indirect effect b = -0.14 of a total b =
+-0.57; direct effect -0.44 remained). Study 3: 102 people, Harvard Decision Science Laboratory pool
+(students and public), talked 2 to 45 minutes; liking gap b = -0.38, enjoyment gap b = -0.52; longer
+conversations went with more liking; the length-by-rating interaction was not significant; in the
+three length groups (n = 18, 60, 24) the liking gap was marginal for short (p = .12) and long (p =
+.056) and significant for medium, while the enjoyment gap was significant in all three. Study 4: 118
+at UK "How to Talk to Strangers" workshops, 100 analysed; partner found more interesting (4.30) than
+people thought they were found (3.61), on 1 to 5, and the gap was larger after talking than predicted
+before (0.68 against 0.37). Study 5: 102 first-year Yale students in suites assigned by deans (not
+random), five surveys September 2016 to May 2017; gap significant at Times 1 to 4, not at Time 5 (p =
+.87), "at all time points except for the final one" [V]; a $100 accuracy incentive at Time 5 made no
+difference; the authors' two suggestions for May (knowing each other well; decisions about living
+together "may have forced discussions that revealed liking" [V]). Discussion: the authors offer three
+further reasons their own thoughts may be too harsh, as suggestions from other research, not tested
+here. Open Practices [V]: "the design and analysis plans were not preregistered"; open data.
+
+**Schegloff and Sacks 1973** (ISCA archive PDF, re-read in full for the closing sections). The
+materials are "conversational materials we have collected over the last several years" [V]; the
+authors note all are in "American English" [V] and many extracts are telephone calls. On stopping
+[V]: "It should suggest why simply to stop talking is not a solution to the closing problem: any first
+prospective speaker to do so would be hearable as 'being silent' in terms of the turn-taking
+machinery, rather than as having suspended its relevance." and such attempts "would be analyzed for
+actions being accomplished in the conversation, e.g., anger, brusqueness, pique, etc." The terminal
+exchange: "an exchange of 'good-byes'" [V], an adjacency pair. Pre-closings [V]: "takes one of the
+following forms, "We-ell...", "O.K...", "So-oo", etc. (with downward intonation contours), these forms
+constituting the entire utterance."; "With them a speaker takes a turn whose business seems to be to
+'pass,'"; "AFTER such a possible pre-closing is specifically a place for new topic beginnings."; "(In
+one two-party conversation of which we have a transcript running to eighty-five pages, the first
+possible pre-closing occurs on page twenty.)" (the OCR reads "too"); if the other answers "O.K." the
+two can be "an actual first exchange of the closing section" [V]; "The pre-closing ceases to be 'pre-'
+if accepted" [V]; such utterances "operate as possible pre-closings when placed at the analyzable
+(once again, TO PARTICIPANTS) end of a topic" [V]; a closing section begins "when none of the parties
+to a conversation care or choose to continue it" [V]; "Closing is the central possibility, further
+talk is alternative to it" [V]; "making arrangements" is a topic type "we independently find to be
+'closing-relevant'" [V]. Pre-closings that announce a warrant, with reference to the other's
+interests [V]: "Well I'll letchu go. I don't wanna tie up your phone." and "This is costing you a lot
+of money."; using material from earlier in the call [V]: "Okay, I letcha go back tuh watch yer
+Daktari."; routine opening questions "can elicit those kinds of materials that will have a use at the
+ending of the conversation in warranting its closing" [V]; "I gotta go" [V] "can even interrupt
+not-yet-possibly-completed utterances" [V], and "While "I gotta go" cannot prohibit further talk,
+while others may insert an unmentioned mentionable after it, it does not specifically invite such a
+sequel, as "O.K." does." [V]. Qualitative; no counts. This course did not find or read a study that
+counted pre-closings.
+
+**Replication search.** OpenAlex, 26 September 2026: works citing Mastroianni et al. 2021 (47) and
+Boothby et al. 2018 (121), searched for "replication". No direct replication of the endings studies
+or of the liking-gap studies by an outside team was found; related studies exist, including two
+independent-lab abstracts already on the unread line, and were not read. The lesson says "this
+course found none", keeping Part B §5.2's "I found no registered or many-labs replication".
