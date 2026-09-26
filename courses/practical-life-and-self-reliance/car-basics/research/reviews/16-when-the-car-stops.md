@@ -240,3 +240,16 @@ run of four at offsets 0 or ±1). No em or en dashes; callout byte-identical to 
 
 **Verdict: CLEAN.** No wrong fact, safety step or jurisdiction; S4 to S7 are minor or information and
 none is a trigger for another full pass. `npm run validate`: exit 0, no line naming this file.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N5/N4:** AAA and AAA Club Alliance carry the base label ("... roadside assistance and run a
+  repair network") at quiz 3's explanation, the ordinary-road table (now labelled once in its
+  header), the triangle paragraph, the breakdown-provider sentence, the recovery-truck paragraph,
+  the tow checkpoint, the neutral misconception and the Go deeper entry.
+- Script 16 mirrors the AAA label; its `checked:` entry says a fresh check is owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

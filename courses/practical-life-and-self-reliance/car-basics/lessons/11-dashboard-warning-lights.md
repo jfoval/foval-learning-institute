@@ -91,8 +91,8 @@ quiz:
     answer: 1
     explain: >-
       The handbook is the maker's instruction for that car, and every source read sends you to it.
-      A card from a body that sells recovery is general advice, and the RAC's own page softens its
-      table further down. Ignoring a light that stays on while driving is the one thing no source
+      A card from a body that sells recovery is general advice, and the RAC, which sells breakdown
+      cover and repairs, softens its own table further down its page. Ignoring a light that stays on while driving is the one thing no source
       says. And the two don't carry the same authority: one is for your car, one is for every car.
 ---
 
@@ -234,7 +234,7 @@ that sells breakdown cover and repairs; it is not an official body.
 | Light | Source, and for which car | What it says |
 |---|---|---|
 | Oil pressure | Ford, 2024 Maverick (US and Canada) | "It illuminates when the engine oil pressure is low." It gives no action on that page.[6] |
-| Oil pressure | The RAC, any car (UK) | "If the low engine oil light is on then you should stop as soon as safely possible and switch off the engine."[8] |
+| Oil pressure | The RAC (sells breakdown cover and repairs), any car (UK) | "If the low engine oil light is on then you should stop as soon as safely possible and switch off the engine."[8] |
 | Coolant temperature | Ford, 2024 Maverick | "If it illuminates, safely stop your vehicle and switch your vehicle off. Have your vehicle checked as soon as possible."[6] |
 | Coolant temperature | The RAC, any car (UK) | "If the red engine temperature warning light is on, you should stop straight away as without enough coolant your engine could get so hot that it effectively welds itself together, causing irreparable damage."[8] |
 | Brake | Nissan, 2024 LEAF (US) | "If the BRAKE warning light illuminates, stop the vehicle immediately and have the system checked."[7] |
@@ -284,7 +284,7 @@ light is on."[6][8] The handbook for your
 car decides.
 
 :::checkpoint A driver's red temperature light comes on. She stops safely and switches off. After a while the light goes out, she can see no leak, and the level is low. What does the RAC's page say she could do, and what does it say instead, and which label covers each step?
-The RAC's page gives her two routes. Once the engine has cooled, she can check the level and top it up, and if she can see no leaks and the light stays off, "you should be fine to continue your journey"; if the light comes back, have it checked. The same page then says an overheating engine "can cut out as well" and that "Rather than risk it, you should call for recovery if you have breakdown cover."
+The RAC's page (the RAC sells breakdown cover and repairs) gives her two routes. Once the engine has cooled, she can check the level and top it up, and if she can see no leaks and the light stays off, "you should be fine to continue your journey"; if the light comes back, have it checked. The same page then says an overheating engine "can cut out as well" and that "Rather than risk it, you should call for recovery if you have breakdown cover."
 
 Stopping is **Yours**. Topping up is **Yours, on conditions**: cold, and the handbook's coolant. Finding the cause is **Call someone**. The page doesn't choose between its two routes for her, and nor does this course; her handbook's page on the light is the tiebreaker.
 :::
@@ -344,7 +344,7 @@ Ford's 2024 Maverick handbook gives the distinction that matters, on page 164:
   deceleration, and have your vehicle checked as soon as possible."[6]
 
 That's the mechanism as far as Ford gives it: a misfire could be occurring, and the raised exhaust
-temperatures that come with it could damage the catalytic converter, which the RAC describes as
+temperatures that come with it could damage the catalytic converter, which the RAC (it sells breakdown cover and repairs) describes as
 controlling the emissions that come from the car.[6][9] Ford doesn't explain
 the misfire itself further, and nor does this course. Page 114 of the
 same handbook says it more shortly: "If it flashes, have your vehicle checked immediately."[6] The
@@ -379,7 +379,8 @@ its own words: the brakes work normally but without the anti-lock assistance.[7]
 what lesson 6 described, the ABS's help in keeping steering control under hard braking. That is why it's amber. ISO 2575
 names "failure of anti-lock brake system" as an amber case, and on its definitions this is a system
 not working, with the normal brakes still there, not danger "immediate or imminent".[1] A red brake
-light, on this course's reading, can mean the brakes themselves are affected. The RAC adds
+light, on this course's reading, can mean the brakes themselves are affected. The RAC, which sells
+breakdown cover and repairs, adds
 the combination that changes things: if the ABS light "comes on with the brake warning light, it
 could indicate that the brake system is failing and you should stop straight away and call for
 recovery if you have breakdown cover."[8] Amber alone, book it in; amber with red, stop.
@@ -411,9 +412,9 @@ your handbook's onto your card, and the cause is **Call someone**.
 
 ## The RAC's table, and why the handbook still governs
 
-The RAC's [guide to warning lights](https://www.rac.co.uk/drive/advice/know-how/car-dashboard-warning-lights-meaning/) opens with the rule most people carry in their heads, as a table:
+The RAC, which sells breakdown cover and repairs, opens its [guide to warning lights](https://www.rac.co.uk/drive/advice/know-how/car-dashboard-warning-lights-meaning/) with the rule most people carry in their heads, as a table:
 
-| Colour | The RAC's meaning |
+| Colour | The RAC's meaning (it sells breakdown cover and repairs) |
 |---|---|
 | Red | "Stop driving as soon as it is safe to do so and call for recovery." |
 | Amber | "Have the vehicle checked by a mechanic as soon as possible." |
@@ -498,10 +499,11 @@ under the other.[2][3] Your handbook shows your car's colours.
 on. The one to worry about is a light that stays on, or one that never comes on at all.[5][7]
 
 **"A steady check-engine light can wait until the next service."** Every source read says to have it
-looked at, the RAC warns that driving on will likely do further damage, and Ford's handbook says that ignoring it can cost power, stop the engine, and cause
+looked at, the RAC, which sells breakdown cover and repairs, warns that driving on will likely do further damage, and Ford's handbook says that ignoring it can cost power, stop the engine, and cause
 damage its warranty "may not cover".[6][9][11]
 
-**"Every red light means call recovery."** It's a reasonable default, and it's the RAC's table. But
+**"Every red light means call recovery."** It's a reasonable default, and it's the table of the RAC, which sells
+breakdown cover and repairs. But
 the handbook for the car governs, and the RAC's own page is more careful than its table.[8]
 
 ## Practice
@@ -531,7 +533,7 @@ Now a sort. Eight lights, as a driver might describe them:
    brake light go out.
 
 :::checkpoint Sort the eight: stop now, book it in soon, or nothing to do. Then check against this.
-Stop now (then **Call someone** for the cause): 1, 2, 4 and 7. The oil and temperature lights are the RAC's stop-now pair and Ford's temperature line; ABS with the red brake light is the RAC's "stop straight away"; the LEAF's charge light in ready is Nissan's "Immediately stop".
+Stop now (then **Call someone** for the cause): 1, 2, 4 and 7. The oil and temperature lights are the stop-now pair of the RAC (which sells breakdown cover and repairs) and Ford's temperature line; ABS with the red brake light is the RAC's "stop straight away"; the LEAF's charge light in ready is Nissan's "Immediately stop".
 
 Book it in soon (**Call someone**, without stopping on the spot): 3 and 5. ABS alone leaves normal braking, and every source read says to have a steady check-engine light looked at.
 

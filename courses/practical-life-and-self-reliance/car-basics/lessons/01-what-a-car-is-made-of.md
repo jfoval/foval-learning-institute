@@ -431,7 +431,7 @@ kPa, torque in N·m and lbf·ft, speed in km/h and mph, temperature in °C and �
 
 ## What this course leaves out, and why
 
-The course teaches the checks, topping up screenwash, oil and coolant (cold), reading warning
+The course teaches the checks, topping up screenwash, oil, and coolant (cold), reading warning
 lights, jump-starting by the handbook, and changing a wheel where it is safe and the handbook gives
 the method. It does not teach, anywhere, getting under the car, axle stands, changing oil, brake pads,
 filters or fuses, bulbs behind panels, plugging a tyre, forcing a diesel's filter to clean itself,
@@ -509,9 +509,9 @@ driver's door pillar, with the car parked off the road, engine or motor off and 
 - F. **Call someone.** Nissan's handbook for the 2024 LEAF sold in the US: "no user serviceable parts". DVSA's MOT manual (Great Britain) tells testers to avoid touching high-voltage wiring, and even 48 V wiring. Don't touch it.
 - G. **Call someone**, and don't do it. All four handbooks this course read on changing a wheel forbid getting under a car on its jack; Toyota's words, "any part of your body", are the widest. For any other car, this course's own rule is the same. Toyota's answer, a jack stand, is a step this course doesn't teach.
 - H. **Call someone**, on this course's reading. The Highway Code (Great Britain) warns that "Low brake fluid may result in brake failure and a crash"; no source this course read makes a falling level an owner's job. Lessons 6 and 9 take it up.
-- I. **Yours**: read the handbook's schedule for that car. CalRecycle's advice (California) is that 3,000 miles "no longer applies to most cars"; AAA, US motoring clubs that sell roadside assistance, give 5,000 to 7,500 miles for "most engines".[19]
+- I. **Yours**: read the handbook's schedule for that car. CalRecycle's advice (California) is that 3,000 miles "no longer applies to most cars"; AAA, whose US clubs sell roadside assistance and run a repair network, gives 5,000 to 7,500 miles for "most engines".[19]
 - J. **Yours.** Law in Great Britain that the lamps the regulation covers, including stop lamps and indicators, are in good working order and, for a lamp, clean (Road Vehicles Lighting Regulations 1989, reg 23, which Annex 6's MUST rule cites)[22]; the check before every drive is GOV.UK's advice.
-- K. **Call someone.** The Highway Code's advice (Great Britain): "Consult a garage or mechanic immediately".
+- K. Check the tyre pressures (**Yours**, lesson 7); then **Call someone**. The Highway Code's advice (Great Britain): "Consult a garage or mechanic immediately".
 - L. **Call someone**, on this course's reading: whoever the agreement names, the employer or the lease company. This course read no agreement; tell them in writing.
 
 If you labelled D as plain Yours, look at the condition again: the job is yours, the timing is not.

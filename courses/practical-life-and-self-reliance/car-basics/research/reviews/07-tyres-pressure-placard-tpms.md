@@ -150,3 +150,20 @@ at switch-on but gives no duration; the MOT manual's "illuminate and go off agai
 Both harmless.
 
 **Verdict:** CLEAN
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N11:** "the trigger is set well below the right pressure" becomes "well below the placard
+  pressure".
+- **N8:** the Pueblo case: "the fix is an inspection of the system (NHTSA says the dealer's)",
+  checked against NHTSA's [V] line "You should contact your vehicle dealer for a system inspection."
+- **N6:** FMVSS 138's Go deeper line loses "the plainest statement anywhere"; it now says the text
+  "says what the light is not for".
+- **N5:** every "whose clubs sell roadside assistance" now adds "and run a repair network"; the
+  last checkpoint gains the label (N4).
+- Script 07 mirrors the AAA label; its `checked:` entry says a fresh check is owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

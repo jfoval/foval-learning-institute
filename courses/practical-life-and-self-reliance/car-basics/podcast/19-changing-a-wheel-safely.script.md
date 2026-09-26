@@ -26,7 +26,7 @@ about: >-
   dusk case and the exercise.
 speakers: 2
 approx_minutes: 7
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; four nits judged by the checker as needing no fix (each faithful to the lesson), left as they are."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; four nits judged by the checker as needing no fix (each faithful to the lesson), left as they are. 2026-09-26, neutrality audit fixes (N5): the RAC's label now reads "sells breakdown cover and repairs", as the lesson does; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -63,7 +63,7 @@ S1: All three have you loosen each about one turn while the wheel is still on th
 
 S2: Now the jack.
 
-S1: The maker's jack, at the maker's jacking point. Honda says other jacks may not support the weight or fit the jacking point, and Mazda that at other positions the vehicle could slip off the jack and seriously injure or even kill someone. Nothing on or under the jack: all three handbooks forbid it, and Mazda says the jack could slip. The RAC, which sells breakdown cover, suggests a plank under it; for your car, the handbook governs. And raise it only as far as the job needs. Toyota says until the tyre is slightly off the ground; Mazda, high enough for the spare to go on.
+S1: The maker's jack, at the maker's jacking point. Honda says other jacks may not support the weight or fit the jacking point, and Mazda that at other positions the vehicle could slip off the jack and seriously injure or even kill someone. Nothing on or under the jack: all three handbooks forbid it, and Mazda says the jack could slip. The RAC, which sells breakdown cover and repairs, suggests a plank under it; for your car, the handbook governs. And raise it only as far as the job needs. Toyota says until the tyre is slightly off the ground; Mazda, high enough for the spare to go on.
 
 S2: And the rule the callout carries.
 

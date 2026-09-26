@@ -188,3 +188,17 @@ frontmatter's 95, inside precision; left at 95.
 
 **Verdict: CLEAN.** Every law statement now matches the regulation's own words and scope, and each
 reading beyond them is labelled as the Code's or the course's.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **Checkpoint K** (consistency): now "Check the tyre pressures (**Yours**, lesson 7); then **Call
+  someone**", before the Highway Code's advice, matching lesson 6's signs table.
+- **Oil top-up condition** (consistency, applied with K as a one-comma fix): "topping up
+  screenwash, oil, and coolant (cold)", so "cold" reads as coolant's condition only.
+- **N5:** AAA in checkpoint I now carries the base label ("whose US clubs sell roadside assistance
+  and run a repair network").
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 100, matches.

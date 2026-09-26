@@ -273,3 +273,23 @@ objective and the misconception ("the federal figures are for commercial vehicle
 federal tread rules that bind a driver cover commercial vehicles"; its `checked:` entry records the
 change. Nothing else in lesson 8 changed; `minutes:` unchanged (measured 100). `npm run validate`:
 exit 0. See `22-us-inspections-emissions-tread.md`.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4:** labels added to quiz 1, 2, 4 and 6 explanations; the tread-rule section's first TyreSafe
+  use; the coin table (TyreSafe, AAA, the AA, once each); the 20p predict; the damage checkpoint; the
+  age predict; three misconceptions (20p, points, age); the exercise checkpoint; both Go deeper
+  entries for commercial bodies. The AAA Go deeper line now reads "the 2018 test by AAA, whose clubs
+  sell roadside assistance and run a repair network" in place of "a club with a stated position".
+  The SVG chart's bar labels are unchanged: the positions directly below it carry each label.
+- **N5:** AAA's "which runs a repair network" and "an approved repair network" become the base
+  label; the exercise's "the AA, which sells repairs" gains "breakdown cover and". The RAC's
+  tyre-specific "sells breakdown cover and tyres" stays.
+- **N6:** the Virginia Go deeper line loses "the clearest account read here"; it "shows how an
+  inspector measures tread".
+- Measured 100, the lesson's existing ceiling.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 100, matches.

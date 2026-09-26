@@ -215,7 +215,8 @@ written, so this course does not learn it again.
 - **2026-09-26, decision 11 exception (lesson 24):** Which?'s 2025 survey averages (£361 franchised
   dealer, £260 local independent) may be quoted, labelled as owners' reported yearly totals with parts
   included, not a price for any job. They are the one exception to the no-prices rule; the test and
-  scripts treat them the same way.
+  scripts treat them the same way. [2026-09-26, course-wide audit N2: the lesson also gives Which?'s pair for cars
+  available new, £331 and £262; the exception covers both pairs.]
 - **2026-09-26, from lesson 25 at Stage 4:** Personal Finance lesson 10, "Defending it", teaches US
   payment-method protections (FTC), mostly against unauthorised use; it has no section 75 and no
   chargeback, so no lesson, script or test item points there for either. Citizens Advice's "Problem
@@ -224,6 +225,22 @@ written, so this course does not learn it again.
   where only the 1977 Act's bar on selling was read. "Lien" is used only for California's § 3068, in
   its own words. Ohio's notice ("more than ten per cent") and (C)(2) ("ten per cent or more") are
   never reconciled, and (C)(5) travels with them.
+- **2026-09-26, from the course-wide neutrality audit (N4): where the label is required.** Decision
+  11's "at each use" means these points, and a commercial or industry-funded body carries its label at
+  every one of them: its first use in each H2 section; each quiz item that names it (in the stem or
+  the explanation); each predict or checkpoint answer; each misconception; each table that quotes it,
+  once in the table; each Go deeper entry. A later use in the same paragraph or H2 section may name the
+  body bare. The Met Office's winter page reproduces the RAC's checklist, so its words are the RAC's:
+  quote them as the RAC's, with the RAC's label where the rule above needs one, and name the Met
+  Office page as where they appear ("the RAC's checklist, as the Met Office page reproduces it"). A
+  weather service's name never carries a breakdown seller's advice alone.
+- **2026-09-26, from the course-wide neutrality audit (N5): one base label per body.** The AA and the
+  RAC: "sells breakdown cover and repairs". AAA: "whose clubs sell roadside assistance and run a repair
+  network". A lesson may add the interest that bears on the claim ("and, on that page, tyres"; "and
+  battery service"), or name it in place of "repairs" where it is the repair in question (lesson 2's
+  "breakdown cover and cambelt changes"). The IMI "awards, and sells, the qualifications it
+  recommends" (SOURCES records it as an awarding organisation that sells them; nothing read says it
+  sells training). The other bodies keep decision 11's wording.
 
 ## Drafting brief: Car Basics, Stage 3
 

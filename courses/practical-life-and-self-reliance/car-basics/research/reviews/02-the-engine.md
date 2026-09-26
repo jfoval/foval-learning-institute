@@ -169,3 +169,16 @@ exit 0, nothing naming 02.
 **Verdict: NEEDS ANOTHER PASS**, for S1 only: re-key two items by script and re-check against every
 lesson on disk. After that, and S5's half-sentence with its SOURCES entry, no further review is
 needed.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4:** labels added at quiz 2's explanation (the RAC), quiz 4's explanation (DENSO, a glow-plug
+  maker), the cambelt predict and the CVT checkpoint (the RAC), the three misconceptions naming
+  DENSO or the RAC, and the first use in Connections.
+- **N6:** "Asking is sensible." cut.
+- The RAC's "breakdown cover and cambelt changes" stays, as N5 allows.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 80, matches.

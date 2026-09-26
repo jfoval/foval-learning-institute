@@ -184,3 +184,20 @@ Callout byte-identical to the brief. No em dash; the only en dash is inside fuel
   electric transmission the sources don't describe further. Honest, if thin; no source read says more.
 
 **Verdict: CLEAN**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **Two-way misconception** (EV axis): added "Electric cars mostly break down because they run out
+  of charge", with the AA's 2021 "doesn't feature within the top three" and its label (recorded in
+  SOURCES' Stage 4 note of today).
+- **N4:** labels added to quiz 2's explanation (the AA), quiz 5's explanation (AAA), the first uses
+  in "Four kinds of car" and "The 12 V battery" (the AA; the RAC), and the 12 V checkpoint.
+- **Trims to stay at 90** (non-contested prose): the AA mention in "What an owner still checks" (now
+  "The tyres on that list are taught in lessons 7 ... and 8"), the duplicate AA call-out clause in the
+  "no maintenance" misconception (the new misconception carries it), the Connections sentence listing
+  per-car figures, and a shorter Halderman Go deeper line.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

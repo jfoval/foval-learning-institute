@@ -188,3 +188,20 @@ to the flat one's" echoes the AA's step 2 wording, which a reader could take as 
 beneath says the page gives both, so it is left.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N8:** a silent handbook is "a question for the maker's dealer or a garage that works on that
+  make".
+- **N5:** every "sells breakdown cover" for the AA gains "and repairs".
+- **N4:** labels added at the first use in "Why the last clamp goes where it goes" and in the
+  Portree checkpoint.
+- **N6:** HSE's and Nissan's Go deeper lines lose "the clearest official account" and "The fullest
+  ... this course read".
+- Script 13 mirrors the N8 line (and its about note); its `checked:` entry says a fresh check is
+  owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 85, matches.

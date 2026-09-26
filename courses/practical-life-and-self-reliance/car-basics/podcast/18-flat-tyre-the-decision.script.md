@@ -25,7 +25,7 @@ about: >-
   the plug from outside and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all four nits fixed (what drivers expect, the tyre structure, a spare on a car, try to keep control)."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all four nits fixed (what drivers expect, the tyre structure, a spare on a car, try to keep control). 2026-09-26, neutrality audit fixes (N5): Green Flag's label now reads "sells breakdown cover and repairs", as the lesson does; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -54,7 +54,7 @@ S1: Night on the M62 over the Pennines. A rear tyre goes flat. She moves left in
 
 S2: Sounds like the best case. I'd say yes.
 
-S1: No. On a motorway, Rule two hundred and seventy seven says do not attempt repairs on your vehicle, National Highways says the same, and Green Flag, which sells breakdown cover, says not to change a tyre there, even if you're on the hard shoulder or in an emergency area. The side, the spare and her skill don't come into it. So she takes the steps I gave at the start: hazard lights, sidelights because it's dark, everyone out on the side away from traffic and behind the barrier if there is one, and nobody goes back to the car.
+S1: No. On a motorway, Rule two hundred and seventy seven says do not attempt repairs on your vehicle, National Highways says the same, and Green Flag, which sells breakdown cover and repairs, says not to change a tyre there, even if you're on the hard shoulder or in an emergency area. The side, the spare and her skill don't come into it. So she takes the steps I gave at the start: hazard lights, sidelights because it's dark, everyone out on the side away from traffic and behind the barrier if there is one, and nobody goes back to the car.
 
 S2: Then who does she call?
 

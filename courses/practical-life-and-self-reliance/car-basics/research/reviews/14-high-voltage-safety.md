@@ -248,3 +248,19 @@ Callout byte-exact against `CAR_BASICS_SAFETY`; no em dashes or spaced en dashes
   than Nissan's "Follow the warning labels".
 
 **Measures:** 6,642 words, `minutes: 90` (measured 90). `npm run validate`: exit 0.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N6, amended:** "ASE's list ... is the fullest account of the hazards this course read" becomes
+  "ASE's list, from the ASE Education Foundation, which accredits US technician training programmes,
+  names the hazards trainee technicians must know about." The audit's wording, "the body that
+  certifies technicians", describes ASE's individual certification, not the Foundation whose
+  standards the lesson quotes (SOURCES, Part A), so it was not used.
+- **N5, amended:** the IMI "awards, and sells, the qualifications it recommends", in the body and in
+  source 8. The audit's "sells training for" is not in SOURCES, which records the IMI as an awarding
+  organisation that sells its qualifications.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

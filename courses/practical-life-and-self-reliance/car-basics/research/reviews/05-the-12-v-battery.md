@@ -147,3 +147,28 @@ of fact.
 `npm run minutes` 85, matches. SOURCES not edited.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N7:** after "It sells batteries on all three pages", added "AAA's page advertises its own battery
+  service too." The course's reading now says whose test points it uses: AAA's (labelled, "whose
+  clubs sell roadside assistance and battery service") for a test from three to five years old and
+  every year before winter, and the AA's jump-start page for changing one only on signs of
+  deterioration.
+- **N6:** "puts it bluntly on its maintenance page" becomes "says on its maintenance page"; "AAA's
+  list is the most complete the course read, and it's written for owners" becomes "AAA, whose clubs
+  sell roadside assistance and battery service, gives this list for owners". HSE's Go deeper line
+  loses "the clearest official account" (same pattern as N6's Go deeper list).
+- **N5:** the charge-light table's cells now read "Motoring organisation, UK; sells breakdown cover
+  and repairs" and "US motoring club; sells roadside assistance, runs a repair network" (the audit's
+  AAA cell dropped the repair network; added to match N5's own base label).
+- **N4:** labels added to all six quiz explanations that name the AA or AAA, both checkpoints, the
+  first uses in "What the small battery does", "Why short trips flatten it", "Heat, cold and age",
+  "Signs" and "The charge warning light", both tables, the predict, all four misconceptions naming
+  a body, the part-2 checkpoint and the AAA Go deeper entry. This also closes the earlier review's
+  "noted, not changed" line about unlabelled checkpoint answers.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 85, matches.

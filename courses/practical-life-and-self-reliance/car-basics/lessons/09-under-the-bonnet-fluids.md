@@ -27,7 +27,8 @@ quiz:
     answer: 1
     explain: >-
       The handbook for the car governs, and this one says a level between the marks needs nothing.
-      A litre is the AA's general figure for the whole gap between the marks, so adding it here
+      A litre is the general figure of the AA, which sells breakdown cover and repairs, for the
+      whole gap between the marks, so adding it here
       would take the level well past the top, and the AA says too much oil is "just as bad" as too
       little. Filling to the top rests on the same mistake: Ford's handbook says a level above the
       maximum "may cause engine damage". Ford calls additives "unnecessary", and the AA says oil
@@ -81,7 +82,8 @@ quiz:
       time", so a silent car is not an off car, and READY is not off. Nissan says the LEAF's fan can
       start even when the car is not in ACC, ON or READY, so switching off and reaching in at once
       is exactly what its warning is about. Nissan also says to wait until the motor compartment
-      cools down. Only the last option does all of that before anyone looks.
+      cools down. Only switching fully off, key away, and waiting until it's cool does all of that
+      before anyone looks.
   - q: >-
       As general information: on a dry, bright day a driver in Great Britain sets off knowing the
       washer bottle is empty. Which statement fits the regulation and the MOT manual this course
@@ -209,7 +211,8 @@ Lesson 2, "The engine: petrol, diesel, and the drive to the wheels", said the so
 named oil's job without explaining it. Two more pages read for this lesson go one step further.
 National Highways, the government-owned company that runs England's motorways and major A-roads,
 says "the oil lubricates, cleans, cools and protects the moving parts of your engine, preventing
-your engine from seizing up and breaking down."[5] And the AA says what happens without enough of
+your engine from seizing up and breaking down."[5] And the AA, which sells breakdown cover and
+repairs, says what happens without enough of
 it: "With low oil pressure, there's less lubricant for the bearings and other moving parts in your
 engine. Metal rubs on metal, quickly causing irreversible and expensive damage."[2]
 
@@ -237,7 +240,7 @@ agree on how long.
 |---|---|---|
 | Ford, 2024 Maverick handbook (US and Canada) | That truck | Check "before starting the engine, or switch the engine off after warm up and wait 15 minutes for the oil to drain into the oil pan" |
 | National Highways | Any car, general advice | "Ensure your engine is switched off for at least five minutes and your vehicle is parked on an even surface" |
-| The AA | Any car, general advice | Best before you use the car; after a drive, 5 to 10 minutes |
+| The AA (sells breakdown cover and repairs) | Any car, general advice | Best before you use the car; after a drive, 5 to 10 minutes |
 
 Sources: Ford p. 308; National Highways; the AA.[3][5][2]
 
@@ -289,7 +292,8 @@ shows the oil a third of the way up from the minimum mark.
 
 :::checkpoint On the AA's advice, should oil go in, and roughly how much would take it to the top? What happens if the owner just pours in a litre?
 
-Yes, some: a third of the way up is below halfway, so the AA "would recommend adding some oil". On the
+Yes, some: a third of the way up is below halfway, so the AA (which sells breakdown cover and
+repairs) "would recommend adding some oil". On the
 AA's figure of about a litre between the marks, about two thirds of a litre would take it to the top
 mark; that's this course's arithmetic on the AA's round number, and your engine's gap may differ.
 Pour in a whole litre and the level ends up about a third of a litre above the maximum mark, which the
@@ -370,10 +374,10 @@ Here are the waits side by side.
 |---|---|---|
 | Ford, 2024 Maverick handbook (US and Canada) | That truck | "Wait 10 minutes for the cooling system to cool down", then a thick cloth over the cap and open it slowly |
 | Nissan, 2024 LEAF handbook (US) | That car | "Wait until the motor compartment cools down" |
-| The Met Office, reproducing the RAC's list (a motoring organisation, as above) | Any car, advice | "Remember only check this when the engine is cool otherwise you risk scalding yourself." |
+| The RAC's list, as the Met Office page reproduces it (the RAC sells breakdown cover and repairs) | Any car, advice | "Remember only check this when the engine is cool otherwise you risk scalding yourself." |
 | The Highway Code, Annex 6 (Great Britain) | Any car that has overheated, advice | "If your engine overheats, you should wait until it has cooled naturally. Only then remove the coolant filler cap and add water or other coolant." |
 
-Sources: Ford p. 309; Nissan pp. 8-5 and 8-6; the Met Office; Annex 6.[3][4][6][1]
+Sources: Ford p. 309; Nissan pp. 8-5 and 8-6; the Met Office page; Annex 6.[3][4][6][1]
 
 Two things about that table. Annex 6's sentence is about an engine that has overheated, not an
 ordinary drive, and it is advice, a should. And "cold" is this course's rule, not any one source's:
@@ -400,7 +404,8 @@ words.
 
 ### A level that falls
 
-Coolant isn't supposed to be used up the way oil is. The Met Office: "It's not normal for coolant
+Coolant isn't supposed to be used up the way oil is. The RAC's checklist, as the Met Office page
+reproduces it: "It's not normal for coolant
 levels to drop suddenly, so if it does, get it checked out at a garage."[6] Ford puts a number on it
 for the Maverick: "If you have to add more than 1.1 qt (1 L) of engine coolant per month, have your
 vehicle checked as soon as possible." Nissan, for the LEAF: "If the cooling system frequently
@@ -436,7 +441,8 @@ adding fluid, which some handbooks do describe.
 Car A: **Yours**, and nothing happens except a line in the log; a level between the marks that isn't
 moving calls for nothing, and Toyota's handbook, in lesson 6, calls even a slight fall as the pads
 wear normal. Car B: **Call someone**; Ford and Nissan send a coolant level you keep having to make up
-to a garage, and the Met Office a sudden drop. Car C: **Call someone**, and on Nissan's handbook for its own car, don't drive it until the brakes have been
+to a garage, and the RAC's checklist (on the Met Office page; the RAC sells breakdown cover and
+repairs) a sudden drop. Car C: **Call someone**, and on Nissan's handbook for its own car, don't drive it until the brakes have been
 checked; your handbook's words for your car come first, and lesson 11 covers the red brake light,
 which Nissan's handbook ties to a low fluid level.
 :::
@@ -452,14 +458,15 @@ reservoir "can be filled to the top" and to follow the mixing instructions on th
 filler usually has a bright cap with a windscreen symbol on it; the engine-bay picture in your
 handbook shows yours. Topping it up is **Yours**.
 
-What you put in depends on the weather, and here two handbooks and one weather service agree in
-outline and differ in the numbers.
+What you put in depends on the weather, and here two handbooks and one checklist agree in outline
+and differ in the numbers.
 
 - **Ford**, for the Maverick: "If you operate your vehicle in temperatures below 41°F (5°C), use washer
   fluid with antifreeze protection."[3]
 - **Nissan**, for the LEAF: "In the winter season, add a windshield-washer antifreeze", pre-mixed with
   water to its maker's instructions before it goes in, not mixed inside the reservoir.[4]
-- **The Met Office**, the UK's weather service, for winter: "Make sure you top up your screenwash
+- **The RAC**, which sells breakdown cover and repairs, in the winter checklist the Met Office (the
+  UK's weather service) reproduces on its page: "Make sure you top up your screenwash
   with a product that is effective down to at least -15 degrees Celsius."[6]
 
 One thing never goes in. Ford: "Do not put coolant in the windshield washer reservoir. If sprayed on
@@ -511,7 +518,8 @@ cars that do have one, lists "Power steering fluid" among the levels checked.[10
 no handbook for a car with the fluid, so it gives no method. If your car has the reservoir, your
 handbook's method is the one to follow.
 
-**AdBlue.** On some diesels the AdBlue filler is under the bonnet; the AA lists it as "either next to
+**AdBlue.** On some diesels the AdBlue filler is under the bonnet; the AA, which sells breakdown
+cover and repairs, lists it as "either next to
 your fuel filler, in the boot or under the bonnet".[11] Lesson 3 covered it. Topping up AdBlue (DEF,
 in the US) is **Yours, on conditions**: from a sealed container, into the blue-capped AdBlue tank
 only, as your handbook describes.
@@ -529,14 +537,15 @@ and what colour it is.
 off; the cap stays shut until the engine is cold, because the system is under pressure while it's
 hot (Nissan, Ford).[3][4] Then read the level.
 
-**"More oil is safer."** The AA calls too much "just as bad as having too little", and Ford says
+**"More oil is safer."** The AA, which sells breakdown cover and repairs, calls too much "just as bad as having too little", and Ford says
 above the maximum mark "may cause engine damage".[2][3]
 
 **"An additive will help the engine."** Ford calls oil additives "unnecessary" and says they "could
 lead to engine damage"; Nissan says no additives in its coolant either.[3][4]
 
 **"Every car has a dipstick."** Some newer cars show the oil level on the dashboard instead
-(National Highways; the AA), and an electric car has no engine oil.[5][2]
+(National Highways; the AA, which sells breakdown cover and repairs), and an electric car has no
+engine oil.[5][2]
 
 **"A falling brake-fluid level just needs topping up."** Topping up hides a fault; lesson 6 set out
 why, and in this course it is **Call someone**.
@@ -577,7 +586,8 @@ wrong, stop, write it down, and treat it as **Call someone**.
 :::checkpoint Check your log against these. When does a reading in steps 3 and 4 mean you stop being the one who deals with it?
 
 Milky oil, black and sludgy oil, an oil level that keeps rising, or oil you're adding more often
-than usual: **Call someone** (the AA; National Highways; Ford). Coolant below MIN on a cold engine is
+than usual: **Call someone** (the AA, which sells breakdown cover and repairs; National Highways;
+Ford). Coolant below MIN on a cold engine is
 **Yours, on conditions**, as a separate job after this exercise, not during it: the handbook's
 coolant, cold, and only to MAX. Coolant you keep having to add is **Call someone**. Brake fluid below
 MIN, or a level that keeps falling from week to week: **Call someone**, and on Nissan's handbook for
@@ -612,8 +622,8 @@ summer", comes back to antifreeze in the coolant and the washer bottle.
   free. Read here in full. A short official checklist for England's roads, covering tyres, fuel, oil,
   screenwash and lights.
 - **The AA, ["How to check and top up your car engine oil"](https://www.theaa.com/breakdown-cover/advice/how-to-check-and-change-your-car-oil)**,
-  free; a motoring organisation that sells breakdown cover and repairs. Read here in full. The
-  clearest plain account read of the dipstick, the colour of oil and what low oil does.
+  free; a motoring organisation that sells breakdown cover and repairs. Read here in full. Covers
+  the dipstick, the colour of oil and what low oil does.
 - **Halderman and Ward, *Automotive Technology: Principles, Diagnosis, and Service*, 7th edition
   (Pearson)**, a technicians' textbook. This course read only its table of contents, which lists
   chapters called "Engine Oil and Filters" and "Antifreeze and Coolant"; those are the places to look

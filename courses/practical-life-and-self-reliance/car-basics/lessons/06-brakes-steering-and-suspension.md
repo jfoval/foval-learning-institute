@@ -202,7 +202,7 @@ The cap tells you what the maker specified. For a car sold in the US that warnin
 
 This is general information, not legal advice.
 
-Brake fluid takes up water. The clearest statement of it is in US law: FMVSS 116 makes every
+Brake fluid takes up water. US law puts it on the label: FMVSS 116 makes every
 container of brake fluid sold there carry a set of warnings, and three of them read:[2]
 
 - "FOLLOW VEHICLE MANUFACTURER'S RECOMMENDATIONS WHEN ADDING BRAKE FLUID."
@@ -432,6 +432,9 @@ and a label.
 | Continuous grinding or squeal | "the brake linings may be worn-out and an authorized dealer should check them" | Ford, 2024 Maverick (US and Canada)[7] | Call someone |
 | Steering with more free play, heavier, or noisy | "Check for changes in the steering conditions, such as excessive free play, hard steering or strange noises." | Nissan, 2024 LEAF, owner checks (US)[6] | Noticing is Yours; the cause is Call someone |
 | The car keeps bouncing after you push down on the front or rear | "its shock absorbers are worn. Worn shock absorbers can seriously affect the operation of a vehicle and should be replaced" | Highway Code, Annex 6, advice, Great Britain[1] | The test is Yours; the fix, Call someone |
+
+Where a handbook says "dealer", that's the maker's own network; lesson 24, "Choosing a garage, servicing and
+warranties", sets out what each country's law says about using another garage.
 
 A few of these need a sentence more.
 

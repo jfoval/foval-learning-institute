@@ -131,3 +131,16 @@ every other resolution. No edits to the lesson were needed.
   13 misses are lessons 09 and 13).
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4 (Met Office):** quiz 5's explanation now says "The Met Office page, reproducing the RAC's
+  checklist (the RAC sells breakdown cover and repairs)" and "the RAC's checklist on that page";
+  its key option reads "A yearly change is RAC advice on a Met Office page; Nissan's handbook goes by
+  wear" (key D unchanged, option lengths 78 to 84). The wipers paragraph now leads with "The RAC's
+  winter checklist ..., as the Met Office page reproduces it".
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 75, matches.

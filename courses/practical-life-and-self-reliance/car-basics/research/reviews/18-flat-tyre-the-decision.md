@@ -233,3 +233,17 @@ but the M62 is in England and lesson 17 carries the scope.
 **Measures.** `npm run minutes` 90 (claimed 90); 7,327 words by its count.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N5:** the RAC and Green Flag "sells breakdown cover" gain "and repairs" (quiz 4, the motorway
+  predict, "Where to stop", the dark paragraph, the misconception, checkpoint d); AAA clubs gain
+  "and run a repair network".
+- **N6:** Toyota "is blunt:" becomes "says:"; NHTSA's Go deeper line becomes "Its blowout section
+  says what to do with your hands and feet."
+- Script 18 mirrors Green Flag's label; its `checked:` entry says a fresh check is owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

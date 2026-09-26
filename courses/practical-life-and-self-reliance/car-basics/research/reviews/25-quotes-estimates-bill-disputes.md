@@ -256,3 +256,16 @@ Personal Finance lesson 10 and Car Basics lessons 1, 3, 4, 5, 6, 8, 9, 11, 13, 1
   85, ok. `npm run quotes car-basics`: 0 not found.
 
 **Verdict: CLEAN** (two one-edit fixes applied above).
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4:** The Motor Ombudsman carries its label in the estimate predict's answer and at its first
+  use in "Disputes: the free routes".
+- **N5:** the stop table's AA and RAC cells read "sells breakdown cover and repairs".
+- **N6:** BAR's Go deeper line becomes "Walks through estimate, authorisation, teardown, invoice and
+  old parts, under California's law."
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 85, matches.

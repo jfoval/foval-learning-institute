@@ -122,6 +122,8 @@ test). A critic's point, that the rates rose at some schemes, should travel with
   whether the scheme counts were tested for significance, so the fixer checks Annex B before adding
   any wording about testing. If nothing is found, add none.
 
+**Applied 2026-09-26 (N1)** as written in lesson 17, including both cuts. Annex B was checked and covers no significance test of the scheme counts, so no testing wording was added. To hold 90 minutes, a few non-argument sentences were also cut. Script 17 carries the matching line; its fresh check is owed. Recorded in `reviews/17-motorways-and-fast-roads.md`.
+
 ### N2. Lesson 24: Which?'s narrower pair for cars sold new is missing [minor]
 
 Read live, 26 September 2026 (which.co.uk, "Car servicing and repair costs", 9 Jun 2026): "Across all
@@ -149,6 +151,8 @@ fixed-price deal). A franchised dealer would insist on the second pair. The fixe
   cut the Scottsdale case's longest sentence instead.
 - **Conventions.** The pipeline-briefs decision 11 exception (dated bullet) should name both pairs.
   Script 24 does not print the figures, so it needs no change.
+
+**Applied 2026-09-26 (N2)** as written in lesson 24, with the Connections cut; the Scottsdale case is untouched. The pipeline-briefs decision 11 exception still names only the first pair and is left for the orchestrator. Recorded in `reviews/24-choosing-a-garage-servicing-warranties.md`.
 
 ### N3. The project's tyre line assumes a replacement point above the legal floor [minor]
 
@@ -214,6 +218,10 @@ as open, not blocking, and so does this one.
 
    The sweep is mechanical. Where a line is also in a podcast script, the script mirrors it.
 
+**Applied 2026-09-26 (N4), lessons 17 to 24 only.** L17: AAA at its first use in each H2, in the US table and in Source 16. L21: the ABI, labelled from its own page. L24: The Motor Ombudsman at its first use in each H2, the table, the checkpoint, the misconception and the exercise; Which? at 292 and in Source 30. The convention bullet in `pipeline-briefs.md` is not this fixer's to write.
+
+**Applied 2026-09-26 (N4), lessons 1 to 16, 18, 19, 20 and 25.** The convention is a dated bullet in `pipeline-briefs.md`, with the six required points as given. The Met Office bullet was reworded to follow the words to their author: the page says "The RAC recommends using the acronym 'FORCES'" (re-read live today), so L9 (the coolant table, "A level that falls", the three-car checkpoint, the screenwash bullet), L10 (quiz 5's explanation and key option, the wipers paragraph) and L15 (the winter-list intro and the screenwash back-reference) now quote the RAC's checklist as the RAC's, with its label, "as the Met Office page reproduces it". The sweep then labelled every required point the ledgers listed in L2, L3, L4, L5, L7, L8, L9, L11, L13, L15, L16 and L25, plus the same points found by a unit-by-unit check (quiz items, predicts, checkpoints, misconceptions, tables, Go deeper, first use per H2). L8's Go deeper AAA entry reads as the audit gives it. L8's SVG bar labels are unchanged; the labelled positions follow the chart directly. L20 needed nothing. Recorded in each lesson's review file.
+
 ### N5. The same body is labelled in different words across lessons [minor, course-wide]
 
 **The variants found.**
@@ -246,6 +254,10 @@ behind the claim, and they stay. The problem is the drift between the plain labe
 
    L14 206 and its Source 8 should both say "awards, and sells training for".
 
+**Applied 2026-09-26 (N5), lessons 17 to 24 only.** AAA's base label is in L17 and L24, and the RAC's in L17 (body, checkpoint, misconception, Source 12).
+
+**Applied 2026-09-26 (N5), lessons 1 to 16, 18, 19, 20 and 25.** The base labels are a dated bullet in `pipeline-briefs.md`; interest-specific variants (L2's cambelt changes, L8's tyres, L11's mobile mechanics) stay, as the audit says. The L5 cells read "Motoring organisation, UK; sells breakdown cover and repairs" and "US motoring club; sells roadside assistance, runs a repair network" (the audit's AAA cell dropped the repair network; added to match the base label). The plain-label drift was normalised in L1, L3, L7, L8, L13, L15, L16, L18, L19 and L25, and Green Flag's "sells breakdown cover" became "and repairs" in L18 and L19 to match decision 11. **Not as given:** L14 and its Source 8 say the IMI "awards, and sells, the qualifications it recommends"; SOURCES records it as an awarding organisation that sells them, and nothing read says it sells training.
+
 ### N6. Grades in the course's voice [minor, course-wide]
 
 About twenty sentences grade a source, or a country's text, rather than describe it. Home Repair's N5
@@ -269,6 +281,10 @@ country:
 L12 460, L13 505 and 508, L15 517, L18 529 and L25 555, and "is blunt" at L18 159. Each should be
 replaced with what the page covers and for whom. L17 407's "most detailed evidence" is in N1's cut.
 
+**Applied 2026-09-26 (N6), lessons 17 to 24 only.** L24 277 as given; L17 407 in N1's cut. Also L24's "puts it plainly" (FTC) became "says", and L22 124's "fullest official account" became "main official account".
+
+**Applied 2026-09-26 (N6), lessons in scope.** As given: L5 300, L5 122 to 123, L9 616, L6 205, L3 482 to 483, L15 195 (with "It's advice" gone and the paragraph's later duplicate label cut), L2 428. The Go deeper superlatives are replaced with what each page covers at L7 590, L8 658, L12 460, L13 505 and 508, L15 517, L18 529 and L25 555, plus L5's HSE line ("the clearest official account", same pattern); L18 159's "is blunt" became "says". **Two not as given.** L14 159: the ASE Education Foundation accredits training programmes and does not certify technicians (SOURCES, Part A), so it reads "from the ASE Education Foundation, which accredits US technician training programmes, names the hazards". L15 277: "the reason given is that" would put the course's reason in the Highway Code's mouth (Rule 229's reason is snow falling "into the path of other road users"), so it reads "These are advice. On this course's reading, snow sliding ...".
+
 ### N7. An interest is named for one seller and not for the one beside it [minor, lesson 5; lesson 15 and the project follow]
 
 **The imbalance.** Lesson 5 names the AA's motive in the course's voice: "It sells batteries on all three
@@ -290,6 +306,8 @@ One seller's advice ends up as the course's default, unlabelled.
   **Call someone**".
 
 Net words in lesson 5 are about +25. The lesson measures 85.
+
+**Applied 2026-09-26 (N7)** in L5 (280 and the reading at 285 to 287), L15 157 and project 407, as given, with AAA's label added in the project line ("whose clubs sell roadside assistance and battery service"), the L5 reading and L15 ("which sells roadside assistance and battery service") to match the base label. L5 measures 85 still.
 
 ### N8. "The dealer" as the only route, in the course's voice [minor, lessons 3, 6, 7, 13]
 
@@ -314,6 +332,8 @@ independent garage would object that the earlier lessons had already sent the re
   lesson 6 measures 90.)
 
 Recall repairs (lesson 23) go to the maker's dealer by law and by the notice, and they stay.
+
+**Applied 2026-09-26 (N8)** as given in L3, L7 (NHTSA's "contact your vehicle dealer" checked in SOURCES) and L13, and the L6 note after the signs table, with lesson 24's title added. Scripts 03 and 13 carry the same line and mirror it; each `checked:` entry says a fresh check is owed.
 
 ### N9. Lesson 17: the misconceptions and the quiz correct only the critics' over-claim, and the operator's reason for the roads is missing [major]
 
@@ -354,6 +374,8 @@ only trace of it.
 - **Timing.** With N1's net zero, the lesson stays near 8,160 words and 90 minutes. The fixer re-runs
   `npm run minutes`. Script 17 mirrors the capacity line if it gives the operator's case.
 
+**Applied 2026-09-26 (N9)** as written in lesson 17, with all the stated cuts. Quiz 5 is now two-way: the Transport Committee distractor became the operator-side over-claim, and the explanation says the April 2023 release claims nothing about safety either way. The key is unchanged. Script 17 mirrors the capacity reason and the value half.
+
 ### N10. Lesson 24: the rebuttal of AAA's monitor claim uses a car with no engine oil, and doubt is cast on one side only [minor]
 
 **The problem.** Line 179 to 181 reads: "That's **contested**, and partly commercial: AAA's "newer cars" is a
@@ -367,6 +389,8 @@ handbook still names the driving that works against the oil, and Nissan's still 
 schedule, though for a car with no engine oil. No source read measured how accurate monitors are."
 (Net about 0 words; cut the existing "No source read measured how accurate monitors are." that
 follows.)
+
+**Applied 2026-09-26 (N10)** as written in lesson 24.
 
 ### N11. The regulation axis: two small one-sided spots [minor]
 
@@ -382,6 +406,10 @@ These do not change the overall picture: inspection (lesson 22), smart motorways
 and N9), right to repair (lesson 24) and the DEF derate (lesson 3) are each reported with both sides
 or as settled fact.
 
+**Applied 2026-09-26 (N11), lesson 21 part only**, as written. The lesson 7 part is not this fixer's.
+
+**Applied 2026-09-26 (N11), lesson 7 part**, as written: "well below the placard pressure".
+
 ### N12. The project's roadside fail binds a GB reader and not a US one [minor]
 
 **The problem.** Project 515 to 516 fails "a repair, wheel change, jump start or warning triangle on a
@@ -391,6 +419,8 @@ shoulder" as a stop (this course's reading, lesson 18).
 
 **Fix (project 515 to 516):** "...on a motorway, its hard shoulder or an emergency area, or a wheel
 change on a US freeway shoulder (lessons 13, 16, 18 and 19)".
+
+**Applied 2026-09-26 (N12)** as written. Left for a later open: project Part 6 and lesson 13 also make a jump start on a US freeway shoulder a call, and the fail line names only the wheel change.
 
 ---
 
@@ -423,6 +453,8 @@ change on a US freeway shoulder (lessons 13, 16, 18 and 19)".
   down because they run out of charge."** In the AA's 2021 call-outs (one provider, one year), running
   out of charge "doesn't feature within the top three"; the 12 V battery and tyres were the top two."
   Lesson 4 measures 90.
+
+  **Applied 2026-09-26** in L4 as given, with the AA's label added; the quotation is recorded in SOURCES' Stage 4 note of today. L4 stays at 90 after trimming non-contested prose (recorded in its review file).
 - **UK or US.**
   - **Quizzes:** items across the course come out about even (roughly 45 UK, 40 US, the rest both or
     neither), but single lessons skew. Lessons 2 and 4 are all US-sourced; lessons 3, 16 and 17 are
@@ -466,6 +498,8 @@ change on a US freeway shoulder (lessons 13, 16, 18 and 19)".
   - **Oil top-up condition.** L1 434's "screenwash, oil and coolant (cold)" can be read as putting
     "cold" on oil too, while L2 379 to 380 gives oil's conditions as the handbook's grade, level ground
     and engine off. **Fix L1 434:** "topping up screenwash, oil, and coolant (cold)".
+
+    **Applied 2026-09-26:** both slips fixed in L1 as given (checkpoint K and the comma at 434).
 - **The same claim is treated the same way.** The following each travel with their pairs as
   `course-wide.md` requires, in every place the ledgers found them: GAO's 16 states ("as of July
   2015", "fewer since"), the 1.6 mm band, the space saver's 50 mph as an exemption, the TPMS 25 per
@@ -476,6 +510,7 @@ change on a US freeway shoulder (lessons 13, 16, 18 and 19)".
 - **Found in passing, not neutrality.** L23 447 says lesson 22 showed "that California's Smog Check
   report lists open safety recalls". Lesson 22 no longer says so. BAR's line is in SOURCES [V] (line
   8266). **Fix:** cut the clause, or have lesson 23 give BAR's words itself.
+  **Applied 2026-09-26:** the clause is cut from lesson 23's Connections.
 
 ## The last word in each contested block
 

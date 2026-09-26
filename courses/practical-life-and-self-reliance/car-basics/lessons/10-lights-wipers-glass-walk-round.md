@@ -87,15 +87,14 @@ quiz:
       - The law in Great Britain says wiper blades must be changed at least every 12 months
       - Nissan's handbook gives a yearly blade change, and the Met Office page agrees
       - Nothing to decide yet, since blades only need a look once they have stopped working
-      - A yearly change is advice on a Met Office page; Nissan's handbook goes by wear
+      - A yearly change is RAC advice on a Met Office page; Nissan's handbook goes by wear
     answer: 3
     explain: >-
-      The Met Office page, which reproduces the checklist of the RAC, a motoring organisation that
-      sells breakdown cover, says "It's recommended to change
-      wiper blades every 12 months". Nissan's handbook says to check them "if they do not wipe
+      The Met Office page, reproducing the RAC's checklist (the RAC sells breakdown cover and
+      repairs), says "It's recommended to change wiper blades every 12 months". Nissan's handbook says to check them "if they do not wipe
       properly" and to replace them if they are worn. Neither is law: the regulation in Great Britain
-      requires wipers to be kept in efficient working order and sets no interval. And the Met Office
-      page also says to run your fingers along the blades to check for splits, so they are looked
+      requires wipers to be kept in efficient working order and sets no interval. And the RAC's checklist
+      on that page also says to run your fingers along the blades to check for splits, so they are looked
       at before they stop working.
 ---
 
@@ -167,8 +166,8 @@ beads do not form when rinsing with clear water."[2]
 
 ### Wipers and blades
 
-The Met Office's winter checklist, which reproduces the RAC's (the RAC sells breakdown cover and
-repairs), says to "check your wipers are doing the
+The RAC's winter checklist (the RAC sells breakdown cover and repairs), as the Met Office page
+reproduces it, says to "check your wipers are doing the
 job by spraying some washer fluid and checking they clean the windscreen", then run your fingers
 along the blades "to check for splits". It adds: "It's recommended to change wiper blades every 12
 months."[4] That is advice, not law, and it comes from that checklist, on a weather service's

@@ -319,3 +319,18 @@ stop-points table and the "Elsewhere" route) at the sentences the project relies
   or en dash in the file. `npm run validate` exits 0.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+
+- **N7 (Part 7, winter list):** "the battery tested before winter if you follow the advice of AAA,
+  whose clubs sell roadside assistance and battery service (lesson 15), which is **Call someone**",
+  so one seller's test point is no longer every reader's default.
+- **N12 (fail list):** the roadside line now also fails "a wheel change on a US freeway shoulder",
+  so a US reader is held to the same stop as a Great Britain reader on a motorway (lessons 18 and 19;
+  lesson 25's stop table). Not changed, for a later open: Part 6 (line 384) and lesson 13 also make a
+  jump start on a US freeway shoulder a call, and the fail line, as the audit worded it, names only
+  the wheel change.
+
+`npm run validate` exit 0.

@@ -171,3 +171,22 @@ which reads correctly.
 `npm run validate`: exit 0, nothing naming this file.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4:** labels added to quiz 1, 2 and 4 stems and quiz 6's explanation (the AA, the RAC); the
+  DPF-light section's first use; both predicts' answers; the AdBlue section's first use; the six
+  dashboards checkpoint; the UK/US table; the removal section's first use; all four items in What
+  people get wrong; the step-5 checkpoint.
+- **N5:** "sells breakdown cover" becomes "sells breakdown cover and repairs" at the opening and in
+  the insurance paragraph.
+- **N6:** "The US name, DEF, says what it is more plainly" becomes "The US name, DEF (diesel exhaust
+  fluid), says what it is."
+- **N8:** the Laredo pickup: "only his handbook, and the maker's dealer or a garage that works on that
+  make, can tell him that."
+- Script 03 mirrors the N8 line; its `checked:` entry says a fresh check is owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 80, matches.

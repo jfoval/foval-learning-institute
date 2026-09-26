@@ -32,9 +32,10 @@ quiz:
       central three-quarters of the breadth of tread and round the entire outer circumference", and
       DVSA's MOT manual says either side of that band "can be devoid of tread". So a bald shoulder
       doesn't break the depth rule, and 1.8 mm across the band all the way round meets it. One point
-      is not enough: the band has to go right round. And 2 mm is the AA's advice, not the law. Wear
-      on one shoulder is still worth a garage's look: on AAA's account in lesson 7, it typically
-      means wheels out of alignment.
+      is not enough: the band has to go right round. And 2 mm is the advice of the AA, which sells
+      breakdown cover and repairs, not the law. Wear on one shoulder is still worth a garage's look:
+      on the account of AAA (whose clubs sell roadside assistance and run a repair network) in
+      lesson 7, it typically means wheels out of alignment.
   - q: >-
       As general information: a car in England has 4 mm of tread across every tyre, but one sidewall
       has a bulge the size of a thumb. Which reading fits Great Britain's rules?
@@ -48,8 +49,8 @@ quiz:
       Regulation 27(1)(d) bars a tyre with "any lump, bulge or tear caused by separation or partial
       failure of its structure", whatever the tread depth, and the MOT manual lists such a tyre as a
       Dangerous defect. The rule applies every time the car is used, not only at a test. Exposed ply
-      or cord is a separate rule, 27(1)(e); the bulge rule doesn't wait for it. TyreSafe's advice
-      is that a tyre with lumps or bulges "must be examined by a tyre specialist".
+      or cord is a separate rule, 27(1)(e); the bulge rule doesn't wait for it. The advice of
+      TyreSafe, a charity backed by tyre makers, carmakers and retailers, is that a tyre with lumps or bulges "must be examined by a tyre specialist".
   - q: >-
       As general information: at a Pennsylvania inspection, one tyre has two neighbouring grooves at
       1/32 inch at one spot, and 4/32 inch everywhere else. What does PennDOT's rule say?
@@ -76,12 +77,12 @@ quiz:
       - Nothing at all, since the coin test has been withdrawn by every body that once used it
     answer: 0
     explain: >-
-      The AA, the only source here that gives a width, says the 20p's outer rim "is just under 3 mm
+      The AA (which sells breakdown cover and repairs), the only source here that gives a width, says the 20p's outer rim "is just under 3 mm
       wide", and says to check more carefully "using a proper tyre tread depth gauge" if part of it
-      shows. TyreSafe's own wording is that a visible band means the tyres "may be illegal", not that
+      shows. The wording of TyreSafe (backed by tyre makers, carmakers and retailers) is that a visible band means the tyres "may be illegal", not that
       they are. A hidden band at two points says nothing about the spot where it showed, and the law
       needs the band all the way round. The test hasn't been withdrawn; TyreSafe, the AA and the RAC
-      all describe it.
+      (which sells breakdown cover and tyres) all describe it.
   - q: >-
       On the question of when to replace tyres above the legal minimum, which of these do
       TyreSafe, the RAC, the AA, AAA and Michelin all accept?
@@ -115,7 +116,8 @@ quiz:
       Regulation 27's ten-year rule is limited by 27(1A) to buses, minibuses and heavy goods vehicles,
       so no age limit for cars was read. There is advice: NHTSA says "Some vehicle and tire
       manufacturers recommend replacing tires that are six to 10 years old, regardless of treadwear",
-      and the RAC says tyres "should be replaced every five or six years" even on low mileage. So age
+      and the RAC, which sells breakdown cover and tyres, says tyres "should be replaced every five or
+      six years" even on low mileage. So age
       is advice to weigh with the handbook and a tyre specialist, not nothing and not law.
 ---
 
@@ -201,7 +203,8 @@ here state differently:
 > Fine is for each single tyre (but ordinarily only one set of points apply where several offences
 > committed on the same occasion).[5]
 
-So the fine can multiply by the tyre, and the points ordinarily don't. TyreSafe's tread page says
+So the fine can multiply by the tyre, and the points ordinarily don't. The tread page of TyreSafe, a
+charity backed by tyre makers, carmakers and retailers, says
 "three penalty points PER tyre"; the AA, which sells breakdown cover and repairs, says four
 dangerous tyres could mean "a £10,000 fine and 12 points"; and the RAC, which sells breakdown cover
 and tyres, lists "Three penalty points per illegal tyre". The Sentencing Council, which issues the
@@ -235,7 +238,8 @@ replacing tyres at 3mm".[15][17] So this lawful tyre sits under the 3 mm point b
 above the 2 mm point they also both give. Who says what, and why, including a tyre maker's case against
 replacing by depth alone, is the last main section of this lesson.
 
-And one more reading. Wear on one edge, on the account of AAA (which runs a repair network) in
+And one more reading. Wear on one edge, on the account of AAA (whose clubs sell roadside assistance
+and run a repair network) in
 lesson 7, "Tyres I: pressure, the placard and TPMS", typically means wheels out of alignment.[20] Measuring the depth is **Yours**.
 The alignment is **Call someone**.
 
@@ -310,7 +314,7 @@ wear indicators in them, and not on the indicator bars themselves. That's Virgin
 its inspectors, and on this course's reading it follows from the GB regulation's exclusion of the
 bars too.[1][10] Measure at several
 points: TyreSafe, the industry-backed charity, says "check at least three locations around each
-tyre", and AAA, which runs a repair network, says to measure in
+tyre", and AAA, whose clubs sell roadside assistance and run a repair network, says to measure in
 "three locations across the tire's tread: (1)outer edge, (2) center, and (3) inside edge".[15][20]
 Together that's three points round the tyre and three across it.
 
@@ -329,13 +333,14 @@ A car tyre's tread, photographed to show its tread wear indicators (the photogra
 
 | In the UK | In the US |
 |---|---|
-| **The 20p.** TyreSafe: "If the outer band of the 20p coin is obscured when it is inserted, then your tread is above the legal limit. If the outer band of the coin is visible, then your tyres may be illegal and unsafe and should be checked immediately by a qualified tyre professional."[15] | **The penny.** NHTSA: "placing a penny in the tread with Lincoln's head upside down and facing you. If you can see the top of Lincoln's head, replace your tires."[13] AAA: a visible head means "less than 2/32" of tread.[20] |
-| The AA gives the width: the 20p's outer rim "is just under 3 mm wide", so a hidden rim means "comfortably above the legal minimum".[17] | **The quarter.** AAA: put a quarter in a groove with Washington's head down; "If the top of his head is not visible, your tires have at least 4/32” of tread and are fine for continued use."[20] |
+| **The 20p.** TyreSafe (a charity backed by tyre makers, carmakers and retailers): "If the outer band of the 20p coin is obscured when it is inserted, then your tread is above the legal limit. If the outer band of the coin is visible, then your tyres may be illegal and unsafe and should be checked immediately by a qualified tyre professional."[15] | **The penny.** NHTSA: "placing a penny in the tread with Lincoln's head upside down and facing you. If you can see the top of Lincoln's head, replace your tires."[13] AAA (its clubs sell roadside assistance and run a repair network): a visible head means "less than 2/32" of tread.[20] |
+| The AA (which sells breakdown cover and repairs) gives the width: the 20p's outer rim "is just under 3 mm wide", so a hidden rim means "comfortably above the legal minimum".[17] | **The quarter.** AAA: put a quarter in a groove with Washington's head down; "If the top of his head is not visible, your tires have at least 4/32” of tread and are fine for continued use."[20] |
 
 :::predict The 20p's outer band shows at one point on a tyre in Britain. Is that tyre under the legal limit at that point?
 
-Not necessarily. On the AA's figure the band is just under 3 mm wide, so a visible band means the
-tread there is under about 3 mm, not under 1.6 mm. It's why TyreSafe says "may be illegal", and why
+Not necessarily. On the figure from the AA, which sells breakdown cover and repairs, the band is
+just under 3 mm wide, so a visible band means the
+tread there is under about 3 mm, not under 1.6 mm. It's why TyreSafe, a charity backed by tyre makers, carmakers and retailers, says "may be illegal", and why
 the AA says to check "more carefully using a proper tyre tread depth gauge". The coin's line sits
 at nearly twice the legal depth, so it can warn early; it can't pass or fail a tyre.
 :::
@@ -384,7 +389,7 @@ decision, and spare, space saver, sealant or run-flat"; any repair is **Call som
 
 (a) Barred: 27(1)(e), any ply or cord exposed, whatever the cut's length. (b) Not barred by the rules
 quoted here: the depth is above 1.6 mm all round and there's no cut to the ply, bulge or exposed
-cord, though it's at the AA's 2 mm point. (c) Barred: 27(1)(d), a bulge. (d) Not barred
+cord, though it's at the 2 mm point of the AA, which sells breakdown cover and repairs. (c) Barred: 27(1)(d), a bulge. (d) Not barred
 by 27(1)(c), because the cut must reach the ply or cord as well as exceed the length (25 mm, or 10 per
 cent of 205 mm, which is 20.5 mm, whichever is greater, so 25 mm here; this course's arithmetic).
 Depth meets 27(4)(f). If you barred (d) on length alone, reread the words "and deep enough to reach
@@ -400,7 +405,7 @@ This is general information, not legal advice.
 Not on what this course read. Regulation 27 has a ten-year rule, but regulation 27(1A) limits it to
 certain tyres on buses, minibuses and heavy goods vehicles (front axles, and a minibus's single
 wheels). What exists for cars is advice, from NHTSA and the
-RAC, and it's set out below.
+RAC (which sells breakdown cover and tyres), and it's set out below.
 :::
 
 Tyres age whether or not they're used. NHTSA: "Tire aging occurs when the rubber and other components
@@ -505,7 +510,7 @@ worn to 1.6mm can be as much as 44%."[18]
 **The AA**, a motoring organisation that sells breakdown cover and repairs, says "You should consider
 replacing them at 3 mm" and "Aim to replace tyres before the tread wears below 2 mm".[17]
 
-**AAA**, the US motoring clubs that sell roadside assistance and run an approved repair network, ran
+**AAA**, the US motoring clubs that sell roadside assistance and run a repair network, ran
 its own test with the Automobile Club of Southern California. Against new tyres, tyres worn to 4/32
 inch showed "An average increased stopping distance of 87 feet for a passenger car and 86 feet for a
 light truck", on wet pavement at highway speed, and it found that "worn tire performance deteriorated
@@ -593,12 +598,13 @@ line below which the rules read here bar the tyre.
 **"1.6 mm anywhere on the tyre is legal."** In Great Britain it's a continuous band across the central
 three-quarters, all the way round (the tread rule section above).
 
-**"If the 20p band is hidden, the tyre's legal; if it shows, it's illegal."** On the AA's figure the band
-is just under 3 mm. It says a spot has more or less than about 3 mm, and nothing about the rest.
+**"If the 20p band is hidden, the tyre's legal; if it shows, it's illegal."** On the figure from the
+AA, which sells breakdown cover and repairs, the band is just under 3 mm. It says a spot has more or less than about 3 mm, and nothing about the rest.
 
 **"Three points for every bald tyre."** The Sentencing Council: the fine is per tyre, but "ordinarily
-only one set of points" for offences on the same occasion. TyreSafe, the AA and the RAC say otherwise
-(the tread rule section above).
+only one set of points" for offences on the same occasion. TyreSafe (backed by tyre makers, carmakers and
+retailers), the AA (which sells breakdown cover and repairs) and the RAC (which sells breakdown cover
+and tyres) say otherwise (the tread rule section above).
 
 **"The US minimum is 2/32 inch."** It's 2/32 inch in the three states read, each measured its own
 way; the federal figures are for commercial vehicles, and many states don't inspect at all (tread
@@ -608,8 +614,8 @@ rules in the US, above).
 the bars out of the tread pattern. Measure in the groove (measuring, above).
 
 **"Car tyres have a legal age limit in Great Britain."** Not on what this course read: the ten-year
-rule is for buses, minibuses and heavy goods vehicles. Age advice exists, from NHTSA and the RAC, and
-it's advice (age, above).
+rule is for buses, minibuses and heavy goods vehicles. Age advice exists, from NHTSA and the RAC (which
+sells breakdown cover and tyres), and it's advice (age, above).
 
 ## Practice
 
@@ -618,7 +624,7 @@ This is general information, not legal advice. Take 20 minutes over these. You n
 
 1. **Measure and look.** On each tyre, measure the main grooves at three points round the tyre, and at each point across the tread (outer, centre, inner). Record every reading in mm or 32nds, and note any groove where you hit a wear bar instead of the groove floor. Then look along both sidewalls and the tread for cuts, cord showing, lumps, bulges or cracks, note anything stuck in the tread, and record the date code (lesson 7).
 2. **Compare with the law where you drive.** For each tyre, write whether its lowest readings meet the rule for your place, as general information: Great Britain's continuous central band, or your state's rule and method if it has one (Pennsylvania, New York and Virginia are above; for another state, find its DMV or state police page and write down what it says and the date you read it, or "no rule found").
-3. **Compare with the advice.** Next to each tyre's lowest central reading, write where it sits against each position in the last section: 3 mm (TyreSafe, the industry-backed charity; the RAC, which sells tyres; and the AA's "consider"), 2 mm (the AA, which sells repairs, and TyreSafe), 4/32 inch, about 3.2 mm (AAA, which runs a repair network), 2/32 inch (NHTSA, the regulator), and the legal floor with Michelin's case that the tyre's design matters more than depth alone (Michelin makes and sells tyres). Then write down which, if any, you'll follow, and why, in one line.
+3. **Compare with the advice.** Next to each tyre's lowest central reading, write where it sits against each position in the last section: 3 mm (TyreSafe, the industry-backed charity; the RAC, which sells tyres; and the AA's "consider"), 2 mm (the AA, which sells breakdown cover and repairs, and TyreSafe), 4/32 inch, about 3.2 mm (AAA, whose clubs sell roadside assistance and run a repair network), 2/32 inch (NHTSA, the regulator), and the legal floor with Michelin's case that the tyre's design matters more than depth alone (Michelin makes and sells tyres). Then write down which, if any, you'll follow, and why, in one line.
 :::
 
 :::checkpoint Check your record against these points.
@@ -626,7 +632,8 @@ This is general information, not legal advice. Take 20 minutes over these. You n
 Your three points round the tyre matter as much as the three across it: the GB rule is "round the
 entire outer circumference", and Virginia's method depends on measuring the thinnest spot first. A
 reading taken on a wear bar isn't a groove reading. If one edge of a tyre read much lower than the
-other, that's AAA's usual alignment pattern, and **Call someone**; both edges low and the centre fine is
+other, that's the usual alignment pattern of AAA (whose clubs sell roadside assistance and run a
+repair network), and **Call someone**; both edges low and the centre fine is
 its under-inflation pattern from lesson 7. Anything showing cord, or any lump or bulge, is barred in
 Great Britain whatever the depth, and rejected at inspection in the states read. For step 3, there's
 no right answer to check against: the question is contested, and the point is that your line names
@@ -655,15 +662,15 @@ state programmes the tread rules sit in.
   free: the whole regulation, read slowly, is a lesson in how exactly a rule can be drafted, and which
   vehicles each part covers.
 - **Virginia State Police, [Motor Vehicle Safety Inspection Manual](https://vsp.virginia.gov/wp-content/uploads/2026/05/Official-Motor-Vehicle-Safety-Inspection-Manual-2026.pdf)**,
-  free: 19VAC30-70-130, on tyres, with its two diagrams, is the clearest account read here of how an
-  inspector actually measures tread.
+  free: 19VAC30-70-130, on tyres, with its two diagrams, shows how an inspector measures tread.
 - **AAA, ["Tread Lightly: Worn Tires Put Drivers at Risk"](https://newsroom.aaa.com/2018/06/tread-lightly-worn-tires-drivers-risk/)**,
-  free: the news release of AAA's 2018 test, from a club with a stated position. This course read the
-  release, not the full report it links to.
+  free: the news release of the 2018 test by AAA, whose clubs sell roadside assistance and run a
+  repair network. This course read the release, not the full report it links to.
 - **TyreSafe, ["How to Check Your Tyre Tread Depth"](https://www.tyresafe.org/the-checks/tread-depth/),
   then Michelin's [supporter page](https://www.tyresafe.org/about-tyresafe/latest-news/tyresafe-supporters/michelin/)
   on the same site**, free: the two sides of the replacement argument, one after the other, from
-  bodies with a stake in it. Read each for its strongest sentence.
+  bodies with a stake in it: TyreSafe is a charity backed by tyre makers, carmakers and retailers,
+  and Michelin makes and sells tyres. Read each for its strongest sentence.
 
 ## Sources
 

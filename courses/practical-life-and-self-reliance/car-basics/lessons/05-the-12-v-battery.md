@@ -26,8 +26,10 @@ quiz:
       - Add one longer drive a week, about half an hour, to let the battery recharge
     answer: 3
     explain: >-
-      AAA advises "at least a 30-minute stretch once a week", because repeated short trips don't give
-      the alternator a chance to recharge the battery; the AA says "30 minutes or more", and
+      AAA, whose clubs sell roadside assistance and run a repair network, advises "at least a
+      30-minute stretch once a week", because repeated short trips don't give
+      the alternator a chance to recharge the battery; the AA, which sells breakdown cover and
+      repairs, says "30 minutes or more", and
       fueleconomy.gov says to drive at least 5 miles between starts. No source read here recommends
       idling on the drive, so that option isn't something this course can support. A new battery
       isn't the first step: the AA says a battery that struggles can simply not be getting enough
@@ -78,7 +80,8 @@ quiz:
       - He's wrong; batteries fail at random, and the weather has nothing to do with it
     answer: 2
     explain: >-
-      AAA says "while winter weather is most likely to cause your battery to fail, it's actually hot
+      AAA, whose clubs sell roadside assistance and run a repair network, says "while winter
+      weather is most likely to cause your battery to fail, it's actually hot
       weather that does most of the damage", and that cold slows the battery's chemical reaction while
       starting in winter "requires more power". So the frost is when the damage shows, not usually
       when it was done. A battery that started all summer can still have been damaged by the summer's
@@ -94,10 +97,11 @@ quiz:
       - Overcharging by the alternator, which is only a problem in heat
     answer: 0
     explain: >-
-      AAA: "If your battery leaks acid, you'll see a green or blue powdery substance on the terminals",
+      AAA (its clubs sell roadside assistance and battery service): "If your battery leaks acid, you'll see a green or blue powdery substance on the terminals",
       and "Leaking or a swollen battery can often indicate your battery is near failure." Nothing in
       the sources makes it road salt, coolant or overcharging, and the owner shouldn't wipe or touch it: it comes from leaking acid.
-      Leave it, and have the battery looked at; the AA says never to jump-start a battery that looks
+      Leave it, and have the battery looked at; the AA, which sells breakdown cover and repairs,
+      says never to jump-start a battery that looks
       damaged or is leaking.
   - q: >-
       A two-year-old battery has started to struggle on cold mornings. The car is used almost
@@ -110,7 +114,8 @@ quiz:
       - The alternator has failed, since that is what the AA says a slow start means
     answer: 1
     explain: >-
-      The AA says that if an engine struggles to start before the battery is 5 years old, it probably
+      The AA, which sells breakdown cover and repairs, says that if an engine struggles to start
+      before the battery is 5 years old, it probably
       means the battery isn't getting enough charge, the car is doing too many short journeys, or a
       fault is draining it; worn-out batteries are the likelier cause after five years. Two years is
       well short of every life figure the AA gives (3 to 5, 5 to 7, 3 to 6). The AA calls cold a factor,
@@ -119,8 +124,8 @@ quiz:
 ---
 
 Every car on the road has a small battery, whatever drives its wheels, and when it fails the car
-usually won't start. The AA, a motoring organisation that sells breakdown cover and repairs, puts it
-bluntly on its [maintenance page](https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips):
+usually won't start. The AA, a motoring organisation that sells breakdown cover and repairs, says
+on its [maintenance page](https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips):
 "Battery problems are the number one cause of breakdowns at any time of year, and particularly for
 vehicles that aren't used very often."[1] That's the AA's claim, and the
 page gives no figures behind it; its flat-battery page calls a flat battery "one of the top 10
@@ -165,10 +170,11 @@ converter converts 400–volt Li-ion battery voltage to charge the 12-volt batte
 
 :::checkpoint Without scrolling up to lesson 4: in an electric car with a fully charged main battery, why can the car still refuse to start, and what part normally stops that happening?
 
-NHTSA says the 12 V battery "powers lighting and instrumentation systems", in an AA patrol's words it "starts the onboard computer system",[16] and in a hybrid it starts the car before the big battery is engaged, so if it is flat the car may not wake up, however full the main battery is. The part that normally keeps it charged is the DC/DC converter, which steps the main battery's voltage down to recharge the 12 V battery. The range gauge shows the main battery only. In the AA's 2021 figures, the 12 V battery was one of the two commonest causes of electric-car breakdowns,[16] and the AA's flat-battery page says "The 12 volt battery on an electric vehicle can be just as problematic as a conventional vehicle."
+NHTSA says the 12 V battery "powers lighting and instrumentation systems", in an AA patrol's words it "starts the onboard computer system",[16] and in a hybrid it starts the car before the big battery is engaged, so if it is flat the car may not wake up, however full the main battery is. The part that normally keeps it charged is the DC/DC converter, which steps the main battery's voltage down to recharge the 12 V battery. The range gauge shows the main battery only. In the 2021 figures of the AA, which sells breakdown cover and repairs, the 12 V battery was one of the two commonest causes of electric-car breakdowns,[16] and the AA's flat-battery page says "The 12 volt battery on an electric vehicle can be just as problematic as a conventional vehicle."
 :::
 
-One habit matters for plug-in cars. The AA says "Many plug-in vehicles automatically
+One habit matters for plug-in cars. The AA, which sells breakdown cover and repairs, says "Many
+plug-in vehicles automatically
 maintain the 12- volt battery when they're plugged in" (the gap after "12-" is the AA's), and that
 the handbook will tell you whether yours does. It adds: "If you haven't got your vehicle plugged in,
 it's good practice to plug in at least once a month to help maintain systems."[1] That's the AA's
@@ -176,9 +182,9 @@ advice, and the handbook is the authority on your car.
 
 | Kind of car | What starts it | What recharges the 12 V battery | Source |
 |---|---|---|---|
-| Petrol or diesel | The 12 V battery turns the engine over | The alternator, while the engine runs | AFDC; AAA |
+| Petrol or diesel | The 12 V battery turns the engine over | The alternator, while the engine runs | AFDC; AAA (its clubs sell roadside assistance) |
 | Hybrid | The 12 V battery starts the car before the big battery is engaged | Typically a DC-DC converter from the big battery; NHTSA says "many" hybrids work this way, not all | AFDC; NHTSA |
-| Battery-electric | The 12 V battery "starts the onboard computer system", in an AA patrol's words[16] | A DC/DC converter from the big battery | NHTSA; the AA; Nissan for the LEAF |
+| Battery-electric | The 12 V battery "starts the onboard computer system", in an AA patrol's words[16] | A DC/DC converter from the big battery | NHTSA; the AA (sells breakdown cover and repairs); Nissan for the LEAF |
 
 ## Why short trips flatten it
 
@@ -196,9 +202,9 @@ mile:
   than idling, in a list of best practices it credits to a 2015 Argonne National Laboratory
   study of starting systems: "Drive at least 5 miles between start
   cycles to fully recharge the battery."[7]
-- AAA's Mountain West club: "Drive for at least a 30-minute stretch once a week. Repeated short trips
+- AAA's Mountain West club, which sells roadside assistance and runs a repair network: "Drive for at least a 30-minute stretch once a week. Repeated short trips
   can drain your battery without giving your alternator a chance to recharge it."[3]
-- The AA: "30 minutes or more will help the battery recharge."[8]
+- The AA, which sells breakdown cover and repairs: "30 minutes or more will help the battery recharge."[8]
 
 The AA's [flat-battery page](https://www.theaa.com/breakdown-cover/advice/flat-battery) says why
 this matters for the battery's life, not just for tomorrow morning: "most car batteries fail because
@@ -217,7 +223,7 @@ sources agree on the direction, and that is what you can act on.
 
 :::predict A small hatchback's battery goes flat in January. It's done a two-mile run to work and back every weekday since October, and nothing longer. Before reading on: was it the short trips or the cold, and what else would you want to know about the battery?
 
-Both, on this course's reading of the sources: the short trips never let it recharge, and the cold made each start harder and each drive's recharge smaller. The thing to want to know is its age and history, because AAA says heat does most of the damage long before the cold shows it up. The case below works it through.
+Both, on this course's reading of the sources: the short trips never let it recharge, and the cold made each start harder and each drive's recharge smaller. The thing to want to know is its age and history, because AAA, whose clubs sell roadside assistance and run a repair network, says heat does most of the damage long before the cold shows it up. The case below works it through.
 :::
 
 ### A hatchback in Kirkwall
@@ -258,9 +264,10 @@ longer drive a week, as AAA advises.
 
 ## Heat, cold and age
 
-The AA's flat-battery page lists what else wears a battery: "Batteries can fail for other reasons,
+The flat-battery page of the AA, which sells breakdown cover and repairs, lists what else wears a
+battery: "Batteries can fail for other reasons,
 like too much vibration from the engine, over-charging, corrosion and extreme temperatures."[8] Its
-words on the cold match AAA's: cold weather slows the car's "internal processes", and "With severe
+words on the cold match those of AAA, whose clubs sell roadside assistance and run a repair network: cold weather slows the car's "internal processes", and "With severe
 enough temperatures your car battery will have a reduced capability to hold a charge."[8] Heat is
 harder. AAA says it does most of the damage, but no source this course read says how heat does it;
 the technicians' textbooks in Go deeper cover how a battery is built.
@@ -270,21 +277,24 @@ pages:
 
 | Source | What it says | Date |
 |---|---|---|
-| The AA, maintenance tips | "Most car batteries have a life of 3 to 5 years, so if yours is getting a bit old replace it with a new one before it lets you down." | updated 10 July 2025 |
+| The AA (sells breakdown cover and repairs), maintenance tips | "Most car batteries have a life of 3 to 5 years, so if yours is getting a bit old replace it with a new one before it lets you down." | updated 10 July 2025 |
 | The AA, flat-battery page | "Most batteries will last somewhere between 5 and 7 years", and, further down the same page, "anywhere from 3-6 years" | last updated 11 January 2024 |
 | The AA, jump-start page | "On average, batteries last between 5 and 7 years but you should only consider changing a car battery when it's showing signs of deterioration." | last updated 26 June 2024 |
-| AAA Mountain West | "If you've had your car battery for more than 3 to 5 years, it's worth getting it tested." Also: "Get your battery tested annually before winter." | no date shown |
+| AAA Mountain West (sells roadside assistance and battery service) | "If you've had your car battery for more than 3 to 5 years, it's worth getting it tested." Also: "Get your battery tested annually before winter." | no date shown |
 
 None of these gives the data behind its number.[1][3][8][10] So the AA advises both ways on different
 pages: replace an ageing battery before it lets you down, or change one only when it shows signs of
-deterioration. It sells batteries on all three pages. The flat-battery page also says its mechanics
+deterioration. It sells batteries on all three pages. AAA's page advertises its own battery
+service too. The flat-battery page also says its mechanics
 "see cases where the battery has failed after only 2 or 3 years because of how the car was driven",
 and it adds a rule of thumb: if an engine struggles to start "before the battery is 5 years old", the
 likely causes are that "The battery isn't getting enough charge", "The car's doing too many short
 journeys", or a fault draining the battery or affecting charging; after five years, "The battery's
 getting tired and may need replacing."[8] So this course's reading of the three: a battery lasts
-several years, how many depends on how the car is used, and it's worth having it tested from about
-three years old, and before winter. That's a reading, not a figure any one source gives.
+several years, and how many depends on how the car is used. That's a reading, not a figure any one
+source gives. On testing, AAA, whose clubs sell roadside assistance and battery service, advises a
+test from three to five years old and every year before winter. The AA's jump-start page says to
+change one only when it shows signs of deterioration.
 
 Where would you find your battery's age? A service record or a receipt is the surest place. This
 course read no source on reading a date from the battery itself, so it can't tell you where to look
@@ -292,12 +302,12 @@ on yours.
 
 :::checkpoint A car's battery is four years old. On a cold morning the engine turns over slowly, the headlights look dimmer than usual, and last month it needed a jump start after the owner left an interior light on. Which of AAA's warning signs does it show, and what would the AA's rule of thumb say about a battery that struggles at four years?
 
-Three of AAA's signs: "Slow Crank", "Dim Lights", and "Needed a Jump" (AAA's advice after a jump is to check the battery "to ensure a bad battery wasn't the root cause"). At four years it is inside AAA's "3 to 5 years" window, where AAA says it's worth getting it tested. The AA's rule of thumb says a battery that struggles before five years is more likely short of charge, doing too many short journeys, or being drained by a fault than simply worn out, so a test, and a look at how the car is used, comes before assuming it needs replacing. The interior light last month is a known cause of one flat battery, and the AA says that when a battery is drained that way there's "a decent chance" a jump start or a recharge will revive it, which is one more reason to test rather than guess.
+Three of the signs from AAA, whose clubs sell roadside assistance and battery service: "Slow Crank", "Dim Lights", and "Needed a Jump" (AAA's advice after a jump is to check the battery "to ensure a bad battery wasn't the root cause"). At four years it is inside AAA's "3 to 5 years" window, where AAA says it's worth getting it tested. The rule of thumb of the AA, which sells breakdown cover and repairs, says a battery that struggles before five years is more likely short of charge, doing too many short journeys, or being drained by a fault than simply worn out, so a test, and a look at how the car is used, comes before assuming it needs replacing. The interior light last month is a known cause of one flat battery, and the AA says that when a battery is drained that way there's "a decent chance" a jump start or a recharge will revive it, which is one more reason to test rather than guess.
 :::
 
 ## Signs that a battery is on its way out
 
-AAA's list is the most complete the course read, and it's written for owners:[3]
+AAA, whose clubs sell roadside assistance and battery service, gives this list for owners:[3]
 
 - **Slow crank.** You can hear the starter trying, "but it takes longer than it should (based on your
   baseline starting experience)". You only notice this if you know how your car normally sounds.
@@ -309,7 +319,7 @@ AAA's list is the most complete the course read, and it's written for owners:[3]
   near failure."
 - **Battery light.** Which gets its own section next.
 
-The AA adds the flickering dash lights from the Kirkwall case.[8] Of all these, the one that changes
+The AA, which sells breakdown cover and repairs, adds the flickering dash lights from the Kirkwall case.[8] Of all these, the one that changes
 what you do is the leak. A powdery crust on a terminal comes from leaking acid, and this course's line is: don't
 touch it, don't wipe it, and don't try to jump-start the car. Ford's handbook for the Maverick lists cleaning the battery
 connections as an owner's check;[14] this course doesn't teach it, as
@@ -327,8 +337,8 @@ The sources disagree about this light.
 **What it means.** The Highway Code, for Great Britain, says: "If the charge warning light comes on
 while you are driving, it may mean that the battery isn't charging."[12] The RAC, a motoring
 organisation that sells breakdown cover and repairs, gives the likely reasons: "a faulty alternator,
-bad electrical connection or damaged cabling. The battery itself may be faulty or worn out."[13] AAA
-adds: "A battery light doesn't usually mean you need (just) a
+bad electrical connection or damaged cabling. The battery itself may be faulty or worn out."[13] AAA,
+whose clubs sell roadside assistance and run a repair network, adds: "A battery light doesn't usually mean you need (just) a
 battery, but if it goes on, your battery might have been fatally damaged by a bad alternator."[3] So
 the light is about charging, and the fault is often somewhere other than the battery.
 
@@ -348,8 +358,8 @@ about.
 | Ford | Handbook, 2024 Maverick, US and Canada, petrol or hybrid | "Have your vehicle checked as soon as possible." |
 | Toyota | Handbook, 2023 Corolla, US, petrol | "Immediately stop the vehicle in a safe place and contact your Toyota dealer." |
 | Nissan | Handbook, 2024 LEAF, US, electric | "Immediately stop the vehicle in a safe location and have the system checked." |
-| The RAC | Motoring organisation, UK | "You should not drive if the battery warning light is on." |
-| AAA Mountain West | Motoring club, US | "Get the car towed to your local mechanic shop for a complete charging system check." |
+| The RAC | Motoring organisation, UK; sells breakdown cover and repairs | "You should not drive if the battery warning light is on." |
+| AAA Mountain West | US motoring club; sells roadside assistance, runs a repair network | "Get the car towed to your local mechanic shop for a complete charging system check." |
 
 Sources: [3][6][11][12][13][14].
 
@@ -444,18 +454,22 @@ handbook is where your maker's method is, if it gives one.
 
 ## What people get wrong
 
-**"Winter kills batteries."** Winter is when they fail. AAA says heat "does most of the damage", and
+**"Winter kills batteries."** Winter is when they fail. AAA, whose clubs sell roadside assistance
+and run a repair network, says heat "does most of the damage", and
 the cold is when a weakened battery can no longer do the harder winter start.
 
-**"The battery light means I need a new battery."** AAA: it "doesn't usually mean you need (just) a
-battery". It's a charging warning, and the RAC's list of causes starts with the alternator.
+**"The battery light means I need a new battery."** AAA (its clubs sell roadside assistance and run
+a repair network): it "doesn't usually mean you need (just) a battery". It's a charging warning, and
+the list of causes from the RAC, which sells breakdown cover and repairs, starts with the alternator.
 
 **"A jump start fixes a flat battery."** A jump starts the car. The battery still needs recharging,
 which is why AAA and the AA both say drive for 30 minutes afterwards (the AA says driving normally,
-not in stop-start traffic), and it may be worn, which is why AAA says check it.[3][10]
+not in stop-start traffic), and it may be worn, which is why AAA says check it.[3][10] AAA's clubs
+sell roadside assistance and run a repair network; the AA sells breakdown cover and repairs.
 
 **"An electric car doesn't have a 12 V battery."** Lesson 4 corrected this; it's worth saying again
-because it's the misconception that strands people. The AA: the 12 V battery on an electric car "can
+because it's the misconception that strands people. The AA, which sells breakdown cover and repairs,
+says the 12 V battery on an electric car "can
 be just as problematic as a conventional vehicle".
 
 **"A 12 V battery can give you a dangerous shock."** HSE says there is "little risk of electric
@@ -477,7 +491,7 @@ Take 15 minutes over these. Part 1 is on paper. Parts 2 and 3 use your own car's
 
 :::checkpoint Check yourself on part 2. A handbook's words for the charge light fall into one of two kinds. Which kind is "Have your vehicle checked as soon as possible", which is "Immediately stop the vehicle in a safe place", and what do you do if your own handbook says nothing at all about the light?
 
-The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises that a warning light coming on while you drive means "stop and investigate the problem", and that this one should also be checked as soon as possible; the RAC says don't drive; AAA says get the car towed for a charging system check; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
+The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises that a warning light coming on while you drive means "stop and investigate the problem", and that this one should also be checked as soon as possible; the RAC, which sells breakdown cover and repairs, says don't drive; AAA, whose clubs sell roadside assistance and run a repair network, says get the car towed for a charging system check; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
 :::
 
 ## For your plan
@@ -502,11 +516,11 @@ this lesson come back. Lesson 15, "Winter and summer", returns to the cold. Firs
 - **Your own handbook**, the battery, warning-light and maintenance pages. Every source in this
   lesson that gives an instruction for a real car is a handbook.
 - **HSE, [*Using electric storage batteries safely* (INDG139)](https://www.hse.gov.uk/pubns/indg139.pdf)**,
-  free, 10 pages. Read here in full. Written for workplaces in 2011, but the clearest official
-  account of why batteries explode, and why connecting one is the risky moment.
+  free, 10 pages. Read here in full. Written for workplaces in 2011; it covers why batteries
+  explode, and why connecting one is the risky moment.
 - **AAA Mountain West, ["How Cold Weather Impacts Your Battery"](https://mwg.aaa.com/via/car/how-cold-weather-impacts-battery)**,
-  free. Read here in full. A US motoring club's short page, with its signs of a failing battery; it
-  also advertises AAA's own battery service.
+  free. Read here in full. A short page from a US club that sells roadside assistance and runs a
+  repair network, with its signs of a failing battery; it also advertises AAA's own battery service.
 - **Halderman and Ward, *Automotive Technology: Principles, Diagnosis, and Service*, 7th edition
   (Pearson, 2025), Section VII, "Electrical Systems"**, whose chapter titles include "Automotive
   12-Volt Batteries" and "Charging System Parts and Operation". A technician's textbook. This course

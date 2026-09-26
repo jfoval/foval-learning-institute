@@ -19,7 +19,8 @@ quiz:
   - q: >-
       A diesel van used for 2-mile deliveries in town shows its DPF light. Fuel is at three
       quarters. The only roads nearby are 30 mph town streets, and the handbook says to drive at a
-      steady speed. As general advice from the AA and the RAC, what fits?
+      steady speed. As general advice from the AA and the RAC, which both sell breakdown cover and
+      repairs, what fits?
     options:
       - Drive the 30 mph town streets at over 40 mph for ten minutes to clear it
       - Take it soon to a road where over 40 mph is legal and safe, as allowed
@@ -36,7 +37,7 @@ quiz:
   - q: >-
       A driver refuelling a diesel hatchback at a supermarket forecourt realises, cap still in hand,
       that she has just emptied a container of AdBlue into the fuel filler. The engine is off. What
-      does the AA advise?
+      does the AA, which sells breakdown cover and repairs, advise?
     options:
       - Start the engine and let it idle, so the fuel pump clears the AdBlue into the exhaust
       - Fill the rest of the tank with diesel to dilute it, then drive gently to the nearest garage
@@ -67,7 +68,8 @@ quiz:
       limit on which cars the regulation covers.
   - q: >-
       A diesel SUV shows "AdBlue: refill in 900 miles" on the dashboard the evening before its
-      owner sets off on a 1,100-mile round trip. On the AA's account, what happens if the count
+      owner sets off on a 1,100-mile round trip. On the account of the AA, which sells breakdown
+      cover and repairs, what happens if the count
       reaches zero on the way?
     options:
       - Nothing changes on the road; the count only matters when the car is next due its MOT
@@ -107,7 +109,7 @@ quiz:
       - Driving can't burn off ash, so the handbook first and then a garage to check it
     answer: 3
     explain: >-
-      The AA says regeneration leaves "a tiny ash residue" and that "The ash can't be removed" except
+      The AA, which sells breakdown cover and repairs, says regeneration leaves "a tiny ash residue" and that "The ash can't be removed" except
       by taking the filter off for specialist cleaning, and a light that driving no longer clears
       is, on the RAC's advice, one for a garage. Long runs are already what this car gets, so more of them isn't the answer.
       A light isn't safe to ignore because the driving looks right; the AA adds that a DPF or sensor
@@ -116,7 +118,7 @@ quiz:
       almost invariably make a car illegal for road use.
 ---
 
-The AA, a motoring organisation that sells breakdown cover, says its patrols "are often called to
+The AA, a motoring organisation that sells breakdown cover and repairs, says its patrols "are often called to
 cars with a blocked DPF".[3] Picture the kind of car that means. A diesel does short trips for months, school runs and shopping, and then one morning an
 amber light shows a box with dots in it. A few weeks later the car won't pull properly. Another
 diesel shows a message about something called AdBlue and a number of miles, and its owner ignores
@@ -182,7 +184,7 @@ complete."[3] That is the catch. Five to ten minutes can be longer than the whol
 
 :::predict A diesel starts an active regeneration two minutes into a four-minute trip to the shops, and the driver parks and switches off. What do you expect has happened to the soot?
 
-It hasn't all gone. The RAC says that when a journey is too short "the regeneration process may not
+It hasn't all gone. The RAC, which sells breakdown cover and repairs, says that when a journey is too short "the regeneration process may not
 complete fully", and the warning light then shows the filter is still partly blocked.[2] Repeat that
 trip every day and the filter fills faster than it empties.
 :::
@@ -218,7 +220,8 @@ organisations' general figures, not a replacement interval for your car.
 
 ## When the DPF light comes on
 
-The light is usually amber and, in the RAC's description, looks like "a piped box that has dots in
+The light is usually amber and, in the description of the RAC (which, like the AA, sells
+breakdown cover and repairs), looks like "a piped box that has dots in
 the middle", though it varies by maker.[2] Your handbook shows yours, and it comes first. The AA's
 page says it too: "Follow any advice in your vehicle handbook."[3]
 
@@ -273,14 +276,14 @@ tank.
 :::predict Before reading on: what should she do first, and why?
 
 Fill up. The AA says a fuel level "generally less than a quarter of a tank" will prevent active
-regeneration, and the RAC gives the reason: the car may skip regeneration to save fuel.[2][3] A run
+regeneration, and the RAC gives the reason (both sell breakdown cover and repairs): the car may skip regeneration to save fuel.[2][3] A run
 on an eighth of a tank could be ten minutes of driving that does nothing for the filter. With the
 tank well above a quarter, the run has a chance of working.
 :::
 
 ## AdBlue: the fluid that deals with NOx
 
-The AA's [AdBlue page](https://www.theaa.com/breakdown-cover/advice/adblue) (the same motoring organisation) begins with the
+The AA's [AdBlue page](https://www.theaa.com/breakdown-cover/advice/adblue) (the AA sells breakdown cover and repairs) begins with the
 misunderstanding people bring to it: "AdBlue is a diesel exhaust fluid, not a fuel additive. It's
 stored in a separate tank".[4] The filler is "(usually) blue", the AA says, and sits next to the
 fuel filler, in the boot (trunk) or under the bonnet (hood). The fluid is not blue. It is "a
@@ -353,7 +356,8 @@ Now sort six dashboards:
 :::checkpoint For each of the six dashboards above, what comes first, and which label fits?
 
 1. The handbook's page on the light, then a run at over 40 mph for ten minutes or so where that is
-   legal and safe (the AA and the RAC). **Yours, on conditions.**
+   legal and safe (the AA and the RAC, which both sell breakdown cover and repairs). **Yours, on
+   conditions.**
 2. Fill up first, since a tank under about a quarter prevents active regeneration (the AA). Then as
    in the first case.
 3. A garage (the RAC; the AA). **Call someone.**
@@ -394,7 +398,7 @@ for newly made diesel highway vehicles, light-duty ones included, with "audible 
 notifications".[7][12] A proposal is not a rule. This course read EPA's summary page of the proposal,
 not the proposal itself.
 
-| | In the UK (the AA, for cars) | In the US (EPA, mostly for trucks) |
+| | In the UK (the AA, which sells breakdown cover and repairs; for cars) | In the US (EPA, mostly for trucks) |
 |---|---|---|
 | What it is called | AdBlue, a trade name | DEF, diesel exhaust fluid |
 | The warning | A text warning at around 1,500 miles left, usually with a countdown | A warning light, which EPA requires the system to give |
@@ -403,7 +407,7 @@ not the proposal itself.
 A pickup owner near Laredo sees a DEF countdown on the dashboard. What does this lesson let him do
 with it? Not much by itself, and that is the honest answer. What happens at zero on his truck depends
 on its software and whether its maker has issued an update under EPA's guidance, and only his
-handbook and his dealer can tell him that. This course read no diesel pickup's handbook. What it can
+handbook, and the maker's dealer or a garage that works on that make, can tell him that. This course read no diesel pickup's handbook. What it can
 offer is its own reading of the sources together, which is the part that is his: DEF goes in its own
 tank, a warning is the time to act, and a truck topped up before it runs out never meets a derate
 for want of fluid.
@@ -413,7 +417,7 @@ for want of fluid.
 This is general information, not legal advice.
 
 Blocked filters are expensive, and DVSA's note says openly that the cost "has led to some diesel
-vehicle owners removing their DPFs." The AA puts the pitch in its own words: it is sometimes
+vehicle owners removing their DPFs." The AA, which sells breakdown cover and repairs, puts the pitch in its own words: it is sometimes
 suggested you can have the filter cut out and the engine software reprogrammed rather than pay for
 a repair.[1][3] That's the "delete" you may see advertised. Here's what each country's law says
 about it.
@@ -439,7 +443,7 @@ invariably", and its date: it was last revised in December 2013, and lesson 20 c
 penalties for a car's condition work now.
 
 Insurance is the other thing people ask about. The AA and the RAC, both of which sell breakdown
-cover, hedge: the AA says removing a DPF "could also invalidate any insurance cover", and the RAC
+cover and repairs, hedge: the AA says removing a DPF "could also invalidate any insurance cover", and the RAC
 says it "can also invalidate" a policy.[2][3] Neither is the insurer. What a policy says is Personal Finance Fundamentals lesson 8's subject, "Handing off
 what you cannot absorb".
 
@@ -479,24 +483,24 @@ a car with missing parts is lesson 22's subject.
 ## What people get wrong
 
 **"AdBlue is a fuel additive" (or "it's blue").** It goes in its own tank, it is colourless, and in
-the fuel tank it can wreck the fuel system (the AA).[4] The US name, DEF, says what it is more
-plainly.
+the fuel tank it can wreck the fuel system (the AA, which sells breakdown cover and repairs).[4]
+The US name, DEF (diesel exhaust fluid), says what it is.
 
 **"A DPF delete is a repair."** A repair leaves the filter working: cleaned, or replaced. A delete
 takes it away, and the section on the law above sets out what each country's rules say about that
 and about the test.
 
 **"Any engine oil will do."** The RAC says some oils "can actually block filters", and the AA says
-to check the handbook.[2][3] The grade in your handbook is the one to use.
+to check the handbook; both sell breakdown cover and repairs.[2][3] The grade in your handbook is the one to use.
 
 **"A good long run fixes any DPF light."** It often clears the light when short trips were the cause.
 It can't remove ash, it won't work on a near-empty tank, and a light that returns or turns red is,
-on both motoring organisations' advice, one for a garage.[2][3]
+on the advice of both the AA and the RAC (both sell breakdown cover and repairs), one for a garage.[2][3]
 
 The last one is not a misconception so much as a question people ask: should I have bought a diesel?
-The AA gives buying advice: if you're buying a new car and will use it "mainly for town-based,
-stop/start driving you'd be wise to avoid diesels fitted with a particulate filter".[3] The RAC gives
-none in its own voice. It says short, slow journeys are "the prime cause" of blocked filters, and it
+The AA, which sells breakdown cover and repairs, gives buying advice: if you're buying a new car and will use it "mainly for town-based,
+stop/start driving you'd be wise to avoid diesels fitted with a particulate filter".[3] The RAC, which
+sells the same, gives none in its own voice. It says short, slow journeys are "the prime cause" of blocked filters, and it
 says car makers often recommend petrol or electric for short-hop drivers, which this course didn't
 check with any maker.[2] This course takes no side on which car to buy; whether to choose a petrol, diesel, hybrid or electric car
 is argued in Energy: How the World Is Powered, later in the Core. What the sources do support is
@@ -533,8 +537,8 @@ If most journeys were under ten minutes and there has been no longer run for wee
 pattern the RAC calls the prime cause of blocked filters.[2] For that car, the line should say
 something like: keep the tank above a quarter, take a run of ten minutes or more at over 40 mph on a
 suitable road regularly, use the handbook's oil, and treat a DPF light that won't clear as
-**Call someone**. That is this course's reading of the AA's and the RAC's advice put together for one
-car, not a schedule either of them gives; if your handbook gives one, use that.
+**Call someone**. That is this course's reading of the advice of the AA and the RAC, which both
+sell breakdown cover and repairs, put together for one car, not a schedule either of them gives; if your handbook gives one, use that.
 :::
 
 ## For your plan

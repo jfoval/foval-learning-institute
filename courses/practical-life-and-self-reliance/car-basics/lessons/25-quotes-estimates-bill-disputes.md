@@ -168,7 +168,7 @@ deciding, is a term too: a promise of genuine parts, or of the car back by Frida
 
 :::predict A garage gives you a written estimate. Halfway through the job it finds another fault. Before you read on: what do you think The Motor Ombudsman's code says an accredited garage must do before fixing it, and what can you do if you don't want the extra work?
 
-Ask you first. Its 3.2: if more time, labour or parts turn out to be needed, "the Accredited Business will contact
+Ask you first. Its 3.2 (the scheme is funded by accredited garages' fees and isn't statutory): if more time, labour or parts turn out to be needed, "the Accredited Business will contact
 you for authorisation prior to commencement of this additional Work." It goes on: "This gives you the
 opportunity to agree a new completion time and date, or you can decline and exercise your right to
 cancel the booking and pay for any Work already completed."[2] That's the code's commitment for its
@@ -407,7 +407,8 @@ first."[1][4] After that, the routes differ.
 
 **In the UK**
 
-- **The Motor Ombudsman**, for accredited garages only. The garage has up to eight weeks to give a final
+- **The Motor Ombudsman**, funded by accredited garages' fees and not statutory, for accredited
+  garages only. The garage has up to eight weeks to give a final
   response; then "A Consumer can refer their complaint to The Motor Ombudsman once the Accredited
   Business has issued a final response, or if it has been more than eight weeks since the Consumer
   contacted the Accredited Business and no response has been received." It is "free to Consumers as an
@@ -465,8 +466,8 @@ handbook or advice. Each lesson has its own list in full, and its own conditions
 | Anything orange, labelled high voltage, or blue on a 48 V mild hybrid (imported cars may differ) | Handbook (Nissan, 2024 LEAF: no user serviceable parts); DVSA's MOT manual (Great Britain) on the colours | 4, 13, 14 |
 | A damaged or flooded hybrid or electric car | Advice (NHTSA in the US; a UK fire and rescue service); not moving it yourself is this course's reading | 14 |
 | Towing an electric car | Handbook (Nissan, 2024 LEAF: a service operator tows it) | 16 |
-| A 12 V battery that's damaged, leaking, swollen or frozen, or any jump-start condition that fails | Advice (the AA, which sells breakdown cover); handbook (Nissan: frozen); where, this course's reading | 5, 13 |
-| An oil pressure, coolant temperature, brake or EV charge light in the stop-now group | Handbooks (Ford, Nissan) and the RAC's advice (it sells breakdown cover): stop when safe, then the cause | 11 |
+| A 12 V battery that's damaged, leaking, swollen or frozen, or any jump-start condition that fails | Advice (the AA, which sells breakdown cover and repairs); handbook (Nissan: frozen); where, this course's reading | 5, 13 |
+| An oil pressure, coolant temperature, brake or EV charge light in the stop-now group | Handbooks (Ford, Nissan) and the RAC's advice (it sells breakdown cover and repairs): stop when safe, then the cause | 11 |
 | A hot coolant cap | Handbook (Ford, Nissan), and the course's "cold" rule | 9 |
 | The car pulls to one side when braking | Highway Code advice (Great Britain), after a tyre-pressure check; for a US car, its handbook | 1, 6 |
 | Brake fluid below MIN, or a level that keeps falling | Handbook (Nissan, 2024 LEAF: below MIN, don't drive until checked); a falling level, this course's reading of Toyota and Nissan | 1, 6, 9 |
@@ -552,8 +553,8 @@ brings the pages together.
 - **Citizens Advice, ["Problem with a car repair"](https://www.citizensadvice.org.uk/consumer/buying-or-repairing-a-car/problems-with-a-car-repair/)**,
   free. Read here in full (England version). The steps in order, with a template letter.
 - **California BAR, ["A Consumer's Guide to Auto Repair"](https://www.bar.ca.gov/pdf/auto-rep-guide.pdf)**,
-  free. Read here in full. The clearest walk-through of estimate, authorisation, teardown, invoice and
-  old parts for any US state, though its law is California's.
+  free. Read here in full. Walks through estimate, authorisation, teardown, invoice and old parts,
+  under California's law.
 - **The Motor Ombudsman (funded by accredited businesses' fees; not statutory), ["The Motor Industry Code of Practice for Service and Repair"](https://www.themotorombudsman.org/wp-content/uploads/2025/06/TMO_ServiceRepairCode.pdf)**,
   free. Read here in full. Short, and shows what an accredited garage promises beyond the law.
 

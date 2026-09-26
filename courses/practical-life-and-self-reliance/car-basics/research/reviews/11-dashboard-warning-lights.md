@@ -156,3 +156,15 @@ User-Agent, no personal data in any header): Ford 2024 Maverick handbook, Intern
   `npm run validate` exit 0, no line naming this file.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4:** labels added to quiz 5's explanation, the stop-now table, the temperature checkpoint, the
+  first uses in "Steady or flashing", "Amber lights" and "The RAC's table" (and its table header),
+  both misconceptions naming the RAC, and the sorting checkpoint. The interest-specific "breakdown
+  cover and mobile mechanics" stays.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 85, matches.

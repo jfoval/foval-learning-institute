@@ -14,8 +14,8 @@ about: >-
   giving both, and HSE's follow-the-maker rule; taking the leads off in reverse order, with each
   source's position on the engines kept (Ford and Toyota as both running on this course's reading,
   with no reason given; Nissan in READY; HSE and the AA each with its reason) and no verdict, the
-  handbook for each car governing and a silent handbook as a question for the dealer on the
-  course's reading; NHTSA on which battery can be jumped; Nissan on the LEAF as a donor and the
+  handbook for each car governing and a silent handbook as a question for the maker's dealer or a garage
+  that works on that make, on the course's reading; NHTSA on which battery can be jumped; Nissan on the LEAF as a donor and the
   AA's general advice against a hybrid or electric donor; and the booster pack, with Ford
   sending you to the pack maker's instructions, the AA's own steps deferring to the handbook, and
   no pack recommended. Leaves out Nissan's opening warning, the AA's preference for a call-out and Toyota's dealer route,
@@ -28,7 +28,7 @@ about: >-
   after it starts, push-starting, the exercise and the plan.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check: FAIL (the short callout pointed back to a motorway clause it had dropped). Fixed with the lesson's Great Britain motorway steps; a second fresh check gave PASS WITH NITS, and its nits are fixed (hazard lights restored, the conditions for a jump start)."
+checked: "2026-09-26, fresh-context fact-check: FAIL (the short callout pointed back to a motorway clause it had dropped). Fixed with the lesson's Great Britain motorway steps; a second fresh check gave PASS WITH NITS, and its nits are fixed (hazard lights restored, the conditions for a jump start). 2026-09-26, neutrality audit fixes (N8): a silent handbook is now a question for the maker's dealer or a garage that works on that make, as the lesson says; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -69,7 +69,7 @@ S1: Every source read takes them off in the reverse of the order they went on. W
 
 S2: Two reasons pointing opposite ways. Which one's right?
 
-S1: The course doesn't say. HSE and the AA each give a reason, neither answers the other, and the lesson won't invent a reconciliation. What's established is narrower. The handbook for the car you're rescuing governs whether its engine runs, and the donor's handbook governs the donor. If your handbook is silent, the course's reading is that it's a question for the maker's dealer, not a gap to fill with whichever rule you heard last.
+S1: The course doesn't say. HSE and the AA each give a reason, neither answers the other, and the lesson won't invent a reconciliation. What's established is narrower. The handbook for the car you're rescuing governs whether its engine runs, and the donor's handbook governs the donor. If your handbook is silent, the course's reading is that it's a question for the maker's dealer or a garage that works on that make, not a gap to fill with whichever rule you heard last.
 
 S2: Last thing. Electric cars. Can they be jumped?
 

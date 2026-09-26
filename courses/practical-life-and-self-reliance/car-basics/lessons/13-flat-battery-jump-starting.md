@@ -62,7 +62,7 @@ quiz:
       - Offer it, but clamp onto the hybrid's big battery, since that is the one with the power
     answer: 2
     explain: >-
-      The AA, which sells breakdown cover, advises avoiding a hybrid or electric donor "as this could
+      The AA, which sells breakdown cover and repairs, advises avoiding a hybrid or electric donor "as this could
       cause damage", and the only maker's word this course read is Nissan's, for the LEAF, which
       "cannot be used as a booster vehicle". So the sources point away from offering, unless your own
       handbook says your car can be a donor. A big battery doesn't change that, and neither does which
@@ -93,7 +93,7 @@ quiz:
       - The flat car is an automatic, which cannot be started by any method but its key
     answer: 1
     explain: >-
-      The AA, which sells breakdown cover: "Never try to jump start a battery that looks damaged or
+      The AA, which sells breakdown cover and repairs: "Never try to jump start a battery that looks damaged or
       is leaking". A cracked case
       and a wet crust are both. Rain isn't a bar in the AA's account ("possible", though "not
       ideal", keeping everything under the bonnet dry). No source read makes the donor's size a condition;
@@ -196,7 +196,7 @@ is done incorrectly may cause the battery to explode, especially if it has just 
 
 :::predict A friend clamps the last black lead onto the flat battery's own negative terminal, because it is closest and the clamp fits. Before reading on: what has he done that every source read tells him not to, and why?
 
-He's made the final connection right at the battery, where the hydrogen is. Ford puts it on the engine "away from the battery and fuel injection system", Nissan says negative goes to body ground "not to the 12-volt battery", HSE says at least 15 cm from the battery, and the AA, which sells breakdown cover, says "well away from the flat battery and fuel system". If that last connection sparks, it sparks over the gas. It may work, which is what makes the habit stick.
+He's made the final connection right at the battery, where the hydrogen is. Ford puts it on the engine "away from the battery and fuel injection system", Nissan says negative goes to body ground "not to the 12-volt battery", HSE says at least 15 cm from the battery, and the AA, which sells breakdown cover and repairs, says "well away from the flat battery and fuel system". If that last connection sparks, it sparks over the gas. It may work, which is what makes the habit stick.
 :::
 
 So the connection that matters most is the last one, made away from the gas. HSE, for the case
@@ -204,7 +204,7 @@ where no maker's instructions are available, has the black lead go from the good
 suitable unpainted metal part of the chassis or engine of the dead vehicle. The point of attachment
 should be at least 15 cm from the battery and away from fuel and brake lines."[6] (15 cm is about 6
 inches, this course's conversion.) Ford, Nissan and
-the AA put the last clamp in the same kind of place, as the table below shows. None of the sources
+the AA (which sells breakdown cover and repairs) put the last clamp in the same kind of place, as the table below shows. None of the sources
 read says in so many words why it is the last clamp in particular that goes there. This course's
 reading of HSE's paragraphs is that the connection which ends the sequence is the one made at a
 distance, so that any spark it makes is made 15 cm or more from the gas, and not over the battery
@@ -213,7 +213,7 @@ that has just been giving it off.
 The same logic explains the other warnings. Toyota: "Do not allow the + and - clamps of the jumper
 cables to come into contact with each other", and don't let the other end of the positive lead,
 once one end is on, touch "any other parts or metal surfaces in the area, such as brackets or
-unpainted metal".[4] The AA, which sells breakdown cover: rings, necklaces and watch straps off, and no metal objects touching the batteries, because
+unpainted metal".[4] The AA, which sells breakdown cover and repairs: rings, necklaces and watch straps off, and no metal objects touching the batteries, because
 they "could cause a spark and possibly make the battery explode".[3] Nissan adds "remove rings,
 metal bands, or any other jewelry", wear eye protection, and "Do not lean over the 12-volt battery
 when jump starting."[1]
@@ -229,7 +229,7 @@ which HSE says is usual.[6] Read the rows for what they share, and then for wher
 | Toyota | Handbook, 2023 Corolla, US | The same four, in the same order | "Metallic point shown in the illustration" |
 | Nissan | Handbook, 2024 LEAF, US | "in the sequence as illustrated": its drawing numbers 1 the LEAF's positive, 2 the booster's positive, 3 the booster's negative, 4 body ground on the LEAF | Body ground, "not to the 12-volt battery" |
 | HSE | Workplace leaflet, Great Britain, only where no maker's instructions are available | Red lead between the two positives; black lead from the good battery's negative | Unpainted metal on the dead car's chassis or engine, at least 15 cm from the battery and away from fuel and brake lines |
-| The AA | Motoring organisation that sells breakdown cover, UK, any car; it says to follow the handbook where the two differ | Red lead from the working battery's positive to the flat one's; black lead to the working battery's negative | "an earthing point (unpainted metal on the engine block or chassis) well away from the flat battery and fuel system" |
+| The AA | Motoring organisation that sells breakdown cover and repairs, UK, any car; it says to follow the handbook where the two differ | Red lead from the working battery's positive to the flat one's; black lead to the working battery's negative | "an earthing point (unpainted metal on the engine block or chassis) well away from the flat battery and fuel system" |
 
 Sources: [1][3][4][5][6].
 
@@ -330,7 +330,7 @@ whether the engines are running while you do it.
 | Toyota | Handbook, 2023 Corolla, US | Neither engine is switched off in its steps: with the second vehicle's engine speed maintained, "Once the vehicle's engine has started, remove the jumper cables in the exact reverse order from which they were connected" (so, on this course's reading, both are running) | Have the car inspected at a Toyota dealer as soon as possible |
 | Nissan | Handbook, 2024 LEAF, US | The LEAF left in its ready-to-drive state: "carefully disconnect the negative cable and then the positive cable" | Keep it in READY "over 20 minutes to charge the 12-volt battery" |
 | HSE | Workplace leaflet, Great Britain | "Stop the engine of the good vehicle and turn off the ignition. Leave the engine of the other vehicle running" | Keep the metal parts of the leads apart until both are off |
-| The AA | Motoring organisation that sells breakdown cover, UK | "Turn off both cars' engines and carefully disconnect the leads", after about 10 minutes at a fast idle | Its safety list: "Don't remove the jump leads while the car engines are running. This can cause serious damage to the cars' electronics" |
+| The AA | Motoring organisation that sells breakdown cover and repairs, UK | "Turn off both cars' engines and carefully disconnect the leads", after about 10 minutes at a fast idle | Its safety list: "Don't remove the jump leads while the car engines are running. This can cause serious damage to the cars' electronics" |
 
 Sources: [1][3][4][5][6].
 
@@ -346,11 +346,11 @@ HSE and the AA each give a reason, neither answers the other, and this course wo
 reconciliation. What is established is narrower: the leads come off in reverse order, **the handbook
 for the car you are rescuing governs** whether its engine runs, and the donor's handbook governs the
 donor. If your handbook is silent, this course's reading is that it's a question for the maker's
-dealer, not a gap to fill with whichever rule you heard last.
+dealer or a garage that works on that make, not a gap to fill with whichever rule you heard last.
 
 :::checkpoint Back to Portree. Her handbook reads like Toyota's. Once her engine has started, which clamp comes off first, and is her engine running?
 
-The last one on comes off first: the clamp on the metal point on her engine, then the neighbour's negative, then the neighbour's positive, then her own positive. Toyota's steps don't switch her engine off before step 7 ("Once the vehicle's engine has started, remove the jumper cables in the exact reverse order"), so on this course's reading her engine is running while the leads come off. If her handbook said what the AA's page says, both engines would be off; hers is the one that counts.
+The last one on comes off first: the clamp on the metal point on her engine, then the neighbour's negative, then the neighbour's positive, then her own positive. Toyota's steps don't switch her engine off before step 7 ("Once the vehicle's engine has started, remove the jumper cables in the exact reverse order"), so on this course's reading her engine is running while the leads come off. If her handbook said what the page of the AA (which sells breakdown cover and repairs) says, both engines would be off; hers is the one that counts.
 :::
 
 ## After it starts
@@ -373,7 +373,7 @@ that has four consequences.
 
 :::predict In Grand Rapids, a petrol car's battery is flat on a winter morning. The only neighbour at home drives a battery-electric car and offers it as the donor. The battery on the petrol car looks fine and is not frozen. Before reading on: what should the petrol car's owner say, and what are her other routes?
 
-No to that car as the donor. The electric car's own handbook is the authority for it, and the one this course read, Nissan's for the LEAF, says it "cannot be used as a booster vehicle"; the AA, which sells breakdown cover, advises avoiding a hybrid or electric donor "as this could cause damage". Her other routes are another petrol or diesel donor with a 12 V battery, a booster pack (a portable battery with its own leads) used by its maker's instructions (Ford's handbook says to follow them; the AA's page gives its own booster steps and says to follow the car's handbook where they differ), or a call-out, which is the AA's own preference. Had the cars been the other way round, with her electric car flat and the neighbour's petrol car offered, Nissan says a petrol car can jump the LEAF's 12 V battery, by the LEAF handbook's sequence.
+No to that car as the donor. The electric car's own handbook is the authority for it, and the one this course read, Nissan's for the LEAF, says it "cannot be used as a booster vehicle"; the AA, which sells breakdown cover and repairs, advises avoiding a hybrid or electric donor "as this could cause damage". Her other routes are another petrol or diesel donor with a 12 V battery, a booster pack (a portable battery with its own leads) used by its maker's instructions (Ford's handbook says to follow them; the AA's page gives its own booster steps and says to follow the car's handbook where they differ), or a call-out, which is the AA's own preference. Had the cars been the other way round, with her electric car flat and the neighbour's petrol car offered, Nissan says a petrol car can jump the LEAF's 12 V battery, by the LEAF handbook's sequence.
 :::
 
 **The small battery can be jumped; the big one cannot.** [NHTSA](https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles), the US road-safety regulator: "The
@@ -389,7 +389,7 @@ injury".[1]
 
 **An electric car shouldn't be the donor.** Nissan: "LEAF cannot be used as a booster vehicle because it
 cannot supply enough power to start a gasoline engine." It goes on: "However, a gasoline engine
-vehicle can be used to jump start LEAF's 12-volt battery."[1] The AA, which sells breakdown cover,
+vehicle can be used to jump start LEAF's 12-volt battery."[1] The AA, which sells breakdown cover and repairs,
 of the donor car in general:
 "avoid a hybrid or electric car as this could cause damage".[3] Nissan's statement is about the
 LEAF, and the AA's is general advice; this course read no maker that says the reverse.
@@ -416,7 +416,7 @@ every condition has to hold:
 
 - **The handbook allows it and gives its method**, and you follow that method's order and points.
 - **The battery is fit to be jumped:** not frozen (Nissan: "It could explode"), not damaged or
-  leaking (the AA, which sells breakdown cover).[1][3]
+  leaking (the AA, which sells breakdown cover and repairs).[1][3]
 - **The same voltage:** Ford's "same nominal voltage", HSE's "do not proceed" if unsure, and
   Nissan's "The booster battery must be rated at 12 volt."[1][5][6]
 - **The leads are fit:** Ford's "adequately sized cables with insulated clamps", the AA's "Don't use
@@ -501,12 +501,11 @@ placement rules this course applies to a jump start.
 
 - **Your own handbook**, its jump-start pages. Every order in this lesson is one maker's for one car.
 - **HSE, [*Using electric storage batteries safely* (INDG139)](https://www.hse.gov.uk/pubns/indg139.pdf)**,
-  free, 10 pages, read here in full. Written for workplaces in 2011, but its jump-starting section
-  is the clearest official account of where the last lead goes and why connecting is the risky
-  moment.
+  free, 10 pages, read here in full. Written for workplaces in 2011; its jump-starting section
+  covers where the last lead goes and why connecting is the risky moment.
 - **Nissan, [*2024 LEAF Owner's Manual*](https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf)**,
-  pages 6-10 to 6-13, read here in full. The fullest electric-car jump-start section this course
-  read, with the donor warning and the order for taking the leads off.
+  pages 6-10 to 6-13, read here in full. The jump-start section for that electric car, with the
+  donor warning and the order for taking the leads off.
 - **Halderman and Ward, *Automotive Technology: Principles, Diagnosis, and Service*, 7th edition
   (Pearson, 2025)**, whose Section VII, "Electrical Systems", has a chapter titled "Automotive
   12-Volt Batteries". A technician's textbook; this course read only its table of contents.

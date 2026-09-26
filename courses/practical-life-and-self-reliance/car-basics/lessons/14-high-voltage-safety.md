@@ -156,8 +156,8 @@ how they work", gave ASE's line for high voltage (above 30 V AC or 60 V DC) and 
 the LEAF, up to about 400 V DC, and showed that other systems differ, down to 48 V in a mild
 hybrid.[1][3]
 
-ASE's list of what trainee technicians must know about is the fullest account of the hazards this
-course read. It asks them to "Demonstrate knowledge of hazards related to high voltage systems/electric
+ASE's list, from the ASE Education Foundation, which accredits US technician training programmes,
+names the hazards trainee technicians must know about. It asks them to "Demonstrate knowledge of hazards related to high voltage systems/electric
 vehicles, including electrocution, fire, explosion, arc flash, gases and fumes, hazardous chemicals,
 and EMF".[3] Set that beside HSE's line about the 12 V battery and the difference is plain: the
 small battery can burn you or blow up in your face, and the big one can also electrocute you. None
@@ -203,7 +203,7 @@ bonnet: oil, coolant, brake fluid and screenwash", showed how to do them without
 anything orange, labelled high voltage, or blue on a 48 V mild hybrid.
 
 NHTSA wants a technician with EV-specific high-voltage training.[7] In the UK, the Institute of the Motor
-Industry, a professional body that also sells the qualifications it recommends, runs a register
+Industry, a professional body that awards, and sells, the qualifications it recommends, runs a register
 called TechSafe, and says "IMI TechSafe recognition is evidence of being safe and qualified to work
 on vehicles with systems and technologies that have significant safety implications, e.g. electric
 vehicles."[8] Its list of qualifications runs from a "Level 2 Award in Electric/Hybrid Vehicle
@@ -551,8 +551,8 @@ covers electrical burns. Lesson 16 takes the damaged car to the roadside and the
    read from Internet Archive capture 20260924154857 (nhtsa.gov refuses automated readers; the live
    page is linked). **Read: full text, including the FAQs, re-read 26 September 2026 from the same
    capture.** <!-- SOURCES Part B §4, §5; lesson 13/14 gate closures -->
-8. Institute of the Motor Industry (the UK professional body for the motor industry; it also awards
-   the qualifications it recommends), ["IMI TechSafe"](https://tide.theimi.org.uk/membership/imi-techsafe)
+8. Institute of the Motor Industry (the UK professional body for the motor industry; it awards, and
+   sells, the qualifications it recommends), ["IMI TechSafe"](https://tide.theimi.org.uk/membership/imi-techsafe)
    and the news release ["Industry leaders and Shadow Secretary of State for Transport unite in call
    for mandatory..."](https://tide.theimi.org.uk/industry-latest/news/industry-leaders-and-shadow-secretary-state-transport-unite-call-mandatory),
    on a meeting of 14 May 2026. **Read: full text of both, re-read 26 September 2026.** The

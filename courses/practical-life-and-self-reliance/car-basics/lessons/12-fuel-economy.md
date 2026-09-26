@@ -457,8 +457,8 @@ service intervals.
 - **fueleconomy.gov, ["Fuel Economy Myths and Misconceptions"](https://www.fueleconomy.gov/feg/myths.shtml)**,
   free. Read here in full. Eleven common beliefs, each with a one-paragraph government answer.
 - **fueleconomy.gov, ["Selecting the Right Octane Fuel"](https://www.fueleconomy.gov/feg/octane.shtml)**,
-  free. Read here in full. The plainest explanation read of what octane is and when it matters. US
-  pump numbers throughout.
+  free. Read here in full. Explains what octane is and when it matters, with US pump numbers
+  throughout.
 - **The Internet Archive's [December 2007 copy of the maintenance page](https://web.archive.org/web/20071226033438/http://www.fueleconomy.gov/feg/maintain.shtml)**,
   free. Read here in full. Put it beside today's page and read them together. It shows more
   plainly than anything else in this lesson how official advice changes.

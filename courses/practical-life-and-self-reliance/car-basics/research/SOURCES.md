@@ -9191,3 +9191,109 @@ noted.*
   (up to, on the notice; under, on (C)(2)). $450: $495 in both Florida and Michigan; Ohio $45.
   $1,500: $1,550 in both; Ohio $150. Florida and Michigan give the same allowance on any estimate of
   $100 or more and part only below $100.
+
+## Stage 4 note, course-wide neutrality fixes, lessons 17 to 24 (2026-09-26)
+
+Strings added to lessons 17, 21 and 24 by the course-wide neutrality audit's fixer
+(`reviews/neutrality-audit.md`, N1, N2, N4, N9, N10, N11), each re-read live on 26 September 2026
+(curl with a generic browser User-Agent and no personal data; GOV.UK through the content API; the
+PDF through pdftotext; the ABI's page from the Internet Archive, since the live site refused).
+Nothing earlier in this file is edited.
+
+- **National Highways, "Smart motorways stocktake: Fourth year progress report"** (PDF, URL as Part E
+  §2), re-read live (page numbers are the PDF's). Executive summary, pp. 7 to 8: "Our analysis also includes scheme by scheme
+  data, showing how safety compares on smart motorway sections before and after they were upgraded."
+  [V] "This shows that in most cases smart motorways are safer than the roads they replaced." [V]
+  "most ALR, dynamic hard shoulder (DHS) and controlled motorway schemes (25 out of 39) have seen a
+  reduction in personal injury collision (PIC) rates after they were constructed both against the
+  before and the counterfactual. Most schemes (37 out of 39) have also seen a reduction in fatal and
+  weighted injuries (FWI) rates. This has also been the case for most schemes (27 out of 39) for
+  killed or seriously injured (KSI) rates." [V, joined across the page break] The same counts are
+  repeated on p. 46, which adds that the counterfactual is not calculated for FWI and KSI rates
+  ("we have chosen not to calculate the counterfactual for FWI and KSI rates" [V]). p. 48: "to better
+  understand why some locations in their after period show increased rates compared to the before
+  period" [V]. Annex B, "Statistical significance testing" (pp. 62 to 63): the tests are applied "to
+  the headline five-year average personal injury collision (PIC) rates and five-year average all
+  casualty rates" [V] and to the moving and stopped rates; **nothing read says the scheme-by-scheme
+  before-and-after counts were tested for significance**, so the lesson says nothing about testing
+  them. Also re-read, p. 5: "Smart motorways were introduced as they increase capacity without the
+  disruption and environmental impact of physically widening the road." [V] p. 27: "The FWI and KSI
+  rates do not meet the criteria and cannot be tested at this time." [V] p. 32: "we can be
+  confident" [V] (in "The statistical testing suggests that we can be confident that the stopped
+  vehicle PIC rates for conventional motorways (0.19) and controlled motorways (0.19) are lower than
+  that of ALR (0.29)." [V]).
+- **Department for Transport, "Smart motorway rollout to be paused ..."** (content API,
+  public_updated_at 2022-01-12): "Although available data shows smart motorways are comparatively
+  the safest roads in the country in terms of fatality rates" [V]. Used in lesson 17's quiz 5
+  explanation, as the January 2022 release's claim.
+- **Department for Transport, "All new smart motorways scrapped"** (content API), re-read in full:
+  it gives confidence and cost as its reasons ("in recognition of the current lack of public
+  confidence felt by drivers and cost pressures" [V]) and makes no safety claim in either direction,
+  which lesson 17's quiz 5 explanation now says.
+- **Which?, "Car servicing and repair costs"** (9 June 2026), re-read live: "Across all cars in our
+  survey, a service from a franchised dealer costs £361, while a local independent costs just £260
+  on average. Looking at the average across cars available to buy new, franchised dealer services
+  cost £331, compared with local garages at £262." [V] The page's banner: "This enables W? to
+  receive an affiliate commission if you make a purchase" [V]. The lesson's words "For cars still
+  sold new" paraphrase "cars available to buy new"; the quotation is the second half of the
+  sentence.
+- **Which?, "How to find a good garage and get the best service"** (28 April 2026), re-read live:
+  the same affiliate-commission banner [V], so lesson 24's Sources entry 30 now carries the
+  commission label that entry 29 already had. "There are some extended warranties (such as
+  Toyota/Lexus Relax) that require you to use a main dealer" [V] (the basis of lesson 24's "Which?
+  notes that some extended warranties require a main dealer", unchanged).
+- **Association of British Insurers, "About us"**, Internet Archive capture 20251210030620 of
+  https://www.abi.org.uk/about-the-abi/about-us/ (the live site returned 403): "The ABI is the
+  definitive voice of the UK’s world leading insurance and long-term savings industry" [V]; "We
+  represent more than 300 firms within our membership" [V]; the ABI "is funded by members’
+  subscriptions on a not-for-profit basis" [V]. This is the basis of lesson 21's label, "the
+  insurers' trade body, funded by its member firms' subscriptions"; no quotation from it is printed.
+- **Lesson 21's new sentence**, "This course didn't read the consultations' own case for four
+  years", rests on this file's own record: the 2023 consultation's response PDF and the 2017
+  consultation were not read (Part A's list above and the `unread:` line).
+- **Lesson 23's Connections** no longer says that lesson 22 showed California's Smog Check report
+  lists open safety recalls; lesson 22 doesn't say so. BAR's line stays recorded above (Lesson 22:
+  the states) and is not printed.
+
+## Stage 4 note, course-wide neutrality fixes, lessons 1 to 25 excluding 17 and 21 to 24 (2026-09-26)
+
+*Read by the fixer applying the course-wide neutrality audit (N4 to N8, N11, N12 and two smaller
+fixes) on 26 September 2026, with curl and a generic browser User-Agent (no personal data in any
+header); text stripped of markup. Every quotation marked [V] was copied from that read. It records the
+quotations the fixes print or move, and the facts behind the label wording they settle.*
+
+- **The AA, "AA gives power to electric drivers"** (press release, 23 July 2021; live):
+  "But running out of charge is incredibly rare – in fact, it doesn’t feature within the top three
+  EV breakdown causes." [V]; "The top two causes of breakdowns in an EV are no different to those of
+  conventionally fuelled cars; namely the low-voltage 12v battery which can be found in all cars, and
+  tyre faults due to potholes, punctures and wear." [V] Lesson 4's new misconception quotes "doesn't
+  feature within the top three" and gives the top two unranked, as the lessons 2 and 4 convention
+  requires.
+- **The Highway Code, Annex 6** (GOV.UK, live): "If your vehicle pulls to one side when braking, it is
+  most likely to be a brake fault or incorrectly inflated tyres. Consult a garage or mechanic
+  immediately" [V]. Lesson 1's checkpoint K keeps the quotation and now gives the tyre-pressure check
+  first, as lesson 6's signs table does.
+- **Met Office, "6 simple checks to prepare your vehicle for winter"** (live): the page says "The RAC
+  recommends using the acronym ‘ FORCES ’ to remember the simple winter checks" [V], so the checklist
+  and its words are the RAC's. Re-read today and unchanged: "Remember only check this when the engine
+  is cool otherwise you risk scalding yourself." [V]; "It’s not normal for coolant levels to drop
+  suddenly, so if it does, get it checked out at a garage." [V]; "Make sure you top up your screenwash
+  with a product that is effective down to at least -15 degrees Celsius." [V]; "It’s recommended to
+  change wiper blades every 12 months." [V]; "Battery problems are the reason for more RAC call-outs in
+  winter than anything else." [V] Lessons 9, 10 and 15 now attribute these to the RAC's checklist,
+  with the RAC's label, and name the Met Office page as where it appears.
+- **Label facts, from this file's existing records, checked before use.** The ASE Education
+  Foundation accredits technician training programmes; individual ASE certification is separate
+  (Part A, "UK vs US differences", qualifications line). The audit's wording for lesson 14, "the body that certifies
+  technicians", would describe ASE, not the Foundation whose standards the lesson quotes, so lesson 14
+  says "which accredits US technician training programmes". The IMI is "an awarding organisation (it
+  sells the qualifications it recommends)" (Part B, IMI TechSafe entry); nothing read says it sells training,
+  so lessons say it "awards, and sells, the qualifications it recommends". NHTSA's TPMS page: "You
+  should contact your vehicle dealer for a system inspection." [V] (recorded above), which supports
+  lesson 7's "(NHTSA says the dealer's)". AAA Mountain West's battery page advertises AAA's own
+  battery service (lesson 5's Go deeper, from the Stage 1 read).
+- **Highway Code Rule 229** (recorded above): its reason for clearing snow is "remove all snow that
+  might fall off into the path of other road users" [V]. Lesson 15's step 4 gave the driver's own
+  windscreen as the reason in the course's voice; the audit's replacement, "the reason given is that",
+  would have put that reason in the Code's mouth, so the sentence is now labelled as this course's
+  reading instead.

@@ -181,3 +181,15 @@ offset): none. Callout byte-identical; no em or en dashes; `npm run minutes` 90.
 `npm run quotes`: nothing for this file. `npm run validate`: exit 0, no line naming this file.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N6:** "The clearest statement of it is in US law:" becomes "US law puts it on the label:".
+- **N8:** after the signs table: "Where a handbook says "dealer", that's the maker's own network;
+  lesson 24, "Choosing a garage, servicing and warranties", sets out what each country's law says
+  about using another garage." The handbooks' dealer instructions in the table are quoted unchanged.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

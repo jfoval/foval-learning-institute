@@ -46,7 +46,7 @@ quiz:
     answer: 3
     explain: >-
       The handbook's figure is a cold figure. Annex 6 says "Warm or hot tyres may give a misleading
-      reading", and AAA, whose clubs sell roadside assistance, says a warm tyre can read "up to 5 psi higher" than the cold figure. Letting
+      reading", and AAA, whose clubs sell roadside assistance and run a repair network, says a warm tyre can read "up to 5 psi higher" than the cold figure. Letting
       it down to 2.4 bar warm could leave it under the handbook's figure once it cools. Warm tyres
       read higher, not lower, so adding air gets it backwards. And a TPMS, where a car has one, isn't a
       gauge: the US standard, for one, only requires the light at 25 per cent under on standard-load
@@ -104,7 +104,7 @@ quiz:
       NHTSA describes is a light that comes on for a short time and goes off, not one that flashes.
   - q: >-
       A tyre is worn more on both of its outer edges than across the middle of the tread. On the
-      account of wear patterns given by AAA, whose clubs sell roadside assistance, what is the
+      account of wear patterns given by AAA, whose clubs sell roadside assistance and run a repair network, what is the
       likeliest cause to have checked first?
     options:
       - Too little air, which puts most of the tyre's contact with the road on its outer edges
@@ -203,7 +203,7 @@ why, the load link is the reason.
 
 "Cold" has a definition. NHTSA says to check at least once a month, when the tyres are cold,
 "meaning that the car hasn't been driven for at least three hours."[1] Annex 6 gives the reason not to check
-straight after a drive: "Warm or hot tyres may give a misleading reading."[7] AAA, whose clubs sell roadside assistance, puts a size on it:
+straight after a drive: "Warm or hot tyres may give a misleading reading."[7] AAA, whose clubs sell roadside assistance and run a repair network, puts a size on it:
 checking warm tyres "can result in a pressure reading of up to 5 psi higher than the recommended
 pressure."[11] Five psi is about a third of a bar (0.34 bar), on this course's conversion.
 
@@ -220,7 +220,7 @@ The sources agree on cold, and disagree on how often.
 | In the UK | In the US |
 |---|---|
 | Annex 6 (Great Britain): "Tyre pressures. Check weekly. Do this before your journey, when tyres are cold." Advice, not a MUST rule.[7] | NHTSA: "at least once a month".[1] The federal TPMS standard makes carmakers print "should be checked monthly when cold" in the owner's manual.[2] |
-| TyreSafe, the industry-backed charity: "every month or before every long journey."[10] | AAA, whose clubs sell roadside assistance: "at least once a month with a quality gauge".[11] |
+| TyreSafe, the industry-backed charity: "every month or before every long journey."[10] | AAA, whose clubs sell roadside assistance and run a repair network: "at least once a month with a quality gauge".[11] |
 | The AA, which sells breakdown cover and repairs: tyres "every 2 weeks".[16] | |
 
 No source this course read gives a reason for weekly against monthly. Every one of them asks for at
@@ -229,7 +229,7 @@ the AA's.
 
 ### The gauge
 
-AAA, whose clubs sell roadside assistance, says the gauges "built into air hoses at gas stations are often abused and frequently
+AAA, whose clubs sell roadside assistance and run a repair network, says the gauges "built into air hoses at gas stations are often abused and frequently
 inaccurate", and that digital and dial gauges "tend to be more accurate and easier to read,
 although a good pen/stick gauge will do the job as well."[11] NHTSA's advice is to keep one in the
 car: "A tire can suddenly lose pressure if you drive over a pothole or bump into a curb when you
@@ -274,7 +274,7 @@ do with it? And what would she find the next morning if she let the air out now?
 :::checkpoint What should she do, and why?
 
 Leave the air in and check again cold. The handbook's 32 psi is a cold figure, and these tyres are
-warm: Annex 6 calls a warm reading "misleading", and AAA, whose clubs sell roadside assistance, says
+warm: Annex 6 calls a warm reading "misleading", and AAA, whose clubs sell roadside assistance and run a repair network, says
 warm tyres can read up to 5 psi high. If she bleeds them to 32 psi now, they could be a few psi under
 once they cool, which is the wrong side to be on. NHTSA, the US regulator, says to measure cold "or
 compensate for the extra pressure in warm tires"; bleeding a warm tyre to the cold figure does the
@@ -301,7 +301,7 @@ it covers built from 1 September 2007.[2] NHTSA describes two ways a system can 
 the wheel speed and other sensors the car already has ("indirect").[1] Your handbook says which
 yours is.
 
-What the standard requires is a trigger, and the trigger is set well below the right pressure. The light must come on
+What the standard requires is a trigger, and the trigger is set well below the placard pressure. The light must come on
 "not more than 20 minutes after the inflation pressure in one or more of the vehicle's tires, up to
 a total of four tires, is equal to or less than either the pressure 25 percent below the vehicle
 manufacturer's recommended cold inflation pressure, or the pressure specified in the 3rd column of
@@ -389,7 +389,7 @@ Take a car in Pueblo whose TPMS symbol flashes for about a minute every morning 
 The owner assumes a tyre is low, checks all four with a gauge, finds them at the placard figure,
 and decides the light is wrong. Half right: on NHTSA's account, that flashing pattern is how a system
 malfunction may show itself, not a low tyre. So the tyres are fine today, the system isn't watching
-them, and the fix is the dealer's inspection. Having the system repaired is **Call someone**;
+them, and the fix is an inspection of the system (NHTSA says the dealer's). Having the system repaired is **Call someone**;
 checking the tyres by hand until then is **Yours**.
 
 :::checkpoint A US car on standard-load tyres has a placard figure of 35 psi. On a frosty morning its TPMS symbol comes on for the first two miles and then goes out. The driver says: "It went out, so the tyres are fine." Using NHTSA and FMVSS 138, what do you tell her, and what's the lowest the car's warning point can be?
@@ -502,7 +502,7 @@ graded 100 on the government's course, and nothing about your roads.
 
 ## What uneven wear tells you
 
-Pressure shows up on the tread, and the pattern points to the cause. AAA, whose clubs sell roadside assistance, gives three patterns:[11]
+Pressure shows up on the tread, and the pattern points to the cause. AAA, whose clubs sell roadside assistance and run a repair network, gives three patterns:[11]
 
 - **Worn in the centre**: over-inflation. "Too much air pressure causes mostly the tire's middle
   section to contact the road."
@@ -526,14 +526,14 @@ maintenance".[2] This course read no UK rule that sets a trigger at all.
 **"I'd see a soft tyre."** NHTSA: "Underinflated tires are visually difficult to detect."[1] A
 quarter low can look normal.
 
-**"The forecourt gauge is good enough."** AAA, whose clubs sell roadside assistance, calls air-hose gauges "often abused and frequently
+**"The forecourt gauge is good enough."** AAA, whose clubs sell roadside assistance and run a repair network, calls air-hose gauges "often abused and frequently
 inaccurate".[11] Your own gauge, used the same way every time, at least gives readings you can
 compare.
 
 **"The tyres were right in summer, so they're right now."** "As the outside temperature drops, so
 does tire inflation pressure."[12]
 
-**"A warm tyre reading high means let some out."** Warm tyres read high (up to 5 psi, says AAA, whose clubs sell roadside assistance), and the
+**"A warm tyre reading high means let some out."** Warm tyres read high (up to 5 psi, says AAA, whose clubs sell roadside assistance and run a repair network), and the
 cold figure is the one that counts.[11]
 
 **"Treadwear 400 means 40,000 miles."** It's a comparison on a government test course, and the rule
@@ -558,7 +558,8 @@ tyre size. Each reading was cold, with the same gauge, and the spare was include
 the car. The percentages are the difference divided by the placard figure: 3 psi under on a 30 psi
 figure is 10 per cent. Your trigger is three quarters of the figure: for 30 psi on standard-load tyres, 22.5 psi. Each date
 code reads week first, then year. If any tyre was worn on both edges and read low, those two
-findings fit AAA's pattern for under-inflation; wear on one edge is AAA's pattern for alignment,
+findings fit the pattern AAA (whose clubs sell roadside assistance and run a repair network) gives
+for under-inflation; wear on one edge is AAA's pattern for alignment,
 which is Call someone. If any date code had only three digits, DVSA's manual says the tyre is more
 than ten years old: lesson 8 is about what to do with that.
 :::
@@ -587,8 +588,7 @@ check.
   it from an archived copy.
 - **[FMVSS 138](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.138)**,
   free on the eCFR: read S4.2 and S4.5. The first is the trigger, and the second is the text your
-  owner's manual is required to carry, which is the plainest statement anywhere of what the light
-  is not for.
+  owner's manual is required to carry, which says what the light is not for.
 - **The Highway Code, [Annex 6](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security)**,
   free, for Great Britain: the tyre paragraph has a MUST rule and advice a few lines apart.
 - **AAA, ["Tire Safety and Maintenance"](https://exchange.aaa.com/automotive/car-care-repair-and-maintenance/tire-safety-and-maintenance/)**,

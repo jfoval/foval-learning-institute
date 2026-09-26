@@ -254,3 +254,15 @@ line for this lesson. `npm run validate`: exit 0, no line naming this file.
 "lowered with nobody beside it" applies Toyota's line to a Mazda; it is a safe step and left.
 
 **Verdict:** CLEAN.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N5:** the RAC's "sells breakdown cover" gains "and repairs" at quiz 3, the torque section and
+  the plank misconception; Green Flag's "sells breakdown cover too" becomes "sells breakdown cover
+  and repairs too".
+- Script 19 mirrors the RAC's label; its `checked:` entry says a fresh check is owed.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 85, matches.

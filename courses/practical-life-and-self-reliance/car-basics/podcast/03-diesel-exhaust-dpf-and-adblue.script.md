@@ -19,7 +19,7 @@ about: >-
   the MOT manual's check.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all seven nits fixed (usually, the handbook condition, a principal effect, the derate requirement and its software condition, the RAC wording, the Ripon route). Regulation 61A now gives the lesson's unless-conditions shape."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all seven nits fixed (usually, the handbook condition, a principal effect, the derate requirement and its software condition, the RAC wording, the Ripon route). Regulation 61A now gives the lesson's unless-conditions shape. 2026-09-26, neutrality audit fixes (N8): the Laredo line now names the maker's dealer or a garage that works on that make, not the dealer alone, as the lesson does; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -68,7 +68,7 @@ S1: Yours, on conditions. From a sealed container, into the AdBlue tank only, as
 
 S2: And in America?
 
-S1: The US sources the course read on DEF are written mostly for trucks, heavy pickups and farm machinery. When the fluid runs out, EPA says, the system can drastically cut the vehicle's speed. That's a derate. On vehicles whose software hasn't been changed, EPA's August twenty twenty five fact sheet says speed drops to five miles an hour within four hours. The fact sheet urges makers to update their software, and for light-duty cars and heavy pickups the final step becomes a forty five mile an hour limit, if the maker updates. But that's guidance, and voluntary. EPA says that by law it can't mandate fixes for vehicles already in use. And what comes next isn't settled. On the fourteenth of July, twenty twenty six, EPA published a proposal to replace the derate requirement on newly made diesel highway vehicles, light-duty ones included, with warnings you'd hear or see. A proposal, not a rule. And the course read only EPA's summary page, not the proposal itself. So what a given truck does at zero is for its handbook and dealer to say. The course's own reading is simpler: a truck topped up before it runs out never meets a derate for want of fluid.
+S1: The US sources the course read on DEF are written mostly for trucks, heavy pickups and farm machinery. When the fluid runs out, EPA says, the system can drastically cut the vehicle's speed. That's a derate. On vehicles whose software hasn't been changed, EPA's August twenty twenty five fact sheet says speed drops to five miles an hour within four hours. The fact sheet urges makers to update their software, and for light-duty cars and heavy pickups the final step becomes a forty five mile an hour limit, if the maker updates. But that's guidance, and voluntary. EPA says that by law it can't mandate fixes for vehicles already in use. And what comes next isn't settled. On the fourteenth of July, twenty twenty six, EPA published a proposal to replace the derate requirement on newly made diesel highway vehicles, light-duty ones included, with warnings you'd hear or see. A proposal, not a rule. And the course read only EPA's summary page, not the proposal itself. So what a given truck does at zero is for its handbook, and the maker's dealer or a garage that works on that make, to say. The course's own reading is simpler: a truck topped up before it runs out never meets a derate for want of fluid.
 
 S2: Last, the delete. Cutting the filter out to save the repair bill.
 

@@ -63,7 +63,8 @@ quiz:
       triangles or six fusees, and they are for commercial motor vehicles. This course found no
       federal rule for private cars and read no state's rule on them, so the next place to ask is her
       own state. Nothing read limits the rule to interstates or bans triangles; AAA Club Alliance,
-      whose clubs sell roadside assistance, lists "orange triangles" in its kit.
+      whose clubs sell roadside assistance and run a repair network, lists "orange triangles" in its
+      kit.
   - q: >-
       After a collision on a busy dual carriageway in Great Britain, a driver is waiting behind the
       barrier, well away from her car. She doesn't know the road's name, but she can read a small
@@ -291,7 +292,7 @@ flares).[7] The rule has other placements for divided roads, curves and hills. T
 don't apply to a private car, and this course found no federal rule for one and read no state's rule
 on it. So a US private driver's question about triangles goes to their own state. AAA Club
 Alliance's kit list includes "flares, orange triangles" among other things,[6] and that is advice from
-a club that sells roadside assistance.
+a club that sells roadside assistance and runs a repair network.
 
 **Move Over.** This is the US law aimed at the drivers going past. NHTSA: "For the safety of everyone on and off the road, all 50 states have Move Over laws", and
 "All states require drivers to move over and slow down for emergency vehicles with flashing lights."[8]
@@ -314,7 +315,7 @@ In Great Britain, the nearest rule this course read is Rule 281, for drivers app
 "You MUST follow any directions given by police or traffic officers as to whether you can safely pass
 the incident or obstruction."[1]
 
-| On an ordinary road | In Great Britain (Highway Code) | In the US (AAA; federal and California law; the callout) |
+| On an ordinary road | In Great Britain (Highway Code) | In the US (AAA, whose clubs sell roadside assistance and run a repair network; federal and California law; the callout) |
 |---|---|---|
 | Where the people go | Well away from the car and the traffic; not between the car and oncoming traffic (advice) | Stay in, belted, unless the shoulder is too narrow or there's a guardrail to wait behind (the callout); if out, on the side away from traffic, beyond a guard rail, 40 feet away (AAA's advice) |
 | Warning triangle | 45 m (147 ft) behind, same side, never on a motorway (advice) | No federal rule for private cars; FMCSA's rule is for commercial vehicles; ask your state |
@@ -368,7 +369,8 @@ Britain, Rule 283 says to "contact the emergency services on 999" when you're in
 stop to help, and Rule 277 gives 999 for a car on a motorway whose people cannot get out of it safely,
 as does Rule 279 for a disabled driver who cannot follow those steps.[1] On this course's reading, a
 car that has simply stopped somewhere safe, with nobody hurt, is a call to a breakdown service. In the UK the AA, the RAC and Green Flag are breakdown providers that sell cover and
-repairs; in the US, AAA clubs sell roadside assistance. None is recommended here. Some roads have public
+repairs; in the US, AAA clubs sell roadside assistance and run a repair network. None is
+recommended here. Some roads have public
 services too, National Highways' traffic officers in England and the California Highway Patrol's
 Freeway Service Patrol, which "provides free emergency roadside services in certain areas" at commute
 times;[11] lesson 17 has both.
@@ -430,7 +432,7 @@ your vehicle", and it adds: "Never ride in a
 vehicle that is being towed."[12]
 
 One more thing when the truck arrives, from the fleet manager of AAA Club Alliance, whose clubs sell
-roadside assistance, for the US: "A common mistake we see is drivers placing the vehicle into neutral
+roadside assistance and run a repair network, for the US: "A common mistake we see is drivers placing the vehicle into neutral
 to try and help the tow operator. This is highly dangerous because the vehicle isn't secured and can
 move at any time".[6] No UK source read says it, but AAA's reason, that the car isn't secured and can
 move, holds for any car, so this course's reading is to leave it as it is until the operator says what
@@ -442,7 +444,7 @@ Where she is, in a form they can find (the road, the side street, a landmark); t
 
 Where to wait: the US page's stay-in advice is US advice for a car at the roadside. She's in England, where Rule 275's advice is to keep well away from the car and the traffic, so she waits in the side street, away from the car.
 
-Being electric matters because both handbooks read say not to tow their electric car with its driving wheels on the road: Nissan says flatbed or driving wheels off the ground for the LEAF, and Tesla all four wheels off the ground for the Model 3, because its motor generates power when the wheels spin. Her own maker's handbook has the instruction for her car, and it's worth reading the towing section before she ever needs it. When the truck comes, she leaves the car as it is until the operator says (this course's reading, from the US advice of AAA Club Alliance, which sells roadside assistance, that putting it in neutral is "A common mistake").
+Being electric matters because both handbooks read say not to tow their electric car with its driving wheels on the road: Nissan says flatbed or driving wheels off the ground for the LEAF, and Tesla all four wheels off the ground for the Model 3, because its motor generates power when the wheels spin. Her own maker's handbook has the instruction for her car, and it's worth reading the towing section before she ever needs it. When the truck comes, she leaves the car as it is until the operator says (this course's reading, from the US advice of AAA Club Alliance, which sells roadside assistance and runs a repair network, that putting it in neutral is "A common mistake").
 :::
 
 ## After a collision: making the scene safe
@@ -510,7 +512,7 @@ Rule 277: "DO NOT place a warning triangle on the carriageway". Both are advice,
 on an ordinary road, and which of it is law", above.
 
 **"Put it in neutral to help the tow truck."** AAA Club Alliance's fleet manager (the club sells
-roadside assistance) calls it "A common mistake": the car is not secured and can move.
+roadside assistance and runs a repair network) calls it "A common mistake": the car is not secured and can move.
 
 **"Get the injured person out of the car."** Rule 283: "DO NOT move injured people from their vehicles
 unless they are in immediate danger." First Aid lesson 11 has the rest, including its own exceptions.
@@ -554,7 +556,7 @@ run-flat", starts from a stop like the ones here.
   once with the MUSTs marked.
 - **AAA Club Alliance, ["The Key To Staying Safe When Your Car Breaks Down"](https://cluballiance.aaa.com/the-extra-mile/advice/car/staying-safe-when-your-car-breaks-down)**,
   free. Read here in full. A US club's fleet manager on staying in the car, and on the mistakes the trucks
-  see. The club sells roadside assistance.
+  see. The club sells roadside assistance and runs a repair network.
 - **911.gov, ["Calling 911"](https://www.911.gov/calling-911/)**, free. Read here in full, from an archive
   copy. One page on what the call-taker needs.
 - **Your own handbook**, its sections headed along the lines of "In case of emergency" and "Towing". Read

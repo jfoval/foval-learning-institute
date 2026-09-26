@@ -146,3 +146,24 @@ fueleconomy.gov and National Highways' snow page live.
    reach a car on a motorway in Great Britain.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N7:** the battery checkpoint now says "the same club, which sells roadside assistance and
+  battery service, says "Get your battery tested annually before winter"".
+- **N6:** the winter-tyres line now reads "the RAC, which sells breakdown cover and repairs, says
+  "Winter tyres aren't mandatory in the UK."", and "It's advice." is gone; the later duplicate label
+  in that paragraph is cut. NHTSA's Go deeper line loses "The most complete official winter list".
+- **N6, amended:** "These are advice, and good advice, since snow sliding ..." The audit's "the reason
+  given is that" would put the course's reason in the Highway Code's mouth (Rule 229's own reason is
+  snow falling "into the path of other road users"), so it now reads "These are advice. On this
+  course's reading, snow sliding ...".
+- **N4 (Met Office):** the winter-list intro now names "the RAC's, which the Met Office page
+  reproduces", with the label; the screenwash back-reference is "the RAC's screenwash line on the Met
+  Office page". Labels added at the child predict and the part-1 checkpoint; the AAA label is the
+  base one throughout (N5).
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

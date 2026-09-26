@@ -157,3 +157,13 @@ traffic" drops the page's second exception, a queue where you'd restart often. O
 traffic or a queue".
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N6:** the octane Go deeper line loses "The plainest explanation read"; it "Explains what octane
+  is and when it matters".
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 75, matches.

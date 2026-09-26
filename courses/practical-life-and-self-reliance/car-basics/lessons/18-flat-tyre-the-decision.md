@@ -67,7 +67,7 @@ quiz:
   - q: >-
       A driver in England gets a flat on a motorway and pulls into an emergency area in daylight. The
       car has a full-size spare and she has changed wheels before. What do the Highway Code, National
-      Highways and Green Flag (which sells breakdown cover) advise?
+      Highways and Green Flag (which sells breakdown cover and repairs) advise?
     options:
       - Change it, since an emergency area is off the carriageway and built for stopping
       - Change it only if there's a safety barrier she can stand behind while the car is up
@@ -76,7 +76,7 @@ quiz:
     answer: 2
     explain: >-
       Rule 277 and National Highways both say not to attempt repairs on a motorway, and Green Flag,
-      which sells breakdown cover, says not to change a tyre there "even if you're on the hard
+      which sells breakdown cover and repairs, says not to change a tyre there "even if you're on the hard
       shoulder or in an emergency area". Rule 277 also says not to put a triangle on the carriageway.
       A barrier doesn't help while she's working at the car: Rule 275's worry is that moving traffic
       "could collide with your vehicle, forcing it into you". Experience and a full-size spare change none of that. On a motorway,
@@ -156,7 +156,7 @@ it's stopped is the rest of this lesson.
 
 Three sources pull slightly different ways here, but they aren't really in conflict.
 
-Toyota, in the handbook for the 2023 Corolla sold in the US, is blunt: "Do not continue driving with
+Toyota, in the handbook for the 2023 Corolla sold in the US, says: "Do not continue driving with
 a flat tire. Driving even a short distance with a flat tire can damage the tire and the wheel beyond
 repair, which could result in an accident."[4] The RAC, a UK motoring organisation that sells
 breakdown cover and repairs, weighs it the other way: "It's better to drive further and risk damaging
@@ -189,7 +189,7 @@ have it done in fifteen minutes.
 
 :::predict Before opening this: does she change it? If not, what does she do, step by step, and does the space saver make any difference?
 
-She does not change it. On a motorway, Rule 277 says "DO NOT attempt repairs on your vehicle", National Highways says the same, and Green Flag, which sells breakdown cover, says not to change a tyre there "even if you're on the hard shoulder or in an emergency area". The side the flat is on, the space saver and her skill don't come into it. So the callout's steps: hazard lights on, sidelights because it is dark, everyone out by the side away from traffic and behind the barrier if there is one, and nobody goes back to the car. From there she calls. If she has stopped near one of the free emergency telephones, she uses it. National Highways also gives 0300 123 5000 for a mobile, from a hard shoulder, an emergency area or a lay-by. If she hasn't stopped near a free emergency telephone, Rule 277 and National Highways both say to call 999 and ask for the police. Then her breakdown service, if she has one. When the car is ready to rejoin the motorway, leaving an emergency area is law, not advice: Rule 278 says she MUST "use the emergency telephone provided and follow the operator's advice for exiting the emergency area". Lesson 17, "Motorways and fast roads: go left, the live lane, and the smart motorway question", has the rest.
+She does not change it. On a motorway, Rule 277 says "DO NOT attempt repairs on your vehicle", National Highways says the same, and Green Flag, which sells breakdown cover and repairs, says not to change a tyre there "even if you're on the hard shoulder or in an emergency area". The side the flat is on, the space saver and her skill don't come into it. So the callout's steps: hazard lights on, sidelights because it is dark, everyone out by the side away from traffic and behind the barrier if there is one, and nobody goes back to the car. From there she calls. If she has stopped near one of the free emergency telephones, she uses it. National Highways also gives 0300 123 5000 for a mobile, from a hard shoulder, an emergency area or a lay-by. If she hasn't stopped near a free emergency telephone, Rule 277 and National Highways both say to call 999 and ask for the police. Then her breakdown service, if she has one. When the car is ready to rejoin the motorway, leaving an emergency area is law, not advice: Rule 278 says she MUST "use the emergency telephone provided and follow the operator's advice for exiting the emergency area". Lesson 17, "Motorways and fast roads: go left, the live lane, and the smart motorway question", has the rest.
 :::
 
 ### The conditions
@@ -214,7 +214,7 @@ Nissan's two lines come from the handbook for the 2024 LEAF sold in the US, and 
 its sealant kit, because that car carries no spare. On this course's reading they apply at least as
 strongly to a wheel change, which keeps you at the wheel for longer.
 
-No source read says not to change a wheel in the dark, and the RAC, which sells breakdown cover,
+No source read says not to change a wheel in the dark, and the RAC, which sells breakdown cover and repairs,
 lists a torch "for working at night" in its kit.[8] Rule 276's advice is not to stand, at night,
 where you block other drivers' view of your lights,[2] and on this course's reading, kneeling at
 a rear wheel can do just that. Darkness raises every risk in the table (you're harder to see, and so
@@ -228,7 +228,7 @@ motorway: on a freeway shoulder, it is a call, and the callout's US steps are th
 
 Most of the time, calling means a breakdown service you pay for or already have cover with. In the UK
 the AA, the RAC and Green Flag sell cover and repairs, and in the US AAA clubs sell roadside
-assistance; this course recommends none of them. Free help is narrower. In parts of California, the
+assistance and run a repair network; this course recommends none of them. Free help is narrower. In parts of California, the
 Highway Patrol's Freeway Service Patrol, at commute times, will "Change a flat tire."[16] In England,
 National Highways can send "other help as required, such as a Traffic Officer", once the emergency
 services alert it,[10] but no source read says traffic officers change wheels.
@@ -472,7 +472,7 @@ handbook's may differ. Neither is "as far as you need".
 trade body, lists
 liquid sealants among methods not accepted as a repair.
 
-**"Stop at once, wherever you are."** Annex 6 says as soon as it is safe, and the RAC, which sells breakdown cover, says to
+**"Stop at once, wherever you are."** Annex 6 says as soon as it is safe, and the RAC, which sells breakdown cover and repairs, says to
 drive on only to "the nearest safe point". Stopping in a live lane or on a narrow verge to save a wheel rim gets
 the trade the wrong way round.
 
@@ -484,7 +484,7 @@ the trade the wrong way round.
 
 (c) A wheel change is on the table: off the road, away from traffic, level and hard, daylight, and the handbook's method (lesson 19). The compact spare then carries its handbook's speed limit to a tyre shop.
 
-(d) The spare doesn't help. The car cannot get off the road, the traffic comes round a blind bend, and it's getting dark: the conditions that matter here all fail. Hazard lights and sidelights, everyone well away from the car and the road, and call. If the car can be driven slowly to a proper place a short way on, the "nearest safe point" of the RAC, which sells breakdown cover, is the other option.
+(d) The spare doesn't help. The car cannot get off the road, the traffic comes round a blind bend, and it's getting dark: the conditions that matter here all fail. Hazard lights and sidelights, everyone well away from the car and the road, and call. If the car can be driven slowly to a proper place a short way on, the "nearest safe point" of the RAC, which sells breakdown cover and repairs, is the other option.
 :::
 
 ## Practice
@@ -526,8 +526,7 @@ comes back to regulation 27 as a whole.
 - **The Highway Code, ["Annex 6. Vehicle maintenance, safety and security"](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security)**,
   free. Read here in full. Short, and the official line for Great Britain on bursts and flats.
 - **NHTSA, ["Tires"](https://www.nhtsa.gov/vehicle-safety/tires)**, free. Read here in full from an
-  archive copy. Its blowout section is the clearest official account of what to do with your hands and
-  feet.
+  archive copy. Its blowout section says what to do with your hands and feet.
 - **BTMA, ["Tyre Industry Professionals"](https://btmauk.com/advice-about-tyres/tyre-industry-professionals/)**,
   free. Read here in full. The trade body's summary of BS AU 159; the standard itself is sold by BSI and
   wasn't read.

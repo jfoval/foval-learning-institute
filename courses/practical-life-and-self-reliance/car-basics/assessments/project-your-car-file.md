@@ -404,7 +404,8 @@ page on nidirect to read. In a US state, which agency's page to check for winter
 chain controls, and the question to ask it.
 
 Three items lesson 15 labelled, which belong on the winter list in its words: the exhaust pipe
-cleared of snow before the engine starts, which is **Yours**; the battery tested before winter,
+cleared of snow before the engine starts, which is **Yours**; the battery tested before winter if
+you follow the advice of AAA, whose clubs sell roadside assistance and battery service (lesson 15),
 which is **Call someone**; and exhaust fumes inside the car, which is **Call someone** on this
 course's reading. On the summer list: your two hot-car habits from NHTSA's list, in your own
 words, and where the reminder item goes in the car.
@@ -514,7 +515,7 @@ written into the file as a step or done for the project:
 - any part of anyone under a car held up by its jack, or anything put on or under the jack (lesson
   19);
 - a repair, wheel change, jump start or warning triangle on a motorway, its hard shoulder or an
-  emergency area (lessons 13, 16, 18 and 19);
+  emergency area, or a wheel change on a US freeway shoulder (lessons 13, 16, 18 and 19);
 - another country's roadside steps on your plan, including Great Britain's motorway steps on a
   Northern Ireland plan (lessons 16 and 17);
 - a hot coolant cap opened (lessons 9 and 11);

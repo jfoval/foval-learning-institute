@@ -24,7 +24,7 @@ about: >-
   the law after a collision, the tow-truck mistake and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the breakdown-service reading, the location table is for the emergency services, where possible)."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the breakdown-service reading, the location table is for the emergency services, where possible). 2026-09-26, neutrality audit fixes (N5): AAA Club Alliance's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -53,7 +53,7 @@ S1: The Code advises one on the road at least forty five metres, a hundred and f
 
 S2: Now the US. Same advice?
 
-S1: No, and you follow the advice for the road you're on. AAA Club Alliance, whose clubs sell roadside assistance, says pull over as far to the right as you're able and turn on your hazard lights. Then, as the callout says, stay in, unless the shoulder is too narrow or there's a guardrail to wait behind, and in those two cases get out on the side away from traffic. Their reason for staying in is that airbags, side curtain bags and your seat belt protect you if the car is struck. If you do get out, they say leave by the passenger side, wait beyond the guardrail if there is one, and stay at least forty feet from the car. That's about twelve metres, on this course's conversion.
+S1: No, and you follow the advice for the road you're on. AAA Club Alliance, whose clubs sell roadside assistance and run a repair network, says pull over as far to the right as you're able and turn on your hazard lights. Then, as the callout says, stay in, unless the shoulder is too narrow or there's a guardrail to wait behind, and in those two cases get out on the side away from traffic. Their reason for staying in is that airbags, side curtain bags and your seat belt protect you if the car is struck. If you do get out, they say leave by the passenger side, wait beyond the guardrail if there is one, and stay at least forty feet from the car. That's about twelve metres, on this course's conversion.
 
 S2: Why does the US say stay in and Great Britain say get away?
 

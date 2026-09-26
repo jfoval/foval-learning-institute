@@ -44,7 +44,8 @@ quiz:
     answer: 2
     explain: >-
       NHTSA says the high-voltage battery is "very different from a vehicle's 12-volt battery",
-      and the AA's 2021 figures put the 12 V battery among the top two causes of EV breakdowns. Nissan's
+      and the 2021 figures of the AA, which sells breakdown cover and repairs, put the 12 V battery
+      among the top two causes of EV breakdowns. Nissan's
       LEAF handbook lists a car "not driven regularly" among the reasons that battery runs down. It runs the lights
       and instruments, and in an EV, an AA patrol says, "it starts the onboard computer system". The
       DC/DC converter recharges it, but it converts power
@@ -95,7 +96,8 @@ quiz:
       - To about 259 km, by taking 41 km off the 300 km shown
     answer: 1
     explain: >-
-      fueleconomy.gov reports that in the test "range can drop by 41%", so 41% comes off: 300 km
+      fueleconomy.gov reports that in the test (AAA's; its clubs sell roadside assistance and run a
+      repair network) "range can drop by 41%", so 41% comes off: 300 km
       times 0.59 is 177 km, by this course's arithmetic, and it's a test figure, not a promise
       for any one car. 123 km is the 41% that was lost, not what's left. Two-thirds is the share
       of the extra energy the test found went on heating the cabin, not the share of range that
@@ -139,7 +141,8 @@ of an internal combustion engine. The vehicle uses a large traction battery pack
 electric motor and must be plugged in to a wall outlet or charging equipment, also called electric
 vehicle supply equipment (EVSE)."[1] It has no fuel tank, fuel pump or fuel line. The "traction"
 battery is the big one that drives the car. "Traction battery" is AFDC's word. Nissan's LEAF
-handbook calls it the "Li-ion battery", and Ford's handbook and the AA say "high voltage battery", so
+handbook calls it the "Li-ion battery", and Ford's handbook and the AA (which sells breakdown cover
+and repairs) say "high voltage battery", so
 learn to recognise all three.
 
 A **hybrid** (HEV) has an engine and a motor, and no socket. AFDC: "A hybrid
@@ -345,7 +348,7 @@ This is the part that surprises owners. [NHTSA](https://www.nhtsa.gov/vehicle-sa
 regulator, says a car's traction
 battery "is very different from a vehicle's 12-volt battery that powers lighting and
 instrumentation systems".[10] Every source this course read that describes these cars gives them
-both, and the AA calls the 12 V battery one "which can be found in all cars".[12] An AA patrol explained in 2021 that in a conventional car the low-voltage battery starts the engine,
+both, and the AA, which sells breakdown cover and repairs, calls the 12 V battery one "which can be found in all cars".[12] An AA patrol explained in 2021 that in a conventional car the low-voltage battery starts the engine,
 and went on: "In EVs it's similar, but it starts the onboard computer
 system. A separate, high voltage battery powers the vehicle."[12]
 
@@ -376,12 +379,12 @@ and lesson 13 gives what the other sources say about using a hybrid or EV to hel
 The AA's 2021 figures, dated and from one breakdown provider's own call-outs, fit this picture. The
 top two causes were the 12 V battery and tyre faults; "The third relates to charging equipment
 (cable, plug)."[12] Edmund King, the AA's president, put it as "96% of EV breakdowns have nothing to
-do with battery range."[12] This course did not find a newer figure from the AA or the RAC, so treat
+do with battery range."[12] This course did not find a newer figure from the AA or the RAC, which sells the same, so treat
 it as a 2021 snapshot from one provider.
 
 :::checkpoint A colleague says: "My electric car hasn't got an alternator, so there's nothing in it that can go flat except the main battery, and the dashboard tells me how full that is." What has he got wrong, and what does the dashboard gauge not show him?
 
-The car has a second, 12 V battery that runs the lights and instruments, and in a hybrid it starts the car before the traction battery is engaged. It is recharged by the DC/DC converter from the traction battery, not by an alternator, but it can still go flat, and in the AA's 2021 figures it was one of the top two causes of EV breakdowns. The range or charge gauge reports the traction battery, not the 12 V one, so a full gauge doesn't mean the car will start.
+The car has a second, 12 V battery that runs the lights and instruments, and in a hybrid it starts the car before the traction battery is engaged. It is recharged by the DC/DC converter from the traction battery, not by an alternator, but it can still go flat, and in the 2021 figures of the AA, which sells breakdown cover and repairs, it was one of the top two causes of EV breakdowns. The range or charge gauge reports the traction battery, not the 12 V one, so a full gauge doesn't mean the car will start.
 :::
 
 ## Charging
@@ -481,9 +484,8 @@ tyres, and a 12 V battery.[13] AFDC adds that some battery systems "use liquid c
 safe operating temperatures. These systems may require regular checks."[5] The handbook says which
 checks are yours and how, and lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash",
 reads those levels through the side of the reservoir without opening it. A hybrid, per AFDC, needs the same
-general maintenance as a conventional car, engine included. Tyres are on the AA's list too, and lessons 7, "Tyres I:
-pressure, the placard and TPMS", and 8, "Tyres II: tread, damage, age, and when to replace", teach
-them.
+general maintenance as a conventional car, engine included. The tyres on that list are taught in lessons 7, "Tyres I:
+pressure, the placard and TPMS", and 8, "Tyres II: tread, damage, age, and when to replace".
 
 Then the part that is never yours. Nissan: "The vehicle high voltage system has no user serviceable
 parts."[13] Ford, for the Maverick hybrid: "This battery pack should only be serviced by an authorized
@@ -513,8 +515,7 @@ warranty on your car is in its warranty booklet, not in either page.
 ## What people get wrong
 
 **"Electric cars need no maintenance."** AFDC says less, and gives the reasons. The coolant, brake
-fluid, tyres, wipers and 12 V battery are still there, and the AA's 2021 call-outs put the 12 V
-battery and tyres at the top of EV breakdowns. A hybrid, AFDC says, needs the same general
+fluid, tyres, wipers and 12 V battery are still there. A hybrid, AFDC says, needs the same general
 maintenance as a conventional car.
 
 **"An electric car hasn't got a 12 V battery."** Every source here that describes one gives it
@@ -533,6 +534,10 @@ friction brakes, fueleconomy.gov says, so they still do work and still wear.
 **"A plug-in hybrid saves fuel whatever you do."** Never plugged in, AFDC says, its economy is
 "about the same as a similarly sized hybrid". Whether that's still worth having is the owner's call;
 the figure is AFDC's.
+
+**"Electric cars mostly break down because they run out of charge."** In the 2021 call-outs of the
+AA, which sells breakdown cover and repairs (one provider, one year), running out of charge
+"doesn't feature within the top three"; the 12 V battery and tyres were the top two.[12]
 
 ## Practice
 
@@ -563,8 +568,7 @@ the warranty booklet, if it has one. Lesson 5 adds the 12 V battery's warning li
 ## Connections
 
 Lesson 1, "What a car is made of, and why the handbook comes first", set the rule that the handbook
-governs every per-car figure, and this lesson has kept to it: Nissan's 400 volts, Ford's orange
-convolute and the charging rules are each one maker's, for one car. Lesson 2, "The engine: petrol,
+governs every per-car figure. Lesson 2, "The engine: petrol,
 diesel, and the drive to the wheels", deals with the engine that a hybrid still carries. Lesson 5,
 "The 12 V battery: what it does, and why short trips flatten it", takes the small battery further;
 lesson 6, "Brakes, steering and suspension", takes the friction brakes that regeneration shares its
@@ -584,8 +588,8 @@ is the high-voltage safety lesson; and lesson 15, "Winter and summer", returns t
 - **Halderman and Ward, *Automotive Technology: Principles, Diagnosis, and Service*, 7th edition
   (Pearson, 2025), Section X**, whose chapter titles include "Introduction to Electric and Hybrid
   Electric Vehicles", "Hybrid and Electric Vehicle Maintenance" and "Regenerative Brakes". A
-  technician's textbook. This course read only its table of contents, so it can recommend where the
-  subject is covered in depth but cannot vouch for what those chapters say.
+  technician's textbook. This course read only its table of contents, so it can't vouch for what
+  those chapters say.
 
 ## Sources
 

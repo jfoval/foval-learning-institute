@@ -60,7 +60,7 @@ quiz:
     explain: >-
       Toyota says "do not put an object on or under the jack", Honda "Do not put anything on top of
       or underneath the jack", and Mazda gives the reason: "The jack could slip and someone could be
-      seriously injured by the jack or the falling vehicle." The RAC, which sells breakdown cover,
+      seriously injured by the jack or the falling vehicle." The RAC, which sells breakdown cover and repairs,
       does suggest a plank, and that's the RAC's advice set against the makers' own rule for their
       cars. How good the wood is, or how high the car goes, doesn't change a rule against anything
       under the jack. The handbook governs.
@@ -326,8 +326,8 @@ tightening torque", because the nuts and bolts "could be damaged if tightened mo
 Toyota's words set the deadline, "as soon as possible after changing wheels". On this course's
 reading, and for the reason lesson 1 gave (a page can't check a torque), the final torque is **Call
 someone**: a tyre fitter or a garage, on the way to having the flat tyre repaired, which lesson 18 said
-needs doing soon anyway. The RAC, which sells breakdown cover, suggests "giving the wheel nuts a final
-check for tightness", and Green Flag, which sells breakdown cover too, says to "Check them all
+needs doing soon anyway. The RAC, which sells breakdown cover and repairs, suggests "giving the wheel nuts a final
+check for tightness", and Green Flag, which sells breakdown cover and repairs too, says to "Check them all
 twice".[8][9] Neither is a torque wrench.
 
 ## Under the car: where this course stops
@@ -429,7 +429,7 @@ of 50 mph (80 km/h), and its pressure isn't watched by the car's warning system,
 
 ## What people get wrong
 
-**"A plank under the jack makes it steadier."** The RAC, which sells breakdown cover, says "Placing a
+**"A plank under the jack makes it steadier."** The RAC, which sells breakdown cover and repairs, says "Placing a
 small plank of wood under the jack will help keep it stable."[8] All three handbooks re-read here forbid
 anything under the jack, and Mazda says why: the jack could slip. For your car, the handbook governs.
 

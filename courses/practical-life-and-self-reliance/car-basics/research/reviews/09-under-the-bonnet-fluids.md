@@ -145,3 +145,21 @@ and quiz (108 source strings) string-matched by script against those texts: no m
   `npm run validate`: exit 0, no line names this file.
 
 **Verdict: CLEAN.** Both residuals were one-sentence wording fixes, applied here.
+
+## Neutrality audit fixes (2026-09-26)
+
+Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer in a fresh context.
+The new label convention (N4) and base labels (N5) are dated bullets in `pipeline-briefs.md`.
+
+- **N4, the Met Office lines first:** the coolant table row, "A level that falls", the three-car
+  checkpoint and the winter screenwash bullet now give the words to the RAC's checklist, with the
+  RAC's label, as the Met Office page reproduces it (re-read live today: the page says "The RAC
+  recommends using the acronym 'FORCES'"). The screenwash lead-in says "two handbooks and one
+  checklist". Then labels at quiz 1's explanation, the Oil section's first use, the predict's
+  table, the oil checkpoint, "Two more things", two misconceptions and the log checkpoint.
+- **N6:** the AA Go deeper line becomes "Covers the dipstick, the colour of oil and what low oil
+  does."
+- Quiz 4's explanation named the key by place ("the last option"), flagged by `npm run quiz`; it now
+  names what the key does. Key unchanged.
+
+`npm run validate` exit 0; `npm run quotes car-basics` 0 misses; `npm run quiz` shows no line for this lesson; `npm run minutes` 90, matches.

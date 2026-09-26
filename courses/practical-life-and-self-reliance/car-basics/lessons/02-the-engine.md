@@ -45,7 +45,7 @@ quiz:
     answer: 1
     explain: >-
       Count from the last change: 3 years and 52,000 miles. The mileage limit has passed although the
-      years haven't, and the RAC's rule is "whichever comes first". Waiting for the fourth year reads
+      years haven't, and the rule of the RAC (which sells breakdown cover and repairs) is "whichever comes first". Waiting for the fourth year reads
       the rule as "whichever comes last". Waiting for warning signs ignores what the RAC adds after its
       five signs and its advice to have them checked: "Many cambelts show no obvious symptoms before
       failure." And the RAC says an MOT won't check the
@@ -77,7 +77,7 @@ quiz:
     explain: >-
       DOE: in a diesel "only air is inducted into the engine and then compressed", and the fuel is
       sprayed "into the hot compressed air", "causing it to ignite". AFDC calls this compression
-      ignition. Glow plugs add heat to the air for starting (DENSO); they don't make a spark. A
+      ignition. Glow plugs add heat to the air for starting (DENSO, a glow-plug maker); they don't make a spark. A
       diesel has no spark plug to fire late, and nothing read says exhaust heat is drawn back in.
   - q: >-
       Someone choosing between the manual and the automatic version of one model is told that the
@@ -398,7 +398,7 @@ usual British name, and that elsewhere it's called a timing belt. They are the s
 
 :::predict The cambelt keeps the engine's parts in step, and the RAC says that if it fails "it could result in catastrophic damage to the engine". Would you expect a part like that to warn you before it fails?
 
-Not reliably. The RAC lists five signs of cambelt failure (a misfire, poor idling, unusual noises,
+Not reliably. The RAC, which sells breakdown cover and repairs, lists five signs of cambelt failure (a misfire, poor idling, unusual noises,
 difficulty starting, a cracked or frayed belt) and says that if you notice any of them, "it's
 important to have your vehicle checked as soon as possible by a qualified mechanic." Then it adds:
 "Many cambelts show no obvious symptoms before failure."[11] A rule that waits for a symptom will
@@ -425,7 +425,7 @@ Two more things the RAC says. First, the MOT won't catch it: "At your annual MOT
 not check your cambelt."[11] (The MOT is Great Britain's periodic test; lesson 21, "The MOT and
 Northern Ireland's vehicle test", covers what it does and does not look at.) Second, a service
 might: "if you ask your local mechanic to check the cambelt at the annual service then they should
-inform you of any problems."[11] Asking is sensible.
+inform you of any problems."[11]
 It doesn't replace the interval, and the RAC's own rule is the interval.
 
 Finding the interval and working out when it's due is **yours**. Changing the belt is a garage job,
@@ -524,7 +524,8 @@ gearbox service line, so it gives none.
 :::checkpoint A friend's car has a CVT. She's heard that "belt" means a cambelt, and asks whether her gearbox belt is the thing that has to be changed by the calendar. What would you tell her?
 
 They're different parts doing different jobs. On fueleconomy.gov's description, a CVT's belt (or
-chain) connects two pulleys to vary the ratio between engine and wheels. On the RAC's, a cambelt
+chain) connects two pulleys to vary the ratio between engine and wheels. On the RAC's (it sells
+breakdown cover and repairs), a cambelt
 grips the cogs on the crankshaft and camshafts to keep them in sync. Her
 handbook's schedule is where to look for what either one needs, and whether her engine has a
 cambelt at all.
@@ -536,17 +537,17 @@ cambelt at all.
 that kind. AFDC says the fuel is injected "into either the intake manifold or the combustion
 chamber", so some petrol engines inject it straight into the combustion chamber.[1][2]
 
-**"A diesel's glow plugs light the fuel, like spark plugs."** DENSO says they "provide extra heat to
+**"A diesel's glow plugs light the fuel, like spark plugs."** DENSO, which makes them, says they "provide extra heat to
 the air". The fuel is lit by the heat of compression, which is the difference the name
 "compression ignition" describes (DOE; AFDC).[1][3][6]
 
 **"Most of the fuel moves the car."** On fueleconomy.gov's figures, 12 to 30 per cent does, and
 most of the rest is lost in the engine as heat.[4]
 
-**"The MOT checks the cambelt."** The RAC says your mechanic "will not check your cambelt" at the
+**"The MOT checks the cambelt."** The RAC, which sells breakdown cover and repairs, says your mechanic "will not check your cambelt" at the
 MOT.[11]
 
-**"A cambelt will warn me before it goes."** The RAC gives five signs, says a car showing any of them
+**"A cambelt will warn me before it goes."** The RAC, which sells breakdown cover and repairs, gives five signs, says a car showing any of them
 should be checked "as soon as possible by a qualified mechanic", then adds "Many cambelts show
 no obvious symptoms before failure."[11] That is why the rule is the handbook's interval, whichever
 comes first.
@@ -582,7 +583,8 @@ file's calendar as a date, because the car won't remind you.
 ## Connections
 
 Lesson 1, "What a car is made of, and why the handbook comes first", made the handbook the
-authority for every per-car figure, and the cambelt interval is one: the RAC's range is only a range,
+authority for every per-car figure, and the cambelt interval is one: the range from the RAC, which sells
+breakdown cover and repairs, is only a range,
 and your handbook's two numbers are the ones that count. Its three labels are used here too: waiting
 for the glow-plug light and finding the interval are yours; the belt change and the glow plugs are
 jobs to call someone for.

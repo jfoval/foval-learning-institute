@@ -25,7 +25,7 @@ about: >-
   direct and indirect systems.
 speakers: 2
 approx_minutes: 7
-checked: "2026-09-26, fresh-context fact-check: FAIL (a claim the lesson does not make, that the course never applies the US rule to a UK car; and the 25 per cent point stated without the 20 psi floor). Both fixed; a second fresh check gave PASS WITH NITS, and its two substantive nits (the made-up placard, M1 vehicles) are fixed."
+checked: "2026-09-26, fresh-context fact-check: FAIL (a claim the lesson does not make, that the course never applies the US rule to a UK car; and the 25 per cent point stated without the 20 psi floor). Both fixed; a second fresh check gave PASS WITH NITS, and its two substantive nits (the made-up placard, M1 vehicles) are fixed. 2026-09-26, neutrality audit fixes (N5): AAA's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -46,7 +46,7 @@ S1: And this lesson starts from why they differ. The sidewall figure is about th
 
 S2: So the sidewall's a limit, not a target. And I just put a gauge on it whenever?
 
-S1: Cold. NHTSA says cold means the car hasn't been driven for at least three hours. Annex 6 of the Highway Code, for Great Britain, says warm or hot tyres may give a misleading reading. And AAA, whose clubs sell roadside assistance, puts a size on it: a warm tyre can read up to five pounds per square inch higher. Five P S I is about a third of a bar, by the course's conversion.
+S1: Cold. NHTSA says cold means the car hasn't been driven for at least three hours. Annex 6 of the Highway Code, for Great Britain, says warm or hot tyres may give a misleading reading. And AAA, whose clubs sell roadside assistance and run a repair network, puts a size on it: a warm tyre can read up to five pounds per square inch higher. Five P S I is about a third of a bar, by the course's conversion.
 
 S2: Give me a case.
 

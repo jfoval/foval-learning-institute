@@ -130,13 +130,13 @@ exhaust pipe (tailpipe). Temperatures are given in °C with °F, and the US sour
 
 ## Getting the car ready for winter
 
-Four lists cover the same ground: two from the Highway Code, one from NHTSA, and the Met Office's
-reproduction of the RAC's. It helps to see them side by side before deciding what's yours to do.
+Four lists cover the same ground: two from the Highway Code, one from NHTSA, and the RAC's, which
+the Met Office page reproduces (the RAC sells breakdown cover and repairs). It helps to see them side by side before deciding what's yours to do.
 
 | Source | Whose, and for which car | What it asks |
 |---|---|---|
 | The Highway Code, Annex 6, "Before winter" | Advice, Great Britain, any car | "Ensure that the battery is well maintained and that there are appropriate anti-freeze agents in your radiator and windscreen bottle."[3] |
-| The Met Office, reproducing the RAC's list (the RAC sells breakdown cover) | Advice, UK, any car | "FORCES": fuel, oil, rubber (tyres), coolant, electrics, screenwash[4] |
+| The Met Office, reproducing the RAC's list (the RAC sells breakdown cover and repairs) | Advice, UK, any car | "FORCES": fuel, oil, rubber (tyres), coolant, electrics, screenwash[4] |
 | NHTSA, "Winter Weather Driving Tips" | Advice, US federal regulator, any car | Tyre pressure, battery, cooling system, floor mats, "winter" washer fluid, wipers, snow tyres, a kit[5] |
 | The Highway Code, Rule 228 | Advice, Great Britain | A kit: "de-icer and ice scraper, torch, warm clothing and boots, first aid kit, jump leads and a shovel, together with a warm drink and emergency food"[6] |
 
@@ -154,11 +154,12 @@ and not usually when it was damaged.
 
 :::checkpoint Without looking back at lesson 5: a battery fails on the first frosty morning. What did AAA say about when the damage was done, and what does that mean for when to have a battery tested?
 
-AAA's Mountain West club: "while winter weather is most likely to cause your battery to fail, it's actually hot weather that does most of the damage, which becomes evident when the temperature drops and more power is required to get the car started." So the frost shows up damage done earlier, often in summer heat. That's why the same club says "Get your battery tested annually before winter", and why a test belongs on the autumn list, not the morning it won't start.
+AAA's Mountain West club: "while winter weather is most likely to cause your battery to fail, it's actually hot weather that does most of the damage, which becomes evident when the temperature drops and more power is required to get the car started." So the frost shows up damage done earlier, often in summer heat. That's why the same club, which sells roadside assistance and battery service, says "Get your battery tested annually before winter", and why a test belongs on the autumn list, not the morning it won't start.
 :::
 
 **Screenwash and coolant.** Lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash",
-covered both: the Met Office's screenwash "effective down to at least -15 degrees Celsius", the
+covered both: the RAC's screenwash line on the Met Office page, "effective down to at least -15
+degrees Celsius", the
 handbook's coolant, and never a hot cap. NHTSA says the same for the US in its own words: "Make sure
 your vehicle's reservoir is full of high-quality "winter" fluid with de-icer before winter weather
 hits."[5] Topping up screenwash is **Yours**; topping up coolant is **Yours, on conditions**, cold and
@@ -192,10 +193,10 @@ of warming the car up before you set off fits in one line: "idling gets 0 miles 
 
 ### Winter tyres
 
-In the UK, the RAC says it plainly: "Winter tyres aren't mandatory in the UK."[8] It's advice. The Met Office page, reproducing the RAC, recommends "ideally
+In the UK, the RAC, which sells breakdown cover and repairs, says "Winter tyres aren't mandatory in the
+UK."[8] The Met Office page, reproducing the RAC, recommends "ideally
 a minimum tread depth of 3mm in icy or very wet conditions".[4] That's the RAC's recommendation, above the
-legal floor lesson 8, "Tyres II: tread, damage, age, and when to replace", set out, and the RAC sells
-breakdown cover and repairs. In the US, NHTSA's line is "Consider installing snow tires".[5] The RAC's line is
+legal floor lesson 8, "Tyres II: tread, damage, age, and when to replace", set out. In the US, NHTSA's line is "Consider installing snow tires".[5] The RAC's line is
 about the UK; NHTSA presents snow tyres as something to consider, and this course read no state's rule
 on them. Whether your car can take snow chains is your handbook's to say, and where they're required is
 the road authority's; this course doesn't teach them.
@@ -274,7 +275,7 @@ side windows and the rear window, not a peephole. A scraper and de-icer are on R
 Frost on a headlamp or a number plate counts.
 
 **Step 4: the rest.** Mirrors clear, windows demisted, snow off the roof and bonnet where it could slide
-onto the windscreen or onto someone else. These are advice, and good advice, since snow sliding off the
+onto the windscreen or onto someone else. These are advice. On this course's reading, snow sliding off the
 roof onto the windscreen at the first junction puts the driver back where Step 2 started.
 
 **Step 5: the exhaust.** Before the engine runs at all in deep snow, the pipe is clear. The next section
@@ -395,13 +396,13 @@ doesn't borrow the American one for the UK.
 **Why a child.** NHTSA gives one reason: "A child's body temperature rises three to five times faster
 than an adult's."[2] That is the whole of the mechanism the sources read here give. None of them explains
 why a parked car heats up as it does, and this course doesn't supply an explanation of its own. A 2022 heat-wave news release from AAA's Auto Club
-Group (AAA clubs sell roadside assistance) gives a size, for the US heat it was writing about: "Outside air temperatures in the nineties can rise to 125
+Group (AAA clubs sell roadside assistance and run a repair network) gives a size, for the US heat it was writing about: "Outside air temperatures in the nineties can rise to 125
 degrees inside the vehicle very quickly".[17] In °C that's a day of about 32 to 37 °C becoming about 52 °C
 inside, on this course's conversion.
 
 :::predict Most people would feel better leaving a child for five minutes in a car parked in the shade with the windows open. Before reading on: what do you think NHTSA says about each of those three things (the time, the shade, the windows)?
 
-NHTSA: "Never leave a child in a vehicle unattended for any length of time. Rolling windows down or parking in the shade does little to change the interior temperature of the vehicle." So none of the three makes it safe: there's no safe number of minutes, and the shade and the windows, in NHTSA's words, do little. AAA says the same about time: "not even for a short period of time".
+NHTSA: "Never leave a child in a vehicle unattended for any length of time. Rolling windows down or parking in the shade does little to change the interior temperature of the vehicle." So none of the three makes it safe: there's no safe number of minutes, and the shade and the windows, in NHTSA's words, do little. AAA, whose clubs sell roadside assistance and run a repair network, says the same about time: "not even for a short period of time".
 :::
 
 ### How it happens
@@ -424,7 +425,7 @@ everyone, children or not, because the child who climbs in might be a neighbour'
 The Highway Code's version is one line in Annex 6's advice on security, under "When you leave your
 vehicle you should": "never leave children or pets in an unventilated car".[3] It's a should, advice.
 Its word is "unventilated". It doesn't say an open window makes a car safe, and NHTSA says rolling
-windows down "does little" to the temperature inside. AAA, whose clubs sell roadside assistance, has a line that covers animals too: "Never leave children or animals unattended in a car, not even for a short
+windows down "does little" to the temperature inside. AAA, whose clubs sell roadside assistance and run a repair network, has a line that covers animals too: "Never leave children or animals unattended in a car, not even for a short
 period of time."[17] This course did not read any law, in Great Britain, Northern Ireland or any US state,
 on leaving a child or an animal in a car, or on breaking into a car to reach one, and it makes no
 statement about either. The habits above are **Yours**, and they're what the sources give.
@@ -453,7 +454,7 @@ Five minutes: NHTSA says "for any length of time", and gives no safe time. The t
 ## What people get wrong
 
 **"My battery was fine all summer, so the frost killed it."** The frost is when a tired battery gives
-out, not usually what tired it. AAA's Mountain West club, which sells roadside assistance, puts most of the damage on hot weather, which
+out, not usually what tired it. AAA's Mountain West club, which sells roadside assistance and runs a repair network, puts most of the damage on hot weather, which
 is why the autumn test in the checkpoint above comes before the cold rather than after it.
 
 **"A window open makes a hot car safe."** NHTSA: rolling windows down or parking in the shade "does
@@ -466,7 +467,7 @@ did exactly that with the pipe blocked.
 **"A peephole in the ice will do."** In Great Britain, Rule 229's MUST covers all your windows. The
 section on winter law has the words.
 
-**"Winter tyres are required in the UK."** The RAC, which sells breakdown cover: "Winter tyres aren't mandatory in the UK."
+**"Winter tyres are required in the UK."** The RAC, which sells breakdown cover and repairs: "Winter tyres aren't mandatory in the UK."
 
 ## Practice
 
@@ -486,7 +487,7 @@ Take 20 minutes over this. It's on paper, with your own car's handbook (or the m
 
 :::checkpoint Check yourself on part 1. Where should "clear the exhaust pipe of snow before starting the engine" sit, whose is it, and what label does it get? And "never leave a child in the car"?
 
-Clearing the exhaust is advice from the CDC and NHTSA (and, in its stronger form, Toyota's handbook for the Corolla), for any petrol or diesel car in snow, and it's Yours. Never leaving a child in a car is advice: NHTSA's for the US, AAA's, and the Highway Code's Annex 6 as a should in Great Britain. It's Yours too, as a habit. Neither is a MUST in anything this course read.
+Clearing the exhaust is advice from the CDC and NHTSA (and, in its stronger form, Toyota's handbook for the Corolla), for any petrol or diesel car in snow, and it's Yours. Never leaving a child in a car is advice: NHTSA's for the US, AAA's (its clubs sell roadside assistance and run a repair network), and the Highway Code's Annex 6 as a should in Great Britain. It's Yours too, as a habit. Neither is a MUST in anything this course read.
 :::
 
 ## For your plan
@@ -514,7 +515,7 @@ in any weather.
 - **NHTSA, ["Heatstroke"](https://www.nhtsa.gov/campaign/heatstroke)**, free. Read here in full, from an
   archive capture. The US campaign page, with the full list of habits.
 - **NHTSA, ["Winter Weather Driving Tips"](https://www.nhtsa.gov/winter-driving-tips)**, free. Read here
-  in full, from an archive capture. The most complete official winter list this course read, for the US.
+  in full, from an archive capture. The US regulator's winter checklist for drivers.
 
 ## Sources
 
