@@ -631,7 +631,7 @@ Sources and the quiz (decision 20). Each finding carries its label and the cours
   conversation.
 - **Core ideas:** **adjacency pairs** (Schegloff and Sacks 1973: two utterances, adjacent, different
   speakers, the first constraining the second; question and answer, greeting and greeting, offer and
-  acceptance or refusal; a missing second part is "noticeably absent"). **Preference** (Pomerantz
+  acceptance or refusal; a missing second part is heard as missing; *corrected 2026-09-26: the phrase "noticeably absent" is not in Schegloff and Sacks 1973, and the lesson does not attribute it to them*). **Preference** (Pomerantz
   1984, observed in recordings, OCR checked): agreements fill the turn, come fast and plain;
   disagreements are delayed, prefaced ("well", "uh"), partial ("yes, but"); silence and "what?" are
   heard as disagreement not yet stated; after a self-deprecation the preference flips, so "no, you're
