@@ -24,7 +24,7 @@ about: >-
   the law after a collision, the tow-truck mistake and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the breakdown-service reading, the location table is for the emergency services, where possible). 2026-09-26, neutrality audit fixes (N5): AAA Club Alliance's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the breakdown-service reading, the location table is for the emergency services, where possible). 2026-09-26, neutrality audit fixes (N5): AAA Club Alliance's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed. Re-checked 2026-09-26 after the neutrality fixes: first fresh check FAIL (make and model heard as the emergency operator's, not the recovery service's), fixed with Rule 283's 'if possible' and 'passengers'; second fresh check PASS WITH NITS, the 'also advises' nit fixed."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -63,13 +63,13 @@ S2: Say nobody's hurt. Who do I call?
 
 S1: On this course's reading, a car stopped somewhere safe with nobody hurt is a call to a breakdown service. If you do call the emergency services, they need to find you. In Great Britain, Rule two hundred and seventy seven's table, which Rule two hundred and eighty three points to for a high-speed road, gives three ways: press the SOS button if your car has one, use a mapping app on your phone, or read out the numbers and letters on the marker posts or driver location signs along the road. On a smaller road with no posts, First Aid lesson two's fallback is to say what you can see. This course's reading adds the road number, the direction you were heading and the last place you passed.
 
-S2: And what else do they need?
+S2: And what does the recovery service need?
 
 S1: The make and model, and whether it's electric or hybrid. The two makers read say their own electric cars mustn't be towed the ordinary way. Nissan's US handbook for the twenty twenty four LEAF recommends a flatbed, or the front driving wheels off the ground. Tesla's Model three manual, which the course read in an archive copy from October twenty twenty four, says all four tires off the ground, because the motor generates power when the wheels spin.
 
 S2: Last one. I stop at a collision.
 
-S1: Rule two hundred and eighty three is the list for anyone involved or stopping to help, and every line is advice. Stop somewhere relatively safe, hazards on, high-visibility clothing if you have it, ask drivers to switch engines off and stop smoking, call nine nine nine with the location and any casualties, move uninjured people away from the vehicles, and stay until the emergency services arrive. It also says do not move injured people from their vehicles unless they are in immediate danger.
+S1: Rule two hundred and eighty three is the list for anyone involved or stopping to help, and every line is advice. If possible, stop somewhere relatively safe, hazards on, high-visibility clothing if you have it, ask drivers to switch engines off, and drivers and passengers to stop smoking, call nine nine nine with the location and any casualties, move uninjured people away from the vehicles, and stay until the emergency services arrive. It also advises: do not move injured people from their vehicles unless they are in immediate danger.
 
 S2: And then I help the injured person.
 
