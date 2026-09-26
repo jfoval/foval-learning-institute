@@ -421,3 +421,25 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   (with its DIY half where relevant) for the US.
 - **The VOC Regulations' terms are "water-borne" and "solvent-borne"**, and reg 4(3)'s ready-to-use
   rule is for products that have to have solvent added, not a paint a user chooses to thin.
+
+## 2026-09-26 — Lesson 19 fix pass: notes for later lessons
+
+- **The GB asbestos position is the course's reading, and says so.** No HSE page read says in terms
+  that the Control of Asbestos Regulations 2012 don't reach an owner-occupier's own job. HSE's "not
+  engaged in any work activity" sentence is about liability to contractors. The reading rests on regs
+  11, 15 and 16 (each an employer's duty), reg 3(1) (the self-employed) and HSW Act ss 52 and 53
+  ("work" is employed or self-employed work; self-employed means working "for gain or reward"). Reg
+  3(3) is the source of a contractor's duty to the householder. Lessons 22 and 23 and any podcast
+  script label it as the course's reading, and never put it in HSE's mouth. All in SOURCES, "Stage 4
+  note, lesson 19".
+- **Waste law does reach a householder.** HSE: asbestos goes as hazardous waste, "only ... a licensed
+  disposal site"; EPA 1990 s 34(2A) puts a duty on the occupier of a home in England or Wales about
+  who takes household waste. So no lesson says "no law stops" a householder removing asbestos; say
+  "the asbestos Regulations don't", with the waste duty beside it.
+- **CourtListener is CourtListener.** The chrysotile docket read is CourtListener's copy; never "the
+  court's docket". EPA said in June 2025 it would "conduct a rulemaking to reassess the challenged
+  final rule", then withdrew that request; any retelling of the case keeps that.
+- **Places.** Conwy is now taken (lessons 21 and 22). Lesson 19 took the Vale of Glamorgan, the Hudson
+  Valley, the Upper Midwest and Appalachia; Bridgend, Illinois and Harrisburg dropped.
+- **Lesson 19 is at 110 minutes**, over the ceiling, after the reviewers' additions; its second pass
+  decides the cut.
