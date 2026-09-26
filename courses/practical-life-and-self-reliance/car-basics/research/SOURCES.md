@@ -7469,3 +7469,125 @@ handbook read is the US market's; the Corolla carries the Chico case.
 
 **Quiz keys:** lesson 18, 2,1,3,2,0; lesson 19, 3,1,0,2,0. Checked by script under the relaxed rule
 against every lesson on disk (01 to 17) and each other.
+
+## Stage 4 note, lesson 17 (2026-09-26)
+
+Strings the lesson 17 fixer added, each re-read live on 26 September 2026 (curl, a generic browser
+User-Agent, no personal data; GOV.UK through the content API; PDFs through pdftotext). One earlier
+entry is corrected (AAA Club Alliance, below); nothing else is edited.
+
+- **The Highway Code, Rule 279** (content API, `breakdowns-and-incidents-274-to-287`,
+  public_updated_at 2021-09-14): "Disabled drivers. If you have a disability that prevents you from
+  following the above advice in Rules 277 and 278, you should" [V], then "switch on your hazard warning
+  lights" [V]; "stay in your vehicle and keep your seat belt on" [V]; "call 999 immediately and ask for
+  the police. Alternatively, press your SOS button if your vehicle has one and ask for the police." [V]
+  No MUST, so advice. Rules 277 and 278 re-read: Part E §1's strings stand ("remain alert and aware of
+  vehicles or debris coming towards you", "always face the traffic when you speak ...", Rule 278's
+  "Be aware that vehicles, obstructions or debris may be present on the hard shoulder").
+- **The Highway Code, Introduction** (content API, 2022-07-01): "The Highway Code may be used in
+  evidence in any court proceedings under the Traffic Acts" [V], continuing "to establish liability"
+  [V].
+- **National Highways, "Driving on motorways"** (live): "If you or anyone in your vehicle is unable to
+  follow our breakdowns advice for any reason, stay in your vehicle, keep your seatbelts and hazard
+  warning lights on and call 999 immediately." [V] A "Disabled drivers" block repeats Rule 279's three
+  steps. Get help: "Use the free emergency telephone (where provided) or a mobile phone to call National
+  Highways on 0300 123 5000 to obtain advice and assistance" [V]; "Always face the traffic when you
+  speak to remain aware of vehicles or debris coming towards you" [V]. Both phone numbers unchanged.
+- **National Highways, "National emergency area retrofit"** (live): "the Government committed £390m
+  over the duration of the second Road Investment Strategy to roll out an emergency area retrofit
+  programme. This would see over 150 additional emergency areas being added to ALR motorways in
+  operation and construction." [V] So the £390m is the government's commitment, not National
+  Highways' spend; lesson 17 says so. Emergency-area phones: "have phones linked directly to our
+  control rooms" [V].
+- **Fourth-year report** (PDF): the 96 and 4 per cent sentences (Part E §2) and "These types of
+  collision happen on all roads whether there is a hard shoulder or not." [V] stand, and run in that
+  order in the executive summary, the second pair as one passage: "The minority (4%) of collisions on
+  our network involve stopped vehicles, and the risk of being killed or seriously injured in this type
+  of collision continues to be highest on A-roads followed by motorways without a permanent hard
+  shoulder. These types of collision happen on all roads whether there is a hard shoulder or not." [V]
+  p. 27: "Statistical significance testing is only viable where the
+  measure being tested is an observed whole number data point, for example an event such as a
+  collision or a specific outcome such as an injury from a collision." [V] Figure 5 and Figure 9 titles
+  carry "injury-adjusted" [V]. Annex E (read for this point only): "adjusted figures are no longer whole
+  numbers, but are decimal values" [V]; Annex B: "Since 2012, many police forces have changed the way
+  they collect STATS19 data" [V]. p. 27's all-collision PIC finding re-read: "there is strong evidence
+  that these two figures are statistically different to each other, and that the conventional motorway
+  PIC rate is statistically lower than the ALR PIC rate." [V]
+- **DfT, 12 January 2022** (content API): Meera Naran's statement continues after the lines Part E
+  records: "I’m encouraged by the commitment of £900 million to improve the safety of our motorways,
+  following my campaigning since Dev died. However, I’ll continue to both challenge and work alongside
+  the Department for Transport to ensure even more is done, including calling for legislation to be
+  looked at for autonomous emergency braking and further support for ongoing driver education." [V]
+  **DfT, 15 April 2023** (content API), Meera Naran: "Since successfully campaigning for the 18-point
+  action plan, £900 million commitment and the pause in the roll out in January 2022, there has been a
+  lot of joined up thinking in mutually coming to this decision." [V] Neither statement asks for the
+  hard shoulder to be reinstated.
+- **The AA, third-year statement** (live), Edmund King: "We have called for more ‘controlled
+  motorways’ which the report shows have lower killed or serious injury rates (KSI) than All Lane
+  Running (1.31 compared to 1.43)." [V] "These motorways have the benefit of ‘smart’ motorway technology
+  whilst also having a hard shoulder." [V] The AA's 1.31 and 1.43 are still unchecked (G-R1) and the
+  lesson quotes around them.
+- **The coroner's Regulation 28 report** (PDF): the matter of concern "The need for a wider review /
+  inquiry into Smart Motorways for the following reasons:" [V]; its third reason is "An inquest cannot
+  say what government policy should be" [V], and its fourth "A wider review would not be constrained by
+  the above and could consider all issues relevant to its remit and has the opportunity thereby of
+  saving lives." [V] So "cannot say" is a reason for a wider inquiry, not a limit on the finding.
+- **AAA Club Alliance, "The Key To Staying Safe When Your Car Breaks Down"** (live). **Correction to
+  Part E §3:** the page is dated "February 7, 2022" [V], byline Matt Hill, and is an advice article
+  that quotes Chris Overpeck ("AAA's Manager of Club Fleet Operations") in places. Only the kit
+  sentence, the airbags sentence and the neutral and tow-operator sentences are inside quotation marks
+  attributed to him. "You should never leave your vehicle if you haven’t pulled over, particularly if
+  there is traffic moving around it." [V] and the whole "Staying safe outside your vehicle" paragraph
+  (the passenger-side exit and "A good rule of thumb is to remain at least 40 feet from your disabled
+  vehicle." [V]) are the article's own prose. Cite them as AAA Club Alliance's page, not as the fleet
+  manager's words.
+- **California Driver Handbook, Section 8** (live): unchanged; "There are certain circumstances where
+  it is safer to get out of your vehicle and stay away." [V] follows the six numbered steps.
+- **Northern Ireland, nidirect** (G-N3 stays open). "Breakdowns and incidents (274 to 287)"
+  (`dateModified` 2026-09-22) re-read: NI Rule 275 (motorways) differs from Great Britain's Rule 277, as
+  the lesson 16 note records; lesson 17 names the difference and teaches none of it. The NI Code's annex
+  "First aid on the road" (https://www.nidirect.gov.uk/articles/first-aid-road, `dateModified`
+  2026-09-21): "Get someone to call the appropriate emergency services on 999 or 112 as soon as
+  possible." [V] This is the read behind "999 there too" in lessons 16 and 17 (lesson 16's second
+  pass flagged it as unrecorded). 112 is not printed.
+- **Wikimedia Commons, "File:Southbound M42, Emergency Refuge Area 6388B - geograph.org.uk -
+  3705309.jpg"** (G-N4 closed for lesson 17): read through the Commons API (wikitext
+  `{{Geograph from structured data}}`; extmetadata). Licence "CC BY-SA 2.0" [V]; artist David Dixon
+  (Geograph profile 43729); date 2013-07-15; description "Southbound M42, Emergency Refuge Area 6388B"
+  [V]. Image checked by eye: a blue sign reading "Emergency refuge area" over an orange SOS telephone
+  symbol, a marker post reading 6388B, a safety barrier. The M42 is unused elsewhere (decision 21 grep,
+  26 September 2026); Barston, the file's category, is used elsewhere and is not named.
+
+## Stage 4 note, lesson 19 (2026-09-26)
+
+Read by the lesson 19 fixer on 26 September 2026 with curl (a generic browser User-Agent, no personal
+data in any header), pandoc and pdftotext. **[V]** as above. No earlier entry is corrected; these add
+lines the Tier B fix now quotes.
+
+- **Honda, 2024 Civic Sedan (US), "Changing a Flat Tire"** (URL as Part E §4), re-read in full.
+  "Getting Ready to Replace the Flat Tire", step 6, between the wheel block (step 5) and loosening the
+  nuts (step 8): "Place the compact spare tire (wheel side up) under the vehicle body, near the tire
+  that needs to be replaced." [V] No reason is given. "How to Set Up the Jack": "Place the jack under
+  the jacking point closest to the tire to be changed." [V] "Raise the vehicle, using the jack handle
+  bar and the jack handle, until the tire is off the ground." [V] The jack detail: "Use the jack
+  provided in your vehicle." [V] "Other jacks may not support the weight (“load”) or may not fit the
+  jacking point." [V] "Do not use while the engine is running." [V] "Replacing the Flat Tire": "Wipe
+  the mounting surfaces of the wheel with a clean cloth." [V] "Screw the wheel nuts until they touch
+  the lips around the mounting holes, then stop rotating." [V] (no "by hand"). Step 2 for "Manual
+  transmission models" is "Put the transmission into R." [V], confirmed for this page.
+- **Mazda, Mazda3 (European English, 8GD7-EE-17H)**, pages 08020300, 08020301 and 08020303 re-read.
+  08020301 step 8: "Turn the jack handle clockwise and raise the vehicle high enough so that the spare
+  tyre can be installed." [V] Its warning heading: "Do not jack up the vehicle higher than is
+  necessary:" [V] "Never go under the vehicle while it is jacked up:" [V] "Using a jack that is not
+  designed for your Mazda is dangerous. The vehicle could slip off the jack and seriously injure
+  someone." [V] (not quoted). 08020303, the nut torque table: "N·m (kgf·m, ft·lbf)" [V] "108―147
+  (12―14, 80―108)" [V] (the handbook's own dashes; the lesson gives "108 to 147 N·m (80 to 108
+  lbf·ft)").
+- **Toyota, 2023 Corolla (US), OM02568U**, pp. 370 to 379 re-read for the own-jack line: "Only use the
+  tire jack that comes with this vehicle for replacing a flat tire. Do not use it on other vehicles,
+  and do not use other tire jacks for replacing tires on this vehicle." [V] With Honda's and Mazda's lines above and at Part E
+  §4, all three handbooks read say to use the car's own jack.
+- **HSE, "Working under vehicles"** (live), re-read: the coach incident sentence at "Gate closures,
+  lesson 18/19" matches. HSE does not say the slope was the cause.
+- **Nissan UK's 2023 LEAF pages are not used** for the hybrid and EV "off" line in step 4, as the
+  lesson 18/19 closure records. The line points to lesson 14 instead.

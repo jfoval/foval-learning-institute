@@ -312,3 +312,36 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   is stop, 999, and don't.
 - **eCFR's API needs compression** (`curl --compressed`), or it returns a 406.
 - **Quiz keys:** 16 2,3,1,0,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 17 fix pass: notes for later lessons
+
+- **AAA Club Alliance's page is an advice article, dated 7 February 2022, by Matt Hill**, quoting its
+  fleet manager, Chris Overpeck, only in places. His words are the kit list, the airbags sentence and the
+  neutral and tow-operator lines. "You should never leave your vehicle if you haven't pulled over ..."
+  and the whole passenger-side, guardrail and 40-feet paragraph are the article's own prose: cite them
+  as "AAA Club Alliance's page", never as the fleet manager's words (SOURCES "Stage 4 note, lesson 17"
+  corrects Part E §3). Lesson 16 already attributes them to the club. The test and scripts 16 and 17.
+- **Northern Ireland: the lesson 16 rule, applied.** Lesson 17 names NI's own Code on nidirect, says its
+  motorway rule differs from Rule 277, teaches none of it and quotes no fragment of it (part of a step is
+  still a step); its exercise sends an NI reader to nidirect's page. "999 there too" now rests on the NI
+  Code's annex "First aid on the road" (recorded in SOURCES; 112 not printed).
+- **Rule 279 and National Highways' "anyone ... for any reason" line travel with the get-out steps**
+  wherever a lesson, script or test teaches Rule 277's default of getting out: a person who can't
+  follow the steps stays in, belted, hazards on, 999. Rule 279 is advice (should).
+- **California's "Return to your vehicle as soon as you can"** is read as the default case's step;
+  where an exception applies, "safer to get out of your vehicle and stay away" governs until help
+  arrives (this course's reading, labelled). Never print the six steps without that sentence.
+- **Emergency-area telephones go straight to National Highways' control room**; 0300 123 5000 is the
+  mobile route. No case has anyone dial 0300 on the roadside phone.
+- **Smart motorways, for the test and script 17:** the 96 and 4 per cent sentences travel together
+  with "These types of collision happen on all roads whether there is a hard shoulder or not."; "cannot
+  be tested" travels with the report's whole-number reason; the coroner's "cannot say what government
+  policy should be" is a reason for "a wider review / inquiry", never a limit on his finding; Naran is
+  quoted with both statements and is not said to want the hard shoulder back; the AA's alternative
+  (controlled motorways) is quoted around its unchecked 1.31 and 1.43; the ORR's December 2023
+  detection finding is National Highways' report of it.
+- **Tables at phone width:** a five-column table of short numbers still measured 421 px in a 343 px
+  column at 375 px; two three-column tables fitted. Render with the site stylesheet before assuming a
+  relabel fixes width.
+- **Quiz keys:** 17 1,0,3,0,2 (unchanged by the fix); the new items were rebalanced after `npm run
+  quiz` found the key the shortest option in four of five.
