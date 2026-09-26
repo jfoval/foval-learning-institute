@@ -258,8 +258,8 @@ course does not teach changing filters, for the reasons lesson 1 gave.
 Octane is the other place people spend money for fuel economy. fueleconomy.gov's [octane page](https://www.fueleconomy.gov/feg/octane.shtml) defines
 it: "Octane rating is the measure of a fuel's ability to resist "knocking" or "pinging" during
 combustion, caused by the air/fuel mixture detonating prematurely in the engine."[5] Lesson 2, "The
-engine: petrol, diesel, and the drive to the wheels", showed the compression stroke. The page takes
-knock no further than that definition, and nor does this course.
+engine: petrol, diesel, and the drive to the wheels", showed the compression stroke. The page doesn't
+explain how knock happens beyond that definition, and nor does this course.
 
 In the US, the page says, regular is typically 87, midgrade 88 to 90 and premium 91 to 94. Those are US pump
 numbers. This course read no official UK page on octane, so it gives no UK figures; match your
@@ -343,7 +343,7 @@ rules, which this course didn't read, and it didn't research US anti-idling rule
 
 So there are three voices on idling here, and they line up. The Highway Code's MUST is the law: not
 unnecessarily. Its should says switch off after a couple of minutes. The Energy Saving Trust says
-after a minute. fueleconomy.gov says off whenever you're sitting still outside traffic. No source read
+after a minute. fueleconomy.gov says off whenever you're parked, except in traffic or in a line where you'd restart often. No source read
 explains why one says a minute and another a couple of minutes, and there's no need to choose: all
 three point the same way. Leaving a car running to defrost on a cold morning comes back in lesson 15,
 "Winter and summer".

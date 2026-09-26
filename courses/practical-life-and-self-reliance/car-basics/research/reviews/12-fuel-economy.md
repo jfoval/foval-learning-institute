@@ -105,3 +105,55 @@ file. `npm run quiz`: nothing for this lesson.
 
 **Status after review:** needs second pass, narrow: R1 was a wrong fact. A second reader checks only the
 seven fuel prices against the captures and the worked-example sums and roundings.
+
+## Second pass (2026-09-26)
+**Reviewer:** fresh context, narrow second pass. Read with curl (default User-Agent, no personal data in
+any header), prices taken from the page source, not by eye.
+
+**Fuel prices, all seven verified at the exact capture timestamps** (effective URL checked on each fetch):
+2007 `$3.10/gallon`; 2010 `$2.87/gallon`; 2013 `$3.25/gallon`; 2019 `regpricedef = 2.37`; 2021
+`fuelpricebott">$3.09` and `regpricedef = 3.09`; 2023 `$3.58` and `regpricedef = 3.58`; live `$4.32`.
+How the first draft went wrong: requesting `maintain.shtml` at the 2021 and 2023 timestamps redirects
+to other captures (20210607035835, serving $3.02; 20230811165634, serving $3.60). The `maintain.jsp`
+URL at the cited timestamps serves $3.09 and $3.58. The lesson is right and the fix stands.
+**Sums:** 12,000/30 = 400; 0.6% x 400 = 2.4 gal; 2.4 x 4.32 = 10.37 ("about $10"); $0.03 x 400 = $12;
+0.6% x 4.32 = 2.59 cents ("about 2.6"); 3% x 400 = 12 gal; 12 x 4.32 = 51.84 ("roughly $50"); 0.6% x
+£1,500 = £9; 3.3/0.6 = 5.5; 100 lb = 45.4 kg; 65 to 75 mph = 104.6 to 120.7 km/h; 1 psi = 0.069 bar.
+All right. The restart predict's "about six restarts' worth" reads "10 seconds worth of fuel" as ten
+seconds of idling, and is labelled as the course's arithmetic; acceptable.
+
+**Changed sentences:**
+- Knock: the page's definition is quoted exactly. "The page takes knock no further than that
+  definition" was not true: the same page goes on to the audible knock, spark timing that reduces it,
+  and cylinder pressure and "pre-detonating", two of which the lesson itself quotes. Fixed inline: "The
+  page doesn't explain how knock happens beyond that definition, and nor does this course."
+- Windows against AC: attributed on both sides; the hot-weather page cites refs 1 and 4 (Huff, West and
+  Thomas 2013 and a second SAE paper), so "two published studies" is right; no gap is sized; the EST's
+  "try to use it sparingly" sentence and fueleconomy.gov's "more than needed" match their pages
+  verbatim. Passes.
+- Regs 98(2)(b) and 107(2) read on legislation.gov.uk: both limbs of 98(2)(b) now present; 98(2)(c) (a
+  gas-producer plant) is omitted, which is harmless for a car. 107(2)'s fire, police, ambulance and
+  machinery exceptions are right, and apply only to stopping the engine, as the lesson's order implies.
+  Rule 123 re-read through the content API; the MUST, should and "permissible" quotations match.
+- Octane hedges: "Many newer vehicles can adjust the spark timing" and "typically has" match the page;
+  the severe-duty quotation matches the myths page to "a few percent" (the page subscripts CO2).
+- New predict: consistent with the driving page's "about 10 seconds worth of fuel".
+- Compression-ratio gloss: the page's "higher compression ratio and/or use supercharging or
+  turbocharging to force more air into the engine" supports it.
+- Also checked: 2007 "0.4 percent", "around 3.3", "as much as 10 percent" and the tune-up sentences;
+  2010 "prevalent", "2 to 6 percent ... up to 14 percent", "0.3 percent"; live 5W-20 example, footnote,
+  "$0.03/gallon", carbureted "under normal replacement conditions". All match.
+
+**Quiz:** each explanation read against its options. Q1 to Q5 keys are supported by the explanations,
+and each distractor is answered or contradicted by a sourced line. Q4's key "under normal replacement
+conditions" is the live page's wording. Clean.
+
+**Checks:** no em dashes, no spaced en dash; the three en dashes are inside quoted "1%–2%" and "1%–1.5%".
+Callout byte-identical across all 15 lesson files (one md5). `npm run minutes`: 75, ok.
+`npm run quotes car-basics`: no misses in this lesson.
+
+**Noted, not fixed (low):** line 346, "fueleconomy.gov says off whenever you're sitting still outside
+traffic" drops the page's second exception, a queue where you'd restart often. Optional wording: "outside
+traffic or a queue".
+
+**Verdict: CLEAN.**
