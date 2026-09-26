@@ -187,6 +187,13 @@ something a later lesson needs adds a dated bullet at the end.
 
 ---
 
+- **2026-09-26: the quiz-key rule, relaxed from lesson 19 on.** With eighteen lessons on disk only four
+  five-item sequences still pass the full rule against every lesson, so from lesson 19 the check is: all
+  four positions used, no adjacent repeat, not identical to and not a pure value shift of any earlier
+  lesson, and no shared run of four at offsets 0 or ±1 with the five lessons nearest it. The aim is
+  unchanged (no lesson's answers can be learned from another's); Personal Safety relaxed its rule the
+  same way.
+
 ## Drafting brief: Home Repair and Maintenance, Stage 3
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
