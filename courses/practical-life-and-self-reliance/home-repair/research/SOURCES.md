@@ -5331,3 +5331,16 @@ the lesson's paraphrase.
   diagnostic skills of commercial damp proofing firms, but to state categorically there is no such
   thing as rising damp undermines a whole litany of rules of brickwork detailing I’ve adhered to all
   my professional life."
+
+## Stage 4 note, lesson 09, second pass (2026-09-26)
+
+Re-read live on 26 September 2026 with curl (browser User-Agent) and pandoc; each [V] string-matched
+in the extracted text. Used in lesson 9 as these US utilities' advice to their own customers; no
+product is named. No British page on gas detectors was read.
+
+- **Con Edison, "Gas Safety"**, under "Gas Leak Detectors": [V] "A slow gas leak may not produce
+  enough scent to be detectable, and even large leaks may not be detected by people with a weak
+  sense of smell. A gas leak detector can give you peace of mind and help keep you and your
+  neighbors safe by sounding an alarm before natural gas reaches the explosive range."
+- **Atmos Energy, "Recognizing a leak"**: [V] "In addition, residential methane detectors are
+  commercially available and can provide an additional ability to detect the presence of gas."

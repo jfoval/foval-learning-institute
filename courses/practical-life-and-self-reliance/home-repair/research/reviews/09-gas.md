@@ -159,3 +159,93 @@ added.
 **Status after review:** needs second pass. The safety core was rewritten (the GB steps' order and
 labels, the cellar conditions, the US meter, the NI order), and a fresh reviewer should read those
 passages against the new Stage 4 note before the lesson is called clean.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context reviewer, reading the rewritten Great Britain, Northern Ireland and
+US sections, the comparison table, the worked cases, the exercise answers and the quiz against the
+primaries. Re-read live with curl (browser User-Agent) and pandoc on 26 September 2026: National
+Gas "Emergency Contacts"; Cadent's smell-gas page, meter page and homepage; SSE Airtricity Gas
+Supply NI; Phoenix Energy NI; SoCalGas "Natural Gas Leaks" and "Emergency Preparedness"; Con
+Edison "Gas Safety"; Atmos "Recognizing a leak"; HSE faqownerocc.
+
+**What holds.** Every quoted string checked is on its page as quoted. Numbers: 0800 111 999 (National
+Gas, Cadent, HSE), 0800 002 001 (SSE, Phoenix) and 911 (Con Edison, SoCalGas, Atmos) are right,
+and no page gives a different one. Each "course's reading" label holds: take both cellar conditions;
+"if you can do it safely" as reaching the handle without going further into the smell; everyone
+out and the call from outside in Great Britain, from Cadent's "once you're safe" and "before
+returning inside"; not leaving the call to a flatmate. None is attributed to a page. No UK step
+reaches a US reader and no US step reaches a UK reader: the opening, stop list, exercise part 2,
+the answers and the table all split by country, and the Connecticut case rejects the cousin's
+British steps. The table's cells match their pages. First-pass fixes F1 to F16 and P1 to P21 check
+out against the live text, including SoCalGas's four fade bullets, Con Edison's plastic pipe and
+"many people", Atmos's two calibration lines, Cadent's area (the Black Country, the Wirral and
+Blackpool are all on it), and the NI order with the call first. Cross-reference titles (lessons 1,
+5, 7, 10, 11; First Aid lesson 14) match the files. No em or en dashes.
+
+**Findings:**
+1. S1 [major, facts] The odour section and the no-smell checkpoint omit that two pages read
+   recommend a detector for gas: Con Edison's "Gas Leak Detectors" ("A slow gas leak may not
+   produce enough scent to be detectable ... A gas leak detector can give you peace of mind") and
+   Atmos ("residential methane detectors are commercially available and can provide an additional
+   ability to detect the presence of gas"). The checkpoint's "so the other signs are all he has"
+   and "this course read no British page that answers it" therefore overclaim: a page read does
+   answer it, though a US one. Not fixed here because it needs a judgement on how to present a
+   US utility's product advice to a British reader (the standards named are UL 1484 and NFPA
+   715), which is not one edit.
+2. S2 [minor, fixed] "0800 002 001, which belongs to the Northern Ireland Gas Emergency Service
+   rather than to any one company": no page read says who runs the service, and Phoenix calls it
+   "the gas emergency team" on its own page. Cut to "for the Northern Ireland Gas Emergency
+   Service".
+3. S3 [minor, fixed] "So when you smell gas at home in the US, you leave and call, and you do not
+   go to the meter" was an unlabelled US absolute a sentence before the SoCalGas preparedness
+   caveat (F1's pattern). Now "So on those three pages, when you smell gas at home ...".
+4. S4 [minor, fixed] Isla's step 3, "not a cellar or basement, and so is the smell", read as the
+   smell being in the cupboard. Now "The meter is in a cupboard and the smell is in the hall, so
+   neither is in a cellar or basement".
+5. S5 [minor, not fixed] SoCalGas's second fade situation is "higher gas pressure, and when
+   natural gas flow is limited or intermittent"; the lesson's "at higher pressure when the flow is
+   limited or intermittent" joins what may be two conditions. Loose rather than wrong.
+6. S6 [minor, not fixed] Quiz 2's key puts the call last, though the body and table stress that
+   SSE and Phoenix put it first. SSE's page also closes with "Call 0800 002 001", so the key is
+   not wrong; a reorder of the key's clauses would match the body better.
+7. S7 [fixed] Quiz key collision: 1,3,0,1,2 was lesson 08's 1,2,1,3,0 rotated (shift of two).
+   Item 1 reordered with `scripts/quiz-permute.cjs` (BACD), keys now 0,3,0,1,2. Checked by script
+   against every lesson on disk in this course (01 to 08, 10 to 18): no identical sequence, no
+   rotation, no shift with an overlap of three or more, no shared run of four at offsets 0 or ±1;
+   all four indices used, no adjacent repeat. Of 1,024 sequences only 11 pass; this one moves a
+   single item. Item 1's explanation uses no letters and reads correctly against the new order.
+
+`npm run validate`: exit 0, no line names this file. `npm run quiz`: no line names this file (it
+exits 1 on quizzes in other courses).
+
+**Verdict: NEEDS ANOTHER PASS**, narrowly for S1. Everything else in the safety core reads clean
+against the live pages; once S1 is settled the lesson can be called clean without a further full
+review.
+
+### Resolutions applied, second pass (2026-09-26)
+
+On the coordinator's decision for S1:
+
+1. S1: fixed. The two strings were added to SOURCES.md as "Stage 4 note, lesson 09, second pass
+   (2026-09-26)", appended at the end. In "When you can't smell it", a new paragraph before the
+   carbon monoxide one quotes Con Edison ("A slow gas leak may not produce enough scent to be
+   detectable", "A gas leak detector can give you peace of mind") and Atmos ("residential methane
+   detectors are commercially available and can provide an additional ability to detect the
+   presence of gas"), labels it as those companies' advice for US homes, names no product, and says
+   this course read no British page on gas detectors, for them or against them. In the checkpoint,
+   "the other signs are all he has" became what the pages say: the British pages read give him no
+   other sign to watch for, and the US pages' signs indoors mostly mean a hiss; the closing line
+   now says Con Edison and Atmos recommend a detector to their US customers, that no British page
+   on detectors was read either way, and leaves the rest to SmellTaste or his gas network.
+2. S5: fixed. On SoCalGas's page the bullet reads "higher gas pressure, and when natural gas flow
+   is limited or intermittent": two conditions joined by "and when", in one bullet. The lesson now
+   says "in systems at higher pressure, and when the flow is limited or intermittent", which keeps
+   the four situations as the page's four bullets.
+3. S6: left as it was (not wrong; SSE's page also ends with the call).
+
+`npm run quotes home-repair`: 445 sourced quotations, 0 not found. `npm run validate`: exit 0, no
+line names this file. `npm run minutes`: 5,503 words, modelled 90, `minutes: 90` stands. No em or
+en dashes.
+
+**Final verdict: CLEAN.**

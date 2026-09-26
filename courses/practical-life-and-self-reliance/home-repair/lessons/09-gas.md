@@ -17,11 +17,11 @@ quiz:
       smell on the stairs as she comes home. She knows two neighbours are in. Under the US utility
       advice this lesson read, what should she do?
     options:
-      - Wait a few minutes to see whether the smell gets any stronger, since it is faint, then call
       - Leave, taking anyone with her, and call 911 or the gas utility from a safe place outside
+      - Wait a few minutes to see whether the smell gets any stronger, since it is faint, then call
       - Open the stairwell windows and find the meter, so the gas can be turned off before calling
       - Ring both neighbours' doorbells on the way down, so that nobody is left inside the building
-    answer: 1
+    answer: 0
     explain: >-
       Con Edison says to leave even if the odour isn't very strong, to take others with you, and
       to call 911 or the utility; SoCalGas and Atmos say to call from a safe place. Con Edison's
@@ -200,8 +200,8 @@ night", even if no gas seems to be escaping.[2]
 
 ### In Northern Ireland
 
-Northern Ireland has its own number, 0800 002 001, which belongs to the Northern Ireland Gas
-Emergency Service rather than to any one company. This course read two pages that give the same
+Northern Ireland has its own number, 0800 002 001, for the Northern Ireland Gas Emergency
+Service. This course read two pages that give the same
 steps: [Phoenix Energy](https://phoenixenergyni.com/safety-environment/in-an-emergency), a gas
 network company there, and [SSE Airtricity](https://www.sseairtricitygasni.com/in-an-emergency/),
 one of the suppliers.[3][8] Both put the call first. SSE opens: "If you smell gas or you are worried
@@ -246,8 +246,8 @@ From a safe distance call 911" and the utility's own emergency line, and "Do not
 will report the leak."[7] Atmos's page says nothing about switches or flames.
 
 None of the three leak pages tells you to open windows or to turn anything at the meter, and
-SoCalGas's tells you not to try to control the leak at all. So when you smell gas at home in the US,
-you leave and call, and you do not go to the meter. But US utilities do not all say the same thing
+SoCalGas's tells you not to try to control the leak at all. So on those three pages, when you smell
+gas at home you leave and call, and you do not go to the meter. But US utilities do not all say the same thing
 everywhere. SoCalGas's separate [earthquake and emergency
 page](https://www.socalgas.com/safety/emergency-information/emergency-preparedness) tells its
 customers to turn off the meter if they smell gas, "and ONLY if it is safe to do so", and to leave
@@ -286,7 +286,7 @@ lost their sense of smell to SmellTaste, a charity for people with smell and tas
 
 And it can fail in the gas. SoCalGas says the odorant can be lost, "making it undetectable by
 smell", and that this "odor fade" is more likely in four situations: in new steel pipe that was
-recently made or hasn't carried odorised gas before; in systems at higher pressure when the flow is
+recently made or hasn't carried odorised gas before; in systems at higher pressure, and when the flow is
 limited or intermittent; where rust, moisture or other substances are in the pipe; and depending on
 how the customer's own piping is designed and built, such as its length and diameter. Its
 conclusion: "it's important to not rely only on your sense of smell to be alerted to a natural gas
@@ -302,6 +302,13 @@ and a dry patch of grass. Con Edison adds a white cloud, bubbles in water, blowi
 plants, and a roar.[5][6] If you suspect a leak but can't smell it, Con Edison says you should "still
 find a phone away from the area and call".[5]
 
+Two US utilities go a step further for their own customers. Con Edison says "A slow gas leak may
+not produce enough scent to be detectable" and that "A gas leak detector can give you peace of
+mind", and Atmos says "residential methane detectors are commercially available and can provide an
+additional ability to detect the presence of gas".[5][7] That is Con Edison's and Atmos's advice,
+for US homes, and this course names no product. This course read no British page on gas detectors,
+for them or against them.
+
 One more thing a smell can't tell you about: a carbon monoxide alarm is not a gas alarm. Con Edison
 says most carbon monoxide detectors "do not detect combustible gasses", and to check the label.[5]
 Carbon monoxide, which has no smell at all, is lesson 11, "Carbon monoxide and the alarms that warn you".
@@ -311,11 +318,12 @@ Carbon monoxide, which has no smell at all, is lesson 11, "Carbon monoxide and t
 It takes away his first warning. SoCalGas lists a diminished sense of smell as a reason you may not
 notice leaking gas, and Cadent points people who have lost their sense of smell to the charity
 SmellTaste for advice.[1][6] With his partner away, nobody in the house has that warning this week,
-so the other signs are all he has, and indoors that mostly means a hiss. It leaves the rest the
-same: if he does suspect a leak, Great Britain's steps and number are unchanged. A carbon monoxide
-alarm does not fill the gap, because Con Edison says most carbon monoxide detectors do not detect
-gas.[5] What else would help is a question for SmellTaste or his gas network; this course read no
-British page that answers it.
+and the British pages read give him no other sign to watch for; the signs the US pages list,
+indoors, mostly mean a hiss. It leaves the rest the same: if he does suspect a leak, Great Britain's
+steps and number are unchanged. A carbon monoxide alarm does not fill the gap, because Con Edison
+says most carbon monoxide detectors do not detect gas.[5] Con Edison and Atmos recommend a gas
+detector to their US customers, but this course read no British page on gas detectors either way, so
+what else would help him is a question for SmellTaste or his gas network.
 :::
 
 ## Two leaks, worked through
@@ -332,8 +340,8 @@ She works through Great Britain's steps.
 1. **The switch.** The hall light is off. She leaves it off and doesn't touch the switch by the
    door (Cadent, National Gas).[1][2]
 2. **Air.** She opens the front door and the hall window (Cadent, National Gas).[1][2]
-3. **The meter.** The meter is in a cupboard, not a cellar or basement, and so is the smell, so
-   neither network's condition stops her. She can reach the handle without going further into the
+3. **The meter.** The meter is in a cupboard and the smell is in the hall, so neither is in a
+   cellar or basement and neither network's condition stops her. She can reach the handle without going further into the
    smell, which is this course's condition, so she turns it a quarter turn, the way Cadent's meter
    page describes.[1][2]
 4. **The flatmates.** She knocks on their doors and tells them to come out with her, so that all
