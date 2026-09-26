@@ -294,6 +294,11 @@ is the full audit under standards 3.5, naming the perspectives checked (each les
 OUTLINE lists them). **Reviewer P** runs passes 4, 5 and 6 (depth and pedagogy, cold start, voice and
 media). Findings are numbered F1... and P1....
 
+**Each reviewer writes its own file**, `research/reviews/<lesson-id>.F.md` and `<lesson-id>.P.md`,
+and the orchestrator merges them into `<lesson-id>.md` before the fix pass. On lesson 15 both wrote
+the one file at once and Reviewer P's nineteen findings were overwritten, so "append, never
+overwrite" is not enough when two agents race.
+
 Additionally, Reviewer F:
 - **Lesson 5 (interruption and gender):** re-reads Anderson and Leaper 1998 (eScholarship) for every
   d the lesson prints and its definition level; checks Zimmerman and West's 46 of 48 and "98%"
