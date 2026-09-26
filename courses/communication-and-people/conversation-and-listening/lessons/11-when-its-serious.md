@@ -328,7 +328,7 @@ Their own summary is careful: "evidence to date suggests that asking research pa
 suicide does not increase risk, and may be associated with small benefits."[9] And they list the
 limits. Every study had ethics approval and a plan for adverse events, so "this sample of studies may
 be selective."[9] The three studies whose results leaned, not significantly, towards more suicidal
-thinking all involved people with significant mental health problems, in the authors' words, though
+thinking all involved people with significant mental health issues, in the authors' words, though
 where the authors could test it, clinical and non-clinical samples did not differ.[9] And in most
 studies, the suicide
 questions came among questions about depression and support, so the effect of the suicide questions
@@ -500,7 +500,8 @@ Mental Health First Aid do ask helpers some risk questions, this course leaves t
 lines, which will advise you if you are unsure.[7][2][6]
 
 **"The services say asking protects people, so that's proven."** Samaritans writes that evidence
-shows asking "can protect", and #BeThe1To that studies show asking "does not increase suicides or suicidal thoughts".
+shows asking "can protect", and #BeThe1To that studies show asking at-risk people if they are suicidal "does not increase suicides or suicidal
+thoughts".
 The evidence is no increase in suicidal thinking, small reductions, and one pooled comparison with
 fewer reported attempts where "exposure" included a school programme and follow-up calls: support,
 not proof that asking prevents suicide, and neither review measured deaths by suicide.[3][2][8][9]

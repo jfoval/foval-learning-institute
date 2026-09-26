@@ -499,3 +499,93 @@ course's scope (risk questions), label the scope as the course's decision; never
 services.
 
 **Status after review:** clean
+
+## Fresh second pass (2026-09-26)
+
+**Checker:** one fresh-context re-checker (neither drafter, reviewer nor fixer), against 3aae00a,
+diffing the lesson against 3aae00a~1, with a safety re-read and a whole-lesson neutrality re-count.
+Re-fetched today by curl (generic browser User-Agent, no personal data), converted to text and
+string-matched after normalising quotes and spacing: R U OK? "How to ask" and the immediate-safety
+page; #BeThe1To's steps page; the MHFA ALGEE explainer; 988 "Help Someone Else"; Samaritans' seven
+section URLs (1, 2, 5, 6 and 7 used; order confirmed from the pages' Previous/Next links) and the
+"What to do if you think someone is struggling" page; Rape Crisis "Supporting a survivor"; Dazzi et
+al. 2014 (Cambridge Core full text, served to curl); Blades et al. 2018 (UWA accepted manuscript,
+pdftotext); and the five crisis-line home pages. **All 67 service and paper quotations checked
+string-match**, including every one the fix added or moved: "keep them safe – do not leave them
+alone", "get them some immediate professional help", "Offer hope ... glib reassurance", "(with their
+permission)", "can tell us a lot about the imminence and severity of danger", "to guide anyone",
+"Evidence shows asking someone if they're suicidal can protect them", "does not increase suicides or
+suicidal thoughts", "Please call me if you ever want to chat", Dazzi's "77% ( n = 44)" sentence and
+the German survey (170 physicians, 23%, elderly depressed patients), Blades' moderator sentence, the
+36% and the Bajaj attribution. `npm run quotes conversation-and-listening`: 0 not found.
+
+**Safety.** Read as a frightened friend and as someone struggling. The callout is byte-identical to
+Mental Fitness lesson 1 and to `CRISIS_CL` (build line 868); every number re-read today on the
+line's own page (988lifeline.org "Call, text, or chat"; 988.ca "Call 9-8-8", "Text 9-8-8", 9-1-1;
+samaritans.org 116 123; lifeline.org.au 13 11 14 and "Triple Zero (000)"; findahelpline.com "Free,
+confidential support"), and each of the four lines' home pages still has its worried-about-someone
+route. The struggling-reader paragraph now keeps the door open ("it matters more than anything below
+it ... though you're welcome to"). No method detail: step 3's questions are named only as categories
+(a previous attempt, knowing how, a plan, timing, access), and "weapons or pills" is 988's quoted
+means advice, left out of scope. **"Do not leave them alone" is present in all three places the fixer
+said**: the services section, Leopold's Connecting paragraph (including "without leaving him on his
+own" when he says no) and Fenella's call paragraph ("still holds"). Every instruction matches the
+services' current pages: R U OK?'s immediate-safety order (keep safe and don't leave alone, then
+professional help, then means removal, which the lesson labels safety planning), 988's list and five
+steps, #BeThe1To's secrecy line and "Be there" warning, MHFA's role sentence beside its "assess" step,
+Samaritans' call-on-their-behalf offer (in its context, for someone who would rather talk to a
+stranger) and its "be persistent / don't try to force them" pair. Nothing glib or alarming; the
+Reynolds "most of the women had at least one increase" sits beside "no increase on average" and
+the two-part "settled where studied" answer, so it does not read as a reason not to ask. **No
+contradiction with Mental Fitness**: its lesson 1 leaves suicide prevention out ("has not researched
+... will not improvise"), sends thoughts of suicide to the callout, and its "When to get help"
+section does say a doctor or, in England, NHS Talking Therapies self-referral, as P6's pointer
+claims; Mental Fitness lesson 9 quotes NG222's "Always ask ... directly", consistent with "ask
+directly". One observation, not a finding: the model line "I'm not going to go behind your back"
+still fits a later emergency call, because the lesson has the friend call openly, not secretly.
+
+**Findings resolved.** F1 to F11 and P1 to P16 all in the text as recorded. F1: the scope decision is
+labelled the course's in the bullet, checkpoint 1, quiz 4, misconception 4 and Fenella's last line;
+no sentence now credits the services with "not your job to judge". F3's numbers: 44 of 63 given with
+Dazzi's 77% unrecomputed; 16.4% of 764 is "about a sixth" (quiz 2) and 17.5% "about as many". F4: one
+English survey, two figures. F5: the null moderator result is beside the three trends. F6 both
+places. F8 five countries. P2's saying-back uses only Leopold's words.
+
+**Neutrality re-count (contested 14).** Ask-directly side: four services' words, both reviews'
+conclusions, g = -.13 and OR = .714, each with its caveat (pre-post, regression to the mean; exposure
+wider than asking). Caution side: the German and English surveys, Biddle's 22%, Reynolds' 44 women,
+"may be selective", the three clinical trends (with the null moderator), embedded questions, and the
+strongest form stated with the honest note that no holder's own statement was read. Last word: "what
+would settle it". Misconceptions: one error from the fearful side, one from the overclaiming side,
+three practical. Balanced. **Turing test** on the OUTLINE's five perspectives: someone who has had
+suicidal thoughts and been asked (Samaritans' permission reason, the consent clause, "not behind your
+back"): passes. Someone who found it intrusive (Biddle, Reynolds): passes. Crisis-line volunteer
+(exact words, "do not leave them alone", step 3 attributed correctly): passes, after edit 2 below.
+Cautious clinician (surveys corrected, strongest form): passes. Reader outside the callout's
+countries (findahelpline, 112): passes. Every "must", "never" and "always" is inside a service's
+quotation or a quiz distractor; no sentence assesses risk.
+
+**New quiz items.** Item 3 (sister): the key paraphrases R U OK?'s "Tell them you're still concerned
+... you care ... Avoid a confrontation ... 'Please call me if you ever want to chat'" without the word
+"criticise"; each distractor is answered by content (criticism, confrontation plus Samaritans'
+"don't try to force", concern dropped). It applies the advice to a new case. Item 5 (choir friend):
+the key matches Rape Crisis's heading, which Personal Safety lesson 11 line 521 reports, to the
+assault, and the three services' no-secret advice to the suicide disclosure; the Rape Crisis page's
+self-harm section says nothing that conflicts. Option lengths: item 3 89/84/83/84, key 84; item 5
+86/79/82/82, key 79 (shortest, spread 7). Keys 3,0,3,2,1,3; spreads 5, 3, 6, 4, 7, 3; the key is never
+the longest.
+
+**Two one-edit fixes made here:**
+1. Line 331: "significant mental health problems, in the authors' words" to "significant mental
+   health **issues**, in the authors' words". Blades' words are "significant mental health issues";
+   the phrase claims their wording, so it must be theirs.
+2. Misconception 5: "#BeThe1To that studies show asking "does not increase ..."" to "studies show
+   asking **at-risk people if they are suicidal** "does not increase ..."". #BeThe1To's sentence is
+   about "asking at-risk individuals if they are suicidal"; the lead-in had dropped that scope
+   (defect 19), making the service's claim look broader than it is in a line that grades it.
+
+**Measures after the edits.** `npm run minutes`: 6,452 words, 90 stated, 90 measured, ok.
+`npm run quotes conversation-and-listening`: 0 not found. `npm run validate`: exit 0 (lesson 11
+raises no warning). Callout re-diffed: identical.
+
+**Verdict: SETTLED.**
