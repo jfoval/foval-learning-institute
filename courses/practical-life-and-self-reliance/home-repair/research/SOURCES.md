@@ -1,6 +1,6 @@
 # Sources: Home Repair and Maintenance
 
-<!-- unread: 18th Edition, 210.12, 210.8, A Citizen's Guide to Radon, ADAO, afcisafety.org, American Ladder Institute, Anglian Water, ANSI Z87.1, Approved Document A, Approved Document G, Asbestos Disease Awareness Organization, Asbestos in the Home, Asbestos: are you at risk?, Assessing Damp in Historic Buildings, Association of Professional Independent Chimney Sweeps, BEIR VI, Better Business Bureau, BS 7671:2018, BS EN 50292, Buy Safe, Certification Register, Chimney Fire Safety Week, Collins Complete DIY Manual, Competent Persons Register, Construction Skills Certification Scheme, Consumer Credit Act, Consumer Reports, Current Best Practices for Preventing Asbestos Disease Among Brake and Clutch Repair Workers, Digest 245, ELECSA, Electrical Competent Person Register, EN 131, EN 166, Fatal Incidents Associated with Non-Fire Carbon Monoxide Poisoning from Engine-Driven Generators, Get Water Fit, Glue Traps (Offences) Act, GS38, Guild of Master Chimney Sweeps, Haynes, Hazards in Social Housing, Health and Safety Code 19825, Home Accident Surveillance System, Home Electrical Fires, Hospital Episode Statistics, How Safe Is Your Home, HS034, HSENI, HSG274, HUD Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing, IFGC, INDG455, Institute for Justice, International Fuel Gas Code, International Plumbing Code, International Residential Code, Iowa Radon Lung Cancer Study, IRC, L143, LABC Front Door, Lead Safe Housing Rule, License to Work, Moulton Niguel, National Association of Chimney Sweeps, National Electrical Code, National Pest Management Association, NFPA 70, NFPA 72, NFPA 720, PaintSafe, Party Wall etc. Act 1996, PGMA G300, Planning Portal, R105, Registered Competent Person Electrical, Renovate Lead-Safe Fact Sheet, Safe removal of lead paint, SELECT, spab.org.uk, Spartanburg Water, Steps to LEAD Safe Renovation, Storage or Tank-Type Water Heaters, Technical Booklet E, Texas Chemistry Council, Texas Occupations Code 1305.003, This Old House, Tolerable Standard Guidance, Total Exposure Assessment Methodology, Trade Association Forum, UL 2034, UL 217, UL 2201, Uniform Plumbing Code, Warm Homes Plan, water.org.uk, Wessex Water, which.co.uk, Which? Trusted Traders -->
+<!-- unread: 18th Edition, 210.12, 210.8, A Citizen's Guide to Radon, ADAO, afcisafety.org, American Ladder Institute, Anglian Water, ANSI Z87.1, Approved Document A, Approved Document G, Asbestos Disease Awareness Organization, Asbestos in the Home, Asbestos: are you at risk?, Assessing Damp in Historic Buildings, Association of Professional Independent Chimney Sweeps, BEIR VI, Better Business Bureau, BS 7671:2018, BS EN 50292, Buy Safe, Certification Register, Chimney Fire Safety Week, Collins Complete DIY Manual, Competent Persons Register, Construction Skills Certification Scheme, Consumer Credit Act, Consumer Reports, Current Best Practices for Preventing Asbestos Disease Among Brake and Clutch Repair Workers, Digest 245, ELECSA, Electrical Competent Person Register, EN 131, EN 166, Fatal Incidents Associated with Non-Fire Carbon Monoxide Poisoning from Engine-Driven Generators, Get Water Fit, GS38, Guild of Master Chimney Sweeps, Haynes, Hazards in Social Housing, Health and Safety Code 19825, Home Accident Surveillance System, Home Electrical Fires, Hospital Episode Statistics, How Safe Is Your Home, HS034, HSENI, HSG274, HUD Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing, IFGC, INDG455, International Fuel Gas Code, International Plumbing Code, International Residential Code, Iowa Radon Lung Cancer Study, IRC, L143, LABC Front Door, Lead Safe Housing Rule, Moulton Niguel, National Association of Chimney Sweeps, National Electrical Code, National Pest Management Association, NFPA 70, NFPA 72, NFPA 720, PaintSafe, Party Wall etc. Act 1996, PGMA G300, Planning Portal, R105, Registered Competent Person Electrical, Renovate Lead-Safe Fact Sheet, Safe removal of lead paint, spab.org.uk, Spartanburg Water, Steps to LEAD Safe Renovation, Storage or Tank-Type Water Heaters, Technical Booklet E, Texas Chemistry Council, Texas Occupations Code 1305.003, This Old House, Tolerable Standard Guidance, Total Exposure Assessment Methodology, Trade Association Forum, UL 2034, UL 217, UL 2201, Uniform Plumbing Code, Warm Homes Plan, water.org.uk, Wessex Water, which.co.uk, Which? Trusted Traders -->
 
 *Stage 1 research, 2026-09-25. Written before any lesson is drafted. Four researchers each worked
 one part of the subject in parallel, in a fresh context. Part A covers how a house works, plus the
@@ -2768,7 +2768,8 @@ page returned 403.)
   minimum; [V] "Use chemical stripper or wet abrasive paper"; mask, gloves, overalls; HEPA vacuum
   and wet-wipe; bag outer clothes and shoes.
 - Don'ts: [V] "Remove paint if it is in a sound condition, especially if the lead paint is not the
-  top layer – overcoating is the safest option"; let bystanders stay; [V] "Use dry abrasive paper or
+  top layer – overcoating is the safest option to prevent exposure" (Stage 4 note, lesson 20: the
+  sentence was recorded here without its last three words); let bystanders stay; [V] "Use dry abrasive paper or
   techniques"; [V] "Use blow lamps or gas torches to strip the paint"; create fumes by
   over-heating; burn lead-containing waste.
 - Test kits: a positive means lead is present, but [V] "a negative reading should not be relied upon
@@ -6273,3 +6274,684 @@ names a university-run discount kit scheme and two national proficiency bodies; 
 - **G-N1:** the National Lead Information Center number re-read on EPA's page (above).
 - **G-N4:** no photograph sought or used.
 - Northern Ireland's asbestos and lead rules: not read; the lesson says so.
+
+## Gate closures, lesson 22 (2026-09-26)
+
+Read by lesson 22's drafter ("Who may do what: reserved work, and the argument about licensing") on
+26 September 2026, with curl (a browser User-Agent and no personal data in any header), then pandoc,
+a plain HTML stripper or pdftotext. Every [V] string below was string-matched in the extracted text.
+The Institute for Justice's site answers curl with a Cloudflare challenge page, so its pages were
+read from Internet Archive captures (IDs given; the `id_` form, gunzipped). No challenge was
+attempted.
+
+### G-L3 closed: the case against occupational licensing (or for less of it), in its proponents' own words
+
+**Institute for Justice, *License to Work 3*** (Knepper, Deyo, Sweetland, Tiezzi and Mena, 29 November
+2022), https://ij.org/report/license-to-work-3/ . Read: the report's landing page in full from capture
+**20260712004730**; the section "Steep Consumer and Economic Costs With Limited Benefits" in full from
+capture **20251007112550**; the section "Reform Spotlight: Contractor Trades Licensing" in full from
+capture **20250813231025**. The executive summary, methods, rankings, data and the other sections were
+not read (the executive summary has no capture). The report studies 102 lower-income occupations;
+nothing read says whether electricians or plumbers are among them, and no lesson says they are.
+- IJ describes itself, on the same page's navigation: [V] "IJ believes that all people have the right to
+  earn an honest living in the occupation of their choice without arbitrary, unnecessary, or
+  protectionist government interference."
+- Landing page: [V] "we identified more than 2,700 licenses across the 50 states and the District of
+  Columbia. That’s among a sample of only 102 lower-income occupations." [V] "nearly a year of required
+  education and experience, at least one exam, and $295 in fees, on average." [V] "Licensing laws might
+  be worth it if they improved services or made the public safer, but evidence suggests they often
+  don’t." [V] "Since 2017, states have eliminated more licenses than they have created, and nearly 20%
+  of licenses have become less burdensome." Its three recommendations: [V] "Eliminate licenses that are
+  not shown by high-quality evidence to protect public health and safety." [V] "Ensure remaining
+  licensing requirements are no steeper than necessary to protect public health and safety." [V]
+  "Reject new licenses that are not well supported by high-quality evidence or narrowly targeted to
+  protect health and safety. Instead, favor less restrictive alternatives like inspections, registration
+  and certification."
+- "Steep Consumer and Economic Costs": [V] "one of the most consistent findings in licensing research
+  is that by limiting entry, and thus competition, licensing leads to higher earnings for licensees"
+  [V] "consumers pay the price for those higher earnings through higher costs, limited access to
+  services or both." [V] "study after study has found that licensing does not necessarily improve
+  services or otherwise make consumers better off" And, in the same section, the counter-case IJ
+  reports itself: [V] "there is evidence that early 20th-century licensing of midwives reduced maternal
+  and infant mortality" (followed by evidence that restricting midwives reduces access to care).
+- "Contractor Trades Licensing": [V] "Specialty contractor licenses account for about a third of the
+  occupations we study" Washington State, as IJ describes it: states [V] "like Washington that (as
+  discussed in" (a link) [V] "require only registration for specialty contractors and have no education,
+  experience or testing requirement." (IJ's account; this course read no Washington contractor
+  registration law, and the lesson does not state it.)
+
+**US Federal Trade Commission, "Prepared Statement of the Federal Trade Commission on Competition and
+Occupational Licensure"**, before the House Judiciary Subcommittee on Regulatory Reform, Commercial and
+Antitrust Law, 12 September 2017, given by Acting Chairman Maureen K. Ohlhausen,
+https://www.ftc.gov/system/files/documents/public_statements/1253073/house_testimony_licensing_and_rbi_act_sept_2017_vote.pdf .
+Read: the whole statement (22 pages), pdftotext. It says it [V] "presents the views of the Federal
+Trade Commission."
+- [V] "The FTC recognizes that occupational licensing can offer important benefits." [V] "Licensing can
+  protect consumers from actual health and safety risks and support other valuable public policy
+  goals." [V] "But that does not mean all licensing is warranted, or that restrictions on an occupation always yield more benefits than harms. Licensing restrictions may impede competition and hamper entry into professional and services markets, yet offer few, if any, significant consumer benefits. Such regulations may lead to higher prices, lower quality, and reduced consumer access to services and goods." (three consecutive sentences)
+- [V] "For some occupations, licensing laws and regulations may be an appropriate policy response to
+  consumer protection or safety concerns." [V] "Licensing regulations may serve an especially important
+  function in health care, where consumers might face serious risks if they were treated by unqualified
+  individuals"
+- [V] "Licensing is estimated to result in 10-15% higher wages for licensed workers relative to
+  unlicensed workers, after adjusting for differences in education, training, and experience"
+- The framework's first question: [V] "Are there significant and non-speculative consumer health and
+  safety issues, or other legitimate public policy purposes, that warrant licensing?" And: [V] "When
+  consumer benefits are slight or highly speculative, a licensing regime may be generally undesirable."
+  Alternatives (footnote 34): [V] "government registration or certification".
+- Conclusion: [V] "Occupational licensing can serve important goals and, when used appropriately,
+  protect consumers from harm." [V] "the proponents of any restrictions should bear the burden of
+  justifying why they are needed." [V] "We also urge states to be cautious when delegating authority to
+  enforce potentially anticompetitive regulations to self-interested boards whose members represent the
+  very occupation to be regulated."
+- The statement lists electricians among occupations on which FTC staff have commented since the late
+  1970s; the comments themselves were not read.
+
+**US Federal Trade Commission, "Economic Liberty"** (the Economic Liberty Task Force page),
+https://www.ftc.gov/policy/advocacy/economic-liberty . Read: full page text, live. Undated; it names
+the Task Force's September 2018 portability report as its latest release and quotes Acting Chairman
+Ohlhausen (February 2017), so it is a page of 2017 to 2018 still carried on the live site.
+- [V] "Nearly thirty percent of American jobs require a license today, up from less than five percent in
+  the 1950s. For some professions, licensing is necessary to protect the public against legitimate
+  health and safety concerns. But many more occupations could be practiced safely and effectively with
+  fewer, or no, licensing requirements."
+- [V] "Voluntary certification or other mechanisms offer less restrictive alternatives that might be
+  useful to some employers and consumers as they compare their options."
+- The page's "Key Resources" list IJ's 2012 *License to Work* and the 2015 federal report (C33).
+
+"Institute for Justice" and "License to Work" leave the unread line with this closure. Only the parts
+named above were read.
+
+### G-N2 closed: the case for licensing and registration, in its proponents' own words
+
+**SELECT, Scotland's electrical trade association**, "Regulation" (campaign landing page),
+https://select.org.uk/SELECT/SELECT/Website/About/Regulation/Regulation-Landing-Page.aspx . Read: full
+page text, live. Footer: [V] "SELECT - Scotland's Electrical Trade Association". Undated.
+- [V] "SELECT is currently leading a long-running campaign for the regulation of the electrical industry
+  and to have 'electrician' recognised as a profession."
+- [V] "At present, lack of regulation means anyone can claim to be an electrician and carry out
+  electrical work in Scotland. These unqualified individuals put the people of Scotland at risk of
+  injury and death, through faulty electrical installation and maintenance work."
+- [V] "We want to make it an offence for someone to call themselves an electrician when they have no, or
+  inadequate, qualifications. But above all, we want to see improved safety for both domestic and
+  commercial consumers across Scotland."
+- [V] "A report commissioned by SELECT estimated that the “human cost” of faulty electrical work is
+  around £120 million per year." (The report itself, by 4-Consulting, was not read.)
+- What SELECT seeks is **protection of title** (an offence to use the word "electrician" without
+  qualifications), not a licence for every job; the lesson says so.
+
+**SELECT, "MD: Danger of unqualified electricians must be regulated before there’s a tragedy"**
+(September 2021, the address carries "Sep_2021"),
+https://select.org.uk/SELECT/SELECT/Website/About/News/News_Content/2021/Sep_2021/unqualified-electrician-must-regulated.aspx .
+Read: full text, live. SELECT's own report of its managing director, Alan Wilson, on a radio station
+for tradespeople.
+- [V] "To call yourself an electrician – to have the word ‘electrician’ on your business card, in an
+  advert in the local paper or on your van – you should have to go through a proper apprenticeship and
+  keep your qualifications up to date" (spaced dashes are the source's; a lesson quotes around them)
+- [V] "Regulation of the industry is really important and protection of title is what’s needed in the
+  sector across the UK, not just in Scotland. A voluntary approach doesn’t work, I’m afraid. You need
+  statutory regulation."
+- [V] "If you’ve done your four or five years’ of training and you then become a qualified electrician,
+  and yet somebody down the road just puts the title ‘electrician’ on their van and has no
+  qualifications and no training whatsoever, how galling must that be for a newly qualified person?"
+
+**SELECT, "UK’s biggest union supports the call for protection of title for electricians"** (June 2018,
+the address carries "June_18"),
+https://select.org.uk/SELECT/SELECT/Website/About/News/News_Content/2018/June_18/UK_s_biggest_union_supports_the_call_for_protection_of_title_for_electricians.aspx .
+Read: full text, live.
+- Unite the Union's Scottish Secretary, Pat Rafferty: [V] "Our members have expressed their frustration
+  that people in such a safety-critical occupation are able to use the title of electrician when they
+  have not met the established national and industry standards."
+- SELECT's then managing director, Newell McGuiness: [V] "We do not want to leave people behind if they
+  want to operate as competent and safe electricians and we have taken steps to ensure that there are a
+  variety of ‘routes to qualification’ to make the profession as inclusive as possible."
+
+**Utah Plumbing & Heating Contractors Association (UPHCA), "Why Plumbing Licensing Matters in Utah"**,
+10 June 2026, https://uphca.net/2026/06/10/why-plumbing-licensing-matters-in-utah/ . Read: full text,
+live. A US state trade association arguing its own case against moves to reduce licensing.
+- [V] "It protects public safety. It protects consumers. It protects trained professionals."
+- [V] "When plumbing is done wrong, the problems do not always show up immediately."
+- [V] "Licensing creates a standard. It tells homeowners, business owners, facility managers, builders,
+  and government agencies that plumbing work should be handled by trained professionals who understand
+  the code and carry responsibility for the work."
+- [V] "There have been continuous efforts by lawmakers and influential groups to reduce or eliminate
+  licensing requirements in Utah." [V] "Weak licensing standards can create lower-quality work, unsafe
+  installations, unfair competition, reduced professionalism, and less incentive for workers to pursue
+  proper training."
+- On its own interest: [V] "Advocating for the industry is the bedrock purpose of this organization."
+  [V] "This is not about protecting territory for the sake of protecting territory. It is about protecting public safety, maintaining code compliance, and making sure plumbing work is performed by people who are trained and licensed to do it." (two consecutive lines)
+- The page states Utah rules (handymen, a homeowner's own water heater) as the association reads them;
+  no Utah statute was read, and no lesson states Utah law from it.
+
+**Scottish Government, "Regulation of electricians: consultation"** (published 23 November 2020),
+https://www.gov.scot/publications/consultation-regulation-electricians/ . Read: the landing page and
+section 3, "Context", live. Used only to date the question as live in Scotland:
+[V] "Currently anyone can call themselves an electrician, without the need for any qualifications or
+competency." The consultation outcome was not read.
+
+"SELECT" leaves the unread line with this closure, **as a trade association's campaign pages only**.
+Gate G-L8 (Scottish approved certifier scheme names) stays open: no lesson names SELECT, or anyone,
+as a certification scheme in Scotland.
+
+### G-L5 partly closed: the 2013 Part P change, in the government's own words
+
+**DCLG, *Building Regulations Part P, Electrical Safety in Dwellings: Impact assessment***, December
+2012, signed 17 December 2012,
+https://assets.publishing.service.gov.uk/media/5a75c34ee5274a4368299c6b/121217_-_Part_P_IA_-_to_publish_for_web.pdf .
+Read: the summary pages, "Problem under consideration", "Rationale for intervention" and "Response to
+the consultation" (paragraphs 1 to 29), and paragraphs 53 to 56 and 74 to 75, pdftotext. The
+consultation document and the government's response were not read.
+- [V] "In the light of representations from industry and as part of a wider review of the costs and
+  benefits associated with the Building Regulations, DCLG is amending the regime in order to reduce
+  cost (whilst maintaining an appropriate electrical safety regime)."
+- [V] "Revocation of Part P was not supported by respondents nor is it the most cost-beneficial option
+  in this analysis."
+- [V] "We received 158 responses to the consultation." [V] "11% supported no change, 11% revocation,
+  62% amendment broadly in the manner proposed, and a further 15% for amending in a significantly
+  different way." Homeowners were [V] "11% of the replies", and [V] "many of the homeowners responded as
+  DIYers who have undertaken electrical work and/or have some sort of electrical qualification".
+- [V] "Market failure potentially arises due to information asymmetry as homeowners do not have the
+  expertise to assess whether an electrical installation has been done competently; regulating for
+  minimum standards and using competent person schemes are methods to address this."
+- Its figures on shocks during DIY come from data of the early 1990s held in a system on the unread
+  line; not used.
+
+### G-L4: fallback written
+
+No statement of the case for letting householders do their own electrical work was found in its
+holders' own words. The impact assessment reports that some homeowners who responded were DIYers, and
+their share of the votes, but not their arguments. Lesson 22 states the rules (established), reports
+ESF's position attributed, gives DCLG's reasoning for 2013 as DCLG's, and says the course did not find
+the householders' side argued in its own words.
+
+### The federal report (C33), read further
+
+https://obamawhitehouse.archives.gov/sites/default/files/docs/licensing_report_final_nonembargo.pdf ,
+re-read 26 September 2026: the executive summary, the best-practices list (page 41 onwards, by
+search), and the research appendix section "Impacts on Quality, Health, and Safety" in full. C33's
+strings re-matched ("today’s" is printed with a curly apostrophe). Also:
+- [V] "When designed and implemented carefully, licensing can offer important health and safety
+  protections to consumers, as well as benefits to workers." [V] "However, the current licensing regime
+  in the United States also creates substantial costs, and often the requirements for obtaining a
+  license are not in sync with the skills needed for the job."
+- Best practice: [V] "Limiting licensing requirements to those that address legitimate public health and
+  safety concerns to ease the burden of licensing on workers."
+- Scope: [V] "it is beyond the scope of this report to recommend reforms to State or other regulations
+  for specific occupations."
+- [V] "Other research suggests that licensing is not always adequate to address quality concerns, but
+  may be complementary with other forms of regulation." (Phelan 1974, television repair, fraud lower
+  where licensing was coupled with a state agency that investigated fraud.)
+- The electrician findings are Kleiner and Park (2014), *Monthly Labor Review*, "Life, Limbs and
+  Licensing"; the paper itself was not read (bls.gov returned 403).
+- The report's 25 percent is the State-licensed share (to 2008 data); the FTC page's "Nearly thirty
+  percent" is a different, undated figure. Neither is set against the other as a change.
+
+### Re-read live at drafting (statutes and official guidance)
+
+Each re-read in full on 26 September 2026; C-part strings re-matched unless stated.
+- **SI 2010/2214 reg 12** (England version), "up to date with all changes known to be in force on or
+  before 22 September 2026"; reg 12(6A)(a) to (c) and 12(9) as C2 records. Wales version re-read: no
+  12(6A).
+- **SI 2010/2214 Schedule 4**, England (up to date to 26 September 2026) and Wales (to 23 September
+  2026) versions: C3's strings re-matched.
+- **SI 2010/2214 Schedule 3**, **Schedule 1 Part P**, **reg 18** (England and Wales versions, "11th
+  November 1985"), **reg 20** (30 days; [V] "evidence (but not conclusive evidence)").
+- **Approved Document P** (2013, England): paragraphs 2.7, 3.1, 3.8 and 3.13 re-matched.
+- **Building Act 1984 s35 and s36**, both up to date to 26 September 2026. s36(4) [V] "10 years",
+  substituted by the Building Safety Act 2022 s39(3): England from 2023, and Wales [V] "1.7.2026 for W.
+  in so far as not already in force". s35 substituted on the same dates. G-L6 stays open: no earlier
+  period is stated.
+- **SSI 2004/406** reg 5 (the word "building" before "warrant" is an inserted amendment), Schedule 3
+  type 1, reg 2 "house": no known outstanding effects.
+- **Scottish technical handbook 2022 (domestic)**, clauses 0.5 and 4.5, re-read live on gov.scot; C19's
+  strings re-matched. G-L7 not closed: no later handbook looked for beyond the live 2022 pages.
+- **mygov.scot, "Approved certification"** and **Pye Tait appendix 3**: C20's strings re-matched.
+- **SR 2012/192 contents** (Northern Ireland): Part P is [V] "Sanitary appliances, unvented hot water
+  storage systems and reducing the risk of scalding". **ESF Northern Ireland tab**: C22's strings
+  re-matched.
+- **gov.wales, "Building regulations: electrics"**: C9's strings re-matched.
+- **GOV.UK "Building regulations approval"** (updated 24 January 2025) and **"Competent person scheme:
+  current schemes"** (updated 17 September 2026): C7's and C8's strings re-matched.
+- **ESF, "Advice for DIY-ers"** (guidance/advice-for-you/diyers/): the survey and [V] "Any electrical
+  work should be left to competent professionals." re-matched.
+- **California B&P 7048** ([V] "Amended by Stats. 2025, Ch. 67, Sec. 12. (AB 1170) Effective January 1,
+  2026.") and **7044** (SB 944, 2017): C24's strings re-matched; 7044(a)(3) and (b)(1) re-read.
+- **Florida Statutes (2026) 489.103(7)** and **489.503(6)**: C26's strings re-matched. Also
+  489.503(6)(a): for electrical work, [V] "proof of the sale or lease, or offering for sale or lease, of
+  more than one such structure by the owner-builder within 1 year after completion of same is prima
+  facie evidence that the construction was undertaken for purposes of sale or lease." 489.503(6)(c):
+  [V] "an owner shall personally appear and sign the building permit application".
+- **RCW 19.28.261** (live; the Legislature's site warned of maintenance that day): (1)(a) and (b) as C28
+  records. The 12 months run [V] "after obtaining the property", not after the work.
+  **L&I F500-094-000**: C28's strings re-matched; [V] "we will issue a permit valid for 1 year."
+- **TDLR, "Exemptions to Electrician Licensing"**: C25's strings re-matched.
+- **NYC DOB owner page**: C27's strings re-matched.
+- **CSLB Industry Bulletin 24-07** (C24): re-read; [V] "but there is a catch: the work cannot require a permit, and the unlicensed person cannot employ anyone for the project." unchanged.
+- **IET, "Part P: Scotland and Northern Ireland"** (C21): re-read; C21's string re-matched.
+- **Law Society TA6 notes**: returned HTTP 403 on 26 September 2026 and has no Internet Archive capture;
+  C11's strings (read 25 September 2026) are used as C11 records them.
+
+### Gates left open
+
+G-L1 (the model codes: "the model codes that states adopt" only), G-L2 (Texas's official text; TDLR's
+description attributed), G-L6 (no earlier s36 period), G-L7, G-L8 (no Scottish scheme named), G-L9 (the
+five places only), G-L10 (no TA6 question numbers), G-L11 (planning: "You might need both"), G-G2
+("HSENI" not named).
+
+## Gate closures, lesson 21 (2026-09-26)
+
+Read by the lesson 21 drafter ("Pests: find the cause, then control it") on 26 September 2026: curl
+with a browser User-Agent (no personal data in any header), then pandoc to plain text; statutes from
+legislation.gov.uk's data.xml renderer; the DeVries abstracts by PubMed efetch; CDC and BPCA from the
+Internet Archive `id_` captures Part B names (the live BPCA page returned 403). Every [V] below was
+string-matched in the extracted text. **No phone number is printed by lesson 21** (EPA's termite page
+gives NPIC's; not used, so not re-read under G-N1).
+
+### G-L14 closed: glue traps, England, Wales and Scotland (new; legislation.gov.uk)
+
+- **Glue Traps (Offences) Act 2022 (c. 26)**, whole Act read. s1(1) [V] "A person who sets a glue trap
+  in England for the purpose of catching a rodent commits an offence." s1(2): setting one in England in
+  a manner that risks a rodent being caught. s1(5): an offence for a person who finds a glue trap in
+  England set so as to risk catching a rodent and, without reasonable excuse, fails to ensure it no
+  longer does. s1(7): up to 51 weeks' imprisonment or a fine on summary conviction for s1(1), (2), (4).
+  s1(11): a glue trap is a trap designed or capable of being used to catch a rodent that uses an
+  adhesive as a means of capture. s2(1): the Secretary of State may grant a licence authorising a pest
+  controller [V] "for the purpose of preserving public health or public safety"; s2(2): only if
+  satisfied there is [V] "no other satisfactory solution". s2(12): a "pest controller" provides pest
+  control in the course of a business, or is employed by a public authority to do so. s10(1) [V] "This
+  Act extends to England and Wales only." Commencement: SI 2024/686 reg 2, ss 2 and 10 from 22 May 2024,
+  the rest (the offences) from **31 July 2024**; its explanatory note speaks of "new offences in
+  England".
+- **Agriculture (Wales) Act 2023 (asc 4), Part 5, ss 45 to 48**, read as enacted. s46 inserts into
+  s11(1) of the Wildlife and Countryside Act 1981: (bc) [V] "sets in position in Wales any glue trap
+  which is of such a nature and so placed as to be likely to catch any animal coming into contact with
+  it"; (bd) [V] "uses in Wales for the purpose of killing or taking any animal any glue trap, whether or
+  not of such a nature or so placed as aforesaid"; new s11(7ZA): "animal" means a vertebrate (other than
+  a human). In force **17 October 2023** (s56(2)(d), per the page's annotations). Section 11 of the 1981
+  Act as amended (its defences and exceptions) was **not** read.
+- **Wildlife Management and Muirburn (Scotland) Act 2024 (asp 4), ss 1 to 5**, read. s1(1) [V] "It is
+  an offence for a person, without reasonable excuse, to use a glue trap for the purpose of killing or
+  taking any animal other than an invertebrate." s2(1): supplying or offering to supply; s3(1) [V] "It
+  is an offence for a person, without reasonable excuse, to possess a glue trap." Authorised persons are
+  excepted. Penalties up to 12 months or £40,000 summarily, 5 years on indictment. s1(7) definition, [V]
+  "is designed, or is capable of being used, to catch an animal other than an invertebrate" (and uses an
+  adhesive as a means of capture). s5(2): authorisation only if necessary or expedient to protect public
+  health and [V] "no other method of rodent control is practicable". Sections 1 to 5 in force **1 July
+  2026** (page annotations). The scheme made under s5 was not read.
+- **Northern Ireland:** nothing read. **US:** no federal or state glue trap law read.
+- "Glue Traps (Offences) Act" is removed from the unread line in the same change.
+
+### New: HSE, "Using biocides: Overview"
+
+https://www.hse.gov.uk/biocides/using/overview.htm, full text. Great Britain's regulator's guidance
+for workplace and home. [V] "Everyone who uses biocides is responsible for using them correctly."
+[V] "Is there a problem that needs to be controlled?" Alternatives listed include traps, sealing doors
+and windows, storing items differently and making sure the area is [V] "clean, dry and well
+maintained". [V] "If you are not a professional, consider using a professional pest controller to deal
+with the problem." HSE cannot recommend companies; it suggests the local council. General public: [V]
+"Following the label instructions carefully should be enough to allow the product to be used safely and
+effectively." [V] "Members of the general public should never use biocidal products that are only
+intended for professional users." (the reason: professionals must have had information, instruction and
+training, and some products need certification). The label shows who is allowed to use the product
+(general public, professional, professional with demonstrated competence, industrial); what it is
+authorised for, [V] "the biocide must not be used for any other purpose" (the list item before those
+words has a spaced en dash; quote only these words); example purposes include use against ants,
+woodlice and cockroaches, and against mice indoors.
+
+### New: US EPA, "Introduction to Pesticide Labels" ("Last updated on June 2, 2026")
+
+https://www.epa.gov/pesticide-labels/introduction-pesticide-labels, full text. [V] "It is a violation of
+Federal law to use this product in a manner inconsistent with its labeling." (a statement EPA says all
+pesticide labels carry) [V] "In other words, the label is the law." The label's conditions [V] "define
+who may use a pesticide, as well as where, how, how much, and how often it may be used". Label
+requirements are in 40 CFR Part 156 (not read); FIFRA itself not read.
+
+### Re-read live or from the same captures (Part B §5)
+
+- **EPA IPM Principles** ("Last updated on July 22, 2026"): Part B's [V] strings re-matched. Added [V]
+  "can be applied to both agricultural and non-agricultural settings, such as the home, garden, and
+  workplace". Note the four steps are introduced as what "growers ... follow", and the threshold
+  paragraph speaks of pests as an "economic threat": applying the threshold to a house is a lesson's
+  reading.
+- **CDC rodent pages** (captures as Part B; all dated April 8, 2024; the captures are gzip and were
+  decompressed): [V] "Rodent droppings are pointed at one end and often contain hair." [V] "If droppings
+  are present after cleaning, this indicates an active rodent presence." [V] "Mice can fit through a
+  hole the width of a pencil (1/4 inch or 6 millimeters in diameter)." CDC's inside list includes
+  [V] "Around all electrical, water, gas, and sewer lines". Trap up: [V] "Traditional snap traps are
+  recommended to reduce rodent populations around the home. Only use poison or bait stations for mouse
+  and rat infestations that persist." [V] "Do not use glue traps and live traps. These traps can scare
+  the rodents, causing them to urinate, which can increase your chance of getting sick." [V] "Rodents
+  prefer to run next to walls or other objects for safety." [V] "If no rodents are captured for a week
+  and there are no new signs of rodents, the rats are gone." [V] "Poison baits can be dangerous for
+  people and animals and must be used according to label instructions." Clean up: [V] "Don't vacuum or
+  sweep rodent urine, droppings, or nesting materials." [V] "This can cause tiny droplets containing
+  viruses to get into the air." [V] "1 part bleach to 9 parts water" (after "Combine 1.5 cups of
+  household bleach in 1 gallon of water"). [V] "Open all doors and windows for 30 minutes before
+  cleaning to ventilate the space. Leave the area during this time." [V] "Let it soak for 5 minutes or
+  according to instructions on the disinfectant label." [V] "Additional precautions should be used for
+  cleaning homes or buildings with heavy rodent infestation." Ducts: contact a professional. Seal up:
+  contact a pest control specialist if rodents have got into areas that cannot be reached to clean.
+- **EPA "Restrictions on Rodenticide Products"**: Part B's [V] strings re-matched. Added: consumer
+  products are [V] "ready-to-use bait stations" with block or paste bait; second-generation products
+  pose greater risks to nontarget species that feed on bait once or feed on animals that ate it; [V]
+  "Read the labels of these products before purchasing any of them to make sure that the product
+  obtained is labeled for use in the place(s) that you intend to apply it." The page names a brand in a
+  link; no lesson names it.
+- **HSE "Rodenticides"**: Part B's strings re-matched. Full sentence, [V] "Risk assessments carried out
+  by regulators, including HSE, have shown that anticoagulants present a higher risk to people and
+  non-target animals than is normally acceptable for authorisation in Great Britain and Northern
+  Ireland." [V] "consider other available control methods, such as those listed above, before reaching
+  for anticoagulant products". Rodenticides fall under the GB Biocidal Products Regulation in Great
+  Britain and the EU's in Northern Ireland (product type 14). Authorised despite the risk because the
+  negative impact on society of not allowing use would outweigh the risks, with strict controls.
+- **UC IPM "Pest Notes: Cockroaches"**, UC ANR Publication 7467 (authors A.M. Sutherland, D.H. Choe,
+  M.K. Rust; a "UC Peer Reviewed" logo; no revision date on the page): Part B's [V] strings re-matched,
+  and in full, [V] "Avoid using foggers, bombs, or aerosol sprays; these products can be hazardous and
+  may repel and disperse cockroaches to other areas without actually killing them." Added [V] "Adult
+  German cockroaches can hide in a crack 1/16 inch wide." [V] "Indoor infestations of cockroaches are
+  also important sources of allergens and have been identified as risk factors for development of
+  asthma in children, especially within multi-unit housing environments." [V] "It may take 7 days or
+  longer before you see fewer cockroaches." [V] "Sticky traps or glue boards offer the best way to
+  detect and monitor cockroach populations." The German cockroach is [V] "the most common indoor species
+  in California"; severe infestations may spread to other parts of buildings. HEPA is expanded there as
+  "high efficiency particulate absorber".
+- **DeVries 2019, BMC Public Health** (efetch, abstract only): Part B's strings re-matched; the full
+  result sentence is [V] "TRFs failed to reduce cockroach populations, whereas similarly priced gel baits
+  caused significant declines in the cockroach populations." 20 homes divided equally among four
+  fogger products; 10 homes with gel baits (two products); residues on horizontal kitchen surfaces 603
+  times (SEM ±184) baseline, median 85. Background: professional control [V] "is often prohibitively
+  expensive". Conclusion: [V] "call into question their utility in the marketplace". The abstract does
+  not say where the homes were; the authors are at North Carolina State University. Author given as
+  "DeVries ZC": no first name is recorded here.
+- **DeVries 2019, J Econ Entomol** (efetch, abstract only): cypermethrin resistance 202 ± 33 times a
+  susceptible laboratory strain; fipronil (a common bait ingredient) 14 ± 2 times; >96% carried at least
+  one copy of the L993F kdr mutation, "known to confer resistance to pyrethroids"; foggers killed
+  insecticide-susceptible sentinel cockroaches but not apartment-collected ones; [V] "suggest that
+  pyrethroid resistance is a major factor contributing to the failure of TRFs". Dispersal is UC's
+  account, not DeVries's.
+- **EPA bed bug pages**: Part B's [V] strings re-matched. Added (curly apostrophes as on the page): [V]
+  "Don’t throw out all of your things because most of them can be treated and saved." [V] "always follow
+  label directions or hire a professional" [V] "Leave the encasements on for a year." [V] "Raising the
+  indoor temperature with the thermostat or space heaters won’t do the job." [V] "may not be a reliable
+  method" (freezing). Myths: [V] "Bed bugs are not attracted to dirt and grime; they are attracted to
+  warmth, blood and carbon dioxide." [V] "won’t deter these pests from biting you" [V] "will not by
+  itself eliminate bed bugs". The safety page's "Should I Use a Fogger?" heading has no text in the
+  page as extracted; nothing is attributed to it.
+- **NHM clothes moths**: Part B's [V] string re-matched. Added [V] "It is the immature larvae, rather
+  than the adult moths, that cause the damage". Pheromone traps "can be checked to monitor
+  infestation". Larvae are white with a brown head.
+- **Babergh and Mid Suffolk, "Wood-boring insects"**: **correction to Part B's paraphrase.** The page
+  says the *interiors of the holes* are the colour of freshly-cut timber, and calls them "frass": [V]
+  "An active outbreak can sometimes be identified by holes with sharp (rather than rounded) edges,
+  alongside bore dust. The interiors of the holes ('frass') are not dark, but the colour of freshly-cut
+  timber." [V] "Otherwise, holes may indicate an old infestation, that's no longer active. In these
+  cases, no action is normally needed." [V] "It can be difficult to prove whether you have an active
+  infestation of wood-boring insects, at most times of the year. Adult insects mainly emerge in the
+  spring." [V] "Water-soluble glue can be used to cover a group of holes with acid-free tissue paper. If
+  there are beetles, they will punch their way out." [V] "Wood-boring insects are a symptom of excess
+  damp in a building" [V] "might need" (treatment of an active infestation) [V] "For a comprehensive
+  spray treatment, you will need listed building consent." Paste preferred; [V] "We typically do not
+  support spray treatment, as it is harder to control." Furniture beetles make 1-2mm holes.
+- **EPA termites** ("Last updated on October 21, 2025"): Part B's strings re-matched. Added [V] "In most
+  cases, termiticide application can only be properly performed by a trained pest management
+  professional." [V] "Firms offering termite services must be licensed by your state." [V] "can cause
+  contamination of the home and surrounding drinking water wells". Probe exposed wood for hollow spots
+  with a flathead screwdriver; termite wings roughly equal in length, antennae straight; ant front wings
+  longer, antennae bent at ninety degrees.
+- **BPCA "Find a pest controller"** (capture 20260208074048): [V] "Fully insured businesses with at least
+  £2M public liability insurance"; [V] "the British standard in pest management BS EN 16636".
+
+### G-N4 closed for two photographs (Wikimedia Commons, licences checked on the file pages by the API)
+
+- File:Housemouse (Mus musculus) droppings with 10 and 20 euro cent coins and a ruler, Utrecht, The
+  Netherlands, December 14, 2019.jpg, by Hansmuller, own work, **CC BY-SA 4.0**. The file's
+  description names the coins as 10 and 20 cent; the image as viewed is not clear on it, so lessons say
+  "two coins".
+- File:Holzwurm loecher.jpg, by Kai-Martin Knaak, **CC BY-SA 3.0**; description: beech wood attacked by
+  the common woodworm (*Anobium punctatum*), holes about 1 mm to 1.5 mm, Hannover. The identification
+  and size are the uploader's.
+
+### Gates left open
+
+G-R4 (wasp nests: not mentioned, the fallback). G-R5 (the EPA 2008 decision, CRRU's pack sizes and UK
+hantavirus: not read; CDC's clean-up applied as the course's reading). CRRU's stewardship regime is
+for professional users and is not described in lesson 21.
+
+## Gate closures, lesson 23 (2026-09-26)
+
+Read for lesson 23, "Hiring a tradesperson, and when to stop", on 26 September 2026, with curl (a
+browser User-Agent, no personal data sent) and pandoc or pdftotext; legislation.gov.uk through its
+`data.xml` renderer, the eCFR through its renderer API, GOV.UK through its content API. [V] as in the
+rest of this file.
+
+### UK consumer law
+
+- **Consumer Rights Act 2015, ss.49 to 52 and 54 to 57**, revised text, "valid from" 6 April 2026 on
+  each section. Part B §7's strings for ss.49, 51 and 52 re-matched. **Gate G-L12 closed for ss.54,
+  56 and 57** (s.75 of the other Act stays unread, below). s.54(3): if the service does not conform,
+  the rights are [V] "the right to require repeat performance (see section 55)" and [V] "the right to a
+  price reduction (see section 56)"; s.54(6) and (7): other remedies are not prevented, [V] "(but not
+  so as to recover twice for the same loss)". s.55(1): [V] "to the extent necessary to complete its
+  performance in conformity with the contract"; s.55(2): [V] "must provide it within a reasonable time
+  and without significant inconvenience to the consumer" and [V] "must bear any necessary costs
+  incurred in doing so (including in particular the cost of any labour or materials)". s.56(2): the
+  reduction [V] "may, where appropriate, be the full amount of the price"; s.56(3): a consumer with
+  both rights gets a price reduction only if repeat performance is impossible or the trader fails to
+  do it within a reasonable time; s.56(4): refund [V] "within 14 days beginning with the day on which
+  the trader agrees that the consumer is entitled to a refund". s.57(1): a term is [V] "not binding on
+  the consumer to the extent that it would exclude the trader's liability arising under section 49".
+- **Consumer Contracts Regulations 2013 (SI 2013/3134)**, revised text, "valid from" 1 January 2026:
+  regs 5, 6, 7, 10, 27, 28, 29, 30, 31 and 36 read in full.
+  **Correction to Part B §7:** the £42 exclusion from the **cancellation** Part is **reg 27(3)**: [V]
+  "This Part does not apply to off-premises contracts under which the payment to be made by the
+  consumer is not more than £42." Reg 7(4) is the same threshold for Part 2, the **information**
+  requirements. Part B §7's "Reg 7(4): the cancellation Part does not apply" cites the wrong
+  regulation; the figure is right. Lessons cite reg 27(3) for cancellation.
+  Reg 5: "durable medium" means [V] "paper or email, or any other medium that" meets three conditions.
+  Reg 10(1) and (2): before an off-premises contract binds, the trader must give the Schedule 2
+  information and, if a right to cancel exists, a cancellation form, [V] "on paper or, if the consumer
+  agrees, on another durable medium". Reg 28(2) in full: sub-paragraph (e) [V] "does not prevent this
+  Part applying to a contract for— a services in addition to the urgent repairs or maintenance
+  requested, or b goods other than replacement parts necessarily used in making the repairs or
+  carrying out the maintenance, if the trader supplies them on the occasion of a visit". Reg 31(3):
+  [V] "the cancellation period ends at the end of 12 months after the day on which it would have ended
+  under regulation 30." Reg 36(1): [V] "The trader must not begin the supply of a service before the
+  end of the cancellation period"; reg 36(6): no cost to the consumer where the cancellation
+  information was not given.
+- **Section 75, Consumer Credit Act 1974: not read.** G-L12's fallback stands: section 75 is "Citizens
+  Advice says", and the Act is not named in a lesson.
+- **TrustMark (G-L12, government endorsement): fallback stands.** The "Why TrustMark?" URL recorded in
+  Part B §7 returned TrustMark's "404 Page not found" on 26 September 2026; the same sentence is on
+  TrustMark's home page (https://www.trustmark.org.uk/), [V] "TrustMark is the Government Endorsed
+  Quality Scheme that covers work a consumer chooses to have carried out in or around their home." No
+  government source read.
+
+### UK advice pages
+
+- **Citizens Advice, "Before you get work done on your home"** (England), full text re-read. Part B's
+  strings re-matched, with changes: payment is now [V] "You should pay for the work by debit or credit
+  card if you can. If you can’t pay by card, pay by bank transfer. Don’t pay with cash."; the
+  quote-price exceptions now include a genuine mistake ([V] "they made a genuine mistake when writing
+  down or calculating the price - they have the legal right to charge you what it should have been").
+  New [V]: "A quote is a fixed price, so you’ll know what you’re getting and how much it will cost. An
+  estimate is just a rough guess, so you might end up paying more."; "2 or 3 recent examples of
+  similar work they’ve done"; "If you’re getting electrical work done, you should use a properly
+  qualified or registered electrician"; "Paying in stages is a good idea, because it means problems
+  can be put right before you make the final payment."; section 75: "If you pay for work that costs
+  between £100.01 and £30,000 by credit card, it might be better to tell your credit card company you
+  want to make a ‘section 75 claim’." and "This includes paying a deposit by credit card, even if
+  that’s less than £100."; step 6: "ask the trader to put it right" and agree the fix "in writing".
+  The page names three bodies on the unread line (a competent-person search site, a construction
+  skills card scheme, and a registered-electrician site); lessons don't name them.
+- **Citizens Advice, "Find a trader and check you can trust them"**, [V] "Page last reviewed on 09 May
+  2019", England: council "approved traders" or "Trading Standards"; [V] "TrustMark - the Government’s
+  trader scheme"; check membership on the scheme's or association's own site. It also names bodies on
+  the unread line; lessons don't name them.
+- **FMB, "Find a builder"**: [V] "Check your builder is a Master Builder - some places claim to be a
+  member when they're not." Part B's strings re-matched.
+- **GOV.UK, competent person schemes** (content API, updated 17 September 2026): C8's strings
+  re-matched. [V] "If you are joining an electrical scheme then you will be included in the electrical
+  competent person register designed to provide a single place for householders to find registered
+  electricians in their area." (Lessons paraphrase it; the register's name is on the unread line.)
+
+### US
+
+- **16 CFR Part 429**, eCFR, whole Part read. Part B's strings re-matched. §429.0(a) includes sales
+  [V] "in response to or following an invitation by the buyer". **§429.0(a)(5)**, the requested-repair
+  exclusion, is for repairs [V] "upon the buyer's personal property"; Part B's summary is right. This
+  course did not read whether a repair to the house itself counts as personal property, and lessons
+  say so. §429.0(a)(3), the emergency exclusion, needs the buyer to have [V] "initiated the contact",
+  a [V] "bona fide immediate personal emergency", and a handwritten, dated, signed statement waiving
+  the right. §429.1(g): refund [V] "within 10 business days". §429.2(b): state laws that do not give a
+  right to cancel [V] "substantially the same or greater than that provided in this part" are among
+  those treated as directly inconsistent.
+- **FTC, "Buyer's Remorse: The FTC's Cooling-Off Rule May Help"** (modified 9 December 2025), full text:
+  [V] "Saturday is considered a business day, but Sundays and federal holidays are not."; the seller
+  must give [V] "Two copies of a cancellation form"; its refund line says [V] "the seller has 10
+  days", where the Rule says 10 business days (lessons use the Rule).
+- **FTC, "How To Avoid a Home Improvement Scam"** (modified 10 December 2025), full text. Part B's
+  strings re-matched, with its wording now [V] "Consider only contractors who are licensed and insured.
+  Check with your state or county government to confirm a contractor’s license, and ask the contractor
+  for proof of insurance." (Part B's "use only licensed and insured contractors" is a paraphrase.) Also
+  [V] "Scammers say they have materials left over from a previous job."; "Don’t automatically choose
+  the lowest bidder."; "never make the final payment until the work is done and you’re satisfied with
+  it"; "Never transfer your deed to anyone without consulting an attorney, a knowledgeable family
+  member, or someone else you trust."; problems: follow calls [V] "with a letter you send by certified
+  mail", then [V] "your state attorney general or local consumer protection office".
+- **FTC, "How To Avoid Scams After Weather Emergencies and Natural Disasters"** (modified 28 April
+  2026), full text. Part B's strings re-matched. Also [V] "Scammers say you’ll get a discount, but only
+  if you sign a contract right away."; "Scammers ask you to sign a “blank contract.”"; the FEMA-fee sign
+  (its line uses a horizontal bar, so lessons paraphrase it); [V] "Never make the final payment until
+  the work is done and you’re satisfied."; the bank [V] "Certificate of Completion", so [V] "the bank
+  will pay the contractor for each stage of the job after you have given your approval"; contracts
+  with [V] "no blank spaces that someone could fill in later".
+- **California Business and Professions Code §7159**, full section read on leginfo, [V] "(Amended by
+  Stats. 2025, Ch. 585, Sec. 1.5. (SB 517) Effective January 1, 2026.)". Part B's down payment string
+  re-matched. **New since Stage 1: a seven-day right.** §7159(e)(7)(A): the "Seven-Day Right to Cancel"
+  notice [V] "shall be provided to the buyer for any contract that is written for the repair or
+  restoration of residential premises damaged by any sudden or catastrophic event for which a state of
+  emergency has been declared by the President of the United States or the Governor, or for which a
+  local emergency has been declared by the executive officer or governing body of any city, county, or
+  city and county". §7159(e)(6)(A): the three-day notice, or [V] "“Five-Day Right to Cancel” for
+  contracts with a senior citizen", is given unless the contract is [V] "Negotiated at the contractor’s
+  place of business" or subject to the seven-day right. §7159(b): a home improvement contract is one
+  whose aggregate price [V] "exceeds five hundred dollars ($500)". §7159(c)(4): the contract must say
+  that on payment for any portion the contractor gives [V] "a full and unconditional release from any
+  potential lien claimant claim or mechanics lien" for that portion. §7159(d)(9)(C): [V] "IT IS AGAINST
+  THE LAW FOR A CONTRACTOR TO COLLECT PAYMENT FOR WORK NOT YET COMPLETED, OR FOR MATERIALS NOT YET
+  DELIVERED. HOWEVER, A CONTRACTOR MAY REQUIRE A DOWNPAYMENT." §7159(e)(4), the Mechanics Lien Warning,
+  including [V] "The Preliminary Notice can be sent up to 20 days after the subcontractor starts work or
+  the supplier provides material." Cancellation notices: refund [V] "within 10 days of receiving the
+  notice of cancellation".
+- **California Civil Code §1689.5(f)**: [V] "“Senior citizen” means an individual who is 65 years of age
+  or older." ([V] "Amended by Stats. 2020, Ch. 158, Sec. 4. (AB 2471) Effective January 1, 2021.")
+- **CSLB, *A Consumer Guide to Home Improvement Contracts*** (undated PDF), full text re-read. Part B's
+  strings re-matched. It does not mention the seven-day right, so it predates SB 517. New [V]: "Did
+  you contact the Contractors State License Board (CSLB) to check the status of the contractor’s
+  license?"; workers' compensation insurance [V] "is required by law if the contractor has employees or
+  workers"; [V] "Anyone who helps improve property, but is not paid, may place what is called a
+  mechanics lien on the property."; [V] "Even if the contractor is paid in full, unpaid subcontractors,
+  suppliers, and laborers involved in the project may record a mechanics lien and sue the property
+  owner in court to foreclose the lien."; the right to cancel is voided [V] "the moment the contract is
+  signed and the contractor begins working on a service and repair contract"; [V] "Consumers have four
+  (4) years to file a complaint with the Contractors State License Board (CSLB) about a faulty
+  project."
+- **EPA, "Lead Renovation, Repair and Painting Program"** (last updated 17 June 2026) and **"Protect Your
+  Family from Exposures to Asbestos"** (last updated 25 June 2026), re-read. D14's and D8's strings
+  re-matched. RRP page links [V] "Find a lead-safe certified contractor in your area". Asbestos page:
+  [V] "For safety, homeowners should ensure that workers they hire to handle asbestos are trained and
+  accredited."; [V] "It is better to use two different firms so there is no conflict of interest."; [V]
+  "Each person performing work should provide proof of accreditation to do asbestos work."; [V] "State
+  agencies have the most up-to-date listings of accredited professionals in your area." Its
+  past-performance line names a body on the unread line; lessons don't name it.
+
+### Gates for lesson 23
+
+- **G-N1**: no phone number is printed in lesson 23; it points to lesson 10 for the Gas Safe Register's
+  helpline.
+- **G-L12**: closed for CRA ss.54, 56, 57 (above); fallbacks written for section 75 ("Citizens Advice
+  says") and TrustMark (its own description, and Citizens Advice's).
+- **G-L13**: fallback written: liens are California's only, and the lesson says no other state's lien
+  law and no UK source on liens was read.
+- **G-H2**: not needed; lesson 23 says nothing about a householder's duties under the Work at Height
+  Regulations when hiring.
+
+## Stage 4 note, lesson 20 (2026-09-26)
+
+Strings re-read live on 26 September 2026 by the lesson 20 reviewer and fixer (curl with a browser
+User-Agent, no personal data in any header; curly apostrophes as on the page). Recorded here so the
+quotations the lesson prints are on file. **Correction made in place above:** the BCF HS032 DO NOT
+line in Part D D20 had been recorded without "to prevent exposure"; the whole clause is now there.
+
+- **Dulux, "Painting Tips: Preparing Walls for Painting"**: [V] "a filler that’s up to the task";
+  "around the tops of skirtings, windows and door frames"; "For any holes that are more than
+  10mm-deep, build up the filler in layers."; "Allow to dry for one to two hours, sand until smooth,
+  and give the wall a final once-over with a duster."; "ensures your fresh, new paint will adhere to
+  the surface properly"; "Set aside half a day to complete all your prep"; "an uneven finish,
+  unsightly paint bubbles and obvious imperfections, such as holes and cracks"; "Loosen or tape around
+  electrical cover plates on switches and outlets."; "Wash the walls thoroughly with sugar soap and
+  rinse them with clean water to remove any residue."; "start at the top of the room and work your
+  way down"; "Apply two coats and move onto the walls, working away from natural light."; "Paint your
+  windows in the morning so they have a full day to dry before you close them at night. Lastly,
+  finish off with doors, door frames and skirting."; the four-sentence finishes passage; "don’t swell
+  up and cause tramlines to appear in the paint". The page gives no way of telling by eye that a wall
+  is dry.
+- **Dulux, "Dr Dulux: How to paint new plaster"**: [V] "Plaster is extremely permeable, which means
+  it’ll soak up any moisture quick."; "There are different factors that influence how soon can you
+  paint on new plaster, such as the type of material and weather."; "As a rule of thumb, plaster takes
+  up to 4 weeks to dry completely."; "You can speed things up with a heater or by opening a window.";
+  "If you don’t let the plaster dry and apply emulsion paint to wet plaster, it’s likely to crack and
+  peel off."; "Mist coat paint is simply watered-down emulsion paint, which acts as your primer.";
+  "Ten parts paint to one part water should work."; "The mixture will soak into the wall and seal the
+  plaster." (followed by "It’s this extra layer of moisture that will help your top coat stick").
+- **SI 2012/1715, revised ("latest available") text**: [V] "no known outstanding effects"; "are to be
+  used in any part of the United Kingdom"; "must not place on the market"; "the sub-category of the
+  product and the relevant VOC limit values, measured in g/l"; "the maximum content of VOC in g/l of
+  the product in a ready to use condition"; "in the formulation of the product in its ready to use
+  condition"; "Interior matt walls and ceilings"; Schedule 2 A: (a) 30/30, (b) 100/100, (d) 130/300,
+  (g) 30/350 g/l (water-borne/solvent-borne). The Regulations' terms are "water-borne (WB)" and
+  "solvent-borne (SB)", defined by whether viscosity is adjusted by water or by organic solvent.
+  Regulation 4(3) applies the limits in the ready-to-use state to products "to which solvents or other
+  components containing solvents have to be added"; a paint a user chooses to thin is not that.
+  Schedule 1 para 1(1) covers coatings "applied to buildings, their trim and fittings, and associated
+  structures", "excluding aerosols".
+- **EPA, "Volatile Organic Compounds' Impact on Indoor Air Quality"** (updated 23 June 2026): [V]
+  "Steps to Reduce Exposure" opens "Increase ventilation when using products that emit VOCs." then
+  "Meet or exceed any label precautions."; "Paints, varnishes and wax all contain organic solvents";
+  "At present, not much is known about what health effects occur from the levels of organics usually
+  found in homes."; "buy only as much as you will use right away"; "Because gases can leak even from
+  closed containers, this single step could help lower concentrations of organic chemicals in your
+  home."; "Do not simply toss these unwanted products in the garbage can."; "is converted to carbon
+  monoxide in the body". **Scope:** "providing for maximum ventilation during painting" is one of the
+  "Actions that will reduce benzene exposure", under "Keep exposure to benzene to a minimum", where
+  "paint supplies" are listed among benzene's main indoor sources. It is not EPA's general painting
+  step; quote it with that scope.
+- **EPA, "Lead-Safe Renovations for DIYers"** (updated 20 August 2026): [V] "If your home was built
+  before 1978, it may have lead-based paint; the older your home, the more likely it has lead-based
+  paint."; "As a reminder, DIY projects can easily create dangerous lead dust, so EPA recommends
+  homeowners hire lead-safe certified contractors for all RRP projects in pre-1978 homes."; "If you are
+  unable to determine the age of your home, it’s safest to assume the area you are renovating has
+  lead-based paint and use the DIY lead-safe work practices described below." (the whole sentence:
+  quote the DIY half with the assumption); "A disposable N-100 certified respirator".
+- **EPA, "Risk Management for Methylene Chloride"** (updated 6 March 2026): [V] "EPA is encouraging all
+  consumers to stop using methylene chloride products that they may have already purchased for paint
+  and coating removal."
+- **EPA, *A Brief Guide to Mold, Moisture and Your Home***: [V] "Do not paint or caulk moldy surfaces."
+- **Purdue NCR-133** (Rev 3/88): [V] "The most common cause of premature paint failure on wood is
+  moisture"; "Plumbing leaks, overflow of sinks, bathtubs or shower spray and improperly sealed
+  walls"; "If a new paint coat is to be successful over a problem area, any moisture problems must be
+  eliminated."; "acrylic latex"; "oil-base".
+- **Thames Water, "Blockages and blocked drains"**: [V] "Take chemicals, solvents, engine oil and paint
+  to your local refuse or recycling site".
+- **HSE, "Introduction to asbestos safety"**: [V] "Buildings constructed after 2000 are unlikely to
+  contain asbestos".
+- **HSE, "Asbestos: FAQs"** (Updated 2025-09-04), re-read by the fixer: [V] "If you are sure (or
+  strongly suspect) that your home contains asbestos materials then it is often best to leave them
+  where they are – especially if they are in good condition and unlikely to get damaged."; "You can
+  seek advice from an environmental health officer at your local authority/council."; the list
+  includes "textured decorative coatings (commonly referred to as Artex)". **No source read says
+  whether a textured coating that may contain asbestos can be painted over**; lesson 20 says so and
+  labels the question Call someone.
+- **BCF HS032 v2.2** (PDF, re-read whole): [V] "Remove paint if it is in a sound condition, especially
+  if the lead paint is not the top layer – overcoating is the safest option to prevent exposure" (a
+  DO NOT item); "Pre-1995" (in the DO line on testing).
