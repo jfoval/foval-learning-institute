@@ -343,7 +343,7 @@ rules, which this course didn't read, and it didn't research US anti-idling rule
 
 So there are three voices on idling here, and they line up. The Highway Code's MUST is the law: not
 unnecessarily. Its should says switch off after a couple of minutes. The Energy Saving Trust says
-after a minute. fueleconomy.gov says off whenever you're parked, except in traffic or in a line where you'd restart often. No source read
+after a minute. fueleconomy.gov says off whenever the car is sitting still, except in traffic or in a line where you'd restart often. No source read
 explains why one says a minute and another a couple of minutes, and there's no need to choose: all
 three point the same way. Leaving a car running to defrost on a cold morning comes back in lesson 15,
 "Winter and summer".
