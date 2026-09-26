@@ -1,6 +1,7 @@
 ---
 title: How the text reached us, and how reliable it is
 minutes: 140
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/09-text-and-reliability.mp3
 objectives:
   - Describe how a hand-copied text is reconstructed from many copies, and why age, geographical spread, and the harder reading each count as evidence
   - State what the Great Isaiah Scroll and the fourth-century Greek codices each showed, and what each did not show

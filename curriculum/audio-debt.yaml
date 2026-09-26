@@ -50,7 +50,6 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
-  bible-basics: 4
+  bible-basics: 3
   first-aid: 16
   personal-safety: 16
-  strength-and-fitness: 2

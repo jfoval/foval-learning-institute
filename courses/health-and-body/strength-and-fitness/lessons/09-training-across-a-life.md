@@ -1,6 +1,7 @@
 ---
 title: Training across a life
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/09-training-across-a-life.mp3
 objectives:
   - >-
     State what the evidence read shows about strength training for women, for older adults and for
