@@ -102,8 +102,8 @@ quiz:
 
 The same tap can hurt two ways. Set the heater at 140°F (60°C) and, on US figures, the water that
 comes out of it can give most adults a third-degree burn in six seconds; most people hurt that way
-are very young or very old. And a store of lukewarm water that sits unused can grow the bacteria
-behind Legionnaires' disease. The official advice on each is clear, and the two pull in opposite
+are very young or very old. And, on British guidance, stored water that isn't kept hot and moving
+can grow the bacteria behind Legionnaires' disease, a potentially fatal pneumonia. The official advice on each is clear, and the two pull in opposite
 directions. The US Consumer Product Safety Commission's scald sheet says nothing about legionella,
 and the legionella page from Great Britain's Health and Safety Executive says nothing about scalds, so a
 household that reads only one of them has heard about one hazard. This lesson gives you both, shows you how to measure
@@ -191,6 +191,10 @@ of its own gas water heaters and warns that turning past it "will increase the r
 injury".[3] If you change a setting you can reach without opening anything, do it by the
 heater's manual.
 
+CPSC's sheet doesn't rest on the thermostat alone. It says "Always hand-test before using,
+especially when bathing infants and young children", and that leaving a child unsupervised in the
+bathroom, even for a second, could cause serious injuries.[1]
+
 ## The legionella side
 
 This is general information, not legal advice.
@@ -216,8 +220,11 @@ water as it's drawn, as the Energy Saving Trust describes it, so there's no stor
 cool.[7]
 :::
 
-HSE's page is about a landlord's duties in Great Britain, and it is reassuring about homes. It says
-the risks in most homes are "generally considered to be low owing to regular water usage and
+HSE's page is about a landlord's duties in Great Britain. The duty it describes is to assess the
+risk from legionella to tenants, and it says that doesn't require "an in-depth, detailed
+assessment"; if a tenant catches Legionnaires' disease from the water system in their home, it
+says, the landlord "may be liable to prosecution under HSWA", the Health and Safety at Work Act.[2]
+It says the risks in most homes are "generally considered to be low owing to regular water usage and
 turnover", and, as the answer above showed, lower again with no stored water; and that testing for legionella "is not usually required for domestic hot and
 cold water systems".[2] Where a property stands empty, it says outlets should be used at least
 once a week to stop water standing.[2] HSE says nothing on this page about owner-occupiers, so for
@@ -227,10 +234,12 @@ them it's guidance by analogy, not a duty.
 
 One thing to know before you weigh them: the scald figures here are American (CPSC, a US federal
 agency) and the legionella guidance is British (HSE, for landlords in Great Britain). This course
-read no UK source on scald temperatures and no US source on legionella in homes, so it can't tell
-you how either country's authorities weigh the other hazard.
+read no UK source on scald temperatures in private homes and no US source on legionella in homes,
+so it can't tell you how either country's authorities weigh the other hazard in a home. The one UK
+source it read that weighs both is written for care settings, and comes at the end of this
+section.
 
-So "turn it down" answers CPSC's hazard and "turn it up" answers HSE's, and neither body's page
+So "turn it down" answers CPSC's hazard and "turn it up" answers HSE's, and neither of those two pages
 speaks to the other hazard. Turning a cylinder down lowers the scald risk and moves the stored water
 away from the 60°C that HSE names as a control; that's this course's reading of HSE's page, which
 gives no figure for how much the risk changes. Both hazards are established. Which way a household leans is a judgement about who lives there: a toddler or a very
@@ -241,9 +250,20 @@ One maker's manual mentions a device between the two. A. O. Smith, about its own
 "Valves for reducing the point-of-use temperature by mixing cold and hot water are available", and
 sends readers to "a licensed plumber or the local plumbing authority".[3] It offers them as a scald
 measure, alongside the lowest setting that meets the household's needs, and says nothing about
-legionella. This course read no source, in either country, on whether such a valve lets a household
-keep stored water hot for legionella and still deliver cooler water at the tap, so it can't tell you
-that. In the UK, it's a question to raise with an installer.
+legionella.
+
+HSE does weigh the two together, but not for homes. Its page on
+[scalding and burning](https://www.hse.gov.uk/healthservices/scalding-burning.htm) is written for
+health and social care settings in Great Britain, where the people using the water may be
+vulnerable, and it adds hostels and staffed or sheltered housing. It says scald precautions
+"should not introduce other risks, for example from legionella bacteria". Where stored water above
+60°C and distributed water above 50°C are being used to control legionella, it says baths and
+showers should be fitted with "thermostatic mixer valves (TMVs)" so the water doesn't go above 44°C;
+at basins, where there's no full body immersion, it calls the risk much lower.[8] That's HSE's
+guidance for care settings, and it says nothing about private homes. This course read no source, in
+either country, on whether a mixing valve lets a household keep stored water hot for legionella and
+still deliver cooler water at the tap, so it can't tell you that. In a home, it's a question to
+raise with a plumber or installer.
 
 ### A combi, and a man who lives alone
 
@@ -274,7 +294,7 @@ legionella, and says all man-made hot and cold water systems are likely to provi
 where it can grow.[2] Both are real. A. O. Smith, about its own heaters, describes mixing valves
 at the heater or at the taps as a way to cut scald risk, and sends people to a licensed plumber or
 the local plumbing authority.[3] It doesn't say they answer legionella, and this course read
-nothing that does. The lesson picks no temperature; the family weighs who is in the house.
+nothing that says so for a home. The lesson picks no temperature; the family weighs who is in the house.
 :::
 
 ## The tank's safety valve, and the tundish
@@ -421,3 +441,6 @@ water heater or boiler.
 7. Energy Saving Trust, ["Boilers"](https://energysavingtrust.org.uk/advice/boilers/), read from
    Internet Archive capture 20260919232017 (the live site refuses automated readers). **Read: full
    text.** <!-- SOURCES Part A §1 -->
+8. Health and Safety Executive, ["Scalding and burning"](https://www.hse.gov.uk/healthservices/scalding-burning.htm),
+   updated 14 November 2024. **Read: full text, 25 September 2026.** Guidance for health and social
+   care settings in Great Britain, not private homes. <!-- SOURCES Stage 4 note, lesson 08, second pass -->

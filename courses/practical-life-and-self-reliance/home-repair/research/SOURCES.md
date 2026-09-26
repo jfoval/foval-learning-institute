@@ -4231,3 +4231,27 @@ regulation 2 re-read live by the fixer.
 - **NFPA, Campbell 2022** (D37), page 2: [V] "Electrical failures or malfunctions were a factor
   contributing to the ignition of nearly four out of every five (80 percent)" of these fires. The
   report gives contributing factors, not who installed or last worked on the equipment.
+
+## Stage 4 note, lesson 08, second pass (2026-09-25)
+
+Read live on 2026-09-25 by the lesson 08 second-pass reviewer (curl, browser User-Agent, HTML
+stripped by script); each string below copied from that extract.
+
+**HSE, "Scalding and burning"** (https://www.hse.gov.uk/healthservices/scalding-burning.htm), page
+dated "Updated 2024-11-14". Read: full text. Linked from HSE's landlords page under "Related
+content". **Scope: health and social care settings in Great Britain, not private homes**; it says
+the CQC is the relevant regulator for CQC-registered providers in England. This closes G-W6's UK
+half for those settings only.
+- "The health and social care sector often provides care and services for individuals who may be vulnerable to risks from hot water or surfaces." [V]
+- "The risk of scalding or burning should also be assessed in community facilities such as hostels, or staffed and sheltered housing, where vulnerable people may be at risk." [V]
+- "Any precautions taken should not introduce other risks, for example from legionella bacteria." [V]
+- "Where vulnerable people are at risk from scalding during whole body immersion, water temperatures must not exceed 44°C." [V]
+- "Where storage and distribution temperatures are being used to control legionella (above 60ºC and 50ºC respectively), or high temperatures might otherwise be achieved, baths and showers should be fitted with thermostatic mixer valves (TMVs) to ensure water temperatures do not exceed 44ºC." [V] (HSE's page uses the ordinal sign º in this sentence and the degree sign ° in the one above)
+- "While the risk from basins is much lower, as there is no full body immersion, if someone is assessed as being vulnerable to the risk of scalding at basins, adequate controls on output temperature (such as TMVs) should be in place." [V]
+
+**HSE, "Legionella and landlords' responsibilities"**, re-read live, two further strings:
+- "The practical and proportionate application of health and safety law to landlords of domestic rental properties is that while there is a duty to assess the risk from exposure to legionella to ensure the safety of their tenants, this does not require an in-depth, detailed assessment." [V]
+- "However, if a tenant were to contract Legionnaires' disease from the water system in their home, the landlord may be liable to prosecution under HSWA." [V]
+
+**CPSC 5098**, re-read (PDF, sheet code "009611 032012"), its closing paragraph, in column order:
+- "Never take hot water temperature for granted. Always hand-test before using, especially when bathing infants and young children. Leaving a child unsupervised in the bathroom, even if only for a second, could cause serious injuries. Your presence at all times is the best defense against accidents and scalding to infants and young children." [V]

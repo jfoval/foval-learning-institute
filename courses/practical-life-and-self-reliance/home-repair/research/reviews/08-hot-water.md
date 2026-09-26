@@ -169,3 +169,149 @@ house.
 
 **Status after review:** clean. No emergency, gas or wiring fact was wrong, and the new material is
 the reviewer's own verified strings placed as the findings directed; no second full pass is needed.
+
+## Second pass and neutrality audit (2026-09-25)
+
+**Reviewer:** one fresh-context second-pass reviewer and neutrality auditor, under
+`.claude/commands/neutrality-audit.md`, standards Part 3 and this course's pipeline briefs. Re-read
+live with curl (browser User-Agent) plus pdftotext or an HTML strip on 2026-09-25: CPSC 5098 (sheet
+code "009611 032012"); HSE "Legionella and landlords' responsibilities"; A. O. Smith 326940-001
+(temperature regulation, mixing valves and Figure 8, T&P valve, discharge pipe requirements, closed
+systems and thermal expansion, T&P test, draining and flushing, troubleshooting); Vaillant "What is
+a tundish?"; ASHI "Plumbing System"; UGA Circular 1082. Also opened, to check a claim the lesson
+makes about HSE, HSE's "Scalding and burning" page (hse.gov.uk/healthservices/scalding-burning.htm),
+which the landlords page links under "Related content". Nothing from it was added to the lesson.
+
+**Perspectives checked against.**
+1. *Scald prevention (a parent; a carer of an older person).* The scald side is in CPSC's own words
+   ("urges all users to lower their water heaters to 120 degrees Fahrenheit"; the four exposure
+   times) and the worked example is an older man. Objections: (a) see N1; (b) CPSC's own
+   hand-test-and-supervise paragraph ("Always hand-test before using, especially when bathing infants
+   and young children") is not in the lesson, and it is the part of CPSC's sheet a parent would most
+   expect (N4).
+2. *Legionella control (a landlord following HSE).* HSE is quoted at length and fairly (every string
+   re-matched live); the 60°C is correctly scoped to stored water, with HSE's 50°C-outlet example
+   beside it. Objections: (a) the opening gave legionella a vaguer, milder sentence than scalds
+   ("lukewarm water that sits unused", no severity) while HSE says all man-made systems are likely
+   to provide an environment for growth and calls the disease potentially fatal (fixed, N2); (b) "it
+   is reassuring about homes" was a characterisation in the course's voice (fixed, N3); (c) the
+   lesson gives HSE's reassurances (low risk, no test usually needed, no test certificate) but not
+   the duty they sit under: the page says a landlord has "a duty to assess the risk from exposure to
+   legionella", though not an in-depth one, and may be prosecuted under HSWA if a tenant catches the
+   disease. That is the reassuring half of HSE's page without its obligation (N5).
+3. *A US reader.* The country split is stated plainly at the top of "Holding both" ("the scald
+   figures here are American ... the legionella guidance is British"; "read no UK source on scald
+   temperatures and no US source on legionella in homes"). HSE is labelled "a British regulator
+   writing for landlords" wherever a US household meets it (the West Virginia checkpoint), and the US
+   route for a mixing valve is A. O. Smith's "licensed plumber or the local plumbing authority". No
+   UK step is given to a US reader in anything that could be acted on in an emergency. No objection.
+
+**The five checks asked for.**
+- *Last word and verdicts:* neither side is called wrong or right. "Holding both" ends on "a
+  question to raise with an installer"; the checkpoint ends "the family weighs who is in the house";
+  the misconceptions pair "turn it down" and "turn it up" symmetrically. The third misconception
+  (testing) corrects a legionella-side over-reach, but in HSE's own words, so it is HSE correcting
+  itself, not the course siding. Passes.
+- *Own words:* both sides quoted from their own primaries; passes, subject to N4 and N5.
+- *Country split and what was not read:* stated plainly; passes. But see N1.
+- *Mixing valves:* the lesson says no more than A. O. Smith. Live: "Valves for reducing the
+  point-of-use temperature by mixing cold and hot water are available (see Figure 8)... Contact a
+  licensed plumber or the local plumbing authority", and "In addition to using lowest possible
+  temperature setting that satisfies demand of application, a mixing valve should be installed at
+  the water heater ... or at hot water taps". No legionella anywhere in the manual (its "sanitizing
+  needs" is about dishes and laundry). Passes.
+- *Chart:* four navy bars, no legend, neutral title, log scale stated, Celsius labelled as the
+  course's conversions, values match CPSC 5098. It charts only the scald side because no legionella
+  figure was read; the prose after it scopes HSE's 60°C to stored water. Passes.
+
+**First-pass fixes checked.** R1 to R25 each re-read against the lesson and the live primaries: all
+correctly applied. R12's discharge-pipe rule matches the manual ("Must terminate a maximum of 6”
+above a floor drain or external to the building"; the lesson omits the manual's cold-climate
+preference for an inside drain, acceptable for a look-only exercise). R13's closed-system wording
+matches the manual and adds no mechanism it doesn't give. "At least once a year" is the manual's
+maintenance-section recommendation (its installation section says the valve "must be manually
+operated at least once a year"; the lesson's softer wording is the manual's own, and teaches no
+operation). **No T&P test is taught** anywhere: no lever, no lifting, no operation in the body,
+exercise ("Don't touch or operate the valve"), checkpoints, quiz options or explanations. Conversions
+redone (150°F 65.6°C, 130°F 54.4°C, 120°F 48.9°C, 63°C 145.4°F, 6 in 15.2 cm, 10 F° 5.6 C°) and the
+×3, ×5, ×10 multipliers: correct. UGA's spring and fall ticks, ASHI's "a gallon or two ... every
+month", Vaillant's dripping-tundish line and CPSC's building-manager line (in its furnace paragraph)
+re-matched live. Lesson 1's "What this course leaves out" and First Aid lesson 10's title checked.
+
+**Quiz keys.** 1,2,1,3,0, checked by script against lessons 01 to 07 on disk (01 1,3,0,2,3,0; 02
+2,0,3,1,3; 03 3,1,0,1,2; 04 3,2,0,1,3,2; 05 0,2,3,2,0,1; 06 1,3,2,1,2,0; 07 3,0,3,2,1): all four
+positions, no adjacent repeat, not identical, no value shift, no shared run of four at offsets 0 or
+±1. Option-length spreads 9, 8, 11, 5, 7. Each explanation read against its key: correct.
+
+**Findings.**
+- N1 [major, neutrality, omitted fact] "the legionella page from Great Britain's Health and Safety
+  Executive says nothing about scalds" and "so it can't tell you how either country's authorities
+  weigh the other hazard" are true of what was read, but the landlords page links to HSE's own
+  "Scalding and burning" page, which weighs both for health and social care settings: it says
+  precautions against scalding "should not introduce other risks, for example from legionella
+  bacteria", and that where storage and distribution temperatures are used to control legionella
+  ("above 60ºC and 50ºC respectively") baths and showers should have thermostatic mixer valves so
+  water doesn't exceed 44ºC. That is the one official UK source that answers exactly the question the
+  lesson says it can't (for care settings, not homes), and a carer of an older person would insist
+  on it. It is G-W6's open UK half. Not a one-edit fix: it needs a gate closure in SOURCES (read the
+  page in full, record [V] strings and scope), then one labelled paragraph in "Holding both" (HSE,
+  for health and social care settings in Great Britain, not homes) and a softened "says nothing
+  about scalds" line. Left for the next pass.
+- N2 [minor, neutrality] Opening: "a store of lukewarm water that sits unused can grow the bacteria"
+  was unsourced ("lukewarm") and milder than the scald sentence beside it. **Fixed:** "And, on
+  British guidance, stored water that isn't kept hot and moving can grow the bacteria behind
+  Legionnaires' disease, a potentially fatal pneumonia." (HSE's "keep the hot water hot ... keep it
+  moving" and "a potentially fatal form of pneumonia", both [V].)
+- N3 [minor, loaded language] "and it is reassuring about homes" cut; the sentence now reads "HSE's
+  page is about a landlord's duties in Great Britain. It says the risks in most homes are ...".
+  **Fixed.**
+- N4 [minor, omitted fact] CPSC's hand-test and supervision paragraph is not given. Optional; the
+  string is not yet recorded [V] in SOURCES, so it needs a SOURCES line first.
+- N5 [major, neutrality, reassuring half] HSE's duty to assess the risk (not in depth), and its
+  prosecution line, are absent while its reassurances are all present. Needs HSE's [V] strings
+  added to SOURCES ("while there is a duty to assess the risk from exposure to legionella to ensure
+  the safety of their tenants, this does not require an in-depth, detailed assessment"), then one
+  sentence in "The legionella side", with the short law label already there.
+
+`npm run validate`: exit 0; no line names this file. `npm run minutes`: 3,666 words, 70 minutes,
+unchanged. `npm run quotes home-repair`: nothing for this lesson. SOURCES not edited.
+
+**Verdict: NEEDS ANOTHER PASS.** A targeted fix pass, not a full review: close G-W6's UK half on
+HSE's "Scalding and burning" page and add the HSE duty strings to SOURCES, then apply N1 and N5 (and
+N4 if wanted). Everything else, including every first-pass fix, the T&P and discharge-pipe teaching,
+the mixing-valve scope, the chart and the quiz keys, is sound.
+
+### Targeted fix (2026-09-25)
+
+Applied by the second-pass reviewer at the coordinator's request.
+
+- **SOURCES:** one dated section appended at the end, "Stage 4 note, lesson 08, second pass
+  (2026-09-25)": HSE "Scalding and burning" (updated 2024-11-14; full text; scope health and social
+  care settings, not homes) with six [V] strings, which closes G-W6's UK half for those settings only;
+  HSE landlords page, the duty-to-assess and prosecution strings [V]; CPSC 5098's hand-test and
+  supervise paragraph [V]. Nothing else in SOURCES touched.
+- **N1 fixed.** "Holding both" now says the course read no UK source on scald temperatures *in
+  private homes*, and it points ahead to the care-settings source. "Neither body's page" is now
+  "neither of those two pages". A new closing paragraph gives HSE's care-setting guidance, labelled
+  as written for health and social care settings in Great Britain (plus hostels and staffed or
+  sheltered housing) and as saying nothing about private homes. It quotes "should not introduce
+  other risks, for example from legionella bacteria" and "thermostatic mixer valves (TMVs)", gives
+  the 60°C/50°C/44°C figures as HSE's, and notes the lower basin risk. It keeps "can't tell you that"
+  for a home, and it ends on the neutral "a question to raise with a plumber or installer". The
+  West Virginia checkpoint now says "nothing that says so for a home". Sources entry 8 added.
+- **N5 fixed.** "The legionella side" now gives the duty to assess (not "an in-depth, detailed
+  assessment") and "may be liable to prosecution under HSWA", before HSE's low-risk lines, under the
+  section's existing short law label.
+- **N4 fixed.** The scald side ends with CPSC's "Always hand-test before using, especially when
+  bathing infants and young children" and its unsupervised-child line.
+- **Balance re-read** as the three perspectives. The scald side now has its supervision advice; the
+  legionella side has its duty; the care-settings paragraph belongs to neither side (it is HSE
+  weighing both) and is scoped away from homes. No verdict or preferred temperature is given in
+  the course's voice, and the US reader's route (A. O. Smith's plumber or plumbing authority) is
+  unchanged.
+- **Checks:** `npm run quotes home-repair` shows no miss for this lesson (the misses listed are all
+  in 09-gas.md, another session's). `npm run validate` exits 0. `npm run minutes` gives 3,979 words
+  and 70 minutes, measured equal to the stated value, so `minutes:` is unchanged. Quiz untouched,
+  keys 1,2,1,3,0.
+
+**Final verdict: CLEAN.**
