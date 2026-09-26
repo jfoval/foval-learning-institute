@@ -392,3 +392,21 @@ the key is never the sole longest.
 lesson 08.
 
 **Verdict: SETTLED.**
+
+## Podcast fact-check, 26 September 2026
+
+Fresh-context check of `podcast/08-saying-it-back.script.md` against the lesson and, where cited,
+the primaries (the Rogers and Farson 1987 excerpt PDF, Rogers 1957 reprint, TIP 35 chapter 3 and
+Exhibit 3.6, the VitalTalk, AHRQ, Samaritans and 988 pages, the Headlee transcript, and the Weger
+2010 abstract from an Internet Archive capture of the publisher's page).
+
+**One one-edit fix made in the lesson.** "for a lively or heated discussion they suggest a ground
+rule" misreported the excerpt, which says "a lively or controversial discussion". A controversial
+discussion need not be heated, and the exercise tells readers to stop if it gets heated. Now "lively
+or controversial".
+
+**Checked and holding:** every quotation string-matches its primary; Samaritans ("Repeating
+something back") and 988 ("repeating, paraphrasing or even summarizing") do count plain repeating,
+and 988 says nothing about inviting a correction; Weger's abstract gives 180 undergraduates,
+paraphrase "associated with the social attractiveness of the listener" and not with "feeling
+understood".

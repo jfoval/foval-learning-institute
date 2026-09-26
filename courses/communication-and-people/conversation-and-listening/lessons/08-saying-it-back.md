@@ -178,7 +178,7 @@ should test your understanding constantly, by "reflecting in your own words what
 to mean". Then: "His response to this will tell you whether
 or not he feels understood."[1]
 
-And for a lively or heated discussion they suggest a ground rule: "Before either participant in the
+And for a lively or controversial discussion they suggest a ground rule: "Before either participant in the
 discussion can make a point or express an opinion of his own, he must first restate aloud the
 previous point or position of the other person." The restatement has to be in your own words,
 because "merely parroting the words of another does not prove that one has understood but only that
