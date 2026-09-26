@@ -6501,7 +6501,10 @@ the `unread:` line.
   you are involved in any other medical emergency, you should contact the emergency services in the same
   way." [V] Rule 281: "You should slow down and be prepared to move safely into another lane or stop."
   [V] Rule 286's MUST list opens "If you are involved in a collision which causes damage or injury to any
-  other person, vehicle, animal or property, you MUST" [V]. None of Rules 275, 276, 280 (its "other roads"
+  other person, vehicle, animal or property, you MUST" [V]. Rule 275's list opens "Other places of
+  relative safety include" [V]. Rule 283 opens "If you are involved in an incident or collision or stop to
+  give assistance" [V]. Rule 284: "Vehicles carrying dangerous goods in packages will be marked with plain
+  orange reflective plates." [V] None of Rules 275, 276, 280 (its "other roads"
   line), 283 or 285 uses MUST: by the Introduction, their "should" and "DO NOT" are advisory wording.
 - **The Highway Code, Rule 116** (Rules 103 to 158, content API), re-read: as Part E §1 records it, and
   "Law RVLR reg 27" [V]. The regulation itself was not re-read; the lesson states the Code's rule and
@@ -6528,7 +6531,9 @@ the `unread:` line.
   match. The railroad-crossing heading is "Disabled Vehicles on Railroad Tracks" [V], and the first case
   opens "If your vehicle stalls or stops while blocking part of a train track with a train approaching
   and warning lights flashing:" [V]; the second "If you do not see a train approaching and warning lights
-  are not flashing:" [V]. The FSP line: "During commute times, the CHP FSP provides free emergency
+  are not flashing:" [V], and its steps, in full: "Exit your vehicle. Dial the number located on the
+  railroad crossing posts or metal control box near the tracks. Provide the crossing number (if posted).
+  Tell them a vehicle is on the tracks. Then call 911." [V] The FSP line: "During commute times, the CHP FSP provides free emergency
   roadside services in certain areas." [V]
 - **eCFR, 49 CFR 392.22** (versioner API, as of 2026-09-01), re-read in full: (a) "the driver of the
   stopped commercial motor vehicle shall immediately activate the vehicular hazard warning signal
