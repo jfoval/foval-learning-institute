@@ -447,3 +447,29 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   repaired**, and only the keeper arranges the repair.
 - **Quiz keys:** 23 2,3,0,1,3 (unchanged by the fix); quiz 1 replaced (child car seat) so it no longer
   repeats lesson 21's MOT-history item.
+
+## 2026-09-26 — Lesson 22 fix pass: notes for later lessons
+
+- **Federal tread: there is a federal 2/32 for cars, and it binds states, not drivers.** 49 CFR 570.9
+  sets "not less than two thirty-seconds of an inch" as a criterion for state inspection systems, and
+  570.3 says the part "does not in itself impose requirements on any person". Never "no federal tread
+  minimum for private cars" and never "federal tread rules cover only commercial vehicles"; say "the
+  only federal tread rule that binds a driver covers commercial vehicles". Lesson 8 and script 8 were
+  corrected the same day; the test and any later script follow.
+- **Texas removed a test and one offence, not the law on an unsafe car.** HB 3297 s.24 deleted
+  Transportation Code § 548.604(a)(2) ("in a mechanical condition that endangers a person ...") from
+  1 January 2025; § 547.004(a)(1) ("is unsafe so as to endanger a person") stands. Script 22 and the
+  test say both.
+- **Altoona (Blair County) tests emissions.** Lesson 22's no-emissions-county case is Clearfield now.
+  OUTLINE's lesson 22 line needs a correction marker (orchestrator).
+- **Virginia tests emissions in localities named in Code of Virginia § 46.2-1178**, five counties and
+  five cities in (C) and six more in (B), whose current application wasn't checked. Never "Virginia:
+  safety alone".
+- **GAO's police-officers line is "some literature and safety advocate organizations", not GAO's own
+  finding**, and the 6.8% is "present", not the cause, beside NASS-GES's 2 per cent.
+- **Lesson 11's New York airbag quotation** ("will be checked for proper operation. You will be
+  informed ...") no longer matches the NY DMV page (capture 20260926112204 reads "The inspection
+  station will check ... They will tell you ..."). Only its last sentence still matches. For lesson
+  11's next open; not edited here.
+- **Quiz keys:** 22 1,2,1,3,0 (unchanged by the fix); quiz 5 replaced (safety half against emissions
+  half on a New York inspection).

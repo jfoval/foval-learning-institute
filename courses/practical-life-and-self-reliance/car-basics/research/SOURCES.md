@@ -3118,7 +3118,7 @@ https://vsp.virginia.gov/wp-content/uploads/2026/05/Official-Motor-Vehicle-Safet
 Read: both web pages in full; the manual extracted in full with pdftotext, with 19VAC30-70-40 (fees) and 19VAC30-70-130 (tyres) read closely. The State Police Safety Division runs the programme.
 What it establishes:
 - The web page lists the 23-plus items of the "Required Official Inspection Procedure" [V]: brakes, parking brake, headlights, other lights, signals, steering and suspension, tyres wheels and rims, mirrors, horn, glass, wipers and defroster, exhaust, the rear plate lamp, the hood latch, fluid levels ("Brake fluid" and "Power steering fluid" [V]), the air pollution control system ("No parts removed, disconnected, or rendered inoperable." [V]), driver's seat, seat belts, airbag and its readiness light, doors, fuel system, floor pan.
-- Frequency, FAQ: vehicles "must be reinspected within twelve months of the month of the first inspection or purchase and at least once every twelve months thereafter and display a valid inspection decal." [V]
+- Frequency, FAQ: vehicles "must be reinspected within twelve months of the month of the first inspection or purchase and at least once every twelve months thereafter and display a valid inspection decal." [V] **[Corrected 2026-09-26, Stage 4, lesson 22: this sentence is the FAQ's answer about new vehicles bought in Virginia ("However, these vehicles" refers back to new vehicles inspected under a maker's or distributor's requirement), not a general rule. For frequency use 19VAC30-70-50 B, "ANNUAL PROGRAM". See "Gate closures, lesson 22/23" and "Stage 4 note, lesson 22".]**
 - Fee, manual 19VAC30-70-40 B: the maximum fees effective July 1, 2019 are "$20 for each inspection of any other vehicle, including trailers and motor homes." [V] ($12 for a motorcycle, $51 for heavy trucks and large buses.)
 - Tread, 19VAC30-70-130: reject a tyre with "a tread depth measuring less than 2/32 of an inch" [V], measured "in two adjacent tread grooves where tread is thinnest" [V], and "Do not take measurements from the tread wear indicators." [V] Also reject "a space saver emergency spare tire that is intended for temporary use" [V] fitted on any axle.
 Good for: US roadworthiness lesson; the airbag light as an inspection item.
@@ -8878,3 +8878,130 @@ Two more sources read the same day by the lesson 24 drafter, for the dealer-or-i
   Vehicle is dismantled, the Accredited Business will not compel you to agree to the completion of
   additional Work. The Accredited Business will always offer an option of re-assembly within the
   original price, where possible." [V]
+
+## Stage 4 note, lesson 22 (2026-09-26)
+
+Read by the lesson 22 fixer on 26 September 2026 with curl (a generic browser User-Agent, no personal
+data), pdftotext and a Python HTML stripper. Every quotation below is [V], copied from text extracted
+that day. Recorded here because lesson 22 now quotes or relies on them.
+
+- **Texas Legislature, HB 3297, enrolled version**, https://capitol.texas.gov/tlodocs/88R/billtext/html/HB03297F.htm,
+  read in full. Caption: "relating to the elimination of regular mandatory vehicle safety inspections
+  for noncommercial vehicles and the imposition of replacement fees" [V]. SECTION 24 amends
+  Transportation Code § 548.604(a), deleting subdivision (2), an offence to operate or move a vehicle
+  "in a mechanical condition that endangers a person, including the operator or an occupant, or
+  property" [V]. SECTION 29: "This Act takes effect January 1, 2025." [V]
+- **Texas Transportation Code § 548.604**, official site (statutes.capitol.texas.gov, TN.548.htm)
+  through Internet Archive capture 20250213061605 (Reviewer F's capture 20251217000406 returned the
+  Archive's script page to curl that day): "(a) A person commits an offense if the person operates or
+  moves a motor vehicle, trailer, semitrailer, pole trailer, or mobile home, or a combination of those
+  vehicles, that is equipped in violation of this chapter or a rule adopted under this chapter." [V],
+  with the note "Amended by: Acts 2023, 88th Leg., R.S., Ch. 851 (H.B. 3297 ), Sec. 24, eff. January
+  1, 2025." [V]
+- **Texas Transportation Code § 547.004**, official site (TN.547.htm) through Internet Archive capture
+  20251216230755, read in full: "(a) A person commits an offense that is a misdemeanor if the person
+  operates or moves or, as an owner, knowingly permits another to operate or move, a vehicle that: (1)
+  is unsafe so as to endanger a person; (2) is not equipped in a manner that complies with the vehicle
+  equipment standards and requirements established by this chapter; or (3) is equipped in a manner
+  prohibited by this chapter." [V] (c) lets a court dismiss the charge if the defect is remedied before
+  the first appearance and a fee of up to $10 is paid; (d) excludes commercial motor vehicles from (c).
+  Not amended by HB 3297 (history ends at 2021). The Texas statute behind DPS's "against the law" line
+  is now read, for this section.
+- **Texas House committee analysis, HB 3297** (HB03297H), re-read: after the reason sentence,
+  "Accordingly, H.B. 3297 seeks to address the elimination of regular mandatory vehicle safety
+  inspections for noncommercial vehicles." [V] The lesson now calls the quoted sentence the bill's
+  reason, not its purpose.
+- **Texas Senate Research Center analysis, HB 3297** (HB03297E), re-read: "These inspections do little
+  to improve road safety and serve only to generate revenue for the state." [V] (already recorded
+  whole in the lesson 22/23 closure; now quoted in part in the lesson).
+- **Texas DPS release, 3 January 2025**, re-read live: "Emissions tests are required in major
+  metropolitan areas, including Brazoria, Fort Bend, ..." [V]. The lesson quotes "Emissions tests are
+  required in major metropolitan areas".
+- **Pennsylvania DEP, Drive Clean PA, "Information for Drivers in 'Other Counties'"**,
+  http://www.drivecleanpa.state.pa.us/info_non.htm, read in full: "Vehicles registered in the 42
+  counties listed on the right are NOT required to pass an emissions inspection. However, most
+  passenger vehicles and light trucks weighing 11,000 pounds and less are required to pass a visual
+  anti-tampering check as part of a safety inspection." [V] The 42 listed: Adams, Armstrong, Bedford,
+  Bradford, Butler, Cameron, Carbon, Clarion, Clearfield, Clinton, Columbia, Crawford, Elk, Fayette,
+  Forest, Franklin, Fulton, Greene, Huntingdon, Indiana, Jefferson, Juniata, Lawrence, McKean, Mifflin,
+  Monroe, Montour, Northumberland, Perry, Pike, Potter, Schuylkill, Snyder, Somerset, Sullivan,
+  Susquehanna, Tioga, Union, Venango, Warren, Wayne, Wyoming. The "Northern Region" page (info_nr.htm)
+  lists "Counties: Blair Cambria Centre Erie Lackawanna Luzerne Lycoming Mercer" [V], so **Blair
+  County (Altoona) tests emissions**, and OUTLINE's lesson 22 line "a car in Altoona ... in a county
+  without emissions testing" is wrong; the lesson's case moved to Clearfield (Clearfield County, on the
+  42 list). Pennsylvania's emissions test rules (Pub 763, 67 Pa. Code ch. 177) were not read by the
+  fixer; the lesson says so and says nothing about them.
+- **Code of Virginia § 46.2-1178**, https://law.lis.virginia.gov/vacode/title46.2/chapter10/section46.2-1178/,
+  read in full live (page dated 9/26/2026). (A) applies the programme to vehicles "registered in the
+  Counties of Arlington, Fairfax, and Prince William, and the Cities of Alexandria, Fairfax, Falls
+  Church, Manassas, and Manassas Park" [V] and expires when (C) takes effect; (B) names "the Counties of
+  Chesterfield, Hanover, and Henrico and the Cities of Colonial Heights, Hopewell, and Richmond" [V],
+  with regulations not required before EPA approval (Reviewer F's reading did not mention (B); how (B)
+  is applied now was not checked); (C), the enhanced programme, "the Counties of Arlington, Fairfax,
+  Loudoun, Prince William, and Stafford and the Cities of Alexandria, Fairfax, Falls Church, Manassas,
+  and Manassas Park" [V]. The lesson says five counties and five cities in one subsection and six more
+  localities in another. Blacksburg is in Montgomery County (general knowledge, as with McLennan for
+  Waco), which no subsection names; the county's name is not printed in the lesson.
+- **Virginia manual, 19VAC30-70-50 B** (approved 17 March 2026), read in full: "Approval stickers and
+  decals shall be issued according to the following schedule: ANNUAL PROGRAM" [V]; "All issued annual
+  inspection stickers shall expire at the end of the last day of the month displayed on the sticker."
+  [V] (Corrects the frequency source; see the dated correction in Part D §1.)
+- **49 CFR Part 570, "Vehicle in Use Inspection Standards"** (eCFR versioner API, as in force on
+  2026-09-01), §§ 570.1 to 570.3 and 570.9 read in full. § 570.2: "The purpose of this part is to
+  establish criteria for the inspection of motor vehicles by State inspection systems, in order to
+  reduce death and injuries attributable to failure or inadequate performance of motor vehicle
+  systems." [V]; § 570.3: "This part does not in itself impose requirements on any person. It is
+  intended to be implemented by States through the highway safety program standards issued under the
+  Highway Safety Act (23 U.S.C. 402) with respect to inspection of motor vehicles with gross vehicle
+  weight rating of 10,000 pounds or less, except motorcycles or trailers." [V]; § 570.9(a): "The tread
+  on each tire shall be not less than two thirty-seconds of an inch deep." [V], and (a)(1) "Passenger
+  car tires have tread depth indicators that become exposed when tread depth is less than two
+  thirty-seconds of an inch." [V] This closes the gap recorded in the lesson 22/23 closure ("49 CFR
+  Part 570, not read by this course"). **Course-wide:** "no federal tread minimum for private cars" is
+  wrong as worded; the federal 2/32 for cars binds state inspection systems, not drivers. Lesson 8 and
+  its script were corrected the same day.
+- **New York DMV, "New York State Vehicle Safety/Emissions Inspection Program"**, capture
+  20260926112204, re-read: the renewal sentence in full, "You cannot renew a vehicle registration
+  unless the DMV has a computer record that the vehicle passed the required emissions inspection within
+  the last 12 months or you can provide proof of the inspection by providing a copy of the vehicle
+  inspection report." [V]
+- **California BAR, "Smog Check"**, re-read live: "Gasoline, hybrid, and alternative-fuel vehicles -
+  model year 1976 and newer" [V]; "Diesel vehicles - model year 1998 and newer" [V]; exempt: "eight
+  model years and newer ( for vehicle registration renewal only )" and "four model years and newer (
+  for change of ownership only )" [V, spacing as extracted]; "Instead, California law requires a smog
+  transfer fee." [V]; "Modified or non-approved software will cause a vehicle to fail a Smog Check." [V]
+- **GAO-15-705** (capture 20260109053421), passages now quoted or relied on, each string-matched:
+  "Since we last reported on vehicle safety inspections in 1990, five states and the District of
+  Columbia have dropped their programs, some citing a lack of evidence proving the program’s
+  effectiveness or saving financial resources as reasons." [V] (p. 16); "Specifically, the studies
+  examined crash rates in all 50 states and did not find statistically significant differences in
+  crash rates in states with inspection programs compared to those without." [V] (p. 9); "According to
+  our analysis of NHTSA’s NASS-GES crash data from 2009 through 2013, crashes with noted vehicle
+  component failure constituted around 2 percent of all crashes nationwide. We also found that the
+  three most common failures were related to 1) tires, 2) brakes, and 3) steering." [V] (p. 10); "Some
+  literature and safety advocate organizations we spoke with noted that police officers filling out
+  accident reports often do not have the time and resources to conduct a thorough vehicle check" [V]
+  (so that line is theirs as GAO reports it, not GAO's own finding); "While this study did not
+  identify vehicle component failure as necessarily the cause of the accident, vehicle component
+  failures were found to be present in 6.8% of crashes." [V]; "The results of the crash causation
+  survey suggest that the percentage of crashes related to vehicle component failure is higher than
+  the estimates produced by the NASS-GES" [V]; "Officials from 8 of the 15 states with vehicle safety
+  inspection programs we interviewed told us they do not track the cost of their vehicle inspection
+  program." [V] (p. 12); "officials in two states told us they either relaxed or eliminated some
+  non-safety related standards (such as using certain tools to check headlight aim) or exempted
+  newer-model vehicles from safety inspections as a compromise with state legislatures to continue
+  their programs." [V] (pp. 14 to 15); "Some states have taken action to address their challenges,
+  including implementing more stringent program rules" [V]; a second state "recently added
+  requirements that inspection station mechanics use fingerprint scanners for proper identification
+  before performing inspections" [V], which its footnote 21 limits to passenger vehicles that require
+  an emissions test (the lesson says "before some inspections").
+- **Places**, checked with `grep -rlw` outside car-basics/research on 26 September 2026: Clearfield
+  (lesson 22) unused. Altoona is no longer used by lesson 22; Blair is not named. Huntingdon was also
+  unused and was not taken.
+- **For the orchestrator:** the New York DMV programme page's airbag wording has changed (Reviewer F,
+  lesson 22 review, note N3). Capture 20260926112204, re-read by the fixer: "The inspection station
+  will check that your vehicle's Air Bag Warning Lamp is operating properly. They will tell you if the
+  vehicle's air bag warning lamp is on or is not working. This is an advisement only and not cause for
+  rejection." [V] Lesson 11's longer quotation ("Your vehicle's Air Bag Warning Lamp will be checked for
+  proper operation. You will be informed ...", from a June 2026 capture) no longer matches the current
+  page; only its last sentence does. Lesson 11 was not edited.

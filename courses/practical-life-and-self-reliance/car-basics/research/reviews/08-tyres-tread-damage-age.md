@@ -258,3 +258,18 @@ live on 26 September 2026: it is headed "Exemption from disqualification and end
 construction and use offences" and leaves the conviction and the fine, where the Act says "defence"
 when it means one (s.41B(2)). Line 216 now reads "the exemption is narrow for a driver". Nothing else
 in lesson 8 changed. `npm run validate`: exit 0. See `20-the-law-on-a-cars-condition.md`.
+
+## 2026-09-26 — Lesson 08 — one-line correction from lesson 22's Stage 4
+Lesson 22's Reviewer F (F4 and note N2) found lesson 8 saying "This course found no federal tread
+minimum for private cars. Federal tread rules apply to commercial vehicles". The lesson 22 fixer read
+49 CFR Part 570 on the eCFR (as in force on 1 September 2026): § 570.9(a) sets "not less than two
+thirty-seconds of an inch" and (a)(1) addresses "Passenger car tires", as criteria "for the
+inspection of motor vehicles by State inspection systems" (§ 570.2), and § 570.3 says the part "does
+not in itself impose requirements on any person". Lines 248 to 250 now read "This course found no
+federal tread minimum that binds a private car's driver: the federal 2/32 for cars is a standard for
+states that inspect (lesson 22). For driving a private car, tread law is set by states." The
+objective and the misconception ("the federal figures are for commercial vehicles") refer to 49 CFR
+393.75's figures and stay. Podcast script 8: John's line opening the US tread turn now says "The
+federal tread rules that bind a driver cover commercial vehicles"; its `checked:` entry records the
+change. Nothing else in lesson 8 changed; `minutes:` unchanged (measured 100). `npm run validate`:
+exit 0. See `22-us-inspections-emissions-tread.md`.

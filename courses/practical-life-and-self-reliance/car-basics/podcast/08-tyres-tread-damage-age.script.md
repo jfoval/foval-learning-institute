@@ -27,7 +27,7 @@ about: >-
   the chart and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note)."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note). 2026-09-26, lesson 22 Stage 4: John's line opening the US tread turn now says 'The federal tread rules that bind a driver cover commercial vehicles' (was 'Federal tread rules cover commercial vehicles'), because 49 CFR 570.9 sets 2/32 inch for passenger cars as a standard for state inspection systems, which binds states that inspect, not drivers; lesson 8 corrected the same day."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -44,7 +44,7 @@ S1: Yes, but read the words. Regulation twenty seven of the Construction and Use
 
 S2: And in the US?
 
-S1: Still general information. Federal tread rules cover commercial vehicles; for private cars, tread law is set by the states. The three the course read, Pennsylvania, New York and Virginia, all use two thirty-seconds of an inch at inspection. Same number, measured differently. Take an inspection in Lynchburg, Virginia. At a front tyre's thinnest spot, two neighbouring grooves read one thirty-second each. Virginia's manual has the inspector measure at two more points round the tyre, and there they read three thirty-seconds or more. Virginia rejects only if two neighbouring grooves are under two thirty-seconds at every point. So, on this course's reading, Virginia doesn't reject it on depth, and Pennsylvania, where one such point is enough, would.
+S1: Still general information. The federal tread rules that bind a driver cover commercial vehicles; for private cars, tread law is set by the states. The three the course read, Pennsylvania, New York and Virginia, all use two thirty-seconds of an inch at inspection. Same number, measured differently. Take an inspection in Lynchburg, Virginia. At a front tyre's thinnest spot, two neighbouring grooves read one thirty-second each. Virginia's manual has the inspector measure at two more points round the tyre, and there they read three thirty-seconds or more. Virginia rejects only if two neighbouring grooves are under two thirty-seconds at every point. So, on this course's reading, Virginia doesn't reject it on depth, and Pennsylvania, where one such point is enough, would.
 
 S2: One thirty-second gets through?
 

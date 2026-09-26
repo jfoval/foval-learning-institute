@@ -245,8 +245,9 @@ This is general information, not legal advice.
 
 The federal tread figures, 4/32 of an inch on the front tyres of a bus, truck or truck tractor and
 2/32 elsewhere, are in 49 CFR 393.75, which is part of the Federal Motor Carrier Safety Regulations
-and covers commercial motor vehicles.[11] This course found no federal tread minimum for private
-cars. Federal tread rules apply to commercial vehicles; for private cars, tread law is set by states.
+and covers commercial motor vehicles.[11] This course found no federal tread minimum that binds a
+private car's driver: the federal 2/32 for cars is a standard for states that inspect (lesson 22).
+For driving a private car, tread law is set by states.
 The three states read here all use 2/32 of an inch, which is about 1.6 mm (this course's arithmetic:
 2/32 × 25.4 = 1.59). The number nearly matches Great Britain's, and the way it's measured doesn't.
 

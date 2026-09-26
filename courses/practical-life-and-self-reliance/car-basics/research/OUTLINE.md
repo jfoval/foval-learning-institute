@@ -1865,7 +1865,7 @@ file (the project), so the project assembles itself.
 - **Worked examples:** (a) simple, law: a car in Blacksburg, Virginia, at its annual inspection: the fee
   cap, the tread measurement, the spare. (b) wrinkle, law: a car registered in Waco, Texas, moves to
   Schenectady, New York. Gap: the reader works out what New York requires on the new registration before
-  the answer. A third, briefly: a car in Altoona, Pennsylvania, in a county without emissions testing,
+  the answer. A third, briefly: a car in Altoona, Pennsylvania, in a county without emissions testing [corrected 2026-09-26: Blair County is an emissions county; the lesson uses Clearfield, on Drive Clean PA's no-test list],
   and the anti-tampering check.
 - **Misconceptions:** every state inspects cars (#26); the US minimum tread is 2/32 inch nationally;
   emissions testing and safety inspection are the same thing; no inspection means nobody cares what
@@ -1887,7 +1887,7 @@ file (the project), so the project assembles itself.
 - **Tier B, Reviewer F additionally:** re-reads each state page and statute live (PennDOT, Pub 45
   § 175.80, the NY DMV pages through fresh captures, Virginia's manual 19VAC30-70-40 and -130, Texas DPS,
   BAR's Smog Check page), GAO's findings, and 42 U.S.C. 7522(a)(3).
-- **Places:** Blacksburg, Virginia; Waco, Texas; Schenectady, New York; Altoona, Pennsylvania.
+- **Places:** Blacksburg, Virginia; Waco, Texas; Schenectady, New York; Clearfield, Pennsylvania (was Altoona; corrected 2026-09-26).
 - **Cut first if long:** New York's fines; the GAO appendix's history; EPA's 2018 figures.
 
 ### 23. Recalls: checking, what's free, and "stop drive" (~65 min)
