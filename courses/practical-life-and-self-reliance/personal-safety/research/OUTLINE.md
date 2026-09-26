@@ -1653,9 +1653,15 @@ pepper spray, the US spray statutes and the gun evidence; "Afterwards" is lesson
   country; a plan that relies on carrying pepper spray in Great Britain, or on carrying anything "for
   self-defence" in England and Wales; entering a home you think has an intruder in it; a physical
   technique written as an instruction; telling someone in an abusive relationship to leave, or
-  confronting their abuser, as an instruction; sharing or keeping a recording of someone without their
-  consent; a false report to police in any form; a sentence that puts the responsibility for a crime on
+  confronting their abuser, as an instruction; posting or sharing a recording of someone who was
+  harassed or hurt without their permission (lesson 9's second Document rule); a false report to
+  police in any form; a sentence that puts the responsibility for a crime on
   its victim; a legal conclusion stated as certain for a specific act.
+  *(Stage 4 note, lesson 16, 2026-09-25: the recording line read "sharing or keeping a recording of
+  someone without their consent", which failed the Document step that scenario D's model answer
+  endorses, since Right To Be's Document keeps a recording of the harasser, who has not consented.
+  It now follows lesson 9's second rule, which is about the person harmed. The project also gained a
+  pass rule, three levels per part, and a rule that a part skipped for safety counts as complete.)*
 
 ## Neutrality notes
 

@@ -3223,7 +3223,10 @@ full, 7,300 words). The key line for this course: "Carrying an offensive weapon 
 because of the possibility of a constant or enduring threat (even where genuine) does not amount to
 self-defence or a reasonable excuse. Exceptionally, it may be reasonable if the offender is in
 anticipation of an imminent and specific attack, such that the possession is closely connected in
-time and purpose to that immediate threat" (citing Evans v Hughes (1972)). [V] Also: "A 'lock-knife'
+time and purpose to that immediate threat, and the weapon is being carried for the offenders own
+personal defence" (citing Evans v Hughes (1972); "offenders" without an apostrophe as printed). [V]
+(Stage 4 note, lesson 15: first recorded stopping at "immediate threat", which dropped the second
+condition; the whole sentence is in "Gate closures, lesson 15".) Also: "A 'lock-knife'
 does not come into the category of 'folding pocketknife'". [V]
 
 **Scotland's equivalents** (legislation.gov.uk, read the sections): Criminal Law (Consolidation)
@@ -3367,6 +3370,14 @@ protect property.
   the actor reasonably believes the property "cannot be protected or recovered by any other means".
   [V] Contrast MPC §3.06 and England's CPS statement that "disproportionate force to protect
   property is still unlawful".
+- Stage 4 note, lesson 14 (2026-09-25): the bullet above trims §9.42. Its (2) has two limbs, (A)
+  imminent commission of the listed crimes and (B) "to prevent the other who is fleeing immediately
+  after committing burglary, robbery, aggravated robbery, or theft during the nighttime from
+  escaping with the property", and its (3) two alternatives, (A) "the land or property cannot be
+  protected or recovered by any other means" or (B) "the use of force other than deadly force to
+  protect or recover the land or property would expose the actor or another to a substantial risk
+  of death or serious bodily injury". (1) requires justification under §9.41. [V]
+  (tcss.legis.texas.gov PE.9.htm, 25 September 2026.) §9.42 whole is in "Gate closures, lesson 14".
 
 #### 4.5 National Conference of State Legislatures, "Self-Defense and 'Stand Your Ground'" (updated September 23, 2025; read in full)
 The best neutral overview: NCSL serves legislators of both parties.
@@ -3514,6 +3525,11 @@ records. Nobody has done this to both sides' satisfaction.
   likely to acquire guns, so association is not causation) appears in Kleck's work that I did not
   read; a drafter should read one Kleck critique (e.g. Kleck 2015 in *J. Crim. Justice*, cited by
   RAND) before writing this side, or leave it attributed to the NRC's more cautious framing.
+  (Stage 4 note, lesson 15: RAND's only Kleck 2015 is "The Impact of Gun Ownership Rates on Crime
+  Rates: A Methodological Review of the Evidence", *Journal of Criminal Justice* 43; by its title an
+  area-level review of ownership rates and crime rates, not a critique of the household studies
+  Anglemyer pooled, so it is probably not the G17 candidate. G17 stays open; lesson 15 names Kleck
+  among the critics and states no argument.)
 - **Scope advice:** this question belongs in the course only as far as a reader deciding whether to
   keep a weapon for protection needs it, and **suicide risk must be handled with the same crisis
   footer First Aid lesson 16 uses**. See §8.
@@ -3521,8 +3537,12 @@ records. Nobody has done this to both sides' satisfaction.
 #### 5.4 Pepper spray (legal fact, not contested)
 **UK:** prohibited weapon (s.5(1)(b)); not a choice open to a UK reader. Say so plainly and move on.
 **US:** legal to possess in every state as far as I read, but regulated. Three examples read:
-- **California Penal Code §22810**: no purchase or possession by a felon, anyone convicted of assault,
-  or a minor; no device "that contains more than 2.5 ounces net weight of aerosol spray"; and use
+- **California Penal Code §22810**: no purchase, possession or use by anyone convicted of a felony
+  or "any crime involving an assault" (or of misusing tear gas), anyone "addicted to any narcotic
+  drug", or a minor, **but** §22815(a) lets a minor "who has attained the age of 16 years" purchase
+  and possess one with a parent or guardian present or with written consent (Stage 4 note, lesson
+  15: first recorded as a flat bar on minors; §22815 and the §17240 definition of tear gas are in
+  "Gate closures, lesson 15"); no device "that contains more than 2.5 ounces net weight of aerosol spray"; and use
   "except in self-defense" is an offence. [V]
 - **New York Penal Law §265.20(a)(14) and (15)** (browser): possession exempt only "for the
   protection of a person or property and use ... under circumstances which would justify the use of
@@ -3619,9 +3639,17 @@ nature of the emergency and a description of the person; "Do not hang up until t
 instructs you to do so." [V] Text: "it is always best to call 911 if you can, and text if you
 can't", and "Data from 2021 indicate that more than half of PSAPs are enabled for text-to-911, with
 a lot of variation among states." [V] If a text cannot be delivered, "you should receive an immediate
-bounce-back message". [V] Non-emergency: 911.gov mentions "211/311/411" for general information and
-the "10-digit phone number for law enforcement" [V]; there is no single US non-emergency number, so
-the lesson should tell readers to look up and save their local police non-emergency number.
+bounce-back message". [V] Non-emergency: 911.gov gives no non-emergency number. *(Stage 4 note,
+lesson 16, 2026-09-25: this line used to gloss "211/311/411" as for general information and the
+"10-digit phone number for law enforcement" as for everything else. Neither is about non-emergency
+reporting. "211/311/411" appears only in the answer on emerging diseases: "If it is available in
+your area, call 211/311/411 for general information about how your community is addressing any
+emerging diseases." The 10-digit number appears only in the answer on help in another town: "The
+best option to obtain emergency assistance in a different state, county or city is to dial the
+10-digit phone number for law enforcement in the community where assistance is needed. Those numbers
+can be found on the local law enforcement agency’s websites." [V, browser, 2026-09-25].)* There is no
+single US non-emergency number, so the lesson should tell readers to look up and save their local
+police non-emergency number.
 
 #### 8.2 Rights if questioned after using force
 **England and Wales.** GOV.UK "Being arrested: your rights" (content API, updated 2025-01-23): in
@@ -5539,3 +5567,270 @@ programs." "You may be eligible for crime victim compensation benefits, includin
 medical services, mental health counseling, lost wages, and other costs incurred as a result of the
 crime." No state's own compensation rules were read (Texas, California and New York pages tried;
 not found or blocked), so a lesson says nothing about reporting conditions or deadlines in any state.
+
+## Gate closures, lesson 15 (2026-09-25)
+
+*From lesson 15's drafting and Stage 4 fix. The drafter read the primaries live on 25 September
+2026 (raw copies kept in that session's scratchpad); Reviewer F re-read each of them the same day
+(legislation.gov.uk data XML; leginfo.legislature.ca.gov; legislature.mi.gov; nysenate.gov in a
+browser, "REVISION (FROM 2026-08-28)"; the three JCLC papers from the Internet Archive captures
+20260831195132, 20260919163504 and 20240709092114, pdftotext; nap.edu 18319 chapter/3; PMC1447915;
+PubMed for Anglemyer and for Hemenway and Solnick; RAND, the Hotline, NRA-ILA and Giffords live);
+and the fixer re-read by curl, on the same day, the CPS guidance, California §§22810, 22815 and
+17240, MCL 750.224 and 750.224d, nap.edu chapter/3, Hemenway 1997 (capture 20260919163504), the
+Hotline, Giffords, America's 1st Freedom, GOV.UK's border-control guidance (content API) and the
+five support-line pages. RAND's page refused the fixer's curl (403); its strings below are from
+Reviewer F's copy of the same day. Every line in quotation marks is [V], spelling and punctuation
+as printed; curly quotes are the pages' own.*
+
+### Corrections (also noted in place)
+- **Part D §2.5:** the CPS fear sentence continues past "immediate threat" with a second condition
+  ("and the weapon is being carried for the offenders own personal defence"); it was recorded
+  trimmed.
+- **Part D §5.4:** California does not flatly bar minors: §22815(a) lets 16- and 17-year-olds buy
+  and possess tear gas with a parent or guardian present or with written consent. §22810(a) says
+  "any crime involving an assault", and also bars anyone convicted of misusing tear gas.
+- **Part D §5.3:** "Kleck 2015 in *J. Crim. Justice*, cited by RAND" is by its title an area-level
+  review, probably not the household-level critique gate G17 wants. G17 stays open.
+
+### England and Wales
+**CPS, "Knife and Other Weapons Offences"** (live; "Updated: 8 Apr 2025; 15 Apr 2025; 14 May 2025;
+23 Jul 2025; 28 May 2026"):
+- The third kind of offensive weapon: "Those not so made or adapted, but carried with the intention of causing injury to the person (either offensively or defensively)."
+- "It does not have to be carried with any offensive intent for the offence under s.139 to be made out."
+- "A butter knife, with no cutting edge and no point, is a bladed article within the meaning of s.139(2). A “lock-knife” does not come into the category of “folding pocketknife” excluded from the section because it is not immediately foldable at all times."
+- "The offence does not cover those who use a knife or a weapon instantaneously but those who have a knife or weapon with them (whether or not they then use it)."
+- "Having an offensive weapon or bladed article for use at work or employment does not automatically provide a reasonable excuse under the Criminal Justice Act 1988; the possession must be reasonable. Prosecutors may consider why other less dangerous tools were not used. There is a requirement for an immediate connection between the possession and work"
+- "the defendant bears a legal burden, on the balance of probabilities, of establishing a reasonable excuse"
+- The fear sentence whole: "Carrying an offensive weapon in public merely because of the possibility of a constant or enduring threat (even where genuine) does not amount to self-defence or a reasonable excuse. Exceptionally, it may be reasonable if the offender is in anticipation of an imminent and specific attack, such that the possession is closely connected in time and purpose to that immediate threat, and the weapon is being carried for the offenders own personal defence; see Evans v Hughes (1972) 56 Cr. App. R. 813." (The case name is on the unread line: a lesson says "a 1972 case".)
+- "Possession of dangerous knives This offence can be found in section 1(1A) Restriction of Offensive Weapons Act 1959 (“ROWA 1959”). It is committed when a person has with them a flick knife or a gravity knife." (A lesson attributes this to the CPS; the 1959 Act itself was not read.) The guidance's annex also lists the butterfly knife among weapons "offensive per se"; not used.
+**Prevention of Crime Act 1953 s.1(1)(b)** (live): on indictment, "imprisonment for a term not
+exceeding four years". **Criminal Justice Act 1988 s.139(6)(b)** (E+W version): "imprisonment for a
+term not exceeding four years".
+**Firearms Act 1968 s.5(1)** (live): "A person commits an offence if, without authority , he has in
+his possession, or purchases or acquires" (spacing as printed); extent "E+W+S".
+**GOV.UK, "Guns, knives, swords and other offensive weapons: UK border control"**
+(https://www.gov.uk/guidance/import-controls-on-offensive-weapons; public_updated_at 2025-02-27):
+"Firearms are lethal barrelled weapons and other weapons including:" and, in the list, "CS gas
+canisters, pepper sprays and other self defence sprays". The same list names stun guns; a lesson
+still does not mention them (gate G14).
+
+### Scotland
+**Criminal Law (Consolidation) (Scotland) Act 1995** (live):
+- s.47(1A): "It is a defence for a person charged with an offence under subsection (1) to show that the person had a reasonable excuse or lawful authority for having the weapon with the person in the public place."
+- s.47(4): "offensive weapon" means any article "made or adapted for use for causing injury to a person, or intended, by the person having the article, for use for causing injury to a person by" the person having it or some other person.
+- s.49(3): "This section does not apply to a folding pocketknife if the cutting edge of its blade does not exceed three inches (7.62 centimetres)."
+- s.49(5): a defence to show that he had the article with him "for use at work; for religious reasons; or as part of any national costume" (list letters a to c omitted here).
+- Maxima on indictment: 5 years (ss.47(1)(b), 49(1)(b)).
+
+### United States
+**California Penal Code** (leginfo, live):
+- §22810: "any person may purchase, possess, or use tear gas or any tear gas weapon for the projection or release of tear gas if the tear gas or tear gas weapon is used solely for self-defense purposes"; "(a) No person convicted of a felony or any crime involving an assault"; "(b) No person addicted to any narcotic drug shall purchase, possess, or use tear gas or any tear gas weapon."; "(d) No minor shall purchase, possess, or use tear gas or any tear gas weapon."; "contains more than 2.5 ounces net weight of aerosol spray"; "(g) (1) Except as provided in paragraph (2), any person who uses tear gas or any tear gas weapon except in self-defense is guilty of a public offense". The label text in (e)(2) contains a spaced em dash: never quote it.
+- §22815(a): "Notwithstanding subdivision (d) of Section 22810, a minor who has attained the age of 16 years may purchase and possess tear gas or a tear gas weapon pursuant to this division if the minor is accompanied by a parent or guardian, or has the written consent of a parent or guardian."
+- §17240(a): "As used in this part, “tear gas” applies to and includes any liquid, gaseous or solid substance intended to produce temporary physical discomfort or permanent injury through being vaporized or otherwise dispersed in the air."
+**Michigan** (legislature.mi.gov, live):
+- MCL 750.224(1): "A person shall not manufacture, sell, offer for sale, or possess any of the following:" and (e) "A device, weapon, cartridge, container, or contrivance designed to render a person temporarily or permanently disabled by the ejection, release, or emission of a gas or other substance." (2): a violation is a felony. (3): "Subsection (1) does not apply to any of the following:" and (a) "A self-defense spray or foam device as defined in section 224d."
+- MCL 750.224d(1): "As used in this section and section 224, "self-defense spray or foam device" means a device to which all of the following apply:" (device limits not recorded here on purpose). (2): "a person who uses a self-defense spray or foam device to eject, release, or emit orthochlorobenzalmalononitrile or oleoresin capsicum at another person is guilty of a misdemeanor". (5)(b): "The reasonable use of either of the following by a person in the protection of a person or property under circumstances that would justify the person's use of physical force".
+**New York Penal Law §265.20(a)(14)** (Reviewer F, browser, revision from 2026-08-28): "(b) The
+exemption under this paragraph shall not apply to a person who: (i) is less than eighteen years of
+age; or (ii) has been previously convicted in this state of a felony or any assault"; label text
+"This device shall not be sold by anyone other than a licensed or authorized dealer." §35.15(1):
+"what he or she reasonably believes to be the use or imminent use of unlawful physical force by
+such other person".
+
+### Defensive gun use and the home
+**IOM/NRC 2013** (nap.edu 18319, chapter/3, which holds the report body):
+- "requested that the Institute of Medicine (IOM), in collaboration with the National Research Council (NRC)"
+- "Almost all national survey estimates indicate that defensive gun uses by victims are at least as common as offensive uses by criminals, with estimates of annual uses ranging from about 500,000 to more than 3 million"
+- "On the other hand, some scholars point to a radically lower estimate of only 108,000 annual defensive uses based on the National Crime Victimization Survey"
+- "The variation in these numbers remains a controversy in the field."
+- "The estimate of 3 million defensive uses per year is based on an extrapolation from a small number of responses taken from more than 19 national surveys."
+- "Another body of research estimated annual gun use for self-defense to be much higher, up to 2.5 million incidents, suggesting that self-defense can be an important crime deterrent"
+- "Some studies on the association between self-defensive gun use and injury or loss to the victim have found less loss and injury when a firearm is used"
+- "Effectiveness of defensive tactics, however, is likely to vary across types of victims, types of offenders, and circumstances of the crime, so further research is needed both to explore these contingencies and to confirm or discount earlier findings."
+- "Although some early studies were published that relate to this issue, they were not conclusive, and this is a sufficiently important question that it merits additional, careful exploration."
+- The report's own citations in these sentences include authors on the unread line; a lesson names none of them.
+**RAND, "How Gun Policies Affect Defensive Gun Use"** ("Updated January 29, 2026"): "Differences in
+the definitions of defensive gun use and in the manner of collecting information about it lead to
+wide differences in estimates of the annual incidence of defensive gun use."
+**Kleck and Gertz 1995** (capture 20260831195132): "Completed interviews, n=4,977."; "the anonymous
+random digit dialed telephone survey"; "only 24% claim to have fired their gun".
+**Hemenway 1997** (capture 20260919163504), beyond Part D §5.2:
+- "The first is the likelihood of positive social desirability response, sometimes referred to as personal presentation bias. An individual who purchases a gun for self-defense and then uses it successfully to ward off a criminal is displaying the wisdom of his precautions and his capability in protecting himself, his loved ones, and his property."
+- "Incorrect classifications come from a wide variety of causes including misunderstanding, miscoding, misremembering, misinterpretation of events"
+- The burglary check's figures: "If we use their 2.5 million estimate, we would conclude that, in 1992, a gun was used by defenders for self-defense in approximately 845,000 burglaries. However, from the NCVS, we know that there were fewer than 6 million burglaries in 1992." "Only 22% of the time was someone certainly at home (1.3 million burglaries)." "Since fewer than half of U.S. households have a firearm of any kind and since the victims in two-thirds of occupied dwelling were asleep, the K-G result asks us to believe" (the sentence continues as Part D §5.2 records).
+**Hemenway and Solnick 2015** (PubMed 25910555, abstract): "In property crimes, 55.9% of victims who
+took protective action lost property, 38.5 of SDGU victims lost property, and 34.9% of victims who
+used a weapon other than a gun lost property." (sic, no % after 38.5; lesson 15 does not use this
+sentence); the conclusion whole: "Compared to other protective actions, the National Crime
+Victimization Surveys provide little evidence that SDGU is uniquely beneficial in reducing the
+likelihood of injury or property loss."
+**Anglemyer 2014** (PubMed 24592495, abstract): "Heterogeneous populations of varying risks were
+synthesized to estimate pooled odds of death."
+**Campbell 2003** (PMC1447915): "victims' risk of being killed by their intimate partner was lower
+when they lived apart from the abuser and had sole access to a firearm (adjusted OR = 0.22)";
+"access to guns (adjusted OR = 5.44; 95% CI = 2.89, 10.22), although substantially reduced, remained
+strong"; "Abuser's use of a gun in the worst incident of abuse was associated with a 41-fold
+increase in risk of femicide after control for other risk factors, this effect apparently mediating
+the effects of abuser’s access to a gun, which was no longer significant."; Table 3 row "Victim
+sole access to gun 0.22* NS NS NS NS NS".
+
+### Positions (advocacy pages, cited for their positions only)
+**National Domestic Violence Hotline, "Safety Planning Around Guns and Firearms"**: "These increased
+risks are some of the reasons we do not advocate for survivors of domestic violence to purchase a
+gun."; "We at The Hotline know that you are the expert in your situation". (The same paragraph's
+"500 percent" figure is not used.)
+**Giffords Law Center, "Gun Violence Statistics"**: "Access to a gun triples a person’s risk of
+suicide." (its source not read).
+**Gate G16 closed.** *America's 1st Freedom* ("An Official Journal Of The NRA"), Susanne Edward,
+"Self-Defense: A Women’s Movement", posted April 27, 2021
+(https://www.americas1stfreedom.org/articles/2021/4/27/self-defense-a-women-s-movement), read in
+full. The domestic-abuse-specific statement is Allyson Hottinger's, described as an
+"Arkansas-based domestic violence survivor and advocate":
+- "who urges fellow survivors to get their concealed-carry permit if comfortable, and then to continuously train so they can be prepared for the worst."
+- "For me, making the decision to carry a gun wasn’t because I had in mind to kill my abuser, but it was because I had made the decision that if it came down to him or me, I was no longer going to be a victim of his abuse."
+- "I am a huge advocate for gun rights. It might not be an option for everyone, but for the majority of survivors, it is," (the sentence ends there, with "she said").
+The article also recounts a survivor's shooting of her abuser, trainers' advice ("Find a class ...
+then practice") and sales and permit figures from other sources. A lesson uses none of those
+(decision 10), and does not quote the training clause.
+
+### Support lines (content note)
+Re-read by the fixer: Victim Support `/help-and-support/get-help/` ("Call our Supportline free on 08
+08 16 89 111 , 24/7") and `/about-us/` ("regardless of whether they have reported the crime to the
+police or when it occurred", after a spaced em dash on the page); Victim Support Scotland home
+(0800 160 1985; "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun",
+spaced en dashes on the page: paraphrase the hours); Victim Support NI home ("We offer a free and
+confidential service, whether or not the crime has been reported, regardless of how long ago the
+crime took place.") and `/about-us/contact-us/` (Belfast 02890 243133, Foyle 02871 370086, "Opening
+hours: Monday – Friday from 9am-5pm"); VictimConnect home and `/get-help/` ("VictimConnect can be
+reached via phone and text at 855-4-VICTIM or via online chat 24/7."; "Call or Text
+855-484-2846"; "We can only talk, text, or chat with you if you are currently physically safe.").
+
+## Stage 4 note, lesson 16 "Afterwards": verified strings (2026-09-25)
+
+*Continues "Gate closures, lesson 16 "Afterwards"" above. Read on 2026-09-25 by lesson 16's Reviewer
+F (GOV.UK through the content API; the others with curl and a browser User-Agent; 911.gov and the
+Constitution Annotated in the in-app browser). The fixer re-fetched the IOPC page and guide, the
+CPS/NPCC leaflet and nidirect by curl the same day and string-matched the lines marked (fixer).
+Every line in quotation marks is [V], spelling, apostrophes and punctuation as the page has them.*
+
+- **CPS/NPCC, *Householders and the use of force against intruders*, "Revised 2018"** (fixer), one
+  paragraph: "We hope that everyone understands that the police have a duty to investigate incidents involving a death or injury." "In some cases, for instance where the facts are very clear, or where less serious injuries are involved, the investigation will be concluded very quickly, without any need for arrest." "In more complicated cases, such as where a death or serious injury occurs, more detailed enquiries will be necessary." "The police may need to conduct a forensic examination and/or obtain your account of events." A lesson that quotes the duty or the forensic line gives the clear-case line with it.
+- **911.gov FAQ** (browser): "If it is available in your area, call 211/311/411 for general information about how your community is addressing any emerging diseases." "The best option to obtain emergency assistance in a different state, county or city is to dial the 10-digit phone number for law enforcement in the community where assistance is needed. Those numbers can be found on the local law enforcement agency’s websites." (See the Stage 4 note in Part D §8.1.)
+- **IOPC Silent Solution page** (fixer): "Respond by coughing or tapping your device, if you can" and "If prompted, press 55 to let the operator know it's a genuine emergency and you'll be put through to police". **Guide** (fixer): "It is always best to speak to the operator if you can, even by whispering." "You may also be asked to cough or tap the keys on your phone in response to questions." "If you press 55, they will be notified and transfer the call to the police. If you don’t press 55, the call will be terminated." Coughing or tapping answers the operator's questions; only 55 keeps a silent mobile call.
+- **GOV.UK, "Being arrested: your rights":** "The police must explain this to you by reading you the police caution". The page does not say the caution is read "before" questioning.
+- **GOV.UK, "Claim compensation if you were the victim of a violent crime":** "If you’re eligible , you could get an injury payment of between £1,000 and £250,000 ." (spacing as the API gives it) "The maximum total compensation award is £500,000." "You might also be able to claim compensation if you were taking a ‘justified and exceptional’ risk trying to stop a crime." (curly single quotes on the page; lessons print straight ones).
+- **GOV.UK, "Contact the police":** the Scotland line links "find and contact your local policing team" to https://www.scotland.police.uk/your-community/ (the postcode search is on Police Scotland's site).
+- **nidirect, "Claiming compensation for criminal injuries"** (fixer): "Applications may still be accepted after two years if, in your particular case, it wasn’t reasonable to expect an application to be made within this time." "Once the police report is received, a caseworker will look at your claim and decide whether further information is needed". "Compensation Services can decide to reduce or completely refuse your compensation for the following reasons:" The page never says a report is required; never write that the scheme "runs on" or "requires" one.
+- **Victim Support, /help-and-support/:** "Because we’re an independent charity, you can talk to us whether or not you’ve reported the crime to the police. If you want, we can support you without the involvement of the criminal justice system, and we won’t contact them about you unless we feel someone is at risk." **/about-us/:** "…regardless of whether they have reported the crime to the police or when it occurred." **Supportline:** "We’re independent of the police and anyone can contact us for support, regardless of whether the crime has been reported or how long ago it took place."
+- **Victim Support Scotland, /get-support/:** "Victim Support Scotland is here to help anyone affected by crime." (The "non-judgmental and confidential support" line is on the home page.)
+- **Victim Support NI:** the quoted "We offer a free and confidential service…" line is on the home page, not the contact page.
+- **Rape Crisis NI home:** "support service for anyone aged 16 and over who has been raped, sexually assaulted or sexually abused"; "0800 0246 991 Information & Support Line Monday to Thursday, 6pm – 8pm" (spaced en dash on the page; the page gives two sets of hours, so lessons say "check its page for hours").
+- **Pease 1998, section 2:** "that a major reason for repetition is that offenders take later advantage of opportunities which the first offence throws up". Keep "a major reason"; it is not "his reason".
+- **Constitution Annotated, Amdt5.4.7.3** (browser): both lesson 16 quotations unchanged. The sentence with "exceptions" continues "and referred to the warnings as prophylactic and not themselves rights protected by the Constitution" (not used; recorded so no later script trims it into a claim).
+- Re-confirmed unchanged: every other string in "Gate closures, lesson 16 "Afterwards"".
+
+## Gate closures, lesson 14 (2026-09-25)
+
+Lesson 14, "The home and property". The drafter re-read every primary below on 25 September 2026
+and used passages SOURCES did not yet record; Reviewer F re-fetched each primary the same day
+(copies in the session scratchpad, `ps-l14home/` and `ps-rev14F/`) and string-matched every line
+here. [V] throughout unless marked.
+
+### Corrections (also noted in place)
+- **Part D §4.4, Texas §9.42:** the entry gave only one limb of (2) and one alternative of (3). Stage
+  4 note added in place; §9.42 whole is below.
+
+### England and Wales
+**CJIA 2008 s.76** (legislation.gov.uk, live, "up to date with all changes known to be in force on or
+before 25 September 2026"; heading extent "E+W+N.I.")
+- (2)(aa): "the common law defence of defence of property; and"
+- (8A)(a): "the defence concerned is the common law defence of self-defence,"
+- (8A)(b): "the force concerned is force used by D while in or partly in a building, or part of a building, that is a dwelling or is forces accommodation (or is both),"
+- (8A)(c) "is not a trespasser"; (8A)(d) "believed V to be in, or entering, the building or part as a trespasser"
+- (8B): "Where— (a) a part of a building is a dwelling where D dwells, (b) another part of the building is a place of work for D or another person who dwells in the first part, and (c) that other part is internally accessible from the first part, that other part, and any internal means of access between the two parts, are each treated for the purposes of subsection (8A) as a part of a building that is a dwelling." (the statute's own dash, quoted as printed; never reproduce it in a lesson)
+- (8D): "Subsections (4) and (5) apply for the purposes of subsection (8A)(d) as they apply for the purposes of subsection (3)."
+- (8E): "The fact that a person derives title from a trespasser, or has the permission of a trespasser, does not prevent the person from being a trespasser for the purposes of subsection (8A)."
+- (8F): "building" "includes a vehicle or vessel", and "forces accommodation" "means service living accommodation for the purposes of Part 3 of the Armed Forces Act 2006"
+- (9): "This section , except so far as making different provision for householder cases, is intended to clarify the operation of the existing defences mentioned in subsection (2)."
+- Notes: F3 "S. 76(5A) inserted (E.W. or in so far as this provision applies in relation to service offences) (25.4.2013) by Crime and Courts Act 2013 (c. 22)"; F7 the same for (8A) to (8F); F2 "S. 76(2)(aa) inserted (E.W. or in so far as this provision applies in relation to service offences) (14.5.2013) by Legal Aid, Sentencing and Punishment of Offenders Act 2012"
+
+**CPS, "Self-Defence and the Prevention of Crime"** (capture 20240723174716; live URL HTTP 404 on
+25 September 2026; "Updated 30 September 2019 and 09 September 2022")
+- "Section 76(5A) allows householders to use disproportionate force when defending themselves against intruders into the home. The provision came into force on 25 April 2013 and applies to cases where the alleged force was used after that date. The provision does not apply retrospectively."
+- "The court also found that section 76(5A) is compatible with the state's obligation under Article 2 of the ECHR to protect the right to life." (the 2016 Administrative Court case, *Collins*, [2016] EWHC 33 (Admin); lesson 14 does not name it)
+- *Ray*, as summarised: "The effect of s.76 (5A) was narrow. The appellant's contention that provided the degree of force was not grossly disproportionate then it was necessarily reasonable could not stand."
+- "The effect of section 76(5A) was that the jury had to first determine whether the force was grossly disproportionate. If it was, the degree of force was not reasonable and the defence of self-defence was not made out."
+- "If the force was not grossly disproportionate, then section 76(5A) required the jury to consider whether it was reasonable taking into account all the circumstances of the case as the defendant believed them to be."
+- "It would often be helpful, for that purpose, for the judge to spell out the kind of circumstances which the jury should consider in determining whether the degree of force used by a householder was reasonable. These might, for example, include the shock of coming upon an intruder, the time of day, the presence of other help, the desire to protect the home and its occupants, the vulnerability of the occupants, particularly children, or the picking up of an object (such as a knife or stick that would lawfully be to hand in the home), the conduct of the intruder at the time (or on any relevant previous occasion if known to the defendant)."
+- (8A)(a): "They cannot seek to rely on the defence if they were acting for another purpose, such as protecting their property, although the law on the use of reasonable force will continue to apply in these circumstances."
+- (8A)(b): "For these purposes, the definition of a 'building' includes vehicles or vessels (see (8F)), so that people who live in caravans or houseboats can benefit from the heightened protection."; "The term 'in or partly in a building' is used to protect householders who might be confronted by an intruder on the threshold of their home, climbing in through a window perhaps."; "cannot rely on the heightened defence if the confrontation occurred wholly outside the building, for example in the garden"; "The Government considered that the immediacy of the threat posed by an intruder is greatest when he is entering or has entered somebody's home and the heightened defence is only available to householders in those cases (see MOJ Circular No. 2013/ 02)."
+- (8A)(c): "Squatters, for example, could not seek to rely on the heightened defence."
+- (8B): "The defence would not, however, extend to customers or acquaintances of the shop keeper who were in the shop when the intruder entered, unless they were also residents in the dwelling."
+- **Criminal Damage Act 1971, not read.** The capture's introduction says "Defence of property however, is governed by the Criminal Damage Act 1971." The Act was not read. Lesson 14 cites s.76(2)(aa) ("the common law defence of defence of property") for force used against a person to protect property, and does not mention the 1971 Act; a lesson that needs damage to property as a lawful excuse must read it first.
+
+**CPS/NPCC, *Householders and the use of force against intruders*** ("Revised 2018"; `pdfinfo` 3
+pages, not two; page 3 carries the investigation section)
+- Under the heading "What amounts to disproportionate force? I've heard I can use that.": "The force you use must always be reasonable in the circumstances as you believe them to be."; "it might still be reasonable in the circumstances for you to use a degree of force that is subsequently considered to be disproportionate" (introduced by "Where you are defending yourself or others from intruders in your home", and followed by "perhaps if you are acting in extreme circumstances in the heat of the moment"); "The law will give you the benefit of the doubt in these circumstances."
+- "having knocked someone unconscious, you then decided to further hurt or kill them to punish them; or" (the first of the two prosecutable cases; the trap case is already [V])
+
+**GOV.UK, "Using reasonable force against intruders"** (content API; public_updated_at
+2018-04-09T14:17:12+01:00)
+- links.organisations: "Home Office", "Ministry of Justice"
+- The body links "guidance from the Crown Prosecution Service" to
+  cps.gov.uk/publication/householders-and-use-force-against-intruders (HTTP 404 on 25 September
+  2026), not to the leaflet PDF. The page names no nation.
+
+### Scotland
+**Jury Manual, 3 September 2024.** The self-defence chapter, searched for "householder", "dwelling",
+"own home" and "intruder", has no rule for householders; hits elsewhere in the manual are other
+offences. "There must be no cruel excess of violence in the accused's retaliation." Para 2's footnote
+466 cites "Macdonald, Criminal Law, p 107."
+
+### United States
+**Model Penal Code** (ALI *Official Draft and Explanatory Notes*, 1985, legal-tools.org/doc/08d77d)
+- §3.04(2)(b)(ii)(A) in full: "the actor is not obliged to retreat from his dwelling or place of work, unless he was the initial aggressor or is assailed in his place of work by another person whose place of work the actor knows it to be"
+- §3.06(1)(a): "to prevent or terminate an unlawful entry or other trespass upon land or a trespass against or the unlawful carrying away of tangible, movable property, provided that such land or movable property is, or is believed by the actor to be, in his possession or in the possession of another person for whose protection he acts; or"
+- §3.06(1)(b) (opening): "to effect an entry or re-entry upon land or to retake tangible movable property, provided that the actor believes that he or the person by whose authority he acts or a person from whom he or such other person derives title was unlawfully dispossessed of such land or movable property and is entitled to possession, and provided, further, that: (i) the force is used immediately or on fresh pursuit after such dispossession; or"; (ii) "the actor believes that the person against whom he uses force has no claim of right to the possession of the property and, in the case of land, ..." (the urgency condition that follows is for land only)
+- §3.06(3)(a): "Request to Desist. The use of force is justifiable under this Section only if the actor first requests the person against whom such force is used to desist from his interference with the property, unless the actor believes that: (i) such request would be useless; or (ii) it would be dangerous to himself or another person to make the request; or (iii) substantial harm will be done to the physical condition of the property that is sought to be protected before the request can effectively be made." (the PDF's text layer reads "will 1L2"done", an OCR slip for "will be done")
+- §3.06(3)(d): "Use of Deadly Force. The use of deadly force is not justifiable under this Section unless the actor believes that: (i) the person against whom the force is used is attempting to dispossess him of his dwelling otherwise than under a claim of right to its possession; or (ii) the person against whom the force is used is attempting to commit or consummate arson, burglary, robbery or other felonious theft or property destruction and either: (A) has employed or threatened deadly force against or in the presence of the actor; or (B) the use of force other than deadly force to prevent the commission or the consummation of the crime would expose the actor or another in his presence to substantial danger of serious bodily injury."
+- §3.06(5)(a): "the device is not designed to cause or known to create a substantial risk of causing death or serious bodily injury"
+- §3.11(3): ""dwelling" means any building or structure, though movable or temporary, or a portion thereof, that is for the time being the actor's home or place of lodging."
+
+**New York Penal Law** (nysenate.gov, read in an in-app browser; curl returns 403)
+- §35.15 (revision 2024-09-06), (2)(c): "He or she reasonably believes that such other person is committing or attempting to commit a burglary, and the circumstances are such that the use of deadly physical force is authorized by subdivision three of section 35.20."
+- §35.20 (revision 2014-09-22), new to SOURCES. Heading: "Justification; use of physical force in defense of premises and in defense of a person in the course of burglary."
+- §35.20(1): "Any person may use physical force upon another person when he or she reasonably believes such to be necessary to prevent or terminate what he or she reasonably believes to be the commission or attempted commission by such other person of a crime involving damage to premises. Such person may use any degree of physical force, other than deadly physical force, which he or she reasonably believes to be necessary for such purpose, and may use deadly physical force if he or she reasonably believes such to be necessary to prevent or terminate the commission or attempted commission of arson."
+- §35.20(3): "A person in possession or control of, or licensed or privileged to be in, a dwelling or an occupied building, who reasonably believes that another person is committing or attempting to commit a burglary of such dwelling or building, may use deadly physical force upon such other person when he or she reasonably believes such to be necessary to prevent or terminate the commission or attempted commission of such burglary."
+- §35.20(4)(a): "The terms "premises," "building" and "dwelling" have the meanings prescribed in section 140.00;" (§140.00 and §10.00 not read). §35.25 (larceny and criminal mischief) exists and was not used.
+
+**Florida Statutes 2026, ch. 776** (curl)
+- §776.013(1): "A person who is in a dwelling or residence in which the person has a right to be has no duty to retreat and has the right to stand his or her ground and use or threaten to use: (a) Nondeadly force ... or (b) Deadly force if he or she reasonably believes that using or threatening to use such force is necessary to prevent imminent death or great bodily harm to himself or herself or another or to prevent the imminent commission of a forcible felony."
+- §776.013(3)(a): "The person against whom the defensive force is used or threatened has the right to be in or is a lawful resident of the dwelling, residence, or vehicle, such as an owner, lessee, or titleholder, and there is not an injunction for protection from domestic violence or a written pretrial supervision order of no contact against that person; or"
+- §776.013(3)(b): "The person or persons sought to be removed is a child or grandchild, or is otherwise in the lawful custody or under the lawful guardianship of, the person against whom the defensive force is used or threatened; or"
+- §776.013(3)(c): "The person who uses or threatens to use defensive force is engaged in a criminal activity or is using the dwelling, residence, or occupied vehicle to further a criminal activity; or"
+- §776.013(3)(d) (opening): "The person against whom the defensive force is used or threatened is a law enforcement officer, as defined in s. 943.10(14), who enters or attempts to enter a dwelling, residence, or vehicle in the performance of his or her official duties"
+- §776.013(5)(a): "“Dwelling” means a building or conveyance of any kind, including any attached porch, whether the building or conveyance is temporary or permanent, mobile or immobile, which has a roof over it, including a tent, and is designed to be occupied by people lodging therein at night." (read; not used)
+- §776.031(1) (opening): "A person is justified in using or threatening to use force, except deadly force, against another when and to the extent that the person reasonably believes that such conduct is necessary to prevent or terminate the other's trespass on, or other tortious or criminal interference with, either real property other than a dwelling or personal property, lawfully in his or her possession ..."
+- §776.031(2): "A person is justified in using or threatening to use deadly force only if he or she reasonably believes that such conduct is necessary to prevent the imminent commission of a forcible felony. A person who uses or threatens to use deadly force in accordance with this subsection does not have a duty to retreat and has the right to stand his or her ground if the person using or threatening to use the deadly force is not engaged in a criminal activity and is in a place where he or she has a right to be."
+- §776.032(1) opens "A person who uses or threatens to use force as permitted in s. 776.012, s. 776.013, or s. 776.031 is justified in such conduct and is immune" (the immunity lesson 13 records applies to §776.013 and §776.031 too)
+
+**Texas Penal Code ch. 9** (Texas Legislative Council file, tcss.legis.texas.gov/resources/PE/htm/PE.9.htm,
+curl; statutes.capitol.texas.gov serves a JavaScript app to curl)
+- §9.01(4): ""Habitation" has the meaning assigned by Section 30.01 ." (§30.01 not read; nor the Penal Code's definition of "nighttime")
+- §9.32(b): "The actor's belief under Subsection (a)(2) that the deadly force was immediately necessary as described by that subdivision is presumed to be reasonable if the actor: (1) knew or had reason to believe that the person against whom the deadly force was used: (A) unlawfully and with force entered, or was attempting to enter unlawfully and with force, the actor's occupied habitation, vehicle, or place of business or employment; (B) unlawfully and with force removed, or was attempting to remove unlawfully and with force, the actor from the actor's habitation, vehicle, or place of business or employment; or (C) was committing or attempting to commit an offense described by Subsection (a)(2)(B); (2) did not provoke the person against whom the force was used; and (3) was not otherwise engaged in criminal activity, other than a Class C misdemeanor that is a violation of a law or ordinance regulating traffic at the time the force was used."
+- §9.32(a)(2)(B): "to prevent the other's imminent commission of aggravated kidnapping, murder, sexual assault, aggravated sexual assault, robbery, or aggravated robbery."
+- §9.41(a): "A person in lawful possession of land or tangible, movable property is justified in using force against another when and to the degree the actor reasonably believes the force is immediately necessary to prevent or terminate the other's trespass on the land or unlawful interference with the property."
+- §9.41(b): "A person unlawfully dispossessed of land or tangible, movable property by another is justified in using force against the other when and to the degree the actor reasonably believes the force is immediately necessary to reenter the land or recover the property if the actor uses the force immediately or in fresh pursuit after the dispossession and: (1) the actor reasonably believes the other had no claim of right when he dispossessed the actor; or (2) the other accomplished the dispossession by using force, threat, or fraud against the actor."
+- §9.42: "A person is justified in using deadly force against another to protect land or tangible, movable property: (1) if he would be justified in using force against the other under Section 9.41 ; and (2) when and to the degree he reasonably believes the deadly force is immediately necessary: (A) to prevent the other's imminent commission of arson, burglary, robbery, aggravated robbery, theft during the nighttime, or criminal mischief during the nighttime; or (B) to prevent the other who is fleeing immediately after committing burglary, robbery, aggravated robbery, or theft during the nighttime from escaping with the property; and (3) he reasonably believes that: (A) the land or property cannot be protected or recovered by any other means; or (B) the use of force other than deadly force to protect or recover the land or property would expose the actor or another to a substantial risk of death or serious bodily injury."
+- §9.44: "The justification afforded by Sections 9.41 and 9.43 applies to the use of a device to protect land or tangible, movable property if: (1) the device is not designed to cause, or known by the actor to create a substantial risk of causing, death or serious bodily injury; and (2) use of the device is reasonable under all the circumstances as the actor reasonably believes them to be when he installs the device." (§9.44 names §§9.41 and 9.43, not §9.42)
+
+**NCSL** (updated September 23, 2025): "The common law principle of "castle doctrine" states that
+individuals have the right to use reasonable force, including deadly force, to protect themselves
+against an intruder in their home (i.e., their "castle")."
+
+### Not read, so no lesson may claim them
+The Criminal Damage Act 1971; the *Ray* and *Collins* judgments (only the CPS's summaries); NY
+§§10.00, 140.00; Texas §30.01 and the Penal Code's "nighttime"; any source arguing against
+s.76(5A); any Scots source on force to protect property beyond the Jury Manual's "personal danger,
+not material loss"; anything on how Northern Ireland's courts treat force in a home.

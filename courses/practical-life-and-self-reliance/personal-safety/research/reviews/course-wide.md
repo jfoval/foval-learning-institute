@@ -344,3 +344,63 @@
   it is to blame, and write scenarios without "instead".
 - **Quiz keys:** lesson 13 is now 2,1,3,0,3,1. The fixers of lessons 14 and 15 should rerun the check against
   lessons 1 to 13 (lesson 12's keys were read as 0,3,1,0,2,1 while its fixer was at work).
+
+## 2026-09-25: from lesson 15's Stage 4 fix
+
+- **SOURCES Part D §2.5, §5.3 and §5.4 corrected** (Stage 4 notes in place; lines in "Gate closures,
+  lesson 15"). Lesson 16, the course test and any script on lessons 13 to 16 must not say: that
+  California bars all minors from sprays (§22815(a): 16 and over with a parent's consent); that the
+  CPS fear rule ends at "immediate threat" (a second condition follows); that a folding knife of 3
+  inches or less is outside the rules unless it locks (flick and gravity knives are an offence
+  whatever the length, as the CPS lists them); that carrying a spray in Michigan is "lawful" for a
+  named person (say what MCL 750.224 and 224d ask); or that First Aid lesson 4 forbids reading an
+  odds ratio as "about three times" (for a rare outcome it allows it, for the groups compared).
+- **Gate G16 is closed**: *America's 1st Freedom* (2021) quotes Allyson Hottinger, a survivor and
+  advocate, in favour of survivors carrying. Pair her position, reason and limit with the Hotline's
+  position, reasons ("some of the reasons") and "you are the expert in your situation", in the same
+  structure. Never use the article's shooting account, training advice or figures. **Gate G17 stays
+  open**: say only that critics, Kleck among them, have published on the household studies' methods
+  and the course did not read that work. Never state the confounding argument, never call Kleck
+  "the gun-rights side", and never offer RAND's Kleck 2015 as the critique (by its title it is an
+  area-level review).
+- **The report is the Institute of Medicine's, with the National Research Council** (NAP's own
+  citation). Say "the National Academies report" after first mention; never "the National Research
+  Council reports". Quote the 2.5 million sentence with its deterrent clause, or not at all.
+- **Law labels follow lesson 13's settlement** (lesson 15 went from 17 to 7). The course test's
+  law items should carry "as general information" in the stem, as the lessons' quizzes do.
+- **Quiz keys:** lesson 15 is 0,1,3,2,1,2 (unchanged), checked against lessons 1 to 13 and 16.
+  Lesson 14's drafter checks against it.
+- **Names and places used:** Declan (Bolton), Ade (Kalamazoo, then Rochester), Stoke-on-Trent,
+  Falkirk, Fresno, Dundee. Callum stays lesson 5's.
+
+## 2026-09-25 — from lesson 16's Stage 4 fix
+
+- **SOURCES Part D §8.1's 911.gov gloss was wrong at source** (Stage 4 note in place): "211/311/411"
+  is from the answer on emerging diseases and the "10-digit phone number for law enforcement" from
+  the answer on calling for help in another town. No script may say 911.gov gives either as the
+  non-emergency route, or "for everything else".
+- **Silent 999 calls:** only pressing 55 keeps a silent mobile call; coughing or tapping answers the
+  operator's questions and is never an alternative to 55 ("If you don’t press 55, the call will be
+  terminated", IOPC guide). Scripts on lessons 1 and 16 should keep that order.
+- **The CPS/NPCC householder leaflet is quoted with both halves** from now on: the duty to
+  investigate, and in the same paragraph that clear cases or less serious injuries are "concluded
+  very quickly, without any need for arrest", with the forensic examination and account belonging to
+  "more complicated cases". Lesson 14's use should be checked against this at its next edit.
+- **Northern Ireland compensation:** nidirect never says a report is required; it asks the police
+  for a report and can reduce or refuse for delay in telling "the police, or other organisation, or
+  person". Never write that NI's scheme "runs on" or "requires" a police report.
+- **Lesson 16 is the first to state the *Miranda* warnings**, from one Constitution Annotated essay;
+  scripts keep to that read level (nothing on custody, timing or exceptions).
+- **Quiz keys:** lesson 16 is now 2,3,1,2,0,1, checked against lessons 1 to 15 on disk (lesson 14
+  2,3,0,1,0,3; lesson 15 read as 0,1,3,2,1,2 while its fixer was at work, so lesson 15's final keys
+  should be checked against 16 whichever lands second). The drafters' stricter "no run of three at 0
+  or ±1" is now unsatisfiable (Reviewer P: 0 of 4,096 six-item sequences pass it against fifteen
+  lessons); the lesson-12 rule is the one in force.
+- **The project** (`assessments/project-your-household-safety-plan.md`) now has First Aid's
+  three-level rubric, a pass rule, a safe-skip rule, an "If something doesn't fit" section, and a
+  recording fail line that follows lesson 9's second Document rule (OUTLINE changed to match, with a
+  dated note). Scenarios E (bakery counter, Laramie) and F (bowling alley car park, Bridgend) were
+  re-set so they no longer replay lesson 9's worked case and exercise; the final test's author should
+  avoid both settings.
+- **Cross-references:** the "lesson 15, Afterwards" pointers the drafter flagged were already
+  renumbered to 16 in lessons 1, 5, 7, 9, 10 and 11 (checked by grep).
