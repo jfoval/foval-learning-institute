@@ -203,3 +203,54 @@ items and flags lesson 18 as gameable; no line names this lesson.
 the harder case's answer against the handbooks' chock steps, step 4's hybrid and EV off-state line
 against lesson 14, Honda's spare-under-the-body paragraph against step 12 and the callout, and the
 widened fast-road condition against the callout and lesson 17).
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context second-pass reviewer, assuming errors. Every primary re-fetched live
+today with curl (generic browser User-Agent, no personal data): Toyota OM02568U (pp. 370 to 379 as
+text), Honda's 2024 Civic Sedan "Changing a Flat Tire", Mazda3 8GD7-EE-17H pages 08020100, 08020200,
+08020300, 08020301 and 08020303, Nissan's 2024 LEAF (US) PDF p. 8-2, HSE "Working under vehicles",
+Green Flag, the RAC, the Highway Code Rules 275 to 287 (content API), and the 1998 NHTSA note (300 dpi
+OCR of the scan).
+
+**Safety sweep.** Nothing puts a body part under a jacked car (step 12; Honda's spare paragraph says
+take it from the side; Hornsea keeps hands and knees out; the exercise looks from the side); nothing
+goes on or under a jack beyond a handbook (the RAC plank is reported as the RAC's and set against all
+three handbooks). No wheel change on a motorway, other fast road, hard shoulder or emergency area (the
+first condition; Q1 keys the call). The chock is never skippable (step 7 with Mazda's reason; the harder
+case ends the job without one; the misconception list). "Off" is the handbook's off state with hybrids,
+EVs and stop-start covered and lesson 14 pointed to. One edit: the exercise said "the engine or motor
+off", which a hybrid's owner could read as a silent car; now "switched off in the way its handbook
+describes".
+
+**Quotations.** Every quotation string-matched on the live primary, including Toyota's and Honda's
+and Mazda's own-jack lines, the three jacking heights, Honda's spare "(wheel side up) under the vehicle
+body", Mazda's "may move and fall off the jack" (08020301) and "Stopping in traffic or on the shoulder
+of a busy road is dangerous" (08020300), Nissan's two p. 8-2 lines, and all six NHTSA strings (4,822,
+74%, 913 (19%), 40% repairing, 36% unspecified, the funding sentence). HSE's car park wording is "a
+school coach parked on a sloping car park" with "Both rear nearside wheels and one offside wheel" off
+while jacking: the lesson's paraphrase is right. Toyota's chock table is on p. 374 (rear right flat:
+in front of the front left), as the checkpoint says. Mazda's 80 km/h spare limit is the SOURCES [V]
+line from its temporary spare page. Cross-references to lessons 1, 13, 14, 16, 18 and 20 and Home
+Repair 13 checked against their titles and sentences. Hornsea and Chico are used nowhere else.
+
+**Quiz.** Keys 3,1,0,2,0: all four positions, no adjacent repeat, no identical sequence or value shift
+against lessons 1 to 18, 20 and 21, no shared run of four with lessons 14 to 18, 20 or 21 at offsets 0
+or ±1 (by script). Option lengths 82 to 90, 83 to 88, 86 to 89, 80 to 88, 80 to 89. Q4's key (89
+lbf·ft; 120 N·m / 1.3558 = 88.5, by hand), torque wrench, tyre fitter or garage, matches the body's
+Call someone and Toyota's line. Every explanation read against its options: Q3's did not answer option
+D (raise no higher); one sentence added ("How good the wood is, or how high the car goes, doesn't
+change a rule against anything under the jack").
+
+**SVG.** Rendered headless (Chrome through playwright-core) with the site stylesheet at 375 px and
+1280 px, light and dark: 343 px wide at 375, every label 15.13 px effective (FRONT and flat 16.14),
+no label outside the SVG's box, wheels, chocks and the flat's outline visible in both themes.
+
+**Measures.** No em dashes, no en dashes; callout byte-identical to `CAR_BASICS_SAFETY`; no banned
+words or pipeline talk. `npm run minutes`: 85 (5,733 words), under 90. `npm run quotes car-basics`: no
+line for this lesson. `npm run validate`: exit 0, no line naming this file.
+
+**Not fixed, noted:** the RAC's in-prose label is "sells breakdown cover" where the Sources entry says
+"breakdown cover and repairs"; the commercial interest is disclosed at each use, so left. Hornsea's
+"lowered with nobody beside it" applies Toyota's line to a Mazda; it is a safe step and left.
+
+**Verdict:** CLEAN.

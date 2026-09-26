@@ -61,8 +61,9 @@ quiz:
       Toyota says "do not put an object on or under the jack", Honda "Do not put anything on top of
       or underneath the jack", and Mazda gives the reason: "The jack could slip and someone could be
       seriously injured by the jack or the falling vehicle." The RAC, which sells breakdown cover,
-      does suggest a plank, and that's
-      the RAC's advice set against the makers' own rule for their cars. The handbook governs.
+      does suggest a plank, and that's the RAC's advice set against the makers' own rule for their
+      cars. How good the wood is, or how high the car goes, doesn't change a rule against anything
+      under the jack. The handbook governs.
   - q: >-
       A driver in the US has fitted a spare. Her car's handbook gives 89 lbf·ft (120 N·m) for the
       wheel nuts. A friend says "about 75 is fine for any car, I always do that." What's right?
@@ -447,7 +448,7 @@ and fall off the jack even with" the lever in P.
 ## Practice
 
 :::exercise The paper rehearsal
-Take 20 minutes over this. It's done on paper and by looking. Do not lift the car, loosen a wheel nut or take out the spare for practice; nobody goes under the car, and nobody stands at a roadside for the exercise. The car should be yours or its keeper should agree, parked off the road with the engine or motor off and the parking brake on.
+Take 20 minutes over this. It's done on paper and by looking. Do not lift the car, loosen a wheel nut or take out the spare for practice; nobody goes under the car, and nobody stands at a roadside for the exercise. The car should be yours or its keeper should agree, parked off the road, switched off in the way its handbook describes, with the parking brake on.
 
 1. In the handbook, find the section on changing a wheel. Write its title and pages, and the order of steps in your own short words.
 
