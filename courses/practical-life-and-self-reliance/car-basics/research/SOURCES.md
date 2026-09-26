@@ -6067,10 +6067,9 @@ of full implementation once waivers were no longer available." [V].
 re-read in full. The check-engine paragraph, as Part A §5: "The check engine light, or malfunction
 indicator lamp, on your dash board indicates that something is wrong with your engine. Modern vehicles
 are so advanced that they may seem to drive normally even when a repair is needed, which sometimes leads
-drivers to ignore the indicator." [V]; "It could be something as minor as a loose gas cap, but it could
-also be a more serious issue that could reduce your fuel economy, increase emissions, and/or lead to
-costly repairs later." [V]; "So, when the check engine light comes on, have your vehicle inspected by a
-mechanic." [V]. (Lesson 12's reads of the same page are below.)
+drivers to ignore the indicator." [V]; "It could be something as minor as a loose gas cap, but it could also be a more serious issue that
+could reduce your fuel economy, increase emissions, and/or lead to costly repairs later. So, when the
+check engine light comes on, have your vehicle inspected by a mechanic." [V]. (Lesson 12's reads of the same page are below.)
 
 **DVSA, MOT inspection manual** (content API; sections 1 and 7 `public_updated_at` 2026-06-01, section 8
 2025-06-24; manual changed 1 June 2026). **Section 1 read in full; sections 7 and 8 re-read in full.**
