@@ -128,3 +128,5 @@ No em or en dashes. `npm run validate` exit 0, no line naming this file; `npm ru
 456 quotations, 0 not found.
 
 **Status after review:** clean.
+
+- **2026-09-26 (lesson 16 second pass, S1):** the opening's D'Souza sentence said almost all ladder injuries were "away from work"; the count is from NEISS ladder product codes, which NIOSH says exclude work-related injuries, so it now gives the 97.3% as where that count's injuries happened ("non-occupational settings, such as homes and farms") and says it isn't the share at work, citing Socias [8]. Quotes, minutes (95) and validate checked.

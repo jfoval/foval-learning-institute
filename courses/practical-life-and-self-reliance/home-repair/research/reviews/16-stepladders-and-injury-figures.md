@@ -142,3 +142,77 @@ bold 8.6 per 1,000; contractions 8.3 per 1,000 with the callout, about 7.7 witho
 naming this file.
 
 **Status after review:** needs second pass (R4 and R5 were wrong facts).
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer. Re-read live on 26 September 2026 (curl, browser
+User-Agent, no personal data in any header; pdftotext; PubMed efetch): the Socias capture
+20260907020506 in full, the D'Souza, Barbat and Wakim abstracts, CPSC's 2020 estimates (Table F and
+methods) and its 65-and-over hazard screening report (findings table, Tables 1 and 2), HSE's ladder
+pages 1 to 7 and the work at height FAQ, and LA455 Ver 1 Rev 1 09/26 section 09.
+
+**Confirmed:** every D'Souza, Barbat and Wakim figure as quoted, with its scope ("where the place was
+recorded", "such as homes and farms"); Socias's 113, 34,000, "nearly 90% ... <16 feet (<4.9 m)",
+6 to 10 feet commonest, 11,400 of 34,000, head injuries in 49% of deaths; CPSC 2020's "Ladders,
+stools" 227,000 and 633,000, "not necessarily caused by", and the medically-attended gloss; the
+65-and-over report's "Ladders and step stools" group, 79, 16% and 39%. "43%" is gone. Counts are not
+read as risk anywhere (the misconception, quiz 2 and the checkpoint all say so). HSE's ladder pages
+have no mention of stairs (searched all seven), so the stairs sentence stands, labelled as the
+course's reading of the height question; only the FAQ mentions a staircase. LA455 section 09's line
+is word for word (page 9 of the PDF; SOURCES says p. 8, not a lesson matter). HSE's page 6 carries
+the same stepladder line, so exercise answer 3 rests on HSE as well. First-pass fixes R1 to R24 read
+correct as applied; job labels present and in the course's words; quiz keys 2,1,0,2,3 pass the
+briefs' rule against lessons 01 to 15, 17 and 18 as they stand on disk (all four positions, no
+adjacent repeat, not identical, no value or positional shift, no run of four at offsets 0 or ±1);
+no em or en dashes.
+
+**Findings:**
+1. S1 [major, not fixed] D'Souza's 97.3% is read as the share of ladder injuries that happen off
+   work. Socias (read in full) says "The CPSC product-related injury estimates exclude work-related
+   injuries" and that NEISS and NEISS-Work cases "are mutually exclusive"; D'Souza drew on NEISS
+   ladder product codes. The orders of magnitude agree: 2.7% of about 136,000 a year is under 4,000
+   occupational cases, against Socias's 34,000 work-related ED-treated ladder falls in 2011 (the
+   course's arithmetic, different years). So the 97.3% describes a dataset that largely leaves work
+   injuries out, and "non-occupational settings" is a place, not whether the person was working. It
+   carries into: the predict answer "Very few." (line 257), the misconception "Most ladder injuries
+   happen at work" and its answer, quiz 2's key ("most recorded injuries were off work") and its
+   explanation ("The first study counted everyone, not only workers"), and distractor A's framing.
+   SOURCES Part B §2 (line 1361, "most ladder injuries happen at home, not at work") carries the
+   same reading, and lesson 15 line 109 ("were hurt away from work") too. Needs a rewrite of those
+   passages, a SOURCES Stage 4 note with the Socias footnote string, and a course-wide note.
+2. S2 [minor, fixed] Opening: "most of those whose fall height was recorded" also took in the 82
+   deaths, for which Socias gives no under-16-feet share. Now "most of those treated in emergency
+   departments whose fall height was recorded".
+3. S3 [minor, fixed] "34,000 emergency-department visits": Socias counts injuries ("Each injury is
+   only counted once, regardless of the number of ED visits"). Now "34,000 nonfatal injuries treated
+   in emergency departments".
+4. S4 [minor, fixed] Misconception answer "97.3% were away from work" dropped the source's words.
+   Now "were in non-occupational settings, such as homes and farms" (S1 still stands).
+5. S5 [minor, fixed] "The 79 is the report's death count for the year 2000" could read as all
+   ladder deaths. Now "the report's count of deaths of people 65 and over in 2000".
+
+`npm run validate` exits 0; `minutes: 65` still matches. SOURCES not edited.
+
+**Verdict: NEEDS ANOTHER PASS** (S1: a figure read beyond what its dataset can show, in the body,
+a misconception and a quiz key).
+
+## Resolutions (2026-09-26)
+
+Applied by the second-pass reviewer on the coordinator's instruction.
+
+- **S1 fixed.** SOURCES: appended "Stage 4 note, lesson 16, second pass (2026-09-26)" with Socias's
+  NEISS-Work footnote and the 34,000 line [V], and corrected Part B §2's D'Souza entry in place with
+  a marked note. Three other places carrying the old reading (Stage 1's item 10, Part B's "(a)"
+  item 1, OUTLINE lesson 16's core ideas) are named in the note, not edited. Lesson 16: the predict
+  now asks whether 97.3% means only about 3% of ladder injuries happen at work, and answers from the
+  NEISS product codes and NIOSH's "exclude work-related injuries" line; the misconception is now
+  "Ladder injuries are a workplace problem", answered with the count and its scope; quiz 2's key
+  (still position 1) is "It's wrong twice, as many injuries were off work and hurt workers fell
+  low", distractor A is "It's right, since the US studies found most ladder injuries happened at
+  work", and the explanation gives the count's scope and says no study read found that most ladder
+  injuries happen at work. Option spread still leaves the key shorter than option C. Lesson 15 line
+  109 rewritten the same way (see its review file). Line added to course-wide.md.
+- `npm run quotes home-repair`: 458 quotations, 0 not found. `npm run minutes`: lesson 15 at 95 and
+  lesson 16 at 65, both unchanged. No em or en dashes. `npm run validate` exits 0.
+
+**Final verdict: CLEAN.**

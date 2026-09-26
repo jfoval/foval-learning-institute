@@ -1358,7 +1358,7 @@ Establishes: 3-point contact ("two hands and a foot, or two feet and a hand" [V]
 
 #### D'Souza AL, Smith GA, Trifiletti LB. "Ladder-related injuries treated in emergency departments in the United States, 1990-2005." *Am J Prev Med* 2007;32(5):413-8. doi:10.1016/j.amepre.2007.01.012. PMID 17478268
 Read: abstract only (PubMed efetch).
-What it establishes: from NEISS, an estimated 2,177,888 people were treated in US emergency departments for ladder injuries over 16 years, "an average of 136,118 cases annually" [V], or 49.5 per 100,000. 76.5% were male. Fractures were the most common injury (31.5%). About 10% were admitted or transferred, "approximately twice that of consumer product-related injuries overall" [V]. Injuries rose by more than 50% over the period. Of cases where the location was recorded, "97.3% occurred in non-occupational settings, such as homes and farms" [V]. This is the key figure for a home course: most ladder injuries happen at home, not at work.
+What it establishes: from NEISS, an estimated 2,177,888 people were treated in US emergency departments for ladder injuries over 16 years, "an average of 136,118 cases annually" [V], or 49.5 per 100,000. 76.5% were male. Fractures were the most common injury (31.5%). About 10% were admitted or transferred, "approximately twice that of consumer product-related injuries overall" [V]. Injuries rose by more than 50% over the period. Of cases where the location was recorded, "97.3% occurred in non-occupational settings, such as homes and farms" [V]. (Stage 4 note, lesson 16, second pass: corrected. This once read "most ladder injuries happen at home, not at work". The cases were selected "using NEISS ladder product codes", and NIOSH says CPSC's product-related estimates "exclude work-related injuries", so the 97.3% says where the injuries in this count happened, not what share of all ladder injuries happen at work. See that note.)
 
 #### Barbat A, Partiali B, Oska S, Folbe A. "Head, Face, and Neck Fractures Secondary to Ladder-Related Injuries Treated in United States Emergency Departments in 2009-2018." *J Emerg Med* 2020;59(2):186-192. PMID 32561108
 Read: abstract only (PubMed).
@@ -5698,3 +5698,32 @@ CPSC, *Electrocutions 2011-2020*: Table 5 row [V] "Ladder", 22, no breakdown; Ap
 D'Souza 2007 abstract (re-read by the fixer): [V] "97.3% occurred in non-occupational settings, such as homes and farms." "Such as" gives examples, not the whole list.
 
 Socias 2014 (capture 20260907020506, re-read by the fixer): the steps sit in the Discussion and are introduced as [V] "To prevent ladder falls, employers should consider the following steps: 1) plan the work to reduce or eliminate the need for using ladders by applying safety-in-design and constructability principles to finish as much of the work as possible on the ground"; further paragraphs, a limitations paragraph and a box follow, so the list is not where the report closes.
+
+## Stage 4 note, lesson 16, second pass (2026-09-26)
+
+Read by the lesson 16 second-pass reviewer on 26 September 2026 from the Internet Archive capture
+20260907020506 of Socias and colleagues 2014 (curl, browser User-Agent, no personal data in any
+header), full text, and the D'Souza abstract by PubMed efetch. Each [V] string-matched in the
+extracted text.
+
+- **Socias 2014, footnote on NEISS-Work:** [V] "The CPSC product-related injury estimates exclude
+  work-related injuries, whereas NEISS-Work estimates include all work-related injuries regardless
+  of product involvement (i.e., NEISS and NEISS-Work cases are mutually exclusive)."
+- **Socias 2014, the work count it compares with:** [V] "an estimated 34,000 nonfatal injuries
+  treated in EDs", and in the table notes [V] "Each injury is only counted once, regardless of the
+  number of ED visits."
+- **D'Souza 2007 abstract:** cases [V] "were selected using NEISS ladder product codes"; of those
+  with a recorded locale, [V] "97.3% occurred in non-occupational settings, such as homes and farms."
+- **What follows.** D'Souza's count comes from the consumer-product side of NEISS, which NIOSH says
+  leaves work-related injuries to NEISS-Work. The 97.3% therefore says where the injuries in that
+  count happened ("non-occupational settings" is a place, not whether the person was working); it
+  cannot give the share of all US ladder injuries that happen at work. As a check, 2.7% of about
+  136,000 a year is under 4,000, against NIOSH's 34,000 work-related ED-treated ladder falls in 2011
+  (the course's arithmetic, different years and systems; not for a lesson). What the figure does
+  support: a great many people are treated for ladder injuries away from work.
+- **Corrected in place:** Part B §2's D'Souza entry ("most ladder injuries happen at home, not at
+  work"). **Carrying the same reading and not edited here:** item 10 of "The first things Stage 1 found"
+  ("97.3% of them away from work"), item 1 of the "(a) What this part says the field considers
+  essential" list in Part B ("nearly all ladder injuries happen away from
+  work"), and OUTLINE lesson 16's core ideas ("away from work"). Read them with this note.
+  Lessons 15 and 16 corrected the same day.

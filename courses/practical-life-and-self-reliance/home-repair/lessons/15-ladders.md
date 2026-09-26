@@ -104,9 +104,12 @@ quiz:
 ---
 
 A ladder is the most ordinary tool in a house, and it puts a great many people in hospital. In
-the United States, about 136,000 people a year were treated in emergency departments
-for ladder injuries between 1990 and 2005, and where the place was recorded, almost all of them
-were hurt away from work, in places such as homes and farms.[7] The rules for using a ladder safely were
+the United States, one study counted about 136,000 people a year treated in emergency departments
+for ladder injuries between 1990 and 2005, from the consumer-product side of the national system,
+and where the place was recorded, 97.3% were hurt "in non-occupational settings, such as homes and
+farms".[7] NIOSH counts work injuries separately and says the consumer-product estimates "exclude
+work-related injuries", so that isn't the share of all ladder injuries that happen at work.[8] It's
+still a great many people hurt on ladders off the job. The rules for using a ladder safely were
 written almost entirely for workplaces, by regulators who don't regulate your garden. This lesson
 takes those rules, says whom each was written for, and shows you how to use them at home: whether
 to use a ladder at all, how to set a leaning ladder up by the numbers, how to stop it moving, and

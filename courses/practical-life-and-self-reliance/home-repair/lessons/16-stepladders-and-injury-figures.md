@@ -35,20 +35,23 @@ quiz:
       stepladder for a few minutes, a couple of metres up, so the risk is small." Which reading of
       the US studies this lesson used fits best?
     options:
-      - It's right, since the one national study of ladder injuries counted only workers
-      - It's wrong twice, as most recorded injuries were off work and hurt workers fell low
+      - It's right, since the US studies found most ladder injuries happened at work
+      - It's wrong twice, as many injuries were off work and hurt workers fell low
       - It's wrong about homes, but it's right that a fall of two metres rarely does real harm
       - It's right about height, since injuries cluster in falls from above five metres
     answer: 1
     explain: >-
-      D'Souza and colleagues' US emergency-department study found that, where the place was
-      recorded, 97.3% of ladder injuries happened in non-occupational settings such as homes and
-      farms. NIOSH's US study of injured workers found that, where the fall height was recorded,
+      D'Souza and colleagues' US study, drawn from the consumer-product side of the national
+      emergency-department system, whose product estimates NIOSH says exclude work-related
+      injuries, counted an average of 136,118 ladder injuries a year, and where the place was
+      recorded, 97.3% were in non-occupational settings such as homes and farms. That isn't the
+      share of all ladder injuries that happen at work, but it's a great many people hurt away from
+      a job. NIOSH's US study of injured workers found that, where the fall height was recorded,
       nearly 90% of the nonfatal falls treated in emergency departments were from under 16 feet
       (about 4.9 m), with 6 to 10 feet the commonest. So low falls hurt people often, and a fall of a
       couple of metres is no reason to relax. Neither study counts injuries per ladder use, so
-      neither says a low job is riskier than a high one. The first study counted everyone, not only
-      workers.
+      neither says a low job is riskier than a high one. No study this lesson read found that most
+      ladder injuries happen at work.
   - q: >-
       A woman on Gower wants to hang lining paper high on her bedroom wall from a stepladder,
       which will take both her hands. On HSE's guidance, what does she do
@@ -105,7 +108,7 @@ A stepladder feels like the safe one. It stands on its own, it's short, and it l
 cupboard. But lesson 15 showed that Great Britain's workplace guidance counts a stepladder's
 treads as a working platform, like a roof or a scaffold.[10] And in the United States, where the
 only national ladder-injury figures this course found come from, a study of injured workers found
-that most of those whose fall height was recorded had fallen less than 16 feet (about 4.9 m).[9]
+that most of those treated in emergency departments whose fall height was recorded had fallen less than 16 feet (about 4.9 m).[9]
 This lesson takes the stepladder's own rules,
 works two jobs through them, and then reads the injury figures for what each one counts, including
 the British figure this course looked for and didn't find.
@@ -252,11 +255,15 @@ asbestos ceiling: a battery alarm can be stuck on with a firm adhesive instead.[
 
 ## What the injury figures count
 
-:::predict Before reading on: of American ladder injuries treated in emergency departments, what share would you guess happened at work rather than somewhere else, such as a home or a farm?
+:::predict Before reading on: the most-quoted American study found that, of ladder injuries treated in emergency departments where the place was recorded, 97.3% happened in "non-occupational settings, such as homes and farms". Does that mean only about 3% of ladder injuries happen at work?
 
-Very few. [D'Souza and colleagues](https://pubmed.ncbi.nlm.nih.gov/17478268/) estimated that 2,177,888 people were treated in US emergency
-departments for ladder injuries from 1990 to 2005, and of the cases where the place was recorded,
-"97.3% occurred in non-occupational settings, such as homes and farms."[4]
+No. [D'Souza and colleagues](https://pubmed.ncbi.nlm.nih.gov/17478268/) estimated that 2,177,888
+people were treated in US emergency departments for ladder injuries from 1990 to 2005, from cases
+"selected using NEISS ladder product codes", the consumer-product side of the national
+emergency-department system.[4] NIOSH, which counts work injuries in a separate system, says "The
+CPSC product-related injury estimates exclude work-related injuries".[9] So the 97.3% describes
+where the injuries in that count happened. It can't give the share of all ladder injuries that
+happen at work. What it does show is a great many people hurt on ladders away from a job.
 :::
 
 Every figure in this section is American, because this course found no British figure it could
@@ -280,7 +287,7 @@ CPSC says the analysis is its staff's and was not reviewed by the Commission.
 
 **Older people.** CPSC's hazard screening report on people aged 65 and over, from data for 1997 to
 2002, groups ladders with step stools, and says: "Persons 65 and older account for half (79) of
-all ladder deaths." The 79 is the report's death count for the year 2000, for ladders and step
+all ladder deaths." The 79 is the report's count of deaths of people 65 and over in 2000, for ladders and step
 stools together, and the shares below are for the same group. The same report says older people made up 16% of
 emergency-treated ladder injuries but 39% of those admitted to hospital.[6] Those data are more than
 twenty years old. A later study, Barbat and colleagues (abstract only), estimated 20,450
@@ -293,7 +300,7 @@ stairs.[8]
 **Low falls.** NIOSH, the US National Institute for Occupational Safety and Health,
 [studied](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6316a2.htm)
 work-related ladder falls in the US in 2011: 113 deaths and an estimated 34,000
-emergency-department visits. Where the fall height was recorded for the nonfatal cases, "nearly
+nonfatal injuries treated in emergency departments. Where the fall height was recorded for the nonfatal cases, "nearly
 90% were from heights <16 feet (<4.9 m)", and falls of 6 to 10 feet were the commonest. The height was recorded for about 11,400 of the
 34,000, roughly a third, so the 90% describes that third. Head
 injuries were involved in about half of the deaths.[9] These are workers, not householders, in one
@@ -322,8 +329,11 @@ years.
 **"Both hands off is banned."** HSE says the decision "needs to be justified", and gives six things
 to weigh.[1]
 
-**"Most ladder injuries happen at work."** In D'Souza and colleagues' US study, where the place was
-recorded, 97.3% were away from work.[4]
+**"Ladder injuries are a workplace problem."** D'Souza and colleagues' US study counted an average
+of 136,118 emergency-treated ladder injuries a year from the consumer-product system, whose product
+estimates NIOSH says exclude work injuries, and where the place was recorded, 97.3% were in
+"non-occupational settings, such as homes and farms".[4][9] Whatever the share at work, a great
+many people are hurt on ladders off the job.
 
 **"A fall from stepladder height can't do much harm."** In NIOSH's US study of work-related
 falls, nearly 90% of the nonfatal falls treated in emergency departments, where the height was

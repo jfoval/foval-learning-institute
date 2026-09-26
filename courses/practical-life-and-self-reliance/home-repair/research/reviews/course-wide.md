@@ -346,3 +346,9 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   lesson 18's.
 - **Quiz keys:** lesson 15 now 0,2,1,3,2 (was 0,2,3,1,3), clearing the value-shifted run of four with
   lesson 10's keys. No sequence clears value-shifted runs against all of lessons 01 to 18.
+- **2026-09-26, D'Souza's 97.3% (lesson 16 second pass):** the count comes from NEISS ladder
+  product codes, and NIOSH (Socias 2014) says CPSC's product-related estimates "exclude work-related
+  injuries". So "non-occupational settings, such as homes and farms" says where the injuries in that
+  count happened, never what share of all ladder injuries happen at work. Lessons 15 and 16
+  corrected; SOURCES has "Stage 4 note, lesson 16, second pass". Any later lesson or podcast script
+  that uses the figure keeps that scope.
