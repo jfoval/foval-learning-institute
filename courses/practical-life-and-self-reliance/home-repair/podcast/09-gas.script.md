@@ -83,7 +83,7 @@ S1: In Great Britain or Northern Ireland, turning the valve is yours, on conditi
 
 S2: What about when you can't smell anything?
 
-S1: Natural gas has no smell of its own. Con Edison explains that a chemical called mercaptan is added, and many people compare it to rotten eggs. The smell is the alarm, and it can fail. SoCalGas says you may miss it if your sense of smell is diminished, or a cold has blocked it, or you've got used to it. And the odorant itself can be lost, which it calls odour fade. Atmos puts that in proportion, saying it happens in certain rare situations. That's the US utilities' account of their own pipes. The UK pages the course read don't discuss it.
+S1: Natural gas has no smell of its own. Con Edison explains that a chemical called mercaptan is added, and many people compare it to rotten eggs. The smell is the alarm, and it can fail. SoCalGas says you may miss it if your sense of smell is diminished, or a cold has blocked it, or you've got used to it. And the odorant itself can be lost, which it calls odour fade. Atmos says how often: in certain rare situations. That's the US utilities' account of their own pipes. The UK pages the course read don't discuss it.
 
 S2: So you listen as well as sniff.
 

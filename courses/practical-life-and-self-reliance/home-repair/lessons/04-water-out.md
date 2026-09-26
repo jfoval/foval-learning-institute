@@ -116,7 +116,7 @@ quiz:
       Nothing on the page ties house traps to sump pumps.
 ---
 
-Most of what goes wrong with a drain is somebody's dinner. [Thames Water](https://www.thameswater.co.uk/news/2025/nov/avoid-festive-fatbergs), one of England's water
+A drain's troubles often start at the kitchen sink. [Thames Water](https://www.thameswater.co.uk/news/2025/nov/avoid-festive-fatbergs), one of England's water
 companies, says pouring fats, oils and grease down the kitchen sink
 is "one of the leading causes of blockage-related internal flooding", which is the water
 company's phrase for sewage coming back up inside a home.[1] This lesson is about the other half
@@ -359,8 +359,8 @@ WRc is not saying every wipe is fine. It supports banning wipes that contain pla
 a ban "won’t solve the whole problem though, as products such as baby wipes and cleaning wipes made
 from non-plastic materials may not disintegrate to a level that is harmless to our sewers as they
 are designed to be robust." Its answer, when it wrote, was that it was working with retailers and
-manufacturers to restart flushability testing for plastic-free moist toilet tissue.[7] That is WRc's case, from the body that ran the
-scheme; the Water UK and government side is known here only through WRc's and The Water Report's
+manufacturers to restart flushability testing for plastic-free moist toilet tissue.[7] That is WRc's case, from the body that ran its
+tests; the Water UK and government side is known here only through WRc's and The Water Report's
 accounts, because Water UK's own pages blocked the tools this course read with.
 
 The ban WRc mentions now exists in England. [The Environmental Protection (Wet Wipes Containing
@@ -386,7 +386,7 @@ The scheme did end in March 2024, and The Water Report and WRc both say confusio
 Who is responsible for which pipe is partly a legal question. This is general information, not
 legal advice.
 
-Thames Water's rule is that a blockage in your home is yours to unblock, so the first question
+Thames Water's rule is that a blockage inside a home is the property owner's to deal with, so the first question
 about a slow drain is where the blockage is. Thames Water, for its own area, draws the line like this:
 "We repair and clean the pipes that carry wastewater from your street to our treatment works.
 Property owners are responsible for the pipes in the homes and the ones connecting to our

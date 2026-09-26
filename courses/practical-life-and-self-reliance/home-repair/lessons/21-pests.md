@@ -133,7 +133,7 @@ This course is education, not a trade qualification, and not legal advice about 
 
 Pest work takes you to where pipes and cables come into a house, because that's where the gaps
 are. This course's line: note those gaps, and don't fill or pack round a gas pipe, a meter or a
-cable yourself; ask the landlord, a Gas Safe registered engineer or an electrician. The box stays
+cable yourself; ask the landlord, a qualified gas engineer (Gas Safe registered, in the UK) or an electrician. The box stays
 shut too, as lessons 5 and 6 said:
 CPSC, the US Consumer Product Safety Commission, says panel boxes "are usually electrically live,
 even with the main circuit breakers turned off",[23] and HSE's guidance for people who work on

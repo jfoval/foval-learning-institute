@@ -291,8 +291,8 @@ limited or intermittent; where rust, moisture or other substances are in the pip
 how the customer's own piping is designed and built, such as its length and diameter. Its
 conclusion: "it's important to not rely only on your sense of smell to be alerted to a natural gas
 leak."[6] Con Edison's list is similar. It includes plastic as well as metal pipe, and says that
-when a leak is underground, the soil around it can cause odour fade.[5] Atmos puts it in
-proportion: for most people smell is "a highly reliable indicator of a natural gas release", and it
+when a leak is underground, the soil around it can cause odour fade.[5] Atmos says how
+often it happens: for most people smell is "a highly reliable indicator of a natural gas release", and it
 calls the gas's own smell fading something that happens in "certain rare situations".[7] This is
 the US utilities' account of their own pipes. The UK pages this course read do not discuss odour
 fade.

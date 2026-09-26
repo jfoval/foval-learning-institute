@@ -601,7 +601,7 @@ the licence."
 it looks likely to cost customers more than it protects them, those who want a licence should have to
 show it's needed."
 
-If yours would make its own side wince (licensing "never" helps; it's "only about jobs"), rewrite it
+If yours would make its own side wince (licensing "always" makes work safer; it's "only about jobs"), rewrite it
 until it would not.
 
 **The friend:** the course's reason is what a page can do, which holds whatever the law allows. Whether

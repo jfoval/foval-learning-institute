@@ -33,7 +33,7 @@ S1: And I'm John. Today we're in Home Repair and Maintenance, on the lesson call
 
 S2: The usual line first.
 
-S1: This course is education, not a trade qualification, and it teaches no gas work and no wiring. That comes up today, because pests get in where pipes and cables come into a house. The course's line is to note those gaps, and not to fill or pack round a gas pipe, a meter or a cable yourself. That goes to the landlord, a Gas Safe registered engineer or an electrician.
+S1: This course is education, not a trade qualification, and it teaches no gas work and no wiring. That comes up today, because pests get in where pipes and cables come into a house. The course's line is to note those gaps, and not to fill or pack round a gas pipe, a meter or a cable yourself. That goes to the landlord, a qualified gas engineer, Gas Safe registered in the UK, or an electrician.
 
 S2: So where does the lesson start? Because my first move with a mouse is a can of something.
 

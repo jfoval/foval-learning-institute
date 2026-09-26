@@ -323,7 +323,7 @@ to it.[7]
 **"A bigger fuse will stop it blowing."** Same rating only (ESF). A fuse that keeps blowing is a
 fault, not an undersized fuse.[1]
 
-**"Every vacuum cleaner takes a 13A fuse"** (or a 5A one). The two official lists disagree; the
+**"Every vacuum cleaner takes a 13A fuse"** (or a 5A one). The two lists this course read disagree; the
 maker's instructions decide.[1][2]
 
 **"If nothing trips, the extension lead's fine."** The lead has its own rating, often lower, and

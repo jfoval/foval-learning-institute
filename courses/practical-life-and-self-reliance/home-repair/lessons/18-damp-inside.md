@@ -638,7 +638,7 @@ mold spores indoors."[2] What stops regrowth is keeping things dry.
 recommended, because it lets in too much air in cold, windy weather and too little when it's warmer
 and calmer.[5]
 
-**"Damp comes from the way people live."** GOV.UK calls blaming damp on lifestyle choices "totally
+**"If it's condensation, the people living there caused it."** GOV.UK calls blaming damp on lifestyle choices "totally
 unreasonable".[1]
 
 **"Draught-proof everything and the damp will go."** The Energy Saving Trust says not to block

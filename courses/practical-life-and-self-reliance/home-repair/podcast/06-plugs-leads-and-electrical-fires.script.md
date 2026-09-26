@@ -83,6 +83,6 @@ S2: And do those count who did the work?
 
 S1: No. They count the equipment involved and what contributed to ignition, not who installed or last worked on it, and the report puts none of them down to DIY. So they don't show that homeowners' own wiring started them, and they don't show the opposite either.
 
-S2: The full lesson has what we left out: how two official lists disagree about a vacuum cleaner's fuse, GOV.UK's habits for sockets, a fan heater and a hair dryer sharing one lead, what a home survey won't tell you, the full list of tenancies the landlord rules leave out, a second English figure that counts differently again, and an exercise to go round one room's plugs and leads. It's free at Foval Learning Institute dot org.
+S2: The full lesson has what we left out: how the two lists this course read disagree about a vacuum cleaner's fuse, GOV.UK's habits for sockets, a fan heater and a hair dryer sharing one lead, what a home survey won't tell you, the full list of tenancies the landlord rules leave out, a second English figure that counts differently again, and an exercise to go round one room's plugs and leads. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening.

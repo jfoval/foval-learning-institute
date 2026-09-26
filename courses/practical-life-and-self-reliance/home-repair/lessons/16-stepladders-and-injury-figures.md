@@ -121,7 +121,7 @@ This lesson carries on from lesson 15, "Ladders and working at height", which se
 these are: HSE's guidance and OSHA's rule are written for workplaces, and bind nobody working on
 their own home. This is general information, not legal advice. The rules differ between England,
 Wales, Scotland and Northern Ireland, and between US states and cities, and they change. The
-advice is still the best-specified practice there is, and this lesson follows it.
+advice is still the most carefully specified this course read, and this lesson follows it.
 
 ## The stepladder's own rules
 
@@ -385,8 +385,8 @@ is not a job for the kitchen steps: access made for the loft, or **Call someone*
 
 This lesson adds to the **map**: which rooms and landings have a level, clear spot for a stepladder
 that faces the work, and which high jobs (a landing ceiling, a stairwell) don't. It adds to the
-**stop list**: the top three steps without a suitable handhold, the very top always (OSHA's rule, the strictest of the three
-read), a stepladder folded and leaned on a wall, a stepladder used to climb into a loft or onto
+**stop list**: the top three steps without a suitable handhold, the very top always (OSHA's rule for US
+workplaces), a stepladder folded and leaned on a wall, a stepladder used to climb into a loft or onto
 another level unless it's made for that, and any both-hands job that fails HSE's six questions.
 
 ## Connections

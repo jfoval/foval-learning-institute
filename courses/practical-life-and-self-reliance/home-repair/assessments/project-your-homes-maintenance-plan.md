@@ -241,7 +241,7 @@ watching the downpipes in rain, the walk-rounds and looking behind furniture, st
 ## Part 4: the stop list
 
 From lessons 5, 6, 8, 10, 19 and 22, and the table at the top of lesson 23, "Hiring a tradesperson,
-and when to stop", which gathers the Call someone jobs from lessons 1 to 20. Add the stop lines from
+and when to stop", which gathers the Call someone jobs from lessons 1 to 21. Add the stop lines from
 every other lesson's "For your plan" that could arise in your home. For each job, write four things:
 
 1. **The job**, in your home's terms ("the textured ceiling in the hall", not "asbestos").

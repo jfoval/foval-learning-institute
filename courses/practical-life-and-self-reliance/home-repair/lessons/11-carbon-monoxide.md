@@ -485,7 +485,7 @@ it applies.
 
 First Aid and CPR lesson 14 put its prevention point this way: "the NHS advises a carbon monoxide
 alarm in every room with an appliance that burns gas, oil, coal or wood." That is the NHS's advice,
-and it is a good default. The rules are narrower in both UK nations whose rules this course read:
+not a legal rule. The rules are narrower in both UK nations whose rules this course read:
 the English landlord rule and building guidance, and the Scottish Government's explanation of its
 standard, all leave gas cookers out, and England's rules reach only let homes and new or
 replacement appliances. The US advice is organised by floors and bedrooms rather than rooms with
@@ -544,8 +544,8 @@ from a required alarm is against the law set out above.[13] An alarm that sounds
 every five years, and England's building guidance asks for a warning when an alarm's working life
 is running out.[6][7]
 
-**"Every room with a burning appliance legally needs an alarm."** It's the NHS's advice, and a good
-default. England's landlord rule and building guidance, and the Scottish Government's factsheet,
+**"Every room with a burning appliance legally needs an alarm."** It's the NHS's advice, not a legal
+rule. England's landlord rule and building guidance, and the Scottish Government's factsheet,
 leave out gas cookers, and in England the rules reach only let homes and new or replacement
 appliances.[8][7][10]
 
