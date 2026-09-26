@@ -1,6 +1,7 @@
 ---
 title: Choking
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/08-choking.mp3
 objectives:
   - >-
     Recognise mild and severe choking, and decide what to do for each under AHA 2025 and RCUK
