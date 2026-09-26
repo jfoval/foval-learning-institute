@@ -239,3 +239,116 @@ fired on the opening's "if you do it yourself" and was reworded).
 **Status after review:** needs second pass. The neutrality section was substantially restructured
 (a new weighing section, both case sections cut, the interest paragraph rewritten), the quiz is four
 new items, and the law changed in six places.
+
+## Second pass and neutrality audit (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer and neutrality auditor, under this course's
+`research/pipeline-briefs.md` and standards Part 3. Read the lesson cold, then the first-pass findings
+and resolutions above and the SOURCES "Stage 4 note, lesson 22".
+
+**Law, re-checked against live primaries** (curl, browser User-Agent, no personal data in any header;
+HTML stripped, PDFs through pdftotext, every string matched):
+- England reg 12(6A): the three kinds of work match word for word. Schedule 4, England and Wales
+  versions: para 1(a) to (e) (replacements, a damaged single-circuit cable, enclosures, mechanical
+  protection, bonding) apply in Wales anywhere; para 2 (added lights, switches, sockets and spurs, not
+  in a kitchen or special location, no special installation) is Wales only, and "special installation"
+  includes "an outdoor lighting or electric power installation". Quiz 1, the Welsh section and the
+  exercise's Wales answers are right.
+- Wales, both routes: reg 12(6)(a) and (b) (Wales version, as substituted 1 July 2026) free scheme
+  work and Schedule 4 work from a building notice; reg 20(3) has the installer act "not more than 30
+  days after the completion of the work"; gov.wales has the householder contact building control
+  "before you start the work", "if you do the work yourself". The opening, the Wales section and the
+  table are right.
+- Scotland: reg 2's "house" (divided "only vertically") excludes a flat; Schedule 3 type 1, "Any work
+  to or in a house", with the exceptions the lesson summarises ("such as"); reg 5, standards still
+  apply; the handbook's "virtually any work" and Pye Tait's flats line matched. Quiz 2 is right.
+  (Type 24 also frees like-for-like replacement of an "electrical fixture" in any building, so exercise
+  job (a) in a flat needs no warrant; the lesson's "ask" is cautious, not wrong. Noted, not changed.)
+- Approved Document P, Diagram 2: "NOTE: Socket-outlets should not be located within 3m of a bath tub
+  or shower tray" matched, with the 2.25 m, 0.6 m and 1.2 m (centre point of the shower head) limits.
+- Florida 489.503(6): (a)'s exemption, "prima facie evidence" for "more than one such structure" within
+  a year, (c)'s "personally appear and sign", and the disclosure statement's two sentences all matched.
+- Washington RCW 19.28.261(1)(b): "offered for sale within 12 months after obtaining the property"
+  matched; the L&I form's opening line matched.
+- California 7044(a)(1) and (b)(1): the owner exemption, its two conditions and the one-year rebuttable
+  presumption matched. Quiz 4 is right.
+- "Two years ago" (quiz 3): Building Act s36(4) now "10 years", in force in England from 1 October 2023
+  and in Wales from 1 July 2026 (amendment note F9); SI 2023/993 reg 7(2) saves the old section only
+  for notices already given. Work finished two years ago was finished after 1 October 2023, so it is
+  inside the new period on any reading, and the body's hedge ("did not read how the change applies to
+  work finished before") is correct and sufficient. Section 35's wording and penalty, regulation 18's 11
+  November 1985, the TA6 notes' two strings, and every argument-side quotation (FTC, IJ captures,
+  SELECT, Utah, ESF, DCLG paras 27 and 28, the federal report, the Scottish consultation) matched live.
+  So did NYC DOB, TDLR, IET, ESF Northern Ireland, standard 4.5 and the GOV.UK scheme list.
+
+**First-pass fixes.** Each of the 50 resolutions above re-checked against the lesson: all present and
+correct, with one exception fixed here (Florida, below). Cross-references open: lessons 5, 6, 10 and 23
+by title; Logic and Argument 7 and 8 by title; Digital Literacy 8 (reading the address) and 9 (a search
+result is not the official site) cover what the lesson says. DCLG's 25%, 20%, 11% and 11/11/62% match
+paras 27 and 28.
+
+**Neutrality audit.** Claim sort unchanged and right: the rules of the nine places established; whether
+licensing improves quality and safety contested and empirical; householder electrical work a value
+question; the wiring scope a labelled teaching judgement.
+
+Count, after this pass. For: SELECT (landing page twice, the £120 million and 2016 figures, its then
+managing director) and the Utah association (five short passages), with the Scottish consultation's
+"anyone can call themselves an electrician" as context. Against: the FTC (six passages) and IJ (its
+self-description, counts, two cost passages, the midwives finding, its alternatives). The federal report
+is given both ways (the 2 of 12 finding and the electrician findings; then "not simply against
+licensing" and its first best practice). Concessions: the against side is shown conceding (FTC's
+"can serve important goals", IJ's midwives); the for side is shown answering the entry objection
+(Utah's "not about protecting territory", SELECT's "routes to qualification") and limiting its ask
+(title protection). Last words: the case sections end on the against side, the weighing section on a
+line that cuts against both ("little gain ... is not the same as finding lower quality"), "Where they
+meet" on "Nothing this course read does either", the misconceptions on the one that corrects the
+against side's overreach. Balanced.
+
+"Weighing one claim from each side": the same three questions put to each; each claim's basis stated
+with a limit (Utah's "rests on how plumbing fails ... not on a comparison"; the FTC's "rests on how
+competition works, not on anything about a particular trade"); the same test named for each. The FTC's
+claim gets a line of partial evidence (fewer electricians per head bears on access) that the Utah claim
+does not, because the course read none on hidden plumbing faults, and it says so. Symmetric in method;
+the difference is in the evidence read, and it is disclosed.
+
+Course voice: no sentence takes a side. One sentence narrowed a side's case in the course's voice (IJ,
+below). Quiz 6 is symmetric. Quiz 5's two wrong evidence options (an electricians' survey, a trade
+body's statement) are both for-side kinds of evidence, because the stem tests a pro-licensing inference;
+its rule applies to both sides and the explanation says so, and quiz 6 balances it. Noted, not changed.
+
+Perspectives, each read for citations, concessions, last words and omitted facts:
+1. **An FTC or IJ economist.** Passes. The burden sentence keeps its condition, the "may" is kept and
+   named as a hedge, IJ is described in its own words. Objection found: "Its argument is about cost to
+   the customer" narrowed IJ's case, whose counts and self-description are about the right to work and
+   the burden on workers. Fixed.
+2. **Someone kept out of a trade by licensing costs.** Passes. IJ's year of training, exam and $295,
+   the FTC's "hamper entry", the report's fewer electricians per head, and the predict's "keep people
+   out of work" all carry this case; SELECT's inclusion line is the answer given to it.
+3. **A trade association or licensed electrician.** Passes. Worker-injury finding labelled as such;
+   SELECT's figures given, with a caveat matched by the one on the fire figures; the absence of a case
+   for licensing electricians as such said plainly; interest described in each side's own terms.
+4. **A consumer-protection regulator.** Passes. DCLG's information-asymmetry line with "potentially",
+   the respondents' make-up, the TV-repair finding (licensing with complaint investigation), and the
+   FTC's own concession all present.
+5. **A householder who wants to do their own work.** Passes. Routes in England and Wales, the
+   compliance-without-notice point, the 2013 cut "to reduce cost", ESF's concession, and the course's
+   scope called a teaching judgement and not a side; the absence of the DIY case in its own words is
+   disclosed rather than filled in. Minor, not changed: the first misconception's "Most work is not
+   notifiable at all" is true of England and less so of Wales.
+
+**Fixed in this pass** (one edit each, word-neutral):
+1. IJ paragraph: "Its argument is about cost to the customer:" became "It adds the cost to the
+   customer:" (8 words to 7), so the course no longer narrows IJ's case to consumer cost.
+2. Washington checkpoint, Florida sentence: "only selling more than one such structure within a year
+   of completion counts as evidence against it" became "the statute makes selling more than one such
+   structure within a year of completion evidence against it" (17 words each). The statute makes that
+   sale prima facie evidence; it does not say nothing else counts.
+
+**Checks.** No em dash and no spaced en dash in the lesson. Quiz keys 0,2,3,1,3,0 pass the relaxed
+rule: all four positions, no adjacent repeat, not identical to or a value shift of any lesson on disk,
+longest shared run with lessons 17 to 21 and 23 at offsets 0 and ±1 is 2. `npm run minutes`: 8,334
+words, 100 minutes, ok. `npm run quotes home-repair`: 603 quotations, 0 not found. `npm run validate`:
+exit 0, no line naming this lesson.
+
+**Verdict: CLEAN.** Law correct against live primaries, first-pass fixes correct, the neutrality
+section symmetric in method and in its course voice. Two minor notes above left for the feedback loop.

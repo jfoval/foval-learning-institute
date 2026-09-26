@@ -388,7 +388,7 @@ written. If she bought it two months ago, it would.
 
 **California counts from the other end:** a sale or offer within a year after completion raises a
 rebuttable presumption that the work was for sale. Florida asks whether the home is "not intended for
-sale", and only selling more than one such structure within a year of completion counts as evidence
+sale", and the statute makes selling more than one such structure within a year of completion evidence
 against it. The same plan to sell can matter in one state and not another. Either way, ask the body that
 issues the permit.
 :::
@@ -509,8 +509,8 @@ living in the occupation of their choice without arbitrary, unnecessary, or prot
 interference" and "files cutting-edge constitutional cases in state and federal courts", made its case
 in *License to Work*, now in a third edition (2022). It counted "more than 2,700 licenses across the 50
 states and the District of Columbia" among 102 lower-income occupations, needing on average "nearly a
-year of required education and experience, at least one exam, and $295 in fees".[30] Its argument is
-about cost to the customer: "one of the most consistent findings in licensing research is that by
+year of required education and experience, at least one exam, and $295 in fees".[30] It adds the cost
+to the customer: "one of the most consistent findings in licensing research is that by
 limiting entry, and thus competition, licensing leads to higher earnings for licensees", and
 "consumers pay the price for those higher earnings through higher costs, limited access to services or
 both."[30]
