@@ -1,6 +1,7 @@
 ---
 title: "Warm-up, stretching, soreness and recovery"
 minutes: 125
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/08-warm-up-soreness-and-recovery.mp3
 objectives:
   - >-
     Explain what a warm-up and stretching each do and do not do for performance, injury and range

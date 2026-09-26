@@ -11,6 +11,27 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-25 — Personal Safety is published and written
+
+**Personal Safety went live, the fifth course of Term 3**, and the institute's most sensitive yet:
+what the crime data say about who is at risk, opportunity and attention, home, out and away,
+domestic abuse and stalking, de-escalation, stepping in for someone else, fear and the robbery
+decision, sexual assault and the freeze, resistance training and choosing a class, and three
+lessons on the law (force, the home and property, carrying something for protection) before
+"Afterwards". Sixteen lessons: the outline's lesson 14 passed its planned seam and split in two.
+Every lesson went through a Tier B two-reviewer Stage 4 and a fresh second pass, every helpline,
+statute and figure was re-read on its live page, and a course-wide neutrality audit read the whole
+course as ten different readers and was itself verified. A 24-item test and the project "Your
+household safety plan" were each reviewed whole. Sixteen fact-checked podcast scripts make it
+*written*; `curriculum/audio-debt.yaml` opens at sixteen.
+
+**The law is taught as general information, never as advice or a verdict on anyone**, for England
+and Wales, Scotland, Northern Ireland and New York, Florida, Texas, California and Michigan as read.
+**Contested questions, above all guns, give each side its strongest case in its own words**, and
+the course says plainly where it did not read one side's work. **Responsibility for a crime lies
+with the person who commits it**: every lesson carries that line, and no scenario or question asks
+what a victim should have done.
+
 ## 2026-09-25 — First Aid and CPR is published and written
 
 **First Aid and CPR went live, the fourth course of Term 3.** Sixteen lessons, from being the first

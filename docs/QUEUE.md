@@ -21,9 +21,10 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Terms 1 and 2 are FINISHED. Term 3's first four courses are published and written**
-  (Nutrition, Strength and Fitness, Cooking Fundamentals on 2026-09-24; **First Aid and CPR on
-  2026-09-25**: sixteen lessons, each through a Tier B two-reviewer Stage 4 plus a fresh second
+- **Terms 1 and 2 are FINISHED. Term 3's first five courses are published and written**
+  (Nutrition, Strength and Fitness, Cooking Fundamentals on 2026-09-24; First Aid and CPR and
+  **Personal Safety on 2026-09-25**; Cooking and Nutrition are also FINISHED, every episode live).
+  First Aid: sixteen lessons, each through a Tier B two-reviewer Stage 4 plus a fresh second
   pass where the fix was heavy, the course-wide neutrality audit, a 24-item test and the project,
   both reviewed, and sixteen fact-checked scripts). Its briefs and measured drafting patterns are
   in `research/pipeline-briefs.md`. **Two First Aid questions are John's, neither blocking:**
@@ -36,13 +37,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   2026-09-25 that he has raised the cap; `scripts/podcast/budget.json` still says $56 because the
   new figure is behind his Google sign-in, so `npm run state` shows the cap as spent. **John: put
   the new cap from aistudio.google.com/spend into budget.json.** Episodes owed: see `npm run state`.
-  **Personal Safety is drafting** (2026-09-25), the fifth of Term 3, `sensitive_domain: true`:
-  15 lessons in `research/OUTLINE.md`; lessons 1 to 5 are through Stage 4 (Tier B, two reviewers,
-  a fresh second pass after each heavy fix), 6 to 8 are in review or drafting, then 9 to 15.
-  `assessments/final-test.md` has items for lessons 1 to 4; **append each later lesson's items as
-  it passes Stage 4**. Briefs and the rules the reviews keep finding are in
-  `research/pipeline-briefs.md` ("Course conventions settled so far"). Every helpline number,
-  statute and crime figure is re-read on its live page at drafting and at each review.
+  **Personal Safety** (`sensitive_domain: true`) is sixteen lessons: the outline's lesson 14 split
+  at its seam into 14 "The home and property" and 15 "Carrying something for protection", so
+  "Afterwards" is 16. Every lesson went through a Tier B Stage 4 and a fresh second pass; the
+  course-wide neutrality audit, its open findings and a verification pass are in
+  `research/reviews/neutrality-audit.md`; the 24-item test and the project were each reviewed whole.
+  **Left open, none blocking:** gate G17 (no critique of the gun-in-the-home studies was read, and
+  lesson 15 says so); Guerette and Bowers on displacement unread (lesson 4); lesson 5 calls the Suzy
+  Lamplugh Trust's caller advice "practitioner opinion" and later "sensible, untested" (make them
+  agree at its next edit); lessons 13, 15 and 16 run 100 to 110 minutes.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
