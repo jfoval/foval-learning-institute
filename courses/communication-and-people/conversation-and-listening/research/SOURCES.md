@@ -3022,3 +3022,207 @@ UNREAD: Skills for Communicating with Patients 3rd ed, Motivational Interviewing
 
 ---
 
+
+## Gate closures, lesson 03/04 (2026-09-26)
+
+Stage 3 drafting of lessons 3 ("Hearing is not listening") and 4 ("How listening goes wrong").
+Pages re-read today with curl (generic User-Agent) and converted to text; Internet Archive captures
+where the live page refused. Strings marked [V] below were copied from that text today.
+
+**Gates attempted, not closed; fallbacks written.**
+- **G9 (Derber):** both Internet Archive copies of *The Pursuit of Attention* are borrow-only
+  (access-restricted). Fallback: Derber named only through Headlee's excerpt and the secondary
+  summaries; no Derber quotation; no conversation count; his structural argument in one sentence.
+- **G10 (listening statistics):** Janusik and Wolvin 2009 full text still refused (Taylor and
+  Francis 403; Unpaywall lists no open copy); Rankin not reachable. Fallback: the chain traced
+  through Nichols and Stevens 1957 (re-read), Usera's 42% (re-read), the 2009 abstract (re-read).
+- **G14:** no primary cited by Itzchakov and Bodie 2026 was read. Lesson 4 attributes the
+  unnoticed-distraction point to the review, with no figure; lesson 3 prints no self-other
+  correlation and no 71%.
+- **G15 (textbooks):** not attempted beyond Stage 1's reading (paywalled). Adler's failure names
+  are given as names only; the purposes are given as the textbooks' purposes without Wolvin and
+  Coakley's names.
+- **G16 (30 to 40%):** Dunbar et al. 1997 has no open copy (Unpaywall). The figure is named in
+  lesson 4 only as not Tamir and Mitchell's measurement.
+
+**Nichols and Stevens, *Are You Listening?* (1957).** Internet Archive text layer (djvu OCR) of
+https://archive.org/details/areyoulistening00ralp, re-read. The strings below have no OCR errors;
+check the page image before a podcast script quotes them. Nichols's caveat continues past the
+sentence Part A records, and the continuation carries his defence of the survey:
+- "may be open to doubt" [V]; "But regardless of technical merit, Rankin's simple survey may be one
+  of the most important pieces of educational research in several generations." [V]
+- On his retention tests at Minnesota: "several thousand students"; "short talks by various faculty
+  members"; "he remembers only about half of what he heard" [V]. Two months on, "about 25 per cent"
+  (text layer has OCR errors in that sentence; paraphrase only).
+- The same Rankin split as the Acas guide: "9 per cent in writing, 16 per cent in reading, 30 per
+  cent in talking and 45 per cent in listening" (in the text layer "hstening"; Part A's [V] string
+  stands).
+
+**Worthington and Bodie 2018, chapter 1** (Wiley free excerpt), re-read:
+- "recall of lecture material is qualitatively different from recall in an interpersonal context,
+  where emotional overtones may affect retention." [V] (Part A records the sentence without its
+  last clause.)
+- "Even in Nichols’s work, the average recall score hovered around two thirds." [V]
+- The "definitions ... are the goal" sentence contains an em dash in the original; lessons quote
+  only "are the goal".
+
+**Usera, *Communicating to Connect*, 7.1**, https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_(Usera)/07:_Listening/7.01:_The_Fundamentals_of_Listening
+(URL not recorded at Stage 1), re-read: "Paul Rankin (1926) found that adults listen 42% and speak
+32% of their daily communication time." [V]
+
+**Janusik and Wolvin 2009**, ERIC abstract re-read through the ERIC API; Part A's [V] strings
+confirmed.
+
+**Acas, *Challenging conversations and how to manage them*** (PDF dated July 2014 on its last page),
+re-read: "On average we spend our working day communicating in the following ways" [V], then
+"writing 9%", "reading 16%", "speaking 30%", "listening 45%" [V]. The four figures are identical,
+in order, to Nichols and Stevens's retelling of Rankin; that match is lesson 3's labelled reading.
+
+**Bodie 2011, AELS, Table 1** (author's copy), re-read. Items quoted in lesson 3's exercise [V]:
+"I am aware of what others imply but do not say." "I listen for more than just the spoken words."
+"I keep track of points others make." "I summarize points of agreement and disagreement when
+appropriate." "I ask questions that show my understanding of others’ positions."
+
+**Ickes 1993** (Greater Good copy), re-read: "people lack metaknowledge regarding their own
+empathic accuracy" [V]; of Ickes, Stinson, Bissonnette and Garcia (1990), as reported there,
+self-report measures "proved to be disappointingly poor predictors of actual empathic accuracy" [V].
+
+**Itzchakov and Bodie 2026**, re-read: research on listening "remains conceptually fragmented and
+theoretically inconsistent" [V]. Puzzle 2 (distraction often undetected, with effects) re-read; its
+cited studies unread.
+
+**Rogers and Farson (1987 excerpt)**, re-read: "will be empty and sterile" and "to the others
+satisfaction" confirmed.
+
+**Headlee.** TED transcript (the talk page's embedded transcript, re-read): "There is no reason to
+learn how to show you're paying attention if you are in fact paying attention." and "Don't equate
+your experience with theirs" confirmed. TED Ideas excerpt, re-read: "Okay, Celeste, you win."
+confirmed; on Derber's two responses, "The first shifts attention back to yourself, and the second
+supports the other person’s comment." [V]
+
+**University of Minnesota, *Communication in the Real World*, 5.2 "Barriers to Effective
+Listening"**, re-read from Internet Archive capture 20241228174458 of
+https://open.lib.umn.edu/communication/chapter/5-2-barriers-to-effective-listening/ (the TESU
+mirror Part A used now returns 403). Strings used in lesson 4 [V]:
+- "our tendency to rehearse what we are going to say next while a speaker is still talking"
+- "Rehearsal of what we will say once a speaker’s turn is over is an important part of the listening
+  process"; "becomes problematic when response preparation begins as someone is receiving a message
+  and hasn’t had time to engage in interpretation or recall. In this sense, we are listening with
+  the goal of responding instead of with the goal of understanding"
+- "When interrupting becomes a habit or is used in an attempt to dominate a conversation"
+- "Distorted listening occurs when we incorrectly recall information, skew information to fit our
+  expectations or existing schemata, or add material to embellish or change information."
+- "Eavesdropping is a planned attempt to secretly listen to a conversation"
+- "people pay attention in order to attack something that a speaker says" (McCornack, 2007)
+- "listeners try to make the interaction about them" (McCornack, 2007); "one-upping,” when listeners
+  try to top what previous speakers have said"
+- "Pseudo-listening is behaving as if you’re paying attention to a speaker when you’re actually not"
+- "we all understandably engage in pseudo-listening from time to time"
+- "It is generally more competent to withhold sharing our stories until the other person has been
+  able to speak and we have given the appropriate support and response."
+- "matching stories isn’t considered empathetic listening, but occasionally doing it doesn’t make
+  you a narcissistic listener."
+
+**Itzchakov and Kluger 2018, HBR** (authors' hosted copy), re-read. Design of the 112-student study
+[V]: listeners told to "listen as you listen when you are at your best"; half sent text messages and
+told to answer briefly "(so the speakers saw that they were distracted)". Outcome: speakers "felt
+less anxious, more self-aware, and reported higher clarity about their attitudes on the topics"
+[V]. The article does not say which journal paper the study belongs to.
+
+**Samaritans, "What to do if you think someone is struggling"** (page title), re-read: the 22-word
+listening sentence confirmed (the live page uses a curly apostrophe in "they’re").
+
+**Vangelisti, Knapp and Daly 1990**, ERIC abstract re-read through the ERIC API; Part A's [V]
+strings confirmed.
+
+**Tamir and Mitchell 2012**: PMC and PNAS refused curl today; abstract re-read through Europe PMC.
+Study details in lesson 4 are from Part B §8.1's full-text record.
+
+**Bodie, Worthington and Gearhart 2013 (LSP-R)**, authors' copy re-read, including the discussion
+(beyond Part A's "abstract and opening"): the authors "suggest that our scale most adequately taps
+various goals that listeners have when engaged in situations that call them to be a particular kind
+of listener", which "calls into question whether listening styles truly are habitual, trait-like
+conditions or if they vary depending upon the nature of the situation" [V]. The abstract also
+reports the LSP-R "consistent over repeated administrations" (test-retest) [V]. Part A (d)'s
+"leaning toward habits" should be read with both: stable scores, an open question about traits.
+
+## Gate closures, lesson 01/02 (2026-09-26)
+
+Re-read live on 26 September 2026 by the lesson 1 and 2 drafter, with curl (generic browser
+User-Agent) and pdftotext or pandoc. No gate in the G1 to G20 table was needed for these lessons;
+Pomerantz 1984 is paraphrased, not quoted (the [V, OCR] rule), after a fresh OCR of the page images
+from the author's PDF. Nothing on the unread line was cleared. Quotations below are [V], copied from
+text extracted today.
+
+- **Sacks, Schegloff and Jefferson 1974** (ISCA archive PDF, full text re-read). The footnote on
+  cross-cultural validity: "Such a question can, of course, be settled only empirically, by
+  examining varieties of conversational materials." [V] The facts list and "locally managed,
+  party-administered, interactionally controlled, and sensitive to recipient design" [V] confirmed.
+- **Stivers et al. 2009** (PMC2705608, full text re-read). Methods: "videotaped interactions of
+  maximally informal, spontaneous, naturally occurring conversations, each with 2–6 consenting
+  participants" [V]; "Participants were often engaged in additional activities (e.g., eating,
+  drinking, or stringing beads)" [V]; "Other procedures hold in highly structured institutional
+  interaction (e.g., courts of law, church services, news interviews)" [V]. On Italian: "And only
+  17% of all responses overlap, not at all an unusual proportion." [V] On tempo: "Speakers become
+  hypersensitive to perturbations in timing of responses, measured in 100 ms or less." [V] and
+  "insiders, of course, will be calibrated to a local norm" [V]. On confirmations: "This advantage
+  for affirmation also holds, incidentally, even if the affirming response is negative in form (as
+  in “You're not coming?” and “No, I'm not”)" [V]. The coders' "on time" averages (203 ms Danish,
+  36 ms Japanese) recorded in Part B §2.1 were not found in the HTML text (probably in the
+  supplement) and were not used.
+- **Levinson 2016** (MPG PuRe author PDF, downloaded 200 today). "Across languages, the modal
+  response time (gaps between turns) is around 200 ms" [V], "the average duration of a single
+  syllable" [V]; "average turn duration is around 2 s" [V]; EEG: speech-act recognition "within the
+  first 400 ms of the turn-beginning" [V], "in this kind of constraining context" [V]; the four steps
+  a listener must take (predict the act, formulate, estimate the end, listen for closing cues).
+- **Levinson and Torreira 2015** (PMC4464110, full text re-read). The planning latencies come from
+  laboratory picture tasks: "The average reaction from seeing a picture to beginning the naming of
+  has been estimated at 600 ms" [V]; "it takes about 1500 ms before speech output begins" for
+  describing simple scenes [V]. Switchboard: "If we exclude silent parts, 95.3% of the speech signal
+  corresponded to speech by one speaker." [V]; between-overlaps "with an estimated modal duration
+  of 96 ms, a median of 205 ms" [V]; the backchannel sample was 100 between-overlaps and 100
+  within-overlaps; "we suggest that comprehension is predictive" [V].
+- **Schegloff and Sacks 1973** (ISCA archive PDF, full text re-read). "A basic rule of adjacency
+  pair operation is: given the recognizable production of a first pair part, on its first possible
+  completion its speaker should stop and a next speaker should start and produce a second pair part
+  from the pair type of which the first is recognizably a member." [V] Note: the phrase "noticeably
+  absent" (OUTLINE lesson 2) is not in this paper; the lessons do not quote it.
+- **Schegloff, Jefferson and Sacks 1977** (ISCA archive PDF, full text re-read). Third-turn and
+  same-turn repair positions confirmed; "One particularly common modulation form is Y'mean X?" [V];
+  the single-beds extract: Lori, "But y'know single beds'r awfully thin tuh sleep on." Sam, "What?"
+  Lori, "Single beds." Ellen, "Y'mean narrow?" Lori, "They're awfully narrow // yeah." [V, with the
+  paper's // overlap mark]; on adult-child talk, other-correction "seems to be not as infrequent, and
+  appears to be one vehicle for socialization" [V].
+- **Kendrick and Torreira 2015** (White Rose submitted version,
+  https://eprints.whiterose.ac.uk/id/eprint/116177/1/Kendrick_and_Torreira_2015_.pdf, full text
+  re-read). 195 responses; "63 percent (n=123) were analyzed as preferred actions" [V]; "When a
+  response includes a turn-initial “well”, the probability that it will be a dispreferred action is
+  0.78" [V], and without any turn-initial practice "drops to 0.21" [V]; "the proportion of
+  dispreferred actions is greater after approximately 700 ms (25% of dispreferreds vs. 8.9% of
+  preferreds" [V]; the summary: "we do not find that long delays are characteristic of dispreferred
+  actions, since short gaps are the most frequent before dispreferreds, we do find that dispreferred
+  actions are characteristic of long delays." [V] The cook extract (Pomerantz 1984:77), reproduced
+  as "D’they have a good cook there?" (1.7) "Nothing special?" "No. Every- everybody takes their
+  turns." [V], with the authors' reading that "The speaker apparently understands the 1700 ms of
+  silence as indicative of a dispreferred action and uses this information to revise the initial
+  question." [V] Their account of Roberts, Francis and Morgan's 2006 experiment (simulated phone
+  calls, "Sure!" after 0, 600 or 1200 ms, willingness ratings falling) confirms Part B §2.3's
+  description; that paper stays unread. Their summary of earlier CA on refusals of invitations: "the
+  rejection employs a number of practices that the acceptance does not: (i) prefatory particles and
+  in-breaths; (ii) qualification and mitigation; (iii) appreciation of the invitation; (iv) placement
+  of the rejection component in a non-contiguous position with the invitation; and (v) an account
+  that explains the speaker’s inability to accept the invitation" [V].
+- **Roberts and Francis 2013**: the publisher PDF returned 403 today. PubMed abstract (PMID
+  23742442) re-read: "constructing dialogues where responses to requests were identical and
+  affirmative so that study participants' (n = 380) ratings about "willingness" would be colored by
+  lag time, not semantics" [V].
+- **Templeton et al. 2022** (PMC8794835, full text re-read). Study 2 dyads "could be same or mixed
+  gender" [V] (only Study 1 was same-gender). The authors' limitations paragraph: "In this context,
+  fast response times might actually signal that two people are not listening to each other" [V],
+  of conversations with conflict; and "our sample was from a Western, educated, industrialized, rich,
+  and democratic (i.e., WEIRD) population" [V].
+- **Pomerantz 1984** (author's PDF, 23 scanned pages, re-OCR'd today with tesseract at 200 dpi).
+  Confirms the self-deprecation reversal ("After self-deprecations, conversants typically treat
+  disagreements as preferred and agreements as dispreferred" [V-OCR]) and that a recipient "may
+  hesitate, hedge, or even minimally disagree rather than agree with the criticism" [V-OCR, the OCR
+  read "evén"]. Used in paraphrase only; not checked against the page image by eye.
