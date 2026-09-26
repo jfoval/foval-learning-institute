@@ -1,6 +1,7 @@
 ---
 title: "Danger, the call, and recognising cardiac arrest"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/02-danger-the-call-and-recognising-cardiac-arrest.mp3
 objectives:
   - >-
     Sequence the first minute for a collapsed adult under US and UK/European guidance, from

@@ -1,6 +1,7 @@
 ---
 title: Pushing on the chest
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/03-pushing-on-the-chest.mp3
 objectives:
   - >-
     State the compression rate, depth, recoil and hand position for an adult that the AHA's and
