@@ -1,6 +1,6 @@
 ---
 title: Stepladders, and what the ladder injury figures count
-minutes: 60
+minutes: 65
 objectives:
   - >-
     Apply HSE's stepladder guidance and OSHA's stepladder rules to a described job, including the
@@ -36,20 +36,22 @@ quiz:
       the US studies this lesson used fits best?
     options:
       - It's right, since the one national study of ladder injuries counted only workers
-      - It's wrong twice, since most recorded injuries were away from work and most falls low
-      - It's wrong about homes, but right that a fall of two metres rarely does real harm
+      - It's wrong twice, as most recorded injuries were off work and hurt workers fell low
+      - It's wrong about homes, but it's right that a fall of two metres rarely does real harm
       - It's right about height, since injuries cluster in falls from above five metres
     answer: 1
     explain: >-
-      D'Souza and colleagues' emergency-department study found that, where the place was recorded,
-      almost all ladder injuries happened away from work, in homes and on farms. NIOSH's study of
-      work-related ladder falls found most of the nonfatal ones treated in emergency departments were
-      from under 16 feet (about 4.9 m), with 6 to 10 feet the commonest. Low falls are where the
-      injuries are, so neither half of the columnist's reassurance holds. The first study counted
-      everyone, not only workers.
+      D'Souza and colleagues' US emergency-department study found that, where the place was
+      recorded, 97.3% of ladder injuries happened in non-occupational settings such as homes and
+      farms. NIOSH's US study of injured workers found that, where the fall height was recorded,
+      nearly 90% of the nonfatal falls treated in emergency departments were from under 16 feet
+      (about 4.9 m), with 6 to 10 feet the commonest. So low falls hurt people often, and a fall of a
+      couple of metres is no reason to relax. Neither study counts injuries per ladder use, so
+      neither says a low job is riskier than a high one. The first study counted everyone, not only
+      workers.
   - q: >-
-      A woman on Gower wants to hang a length of lining paper at the top of a stairwell from a
-      stepladder on the landing, which will take both her hands. On HSE's guidance, what does she do
+      A woman on Gower wants to hang lining paper high on her bedroom wall from a stepladder,
+      which will take both her hands. On HSE's guidance, what does she do
       before deciding?
     options:
       - Weigh HSE's questions on height, a handhold before and after, light work and side loads
@@ -66,44 +68,45 @@ quiz:
       three that HSE says not to work from without a suitable handhold.
   - q: >-
       A blogger sets one US product-injury estimate for "ladders, stools" in a recent year beside an
-      older study's yearly average for ladders alone, and writes that ladder injuries have nearly
+      older study's yearly average of ladder injuries, and writes that ladder injuries have nearly
       doubled. What's the first problem with that?
     options:
-      - Nothing, since both come from US emergency departments and so can be compared directly
+      - Nothing, since both come from US emergency departments and so they can be compared directly
       - The older study counted only deaths, so it can't be set beside an injury estimate at all
+      - They may count different products, and one is a single year set against a 16-year average
       - The newer figure counts only work injuries, which the older study had left out
-      - They count different things, since one group takes in step stools and the years differ
-    answer: 3
+    answer: 2
     explain: >-
-      CPSC's product group is "Ladders, stools", so it includes step stools, and it's for one year;
-      D'Souza and colleagues' figure is an average of ladder injuries over 1990 to 2005. Both are
-      emergency-department estimates, but a comparison needs the same definition and the same kind
-      of period. The older study counted injuries, not deaths, and CPSC's product estimates aren't a
+      CPSC's product group is "Ladders, stools", for one year; D'Souza and colleagues' figure is an
+      average over 1990 to 2005, from cases picked by "ladder product codes", which the abstract
+      doesn't list. Both are emergency-department estimates, but a comparison needs the same
+      definition and the same kind of period, and nothing this course read shows these have either.
+      The older study counted injuries, not deaths, and CPSC's product estimates aren't a
       count of work injuries.
   - q: >-
       A retired farmer on the Great Plains, in his seventies, says his age makes no difference on a
       ladder because he's used one all his life. What do the US figures this lesson read suggest?
     options:
-      - He's right, as the figures show injuries spread evenly across all adult age groups
+      - He's right, as the figures show injuries spread quite evenly across all the adult age groups
       - He's right, since older people had fewer ladder injuries than any other age group
-      - Age matters, as older people were a small share of injuries but far more of the worst
       - Age matters, but only for falls from roofs, which the ladder figures leave out
-    answer: 2
+      - Age matters, as older people were a small share of injuries but far more of the worst
+    answer: 3
     explain: >-
       CPSC's older data (1997 to 2002) found people 65 and over were a small share of
       emergency-treated ladder injuries but a much larger share of those admitted to hospital, and
-      half of the ladder deaths in the year it counted. Barbat and colleagues' later study of head,
+      half of the deaths in its ladders and step stools group in the year it counted. Barbat and colleagues' later study of head,
       face and neck fractures found about a quarter of patients were over 65. Nothing read says
       injuries spread evenly by age, and the figures are about ladders, not roofs. Experience isn't
       something any of the studies measured.
 ---
 
 A stepladder feels like the safe one. It stands on its own, it's short, and it lives in the kitchen
-cupboard. But in Great Britain's workplace guidance, the treads of a stepladder are a working
-platform like a roof or a scaffold, and "working at height" means anywhere a fall could hurt you.[10]
-In the United States, where the only national ladder-injury figures this course found come from,
-most people hurt on ladders were hurt away from work, and most falls that put a worker in an
-emergency department were from under 16 feet.[4][9] This lesson takes the stepladder's own rules,
+cupboard. But lesson 15 showed that Great Britain's workplace guidance counts a stepladder's
+treads as a working platform, like a roof or a scaffold.[10] And in the United States, where the
+only national ladder-injury figures this course found come from, a study of injured workers found
+that most of those whose fall height was recorded had fallen less than 16 feet (about 4.9 m).[9]
+This lesson takes the stepladder's own rules,
 works two jobs through them, and then reads the injury figures for what each one counts, including
 the British figure this course looked for and didn't find.
 
@@ -118,6 +121,8 @@ Wales, Scotland and Northern Ireland, and between US states and cities, and they
 advice is still the best-specified practice there is, and this lesson follows it.
 
 ## The stepladder's own rules
+
+This is general information, not legal advice.
 
 :::predict Before reading on: HSE says not to stand and work on the "top three steps" of a stepladder unless there's a suitable handhold. Does it count the very top, the flat part some stepladders have, as one of the three?
 
@@ -141,7 +146,7 @@ Great Britain:[1]
 OSHA's [construction rule](https://www.ecfr.gov/current/title-29/part-1926/section-1926.1053) is
 shorter and absolute about the very top: "The top or top step of a
 stepladder shall not be used as a step."[2] It also says the cross-bracing on the back of a
-stepladder is not for climbing unless the ladder has steps on both sides.[2] OSHA's QuickCard, which
+stepladder, the diagonal braces between its back legs, is not for climbing unless the ladder has steps on both sides.[2] OSHA's QuickCard, which
 is advice, adds: don't use a self-supporting ladder such as a stepladder as a single ladder or in a
 partially closed position.[3] Folding a stepladder flat and leaning it on a wall is exactly that.
 
@@ -157,7 +162,8 @@ handhold, and both hands are busy.[1] The knees against the top may be HSE's "bo
 stepladder", but only "for a brief period".[1] And drilling side-on into brick is HSE's own example
 of side loading: avoid it, or stop the steps tipping by tying them, or use something more
 suitable.[1] Three problems in one job, before anyone thinks about the dust from drilling brick,
-which is lesson 13's subject, "Tools, dust and fumes: a small kit used safely".
+lesson 13's subject, "Tools, dust and fumes: a small kit used safely", or what might be in the
+wall, lesson 14's, "Before you drill: cables, pipes and what's in the wall".
 :::
 
 ## When both hands come off
@@ -178,42 +184,48 @@ a stepladder job. HSE gives no scoring and no threshold; it asks the person deci
 
 ## Two jobs, worked through
 
+This is general information, not legal advice.
+
 ### Painting a hall ceiling
 
 A couple in a 1960s semi in East Lothian want to paint their hall ceiling, about 2.4 metres high,
 from their stepladder. The job will take most of an afternoon.
 
 First, whether a stepladder is right at all. The height is modest and the floor is level. But
-HSE's 30-minute guide is for time on the ladder "at a time", so an afternoon's job means getting
-down regularly, to reload and to move the steps along.[1] Painting a ceiling is light work and
+HSE's 30-minute guide is for time up the steps "at a time". An afternoon's painting means getting
+down to reload and to move the steps, and on this course's reading, the same one lesson 15 gave,
+that keeps each spell under the guide; HSE itself recommends other equipment for a task that would
+keep you up longer.[1] Painting a ceiling is light work and
 does not side-load the steps, two of HSE's six questions.[1] It does mean holding a roller overhead,
 so the others matter: face the work, keep your middle between the stiles, and move the steps rather
 than stretch.
 
 Then the set-up. All four feet on the floor, locks engaged, the steps level, and nothing underneath
 that can slide.[1] They stand where the ceiling is in easy reach without the top three steps, and
-never the very top.[1][2] Three points of contact becomes two feet and one hand, or for a moment,
+never on the very top, which OSHA's construction rule forbids outright.[1][2] Three points of contact becomes two feet and one hand, or for a moment,
 two feet and the body against the steps.[1]
 
 Their stepladder turns out to be one step too short to reach the ceiling from anywhere but the top
 two steps. That's where the job changes: a taller stepladder, or the work done from the floor with a
-roller on a long handle, which is NIOSH's "as much of the work as possible on the ground" applied at
-home (this course's suggestion; no source read names the tool), or someone else.[9]
+roller on a long handle, which is NIOSH's advice from lesson 15, doing as much of the work as
+possible from the ground, applied at home (this course's suggestion; no source read names the
+tool), or someone else.[9] Done that way, it's **Yours, on conditions**: the stepladder's rules
+above, and spells under HSE's time guide.
 
 ### A smoke alarm on a landing ceiling, with a gap for you
 
-A man in a flat in Inverclyde wants to fit a sealed battery smoke alarm to the ceiling of his
-landing. Scotland's rules on which alarms a home needs are lesson 12's, "Smoke alarms: where they go,
-and why they stay silent". The Scottish Government says of sealed battery alarms that "you can fit
+A man in a two-storey maisonette in Inverclyde wants to fit a sealed battery smoke alarm,
+interlinked with the others as Scotland's rules require, to the ceiling of his landing. Which alarms a Scottish home needs, and where, is lesson 12's
+subject, "Smoke alarms: where they go, and why they stay silent". The Scottish Government says of sealed battery alarms that "you can fit
 these alarms yourself"; for mains-wired ones it says they "must be fitted by a qualified
-electrician".[11] His is battery, so the fitting can be his, if it's his home to change, or his landlord agrees. The
-ladder part is what this lesson is
-about.
+electrician".[11] His is battery, so the fitting can be his, if it's his home to change, or his landlord
+agrees. The ladder part is what this lesson is about.
 
-How the alarm is fixed is in its own instructions. Whatever they say, HSE names this very task,
+How the alarm is fixed is in its own instructions, which is where the Scottish Government sends
+you too: alarms "should be fitted as per manufacturer’s guidance".[11] Whatever they say, HSE names this very task,
 installing a smoke detector on a ceiling, as one where you can't keep a handhold, so the decision
-"needs to be justified" against HSE's six questions.[1] The landing is narrow, and the only place the stepladder fits puts it side
-on to the spot where the alarm goes, at the top of the stairs.
+"needs to be justified" against HSE's six questions.[1] The landing is narrow, and the only place
+the stepladder fits puts it side on to the spot where the alarm goes, at the top of the stairs.
 
 :::predict Before reading on: go through HSE's six questions for this job. Which ones does it pass, which are in doubt, and what would you change?
 
@@ -225,42 +237,51 @@ the stepladder is side on to the job, which HSE says to avoid where possible. **
 alarm has to be within reach with his middle between the stiles. **Tying:** he'd have to look for anything on the landing to tie
 the steps to.[1] So the doubts are the position and the stairs. The change is to
 put the steps where they face the work on the flat of the landing, and site the alarm where that's
-possible, within whatever siting rule applies, or to have someone else do it. Stepladders at the top
-of a flight of stairs are this course's reading of HSE's "level and stable"; HSE's pages don't name
-stairs.
+possible, within whatever siting rule applies, or to have someone else do it. That the stairs make the fall longer is this course's
+reading of HSE's first question, the height of the task; HSE's ladder pages don't mention stairs. A
+stepladder with its feet on the stairs themselves fails HSE's plainer rule, all four feet on the
+ground and the steps level.[1] As a stepladder job it's **Yours, on conditions**, and the
+conditions are the six questions; if the steps cannot stand on the flat of the landing facing the
+work, it's **Call someone**.
 :::
 
 If the alarm's instructions have him drill the ceiling, the dust is lesson 13's subject, and whether
 an older ceiling's finish is something not to disturb is lesson 19's, "Asbestos, lead paint and
-radon: what not to disturb".
+radon: what not to disturb". The Scottish Government says an alarm does not need to disturb an
+asbestos ceiling: a battery alarm can be stuck on with a firm adhesive instead.[11]
 
 ## What the injury figures count
 
-:::predict Before reading on: of American ladder injuries treated in emergency departments, what share would you guess happened at work rather than at home or on a farm?
+:::predict Before reading on: of American ladder injuries treated in emergency departments, what share would you guess happened at work rather than somewhere else, such as a home or a farm?
 
 Very few. [D'Souza and colleagues](https://pubmed.ncbi.nlm.nih.gov/17478268/) estimated that 2,177,888 people were treated in US emergency
 departments for ladder injuries from 1990 to 2005, and of the cases where the place was recorded,
 "97.3% occurred in non-occupational settings, such as homes and farms."[4]
 :::
 
-Every figure in this section is American, because no British one could be found. Take each one with
+Every figure in this section is American, because this course found no British figure it could
+trace to a primary source. Take each one with
 what it counts.
 
 **D'Souza and colleagues, 2007** (this course read the abstract only). An emergency-department
 study of 1990 to 2005, from the US National Electronic Injury Surveillance System: "an average of
 136,118 cases annually", 76.5% of them male, fractures the commonest injury at 31.5%, and nearly 10%
 admitted or transferred to another hospital, "approximately twice that of consumer product-related
-injuries overall". The count rose by more than 50% over the period.[4] The data are twenty to
-thirty-five years old.
+injuries overall". The count rose by more than 50% over the period.[4] The data are twenty-one to
+thirty-six years old.
 
 **CPSC, injuries in 2020.** The US Consumer Product Safety Commission's staff estimate for the
-product group "Ladders, stools" is 227,000 emergency-department treated injuries in 2020, and
-633,000 medically attended ones.[5] The group includes step stools, so it is not the same count as
-D'Souza's, and CPSC says the analysis is its staff's and wasn't reviewed by the Commission.
+product group "Ladders, stools" is 227,000 emergency-department treated injuries in 2020 "related to, but not
+necessarily caused by" those products, and 633,000 medically attended ones, a wider estimate that
+adds injuries treated elsewhere, such as in doctors' offices and clinics.[5] The group's name
+includes stools, and D'Souza's abstract says only that it used "ladder product codes", so the two
+may not count the same products, and one is a single year where the other is a 16-year average.[4]
+CPSC says the analysis is its staff's and was not reviewed by the Commission.
 
 **Older people.** CPSC's hazard screening report on people aged 65 and over, from data for 1997 to
-2002, says: "Persons 65 and older account for half (79) of all ladder deaths." The 79 is the
-report's death count for the year 2000. The same report says older people made up 16% of
+2002, groups ladders with step stools, and says: "Persons 65 and older account for half (79) of
+all ladder deaths." The 79 is the report's death count for the year 2000, for ladders and step
+stools together, and the shares below are for the same group. The same report says older people made up 16% of
 emergency-treated ladder injuries but 39% of those admitted to hospital.[6] Those data are more than
 twenty years old. A later study, Barbat and colleagues (abstract only), estimated 20,450
 ladder-related fractures of the head, face and neck in US emergency departments from 2009 to 2018,
@@ -273,16 +294,15 @@ stairs.[8]
 [studied](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6316a2.htm)
 work-related ladder falls in the US in 2011: 113 deaths and an estimated 34,000
 emergency-department visits. Where the fall height was recorded for the nonfatal cases, "nearly
-90% were from heights <16 feet (<4.9 m)", and falls of 6 to 10 feet were the commonest. Head
+90% were from heights <16 feet (<4.9 m)", and falls of 6 to 10 feet were the commonest. The height was recorded for about 11,400 of the
+34,000, roughly a third, so the 90% describes that third. Head
 injuries were involved in about half of the deaths.[9] These are workers, not householders, in one
-year, but they're the only fall-height figures this course found. The same report cites a finding
-that "43% of fatal falls in the last decade have involved a ladder", across all fatal falls in the
-US, not only at work; this course read the report and not the study behind that figure.[9] NIOSH
+year, but they're the only fall-height figures this course found. NIOSH
 gives no account of why low falls injure so often, and neither does this lesson.
 
 **The UK.** This course looked for a British figure for ladder injuries at home and found no primary
 source. Numbers that circulate online attributed to RoSPA, the Royal Society for the Prevention of
-Accidents, couldn't be traced to any RoSPA page, so they aren't given here, and no American figure
+Accidents, couldn't be traced to any RoSPA page this course read, so they aren't given here, and no American figure
 should be read as a British one.
 
 :::checkpoint Someone reads that "ladder injuries treated in American emergency departments rose by more than half", and concludes that ladders became much more dangerous to use. What does the study say, and what would you need to know before agreeing?
@@ -305,9 +325,11 @@ to weigh.[1]
 **"Most ladder injuries happen at work."** In D'Souza and colleagues' US study, where the place was
 recorded, 97.3% were away from work.[4]
 
-**"It's the high ladders that hurt people."** In NIOSH's study of work-related falls, nearly 90% of
-the nonfatal falls treated in emergency departments, where the height was recorded, were from under
-16 feet (4.9 m).[9]
+**"A fall from stepladder height can't do much harm."** In NIOSH's US study of work-related
+falls, nearly 90% of the nonfatal falls treated in emergency departments, where the height was
+recorded, were from under 16 feet (4.9 m), and 6 to 10 feet was the commonest. That shows low falls
+hurt people often. It does not show a low ladder is riskier than a high one, because the study did not
+count how often people use each.[9]
 
 **"The UK figure is about the same."** This course found no UK figure to compare (see "What the
 injury figures count").
@@ -317,40 +339,45 @@ injury figures count").
 :::exercise Three jobs: ladder or not?
 Take 15 minutes over this. For each job, say whether a ladder is the right equipment on HSE's
 guidance, and if it is, which rules matter most. Lesson 15's rules for leaning ladders apply to the
-second and third. Write your answers before you open the checkpoint.
+second. Write your answers before you open the checkpoint.
 
 1. Replacing a bulb in a hall light 2.5 m up, from a stepladder, with the light switched off (5
    minutes' work).
 2. Clearing leaves from a gutter along the whole front of a two-storey house, from a leaning ladder
    moved every couple of metres (about two hours' work, done in one go).
-3. Fixing a loose satellite dish bracket on a gable wall, where the phone and power cables run to the
-   same wall about 3 m away.
+3. Climbing from a stepladder up through a ceiling hatch into the loft, to fetch a box of
+   decorations and carry it down.
 :::
 
 :::checkpoint Compare yours with these.
 
-**1. A stepladder is reasonable.** Low risk, short, level floor. The stepladder rules apply: four
+**1. A stepladder is reasonable: Yours, on conditions.** Low risk, short, level floor. The stepladder rules apply: four
 feet down, locks engaged, face the work, not the top three steps without a suitable handhold, and
 three points of contact, or two feet and the body against the steps for a brief moment.[1] Changing
-a bulb is not wiring; anything beyond the bulb is, and this course does not teach it.
+a bulb is not wiring; anything that means opening the fitting is, and this course does not teach
+it.
 
-**2. Not in one go.** Two hours fails HSE's 30-minute guide unless it's broken into shorter spells.
+**2. Not in one go.** Two hours fails HSE's 30-minute guide; on this course's reading, it could pass only as shorter
+spells with the ladder set up afresh each time.
 Every move means a fresh set-up by lesson 15's rules: angle, ground, feet checked, secured, and
 nothing resting on a plastic gutter.[1] Lesson 17, "Keeping water out: roof, gutters, ground and
 walls", is about what the gutter is for. If the spells and the moves are more than you'll really do,
-it's a job to hire out.
+it's a job to hire out: **Call someone**.
 
-**3. Not from a ladder.** A power cable 3 m away puts the job inside HSE's 6 m, the only distance
-this course read (British workplace guidance), and the cable is not something you can make dead or
-insulate.[1] **Call someone.**
+**3. Not from an ordinary stepladder.** LA455, the brief guide the Ladder Association publishes
+with HSE for employers in Great Britain, says "Stepladders should not be used to access another
+level, unless they have been specifically designed for this".[12] Coming back down with a box in
+both hands is also the kind of no-handhold task HSE says has to be justified.[1] As described, it
+is not a job for the kitchen steps: access made for the loft, or **Call someone**.
 :::
 
 ## For your plan
 
 This lesson adds to the **map**: which rooms and landings have a level, clear spot for a stepladder
 that faces the work, and which high jobs (a landing ceiling, a stairwell) don't. It adds to the
-**stop list**: the top three steps without a suitable handhold, the very top always, a stepladder
-folded and leaned on a wall, and any both-hands job that fails HSE's six questions.
+**stop list**: the top three steps without a suitable handhold, the very top always (OSHA's rule, the strictest of the three
+read), a stepladder folded and leaned on a wall, a stepladder used to climb into a loft or onto
+another level unless it's made for that, and any both-hands job that fails HSE's six questions.
 
 ## Connections
 
@@ -400,4 +427,8 @@ does not teach it.
     **Read: full text, 25 September 2026.** Guidance for workplaces in Great Britain. <!-- lesson 12 gate closures -->
 11. Scottish Government, ["Fire and smoke alarms: the law"](https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/),
     last updated 14 August 2024. **Read: the sections "What each home needs" and "Where and what to
-    buy", re-read live 25 September 2026 by the lesson 10 drafter.** <!-- SOURCES Part D D26; lesson 10 gate closures -->
+    buy", re-read live 25 September 2026, and "Installation of alarms", read live 26 September
+    2026.** <!-- SOURCES Part D D26; lesson 10 gate closures; Stage 4 note, lesson 16 -->
+12. The Ladder Association and HSE, [*LA455 Safe Use of Ladders and Stepladders: A brief guide*](https://ladderassociation.org.uk/la455/),
+    Version 1, Rev 1, 09/26. **Read: the landing page and the whole PDF, 25 September 2026, with
+    section 09 re-read 26 September 2026.** Written for employers. <!-- SOURCES Part B §2; lesson 12 gate closures; Stage 4 note, lesson 16 -->

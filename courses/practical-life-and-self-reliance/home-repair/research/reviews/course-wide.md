@@ -294,3 +294,24 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   (quiz); Denbighshire and New Mexico (body).
 - **Quiz keys:** lesson 13 now 3,1,2,1,0,2, checked against every lesson on disk and lesson 12's keys
   both before and after its own fix.
+
+## 2026-09-26 — Lesson 16 fix pass: notes for later lessons
+
+- **Socias's "43% of fatal falls in the last decade have involved a ladder" is not used**, in lesson
+  16, its podcast script or any later lesson. Read as written (all US fatal falls; its source,
+  Rockett 2012, unread), it can't be squared with ladder deaths that run to hundreds a year. OUTLINE
+  lesson 16 and SOURCES "Stage 4 note, lesson 16" carry the reasoning.
+- **Socias's fall heights were recorded for about a third** of the nonfatal cases (11,400 of
+  34,000). "Nearly 90% under 16 feet" always carries "where the height was recorded" and "work-related",
+  and is a count, not a risk per use (Socias names the missing denominator).
+- **CPSC's 65-and-over figures are for "Ladders and step stools"** (the 79 deaths, 16%, 39%), and
+  D'Souza's abstract says only "ladder product codes", so never call either "ladders alone" or say
+  the two differ by step stools.
+- **LA455 section 09**: "Stepladders should not be used to access another level, unless they have
+  been specifically designed for this." Now [V] in SOURCES; lesson 16's exercise uses it for loft
+  hatches.
+- **The Scottish Government's "Installation of alarms"** page is [V] in SOURCES (fit per the maker's
+  guidance; battery alarms by adhesive over an asbestos ceiling). Lesson 19 may point to it.
+- **Places now used by lesson 16:** Puerto Rico, Guam, Gower, the Great Plains, East Lothian,
+  Inverclyde (now a two-storey maisonette).
+- **Quiz keys:** lesson 16 now 2,1,0,2,3 (was 2,1,0,3,2, identical to lesson 14's).
