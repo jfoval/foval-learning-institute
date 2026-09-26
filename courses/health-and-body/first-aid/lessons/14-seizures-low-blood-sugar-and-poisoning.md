@@ -1,6 +1,7 @@
 ---
 title: Seizures, low blood sugar and poisoning
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/14-seizures-low-blood-sugar-and-poisoning.mp3
 objectives:
   - >-
     Sequence first aid for a convulsive seizure, and decide when to call under US and UK guidance
