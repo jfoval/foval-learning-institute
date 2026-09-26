@@ -332,5 +332,8 @@ Applied from `reviews/neutrality-audit.md` (course-wide, 2026-09-26) by a fixer 
   lesson 25's stop table). Not changed, for a later open: Part 6 (line 384) and lesson 13 also make a
   jump start on a US freeway shoulder a call, and the fail line, as the audit worded it, names only
   the wheel change.
+- **Fail line, jump start (2026-09-26):** the roadside line now reads "a wheel change or jump start
+  on a US freeway shoulder", closing the gap above: Part 6 and lesson 13 already make that jump
+  start a call. Three words added; the callout is unchanged.
 
 `npm run validate` exit 0.

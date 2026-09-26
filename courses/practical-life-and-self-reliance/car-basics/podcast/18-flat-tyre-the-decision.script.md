@@ -25,7 +25,7 @@ about: >-
   the plug from outside and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all four nits fixed (what drivers expect, the tyre structure, a spare on a car, try to keep control). 2026-09-26, neutrality audit fixes (N5): Green Flag's label now reads "sells breakdown cover and repairs", as the lesson does; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all four nits fixed (what drivers expect, the tyre structure, a spare on a car, try to keep control). 2026-09-26, neutrality audit fixes (N5): Green Flag's label now reads 'sells breakdown cover and repairs', as the lesson does; a fresh check is owed. Re-checked 2026-09-26 after the neutrality fixes: fresh fact-check PASS."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.

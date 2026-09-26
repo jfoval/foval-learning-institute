@@ -28,7 +28,7 @@ about: >-
   after it starts, push-starting, the exercise and the plan.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check: FAIL (the short callout pointed back to a motorway clause it had dropped). Fixed with the lesson's Great Britain motorway steps; a second fresh check gave PASS WITH NITS, and its nits are fixed (hazard lights restored, the conditions for a jump start). 2026-09-26, neutrality audit fixes (N8): a silent handbook is now a question for the maker's dealer or a garage that works on that make, as the lesson says; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check: FAIL (the short callout pointed back to a motorway clause it had dropped). Fixed with the lesson's Great Britain motorway steps; a second fresh check gave PASS WITH NITS, and its nits are fixed (hazard lights restored, the conditions for a jump start). 2026-09-26, neutrality audit fixes (N8): a silent handbook is now a question for the maker's dealer or a garage that works on that make, as the lesson says; a fresh check is owed. Re-checked 2026-09-26 after the neutrality fixes: fresh fact-check PASS WITH NITS; Toyota's drawing caveat restored, other nits left."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -61,7 +61,7 @@ S1: I'll give it as the handbooks give it, because the lesson teaches it on pape
 
 S2: So everyone agrees.
 
-S1: On two things. Every source read runs positive to positive first, and puts the last clamp on metal away from the flat battery. But not on which end of the red lead goes on first. Ford, Toyota and Nissan start at the flat battery. HSE describes the lead without saying which end. And the AA's page gives both, one way in its steps and the other when you run its list for taking the leads off backwards. So there's no single correct order to carry from car to car. HSE's jump-starting section opens with the rule: whenever possible, follow the manufacturer's instructions. The AA says the same of its own steps.
+S1: On two things. Every source read runs positive to positive first, and puts the last clamp on metal away from the flat battery, Toyota's in its drawing. But not on which end of the red lead goes on first. Ford, Toyota and Nissan start at the flat battery. HSE describes the lead without saying which end. And the AA's page gives both, one way in its steps and the other when you run its list for taking the leads off backwards. So there's no single correct order to carry from car to car. HSE's jump-starting section opens with the rule: whenever possible, follow the manufacturer's instructions. The AA says the same of its own steps.
 
 S2: And taking them off?
 

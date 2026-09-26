@@ -25,7 +25,7 @@ about: >-
   direct and indirect systems.
 speakers: 2
 approx_minutes: 7
-checked: "2026-09-26, fresh-context fact-check: FAIL (a claim the lesson does not make, that the course never applies the US rule to a UK car; and the 25 per cent point stated without the 20 psi floor). Both fixed; a second fresh check gave PASS WITH NITS, and its two substantive nits (the made-up placard, M1 vehicles) are fixed. 2026-09-26, neutrality audit fixes (N5): AAA's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check: FAIL (a claim the lesson does not make, that the course never applies the US rule to a UK car; and the 25 per cent point stated without the 20 psi floor). Both fixed; a second fresh check gave PASS WITH NITS, and its two substantive nits (the made-up placard, M1 vehicles) are fixed. 2026-09-26, neutrality audit fixes (N5): AAA's label now says its clubs also run a repair network, as the lesson does; a fresh check is owed. Re-checked 2026-09-26 after the neutrality fixes: fresh fact-check PASS WITH NITS; the sidewall sign-off item fixed, other nits left."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -84,6 +84,6 @@ S2: And the US?
 
 S1: This course read no federal or state law that sets the pressure a driver must run. On this course's reading, the federal standards bind the carmaker. New York's inspection reports pressure outside the maker's figure, and the state's DMV says that's an advisement only, not cause for rejection.
 
-S2: The full lesson also has the other places the carmaker's figure can be, how often each source says to check, the gauge and how to use it, the forecourt gauges, what cold weather does to pressure, how to read a sidewall's size, date code and US quality grades, what uneven wear tells you, what the MOT makes of a soft tyre, what the standard says a low tyre does, and an exercise working out your own car's trigger point. It's all free at Foval Learning Institute dot org.
+S2: The full lesson also has the other places the carmaker's figure can be, how often each source says to check, the gauge and how to use it, the forecourt gauges, what cold weather does to pressure, what a sidewall's size, date code and US quality grades, what uneven wear tells you, what the MOT makes of a soft tyre, what the standard says a low tyre does, and an exercise working out your own car's trigger point. It's all free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Drive safely.

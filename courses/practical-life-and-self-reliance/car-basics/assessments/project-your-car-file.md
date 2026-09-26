@@ -515,7 +515,8 @@ written into the file as a step or done for the project:
 - any part of anyone under a car held up by its jack, or anything put on or under the jack (lesson
   19);
 - a repair, wheel change, jump start or warning triangle on a motorway, its hard shoulder or an
-  emergency area, or a wheel change on a US freeway shoulder (lessons 13, 16, 18 and 19);
+  emergency area, or a wheel change or jump start on a US freeway shoulder (lessons 13, 16, 18 and
+  19);
 - another country's roadside steps on your plan, including Great Britain's motorway steps on a
   Northern Ireland plan (lessons 16 and 17);
 - a hot coolant cap opened (lessons 9 and 11);

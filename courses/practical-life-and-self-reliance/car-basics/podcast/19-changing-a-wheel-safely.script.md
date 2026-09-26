@@ -26,7 +26,7 @@ about: >-
   dusk case and the exercise.
 speakers: 2
 approx_minutes: 7
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; four nits judged by the checker as needing no fix (each faithful to the lesson), left as they are. 2026-09-26, neutrality audit fixes (N5): the RAC's label now reads "sells breakdown cover and repairs", as the lesson does; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; four nits judged by the checker as needing no fix (each faithful to the lesson), left as they are. 2026-09-26, neutrality audit fixes (N5): the RAC's label now reads 'sells breakdown cover and repairs', as the lesson does; a fresh check is owed. Re-checked 2026-09-26 after the neutrality fixes: fresh fact-check PASS WITH NITS; four wording nits, none needing a fix, left."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
