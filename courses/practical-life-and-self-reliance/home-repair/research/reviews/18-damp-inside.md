@@ -159,3 +159,77 @@ correct, "lifestyle" glossed), and the official bodies (reconciliation labelled 
 This is a substantive neutrality rewrite of the rising damp section, so it goes to a second pass.
 
 **Status after review:** needs second pass
+
+## Second pass and neutrality audit (2026-09-26)
+
+**Reviewer:** a fresh-context second-pass reviewer and neutrality auditor, standards Part 3, on the
+rising damp section as rewritten by the first pass. Re-read live today with curl (browser
+User-Agent): the Architects' Journal article; the joint position statement PDF (IHBC copy,
+pdftotext); the PCA page; the RICS journal article; the GOV.UK guidance by its content API (updated
+2026-04-01); EPA's brief guide; CDC capture 20260923211319; UMN; DOE captures 20241231180120 and
+20250102092834; EST capture 20260916151311. Every quoted string in the body was matched by script
+against those texts: all found, the only differences being the AJ's trailing comma inside Boniface's
+quotation (R23, declined) and the JPS's "to the client." across a page break.
+
+**First-pass fixes, checked against the primaries.** R1 (the tenant list is the ventilation
+checklist's "Do tenants understand ..." question, before the no-blame paragraph), R3 (Blackett-Ord's
+concealment clause, Howell's framing and mortar sentence, the JPS's traditional-versus-modern
+sentence), R5 ("occupation patterns", JPS section 1B item 4), R8 (EPA's "moisture or humidity
+meter"), R9 (DOE's "Only some HVAC contractors ..."), R10 (EST's trickle-vent line; GOV.UK's air-brick
+line), R11 ("ceiling tiles and carpet"), R12 (OHID within DHSC, with MHCLG and UKHSA), R15 ("Installing
+windows is classified as controlled building work"), R16 ("written and produced by teams from"),
+R19 and R20: all correct. The JPS's own acknowledgements call the IHBC the "Institute of Historic
+Buildings"; the lesson's expansion is the body's actual name, so it stands. The PCA's bridging list
+in the lesson joins its causes list (patio, planting area) to its remedy list; both are on the page.
+
+**Places.** Anchorage, Green Bay, Galloway, Islay, Halifax and the Calder valley, Wearside, the Cynon
+Valley: grep across every course's lessons, podcast scripts, assessments and `curriculum/` finds none
+of them outside this lesson and this course's research. Anchorage appears once, in First Aid's
+course-wide review, as a name dropped from a draft and "free again".
+
+**Quiz keys.** 3,1,2,0,3: all four positions, no adjacent repeat, not identical to or a value shift of
+any lesson from 01 to 20 on disk, and no shared run of four at offsets 0 or ±1 with any of them, so it
+passes the relaxed rule and the full one. Each key matches its option.
+
+**Dashes.** No em or en dash in the file.
+
+**Neutrality, read four ways.**
+- *As a remedial damp-proofing firm (a PCA member).* The PCA's mechanism, bridging-first remedy and
+  "proper investigation" line are in its own words, with its self-description; the thesis is given
+  as the RICS authors summarise it. No "seller", no stakes sentence; the opening's misdiagnosis line
+  carries GOV.UK's words; the three questions and the stop-list item rest on the statement the PCA
+  co-wrote. One objection held: "What would settle it" set the pro side's "could benefit from greater
+  academic investigation" against Howell's claim that trials already settle it, so the side that says
+  the evidence already shows rising damp is real read as the less certain one. Fixed (below).
+- *As a conservation surveyor.* The permeable-wall premise is in the statement's words and the
+  concealment reason in Blackett-Ord's. One objection held: the course's linking sentence says the
+  conservation voices "objected to impermeable renders", but her quotation as trimmed did not show
+  that she called them impermeable. Fixed (below). Her "self-perpetuating industry" figure stays out,
+  consistently with OUTLINE's rule that interests are stated only as the statement frames them.
+- *As a householder with a damp wall.* The outside checks, the meter's limit, the unexplained
+  chemical testing flagged honestly, and three questions that accuse no one; "does not need to pick
+  a side to act well" rests on the joint statement, not on either side.
+- *As a renter.* GOV.UK's no-blame paragraph comes before any tip; "lifestyle" in the JPS is glossed
+  as undefined, set beside its "occupation patterns", with "says nothing about blame" and GOV.UK's
+  "totally unreasonable" (decision 15). No sentence puts the damp on the occupant.
+
+Checks asked for: each side's case and reasons in its own words (yes, after the two fixes); no
+verdict in the course's voice ("does not decide it"; "did not find a study that both sides accept");
+the last side-voice in the dispute is Howell's, in "What would settle it", after Brown's reply in the
+article's own order, and the section ends in the course's voice; interests only in the statement's
+declared-interest terms; the date caveat runs both ways; "lifestyle" glossed without blame.
+
+**Fixes applied (two, each one edit):**
+1. Blackett-Ord: "of what she called 'damaging impermeable cement based internal renders', that they
+   'serve simply to conceal ...'" (AJ live; the string is [V] in SOURCES' Stage 4 note).
+2. "What would settle it": "The RICS authors take Sellers' thesis to show that rising damp is real
+   and that the treatment works, and also say the subject 'could benefit from greater academic
+   investigation'." Paraphrases the conclusion already quoted in the lesson, so each side's view of
+   the existing evidence is stated.
+
+`npm run quotes home-repair`: nothing for this lesson. `npm run minutes`: 7,892 words, 90 minutes, ok.
+`npm run validate` exits 0.
+
+**Verdict:** CLEAN.
+
+**Status after review:** clean

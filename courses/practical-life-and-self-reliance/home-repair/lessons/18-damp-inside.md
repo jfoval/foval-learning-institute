@@ -472,8 +472,8 @@ construction arm of RICS, said that "‘true rising damp’ is a myth" and that 
 damp-proof courses are "‘a complete waste of money’". His account of what's really going on:
 "‘The most likely causes of damp are moisture penetration and, most commonly, condensation’".[10]
 Elaine Blackett-Ord, then chair of the Register of Architects Accredited in Building Conservation,
-said of injected DPCs that "they are ineffective and grossly expensive", and, of cement-based
-internal renders, that they "serve simply to conceal the problem in the wall behind. For most
+said of injected DPCs that "they are ineffective and grossly expensive", and, of what she called
+"damaging impermeable cement based internal renders", that they "serve simply to conceal the problem in the wall behind. For most
 historic buildings this is extremely damaging and irreversible."[10] Jeff Howell, a qualified
 bricklayer and the author of *The Rising Damp Myth* (2008), said, in the article's words, that
 "trials in the laboratory confirm the falsehood": "If you build a brick pillar and stand it in a tray
@@ -538,7 +538,8 @@ on.
 For one wall, GOV.UK's answer is testing: chemical testing is, in its words, "the most appropriate
 way of confirming it".[1] For the general question, how common rising damp is and how well injected
 DPCs work, the sources read here disagree about what the evidence already shows. The RICS authors
-say the subject "could benefit from greater academic investigation".[9] Jeff Howell, on the other
+take Sellers' thesis to show that rising damp is real and that the treatment works, and also say the
+subject "could benefit from greater academic investigation".[9] Jeff Howell, on the other
 side, pointed to laboratory trials that he said already settle it.[10] This course did not find a
 study that both sides accept. Until then, a householder does not need to pick a side to act well:
 the cheap outside causes first, a diagnosis that does not rest on a meter alone, and a remedy in
