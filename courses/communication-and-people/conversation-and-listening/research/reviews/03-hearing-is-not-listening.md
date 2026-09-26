@@ -133,3 +133,48 @@ course), Acas, Detroit (as Rankin's employer only).
 
 **Status after review:** clean. No second pass needed: every fix is wording, and each new
 quotation was re-confirmed against its primary.
+
+## Targeted re-check (2026-09-26)
+**Checker:** one fresh-context re-checker, against the fixer's commit cc602b1 (the lesson is unchanged
+since). Every new or changed quotation re-fetched today by curl (generic browser User-Agent) and
+string-matched by script: Rogers and Farson (excerpt PDF), Carnegie (Internet Archive
+`dli.bengal.10689.22160` text layer, "1 was genu¬ inely interested", as the gate note records),
+LSP-R (authors' copy), Ickes 1993 (Greater Good PDF), Worthington and Bodie chapter 1 (Wiley
+excerpt), Nichols and Stevens (Archive text layer, pp. 5 to 7, 78 and bibliography), Usera 7.1,
+AELS (author's copy), Itzchakov and Bodie (abstract through Crossref), Headlee (TED Ideas excerpt),
+Huang et al. (HBS PDF). All match and each is attributed to the right source number.
+
+**R1 to R20:** all resolved as recorded above. Spot facts confirmed in the primaries: Table 1.1 is
+titled "Sample of Listening Definitions" and has 18 rows, Tucker 1925 to Bostrom 2011 (counted);
+Kelly's work is dated 1965 and 1967; Ickes's 1990 study is "38 mixed-sex (male-female) dyads" and
+the reasons are offered ("can be readily suggested"), not tested; Nichols dates the survey's results
+1929 in the text and prints the Proceedings as 1939, Usera cites the 1926 Michigan study; the caveat
+follows the Detroit schools' 52% and 8%; the neglected skills are "speaking and listening";
+"Definitions of listening are as varied..." opens the AELS paper's "Defining AEL" section; Huang's
+Studies 1 and 2 are online chats and Study 3 face-to-face speed dating, so "mostly in online chats"
+holds. Nichols's four figures sum to 100. Quiz: keys 2,3,0,1,2,0 unchanged; every explanation
+matches its key and addresses the distractors; option lengths 83/87/84/85, 91/87/82/82, 89/89/88/88,
+86/86/85/85, 90/86/92/88, 85/92/86/88 (largest spread 9). Neutrality of the value-question block
+holds: Carnegie and Rogers and Farson each get their own words and one limit ("anecdotes ... not
+research"; "an essay, not a study"), and Derber is not described beyond what Headlee quotes.
+
+**Three one-edit fixes made here:**
+1. Opening paragraph: "You'll find the same 45 in textbooks and training material, and this course
+   found it in one textbook itself" claimed textbooks in the plural and then one. Now "The same 45
+   turns up elsewhere too: this course found it in an open textbook as well" (the Minnesota text,
+   Link 4).
+2. Staged models: "No source this course read presents them as experimental findings; they are
+   teaching schemes, and a textbook ..." repeated "are teaching schemes" from the sentence before;
+   the repeat is cut.
+3. Misconception list: "Kelly's early tests agreed with intelligence tests" became "The early tests
+   Kelly examined agreed ...". The tests were not Kelly's; Worthington and Bodie describe "Kelly's
+   criticism of early listening tests" (a residue of R10 the fixer's pass didn't reach).
+
+**Noted, not changed:** the Rogers and Farson paragraph says the change they meant "was in the
+speaker"; the excerpt also claims change in groups ("group development"). Not wrong, and the
+contrast with Carnegie is the point, so left.
+
+No em dashes or spaced en dashes; no SVGs. `npm run minutes` 90, matching. `npm run quotes
+conversation-and-listening`: 70 quotations, none missing. `npm run validate` exits 0.
+
+**Verdict: SETTLED.**

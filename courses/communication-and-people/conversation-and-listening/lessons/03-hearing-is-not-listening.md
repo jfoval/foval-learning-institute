@@ -118,9 +118,9 @@ quiz:
 
 A [guide for UK managers](https://www.acas.org.uk/sites/default/files/2021-04/challenging-conversations-and-how-to-manage-them.pdf) from Acas, the government-funded advisory service on employment, tells
 readers that "On average we spend our working day communicating in the following ways", and lists
-four figures. The last is "listening 45%".[1] There's no footnote and no study named. You'll find
-the same 45 in textbooks and training material, and this course found it in one textbook itself. It
-sounds like a measurement.
+four figures. The last is "listening 45%".[1] There's no footnote and no study named. The same 45
+turns up elsewhere too: this course found it in an open textbook as well. It sounds like a
+measurement.
 
 This lesson is about what listening is before it is about how to do it better, and the 45 is a good
 place to start, because following it back teaches three things this course needs. What people mean
@@ -167,8 +167,7 @@ me" are using the same word for different things.
 The **staged models** belong here too. Adler's five elements and Brownell's six-part HURIER
 model (hearing, understanding, remembering, interpreting, evaluating, responding, from her book's
 contents) are teaching schemes.[2][5] They help you notice which part of listening went wrong. No
-source this course read presents them as experimental findings; they are teaching schemes, and a
-textbook that draws them as a sequence is not reporting that the brain runs them in that order.
+source this course read presents them as experimental findings, and a textbook that draws them as a sequence is not reporting that the brain runs them in that order.
 
 ## What are you listening for?
 
@@ -426,7 +425,7 @@ direct about a conversation.
 **"I'm a people-oriented listener."** The four types came from a scale its own field found
 unreliable, and whether any style is fixed or shifts with the situation is still open.
 
-**"Listening is one ability, and a good test would measure it."** Kelly's early tests agreed with
+**"Listening is one ability, and a good test would measure it."** The early tests Kelly examined agreed with
 intelligence tests better than with each other. Listening has emotional, behavioural and thinking
 parts, and different studies measure different ones.
 
