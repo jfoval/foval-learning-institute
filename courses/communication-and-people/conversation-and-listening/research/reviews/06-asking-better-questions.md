@@ -427,3 +427,19 @@ No em dashes or spaced en dashes. `npm run minutes` 95, matching. `npm run quote
 conversation-and-listening`: 71 sourced quotations, 0 not found. `npm run validate` exits 0.
 
 **Verdict: SETTLED.**
+
+## Podcast fact-check, 26 September 2026
+
+Fresh-context check of `podcast/06-asking-better-questions.script.md` against the lesson and, where
+cited, the primaries (Huang et al. 2017 PDF, the correction notice through PubMed, Heritage et al.
+2007 from an Internet Archive capture of PMC2305862, Leydon et al. 2018 accepted manuscript).
+
+**One one-edit fix made in the lesson.** "only 9 of 252 patients reported leaving with a planned
+concern unmentioned, across all patients and all three arms" read as though 252 were all the
+patients, three sentences after the lesson gives 320. Leydon's 252 are the 252 of 278 for whom
+planned and discussed concerns "could be calculated". Now "across all three arms (about 4%), of the
+252 whose questionnaires allowed it to be worked out."
+
+**Noted, not changed:** the lesson's "too small to detect modest differences" paraphrases Heritage's
+"lacked statistical power to distinguish small differences"; close enough, and the lesson does not
+present it as a quotation.

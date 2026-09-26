@@ -338,7 +338,7 @@ other concerns that you'd like to discuss today?", the same with SOME, or usual 
 study they reported descriptive figures only. The wording "seemed to have no bearing on the number of
 patient concerns elicited, on consultation length or on patient satisfaction".[14] But there was
 little for any question to fix: only 9 of 252 patients reported leaving with a planned concern
-unmentioned, across all patients and all three arms (about 4%). The authors list differences from the US study: the UK
+unmentioned, across all three arms (about 4%), of the 252 whose questionnaires allowed it to be worked out. The authors list differences from the US study: the UK
 patients were older and mostly white, they came with long-standing problems as well as new ones, and
 UK general practice is free at the point of access. Their conclusion: the wording "may not be as
 important as the placement of the GP solicitation", that is, asking early.[14]
