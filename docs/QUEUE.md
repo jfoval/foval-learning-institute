@@ -21,7 +21,7 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Terms 1 and 2 are FINISHED. Term 3's first five courses are published and written**
+- **Terms 1 and 2 are FINISHED. Term 3's first six courses are published and written**
   (Nutrition, Strength and Fitness, Cooking Fundamentals on 2026-09-24; First Aid and CPR and
   **Personal Safety on 2026-09-25**). Cooking, Nutrition, Strength and Fitness, Bible Basics and First
   Aid are FINISHED, every episode live; Personal Safety's episodes are rendering.
@@ -47,13 +47,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   lesson 15 says so); Guerette and Bowers on displacement unread (lesson 4); lesson 5 calls the Suzy
   Lamplugh Trust's caller advice "practitioner opinion" and later "sensible, untested" (make them
   agree at its next edit); lessons 13, 15 and 16 run 100 to 110 minutes.
-  **Home Repair and Maintenance is drafting** (2026-09-25), the sixth of Term 3: Stage 1 is done,
-  `research/SOURCES.md` (UK and US side by side; the gas-work law quoted exactly), then the outline.
-  Nineteen lessons after three drafting splits (`research/OUTLINE.md`); briefs and conventions in
-  `research/pipeline-briefs.md`; the build enforces its safety callout. **Research gaps, none
-  blocking:** fitting a lock (Personal Safety's outline gave locks to this course, but Stage 1 read no
-  source on fitting one, so it is not taught), wallpaper, sticking doors and silicone. Lesson 18's
-  licensing argument waits on gates G-L3 and G-N2 (each side in its own words).
+  **Home Repair and Maintenance is published and written** (2026-09-26): twenty-three lessons,
+  each through Stage 4; the neutrality audit and its open findings applied; test and project
+  reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
+  100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
+  audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to

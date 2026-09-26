@@ -224,7 +224,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Wilderness Survival | Foundation | planned | T24 | Shelter, water, fire, signalling, navigation, priorities. |
 | Emergency Preparedness | Foundation | planned | T24 | Household, natural disasters, grid-down basics. |
 | Navigation and Map Reading | Foundation | planned | T24 | |
-| Home Repair and Maintenance | Foundation | drafting | T3 | How a house works, the repairs a beginner can do, and which jobs the rules reserve for a registered or licensed trade, UK and US side by side. |
+| Home Repair and Maintenance | Foundation | published | T3 | How a house works, the repairs a beginner can do, and which jobs the rules reserve for a registered or licensed trade, UK and US side by side. |
 | Cooking Fundamentals | Foundation | published | T3 | Technique over recipes. |
 | Car Basics | Foundation | planned | T3 | How it works, what to check, what you can fix. |
 | Gardening and Growing Food | Foundation | planned | T23 | |

@@ -50,4 +50,5 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
+  home-repair: 23
   personal-safety: 12

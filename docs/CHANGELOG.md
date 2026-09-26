@@ -11,6 +11,29 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-26 — Home Repair and Maintenance is published and written
+
+**Home Repair and Maintenance went live, the sixth course of Term 3**: how a house works and where
+it switches off, water in and out, taps and toilets, electricity, plugs and fires, heating and hot
+water, gas (the smell and the valve, then the law and the engineer), carbon monoxide and smoke
+alarms, tools and dust, drilling, ladders and stepladders, keeping water out, damp, asbestos, lead
+and radon, walls and paint, pests, who may do what, and hiring. Twenty-three lessons: drafts ran
+long against the outline, so seven lessons split at drafting and the rest were scoped to the
+100-minute ceiling. Every lesson went through Stage 4 and a fresh second pass where the fix was
+heavy; the gas, asbestos and licensing lessons had two-reviewer Tier B reviews. A course-wide
+neutrality audit read it as renter and owner, tradesperson and DIY householder, UK and US reader,
+and its findings were applied. A 24-item test and the project "Your home's maintenance plan" were
+each reviewed whole. Twenty-three fact-checked podcast scripts make it *written*;
+`curriculum/audio-debt.yaml` opens at twenty-three.
+
+**It teaches no gas work and no wiring, and says which jobs the law reserves.** The gas law is
+quoted exactly: registration binds those who work as a business, competence binds everyone, and
+every householder is told to use a Gas Safe engineer. UK and US advice sit side by side and neither
+is called wrong; every job carries one of three labels (Yours, Yours on conditions, Call someone),
+with the landlord's route for renters and the free routes before paying anyone. The contested
+questions (scalds against legionella, rising damp, occupational licensing) give each side in its
+own words and no verdict.
+
 ## 2026-09-25 — Personal Safety is published and written
 
 **Personal Safety went live, the fifth course of Term 3**, and the institute's most sensitive yet:
