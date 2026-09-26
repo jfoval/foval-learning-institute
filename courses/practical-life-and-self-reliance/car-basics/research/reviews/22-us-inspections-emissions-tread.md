@@ -354,3 +354,29 @@ byte-identical to lesson 1.
 
 `npm run validate`: exit 0, no line naming lessons 8 or 22.
 **Verdict: CLEAN** (S4 to S6 are minor and don't hold the lesson).
+
+### Follow-ups (2026-09-26)
+
+Applied by a follow-up session, not a reviewer. Pages re-read live with curl, generic browser
+User-Agent, no personal data.
+- **R2:** the True Texas Project's About page (truetexasproject.com/about/) calls it a 501(c)(4) that
+  "exists to educate and motivate citizen engagement in all levels of government", and says it
+  rebranded in 2019 from the NE Tarrant Tea Party. It doesn't use the phrase "conservative grassroots
+  political group" of itself, so the label is "a political group that began as a tea party", its own
+  account. The witness list is now semicolon-separated so the label reads as one entry. Recorded in
+  SOURCES, "Stage 4 note, lesson 22 follow-ups (2026-09-26)".
+- **R3:** took the neutral option: the Senate item's gloss is now "The bill's stated reasons." (no room
+  under the minutes cap for a PennDOT item).
+- **S4:** "It adds that they 'do little to improve road safety and serve only to generate revenue for
+  the state'."
+- **S5:** Pennsylvania's sticker cell carries "most passenger cars and light trucks" and the "or one
+  year from the expiration of the current inspection sticker" alternative; its anti-tampering cell
+  carries "most vehicles"; New York's fee cell is "None on the page"; Texas's adds "$16.75 to cover two
+  years" for a new car. All three re-read live against PennDOT's FAQ and DPS's release.
+- **S6:** lesson 8 now gives lesson 22's title at its first mention; the second mention drops it.
+- **Minutes:** the additions took the lesson to 95. Cut, outside the contested block: the full quotation
+  of NHTSA's guideline in "Why did the number fall?" (the case for keeping quotes the same guideline;
+  the neutral section now paraphrases it in one clause), and a repeated clause in the California
+  paragraph. Back to 90 (7,802 words).
+- **Balance:** 355 words for keeping, 365 for ending (body text, headings excluded, `wc -w`). The 10
+  are the True Texas Project's label and S4's fuller quotation. Neither case was trimmed.

@@ -246,7 +246,8 @@ This is general information, not legal advice.
 The federal tread figures, 4/32 of an inch on the front tyres of a bus, truck or truck tractor and
 2/32 elsewhere, are in 49 CFR 393.75, which is part of the Federal Motor Carrier Safety Regulations
 and covers commercial motor vehicles.[11] This course found no federal tread minimum that binds a
-private car's driver: the federal 2/32 for cars is a standard for states that inspect (lesson 22).
+private car's driver: the federal 2/32 for cars is a standard for states that inspect (lesson 22, "The US: state inspections, emissions tests and
+tread law").
 For driving a private car, tread law is set by states.
 The three states read here all use 2/32 of an inch, which is about 1.6 mm (this course's arithmetic:
 2/32 × 25.4 = 1.59). The number nearly matches Great Britain's, and the way it's measured doesn't.
@@ -260,8 +261,8 @@ The three states read here all use 2/32 of an inch, which is about 1.6 mm (this 
 
 (The rest of Pennsylvania's sentence sets 4/32 inch for the front tyres of vehicles over 10,000
 pounds, which aren't cars.) Each of these is a rule for the state's inspection. What any of them
-requires of a driver between inspections is a question this course didn't read, and lesson 22, "The
-US: state inspections, emissions tests and tread law", keeps to what was read. Many states don't
+requires of a driver between inspections is a question this course didn't read, and lesson 22 keeps to
+what was read. Many states don't
 inspect at all.
 
 Beside the law sits the regulator's advice. NHTSA: "Tires are not safe and should be replaced when

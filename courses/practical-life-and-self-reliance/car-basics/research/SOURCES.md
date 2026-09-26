@@ -8750,7 +8750,9 @@ governs.*
   qualification to work on electric vehicles." [V, the source's double space]; "Event participants
   identified the ongoing implementation of the Automated Vehicles Act 2024 as an immediate and
   practical policy hook for mandating of TechSafe." [V] Part B's "calling on government to mandate its
-  use" was not found in today's text and is not used.
+  use" is in the release ("with participants calling on government to mandate its use across four
+  rapidly evolving areas") and absent only from the TechSafe page. (Corrected 2026-09-26 at lesson 24
+  Stage 4: this line said it "was not found in today's text".)
 
 ### Lesson 24: warranties
 
@@ -9005,3 +9007,22 @@ that day. Recorded here because lesson 22 now quotes or relies on them.
   rejection." [V] Lesson 11's longer quotation ("Your vehicle's Air Bag Warning Lamp will be checked for
   proper operation. You will be informed ...", from a June 2026 capture) no longer matches the current
   page; only its last sentence does. Lesson 11 was not edited.
+
+## Stage 4 note, lesson 22 follow-ups (2026-09-26)
+
+Read live on 26 September 2026 with curl, a generic browser User-Agent and no personal data.
+- **True Texas Project, "About"**, https://truetexasproject.com/about/, read in full. New source, used
+  to label the group at its mention in lesson 22's case for ending inspection. In its own words: "True
+  Texas Project exists to educate and motivate citizen engagement in all levels of government." [V];
+  "True Texas Project is a 501(c)4 organization" [V]; its CEO "founded NE Tarrant Tea Party in 2009"
+  [V], and "In 2019 the group rebranded to True Texas Project" [V]. Board biographies speak of
+  "grassroots activism" and "conservative candidates" [V]. The lesson calls it "a political group
+  that began as a tea party", which is its page's account of itself; it is a witness list entry only
+  and none of its arguments are quoted.
+- **PennDOT, consumer FAQs**, re-read for the table: "Upon passing a safety inspection, most passenger
+  cars and light trucks will receive an inspection sticker valid for one year from the month of
+  inspection or one year from the expiration of the current inspection sticker on the vehicle." [V];
+  "For most vehicles in the 42 county, Non-I/M region this safety inspection will also include a
+  Visual Anti-Tampering Check." [V]
+- **Texas DPS release**, re-read for the table: new vehicles "are required to pay an initial
+  inspection program replacement fee of $16.75 to cover two years." [V]

@@ -142,10 +142,8 @@ the Department of Transportation "could withhold a percentage of federal-aid hig
 apportioned to a state that did not implement a periodic motor vehicle inspection program". Then:
 "Since 1976, after legislation limited NHTSA’s authority to withhold federal-aid highway funding,
 the number of states with programs has declined."[1] Since that change, in GAO's words, "states have
-been able to choose whether or not to follow the guidelines". The guideline itself remained, as of GAO's report.
-NHTSA's, as GAO describes it, "recommends that states should have a program for periodic inspection
-of all registered vehicles to reduce the number of vehicles with existing or potential conditions
-that may contribute to crashes".[1] Of the five states and the District of Columbia that dropped
+been able to choose whether or not to follow the guidelines". NHTSA's guideline, still recommending periodic inspection of all
+registered vehicles, remained as of GAO's report.[1] Of the five states and the District of Columbia that dropped
 programmes between 1990 and 2015, GAO says they did so "some citing a lack of evidence proving the
 program’s effectiveness or saving financial resources as reasons".[1]
 
@@ -166,7 +164,7 @@ state can make renewal wait on a passed test, as New York and California do belo
 
 | State | Safety inspection for a private car | Emissions test |
 |---|---|---|
-| **Pennsylvania** | Yes; sticker "valid for one year from the month of inspection"[2] | In some counties; in the 42 without it, a visual anti-tampering check instead[2][16] |
+| **Pennsylvania** | Yes; for "most passenger cars and light trucks", a sticker "valid for one year from the month of inspection or one year from the expiration of the current inspection sticker"[2] | In some counties; in the 42 without it, "most vehicles" get a visual anti-tampering check instead[2][16] |
 | **New York** | Yes; "at least every 12 months", and when the car is registered in a new name[4] | Yes, in the same visit; OBDII (the on-board diagnostics check, below) on most 1996 and newer petrol cars[4] |
 | **Virginia** | Yes; stickers are issued on an "ANNUAL PROGRAM" and expire at the end of the month shown[6] | Only in localities named in the Code of Virginia, § 46.2-1178[17] |
 | **Texas** | No, from 1 January 2025, for non-commercial vehicles[7] | Yes, in named counties only[7] |
@@ -175,9 +173,9 @@ state can make renewal wait on a passed test, as New York and California do belo
 | State | Tread rule at inspection | Fee on the pages read |
 |---|---|---|
 | **Pennsylvania** | 2/32 inch (about 1.6 mm), two adjacent grooves at any point[3] | None set; posted at each station[2] |
-| **New York** | 2/32 inch, two adjacent major grooves "showing the most wear"[4] | Not read |
+| **New York** | 2/32 inch, two adjacent major grooves "showing the most wear"[4] | None on the page[4] |
 | **Virginia** | 2/32 inch, two adjacent grooves "where tread is thinnest"[6] | Maximum $20 for a car, set from 1 July 2019[6] |
-| **Texas** | None read now that the test has gone | A $7.50 "inspection program replacement fee" at registration[7] |
+| **Texas** | None read now that the test has gone | A $7.50 "inspection program replacement fee" at registration; a new car pays "$16.75 to cover two years"[7] |
 | **California** | None read | Not regulated by BAR[8] |
 
 **Pennsylvania.** PennDOT, the state transport department, runs [its programme](https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/safety-inspection-program) through "official
@@ -208,8 +206,7 @@ passing vehicle safety inspection."[7]
 **California.** The state programme this course read for California is Smog Check, run by the Bureau
 of Automotive Repair ([BAR](https://www.bar.ca.gov/consumer/smog-check-program)), and it tests emissions. "Inspection prices are not regulated by BAR."[8] GAO's 2015 appendix lists neither California
 among the states then inspecting nor among those that had repealed a programme.[1] This course found no
-California page that says in words that there's no periodic safety inspection, so it says only
-that: the programme it read tests emissions.
+California page that says in words that there's no periodic safety inspection.
 
 ## A car in Blacksburg, Virginia
 
@@ -503,8 +500,8 @@ time off work or out of their busy schedules to have their vehicles inspected at
 This can be especially difficult for those living in rural areas, where inspection stations may be few
 and far between." It argues the test checks the wrong things: "Many of the items checked during an
 inspection are not related to safety. For example, inspectors often check the tint on windows and the
-condition of license plates, which have no bearing on whether a vehicle is safe to drive." It names a
-motive on the other side: the inspections "serve only to generate revenue for the state". And it
+condition of license plates, which have no bearing on whether a vehicle is safe to drive." It adds that
+they "do little to improve road safety and serve only to generate revenue for the state". And it
 argues the car now checks itself: "Modern vehicles are equipped with onboard diagnostic systems that
 constantly monitor their performance and can detect any potential issues."[15]
 
@@ -517,8 +514,9 @@ could not justify the program’s expense".[1]
 
 Who is speaking, once. These are legislators and the states that chose to repeal. In Texas, those on
 record in favour of the bill included the Texas Public Policy Foundation and the Texas Conservative
-Coalition Research Institute, two policy research organisations, the True Texas Project, a county tax
-assessor-collector, an electric-car maker and a recreational-vehicle trade association, among others,
+Coalition Research Institute, two policy research organisations; the True Texas Project, a political
+group that began as a tea party; a county tax assessor-collector; an electric-car maker; and a
+recreational-vehicle trade association, among others,
 as the digest lists them.[13] Again, names only.
 
 ### Weighing one claim from each side
@@ -649,7 +647,7 @@ at all.
   the question.
 - **Texas Senate Research Center, [bill analysis for HB 3297](https://capitol.texas.gov/tlodocs/88R/analysis/html/HB03297E.htm)**
   (88th Legislature, 2023), free; the House committee's analysis sits beside it, and both were read
-  here in full. The case for ending inspection, in the legislators' own words.
+  here in full. The bill's stated reasons.
 - **EPA, ["Vehicle Emissions Inspection & Maintenance (I/M): General Information for Motorists"](https://www.epa.gov/state-and-local-transportation/vehicle-emissions-inspection-maintenance-im-general-information)**,
   free. Links to every state's emissions programme, for step 3 of the exercise.
 
