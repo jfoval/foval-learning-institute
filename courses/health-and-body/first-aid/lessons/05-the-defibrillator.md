@@ -1,6 +1,7 @@
 ---
 title: The defibrillator
 minutes: 140
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/05-the-defibrillator.mp3
 objectives:
   - >-
     Explain which heart rhythms an AED treats, why it won't shock a heart that doesn't need a

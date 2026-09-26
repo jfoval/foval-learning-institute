@@ -1,6 +1,7 @@
 ---
 title: Breaths, and what CPR can and cannot do
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/04-breaths-and-what-cpr-can-and-cannot-do.mp3
 objectives:
   - >-
     Describe how to give a rescue breath and state the adult ratio, and decide when a lay rescuer
