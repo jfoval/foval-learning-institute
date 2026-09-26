@@ -1,6 +1,7 @@
 ---
 title: "Technique: six movements and the rules about them"
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/06-technique.mp3
 objectives:
   - >-
     Describe the squat, the hip hinge, and the horizontal and vertical push and pull, with an easier
