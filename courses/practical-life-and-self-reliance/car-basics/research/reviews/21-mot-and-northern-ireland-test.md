@@ -113,3 +113,57 @@ on other courses' items; no line names this course.
 **Status after review:** needs targeted re-check of R1 to R4 (R1 was a wrong sum and R3 a safety
 correction: re-read the Goole checkpoint, the retests and appeals table, the Omagh checkpoint and "For
 your plan" in a fresh context).
+
+### Second pass (2026-09-26)
+**Reviewer:** one reviewer, fresh context, targeted re-check of R1 to R4 plus R5 and the changed quiz
+items, then a quick read of every other first-pass fix. Re-fetched live with curl (generic browser
+User-Agent, no personal data in any header): GOV.UK "Getting an MOT" (content API, all nine parts,
+public_updated_at 2024-11-28); nidirect "After the MOT/ vehicle test" (modified 22 May 2026), "The MOT
+certificate" (21 September 2026), "How the MOT scheme works" (22 May 2026) and "Motor vehicle
+documentation, learner and newly qualified driver requirements" (22 September 2026); NI C&U
+Regulations 1999 reg 32 as made on legislation.gov.uk.
+
+1. **R1: sound.** Redone by hand. GOV.UK's example (15 May expiry, 16 April earliest) applied to 19
+   June gives 20 May 2027 (predict correct). 12 May to 20 May 2027 is 8 days. A pass on 12 May 2027
+   runs to 11 May 2028 ("one year (minus a day)", matching GOV.UK's 14 April to 13 April example).
+   Inside the window it would run to 19 June 2028. 11 May to 19 June 2028 is 20 + 19 = 39 days. Quiz 1:
+   8 October gives 9 September; the key now quotes "a month (minus a day)" correctly, and the
+   explanation answers A (a full month), C (no one-week rule) and D (an early test does move the date).
+2. **R2: sound.** GOV.UK: "Fill in the complaint form and send it to DVSA within 14 working days of the
+   test"; 0300 123 9000 sits under "If you're unhappy with your MOT service" (and record fixes). The
+   table's Appeal and Phone cells and "For your plan" match. "You should not have any repairs made until
+   the appeal process has finished" string-matches.
+3. **R3: sound.** The certificate page's exception list (booked test; "bringing it away from a test
+   centre after it has failed the test, to a place of repair"; pre-arranged repairs) has no journey
+   home, and the lesson frames it as the page's list for cars without a current certificate. Reg
+   32(1)(d) matches "any lump, bulge or tear caused by separation or partial failure of its structure"
+   and "shall not be used on a road, if". Record only, no change: the regulation opens "Subject to
+   paragraphs (2) to (4)", whose exceptions are a marked run-flat tyre running deflated and a
+   broken-down vehicle towed at up to 20 mph. Neither is a journey the car is driven on, so "whatever
+   the journey" holds; "doesn't go anywhere on that tyre" is labelled the course's reading and errs on
+   the safe side. The podcast script should not state the rule as having no exceptions.
+4. **R4: sound.** "If the original decision is upheld by the manager, there will be no further appeal
+   open to you", "within 14 days of the initial test being carried out", 0300 200 7862 and "Do not have
+   your vehicle repaired or any work carried out on it before your appeal is considered" all
+   string-match.
+5. **R5: sound.** The scheme page gives the 40-year and 30-year rule and "Even if the vehicle is exempt
+   from annual testing, it must be maintained in a roadworthy condition"; the Highway Code annex still
+   says "From 30 September 2013, motor vehicles manufactured before 1960 will be exempted". The lesson
+   discloses the difference and says which page it follows.
+6. **Quiz Q2 and Q5: sound.** Q2's explanation answers each wrong option (B grounded by the fail alone;
+   C free to drive on the old certificate; D the expired-MOT journey rule); options with no absolute: B
+   and C. Q5's explanation answers A through the quoted "may"/"depending on the manufacturer" and D
+   through the December 2017 note; B is contradicted by the same quotation; options with no absolute: A
+   and C. Spreads 10, 6, 3, 7, 9; no key the sole longest.
+7. **Keys 1,0,3,1,2:** all four used, no adjacent repeat, no identity or value shift against lessons 1
+   to 20 or 22 (now on disk), no run of four at offsets 0 or ±1 with 16 to 20 or 22. Pass.
+8. **Mechanics:** all four phone numbers use U+00A0; no em or en dashes; callout byte-identical to the
+   brief and lesson 1; `npm run minutes` 5,925 words, 70, ok; `npm run quotes car-basics` no misses for
+   this lesson (the 26 are lesson 22's, in progress elsewhere).
+   `npm run validate` exits 0; its one warning naming this file is a sentence shared with lesson 23
+   ("Nothing here touches the car, and don't drive it for the exercise"), which is in draft in another
+   session; per the warning the fix belongs to lesson 23, the later one, not here. Lesson 23's keys
+   (3,2,0,1,3) also clear lesson 21's.
+9. Every other first-pass fix (R6 to R19) read in place: applied as recorded.
+
+**Verdict: CLEAN.** Lesson settled.
