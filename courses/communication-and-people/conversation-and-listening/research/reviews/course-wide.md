@@ -116,3 +116,15 @@ record decision 18 asks for.
   in neither at p < .05** (p = .159, .069). Any lesson or script that says invisible support
   "reduced distress compared with no support" must say that comparison was a trend. Study 2's support
   was reassurance, not a tip. SOURCES §6.4 corrected.
+
+## 2026-09-26: lesson 13 Stage 4 (fixer's notes)
+
+- **Boothby et al. 2018 Study 4 excluded an autistic participant a priori** ("which is associated
+  with difficulties during social interactions"), and the paper mentions autism nowhere else. Lesson
+  13 now says so in one clause. Lesson 15 (autism) and any later lesson using the liking gap should
+  not present it as speaking for autistic people; decision 13's language applies.
+- **The liking gap is a neglected-signal finding, not a concealment finding** (Study 1b: coders saw
+  the liking, people missed it). No lesson or script should say people hide their liking; the
+  "conspiracies of politeness" line is the introduction's general framing, cited to others.
+- **Mastroianni et al. 2021 Study 1's "wished it 24.08% longer" is a mean; the median was 0.00%.**
+  Never "the average person wanted longer". SOURCES corrected by appended Stage 4 note.

@@ -5561,3 +5561,57 @@ cleared.
   Study 2 to be the more definitive. This is because Study 1 was an exploratory study", and of Study
   1's rapport result, "there was only weak evidence for this effect". The *Neuroscience and
   Biobehavioral Reviews* review stays on the unread line.
+
+## Gate closures, lesson 13 review (2026-09-26)
+
+Stage 4 fix pass on lesson 13 ("How it ends, and how it went"), applying reviews/13 R1 to R15. The
+three primaries were re-fetched today with curl and a generic browser User-Agent (no personal data):
+Mastroianni et al. 2021 from the Internet Archive capture of PMC7958231 (20260825064220), Boothby et
+al. 2018 from the Yale lab PDF, Schegloff and Sacks 1973 from the ISCA archive PDF; converted with
+pdftotext or an HTML-to-text script, curly quotes straightened and line-break hyphens rejoined. Every
+string marked [V] below was string-matched in that text today. Nothing on the unread line was read,
+cleared or cited; Wolf, Nafe and Tomasello 2021 and Sprecher 2025 stay uncited.
+
+- **Mastroianni, Gilbert, Cooney and Wilson 2021.** Study 1 [V]: "On average, participants wished
+  their conversations had been 24.08% longer than they were (median = 0.00%)." and [V]: "Although
+  this mean value is substantial". Fields [V]: "Psychologists, linguists, and communications scholars
+  (7 – 9) have studied the "closing rituals"". Absolute gap [V]: "this remarkable result was
+  replicated in Studies S1 and S2 (SI Appendix, Table S1, row 7)" (the supplement itself not read) and
+  [V]: "Half the participants wished their conversations had been different by a third or more of
+  the conversation's duration". Intimates and strangers [V]: "with just a few exceptions, the two
+  studies produced remarkably similar results. Our conversants were apparently no more likely to
+  communicate their true desires to intimates than to strangers." Table 2 row 15 (columns Mean, SD,
+  95% CI, Median): estimate of the partner's desired duration off by a mean of 63.84%, median 29.41%.
+  **Stage 4 note, lesson 13 (2026-09-26), correcting Part B §6 "May not say":** "in Study 1 the
+  average person wanted it longer" is the mean only; the median signed wish was 0.00%, so a lesson
+  says "the mean wish was for longer" and gives the median beside it, never "the average person".
+- **Boothby, Cooney, Sandstrom and Clark 2018.** [V]: "Study 1b supported the neglected-signal
+  account, which suggests that although people do signal that they like one another during
+  conversations, people neglect these signals when estimating how much others like them." The
+  "conspiracies of politeness" sentence is the first of "several reasons" in the introduction for why
+  partners' views are hard to know, cited to other work, not the authors' account of the gap. Study
+  1a [V]: "Because we started collecting data on shyness after the study had begun, the following
+  analyses exclude data on that measure from two dyads." Study 3 [V]: "The liking-gap pattern was
+  similar for short, medium, and long conversations." and the length by rating-type interaction was
+  not significant, p = .37 [V: "p = .37"]. Study 5: half the sample was randomly shown [V]: "Whoever
+  makes the most accurate estimates will win a $100 cash bonus." Study 4 [V]: "We also a priori
+  excluded data from 1 participant who was on the autism spectrum, which is associated with
+  difficulties during social interactions; the data from that participant's conversation partner
+  were also excluded." The paper mentions autism nowhere else (string search).
+- **Schegloff and Sacks 1973**, footnote 4 [V]: "That the materials are all 'American English' does
+  not entail that they are RELEVANTLY 'American English', or relevantly in any larger or smaller
+  domain that might be invoked to characterize them."
+- **Mastroianni, Cooney, Boothby and Reece 2021, "The liking gap in groups and teams"** (Part B
+  §5.2; read level stays **the abstract and introduction**). Abstract re-got today from the Semantic
+  Scholar API record, the publisher's page being closed [V]: "We extend this finding by providing
+  evidence that it arises in conversations among small groups (Study 1), continues to exist in
+  engineering teams working on a project together (Study 2), and is linked to important consequences
+  for teams' ability to work together in a sample of working adults (Study 3)." Lesson 13 now cites it
+  as source 4, at that read level, for the gap in small groups and engineering teams only.
+- **Page correction (fresh second pass, 2026-09-26).** Re-fetched from the same gwern.net PDF: the
+  two Vrij, Hartwig and Granhag passages quoted above (d = 0.30 and d = 0.26) sit on **p. 302**, the
+  page after Table 1's footer "301". The quotations and the correction to §2.7 and C2 stand; only
+  the page number above is wrong. Also recorded: the "48 of them pooled" in lesson 14's Elkjær
+  sentence comes from the BPS article (§4.8: "Their search process identified 73 studies ... of
+  which 48 were appropriate for inclusion in their statistical meta-analysis" [V]), not from the
+  abstract, and the lesson now cites [32] for it.

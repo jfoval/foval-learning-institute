@@ -11,8 +11,8 @@ objectives:
   - >-
     State what the liking-gap studies found, for whom the gap was largest and how long it lasted
   - >-
-    Explain why the endings finding and the liking gap are the same kind of misjudgement, and what
-    they do and do not license
+    Explain how the endings finding and the liking gap are alike, how they differ, and what they do
+    and do not license
 quiz:
   - q: >-
       A researcher repeats the lab study of strangers' conversations with 200 new pairs, and gets
@@ -52,7 +52,7 @@ quiz:
       After a first coffee with a new colleague, Zenobia replays the moment she lost her thread and
       decides the colleague found her dull. Which conclusion does the liking-gap research support?
     options:
-      - On average people underestimate how much a new partner liked them, but it can't read this colleague
+      - On average people underestimate a new partner's liking, but that says nothing about this colleague
       - The colleague almost certainly liked her more than she liked the colleague, so she can stop worrying
       - Her impression is probably accurate, since people are good at judging how a first meeting went
       - The gap only appears after long talks, so a short coffee is too brief for it to have any bearing
@@ -65,7 +65,7 @@ quiz:
       person. People were not good judges here; that was the finding. And the gap showed up after
       five-minute conversations as well as long ones.
   - q: >-
-      Four people each have a first conversation with a stranger. Going by the 2018 studies, whose
+      Four people each have a first conversation with a stranger. Going by the first of the 2018 studies, whose
       liking gap would you expect to be largest?
     options:
       - Wilhelmina, who scores low on self-esteem and is often hard on herself
@@ -91,8 +91,8 @@ quiz:
     answer: 1
     explain: >-
       If one person wanted a call 50% longer and another wanted theirs 50% shorter, the average wish
-      is zero while each missed by half. The endings study made exactly this point: a small average
-      signed difference sat beside an average absolute gap of about half the conversation. Whether
+      is zero while each missed by half. The endings study made exactly this point: an average wish for
+      24% longer sat beside an average gap, ignoring direction, of 56%. Whether
       calls differ from face-to-face talk is an open question, but it isn't the flaw in this
       reasoning. Averaging percentages is ordinary arithmetic. And poor memory would add noise, not
       force the average to zero.
@@ -129,8 +129,8 @@ mistake or two.
 ## Do conversations end when people want them to?
 
 In 2021 four psychologists, Adam Mastroianni, Daniel Gilbert, Gus Cooney and Timothy Wilson, published [two studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC7958231/)
-asking a question that, as they note, behavioural science had not answered.[1] Linguists had described
-the "closing rituals" people use to end a conversation, "but they have not studied how and when people
+asking a question that, as they note, behavioural science had not answered.[1] Psychologists, linguists and
+communication scholars had described the "closing rituals" people use to end a conversation, "but they have not studied how and when people
 decide to use them".[1]
 
 **Study 1** was an online survey of 806 people recruited through Amazon's Mechanical Turk, a site for
@@ -144,14 +144,15 @@ they would have liked it to go on.
 
 Two thirds: 66.51% said there was a point when they had felt ready to end.[1]
 
-And on average, people wished their conversation had been *longer*, by 24.08% of its length.[1] If you guessed "shorter", keep reading: the next paragraph shows why that average hides most of what happened.
+And the *mean* wish was for a longer conversation, by 24.08% of its length, but the median was 0%: the person in the middle wished for no change at all.[1] So if you guessed "shorter", or "about right", you weren't simply wrong. The next paragraph shows why neither average tells you much.
 :::
 
 That second figure looks like a mild complaint, and it isn't. Suppose one person wished their
 conversation had been half as long again and another wished theirs had been half as short. Average
 the two wishes and you get zero, yet each of them missed by half. When wishes point both ways, a plain
 average lets them cancel. So the authors also averaged the *size* of each person's gap, ignoring its
-direction. On that measure the typical mismatch was 56.01% of the conversation.[1] In minutes, people
+direction (the absolute gap, as against the signed average, which keeps the direction and lets wishes
+cancel). On that measure the typical mismatch was 56.01% of the conversation.[1] In minutes, people
 wished their conversations had been about 2 minutes longer on average, but 6.6 minutes different.[1]
 
 **Study 2** checked the same thing in a laboratory, where the researchers could ask *both* people. They
@@ -164,7 +165,7 @@ full 45 minutes and had to be stopped. Because nobody knows when they would have
 left them out, and report that doing so does not meaningfully change the results.[1] That left 126
 pairs, 252 people.
 
-Here is what happened to those 126 conversations:[1]
+Those 126 conversations ended like this:[1]
 
 - In 1.59%, both people wanted to end at the same moment, and did.
 - In 29.37%, the conversation ended when one of the two wanted it to.
@@ -215,21 +216,21 @@ last is the remainder, worked out by this course. Bars share one scale. Drawn by
 
 ### Nobody could tell
 
-Could people at least tell when their partner wanted to stop? In Study 2, where both partners
+People were no better at telling when their partner wanted to stop. In Study 2, where both partners
 answered, people's guesses about when the other had wanted to end were off by 63.84% of the
-conversation on average.[1] And they thought they and their partner wanted much the same thing: they
+conversation on average, and half of them by more than a quarter.[1] And they thought they and their partner wanted much the same thing: they
 believed their two wishes differed by about 29% of the conversation, when in fact they differed by
 about 68%, "more than twice as large as the participants and their partners thought it was".[1]
 
 The authors' summary, in the discussion: "it appears that when two humans talk, one almost always
 wants to stop talking before the other one does."[1] Notice what that does not say: that people want
-out early. In Study 1 the average person wanted *more*, and the authors single out the Study 2 pairs,
+out early. In Study 1 the mean wish was for *more*, and the authors single out the Study 2 pairs,
 nearly one in ten, who "did not get what they wanted because both conversants wanted to talk longer
 than they did".[1]
 
 ### The authors' explanation
 
-Why can't people sort this out? The authors' abstract suggests that ending a conversation is a classic
+The authors' abstract suggests why people can't sort this out: ending a conversation is a classic
 coordination problem, one that "humans are unable to solve because doing so requires information that
 they normally keep from each other."[1] A coordination problem is one
 where what each person wants to do depends on what they think the other wants. Two people who each
@@ -239,7 +240,10 @@ favour.
 The information people keep back is when they'd like to stop, and the reason, on the authors'
 account, is that saying so risks offending. People "may generally mask those desires when they arise
 and may instead wait for the conversation to pass a suitably ambiguous offramp".[1] And they noticed
-that intimates and strangers behaved alike: the conventions that lead people to hide it "may be
+that the two studies, one about family and friends recalled a day or so later and one about strangers
+in a lab, gave
+remarkably similar results: people were apparently no more open with the one than the other. The
+conventions that lead people to hide it "may be
 referred to as politeness when they govern behavior toward strangers and as kindness when they govern
 behavior toward intimates".[1]
 
@@ -254,7 +258,9 @@ was people from Harvard's study pools talking with a stranger in a lab, knowing 
 recorded, and Study 2 itself pools three smaller studies with near-identical procedures.[1] **Compared
 with what?** With each person's own reported wish, and in Study 2 with their partner's.
 
-It is two studies in one paper from one group, so this course labels it **one group's programme**. The
+It is two studies in one paper from one group, and the paper reports that two more, in its supplement,
+found the same size of gap (this course didn't read the supplement). So this course labels it **one
+group's programme**. The
 authors themselves write that "Future research will determine whether these results generalize to a
 wider range of human beings and social situations."[1] This course searched the papers that cite it and
 found no replication by an outside team.
@@ -315,8 +321,9 @@ of a conversation ("What are you doing?") can turn up exactly the material that 
 close. And "I gotta go" can even cut into a topic, and does not invite a new one the way "O.K."
 does.[2]
 
-Whether the same forms work the same way in other languages, the paper does not say, and this course
-has not read a study that checked, or one that counted how often each form is used.
+The recordings were all American English. The authors warn that this alone doesn't make the patterns
+American, but they didn't test other languages, and this course hasn't read a study that checked, or
+one that counted how often each form is used.[2]
 
 ### The end of a phone call, marked up
 
@@ -363,7 +370,7 @@ the pre-closing system manages the ending without carrying the information that 
 An "Okay." at the end of a topic does not say whether its speaker is desperate to leave or would happily
 go on for an hour.
 
-Nothing here tests a technique. No study asked people to offer a pre-closing earlier, or to say
+Nothing here tests a technique. No study this course found asked people to offer a pre-closing earlier, or to say
 honestly that they were ready, and measured what happened. So the course's reading stays modest: a
 pre-closing offered at the end of a topic is the ordinary way to begin to leave, and it gives the other
 person a turn to keep going if they want to. Whether offering one sooner, or more honestly, would close
@@ -371,7 +378,7 @@ the gap the endings study found is untested.
 
 ## How it went: the liking gap
 
-Now the second question from the start: afterwards, how much did they like you? In 2018 Erica Boothby,
+Now the second question from the start: how much the other person liked you. In 2018 Erica Boothby,
 Gus Cooney, Gillian Sandstrom and Margaret Clark published [five
 studies](https://clarkrelationshiplab.yale.edu/sites/default/files/files/BoothbyCooneySandstromClark2018.pdf)
 on it, run at Yale, Harvard and in the UK. Their abstract names the finding: after conversations,
@@ -391,7 +398,8 @@ So the gap between the two ratings is an error in the guesses.
 The study also measured four personality traits. Only one changed the size of the gap: shyness. Split
 into thirds, the shyest people's gap was 1.14 points on the seven-point scale, the middle third's 0.55,
 and the least shy third's 0.25, which was not statistically significant.[3] Self-esteem, narcissism
-and sensitivity to rejection made no difference. Keep the size in view: each third was ten people.
+and sensitivity to rejection made no difference. Keep the size in view: shyness was added after the study began, so only some
+people had a score, and each third was ten people.
 
 :::predict The conversations in that first study were filmed. Two research assistants who didn't know the hypothesis watched the videos and rated how much each person seemed to like the other. Could they tell? And did their ratings match what people actually felt, or what people thought their partner felt?
 
@@ -402,16 +410,15 @@ So the signals of liking were there on the video. The authors' conclusion: peopl
 
 ### The authors' explanation, and what they tested
 
-Why would people miss the signs? The second study, with 84 Yale students and recent graduates talking
-freely for five minutes, tested one answer. Afterwards, each wrote down the top three moments that had
+The second study, with 84 Yale students and recent graduates talking freely for five minutes, tested
+one reason people might miss the signs. Afterwards, each wrote down the top three moments that had
 shaped their impression of the partner, and the top three they thought had shaped the partner's
 impression of them, and rated how positive or negative each moment was.[3] The moments people thought
 had shaped the partner's view of them were more negative than the moments that had shaped their own
 view of the partner. And statistically, that difference accounted for part of the liking gap, though
 not all of it.[3]
 
-That is the mechanism this lesson gives: **harsher thoughts about your own performance**, tested by
-Boothby and colleagues and accounting for part of the gap. The authors offer further possible reasons
+That is the one explanation Boothby and colleagues tested: **harsher thoughts about your own performance**. The authors offer further possible reasons
 in their discussion, drawn from other research and not tested here, and the lesson leaves them there.
 Their introduction adds why the question is hard at all: "conversations are conspiracies of politeness
 in which people do not reveal their true feelings".[3]
@@ -425,7 +432,8 @@ Three more studies took it outside five-minute lab chats.[3]
   underestimated both how much the partner liked them and how much the partner enjoyed it. People who
   talked longer liked each other more, but the gap did not shrink with length. (Split into three length
   groups, the enjoyment gap was clear in all of them, and the liking gap only in the medium one; the
-  short and long groups had 18 and 24 people.)
+  short and long groups had 18 and 24 people. The authors read the liking pattern as similar across
+  all three: the gap didn't change significantly with length.)
 - **Workshops.** At "How to Talk to Strangers" workshops in the UK, 100 people rated how interesting
   they found a new partner after five minutes (4.30 on a five-point scale) and how interesting they
   thought the partner found them (3.61).
@@ -438,13 +446,15 @@ Three more studies took it outside five-minute lab chats.[3]
 
 Nobody knows. The authors offer two possibilities: by then the students knew each other well, or they were deciding whether to live together the next year, which "may have forced discussions that revealed liking".[3] They tested neither.
 
-So the accurate summary is that the gap lasted **for several months** in these suitemates and was gone by the last survey, not that it lasts indefinitely. Offering people a $100 prize for accuracy at that last survey made no difference to their estimates, which the authors take as a sign that people meant what they reported.[3]
+So the accurate summary is that the gap lasted **for several months** in these suitemates and was gone by the last survey, not that it lasts indefinitely. At that last survey, telling a random half of them that the most accurate estimate would win $100 made no difference to their estimates, which the authors take as a sign that people meant what they reported.[3]
 :::
 
 ### What kind of evidence the liking gap is
 
 **One group's programme.** Five studies in one paper, with samples from Yale, Harvard's lab pool and UK workshops. The paper says its design and
-analysis plans were not preregistered, and it made its data public.[3] Other labs have published
+analysis plans were not preregistered, and it made its data public.[3] One study excluded an autistic
+participant in advance and none looked at autistic people separately, so these findings say nothing
+about autistic readers in particular.[3] Other labs have published
 related studies; this course read only their abstracts and doesn't rely on them, and its search of the
 papers citing the 2018 study found no direct replication by an outside team.
 
@@ -478,31 +488,37 @@ Set the two findings side by side, with lesson 12's.
   wishes were closer than they were.
 - **Afterwards**, people underestimated how much their partner liked them.
 
-What they share is that each is a guess about something the other person felt and didn't say. Both
-papers point to conventions of politeness for why it goes unsaid: Mastroianni's group to the
-politeness and kindness that keep people from announcing they're ready to go, Boothby's group to
-"conspiracies of politeness".[1][3] The research groups overlap, too: Gus Cooney is an author of both
-papers. So on **this course's reading**, they are the same kind of misjudgement: a person judging what's in someone else's head from what's in their own, about
-something the other has good social reasons not to say.
+What they share is that each is a guess about what the other person felt, made from inside your own
+head. They differ in why the guess goes wrong. For endings, the authors suggest, without testing it,
+that people keep the wish to leave to themselves, out of politeness or kindness.[1] For liking,
+Boothby's group tested whether people hide it, and the videos said no: the coders could see the
+liking, and people missed it. The reason they tested, harsher thoughts about how they'd done,
+accounted for part of that.[3] Their introduction
+does name the "conspiracies of politeness" that make any partner hard to read, and Gus Cooney is an
+author of both papers. So on **this course's reading**, both are a person judging what's in someone
+else's head from what's in their own; only in the endings study is the other person thought to be
+keeping it back.
 
-They differ in direction, and that matters. The liking gap runs one way: guesses about being liked ran
+They also differ in direction, and that matters. The liking gap runs one way: guesses about being liked ran
 low. The endings mismatch runs both ways: some people wanted to stop sooner, some later, and the error
 was in how far apart the two people were. So the liking gap is a reason to discount your own gloomy
 verdict a little, on average. The endings finding is not a reason to stay longer or to leave sooner;
 it is a reason not to trust your guess either way.
 
-Neither tells you what one particular person felt, and neither was tested outside the people and
-settings described above. What lesson 7 said still holds: asking beats guessing, and where asking
+Neither tells you what one particular person felt. The endings study hasn't been repeated outside
+these samples in anything this course found. The liking gap, beyond these five studies, has been
+reported by the same group in small-group conversations and in engineering teams working on a
+project, which this course read only in abstract and introduction.[4] What lesson 7 said still holds: asking beats guessing, and where asking
 would be odd, what the other person does next is better evidence than your replay.
 
 ## What people get wrong
 
 **"They'll tell you when they want to go."** In the lab study, people's guesses about when their
-partner wanted to stop were off by about two thirds of the conversation on average, and only 1.59% of
-conversations ended when both wanted.[1]
+partner wanted to stop were off by nearly two thirds of the conversation on average (by more than a quarter for half of
+them), and only 1.59% of conversations ended when both wanted.[1]
 
-**"Everyone's secretly desperate to leave."** In Study 1 the average person wanted their conversation
-to be *longer*, and in about one lab pair in ten both people wanted to go on.[1] The finding is a
+**"Everyone's secretly desperate to leave."** The wishes ran both ways: some people wanted less, some
+more, and in about one lab pair in ten both people wanted to go on.[1] The finding is a
 mismatch, not a universal wish to escape.
 
 **"They didn't like me much."** After first conversations, people in the 2018 studies typically
@@ -518,7 +534,8 @@ or a reason that refers to the other person's time. It leaves the other a turn t
 without that: a silence where a turn is due.
 
 **"The average person got about the length they wanted."** That's the signed average, where wishes
-for longer and shorter cancel. The average size of the gap was about half the conversation.[1]
+for longer and shorter cancel. The average absolute gap was about half the conversation, and in Study 1
+half the people wished theirs "different by a third or more of the conversation's duration".[1]
 
 ## Practice
 
@@ -586,3 +603,7 @@ mismatch as cases of a wider pattern.
    [Yale lab PDF](https://clarkrelationshiplab.yale.edu/sites/default/files/files/BoothbyCooneySandstromClark2018.pdf).
    **Read: the full text**, re-read 26 September 2026. Five studies: community members near Yale, Yale
    students, Harvard lab-pool participants, UK workshop attendees and first-year Yale suitemates. <!-- SOURCES Part B §5.1; lesson 13 gate closure -->
+4. Mastroianni, A. M., Cooney, G., Boothby, E. J., and Reece, A. G. (2021). The liking gap in groups
+   and teams. *Organizational Behavior and Human Decision Processes*, 162, 109–122.
+   **Read: the abstract and introduction.** The same research group; small-group conversations,
+   engineering teams working on a project, and working adults. <!-- SOURCES Part B §5.2; lesson 13 review gate closure -->
