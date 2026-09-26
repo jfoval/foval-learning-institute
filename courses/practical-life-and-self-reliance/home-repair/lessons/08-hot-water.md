@@ -403,8 +403,8 @@ lesson adds testing a water heater's relief valve to that list, and says why. Le
 cylinders this lesson measured. First Aid and CPR lesson 10, "Burns, cuts and small injuries",
 covers what to do for a scald; this lesson covered only how hot the water is. Lesson 5,
 "Electricity: what trips, and why", is where the breaker behind an electric water heater comes in.
-Next, lesson 9, "Gas: the smell, the valve, the law and the engineer", takes the fuel side of a gas
-water heater or boiler.
+Next, lessons 9 and 10, "Gas: the smell and the valve" and "Gas: the law and the engineer", take the
+fuel side of a gas water heater or boiler.
 
 ## Go deeper
 

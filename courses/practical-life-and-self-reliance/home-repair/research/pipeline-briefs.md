@@ -4,13 +4,13 @@ Kept so any session can run the lessons the same way, adapted on 2026-09-25 from
 `practical-life-and-self-reliance/personal-safety/research/pipeline-briefs.md` and
 `health-and-body/first-aid/research/pipeline-briefs.md`. Each lesson: one drafting subagent (DRAFT
 brief), a fresh-context review (REVIEW brief: Tier A, one reviewer, for most lessons; Tier B split,
-reviewers F and P in parallel, for lessons 9, 15 and 18), and one fixer in a further context (FIX
+reviewers F and P in parallel, for lessons 9, 10, 19 and 22), and one fixer in a further context (FIX
 brief). Findings files live in the session's scratchpad and do not survive it; the lesson's review
 file in `reviews/` is the record.
 
 **Before a lesson is drafted, check its gates** in OUTLINE "Stage 1 gates". Lesson 5 waits for G-E5.
-Lesson 18's second half ("Does licensing make work safer?") waits for G-L3 and G-N2; if they don't
-close, lesson 18 is drafted as its seam's first half only. Lesson 1 needs G-N1 for the callout's two
+Lesson 22's second half ("Does licensing make work safer?") waits for G-L3 and G-N2; if they don't
+close, lesson 22 is drafted as its seam's first half only. Lesson 1 needs G-N1 for the callout's two
 numbers. Every other gate has a written fallback, and the drafter either closes the gate or writes the
 fallback, never neither.
 
@@ -21,11 +21,11 @@ fallback, never neither.
 Read this section first. It binds every lesson, and it grows as lessons land: a fixer who learns
 something a later lesson needs adds a dated bullet at the end.
 
-- **Nineteen lessons**, numbered and titled as in OUTLINE "How many lessons, and why", with named seams
-  still to come in lessons 14, 15 and 18 (lesson 2's and lesson 5's fired on 2026-09-25, and the
-  heating and hot water lesson split the same day without one). Cross-references use the number and
-  the title ("lesson 9, Gas: the smell, the valve, the law and the engineer"), so a split is a
-  find-and-replace.
+- **Twenty-three lessons**, numbered and titled as in OUTLINE "How many lessons, and why", with named
+  seams still to come in lessons 18, 19 and 22 (lesson 2's and lesson 5's fired on 2026-09-25, the
+  heating and hot water lesson split the same day without one, and the gas, carbon monoxide and
+  alarms, tools and ladders lessons split on 2026-09-26 without one). Cross-references use the number
+  and the title ("lesson 9, Gas: the smell and the valve"), so a split is a find-and-replace.
 
 - **The safety callout, byte for byte, on every lesson, directly after the opening paragraph(s).** The
   build may enforce it as `HOME_REPAIR_SAFETY` (OUTLINE decision 4), so no word of it changes in a
@@ -106,7 +106,7 @@ something a later lesson needs adds a dated bullet at the end.
 - **Boundaries** (decision 14), each by name and never retaught:
   **First Aid and CPR**: lesson 2 ("power off before you touch"; the call), lesson 10 (electrical
   burns), lesson 14 (CO poisoning, the signs, the response, 0800 111 999, Poison Help). This course
-  teaches where hazards come from and what keeps them away; no symptoms, no rescue. Lesson 10 refines
+  teaches where hazards come from and what keeps them away; no symptoms, no rescue. Lesson 11 refines
   First Aid lesson 14's "every room with a burning appliance needs an alarm" line by jurisdiction,
   as a refinement, after opening that lesson and reading the sentence.
   **Personal Safety**: lesson 5 owns what deters burglary (WIDE), the doorstep con and the call-back
@@ -161,6 +161,29 @@ something a later lesson needs adds a dated bullet at the end.
   SOURCES.md and the gate-closure comments in lessons keep the numbers they were written under:
   "lesson 05" there is the draft that became lessons 5 and 6, and "lesson 06" the one that became
   lessons 7 and 8.
+
+- **2026-09-26: the course is twenty-three lessons.** Four more lessons split at drafting, none at a
+  named seam; each drafter cut at the natural boundary and the orchestrator accepted it. Gas is now
+  lesson 9, "Gas: the smell and the valve", and lesson 10, "Gas: the law and the engineer"; carbon
+  monoxide and alarms is lesson 11, "Carbon monoxide and the alarms that warn you", and lesson 12,
+  "Smoke alarms: where they go, and why they stay silent"; tools is lesson 13, "Tools, dust and fumes:
+  a small kit used safely", and lesson 14, "Before you drill: cables, pipes and what's in the wall";
+  ladders is lesson 15, "Ladders and working at height", and lesson 16, "Stepladders, and what the
+  ladder injury figures count". Every later lesson moved up by four (Keeping water out 17, Damp inside
+  18, Asbestos, lead and radon 19, Walls and paint 20, Pests 21, Who may do what 22, Hiring 23). Tier B
+  is now lessons 9, 10, 19 and 22, because both gas halves are Tier B; the neutrality passes are
+  lessons 8, 18 and 21, and the full audit lesson 22's. OUTLINE, this file and every cross-reference in
+  lessons 1 to 8 and 10 to 16 use the new numbers (lesson 9 was being fixed at the time, and its
+  pointers were handed to its fixer). "Gate closures, lesson NN" headings in SOURCES.md and the
+  gate-closure comments in lessons keep the numbers they were written under: "lesson 09" there is the
+  draft that became lessons 9 and 10, "lesson 10" the one that became 11 and 12, "lesson 11" 13 and 14,
+  and "lesson 12" 15 and 16.
+
+- **2026-09-26: plan for the 100-minute ceiling from the start.** Every lesson drafted so far has run
+  long against OUTLINE's estimates, and seven of the sixteen planned lessons have now split. Drafters
+  of lessons 17 to 23 plan scope for the 100-minute ceiling from the outset, and where a draft would
+  pass it, cut scope rather than split. (The named seams in lessons 18, 19 and 22 are still in OUTLINE
+  as Stage 2 wrote them.)
 
 ---
 
@@ -312,7 +335,7 @@ instead).
 
 ---
 
-## Stage 4 review brief, Tier A: Home Repair and Maintenance (one reviewer; lessons other than 9, 15, 18)
+## Stage 4 review brief, Tier A: Home Repair and Maintenance (one reviewer; lessons other than 9, 10, 19, 22)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
 `courses/practical-life-and-self-reliance/home-repair`. You are the reviewer of one lesson, in a fresh
@@ -356,7 +379,7 @@ decisions 2, 6, 7, 9, 17).
    exercise within decision 1, with its limits written in; no UK step given to a US reader or the
    reverse in anything that could be acted on in an emergency; every place a reader might take a
    description as an instruction they can't safely carry out from a page.
-3. **Neutrality**, where the lesson has contested or value claims (lessons 8, 14, 17 at least): sort each
+3. **Neutrality**, where the lesson has contested or value claims (lessons 8, 18, 21 at least): sort each
    claim (3.1), Turing-test each position, check language and omitted facts, and check that neither
    country's advice is called wrong and no trade body is endorsed or suspected in the course's voice.
    Where the lesson has none, write the one line the review-lesson command asks for.
@@ -384,7 +407,7 @@ main breaker presented as making anything safe. End with your verdicts per pass.
 
 ---
 
-## Stage 4 review brief, Tier B split: lessons 9, 15 and 18 (two reviewers, F and P)
+## Stage 4 review brief, Tier B split: lessons 9, 10, 19 and 22 (two reviewers, F and P)
 
 As the Tier A brief, but two reviewers run in parallel, each in a fresh context, and neither edits
 anything. **Reviewer F** runs passes 1, 2 and 3 (facts and law, safety, neutrality); **Reviewer P** runs
@@ -392,13 +415,13 @@ passes 4, 5 and 6 (depth and pedagogy, cold start, voice and media). Findings ar
 P1....
 
 Additionally:
-- **Lesson 9:** F reads regulation 3 of the 1998 Regulations, L56 paras 52, 81, 83 and 85, and HSE's
+- **Lesson 10** (and lesson 9 wherever it touches who may do gas work): F reads regulation 3 of the 1998 Regulations, L56 paras 52, 81, 83 and 85, and HSE's
   home-owner page live, and checks every sentence about who may do gas work against them. F searches the
   lesson for "illegal", "legal", "law", "both parties" and "must" and verdicts each.
-- **Lesson 15:** F re-reads HSE's asbestos FAQ, EPA's asbestos and lead pages, the RRP rule's §745.82 and
+- **Lesson 19:** F re-reads HSE's asbestos FAQ, EPA's asbestos and lead pages, the RRP rule's §745.82 and
   §745.85(a)(3), and the BCF's HS032, and checks that every legal statement sits beside its advice
   (decision 8), that no method for asbestos work appears, and that Defra's figures carry the withdrawal.
-- **Lesson 18: the full neutrality audit** (standards 3.5). F sorts every claim (established, contested
+- **Lesson 22: the full neutrality audit** (standards 3.5). F sorts every claim (established, contested
   empirical, value), Turing-tests each position **as a licensing proponent** (an electrician, a trade
   body), **as a deregulation proponent** (a free-market economist; someone kept out of a trade by
   licensing costs), and **as a householder who does their own work**, and reports each reading. F counts

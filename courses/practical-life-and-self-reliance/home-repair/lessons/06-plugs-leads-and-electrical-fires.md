@@ -367,9 +367,9 @@ lead that is hot to the touch.
 ## Connections
 
 Lesson 5, "Electricity: what trips, and why", explained the devices in the box and the stop rule;
-this one took the same ideas to the plug. Lesson 10, "Carbon monoxide, smoke and the alarms that
-warn you", comes back to fire with the smoke alarm routine, and lesson 11, "Tools, dust and fumes:
-a small kit used safely", to electricity near cables in a wall.
+this one took the same ideas to the plug. Lesson 12, "Smoke alarms: where they go, and why they
+stay silent", comes back to fire with the smoke alarm routine, and lesson 14, "Before you drill:
+cables, pipes and what's in the wall", to electricity near cables in a wall.
 
 ## Go deeper
 

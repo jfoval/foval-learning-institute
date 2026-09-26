@@ -121,7 +121,7 @@ Many boilers and furnaces burn gas, so the callout's first line matters here mor
 water lessons. Everything this lesson gives a householder happens on the water side or the air
 side: the radiators, the pressure gauge, the filling controls the maker shows you, the filter
 slot. Anything behind the boiler's casing, or the furnace's burner, is somebody else's, and lesson
-9, "Gas: the smell, the valve, the law and the engineer", sets out exactly why. For radiators, the
+10, "Gas: the law and the engineer", sets out exactly why. For radiators, the
 callout's "isolate" means heating off and radiators cool before you touch a bleed valve, which is
 the callout's isolate-first line in a new place. One section below states the law on gas work, and
 it carries this label in short; here it is in full. This is general information, not legal advice.
@@ -292,7 +292,7 @@ The official advice points one way. HSE "strongly advises that all gas appliance
 pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe
 registered engineer."[19] What a householder may do is what the appliance's user instructions give
 the user to do.[20] So a boiler repair, a fault code the manual doesn't tell you to clear, or
-anything inside the casing beyond that panel is **Call someone**, and lesson 9 has the rest.
+anything inside the casing beyond that panel is **Call someone**, and lesson 10 has the rest.
 
 ## The cold radiator: top or bottom?
 
@@ -458,7 +458,7 @@ not the house.
 DOE says a furnace's or boiler's maintenance "should be provided by a heating system professional",
 and gives the heat exchanger as an important safety reason: "Furnace heat exchangers mix
 combustion gases with house air when they leak", which can cause carbon monoxide poisoning.[11]
-That's lesson 10, "Carbon monoxide, smoke and the alarms that warn you". For heat pumps, DOE says:
+That's lesson 11, "Carbon monoxide and the alarms that warn you". For heat pumps, DOE says:
 "You should have a professional technician service your heat pump at least once a year."[12]
 [ENERGY STAR](https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist), the
 US government's efficiency programme, recommends a contractor's check-up each year, the cooling
@@ -578,8 +578,8 @@ callout's isolate-first line applied here as heating off and radiators cool. Les
 and frozen pipes", used bar for the cold supply; this lesson used it for the heating circuit,
 which is a different system with its own gauge. Lesson 3, "Taps and toilets", asked why a hot tap
 might not stop, and this lesson's cylinders gave the course's best answer. Lesson 8, "Hot water: scalds, legionella and the tank", takes
-the same cylinders and water heaters and asks how hot their water should be. Then lesson 9, "Gas: the smell, the valve, the law and the engineer",
-takes the boiler's fuel side, and lesson 10, "Carbon monoxide, smoke and the alarms that warn you",
+the same cylinders and water heaters and asks how hot their water should be. Then lessons 9 and 10, "Gas: the smell and the valve" and "Gas: the law and the engineer",
+take the boiler's fuel side, and lesson 11, "Carbon monoxide and the alarms that warn you",
 takes up what a leaking heat exchanger lets out.
 
 ## Go deeper

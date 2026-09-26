@@ -4255,3 +4255,1055 @@ half for those settings only.
 
 **CPSC 5098**, re-read (PDF, sheet code "009611 032012"), its closing paragraph, in column order:
 - "Never take hot water temperature for granted. Always hand-test before using, especially when bathing infants and young children. Leaving a child unsupervised in the bathroom, even if only for a second, could cause serious injuries. Your presence at all times is the best defense against accidents and scalding to infants and young children." [V]
+
+## Gate closures, lesson 10 (2026-09-25)
+
+Read by the lesson 10 drafter ("Carbon monoxide, smoke and the alarms that warn you") on
+25 September 2026: curl with a browser User-Agent plus pandoc (HTML) or pdftotext (PDF); GOV.UK
+pages through the content API; Internet Archive captures through the `id_` raw form (gunzipped).
+Every [V] below was string-checked against the extracted text on the day.
+
+### Re-read at drafting: the alarm law, England
+
+**The Smoke and Carbon Monoxide Alarm (England) Regulations 2015 (SI 2015/1693), regulation 4**,
+https://www.legislation.gov.uk/uksi/2015/1693/regulation/4, read in full, revised text. The page
+shows [V] "There are currently no known outstanding effects for The Smoke and Carbon Monoxide Alarm
+(England) Regulations 2015, Section 4." Extent shown as E+W; the instrument is England's (its title).
+- 4(1): [V] "A relevant landlord in respect of a specified tenancy must ensure that—"
+- 4(1)(a)(i): [V] "a smoke alarm is equipped on each storey of the premises on which there is a room used wholly or partly as living accommodation;"
+- 4(1)(a)(ii): [V] "a carbon monoxide alarm is equipped in any room of the premises which is used wholly or partly as living accommodation and contains a [F2fixed combustion appliance other than a gas cooker]" (the brackets and "F2" are the site's amendment markers; a lesson quotes the words without them). Without the markers: [V, markers removed] "a carbon monoxide alarm is equipped in any room of the premises which is used wholly or partly as living accommodation and contains a fixed combustion appliance other than a gas cooker".
+- 4(1)(b): checks that each prescribed alarm [V] "is in proper working order on the day the tenancy begins if it is a new tenancy".
+- 4(1)(c): after a tenant's report made on or after 1 October 2022, an alarm found not in proper working order [V] "is repaired or replaced".
+- 4(2): [V] "a bathroom or lavatory is to be treated as a room used as living accommodation."
+- 4(4): [V] "“room” includes a hall or landing".
+- **Correction to D23:** the amending instrument is **SI 2022/707** (the live page's textual
+  amendments F1 to F6, all in force 1.10.2022), not "SI 2022/578". Words in reg 4(4) were also
+  omitted from 1 May 2026 by SI 2026/325 (Renters' Rights Act consequential amendments); the
+  omissions do not touch 4(1) or 4(2). "Relevant landlord" and "specified tenancy" are defined
+  elsewhere in the Regulations, which were not re-read; a lesson says "a landlord of a tenancy the
+  Regulations cover".
+
+**Approved Document J (2010 edition incorporating 2010, 2013 and 2022 amendments)**, the PDF at
+https://assets.publishing.service.gov.uk/media/6336e58be90e0772dc9651a2/ADJ_2022.pdf (pdftotext),
+and the GOV.UK record (content API; organisation now "Ministry of Housing, Communities and Local
+Government"). Read: requirement J3 and its limit, the "Main changes made by the 2022 amendments",
+and paragraphs 2.34 to 2.36, 3.43 to 3.45 and 4.30 to 4.32. The ventilation sections are still
+unread (G-L11 stays open).
+- J3: [V] "Where a fixed combustion appliance is provided, appropriate provision shall be made to detect and give warning of the release of carbon monoxide."
+- [V] "Requirement J3 applies only to fixed combustion appliances located in dwellings."
+- 2022 changes: [V] "Guidance has been added in support of requirement J3 “Warning of release of carbon monoxide” on the provision of carbon monoxide alarms where gas burning appliances and oil burning appliances are installed."
+- 2.34: [V] "Where a new or replacement fixed solid fuel appliance is installed in a dwelling, a carbon monoxide alarm should be provided in the room where the appliance is located."
+- 3.43: [V] "Where a new or replacement fixed gas burning appliance (excluding gas appliances used solely for cooking) is installed in a dwelling, a carbon monoxide alarm should be provided in the room where the appliance is located."
+- 4.30: [V] "Where a new or replacement fixed oil burning appliance is installed in a dwelling, a carbon monoxide alarm should be provided in the room where the appliance is located."
+- 3.44 (2.35 and 4.31 the same): [V] "Carbon monoxide alarms should comply with BS EN 50291-1:2018 and be powered by a battery designed to operate for the working life of the alarm." [V] "The alarm should incorporate a warning device to alert users when the working life of the alarm is due to pass." Mains-powered Type A alarms [V] "with fixed wiring (not plug-in types) may be used as an alternative, provided they are fitted with a sensor failure warning device."
+- 3.45 (2.36 and 4.32 the same): [V] "The carbon monoxide alarm should be located in the same room as the appliance:" then [V] "on the ceiling at least 300mm from any wall or, if it is located on a wall, as high up as possible (above any doors and windows) but not within 150mm of the ceiling; and" then [V] "between 1m and 3m horizontally from the appliance."
+- The note after each: [V] "Provision of a carbon monoxide alarm should not be regarded as a substitute for the correct installation and regular servicing of combustion appliances." The same note names a BS EN installation standard that is on the unread line; it is not named in a lesson.
+- GOV.UK record: [V] "These amended provisions and guidance come into effect on 1 October 2022." **Correction to D25:** the record's words are "come into effect", not "in effect".
+
+### G-Z2 closed: Scotland's in-force date
+
+**The Housing (Scotland) Act 1987 (Tolerable Standard) (Extension of Criteria) Order 2019 (SSI
+2019/8)**, https://www.legislation.gov.uk/ssi/2019/8/made (as made, read whole) and
+https://www.legislation.gov.uk/ssi/2019/8/article/1 (revised). No known outstanding effects.
+- Art 2 inserts into section 86(1) of the 1987 Act: [V] "(j)has satisfactory equipment installed for detecting, and for giving warning of, fire or suspected fire;" and [V] "(k)has satisfactory equipment installed for detecting, and for giving warning of, carbon monoxide present in a concentration that is hazardous to health,”." (the missing space after "(j)" and "(k)" is the site's rendering).
+- Art 1 as made: in force [V] "1 February 2021". Art 1 as amended: [V] "comes into force on 1 February [F12022]", with [V] "F1Word in art. 1 substituted (28.1.2021) by The Housing (Scotland) Act 1987 (Tolerable Standard) (Extension of Criteria) Amendment Order 2021 (S.S.I. 2021/46), arts. 1, 2" and [V] "I1Art. 1 in force at 1.2.2022". So the criteria took effect on **1 February 2022**.
+- The Scottish Government's own guidance chapters on the standard remain unread (their title is on the unread line).
+
+**Scottish Government, "Fire and smoke alarms: the law"** (D26), sections "What each home needs"
+and "Where and what to buy", re-read live; last updated 14 August 2024.
+- [V] "Every home in Scotland must have interlinked fire alarms."
+- [V] "Interlinked alarms means if one goes off, they all go off"
+- [V] "It is the property owner’s responsibility for meeting the standard."
+- [V] "one smoke alarm in the living room or the room you use most", [V] "one smoke alarm in every hallway and landing", [V] "one heat alarm in the kitchen"; [V] "All smoke and heat alarms should be attached to the ceiling and be interlinked."
+- [V] "If you have a carbon-fuelled appliance like a boiler, open fire or wood burner, you must also have a carbon monoxide detector in the same room. This does not need to be linked to the smoke alarms."
+- [V] "Gas cookers and hobs do not need a carbon monoxide detector."
+- [V] "sealed battery alarms: these must be sealed tamper-proof units and have long-life lithium batteries which can last up to 10 years - you can fit these alarms yourself" (the page's spaced hyphen; a lesson splits the quotation around it).
+- [V] "mains-wired alarms: these are cheaper than battery alarms but must be fitted by a qualified electrician"
+- [V] "If you also need a carbon monoxide alarm and it is battery-operated, it must have a sealed battery for the duration of its lifespan."
+- [V] "Replaceable batteries cannot be used because the sensors in the alarm degrade over time and so will not be able to detect heat or smoke."
+- [V] "There have been several tragedies over the years where alarms failed because their batteries expired, or people have removed them."
+- [V] "There is no list of approved suppliers or fitters. We cannot endorse or recommend specific products or suppliers."
+- CO standard: [V] "carbon monoxide detector British Kitemark EN 50291-1".
+
+### Re-read at drafting: US alarm law
+
+**NCSL, "Carbon Monoxide Detector Requirements, Laws and Regulations"** (D31), re-read live: the
+introduction, the note, and the rows for California, Illinois, Massachusetts, Minnesota, New York
+and Texas.
+- [V] "Most states have adopted requirements mandating the use of carbon monoxide detectors. These requirements may come from statute, regulation or code requirement."
+- [V] "may not be reflective of all requirements" and [V] "please contact your state or local housing department."
+- NCSL's California row: [V] "Requires the owner of every single family dwelling, hotel and motel dwelling units and all other existing dwelling units intended for human occupancy to maintain a carbon monoxide device in the unit." The statute (below) adds a condition that this summary leaves out.
+
+**California Health and Safety Code section 17926**,
+https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=17926.,
+read in full (as amended by Stats. 2014, ch. 298).
+- 17926(a): [V] "An owner of a dwelling unit intended for human occupancy shall install a carbon monoxide device, approved and listed by the State Fire Marshal pursuant to Section 13263, in each existing dwelling unit having a fossil fuel burning heater or appliance, fireplace, or an attached garage, within the earliest applicable time period as follows:" with (a)(1) single-family dwellings [V] "on or before July 1, 2011."
+- 17926(b): [V] "With respect to the number and placement of carbon monoxide devices, an owner shall install the devices in a manner consistent with building standards applicable to new construction for the relevant type of occupancy or with the manufacturer’s instructions, if it is technically feasible to do so."
+- The building standards 17926(b) refers to were not read.
+
+**Minnesota Statutes 2025, section 299F.51** (https://www.revisor.mn.gov/statutes/cite/299F.51),
+read in full, and **299F.50** (definitions), read in full.
+- 299F.51 subd. 1(a): [V] "Every single-family dwelling and every dwelling unit in a multifamily dwelling must have an approved and operational carbon monoxide alarm installed within ten feet of each room lawfully used for sleeping purposes."
+- Subd. 4: [V] "No person shall remove batteries from, or in any way render inoperable, a required carbon monoxide alarm."
+- Subd. 6: [V] "A first violation of this section shall not result in a penalty, but is punishable by a safety warning. A second or subsequent violation is a petty misdemeanor."
+- 299F.50 subd. 5: [V] '"Approved carbon monoxide alarm" means a device meant for the purpose of detecting carbon monoxide that is certified by a nationally recognized testing laboratory to conform to the latest Underwriters Laboratories Standards (known as UL2034 standards).' (straight double quotes in the source; set here in single quotes) This is a statute naming the standard (G-Z3's fallback condition); the standard itself remains unread.
+
+### G-G3: HSE's "around 7", checked against the table HSE links
+
+**HSE, "Gas safety - Carbon monoxide awareness frequently asked questions"** (D27), re-read live
+in full (page stamp 2026-02-10).
+- [V] "Carbon monoxide (CO) is a colourless, odourless, tasteless, poisonous gas produced by incomplete burning of carbon-based fuels, including gas, oil, wood and coal."
+- [V] "Carbon-based fuels are safe to use. It is only when the fuel does not burn properly that excess CO is produced, which is poisonous."
+- [V] "According to the HSE statistics every year around 7 people die from CO poisoning caused by gas appliances and flues that have not been properly installed, maintained or that are poorly ventilated."
+- The four signs, unchanged from D27: [V] "yellow or orange rather than blue flames (except fuel effect fires or flueless appliances which display this colour flame)"; [V] "soot or yellow/brown staining around or on appliances"; [V] "pilot lights that frequently blow out"; [V] "increased condensation inside windows".
+- The signs are introduced as ones [V] "which indicate incomplete combustion is occurring and may result in the production of CO".
+- [V] "Carbon monoxide can be produced by any combustion appliance, including those that burn fossil fuels eg oil, wood and coal."
+- [V] "If you have one of these appliances you should make sure that it is serviced and maintained by a competent person and the chimney is regularly swept."
+- Spilling appliance: [V] "Call the National Gas Emergency Service on 0800 111 999"; [V] "Switch off the appliance and shut off the gas supply at the meter control valve"; [V] "Open all doors and windows to ventilate the room".
+
+**HSE, "Gas safety in the home: FAQs"** (Part B §6), re-read live; the CO alarm, servicing and
+landlord passages read (the page was searched, not read whole).
+- [V] "HSE strongly recommends the use of CO alarms as one useful precaution to give advance warning of CO in a property. Importantly alarms should not be regarded as a replacement for regular maintenance and safety checks by a Gas Safe registered engineer."
+- [V] "Before purchasing a CO alarm, always ensure it complies with British Standard EN 50291 and carries a British or European approval mark, such as a Kitemark."
+- [V] "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning. HSE strongly advises that gas appliances and/or flues are regularly checked for safety at least once every 12 months."
+- The page prices CO alarms; the price is undated and not used.
+
+**HSE, RIDGAS, "Gas-related incidents reported under RIDDOR in Great Britain"**,
+https://www.hse.gov.uk/statistics/assets/docs/ridgas.xlsx, the gas table on the statistics page
+the CO FAQ links as "HSE statistics". Read: Contents, Notes and Table 1 in full. [V] "Date
+published: 20 November 2025".
+- Table 1, fatalities from carbon monoxide poisoning, Great Britain: 2020/21 **1**; 2021/22 **3**;
+  2022/23 **2**; 2023/24 (revised) **2**; 2024/25 (provisional) **1**. All gas fatalities: 3, 5, 5,
+  5, 2. CO poisoning incidents: 67, 51, 63, 84, 92. Non-fatal CO casualties: 88, 63, 85, 122, 133.
+- Note b: Table 1 counts incidents notifiable under RIDDOR regulation 11(1), a duty on [V] "certain conveyors of gas (including LPG)"; [V] "The statistics published have been confirmed by HSE as an accurate representation of the number of people who have died as a result of a domestic gas incident." [V] "Suicides and cases of self-harm are not RIDDOR reportable as there is no accident causing the death or injury."
+- Note 4: 2020/21 and 2021/22 [V] "are potentially affected by the impacts of the coronavirus pandemic."
+- **Finding:** the table HSE's FAQ links gives 1 to 3 carbon monoxide deaths a year in Great Britain
+  for 2020/21 to 2024/25, not "around 7". The FAQ gives no year for its figure. The course found no
+  HSE source for "around 7"; a lesson attributes it to the FAQ, undated, and sets the table beside
+  it with its scope (RIDDOR regulation 11(1) reports, piped and bottled gas).
+
+### Re-read at drafting: CPSC and CDC
+
+**CPSC, "Non-Fire Carbon Monoxide Deaths Associated with the Use of Consumer Products: 2022 Annual
+Estimates"** (D28), PDF re-read: executive summary, introduction, "National Estimates" and "By
+Product Category" sections, and Table 1 (2012 to 2022).
+- [V] "CPSC has records from 182 reported incidents resulting in an estimated 274 unintentional, non-fire CO poisoning deaths associated with the use of consumer products under the CPSC’s jurisdiction."
+- [V] "Sixty-four percent of the estimated 274 CO deaths in 2022 resulted from CO exposure in a home location."
+- [V] "with more than half (59%) of the deaths occurring during the four cold months of November, December, January, and February." (2020 to 2022)
+- Scope: [V] "This report does not include CO poisoning deaths involving products outside CPSC’s jurisdiction, incidents where the CO gas resulted from a fire, was solely from a motor vehicle, or was directly work related; and the report also does not include deaths that were suicides or otherwise intentional in nature." Completeness of the 2022 data: 90%, by the report's own measure; later years excluded as incomplete.
+- Table 1, 2022 estimates: Engine-Driven Tools 107 (generators 71 gasoline, 5 LP, 17 unspecified fuel = 93; other engine-driven tools 13); Heating Systems 76; Multiple Products 33; Charcoal/Charcoal Grills 18; Ranges or Ovens 16; Grills, Camp Stoves 11; Water Heaters 9; Other Products 4 (these sum to 274). The table notes that figures may not add because of rounding.
+- [V] "In 2022, such devices included charcoal/charcoal grills (an estimated 18 deaths) and gas ranges (16 deaths)." (devices "not specifically designed for heating purposes" known or suspected to have been used for heating an enclosed space)
+- [V] "However, EDTs powered by gasoline engines may not emit an irritating exhaust smoke, even though they produce large amounts of CO, even in locations where sufficient oxygen is available for combustion."
+- [V] "natural and LP gas appliances may emit potentially lethal amounts of CO without any irritating fumes to alert potential victims to the danger."
+- [V] "sudden extreme hypoxia can result in rapid incapacitation and loss of consciousness, which prevent exposed individuals from leaving the hazardous environment." and CO combines with haemoglobin [V] "with an affinity about 250 times that of oxygen".
+
+**CPSC, "Carbon Monoxide Information Center"** (D29), re-read from capture 20260908150612 (the live
+page returned 403).
+- [V] "More than 200 people in the United States die every year from accidental non-fire related CO poisoning associated with consumer products. More than 100 of those deaths are linked to portable generators."
+- [V] "one portable generator can produce the same amount of carbon monoxide as hundreds of cars."
+- [V] "Never use portable generators inside homes or garages, even if doors and windows are open. Use generators outside only, at least 20 feet away from homes with exhaust facing away."
+- [V] "Install battery-operated CO alarms or CO alarms with battery backup on every level of the home and outside sleeping areas. Interconnected CO alarms are best; when one sounds, they all sound."
+- The page lists three recent CPSC warnings to stop using particular combination smoke and CO detectors and plug-in gas and CO detectors; a lesson reports them without the product names.
+
+**CDC, "Carbon Monoxide Poisoning Basics"** (D30), re-read from capture 20260920191925 (live page
+403); page dated 12 January 2026.
+- [V] "Each year, more than 400 Americans die from unintentional CO poisoning not linked to fires, more than 100,000 visit an emergency department, and more than 14,000 are hospitalized."
+- [V] "Install battery-operated or battery back-up CO detectors near every sleeping area in your home."
+- [V] "Replace your CO detector following the manufacturer's instructions or every 5 years."
+- [V] "Have your heating system, water heater, and any other gas, oil, or coal burning appliances serviced by a qualified technician every year."
+- [V] "Horizontal vent pipes for appliances, such as a water heater, should go up slightly as they go toward outdoors, as shown below. This prevents CO from leaking if the joints or pipes aren't fitted tightly."
+- [V] "Never heat your house with a gas oven."
+- [V] "Have your chimney checked or cleaned every year. Chimneys can be blocked by debris, which can cause CO to build up inside your home or cabin."
+- [V] "Never burn charcoal indoors."
+- [V] "Never use a portable gas camp stove indoors."
+- [V] "Never use a generator inside your home or garage, even if doors and windows are open."
+- [V] "Only use generators outside, more than 20 feet away from any windows, doors, and vents."
+- [V] "When using a generator, use a battery-powered or battery backup CO detector in your home."
+- [V] "Never run your car or truck inside a garage that is attached to a house, even with the garage door open."
+
+### Re-read at drafting: smoke alarms and the fire figures
+
+**MHCLG, "Detailed analysis of fires and response times to fires attended by fire and rescue
+services, England, year ending March 2026"** (D33), 19 August 2026, release text via the GOV.UK
+content API: the introduction and section 5 ("Smoke alarm function") read in full. The GOV.UK
+record lists one organisation, the Ministry of Housing, Communities and Local Government.
+- [V] "All fire-related Ministerial responsibilities moved from the Home Office to the Ministry of Housing, Communities and Local Government (MHCLG) on 1 April 2025."
+- [V] "fires where a smoke alarm was not present accounted for 23% (6,026) of all dwelling fires and 24% (44) of all dwelling fire-related fatalities"
+- [V] "dwelling fires where a smoke alarm failed to operate accounted for 19%, virtually unchanged (0.3 percentage points) on the previous year"
+- [V] "Fires where a smoke alarm was present but either did not operate or did not raise the alarm accounted for 29% of all dwelling fires (19% and 10% respectively) in the year ending March 2026, similar to previous years."
+- [V] "‘fire products did not reach detector(s)’" and [V] "‘fire in area not covered by system’" [V] "accounted for 66% of all failure to operate reasons for smoke alarms in dwelling fires."
+- Footnote 10: [V] "Fire products did not reach detectors(s) can be where the smoke alarms present were poorly sited (for example not on the floor of origin) so the smoke did not reach the detector."
+- Table 5.1 (source FIRE0704), reasons the alarm did not operate, share of dwelling fires: missing battery 1.8%; defective battery 3.1%; other act preventing alarm from operating 2.6%; fire products did not reach detector(s) 49%; fire in area not covered by system 17%; faulty system or incorrectly installed 2.4%; other 24% ("Other" includes "alerted by other means", "system damaged by fire", "other" and "don't know"). Casualty column not used.
+- [V] "It shows that a smoke alarm was present and raised the alarm (functioned as intended) in 48% of dwelling fires, 38% of fire-related fatalities and 51% of non-fatal casualties in the year ending March 2026."
+- The release now computes the likelihood of dying with and without a working alarm on a five-year average (its "Background" note).
+
+**Fire Kills, "Detection"** (https://firekills.campaign.gov.uk/detect/), re-read live in full. The
+page names no department.
+- [V] "In more than a third of fires in the home, smoke did not reach a smoke alarm in time to raise the alert and warn the household of the danger." (no year or data source given)
+- [V] "Make sure you have at least one on every level of your home and test them at least monthly."
+- [V] "Do not put smoke alarms in or near kitchens or bathrooms where smoke or steam can set them off by accident."
+- [V] "Never disconnect or take the batteries out of your alarm if it goes off by mistake unless you are replacing them."
+- [V] "If it doesn’t sound, you need to replace the battery, or possibly the alarm itself."
+- [V] "If it is a ten-year sealed battery alarm, you will need to replace the alarm itself every ten years."
+- [V] "you are around 11 times more likely to die in a fire if you do not have any working smoke alarms"
+
+**GOV.UK (Home Office), "Fire safety in the home" (accessible version)**, updated 25 May 2022 (the
+record still lists the Home Office), re-read via the content API.
+- [V] "You’re around 8 times more likely to die in a fire if you do not have a working smoke alarm in your home."
+- [V] "Vacuum your smoke alarms every six months to remove dust."
+- [V] "Test them by pressing the button until the alarm sounds."
+- Mains-powered alarms: [V] "They need to be installed by a qualified electrician and, like battery alarms, they do require testing."
+- [V] "If it is difficult for you to fit smoke alarms yourself contact your local fire and rescue service for help."
+- So the government's figure for the added risk without a working alarm is "around 8 times" in the 2022 guide and "around 11 times" on the Fire Kills page today; neither gives the years behind it.
+
+**USFA, "Smoke alarms"** (D41), re-read live; [V] "Page last reviewed: Sept. 21, 2026". The
+9-volt line now extracts cleanly (Part B §6's "garbled" note no longer applies).
+- [V] "Installing smoke alarms in every bedroom, outside each separate sleeping area, and on every level of a home" (the sentence continues after a spaced dash; quote no further)
+- [V] "They need to be replaced 10 years from the manufacture date."
+- [V] "Test smoke alarms every month and replace 9-volt smoke alarm batteries at least once every year."
+- [V] "Never take the battery out of your smoke alarm while cooking!"; then [V] "Open a window or door and press the “hush” button.", [V] "Wave a towel at the alarm to clear the air.", [V] "Move the entire alarm several feet away from the kitchen or bathroom."
+- [V] "Disabling a smoke alarm or removing the battery can be a deadly mistake."
+
+**NFPA, "Smoke Alarms in U.S. Home Fires"** fact sheet (D42, Ahrens, data 2009 to 2013), re-read.
+- [V] "Almost half (46%) of the smoke alarms had missing or disconnected batteries. Nuisance alarms were the leading reason for disconnected smoke alarms."
+- [V] "Dead batteries caused one-quarter (24%) of the smoke alarm failures."
+- [V] "Three of every five home fire deaths resulted from fires in homes with no smoke alarms (38%) or no working smoke alarms (21%)."
+
+**NFPA, "Smoke Alarms at Home"** tip sheet (©NFPA 2018), re-read: alarms [V] "should be at least 10
+feet (3 meters) from the stove" is split by layout as "They should be / at least 10 feet (3 meters)
+from the stove."; a lesson quotes only "at least 10 feet (3 meters) from the stove".
+
+### Re-read at drafting: chimneys, ventilation, dryers
+
+- **HETAS** (Part B §6), live: [V] "HETAS encourage having your chimney swept at least twice a year when burning wood and at least once a year when burning smokeless fuels." [V] "between April 2021 and March 2022 there were 2,608 chimney fires in England, which is a 16% decrease from the previous year." [V] "HETAS recommends that chimney sweeping is best carried out by a HETAS Approved Chimney Sweep." [V] "Always ask to see identification before a sweep carries out any work."
+- **CSIA, "Homeowner Resources"** (Part B §6), live: [V] "Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances. Cleaning, maintenance, and repairs shall be done if necessary." (CSIA quoting NFPA 211); of gas: [V] "the chimney can become non-functional from bird nests or other debris blocking the flue."
+- **Energy Saving Trust, "Draught proofing"** (capture 20260916151311): [V] "You must not block fixed ventilation openings needed for flueless or open-flue gas heaters." [V] "Good ventilation is still essential, so you shouldn’t block vents, chimneys or airflow needed for safety and air quality."
+- **USFA, *Clothes Dryer Fire Safety*** (Part B §6), re-read: [V] "Clean the lint filter before and after each cycle." [V] "Make sure that the outdoor vent covering opens when the dryer is operating." [V] "Have your dryer installed and serviced by a professional." The flyer gives no date and no figure.
+
+### Gates left open
+
+G-Z3 (the US alarm standards themselves; Minnesota's statute names one), G-R6 (no dryer-fire
+figure), G-R7 (NFPA 211 only as CSIA quotes it), G-E8 (no NFPA web guidance), G-L11 (AD J's
+ventilation sections). G-N4: no photograph sought for this lesson; it carries one SVG chart drawn
+from MHCLG's Table 5.1. Wales and Northern Ireland alarm law: not read.
+
+## Gate closures, lesson 09 (2026-09-25)
+
+Read at drafting by the lesson 9 drafter ("Gas: the smell, the valve, the law and the engineer") on
+25 September 2026 (the session ran past midnight into the 26th; every page below was fetched on the
+25th), curl with a browser User-Agent and pandoc (HTML) or pdftotext (PDF); Internet Archive
+captures through the `id_` raw form. Every [V] below was string-checked against the extracted text.
+The draft passed 100 measured minutes (135) and was split at the natural seam between the leak and
+the law: lesson 9 is now "Gas: the smell and the valve", and the second half, "Gas: the law and the
+engineer", is held for the orchestrator. Both halves use the strings below.
+
+### G-N1: the gas emergency numbers, re-read on the networks' own pages
+
+- **Cadent, "What to do if you smell gas"**, https://cadentgas.com/smell-gas, full text: [V] "you
+  should call us immediately on 0800 111 999* at any time of the day or night." Its Do's are as
+  Part A §4 records them. Its Don'ts now extract in full: [V] "Turn any power or light switches on or
+  off." [V] "Light any sort of flame within the property." [V] "Use any appliances that could cause a
+  spark." Also: [V] "Once you're safe, call the National Gas Emergency Service number on 0800 111
+  999*." (the asterisk is the page's footnote mark; a lesson quotes the words without it) [V] "If you
+  smell gas outside your home, you should call the National Gas Emergency Service number on 0800 111
+  999* as soon as possible. Refrain from lighting any naked flames in the area and wait for an
+  emergency gas engineer to attend and investigate the problem." [V] "The number operates 24/7 and is
+  free to call." Loss of smell: [V] "Follow the advice from our partner SmellTaste, a charity for
+  people with smell and taste disorders."
+- **Cadent, "Locating your meter and turning off the gas"**, re-read: the ECV passage and the meter
+  box key as the lesson 01 gate closure records them.
+- **National Gas, "Emergency Contacts"**, https://www.nationalgas.com/emergency-contacts, full text:
+  [V] "Smell gas or suspect a leak?" [V] "these emergency guidelines apply to all gas users" (twice on
+  the page). Its list, [V] each line: "Do not smoke or light matches." "Do not turn electrical
+  switches on or off." "Open doors and windows." "Turn off the meter at the control handle unless the
+  meter is in the cellar." "Call the National Gas Emergency number (0800 111 999)." Struck pipes: [V]
+  "If you or your builders have hit a gas pipe, call the National Gas Emergency Service on 0800 111
+  999 – day or night." (the page's spaced dash; quote "day or night" alone) and [V] "or if a pipeline
+  is struck (even if no gas leak has occurred)". The page also gives HSE's Gas Safety Advice Line,
+  0800 300 363.
+- **SSE Airtricity Gas Supply NI, "In an Emergency"**, full text: [V] "phone the 24-hour Northern
+  Ireland Gas Emergency Service on 0800 002 001." Its steps, in order, [V]: "Turn off the gas supply
+  at the meter, unless the meter is located in a cellar or basement – in which case, do not enter."
+  (spaced dash; quote only up to "basement") "If there is a smell of gas in the cellar or basement,
+  you should evacuate the building." "Extinguish all naked flames and do not smoke or strike any
+  matches." "Open doors and windows for ventilation." "Check gas appliances to see if the gas has been
+  left on unlit or that a pilot is out." "Do no turn on or off any electrical switches, including door
+  entry systems." (sic) Then [V] "Call 0800 002 001 (Northern Ireland Gas Emergency number). Never
+  leave it to anyone else to call the Emergency number and make sure you allow immediate access to an
+  engineer."
+- **HSE, "Gas safety: home owners"**, https://www.hse.gov.uk/gas/domestic/faqownerocc.htm, full text
+  re-read. As C15 and the Stage 4 note for lesson 01 record, plus: [V] "The gas engineer's
+  competencies are clearly marked on the back of the engineer's Gas Safe Register ID card." [V]
+  "Importantly alarms should not be regarded as a replacement for regular maintenance and safety
+  checks by a Gas Safe registered engineer." Checking an engineer: the Register's 'Find an Engineer'
+  and 'Check an Engineer' services, [V] "By inputting the licence number from the engineers ID card.
+  Consumers will be able to see pictures of the registered engineers and details of their
+  qualifications." and a text service. [V] "All Gas Safe registered engineers carry ID cards which
+  tell you which appliances they are qualified to work on." HSE's Gas Safety Advice Line: [V] "open
+  between 9.00am and 5 .30 pm Monday to Thursday and 9.00am to 5.00pm on Friday (excluding bank
+  holidays). To contact the Gas Safety Advice Line freephone 0800 300 363." (the page's spacing in
+  "5 .30"; a lesson gives the hours in its own words). The page also prints the Register's freephone
+  number; that is not the Register's own page and the lesson doesn't print it.
+
+### US utility leak guidance, re-read (four utilities)
+
+- **Con Edison, "Gas Safety"**, full text: [V] "Leave immediately and take others with you. If the
+  leak is outside, move to a safe spot far away." [V] "Call 911 or 1-800-752-6633." [V] "Even if the
+  odor isn’t very strong, you should still leave the area immediately, taking others, and then call.
+  Don’t assume someone else has already called." [V] "Don’t light a match, smoke, flip a switch, ring
+  a doorbell, or touch appliances or electronics, including your phone. Doing so can produce sparks
+  that might cause the gas to explode." Signs: [V] "See a white cloud, bubbles in water, blowing dust,
+  dying plants." [V] "Hear a roar, hiss, or whistle." Odorant: [V] "Since natural gas doesn’t actually
+  smell like anything, a chemical called mercaptan is added to help you detect a leak." ("rotten
+  eggs" is its comparison.) Odour fade, [V]: "If a natural gas leak occurs underground, the
+  surrounding soil may cause odor fade such that the odorant may not be detected by smell in the
+  atmosphere." [V] "If you suspect a gas leak but can’t smell it, you should still find a phone away
+  from the area and call 911 or 1-800-75-CONED (1-800-752-6633)." Detectors: [V] "most carbon monoxide
+  detectors do not detect combustible gasses. Be sure to check the label." (The page also describes
+  gas leak detectors for sale; not used, decision 10.)
+- **SoCalGas, "Natural Gas Leaks"**, full text, stamped [V] "Tue, 07/23/2024": [V] "IMMEDIATELY
+  EVACUATE THE AREA and call us from a safe location"; [V] "Call 911 promptly from a safe location if
+  there is damage resulting in a natural gas leak that may endanger life, cause bodily harm, cause
+  property damage". Signs: [V] "dirt/water blowing into the air, a dry patch of grass"; [V] "If you
+  hear unusual sounds like hissing or whistling". Can't smell it: diminished sense of smell, odour
+  fatigue, [V] "You have a physical condition such as a common cold, sinus condition or allergies",
+  tobacco, alcohol and some medications, masking odours, odour fade. Odour fade: [V] "Sometimes
+  physical and/or chemical processes can cause a loss of odorant in natural gas, making it
+  undetectable by smell." More likely [V] "In new, steel pipe that has been recently manufactured or
+  hasn’t been used for odorized natural gas before"; [V] "In natural gas piping systems using higher
+  gas pressure, and when natural gas flow is limited or intermittent"; [V] "In the presence of rust,
+  mill scale, moisture, air, cutting oil, pipe thread compound, liquids, condensates, and other
+  substances". [V] "Because of the possibility of odor fade, it's important to not rely only on your
+  sense of smell to be alerted to a natural gas leak." Its don't list, [V]: "DO NOT smoke or light a
+  match, candle or create any other flame." "DO NOT turn electrical appliances or lights on or off,
+  operate motorized equipment or vehicles, or use any device that could cause a spark." "DO NOT
+  attempt to control the leak or repair a damaged pipe or meter."
+- **Atmos Energy, "Recognizing a leak"**, full text: [V] "If you suspect a leak, call 911 and Atmos
+  Energy from a safe distance at our toll-free emergency number 866.322.8667." [V] "Do not assume
+  someone else will report the leak." [V] "If you suspect a natural gas leak, leave the area
+  immediately! From a safe distance call 911 and Atmos Energy's 24-hour toll-free emergency number".
+  Still no switch advice in the extracted text.
+- **Columbia Gas of Ohio, "Safe appliance installation"** (C29), full page: the three C29 strings
+  unchanged, and [V] "Contact a qualified professional if you notice any change with your appliances,
+  like no heat or overheating from your furnace/boiler, a yellow flame or the presence of soot around
+  a burner on your gas stove, or your furnace or hot water heater fan often kicking on and off".
+
+### Statutes and HSE's code, re-read live
+
+- **SI 1998/2451 reg 3**, legislation.gov.uk, whole regulation, extent E+W+S, [V] "There are
+  currently no known outstanding effects for The Gas Safety (Installation and Use) Regulations 1998,
+  Section 3." 3(1), 3(3), 3(4) and 3(7) exactly as "The gas-work law, stated exactly" records them.
+  Also read: 3(2) (employers and self-employed persons in control of the work must ensure 3(1) is
+  met), 3(5), 3(6) and 3(8) (vehicles, vessels, caravans).
+- **SI 1998/2451 reg 6**, https://www.legislation.gov.uk/uksi/1998/2451/regulation/6, whole
+  regulation, no known outstanding effects: 6(5) [V] "No person searching for an escape of gas shall
+  use any source of ignition."
+- **SI 1998/2451 reg 36**, https://www.legislation.gov.uk/uksi/1998/2451/regulation/36, definitions
+  and (3) to (6), no known outstanding effects, extent E+W+S: 36(3)(a) a landlord shall [V] "ensure
+  that each appliance and flue to which that duty extends is checked for safety within 12 months of
+  being installed and at intervals of not more than 12 months since it was last checked for safety";
+  36(3)(c) the record; 36(6)(a) [V] "a copy of the record made pursuant to the requirements of
+  paragraph (3)(c) above is given to each existing tenant of premises to which the record relates
+  within 28 days of the date of the check". "Lease" means [V] "a lease for a term of less than 7
+  years", [V] "a tenancy for a periodic term", or a statutory tenancy arising from either.
+- **SR 2004/63 reg 3 (N.I.)**, whole regulation, no known outstanding effects: as the lesson 01 Stage
+  4 note records; 3(3) approval [V] "by the Executive"; 3(4) the same two hose exceptions.
+- **HSE, L56** (fifth edition, 2018), re-read from the PDF: paragraphs 52, 81, 83 and 85 and the
+  legal-status passage exactly as "The gas-work law, stated exactly" records them. Also read and used:
+  - Para 55: [V] "‘Installation of a gas appliance (or other gas fitting)’ will be work for the
+    purpose of these regulations even where the connection is made by a bayonet fitting or other
+    self-sealing connector (the connection of such a fitting being just one part of the installation)."
+  - Para 90: [V] "Information on the scope of work a Gas Safe registered engineer is competent to
+    perform may be obtained from the engineer’s certificate of competence (issued under the
+    certification scheme referred to in the following paragraphs or from the Gas Safe Register)."
+  - Para 91: [V] "In addition to ensuring competence, all gas engineering businesses, including
+    self-employed gas engineers, are (subject to the limited exceptions in regulation 3(4)) required to
+    be in membership of a class of persons approved by HSE, whether they carry out such work as their
+    main or part activity."
+  - Para 93: [V] "the only body with such approval is the Gas Safe Register".
+  - Para 121: [V] "This prohibition extends to householders and other members of the general public."
+  - Para 82 (the training's scope, including asbestos and associated services) and para 84 (employers'
+    duty) read, not used.
+- **HSE, "Gas Safe Register"** (newschemecontract.htm), full text: the card and cover strings as C15
+  records them, and [V] "Under the Gas Safety (Installation and Use) Regulations 1998 for a gas
+  engineering business to legally undertake gas work that is within the scope of the Regulations they
+  must be on the Gas Safe Register."
+- **HSE, "Domestic gas: frequently asked questions"**, re-read, landlord and tenant sections by
+  search: [V] "Free-standing cookers connected by a flexible connector (bayonet fitting), are not
+  considered to be 'readily movable', but can be moved, temporarily, eg to clean the space they
+  normally occupy; this type of activity is not regarded as 'work' within the meaning of these
+  Regulations." (HSE's straight quotes) [V] "Any other type of installation/reinstallation is regarded
+  as gas work and must be carried out by a Gas Safe registered engineer". The tenant section prints a
+  specimen letter asking the landlord to show the safety check record.
+- **NYC DOB owner page** (C27), full page: the C27 strings unchanged.
+- **Texas Plumbing License Law**, TSBPE unofficial plain-view text, [V] "JUNE 20, 2023 (UNOFFICIAL
+  VERSION)": 1301.002(7) and 1301.051 as C25 records them; 1301.052 read. The official statutes site
+  (statutes.capitol.texas.gov, OC.1301) returned a 250 KB page with no statute text in it (a script
+  shell), so the official text is still unread.
+
+### The Gas Safe Register's pages, from the Internet Archive
+
+The live site returned HTTP 403 again.
+- **"Don't DIY when it comes to gas appliances"**, capture **20251023004454** (`id_`, gzip), full page
+  text re-read. The C16 strings unchanged. Also [V]: "When your engineer visits, you should ask to see
+  their Gas Safe ID card which confirms they’re appropriately qualified to safely carry out the work in
+  question." [V] "Check where your gas pipes are located - make sure you don’t accidentally hit them
+  during DIY work" (a spaced hyphen; quote from "don’t") [V] "Don’t block or cover air vents and
+  flues". Other trades: [V] "If the work required only involves the replacement of a non-gas component,
+  such as a water circulating pump or central heating control valve, housed within the boiler’s
+  decorative casing, the work could be undertaken by another competent tradespersons e.g.
+  plumber/electrician." (sic) and it would not need a Gas Safe registered engineer provided nobody
+  breaks a combustion chamber seal, disturbs a gas-carrying component or disturbs a module that
+  controls combustion. The consumer's limit: [V] "However, you should not do anything that involves
+  disturbing the gas carrying components (such as the gas supply pipe) or that could affect the
+  combustion process". Casings: [V] "These cases can usually be removed by the consumer e.g., can be
+  lifted off or are hinged panels and do not need to be unscrewed." [V] "A decorative case can be
+  removed safely by the consumer or anybody else, remembering to follow any manufacturer’s
+  instructions and warning labels and making sure you have safely isolated any electrical parts." [V]
+  "If removing the case involves undoing a number of screws, this normally means it is a functional
+  case and it should not be removed by the consumer or a person who is not Gas Safe registered." For
+  guidance it points to the maker's instructions, helpline and website.
+- **"Concerns & Reporting Illegal Gas Work"**, capture **20260221055602**
+  (https://www.gassaferegister.co.uk/gas-safety/concerns-reporting-illegal-gas-work/), full page text,
+  first read by this drafter (the synthesis names it but recorded only the two-thirds line): [V]
+  "Approximately two thirds of illegal gas work inspected by the Register has been found to be unsafe."
+  [V] "Using an illegal gas worker could invalidate the warranty on your boiler and may invalidate your
+  home insurance." The page gives no year or count for the two-thirds figure. **Not used:** [V] "If
+  anyone is doing gas work in the United Kingdom, Isle of Man, Guernsey or Jersey and they are not Gas
+  Safe registered, they could be working illegally." It is the Register's statement, hedged
+  ("could"), and "anyone" goes beyond regulation 3(3); like the "both parties" line, a lesson would
+  attribute it or leave it out.
+
+### Gates
+
+- **G-N1**: closed for this lesson (above). **G-W8**: closed at lesson 01, re-read.
+- **G-G1** (the legal basis for "both parties"): not closed. Regulation 3 re-read whole, and L56
+  paragraphs 52 to 55 and 81 to 93; no provision found that says it of a competent householder. The
+  fallback is used: the line is quoted in the second half as the Register's, with the course saying it
+  could not match it to a provision.
+- **G-G2** (HSENI's approval): not closed. Fallback: Northern Ireland's regulation 3 mirrors Great
+  Britain's; HSE says the Register covers Northern Ireland; "HSENI" not named.
+- **G-G3** ("around 7"): used in the second half as HSE states it, undated; the lesson 10 gate
+  closure above has since read the RIDGAS table.
+- **G-G4**: the lessons name Great Britain and Northern Ireland only.
+- **G-N4** (a licensed photograph of a UK meter and its valve): not closed. Wikimedia Commons searched;
+  the two open-licence meter photographs found (geograph 1900635 and 1900623, CC BY-SA 2.0, Ashley
+  Dace) show museum meters with no emergency control valve. Fallback: no photograph.
+
+## Gate closures, lesson 12 (2026-09-25)
+
+Read by the lesson 12 drafter ("Ladders and working at height") on 25 September 2026: curl with a
+browser User-Agent plus pandoc (HTML) or pdftotext (PDF); the eCFR versioner API (XML, current to
+24 September 2026); the PubMed E-utilities API; the Internet Archive `id_` raw form for the MMWR
+page. Every [V] below was string-checked against the extracted text on the day. **The lesson
+passed 100 measured minutes and was split at drafting**: the file on disk carries leaning ladders
+(whose rules, whether to use one, the numbers, securing, the pre-use check); the second half,
+"Stepladders, and what the ladder injury figures count", was handed to the orchestrator unfiled.
+Both halves cite only what is below or already in Part B §2.
+
+### HSE, "Safe use of ladders and stepladders" (Part B §2), pages 1 to 7 re-read live
+
+Pages 1 to 6 re-read in full; **page 7, "Inspecting the condition of ladders", read in full for
+the first time** (G-H3, inspection half). Page 8 (product standards) not read. The sub-page
+addresses are now `when-how-to-use-ladders-safely.htm`, `how-to-check-ladder-is-safe-before-use.htm`,
+`types-of-ladder.htm`, `where-ladders-should-be-used.htm`, `securing-ladders-used-for-access.htm`
+and `inspecting-condition-of-ladders.htm` under https://www.hse.gov.uk/work-at-height/ladders/.
+Everything Part B §2 records was found as recorded. Added:
+- Page 1: [V] "Ladders and stepladders are not banned under health and safety law." [V] "ladders can be a sensible and practical option for low-risk, short-duration tasks, although they should not automatically be your first choice." [V] "There are simple, sensible precautions you should take to stay safe when using portable leaning ladders and stepladders in the workplace."
+- Page 2: [V] "Short duration is not the deciding factor in establishing whether use of a ladder is acceptable" (the sentence continues after a spaced en dash: [V] "you must have first considered risk."). [V] "As a guide, if your task would require staying up a leaning ladder or stepladder for more than 30 minutes at a time, it is recommended you use alternative equipment." [V] "eg where the ladder will be level and stable, and can be secured (where it is reasonably practicable to do so)."
+- Page 3 (pre-use check): done [V] "at the beginning of the working day" and [V] "after something has changed"; the stiles [V] "not bent or damaged, as the ladder could buckle or collapse"; the feet [V] "if they are missing, worn or damaged the ladder could slip", and check them [V] "when moving from soft/dirty ground (eg dug soil, loose sand/stone, a dirty workshop) to a smooth, solid surface (eg paving slabs)"; the rungs [V] "if they are bent, worn, missing or loose, the ladder could fail"; [V] "If you spot any of the above defects, do not use the ladder and tell the person in charge of the work."
+- Page 4, leaning ladders: [V] "To help make sure the ladder angle is at the safest position to work from" (then a hyphen and the 1-in-4 sentence Part B records); [V] "make sure your belt buckle (or navel) stays within the stiles"; [V] "Don’t work off the top three rungs. Try to make sure that the ladder extends at least 1 metre or three rungs above where you are working"; [V] "Avoid holding items when climbing (consider using a tool belt)"; [V] "Don’t work within 6 m horizontally of any overhead power line, unless it has been made dead or it is protected with insulation." [V] "Use a non-conductive ladder (eg fibreglass or timber) for any electrical work"; [V] "Maintain three points of contact when climbing and wherever possible at the work position."; [V] "a strong upper resting point"; [V] "do not rest it against weak upper surfaces such as glazing or plastic gutters".
+- Page 4, telescopic: [V] "Be aware of the potential for trapping fingers between the closing sections." [V] "If you are in any doubt, do not use them."
+- Page 4, stepladders: [V] "Don’t stand and work on the top three steps (including a step forming the very top of the stepladder) unless there is a suitable handhold"; [V] "such as side-on drilling through solid materials (eg bricks or concrete)"; [V] "Otherwise, use a more suitable type of access equipment"; [V] "two feet and one hand, or when both hands need to be free for a brief period, two feet and the body supported by the stepladder"; the no-handhold tasks [V] "to put a box on a shelf, hang wallpaper, or install a smoke detector on a ceiling", where the decision [V] "needs to be justified", weighing the height of the task, a handhold before and after, light work, side loading, overreaching and whether the stepladder can be tied.
+- Page 5: [V] "Use proprietary levelling devices, not ad-hoc packing such as bricks, blocks, timbers etc"; surfaces [V] "clean (no oil, moss or leaf litter)"; for the public, [V] "as a last resort, a person standing guard at the base".
+- Page 6: the four securing options, each [V]: "Tie the ladder to a suitable point, making sure both stiles are tied"; "Where this is not practical, secure the ladder with an effective ladder stability device"; "If this is not possible, securely wedge the ladder (eg wedge the stiles against a wall)"; "If you cannot achieve any of these options, foot the ladder. Footing is the last resort". Access: [V] "extend at least 1 m above the landing point to provide a secure handhold".
+- Page 7: [V] "Detailed visual inspections are the responsibility of the employer." They are done [V] "at fixed intervals and recorded"; pre-use checks [V] "do not need to be recorded". The inspection list: damaged or worn feet; twisted, bent or dented stiles; cracked, worn, bent or loose rungs; missing or damaged tie rods; cracked or damaged welded joints, loose rivets or damaged stays.
+
+### The Ladder Association and HSE, LA455 (Part B §2), the whole PDF
+
+The PDF at the URL Part B gives, read whole, and the landing page. Footer [V] "LA455 - Version 1,
+Rev 1, 09/26." The text matches HSE's web guide almost word for word. Added:
+- Scope, p. 1: [V] "This guidance is for employers on the simple, sensible precautions they should take to keep people safe when using portable leaning ladders and stepladders in the workplace." [V] "It will also be useful for employees and their representatives."
+- HSE's foreword: [V] "Falls when working at height remain the most common kind of workplace fatality, accounting for around a quarter of all worker deaths and 8% of all non-fatal injuries every year, with many involving a fall off a ladder." (GB workplaces, undated; not used.)
+- The angle, p. 4: [V] "make sure the ladder angle is at 75°" then a spaced en dash, then [V] "you should use the 1-in-4 rule (ie one unit out for every four units up".
+- [V] "don’t work off the top three rungs, and try to make sure that the ladder extends at least 1 m (three rungs) above where you are working".
+- Figure 4 caption, p. 5: [V] "Correct" then a spaced en dash, then [V] "use of a stand-off device to ensure a strong resting point. Do not rest a ladder against weak upper surfaces such as glazing or plastic gutters. Follow the manufacturer’s instructions." The figure (rendered with pdftoppm and looked at) shows the device fitted at the top of the ladder, bearing on the wall below the gutter.
+- Securing, p. 9: [V] "Footing is the last resort."
+- Condition, p. 10: [V] "Detailed visual inspections are the responsibility of the employer."
+- The "Product Standards" box on p. 11 names a standard that is on the unread line; the lesson does not name it (G-H3's product-standard half stays open).
+
+### Work at Height Regulations 2005, regulation 3, re-read live
+
+https://www.legislation.gov.uk/uksi/2005/735/regulation/3, revised text, read whole. [V] "There are
+currently no known outstanding effects for The Work at Height Regulations 2005, Section 3."
+Extent E+W+S.
+- 3(1)(a): [V] "in Great Britain".
+- 3(2): the requirements on an employer apply [V] "in relation to work" by an employee or [V] "by any other person under his control, to the extent of his control."
+- 3(3): they also apply to a [V] "relevant self-employed person" (words substituted from 1.10.2015 by SI 2015/1637), and [V] "to any person other than a self-employed person" (with words inserted by the same Order) [V] "in relation to work by a person under his control, to the extent of his control."
+- 3(6)(ba): "relevant self-employed person" means one who conducts an undertaking of a prescribed description under section 3(2) of the 1974 Act.
+- Nothing in regulation 3 reaches a householder's own DIY, as Part B found.
+
+### HSE, "Work at height: Frequently asked questions" (new)
+
+https://www.hse.gov.uk/work-at-height/faqs.htm, read in full.
+- [V] "Work at height means work in any place where, if precautions were not taken, a person could fall a distance liable to cause personal injury."
+- Working platforms can be almost any surface, including [V] "the treads of a stepladder".
+- [V] "They place duties on employers, and those who control any work at height activity (such as facilities managers or building owners who may contract others to work at height)."
+- Towers: [V] "You need to be competent to build, inspect, use and dismantle a tower".
+- **G-H2 stays open.** The FAQ's "building owners who may contract others" is about control of work, and does not say whether a householder who hires a tradesperson is one. The lesson says the course didn't settle it.
+
+### OSHA, 29 CFR 1926.1053, the whole section (Part B §2)
+
+eCFR versioner API, title 29 current to 24 September 2026, section 1926.1053, paragraphs (a)(1) to
+(a)(27) and (b)(1) to (b)(22) read whole. **Correction to Part B:** paragraph (b) has 22 clauses,
+not 17, and (b)(21) is the rule on hands. Added:
+- (a)(1)(ii): a non-self-supporting ladder's load test is applied [V] "when the ladder is placed at an angle of 75" then "1/2" (a fraction in the XML) [V] "degrees from the horizontal". The lesson gives it as 75½ degrees, unquoted.
+- (b)(5)(i) whole: [V] "Non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one-quarter of the working length of the ladder (the distance along the ladder between the foot and the top support)."
+- (b)(7): [V] "Slip-resistant feet shall not be used as a substitute for care in placing, lashing, or holding a ladder that is used upon slippery surfaces".
+- (b)(15): [V] "Ladders shall be inspected by a competent person for visible defects on a periodic basis and after any occurrence that could affect their safe use."
+- (b)(16): defective portable ladders marked or tagged with [V] "“Do Not Use” or similar language" and withdrawn until repaired.
+- (b)(18): [V] "Ladder repairs shall restore the ladder to a condition meeting its original design criteria, before the ladder is returned to use."
+- (b)(20): [V] "When ascending or descending a ladder, the user shall face the ladder."
+- (b)(21): [V] "Each employee shall use at least one hand to grasp the ladder when progressing up and/or down the ladder."
+- (b)(22): [V] "An employee shall not carry any object or load that could cause the employee to lose balance and fall."
+
+### OSHA QuickCard, "Portable Ladder Safety" (Part B §2), re-read
+
+pdftotext, OSHA 3246-10N-05. Added: [V] "Always inspect the ladder prior to using it." [V] "Look
+for overhead power lines before handling a ladder." (after "Avoid electrical hazards!" and a spaced
+en dash). [V] "Avoid using a metal ladder near power lines or exposed energized electrical
+equipment." [V] "Do not use a self-supporting ladder (e.g., step ladder) as a single ladder or in a
+partially closed position." The top-three-rungs line is still broken across the diagram; paraphrase
+only.
+
+### RoSPA (Part B §2), re-read
+
+- "Garden safety": [V] "Use ladders on stable, level ground and have proper positioning (1:4 ratio/ 75 degree angle)"; [V] "While on ladders, maintain three points of contact and avoid overreaching".
+- **"Neil" (case study, dated 12/09/2019): correction to Part B.** The sentence Part B quotes as "should have been a two-person job" continues: [V] "It should have been a two-person job with somebody holding the ladder." The cut removed the half that says what he meant by a second person (footing, which HSE ranks last). A lesson quotes the whole sentence.
+
+### The injury papers (Part B §2), re-read
+
+- **D'Souza 2007**, abstract (PubMed efetch), as Part B records, plus: [V] "Ladder-related injuries per 100,000 people rose almost 27% during the 16-year study period." Admission is [V] "8.5%" and transfer [V] "1.4%", together [V] "Nearly 10%".
+- **Barbat 2020**, abstract, as Part B records: [V] "the majority of cases occurred in home settings".
+- **Wakim 2022**, abstract, as Part B records; ladder-related lumbar fractures 2010 to 2018 an estimated 31,053, after floors (80,054) and stairs or steps (48,274).
+- **Socias 2014** (capture 20260907020506, read whole): **a scope precision to Part B.** The fall-height finding is for nonfatal, work-related, ED-treated ladder falls in 2011 where the height was documented: [V] "Fall height was documented for 82 of 113 fatalities and an estimated 11,400 of 34,000 nonfatal ED-treated LFIs" and [V] "For nonfatal LFIs, nearly 90% were from heights <16 feet (<4.9 m) and fall heights of 6–10 feet (1.8–3.0 m) were most common". [V] "Head injuries were implicated in about half of fatal injuries (49%)". The "43%" sentence cites Rockett and colleagues (US injury mortality 2000 to 2009), which was not read. NIOSH's steps for employers: [V] "plan the work to reduce or eliminate the need for using ladders by applying safety-in-design and constructability principles to finish as much of the work as possible on the ground"; [V] "provide alternative, safer equipment for extended work at elevation, such as aerial lifts, supported scaffolds, or mast climbing work platforms".
+- **CPSC, injuries in 2020** (Table F), re-read: "Ladders, stools" 227,000 ED-treated and 633,000 medically attended, as recorded.
+- **CPSC, hazard screening report, 65 and over**, re-read: [V] "Persons 65 and older account for half (79) of all ladder deaths." **Precision:** in Table 1 the 79 sits in the column headed "Deaths 2000"; the injury columns are 2002. [V] "This population accounts for 16% of emergency-room treated injuries involving ladders, but represent 39% of those hospitalized for ladder-related injuries."
+
+### CPSC, electrocutions 2011 to 2020 (Part D D38), re-read
+
+Executive summary, the scope rules and Table 5. **Correction to D38 and to the synthesis
+("Safety-critical guidance", item 4):** Table 5's row is headed only [V] "Ladder", with 22 for
+2011 to 2020. Nothing in the text read says the 22 were ladders touching power lines. What the
+report says of scope: [V] "Incidents involving a product under CPSC jurisdiction that comes into
+contact with an electrical source, such as power lines or household current (e.g., a drill or power
+saw cutting into an electrical wire) were considered in scope." Work-related incidents were out of
+scope, and [V] "the electrocution incidents CPSC staff associated with a consumer product for
+purposes of this report were not necessarily caused by the product." A lesson says 22 electrocutions
+were reported under "Ladder", gives the scope rule, and does not say what the ladders touched.
+
+### Gates
+
+- **G-H1** (a UK ladder-injury figure): not closed; not re-searched, on the orchestrator's
+  instruction that none could be sourced. Fallback written: the lessons say the course found no
+  primary source, give no RoSPA snippet figures, and label every figure US.
+- **G-H2**: open (above). Fallback: the Regulations govern work, not your own DIY; the lesson says
+  the hiring case wasn't settled.
+- **G-H3**: inspection half closed (HSE page 7; LA455 section 10). Product-standard half open; no
+  standard named.
+- **G-H5** (CPSC's ladder safety centre): not closed. The live page returned 403 and the Internet
+  Archive has no capture of either address tried. Fallback: CPSC's dated reports only.
+- **G-N4**: no photograph sought; lesson 12 carries one SVG schematic drawn from HSE's and OSHA's
+  numbers.
+
+## Gate closures, lesson 11 (2026-09-25)
+
+Read by the lesson 11 drafter ("Tools, dust and fumes: a small kit used safely") on the night of
+25 to 26 September 2026: curl with a browser User-Agent plus pandoc (HTML) or pdftotext (PDF);
+the NIOSH page through an Internet Archive `id_` capture. Every [V] below was string-checked
+against the extracted text. PDF extractions carry stray spaces inside words ("f ingers", "sa w");
+the [V] strings below give the words without them.
+
+### Re-read at drafting: OSHA 3080, *Hand and Power Tools*, 2002 (Revised)
+
+https://www.osha.gov/sites/default/files/publications/osha3080.pdf, re-read in full 25 September
+2026 (pdftotext). US workplace guidance, written for employers and employees.
+- [V] "The greatest hazards posed by hand tools result from misuse and improper maintenance."
+- [V] "If a chisel is used as a screwdriver, the tip of the chisel may break and fly off, hitting the user or other employees."
+- [V] "If a wooden handle on a tool, such as a hammer or an axe, is loose, splintered, or cracked, the head of the tool may fly off and strike the user or other employees."
+- [V] "If the jaws of a wrench are sprung, the wrench might slip."
+- [V] "If impact tools such as chisels, wedges, or drift pins have mushroomed heads, the heads might shatter on impact, sending sharp fragments flying toward the user or other employees."
+- [V] "Knives and scissors must be sharp; dull tools can cause more hazards than sharp ones." (The scope is knives and scissors; the booklet gives no reason.)
+- The five basic rules: [V] "Keep all tools in good condition with regular maintenance." [V] "Use the right tool for the job." [V] "Examine each tool for damage before use and do not use damaged tools." [V] "Operate tools according to the manufacturers’ instructions." [V] "Provide and use properly the right personal protective equipment."
+- Hand tools at work: [V] "Appropriate personal protective equipment such as safety goggles and gloves must be worn to protect against hazards that may be encountered while using hand tools."
+- Power tools: [V] "Keep all people not involved with the work at a safe distance from the work area." [V] "Loose clothing, ties, or jewelry can become caught in moving parts." [V] "Remove all damaged portable electric tools from use and tag them: “Do Not Use.”" (plus the precautions Part B §1 already records).
+- Grinders: [V] "Always use eye or face protection." Abrasive wheels: [V] "The employee should never stand in the plane of rotation of the wheel as it accelerates to full operating speed."
+- Noise: [V] "Noise is another hazard associated with pneumatic tools." and hearing protection with noisy tools such as jackhammers.
+
+### HSE, *Construction dust*, CIS36 (Revision 3), first published 06/13, revised 03/20
+
+https://www.hse.gov.uk/pubns/cis36.pdf, read in full 26 September 2026 (pdftotext). Written for
+employers ([V] "This sheet tells employers what they need to know to prevent or adequately control
+construction dust risks."), with advice for safety representatives and workers. [V] "Following the
+guidance is not compulsory, unless specifically stated, and you are free to take other action."
+- [V] "Construction dust is not just a nuisance; it can seriously damage your health and some types can eventually even kill."
+- Three types: silica dust, created when working on silica-containing materials [V] "like concrete, mortar and sandstone"; wood dust, [V] "created when working on softwood, hardwood and wood-based products like MDF and plywood"; and [V] "other ‘general’ dust", the most common including gypsum (eg in plasterboard), limestone, marble and dolomite. (The sheet's list items are joined to their labels by spaced dashes; quote the words after them.)
+- Risk factors: [V] "the more enclosed a space, the more the dust will build up."
+- Controls, in order: stop or reduce the dust, [V] "Use different materials, less powerful tools or other work methods."; water, [V] "enough water supplied at the right levels for the whole time that the work is being done", and [V] "Just wetting the material beforehand does not work."; on-tool extraction to an H, M or L class unit, [V] "Don’t just use a general commercial vacuum."; then RPE, [V] "Remember: RPE is the last line of protection."
+- RPE: the general level for construction dust is an APF of 20; [V] "Anyone using tight-fitting masks also needs to be clean shaven." Table 2: APF 20, [V] "FFP3 disposable mask or half mask with P3 filter".
+- Other controls: limiting the number of people near the work; enclosing the work to stop dust escaping.
+- Table 1 rows used: [V] "Occasional short-duration drilling with hand-held rotary power tools" (a dust collector or cordless extraction on the drill for smaller bits, or on-tool extraction; otherwise RPE with an APF of 20); "Sanding wood with power tools": eliminate by [V] "Using ‘pre-finished’ materials", control by on-tool extraction to an H or M class unit and RPE with an APF of 20; "Cutting concrete kerbs, blocks and paving with a cut-off saw": water suppression and RPE with an APF of 20.
+
+### HSE, *Wood dust: Controlling the risks*, WIS23 (Revision 3), first published 11/12, revised 06/22
+
+https://www.hse.gov.uk/pubns/wis23.pdf, read 26 September 2026 (pdftotext): pages 1 to 3 and 6 to
+7 (the risks, the law, RPE). Written for woodworking employers.
+- [V] "All wood dust is a substance hazardous to health because it can cause serious non-reversible health problems, including:" asthma; dermatitis; and irritation to the eyes, nose and throat.
+- [V] "Hardwood dust can also cause a rare type of nasal cancer."
+- [V] "The biggest risk is from fine dust, as you can breathe this deep into your lungs where it will do the most damage."
+- [V] "Do not use compressed airlines or dry sweeping, particularly on clothing, as these will just create dust clouds and redistribute the dust." Clean-up vacuum equipment of at least dust class M.
+- Dust respirators are not suitable [V] "against gases or vapours (eg from paint spraying) as they will not provide any protection."
+- [V] "Nuisance dust masks do not filter out wood particles and hence provide no protection against wood dust, so they should not be used."
+- [V] "Facial hair or glasses tend to lift the respirator off the face and permit inward leakage of contaminated air." For a worker with facial hair, a hood or helmet should be considered. An APF of at least 20; suitable disposables [V] "are often described as FFP3".
+
+### Re-read at drafting: HSE's dust masks, silica and silicosis pages
+
+- **"All you need to know about disposable dust masks"** (Part B §1), re-read in full 25 September
+  2026. The full sentences behind Part B's lines: [V] "FFP1, FFP2 and FFP3 respirators can reduce the amount of dust you breathe by factors of 4, 10 and 20 respectively." [V] "A respirator that depends on face fit is useless if you have a beard or thick beard stubble." Beyond Part B's lines: [V] "The only way you can know if the seal is good enough is by having a proper respirator fit test. At present this is also the only way of meeting legal requirements." [V] "You should carry out a pre-use check every time you put on your respirator." [V] "then hold the mask in place and breathe in or out sharply. You should readjust the respirator if you detect any leakage around your face or your glasses steam up when you breathe out." [V] "FFP1, FFP2 and FFP3 are designed to filter out dust only. They must not be used where there is an oxygen-deficient atmosphere or harmful gases and vapours." Nuisance mask packaging may say [V] "This product does not provide respiratory protection". The page points to e-COSHH guidance due [V] "in autumn 2005".
+- **"Cancer and construction: Silica"** (D43), re-read 25 September 2026: [V] "Some of this dust is fine enough to get deep into your lungs." Silica is a major constituent of [V] "bricks, tiles, concrete and mortar".
+- **"Silicosis: causes and risk controls"** (D43), re-read 25 September 2026: [V] "The effect continues to develop after exposure has stopped and is irreversible."
+
+### OSHA silica: the overview page and 29 CFR 1926.1153
+
+- **OSHA, "Silica, Crystalline"**, https://www.osha.gov/silica-crystalline, the overview text read
+  26 September 2026 (more than D44's menu): respirable crystalline silica is [V] "very small particles at least 100 times smaller than ordinary sand you might find on beaches and playgrounds" and it [V] "is created when cutting, sawing, grinding, drilling, and crushing stone, rock, concrete, brick, block, and mortar". (The two phrases sit either side of a spaced dash on the page.) Diseases: [V] "Silicosis, an incurable lung disease that can lead to disability and death"; lung cancer; COPD; kidney disease.
+- **29 CFR 1926.1153** (construction), https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1153,
+  read 26 September 2026: paragraphs (a) to (f), with Table 1. Federal; binds employers. Table 1,
+  row (ii), handheld power saws (any blade diameter): [V] "Use saw equipped with integrated water delivery system that continuously feeds water to the blade"; respirator none outdoors for 4 hours or less a shift, APF 10 over 4 hours; APF 10 either way [V] "When used indoors or in an enclosed area". Housekeeping, (f)(1) and (f)(2): no dry sweeping or dry brushing, and no compressed air for cleaning, where it could contribute to exposure, with the stated exceptions.
+
+### G-H4 partly closed: OSHA's assigned protection factors (29 CFR 1910.134)
+
+https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134, read 26 September 2026:
+the definitions, paragraph (d)(3)(i)(A) with Table 1 and its notes, and paragraph (g)(1). Federal;
+binds employers. Table 1: an air-purifying half mask has an APF of 10, and note 3 says [V] "This APF category includes filtering facepieces, and half masks with elastomeric facepieces." Note 2: [V] "The assigned protection factors in Table 1 are only effective when the employer implements a continuing, effective respirator program as required by this section (29 CFR 1910.134), including training, fit testing, maintenance, and use requirements." (g)(1)(i)(A): an employer shall not permit tight-fitting respirators to be worn by employees who have [V] "Facial hair that comes between the sealing surface of the facepiece and the face or that interferes with valve function". Appendix D (voluntary use) returned 403 and was not read. Eye protection standards stay unread: eye protection in general terms only.
+
+### NIOSH, "Find Filtering Facepiece Respirators on the Certified Equipment List"
+
+Live page 403; re-read from capture 20260923185140 (`id_`), page dated Feb. 18, 2025. Beyond Part
+B's N95 line: [V] "FFRs are air-purifying respirators that protect by filtering particles out of the air the user is breathing." [V] "For your FFR to work as effectively as possible, you must wear it correctly." Donning instructions are in or on the respirator's packaging.
+
+### G-R3 closed: EPA's methylene chloride rules, as EPA summarises them
+
+US EPA, "Risk Management for Methylene Chloride",
+https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/risk-management-methylene-chloride,
+[V] "Last updated on March 6, 2026", read in full 25 September 2026. The Federal Register texts of
+the rules were not read.
+- March 2019 final rule to prohibit the manufacture (including import), processing and distribution of methylene chloride for consumer paint and coating removal, [V] "because of the acute fatalities that have resulted from exposure to the chemical in consumer paint and coating removal". After 22 November 2019, distribution in commerce, including to and by retailers, is prohibited for that use.
+- [V] "EPA is encouraging all consumers to stop using methylene chloride products that they may have already purchased for paint and coating removal." [V] "Please consult your state and local government solid waste agencies to obtain proper disposal instructions for leftover or unused paint and coating removal products."
+- April 2024 final rule: [V] "Prohibits manufacturing, processing and distribution of methylene chloride for all consumer uses." and [V] "Consumer paint and coating removal was prohibited in 2019."
+- EPA's VOC page (D45, re-read 25 September 2026, "Last updated on June 23, 2026") still says [V] "Use products that contain methylene chloride outdoors when possible; use indoors only if the area is well ventilated." and [V] "methylene chloride is converted to carbon monoxide in the body and can cause symptoms associated with exposure to carbon monoxide." Also: [V] "go outdoors or in areas equipped with an exhaust fan to use it. Otherwise, open up windows to provide the maximum amount of outdoor air possible." [V] "buy only as much as you will use right away" [V] "Do not simply toss these unwanted products in the garbage can." No UK rule on methylene chloride was read.
+
+### Re-read at drafting: London Fire Brigade, Bosch, ESF, HSE and EPA asbestos
+
+- **LFB, "Batteries and chargers"** (Part B §1), re-read 25 September 2026: [V] "Always use the charger that came with your phone, tablet, e-cigarette or mobile device." [V] "Never cover chargers or charging devices" [V] "it's best not to leave your phone plugged in overnight". If a battery swells: [V] "Stop charging immediately", [V] "Turn off the device", [V] "Do not remove the casing or tamper with the equipment", [V] "Contact the manufacturer or certified technician". (Part B's "contact the manufacturer" now reads "or certified technician".) **LFB, "E-bikes and e-scooters"**: [V] "Many of these fires happen in homes while batteries are charging."
+- **Bosch DIY** (Part B §1), re-read 25 September 2026: [V] "If there is insufficient grounding, for example, due to insulating footwear, or if you are standing on a conductor, it won’t be possible to detect live cables." [V] "The device needs to be moved over the same place several times to detect whether there is something behind the wall." [V] "for your own safety, after detection you should switch off the power supply completely before you start drilling." [V] "Nothing was detected and you’re good to go." Rings, bracelets, watches and phones away; the other hand flat on the wall about 20 to 30 cm away.
+- **ESF, "Advice for DIY-ers"** (D34), re-read 25 September 2026: [V] "The most common mistakes people make when attempting to undertake DIY were cutting through power leads, drilling into wiring, or trying to repair an electrical item while it is switched on." [V] "For any DIY near electrical wiring or power supplies, switch off the power at your fuseboard and, where possible, only use battery-powered tools." [V] "To test that the power is off before beginning non-electrical DIY, plug an appliance in or try switching on lights." [V] "Use an RCD or plug-in RCD." [V] "Check leads and plugs on power tools." [V] "If you see signs of damage (for example, frayed wires) get the equipment professionally repaired before using it or get it replaced."
+- **HSE, "Introduction to asbestos safety"** parts 1 and 2 (D2), re-read 25 September 2026: [V] "Buildings constructed after 2000 are unlikely to contain asbestos." [V] "drilling into a wall" [V] "stop work immediately" (written as a duty on people at work).
+- **EPA, "Protect Your Family from Exposures to Asbestos"** (D8), re-read 26 September 2026: [V] "Don't saw, sand, scrape, or drill holes in asbestos-containing materials."
+
+### Gates left open
+
+G-E3 (BS 7671's edition and "safe zones": not read; the lesson uses the fallback wording and
+attributes ESF's "required" line to ESF). G-H5 (CPSC's lithium-ion page not attempted; London's
+figure only, labelled London, and no US battery figure). G-H4's eye-protection standards (general
+terms only). OSHA 1910.134 Appendix D (403). G-N4: no photograph sought.
+
+## Stage 4 note, lesson 09 (2026-09-26)
+
+Lesson 9, "Gas: the smell and the valve", Tier B review (reviewers F and P) and fix pass. Every page
+below was re-read live on 26 September 2026 by reviewer F and again by the fixer, curl with a
+browser User-Agent and pandoc; every [V] was string-matched in the extracted text.
+
+**Correction to the lesson 09 gate closure.** SoCalGas's odour-fade list has **four** bullets, not
+three. The fourth, [V]: "The design and construction of the customer’s gas piping systems, such as
+pipe length and/or diameters". Its footnote also says [V] "certain pipeline and soil conditions can
+cause odor fade", so soil is not Con Edison's alone.
+
+### New strings
+
+- **Cadent, "What to do if you smell gas"** (https://cadentgas.com/smell-gas): [V] "Always wait
+  until the gas engineer has given you the all-clear before returning inside your property." [V]
+  "The engineer will require entry to the property in order to make it safe for you." [V] "They
+  will also send out an emergency gas engineer from your local distribution network who will ensure
+  steps are taken to make the situation safe."
+- **Cadent's area, on Cadent's own homepage** (https://cadentgas.com/): [V] "We are the UK’s largest
+  gas distribution network, bringing gas to 11 million homes and businesses. We manage a network of
+  more than 82,000 miles of pipes, most of them underground, which transport gas throughout the North
+  West, West Midlands, East Midlands, East of England and North London." So Scotland and North
+  Yorkshire are not on Cadent's network, and the Wirral (North West) is. Other networks' pages (SGN,
+  NGN, Wales & West) were not read: guessed URLs returned 404 or a script shell.
+- **National Gas, "Emergency Contacts"** (https://www.nationalgas.com/emergency-contacts): [V] "If
+  you smell gas, call the National Gas Emergency Service on 0800 111 999." [V] "While National Gas is
+  responsible for the gas National Transmission System, these emergency guidelines apply to all gas
+  users." Its meter line is about where the meter is, and says nothing of evacuating: [V] "Turn off
+  the meter at the control handle unless the meter is in the cellar." (no "basement").
+- **SoCalGas, "Emergency Preparedness"** (https://www.socalgas.com/safety/emergency-information/emergency-preparedness,
+  "Submitted ... Tue, 07/16/2024"), full text: [V] "In the event of an earthquake or other emergency,
+  turn off your natural gas meter if you smell natural gas, hear natural gas leaking or see other
+  signs of a leak-- and ONLY if it is safe to do so." [V] "If you turn off natural gas to the meter,
+  leave it off. Don't turn it back on yourself." The page is earthquake preparedness and also tells
+  customers to keep a wrench by the meter; no lesson teaches the method (decision 6). What it shows
+  is that US utilities do not all give the same meter advice, so the lesson defers to the reader's
+  own utility.
+- **Atmos Energy, "Recognizing a leak"**: [V] "The sense of smell for most people is a highly
+  reliable indicator of a natural gas release." [V] "In certain rare situations, the odor intensity
+  can be diminished by physical and/or chemical processes, such as when gas passes through certain
+  soil conditions."
+- **Con Edison, "Gas Safety"**, its full odour-fade list, [V] each line: "Adsorption, absorption, and
+  oxidation." "Newly-installed metal, or sometimes plastic, piping (utility or customer)." "Size,
+  length, and configuration of the piping." "The presence of rust, moisture, or other substances in
+  the pipe." "Gas composition, pressure, and/or flow." and the underground-soil line the gate closure
+  records. Its odorant comparison is [V] "many people compare to the smell of rotten eggs" ("many",
+  not "most").
+- **Phoenix Energy NI, "In an Emergency"** (https://phoenixenergyni.com/safety-environment/in-an-emergency),
+  first read here. Phoenix is a Northern Ireland gas network company ("our engineer"). Its numbered steps, [V]: "Call the
+  gas emergency team 0800 002 001 (24 hrs a day 365 days a year)"; "Turn off the gas supply at the
+  meter, unless the meter is located in a cellar or basement in which case do not enter"; "If there
+  is a smell of gas in the cellar or basement you should evacuate the building"; "Extinguish all
+  naked flames and do not smoke or strike any matches"; "Open doors and windows for ventilation";
+  "Do no turn on or off any electrical switches including door entry systems" (sic); "Check gas
+  appliances to see if the gas has been left on unlit or that a pilot is out"; "Never leave it to
+  anyone else to call the emergency line"; "Make sure you allow immediate access to our engineer".
+  This confirms 0800 002 001 on the network's own page. SSE Airtricity's page also opens with the
+  number: [V] "If you smell gas or you are worried about gas safety, phone the 24-hour Northern
+  Ireland Gas Emergency Service on 0800 002 001." then [V] "Follow the steps below:".
+
+### Re-confirmed unchanged (reviewer F's verified-strings list)
+
+Cadent's smell-gas Do's and Don'ts, its outside-smell line, "Once you're safe", "The number
+operates 24/7 and is free to call." and the SmellTaste line; Cadent's meter page (ECV, quarter turn,
+"Don’t turn it back on until advised it’s safe to do so.", the meter-box key); National Gas's five
+lines and struck-pipe lines; SSE Airtricity's steps and "Never leave it to anyone else to call the
+Emergency number and make sure you allow immediate access to an engineer."; HSE faqownerocc's three
+lines (no "switch" on the page); Con Edison's leave, call, "Don’t assume", don't-list, signs,
+mercaptan, underground soil, can't-smell-it and detector lines; SoCalGas's leak page (stamped Tue,
+07/23/2024), its evacuate, 911, signs, can't-smell, odour-fade and don't-list lines; Atmos's call,
+"Do not assume" and leave lines (no "switch", "flame" or "window" on the page); SI 1998/2451 reg 3
+(no outstanding effects) and reg 6(5). Phone numbers 0800 111 999 and 0800 002 001 match the
+networks' pages; 911 is correct for all three US utilities.
+
+## Gate closures, lesson 18 (2026-09-26)
+
+Lesson 18, "Damp inside: condensation, mould, ventilation and rising damp" (the OUTLINE's lesson 14
+under the old numbering). Every source below was re-read on 26 September 2026 with curl and a
+browser User-Agent; the text was extracted to plain text and every [V] string here is copied from
+that extraction. Nothing on the unread line was opened or cited.
+
+### G-W9: fallback written (Awaab's Law not named)
+
+The GOV.UK guidance (Part A §6, D48) was re-read in full through the GOV.UK content API
+(`public_updated_at` 2026-04-01; first published 2023-09-07; about 16,500 words). A search of the
+whole body for "Awaab's Law", "Hazards in Social Housing" and the HHSRS review outcome finds none of
+them: the page names Awaab Ishak and the inquest, not the law that followed. No primary on Awaab's
+Law was read, so the gate stays open and the lesson writes G-W9's fallback: Awaab's Law is not
+named, and no time limit for a landlord's repair is given. **Do not repeat** the page's own
+sentence "While there is currently no legal requirement to undertake remedial work within a
+specific period of time", in its "Homes must be fit to live in" paragraph: it is on a page updated
+in April 2026, and it may not describe social housing in England since the rules the gate names;
+this course has not read them either way.
+
+### GOV.UK, "Understanding and addressing the health risks of damp and mould in the home" (Part A §6, D48), re-read
+
+The rising damp definition, in full. SOURCES Part A §6 recorded only its first sentence; the
+paragraph goes on, and both further sentences matter to the dispute: [V] "Rising damp is moisture
+from the ground that rises up through parts of the buildings in contact with the ground (walls and
+floors); it is usually found in older properties and is often misdiagnosed. It can be identified
+through visual inspection; however chemical testing is the most appropriate way of confirming it.
+Often it is due to defective damp proof courses and membranes."
+
+- Condensation damp's definition is followed by [V] "This is the most common form of damp."
+- [V] "Irrespective of the type of damp (condensation, penetrating, rising or traumatic), landlords
+  are legally responsible for addressing damp and mould" (a statement about England, in guidance
+  for landlords; the course did not read the statutes it lists).
+- [V] "Moisture from normal occupant activities, such as showering, drying laundry and cooking,
+  builds up in the air around a home if it cannot be removed."
+- [V] "If a dwelling is inadequately ventilated, moisture in the air cannot escape the building and
+  is therefore more likely to cause condensation."
+- [V] "Homes that are insufficiently insulated and heated are more prone to the build-up of moisture
+  and condensation on the inside of external walls and windows."
+- [V] "Simply removing surface mould will not prevent the damp and mould from reappearing."
+- Hidden mould continues: [V] "Caution should be exercised when disturbing potential sites of mould
+  growth. For example, removal of carpets or wallpaper can lead to a significant release of mould
+  spores."
+- [V] "Landlords should not assume they will be able to diagnose the problem themselves in all
+  instances and should seek guidance from an appropriately qualified professional to avoid
+  misdiagnosis of the cause or causes."
+- Removing mould: [V] "Before doing so, it is advisable for tenants or the landlord to photograph
+  the area affected by mould and (if possible) draw around it to preserve a record, which may be
+  helpful to identify the source of mould and plan remedial action." [V] "Regardless of the extent
+  of mould, the person removing the mould should wear protective equipment, such as a mask, gloves
+  and goggles, in order to avoid contact with mould spores or cleaning products." [V] "Doors should
+  be shut to help prevent mould spores from being spread to other areas of the house, but windows
+  should be left open during and after the clean up activity." [V] "Absorbent materials such as
+  carpets, soft furnishings and ceiling tiles may have to be thrown away if they become mouldy"
+- [V] "Tenant management of condensation and small amounts of mould should not be a substitute for
+  assessing and addressing the underlying issue, which should always be the priority."
+- The no-blame paragraph continues after the "lifestyle choices" sentence: [V] "It is unavoidable
+  that everyday tasks, such as cooking, bathing, washing and drying laundry will contribute to the
+  production of indoor moisture." and [V] "the fundamental cause of damp and mould will be due to
+  building deficiencies, inadequate ventilation, inadequate heating and/or poor energy efficiency,
+  not tenants’ normal domestic activities". Then: [V] "Tenants cannot be expected to reduce moisture
+  levels if their home does not enable them to do so."
+- The tenant list, from the ventilation checklist: [V] "leaving a gap between furniture and external
+  walls, using extractor fans in kitchens and bathrooms, closing internal doors when they cook or
+  shower, covering pans when cooking, drying laundry outdoors (if possible) and opening windows
+  periodically".
+- Ventilation: [V] "Trickle vents should be controllable by the tenant, rather than permanently
+  open, as this may encourage tenants to block them." [V] "Installing windows is classified as
+  controlled building work and should be undertaken by someone competent to do so" [V] "Existing air
+  bricks should be kept clear and free of debris and obstruction." Extractors and MVHR systems
+  [V] "should be regularly inspected and maintained by qualified professionals".
+- Energy efficiency: [V] "Energy efficient homes are easier for tenants to heat and therefore
+  typically less prone to developing damp and mould, provided that ventilation is adequate." and
+  [V] "some energy efficiency interventions may reduce overall ventilation rates".
+
+### US EPA, "A Brief Guide to Mold, Moisture and Your Home" (Part A §6), re-read
+
+Live page, "Last updated on February 18, 2026". The biocide sentence SOURCES records is followed at
+once by its qualifier, which a lesson quoting the first half must carry: [V] "There may be
+instances, however, when professional judgment may indicate its use (for example, when
+immune-compromised individuals are present)." Then: [V] "Never mix chlorine bleach solution with
+other cleaning solutions or detergents that contain ammonia because toxic fumes could be produced."
+[V] "Dead mold may still cause allergic reactions in some people, so it is not enough to simply kill
+the mold, it must also be removed."
+
+- [V] "If you clean up the mold, but don't fix the water problem, then, most likely, the mold
+  problem will come back."
+- [V] "Scrub mold off hard surfaces with detergent and water, and dry completely." [V] "Do not paint
+  or caulk moldy surfaces."
+- [V] "If the water and/or mold damage was caused by sewage or other contaminated water, then call
+  in a professional who has experience cleaning and fixing buildings damaged by contaminated water."
+  [V] "If you have health concerns, consult a health professional before starting cleanup."
+- What to wear: [V] "Gloves, goggles, N-95 respirator." [V] "Long gloves that extend to the middle
+  of the forearm are recommended." [V] "Goggles that do not have ventilation holes are
+  recommended." EPA says "you may want to wear" the respirator; it is not put as a must.
+- Hidden mould: [V] "removal of wallpaper can lead to a massive release of spores if there is mold
+  growing on the underside of the paper"
+- Condensation: [V] "Condensation can be a sign of high humidity." [V] "Cover cold surfaces, such as
+  cold water pipes, with insulation."
+- Renters, the exact words: [V] "Report all plumbing leaks and moisture problems immediately to your
+  building owner, manager, or superintendent." and [V] "In cases where persistent water problems are
+  not addressed, you may want to contact local, state, or federal health or housing authorities."
+  EPA does not say "in writing".
+- Health: [V] "Molds can also cause asthma attacks in people with asthma who are allergic to mold."
+  [V] "Research on mold and health effects is ongoing."
+
+### CDC, mould page (Part A §6), re-read from the same capture
+
+Internet Archive capture 20260923211319 of cdc.gov/mold-health/about/index.html. The page's own
+title is "Mold", and it is dated "September 26, 2024" on the page. Its humidity line carries em
+dashes in the original; quote only [V] "no higher than 50%". Also: [V] "CDC does not recommend mold
+testing." [V] "Wear rubber boots, rubber gloves, and goggles during cleanup." [V] "Exposure to damp
+and moldy environments may cause a variety of health effects, or none at all." The bleach-solution
+and never-mix lines match Part A §6.
+
+### University of Minnesota Extension, "Controlling moisture problems in your home" (Part A §6), re-read
+
+Live (https://extension.umn.edu/moisture-and-mold-indoors/do-you-have-too-much-moisture-your-home),
+authors Diane H. Corrin, Richard Stone and Patrick Huelman, "Reviewed in 2023". The page gives the
+reason for its low winter figure, which Part A §6 did not record: [V] "Relative humidity is the
+amount of moisture in the air at a given temperature." [V] "Generally, in cold winter conditions,
+the relative humidity levels need to be low to prevent condensation and potential damage to the
+house’s structure, as well as to discourage mold growth, which can cause allergies and respiratory
+problems." The target sentence in full: [V] "Keeping the relative humidity at 25% (winter) to 50%
+(summer) is generally considered healthy and comfortable for people, and better for the house." (It
+does not itself say "in a cold climate"; that is Part A's description of a Minnesota source.) And:
+[V] "In winter, temporarily open windows just a little to allow warm, moist air to leave the home
+and allow cold, dry air to come in."
+
+### DOE Energy Saver, "Air Sealing Your Home" and "Whole-House Ventilation" (Part A §6), re-read as archived
+
+Captures confirmed: "Whole-House Ventilation" is 20250102092834 and "Air Sealing Your Home" is
+20241231180120. The air-sealing page gives the reason leakage is a poor ventilator: [V] "During cold
+or windy weather, too much air may enter the house. When it's warmer and less windy, not enough air
+may enter, which can result in poor indoor air quality." The ventilation page's opening sentence has
+spaced double hyphens in the original; quote only [V] "require mechanical ventilation to maintain
+indoor air quality".
+
+### Property Care Association, "Rising Damp Advice" (Part A §6), re-read
+
+Live, full text. Further [V] lines, in the trade body's own words:
+- [V] "Without a proper investigation (ideally with a qualified damp specialist) it is impossible to
+  advise what the exact cause of your issue is."
+- [V] "Most types of masonry used in the walls of buildings will allow some water movement by
+  capillary action; however, this is usually controlled by a physical barrier or damp proof course.
+  If this physical barrier is absent, has broken down or is damaged then it is often possible to
+  install a remedial damp proof course (DPC) to control water rising from the ground."
+- On bridging: [V] "removing the ‘bridge’ should hopefully be sufficient to control the capillary
+  rise of moisture in the wall."
+- [V] "Water rising from the ground often introduces contaminating salts into the walls and plaster
+  coats."
+- Self-description: [V] "The Property Care Association (PCA®) is the trade body representing
+  specialists across the UK who can be trusted to help resolve problems affecting buildings such as
+  rising damp"
+
+### RICS Property Journal, Cooper and Thompson, 2020 (Part A §6), re-read
+
+Live, full text. Standfirst: [V] "Although long understood to be a problem by practitioners, rising
+damp could benefit from greater academic investigation". The article's pull quote attributes the
+"cash cow" framing to Howell ([V] "Howell argued that rising damp was simply a myth used by
+surveyors as a cash cow"); it is the article's summary of his argument, not his words, so a lesson
+does not use it to describe the sceptics. The Sellers quotation matches Part A §6.
+
+### The Architects' Journal, 26 June 2009 (Part A §6), re-read
+
+Live, full text. Howell's words, which Part A §6 marked "[V, as quoted]" without recording:
+[V] "If you build a brick pillar and stand it in a tray of water, the bricks in the water will get
+wet, but the water doesn’t rise by capillary action" and [V] "Cement-based and most lime-based
+mortars will not allow water to go through." Blackett-Ord in full on injection and renders:
+[V] "they are ineffective and grossly expensive" and, of cement-based internal renders, [V] "For
+most historic buildings this is extremely damaging and irreversible." Terry Brown's second
+paragraph: [V] "Of course there is no reason why inherited conventional wisdom shouldn’t be
+challenged." Boniface's words were given in an interview with NBS Learning Channels, as the AJ
+reports.
+
+### Joint Position Statement 2022 (Part A §6), re-read
+
+The IHBC copy of the PDF, pdftotext, 15 pages. Two corrections to Part A §6: the salts and
+resistance-meter item is **section 3 ("Understanding moisture-related building defects"), item 9**,
+not section 2; and **the words "rising damp" do not appear anywhere in the statement's text**. It
+takes no position on how common rising damp is or whether any treatment works. Further [V] lines:
+- Scope: [V] "This document is aimed at those providing consultancy advice or surveys to owners and
+  buyers of a building"
+- Section 5 item 1: [V] "Provide a holistic diagnosis that identifies and deals with causes, rather
+  than focusing on symptoms."
+- Section 5 item 2: [V] "Recognise how to deal with the obvious defects first (including, for
+  example, matters such as ventilation, ground levels and lifestyle). Then, allow a period for
+  monitoring and natural evaporation, and reassess before moving on to other treatments."
+- The declared-interest wording in the explanatory notes: [V] "any remedy specified by the surveyor
+  or contractor does not contain a product, treatment or process that will benefit the surveyor or
+  their firm financially without declaring this to the client."
+- Section 2 item 15 lists the measuring methods a surveyor should know, among them [V] "gravimetric
+  moisture analysis", [V] "gas-carbide meters" and [V] "electrical resistance meters". The statement
+  does not say how any of them works.
+
+### Energy Saving Trust, "Draught proofing" (Part B §6)
+
+Not re-fetched (the live site refuses automated readers); used only as recorded in Part B §6 and
+the lesson 10 gate closures (capture 20260916151311), including [V] "Good ventilation is still
+essential, so you shouldn’t block vents, chimneys or airflow needed for safety and air quality."
+
+### Gates left open
+
+G-W9 (above). G-N4: no photograph sought; the lesson has no image. G-L11 (Approved Document F on
+ventilation and the building regulations on trickle vents themselves): not read; the trickle-vent
+rule is given only as GOV.UK states it. G-W10: no savings figures.
+
+## Gate closures, lesson 17 (2026-09-26)
+
+Read by the lesson 17 drafter ("Keeping water out: roof, gutters, ground and walls"; OUTLINE's
+lesson 13 before the renumbering) on 26 September 2026: curl with a browser User-Agent plus pandoc
+(HTML) or pdftotext (PDF); the GOV.UK content API; the Internet Archive `id_` raw form for Historic
+England, whose live site returned 403. Every [V] below was string-checked against the extracted text
+on the day. No gate in OUTLINE's table belonged to this lesson; what follows is the re-reading of the
+Part A §6 and §7, Part B §5 and §6 and Part D D1 and D3 sources at drafting, and three sources read
+for the first time (Historic England's maintenance pages, HSE's roof work page, HSE's ladder page 4 re-read).
+
+### GOV.UK, "Understanding and addressing the health risks of damp and mould in the home" (Part A §6), re-read live
+
+Content API: first published 7 September 2023, updated 1 April 2026. Everything Part A §6 records was
+found, with one difference: **the live text now ends the condensation definition with [V] "This is
+the most common form of damp."** Part A §6 recorded "Condensation is one of the most common causes of
+damp and mould in homes."; that sentence was not re-searched. Added, [V]:
+- "Penetrating damp is water that gets into the building from outside due to defects in the walls, roofs, windows or floors." (unchanged)
+- "Traumatic damp can also originate from outside the property, for example from another building or from environmental flooding."
+- "There may be multiple causes, for example traumatic or penetrating dampness may exacerbate condensation dampness."
+- The external checks, in full: "damaged or blocked pipes, gutters or downpipes"; "broken seals around windows or ill-fitting windows that do not close fully"; "visible structural or facade defects, such as cracks in render or the foundation, missing or broken roof finishes"; "bridged (compromised) damp proof course".
+- "Landlords should not assume they will be able to diagnose the problem themselves in all instances and should seek guidance from an appropriately qualified professional to avoid misdiagnosis of the cause or causes."
+- "Repairing the source of water intrusion, such as fixing leaking pipes, blocked gutters, defective roofs, faulty damp proof courses, flood damage and other structural deficiencies can therefore be effective in removing the source of moisture and reducing risk of damp and mould, and also in avoiding more expensive repairs later (such as rot treatment)."
+- "the fundamental cause of damp and mould will be due to building deficiencies, inadequate ventilation, inadequate heating and/or poor energy efficiency, not tenants’ normal domestic activities"
+
+### University of Minnesota Extension, "Moisture in basements: causes and solutions" (Part A §6), re-read live
+
+https://extension.umn.edu/moisture-and-mold-indoors/moisture-basements-causes-and-solutions. Read:
+full text. Authors John Carmody, Brent Anderson and Richard Stone; no date shown. Everything Part A §6
+records was found. Added, [V]:
+- "Without proper grading, gutters and downspouts, some of this water flows into the basement."
+- "There are just three sources of moisture:" then "Liquid water from rain or ground-water.", "Interior moisture sources such as humidifiers, unvented clothes dryers, bathrooms and cooking, as well as the moisture in concrete after construction.", "Exterior humid air that enters the basement and condenses on cooler surfaces."
+- Symptoms listed include "Water trickling out of walls.", "Standing water on floor.", "Saturated base of concrete block walls; a ring of dampness." and "Condensation on cold walls and floor in summer."
+- "In the summertime, basement windows may be opened for fresh air. If the outside air is warm and humid, it will condense on the cool basement wall and floor surfaces."
+- "If the ground around a foundation is level or slopes toward the house, water is directed into the basement. The soil next to the house is often backfilled without proper compaction and later settles."
+- "Place earth around the house so that it slopes away from the foundation wall a minimum of 1 inch per foot for at least 6 feet."
+- "Missing gutters and downspouts cause rainwater to be directed toward the foundation perimeter." and "It is depositing the huge volume of rainwater from the roof in a single concentrated location near the basement."
+- "The best way to approach any building problem is to first do the things that are easy and low-cost."
+- "Dehumidification can be used as a means of reducing the symptoms of humidity and odor in a basement, but it is not a permanent or complete solution."
+- "It is appealing to solve a basement moisture problem with a membrane or coating on the inside." and "The water is still there, however, and eventually, these systems deteriorate or simply move the water to another pathway into the basement."
+- "Evaluate gutters, downspouts and surface grading: The recommended approach after removing interior moisture sources is to evaluate the gutters, downspouts and surface grading around the house. These should be corrected first and may solve the problem."
+- The step-by-step process, [V]: "Control interior moisture sources.", "If summertime, don't ventilate with outside air.", "Correct grading, gutter and downspout system.", "Provide an interior or exterior drainage system."
+- "Installing an exterior drainage system at an existing building is the most costly, but also the most effective water control approach. This requires digging up the area around the foundation and rebuilding it similar to a new house installation."
+The page gives no test for telling condensation from leakage beyond the season and the symptoms
+above. It is written for Minnesota basements (it says "most basements in Minnesota are connected to
+the rest of the house").
+
+### University of Georgia, Circular 1082 (Part A §7, Part B §6), re-read live
+
+Full text, pdftotext; still "Reviewed June 2021". Everything recorded was found. Added: under Roof &
+Attic, a line to inspect the roof surface, shingles, eaves and soffits and "repair as needed" (not
+quoted: the extraction carries a ligature); under Yard, clear dead plants and shrubs from the house and
+trim branches that overhang the roof; under Basement / Crawl Space, check that the sump pump and floor
+drain work. [V] "Check flashing around the chimney, plumbing vent, skylight, and other joints to ensure it is securely fastened; repair as needed." The checklist says who does a job only where it says "hire a professional" or "you may want to"; it gives no method for cleaning a gutter or checking flashing.
+
+### Historic England, "Maintaining an Older Home" and "Maintenance Checklist" (new)
+
+https://historicengland.org.uk/advice/your-home/looking-after-your-home/maintenance/ and
+.../maintenance/maintenance-checklist/. The live site returned 403. Read: full page text of Internet
+Archive captures **20230824101706** (maintenance) and **20230824101753** (checklist), the latest
+captures; the pages may have changed since August 2023. Historic England is the public body for
+England's historic environment, and the pages are written for owners of older homes. [V]:
+- "The most important thing is to stop damp from getting into your home. You need to check roof coverings, gutters, downpipes and drains regularly to make sure they're working properly. A leaky roof is the most obvious issue, but damp from overflowing gutters or badly ventilated spaces can also cause timbers to rot, plaster to flake off, and bricks to crumble."
+- "For example, in many older houses hard-to-access gutters, particularly if they're hidden from view, can get forgotten."
+- "Occasional: These are carried out following severe weather or unforeseen events and need to concentrate on those parts of a building where water could get in easily"
+- Checklist: "The following is not an exhaustive list but it covers the most critical elements:"
+- Gutters: "Inspect and clear any debris at least every autumn and preferably more often"; "Are there any leaking joints?"; "Does rainfall cascade over the gutter from the roof?"; "Does the water pool in any one area?"; "Do the gutters slope correctly towards outlets?"
+- Rainwater pipes: "Inspect when it is raining and note leakages"; "Clear any blockages"; "Check rear side of pipes with a mirror and look for cracks and corrosion"; "Are pipes securely fixed to the wall?"; "Are there any signs of staining or algae growth, or any washed-out mortar joints, on the wall behind the pipe?"
+- Pitched roofs: "Inspections should be carried out twice a year and after storms or high winds"; "Debris on the ground will give an indication of roof problems"; "Are there any loose, slipped, broken or missing slates or tiles?"; "Is there a lot of moss? This could block gutters and damage slates and tiles"; "Look for signs of dampness on ceilings as a possible indication of roof leaks"
+- Flashings: "Are all flashings fixed into the wall?"; "Ensure that flashings are dressed down and have not been blown or moved away from the surface of the wall"
+- Drainage gullies: "Inspections should be carried out every autumn and preferably more often"; "Check that drainage gullies are free from silt, debris, vegetation and other objects"
+- Base of wall: "Check to ensure that ground levels are at least 150mm below the level of any known damp-proof course or 150mm below internal floor levels"; "Ensure that vents are not obstructed"; "Remove plants and vegetation abutting and growing on the building"
+- Exterior walls: "Look for defects in stonework, brickwork and rendering"
+The pages give no method for clearing a gutter or a pipe, and say nothing about who should do it or
+how to reach it.
+
+### Property Care Association, "Rising Damp Advice" (Part A §6), re-read live
+
+Full text. Everything recorded was found. Added, [V]: the common causes list opens "Moisture by-passing over the damp proof course with higher ground levels around the base of the property, eg. installation of patio a planting area" (sic); "Where the cause of rising damp is due to the bridging over the damp proof course, i.e. raised ground levels, bridging plaster render, or debris in the cavity; then removing the ‘bridge’ should hopefully be sufficient to control the capillary rise of moisture in the wall." The PCA is the damp-proofing trade body.
+
+### RICS, Historic England and PCA, Joint Position Statement 2022 (Part A §6), re-read live
+
+Full text, pdftotext. Everything recorded was found. Added, [V]: "This is in contrast to modern construction, which relies on impermeable barriers to prevent moisture entering the fabric."; the report should cover "The importance of regular building maintenance and how a lack of even basic maintenance can lead to problems arising. This is especially important and relevant to roofs, gutters, hidden gutters, rainwater disposal and changes in external ground levels."; a surveyor documents changes to materials, "(e.g. retrofitting or use of impermeable mortars in repointing and rendering)".
+
+### Babergh and Mid Suffolk District Councils, "Wood-boring insects" (Part B §5), re-read live
+
+Full text. Everything recorded was found. [V]: "This damp is typically caused by the addition of inappropriate, modern materials to a historic building." "The most common cause of damp in old buildings is impermeable outer finishes" (then a spaced hyphen) "such as cement render, or modern paints. If these materials are present, an insect infestation may persist until they are replaced with breathable alternatives." The page is a council heritage page about historic buildings.
+
+### US EPA, "Termites: How to Identify and Control Them" (Part B §5), re-read live
+
+Full text; "Last updated on October 21, 2025". [V]: "After construction, keep the soil around the foundation dry through proper grading and drainage (including maintenance of gutters and downspouts)." "Do not pile or store firewood or wood debris next to the house."
+
+### US EPA, "A Brief Guide to Mold, Moisture and Your Home" (Part A §6), renters line re-read
+
+[V] "Renters: Report all plumbing leaks and moisture problems immediately to your building owner, manager, or superintendent."
+
+### HSE, "Roof work" (new)
+
+https://www.hse.gov.uk/construction/safetytopics/roofwork.htm. Read: full text; "Last updated
+2026-06-05". Construction guidance for Great Britain, written for those who manage or do roof work.
+[V]: "All work on roofs is highly dangerous, even if a job only takes a few minutes. Proper precautions are needed to control the risk."; "Those carrying out the work must be trained, competent and instructed in use of the precautions required."; "High risk: almost one in five deaths in construction work involve roof work. Some are specialist roofers, but many are just repairing and cleaning roofs."; "Main causes: the main causes of death and injury are falling from roof edges or openings, through fragile roofs and through fragile rooflights."; "Falls from roof edges occur on both commercial and domestic projects and on new build and refurbishment jobs."; "all roofs should be treated as fragile until a competent person has confirmed they are not." The "almost one in five" is not dated or sourced on the page.
+
+### HSE, "Asbestos: FAQs" (Part D D1) and "Asbestos essentials task sheets" (Part D D3), re-read live
+
+FAQ "Updated 2025-09-04"; index "Updated 2025-09-19". [V] FAQ: "Asbestos may be part of any commercial or domestic building which was built or refurbished before the year 2000."; the list includes "asbestos cement products (pipes, flues, roofs etc)"; "Do not try to repair or remove any asbestos materials yourself if you have not had any training for non-licensed asbestos work."; "it is often best to leave them where they are". Index, titles only, [V]: "A10. Cleaning debris from guttering on an asbestos cement (AC) roof"; "A14. Removing asbestos cement (AC) sheets, gutters, etc. and dismantling a small AC structure"; **new**: "A21. Removing asbestos-containing bituminous products, such as roofing felt, gutter linings or damp-proof courses". The sheets themselves were not read.
+
+### HSE, "Safe use of ladders and stepladders", page 4 (types of ladder), re-read live
+
+[V] "have a strong upper resting point (ie do not rest it against weak upper surfaces such as glazing or plastic gutters)"; the 30-minute guide on page 2, re-read, unchanged.

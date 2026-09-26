@@ -166,3 +166,24 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   for checking.
 - **ESF's "RCDs Explained" address redirects to its "Home buyers" page**; cite it by that name.
 - **Quiz keys:** lesson 06 unchanged at 1,3,2,1,2,0.
+
+## 2026-09-26 — Lesson 09 fix pass: notes for later lessons
+
+- **Cadent's advice is Cadent's network's.** Its area, on its own homepage: the North West, the West
+  and East Midlands, the East of England and North London. A GB case outside that area rests on
+  National Gas, whose guidelines "apply to all gas users", and gives Cadent's extra lines as Cadent's.
+  No other GB network's page has been read.
+- **Two cellar conditions, not one.** Cadent's is about where the leak is (and says evacuate);
+  National Gas's is about where the meter is ("in the cellar", nothing on leaving); SSE and Phoenix
+  give both. "Take both" is the course's reading and says so.
+- **Going outside in a GB leak is the course's reading**, from Cadent's "Once you're safe" and its
+  all-clear line. Say so where it is used.
+- **US meter advice varies by utility.** SoCalGas's earthquake and emergency page tells customers to
+  turn the meter off "and ONLY if it is safe to do so"; the three leak pages say leave. Never write
+  "in the US you don't touch the meter" as a rule; defer to the reader's own utility, leaving first.
+- **Northern Ireland: the call comes first** on both pages read (SSE Airtricity, Phoenix Energy).
+  Phoenix is cited as "a Northern Ireland gas network company", not "the" network.
+- **"Every source" claims about gas don'ts:** Atmos and HSE give neither a flame nor a switch line.
+- **Pointers not fixed here:** lesson 9's "the next lesson" and "lesson 10", and lessons 1, 7 and 8's
+  pre-split title, are the renumbering pass's.
+- **Quiz keys:** lesson 09 unchanged at 1,3,0,1,2.

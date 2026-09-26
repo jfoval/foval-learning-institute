@@ -503,7 +503,7 @@ and this course draws its own line in any case.
 
 In England, the law lets a householder do some electrical work. Some of it needs building control
 told before it starts, and the rest needs no notice but still has to meet the regulations.[14]
-Wales, Scotland, Northern Ireland and each US state and city have rules of their own. Lesson 18,
+Wales, Scotland, Northern Ireland and each US state and city have rules of their own. Lesson 22,
 "Who may do what: reserved work, and the argument about licensing", sets the rules out place by
 place.
 
@@ -641,8 +641,8 @@ and the reset here has the same shape: take the load off first.
 
 Lesson 6, "Plugs, leads and electrical fires", takes the same devices down to the plug in the
 wall: which fuse goes in a plug, what an extension lead will carry, the warning signs of a circuit
-in trouble, and what the fire figures do and don't say. Lesson 11, "Tools, dust and fumes: a small
-kit used safely", comes back to electricity when you drill a wall near cables, and lesson 18 sets
+in trouble, and what the fire figures do and don't say. Lesson 14, "Before you drill: cables,
+pipes and what's in the wall", comes back to electricity when you drill a wall near cables, and lesson 22 sets
 out who may do which electrical work, place by place.
 
 ## Go deeper
