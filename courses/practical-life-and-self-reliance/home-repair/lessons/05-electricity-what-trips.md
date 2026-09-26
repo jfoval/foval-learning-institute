@@ -20,9 +20,9 @@ quiz:
       and after heavy rain its socket end is lying in a puddle on the patio. The lights draw no more
       current than usual, yet a switch at the consumer unit drops. Which device is built to act?
     options:
-      - The RCD, which acts when some of the current going out doesn't come back the proper way
+      - The RCD, which on CPSC's GFCI account acts when current going out doesn't all come back
       - The circuit breaker, because any water near a socket counts as an overload on the circuit
-      - The lead's plug fuse, which is there to blow whenever rain water gets into a socket outside
+      - The lead's plug fuse, which is there to blow if rain water gets into a socket outside
       - The main switch, which drops by itself whenever the unit detects water near an outlet
     answer: 0
     explain: >-
@@ -311,8 +311,9 @@ then press the reset button and watch it come back. If the lamp does not go out,
 correct the wiring or replace the GFCI. If it won't come back on, the sheet says to replace the
 GFCI.[4]
 
-That last step needs a label. CPSC says receptacle GFCIs may be fitted by consumers "with adequate
-knowledge and skills", and breaker GFCIs by an electrician.[4] Replacing an outlet is wiring, and
+That last step needs a label. CPSC says breaker and receptacle GFCIs may be fitted by a qualified
+electrician, and receptacle GFCIs also by consumers "with adequate knowledge and skills", which the
+sheet ties to following proper wiring practice and the device's instructions.[4] Replacing an outlet is wiring, and
 this course teaches no wiring, so for you, here, a GFCI that fails its test is **Call someone**.
 That is the course's scope decision, explained at the end of this lesson. It is not a claim that
 CPSC is wrong.
@@ -333,7 +334,7 @@ to your neighbours, or during the night, check the street lights."[11] [SSEN](ht
 any switches are off, and "check if your meter has a display, if it does, this means power is
 coming into your property."[12]
 
-If the whole street is dark, the fault is the network's, and both networks give 105 as the number
+If the whole street is dark, the fault is likely to be the network's, and both networks give 105 as the number
 for a power cut.[11][12] If only your house is dark, start with your own box. SSEN's meter check
 tells you whether power is reaching the house at all, and both networks say to call them if a reset
 doesn't bring it back.
@@ -391,7 +392,7 @@ ESF's [FAQ](https://www.electricalsafetyfirst.org.uk/safety-advice/your-question
 fault that needs investigating", "either with a particular appliance or the wiring itself", and
 "You should get a registered electrician to investigate".[13] HSE, in its workplace leaflet: "if it
 trips, it is a sign there is a fault", and it adds that the system is checked "before using it
-again". Where one trips often and no fault can be found, HSE says to consult the RCD's maker: "if it
+again". Its next item: "if it
 trips frequently and no fault can be found in the system, consult the manufacturer of the
 RCD".[5] SCE, about the US breaker: "If a breaker trips repeatedly,
 reset it only when you've corrected the problem. You can also call an electrician."[1] Its news site
@@ -535,7 +536,7 @@ RCD's or GFCI's job.[3][4]
 **"An RCD that trips is being oversensitive."** Don't assume it. ESF: if it keeps tripping, there
 is likely a fault in an appliance or the wiring, for a registered electrician. HSE's workplace
 leaflet treats a trip as a sign of a fault, and only where frequent trips turn up no fault does it
-point to the RCD itself, and then to its maker.[5][13]
+send you to the RCD's maker.[5][13]
 
 **"A GFCI and an AFCI are the same thing."** CPSC: AFCIs address fire, GFCIs shock.[6]
 

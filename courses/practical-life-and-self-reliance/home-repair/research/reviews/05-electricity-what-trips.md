@@ -144,3 +144,89 @@ Jersey, Herefordshire; none added.
 quiz items and a sort item are new, and eight quotations were added or re-cut; a fresh reviewer
 should read "When it trips again", the kitchen example, the new Q1 and Q4 and sort answers 1, 2 and
 6 against the primaries.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context second-pass reviewer, Tier A, working to the briefs in
+`research/pipeline-briefs.md`. I fetched these primaries live today with curl (browser User-Agent,
+all HTTP 200) and converted them with pandoc or pdftotext: NGED, SSEN, the SCE Help Center page,
+SCE Energized, ESF's FAQ, plugs-and-fuses, home-buyers and DIY pages, HSE INDG231 and HSG85, CPSC
+099 and 5133, CPSC 89-031 (capture 20260311171701), CPSC Electrocutions 2011 to 2020, the ecgfci
+memo, UGA Circular 1082 and AD P 2013. I string-matched every quotation in the frontmatter and body
+against the live text, and each one was found in the source it is attributed to. I read the
+lesson twice: once as a UK reader with a tripped RCD, and once as a US reader with a tripped
+breaker. I redid 196 × 0.47 × (0.81 to 0.95) = 74.6 to 87.5 (the memo gives 75 to 88) and 0.006
+A = 6 mA by hand.
+
+**First-pass fixes checked.** R1 to R31 are all correctly applied. R1: no sentence now says "once"
+or "a second trip" as the sources' rule, and the one-reset line is labelled as the course's. R2:
+HSE's list is restored in order. The body quotes "never bypass it" as the list's first item, which
+is correct, then "if it trips, it is a sign there is a fault" with "before using it again", and
+the frequent-trip item as the next one. R3 and R4 match SSEN and NGED. R5: SCE's "open the cover"
+is undefined on both SCE pages and is glossed as the course's reading. R12: the labels are in the
+right places. R13: the EICR sentence and the FAQ's "not urgent" are in context (the FAQ line sits
+under EICR code C3). R19: the "092010" footer is confirmed.
+
+**New quiz items and sort item 6.** Q1 (Lanarkshire): the key is right and the explanation cites
+only sourced reasons. Q4 (Louisiana): the key follows SCE's first cause and SCE's "reset it only
+when you've corrected the problem". The explanation's "fitting ... an electrician's work" and "of
+the same amperage" are sound. Sort item 6: SCE's first cause and steps 1 to 4, so "reset with the
+load off" is right.
+
+**Keys.** The keys are 0,2,3,2,0,1. I checked them by script against lessons 01 to 08 as they are
+on disk now (01 1,3,0,2,3,0; 02 2,0,3,1,3; 03 3,1,0,1,2; 04 3,2,0,1,3,2; 06 1,3,2,1,2,0; 07
+3,0,3,2,1; 08 1,2,1,3,0). None is identical, none is a value shift, and there is no shared run of
+four at offset 0 or ±1. All four positions are used and no key repeats next to itself. Option
+spreads are now 4, 3, 2, 3, 6, 6.
+
+**Wiring.** Nothing reads as a wiring step. The householder's hands stay on the switches, the test
+buttons, a plug-in lamp and a plug-in RCD. The panel-is-live and volt-stick facts are present. The
+callout matches byte for byte.
+
+**Dashes.** There are no em dashes or en dashes in the file.
+
+**Findings:**
+1. S1 [minor, fixed] Q1's key stated the RCD's mechanism in the course's voice ("doesn't come back
+   the proper way"). The body says it gives CPSC's account of the GFCI and "does not claim a
+   British source said the same about the RCD". The key now reads "The RCD, which on CPSC's GFCI
+   account acts when current going out doesn't all come back".
+2. S2 [minor, fixed] In Q1, three of the four options carried an absolute ("any", "whenever",
+   "whenever"), so the key was the only plain option. Distractor C now says "if" rather than
+   "whenever".
+3. S3 [minor, fixed] "If the whole street is dark, the fault is the network's". SSEN's page says
+   "it is likely the fault is on our network". The line now reads "the fault is likely to be the
+   network's".
+4. S4 [minor, fixed] "When it trips again" paraphrased HSE's frequent-trip item and then quoted
+   it, so the same point came twice. It is now "Its next item: ...". The misconception said HSE
+   "point[s] to the RCD itself, and then to its maker", but HSE says only "consult the manufacturer
+   of the RCD". It now reads "send you to the RCD's maker".
+5. S5 [minor, fixed] The line on who fits GFCIs said "receptacle GFCIs ... by consumers, and
+   breaker GFCIs by an electrician". CPSC 099 says both kinds may be fitted by a qualified
+   electrician, and receptacle ones also by consumers with adequate knowledge and skills, "to
+   conform to proper electrical wiring practices and the instructions". The line now says so. The
+   quotation is still only the part SOURCES records [V], and the rest is paraphrased.
+6. S6 [minor, not fixed] Q1 (an extension socket in a puddle leads to an RCD trip) is close in
+   kind to the lawnmower checkpoint (a nicked cable on a wet lawn leads to an RCD trip). It is a
+   new case, not a replay of the body's people, places or numbers, so I left it.
+7. S7 [minor, not fixed; course-wide] The callout says a device that "keeps tripping" is left off
+   for an electrician. The lesson's Yours cases include a repeat trip that follows one load: the
+   New Jersey dryer "every time", and Q4's breaker "most afternoons". Line 435's "whatever is
+   plugged in" and SCE's "reset it only when you've corrected the problem" make this consistent,
+   and the answer the quiz marks wrong (Q4 A) is wrong on its diagnosis. Still, a reader who
+   applies the callout literally will hesitate. Worth one sentence in course-wide.md on what the
+   callout's "keeps tripping" means, so later electrical lessons read it the same way.
+8. S8 [minor, not fixed] "they point the same way", said of ESF, HSE and SCE. HSE's frequent-trip
+   item points to the RCD's maker, not an electrician. This is a small overstatement and the item
+   is quoted right after it.
+9. S9 [minor, not fixed] "That is this course's line, and lesson 1's": lesson 1 says "the switches,
+   the test button and the labels. Behind the cover is somebody else's", and has no door. Lesson 5
+   refines it, which is fine, but lesson 1 could take the door clause at its next edit.
+10. S10 [minor, not fixed] Q2's explanation uses HSE's RCD test-button line for a GFCI in Nevada.
+    It is attributed, and CPSC's own routine carries the item.
+
+**Verification after edits:** `npm run quotes home-repair` finds 148 quotations with 0 misses.
+`npm run minutes` measures 105, which matches. `npm run validate` exits 1, on First Aid's
+audio-debt count only; no line names this file. SOURCES is not edited.
+
+**Verdict: CLEAN.** No critical or major findings remain. The five minors not fixed are
+judgement calls or course-wide notes.
