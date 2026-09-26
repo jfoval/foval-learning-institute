@@ -26,7 +26,8 @@ quiz:
       possibly due to the ceramic disc valves or cartridge, and its maintenance panel shows the
       water isolated, the handle and shroud off, and the cartridge taken out and descaled. That is
       Bristan's tap; for this one, the Cornish tap's own leaflet decides the steps. Southern
-      Water's steps are for a tap with a jumper plate and a washer, which this tap doesn't have. No
+      Water's steps are for a tap with a jumper plate and a washer, and this tap's leaflet says it
+      has a cartridge. No
       source read here says forcing a tap shut stops a drip. EPA's tape is for the joint between a
       showerhead and its pipe, not for a tap's valve.
   - q: >-
@@ -135,11 +136,14 @@ washer.[2]
 How do you tell which you have? This course read no source that gives a test from the outside of a
 tap. Two things do tell you. The first is the paperwork: if you have the maker's leaflet, or the
 maker's name is on the tap, the maker says what is inside. The second is what you find inside, with
-the water isolated. Here is this course's own reading of the two sources: if the tap top lifts out
-and you find a small plate that lifts out, which Southern Water calls the jumper plate, and a
-washer, it's a washer tap; if you find a cartridge under the shroud (the cover over the cartridge),
-as Bristan shows, it's a ceramic one.[1][2] A nut on its own does not tell you, because Bristan's tap
-has one too.
+the water isolated. Here is this course's own reading of the two sources: if the tap top comes out
+and under it you find a small plate, which Southern Water calls the jumper plate, and a washer,
+it's a washer tap; if you find a cartridge under the shroud (the cover over the cartridge), as
+Bristan shows, it's a ceramic one.[1][2] A nut on its own does not tell you, because Bristan's tap
+has one too. Getting inside is a method in itself, and the only one this course read that doesn't
+need the maker's leaflet is Southern Water's, for a tap whose cover unscrews to show a hexagonal
+nut. A tap that doesn't open that way, such as a lever held on by a small screw in its handle, stays
+shut until you have its maker's instructions. That rule is this course's.
 
 :::predict Before you read the method: a washer tap drips, and you've just fitted a new washer and put it back together. What's the one mistake in the reassembly that the source warns can undo the repair?
 Screwing it back together too tightly. Southern Water says to be careful not to, because you may
@@ -220,7 +224,8 @@ an experienced handyperson or a licensed plumber, so it is **Call someone**.[3]
 
 ## The running toilet
 
-Here the two countries' toilets differ, and the advice for one doesn't fix the other. EPA wrote
+Here the two countries' advice differs, and this course read nothing that says one country's part
+fits the other's toilet. EPA wrote
 lesson 2's dye test for American toilets.[3] Using it on a UK cistern is this course's own step, as
 lesson 2 said: the test only asks whether water gets from the cistern into the bowl without a
 flush. What comes next depends on the toilet.

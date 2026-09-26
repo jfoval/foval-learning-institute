@@ -112,3 +112,67 @@ First Aid's audio debt).
 
 **Status after review:** needs second pass. The fix rewrote the ceramic-tap teaching, both worked
 cases and three quiz items, so a fresh reviewer should read the lesson again against the Bristan note.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context second-pass reviewer. Re-fetched the Bristan 576945 PDF (live) and
+read pages 1 and 2 as rendered images (pdftoppm); re-read the first-pass findings, the Stage 4 note
+in SOURCES Part B §3, and lessons 01, 02 and 04 for the quiz-key rule. Neutrality not run (no
+contested or value claims, as the first pass found).
+
+**Findings:**
+1. S1 [checked, clean] Ceramic-cartridge section against the rendered page 2: grub screw and 2.5 mm
+   hex key, shroud and retaining nut off, cartridge out, soaked "until fully de-scaled" in an unnamed
+   "suitable solution", refitted with nut and shroud, handle back, water run a few minutes. The step 1
+   drawing shows the valve on the flexible pipe. Nothing in the section teaches a new cartridge. Page 1
+   agrees: "Servicing Your Tap" speaks of removing the cartridge for servicing, and "Spare Parts" sends
+   readers to the website. The panel's heading does read "Cleaning/Replacing Cartridge". The lesson's
+   "The leaflet doesn't show fitting a new cartridge" is still true of the steps, and the Stage 4 note
+   records the heading. No edit.
+2. S2 [minor, fixed] Quiz 1 explanation said the Cornish tap has no jumper plate and washer. The stem
+   only tells us that its leaflet says it has a cartridge. Changed to "and this tap's leaflet says it
+   has a cartridge".
+3. S3 [checked, clean] Essex predict: it asks for a real prediction, the answer keeps Bristan's method
+   as an illustration and not this tap's, the check is labelled as borrowed from Southern Water, and
+   the label and condition match the ceramic section.
+4. S4 [major, fixed] Tap-type test: it told a reader with no leaflet to look inside, but the only way
+   in that the course read without a leaflet is Southern Water's, and a single-lever tap does not open
+   that way. Followed literally, the test had a reader take apart a lever tap with no method, against
+   the course's own condition. Added, labelled as the course's rule: getting inside is itself a
+   method; the only one read without a leaflet is Southern Water's, for a cover over a hexagonal nut;
+   a tap that doesn't open that way stays shut until you have its maker's instructions. Also smoothed
+   "lifts out ... lifts out" for reading aloud.
+5. S5 [minor, fixed] Running toilet: "the two countries' toilets differ" was an unsourced design claim
+   in the course's voice. It now reads "the two countries' advice differs, and this course read
+   nothing that says one country's part fits the other's toilet".
+6. S6 [checked, clean] Every other place the lesson reasons beyond a source is labelled: the check
+   rule, the dye test on a UK cistern, the tap-type reading, the flapper's water-off condition, the
+   loft tanks ("no source read here says"), and "a flapper is a guess". Two small unlabelled
+   generalisations were left: "A ceramic-disc tap has a cartridge instead" (read from one maker's
+   leaflet, and stated only where the tap-type rule is labelled), and "Prove the leak with the overflow
+   check" (United Utilities gives that check only for older cisterns, which the sentence before says).
+7. S7 [checked, clean] All 23 first-pass findings were checked against the lesson and each fix is in
+   place and correct. R21's cold-start glosses hold. The fix introduced "hex key" without a gloss,
+   which is minor and left as it is.
+8. S8 [checked, clean] UK and US separation. Southern Water, WaterSafe and United Utilities reach only
+   UK cases (Devon, West Yorkshire, Essex, Gwynedd, Wiltshire, Shropshire). EPA's flapper and
+   showerhead steps reach only US cases (Wyoming, Vermont, exercise items 2 and 4). A US faucet gets no
+   UK method. EPA's dye test on a UK cistern is labelled at each point of use.
+9. S9 [checked, clean] Quiz keys 3,1,0,1,2 against lessons 01 (1,3,0,2,0,3), 02 (2,0,3,1,3) and 04
+   (3,2,0,1,3,2) as on disk, by script. All four positions are used, there is no adjacent repeat, the
+   sequence is not identical to and not a pure shift (+0 to +3 mod 4) of any of them, and there is no
+   shared run of four at offsets 0 or ±1, shifted or not. Option spreads measured: 12, 5, 5, 6 and 8
+   characters.
+10. S10 [checked, clean] Voice: no em or en dashes, and no banned words. Read aloud with no failures
+    after S4's smoothing. `npm run minutes` gives 4,385 words and 85 minutes, which matches the
+    frontmatter.
+
+**For SOURCES (not edited here):** the Stage 4 note could add that the troubleshooting remedy
+continues "or visit www.youtube.com/BristanTV to watch the procedure". It could also note that page 1
+lists "1/2" BSP Flexible Tails with Isolation Valves" among the pack contents, so the isolation valves
+come with this tap.
+
+`npm run validate`: exit 0; nothing names this file. `npm run quotes`: nothing flagged for this
+lesson.
+
+**Verdict: CLEAN.**
