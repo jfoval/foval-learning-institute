@@ -1,6 +1,7 @@
 ---
 title: "Roasting and grilling: carryover and resting"
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/07-roasting-and-grilling-carryover-and-resting.mp3
 objectives:
   - >-
     Explain carryover cooking and use it, with a thermometer, to decide when to take a roast out of
