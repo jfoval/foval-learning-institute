@@ -50,5 +50,5 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
-  first-aid: 5
+  first-aid: 4
   personal-safety: 16

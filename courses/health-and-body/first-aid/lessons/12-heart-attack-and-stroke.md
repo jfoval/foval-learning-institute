@@ -1,6 +1,7 @@
 ---
 title: Heart attack and stroke
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/12-heart-attack-and-stroke.mp3
 objectives:
   - >-
     Recognise a heart attack, including the presentations people most often dismiss, and sequence
