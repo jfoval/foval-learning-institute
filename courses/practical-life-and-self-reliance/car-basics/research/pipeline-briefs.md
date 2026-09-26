@@ -178,8 +178,7 @@ written, so this course does not learn it again.
   own. Nissan's fan sentence (p. 8-2) is quoted whole. A cold-weather range figure always carries its
   test temperature. The RAC's five cambelt signs travel with its "no obvious symptoms" line and its
   advice to have the car checked. AFDC's word is "combustion chamber"; no source read says "direct
-  injection". Quiz keys: besides the relaxed rule, no run of four may match another lesson's keys
-  shifted by a constant at any offset.
+  injection". Quiz keys: a stricter shifted-run rule was added here and withdrawn the same day (see below).
 - **2026-09-26, from lessons 5 and 6 at Stage 4:** the Highway Code's charge-light line is never
   quoted without Annex 6's sentence before it ("stop and investigate the problem, as you could have a
   serious fault"). The AA's "number one cause" for batteries is quoted only as the AA's claim, never
@@ -194,6 +193,14 @@ written, so this course does not learn it again.
   says "on standard-load passenger tyres"; none calls a lit TPMS light "a quarter low" or treats
   0.75 as the car's own threshold. No UK TPMS trigger rule was found; the US rule is never applied to
   a UK car. AAA is "AAA, whose clubs sell roadside assistance" at each use.
+- **2026-09-26, quiz keys: the stricter rule is withdrawn.** "No run of four matching another
+  lesson's keys shifted by a constant at any offset" was shown by exhaustive search to leave no
+  valid sequence for lesson 10 once lessons 1 to 9, 11 and 12 existed. The rule is decision 20's
+  relaxed rule again: all four positions used, no sequence identical to or a pure value shift of
+  another lesson's, and no run of four shared with the five nearest lessons. Keys already chosen
+  under the stricter rule stand.
+- **Screenwash top-up is Yours** (decision 5), unlike oil, coolant and AdBlue, which are Yours, on
+  conditions.
 
 ## Drafting brief: Car Basics, Stage 3
 

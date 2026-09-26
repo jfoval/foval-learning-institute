@@ -2525,8 +2525,9 @@ What it establishes:
   direction indicator, hazard warning device, headlamp levelling device, front fog lamp.
 - Reg 23(3)(c) daytime concession: not an offence in daylight for a lamp that "became defective
   during the journey which is in progress or if arrangements have been made to remedy the defect
-  with all reasonable expedition" [V]. This is a narrow concession; it does not cover stop lamps or
-  indicators (those are not in the 23(3)(c) list).
+  with all reasonable expedition" [V]. This is a narrow concession. [Stage 3 correction, 2026-09-26: the live text says only "a defective
+  lamp", with no list and no exclusion; the earlier claim that it does not cover stop lamps or
+  indicators was wrong. See Gate closures, lesson 09/10.]
 Good for: owner's checks (lights).
 
 ---
@@ -5628,3 +5629,271 @@ section 1 (updated 2026-06-01). Quotations marked [V] were copied from that text
   colour (yellow) is stated on p. 2-17.
 - **MOT manual section 1 headings** (updated 2026-06-01): "1.1.13. Brake linings and pads" [V] and
   "1.1.14. Brake discs and drums" [V] (the fixer re-read the headings for this point).
+
+## Gate closures, lesson 09/10 (2026-09-26)
+
+*Read by the lessons 09 and 10 drafter on 26 September 2026 with curl and a generic browser User-Agent
+(no personal data in any header), the GOV.UK content API, legislation.gov.uk's revised HTML, pdftotext
+(-raw) on the two handbooks, and the Internet Archive for Ford's handbook and the New York DMV page.
+Quotations marked [V] were copied from that extracted text (hyphenation and pdftotext's run-together
+words restored). Nothing here clears an entry on the `unread:` line. "Construction and Use Regulations
+regulation 32" (the tint rule Annex 6 cites) and "Road Vehicles Lighting Regulations 1989 regulation
+27" stay unread and are not cited.*
+
+**Gates.** **G-H12 is partly closed**: two pages now say what oil does in a sentence (National
+Highways' "lubricates, cleans, cools and protects"; the AA's "less lubricant for the bearings and other
+moving parts ... Metal rubs on metal"); neither explains how a film of oil works, and lesson 09 says the
+textbooks cover that. **G-H7: fallback**, as OUTLINE gives it; no handbook for a car with hydraulic
+power steering was read. Nissan's LEAF handbook calls its system "electric power steering" [V] (p.
+2-23), and Ford's Maverick under-hood overviews (pp. 306 to 307) show no power steering reservoir.
+**G-H4** was closed at lesson 06. **G-L2**: MOT manual sections 3 and 4 read in full. **G-L10**: reg
+34(6) quoted; the AA's "will be considered an offence" not repeated. **G-N4, lesson 09: closed for one
+photograph** (below); no licensed coolant-reservoir photograph was found in a Commons search, so lesson
+09 has none. **Lesson 10's zone A drawing** is an SVG schematic of the manual's words, labelled as such.
+
+**A correction to Part C §3 and OUTLINE lesson 10 (for the orchestrator; OUTLINE not edited here).**
+Part C says RVLR reg 23(3)(c)'s daytime exception "does not cover stop lamps or indicators (those are
+not in the 23(3)(c) list)". The whole regulation, re-read today, gives (3)(c) as "a defective lamp,
+reflector, dim-dip device or headlamp levelling device on a vehicle in use on a road between sunrise
+and sunset, if any such lamp, reflector or device became defective during the journey which is in
+progress or if arrangements have been made to remedy the defect with all reasonable expedition" [V].
+It names no lamps and excludes none; "a defective lamp" is unqualified. Part C's reading is not in the
+words, and lesson 10 does not repeat it: it says the paragraph doesn't list which lamps it covers.
+
+- **The Highway Code, Annex 6** (content API, public_updated_at 2022-01-29), re-read in full. "Fluid
+  levels. Check the fluid levels in your vehicle at least weekly." [V]; "If your engine overheats, you
+  should wait until it has cooled naturally. Only then remove the coolant filler cap and add water or
+  other coolant." [V]; "lights, indicators, reflectors, and number plates MUST be kept clean and clear"
+  [V]; "windscreens and windows MUST be kept clean and free from obstructions to vision" [V]; "lights
+  MUST be properly adjusted to prevent dazzling other road users." [V]; "You MUST NOT use a vehicle with
+  excessively dark tinting applied to the windscreen, or to the glass in any front window to either side
+  of the driver." [V]; "There are no VLT limits for rear windscreens or rear passenger windows." [V];
+  tints cite "RTA 1988 sect 42 & CUR reg 32" [V].
+- **The AA, "How to check and top up your car engine oil"**, https://www.theaa.com/breakdown-cover/advice/how-to-check-and-change-your-car-oil,
+  "Updated: 17 June 2024 | Author: The AA" [V]. **Read: full article text.** A motoring organisation that
+  sells breakdown cover and repairs. "Never try to check anything under the bonnet with the engine
+  running." [V]; "For the most accurate oil reading, park your car on level ground. Never park on a
+  slope." [V]; "The best time to check the oil is before you use the car. Make sure the engine is cold.
+  If you've just driven, wait for 5 to10 minutes before you check the oil level." [V, the page's
+  "5 to10"; lesson 09 paraphrases it]; "Some cars have electronic oil monitors which show the oil level on
+  your dashboard." [V]; "If the top of the oil streak is between the minimum and maximum marks, the level
+  is fine." [V]; "If the level is below halfway between the marks, then we would recommend adding some
+  oil." [V]; "If it's close to or even below the minimum mark, then you need to add some oil." [V]; "The
+  difference between the minimum and maximum notches on a dipstick is about a litre of oil." [V];
+  "Putting too much oil into your car is just as bad as having too little." [V]; "It's important to use
+  oil that meets the right technical specifications (ACEA, API, VW, etc). It also needs to be the right
+  grade (the numbers separated by a 'w', such as 5w30)." [V] (lesson 09 quotes the first clause and the
+  second sentence, and names no maker); "With low oil pressure, there's less lubricant for the bearings
+  and other moving parts in your engine. Metal rubs on metal, quickly causing irreversible and expensive
+  damage." [V]; "New oil is clean and golden in colour, but quickly turns dark brown or black when it's in
+  use. This darkening is quite normal and is nothing to worry about." [V]; "Oil with a milky, creamy or
+  foamy appearance means coolant or water is leaking into the oil. You'll need to get this checked by a
+  mechanic." [V]. The page names two oil sellers' matching services; not used (no products).
+- **The AA, "What is AdBlue?"** (updated 11 July 2024), re-read. The filler is "located either next to
+  your fuel filler, in the boot or under the bonnet" [V]; "You can refill the Adblue tank yourself." [V].
+- **National Highways, "How to check your vehicle"**, re-read in full. "If your indicators, hazard
+  lights, headlights, fog lights, reverse lights or brake lights aren't working properly, you're putting
+  yourself and others at risk." [V]; "They can be a reason for your vehicle to fail its MoT." [V]; "Ask a
+  friend to help you, or park your vehicle near a reflective surface eg a window or garage door." [V];
+  "In sequence, turn on your indicators, hazard lights, headlights and fog lights to check they're
+  working" [V]; "Press the brake pedal to check your brake lights, and finally select reverse to ensure
+  your reverse light is working." [V]; "Take your car back to the garage if you're topping up more than
+  usual." [V]; "Ensure your engine is switched off for at least five minutes and your vehicle is parked
+  on an even surface." [V]; "If the oil residue is below the minimum marking, you need to top up your oil
+  level." [V]; "Maintaining the correct oil level is essential as the oil lubricates, cleans, cools and
+  protects the moving parts of your engine, preventing your engine from seizing up and breaking down."
+  [V]; "Some newer vehicles don't have dipsticks and use dashboard vehicle check systems instead." [V];
+  screenwash: "this reservoir can be filled to the top" [V] and "Please refer to the screen wash mixing
+  instructions on the bottle to get the correct mixture." [V].
+- **Met Office, "6 simple checks to prepare your vehicle for winter"**, re-read in full. "Coolant (a
+  mixture of water and antifreeze) is pumped around your engine to cool it." [V]; "Remember only check
+  this when the engine is cool otherwise you risk scalding yourself. It's not normal for coolant levels
+  to drop suddenly, so if it does, get it checked out at a garage." [V]; "Make sure you top up your
+  screenwash with a product that is effective down to at least -15 degrees Celsius." [V]; "check your
+  wipers are doing the job by spraying some washer fluid and checking they clean the windscreen" [V];
+  run your fingers along the blades "to check for splits" [V]; "It's recommended to change wiper blades
+  every 12 months." [V]. The page also says to "replace bulbs or fuses if required" [V]; not used (decision
+  7).
+- **Ford, 2024 Maverick Owner's Manual** (US and Canada, edition 202307), Internet Archive capture
+  20250505042038, pdftotext -raw. **Read: printed pp. 87 to 91, 193 and 303 to 310 in full; the warning
+  boxes on pp. 170 and 184.** The 2.5 L engine is the hybrid ("Engine Specifications - 2.5L, Hybrid" [V], contents).
+  p. 88: "Run the tip of your fingers over the edge of the blade to check for roughness." [V]; "Do not
+  operate the wipers on a dry windshield. This could scratch the glass or damage the wiper blades." [V]
+  (p. 88, "Wiper precautions"). p. 89: "If you operate your vehicle in temperatures below 41°F (5°C), use
+  washer fluid with antifreeze protection. Failure to use washer fluid with antifreeze protection in cold
+  weather could result in impaired windshield vision and increase the risk of injury or accident." [V];
+  "Do not operate the washers when the washer reservoir is empty. This could cause the washer pump to
+  overheat." [V]. p. 91: "The wiper blades could be dirty, worn or damaged." [V]. p. 170 (hybrid,
+  Auto-Start-Stop) and p. 184 (high voltage battery precautions), the same warning: "Apply the parking
+  brake, shift into park (P), switch the ignition off and remove the key before you open the hood or have
+  any service or repair work completed. If you do not switch the ignition off, the engine could restart
+  at any time." [V]. p. 193: "Look at the brake fluid reservoir to see where the brake fluid level is
+  relative to the MIN and the MAX marks on the reservoir." [V]. p. 304: "Do not work on a hot engine."
+  [V]; "Make sure that nothing gets caught in moving parts." [V]; "Set the parking brake, shift the
+  transmission to park (P) and block the wheels." [V]; "There is no secondary hood release under the
+  hood." [V]; the hood opens with two pulls of the release lever. p. 307 (2.5 L): "Low temp coolant cap"
+  and "High temp coolant cap" [V]. p. 308: "1. Make sure that your vehicle is on level ground." [V];
+  "Check the oil level before starting the engine, or switch the engine off after warm up and wait 15
+  minutes for the oil to drain into the oil pan." [V]; "Checking the oil level too soon could result in
+  an inaccurate reading." [V]; "Read both sides of the dipstick and use the lowest oil level as the
+  correct reading." [V]; "If the oil level is between the maximum and minimum marks, the oil level is
+  acceptable. Do not add oil." [V]; "If the oil level is at the minimum mark, immediately add oil." [V];
+  "Increases in oil level can occur from frequent short trips that do not allow the engine to get to
+  operating temperature, as well as frequent idling or low speed driving for long periods of time." [V];
+  "If oil levels are continuously noted above the maximum mark, have your vehicle checked as soon as
+  possible." [V]; "Do not add engine oil when the engine is hot." [V]; "Do not use supplemental engine oil
+  additives because they are unnecessary and could lead to engine damage that the vehicle warranty may
+  not cover." [V]. p. 309: "Oil levels above the maximum mark may cause engine damage." [V]; "When the
+  engine is cold, check the concentration and level of the coolant" [V]; "Coolant expands when it is hot.
+  The level may extend beyond the MAX mark." [V]; "Keep your hands and clothing clear of the cooling
+  fan." [V]; "Do not remove the coolant reservoir cap when the engine is on or the cooling system is hot.
+  Wait 10 minutes for the cooling system to cool down. Cover the coolant reservoir cap with a thick cloth
+  to prevent the possibility of scalding and slowly remove the cap." [V]. p. 310: "Do not put coolant in
+  the windshield washer reservoir. If sprayed on the windshield, coolant could make it difficult to see
+  through the windshield." [V]; "Do not mix different colors or types of coolant in your vehicle." [V];
+  "Unscrew the cap slowly. Any pressure escapes as you unscrew the cap." [V]; "If you have to add more
+  than 1.1 qt (1 L) of engine coolant per month, have your vehicle checked as soon as possible." [V];
+  "In case of emergency, you can add a large amount of water without engine coolant in order to reach a
+  vehicle service location. Service your vehicle as soon as possible." [V]; "Water alone, without engine
+  coolant, can cause engine damage from corrosion, overheating or freezing." [V].
+- **Nissan, 2024 LEAF Owner's Manual (US)**, PDF fetched fresh from nissanusa.com, pdftotext -raw.
+  **Read: pp. 8-2 to 8-12 and 9-2 to 9-4 in full; the lines cited on pp.
+  2-17 to 2-18 and 2-23.** p. 8-2: "Your vehicle is equipped
+  with an automatic cooling fan. It may come on at any time without warning, even if the power switch is
+  not in the ACC, ON or READY to drive position. To avoid injury, always disconnect the negative 12-volt
+  battery cable before working near the fan." [V]; "Always wear eye protection whenever you work on your
+  vehicle." [V]; "Do not work under the hood while the motor compartment is hot. Push the power switch in
+  the OFF position and wait until it cools down." [V]; "It is advisable to secure or remove any loose
+  clothing and remove any jewelry, such as rings, watches, etc. before working on your vehicle." [V]. p.
+  8-4, motor compartment check locations: brake fluid reservoir, 12-volt battery, windshield-washer fluid
+  reservoir, coolant reservoir cap, fuse holders [V, list]. p. 8-5: "The coolant reservoir is equipped
+  with a pressure type coolant reservoir cap." [V]; "Wait until the motor compartment cools down." [V];
+  "Never use any additives in the coolant such as radiator sealer in the cooling system." [V]. p. 8-6:
+  "Check the coolant level in the reservoir when the high-voltage parts are cold." [V]; "If the cooling
+  system frequently requires coolant, it is recommended that you visit a NISSAN certified LEAF dealer."
+  [V]; "Never remove the coolant reservoir cap when the motor compartment is hot. Serious burns could be
+  caused by high-pressure fluid escaping from the radiator." [V]. p. 8-8: "In the winter season, add a
+  windshield-washer antifreeze." [V]; "Do not substitute antifreeze coolant for windshield-washer
+  solution. This may result in damage to the paint." [V]. p. 8-11: "Your windshield is clean if beads do
+  not form when rinsing with clear water." [V]; "Worn windshield wiper blades can damage the windshield
+  and impair driver vision." [V]. p. 8-12: "Replace the wiper blades if they are worn." [V]. p. 9-3:
+  "Lights*: Clean the headlights on a regular basis. Make sure that the headlights, stop lights,
+  taillights, turn signal lights, and other lights are all operating properly and installed securely.
+  Also check headlight aim." [V]; "Check the windshield at least every six months for cracks or other
+  damage. Have a damaged windshield repaired by a qualified repair facility." [V]; "Windshield wiper
+  blades*: Check for cracks or wear if they do not wipe properly." [V]. p. 9-4: "Fluid leaks: Check
+  under the vehicle for water or other fluid leaks after the vehicle has been parked for a while. Water
+  dripping from the air conditioner after use is normal. If you should notice any leaks, check for cause
+  and have it corrected immediately." [V]. pp. 2-17 to 2-18: "If the brake fluid level is below the
+  minimum or MIN mark on the brake fluid reservoir, do not drive until the brake system has been
+  checked." [V]. p. 2-23: "electric power steering" [V].
+- **Road Vehicles (Construction and Use) Regulations 1986, reg 30** (legislation.gov.uk, revised text,
+  E+W+S), whole regulation. "(1) Every motor vehicle shall be so designed and constructed that the driver
+  thereof while controlling the vehicle can at all times have a full view of the road and traffic ahead
+  of the motor vehicle." [V]; "(3) All glass or other transparent material fitted to a motor vehicle
+  shall be maintained in such condition that it does not obscure the vision of the driver while the
+  vehicle is being driven on a road." [V].
+- **Reg 34**, whole regulation. (1): "one or more efficient automatic windscreen wipers" [V], unless "the
+  driver can obtain an adequate view to the front of the vehicle without looking through the windscreen"
+  [V]; (2): a washer "capable of cleaning, in conjunction with the windscreen wiper, the area of the
+  windscreen swept by the wiper of mud or similar deposit" [V]; (3)(c): the washer requirement does not
+  apply to "a vehicle having a maximum speed not exceeding 20 mph" [V], among others; (6): "Every wiper
+  and washer fitted in accordance with this regulation shall at all times while a vehicle is being used
+  on a road be maintained in efficient working order and be properly adjusted." [V].
+- **Road Vehicles Lighting Regulations 1989, reg 23** (legislation.gov.uk, revised text), whole
+  regulation. (1): "No person shall use, or cause or permit to be used, on a road a vehicle unless every
+  lamp, reflector, rear marking and device to which this paragraph applies is in good working order and,
+  in the case of a lamp, clean." [V]. (2)(a) covers, among others, front and rear position lamps,
+  headlamps, the "rear registration plate lamp" [V], the rear fog lamp, retro reflectors, daytime running
+  lamps and reversing lamps "with which the vehicle is required by these Regulations to be fitted" [V];
+  (2)(b) "every" stop lamp, direction indicator, running lamp, dim-dip device, headlamp levelling device,
+  hazard warning signal device and front fog lamp "with which it is fitted" [V]. (3)(c) as quoted above.
+  (3)(e) excludes a front fog lamp or daytime running lamp on a vehicle first registered before 1 March
+  2018. Which lamps a car must have is set elsewhere in the Regulations, not read.
+- **DVSA, MOT inspection manual** (content API): main page updated 2026-06-01; **section 3 "Visibility"**
+  (updated 2024-11-29) and **section 4 "Lamps, reflectors and electrical equipment"** (updated
+  2024-04-02), read in full. 3.2: "damage in windscreen zone A more than 10mm in diameter" [V]; "damage
+  in the remainder of the windscreen's swept area more than 40mm in diameter" [V]; "Failure for damage is
+  only justified if the damage significantly affects the driver's view of the road." [V]; zone A is "in
+  the swept area of the windscreen", "290mm wide", "centred on the steering wheel" [V each]; "An
+  'invisible' or barely detectable repair, finished flush with the surrounding glass, does not count as
+  damage." [V]. The manual gives zone A no height. 3.4: "Wiper blade defective" Minor; "Wiper blade
+  missing or obviously not clearing the windscreen" Major [V]. 3.5: "Washers must provide enough fluid
+  for the wipers to clear the windscreen effectively." [V]; "Windscreen washers not working or not
+  providing sufficient fluid to clear the windscreen" Major [V]. 4.1.1: "A headlamp with up to ½ light
+  sources not functioning in the case of LED" Minor; "A headlamp missing, inoperative or more than ½ not
+  functioning in the case of LED" Major [V]. 4.3.1: "Stop lamp(s) with a multiple light source up to 1/2
+  not functioning" Minor; "Stop lamp(s) missing, inoperative or in the case of a multiple light source
+  more than 1/2 not functioning" Major; "Stop lamp(s) all missing or inoperative" Dangerous [V]. 4.4.1:
+  "A direction indicator lamp with a multiple light source up to 1/2 not functioning" Minor; "A direction
+  indicator lamp missing, inoperative or in the case of a multiple light source more than 1/2 not
+  functioning" Major [V]. 4.7.1: "A rear registration plate lamp or light source missing or inoperative
+  when rear registration plate has 2 or more lamps or light sources" Minor; "A rear registration plate
+  lamp or light source missing or inoperative when rear registration plate has only one lamp or all lamps
+  not working" Major [V].
+- **New York State DMV, "New York State Vehicle Safety/Emissions Inspection Program"**, Internet Archive
+  capture 20260710141515 (live page 403 to curl today), read in full. "Motor vehicles are required by law
+  to be in safe operating condition whenever they are driven on a public street or roadway in New York
+  State." [V]; lights listed include "Headlamps (low and high beam)", "Tail lamps", "Stop lamps",
+  "Directional signals", "Backup lights (1969 and newer)", "License plate lights" [V each]; windshield:
+  "Check for presence and condition" [V]; "No crack of 11 inches long or longer is allowed if any part of
+  the crack is within the area cleared by the windshield wiper." [V]; "Wipers - check for presence and
+  operation" and "Blades - check condition" [V, the page's hyphens]. No washer item on the page.
+- **PennDOT, "Safety Inspection Program Frequently Asked Questions for Consumers"**, re-read: the
+  passenger-car list includes "lighting and electrical systems, glazing (glass), mirrors, windshield
+  washer, defroster, wipers" [V].
+- **Virginia State Police, "Vehicle Safety Inspection"**, re-read in full: under glass, "Cracked,
+  scratched or broken glass." [V]; wipers, "Condition of wiper blades." [V]; rear plate, "Illumination of
+  rear plate" [V]; under the hood, fluid levels below the proper level: "Brake fluid." and "Power
+  steering fluid." [V].
+- **G-N4, lesson 09: closed for one photograph.** Wikimedia Commons, "File:Engine oil dipstick reading
+  level.JPG", https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick_reading_level.JPG, by
+  Dvortygirl, 11 February 2007, "Own work" [V]; licence read on the file page: "This file is licensed
+  under the Creative Commons Attribution-Share Alike 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0
+  Generic license." [V, spacing normalised], also GFDL 1.2; the lesson uses CC BY-SA 3.0. Description:
+  "Dipstick for measuring the level of motor oil in an automobile." [V]. Viewed by the drafter: a
+  dipstick on a blue paper towel with oil on its tip and small marks along it; no brand visible. The
+  caption does not say which mark is which or where the level sits.
+
+## Stage 4 note, lesson 08 (2026-09-26)
+
+*Re-read on 26 September 2026 by the lesson 8 fixer, with curl and a generic browser User-Agent (no
+personal data in any header), tags stripped, curly quotes straightened. Nothing here clears an entry on
+the `unread:` line; "MIRA" and "MIRA wet braking test" stay on it. Tire Rack's research was not read and
+Tire Rack has no entry here: its figures are used only as AAA Exchange's report of them.*
+
+- **AAA Exchange, "Tire Safety and Maintenance"**, re-read in full. The comparison of the disputed depths
+  the lesson had said was not read: "The difference between 4/32" and 2/32" of tread depth might not
+  seem like much, but based on research by the Tire Rack, America's largest independent tire tester the
+  difference is significant. For example, a pickup truck traveling at 70 miles per hour that passes the
+  penny test can take up to 499.5 feet to stop on wet pavement . However, the same truck has a stopping
+  distance 122 feet shorter if it passes the quarter test instead. This is a 24 percent difference in
+  stopping distance, and the equivalent of six or more car lengths." [V, spacing before the full stop as
+  in source] The quarter's method: "Insert a quarter into a tread groove with the top of Washington's head
+  facing down." [V] The alignment line keeps its hedge: "Tread wear on one edge of the tire: This
+  typically occurs when the wheels are out of alignment." [V] AAA's description of Tire Rack is AAA's; this
+  course read nothing about Tire Rack's business, so the lesson gives it no label of its own.
+- **AAA, "Tread Lightly" (2018 release)**, re-read. The concession before the price-point line, now in the
+  lesson: "While AAA's research found that tire performance does vary by brand, price is not necessarily
+  an indicator of quality." [V] The release gives no figures by brand.
+- **TyreSafe supporter page, "Michelin"**, re-read. The product claim recorded as "not used" in "Gate
+  closures, lesson 08" is now used, without the product's name: "Made with a high level of safety even
+  after over 18,000 miles of use, the braking distance remains below the official level for a new tyre."
+  [V] It is about one named Michelin tyre and cites no test; the page does not say what the "official
+  level" is. The next sentence after Part B's blockquote, "That's why Michelin invests over 600 million
+  euros in research and development every year." [V], is not used.
+- **The AA, tyre tread page**, re-read. "If all 4 tyres are found to be dangerous, you could be looking at
+  a £10,000 fine and 12 points." [V] (the page frames this under being prosecuted "for using a vehicle in
+  a dangerous condition").
+- **RAC Drive, tread page**, re-read. Its penalties list: "Three penalty points per illegal tyre" [V] and
+  "Up to 12 penalty points across four illegal tyres" [V]. Its 3 mm is reported, not its own: "most
+  recommend a minimum tread depth of 3mm for tyre replacement" [V] (of "Tyre and safety experts") and
+  "Industry experts recommend a minimum tread depth of 3mm for tyres." [V]; its own recommendation is to
+  buy a replacement when tread is "below or neat the legal limit" [V].
+- **TyreSafe, tread page** (last updated 16 September 2026), re-read. The 3 mm mileage line is followed at
+  once by "It is recommended that tyres with 3mm tread depth are replaced as quickly as possible." [V]
+- **NHTSA, "Tires"**, capture 20260924154655, re-read: "Tires are not safe and should be replaced when the
+  tread is worn down to 2/32 of an inch." [V] unchanged.
+- **C&U reg 27(1A)**, re-read live: (1)(i) and (j) apply only to tyres fitted "to a front axle of a bus
+  other than a minibus", "in single configuration on any axle of a minibus", and "to a front axle of a
+  goods vehicle with a maximum gross weight exceeding 3,500 kg" [V]. The lesson's age predict now says so.

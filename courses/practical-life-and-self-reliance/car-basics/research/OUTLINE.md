@@ -1244,7 +1244,7 @@ file (the project), so the project assembles itself.
   glass and number plates; decide whether a windscreen chip is an MOT failure (zone A) and, in New York,
   whether a crack fails inspection; build a routine that fits the reader's car, with whose each item is.
 - **Core ideas:** RVLR reg 23(1) (every lamp "in good working order and, in the case of a lamp, clean");
-  reg 23(3)(c)'s daytime concession and what it does not cover (stop lamps and indicators); C&U reg
+  reg 23(3)(c)'s daytime concession and its limits [corrected 2026-09-26: it names no lamp types and excludes none; the earlier "stop lamps and indicators" exclusion was wrong]; C&U reg
   30(1) and (3); reg 34 (wipers; 34(6)); Annex 6's MUST lines and their cited laws; tints (Annex 6's
   two sentences only). **The MOT**: zone A "290mm wide", "centred on the steering wheel"; damage over
   10 mm there, over 40 mm in the rest of the swept area; a headlamp missing or more than half of an LED
