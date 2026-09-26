@@ -198,3 +198,104 @@ Fitness from other sessions; no line names this lesson.
 restructured victim's-gun passage (G16), the Michigan possession rule from a newly read section,
 the rewritten survey-estimates paragraph, the new part-three model answer and exercise item (g),
 and four reworked quiz items should be read fresh, for neutrality above all.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context second-pass reviewer, hardest on neutrality. Read the fixed lesson
+against the first-pass findings, the pre-fix copy, and the primaries in the session scratchpad
+(CPS, MCL 750.224 and 224d, the Hotline page, *America's 1st Freedom*, Giffords re-fetched live,
+nap.edu chapter/3, Hemenway 1997, Kleck and Gertz 1995 and their 1997 reply, Campbell, Anglemyer,
+Hemenway and Solnick). Every first-pass resolution was checked in the text; all hold, and the
+quotations added in the fix (Michigan, the report's range and 108,000 lines, the deterrent clause,
+Hemenway's presentation-bias and burglary lines, the Hotline, Hottinger, Giffords, the CPS fear
+sentence) match the primaries. Perspectives checked against: a gun-rights reader, a gun-control
+reader, a survivor of domestic abuse, a UK reader who carries nothing.
+
+**Findings**
+- S1 [major, neutrality] Hemenway's burglary check, expanded to a full paragraph under P13, stood
+  unanswered, though the course read Kleck and Gertz's 1997 reply in full and it answers the check
+  directly (pp. 1452 to 1453: the NCVS is not a complete count of burglaries; many defensive uses
+  involve the defender's own offence and never reach the NCVS; the burglary figure rests on about
+  40 of 194 incidents). The one-sided last word was created by the fix. **Fixed:** three sentences
+  of paraphrase, no quotation, after the reply's NCVS sentence, cited [12].
+- S2 [major, neutrality] The victim's-gun passage was not built the same way for each side. The
+  Hotline's "These increased risks" pointed at risks the lesson never named, so the Hotline had a
+  position and no reason, while Hottinger had position, reason and limit; and Hottinger's reason
+  was trimmed of her own first clause ("wasn't because I had in mind to kill my abuser"), which an
+  adherent would insist on. **Fixed:** one sentence giving the Hotline's reasons in paraphrase
+  (the dangers of a gun in a home with abuse, above all one the abuser can reach; the page's "500
+  percent" still not used), and Hottinger's sentence quoted from "wasn't". No verdict either way;
+  the "no clear evidence" paragraph before it is neutral.
+- S3 [minor, neutrality] Last word: the gun-rights voice closed both position paragraphs
+  (Hottinger, then NRA-ILA). **Fixed:** the general paragraph now gives NRA-ILA first and Giffords
+  second, so the two paragraphs alternate.
+- S4 [minor, neutrality, motivated framing] P16 cut Hemenway and Solnick's property figures while
+  the lesson still quotes their conclusion about "property loss"; the cut figure (38.5% of gun
+  users lost property against 55.9% after protective action) is the one a gun-rights reader would
+  insist on, and the 34.9% for other weapons is why the authors say "uniquely". **Fixed:** one
+  sentence with all three figures (the abstract prints "38.5" without a % sign; already recorded
+  in "Gate closures, lesson 15").
+- S5 [minor, fact] "'about three times the odds' is a fair everyday reading" is a tautology and
+  misses First Aid lesson 4's point, which is that for a rare outcome the odds ratio reads as a
+  ratio of risks. **Fixed:** "about three times as likely", still for the groups compared and still
+  followed by the observational caveat.
+- S6 [minor, fact] Michigan: the elision in "reasonable use ... in the protection" hid that
+  224d(5)(b) exempts use only of the oleoresin capsicum kinds, not the CS kind 224d(1)(a)(i) also
+  defines; and the worked example said section 224 bans devices that "disable with a gas" (the
+  statute: "a gas or other substance"). **Fixed:** "for the pepper (oleoresin capsicum) kinds it
+  names", no strength figure; "designed to disable with a gas or other substance".
+- S7 [minor, pedagogy] Quiz 4: three of four options carried an absolute, the key two ("anyone",
+  "at all"). **Fixed:** key now "It bars people convicted of a crime involving an assault from
+  having one" (72 characters; spread 72 to 81).
+- S8 [minor, fact] Quiz 5's key "the victim survey never asked" overstated Kleck and Gertz, whose
+  point is that it "never directly asks". **Fixed:** "Kleck and Gertz say it never asked
+  directly; Hemenway says rare events overcount" (80; spread 77 to 89, key no longer near longest).
+- S9 [minor] `npm run minutes` now measures 110; set.
+
+**Checked and passing**
+- Michigan rule (s.224(1)(e), (3)(a)): quoted correctly; no sentence says what Ade may lawfully do.
+- Survey-estimates paragraph: every quoted string verbatim; each end gets its reason to doubt from
+  the report; the bridging parenthesis is accurate (3 million near 2.5 million; 108,000 inside
+  60,000 to 120,000).
+- Part-three model answer: each side has its own words; the report's conditional is placed in the
+  neutral frame; the fairness check tests one sentence from each side. Pass.
+- Exercise item (g): engages s.47 by the intention route and says the fear question was not read.
+  Pass.
+- Quiz items 1, 2, 3 and 6: keys true to the sources; item 6 matches Campbell's Table 3 (victim
+  sole access 0.22 in model 2, NS from model 3, when relationship variables were added).
+- Gate G17: no statement of the critics' argument anywhere (body, misconception, part-two answer).
+- Quiz keys 0,1,3,2,1,2 against lessons 1 to 14 and 16 as on disk (16 is 2,3,1,2,0,1; 14 is
+  2,3,0,1,0,3): all four positions, no adjacent repeat, at most 2 positions shared with any lesson,
+  not identical to or a shift of any, longest shared run 3 (at +1 with lesson 9, -1 with 6, -2 with
+  6 and 11), none of four. Pass.
+- Voice: no em or en dashes, no banned words; the added sentences read aloud.
+- `npm run quotes personal-safety`: 0 not found (334). `npm run validate`: exit 0.
+
+**Not fixed, for the orchestrator**
+- N1 [minor, G17] "Critics of these studies, Kleck among them, have published on how they are done"
+  (body and misconception) states no argument, so G17 holds, but the claim that Kleck published on
+  these household studies rests on no source the course read: SOURCES §5.3 says RAND's Kleck 2015 is
+  probably an area-level review. Close G17 with one read Kleck critique, or drop "Kleck among them"
+  in both places. Two edits, left.
+- N2 [minor] New York's bar is on a felony or assault conviction "in this state"; the lesson drops
+  the three words. Harmless for the Rochester checkpoint; left.
+- N3 [minor, neutrality] "And her limit:" characterises a sentence that also asserts "for the
+  majority of survivors, it is". "And her qualification:" would be neutral; left for the fixer.
+- N4 [minor] Hemenway's "0.04% of adults" is the true rate his 1.3% misclassification scenario
+  implies, not an assumption; "on one of his assumptions" is loose but not wrong.
+- N5 [minor] Part one's answer to (e) reads as a verdict ("possession at home is the offence")
+  where the exercise asks for none; the same wording was settled for quiz 3 in the first pass.
+
+**For SOURCES (not edited here; other fixers are in it)** add to "Gate closures, lesson 15", Kleck
+and Gertz 1997 reply (capture 20240709092114), pp. 1452 to 1453, each [V]:
+- "H argues that our estimates are implausible because our survey implies a number of DGUs occurring in connection with burglaries that exceeds the total number of burglaries of occupied residences estimated by the NCVS."
+- "This is true because DGUs typically involve criminal behavior, such as unlawful gun possession, by the gun-using victim, who therefore is often unwilling to report the incident."
+- "the 194 reported DGU incidents, of which about 40 were linked to burglaries"
+- "No competent criminologist believes that the NCVS provides complete coverage of all burglaries, or any other crimes, occurring in the U.S."
+And, from the Hotline page, the sentence the new paraphrase rests on: "It’s important to note that
+this risk doesn’t only apply to women; anyone can be in serious danger if their abusive partner has
+a gun."
+
+**Verdict: CLEAN.** Nothing left in the lesson is wrong; the S1 and S2 additions are paraphrase
+or verbatim and checked against the primaries. N1 is a gate the orchestrator owns, and N2 to N5
+are wording choices.

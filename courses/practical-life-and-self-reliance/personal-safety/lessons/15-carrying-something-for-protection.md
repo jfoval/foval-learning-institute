@@ -1,6 +1,6 @@
 ---
 title: Carrying something for protection
-minutes: 105
+minutes: 110
 objectives:
   - >-
     Explain why carrying an ordinary object "for self-defence" can be an offence in England and
@@ -71,7 +71,7 @@ quiz:
     options:
       - It restricts only using a spray outside self-defence, so her record doesn't arise
       - It allows her one, provided the spray stays under the size limit the statute sets
-      - It bars anyone convicted of a crime involving an assault from having one at all
+      - It bars people convicted of a crime involving an assault from having one
       - It bars only carrying a spray in public, so keeping one at home falls outside it
     answer: 2
     explain: >-
@@ -86,7 +86,7 @@ quiz:
       fairest to both sides?
     options:
       - The host is right, since a government survey is better run than a private one
-      - Kleck and Gertz say the victim survey never asked; Hemenway says rare events overcount
+      - Kleck and Gertz say it never asked directly; Hemenway says rare events overcount
       - The host is wrong, since later surveys confirmed the high figure and withdrew the low one
       - The two can't be compared, since they counted different years with different samples
     answer: 1
@@ -286,7 +286,8 @@ differ, and nothing on other weapons.
   [MCL 750.224](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-750-224), and exempts "A
   self-defense spray or foam device as defined in section 224d".[8]
   [Section 224d](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-750-224d) sets that
-  device's limits, makes using one on a person an offence, and then exempts "reasonable use ... in
+  device's limits, makes using one on a person an offence, and then exempts, for the pepper
+(oleoresin capsicum) kinds it names, "reasonable use ... in
   the protection of a person or property under circumstances that would justify the person's use of
   physical force".[8]
 
@@ -327,8 +328,8 @@ the lesson on domestic abuse and stalking has the stalking lines.
 
 **In Michigan**, the questions about Ade's spray are different, and they come later:
 
-- *Is her device the kind section 224d describes?* Section 224 bans devices that disable with a gas
-  and exempts that kind, so this is the question about having it, and the section sets its own
+- *Is her device the kind section 224d describes?* Section 224 bans devices designed to disable with a
+  gas or other substance, and exempts that kind, so this is the question about having it, and the section sets its own
   limits.[8]
 - *If she ever used it*: was it "reasonable use" to protect a person, in circumstances that would
   justify physical force under Michigan's force law?[8] This course did not read Michigan's general
@@ -515,7 +516,7 @@ reading, for the groups the studies compared rather than for any one household. 
 cannot tell you is why the groups differ: every study pooled was observational, so the finding is
 that access and death went together, not that one caused the other.
 
-The other side of this question has a case of its own. Critics of these studies, Kleck among them,
+The other side of this question has a case of its own. Critics of these studies
 have published on how they are done. This course did not read that work, so it does not set out their
 argument, and that gap is the course's, not theirs. What it can give from what it read:
 
@@ -557,7 +558,7 @@ urban US study, published more than twenty years ago.
 Advocates for survivors disagree about a victim's own gun, and each position here is quoted as a
 position. The National Domestic Violence Hotline, a US service, gives its position on its
 [page about guns](https://www.thehotline.org/resources/safety-planning-around-guns-and-firearms/).
-Its reason is the danger it sees in a gun in a home where there is abuse, above all one an abusive
+Its reasons are the dangers it sees in a gun in a home where there is abuse, above all one an abusive
 partner can reach: "These increased risks are some of the reasons we do not advocate for survivors of domestic
 violence to purchase a gun." It also says to the person reading, "We at The Hotline know that you
 are the expert in your situation".[17] *America's 1st Freedom*, a journal of the National Rifle
@@ -566,16 +567,17 @@ Association, a gun-rights group, profiles
 a survivor and advocate who "urges fellow survivors to get their concealed-carry permit if
 comfortable". Her reason, in her words: the decision to carry "wasn't because I had in mind to kill
 my abuser, but it was because I had made the decision that if it came down to him or me, I was no
-longer going to be a victim of his abuse." And her limit: "It might not be an option for everyone, but for the majority
+longer going to be a victim of his abuse." And her qualification: "It might not be an option for everyone, but for the majority
 of survivors, it is."[21]
 
-At the general level, the two sides of the US argument put it in their own terms. Giffords, the
-gun-control group, states on its [statistics page](https://giffords.org/lawcenter/gun-violence-statistics/)
-that "Access to a gun triples a person's risk of suicide", citing research this course did not
-read.[20] The NRA's lobbying arm, NRA-ILA, on its
+At the general level, the two sides of the US argument put it in their own terms. The NRA's
+lobbying arm, NRA-ILA, on its
 [right-to-carry page](https://www.nraila.org/get-the-facts/right-to-carry-and-concealed-carry/):
 "Self-defense is a fundamental right", and "while law enforcement personnel provide protection
-generally, they are not required to protect individuals."[18]
+generally, they are not required to protect individuals."[18] Giffords, the gun-control group,
+states on its [statistics page](https://giffords.org/lawcenter/gun-violence-statistics/) that
+"Access to a gun triples a person's risk of suicide", citing research this course did not
+read.[20]
 
 Each of those is a position, quoted as one. The evidence under them is the contested evidence above,
 and the decision it bears on, whether a particular person should keep a gun, is a value question
@@ -607,7 +609,7 @@ side of a dispute over estimates more than twenty times apart. The National Acad
 it common, with the number disputed.[9]
 
 **"The studies prove a gun in the home causes deaths"** and **"the studies prove nothing."** They're
-observational and show an association, which the authors say. Critics, Kleck among them, have
+observational and show an association, which the authors say. Critics have
 published on these studies' methods; this course did not read that work.[15]
 
 ## Practice
