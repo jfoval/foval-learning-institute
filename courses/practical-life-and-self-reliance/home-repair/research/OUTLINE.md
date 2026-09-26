@@ -1475,13 +1475,16 @@ for the renumbering.*
   "approximately one-quarter of the working length"; HSE, at least 1 m or three rungs above the working
   point; OSHA (b)(1), "at least 3 feet (.9 m) above the upper landing surface"; HSE: off the top three
   rungs; belt buckle "within the stiles"; three points of contact; 6 m from overhead lines unless dead or
-  insulated; CPSC's 22 ladder electrocutions on overhead lines, 2011 to 2020). **Securing, in HSE's
+  insulated; CPSC's 22 electrocutions reported under "Ladder", 2011 to 2020, what the ladders touched not stated). **Securing, in HSE's
   order** (tie both stiles; a stability device; wedge; "Footing is the last resort"; RoSPA's "Consider
   having another person present", contested question 10, taught as emphasis, not conflict). **Where it
   rests** (not glazing or plastic gutters; not on movable objects; no bricks as packing). **The pre-use
   check** (stiles, feet, rungs, locks, platform, treads; the feet again after moving from soft ground to
-  hard; telescopic sections and trapped fingers). RoSPA's case study, "should have been a two-person
-  job".
+  hard; telescopic sections and trapped fingers). RoSPA's case study, "It should have been a two-person
+  job with somebody holding the ladder." *(Note, 2026-09-26, lesson 15's Stage 4: the CPSC figure and
+  the RoSPA quotation above are corrected to what the sources say; the first said the 22 were on
+  overhead lines and the second was trimmed. See SOURCES "Gate closures, lesson 12" and "Stage 4
+  note, lesson 15".)*
 - **Mechanism to explain:** the 1-in-4 arithmetic (4 up, 1 out gives about 76°, which HSE rounds to 75°;
   the reader checks it).
 - **Worked examples:** (b) wrinkle: reaching a first-floor window frame from a leaning ladder where the

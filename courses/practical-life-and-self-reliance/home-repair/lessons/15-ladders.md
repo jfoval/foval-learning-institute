@@ -1,6 +1,6 @@
 ---
 title: Ladders and working at height
-minutes: 90
+minutes: 95
 objectives:
   - >-
     Decide whether a ladder is the right equipment for a described job, putting risk before
@@ -32,7 +32,10 @@ quiz:
       home, so she follows HSE's ladder guidance as good practice, not as a legal duty. The
       Regulations aren't limited to construction firms, and nothing in regulation 3 makes a
       householder the employer of a tradesperson; whether it reaches a householder who controls
-      someone else's work is a question this course didn't settle.
+      someone else's work is a question this course didn't settle. Whether a self-employed
+      decorator is one of the self-employed people it covers depends on regulation 3's "relevant
+      self-employed person", one whose undertaking is of a prescribed description, and this course
+      didn't read that list.
   - q: >-
       A leaning ladder's top rests against a garden wall at a height of 2.8 metres. Following HSE's
       1-in-4 rule, about how far from the foot of the wall should the ladder's feet be?
@@ -48,36 +51,39 @@ quiz:
       HSE's; half the height would be shallower still. HSE gives no rule that makes a steeper ladder
       safer, and 0.3 m out would be far steeper than its 1-in-4 angle.
   - q: >-
-      A man in Argyll has used his extension ladder on a soft flowerbed to reach one
-      window, and now carries it round to a paved yard for another. On HSE's pre-use check, what
-      should he do before he climbs again?
+      A man in Argyll has used his extension ladder on a loose gravel drive to reach a garage
+      roof, and now carries it to the tiled floor of a porch for a window. On HSE's pre-use check,
+      what should he do before he climbs again?
     options:
       - Nothing new, since HSE's pre-use check is done once at the start of the working day
-      - Pack a flat stone under each foot, so the ladder sits level on the new, harder ground
-      - Wet the paving first, so the soil still on the feet softens and grips the smooth slabs
-      - Check the feet, so that the feet themselves and not the soil on them touch the paving
-    answer: 3
+      - Check the feet, so that the feet themselves and not the grit on them touch the tiles
+      - Pack a flat stone under each foot, so the ladder sits level on the new, harder floor
+      - Wet the tiles first, so the grit still on the feet beds down and grips the smooth floor
+    answer: 1
     explain: >-
       HSE's pre-use check is done at the start of the day and again after something changes, and it
-      names moving from soft or dirty ground to a smooth, solid surface as a time to check the feet,
-      so that the actual feet and not the dirt are in contact with the ground. HSE says to level a
-      ladder with proprietary levelling devices, not ad-hoc packing such as bricks or blocks, and
-      it wants surfaces clean so the feet can grip, not wetted.
+      names moving from soft or dirty ground (its examples include loose sand or stone) to a smooth,
+      solid surface as a time to check the feet, so that the actual feet and not the dirt are in
+      contact with the ground. HSE says to level a ladder with proprietary levelling devices, not
+      ad-hoc packing such as bricks or blocks, and it wants surfaces clean so the feet can grip, not
+      wetted.
   - q: >-
-      A householder in Moray is about to clear a first-floor window sill from a leaning ladder. There
-      is a sound fixing point to tie the ladder to, a stability device in the shed, and a neighbour
-      offering to stand at the bottom. Which comes first in HSE's order?
+      A householder in the Fens is about to clear an upstairs window sill from a leaning ladder.
+      There's nothing on the wall to tie the ladder to, a stability device in the shed, and a
+      neighbour offering to stand at the bottom. Which comes first in HSE's order?
     options:
-      - Fit the stability device, because a device is always better than a knot
-      - Tie the ladder to the fixing point, making sure both of its stiles are tied
-      - Have the neighbour foot it, because a person reacts where a rope cannot
-      - Wedge the stiles against the wall, since that needs no fixing point at all
-    answer: 1
+      - Have the neighbour foot it, because a person reacts where a device cannot
+      - Wedge the stiles against the wall, since wedging needs no equipment at all
+      - Put the job off until there's a fixing point, since only a tied ladder will do
+      - Fit the stability device, since tying can't be done and footing comes last
+    answer: 3
     explain: >-
       HSE's order is to tie the ladder with both stiles tied; where that isn't practical, use an
       effective stability device; if that isn't possible, wedge it; and only if none of those can be
-      done, foot it, which HSE calls the last resort. RoSPA's home advice to consider having another
-      person present still fits: the neighbour can stay nearby while the ladder is tied.
+      done, foot it, which HSE calls the last resort. With nothing to tie to, the stability device
+      is next. Wedging comes after the device, not before it, and HSE's list doesn't make a tied
+      ladder the only acceptable one. RoSPA's home advice to consider having another person present
+      still fits: the neighbour can stay nearby while the device does the securing.
   - q: >-
       Someone in the Rhondda wants to clean an upstairs window from a leaning ladder, but a bare
       overhead power line runs past the house about 4 metres from where the ladder would stand. On
@@ -85,21 +91,22 @@ quiz:
     options:
       - Use a wooden ladder, since a non-conductive ladder makes working near the line safe
       - Go ahead, since HSE's limit is 3 m and the line is a metre beyond it already
-      - Go ahead if the ladder is footed, so that it can't slide sideways into the line
       - Don't work there unless the line has been made dead or protected with insulation
-    answer: 3
+      - Go ahead if the ladder is footed, so that it can't slide sideways into the line
+    answer: 2
     explain: >-
       HSE's guidance is not to work within 6 m horizontally of any overhead power line unless it has
       been made dead or protected with insulation. Four metres is inside that. HSE's advice on a
       non-conductive ladder is for electrical work, and it doesn't lift the 6 m rule; footing a
       ladder is HSE's last resort for stopping a slip, and does nothing about the line. There's no
-      3 m figure in HSE's guidance.
+      3 m figure in HSE's guidance; the 10-foot distance in the lesson is a US federal rule for
+      employers, not HSE's.
 ---
 
 A ladder is the most ordinary tool in a house, and it puts a great many people in hospital. In
 the United States, about 136,000 people a year were treated in emergency departments
 for ladder injuries between 1990 and 2005, and where the place was recorded, almost all of them
-were hurt away from work, at home or on a farm.[7] The rules for using a ladder safely were
+were hurt away from work, in places such as homes and farms.[7] The rules for using a ladder safely were
 written almost entirely for workplaces, by regulators who don't regulate your garden. This lesson
 takes those rules, says whom each was written for, and shows you how to use them at home: whether
 to use a ladder at all, how to set a leaning ladder up by the numbers, how to stop it moving, and
@@ -122,8 +129,8 @@ This is general information, not legal advice.
 In Great Britain, the law on ladders at work is the Work at Height Regulations 2005.
 [Regulation 3](https://www.legislation.gov.uk/uksi/2005/735/regulation/3) says who they bind. The requirements on an employer apply "in relation to work" by the employer's
 employees or by anyone else under the employer's control, and regulation 3(3) extends them to
-certain self-employed people and to other persons, again in relation to work by people under their
-control.[3] There's no duty in it on a householder doing their own job at home. Whether it reaches
+certain self-employed people, for their own work and work under their control, and to other persons
+in relation to work by people under their control.[3] There's no duty in it on a householder doing their own job at home. Whether it reaches
 a householder who hires and directs someone else's work is a question this course didn't settle,
 so the lesson says nothing about it.
 
@@ -136,13 +143,14 @@ ladders and stepladders in the workplace."[2]
 
 In the US, the rule this lesson reads is the federal Occupational Safety and Health
 Administration's (OSHA's) ladder standard for construction,
-[29 CFR 1926.1053](https://www.ecfr.gov/current/title-29/part-1926/section-1926.1053). Its use rules speak
-of employees, as duties at work.[4] OSHA also publishes a two-sided
-["QuickCard" on portable ladders](https://www.osha.gov/sites/default/files/publications/portable_ladder_qc.pdf), which is advice, not regulation.[5]
+[29 CFR 1926.1053](https://www.ecfr.gov/current/title-29/part-1926/section-1926.1053). It applies to ladders
+used in construction workplaces, including painting and decorating, and its duties fall on
+employers.[4] OSHA also publishes a two-sided
+["QuickCard" on portable ladders](https://www.osha.gov/sites/default/files/publications/portable_ladder_qc.pdf), which is advice for workplaces, not regulation.[5]
 
 So the law allows a householder more than the advice does. **In law**, neither country's ladder
 rules bind you on your own house. **In advice**, HSE's guidance and OSHA's are still the most
-carefully specified ladder practice there is, and the one British source this course read that
+carefully specified ladder practice this course read, and the one British source this course read that
 speaks to householders, the Royal Society for the Prevention of Accidents (RoSPA), a charity, gives,
 on its [garden safety page](https://www.rospa.com/home-safety/garden-safety),
 the same core numbers for use at home: a "1:4 ratio/ 75 degree angle", three points of contact, no
@@ -151,8 +159,9 @@ is **Yours, on conditions**, and the conditions are the rest of this lesson.
 
 You'll have seen the pattern before. Lesson 10, "Gas: the law and the engineer", met it
 with gas work, where the registration duty binds businesses and the label still
-follows the advice. Here it runs the other way round: the law binds nobody at home, and the advice
-is what keeps you on the ladder.
+follows the advice. Here it goes one step further: gas law still binds you through the competence
+duty, but the ladder rules don't bind you at home at all, and the advice is what keeps you on the
+ladder.
 
 ## Whether to use a ladder at all
 
@@ -173,9 +182,9 @@ it is reasonably practicable to do so)."[1]
 Neither, as described. The ten-minute job fails on risk: HSE wants ladders on firm, level, clean
 ground, and moss is one of the things it names as stopping the feet gripping.[1] Short duration
 does not rescue it, because HSE says duration is "not the deciding factor". The forty-minute job
-fails HSE's time guide of 30 minutes at a time, so HSE would recommend other equipment, or the job
-split into shorter spells with the ladder moved and set again each time, if the task allows it
-(this course's reading; HSE's guide says "at a time").
+fails HSE's time guide of 30 minutes at a time, so HSE would recommend other equipment. HSE's guide
+says "at a time", and gives no rule for breaking a longer job into spells, so this course doesn't
+either.
 :::
 
 What counts as "at height" is wide. HSE's answer is "work in any place
@@ -184,8 +193,8 @@ injury", and it counts "the treads of a stepladder" as a working platform.[10] A
 is working at height in HSE's sense.
 
 American advice points the same way from a different starting place. The National Institute for
-Occupational Safety and Health (NIOSH) closes its study of ladder falls at work by telling employers
-first to "plan the work to reduce or eliminate the need for using ladders", finishing "as much of
+Occupational Safety and Health (NIOSH) ends the discussion in its study of ladder falls at work with
+steps it says employers should consider, first to "plan the work to reduce or eliminate the need for using ladders", finishing "as much of
 the work as possible on the ground", and then to provide "alternative, safer equipment for extended
 work at elevation", naming aerial lifts, supported scaffolds and mast climbing platforms.[8] That's
 advice to employers, and the equipment it names is not household kit, but the first step carries
@@ -200,23 +209,25 @@ how you choose one.
 
 ## The numbers, in each country's terms
 
-Both countries give numbers for the same handful of things. They're given here as each body gives
+This is general information, not legal advice.
+
+Both countries' workplace rules and guidance give numbers for the same handful of things. They're given here as each body gives
 them, not merged.
 
-| | In the UK (HSE and LA455) | In the US (OSHA) |
+| | In the UK (HSE and LA455) | In the US (OSHA: a rule for employers in construction, and its QuickCard) |
 |---|---|---|
 | Angle of a leaning ladder | 1 out for every 4 up, "a 75° angle" | foot "approximately one-quarter of the working length" from the top support |
 | Above a landing you step off at | at least 1 m | at least 3 feet (0.9 m) |
-| The top of a leaning ladder | don't work off the top three rungs | QuickCard: don't stand on the top three rungs (paraphrased) |
+| The top of a leaning ladder | don't work off the top three rungs | QuickCard: "Do not stand on the three top rungs" |
 | The top of a stepladder | not the top three steps without a suitable handhold | "shall not be used as a step" |
 | Hands | three points of contact | the rule: at least one hand when climbing; the QuickCard: three points |
-| Overhead power lines | not within 6 m horizontally unless dead or insulated | QuickCard: look for them first; no metal ladder near them |
+| Overhead power lines | not within 6 m horizontally unless made dead or protected with insulation | QuickCard: look for them first; avoid a metal ladder near them. The rule: nonconductive side rails where the employee or ladder could contact exposed energized equipment |
 
 ### The angle
 
 HSE's version: "you should use the 1-in-4 rule. This is where the ladder should be one space or
-unit of measurement out for every four spaces or units up (a 75° angle)".[1] OSHA's version is
-measured along the ladder instead of up the wall. A ladder that is not self-supporting "shall be
+unit of measurement out for every four spaces or units up (a 75° angle)".[1] OSHA's rule for
+employers is measured along the ladder instead of up the wall. A ladder that is not self-supporting "shall be
 used at an angle such that the horizontal distance from the top support to the foot of the ladder
 is approximately one-quarter of the working length of the ladder (the distance along the ladder
 between the foot and the top support)."[4] The QuickCard says the same in plainer words: place the
@@ -231,7 +242,7 @@ HSE calls it "the safest position to work from", and neither body explains in th
 that angle and not another, so this lesson does not either.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 370" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="ladder-title ladder-desc">
-  <title id="ladder-title">Setting a leaning ladder: HSE's and OSHA's numbers (workplace guidance, read 2026)</title>
+  <title id="ladder-title">Setting a leaning ladder: HSE's and OSHA's numbers (workplace guidance and rules, read 2026)</title>
   <desc id="ladder-desc">A schematic, not to scale for any real ladder. A leaning ladder rests on the edge of an upper landing, with its foot one unit out from the wall for every four units up. HSE, in Great Britain, calls this the 1-in-4 rule and a 75 degree angle. OSHA, in the US, puts the foot about a quarter of the ladder's working length out. The ladder carries on above the landing: at least 1 metre in HSE's guidance, at least 3 feet in OSHA's rule. The course's arithmetic gives about 76 degrees for HSE's rule and about 75.5 for OSHA's. Both are workplace rules.</desc>
   <text x="10" y="24" font-size="16" font-weight="700" fill="var(--text, #1a1a1a)">Setting a leaning ladder</text>
   <text x="10" y="58" font-size="15" fill="var(--text, #1a1a1a)">UK, HSE: 1 out for</text>
@@ -251,22 +262,26 @@ that angle and not another, so this lesson does not either.
   <text x="330" y="146" font-size="15" fill="var(--text-2, #4a5260)">landing</text>
   <line x1="270" y1="338" x2="320" y2="338" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
   <text x="268" y="360" font-size="15" fill="var(--text, #1a1a1a)">1 out</text>
-  <text x="182" y="306" font-size="15" fill="var(--text, #1a1a1a)">about 75°</text>
-  <text x="340" y="76" font-size="15" fill="var(--oxblood, #8b1e2d)">1 m UK</text>
-  <text x="340" y="96" font-size="15" fill="var(--oxblood, #8b1e2d)">3 ft US</text>
+  <text x="284" y="312" font-size="15" fill="var(--text, #1a1a1a)">75°</text>
+  <line x1="340" y1="80" x2="340" y2="120" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <line x1="335" y1="80" x2="345" y2="80" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <line x1="335" y1="120" x2="345" y2="120" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="350" y="94" font-size="15" fill="var(--oxblood, #8b1e2d)">1 m UK</text>
+  <text x="350" y="114" font-size="15" fill="var(--oxblood, #8b1e2d)">3 ft US</text>
 </svg>
 
 *A schematic drawn from HSE's web guide and LA455 (Great Britain) and OSHA's 29 CFR
 1926.1053(b)(1) and (b)(5)(i) (US), all read in 2026. The oxblood line at the foot marks the
 distance out; the oxblood labels at the top mark how far the ladder carries on above a landing you
-step off at. The two angles are this course's arithmetic from each rule.*[1][2][4]
+step off at, with a bracket from the landing to the ladder's top. The angle marked is at the foot,
+on the wall side. The two angles are this course's arithmetic from each rule.*[1][2][4]
 
 Setting the angle is **Yours**: nothing in it needs anything but a tape and the ground to be right.
 
 ### Above the landing, and at the top
 
-If you climb a ladder to step off it onto something (a loft floor, a platform), both
-countries want it to carry on above that point, so you have something to hold as you step off and
+If you climb a ladder to step off it onto something (a loft floor, a platform), HSE's guidance and
+OSHA's rule both want it to carry on above that point, so you have something to hold as you step off and
 on. HSE: ladders used to reach another level should be tied and "extend at least 1 m above the
 landing point to provide a secure handhold".[1] OSHA: the side rails "shall extend at least 3 feet
 (.9 m) above the upper landing surface", and where the ladder is too short for that, it has to be
@@ -274,27 +289,26 @@ secured at the top with a grab rail provided.[4]
 
 For working from the ladder rather than stepping off it, HSE says: "Don’t work off the top three
 rungs. Try to make sure that the ladder extends at least 1 metre or three rungs above where you are
-working".[1] The QuickCard gives the same three-rung limit for straight and extension ladders; its
-wording came out of the PDF broken across a diagram, so it's paraphrased here, not quoted.[5] If a
-job can only be reached from the top rungs, the ladder is too short for it, and the answer is a
-longer ladder or a different way of doing the job.
+working".[1] The QuickCard gives the same three-rung limit: "Do not stand on the three top rungs
+of a straight, single or extension ladder."[5] If a job can only be reached from the top rungs, the
+ladder is too short for it, and the answer is a longer ladder or a different way of doing the job.
 
 ### Three points of contact, and your belt buckle
 
 HSE: "Maintain three points of contact when climbing and wherever possible at the work
 position."[1] The QuickCard spells out what three points are: "two hands and a foot, or two feet
-and a hand".[5] On a stepladder, where you're usually working rather than climbing, HSE allows a
-brief variant: "two feet and one hand, or when both hands need to be free for a brief period, two
-feet and the body supported by the stepladder".[1] Where you can't keep a handhold except for a
-moment, HSE says you need other measures to prevent a fall.[1]
+and a hand".[5] On a leaning ladder, where you can't keep a handhold except for a brief moment
+(HSE's examples are holding a nail to start it, or starting a screw), HSE says you "will need to
+take other measures to prevent a fall or mitigate the consequences if one happened".[1] Stepladders
+have their own version, which lesson 16 gives.
 
-Here's a small case of the law allowing more than the advice inside one country. OSHA's actual rule
-asks less: "Each employee shall use at least one hand to grasp the ladder when progressing up
+Here's a small case of the law allowing more than the advice inside one country. OSHA's rule, which
+binds employers, asks less of their employees: "Each employee shall use at least one hand to grasp the ladder when progressing up
 and/or down the ladder."[4] Its own QuickCard advises three points.[5] Follow the card.
 
 A hand full of tools is a hand that is not holding the ladder. HSE says "Avoid holding items when climbing
-(consider using a tool belt)" and to carry only light materials and tools; OSHA's rule says an
-employee "shall not carry any object or load that could cause the employee to lose balance and
+(consider using a tool belt)" and to carry only light materials and tools; OSHA's rule for
+employers says an employee "shall not carry any object or load that could cause the employee to lose balance and
 fall."[1][4]
 
 Then overreaching. HSE's test is one you can feel without looking: "make sure your belt buckle (or
@@ -318,9 +332,9 @@ leaves out work-related deaths; it says a death associated with a product was "n
 caused by the product".[9] Its table does not break the 22 down by what the ladder touched.
 
 On this course's reading, making a line dead or insulating it is not something a householder can do
-to someone else's cable. This course read nothing from an electricity network on who to ask, so the
-honest label is that a job within 6 m of an overhead line is not **Yours** as it stands, and the
-first call, again on this course's reading, is to whoever owns the line.
+to someone else's cable, so a job within 6 m of an overhead line is **Call someone**, and the first
+call is to whoever owns or runs the line, to ask whether it can be made dead or protected for the
+job. This course read nothing from an electricity network or utility on how that is arranged.
 
 ## A gap for you: working out the foot
 
@@ -340,8 +354,9 @@ four, and that's the distance out.
 
 ## Securing the ladder, in HSE's order
 
-A ladder set at the right angle can still slip at the foot or slide sideways at the top.
-HSE lists what to do about it in order of preference:[1]
+A ladder set at the right angle can still slip, and securing it is HSE's answer: its guide gives
+tying "to prevent it from slipping either outwards or sideways". HSE lists the ways of securing a
+ladder in order of preference:[1]
 
 1. "Tie the ladder to a suitable point, making sure both stiles are tied"
 2. "Where this is not practical, secure the ladder with an effective ladder stability device"
@@ -371,7 +386,7 @@ afterwards: "It should have been a two-person job with somebody holding the ladd
 Put those beside HSE's order and they differ in emphasis, not in fact. RoSPA's advice doesn't say
 what the second person is for; the man in its case study means someone holding the ladder, which is
 footing. HSE doesn't strike footing off its list. It ranks it last, after tying, a stability device
-and wedging, as the thing to do when none of those can be done. OSHA's rule, for its part, names
+and wedging, as the thing to do when none of those can be done. OSHA's rule for employers, for its part, names
 "holding" alongside "placing" and "lashing" as ways of taking care with a ladder on a slippery
 surface.[4] So this course teaches HSE's order for securing a ladder, and RoSPA's point that it's
 worth not being alone with one; that a second person nearby is useful if something goes wrong,
@@ -407,7 +422,7 @@ intervals, recorded, as "the responsibility of the employer".[1][2] That is a wo
 household equivalent in the sources read. OSHA's rule is similar: ladders inspected by a competent
 person "on a periodic basis and after any occurrence that could affect their safe use", and a
 defective portable ladder tagged "Do Not Use" or marked and taken out of service until repaired.[4]
-The QuickCard puts the home-sized version in one line: "Always inspect the ladder prior to using
+The QuickCard, OSHA's advice for workers, puts it in one line: "Always inspect the ladder prior to using
 it."[5]
 
 What happens when the check finds something? HSE's guide says "do not use the ladder and tell the
@@ -418,35 +433,49 @@ ladder has to be restored to "its original design criteria", which on this cours
 a kitchen-table job.[4] Doing the check is **Yours**; mending the ladder is not something this course
 teaches.
 
-## A first-floor window frame, a plastic gutter and a cable
+## An upstairs window frame, a plastic gutter and a cable
 
-A man in a two-storey house on the Gulf Coast wants to paint the frame of a first-floor window from a
-leaning extension ladder. The only place to rest the ladder near the window is the plastic gutter
-above it. A service cable runs from the street to the eaves on the same side of the house, about
-2 metres to one side of the window.
+This is general information, not legal advice.
+
+A man in a two-storey house on the Gulf Coast wants to paint the frame of an upstairs window (the
+second floor, in American terms) from a leaning extension ladder. The only place to rest the ladder
+near the window is the plastic gutter above it. A service cable runs from the street to the eaves on
+the same side of the house, about 2 metres (6 or 7 feet) to one side of the window.
 
 The gutter first. HSE says not to rest a ladder against plastic gutters, and LA455 shows a stand-off
-device as the way to rest a ladder against the wall instead.[1][2] So on HSE's guidance, the ladder
+device as one way to rest a ladder against the wall instead.[1][2] So on HSE's guidance, the ladder
 does not go on the gutter at all. The stand-off is a piece of equipment he'd have to get and fit by
 its maker's instructions.
 
 Then the cable. HSE's rule is not to work within 6 m horizontally of any overhead power line unless
-it has been made dead or protected with insulation.[1] The rule says any overhead line, and this
-course reads it as including the cable that feeds the house, since HSE does not carve that out. Two
-metres is well inside six. And the QuickCard's first electrical instruction is to look for overhead
+it has been made dead or protected with insulation.[1] The rule says any overhead power line. HSE
+doesn't say whether the covering on a cable like this counts as "protected with insulation", and
+this course read nothing that does, so the course treats it as a line until its owner says
+otherwise. Two metres is well inside six. And the QuickCard's first electrical instruction is to look for overhead
 lines before handling a ladder, which he has done.[5]
 
 Notice whose advice that is. The American card says look for lines and keep a metal ladder away from
-them, but gives no distance; the only distance this course read is HSE's, which is British
-workplace guidance. Neither binds him at home. HSE's 6 m is given here as the best-specified figure
-there is, labelled as British, not as an American rule.
+them, but gives no distance. The one US federal rule on overhead lines this course read,
+[29 CFR 1910.333(c)(3)](https://www.ecfr.gov/current/title-29/part-1910/section-1910.333), is part
+of OSHA's electrical rules for employers in general industry; construction work has rules of its
+own, which this course didn't read. It keeps an unqualified worker, and the longest conductive
+object they may touch, at least "10 ft. (305 cm)" from an unguarded, energized overhead line of 50 kV
+or below, and it says that where lines are to be de-energized, arrangements are made "with the
+person or organization that operates or controls the electric circuits involved".[11] So there are
+two distances, each written for workplaces: HSE's 6 m, British guidance, and OSHA's 10 feet (about
+3 m), an American rule. Neither binds him at home, neither page gives a reason for its figure, and
+two metres is inside both.
 
 :::predict Before reading on: taking the gutter and the cable together, what should he do?
 
 Not use the ladder there. Even with a stand-off device solving the gutter, the cable puts the job
-inside HSE's 6 m, and making it dead or insulated is not something he can do himself. This is the
-point where the answer is to hire it out: a painter with equipment suited to working near a line,
-who deals with its owner. **Call someone.**
+inside both distances. This is where the job stops being his. On HSE's guidance nobody, him or a
+painter, works within 6 m of the line until it has been made dead or protected with insulation, and
+whether it is safe to work near, and making it so, are for the line's owner, not him. So the first
+call is to them, to ask whether the line can be made dead
+or protected for the job, and the painting is for someone with other equipment once they have.
+**Call someone.** (Who owns the cable, and how you ask, is this course's reading; it read no
+network's or utility's page on it.)
 :::
 
 ## What people get wrong
@@ -464,30 +493,37 @@ tying, a stability device and wedging.[1] RoSPA still says to consider having an
 something strong: not glazing, not a plastic gutter.[1]
 
 **"Those rules are for builders, so they don't apply to me."** They don't bind you, and that's the
-law half. The advice half is that they're still the best-specified practice there is (see "Who the
+law half. The advice half is that they're still the best-specified practice this course read (see "Who the
 ladder rules bind", which carries the general-information note).
 
 ## Practice
 
 :::exercise Set a ladder and measure it, without climbing
-Take 30 minutes over this. You need a leaning ladder, a tape measure and a helper if the ladder is
-heavy. **Don't climb the ladder for this exercise, not even one rung.** Do it on firm, level, clean
-ground against a solid wall, away from any overhead line, and not against glazing or a plastic
-gutter. If it's not your home, do it only if it's your home to repair, or your landlord agrees.
+Take 30 minutes over this. You need a leaning ladder, the maker's user instructions for it, a tape
+measure and a helper if the ladder is heavy. **Don't climb the ladder for this exercise, not even
+one rung.** Do it on firm, level, clean ground against a solid wall, away from any overhead line, and
+not against glazing or a plastic gutter. Do it only if it's your home to repair, or your landlord
+agrees.
+
+Use a ladder you can stand up and lower by hand without extending it: a single section, or an
+extension ladder kept closed. Follow the maker's user instructions for putting it up and taking it
+down; this course read no method for that, and HSE says you "should have access to user
+instructions from the manufacturer" before using a ladder.[1] If you can't do it safely by those
+instructions, with the helper, skip steps 2 to 4.
 
 1. **The pre-use check.** Go through HSE's list on your own ladder: stiles, feet, rungs, any locks,
    and for a stepladder the platform and treads. Write down anything you find. If the ladder has a
    defect, stop here: don't set it up, and note that it needs replacing.
 
-2. **Set it at 1 in 4.** Stand the ladder against the wall. Measure how high up the wall it rests,
-   and how far the feet are from the foot of the wall. Divide the height by four and adjust the feet
+2. **Set it at 1 in 4.** Stand the ladder against the wall by the maker's instructions. Measure how
+   high up the wall it rests, and how far the feet are from the foot of the wall. Divide the height by four and adjust the feet
    until the distance out matches, to within a few centimetres. Write down both numbers.
 
 3. **Check it the other way.** Measure along the ladder from the feet to where it rests (its
    working length), and divide by four. Compare that with your distance out from step 2.
 
-4. **Take it down** the way it went up, with the helper if it's heavy, and store it where it can't
-   be knocked over.
+4. **Take it down** by the maker's instructions, with the helper, and store it where it can't be
+   knocked over.
 :::
 
 :::checkpoint Check your numbers against this.
@@ -513,8 +549,9 @@ would keep you up a ladder for more than 30 minutes at a time, and any ladder th
 
 ## Connections
 
-Lesson 13, "Tools, dust and fumes: a small kit used safely", came before this one, and a ladder is
-part of the same kit. Lesson 10, "Gas: the law and the engineer", met the law allowing more than the
+Lessons 13 and 14, "Tools, dust and fumes: a small kit used safely" and "Before you drill: cables,
+pipes and what's in the wall", came before this one, and a ladder is where their drill and tools
+often end up. Lesson 10, "Gas: the law and the engineer", met the law allowing more than the
 advice; this lesson met the same shape with ladders, and lesson 19, "Asbestos, lead paint and radon:
 what not to disturb", meets it again. Next, lesson 16, "Stepladders, and what the ladder injury
 figures count", takes the other kind of ladder and the evidence on who gets hurt.
@@ -549,8 +586,8 @@ from a leaning ladder.
    eCFR. **Read: the whole section, paragraphs (a) and (b), 25 September 2026.** A federal rule for
    employers in construction. <!-- SOURCES Part B §2; lesson 12 gate closures -->
 5. OSHA, ["Portable Ladder Safety" QuickCard](https://www.osha.gov/sites/default/files/publications/portable_ladder_qc.pdf),
-   OSHA 3246. **Read: full two-sided card, re-read 25 September 2026. Some diagram text was garbled,
-   and the top-three-rungs line is paraphrased.** <!-- SOURCES Part B §2 -->
+   OSHA 3246. **Read: full two-sided card, re-read 25 September 2026 and again 26 September 2026.**
+   Advice for workplaces. <!-- SOURCES Part B §2; Stage 4 note, lesson 15 -->
 6. RoSPA, ["Garden safety"](https://www.rospa.com/home-safety/garden-safety) and ["Neil"](https://www.rospa.com/case-studies/neil)
    (case study, dated 12 September 2019). **Read: full text of both, re-read 25 September 2026.** A
    UK accident-prevention charity. <!-- SOURCES Part B §2; lesson 12 gate closures -->
@@ -564,3 +601,6 @@ from a leaning ladder.
     <!-- SOURCES Part D D38; lesson 12 gate closures -->
 10. Health and Safety Executive, ["Work at height: Frequently asked questions"](https://www.hse.gov.uk/work-at-height/faqs.htm).
     **Read: full text, 25 September 2026.** Guidance for workplaces in Great Britain. <!-- lesson 12 gate closures -->
+11. US Occupational Safety and Health Administration, [29 CFR 1910.333, "Selection and use of work practices"](https://www.ecfr.gov/current/title-29/part-1910/section-1910.333),
+    eCFR. **Read: paragraph (c)(3), "Overhead lines", in full, 26 September 2026.** A federal rule
+    for employers in general industry. <!-- Stage 4 note, lesson 15 -->

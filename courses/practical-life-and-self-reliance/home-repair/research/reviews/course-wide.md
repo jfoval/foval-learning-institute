@@ -315,3 +315,34 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Places now used by lesson 16:** Puerto Rico, Guam, Gower, the Great Plains, East Lothian,
   Inverclyde (now a two-storey maisonette).
 - **Quiz keys:** lesson 16 now 2,1,0,2,3 (was 2,1,0,3,2, identical to lesson 14's).
+
+## 2026-09-26 — Lesson 15 fix pass: notes for later lessons
+
+- **A US overhead-line distance exists.** 29 CFR 1910.333(c)(3), OSHA's electrical rule for
+  employers in general industry, keeps an unqualified worker and the longest conductive object they
+  may touch at least "10 ft. (305 cm)" from an unguarded, energized line of 50 kV or below, and has
+  de-energizing arranged with "the person or organization that operates or controls the electric
+  circuits involved" (SOURCES "Stage 4 note, lesson 15"). Construction's own overhead-line rules were
+  not read. Lesson 17 (gutters) gives it beside HSE's 6 m, each labelled, if it needs a US distance.
+- **"Protected with insulation":** nothing read says whether a service cable's covering counts. The
+  course treats a covered cable as a line until its owner says otherwise, and sends the reader to
+  the line's owner to ask whether it can be made dead or protected for the job.
+- **"The best there is" is never the course's claim.** Say "the most carefully specified this course
+  read".
+- **OSHA's rules and the QuickCard carry "for employers" or "workplace advice" at each mention**, not
+  only at the first. 1926.1053's scope is 1926.1050(a), construction workplaces "including painting
+  and decorating".
+- **The QuickCard's top-three-rungs line** extracts whole now and may be quoted: "Do not stand on the
+  three top rungs of a straight, single or extension ladder."
+- **HSE's no-handhold sentence belongs to leaning ladders**, and is quoted with "or mitigate the
+  consequences if one happened". The stepladder three-points sentence is lesson 16's.
+- **Exercises that stand a ladder up** limit the reader to one they can raise without extending it,
+  by the maker's user instructions (HSE page 3), since the course teaches no method.
+- **SOURCES corrected in place:** D38, the synthesis's safety item 4 and Part D note 8 (the 22 are
+  under "Ladder", target unstated); RoSPA's whole "Neil" sentence; OSHA (b) has 22 clauses. OUTLINE
+  lesson 15 corrected with a dated note.
+- **Places:** lesson 15 now uses the Isles of Scilly, Argyll, the Fens, the Rhondda and the Gulf
+  Coast (Moray dropped). Lesson 18 reuses the Rhondda; lesson 15 had it first, so the change is
+  lesson 18's.
+- **Quiz keys:** lesson 15 now 0,2,1,3,2 (was 0,2,3,1,3), clearing the value-shifted run of four with
+  lesson 10's keys. No sequence clears value-shifted runs against all of lessons 01 to 18.
