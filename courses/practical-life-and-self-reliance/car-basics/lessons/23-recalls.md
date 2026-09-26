@@ -389,7 +389,7 @@ doesn't require the fix before a used car is sold. The buyer's defence is the lo
 Both countries want to hear about a defect you think should be a recall. In the UK, GOV.UK: report it
 "to the manufacturer immediately", and "Tell the Driver and Vehicle Standards Agency (DVSA) if you’re
 not happy with how the manufacturer is dealing with your report."[2] In the US, report to NHTSA online
-or through its Vehicle Safety Hotline, 888-327-4236, which the booklet also gives for checking open
+or through its Vehicle Safety Hotline, 888‑327‑4236, which the booklet also gives for checking open
 recalls.[4] Both are for defects in design or manufacture, not for wear.
 
 ## What people get wrong
