@@ -1,6 +1,7 @@
 ---
 title: Searing and sautéing, and the pan sauce
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/06-searing-and-sauteing-and-the-pan-sauce.mp3
 objectives:
   - >-
     Explain why a wet or crowded pan steams food instead of browning it, and keep a surface dry by
