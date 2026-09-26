@@ -51,3 +51,18 @@ record decision 18 asks for.
   speaker.** Lessons 8 and 9 should not set them against technique; the contrast with Carnegie is
   whose change and what grounds it.
 - **Worthington and Bodie's definitions table has 18 entries and is a sample.** SOURCES corrected.
+
+## 2026-09-26: lesson 05 Stage 4 (fixer's notes)
+
+- **The course project is referenced and not written** (lesson 05 P14; lessons 1 and 4 refer to it
+  too). `assessments/` does not exist. Write it from OUTLINE's project section before publish
+  (drafter defect 12).
+- **Quiz keys confirmed** for 05: 3,0,1,3,2,1, unchanged by the fix; rechecked by script against 01
+  to 04 and 06 on disk today.
+- **Tannen 1984's "Thanksgiving, 1978, six friends" is not in the 1989 paper.** SOURCES Part B §3.1
+  took it from search results; see "Gate closures, lesson 05 review". Lesson 15 says only what the
+  1989 paper says, unless the book is read.
+- **Anderson and Leaper's gender-composition result is a null moderator**, not a finding against the
+  cross-sex claim: same .24, mixed .11, not separated .56, differences not reliable. Setting,
+  activity and author gender were significant; group size is marginal in the test but called
+  significant in the conclusion. Any later lesson or script uses those terms.

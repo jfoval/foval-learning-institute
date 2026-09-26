@@ -1,6 +1,6 @@
 ---
 title: "Let them finish: interruption, overlap and silence"
-minutes: 80
+minutes: 85
 objectives:
   - >-
     Classify an overlap as a continuer, a terminal overlap, help with a word, choral talk or an
@@ -16,43 +16,44 @@ objectives:
     ordinary conversation, saying what transfers and what does not
 quiz:
   - q: >-
-      Ottoline is describing a walk: "and then we finally found the right..." She pauses, searching.
-      Her friend says, "Turning?" Ottoline says, "Turning, yes," and carries on. What kind of
-      overlap or entry is the friend's word?
+      Ottoline is telling a friend about her garden: "and by the gate there's a row of... oh, what
+      are they called, the tall purple ones?" Her friend says, "Foxgloves?" Ottoline says,
+      "Foxgloves, yes," and carries on. What kind of overlap or entry is the friend's word?
     options:
       - An intrusive interruption, since the friend spoke before Ottoline's sentence was over
       - A terminal overlap, since the friend came in just as Ottoline's sentence was ending
       - A continuer, since the friend's word only showed they were following the story along
-      - Help with a word, which Ottoline took up and then went on from with the floor still hers
+      - Help with a word, which Ottoline asked for, took up, and then went on from as before
     answer: 3
     explain: >-
-      Ottoline was searching for a word, her friend offered one, she accepted it and kept the
-      floor. That's the kind Schegloff lists as help finding a word, and nobody treats it as a
-      problem. It wasn't intrusive, because it didn't take the turn. It wasn't a terminal overlap,
-      because the sentence wasn't ending. And a continuer is a sound like "mm" that adds nothing to
-      the content; "Turning?" supplied the missing word.
+      Ottoline lost a word and asked for it ("what are they called"), her friend offered one, and
+      she took it and kept the floor. That's help finding a word, which Schegloff lists among the
+      overlaps speakers don't usually treat as a problem, and she invited it. It wasn't intrusive,
+      because it didn't take the turn. It wasn't a terminal overlap, because the sentence wasn't
+      ending. And a continuer is a sound like "mm" that adds nothing to the content; "Foxgloves?"
+      supplied the missing word.
   - q: >-
       A newspaper column says, "Research proves men interrupt women far more than the reverse." On
       the 1998 meta-analysis of 43 studies, which summary is accurate?
     options:
-      - A small average difference, larger for floor-taking interruptions and varying with setting
+      - A small average gap, bigger for floor-taking interruptions and changing with the setting
       - A large difference in every setting, which is why the 1975 study's figure has held up since
-      - No difference at all once definitions are fixed, so the claim is a myth with no basis in data
-      - A difference only in mixed-gender pairs, where men took the floor from women much more often
+      - Little overall difference, and what there is disappears once definitions are made consistent
+      - A difference mainly in mixed-gender pairs, where men took the floor from women more often
     answer: 0
     explain: >-
       Across all 43 studies the average difference was negligible (d = .15); for interruptions that
       take the floor it was larger (d = .33), and it varied with the setting and the activity. The
-      difference in mixed-gender talk was the negligible one (d = .11), so the cross-sex version is
-      the least supported. "No difference at all" goes too far the other way: men interrupted more on
-      average. This is what the evidence shows, not a verdict on the wider dispute, which is also about
-      what should be counted.
+      difference didn't sit mainly in mixed-gender talk: it made no reliable difference whether the
+      talk was mixed or same-gender. "Disappears once definitions are made consistent" goes the other
+      way: with the narrowest definition the difference grew. This is what the evidence shows, not a
+      verdict on the wider dispute, which is also about what the difference means.
   - q: >-
       A tutor reads that hospital outpatients left to talk mostly finished their opening within two
       minutes. She concludes that her students' questions in office hours will also be over within
       two minutes if she waits. What's the best response?
     options:
-      - She's right, since a finding from hundreds of patients applies to any conversation at all
+      - She's probably right, since a finding from hundreds of patients is likely to hold for most talk
       - The figure belongs to that clinic, though the reason to wait may still carry across to her
       - She's wrong, since the study found most patients carried on for over five minutes if left
       - The study says nothing about waiting, since its doctors were told to cut in straight away
@@ -61,8 +62,9 @@ quiz:
       The two minutes were measured in one Swiss hospital clinic, with patients telling doctors why
       they'd come. A tutorial is a different setting, so the number doesn't travel. What might carry
       across is this course's reading: the fear that someone will go on forever didn't come true in
-      the clinic. Only seven of 335 patients went past five minutes, and the doctors had been trained
-      to wait and told not to ask questions, not to cut in.
+      the clinic. Only seven of 335 patients went past five minutes. The doctors had been told not
+      to ask questions during the opening, and advised to cut in past five minutes; for those seven,
+      they judged the patients were giving important information and shouldn't be interrupted.
   - q: >-
       A new colleague stammers when saying the name of a supplier. According to STAMMA, the British
       Stammering Association, what should you do?
@@ -82,10 +84,10 @@ quiz:
       A friend is telling you about a row with her sister. She stops mid-story and looks at the
       table. You have a question ready. What do the practitioners in this lesson advise?
     options:
-      - Ask it at once, since a pause is a transition place and the next turn now belongs to you
+      - Ask it now, since a pause may be a transition place where you can take the turn
       - Fill the silence with a story of your own, so that she knows she isn't alone with the row
-      - Wait a moment, since the pause may be her thinking rather than the end of what she has
-      - Change the subject gently, since a pause in a story like this means she's said enough
+      - Wait a moment, since the pause may be her thinking rather than the end of her story
+      - Change the subject gently, since a pause like this may mean she's said enough
     answer: 2
     explain: >-
       Samaritans say "wait a moment" when someone pauses, and R U OK? says to sit patiently with the
@@ -94,21 +96,21 @@ quiz:
       place, but it isn't always the end of what she has to say; a story of your own is the shift
       response from lesson 4; and nothing here says a pause means she's finished.
   - q: >-
-      At a dinner, Tamsin keeps coming in over others with quick "Yes! And..." comments. Hesper,
-      across the table, goes quiet each time it happens to her. On Tannen's account of conversational
-      style, what is most likely happening?
+      On a family video call, Leofric keeps coming in with a quick "Right, right, and..." while his
+      aunt Winifred is telling a story. She trails off each time it happens. On Tannen's account of
+      conversational style, what is most likely happening?
     options:
-      - Tamsin is trying to dominate, since overlapping someone is always a way to take control
+      - Leofric is trying to dominate, since overlapping another person is always a way to take control
       - Two different habits, so the same overlap reads as involvement to one, intrusion to the other
-      - Hesper is being rude, since leaving long gaps signals that she isn't interested in the talk
+      - Winifred is being rude, since trailing off tells him she isn't much interested in the call
       - Nothing at all, since overlaps under a second are too short for either of them to notice
     answer: 1
     explain: >-
       Tannen describes speakers who overlap to show enthusiasm and speakers who hold back so as not to
       impose, and she found the second group "feeling interrupted and, more to the point, dominated"
       by moves the first group meant as participation. "Always a way to take control" is the reading
-      her account argues against. Nothing here makes Hesper rude. And lesson 1 showed that people
-      notice timing differences of a fraction of a second.
+      her account argues against, though she's clear the feeling of being dominated is real. Nothing
+      here makes Winifred rude. And lesson 2 showed that a silence of a second or two is heard and read.
 ---
 
 A patient sits down in a clinic and the doctor asks what brings her in. She starts: the cough, and
@@ -122,10 +124,8 @@ Interrupting was the one listening failure lesson 4, "How listening goes wrong",
 lesson. It needs a lesson of its own because it is harder to pin down than it sounds. Much of the
 overlapping talk in any conversation is not interruption at all. The same overlap can feel friendly to
 one person and like being steamrolled to another. And one of the most repeated claims about
-conversation, that men interrupt women far more than the reverse, turns out to be more interesting
-than either its defenders or its critics usually say. This lesson sorts the kinds of overlap, looks
-at what the gender research found, goes back to the clinic for the numbers, and ends with the
-practitioners' oldest advice: leave a silence.
+conversation, that men interrupt women far more than the reverse, has an answer that fits neither
+slogan. The oldest advice on all of this is the practitioners': leave a silence.
 
 ## Overlap is not one thing
 
@@ -134,8 +134,8 @@ Lesson 1, "What a conversation is made of", gave you the numbers. In 348 English
 the overlaps involved a backchannel such as "mm hm".[3] Talking at the same time is common. It is
 also mostly harmless.
 
-Emanuel Schegloff, who spent a long paper on overlap, sorted out the kinds that nobody in his
-recordings treated as a problem:[4]
+Emanuel Schegloff, who wrote a paper of more than sixty pages on overlap, sorted out the kinds that
+speakers in his recordings don't usually treat as a problem:[4]
 
 - **Continuers**: "mm hm", "uh huh", "yeah", the small sounds of someone following along. They do not
   claim the turn.
@@ -184,9 +184,10 @@ in lesson 1.
 There are four places where someone else's voice comes in on Idris's telling: line 2, line 4, lines
 6 and 7 together, and line 9.
 
-:::checkpoint Classify all four before you open this: continuer, terminal overlap, help with a word, choral talk or intrusive interruption. Some may be two at once.
+Take line 2 first. Delphine's "mm" lands in the middle of Idris's sentence, but it claims nothing:
+it adds no content, and Idris doesn't even pause. That's a continuer.
 
-**Line 2: a continuer.** Delphine's "mm" lands mid-sentence and claims nothing. Idris doesn't even pause.
+:::checkpoint Now the other three, before you open this: continuer, terminal overlap, help with a word, choral talk or intrusive interruption. Some may be two at once.
 
 **Line 4: help with a word.** Idris has stopped and is visibly searching ("what's the word"). Emeric offers one, Idris takes it and goes on. The turn stays his.
 
@@ -200,8 +201,8 @@ If you called line 4 an interruption because Emeric spoke before the sentence wa
 ## The same overlap, two experiences
 
 The linguist Deborah Tannen studied this from inside. In a 1989 paper she summarised her earlier book,
-built on about two and a half hours of a taped Thanksgiving dinner in 1978 among six friends, one of
-them Tannen herself.[7] Some of the speakers left little or no pause between turns and often started
+built on about two and a half hours of taped dinner-table conversation in which Tannen herself took
+part.[7] Some of the speakers left little or no pause between turns and often started
 while someone else was talking. She called this a **high-involvement** style: the priority is to show
 interest and enthusiasm. Others, whom she called **high-considerateness** speakers, put the priority on
 not imposing.
@@ -209,10 +210,13 @@ not imposing.
 Among speakers who shared the first style, overlapping was, in Tannen's words, "supportive rather
 than obstructive, evidence not of domination but of participation". When the same moves met the other
 style, those speakers "hesitated, faltered, or stopped, feeling interrupted and, more to the point,
-dominated".[7] Nobody in the room was trying to dominate anyone. Two habits met.
+dominated".[7] On Tannen's account, nobody at the table was trying to dominate anyone; two habits
+met. She's just as clear that the other side's experience was real. The impression of dominance
+wasn't the high-involvement speakers' intention, she writes: "Neither, however, was it the creation of the
+imaginations of those who felt interrupted."[7]
 
 This is **observed in recordings**: a close analysis of a handful of speakers, not a measured rate, and
-Tannen herself was one of the six. It is best used as a lens on misunderstanding rather than as a map
+Tannen herself took part in the conversation she analysed. It is best used as a lens on misunderstanding rather than as a map
 of which groups talk how. Lesson 1 showed why the map version fails: the Italian conversations, which
 anthropologists' reports had described as tolerant of overlap, had an ordinary 17% of answers in
 overlap.[3]
@@ -239,12 +243,13 @@ finishing someone's sentences. Try not to do this. People who stammer often find
 than helpful."[8] Its summary of what people who stammer want: "Basically, people who stammer just
 want the time to say what they want to say. Without being interrupted, rushed or spoken over." And
 it asks people not to say "slow down" or "relax", because "This just shows that you're more focused on
-how they speak, than on what they're saying."[8] This is an advocacy body's advice, drawn from the
-people it speaks for, and the right source for it.
+how they speak, than on what they're saying."[8] This is advice from an advocacy body, and on how it
+feels to be talked over, the people it speaks for are the right source.
 
-The difference from line 4 is who asked. Idris invited help ("what's the word"); Gwilym didn't.
-**This course's reading** is that the invitation is what makes help with a word cooperative, and that
-without it, finishing someone's sentence takes their turn from them, however kindly meant.
+The difference from line 4 is what the pause was. Idris had lost the word and said so ("what's the
+word"); Gwilym knew his word and was blocked on saying it. **This course's reading** is that an
+invited search is what makes help with a word cooperative, and that without the invitation,
+finishing someone's sentence takes their turn from them, however kindly meant.
 
 ## Do men interrupt women more?
 
@@ -257,15 +262,20 @@ and each deserves its own case.
 In 1975 Don Zimmerman and Candace West published a small study that launched a
 large literature.[5] They recorded 31 two-person conversations: three quarters in coffee shops, drug
 stores and other public places in a university community, the rest in private homes. The participants
-were white and apparently middle class. Some of the public recordings were made without the speakers'
-knowledge; the authors sought consent afterwards where they could, and the tapes were erased once
-transcribed. (No exercise in this course asks you to record anyone without their agreement first.)
+were white and apparently middle class. The recordings were made without the speakers' knowledge;
+the authors sought consent afterwards, which they could not always do in public places, and the tapes
+were erased once transcribed. (No exercise in this course asks you to record anyone without their agreement first.)
 
 In 20 same-sex conversations they found 7 interruptions and 22 overlaps, spread fairly evenly between
 the speakers. In 11 conversations between a man and a woman they found 48 interruptions, and their
 table gives 46 of them to the men. The text on the page before says 98%; 46 of 48 is 96%, which is
 what the table prints.[5] One conversation, between a female teaching assistant and a male
-undergraduate, held 13 of the 48.
+undergraduate in the discussion section she was leading, held 13 of the 48, which a critic will
+point to. The authors raised that themselves and answered it. Interruptions turned up in ten of the
+eleven cross-sex conversations, against three of the twenty same-sex ones, so they read the pattern
+as systematic rather than one unusual pair. And that conversation held the study's only two
+interruptions of a man by a woman, from the one woman who outranked the man she was talking to: he
+interrupted her eleven times to her two.[5]
 
 Their conclusion, in their own words: "The preliminary findings of the research reported here
 indicate that there are definite and patterned ways in which the power and dominance enjoyed by men
@@ -276,7 +286,7 @@ a task for further research.[5]
 
 :::predict Twenty-three years and dozens of studies later, a meta-analysis pooled the published research on gender and interruption. Before you read it: overall, how big a difference do you expect it found, and do you expect the difference to be largest when men talk with women?
 
-Read on. The answer to the second part surprises most people.
+Small overall: d = .15, which the authors call negligible, and .33 for interruptions that take the floor. And no, it wasn't clearly largest when men talked with women. In mixed-gender talk taken alone the figure was .11, but the authors found that whether the talk was mixed or same-gender made no reliable difference. The next section gives the figures.
 :::
 
 ### What 43 studies found
@@ -287,32 +297,47 @@ minutes.[6] Because the studies defined interruption so differently, they sorted
 three levels: broad (which could include backchannels and friendly overlaps), backchannels excluded,
 and **intrusive** (interruptions aimed at taking the floor).
 
+Before their work, two narrative reviews (James and Clarke in 1993, Aries in 1996) had, as Anderson
+and Leaper report them, "concluded that there is no consistent evidence that men do indeed interrupt
+more than women". The pooled result, in the meta-analysts' words, "both contradicted and confirmed"
+those reviews.[6] This course has not read the two reviews themselves.
+
 Across all the studies, men were significantly more likely to interrupt, but the size of the
 difference was, in the authors' word, "negligible": d = .15. When only the 17 studies of intrusive
 interruptions were combined, the difference was larger, d = .33, which the authors called "small but
 substantial".[6]
 
 Mental Fitness lesson 2, "What a small effect is, and what the other group got", gave you a way to
-read those numbers. On that lesson's arithmetic on the normal curve (not a figure from any study),
+read those numbers: d is the same kind of standardised difference as the g in that lesson. On that
+lesson's arithmetic on the normal curve (not a figure from any study),
 an effect of 0.33 puts the average man's rate of intrusive interruption above that of about 63% of
-women, and 0.15 puts his rate of interruption broadly defined above about 56%, if the rates are
-spread in the bell shape the arithmetic assumes. With no difference it would be
-50%. A difference of that size between averages says nothing about any particular man or woman; the
-two groups overlap almost entirely.
+women, and the overall 0.15, across every definition, puts his rate above about 56%, if the rates
+are spread in the bell shape the arithmetic assumes. With no difference it would be 50%. A
+difference of that size between averages says nothing about any particular man or woman; the two
+groups overlap far more than they differ.
 
-Then the moderators, the conditions under which the intrusive difference grew or shrank:[6]
+Then the moderators, the conditions under which the intrusive difference grew or shrank. "Significant"
+here means the gap between the two figures was unlikely to be chance.[6]
 
 - **Setting.** In the three naturalistic studies the difference was d = .76, against .31 in the lab.
-  The authors point out that only three of the 17 were naturalistic, and say the finding "should be
-  considered with caution".
-- **Activity.** In unstructured talk, d = .73; in task-focused activities, .05, virtually none.
-- **Who was talking to whom.** Men interrupted slightly more in same-gender talk (d = .24), and the
-  difference in **mixed-gender** talk was negligible (d = .11). Gender composition was not a
-  significant moderator.
+  This was a significant moderator. The authors point out that only three of the 17 were
+  naturalistic, and say the finding "should be considered with caution".
+- **Activity.** In unstructured talk, d = .73; in task-focused activities, .05, virtually none. This
+  was a significant moderator too.
+- **Group size.** The difference was larger in groups of three or more than in pairs (d = .13 in
+  pairs; for groups the paper prints .31 in one place and .63 in another, so this course gives no
+  single figure). The authors list it among their most notable results, though their direct test of
+  groups against pairs was only borderline. Their gloss is a dominance reading: "To the extent that
+  intrusive interruption is a manifestation of dominance, larger and more public group settings may
+  be especially likely to elicit this behavior in men."
+- **Who was talking to whom.** Men interrupted slightly more in same-gender talk (d = .24) than in
+  **mixed-gender** talk (d = .11), and studies that did not separate the two showed .56. Gender
+  composition was not a significant moderator: the differences between those figures could have
+  been chance.
 - **Strangers and acquaintances.** The difference was larger among strangers (.38) than among people
   who knew each other (.19), but familiarity was not a significant moderator either.
 - **Who wrote the study.** In studies with a woman as first author the difference was d = .54; with a
-  man as first author it was −.21, a slight tendency the other way. This one was a significant
+  man as first author it was −.21, a slight tendency the other way. This too was a significant
   moderator.
 
 The authors' reading of that last result runs both ways, and it is worth having in their terms: the
@@ -320,74 +345,106 @@ gap "potentially reflects some form of researcher bias", in which some women res
 inclined to find men more dominant and some men researchers inclined not to.[6] They do not say which
 group of authors was closer to the truth, and nor does this course.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 330" role="img" aria-labelledby="cl5-al-title cl5-al-desc" style="width:100%;height:auto;font-family:inherit">
-  <title id="cl5-al-title">Gender differences in interruption across 43 studies</title>
-  <desc id="cl5-al-desc">Four horizontal bars on a scale from 0 to 0.4, with a dividing line at 0.2 between the negligible band and the small band. All studies, all definitions: d equals 0.15, in the negligible band. Intrusive interruptions only, 17 studies: d equals 0.33, in the small band. Intrusive, same-gender talk: d equals 0.24, just into the small band. Intrusive, mixed-gender talk: d equals 0.11, in the negligible band. Positive values mean men interrupted more on average. From Anderson and Leaper 1998, weighted effect sizes.</desc>
-  <line x1="200" y1="20" x2="200" y2="262" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
-  <text x="20" y="38" font-size="15" fill="var(--text, #111418)">All studies, all definitions</text>
-  <rect x="20" y="46" width="135" height="22" fill="var(--navy, #0f2a4a)"/>
-  <text x="163" y="63" font-size="15" fill="var(--text, #111418)">.15</text>
-  <text x="20" y="98" font-size="15" fill="var(--text, #111418)">Intrusive only (17 studies)</text>
-  <rect x="20" y="106" width="297" height="22" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="325" y="123" font-size="15" fill="var(--text, #111418)">.33</text>
-  <text x="20" y="158" font-size="15" fill="var(--text, #111418)">Intrusive, same-gender</text>
-  <rect x="20" y="166" width="216" height="22" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="244" y="183" font-size="15" fill="var(--text, #111418)">.24</text>
-  <text x="20" y="218" font-size="15" fill="var(--text, #111418)">Intrusive, mixed-gender</text>
-  <rect x="20" y="226" width="99" height="22" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="127" y="243" font-size="15" fill="var(--text, #111418)">.11</text>
-  <line x1="20" y1="262" x2="380" y2="262" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <text x="15" y="282" font-size="15" fill="var(--text-2, #4a5260)">0</text>
-  <text x="188" y="282" font-size="15" fill="var(--text-2, #4a5260)">0.2</text>
-  <text x="360" y="282" font-size="15" fill="var(--text-2, #4a5260)">0.4</text>
-  <text x="20" y="308" font-size="15" fill="var(--text-2, #4a5260)">Negligible</text>
-  <text x="210" y="308" font-size="15" fill="var(--text-2, #4a5260)">Small</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 404" role="img" aria-labelledby="cl5-al-title cl5-al-desc" style="width:100%;height:auto;font-family:inherit">
+  <title id="cl5-al-title">Gender differences in intrusive interruption across 43 studies</title>
+  <desc id="cl5-al-desc">Five horizontal bars on a scale from 0 to 0.6, with dividing lines at 0.2, between the negligible and small bands, and at 0.5, where the moderate band begins. All studies, all definitions: d equals 0.15, negligible. Intrusive interruptions only, 17 studies: d equals 0.33, small. Intrusive, same-gender talk, 5 studies: 0.24, small. Intrusive, mixed-gender talk, 7 studies: 0.11, negligible. Intrusive, studies that did not separate same- and mixed-gender talk, 5 studies: 0.56, moderate. The authors found the differences among the last three were not statistically reliable. Positive values mean men interrupted more on average. From Anderson and Leaper 1998, weighted effect sizes.</desc>
+  <line x1="140" y1="43" x2="140" y2="71" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="140" y1="103" x2="140" y2="131" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="140" y1="163" x2="140" y2="191" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="140" y1="223" x2="140" y2="251" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="140" y1="283" x2="140" y2="311" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="320" y1="43" x2="320" y2="71" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="320" y1="103" x2="320" y2="131" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="320" y1="163" x2="320" y2="191" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="320" y1="223" x2="320" y2="251" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="320" y1="283" x2="320" y2="311" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="20" y="38" font-size="15" fill="var(--text, #111418)">All studies, all definitions: .15</text>
+  <rect x="20" y="46" width="90" height="22" fill="var(--navy, #0f2a4a)"/>
+  <text x="20" y="98" font-size="15" fill="var(--text, #111418)">Intrusive only (17 studies): .33</text>
+  <rect x="20" y="106" width="198" height="22" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="20" y="158" font-size="15" fill="var(--text, #111418)">Intrusive, same-gender: .24</text>
+  <rect x="20" y="166" width="144" height="22" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="20" y="218" font-size="15" fill="var(--text, #111418)">Intrusive, mixed-gender: .11</text>
+  <rect x="20" y="226" width="66" height="22" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="20" y="278" font-size="15" fill="var(--text, #111418)">Intrusive, the two not separated: .56</text>
+  <rect x="20" y="286" width="336" height="22" fill="var(--oxblood, #8b1e2d)"/>
+  <line x1="20" y1="322" x2="380" y2="322" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="140" y1="322" x2="140" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="260" y1="322" x2="260" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="380" y1="322" x2="380" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="15" y="344" font-size="15" fill="var(--text-2, #4a5260)">0</text>
+  <text x="128" y="344" font-size="15" fill="var(--text-2, #4a5260)">0.2</text>
+  <text x="248" y="344" font-size="15" fill="var(--text-2, #4a5260)">0.4</text>
+  <text x="362" y="344" font-size="15" fill="var(--text-2, #4a5260)">0.6</text>
+  <text x="20" y="368" font-size="15" fill="var(--text-2, #4a5260)">Negligible</text>
+  <text x="150" y="368" font-size="15" fill="var(--text-2, #4a5260)">Small</text>
+  <text x="326" y="368" font-size="15" fill="var(--text-2, #4a5260)">Moderate</text>
+  <text x="20" y="394" font-size="15" fill="var(--text-2, #4a5260)">Effect size d (positive: men interrupted more)</text>
 </svg>
 
 *Weighted effect sizes (d) for gender differences in interruption; positive means men interrupted
 more on average. Anderson and Leaper, Sex Roles, 1998: meta-analysis of 43 published studies of
-adults, mostly middle-class European American samples. The bands are Cohen's conventions as the
-authors use them: under 0.2 negligible, 0.2 and over small. Drawn by this course from the figures in
-the paper.*
+adults, mostly middle-class European American samples. The bottom three bars are intrusive
+interruptions split by who was talking to whom (5, 7 and 5 studies); the authors found no reliable
+difference among them. The bands are Cohen's conventions as the authors use them: under 0.2
+negligible, 0.2 and over small, around 0.5 moderate. Drawn by this course from the figures in the
+paper.*
 
-Look at the bottom bar. The specific claim, that men interrupt women, is the one the pooled data
-support least. The overall difference was concentrated in intrusive interruptions, and it grew in
-unstructured, sociable talk and in the few natural settings studied.
+Look at the bottom three bars. In mixed-gender talk taken alone the difference was negligible (.11),
+smaller than in same-gender talk (.24). But the authors found that gap was not statistically
+reliable, studies that reported both kinds of talk together showed .56, and their reading was that
+the gender make-up of the conversation made no consistent difference. What did make a difference
+was the definition, the setting, the activity and the size of the group: the gap was concentrated
+in intrusive interruptions, and it grew in unstructured, sociable talk, in groups and in the few
+natural settings studied.
 
 ### Three positions, and what would settle it
 
 - **The dominance view** (Zimmerman and West): interruption is one of the ways power shows up in
   conversation, and the asymmetry in their recordings was large. Its best case is the observation
   that launched the field, and the meta-analysis's finding that men did interrupt more on average,
-  most of all in open, unstructured talk.
-- **The small-and-contextual view** (Anderson and Leaper): the average difference is small, it
-  depends heavily on how interruption is defined and on the setting, and it depends even on who ran
-  the study. They read their results as support for a model in which situations shape gendered
-  behaviour more than fixed differences between women and men do.[6]
-- **The badly-posed view** (Tannen): counting simultaneous speech cannot measure dominance, because
-  whether an overlap is supportive or obstructive depends on the speakers' styles and intentions.[7]
+  most of all in intrusive interruptions, in open, unstructured talk (.73), in groups, and in the
+  few natural settings studied (.76).
+- **The contextual view** (Anderson and Leaper's "contextual-interactive model of gender"): the
+  average difference is small, it depends heavily on how interruption is defined and on the
+  setting, and it depends even on who ran the study. They read their results as support for a model
+  in which situations shape gendered behaviour more than fixed differences between women and men
+  do.[6]
+- **The style view** (Tannen): counting simultaneous speech cannot measure dominance, because
+  whether an overlap is supportive or obstructive depends on the speakers' styles and intentions,
+  so on this view the question is badly posed.[7]
+
+The dominance side has an answer to that last objection. Tannen herself reports it, from Henley and
+Kramarae in 1988: that treating men's and women's talk as a difference of style is "covering up real
+domination with a cloth of cultural difference". Her reply: "Though I am sympathetic to this view, my
+conscience tells me we cannot have it both ways."[7] The dominance side can also point out, on this
+course's reading, that the meta-analysis's intrusive category already sets friendly overlap aside,
+and that is where the difference was concentrated. Tannen also opens her conclusion "As a woman who has personally
+experienced the difficulty many women report in getting heard in some interactions with men".[7]
+That experience is real whichever position is right, and an average over 43 mostly short studies
+can't say what happened in any one woman's meetings.
 
 What would settle it: large studies of natural conversation, with an agreed definition of intrusive
 interruption, coders who don't know the study's hypothesis, samples beyond one country's middle
-class, and the participants' own sense of whether they were interrupted. Studies after 1998 exist,
-in courts and meetings among other places, but this course has not reviewed them.
+class, and the participants' own sense of whether they were interrupted. Later studies exist, but
+this course has not reviewed them.
 
 The accurate summary of what this course read: a small average difference in floor-taking
 interruptions, which varies strongly with the setting. That is not a verdict on the dispute, which is
-partly about what should be counted in the first place.
+as much about what the difference means, whether power, situation or style, as about its size.
 
 ## What medicine measured
 
-Medicine is the one field that timed its own listening, and its findings are the best numbers this
-course has on interrupting and on letting people finish. Every one of them comes from a doctor with a clock and an
-agenda talking to a patient, which is not two friends talking, and that goes in every sentence.
+Medicine has timed its own listening, and its figures are the best this course found on
+interrupting and on letting people finish. Every one comes from a doctor with a clock and an agenda
+talking to a patient, which is not two friends talking, so each is given with its setting.
 
 **The 2019 study.** Naykky Singh Ospina and colleagues went back to [112 recorded consultations](https://pmc.ncbi.nlm.nih.gov/articles/PMC6318197/) from
 trials run at the Mayo Clinic and practices in Minnesota and Wisconsin.[1] The doctor asked for the
 patient's agenda (what they wanted to discuss) in only 40 of them, 36%. In 27 of those 40 the doctor
 cut in, after a median of 11 seconds; the range ran from 3 seconds to nearly four minutes. Patients
-who weren't interrupted finished in a median of 6 seconds, which the authors put down partly to
-patients saying they had nothing else to raise. This is a **single study**, a secondary analysis of
+who weren't interrupted finished in a median of 6 seconds, which the authors suggest may be because
+many of these patients said they had no concerns. This is a **single study**, a secondary analysis of
 trial recordings, and they warn that such visits may differ from usual ones. They also give the other
 side a hearing: done respectfully, interruptions "may clarify or focus the conversation, and thus be
 beneficial to patients". They doubted that it applies so early in a visit.[1] The same paper reports
@@ -403,7 +460,8 @@ The mean was 92 seconds, and the median 59 seconds. Of 335 patients, 78% had fin
 **The 2002 study.** Wolf Langewitz and colleagues [timed first-visit patients](https://pmc.ncbi.nlm.nih.gov/articles/PMC126654/) at the internal medicine
 outpatient clinic of the university hospital in Basel.[2] Fourteen doctors had an hour's training in
 waiting and in small encouragements such as "hmm-hmm", nodding and echoing, and were told not to
-ask questions during the opening. Each started a stopwatch, without the patients knowing, and stopped it
+ask questions during the opening; to keep to their schedule, they were advised to cut in if a patient
+passed five minutes. Each started a stopwatch, without the patients knowing, and stopped it
 when the patient handed over. Their conclusion: "Doctors do not risk being swamped by their patients'
 complaints if they listen until a patient indicates that his or her list of complaints is complete."
 And: "two minutes of listening should be possible and will be sufficient for nearly 80% of
@@ -413,14 +471,17 @@ elsewhere might need even less time.
 
 Ask the course's third question of it: **compared with what?** There was no interrupted group in
 Basel, so the study shows how long patients talk when left alone, not what interrupting them costs.
-The contrast with the 11 seconds is across two studies, two countries and two decades.
+The contrast with the 11 seconds is across two studies, two countries and papers published
+seventeen years apart.
 
 ### Radka's opening, and what transfers
 
 Put the two studies together on one case, which this course has constructed. Radka, 58, sees a new doctor about her cough. "It's this
 cough, it's been three weeks, and I've been really tired, and my ankles..." At 11 seconds the doctor
 asks, "Is the cough dry or productive?" Radka answers about the cough, and the tiredness and the
-ankles don't come up again until the end, if at all.
+ankles don't come up again until the end, if at all. On **this course's reading**, the cost is not
+the 11 seconds. The doctor's question picks the topic, and the rest of her list has to wait for
+a new opening she may not get.
 
 If her clinic were like Basel's, letting her finish would probably have cost about two minutes: patients of
 her age averaged 108 seconds, and most people were done within two. The risk the doctor was avoiding,
@@ -436,7 +497,7 @@ the fear the Basel study tested and didn't find borne out, in its setting.
 ## Silence as a tool
 
 The practitioner traditions this course read teach the same move: when the other person stops,
-don't rush in. These are **practitioner advice**, from people who listen for a living, and none of
+don't rush in. This is **practitioner advice**, from people who listen for a living, and none of
 them has been tested as such in ordinary conversation.
 
 - **Samaritans**, the UK and Ireland listening charity, in [its advice](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for someone supporting a person who's
@@ -470,7 +531,8 @@ Lesson 2 also set this advice beside Templeton and colleagues' finding that quic
 ## What people get wrong
 
 **"Men interrupt women far more."** The pooled studies found a small average difference, larger for
-floor-taking interruptions and in unstructured talk, and negligible in mixed-gender talk.[6] It is a
+floor-taking interruptions and in unstructured talk, and not reliably different between mixed- and
+same-gender talk.[6] It is a
 contested question, not a settled fact.
 
 **"The gender difference is a myth."** That is the opposite error. Across 43 studies men did
@@ -486,8 +548,8 @@ doing what the moment needs.
 open, and the practitioners' advice is to find out by waiting.
 
 **"If I let them talk, they'll go on forever."** In the Basel clinic, 78% were done within two
-minutes and seven of 335 went past five.[2] That is one setting, but it is the one this course found
-that let everyone finish and timed it.
+minutes and seven of 335 went past five.[2] That is one setting, but it is the only study this course
+found that let every patient finish and timed them.
 
 **"Finishing someone's sentence shows you're with them."** With a friend searching for a word who
 invites help, maybe. With someone who stammers, STAMMA asks you not to.[8]

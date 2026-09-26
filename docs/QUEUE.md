@@ -32,12 +32,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   lesson length (lessons 2, 3, 5, 6, 7, 15 and 16 run 105 to 140 minutes against the outline's
   65 to 85; each review file records a seam, and splitting renumbers the course), and no image or
   video was ever cleared (gates G4 and G16 were not worked), so the course is text only.
-  **Rendering: Google allows 50 requests a day on gemini-2.5-pro-tts** (rolling; it ran out on
-  the evening of 2026-09-24 and resets about 19:00 on 2026-09-25). That is a request count, not
-  money. Render in Core term order, one call each, stopping at the first refusal. John confirmed on
-  2026-09-25 that he has raised the cap; `scripts/podcast/budget.json` still says $56 because the
-  new figure is behind his Google sign-in, so `npm run state` shows the cap as spent. **John: put
-  the new cap from aistudio.google.com/spend into budget.json.** Episodes owed: see `npm run state`.
+  **Rendering: Google allows 50 requests a day on gemini-2.5-pro-tts** (rolling). That is a
+  request count, not money. Render in Core term order, one call each, stopping at the first refusal.
+  John raised the AI Studio cap to $85 and topped up prepaid credits on 2026-09-26; `budget.json`
+  matches. Episodes owed: see `npm run state`.
   **Personal Safety** (`sensitive_domain: true`) is sixteen lessons: the outline's lesson 14 split
   at its seam into 14 "The home and property" and 15 "Carrying something for protection", so
   "Afterwards" is 16. Every lesson went through a Tier B Stage 4 and a fresh second pass; the
@@ -58,11 +56,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   conversations to Mental Fitness. Stage 2 is done: `research/OUTLINE.md` plans seventeen lessons
   (Tier B for 5, 9, 11, 14, 15 and 16; the Mental Fitness crisis callout on 10 and 11, enforced by
   the build), a 20-item test and a listening-journal project.
-  **Where it stands (2026-09-26, end of session):** lessons 1 to 6 drafted. Lessons 1 and 4 are
-  settled (Stage 4 review, fixes, targeted re-check) and have fact-checked scripts. Lessons 2 and 3
-  have their review fixes applied and each **owes a targeted re-check**, then its script. Lessons 5
-  (Tier B: split reviewers F and P) and 6 (Tier A) **owe Stage 4**; the drafter's notes for the
-  reviewers are in `research/reviews/cl-draft-05-notes.md` and `cl-draft-06-notes.md`.
+  **Where it stands (2026-09-26):** lessons 1 to 6 drafted, 7 and 8 in drafting. Lessons 1, 2, 3, 4 and 6 are settled
+  (Stage 4, fixes, targeted re-check) and have fact-checked scripts. Lesson 5 has its Tier B review
+  (F and P) applied; F5 was a failed Turing test, so it **owes a fresh second pass**, then its
+  script. Lessons 7 and 8 then owe Stage 4; the drafters' notes go in
+  `research/reviews/cl-draft-07-notes.md` and `cl-draft-08-notes.md`.
   **Gates:** G2, G4 and G20 closed. G20 changes the outline: Leydon et al. 2018 is a partial
   replication of Heritage's "some"/"any" result, so "no replication found" is no longer true
   (lesson 6 reports both). G5 not closed (Beckman and Frankel refused; the 18 seconds is cited as

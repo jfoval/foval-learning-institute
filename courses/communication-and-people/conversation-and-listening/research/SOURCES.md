@@ -3682,3 +3682,326 @@ on the unread line was cleared. Two labels in earlier entries are corrected in p
   as "Adler & Proctor 2" [V, metadata], and bookseller listings give Ronald B. Adler and Russell F.
   Proctor II [T]. Manning joined for a later edition. Lesson 6 now says "Adler and Proctor" for the
   13th edition, as lesson 4 already did.
+
+## Gate closures, lesson 07 (2026-09-26)
+
+OUTLINE's gates table assigns no gate to lesson 7, so nothing here clears an entry on the unread
+line. Under defect 26 the drafter re-read, with curl and a generic browser User-Agent, every free
+primary the lesson leans on, and records what the lesson quotes or states beyond Part C §7. All read
+26 September 2026.
+
+- **Eyal, Steffel and Epley 2018** (author-hosted PDF, URL as Part C §7.5; full text, 25 pp.).
+  Pretest: "336 Amazon.com Mechanical Turk workers" read about one test; the perspective-taking
+  instruction described to them was "trying to adopt the perspective of the other person, putting
+  yourself into the other person’s shoes as if you were that person." [V]; "most participants
+  predicted that participants in the perspective taking condition were more accurate than those in
+  the control condition (67.75%)" [V]. Samples: Experiments 1 to 15, N = 1,476, undergraduates at a
+  non-American and an American university, community participants and MTurk workers; Experiments 16
+  to 24, N = 1,132, US undergraduates, MBA students and community participants from two locations
+  [V, paraphrased from the Method sections]. "Perspective taking reduced egocentric biases, but the
+  information used in its place was not systematically more accurate." [V]; "If anything,
+  perspective taking decreased accuracy overall while occasionally increasing confidence in
+  judgment." [V]. Across all 25, "a statistically significant, albeit small, negative effect of
+  perspective taking on accuracy, d ⫽ ⫺0.23" (the PDF prints = and minus as ⫽ and ⫺). Limits in the
+  authors' words: "Because the scientific method is unable to confidently affirm the null
+  hypothesis, our experiments are unable to confirm that perspective taking is ineffective for
+  increasing interpersonal accuracy." [V]; "Although our experiments do not provide an explanation
+  for why perspective taking sometimes decreased accuracy, they clearly demonstrate that perspective
+  taking does not systematically increase accuracy." [V]; "Perspective taking may indeed work some
+  interpersonal wonders, but our results suggest that increasing insight into the mind of another
+  person is not among them." [V]. They also note that control participants were already making
+  inferences about the other person, and that perspective taking might still make people use
+  knowledge they already hold [V, paraphrased].
+  **Experiment 25** (Method, Results, Table 14, Discussion): "One hundred four heterosexual romantic
+  couples were recruited in the community" [V]; 58% married, ages 19 to 72, together a mean of 10
+  years; one partner (the predictor) predicted the other's agreement with 20 opinion statements from
+  Consumer Reports on a 7-point scale; five conditions: control ("use whatever strategy you think is
+  best" [V]), perspective taking (five minutes writing about "a typical day in the life of your
+  partner" [V]), and perspective getting on all 20 items, the even-numbered items or the odd-numbered
+  items (five minutes asking the partner, who answered in words, not numbers); then the pair were
+  separated. Items predicted exactly right, out of 20 (Table 14): control 4.90, perspective taking
+  3.95, getting (all) 8.60, getting (even) 7.43, getting (odd) 6.35. Absolute difference from the
+  partner's answer: control 1.46, perspective taking 1.71, getting (all) 0.88. Against control,
+  getting (all) d = 1.85 on absolute difference and d = 1.50 on items exactly right; perspective
+  taking was less accurate than control on absolute difference (d = 0.68, significant). Partial
+  getting raised accuracy only on the items discussed; the authors add that the items were designed
+  to be independent, and "Accurate insight gained from any strategy generalizes to other contexts
+  only to the extent that those contexts are intercorrelated." [V]. Confidence ratings "did not vary
+  across conditions" [V]; across conditions "participants across conditions were dramatically
+  overconfident" [V], believing they had predicted 13.71 items exactly right when they had predicted
+  6.20. General Discussion: "If you want to know what another person is thinking, it may be best to
+  put them in a situation where they can answer honestly and then ask them directly." [V].
+
+- **Gilovich, Savitsky and Medvec 1998** (the third-party copy named in Part C §7.7, read and not
+  linked). Study 2a: 15 tasters, 10 observers per taster, 5 of 15 cups a foul drink (water, red food
+  colouring and vinegar brine from pickled grape leaves); chance for the foul cups 3.33 of 10.
+  Tasters' 4.91 was above chance, "whereas the observers' actual accuracy was not, t < 1" [V].
+  Discussion of Studies 2a and 2b: "Observers performed no better than chance and fell far short of
+  tasters' estimates." [V]; "people can conceal their internal states better than they suspect."
+  [V]. Study 2b's yoked partners, who knew which drink was foul, "likewise tended to overestimate
+  the observers' accuracy ... but not to the same extent" [V], which the authors use to set aside the
+  curse-of-knowledge reading. Mechanism: anchoring on one's own experience and adjusting
+  insufficiently; "Although we did not conduct an explicit test of this proposed mechanism" [V]. Scope:
+  every experiment asked people to conceal a state; the authors "suggest" the illusion also applies
+  when people try to communicate one, citing preliminary work (Savitsky 1997, not read) [V,
+  paraphrased]; and "In many cases, people may be well calibrated regarding how much their thoughts,
+  feelings, and emotions are apparent to others." [V].
+  **Stage 1 correction to Part C §7.7 and OUTLINE lesson 7:** "observers did somewhat better than
+  chance on disgust" is not what the paper reports. In Study 2a the observers were not significantly
+  above chance, and the authors' own summary of 2a and 2b is that observers "performed no better
+  than chance". The "may not say" line should read: the studies do not show that feelings people are
+  not trying to hide are unreadable, because every study tested concealment; they do show that
+  concealed disgust and lies were hidden better than the hiders thought.
+
+- **Ickes 1993** (Greater Good copy). The global score's "possible range of .00 (total inaccuracy)
+  to 1.00 (total accuracy)" [V]; of Stinson and Ickes (1992), as reported there, the friends
+  "did indeed interact more and were more similar in their self-reported sociability than the male
+  strangers; however, these differences did not account for the friends' greater empathic accuracy"
+  [V], and "the friends' advantage in this regard appeared to be attributable to the greater
+  knowledge they had about the structure and contents of each other's memory" [V]. Marangoni,
+  Garcia and Ickes (1993), as reported there: 80 undergraduates, three taped simulated
+  psychotherapy sessions, each a different female client with "a professional client-centered
+  therapist" [V]; half got feedback, a sentence giving the client's actual thought, during the middle
+  portion of each tape.
+
+- **Bloom 2017** (the course reading copy named in Part C §7.3, read and not linked; link the DOI).
+  Abstract: "empathy is narrow in its focus, rendering it innumerate and subject to bias" [V]. Box 1's
+  four senses, the first "also known as ‘cognitive empathy’" and the fourth "what I argue should
+  replace emotional empathy as a moral motivation" [V]; "Nothing of value rests on which of these (if
+  any) we choose to call ‘empathy’, provided that we are clear about what we are referring to." [V].
+  Box 3: "Many people believe that empathy is central to being a good friend, spouse, and parent.
+  Nothing I have discussed so far implies that this is mistaken." [V]; "Here, it is understanding and
+  compassion we need, not empathy" [V, re-confirmed]; "Nonetheless, even the most rabid foe of
+  empathy has to concede that sometimes people really do want others to feel what they feel." [V].
+
+- **Zaki, "Choosing Empathy", Edge, dated 20 October 2015** (URL as Part C §7.2; full page, with
+  the Reality Club responses). Zaki's three processes: "experience sharing", "mentalizing" and
+  "compassion, also known as empathic concern" [V]. "Lately, I've begun thinking about empathy not
+  as something that happens to us, but rather as a choice that we make, even if we're not aware we're
+  making it." [V]. Of Bloom's case: "That's a great argument. It's not one that I agree with." [V];
+  "If you instead view empathy as something that people can control, then people can choose to align
+  their empathy more with their values." [V]; "Not just training skills, but also building motives."
+  [V]. Bloom's response on the same page: "It is corrosive in personal relationships, exhausting the
+  spirit and making us less effective at helping those we love." [V]; "the one thing I don’t say
+  about empathy is that it’s inflexible. On the contrary, part of the problem with our empathy is
+  that it can easily be manipulated by others." [V]; "the more general empathy-as-choice view is
+  neither new nor controversial." [V]. The page carries no reply from Zaki to Bloom's response. (The
+  response's political example is not used in the lesson, decision 13.)
+
+- **McAuliffe et al. 2020** (eScholarship, URL as Part C §7.4). The g = .08 is "imagine-other"
+  instructions against no instructions; the g = 0.45 is "remain-objective" against no instructions
+  [V]; both "from a completely uncorrected estimator" [V].
+
+- **Teding van Berkhout and Malouff 2016** and **Weisz et al. 2021**, PubMed abstracts (PMIDs
+  26191979, 33211508), re-read; still abstract only. Weisz: the gains were in "participants in the
+  intervention conditions" [V] (malleable mindset, social norms, or both), not the mindset
+  intervention alone.
+
+## Gate closures, lesson 08 (2026-09-26)
+
+Stage 3 drafting of lesson 8 ("Saying it back"). Pages and PDFs re-read today with curl (generic
+browser User-Agent, no personal data in any header), PDFs converted with pdftotext and pages
+stripped of markup. Strings marked [V] were copied from that text today. Nothing on the unread line
+was cleared.
+
+**G1, for lesson 8's one line only: attempted, not closed.** Weger, Castle and Emmett 2010: the
+Taylor and Francis PDF returned 403 (a Cloudflare challenge); Unpaywall lists it as "bronze" there
+and names a second location, the UCF STARS repository record https://stars.library.ucf.edu/scopus2010/1477,
+which holds the abstract and says "This document is currently not available here." [V]. The
+abstract, re-read on that page [V-abstract]: "One hundred and eighty undergraduate students
+participated in peer interviews in which they received either a paraphrased reflection or a simple
+acknowledgement in response to their expressed opinions regarding comprehensive examinations. The
+results of data analysis indicated that message paraphrases were associated with the social
+attractiveness of the listener but were not associated with participants' conversational
+satisfaction or perceptions of feeling understood by the listener." Lesson 8 uses it in one
+sentence at the abstract's level and points to lesson 9. **G1 remains open for lesson 9**, whose
+drafter must still try a browser for all six papers.
+
+**Rogers and Farson (1987 excerpt)**, https://wholebeinginstitute.com/wp-content/uploads/Rogers_Farson_Active-Listening.pdf,
+re-read in full (the ask-force.org reprint also fetched). Additional strings [V]: "Well, I’m finally
+finished with that damned lathe setup." ; the foreman's candidate replies "Glad to have it over
+with, huh?" and "Had a pretty rough time of it?" ; "I’d like to melt this lathe down and make paper
+clips out of it" ; "Because understanding another person is actually far more difficult than it at
+first seems" ; "His response to this will tell you whether or not he feels understood." ; the
+ground rule, "Before either participant in the discussion can make a point or express an opinion of
+his own, he must first restate aloud the previous point or position of the other person." ;
+"merely parroting the words of another does not prove that one has understood but only that he has
+heard the words" ; "The restatement must be accurate enough to satisfy the speaker before the
+listener can be allowed to speak for himself." ; "I respect your thoughts, and even if I don’t agree
+with them, I know that they are valid for you." ; "I’m sure everything will work out O.K." ;
+"Encouragement also may be seen as an attempt to motivate the speaker in certain directions or hold
+him off, rather than as support." ; "Active listening is not an easy skill to acquire. It demands
+practice." The excerpt's example of praise blocking: "It is almost as destructive to the freedom of
+a relationship to tell a person that he is good or capable or right, as to tell him otherwise."
+[V; the text layer reads "lt is", a capital I misread, corrected here].
+
+**Rogers 1957** (URL as Part C §1.2), re-read: "this technique is by no means an essential condition
+of therapy" [V]; "Feeling may be “reflected” in a way which communicates the therapist's lack of
+empathy." [V]; of the empathic therapist, he "can also voice meanings in the client's experience of
+which the client is scarcely aware" [V].
+
+**Ickes 1993** (Greater Good copy), re-read, Marangoni, Garcia and Ickes 1993 as reported there: "80
+undergraduates viewed a series of three simulated psychotherapy sessions" [V], each with "a
+different female client" discussing "her real-life problem(s)" [V]; "Half of the subjects received
+no feedback about the accuracy of the inferences they made" [V]; "feedback about the target's actual
+thoughts and feelings accelerated the rate at which the perceivers' empathic accuracy improved" [V].
+So the comparison was feedback against none, in viewers of taped sessions.
+
+**SAMHSA TIP 35** (URL as Part C §6.5), chapter 3, Exhibit 3.6 "Types of Reflective Listening
+Responses" and "Forming complex reflections", re-read. **Correction to Part C §8:** Exhibit 3.6
+lists "Your wife is pressuring you about your drinking." as a **simple** reflection of the
+"Rephrase" type, not a complex one. Its simple types are "Repeat" ("Your wife is nagging you about
+your drinking.", with the note "Avoid mimicking." [V]) and "Rephrase" (the "pressuring" line, whose
+purpose column reads "Highlights selected meaning or feeling" [V]). Its complex types are Feeling,
+Meaning, Double-sided and Amplified; the Feeling example answers "I’d like to quit smoking marijuana
+so that the second-hand pot smoke won’t worsen my daughter’s asthma." with "You’re afraid that your
+daughter’s asthma will get worse if you continue smoking marijuana." [V]. The outline's
+"nagging"/"pressuring" pair for simple against complex is therefore wrong; lesson 8 gives the pair
+as TIP 35 labels it. Further strings [V]: "Wait for the client’s response." ; "Be open to being
+wrong." ; "It is not simply a matter of being quiet while the client is speaking." ; "At the end of
+a summary, ask the client whether you left anything out." ; the six steps for forming a complex
+reflection begin "think about the possible meanings" of a word the client used. The text layer drops
+the "fl" and "fi" ligatures ("refection", "fnd"); no quoted string above contains one.
+
+**MINT, "Understanding Motivational Interviewing"** (URL as Part E §3.1), re-read: Reflections "by
+repeating, rephrasing or offering a deeper guess about what the person is trying to communicate"
+[V, confirmed]; "It is not a way to “get people to change” or a set of techniques to impose on the
+conversation." [V, confirmed].
+
+**VitalTalk NURSE page** (URL as Part E §2.4), re-read: "It sounds like you are frustrated" ; "In
+general, turn down the intensity a notch when you name the emotion" ; "stop short of suggesting you
+understand everything (you don’t)" ; "Use when you are not sure what someone is talking about
+(rather than jump to an assumption)." ; ask-tell-ask's third line "Does that make sense…?" ;
+"Copyright VitalTalk 2023" [all V].
+
+**Vecchi, Van Hasselt and Romano 2005** (URL as Part E §4.1), re-read: "Even if the negotiator
+initially misidentifies an emotion, this effort at least demonstrates to the person in crisis that
+the negotiator is trying to understand the situation, which tends to defuse emotionality." [V];
+"Active listening skills are the foundation of effective crisis intervention, and the first step
+towards affecting behavioral change." [V].
+
+**AHRQ Tool 5** (URL as Part E §2.5; "Page last reviewed April 2024"), re-read: "Remember, you are
+checking how well you explained something, not testing the patient." [V]; "When you get home, what
+will you tell your partner about this visit?" [V]; "Remember teach-back is not a test of patients'
+memory." [V]; "Chunk out information into small segments and have your patient teach it back." [V];
+"If they parrot your words back to you, they may not have understood." [V, confirmed]; "Patients are
+likely to answer "yes" whether they understand or not." [V, confirmed]; the page's own list of what
+the methods "can help you" do begins "Improve patient understanding and adherence." [V]. The page
+cites no study for that list.
+
+**Harvard Program on Negotiation.** The URL in Part E §4.3 now serves a page titled "Negotiation
+Skills for Win-Win Negotiations", by "PON Staff", dated June 24th, 2026, still "Adapted from “Listen
+Up! Your Talks May Depend on It,” by Robert C. Bordone" [V]. The strings Part E records are unchanged
+[V, confirmed], and: "Paraphrasing confirms understanding and allows the other side to clarify or
+correct details before tensions rise." [V]. Its goal is stated as deals: "one of the most reliable
+ways to move discussions toward mutually beneficial agreements" [V].
+
+**Practitioner pages, "say it back" lines confirmed [V]:** Samaritans, "Check you’ve understood, but
+don’t interrupt or offer a solution." ; 988 Lifeline, "Summarize What You Hear", "what I’m hearing
+is…" and "Be sure to let the speaker finish talking before asking any questions." ; R U OK?, "Show
+that you've listened by repeating back what you’ve heard (in your own words) and ask if you have
+understood them properly." ; Calgary-Cambridge 73-item list, item 14 "Periodically summarizes to
+verify own understanding of what the patient has said; invites patient to correct interpretation or
+provide further information" and item 42 "Checks patient’s understanding of information given (or
+plans made): e.g. by asking patient to restate in own words; clarifies as necessary".
+
+**Headlee, TED transcript** (the talk page's embedded transcript, re-read): "look, nod and smile to
+show that you're paying attention, repeat back what you just heard or summarize it. So I want you to
+forget all of that. It is crap." [V].
+
+## Gate closures, lesson 05 review (2026-09-26)
+
+Stage 4 fix pass on lesson 5 ("Let them finish"). Primaries re-fetched today with curl (generic
+browser User-Agent): Anderson and Leaper 1998 (https://escholarship.org/content/qt5ws13704/qt5ws13704.pdf,
+29 pp., pdftotext; the text layer is kerned oddly, so strings were matched with spacing and
+punctuation stripped); Tannen 1989 (https://www.deborahtannen.com/s/Interpreting-Interruption-in-Conversation.pdf,
+text layer); Zimmerman and West 1975 (https://web.stanford.edu/~eckert/PDF/zimmermanwest1975.pdf,
+pp. 111, 112, 116, 125 and 126 rendered at 200 dpi and OCR'd with tesseract); Langewitz et al. 2002
+(PMC126654) and Singh Ospina et al. 2019 (PMC6318197). [V] = copied from today's text.
+
+**Tannen 1989, strings the lesson now quotes** [V]:
+- "The impression of dominance and interruption was not their intention, nor their doing. Neither,
+  however, was it the creation of the imaginations of those who felt interrupted. It was the result
+  of style contact, the interaction of two differing turntaking systems." (the lesson quotes the
+  second sentence)
+- "Therefore many would claim (as do Henley and Kramarae 1988) that sociolinguists like Maltz and
+  Barker (1982) and me (Tannen 1986) who view gender differences in conversation in the framework of
+  Gumperz' (1982) paradigm for cross-cultural communication, are simply copping out -- covering up
+  real domination with a cloth of cultural difference. Though I am sympathetic to this view, my
+  conscience tells me we cannot have it both ways." (Henley and Kramarae 1988 not read; their view
+  is given only as Tannen reports it)
+- Conclusion: "As a woman who has personally experienced the difficulty many women report in getting
+  heard in some interactions with men, I am tempted to embrace the studies that find that men
+  interrupt women".
+- The 1984 study as the 1989 paper gives it: "In a two-and-a-half hour dinner table conversation that
+  I analyzed at length (Tannen 1984), interruptions resulted from conversants' differing styles with
+  regard to pacing, pausing, and overlap." Tannen appears in the transcripts as "Deborah (the author)".
+  **Correction to Part B §3.1 "Design":** "Thanksgiving", "1978", "six friends" and "friends" do not
+  occur in the 1989 paper in connection with the dinner (the one "Thanksgiving" is an ASL sign in a
+  transcript; the one "1978" is Lein and Brenneis). Those details came from search-result
+  descriptions of the unread 1984 book and must not be attributed to the 1989 paper. Lesson 5 now
+  says only "about two and a half hours of taped dinner-table conversation in which Tannen herself
+  took part". Lesson 15 should do the same unless the book is read.
+
+**Zimmerman and West 1975** [V-OCR, image]:
+- p. 116: "Ten of the 11 male-female segments exhibited interruptions, ranging from a low of 2 to a
+  high of 13 and averaging 4.2 per transcript. The segment containing 13 interruptions (27 percent of
+  the total) occurred between the female teaching assistant (see footnote 6) and a male
+  undergraduate who repeatedly interrupted her attempts to explain a concept. The 7 interruptions
+  that occurred in the same-sex conversations, in contrast, were concentrated in only 3 of the 20 or
+  15 percent of the segments"; "almost uniformly distributed across cross-sex pairs"; "interruptions
+  are idiosyncratic in same-sex conversations and systematic in cross-sex conversations".
+- Footnote 5 (pp. 125 to 126; the p. 116 text calls it footnote 6): the segment came from "a tape of a
+  discussion section conducted by a female teaching assistant"; "since it contained the only
+  instances of a female interrupting a male we could not exclude it. It is worth noting that in this
+  case of female-initiated interruption, the female is the status superior (teaching assistant
+  vis-a-vis undergraduate). Nevertheless, the male undergraduate interrupted this woman eleven times
+  to her two."
+- pp. 111 to 112, consent: public-place talk the authors "could hear by virtue of their routine and
+  unquestioned access to public areas was deemed eligible for taping. Whenever possible,
+  conversationalists were subsequently informed of our recording and their consent obtained. In some
+  of these cases however, the abrupt departure of parties to the talk precluded such debriefing."
+  Private residences: "consent was uniformly obtained after recording, and no refusals to permit the
+  use of the tape or complaints about the covert procedure were encountered." **Correction to Part B
+  §3.2:** not "some" but all recordings were made without prior consent; consent was sought
+  afterwards, and in public places could not always be obtained.
+
+**Anderson and Leaper 1998** [V, spacing normalised]:
+- p. 240: "Contrary to expectation, gender composition did not act as a significant moderator."
+  "when same- and mixed-gender interactions were analyzed separately, combined significance levels
+  were all nonsignificant." Table III, intrusive, gender composition: same-gender d = .24 (k = 5,
+  N = 190), mixed-gender .11 (k = 7, N = 291), **both (studies not separating the two) .56 (k = 5,
+  N = 378)**. **Addition to Part B §3.3,** which omits the "both" row.
+- Setting: focused comparisons "significant for both combined significance levels, Z = 2.73, p < .01,
+  and combined effect sizes, Z = 2.91, p < .01". Activity: "significant for combined significance
+  level, Z = 2.52, p < .01, as well as for combined effect size, Z = 3.18, p < .001". Both were
+  significant moderators.
+- Group size: "The focused comparison test for combined significance levels was marginally
+  significant, Z = 1.47, p < .10" and "The focused comparison test for combined effect sizes was not
+  significant, Z = .25, n.s."; yet the abstract lists groups under "Most notably" and the conclusion
+  says "we found that group size was a significant moderator of gender effects on interruption".
+  Discussion: "the magnitude of difference was moderate in groups (d = .63) but was negligible in
+  dyads (d = .13). To the extent that intrusive interruption is a manifestation of dominance, larger
+  and more public group settings may be especially likely to elicit this behavior in men."
+  **Correction to Part B §3.3,** whose group-size sentence is garbled: dyads .13, groups .31 (results)
+  or .63 (Table III and discussion).
+- p. 244: "any tendency for gender differences in conversational interruptions may be more likely to
+  be detected when the more narrowly defined intrusive interruption category is used."
+- pp. 243 to 244: "two recent narrative reviews (Aries, 1996; James & Clarke, 1993) concluded that
+  there is no consistent evidence that men do indeed interrupt more than women." "the present
+  meta-analysis both contradicted and confirmed the conclusion reached in Aries' (1996) and James and
+  Clarke's (1993) narrative reviews." Aries 1996 and James and Clarke 1993 are known only through
+  this paper; not read. p. 245: "Our results are consistent with Aries' (1996) conclusion", which
+  was "no pattern of gender difference in interruption related to the gender composition of the
+  group".
+- "A contextual-interactive model of gender differences in interruption would be supported if
+  aspects of the interactive setting ... were found to moderate the likelihood of gender effects."
+
+**Langewitz et al. 2002** [V]: "To comply with their consultation schedule they were advised to
+interrupt if a patient talked for more than five minutes." "Seven patients talked for longer than
+five minutes. In all cases doctors felt that the patients were giving important information and
+should not be interrupted."
+
+**Singh Ospina et al. 2019** [V]: "Our estimate is much briefer perhaps because many completed
+statements correspond to patients indicating that they had no concerns." (re-confirmed; the lesson's
+lead-in now keeps the "perhaps").
