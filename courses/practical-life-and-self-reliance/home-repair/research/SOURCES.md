@@ -5987,3 +5987,289 @@ breaks the line after "that").
 "Last updated on June 25, 2026". The D8 identification line is unchanged: [V] "Generally, you can't
 tell whether a material contains asbestos simply by looking at it, unless it is labeled. If in doubt,
 treat the material as if it contains asbestos and leave it alone."
+
+## Gate closures, lesson 19 (2026-09-26)
+
+Read by the lesson 19 drafter ("Asbestos, lead paint and radon: what not to disturb") on 26 September
+2026: curl with a browser User-Agent (no personal data in any header), then pandoc or pdftotext to
+plain text; GOV.UK pages through the content API; eCFR through its versioner API at the latest issue
+date, 24 September 2026. Every [V] below was string-matched against the extracted text. Entries D1 to
+D22 and D46 to D47 are unchanged except where a line below adds to them.
+
+### HSE, "Asbestos: FAQs" (D1), re-read in full
+
+https://www.hse.gov.uk/asbestos/faq.htm. Every D1 string re-matched. Additional [V]:
+- "The general duties in Section 3(1) of the Health and Safety at Work etc Act 1974 (HSW Act) apply
+  to protect householders from any risks from work activities being carried out in their homes."
+- "Slightly damaged asbestos-containing materials (ACMs) can sometimes be repaired by sealing or
+  enclosing them. However, you should only attempt to do this if you have had the necessary
+  training."
+- "should inform them of any asbestos materials in your home before they start work." (in the answer
+  "I think I may have asbestos in my home")
+- "Many cases of inadvertent, short-term exposure to asbestos will most likely have led to minimal
+  exposure to fibres, with little likelihood of any long-term ill health effects." (answer on people
+  who believe they may have been exposed)
+- "ACMs need to be legally disposed of as hazardous waste. This should not be mixed with normal
+  household waste."
+- "You can seek advice from an environmental health officer at your local authority/council."
+- "the effect is cumulative"
+
+### HSE, "Introduction to asbestos safety" (D2), parts 1, 2, 6, 7 and 8 re-read
+
+https://www.hse.gov.uk/asbestos/introduction/index.htm and the part pages. Part 7 is new:
+https://www.hse.gov.uk/asbestos/introduction/training-for-work-involving-asbestos.htm (full text).
+[V] part 1: "Contractors carrying out work in your home have a legal duty to protect you from any
+risks to your health due to their activities." "In owner-occupied domestic properties, homeowners are
+not engaged in work activity so are not legally responsible for risks to contractors." "When asbestos
+is in good condition and not disturbed the risk of exposure is extremely low." Part 2: "You cannot see,
+smell or feel the fibres in the air or on your clothes, so you do not know they are there." "Since
+1999, using asbestos in the construction or refurbishment of buildings has been illegal." Part 6:
+"drilling textured decorative coatings to install fixtures or fittings" (non-licensed); "asbestos
+cement products (for example roof sheeting) where the material will be substantially damaged or
+broken up" (notifiable, no licence). Part 7 [V]: "Awareness training does not allow you to undertake
+work which will disturb asbestos." "Workers who plan to carry out non-licensed work on asbestos need
+additional information, instruction and training." Part 8: "In people’s homes, the duty to manage
+asbestos under regulation 4 of the Control of Asbestos Regulations does not apply but COSHH will."
+
+### HSE, *Mesothelioma statistics for Great Britain, 2026* (D5), summary re-read
+
+[V] "There were 2,146 mesothelioma deaths in Great Britain in 2024." "Over 70% of annual deaths for
+both males and females now occur in those aged over 75 years." "Men who worked in the building
+industry when asbestos was used extensively in the past continue to be most at risk of
+mesothelioma." The "legacy of past working conditions" line is D5's, from the asbestos-related
+disease report, not re-read today.
+
+### UKHSA, "Asbestos: general information" (D4), re-read via the content API
+
+Public updated 15 May 2025. [V] "the importation of blue and brown asbestos has been banned in the UK
+since 1985. This ban was extended to include white asbestos in 1999." "If they are intact, they pose
+very little risk." "do not shake or brush the fibres off as this will make them airborne and prone
+to being inhaled. Remove all visible dust and fibres from the body, clothing and footwear by wet
+wiping with a damp cloth using a gentle patting action. Remove any contaminated clothing (not over
+the head) and place in a bag with the damp cloth."
+
+### Control of Asbestos Regulations 2012, regulation 3 (D6), read live in full
+
+https://www.legislation.gov.uk/uksi/2012/632/regulation/3. [V] reg 3(1): "These Regulations apply to
+a self-employed person as they apply to an employer and an employee and as if that self-employed
+person were both an employer and an employee." Reg 3(2) to (4) disapply some duties for sporadic,
+low-intensity work; not used.
+
+### GOV.UK, "Asbestos in your home" (D7), re-read via the content API
+
+Updated 24 September 2026. [V] "Get information about asbestos and its disposal from your local
+council." "Available in England and Wales only".
+
+### US EPA, "Protect Your Family from Exposures to Asbestos" (D8), re-read in full
+
+Last updated 25 June 2026. Additional [V]: "may release fibers when they are disturbed, damaged,
+removed improperly, repaired, cut, torn, sanded, sawed, drilled or scraped." "if done incorrectly,
+sampling can be more hazardous than leaving the material alone. Taking samples yourself is not
+recommended." "you do not need to have your home tested for asbestos." "If you think there may be
+asbestos in your home, don’t panic." "Do leave undamaged asbestos-containing materials alone." "Do
+have removal and major repair done by people trained and qualified in handling asbestos. It is highly
+recommended that sampling and minor repair also be done by a trained and accredited asbestos
+professional." "Don't dust, sweep, or vacuum debris that may contain asbestos." "must be done only by
+a trained and accredited asbestos professional. Improper removal may actually increase your and your
+family’s exposure to asbestos fibers." "Federal law does not require persons who inspect, repair or
+remove asbestos-containing materials in detached single-family homes to be trained and accredited;
+however, some states and localities do require this." "For safety, homeowners should ensure that
+workers they hire to handle asbestos are trained and accredited." "so there is no conflict of
+interest". "State agencies have the most up-to-date listings of accredited professionals in your
+area." The page lists pipe, furnace and boiler insulation and flooring among the materials it
+discusses; it gives no year after which a US home is unlikely to contain asbestos.
+
+### US EPA, "EPA Actions to Protect the Public from Exposure to Asbestos" (D9), re-read
+
+Last updated 21 January 2026. D9 strings re-matched, including [V] "EPA’s risk finding does not mean
+that every person with asbestos-containing material in their house or school will suffer adverse
+health effects" (the page's apostrophe is curly), "attempted to ban most asbestos-containing
+products", "was overturned in 1991 by the Fifth Circuit Court of Appeals", and "bans 5 other specific
+product types". Nothing on the page about litigation over the 2024 rule.
+
+### US EPA, "Risk Management for Asbestos, Part 1: Chrysotile Asbestos" (D10), re-read
+
+Last updated 5 May 2026. [V] "In March 2024, EPA announced a ban of ongoing uses of chrysotile
+asbestos". "chrysotile is the only known form of asbestos  imported, processed or distributed for use
+in the United States" (the page has a double space after "asbestos"; the lesson quotes it with one).
+Uses covered: chlor-alkali diaphragms, sheet gaskets, oilfield brake blocks, aftermarket automotive
+brakes and linings, other vehicle friction products, other gaskets. Nothing about litigation.
+
+### G-Z1 partly closed: the court status of EPA's 2024 chrysotile rule
+
+**Federal Register search** (federalregister.gov API, EPA documents with "chrysotile asbestos",
+newest first): the final rule (28 March 2024, 2024-05972) and its correction (25 April 2024); no later
+document amending, staying or reconsidering the rule was found. **The court docket**: US Court of
+Appeals for the Fifth Circuit, No. 24-60193, consolidated with 24-60281 (and 24-60333, dismissed on a
+joint motion on 15 May 2026), as shown by CourtListener,
+https://www.courtlistener.com/docket/68457472/texaschemistry-council-v-epa/ ("Last Updated: Sept. 23,
+2026"; CourtListener says items "may not be up to date"). Read: the docket entries on both pages, not
+the briefs, orders or argument recording. What the entries show:
+- Petitions for review filed from April 2024 by chemical industry bodies and, separately, by public
+  health and asbestos victims' organisations, professional firefighters' union locals, named
+  individuals and the United Steelworkers union (from the case caption updates). The course read no
+  brief, so it records no party's argument.
+- 11 February 2025: EPA moved to stay; [V] "Reason: Recent Executive Orders call for review of agency
+  actions taken in the past four years. Accordingly, EPA needs time to brief new administration
+  officials about this case and the underlying rule to allow them to decide what action, if any, is
+  necessary." Granted 14 February 2025.
+- 7 July 2025: EPA's [V] "Notice of Withdrawal of Motion to Hold Case in Abeyance"; stay extended
+  [V] "through August 8, 2025"; briefing resumed (reply brief deadline 17 September 2025).
+- 15 October 2025: stayed again until Department of Justice attorneys could resume civil litigation;
+  lifted 24 November 2025.
+- [V] "ORAL ARGUMENT HEARD before Judges Clement, Southwick, Engelhardt" on 1 June 2026; supplemental
+  briefs and standing declarations filed 10 June 2026; last known filing 22 June 2026.
+- No decision, opinion or judgment appears in the entries. The court's own opinions RSS feed, read the
+  same day, listed only its most recent opinions and none on this case; a published opinion at the
+  court's usual PDF address for the case number returned an error page.
+So: argued and, as far as the docket shows, undecided on 26 September 2026. The lesson says so, says
+it read the docket only, and says a decision could come at any time. **Re-check trigger:** any lesson
+or script touching the 2024 rule re-reads the docket first. "Texas Chemistry Council" stays on the
+unread line: the lesson names no party.
+
+### 40 CFR 61.141 (D11), re-read
+
+eCFR as at 24 September 2026. The "Facility" definition unchanged: [V] "excluding residential
+buildings having four or fewer dwelling units".
+
+### 40 CFR Part 745 Subpart E and §745.103 (D13), re-read
+
+eCFR versioner, as at 24 September 2026 (whole subpart, about 10,500 words, and §745.103). Read:
+§745.80, §745.81(b), §745.82, the §745.83 definitions of minor repair and maintenance, renovation and
+renovator, §745.85(a)(3), and the §745.103 definition of target housing. [V] §745.82(a): "This
+subpart applies to all renovations performed for compensation in target housing and child-occupied
+facilities, except for the following:" (the exceptions are the written lead-free determinations);
+§745.80 uses the same words. §745.81(b): renovators "in States and Indian Tribal areas without an
+authorized program must provide owners and occupants the following EPA pamphlet: Renovate Right:
+Important Lead Hazard Information for Families, Child Care Providers and Schools." §745.85(a)(3), all
+three limbs: [V] "(i) Open-flame burning or torching of painted surfaces is prohibited." "(ii) The use
+of machines designed to remove paint or other surface coatings through high speed operation such as
+sanding, grinding, power planing, needle gun, abrasive blasting, or sandblasting, is prohibited on
+painted surfaces unless such machines have shrouds or containment systems and are equipped with a
+HEPA vacuum attachment to collect dust and debris at the point of generation." "(iii) Operating a heat
+gun on painted surfaces is permitted only at temperatures below 1,100 degrees Fahrenheit." The
+minor-repair definition unchanged (6 and 20 square feet; none of the (a)(3) practices; no window
+replacement or demolition); "The term renovation does not include minor repair and maintenance
+activities." §745.103: [V] "Target housing means any housing constructed prior to 1978, except housing
+for the elderly or persons with disabilities or any 0-bedroom dwelling (unless any child who is less
+than 6 years of age resides or is expected to reside in such housing)." 1,100°F is about 593°C (the
+course's conversion).
+
+### US EPA, "Lead Renovation, Repair and Painting Program" (D14), re-read; G-N1 for the NLIC number
+
+Last updated 17 June 2026. D14 strings re-matched. Additional [V]: "Children can live safely in these
+homes as long as paint and surfaces are in good condition and surfaces are kept clean." "If you rent a pre-1978 home, your
+landlord or property management company must comply with the RRP Rule when performing work that
+disturbs paint." "EPA recommends that homeowners hire a lead-safe certified contractor who is
+certified and trained in lead-safe work practices." EPA's authorised programmes, as listed: [V]
+"Alabama, Delaware, Georgia, Iowa, Kansas, Massachusetts, Mississippi, North Carolina, Oklahoma,
+Oregon, Rhode Island, Utah, Vermont, Wisconsin and the Minnesota Chippewa Tribe-Boise Forte (Nette
+Lake)" (fourteen states and one Tribe). **G-N1:** [V] "If you suspect there is a problem, call the
+National Lead Information Center at 1-800-424-5323 or report a violation to EPA online." Re-read on
+EPA's page, 26 September 2026; no hours given there.
+
+### US EPA, "Lead-Safe Renovations for DIYers" (D15), re-read in full
+
+Last updated 20 August 2026. Beyond D15 and lesson 20's gate closure: the seven practices, [V]
+"Determine if lead-based paint is present;" "Set up safely;" "Protect yourself;" "Minimize dust;"
+"Leave your work area clean;" "Control your waste; and" "Clean one more time."; "keep family members
+and anyone not working on your DIY project out" (the lesson paraphrases it); [V] "A disposable N-100
+certified respirator"; "Wet-dry sandpaper and/or a sanding sponge"; "Low-temperature heat gun (under
+1,100 degrees Fahrenheit)"; "Power tools with HEPA filter equipped vacuum attachments to contain the
+dust created by these tools."; "You should wash your hands and face every time you stop working";
+"Do not eat, drink, or smoke in your work area". The page says "Generally speaking, the RRP Rule does
+not apply to homeowners doing RRP projects in their own home", where the RRP program page says "In
+general". It does not say "don't dry sand"; the misting and wet-dry paper are its method.
+
+### British Coatings Federation, HS032 v2.2 (D20), re-read in full
+
+Additional [V]: "Children absorb lead mostly by eating it or touching contaminated dust or soil and
+then putting their fingers into their mouths." "An unborn child is at particular risk from lead
+exposure, especially in the early weeks before pregnancy becomes known." "While lead is hazardous to
+health, it is important to realise that there is only a risk if the paint film is unsound or
+disturbed." "removal could result in a greater exposure to lead dust and particles than would
+otherwise occur from leaving the paint undisturbed." "Old lead-painted surfaces should only be treated
+or removed if the paint (film) is flaking or chipping away or if dust and particles are present or if
+there is the possibility of the painted surface being chewed or sucked by children." "Surfaces
+painted before the 1990s could contain significant levels of lead." "Ensure no children or pregnant
+women are present in any area where renovation work which involves the disturbance of lead-containing
+surfaces is taking place." "DIY decorators who are in any way uncertain about their ability to follow
+these precautions should consult a professional decorator." "Use dry abrasive paper or techniques to
+remove lead paint" and "Create lead fumes by over-heating lead-containing paints" (both in its DO NOT
+list). "Take care that the paint does not burn." "particulate filter face mask". For surfaces in good
+condition: rub down wet with waterproof abrasive paper, and [V] "The debris from rubbing down should
+not be allowed to dry out and form dust." The document says it is [V] "intended for the general
+public". Its DO NOT line on sound paint has a spaced en dash before "overcoating"; lessons split the
+quotation there. Test kits: [V] "a negative reading should not be relied upon to show the absence of lead. If you
+think there could be lead present, then a professional test should be carried out" (the sentence
+opens "However, as the test is not necessarily 100% accurate,"). It names test-kit brands, retailers
+and laboratories; no lesson names them. It
+tells householders to put sealed debris bags "in the normal dustbin" (not used in lesson 19).
+
+### UKHSA, "Lead: general information" (D21), re-read via the content API
+
+Updated 31 October 2024. [V] "the sale of lead paint was banned in the UK from 1992." "children may
+be exposed to lead in soils, dusts, and flakes of old paint" (the page's sentence begins "As a result
+of this").
+
+### Defra leaflet (D19): GOV.UK record re-read
+
+[V] "This page has been withdrawn because it’s out of date." Withdrawn 26 April 2024 (API
+withdrawn_at 2024-04-26). No replacement linked.
+
+### Control of Lead at Work Regulations 2002, regulation 3 (D22), read live in full
+
+https://www.legislation.gov.uk/uksi/2002/2676/regulation/3, extent E+W+S. [V] reg 3(2): "These
+Regulations shall apply to a self-employed person as they apply to an employer and an employee and as
+if that self-employed person were both an employer and an employee, except that regulation 9 (air
+monitoring) shall not apply to a self-employed person." Reg 3(1) extends an employer's duties "so far
+as is reasonably practicable" to others affected by the work.
+
+### UKradon (D47), all three pages re-read
+
+[V] "Radon is a colourless, odourless radioactive gas. It is formed by the radioactive decay of the
+small amounts of uranium that occur naturally in all rocks and soils." "Radon is everywhere" "The
+radioactive elements formed by the decay of radon can be inhaled and enter our lungs." "This damage
+can lead to lung cancer." "For levels below 100 Bq m⁻³, your individual risk remains relatively low
+and not a cause for concern." "However not all buildings, even in the darkest areas, have high
+levels." Level page: "to average out short-term fluctuations"; "action to reduce the level should be
+considered, especially if there is a smoker or ex-smoker in the home." Maps page, new: [V] "The chance
+is less than one home in a hundred in the white areas and greater than one in three in the darkest
+areas." "The map should not be used for basements, cellars or underground sites, all of which should
+be considered as having an increased chance of high radon levels, regardless of location." UKHSA's
+own guidance on reducing radon in a home was not read (no method in any lesson). **G-Z6 fallback:**
+no UK death figure was read; none is given.
+
+### US EPA, "Health Risk of Radon" (D46), re-read
+
+Last updated 24 June 2026. D46 strings re-matched. [V] "The Agency's updated calculation of a best
+estimate of annual lung cancer deaths from radon is about 21,000 (with an uncertainty range of 8,000 to
+45,000)" (2003). The table pairs [V] "20 pCi/L (740 Bq/m³)" and "10 pCi/L (370 Bq/m³)" (37 to one);
+"Fix your home" at 4 pCi/L (150 Bq/m³); "Consider fixing between 2 and 4 pCi/L (75-150 Bq/m³)";
+average indoor 1.3 pCi/L (50 Bq/m³). **G-Z6:** the 2005 advisory is known only through this page: [V]
+"The Chief Physician urged Americans to test their homes to find out how much radon they might be
+breathing." The BEIR VI report is named on the page and remains on the unread line; no lesson names it.
+
+### US EPA, "Radon" and "Find a Radon Test Kit or Measurement and Mitigation Professional" (new)
+
+https://www.epa.gov/radon, last updated 6 August 2026, and https://www.epa.gov/radon/radon-testing,
+last updated 30 December 2025. Full text of both. [V] "Testing is the only way to know your level of
+exposure." "All homes should be tested for radon." "Follow the directions on the packaging for the
+proper placement of the device and where to send the device after the test to find out your radon
+level." "Contact your state radon program for information on how to obtain a test kit from a radon
+measurement professional. Some states also offer free or discounted test kits to the public." "contact
+your state radon program for help in finding qualified professionals in your state." The testing page
+names a university-run discount kit scheme and two national proficiency bodies; no lesson names them.
+
+### Gates
+
+- **G-Z1:** partly closed (above). The rule's status is stated as the docket showed it on this date.
+- **G-Z4:** fallback written. HSE's task sheets were not read; no method. Disposal: hazardous waste via
+  the council (HSE); GOV.UK's finder for England and Wales; Scotland, Northern Ireland and US states
+  "check with your council or state".
+- **G-Z5:** fallback written. *Renovate Right* is named only as the pamphlet a firm must give owners and
+  occupants where EPA runs the programme (§745.81(b)); its contents and HUD's rule unread.
+- **G-Z6:** fallback written (no UK death figure; the advisory as EPA reports it).
+- **G-N1:** the National Lead Information Center number re-read on EPA's page (above).
+- **G-N4:** no photograph sought or used.
+- Northern Ireland's asbestos and lead rules: not read; the lesson says so.
