@@ -1,6 +1,6 @@
 ---
 title: What a car is made of, and why the handbook comes first
-minutes: 90
+minutes: 95
 objectives:
   - >-
     Explain the car as a set of systems (engine or motor, 12 V electrics, brakes, steering and
@@ -66,35 +66,37 @@ quiz:
       your car. Averaging front and rear ignores that the maker gave them separately. No source this
       course read gives a rule of "ten per cent under the maximum".
   - q: >-
-      As general information: a car in England passed its MOT three weeks ago. Since then a tyre has
-      picked up a deep cut. Who does GOV.UK say is responsible for the car being safe to drive now?
+      As general information: a car in Northern Ireland passed its MOT five weeks ago, and since
+      then one of its brake lights has stopped working. The owner says the pass covers the car until
+      the next test. What does nidirect, the Northern Ireland government's website, say?
     options:
-      - The garage that did the test, since it passed the car only three weeks ago on the MOT
-      - Nobody until the next test, since the MOT certificate covers the car for a whole year
-      - The DVSA, since it sets the standard that every MOT test in Great Britain is run against
-      - The driver, since you're responsible for the car being roadworthy every time it's used
+      - The owner is right, since a pass certificate covers the car until the day it runs out
+      - The test centre now answers for any fault that shows up before the car's next test
+      - The pass covers the lights and brakes until the next test, but not wear to the tyres
+      - A pass doesn't mean roadworthy for the certificate's life, and isn't maintenance
     answer: 3
     explain: >-
-      GOV.UK: "You're responsible for making sure your vehicle is always safe to drive". The MOT
-      records what a tester could see on one day, without dismantling anything, so it cannot cover
-      a cut that arrived afterwards, and GOV.UK says a car "can be unsafe even if you have a current
-      MOT certificate". The testing garage answers for its test, not for the car's condition since.
-      DVSA writes the testers' manual; it does not take over the driver's duty.
+      nidirect says the certificate "doesn’t mean that the vehicle is roadworthy for the life of
+      the certificate and isn’t a substitute for regular maintenance." So the owner's "covered until
+      the next test" is exactly what it denies, for the lights and brakes as much as the tyres.
+      Nothing this course read makes the test centre answer for a fault that turns up after the
+      test, and a pass records the car on one day, not the weeks since.
   - q: >-
-      Someone parks after a long motorway drive and wants to top up the coolant straight away,
-      because the level looked low in the reservoir. Which label does this course give the job?
+      A mild hybrid's handbook pictures show blue cables, not orange ones, in the engine bay. Which
+      label does this course give to touching them?
     options:
-      - Yours, since topping up coolant is an owner's job at any time, so long as you're careful
-      - Call someone, since only a garage may ever add coolant to any modern car's cooling system
-      - "Yours, on conditions: wait until the engine has cooled, then use the handbook's coolant"
-      - Yours, since it's safe on a hot engine as long as you wear gloves and use a thick cloth
+      - Yours, since blue cables aren't high voltage, so they're as safe as any 12 V wire
+      - "Yours, on conditions: with the car switched off and the key kept well away"
+      - "Call someone: the MOT manual says even these 48 V wires should still be avoided"
+      - Yours, since only orange cables carry danger and this course's rule names orange
     answer: 2
     explain: >-
-      Topping up coolant is "Yours, on conditions". The Highway Code says to wait until an
-      overheated engine "has cooled naturally" before the cap comes off, and the coolant is the one
-      the handbook names. Ford's handbook for one car gives a 10-minute wait and a thick cloth, but
-      that is Ford's, for that car, and a cloth is not a licence to open a hot cap. "Any time"
-      drops the condition that matters. Nothing this course read reserves topping up to a garage.
+      DVSA's MOT manual for Great Britain says many mild hybrids use 48 V systems which "may use blue
+      coloured insulation" and "are not regarded as being high voltage", and then: "However, the
+      wiring on these systems should still be avoided." So "safe as any 12 V wire" and "only orange
+      matters" each drop the manual's second sentence. Switching off is no condition either: the
+      same manual warns that on a hybrid the combustion engine "may start without warning". This
+      course gives nothing on that side of a hybrid to the owner.
   - q: >-
       A website run by a company that sells breakdown cover and repairs says: "Check your tyre
       pressures every fortnight." Using the course's question, what is that sentence?
@@ -106,8 +108,9 @@ quiz:
     answer: 0
     explain: >-
       Whose is it? A company that sells cover and repairs, so it is a motoring organisation's
-      advice, not official, and it names no car. It is not law: the law in Great Britain (Annex 6's
-      MUST) is that tyres are inflated to the maker's specification, and it sets no interval. Nor is
+      advice, not official, and it names no car. It is not law: the law in Great Britain, as Annex 6's
+      MUST rule states it, is that tyres are inflated to the maker's specification, and it sets no
+      interval. Nor is
       it a handbook figure. Landing between the Highway Code's weekly and NHTSA's monthly does not
       make it official; it's a third piece of advice to weigh against the other two.
 ---
@@ -142,11 +145,14 @@ state, and they change.
 
 ## A car is a set of systems
 
-The textbooks that train mechanics in the US and the UK divide a car the same way, on this course's
+The textbooks that train mechanics in the US and the UK share a core division, on this course's
 reading of their contents pages (the books themselves were not read): the engine, the electrical
-system, the brakes, steering and suspension, tyres and wheels, the transmission, heating and air
-conditioning, and now hybrid and electric drive.[20] That map is for people who repair cars. An
-owner needs a smaller one: which system each of your checks looks after.
+system, the brakes, steering and suspension (with tyres and wheels inside it), and the
+transmission. The two US books add a part on heating and air conditioning (one calls it passenger
+comfort), and one gives hybrid and electric vehicles a part of its own; the UK book groups brakes,
+steering and suspension as chassis systems.[20] That map is for people who repair cars. An owner
+needs a smaller one: which system each of your checks looks after. This course's map gives tyres a
+row of their own, because so many of the owner's checks are on them.
 
 :::predict GOV.UK's page for drivers in Great Britain lists six things that "Your vehicle’s handbook will tell you how often to check". Before you look, write down the six you'd expect.
 
@@ -154,7 +160,7 @@ The list is: engine oil; the "water level in the radiator or expansion tank" (th
 brake fluid level; the battery; the windscreen and rear window washer bottles; and the tyres. The
 same page adds three checks for every time you drive: the windscreen, windows and mirrors clean, all
 lights working, and the brakes working.[4] If you had the gearbox, the steering or anything on a
-hybrid's high-voltage side, notice that they are not there. The next table shows why.
+hybrid's high-voltage side, notice that they are not there. The table below shows where they went.
 :::
 
 This is the map with the owner's part of each system filled in from GOV.UK's list and Annex 6 of the
@@ -163,10 +169,10 @@ course takes each one up.
 
 | System | The owner's part, from the sources | Lessons |
 |---|---|---|
-| Engine, petrol or diesel | Oil level on the dipstick; coolant level in the reservoir, read with the engine cold | 2, 3, 9 |
+| Engine, petrol or diesel | Oil; coolant level (lesson 9 says how to read it safely) | 2, 3, 9 |
 | 12 V electrics | The battery; all lights working before you drive | 5, 10, 13 |
 | Brakes | Brake fluid level; brakes working before you drive | 6, 9 |
-| Steering and suspension | Nothing to top up; two signs to notice (below) | 6 |
+| Steering and suspension | Nothing on GOV.UK's list; two signs to notice, from Annex 6 (lesson 6); whatever your handbook says | 6 |
 | Tyres and wheels | Pressure, tread, and cuts or other damage | 7, 8, 18, 19 |
 | Transmission | Nothing on GOV.UK's list; whatever your handbook says | 2 |
 | Glass, wipers and washers | Washer bottles topped up; windscreen, windows and mirrors clean | 10 |
@@ -174,13 +180,8 @@ course takes each one up.
 
 Heating and air conditioning get no lesson of their own.
 
-Steering and suspension have nothing to check or top up, but Annex 6 gives two signs to notice. If
-the car "pulls to one side when braking", it says the cause is most likely the brakes or wrongly
-inflated tyres: "Consult a garage or mechanic immediately". And if a car keeps bouncing after you
-push down on the front or rear, "its shock absorbers are worn".[6] Lesson 6 teaches both.
-
-The empty last row is deliberate. In a hybrid or electric car, the drive system runs at high
-voltage, and DVSA's [MOT manual](https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/introduction), the testers' rulebook for Great Britain, says: "High voltage wiring
+The last row is deliberate. In most hybrids and every electric car, the drive system runs at high
+voltage, and the [MOT manual](https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/introduction) of the DVSA (the Driver and Vehicle Standards Agency), the rulebook for testers of the MOT, Great Britain's periodic roadworthiness test, says: "High voltage wiring
 insulation is orange in colour so it can be easily identified, though some imported vehicles may
 have high voltage wiring insulation of a different colour." It adds that "Many mild hybrids only use
 48V systems which may use blue coloured insulation, rather than orange, as these are not regarded as
@@ -192,6 +193,8 @@ battery voltage drops".[16] So anything on that side is **Call someone**, and le
 voltage: hybrid and EV safety, charging at home, fire and flood", explains why.
 
 ## Why the handbook comes first
+
+This is general information, not legal advice.
 
 The official sources this course read on looking after a car send you to the same book.
 California's [Bureau of Automotive Repair](https://www.bar.ca.gov/auto-repairs) (BAR), the state's regulator of garages: "Follow your
@@ -214,7 +217,7 @@ The lowest and highest differ by 44 N·m, which is this course's arithmetic. The
 details, and none of the four handbooks says why its figure is what it is.
 :::
 
-| Maker, car, market | Wheel-nut torque | Speed limit on the space-saver spare |
+| Maker, car, market | Wheel-nut torque | Speed limit on the space-saver spare (a narrow temporary spare wheel) |
 |---|---|---|
 | Toyota, 2023 Corolla, US | 103 N·m (76 lbf·ft), pp. 376, 377 and 397 | 50 mph (80 km/h), p. 378 |
 | Honda, 2024 Civic Sedan, US | 108 N·m (80 lbf·ft) | under 50 mph (80 km/h) |
@@ -230,7 +233,7 @@ US and Canada says not to remove the coolant cap while the system is hot and to 
 the cooling system to cool down".[15] The Highway Code, for any car in Great Britain, says that if
 the engine overheats "you should wait until it has cooled naturally".[6] Ten minutes is Ford's
 figure for a Ford. Lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash", takes
-this up, and until then the rule is simple: never open a hot cap.
+this up, and until then this course's rule is simple: never open a hot cap.
 
 ### The number on the tyre, and the number on the car
 
@@ -246,16 +249,20 @@ this car. The second is the most the tyre may be inflated to when cold, on any c
 federal road safety regulator, puts it plainly: "the correct pressure for your tire is what the
 vehicle manufacturer has listed, NOT what is listed on the tire itself."[3]
 
-In Great Britain the same idea is law. [Annex 6 of the Highway Code](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security): "Tyres MUST be correctly
+In Great Britain the Highway Code marks the same idea as a MUST rule, which means a regulation
+stands behind it. [Annex 6 of the Highway Code](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security): "Tyres MUST be correctly
 inflated to the vehicle manufacturer's specification for the load being carried. Always refer to the
-vehicle's handbook or data."[6] [TyreSafe](https://www.tyresafe.org/the-checks/check-your-pressures/), a UK tyre safety charity backed by tyre makers, carmakers
+vehicle's handbook or data."[6] The regulation it cites, [regulation 27 of the Construction and Use
+Regulations](https://www.legislation.gov.uk/uksi/1986/1078/regulation/27), puts it more generally: a
+tyre must be inflated so as to be "fit for the use to which the motor vehicle or trailer is being
+put".[22] The Code reads that as the maker's figure. [TyreSafe](https://www.tyresafe.org/the-checks/check-your-pressures/), a UK tyre safety charity backed by tyre makers, carmakers
 and retailers, says to look for the figure "in your vehicle manual, on a plaque in one of the front
 door sills or the inside of your fuel cap."[18]
 
 Even one car does not have one figure. Toyota's specifications page for the [2023 Corolla sold in the
-US](https://assets.sia.toyota.com/publications/en/om-s/OM02568U/pdf/OM02568U.pdf) lists the recommended cold pressures by the tyres fitted: with 195/65R15 tyres, 33 psi (230 kPa)
-front and 30 psi (210 kPa) rear; with 205/55R16 tyres, 35 psi (240 kPa) front and 33 psi (230 kPa)
-rear.[10] (psi is pounds per square inch; kPa, kilopascals, is the metric unit, and 100 kPa is 1
+US](https://assets.sia.toyota.com/publications/en/om-s/OM02568U/pdf/OM02568U.pdf) lists the recommended cold pressures by the tyres fitted, four tyre types in all, on pp. 397 and
+398: with 195/65R15 tyres, 33 psi (230 kPa) front and 30 psi (210 kPa) rear; with 205/55R16 tyres,
+35 psi (240 kPa) front and 33 psi (230 kPa) rear; the two 18-inch types share the first pair.[10] (psi is pounds per square inch; kPa, kilopascals, is the metric unit, and 100 kPa is 1
 bar.) So "which car" includes which tyres. Lesson 7, "Tyres I: pressure, the placard and TPMS",
 teaches the check itself.
 
@@ -263,8 +270,8 @@ teaches the check itself.
 
 Inflate cold to 32 psi at the front and 30 psi at the rear: the carmaker's figures for this car
 (FMVSS 110 puts them on the pillar in the US). The 44 psi is the tyre maker's maximum for the tyre
-(FMVSS 139), not a target. In Great Britain the Highway Code makes inflating to the vehicle
-maker's specification a MUST, so there it is law that points you to the handbook's number. In the
+(FMVSS 139), not a target. In Great Britain the Highway Code marks inflating to the maker's
+specification as a MUST rule, citing a regulation, so the law points you to the handbook's number. In the
 US, the placard itself is required by federal law; this course read no US law on what pressure you
 must run.
 :::
@@ -273,13 +280,11 @@ must run.
 
 Numbers also escape from the car they belong to and turn into rules for everyone. [CalRecycle](https://calrecycle.ca.gov/usedoil/oilchange/),
 California's waste and recycling agency, runs a campaign against one: "The old standard of 3,000
-miles is out of date and no longer applies to most cars." It then refuses to supply a replacement,
-telling people to check the interval in their owner's manual, and says that "CalRecycle does not make
-recommendations regarding oil change frequency for any specific make or model of vehicle".[17] AAA,
-the US motoring clubs that sell roadside assistance and run a repair network, says "advancements in
-oil blends and automotive technology now recommend oil changes every 5,000 to 7,500 miles for most
-engines".[19] Look at the last three words. Even the corrected figure is for most engines, and yours
-is the one in your handbook.
+miles is out of date and no longer applies to most cars." It then gives a spread rather than a
+number, saying many cars "can be driven up to 5,000, 7,500, 10,000, and even 15,000 miles", sends
+people to their owner's manual, and adds that "CalRecycle does not make recommendations regarding oil
+change frequency for any specific make or model of vehicle".[17] Even the spread is for many cars,
+not yours, and yours is the one in your handbook.
 
 ## Two cars and their handbooks
 
@@ -289,9 +294,7 @@ and writes down four things, with page numbers:
 
 - The jack's warnings, p. 372, including "Do not put any part of your body under the vehicle while
   it is supported by the jack."
-- The wheel-nut torque, pp. 376 and 377: 76 lbf·ft (103 N·m). Toyota says to have the nuts tightened
-  with a torque wrench to that figure "as soon as possible" after changing a wheel.
-- The compact spare's limit, p. 378: no faster than 50 mph (80 km/h).
+- The wheel-nut torque, pp. 376 and 377, and the compact spare's speed limit, p. 378.
 - The cold pressures, p. 397. She reads the size on her tyres' sidewalls, 205/55R16, so her row is
   35 psi front and 33 psi rear, and she checks that the placard on the door pillar agrees.[10]
 
@@ -313,7 +316,8 @@ The figure is the one in that car's handbook, so the first job is to get it. BAR
 available online. Visit the manufacturer’s website to find yours."[1] Mazda, Honda and Nissan UK
 publish online handbooks and Toyota a PDF, all read by this course.[10][11][12][13] Until she has it,
 the four handbooks read here all say 50 mph (80 km/h), and Toyota's spare says "TEMPORARY USE ONLY"
-on its sidewall, but four other cars' handbooks are not hers. If you answered "50 mph" with no source,
+on its sidewall, but four other cars' handbooks are not hers. In Great Britain the law allows a car on
+a temporary use spare only at up to 50 mph, which is a ceiling, not her handbook's figure.[22] If you answered "50 mph" with no source,
 you've repeated a figure, not checked one. Lesson 18, "A flat tyre: the decision, and spare, space
 saver, sealant or run-flat", covers the spare and the law on it.
 :::
@@ -322,7 +326,7 @@ saver, sealant or run-flat", covers the spare and the law on it.
 
 This is general information, not legal advice.
 
-:::predict A car in Great Britain passed its MOT (Great Britain's periodic roadworthiness test) last month. Who is responsible for its condition today: the garage that tested it, or the driver?
+:::predict A car in Great Britain passed its MOT last month. Who is responsible for its condition today: the garage that tested it, or the driver?
 
 The driver. GOV.UK: "You're responsible for making sure your vehicle is always safe to drive
 ('roadworthy'). It can be unsafe even if you have a current MOT certificate."[4] In Northern
@@ -337,9 +341,10 @@ it's used, and lesson 20, "The law on a car's condition: Great Britain and North
 out that law.
 
 In the US there is no national test like the MOT. Whether a car is inspected at all is a state
-matter: the last official national count, by the Government Accountability Office in 2015, found
-periodic safety inspection in a minority of states.[21] Lesson 22, "The US: state inspections,
-emissions tests and tread law", goes through five of them.
+matter. The most recent official national count this course found is the Government Accountability
+Office's: 16 states with periodic inspection as of July 2015, and fewer since.[21] Lesson 22, "The
+US: state inspections, emissions tests and tread law", works through five states' rules, including
+two with no periodic safety inspection for private cars.
 
 ## Law, handbook or advice: whose, and for which car?
 
@@ -365,15 +370,15 @@ the rules in the Code are legal requirements, and if you disobey these rules you
 criminal offence." Those rules "are identified by the use of the words 'MUST/MUST NOT'". The rest
 are advice, but the Code "may be used in evidence in any court proceedings under the Traffic Acts"
 to establish liability, and "This includes rules which use advisory wording such as 'should/should
-not' or 'do/do not'."[5] Northern Ireland's Code uses the same two
+not' or 'do/do not'."[5] Northern Ireland's Code, by its own introduction, uses the same two
 voices.[7]
 
 Annex 6's paragraph on tyres has both voices a few lines apart. "Tyres MUST be correctly inflated" is
 law in Great Britain. "Tyre pressures. Check weekly. Do this before your journey, when tyres are
 cold." is advice.[6] NHTSA, for the US, advises checking "at least once a month" when the tyres are
-cold, and TyreSafe says "every month or before every long journey".[3][18] Three bodies, two
-intervals, and the one law among them, Great Britain's, does not set an interval at all. It sets the pressure, and hands the
-number to the maker.
+cold, and TyreSafe, the industry-backed charity, says "every month or before every long
+journey".[3][18] Three bodies, two intervals, and the one legal rule among them, Great Britain's,
+sets no interval. It sets the pressure, through a regulation the Code reads as the maker's figure.
 
 ### Three labels for every job
 
@@ -382,7 +387,7 @@ Every job this course names carries one of three labels, in the prose:
 - **Yours.** The sources put it in any owner's hands: checking tyre pressures and tread, reading the
   dipstick, topping up screenwash, walking round the lights, checking for recalls.
 - **Yours, on conditions.** Allowed if a named condition is met, and the lesson names it: topping up
-  coolant only when the engine is cold, with the handbook's coolant; a jump start, or a wheel change,
+  coolant only when the engine is cold, with the handbook's coolant (this course's condition); a jump start, or a wheel change,
   only on the conditions lessons 13 and 19 set, and never on a motorway.
 - **Call someone.** The law reserves it, the handbook says the owner must not, or every source this
   course read advises against it: anything on the high-voltage system, a brake-fluid level that keeps
@@ -391,19 +396,10 @@ Every job this course names carries one of three labels, in the prose:
 Where the law allows more than the advice does, both go in, law first, and the label follows the
 advice. Tyre tread is the first case you'll meet. In Great Britain cars "MUST have a tread depth of
 at least 1.6 mm across the central three-quarters of the breadth of the tread and around the entire
-circumference".[6] TyreSafe says "Tyre and safety experts recommend replacing tyres at 3mm".[18]
+circumference".[6] TyreSafe, backed by tyre makers, carmakers and retailers, says "Tyre and safety experts recommend replacing tyres at 3mm".[18]
 Lesson 8, "Tyres II: tread, damage, age, and when to replace", sets out that argument, and Logic and
-Argument lesson 7, "Reconstruction and charity: the strongest version first", is the rule it is heard
-by.
-
-### Reading the source's label
-
-Much of the free advice on cars comes from organisations that sell something related to it, so
-this course labels each one every time it is cited. The AA, the RAC and Green Flag in the UK sell
-breakdown cover and repairs; AAA clubs in the US sell roadside assistance and run a repair network;
-TyreSafe is a UK tyre safety charity backed by tyre makers, carmakers and retailers. None is a
-regulator. "Motoring organisation, not official" means often useful, and never the law or your
-handbook.
+Argument lesson 7, "Reconstruction and charity: the strongest version first", is the rule this
+course uses to hear both sides.
 
 ### Cars that aren't yours
 
@@ -448,21 +444,19 @@ teach, the course reports it as the source's and stops. Toyota's handbook, for o
 stand if it is necessary to get under the vehicle."[10] That's Toyota's step, and this course stops
 short of it.
 
-Some subjects belong elsewhere. Driving is not taught anywhere on the institute's map. Car loans and
-insurance are Personal Finance Fundamentals lessons 3 and 8, "How debt really works" and "Handing off
-what you cannot absorb". Casualty care at the roadside is First Aid and CPR's, starting from its
-lesson 2, "Danger, the call, and recognising cardiac arrest", and threats from other people are
-Personal Safety lesson 6, "Out and away: streets, travel and meeting people". Whether to buy a
-petrol, diesel, hybrid or electric car is an argument this course takes no side in. Motorcycles,
-vans over 3.5 tonnes, towing and caravans weren't researched and aren't taught.
+Driving is not taught anywhere on the institute's map. Whether to buy a petrol, diesel, hybrid or
+electric car is an argument this course takes no side in. Motorcycles, vans over 3.5 tonnes, towing
+and caravans weren't researched and aren't taught.
 
 ## What people get wrong
 
 **"It passed its MOT, so it's fine."** The MOT is done without dismantling, on one day, and GOV.UK
 says a car "can be unsafe even if you have a current MOT certificate".[4][16]
 
-**"The AA (or AAA) says so, so it's official."** Motoring organisations sell cover and repairs. Their
-advice can be good, and it's still advice from a business, not the law and not your handbook.
+**"The AA (or AAA) says so, so it's official."** The AA, the RAC and Green Flag sell breakdown cover
+and repairs, and AAA clubs sell roadside assistance and run a repair network, so this course labels
+them every time it cites them. None is a regulator. Their advice can be good, and it's still advice
+from a business, not the law and not your handbook.
 
 **"The number on a website applies to my car."** Four handbooks, three different torque figures; one car, two
 sets of pressures depending on the tyres. The website does not know which car you have.
@@ -472,7 +466,8 @@ is on the door pillar, the fuel flap or in the handbook.[3][9][18]
 
 :::exercise Your handbook, ten figures, and twelve jobs
 
-Take 25 minutes over the whole exercise. You need the handbook for a car that's yours, or whose
+Take 45 minutes over the whole exercise: about five to find the handbook, twenty for the figures
+and twenty for the sort. You need the handbook for a car that's yours, or whose
 keeper agrees, and a pen. Nothing here is done to the car: you do not lift it, open the bonnet or any
 cap, or touch anything under it. If you look at the car at all, it's only to read the label on the
 driver's door pillar, with the car parked off the road, engine or motor off and the handbrake on.
@@ -507,22 +502,22 @@ driver's door pillar, with the car parked off the road, engine or motor off and 
 
 :::checkpoint Check your twelve against these.
 
-- A. **Yours.** Law in Great Britain that the tyres are at the maker's pressure (Highway Code Annex 6, MUST); the weekly check is the Code's advice; the figure is the handbook's for that car.
-- B. **Yours.** California's BAR says the handbook "explains your vehicle's warning lights and what to do if they come on". What happens next depends on the light and on that handbook (lesson 11).
+- A. **Yours.** Law in Great Britain that the tyres are inflated fit for their use (Construction and Use Regulations, reg 27), which the Highway Code's MUST rule in Annex 6 reads as the maker's pressure; the weekly check is the Code's advice; the figure is the handbook's for that car.
+- B. **Yours.** California's repair regulator, BAR, advises that the handbook "explains your vehicle's warning lights and what to do if they come on"; this course read no federal page saying so. What happens next depends on the light and that handbook (lesson 11).
 - C. **Yours**, by the handbook's method for that car (lesson 9). GOV.UK's advice, Great Britain, is that the handbook sets how often.
-- D. **Yours, on conditions**, and the condition is not met yet. The Highway Code's advice is to wait until the engine "has cooled naturally"; the coolant is the handbook's. Ford's 10 minutes is Ford's, for one car.
+- D. **Yours, on conditions**, and the condition is not met yet. The condition is this course's: engine cold, and the coolant the handbook names. It is stricter than some handbooks: Ford's for the 2024 Maverick allows the cap off after a 10-minute wait, under a thick cloth, for that car. The Highway Code's advice (Great Britain), for an engine that has overheated, is to wait until it "has cooled naturally".
 - E. **Yours.** GOV.UK's advice: top up with washer fluid if necessary.
-- F. **Call someone.** Nissan's handbook: "no user serviceable parts"; the MOT manual tells testers to avoid even 48 V wiring. Don't touch it.
-- G. **Call someone.** All four handbooks this course read on changing a wheel forbid any part of your body under a car on its jack (Toyota's words are above). Toyota's own answer, a jack stand, is a step this course doesn't teach.
-- H. **Call someone.** The Highway Code's advice: low brake fluid "may result in brake failure and a crash". A level that keeps falling is for a garage (lessons 6 and 9).
-- I. **Yours**: read the handbook's schedule for that car. CalRecycle's advice (California) is that 3,000 miles "no longer applies to most cars"; AAA's 5,000 to 7,500 is for "most engines".
-- J. **Yours.** GOV.UK's advice, Great Britain, for every time you drive.
-- K. **Call someone.** The Highway Code's advice: "Consult a garage or mechanic immediately".
-- L. **Call someone**, on this course's reading: the lease company. The agreement decides who arranges tyres, and this course read none; tell the company in writing.
+- F. **Call someone.** Nissan's handbook for the 2024 LEAF sold in the US: "no user serviceable parts". DVSA's MOT manual (Great Britain) tells testers to avoid touching high-voltage wiring, and even 48 V wiring. Don't touch it.
+- G. **Call someone**, and don't do it. All four handbooks this course read on changing a wheel forbid getting under a car on its jack; Toyota's words, "any part of your body", are the widest. For any other car, this course's own rule is the same. Toyota's answer, a jack stand, is a step this course doesn't teach.
+- H. **Call someone**, on this course's reading. The Highway Code (Great Britain) warns that "Low brake fluid may result in brake failure and a crash"; no source this course read makes a falling level an owner's job. Lessons 6 and 9 take it up.
+- I. **Yours**: read the handbook's schedule for that car. CalRecycle's advice (California) is that 3,000 miles "no longer applies to most cars"; AAA, US motoring clubs that sell roadside assistance, give 5,000 to 7,500 miles for "most engines".[19]
+- J. **Yours.** Law in Great Britain that the required lamps are in good working order and clean (Road Vehicles Lighting Regulations 1989, reg 23, which Annex 6's MUST rule cites)[22]; the check before every drive is GOV.UK's advice.
+- K. **Call someone.** The Highway Code's advice (Great Britain): "Consult a garage or mechanic immediately".
+- L. **Call someone**, on this course's reading: whoever the agreement names, the employer or the lease company. This course read no agreement; tell them in writing.
 
 If you labelled D as plain Yours, look at the condition again: the job is yours, the timing is not.
-If you labelled A as advice only, notice that the pressure is law in Great Britain even though the
-weekly check is advice.
+If you labelled A as advice only, notice that in Great Britain the pressure is a MUST rule, with a
+regulation behind it, even though the weekly check is advice.
 :::
 
 ## For your plan
@@ -538,7 +533,9 @@ This course borrows its shape from Home Repair and Maintenance lesson 1, "How a 
 where it switches off", whose three labels and "law or advice, whose, and where?" become the labels
 and the question here. Next, lesson 2, "The engine: petrol, diesel, and the drive to the wheels",
 opens the first box on the map and explains why an engine needs the oil and coolant you'll be
-checking.
+checking. Car loans and insurance belong to Personal Finance Fundamentals lessons 3 and 8, "How debt
+really works" and "Handing off what you cannot absorb". Casualty care at the roadside belongs to
+First Aid and CPR, starting from its lesson 2, "Danger, the call, and recognising cardiac arrest".
 
 ## Go deeper
 
@@ -551,8 +548,8 @@ checking.
   on pressure, the placard and the date code. This course read it from an archived copy.
 - **Tom Denton and Hayley Pells, *Automobile Mechanical and Electrical Systems*, 3rd edition
   (Routledge, 2023).** A UK textbook for people training in car maintenance. This course read only its
-  contents page, whose chapters on engine, electrical, chassis and transmission systems follow the
-  map in this lesson; the book itself wasn't read.
+  contents page, whose parts on engine, electrical, chassis and transmission systems share the core
+  of the map in this lesson; the book itself wasn't read.
 
 ## Sources
 
@@ -580,8 +577,8 @@ checking.
    "New pneumatic radial tires for light vehicles". **Read: S1 to S5.5; test procedures skimmed**;
    the S3 definitions and S5.5 re-read 26 September 2026. US federal law. <!-- SOURCES Part D §3; lesson 01 gate closures -->
 10. Toyota, [2023 Corolla Owner's Manual, OM02568U](https://assets.sia.toyota.com/publications/en/om-s/OM02568U/pdf/OM02568U.pdf),
-    US market. **Read: pp. 46, 350 to 353 and 370 to 386 at Stage 1; pp. 372, 376 to 378 and 397
-    re-read on 26 September 2026.** <!-- SOURCES Part E §4; lesson 01 gate closures -->
+    US market. **Read: pp. 46, 350 to 353 and 370 to 386 at Stage 1; pp. 372, 376 to 378, 397 and
+    398 re-read on 26 September 2026.** <!-- SOURCES Part E §4; lesson 01 gate closures -->
 11. Honda, [2024 Civic Sedan Owner's Manual, "If a Tire Goes Flat"](https://techinfo.honda.com/rjanisis/pubs/OM/AH/AT202424IOM/enu/details/131229047-15363.html),
     US market, online. **Read: full section text**, re-read 26 September 2026. <!-- SOURCES Part E §4; lesson 01 gate closures -->
 12. Mazda, [Mazda3 Owner's Manual](https://owners-manual.mazda.com/gen/en/mazda3/mazda3_8gd7ee17h/contents/08020100.html),
@@ -617,4 +614,8 @@ checking.
     <!-- SOURCES Part A §4 -->
 21. US Government Accountability Office, [*Vehicle Safety Inspections: Improved DOT Communication
     Could Better Inform State Programs*, GAO-15-705](https://www.gao.gov/products/gao-15-705), August
-    2015. **Read: full text**, from the PDF copy on the Vermont legislature's website. <!-- SOURCES Part D §1 -->
+    2015. **Read: full text**, from the PDF copy on the Vermont legislature's website; the count of
+    states re-read 26 September 2026 from Internet Archive capture 20260109053421 of gao.gov's PDF. <!-- SOURCES Part D §1; Stage 4 note, lesson 01 -->
+22. [The Road Vehicles (Construction and Use) Regulations 1986, reg 27](https://www.legislation.gov.uk/uksi/1986/1078/regulation/27)
+    and [the Road Vehicles Lighting Regulations 1989, reg 23](https://www.legislation.gov.uk/uksi/1989/1796/regulation/23),
+    legislation.gov.uk. **Read: each regulation in full**, 26 September 2026. Great Britain. <!-- SOURCES Part C §3; Stage 4 note, lesson 01 -->

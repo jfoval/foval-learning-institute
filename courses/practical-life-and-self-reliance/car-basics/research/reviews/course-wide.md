@@ -69,3 +69,29 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Quiz keys:** 04 is now 0,2,3,0,1 (was 0,2,3,1,0; R27 above resolved by reordering Q4 and Q5). The
   fixer's script also rejected shifted runs of four at any offset, which is stricter than the relaxed
   rule; the orchestrator may want to make that the rule.
+
+## 2026-09-26 — Lesson 01 fix pass: notes for later lessons
+
+- **Great Britain's tyre-pressure rule is two texts, not one.** Annex 6's MUST says "the vehicle
+  manufacturer's specification"; the regulation it cites, C&U reg 27(1)(b), says "fit for the use to
+  which the motor vehicle or trailer is being put". Name the MUST as the Code's statement of the law
+  and put the regulation's words beside it; never "the law requires the maker's pressure". Lessons 7,
+  18 and 20. SOURCES "Stage 4 note, lesson 01".
+- **The space saver's 50 mph in Great Britain is reg 27(3)**, an exemption from the unsuitable-tyre rule
+  that ends above 50 mph: "the law allows ... only at up to 50 mph", not "the law sets 50 mph".
+- **Annex 6's coolant sentence is conditional on an overheat.** Don't apply it to an ordinary hot drive.
+  The "cold" condition is the course's (decision 5), stricter than Ford's 10 minutes under a cloth, and
+  is labelled as the course's wherever it appears (lesson 9 especially).
+- **GAO-15-705 is "the most recent official national count this course found"**, with "as of July 2015"
+  and "fewer since", never "the last count". OUTLINE decision 12 carries the note.
+- **CalRecycle gives a spread (5,000 to 15,000 miles); it declines only to recommend for a make or
+  model.** Don't say it "refuses to give a figure".
+- **The textbooks share a core division, not the whole map**: tyres sit inside steering and suspension
+  in the two US books, hybrid and EV is a part only in Halderman, and Denton and Pells have "chassis".
+- **YAML trap:** a quiz option containing ": " (a label and a reason, "Yours, on conditions: ...")
+  must be quoted or it parses as a map and the build sees three options. Check option lengths by
+  script after any quiz edit; an `undefined` length is this.
+- **Exercise timing:** a stated time over 30 is capped at 30 by `npm run minutes`, so an honest "Take 45
+  minutes" costs the lesson 37.5 modelled minutes with three steps. Lesson 01 measures 95 with the
+  twelve-job sort kept.
+- **Quiz keys:** 01 3,0,1,3,2,0 (unchanged by the fix).

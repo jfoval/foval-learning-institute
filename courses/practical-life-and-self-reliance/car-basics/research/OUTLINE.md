@@ -444,7 +444,10 @@ US, NHTSA counts 31 children who died of heatstroke in vehicles in 2025". Rules:
 
 - **Old and small data carry their limits at the point of use**: the NHTSA jack note (an estimated
   4,822 emergency-room cases, one year, November 1994 to October 1995, 102 cases, US, CPSC data);
-  GAO-15-705 (16 states in July 2015); the AA's EV breakdown causes (2021, one provider's
+  GAO-15-705 (16 states in July 2015) [2026-09-26, Stage 4 lesson 01: re-read, "As of July 2015, we
+  found 16 states with periodic inspection programs." It is the most recent official national count
+  this course found, never "the last"; state it with its date and "fewer since" (Texas, 1 January
+  2025, as G-L11). SOURCES "Stage 4 note, lesson 01"]; the AA's EV breakdown causes (2021, one provider's
   call-outs); the London fire figures via Derbyshire FRS (not used as a comparison, decision 8).
 - **Scope is part of the number**: the AAA Foundation's "more than 2,100 people were killed outside of
   disabled vehicles at the roadside in 2019-2023" is the AAA Foundation's reading of NHTSA data
