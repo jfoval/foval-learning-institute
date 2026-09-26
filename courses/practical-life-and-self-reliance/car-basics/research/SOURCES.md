@@ -8404,3 +8404,51 @@ the capture named above, 26 September 2026):
   vehicles, even though not legally required. If you receive notification of a recall on a vehicle
   older than 15 years, it is still important to have your car repaired to eliminate unnecessary safety
   risks." [V]
+
+## Stage 4 note, lesson 23 (2026-09-26)
+
+Re-read on 26 September 2026 by the lesson 23 fixer with curl (generic browser User-Agent, no personal
+data in any header): GOV.UK "Vehicle recalls and faults", "Check if a vehicle, part or accessory has
+been recalled", "Check the MOT history of a vehicle" and the DVSA code of practice (public_updated_at
+2024-03-06), all through the content API; 49 U.S.C. 30120 on uscode.house.gov; and, because
+nhtsa.gov refuses automated readers, the Internet Archive captures 20260924153455 (Takata Recall
+Spotlight), 20260924153654 (Check for Recalls) and 20260918233001 (the November 2024 booklet,
+extracted with pdftotext). Passages lesson 23 now quotes, recorded whole:
+
+- DVSA code 3.1, whole: "A safety related defect is a failure due to design and/or construction, which
+  is likely to affect the safe operation of the product – and pose a significant risk to the driver,
+  occupants and others." [V] The second limb is part of the definition, not a consequence of it.
+- DVSA code 11.2: a recall may be "closed for reporting purposes when the producer can show that a high
+  proportion of vehicles (normally 90%) believed to be in service have been rectified and the remaining
+  safety risk is low." [V] Both conditions are quoted together from now on.
+- GOV.UK "Check if a vehicle, part or accessory has been recalled": "If your vehicle has a serious
+  safety defect, the manufacturer will write to you to tell you what to do. You must not drive the
+  vehicle." [V] The page does not say which recalls the second sentence covers; reading it with the
+  letter and the code's table is this course's reading, labelled so. Under parts and accessories
+  ("child car seats", "tyres" among them): "You need to know the manufacturer and model." [V]
+- GOV.UK "Vehicle recalls and faults", recalls part, "What you need to do": "You’re legally
+  responsible for making sure that your vehicle is: kept in a safe condition safe to drive whenever you
+  drive it If you do not get your vehicle inspected and fixed, you could: affect any insurance claim
+  you make put yourself and others at serious risk" (list items run together as the API gives them)
+  [V]. The same part goes on to the £2,500 fine for driving a vehicle in a dangerous condition; lesson
+  23 points to lesson 20 for the offence and does not say a stop-drive recall is itself an offence.
+- GOV.UK "Check the MOT history of a vehicle", introduction: "may also tell you if your vehicle has
+  been recalled for a safety reason, depending on the manufacturer." [V] Now lesson 23's Sources
+  entry 10.
+- NHTSA "Check for Recalls" (capture 20260924153654): "Safety recalls that are more than 15 years old
+  (except where a manufacturer offers more coverage)" [V]. The age is the recall's, not the car's; the
+  page does not say whether the 15 years comes from 30120(g)(1), which counts the car's age.
+- NHTSA "Takata Recall Spotlight" (capture 20260924153455): "Ford and Mazda are advising some owners of
+  MY 2006 Rangers and B-Series trucks not to drive. If you own one of these vehicles, contact your
+  dealer IMMEDIATELY. Ford and Mazda will provide towing and loaner vehicles for affected vehicle
+  owners." [V]; "Some vehicle manufacturers have advised vehicle owners to not allow anyone to sit in
+  the front passenger seat until a repair is completed and, if that is the case for your vehicle, you
+  should follow those instructions." [V]; "Dealers and manufacturers are not required to provide you a
+  loaner car, but it’s a good idea to ask." [V]
+- NHTSA booklet: "Under the law, the age of the vehicle is calculated from the date of sale to the
+  first purchaser." [V] The booklet counts to the date "the defect or noncompliance is determined";
+  30120(g)(1) counts to the 30118(c) notice. Lesson 23's Flint case sets both in the same year.
+- 49 U.S.C. 30120(i)(1): covers "a new motor vehicle or new item of replacement equipment in the
+  dealer's possession at the time of notification" and "a covered rental vehicle in the company's
+  possession", which "the dealer or rental company may sell, lease, or rent ... only if" remedied
+  first [V]. Nothing in (i) reaches a used car at a dealer or a private sale: this course's reading.

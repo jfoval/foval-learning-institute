@@ -1,9 +1,9 @@
 ---
 title: "Recalls: checking, what's free, and \"stop drive\""
-minutes: 65
+minutes: 70
 objectives:
   - >-
-    Check a car for open safety recalls in Great Britain by registration and in the US by VIN or
+    Check a car for open safety recalls in the UK by registration and in the US by VIN or
     plate, and state what each lookup may not show and why
   - >-
     State, as general information, what the free remedy covers in each country and its limits,
@@ -16,36 +16,36 @@ objectives:
     registration decide whether a recall letter reaches you
 quiz:
   - q: >-
-      Someone in Great Britain is looking at a used car. The seller's MOT history printout mentions
-      no recall. On GOV.UK's pages as read, what's the better check?
+      Someone in Great Britain is given a second-hand child car seat to use in their car. On GOV.UK's
+      pages as read, how do they check it for a safety recall?
     options:
-      - None is needed, since the MOT history lists every open recall for every car on the road today
-      - Ask the seller to sign a note saying the car has no recall, since only the keeper knows
-      - GOV.UK's recall check by registration, as the history's recall line depends on the maker
-      - Wait for the next MOT, since testers must refuse a pass while any recall is still open
+      - Enter the car's registration, since that search covers the seats and tyres fitted to it
+      - Check the car's MOT history, since recalled seats are listed there by their maker
+      - Search parts and accessories by the seat's maker and model, since no letter may come
+      - Nothing, since child seats are never part of a vehicle safety recall in Great Britain
     answer: 2
     explain: >-
-      GOV.UK's MOT history page says it "may also tell you if your vehicle has been recalled for a
-      safety reason, depending on the manufacturer", so a history with no recall on it proves
-      nothing. GOV.UK's recall check takes the registration and shows "safety recalls that have not
-      been checked or fixed". No page read says a tester refuses a pass over an open recall, and a
-      seller's note is only as good as what the seller knows.
+      GOV.UK's recall check gives parts and accessories, "child car seats" among them, their own
+      search: "You need to know the manufacturer and model." Its guide adds: "You will not get a
+      letter if the manufacturer does not have your contact details, for example for car child
+      seats." The registration search is for the car, the MOT history is the car's tests, and child
+      car seats are on GOV.UK's list of things that can be recalled.
   - q: >-
       In the US, a car's maker announced a safety recall last week for its model. NHTSA's lookup,
       run on the car's VIN today, says "0 unrepaired recalls associated with this VIN." What does
       NHTSA's page say bears on this?
     options:
-      - The result is final, since makers must load every affected VIN on the day of the recall
-      - The result means the car was built outside the recall's range and isn't affected at all
+      - The result can be trusted, since makers load each affected VIN when they announce
+      - The result means the car was built outside the recall's range and isn't affected
       - The lookup only covers recalls NHTSA itself ordered, so a maker's own recall won't show
       - Recently announced recalls may not have all VINs identified yet, so check again later
     answer: 3
     explain: >-
       NHTSA lists "Some recently announced safety recalls for which not all VINs have been
       identified" among the things the search won't show, and adds "VINs are added continuously so
-      please check regularly." A clean result a week after an announcement is exactly that case.
-      Most recalls are the makers' own decisions, and the lookup covers them; nothing on the page
-      says VINs must be loaded on day one.
+      please check regularly." A clean result a week after an announcement is exactly that case, so
+      it doesn't show the car is outside the recall. Most recalls are the makers' own decisions, and
+      the lookup covers them; nothing on the page says makers load every VIN when they announce.
   - q: >-
       As general information: in the US, tyres bought new seven years ago are named in a tyre
       maker's recall notice this month. Under 49 U.S.C. 30120 as read, is the maker required to
@@ -69,7 +69,7 @@ quiz:
     options:
       - The threat is immediate, so the car must not be driven until the repair has been done
       - A threat that isn't immediate, or that reasonable consumer action can reduce meanwhile
-      - Not a safety matter at all, since the code keeps the word safety for Stop Drive recalls
+      - A non-safety campaign, since the code uses the word safety for Stop Drive recalls
       - A voluntary campaign the keeper can ignore, since only Stop Drive recalls are ever free
     answer: 1
     explain: >-
@@ -83,8 +83,8 @@ quiz:
       replacement part is weeks away. Which fits NHTSA's advice?
     options:
       - Disconnect the airbag and keep driving, since a disabled bag can't explode in a crash
-      - Keep driving normally, since a recall only becomes urgent once the part is in stock
-      - Drive it only on short trips at low speed, since the risk comes from high-speed crashes
+      - Keep driving normally until the dealer has the part in stock, then book the repair
+      - Drive it on short trips at low speed, since the risk comes from high-speed crashes
       - Don't drive it, and ask the dealer and the maker how the repair will be arranged
     answer: 3
     explain: >-
@@ -92,13 +92,15 @@ quiz:
       and "These vehicles can and should be repaired immediately"; and "An air bag that is purposely
       disabled has a 100-percent chance of failing to provide any protection in a crash." So neither
       disconnecting it nor driving gently is on NHTSA's list. Parts arriving late doesn't change the
-      warning. Asking the dealer and the maker how the repair will be arranged is this course's
-      reading of what follows; NHTSA's hotline is there if they don't help.
+      warning. For owners of certain Ford and Mazda trucks told not to drive, NHTSA's Takata page
+      says "contact your dealer IMMEDIATELY", and it adds: "Dealers and manufacturers are not required
+      to provide you a loaner car, but it’s a good idea to ask." NHTSA's hotline is there if they
+      don't help.
 ---
 
 A recall letter is the easiest thing in car ownership to ignore. It comes in the post, it looks like
 marketing, and the car seems fine. But a recall is a maker admitting, in writing, that something it
-built can hurt you, and offering to fix it. This lesson shows how to check a car yourself in Great
+built is unsafe, or fails a safety standard, and offering to fix it. This lesson shows how to check a car yourself in Great
 Britain and in the US, what the fix costs you in each (usually nothing, within limits), what a "stop
 drive" or "Do Not Drive" notice means, and why a clean lookup or an empty letterbox doesn't prove a
 car is clear.
@@ -119,8 +121,8 @@ This is general information, not legal advice.
 
 **In the UK**, the Driver and Vehicle Standards Agency (DVSA) publishes a code of practice for makers
 and distributors. It defines the thing a recall is for: "A safety related defect is a failure due to
-design and/or construction, which is likely to affect the safe operation of the product", and it goes
-on to say such a failure poses "a significant risk to the driver, occupants and others".[1] The code
+design and/or construction, which is likely to affect the safe operation of the product", and in the
+same definition it must "pose a significant risk to the driver, occupants and others".[1] The code
 is careful about its own status: "The code is not an interpretation or reframing of the law."[1]
 GOV.UK's guide for owners puts it in plainer words. A serious safety defect is something "about the
 way the vehicle is designed or made that’s likely to cause injury or death" and "that happens
@@ -139,7 +141,7 @@ booklet lists defects it does not consider safety-related, among them "Ordinary 
 as shock absorbers, batteries, brake pads and shoes, and exhaust systems", "Nonstructural or body panel
 rust" and "Excessive oil consumption".[4]
 
-The two lists agree on the point that matters. Worn pads, a tired battery, rust and the things your
+The two lists agree on the point that matters. Worn pads, a tired battery, body-panel rust and the things your
 own checks find are yours to deal with through a garage. They are not recalls.
 
 :::predict Who carries out a recall in the US: NHTSA, or the carmaker?
@@ -154,13 +156,13 @@ to makers and distributors for the same reason.
 
 Checking for recalls is **Yours**, in both countries, and it is free.
 
-**In Great Britain and the UK.** GOV.UK's [recall check](https://www.gov.uk/check-vehicle-recall): "You
+**In the UK.** GOV.UK's [recall check](https://www.gov.uk/check-vehicle-recall): "You
 can use the car registration number to check if it’s been recalled." It shows "safety recalls that
 have not been checked or fixed" and the car's MOT history. Without the registration you can search by
 "the manufacturer, model and year of manufacture". Parts and accessories, including "child car seats"
-and "tyres", have their own search by maker and model.[6] Lesson 21 showed the other route and its
-limit: the MOT history "may also tell you if your vehicle has been recalled for a safety reason,
-depending on the manufacturer".
+and "tyres", have their own search by maker and model.[6] Lesson 21, "The MOT and Northern Ireland's vehicle
+test", showed the other route and its limit: the MOT history "may also tell you if your vehicle has
+been recalled for a safety reason, depending on the manufacturer".[10]
 
 **In the US.** NHTSA's [recall lookup](https://www.nhtsa.gov/recalls) takes a VIN or a licence plate.
 Where to find the VIN: "Look on the lower left of your car’s windshield for your 17-character VIN. Your
@@ -168,6 +170,12 @@ VIN is also located on your car’s registration card, and it may be shown on yo
 car with nothing open shows "0 unrepaired recalls associated with this VIN."[3]
 
 ### What the US lookup won't show, and why
+
+:::predict Before you read NHTSA's list: name two open recalls you'd guess a VIN lookup might not show.
+
+A brand-new recall and a very old one are both on it, and so are four more. The list below has all
+six.
+:::
 
 NHTSA is unusually frank about the search's limits. It won't show:[3]
 
@@ -181,8 +189,9 @@ NHTSA is unusually frank about the search's limits. It won't show:[3]
 - "A recall involving an international vehicle."
 
 Each has a reason you can see. The list of affected VINs is the maker's, and a new recall's list may
-not be complete on the day it is announced. The 15 years matches the free-remedy limit in the law,
-below. A non-safety campaign is not a recall in the law's sense, so it is not in a safety database. And
+not be complete on the day it is announced. The 15 years is the same number as the free-remedy limit in the law,
+below, though the lookup counts the recall's age and the law counts the car's; NHTSA doesn't say
+whether one comes from the other. A non-safety campaign is not a recall in the law's sense, so it is not in a safety database. And
 the Takata page adds one more: cars "scheduled to be recalled in the future under NHTSA’s Consent Order
 with Takata, will not be searchable until they are actually recalled".[5] That's NHTSA's reason for its
 advice: "Register your vehicle, tires, car seats & equipment and check recalls twice a year."[3]
@@ -193,8 +202,8 @@ has reported and loaded, and a check twice a year costs nothing.
 
 :::checkpoint A US owner checks her VIN in March and gets "0 unrepaired recalls associated with this VIN." Name two reasons from NHTSA's list why a recall might still exist for her car.
 
-Any two of: a recently announced recall whose VINs haven't all been identified yet; a recall on a
-car more than 15 years old; a small maker's recall; a non-safety campaign (which isn't a safety
+Any two of: a recently announced recall whose VINs haven't all been identified yet; a safety recall
+more than 15 years old (unless the maker offers more coverage); a small maker's recall; a non-safety campaign (which isn't a safety
 recall, but may still matter to her); or, for Takata cars, a recall scheduled but not yet made. The
 answer to all of them is the same: check again, twice a year, as NHTSA advises.
 :::
@@ -232,7 +241,7 @@ company decide who arranges recall work; tell them in writing, and do only the l
 
 This is general information, not legal advice.
 
-Most recalls do not mean stop driving. Some do, and the notice says so.
+Not every recall means stop driving. Some do, and the notice says so.
 
 **In the UK**, DVSA's code sorts a maker's response into four actions. The two that matter here, in
 the code's words:[1]
@@ -244,23 +253,32 @@ the code's words:[1]
 
 The other two are a "Consumer / Garage Warning" and an amendment to servicing requirements.[1] GOV.UK
 puts the owner's side of it in two sentences: "If your vehicle has a serious safety defect, the
-manufacturer will write to you to tell you what to do. You must not drive the vehicle."[6] Read in
-context, that's about the letter for a serious defect, and the code's own table is what separates a
-stop-drive recall from the rest. The letter tells you, GOV.UK's guide says, "why it’s being recalled",
+manufacturer will write to you to tell you what to do. You must not drive the vehicle."[6] GOV.UK's page
+doesn't say which recalls that last sentence covers. On this course's reading it goes with the
+letter: the code's table is what separates a stop-drive recall from the rest, and the letter says
+which one yours is. If the letter doesn't make clear that you may keep driving until the repair, ask
+the maker before you drive the car. The letter tells you, GOV.UK's guide says, "why it’s being recalled",
 "what you need to do next" and "who you should contact".[2]
+
+GOV.UK's guide puts the law beside it: "You’re legally responsible for making sure that your vehicle
+is" kept in a safe condition and "safe to drive whenever you drive it", and leaving a recall undone
+could "affect any insurance claim you make".[2] Lesson 20, "The law on a car's condition: Great
+Britain and Northern Ireland", has the offence and its penalty.
 
 Northern Ireland gives a live example. nidirect's booking page, as read, carries a notice headed
 "Citroën C3, DS3, C4, DS4 and DS5 models 'stop drive' recall", for an airbag issue, and says: "If you
 own one of the affected models, the guidance from the manufacturer is to immediately cease using the
 vehicle. The Driver and Vehicle Agency also strongly urges owners of affected vehicles to cease using
 them until the necessary repairs have been completed in line with the manufacturer’s notification."[8]
-The instruction is the maker's; the DVA's is an urging. Check the page for whether it is current.
+The instruction is the maker's, and the DVA adds its own strong urging. Neither leaves driving the car as an option. Check the page for whether it is current.
 
 **In the US**, the words are "Do Not Drive". NHTSA, on the Takata airbags: "DO NOT DRIVE warnings have
 been issued for certain vehicles that are at a far higher risk for an air bag explosion that could
 injure or kill vehicle occupants. These vehicles can and should be repaired immediately."[5] More
 generally, NHTSA tells owners that when a notice comes, "follow any interim safety guidance provided by
-the manufacturer and contact your local dealership to fix the recalled part for free."[3]
+the manufacturer and contact your local dealership to fix the recalled part for free."[3] That
+guidance can be specific: on the Takata page, NHTSA notes that some makers "have advised vehicle
+owners to not allow anyone to sit in the front passenger seat until a repair is completed".[5]
 
 So there are three things a notice can be, and the word on it tells you which: an ordinary safety
 recall (book the repair, and follow any interim advice in the letter); a stop-drive or Do Not Drive
@@ -275,6 +293,8 @@ the vehicle "must not be driven".
 :::
 
 ## Takata: why the airbag is never switched off
+
+This is general information, not legal advice.
 
 The biggest recall in the US shows every idea in this lesson at once. NHTSA, on its Takata page as
 archived on 24 September 2026: "Approximately 67 million Takata air bags (priority groups 1-12) have
@@ -303,12 +323,12 @@ Someone buys a used car in Louth, in England. The recall check by registration s
 from 2019 that was never done. The previous keeper moved and the letters went to the old address.
 
 Is it too late? DVSA's code says a recall can be "closed for reporting purposes" once "a high
-proportion of vehicles (normally 90%) believed to be in service have been rectified", but that "whilst
+proportion of vehicles (normally 90%) believed to be in service have been rectified and the remaining safety risk is low", but that "whilst
 a recall would be closed for reporting purposes the recall is still in place, and producers or
 distributors are still expected to act upon it should a vehicle be presented".[1] So the new keeper
 contacts the maker's dealer and books it in. GOV.UK says she "will not usually have to pay".[2]
 
-Two things follow for her. The maker found the old keeper through DVLA: the code says makers "may
+Two things follow for her. The maker can find a keeper through DVLA: the code says makers "may
 request the assistance of DVLA to locate names and addresses of the registered keepers".[1] So her
 own details on the log book are what the next letter will be sent to. And GOV.UK's guide is plain about letters that can't arrive: "You will not get a letter if the
 manufacturer does not have your contact details, for example for car child seats."[2]
@@ -317,8 +337,8 @@ manufacturer does not have your contact details, for example for car child seats
 
 This is general information, not legal advice.
 
-A car in Flint, in the US, was sold new 16 years ago. Its owner receives a recall notice this year for
-a newly found airbag defect. Before you open the answer, apply the two rules you've met: 30120(g)(1)'s
+A car in Flint, in the US, was first sold new 16 years ago. This year its maker finds an airbag
+defect in it and sends the owner a recall notice. Before you open the answer, apply the two rules you've met: 30120(g)(1)'s
 age limit, and NHTSA's booklet on older cars. Say also what the owner must not do while this is sorted
 out.
 
@@ -326,7 +346,8 @@ out.
 
 Not required, on the statute's words. 30120(g)(1) takes away the free-remedy requirement if the car
 "was bought by the first purchaser more than 15 calendar years" before notice, and 16 is more than 15.
-The booklet says the same from the other side: "the vehicle cannot be more than 15 years old on the
+The booklet counts to a different day, the date the defect is found, and from "the date of sale to
+the first purchaser", but here that's this year too, so it gives the same answer: "the vehicle cannot be more than 15 years old on the
 date the defect or noncompliance is determined".[4][7]
 
 But the booklet goes straight on: "Manufacturers may still provide a free remedy for older vehicles,
@@ -339,25 +360,28 @@ airbag while waiting, for NHTSA's reason above. The repair is **Call someone**.
 
 ## Why the letter may not reach you
 
+This is general information, not legal advice.
+
 A recall reaches owners through records, and records go stale. In the US, NHTSA: "Manufacturers will
 notify registered owners by first class mail within 60 days of notifying NHTSA of a recall
 decision."[3] The booklet adds that the letter must tell owners how to get the remedy, and "remind them
-that remedies are to be made available at no charge".[4] In the UK it is the registered keeper the maker
-finds through DVLA, as above.
+that remedies are to be made available at no charge".[4] In the UK it is the registered keeper, whom the maker
+may find through DVLA, as above.
 
 Tyres are the weak link, because the tyre maker doesn't know who bought them unless someone tells it.
-US federal rules make that the seller's job. An independent tyre dealer must either give the buyer a
+US federal rules put much of that on the seller. An independent tyre dealer must either give the buyer a
 registration form already filled in with the tyre identification numbers, or send the details to the
 tyre maker itself "at no charge to the tire purchaser and within 30 days of the date of sale or
 lease".[9] The form the rules require carries its own warning: "In case of a recall, we can reach you
 only if we have your name and address."[9] So when you buy tyres in the US, ask whether they have been
-registered, and keep the invoice with the numbers on it. Lesson 7 showed where the tyre's
-identification number is.
+registered, and keep the invoice with the numbers on it. Lesson 7, "Tyres I: pressure, the placard and
+TPMS", showed where the tyre's identification number is.
 
 Used cars have one more gap in the US. Section 30120(i) limits a dealer's sale or lease of a new vehicle,
-and a rental company's rental of a covered rental vehicle, while a recall on it is open.[7] It says nothing about a
-private seller, so, on this course's reading of the section, federal law doesn't require the fix
-before a private sale. The buyer's defence is the lookup.
+and a rental company's sale, lease or rental of a covered rental vehicle, while a recall on it is
+open.[7] It covers new vehicles and rental cars only. It says nothing about a used car, whether a
+dealer or a private seller sells it, so, on this course's reading of the section, federal law
+doesn't require the fix before a used car is sold. The buyer's defence is the lookup.
 
 ## Reporting a defect yourself
 
@@ -365,7 +389,7 @@ Both countries want to hear about a defect you think should be a recall. In the 
 "to the manufacturer immediately", and "Tell the Driver and Vehicle Standards Agency (DVSA) if you’re
 not happy with how the manufacturer is dealing with your report."[2] In the US, report to NHTSA online
 or through its Vehicle Safety Hotline, 888-327-4236, which the booklet also gives for checking open
-recalls.[4] Both, remember, are for defects in design or manufacture, not for wear.
+recalls.[4] Both are for defects in design or manufacture, not for wear.
 
 ## What people get wrong
 
@@ -395,13 +419,14 @@ Take 15 minutes over this. Use your own car, or a car whose keeper agrees. The c
 leave the car where it is, and don't drive it for this.
 
 1. Find the identifier. In Great Britain or Northern Ireland, the registration number. In the US, the
-   17-character VIN through the lower left of the windshield, or on the registration card; or the
+   17-character VIN through the lower left of the windscreen (windshield), or on the registration card; or the
    plate.
 2. Run the free official check: GOV.UK's recall check in the UK, NHTSA's lookup in the US. Write down
    the date and the result, word for word.
 3. If a recall is open, write down its wording: stop drive or Do Not Drive, or an ordinary safety
-   recall. If the car is yours, the next step is the maker's dealer; if it is leased, a company car or
-   borrowed, tell the keeper in writing.
+   recall. If it says stop drive or Do Not Drive, don't drive the car at all until it's repaired. If the
+   car is yours, the next step is the maker's dealer, and for a stop-drive recall ask how the repair
+   will be arranged; if it's leased, a company car or borrowed, tell the keeper in writing today.
 4. Set two reminders, six months apart, to run the check again.
 :::
 
@@ -455,3 +480,5 @@ up the garage that does everything a recall doesn't cover.
 9. [49 CFR 574.8, "Information requirements: tire distributors and dealers"](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-574/section-574.8),
    eCFR, point in time 1 September 2026. US federal. **Read: 574.8(a) in full, and 574.7(a) for the form's
    wording, 26 September 2026.** <!-- SOURCES Part D §3; lesson 22/23 gate closures -->
+10. GOV.UK (DVSA), ["Check the MOT history of a vehicle"](https://www.gov.uk/check-mot-history).
+   Great Britain. **Read: the introductory paragraph through the content API, 26 September 2026.** <!-- SOURCES Part C §5; Stage 4 note, lesson 23 -->

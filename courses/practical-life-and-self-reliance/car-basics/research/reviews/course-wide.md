@@ -432,3 +432,18 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   date; lesson 21 may name it at its next open.
 - **Penalty tables at phone width:** points second, four columns, codes in prose (lesson 20's P7).
 - **Quiz keys:** 20 3,0,2,1,0 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 23 fix pass: notes for later lessons
+
+- **GOV.UK's "You must not drive the vehicle" is quoted whole, never read down in the course's voice.**
+  The page doesn't say which recalls it covers; tying it to the letter and DVSA's table is this
+  course's reading, labelled, with the fallback "if the letter doesn't make clear you may keep driving,
+  ask the maker before you drive". Scripts and the test keep both.
+- **NHTSA's lookup excludes recalls more than 15 years old; 30120(g)(1) counts the car's age.** Never
+  "a car more than 15 years old" for the lookup, and never say one limit comes from the other.
+- **30120(i) covers new vehicles at a dealer and covered rental vehicles only.** A used car, from a
+  dealer or a private seller, isn't reached; that conclusion is this course's reading.
+- **An exercise that can find a stop-drive or Do Not Drive recall says: don't drive the car until it's
+  repaired**, and only the keeper arranges the repair.
+- **Quiz keys:** 23 2,3,0,1,3 (unchanged by the fix); quiz 1 replaced (child car seat) so it no longer
+  repeats lesson 21's MOT-history item.
