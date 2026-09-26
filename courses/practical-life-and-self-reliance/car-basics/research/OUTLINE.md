@@ -595,8 +595,9 @@ want to fill:
   first", is the rule for every contested block (lessons 8, 17, 22, 24).
 - **Energy: How the World Is Powered** (Term 9, planned) owns the case for or against electric cars.
   **This course takes no side on whether to buy an EV, a hybrid or a diesel.** The one purchasing remark
-  the sources support (the AA and RAC advise against a DPF diesel for mainly short urban trips) is
-  attributed to them.
+  the sources support (the AA advises against a DPF diesel for mainly town stop-start use; the RAC only
+  reports that makers often recommend petrol or electric for short-hop drivers) is attributed to them
+  [corrected 2026-09-26, Stage 4 lesson 03].
 - **Emergency Preparedness** (Term 24, planned) owns the household emergency kit; this course keeps
   the car's kit (Rule 228's winter list; National Highways' list).
 - **A driving course** does not exist (see "Left out").
@@ -902,19 +903,26 @@ file (the project), so the project assembles itself.
   fail the test.
 - **Core ideas:** DVSA and DfT's guidance note (what a DPF is; regeneration, "burning the soot to gas at
   a very high temperature"; revised 4 December 2013; its 2013 health figures not used). **The driving
-  pattern**: the RAC and the AA (both commercial): "Short journeys at low speeds are the prime cause";
-  both give about 10 minutes above 40 mph to clear the light, where it is legal and safe; active
+  pattern**: the RAC (commercial): "Short journeys at low speeds are the prime cause" [corrected
+  2026-09-26, Stage 4 lesson 03: the RAC's sentence alone, not the AA's]; the RAC and the AA both give about 10 minutes above 40 mph to clear the light, where it is legal and safe; active
   regeneration "every 300 miles or so" (the AA); low fuel under about a quarter prevents it (the AA);
   restricted-performance mode (the AA); some oils can block filters (the RAC; the handbook's grade);
   ash cannot be burnt off (the AA). **AdBlue**: "not a fuel additive", "not actually blue at all",
   a trade name (the AA); a separate tank; the early warning "around 1500 miles"; you "won't be able to
-  restart" if it runs out; "a litre of AdBlue every 600 miles" as typical; in the fuel tank: "Don't turn
-  on the ignition or start the engine" and call for help (all the AA's). **US**: DEF is mainly a truck
+  restart" if it runs out; "a litre of AdBlue every 600 miles" as typical; in the fuel tank: "don't touch
+  the ignition" and have the tank drained; diesel in the AdBlue tank: "Don't turn on the ignition or
+  start the engine" and call for help (all the AA's) [corrected 2026-09-26, Stage 4 lesson 03: the
+  "Don't turn on" line sits under the AA's diesel-in-the-AdBlue-tank heading; SOURCES "Gate closures,
+  lesson 03"]. **US**: DEF is mainly a truck
   and heavy-pickup matter and diesel cars are rare (Part A (d)); EPA's derate facts with the page's
-  date and the MY2027 rule (G-H11), not its framing. **The MOT**: DPF presence since February 2014;
+  date and the MY2027 rule (G-H11), not its framing [2026-09-26, Stage 4 lesson 03: the MY2027 rule is
+  heavy-duty only on EPA's page, and EPA proposed on 14 July 2026 to replace derates on new vehicles
+  with warnings; SOURCES "Stage 4 note, lesson 03"]. **The MOT**: DPF presence since February 2014;
   tampering and visible smoke from a DPF-equipped car are Major (Part A §5, MOT manual section 8).
   **The law**: C&U reg 61A(3) (via the DVSA note; re-read live, decision 9) and 42 U.S.C. 7522(a)(3).
-  **Buying**: the AA and RAC advise against a DPF diesel for mainly short urban trips, attributed;
+  **Buying**: the AA advises against a DPF diesel for mainly town stop-start use, attributed [corrected
+  2026-09-26, Stage 4 lesson 03: the RAC gives no buying advice in its own voice, only a claim about
+  what car makers recommend];
   the course takes no side.
 - **Mechanism to explain:** a filter that traps soot and must burn it off at high temperature, which a
   cold, short trip never reaches (DVSA's sentence; the RAC and AA on speed and duration); SCR turning

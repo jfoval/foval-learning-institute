@@ -829,7 +829,7 @@ https://afdc.energy.gov/vehicles/electric-maintenance
 Read: full text, curl plus stripper. No date.
 What it establishes:
 - The honest version of "EVs need no maintenance": "PHEVs and HEVs require the same general maintenance as conventional vehicles, but all-electric vehicles require less maintenance because they have fewer moving parts and fluids to change." [V]
-- Why less: "The battery, motor, and associated electronics require little to no regular maintenance" [V]; "There are fewer fluids, such as engine oil, that require regular maintenance" [V]; "Brake wear is significantly reduced due to regenerative braking" [V].
+- Why less: "The battery, motor, and associated electronics require little to no regular maintenance" [V]; "There are fewer fluids, such as engine oil, that require regular maintenance" [V]; "Brake wear is significantly reduced due to regenerative braking" [V]. [Stage 4 note, lesson 04, 2026-09-26: the page's list has a fourth reason, "There are far fewer moving parts relative to a conventional fuel engine." [V]; do not call the list three reasons. These are for all-electric cars; for hybrids see the lesson 04 note at the end of this file.]
 - Battery coolant: "Some automotive battery systems use liquid coolant to maintain safe operating temperatures. These systems may require regular checks." [V]
 - Battery warranty: "many manufacturers offer 8-year/100,000-mile warranties for their EV batteries." [V]
 - Voltage: "All-electric vehicles, PHEVs, and HEVs have high-voltage electrical systems that typically range from 400 to 1,000 volts." [V] Caution: this is too sweeping for 48 V mild hybrids and for older hybrids around 200 to 300 V. Say "several hundred volts in most hybrids and EVs" and cite a maker for any specific figure.
@@ -865,7 +865,7 @@ What it establishes:
 - "96% of EV breakdowns have nothing to do with battery range." [V] (Edmund King, AA president.)
 - The two-battery point in a patrol's words: "In EVs it's similar, but it starts the onboard computer system. A separate, high voltage battery powers the vehicle." [V]
 - Date the figures: they are 2021 and from one breakdown provider's call-outs.
-Good for: the EV misconception lesson; the breakdown lesson (the 12 V battery is still the commonest failure).
+Good for: the EV misconception lesson; the breakdown lesson (the 12 V battery and tyre faults are the "top two", unranked between themselves). [Stage 4 correction, lesson 04, 2026-09-26: this line said "the 12 V battery is still the commonest failure". The release names a "top two" and does not rank them; no lesson may say the 12 V battery comes first. It also says running out of charge "doesn't feature within the top three EV breakdown causes" [V].]
 
 ### 3. The chassis and the rest of the car
 
@@ -1067,7 +1067,7 @@ What it establishes:
 - Running out: "Once you've stopped, you won't be able to restart the engine if the AdBlue tank's empty." [V] Warning comes early: "around 1500 miles' worth of AdBlue left." [V]
 - Refill: "5 litres should be enough to make sure your car will restart if you've run out completely" [V].
 - Consumption: "Typical consumption is around a litre of AdBlue every 600 miles." [V] "you could need to refill somewhere between 3,000 and 12,000 miles" [V].
-- Wrong-tank action: "Don't turn on the ignition or start the engine and call us for help." [V]
+- Wrong-tank action: "Don't turn on the ignition or start the engine and call us for help." [V] **[Corrected 2026-09-26, Stage 4 note, lesson 03: this line sits under "What happens if I put diesel in the AdBlue tank?", so it is the AA's advice for diesel in the AdBlue tank. For AdBlue in the fuel tank the AA says "...so don't touch the ignition." and "You'll need to get the tank drained and the contents disposed of safely before you can refill it." See "Gate closures, lesson 03".]**
 - Which cars: "If you've got a diesel from Jaguar, Land Rover or any French or German manufacturer, and it was registered new after September 2015, it'll use AdBlue." [V] This is a generalisation; check the handbook.
 - Error on the page: it says spilled AdBlue forms "uric acid crystals" [V]. Urea is not uric acid. Say "white crystals".
 Good for: the diesel lesson and the warning-lights lesson.
@@ -1169,7 +1169,7 @@ Good for: the battery lesson (short trips), the fuel-economy lesson (roof boxes,
 https://www.fueleconomy.gov/feg/coldweather.shtml and https://www.fueleconomy.gov/feg/hotweather.shtml
 Read: full body text of both.
 What they establish:
-- Cold: "a conventional gasoline car's gas mileage is roughly 15% lower at 20°F than it would be at 77°F. It can drop as much as 24% for short (3- to 4-mile) trips." [V] Hybrids "can drop about 30% to 34%" [V]. EVs: "fuel economy can drop roughly 39% in mixed city and highway driving, and range can drop by 41%. About two-thirds of the extra energy consumed is used to heat the cabin." [V] (EV figures from a 2019 AAA test.)
+- Cold: "a conventional gasoline car's gas mileage is roughly 15% lower at 20°F than it would be at 77°F. It can drop as much as 24% for short (3- to 4-mile) trips." [V] Hybrids "can drop about 30% to 34%" [V]. EVs: "fuel economy can drop roughly 39% in mixed city and highway driving, and range can drop by 41%. About two-thirds of the extra energy consumed is used to heat the cabin." [V] (EV figures from a 2019 AAA test.) [Stage 4 note, lesson 04, 2026-09-26: the page's cold figures are at 20°F against 77°F (75°F in the EV no-heater line); print the temperature with the figure. More in the lesson 04 note at the end of this file.]
 - Warm-up, again: warming up before a trip lowers fuel economy because "idling gets 0 miles per gallon" [V] and "Most manufacturers recommend driving off gently after about 30 seconds." [V]
 - Cold and tyres: "Tire pressure decreases in colder temperatures, increasing rolling resistance." [V]
 - Cold and the 12 V battery: "Battery performance decreases in cold weather, making it harder for your alternator to keep your battery charged." [V]
@@ -1633,6 +1633,7 @@ What it establishes:
 - "When you start your vehicle it is quite normal for warning lights to illuminate briefly before switching off again." [V]
 - Battery light: "You should not drive if the battery warning light is on. It may result in a break down caused by a sudden power failure." [V]
 - Oil light: "If the low engine oil light is on then you should stop as soon as safely possible and switch off the engine." [V]
+- Oil light, two sentences earlier (added by the lesson 02 Stage 4 fixer, re-read live 26 September 2026): "The oil warning light comes on when either the oil temperature gets too high or the oil level or pressure is too low. If the oil is not lubricating the engine effectively it could lead to expensive or even irreparable engine damage, so it's important to act quickly." [V] This names oil's job (lubricating); it does not explain the mechanism, so G-H12 stays open.
 - Temperature light: "If the red engine temperature warning light is on, you should stop straight away" [V]; but then "If you can't see any and the light goes off after topping up then you should be fine to continue your journey." [V] (so "red means call recovery" is softened on the same page).
 - Brake light: "you should not drive if you see a red car warning light." [V]
 Good for: the plain-English colour rule in the UK.
@@ -1739,7 +1740,7 @@ Good for: signs of failure; seasonal battery lesson.
 What it establishes:
 - "The EV system uses high voltage up to approximately DC 400 volt." [V]
 - "Never disassemble, remove or replace high-voltage parts and cables as well as their connectors because they can cause severe burns or electric shock that may result in serious injury or death. High-voltage cables are colored orange. The vehicle high voltage system has no user serviceable parts." [V] (p. EV-8; repeated p. 8-2)
-- "Your vehicle is equipped with an automatic cooling fan. It may come on at any time without warning" [V] (p. 8-2).
+- "Your vehicle is equipped with an automatic cooling fan. It may come on at any time without warning" [V] (p. 8-2). [Stage 4 correction, lesson 04, 2026-09-26: the sentence continues "even if the power switch is not in the ACC, ON or READY to drive position." [V, p. 8-2, read on the PDF]. Quote it whole: the dropped clause is the one that says a switched-off car can still start its fan.]
 Good for: what an owner must not touch.
 
 #### Ford, 2024 Maverick Owner's Manual, "High Voltage Battery Precautions" p. 184 and crash/fire pp. 283 to 284
@@ -1882,7 +1883,7 @@ What it establishes:
 - Snow tyres: "Consider installing snow tires" [V].
 - Stranded: "Make sure your exhaust pipe is clear of any snow and run your car only sporadically" [V] (carbon monoxide).
 - Floor mats: "Improperly installed floor mats in your vehicle could interfere with the operation of the accelerator or brake pedal" [V].
-- EVs: "A common way to do this is plugging your vehicle in at night during the winter" [V] (to keep the battery warm).
+- EVs: "A common way to do this is plugging your vehicle in at night during the winter" [V]. [Stage 4 correction, lesson 04, 2026-09-26: the gloss "(to keep the battery warm)" hid the antecedent. "This" is the preceding sentence: "The battery drain due to heating can be minimized by keeping your electric vehicle as warm as possible during freezing temperatures." [V] The page says most batteries use their own charge to heat themselves in the cold; the point of plugging in is to cut that drain. The source's next clause follows a spaced en dash; split before it.]
 - Statistic: "In 2023 there were 320 fatal traffic crashes, and an estimated 22,293 injury crashes that occurred when there was snow/sleet conditions at the time of the crash." [V]
 Good for: US winter checks; EV in cold.
 
@@ -4248,7 +4249,10 @@ engines) were **not** closed: nothing read explains either, and lesson 2 writes 
   (alt text, flattened): **city** (EPA FTP-75), "Engine Losses: 71% - 75%", "Energy to Wheels: 14% -
   20%", "Drivetrain Losses: 4% to 5%", "Parasitic Losses: 5% - 7%"; **highway** (EPA HWFET, "average
   speed of about 48 mph and no intermediate stops" [V]), "Engine Losses: 64% - 69%", "Energy to
-  Wheels: 22% - 30%", "Drivetrain Losses: 3% to 5%", "Parasitic Losses: 3% - 4%". The combined
+  Wheels: 22% - 30%", "Drivetrain Losses: 3% to 5%", "Parasitic Losses: 3% - 4%"; and on both, "Auxiliary Electrical Losses: 0% - 2%" [V] (added at
+  Stage 4, lesson 02: this entry first left that row out), with "Idle Losses: 0%" on both, and the
+  city image's alt text adding "In this figure, idle losses are accounted for as part of the engine
+  and parasitic losses." [V]. The combined
   diagram gives energy to wheels as "18% to 25%" in one label and "16% - 25%" in another, so the
   combined figures are not used.
 - **fueleconomy.gov, "Diesel Vehicles"**. Re-read; Part A quotations stand. The sentence continues:
@@ -4283,7 +4287,11 @@ engines) were **not** closed: nothing read explains either, and lesson 2 writes 
   further, serious damage to the rest of the vehicle, resulting in costly repairs and potential engine
   failure." [V]; "If it fails it could result in catastrophic damage to the engine." [V]; the page
   lists five signs (misfire, poor idling, unusual noises, difficulty starting, a cracked or frayed
-  belt) directly before "Many cambelts show no obvious symptoms before failure." [V]; "Regardless of
+  belt), introduced by "This is why it is important to look out for the 5 signs of cambelt failure."
+  [V] and followed by "If you're experiencing any of these symptoms, it's important to have your
+  vehicle checked as soon as possible by a qualified mechanic." [V], and only then "Many cambelts show
+  no obvious symptoms before failure." [V] (corrected at Stage 4, lesson 02: this entry first said the
+  list came "directly before" that line); "Regardless of
   the cost, it's important to have a cambelt change done at the manufacturer's recommended interval."
   [V]; "However, if you ask your local mechanic to check the cambelt at the annual service then they
   should inform you of any problems." [V]. Its naming sentence contains a spaced en dash and is
@@ -4432,3 +4440,470 @@ The callout keeps "Great Britain" (OUTLINE decision 4's fallback).
 
 **G-N4 (photographs), lesson 1: not closed.** A Wikimedia Commons search found no openly licensed
 photograph of a tyre placard. The lesson has no photograph.
+
+## Stage 4 note, lesson 04 (2026-09-26)
+
+Read by the lesson 04 reviewer on 2026-09-26 with curl and a browser User-Agent (no personal data in any
+header), and the AFDC, fueleconomy.gov and AA strings re-checked by the lesson 04 fixer the same day.
+Captures: NHTSA "Electric and Hybrid Vehicles" IA 20260924154857; NHTSA "Winter Weather Driving Tips" IA
+20260812080428; EST IA 20260731174146; Tesla Model 3 UK IA 20241004175445; Ford 2024 Maverick IA
+20250505042038. Nissan 2024 LEAF read on the live PDF. In-place corrections made the same day, each marked
+"Stage 4 correction, lesson 04": Part A §2 the AA's Good-for line (the "top two" is not ranked); Part A §2
+AFDC maintenance (four reasons, not three); Part A §6 fueleconomy.gov cold (the temperatures); Part B §5
+Nissan p. 8-2 (the fan sentence was trimmed); Part B §6 NHTSA winter (the gloss hid the antecedent).
+
+**Additions, all [V]:**
+- AFDC, "Hybrid Electric Vehicles" (basics): "The vehicle captures energy normally lost during braking by
+  using the electric motor as a generator and storing the captured energy in the battery." [V] Mild
+  hybrids "can allow the engine to shut off when the vehicle stops (such as at traffic lights or in
+  stop-and-go traffic)" [V].
+- AFDC, "How Do Plug-In Hybrid Electric Cars Work?": "PHEV batteries can be charged using a wall outlet or
+  charging equipment, by the ICE, or through regenerative braking." [V] AFDC, "Plug-In Hybrid Electric
+  Vehicles" (basics): "During braking, the electric motor acts as a generator, using the energy to charge
+  the battery, thereby recapturing energy that would have been lost." [V] Series design: "The internal
+  combustion engine is used to generate electricity for the motor." [V] So a plug-in's traction battery
+  is charged by the plug, the engine and braking, not the plug alone. The same PHEV basics paragraph
+  qualifies "only": "The electric motor drives the wheels almost all of the time, but the vehicle can
+  switch to work like a parallel hybrid at highway speeds when the battery is depleted." [V, read by the
+  lesson 04 fixer] So never say a series plug-in's engine never turns the wheels.
+- AFDC, "How Do All-Electric Cars Work?": "Transmission (electric): The transmission transfers mechanical
+  power from the electric traction motor to drive the wheels." [V] No source read describes it further;
+  Halderman and Ward's contents list a chapter "EV and HEV Transmissions" (contents only).
+- AFDC charging: DC fast charging equipment is "(typically a three-phase AC input)" [V].
+- AFDC maintenance, hybrids: "The electrical system (battery, motor, and associated electronics) typically
+  requires minimal scheduled maintenance, and brake systems generally last longer than those on
+  conventional vehicles because of regenerative braking." [V] Fourth all-electric reason: "There are far
+  fewer moving parts relative to a conventional fuel engine." [V]
+- fueleconomy.gov, "Tips for Hybrids, Plug-in Hybrids, and Electric Vehicles", under "Avoid Hard
+  Braking": "Anticipate stops and brake gently or moderately. This allows the regenerative braking system
+  to recover energy from the vehicle's forward motion and store it as electricity. Hard braking causes the
+  vehicle to use its conventional friction brakes, which do not recover energy." [V]
+- fueleconomy.gov, "All-Electric Vehicles": the page itself sets its 77% beside "Conventional gasoline
+  vehicles only convert about 12%–30% of the energy stored in gasoline to power at the wheels." [V]
+- fueleconomy.gov, "Fuel Economy in Cold Weather": the conventional figure is "at 20°F than it would be at
+  77°F" [V]; the hybrid figure applies "under these conditions" [V]; "Estimates for EVs are based on a
+  2019 study by AAA" [V]; "This also affects the performance of the regenerative braking system on
+  hybrids, plug-in hybrids, and electric vehicles." [V]; "When the cabin heater is not used, EV fuel
+  economy is 8% lower at 20°F than at 75°F. Driving range is about 12% lower." [V] The page names the AAA
+  study in a parenthesis; lessons keep to "a 2019 AAA test, as fueleconomy.gov reports it".
+- NHTSA winter (IA 20260812080428): "The battery drain due to heating can be minimized by keeping your
+  electric vehicle as warm as possible during freezing temperatures." [V]
+- The AA, 23 July 2021: "it doesn't feature within the top three EV breakdown causes" [V] (running out of
+  charge); the patrol's antecedent sentence, "In conventional cars, the low voltage battery starts the
+  engine when you turn the ignition" [V] (Ben Sheridan, AA Patrol of the Year).
+- Nissan 2024 LEAF (US), p. 8-2: "It may come on at any time without warning, even if the power switch is
+  not in the ACC, ON or READY to drive position." [V] p. 9-4 lists among no-start causes "Vehicle is not
+  driven regularly and/or only driven short distances." [V]
+
+**Vocabulary, checked:** "traction battery" is AFDC's word (and NHTSA's once). It appears 0 times in the
+Nissan LEAF manual, the Ford Maverick manual and the AA release: Nissan says "Li-ion battery", Ford and the
+AA "high voltage battery". Do not say handbooks or breakdown services use "traction".
+
+**Verified strings (checked 2026-09-26 against the primary named), beyond those above:**
+- AFDC all-electric: "manages the flow of electrical energy delivered by the traction battery, controlling
+  the speed of the electric traction motor and the torque it produces."; "Some vehicles use motor
+  generators that perform both the drive and regeneration functions."; "Takes the incoming AC electricity
+  supplied via the charge port and converts it to DC power for charging the traction battery."; "converts
+  higher-voltage DC power from the traction battery pack to the lower-voltage DC power needed to run
+  vehicle accessories and recharge the auxiliary battery."
+- AFDC hybrid and HEV basics: "A hybrid electric vehicle cannot be plugged in to charge the battery.
+  Instead, the battery is charged through regenerative braking and by the internal combustion engine.";
+  "the low-voltage auxiliary battery provides electricity to start the car before the traction battery is
+  engaged; it also powers vehicle accessories."; "Mild hybrid systems cannot power the vehicle using
+  electricity alone."; "larger batteries and more powerful electric motors, which can power the vehicle
+  for short distances and at low speeds."; "the most common HEV design"; "Series hybrids, which use only
+  the electric motor to drive the wheels, are more commonly found in plug-in hybrid electric vehicles."
+- AFDC plug-in and PHEV basics: "The vehicle typically runs on electric power until the battery is nearly
+  depleted, and then the car automatically switches over to use the ICE."; "about 15 to 60-plus miles in
+  current models"; "if the vehicle is never plugged in to charge, fuel economy will be about the same as a
+  similarly sized hybrid electric vehicle."; "consistently charging the vehicle is the best way to maximize
+  the electric benefits."; "often referred to as extended-range electric vehicles."
+- AFDC charging: "a 120 volt (V) AC plug"; "Approximately 5 miles of range per 1 hour of charging";
+  "Assumes 1.9 kW charging power"; "240 V (typical in residential applications) or 208 V (typical in
+  commercial applications)"; "2.9 to 19.2 kW"; "Most residential Level 2 chargers operate at up to 30 Amps,
+  delivering 7.2 kW of power. These units require a dedicated 40-Amp circuit to comply with the National
+  Electric Code requirements in Article 625."; "Approximately 100 to 200+ miles of range per 30 minutes of
+  charging"; "up to 500 kW. This is also referred to as Level 3 charging."
+- AFDC maintenance: "PHEVs and HEVs require the same general maintenance as conventional vehicles, but
+  all-electric vehicles require less maintenance because they have fewer moving parts and fluids to
+  change."; "use liquid coolant to maintain safe operating temperatures. These systems may require regular
+  checks."; "typically range from 400 to 1,000 volts"; "many manufacturers offer 8-year/100,000-mile
+  warranties for their EV batteries."
+- AFDC batteries: "could have at least 70% of its initial capacity left at the end of its life if it has
+  not failed or been damaged".
+- fueleconomy.gov: "uses the forward motion of the wheels to turn the motor. This generates electricity and
+  helps slow the vehicle." (hybridtech); "EVs convert over 77% of the electrical energy from the grid to
+  power at the wheels." and "a DOE study suggests these batteries may last 12 to 15 years in moderate
+  climates and 8 to 12 years in severe climates." (evtech); "Only about 12%–30% of the energy from the fuel
+  you put in a conventional vehicle is used to move it down the road, depending on the drive cycle." (atv);
+  "fuel economy can drop roughly 39% in mixed city and highway driving, and range can drop by 41%. About
+  two-thirds of the extra energy consumed is used to heat the cabin."; "about 30% to 34%"; "preheating the
+  cabin while plugged into the charger can extend your vehicle's range."; "making it harder for your
+  alternator to keep your battery charged" (coldweather).
+- NHTSA EV (IA 20260924154857): "This high-voltage battery is very different from a vehicle's 12-volt
+  battery that powers lighting and instrumentation systems."; "Typically, fully electric and many
+  hybrid-electric vehicles do not use a conventional alternator to recharge the 12-volt battery. Instead,
+  these vehicles use a DC-DC converter to step high-voltage from the battery pack down to low-voltage";
+  "The high-voltage battery found in EVs and HEVs cannot be jumped."; "It is important that a qualified
+  technician with specialized EV-specific high-voltage training service your electric vehicle."
+- NHTSA winter (IA 20260812080428): "In cold weather, gasoline and diesel engines take more battery power
+  to start, and electric and hybrid-electric vehicles' driving range can be reduced." (curly apostrophe in
+  the source); "A common way to do this is plugging your vehicle in at night during the winter".
+- The AA, 23 July 2021: "the low-voltage 12v battery which can be found in all cars, and tyre faults due to
+  potholes, punctures and wear."; "The third relates to charging equipment (cable, plug)."; "96% of EV
+  breakdowns have nothing to do with battery range." (Edmund King, AA president); "In EVs it's similar, but
+  it starts the onboard computer system. A separate, high voltage battery powers the vehicle." (Ben
+  Sheridan).
+- Nissan 2024 LEAF (US), on the PDF: EV-8 "The EV system uses high voltage up to approximately DC 400 volt"
+  and "High-voltage cables are colored orange. The vehicle high voltage system has no user serviceable
+  parts."; 2-16 "Immediately stop the vehicle in a safe location and have the system checked."; 6-10
+  "Jump starting does not charge the Li-ion battery. The Li-ion battery must be charged before the vehicle
+  can be driven."; 6-11 "LEAF cannot be used as a booster vehicle because it cannot supply enough power to
+  start a gasoline engine."; 8-6 "Check the coolant level in the reservoir when the high-voltage parts are
+  cold". Pages 9-3 and 9-4 list lights, tires, wiper blades, wiper and washer, the 12-volt battery, brake
+  fluid level (MAX and MIN lines) and coolant level (MAX and MIN lines).
+- Ford 2024 Maverick, p. 184: "labeled as such or covered with a solid orange convolute, or orange striped
+  tape, or both."; "This battery pack should only be serviced by an authorized electric vehicle
+  technician."; "If you do not switch the ignition off, the engine could restart at any time."
+- MOT manual Introduction §20 (GOV.UK, updated 1 June 2026): "some imported vehicles may have high voltage
+  wiring insulation of a different colour"; "Many mild hybrids only use 48V systems which may use blue
+  coloured insulation, rather than orange, as these are not regarded as being high voltage"; "the internal
+  combustion engine may start without warning when electrical equipment is operated or if the battery
+  voltage drops."
+- ASE 2024 standards glossary: "Automotive system voltages greater than 30 VAC or 60 VDC."
+- EST (IA 20260731174146): "use the higher levels of regen once you're comfortable to do so." (curly
+  apostrophe in the source).
+- ESF: "The safest way to charge at home is with a dedicated EVCP"; "a registered and competent
+  electrician".
+- Tesla Model 3 UK (IA 20241004175445): "The motor(s) in Model 3 generates power when the wheels spin.
+  Always transport Model 3 with all four tires off the ground."
+
+## Stage 4 note, lesson 03 (2026-09-26)
+
+**Gate closure (G-H11, currency): EPA's July 2026 proposal.** US EPA, "Proposed Rule: Amendments and
+Nonconformance Penalties for Model Year 2027 and Later Heavy-Duty Highway Engines and Amendments to
+Inducement Provisions for SCR-Equipped Diesel Engines",
+https://www.epa.gov/regulations-emissions-vehicles-and-engines/proposed-rule-amendments-and-nonconformance-penalties
+("Last updated on August 31, 2026" [V]). Read: the rule summary in full, curl, 26 September 2026. The
+Notice of Proposed Rule itself (Federal Register PDF) was not read. Docket EPA-HQ-OAR-2026-0728 [V].
+- "On July 14, 2026, the U.S. Environmental Protection Agency published proposed regulatory
+  amendments" [V]; "announced on July 9, 2026, and published on July 14, 2026, in the Federal
+  Register" [V].
+- "The proposal would replace the requirement for engine derates and vehicle speed reductions with
+  audible and/or visible notifications for newly manufactured diesel-fueled highway engines and
+  vehicles (i.e., light-duty and medium-duty vehicles and heavy-duty engines) and nonroad engines and
+  equipment." [V]
+- "EPA is also considering a process to issue updated guidance that would allow manufacturers to modify
+  in-use engines and vehicles" [V].
+- The comment period "ended on August 29, 2026." [V] No final rule is listed on the page.
+- The EPA DEF page (re-read today, "Last updated on July 9, 2026" [V]) scopes the 2022 rule narrowly:
+  "In 2022, EPA finalized a revised inducement strategy, starting with model year 2027 heavy-duty
+  on-highway vehicles and engines." [V] So Part A §5's fact-sheet line "Starting with model year (MY)
+  2027, all new on-road diesel vehicles must be engineered..." is a 2025 fact sheet's forecast, not the
+  settled position; a lesson uses the DEF page's heavy-duty wording and the 2026 proposal, dated.
+- EPA 420-F-26-006 (March 2026, per the lesson 03 reviewer): "EPA will be issuing a new deregulatory
+  proposal this spring that will completely remove all DEF deratements for new vehicles and engines."
+  [V, reviewer's read]. Framing not for use. The proposed-rule page links a "Timeline of Trump EPA DEF
+  Actions and Guidance"; not read, and its framing not for use.
+
+**Corrections to earlier entries.**
+- Part A §5, the AA's "What is AdBlue?": the "Wrong-tank action" line is diesel-in-the-AdBlue-tank
+  advice, not AdBlue-in-the-fuel-tank advice. Corrected in place with a marker; "Gate closures, lesson
+  03" has the full reading. The podcast script and the course test (OUTLINE assessments, "AdBlue in the
+  fuel tank") use "don't touch the ignition" and a drained tank for that case.
+- "Short journeys at low speeds are the prime cause of blocked diesel particulate filters." is the
+  RAC's sentence alone (Part A §5 files it correctly under the RAC). OUTLINE's lesson 3 entry had
+  credited it to the RAC and the AA; corrected there with a dated note. The RAC gives no buying advice
+  in its own voice; "This is why car makers often go as far as recommending city-bound or short-hop
+  drivers choose a petrol or electric car instead of diesel." [V] is its claim about makers, and no
+  maker's statement was read.
+- The DVSA note's health figures come from the 2008 COMEAP report, not from 2013.
+
+**Verified strings, live primaries, 26 September 2026** (the lesson 03 reviewer's re-reads; the EPA
+proposed-rule page re-read by the fixer).
+- The AA, "What is AdBlue?" ("Published: 05 January 2017 | Updated: 11 July 2024"): "AdBlue is a
+  diesel exhaust fluid, not a fuel additive. It's stored in a separate tank"; "(usually) blue filler
+  cap"; "AdBlue is a colourless, non-toxic mixture of urea and de-ionised water. It's not actually blue
+  at all."; "It's a trade name registered by the German car manufacturers association"; "You'll
+  usually see a text warning on the dashboard when there's around 1500 miles' worth of AdBlue left.";
+  "If you run out of AdBlue while you're driving, then the engine's power and performance will be
+  reduced to limit its emissions. Once you've stopped, you won't be able to restart the engine if the
+  AdBlue tank's empty."; "Typical consumption is around a litre of AdBlue every 600 miles."; "But it
+  could be as high as a litre every 350 miles."; "you could need to refill somewhere between 3,000 and
+  12,000 miles"; "You can refill the Adblue tank yourself."; "Follow any instructions given in your
+  handbook or on the pack" (in a list introduced by "If you can't find the Adblue filler cap you
+  should:"); "5 litres should be enough to make sure your car will restart if you've run out
+  completely"; "AdBlue is non-toxic but can cause irritation to your skin and eyes and may damage the
+  paintwork"; "These crystals will cause damage over time."; under "What happens if I put AdBlue in
+  the diesel tank?": "Putting it directly into your fuel tank could cause expensive damage to your
+  fuel tank, pump and injection system. If you start the engine it's likely to be an expensive
+  write-off, so don't touch the ignition." and "You'll need to get the tank drained and the contents
+  disposed of safely before you can refill it. Call us, and we'll sort the problem out."; under "What
+  happens if I put diesel in the AdBlue tank?": "Don't turn on the ignition or start the engine and
+  call us for help." and "If you do start your engine, then the damage could mean that you have to get
+  the entire Selective Catalytic Reduction and AdBlue injection system replaced."; "If you've got a
+  diesel from Jaguar, Land Rover or any French or German manufacturer, and it was registered new after
+  September 2015, it'll use AdBlue."; "However, some older cars or vehicles from other manufacturers
+  use it."
+- The AA, "Diesel particulate filters" ("updated 7 August 2017"): "our patrols are often called to
+  cars with a blocked DPF"; "on motorways or fast A-roads"; "leaving only a tiny ash residue"; "The ash
+  can't be removed – unless the DPF is removed from the vehicle and sent away for specialist cleaning –
+  but a DPF in a car used correctly should be good for well over 100,000 miles."; "every 300 miles or
+  so depending on how you use your car and will take 5 to 10 minutes to complete"; "A hot, acrid smell
+  from the exhaust."; "by driving for 10 minutes or so at speeds over 40mph"; "in a relatively slow,
+  stop/start pattern"; "'restricted performance mode'"; "Driving at speed alone won't be enough.";
+  "You'll have to get a dealer to do a manual or 'forced' filter regeneration."; "If there's a fault
+  with the DPF or the differential pressure sensor ... the engine management light might also come
+  on."; "mainly for town-based, stop/start driving you'd be wise to avoid diesels fitted with a
+  particulate filter"; "Follow any advice in your vehicle handbook."; "Frequent short journeys where
+  the engine doesn't get hot"; "The wrong type of engine oil – check your handbook"; "Going over the
+  recommended service interval"; "Low fuel level – generally less than a quarter of a tank – will
+  prevent active regeneration taking place."; "Removing a DPF could also invalidate any insurance cover
+  because it makes the vehicle illegal for road use."
+- The RAC, DPF page (dateModified 2026-08-03), article body only: "Short journeys at low speeds are the
+  prime cause of blocked diesel particulate filters."; "regularly give their diesel vehicle a good 30
+  to 50 minute run at sustained speed on a motorway or A-road to help clear the filter"; "(normally
+  about 45%)"; "the regeneration process may not complete fully"; "driving for 10 minutes or so at
+  speeds greater than 40mph"; "some oils contain additives that can actually block filters"; "the car
+  may avoid DPF regeneration in order to save fuel"; "generally, they should last for at least 100,000
+  miles" (after "A diesel particulate filter on a poorly serviced car may fail sooner"); "a piped box
+  that has dots in the middle"; "'limp-home mode'"; "On some models the engine may not restart after a
+  number of miles"; "If your warning light continues to stay on, turns red, or additional DPF lights
+  come on, do not leave it too long before getting it checked out."; "There is no need to call out the
+  RAC if your DPF warning light is glowing."; "if it fails to extinguish, take your car to a garage";
+  "removing a DPF can also invalidate your car insurance policy".
+- C&U Regs 1986 reg 61A (E+W+S): 61A(1) "This regulation shall apply to motor vehicles first used on
+  or after 1st January 2001."; 61A(3) "no person shall use, or cause or permit to be used, on a road a
+  motor vehicle if the motor vehicle does not comply with such limit values as may apply to it";
+  61A(3)(a) "the failure to meet the limit values does not result from an alteration to the propulsion
+  unit or exhaust system of the motor vehicle"; 61A(4) "nothing in paragraph (3) shall prevent the
+  motor vehicle being driven to a place where the device is to be repaired or replaced."; "There are
+  currently no known outstanding effects".
+- DVSA and DfT note (first published 24 September 2013, revised 4 December 2013): "by trapping solid
+  particles while letting gaseous components escape"; "has led to some diesel vehicle owners removing
+  their DPFs"; "might still pass"; "It is an offence ... (Regulation 61a(3)) to use a vehicle which has
+  been modified in such a way that it no longer complies with the air pollutant emissions standards it
+  was designed to meet. Removal of a DPF will almost invariably contravene these requirements, making
+  the vehicle illegal for road use."; "The potential penalties for failing to comply with Regulation
+  61a are fines of up to £1,000 for a car or £2,500 for a light goods vehicle."
+- MOT inspection manual section 8 (section 24 June 2025; manual 1 June 2026, "MOT inspection manual:
+  cars and passenger vehicles"): "Evidence that the diesel particulate filter has been tampered with"
+  (Major); "Exhaust on a vehicle fitted with a diesel particulate filter emits visible smoke of any
+  colour" (Major); "If a diesel particulate filter has clearly been cut open and rewelded, you should
+  reject it unless the vehicle presenter can show evidence that there was a valid reason to cut it
+  open, such as for filter cleaning."
+- EPA DEF page ("Last updated on July 9, 2026"): "farmers, truckers, and other diesel vehicle
+  operators"; "These systems can force a vehicle to drastically reduce speed or become inoperable if
+  DEF runs out or if system sensors fail."; "By law, EPA cannot mandate field fixes for in-use vehicles
+  and nonroad equipment, which is why the Agency is issuing voluntary guidance ..."; "alert the driver
+  via a warning light".
+- EPA-420-F-25-011 (August 2025): "EPA is issuing guidance urging engine and equipment manufacturers
+  to revise their DEF system software in existing vehicles and equipment to reduce derates."; "within
+  four hours, the vehicle speed is reduced to five miles per hour"; page 2 read by eye: "HD Pickups and
+  Light Duty Cars", Final "4,200 miles / 80 hours", "45 mph"; Before "4 hours", "5 mph". The table does
+  not say whether the two figures are whichever comes first.
+- 42 U.S.C. 7522 (text in effect 25 September 2026): (a)(3)(A) "knowingly to remove or render
+  inoperative any such device or element of design after such sale and delivery to the ultimate
+  purchaser"; (a)(3)(B) "where a principal effect of the part or component is to bypass, defeat, or
+  render inoperative any device or element of design" and "where the person knows or should know";
+  "for the purpose of repair or replacement of the device or element"; "such action thereafter results
+  in the proper functioning of the device or element"; "Nothing in paragraph (3) shall be construed to
+  require the use of manufacturer parts in maintaining or repairing any motor vehicle or motor vehicle
+  engine."
+- AFDC, "How Do Diesel Vehicles Work?": "ignited by the high temperatures achieved when the gas is
+  compressed by the engine piston."; "an aqueous urea solution"; "reduced to nitrogen and water by
+  chemical conversion within the selective catalytic reducer (SCR)"; "many diesel vehicles have
+  additional aftertreatment components".
+- fueleconomy.gov, "Diesel Vehicles": "Today's diesels must meet the same emissions standards as
+  gasoline vehicles."; "Although emissions of particulates and smog-forming nitrogen oxides (NOx) are
+  still relatively high, new 'clean' diesel fuels ... will reduce these pollutants also." The fixer
+  re-read the page live on 26 September 2026; the full sentence is "Although emissions of
+  particulates and smog-forming nitrogen oxides (NOx) are still relatively high, new "clean" diesel
+  fuels, such as ultra-low sulfur diesel and biodiesel, and advances in emission control technologies
+  will reduce these pollutants also." [V] The page states no comparison for "relatively high".
+
+## Stage 4 note, lesson 02 (2026-09-26)
+
+*Verified strings from the lesson 02 Stage 4 review, each string-matched by the reviewer against the
+live primary on 26 September 2026 (curl, browser user agent, HTML stripped; pdftotext -layout for the
+Toyota PDF). The fixer re-read the RAC cambelt page, the RAC warning-lights page, AFDC's gasoline
+page and fueleconomy.gov's atv.shtml (with every diagram alt and title attribute) the same day.
+Three corrections were made in place above, each marked: the RAC cambelt entry in "Gate closures,
+lesson 02" (the five signs are not "directly before" the no-symptoms line), the atv.shtml entry there
+(the auxiliary electrical row was missing), and Part B §3's RAC warning-lights entry (the
+"lubricating" sentence added).*
+
+- **US DOE, "Internal Combustion Engine Basics"** (dateModified 2023-06-22): "the basic chemical
+  process of releasing energy from a fuel and air mixture" [V]; "Most of these are four-stroke cycle
+  engines, meaning four piston strokes are needed to complete a cycle. The cycle includes four
+  distinct processes: intake, compression, combustion and power stroke, and exhaust." [V]; "In a
+  spark ignition engine, the fuel is mixed with air and then inducted into the cylinder during the
+  intake process. After the piston compresses the fuel-air mixture, the spark ignites it, causing
+  combustion." [V]; "In a diesel engine, only air is inducted into the engine and then compressed.
+  Diesel engines then spray the fuel into the hot compressed air at a suitable, measured rate,
+  causing it to ignite." [V]. The engine passage and the two-kinds sentence stand as recorded above.
+- **AFDC, gasoline and diesel pages**: "is injected into either the intake manifold or the combustion
+  chamber, where it is combined with air, and the air/fuel mixture is ignited by the spark from a
+  spark plug." [V] (the page's only mention of the intake manifold; it is not defined); "The ECM
+  controls the fuel mixture, ignition timing, and emissions system; monitors the operation of the
+  vehicle; safeguards the engine from abuse; and detects and troubleshoots problems." [V];
+  "transfers mechanical power from the engine and/or electric traction motor to drive the wheels"
+  [V]; "ignited by the high temperatures achieved when the gas is compressed by the engine piston."
+  [V]. Neither AFDC nor DOE uses the term "direct injection".
+- **fueleconomy.gov, atv.shtml**: diagram labels as corrected above; both diagrams also carry
+  "Auxiliary Electrical Losses: 0% - 2%" [V]. The page's toggles include braking and "Wind
+  Resistance (Aerodynamic Drag)". The matching pages https://www.fueleconomy.gov/feg/atv-hev.shtml
+  and https://www.fueleconomy.gov/feg/atv-ev.shtml exist (HTTP 200) and are linked from atv.shtml;
+  their contents were not read.
+- **fueleconomy.gov, di_diesels**: "diesel fuel contains roughly 10% to 15% more energy than
+  gasoline. So, diesel vehicles can often go about 20% to 35% farther on a gallon of fuel than their
+  gasoline counterparts" [V].
+- **fueleconomy.gov, tech_transmission**: "use a fixed number of metal gears to control the ratio
+  between engine speed and wheel speed." [V]; "Instead of gears, CVTs use a pair of variable-diameter
+  pulleys connected by a belt or chain that can produce an infinite number of engine-to-wheel speed
+  ratios." [V]; table 6 gears 2%, 7 gears 2%–3%, 8 gears 3%–4% (National Academy of Sciences 2015).
+- **fueleconomy.gov, maintain.jsp**: "Energy Conserving" ... "to be sure it contains
+  friction-reducing additives." [V] (the page's phrase is "API performance symbol").
+- **RAC, cambelt page** (dateModified 2026-07-31): "This is why it is important to look out for the 5
+  signs of cambelt failure." [V]; the five sign headings: Engine misfire; Poor idling; Unusual noises;
+  Difficulty starting the engine; Belt is cracked or frayed [V]; in the fifth, "if the cambelt appears
+  cracked or damaged then it's important to get it changed." [V]; then "If you're experiencing any of
+  these symptoms, it's important to have your vehicle checked as soon as possible by a qualified
+  mechanic." [V] (the stripped text has a space before the full stop, from a link); then "Many
+  cambelts show no obvious symptoms before failure." [V]; "Replacement is typically recommended every
+  60,000 to 100,000 miles, but some vehicle manufacturers may suggest the belt is changed when the
+  vehicle reaches five or six years of age" [V]; "The replacement interval for your car's cambelt will
+  be detailed in the owner's manual for the vehicle. This will be after a specific number of years or
+  miles, whichever comes first." [V]; "At your annual MOT, your mechanic will not check your cambelt."
+  [V] (the page links "MOT", which leaves a space before the comma in stripped text).
+- **RAC, warning-lights page** (dateModified 2026-08-18): "If the oil is not lubricating the engine
+  effectively it could lead to expensive or even irreparable engine damage, so it's important to act
+  quickly." [V]. It names the job, not the mechanism: G-H12 stays open.
+- **DENSO Europe, glow-plug page**: "To start combustion within a diesel engine, air is compressed in
+  a cylinder to raise its temperature and pressure, fuel is then added to start the combustion cycle.
+  If the temperature of the air is too low, then some of the fuel that is supplied may not be burnt."
+  [V]; "glow plugs provide extra heat to the air and ensure that the cylinders reach the required
+  temperature for a clean combustion cycle." [V]; "should wait until the light goes out, before
+  starting the engine." [V]; "vehicle manufacturers (VMs) specify changing the glow plugs at specific
+  intervals as part of the vehicle's service schedule" [V]. The page does not mention cold mornings,
+  frost or winter; its light comes on at every start.
+- **The Highway Code, Annex 6** (content API, public_updated_at 2022-01-29): "Most engines are
+  water-cooled." [V]; "If your engine overheats, you should wait until it has cooled naturally." [V].
+- **Toyota 2023 Corolla, OM02568U (US)**, pp. 305 to 307: the quotations in "Gate closures, lesson
+  02" stand; the hot-cap warning sits under "When the engine is hot / Do not remove the engine
+  coolant reservoir cap."
+- **Textbooks** (contents only, Part A §4): Halderman and Ward, 7th ed. (Pearson, 2025), chapters
+  "Engine Oil and Filters" and "Antifreeze and Coolant"; Erjavec and Thompson, 7th ed. (Cengage,
+  2020), chapter "14. Lubricating and Cooling Systems." Match Part A.
+
+## Gate closures, lesson 05 (2026-09-26)
+
+*Read by the lesson 05 drafter on 26 September 2026 with curl and a browser User-Agent (no personal data
+in any header), text extracted with pandoc, pdftotext (-layout and -raw) or the GOV.UK content API.
+Quotations marked [V] were copied from that extracted text. **G-H1 is not closed**: nothing read explains
+how an alternator works, and lesson 5 names it only (decision 14's fallback). Nothing here clears an entry
+on the `unread:` line.*
+
+- **The AA, "What to do if your car has a flat battery"** (https://www.theaa.com/breakdown-cover/advice/flat-battery),
+  "Last updated 11 January 2024" [V]. **Re-read: full article text.** Part B's quotations stand. The same
+  page gives two different life figures: "Most batteries will last somewhere between 5 and 7 years." [V]
+  and, further down, "A car battery could typically last anywhere from 3-6 years, largely because
+  differences in driving habits and frequency of use can cause batteries to age at different rates." [V]
+  Also: "A flat battery is one of the top 10 breakdown causes." [V]; before concluding the battery is flat:
+  "Make sure there's fuel in the tank." [V], "If the central locking isn't working, your key fob might have
+  died so try a spare key." [V], "If you can't turn the ignition, check the wheels aren't jammed against
+  the kerb." [V]; "If the engine struggles to start before the battery is 5 years old, it probably means:"
+  [V] followed by "The battery isn't getting enough charge.", "The car's doing too many short journeys, or"
+  and "There's a vehicle fault draining the battery or affecting charging." [V each]; "Starting problems
+  after 5 years are more likely to mean:" [V] "The battery's getting tired and may need replacing." [V];
+  among the commonest causes of a dead battery, "The car hasn't been used for a while" and "The car's only
+  used for short or stop-start journeys" [V each]; "Batteries can fail for other reasons, like too much
+  vibration from the engine, over-charging, corrosion and extreme temperatures." [V]; "Flat batteries are
+  the most common reason why cars won't start in winter." [V]; "The cold weather can affect cars by slowing
+  down their internal processes." [V]; "With severe enough temperatures your car battery will have a
+  reduced capability to hold a charge." [V]; "Problems with the alternator are sometimes the cause of a car
+  battery not charging, though it can also be due to the battery cables or battery terminals becoming
+  corroded." [V]; "30 minutes or more will help the battery recharge." [V]; "The 12 volt battery on an
+  electric vehicle can be just as problematic as a conventional vehicle." [V]; "The longer you leave a flat
+  battery alone without recharging it, the more likely it is to become a dead battery." [V]. The page sells
+  the AA's own battery service and names chargers; neither is used.
+- **The AA, "10 essential car maintenance tips"** (https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips),
+  "Published: 29 March 2016 | Updated: 10 July 2025" [V]. **Re-read: full article text.** Part B's
+  quotations stand ("Most car batteries have a life of 3 to 5 years" [V] continues ", so if yours is getting
+  a bit old replace it with a new one before it lets you down." [V]). New: "Many plug-in vehicles
+  automatically maintain the 12- volt battery when they're plugged in" [V, spacing as in source], the
+  sentence continuing after a spaced dash that the handbook will say whether this is so; "If you haven't
+  got your vehicle plugged in, it's good practice to plug in at least once a month to help maintain
+  systems." [V]; "The most common cause of a flat battery is leaving the lights on after turning the engine
+  off." [V]
+- **AAA (Mountain West Group), "How Cold Weather Impacts Your Battery"** (https://mwg.aaa.com/via/car/how-cold-weather-impacts-battery),
+  no date shown. **Re-read: full article text.** Part B's quotations stand. New: "A car battery provides
+  the power to start your car and run some accessories, but it doesn't provide continual power (that's the
+  job of the alternator)." [V]; "The battery generates electricity using lead-acid technology to create a
+  chemical reaction that turns it into energy." [V]; the heat sentence continues "which becomes evident
+  when the temperature drops and more power is required to get the car started." [V]; the battery-light
+  item continues "but if it goes on, your battery might have been fatally damaged by a bad alternator. Get
+  the car towed to your local mechanic shop for a complete charging system check." [V]; "Get your battery
+  tested annually before winter." [V]; "Leaking or a swollen battery can often indicate your battery is
+  near failure." [V]; "Check your battery after jump-starting your car to ensure a bad battery wasn't the
+  root cause." [V]; "After jump-starting the car, drive around for at least 30 minutes to allow the
+  alternator (which powers the vehicle while it's running) to recharge the battery." [V]. AAA clubs sell
+  roadside assistance and the page advertises AAA's battery service; neither is used.
+- **fueleconomy.gov, "Driving More Efficiently"** (https://www.fueleconomy.gov/feg/driveHabits.jsp).
+  **Re-read: full body text.** The 5-mile line sits in a "Best Practices" list introduced by "Here are some
+  tips to help you maximize your savings." [V], footnoted to "Argonne National Laboratory. 2015. Stop and
+  Restart Effects on Modern Vehicle Starting System Components" [V, title truncated]. Other items in the
+  list: "Limit electric accessory use during shutdown, particularly during longer shutdown periods." [V]
+  and the starts-per-day line, which carries an em dash and is not quoted.
+- **fueleconomy.gov, "Fuel Economy in Cold Weather"**. Re-read in full; the battery line stands and continues
+  "This also affects the performance of the regenerative braking system on hybrids, plug-in hybrids, and
+  electric vehicles." [V] (as the lesson 04 note records).
+- **Health and Safety Executive, INDG139(rev1)** (https://www.hse.gov.uk/pubns/indg139.pdf). **Re-read: full
+  text**, pdftotext. Written for workplaces: "The advice is aimed at supervisors, technicians, safety
+  professionals and others involved in:" [V] a list that begins "motor vehicle repair and maintenance" [V].
+  Part B's quotations stand. New: "Lead/acid batteries are the most common large-capacity rechargeable
+  batteries. There is one in almost every car, motorcycle and wagon on the road." [V]; "Serious electric
+  shocks and burns are common in accidents involving high-voltage battery packs." [V] (para 3); "These very
+  corrosive chemicals can permanently damage the eyes and produce serious chemical burns to the skin." [V]
+  (para 9); "A source of ignition" [V] in para 12 is listed as "a flame, a spark, a cigarette or any hot
+  object, electrical equipment, a mobile phone" [V]; "Hydrogen and oxygen are produced more quickly as the
+  battery gets close to being fully charged." [V] (para 13); "When this happens, a large amount of
+  electricity flows through the metal object, making it very hot very quickly." [V] (para 18); para 19
+  continues "However, some large batteries produce more than 120 volts DC." [V]; "In valve-regulated
+  batteries, any hydrogen and oxygen produced during charging does not escape but is converted back into
+  water." [V] (para 7). HSE's connect-and-disconnect procedure (para 20) is a workshop procedure and is not
+  taught.
+- **The Highway Code, Annex 6** (GOV.UK content API, `public_updated_at` 2022-01-29). Re-read in full. The
+  charge-light passage stands, whole: "If the charge warning light comes on while you are driving, it may
+  mean that the battery isn’t charging. This should also be checked as soon as possible to avoid loss of
+  power to lights and other electrical systems." [V] Also "Before winter. Ensure that the battery is well
+  maintained and that there are appropriate anti-freeze agents in your radiator and windscreen bottle." [V]
+- **RAC, "Dashboard warning lights guide"** (URL as Part B). **Re-read: the battery warning light section.**
+  Part B's quotations stand. New: "It may indicate the battery is not charging or a fault is present. This
+  could be due to a problem with your car’s electrical system, such as a faulty alternator, bad electrical
+  connection or damaged cabling. The battery itself may be faulty or worn out." [V]
+- **Nissan, 2024 LEAF Owner's Manual (US)**, PDF (URL as Part B), re-read in pdftotext -raw. **p. 2-16, the
+  12-volt battery charge warning light, read in full.** Part B's quotation stands. New: "The DC/DC converter
+  converts 400–volt Li-ion battery voltage to charge the 12-volt battery." [V, the source's en dash];
+  when the light comes on "a chime sounds" [V] and the display flashes "Stop the vehicle" [V] while
+  driving; "Do not charge the 12-volt battery while this warning light is illuminated. It may lead to a
+  malfunction of the DC/DC converter system." [V]; and, in the note, if the light "turns off when the
+  vehicle is in the READY to drive mode, the 12-volt battery may be discharged or there may be a
+  malfunction in the 12-volt battery related system." [V, the source's hyphenation joined]. **p. 9-4**: the
+  note after the 12-volt battery item lists "Installation or extended use of electronic accessories that
+  consume battery power when the EV system is not running (Phone chargers, GPS, DVD players, etc.)" [V]
+  and "Vehicle is not driven regularly and/or only driven short distances." [V], then "In these cases, the
+  battery may need to be charged to maintain battery health" [V].
+- **Ford, 2024 Maverick Owner's Manual (US and Canada)**, Internet Archive capture 20250505042038, re-read in
+  pdftotext -raw. **p. 113, "Battery"**: "It illuminates when you switch the ignition on." [V] then Part
+  B's quotation, which stands. **p. 457, "Check Every Six Months"**: "Battery connections. Clean if
+  necessary." [V] (an owner check on Ford's list; not taught here).
+- **Toyota, 2023 Corolla Owner's Manual (US), OM02568U**, PDF (URL as Part E), read in pdftotext -layout.
+  **p. 357, "Charging system warning light"**: "Indicates a malfunction in the vehicle’s charging system"
+  [V] and "Immediately stop the vehicle in a safe place and contact your Toyota dealer." [V] **p. 309 to
+  310, "Battery"**: "Make sure that the battery terminals are not corroded and that there are no loose
+  connections, cracks, or loose clamps." [V]; "The battery contains poisonous and corrosive sulfuric acid
+  and may produce hydrogen gas which is flammable and explosive." [V]; "Wear protective safety glasses when
+  working near the battery." [V]; "Keep children away from the battery." [V]; "Always charge the battery in
+  an open area." [V]. Toyota's recharging steps are not taught.
+- **AFDC, "How Do Gasoline Cars Work?"** Re-read; Part A's battery quotation stands.

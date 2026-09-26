@@ -169,6 +169,10 @@ written, so this course does not learn it again.
 
 ---
 
+- **2026-09-26: topping up AdBlue (DEF) is Yours, on conditions** (settled at lesson 3's Stage 4):
+  from a sealed container, into the blue-capped tank only, as the car's handbook describes. Lessons
+  9 and 11 label it the same way, and decision 7's owner list is read as including it.
+
 ## Drafting brief: Car Basics, Stage 3
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
