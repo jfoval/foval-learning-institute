@@ -5727,3 +5727,154 @@ extracted text.
   essential" list in Part B ("nearly all ladder injuries happen away from
   work"), and OUTLINE lesson 16's core ideas ("away from work"). Read them with this note.
   Lessons 15 and 16 corrected the same day.
+
+## Gate closures, lesson 20 (2026-09-26)
+
+Read by the lesson 20 drafter ("Walls and paint: filling, preparing and painting") on 26 September
+2026: curl with a browser User-Agent (no personal data in any header), then pandoc to plain text.
+Every [V] below was string-matched against the extracted text (curly apostrophes normalised).
+
+### G-R1 partly closed: filling, from the live Dulux page (Part B §4)
+
+**Dulux, "Painting Tips: Preparing Walls for Painting"**,
+https://www.dulux.co.uk/en/articles/preparation-and-tools, re-read in full. A maker's page with
+product promotion; the filler products it promotes are a named range, and no lesson names them. Beyond
+Part B's lines, the page gives a filling method and a preparation order:
+- [V] "a filler that’s up to the task"; a flexible gap filler for [V] "around the tops of skirtings,
+  windows and door frames" (the sentence names a product; quote only these words). No reason given.
+- [V] "For any holes that are more than 10mm-deep, build up the filler in layers." [V] "Allow to dry
+  for one to two hours, sand until smooth, and give the wall a final once-over with a duster." (Drying
+  time is for the page's own fillers.)
+- Sanding: [V] "ensures your fresh, new paint will adhere to the surface properly".
+- [V] "Set aside half a day to complete all your prep"; skipping it can leave [V] "an uneven finish,
+  unsightly paint bubbles and obvious imperfections, such as holes and cracks".
+- Clear the room; [V] "Loosen or tape around electrical cover plates on switches and outlets." (The
+  course teaches taping only: loosening a plate is opening a fitting, decision 7.) Unscrew or tape
+  over door and window hardware; dust sheets.
+- [V] "Wash the walls thoroughly with sugar soap and rinse them with clean water to remove any residue."
+- Mask edges with tape; prime a surface never painted before.
+- Order: [V] "start at the top of the room and work your way down"; ceiling, [V] "Apply two coats and
+  move onto the walls, working away from natural light." [V] "Paint your windows in the morning so they
+  have a full day to dry before you close them at night. Lastly, finish off with doors, door frames and
+  skirting." No reason given for top-down.
+- Finishes, full sentence: [V] "To hide imperfections, use velvety matt emulsion. Satin and silk are
+  mid-sheen finishes that look slightly polished and reflect some light. Eggshell sits somewhere between
+  the two, with a surface that looks as its name suggests. Choose a gloss finish for a shiny look that
+  reflects lots of light." Synthetic bristles [V] "don’t swell up and cause tramlines to appear in the
+  paint".
+Still open: sticking doors, silicone sealant and wallpaper (no method read). No maker's filler
+instructions other than this page were read.
+
+### Dulux, "Dr Dulux: How to paint new plaster" (Part B §4), re-read in full
+
+https://www.dulux.co.uk/en/expert-help/dr-dulux-painting-on-new-plaster. A maker's page with product
+promotion (it offers a sealer product as an alternative to the mist coat; not named in lessons).
+- [V] "Plaster is extremely permeable, which means it’ll soak up any moisture quick."
+- [V] "There are different factors that influence how soon can you paint on new plaster, such as the
+  type of material and weather." [V] "As a rule of thumb, plaster takes up to 4 weeks to dry
+  completely." [V] "You can speed things up with a heater or by opening a window."
+- [V] "If you don’t let the plaster dry and apply emulsion paint to wet plaster, it’s likely to crack
+  and peel off."
+- [V] "Mist coat paint is simply watered-down emulsion paint, which acts as your primer." [V] "Ten
+  parts paint to one part water should work." [V] "The mixture will soak into the wall and seal the
+  plaster." It says this layer helps the top coat stick. Written for British plaster; nothing read
+  covers a US skim coat or drywall.
+
+### G-R2 closed: the VOC Regulations 2012, revised text
+
+https://www.legislation.gov.uk/uksi/2012/1715 ("Latest available (Revised)") and /made, read 26
+September 2026: regulations 2 to 5 and Schedules 1 and 2. The revised page says [V] "There are
+currently no known outstanding effects" for the Regulations.
+- Reg 2: "volatile organic compound" is any organic compound with an initial boiling point at or below
+  250°C at 101.3 kPa; "VOC content" is the mass of VOCs in g/l [V] "in the formulation of the product in
+  its ready to use condition".
+- Reg 3(2), substituted from 31 December 2020 (SI 2019/74 as substituted by SI 2020/1352): the
+  Regulations apply to relevant products that [V] "are to be used in any part of the United Kingdom",
+  with a further limb for Northern Ireland referring to the EU customs territory. (This replaces the
+  as-made scope that Part B flagged.)
+- Reg 4(1): a person [V] "must not place on the market" a relevant product unless its VOC content is
+  within Schedule 2 and it is labelled under reg 5 (the reg's own text continues after a dash).
+- Reg 5(1), unchanged from as made: [V] "the sub-category of the product and the relevant VOC limit
+  values, measured in g/l" and [V] "the maximum content of VOC in g/l of the product in a ready to use
+  condition".
+- Schedule 2 A (g/l, water-borne / solvent-borne): (a) interior matt walls and ceilings 30/30; (b)
+  interior glossy walls and ceilings 100/100; (c) exterior walls of mineral substrate 40/430; (d)
+  interior/exterior trim and cladding paints for wood and metal 130/300; (e) trim varnishes and
+  woodstains 130/400; (g) primers 30/350; (h) binding primers 30/750. WB and SB are defined by whether
+  viscosity is adjusted with water or with organic solvent.
+- No US federal rule on consumer paint VOC labelling was read; none is stated.
+
+### US EPA, VOC page (D45), re-read 26 September 2026 ("Last updated on June 23, 2026")
+
+Strings beyond those already recorded: [V] "Paints, varnishes and wax all contain organic solvents"
+[V] "At present, not much is known about what health effects occur from the levels of organics usually
+found in homes." [V] "Meet or exceed any label precautions." [V] "providing for maximum ventilation
+during painting" (listed under benzene) [V] "Because gases can leak even from closed containers, this
+single step could help lower concentrations of organic chemicals in your home." [V] "Throw away
+partially full containers of old or unneeded chemicals safely." Collection: find out whether your local
+government or a community organisation sponsors special days for collecting toxic household wastes.
+
+### US EPA, "Lead-Safe Renovations for DIYers" (D15), re-read 26 September 2026 ("Last updated on August 20, 2026")
+
+[V] "If your home was built before 1978, it may have lead-based paint; the older your home, the more
+likely it has lead-based paint." [V] "EPA recommends homeowners hire lead-safe certified contractors
+for all RRP projects in pre-1978 homes." [V] "it’s safest to assume the area you are renovating has
+lead-based paint" (after "If you are unable to determine the age of your home,"). [V] "A disposable
+N-100 certified respirator" unchanged.
+
+### US EPA, "Risk Management for Methylene Chloride", re-checked 26 September 2026 ("Last updated on March 6, 2026")
+
+[V] "EPA is encouraging all consumers to stop using methylene chloride products that they may have
+already purchased for paint and coating removal." unchanged.
+
+### Purdue Extension, NCR-133, "Paint Failure Problems and Their Cure" (new)
+
+https://www.extension.purdue.edu/extmedia/ncr/NCR-133.html, Daniel L. Cassens (Purdue) and William C.
+Feist (USDA Forest Products Laboratory), Rev 3/88, read in full 26 September 2026. A US extension
+bulletin about paint on the **outside of wooden buildings**; dated.
+- [V] "The most common cause of premature paint failure on wood is moisture."
+- Inside water: [V] "Plumbing leaks, overflow of sinks, bathtubs or shower spray and improperly sealed
+  walls are sources of inside water."
+- [V] "Elimination of the moisture problem is the only practical way to prevent moisture blisters in
+  paint." [V] "If a new paint coat is to be successful over a problem area, any moisture problems must
+  be eliminated."
+- It uses "latex" without defining it ([V] "acrylic latex"). Its repainting procedures include scraping
+  and sanding old paint and predate the RRP rule; not used as a method in any lesson.
+
+## Stage 4 note, lesson 18 (2026-09-26)
+
+Read by the lesson 18 fixer on 26 September 2026 (curl, browser User-Agent, no personal data in any
+header), each [V] string-matched in the extracted text: the Architects' Journal article live; the
+IHBC copy of the joint position statement (pdftotext); the DOE "Whole-House Ventilation" capture
+20250102092834; the Energy Saving Trust "Draught proofing" capture 20260916151311; and the GOV.UK
+guidance by its content API (updated 2026-04-01).
+
+- **The Architects' Journal, 26 June 2009, Blackett-Ord's renders sentence in full.** The lesson 18
+  gate closure recorded only its second sentence. The first, [V]: "[Installing] damaging impermeable
+  cement based internal renders…serve simply to conceal the problem in the wall behind." (the
+  bracket and the ellipsis are the AJ's). Then, as recorded, [V] "For most historic buildings this is
+  extremely damaging and irreversible." Quote the two together: "conceal the problem" is her reason.
+- **The Architects' Journal, Howell's framing.** The article's own sentence, [V] "said trials in the
+  laboratory confirm the falsehood." It precedes the brick-pillar quotation. So Howell holds that
+  laboratory trials already settle the question; he does not call for research. The mortar sentence
+  that follows the brick pillar is already [V] in the lesson 18 gate closure.
+- **Joint position statement 2022, section 1B item 4**, [V] "Understand that occupation patterns can
+  influence the moisture within the building." The statement does not define "lifestyle" (section 5
+  item 2) and says nothing about blame.
+- **DOE "Whole-House Ventilation" (capture 20250102092834), of energy-recovery systems:** [V] "Only
+  some HVAC contractors have enough technical expertise and experience to install them." and, in
+  the drawbacks list, [V] "May be difficult to find contractors with experience and expertise to
+  install these systems". The pages do not say whether a householder may fit any system.
+- **Energy Saving Trust "Draught proofing" (capture 20260916151311):** trickle vents, [V] "These are
+  small vents above windows that let fresh air trickle in."; underfloor grilles or airbricks, [V]
+  "These help to keep wooden joists, beams and floors dry."
+- **GOV.UK, the ventilation checklist:** [V] "Landlords may wish to consider air bricks, which are a
+  cost-effective and easy means of addressing inadequate under-floor ventilation." and [V] "Do
+  windows have trickle vents and are these kept open and free from blockages?" (a checklist question
+  to landlords).
+- **GOV.UK, the order of the document.** The tenant list ("leaving a gap between furniture and
+  external walls ... opening windows periodically") sits in the ventilation checklist at about
+  character 49,000 of the body, introduced by [V] "Do tenants understand what they can do to improve
+  ventilation and moisture control? If not, talk to them about the importance of". The no-blame
+  paragraph ("totally unreasonable") comes later, at about character 55,700. So the guidance does not
+  put the no-blame statement before its tips; a lesson may say only that it puts it first itself.
