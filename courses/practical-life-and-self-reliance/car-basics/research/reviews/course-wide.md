@@ -244,3 +244,45 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **Lesson 14 points to lessons 4, 5 and 9** for voltages, colour code and bonnet preparation rather
   than reprinting them; later lessons point to 14 the same way.
 - **Quiz keys:** 14 3,2,1,0,2,3 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 13 fix pass: notes for later lessons
+
+- **Engines while the jump leads come off.** Ford (2024 Maverick) and Toyota (2023 Corolla) never
+  switch either engine off before the leads come off; that both are running is this course's
+  reading, labelled so. Nissan (LEAF in READY) and HSE para 31 (leave the dead car's engine running)
+  say it outright. The AA switches both off and gives its own reason: removing the leads with the
+  engines running "can cause serious damage to the cars' electronics". Both reasons travel together;
+  no lesson, script or test ranks them.
+- **The AA gives both orders for the red lead's ends** (its step 7 against its removal list). Ford,
+  Toyota and Nissan (drawing LCE2388) start at the flat battery; HSE doesn't say.
+- **Only Ford says to follow a booster pack maker's instructions.** The AA gives its own booster steps
+  and defers to the car's handbook. Nothing attributes the pack-maker line to the AA.
+- **After a jump, the battery is "still flat" (HSE).** No lesson says flatly that a jump doesn't charge
+  the battery: Toyota's handbook runs the donor "to recharge the battery".
+- **The donor line is Nissan's for the LEAF and the AA's advice for hybrids and EVs.** Say "shouldn't
+  be the donor" on the sources read, never "can't", except of the LEAF in Nissan's words.
+- **For lesson 16's owner:** lesson 16's Connections says lesson 13 "applied this lesson's placement to
+  a jump start". Lesson 13 now takes the wheel-change placement rules from lesson 19 and the stopping
+  place from lesson 16, and says "Lesson 16 adds a breakdown page with the call-out numbers". Lesson
+  16's line is close enough to stand; if it is next open, "applied this lesson's stopping place" would
+  match exactly. Not edited here.
+- **Quiz keys:** 13 3,0,2,0,1,3 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 15 fix pass: notes for later lessons
+
+- **US "stay with the car" advice never reaches a GB motorway unbounded.** Wherever NHTSA's or
+  Caltrans's stranded-in-snow steps appear (lesson, script or test), say they are US steps and that in
+  Great Britain a car stopped on a motorway or other fast road follows the callout and Rule 277,
+  "DO NOT return to your vehicle even if it's raining, cold or dark". That line is the Highway Code's
+  (advice), not National Highways'.
+- **Rule 123 and defrosting:** the unattended part is the course's reading (reg 107 says "not
+  attended by a person licensed to drive it"; nothing read defines attending); whether defrosting is
+  "unnecessarily" is unsettled; the should line (switch off if stationary for more than a couple of
+  minutes) answers the practical question and travels with it.
+- **Toyota's snow line sits under "When parking"** (p. 46). Using it for a stranded car is the course's
+  reading, labelled; the handbook governs because it's the handbook, not because it's stricter.
+- **NHTSA's words are "does little"**, never "do little".
+- **Chains carry no job label** (orchestrator's decision): the handbook says whether a car takes them,
+  the road authority where they're required. Lesson 15 cut its California chain law for length, so no
+  later lesson may say "as lesson 15 showed" about chains.
+- **Quiz keys:** 15 3,1,2,0,2 (unchanged by the fix).

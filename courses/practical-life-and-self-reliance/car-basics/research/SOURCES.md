@@ -7118,3 +7118,39 @@ pdftotext -raw/-layout, drawings rendered with pdftoppm and looked at).
 - **HSE, INDG139(rev1)**, live PDF. Para 31's "the battery is still flat" re-read; it stands. Para 20
   ends its connection routine "Reconnect the earthed terminal last." [V] (a workshop routine for any
   battery, giving no reason; not used in lesson 13).
+
+## Gate closures, lesson 17 (2026-09-26), second addendum
+
+- **Fourth-year report**, p. 10: "Controlled motorways apply variable mandatory speed limits to a
+  conventional motorway to control the speed and smooth the flow of traffic and retain a permanent
+  hard shoulder." [V]
+
+## Stage 4 note, lesson 15 (2026-09-26)
+
+Strings the lesson 15 fixer added, each re-read live or from a capture on 26 September 2026 (curl,
+generic browser User-Agent). No earlier entry is corrected.
+- **The Highway Code, Rule 277** (GOV.UK content API, `breakdowns-and-incidents-274-to-287`,
+  public_updated_at 2021-09-14): "DO NOT return to your vehicle even if it’s raining, cold or dark" [V],
+  under "Additional rules for motorways (rules 277 to 278)". It is "DO NOT" wording, so advice under the
+  Code's Introduction, not a MUST. Lesson 15 cites it to keep NHTSA's "Stay with your car" off a car
+  stopped on a motorway or other fast road in Great Britain.
+- **The Highway Code, Rule 123** (content API, public_updated_at 2023-09-17): the should line
+  "Generally, if the vehicle is stationary and is likely to remain so for more than a couple of
+  minutes, you should apply the parking brake and switch off the engine to reduce emissions and noise
+  pollution." [V]; the rule's law line reads "CUR regs 98 & 107".
+- **C&U regulation 107** (legislation.gov.uk, E+W+S): "no person shall leave, or cause or permit to be
+  left, on a road a motor vehicle which is not attended by a person licensed to drive it unless the
+  engine is stopped and any parking brake with which the vehicle is required to be equipped is
+  effectively set." [V] Nothing read defines "attended".
+- **fueleconomy.gov, "Fuel Economy in Cold Weather"**, live: the 15% figure's full sentence, "Fuel
+  economy tests show that, in city driving, a conventional gasoline car's gas mileage is roughly 15%
+  lower at 20°F than it would be at 77°F." [V] Quote it with "in city driving".
+- **Toyota 2023 Corolla (OM02568U)**, fresh PDF, p. 46 ("1-1. For safe use", "Exhaust gas
+  precautions"): the snow line "Do not leave the engine running in an area with snow build-up, or
+  where it is snowing." [V] sits under the sub-heading "When parking", after "Do not leave the vehicle
+  with the engine on for a long time." Applying it to a stranded car is the course's reading.
+- **NHTSA "Heatstroke"**, capture 20260924021947: "In 2025, 31 children died of heatstroke in
+  vehicles." [V]; the page does not say who counted (it credits NoHeatstroke.org for 2018 and 2019). It
+  gives body-temperature thresholds but no safe outside temperature and no safe time. Its words are
+  "does little", not "do little".
+- **CDC "Clear Snow from Tailpipes"**, capture 20260725201242: the page shows the date February 7, 2024.
