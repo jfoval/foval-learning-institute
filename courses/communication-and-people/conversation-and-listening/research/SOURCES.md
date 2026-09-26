@@ -1,6 +1,6 @@
 # Sources: Conversation and Listening
 
-<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Aron et al 1997 full text, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, Blades 2018, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
+<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Aron et al 1997 full text, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
 
 *Stage 1 research, 2026-09-26. Written before any lesson is drafted. Five researchers each worked
 one part of the subject in parallel, in a fresh context, from a shared brief. Part A covers the
@@ -1619,8 +1619,8 @@ Coverage: the Rogers and Farson origin of "active listening" and Rogers' 1957 co
 
 #### 6.4 Invisible support
 
-- **Bolger, N., Zuckerman, A., and Kessler, R. C. (2000).** Invisible support and adjustment to stress. *JPSP*, 79(6), 953–961. DOI 10.1037//0022-3514.79.6.953. **Read:** full text, http://www.columbia.edu/~nb2229/docs/bolger-zuckerman-kessler-jpsp-2000.pdf. Daily diaries from 68 couples (of 99 recruited) in which one partner was taking the New York State Bar Examination; 32 days before the exam. When the partner reported giving emotional support but the examinee did not report receiving it ("invisible" support), examinee depression fell; the examinee's own report of receiving support was associated with worse adjustment. For anxiety, receipt increased anxiety but provision did not reduce it [V, paraphrased].
-- **Bolger, N., and Amarel, D. (2007).** Effects of social support visibility on adjustment to stress: Experimental evidence. *JPSP*, 92(3), 458–475. DOI 10.1037/0022-3514.92.3.458. **Read:** full text, http://www.columbia.edu/~nb2229/docs/bolger-amarel-support-experiments-2006.pdf. Three experiments, female students only (N = 257 total; 35, 96 and 167 recruited), anticipating a stressful speech; a confederate peer gave a public-speaking tip either directly to the participant (visible) or as a question to the experimenter (invisible). Invisible support reduced distress relative to visible and no support; visible support was "either ineffective or it exacerbated reactivity" [V-abstract]. Study 3 found "invisibility per se is not the essence of what makes invisible support effective; rather, it is (at least in part) avoiding the communication that the support recipient is inefficacious." [V]
+- **Bolger, N., Zuckerman, A., and Kessler, R. C. (2000).** Invisible support and adjustment to stress. *JPSP*, 79(6), 953–961. DOI 10.1037//0022-3514.79.6.953. **Read:** full text, http://www.columbia.edu/~nb2229/docs/bolger-zuckerman-kessler-jpsp-2000.pdf. Daily diaries from 68 couples (of 99 recruited) in which one partner was taking the New York State Bar Examination; 32 days before the exam. In the high-stress days, partner-reported provision went with a smaller next-day rise in examinee depression (p = .001) and examinee-reported receipt with a larger one (p = .024); when the partner reported giving emotional support but the examinee did not report receiving it ("invisible" support), depression "tended to decrease", p = .088, a trend (Stage 4 note, lesson 10 review, 2026-09-26: this entry formerly said "depression fell"). For anxiety, receipt increased anxiety but provision did not reduce it [V, paraphrased].
+- **Bolger, N., and Amarel, D. (2007).** Effects of social support visibility on adjustment to stress: Experimental evidence. *JPSP*, 92(3), 458–475. DOI 10.1037/0022-3514.92.3.458. **Read:** full text, http://www.columbia.edu/~nb2229/docs/bolger-amarel-support-experiments-2006.pdf. Three experiments, female students only (N = 257 total; 35, 96 and 167 recruited), anticipating a stressful speech; a confederate peer gave a public-speaking tip (Studies 1 and 3) or reassurance, "nothing to worry about, that she would do fine" (Study 2), either directly to the participant (visible) or as a question to the experimenter (invisible); Studies 2 and 3 had a no-support group. The abstract says invisible support reduced distress relative to visible and no support; in the full text the difference from visible support is significant and the difference from no support is not (Study 2 p = .159, Study 3 p = .069) (Stage 4 note, lesson 10 review, 2026-09-26: this entry formerly described all three studies as the tip); visible support was "either ineffective or it exacerbated reactivity" [V-abstract]. Study 3 found "invisibility per se is not the essence of what makes invisible support effective; rather, it is (at least in part) avoiding the communication that the support recipient is inefficacious." [V]
 - **Later nuance (abstract only):** Marini et al. (2019, *J Gerontology B*) found invisible support can cost the provider: spouses felt worse when their help to a partner with osteoarthritis went unrecognised [V-abstract]. The Zee and Bolger review and Girme et al. studies on when visible support helps were not read (UNREAD).
 - **May say:** help that makes a stressed person feel incompetent can backfire; the best support often does not announce itself as help.
 
@@ -4498,3 +4498,263 @@ lesson 09 review". Two readings behind one-edit fixes:
   active listening) feels unnatural to couples because it is designed to help couples avoid natural
   conversation pitfalls." The quoted words are Weger's report of Markman et al. 2001, which this
   course has not read; the lesson now says "in Weger's words".
+
+## Gate closures, lesson 11 (2026-09-26)
+
+Stage 3 drafting of lesson 11 ("When it's serious"). Everything below was fetched today with curl and
+a generic browser User-Agent (no personal data) and converted with pdftotext or an HTML-to-text
+script; strings marked [V] were copied from that text (curly quotation marks and apostrophes on the
+pages are given straight here). OUTLINE assigns lesson 11 gates G7 and G8. **G7 closed; G8 closed**
+through Blades et al. 2018's accepted manuscript. **This clears "Blades 2018" from the unread line;
+the drafter was told to append only, so the orchestrator should remove that entry (or write it
+"Blades 2018 (except 11)").** Polihronis 2022, DeCou and Schumann 2018, Gould 2005 and McGuire 2026
+stay unread (the first two have no free copy that OpenAlex knows of) and the lesson does not cite
+them.
+
+**G7, crisis numbers, re-read 26 September 2026: unchanged; the callout stands as the build's
+`CRISIS_CL` constant.** 988lifeline.org: "Call, text, or chat with a 988 Lifeline counselor for help
+during difficult moments anytime, day or night." [V]; "The 988 Lifeline is available 24/7/365. Your
+conversations are free and confidential." [V]. 988.ca: "Call 9-8-8", "Text 9-8-8", "If your safety is
+at risk, call 9-1-1 right away." [V]. samaritans.org: "Call 116 123 for free" [V]; "Call us free, day
+or night, 365 days a year" [V]. lifeline.org.au: "13 11 14", "0477 13 11 14" (text), "If life is in
+danger, call Triple Zero (000)" [V]. findahelpline.com: "Free, confidential support from a helpline or
+hotline near you. Online chat, text or phone." [V].
+
+**G8, Blades, Stritzke, Page and Brown 2018**, "The benefits and risks of asking research participants
+about suicide: A meta-analysis of the impact of exposure to suicide-related content", *Clinical
+Psychology Review* 64, 1 to 12, doi:10.1016/j.cpr.2018.07.001. **Read: the full text of the authors'
+accepted manuscript** (University of Western Australia repository,
+https://api.research-repository.uwa.edu.au/ws/files/33499098/Full_text.pdf, listed by OpenAlex as the
+green open-access copy; 46 pages including tables' captions; the tables and forest plots themselves
+were not read beyond their captions). Design: PsycINFO, MEDLINE and ERIC searched for studies
+"published or available between 2000 and 2017" [V]; "a total of 17 published studies and one
+unpublished dissertation" [V], "20 unique samples" [V]; "Individual study sample sizes ranged from 63
+to 4133" [V], "a total sample size of N = 13,192" [V]; participants "across the lifespan (13-92 years)"
+[V], "including high school and college students, active military service men, individuals in primary
+care settings, as well as individuals with a history of suicidal behaviour" [V]. Random-effects
+models, Hedges' g, odds ratios where g could not be computed. Results [V]: distress pre to post,
+"Hedges' g = -.09, p = .165, 95% CI [-.21, .04]" (eight studies, 5,562 participants), with format the
+only significant moderator: "exposing participants to suicide-related content in a one-on-one
+interview context led to small, significant reductions in distress over time"; distress against
+controls, immediate "Hedges' g = -.01, p = .894" and two days later "Hedges' g = .04, p = .293";
+suicidal ideation pre to post (four studies, 3,699 participants) "small significant reductions in
+levels of suicidal ideation over time from pre- to post-assessment, Hedges' g = -.13, p < .001, 95% CI
+[-.16, -.10]", moderated by age, "adolescents showed nearly twice as large reductions"; ideation
+against controls (seven studies, 7,398 participants) "Participants exposed to suicide-related content
+were no more likely to report higher levels of suicidal ideation than participants not exposed to this
+content, OR = .973, p = .749"; attempts (four studies, 5,261 participants) "participants who were
+exposed to suicide-related content were significantly less likely to report a suicide attempt than
+individuals who were not exposed to suicide related content following research participation, OR =
+.714, p < .05, 95% CI [.56, .91]". The four attempt studies are Aseltine et al. 2007 (an educational
+high-school programme, as Dazzi describes it), Cedereke et al. 2002, Crawford et al. 2011 and Vaiva et
+al. 2006, whose "intervention" groups "received a telephone contact one month following a deliberate
+suicide attempt (selfpoisoning)" or after three months [V]: "exposure" in this pool is wider than
+being asked a question. Abstract [V]: "Exposure to suicide-related content led to significant, albeit
+small, reductions in suicidal ideation (g = -.13, p < .001) and a lower likelihood of engaging in
+suicidal behaviour (OR = .714, p < .05)."; "evidence to date suggests that asking research
+participants about suicide does not increase risk, and may be associated with small benefits."
+Limitations [V]: "All studies included in the meta-analyses were approved by the appropriate ethics
+committees and had risk management protocols in place to manage any potential adverse events during
+participation."; "this sample of studies may be selective."; "A possible explanation for the
+participants who reported reductions in levels of distress or suicidal ideation over time in studies
+that employed a pre-post design is regression to the mean."; three studies in the ideation comparison
+showed non-significant increases, and "All of the three studies which showed the non-significant
+increase in risk involved participants with significant mental health issues" [V]; "In most studies
+included in the meta-analyses, participants responded to suicide questions in the context of other
+questions related to psychological problems such as depression and social support." [V]. The
+authors' possible explanation for the interview result: "a one-on-one research interview could have
+provided participants with the opportunity to talk about their issues in an open, confidential, and
+nonjudgmental environment" [V]. Their introduction reports that "36% of general medical practitioners
+believed that exposure to questions or information about suicidal behaviour could increase the
+likelihood of suicidal thoughts or acts (Bajaj et al. 2008)" [V]. Nothing in the paper concerns
+conversations between friends or family.
+
+**Dazzi, Gribble, Wessely and Fear 2014** (Cambridge Core, URL as Part E (e)), full text re-read.
+Abstract [V]: "There is a commonly held perception in psychology that enquiring about suicidality,
+either in research or clinical settings, can increase suicidal tendencies."; "None found a
+statistically significant increase in suicidal ideation among participants asked about suicidal
+thoughts."; "Our findings suggest acknowledging and talking about suicide may in fact reduce, rather
+than increase suicidal ideation, and may lead to improvements in mental health in treatment-seeking
+populations." Body [V]: "A review of the recent literature (PsycINFO and Ovid Medline) revealed a total
+of 13 papers published between 2001 and 2013"; "Conducted using samples of both adolescents and adults
+and in general and at-risk populations". Biddle et al. 2013 [V]: "Using data from four qualitative
+interview studies of adult and adolescent participants ( n = 63) with a history of self-harm or
+suicidality"; "Improvements in scores were reported for 57% ( n = 36) of participants"; "Of the 22% ( n
+= 14) with a decrease in scores, most described how this was due to them being reminded of, or forced
+to focus on, previous or current difficulties they might be having or perceptions of shame and
+embarrassment. Several felt these feelings would be temporary." Reynolds et al. 2006 [V]: "In a study
+of 63 female patients with borderline personality disorder and a history of suicide attempts over a
+period of 2 years"; "out of the total 764 participant sessions, 16.4% ( n = 125) showed an increase and
+17.5% ( n = 134) showed decreases in suicidality." The physician surveys [V]: "In a survey of 170
+German primary-care physicians, 23% expressed that they would not assess risk of suicide of elderly
+depressed patients over worries that it might encourage thoughts of suicide"; of "103 general
+practitioners based in England", "one-third believed that questions about suicidal behaviour could
+induce thoughts of self-harm."
+
+**988 Lifeline, "Help Someone Else"** (URL as Part E §1.2), re-read in full. New or corrected strings
+[V]: the page opens "It's important to take care of yourself when you are supporting someone through a
+difficult time, as this may bring up difficult emotions."; the non-judgement item reads in full "Be
+non-judgmental. Don't debate whether suicide is right or wrong, or whether feelings are good or bad.
+Don't lecture on the value of life."; further items "Get involved. Become available. Show interest and
+support.", "Take action. Remove means, like weapons or pills.", "Get help from people or agencies
+specializing in crisis intervention and suicide prevention."; after "Never keep it a secret if a friend
+tells you about a plan to hurt themselves.": "Contact 988 so that you can find out what resources are
+available in your area, or encourage your loved one to reach out."; the steps are introduced as "These
+evidence-based action steps provide a blueprint for reaching and helping someone in crisis." followed
+by "Ask." "Be there." "Help keep them safe." "Help them connect." "Follow up." (unchanged). The page
+gives no study for "evidence-based".
+
+**#BeThe1To, "How and Why the 5 Steps Can Help"** (URL as Part E §1.3), re-read in full. [V]: "Asking
+the question “Are you thinking about suicide?” communicates that you're open to speaking about suicide
+in a non-judgmental and supportive way."; "Do not ever promise to keep their thoughts of suicide a
+secret."; "Studies show that asking at-risk individuals if they are suicidal does not increase suicides
+or suicidal thoughts. In fact, studies suggest the opposite: findings suggest acknowledging and talking
+about suicide may in fact reduce rather than increase suicidal ideation." (no citation on the page);
+"do not commit to anything you are not willing or able to accomplish"; step 3 asks whether the person
+has already tried, knows how, has a plan, its timing and access to the method (paraphrase; the lesson
+names this and does not rehearse it); "The Lifeline can always act as a resource during these moments
+as well if you aren't entirely sure what to do next." The footer: "Created by the 988 Suicide and Crisis
+Lifeline, which is funded by the Substance Abuse and Mental Health Services Administration &
+administered by Vibrant Emotional Health." [V].
+
+**R U OK?, "How to ask"** (URL as Part E §1.4), re-read in full. **Correction to Part E §1.4:** the
+readiness check now has nine questions in three groups ("AM I READY?", "AM I PREPARED?", "PICKED MY
+MOMENT?" [V]): "Am I in a good headspace?" "Am I willing to genuinely listen?" "Can I give as much time
+as needed?" "Do I understand that if I ask how someone's going, the answer could be: “No, I'm not”?"
+"Do I understand that I can't 'fix' someone's problems?" "Do I accept that they might not be ready to
+talk? Or they might not want to talk to me?" "Have I chosen somewhere relatively private and comfy?"
+"Have I figured out a time that will be good for them to chat?" "Have I made sure I have enough time to
+chat properly?" [V]. Also [V]: "If you're not in the right headspace or you don't think you're the right
+person to have the conversation, try to think of someone else in their support network who could talk
+to them."; "Mention specific things that have made you concerned for them, like "You seem less chatty
+than usual. How are you going?""; "If they don't want to talk, don't criticise them."; "Tell them
+you're still concerned about changes in their behaviour and you care about them."; "Avoid a
+confrontation."; "You could say: “Please call me if you ever want to chat” or “Is there someone else
+you'd rather talk to?”"; "If they need time to think, sit patiently with the silence."; "Show that
+you've listened by repeating back what you've heard (in your own words) and ask if you have understood
+them properly."; "Some conversations are too big for family and friends to take on alone."; "Pop a
+reminder in your diary to call them in a couple of weeks. If they're really struggling, follow up with
+them sooner."
+
+**R U OK?, "What should I do if I'm worried about someone's immediate safety"**
+(https://www.ruok.org.au/what-should-i-do-if-i-m-worried-about-someone-s-immediate-safety, dated 9
+September 2020, linked from "How to ask" as "How to talk to someone at risk of suicide"), read in full.
+[V]: "If you think someone is having thoughts of suicide, don't be afraid to ask them if they are.
+Asking the question does not lead to suicide."; "It's not an easy question to ask, so if you don't feel
+confident, a good first step is to call a crisis helpline to seek some immediate advice"; its model
+question "People in situations like this may be thinking about suicide. Have you thought about killing
+yourself?"; "If they share details of their plan with you, don't agree to keep these or their suicidal
+thoughts a secret."; "Keep talking and listening to them."; "“Who's a person you trust? I would like to
+call them so we can both help.”"; among routes to help, "Calling a crisis support line together"; "If
+you believe their life is in immediate danger or you are finding the situation difficult to manage,
+call 000." The page also tells the helper to keep the person safe and remove dangerous items; the
+lesson names that as beyond its scope and does not teach it.
+
+**Samaritans, "Supporting someone with suicidal thoughts"** (URL as Part E (e)) and its sections 2, 5,
+6 and 7 (same path plus what-does-being-there-for-someone-involve/, how-often-should-i-check-them/,
+getting-additional-help-someone/, looking-after-yourself/), read in full. Section 1 [V]: "Evidence
+shows asking someone if they're suicidal can protect them. By asking someone directly about suicide,
+you give them permission to tell you how they feel, and let them know that they are not a burden.";
+"If someone does let you know that they are having suicidal thoughts, always take them seriously. You
+don't have to be able to solve their problems." Section 2 [V]: "What you can do, however, is provide a
+supportive presence, free of judgment."; "You don't need to change what they are going through for
+them."; practical help may include "getting in touch with their friends or family (with their
+permission)"; "Or you can ask us to call them on their behalf."; "If they are in immediate danger the
+fastest way to get help is to call an ambulance on 999. We can call an ambulance for you, if you
+prefer."; the section also suggests making a "safety plan" together, with a template in section 3
+(not read; the lesson names it as beyond its scope). Section 5 [V]: "Often people don't reach out
+because they're worried they'll be a burden or because they feel shame."; "Don't try to force them to
+open up to you - they might not be ready or able to do that. But do keep letting them know that you're
+there for them." Section 6 [V]: "Sometimes, it can be important to recognise the limit of the support
+you can offer as a friend, and reach out for professional help." Section 7 [V]: "Remember that it's
+okay to decide that you are no longer able to help someone and to let them know you won't be
+contactable for a while."; "If you need to talk about how you are feeling, please call Samaritans on
+116 123." **None of the five Samaritans sections read, nor the SHUSH page, says anything about keeping
+or refusing to keep a secret.** The SHUSH page (URL as Part E §1.1), re-read: "If you're worried
+someone is suicidal, it's okay to ask them directly. Research shows that this helps - because it gives
+them permission to tell you how they feel, and shows that they are not a burden." [V; the hyphen is
+the page's].
+
+**Mental Health First Aid USA, ALGEE explainer** (URL as Part E §1.5), re-read; still dated September
+24, 2025. [V]: "The MHFA Action Plan has five steps, which can be used in any order for a non-crisis
+situation."; the first step reads "Approach, assess for risk of suicide or harm"; "Remember that your
+role is not to diagnose someone or solve the problem, but instead to provide support and information."
+
+**Rape Crisis England & Wales, "Supporting a survivor"**
+(https://rapecrisis.org.uk/get-help/supporting-a-survivor/), read in full, for the pointer to Personal
+Safety lesson 11. [V]: "The most important thing you can do for a victim or survivor is to listen to
+them and believe what they are saying."; the heading "Don't tell anyone else without their permission",
+with "it's important that you don't betray their trust by telling someone else what happened to them
+without their okay."; "try not to ignore or judge their decisions, even if they're not the ones you
+think you'd make."
+
+## Gate closures, lesson 10 review (2026-09-26)
+
+Stage 4 fix pass on lesson 10. Each primary below was fetched again today with curl and a generic
+browser User-Agent (no personal data), converted with pdftotext or an HTML-to-text script, and
+string-matched. Strings marked [V] are copied from that text. Nothing here clears an entry on the
+unread line.
+
+**Bolger and Amarel 2007** (author PDF, URL as Part C §6.4), full text re-read. Design, corrected
+(see the Stage 4 note in Part C §6.4): "Study 1 used a two-groups design and compared the effects of
+visible and invisible practical support on distress. Study 2 compared the effects of visible and
+invisible emotional support on distress and included a no-support control group. Study 3 was designed
+to examine mediating factors that could account for differential effects of visible and invisible
+practical support." [V]. Study 3 also had a no-support condition (its five conditions: Visible A,
+Visible B, no support, Invisible B, Invisible A). All three drew women from Introduction to
+Psychology at New York University (35, 96 and 167 recruited; final 31, 86 and, by the abstract's N =
+257, 140). Study 2's support was reassurance: the confederate told the participant she had "nothing
+to worry about, that she would do fine." [V]; visible script: "Look, you’ve got nothing to worry
+about, you’ll do fine." [V]; invisible script, to the experimenter: "[Participant] is going to do
+fine, she’s got nothing to worry about, but I still don’t know what I’m supposed to do." [V]. Study 2
+results: distress rose 2.22 (visible), 1.65 (no support), 0.87 (invisible); invisible versus visible
+p < .017, d = −0.63; invisible versus no support d = −0.36, p = .159; visible versus no support d =
+0.27, p = .287. The authors: "Visible support, the canonical form studied in prior theory and research,
+has at best a small benefit compared with no support, whereas invisible support is likely to have a
+beneficial effect and has at worst a small negative effect." [V]. Study 3: visible (A) versus no
+support, "1.09 units greater", p < .001, d = 0.66 [V]; invisible (A) versus no support "failed to
+reach significance at the .05 level", p = .069, d = −0.37 [V]. So the abstract's "Invisible support
+(practical and emotional) reduced emotional reactivity relative to visible and no support" [V] is
+clear against visible support and a non-significant trend against no support in both experiments that
+had that group. The lesson now says so.
+
+**Bolger, Zuckerman and Kessler 2000** (author PDF, URL as Part C §6.4), re-read. High-stress phase:
+"provision b = -0.16, t(67) = -3.41, p = .001; receipt b = 0.11, t(67) = 2.31, p = .024" [V], i.e.
+the next-day change in the examinee's depression was 0.16 units lower after a day the partner reported
+providing support and 0.11 units higher after a day the examinee reported receiving it. The
+invisible-support combination: "depression tended to decrease over time by 0.09 units, t(67) = - 1.73,
+p = .088." [V]. A trend, not a significant fall; the lesson now says so.
+
+**Rogers and Farson, 1987 excerpt** (URL as Part C §1.1), re-read: "Passing judgment, whether critical
+or favorable, makes free expression difficult. Similarly, advice and information are almost always
+seen as efforts to change a person and thus serve as barriers to his self-expression and the
+development of a creative relationship. Moreover, advice is seldom taken, and information hardly ever
+utilized." [V; the PDF text layer prints "selfexpression" across a line break, and "utilized" follows
+a page break]. The lesson quotes "are almost always seen as efforts to change a person" and
+paraphrases the rest.
+
+**Feng 2014** (eScholarship, URL as Part C §6.3), re-read: "The two cultural groups did not differ
+significantly in terms of intention to implement advice." [V]; "Overall, findings of this study suggest
+that the integrated model of advice-giving functions very similarly with Americans and Chinese." [V].
+The US-China difference on rated quality was partial eta squared .04 for each of the two tests.
+
+**Jones et al. 2018** (author PDF, URL as Part C §6.1), Table 3 re-read: in HPC conversations the
+proportions of confederate turns were level 5 .54, level 6 .20, level 7 .21, level 8 .02, level 9 .01
+(levels 4 to 6 .75, 7 to 9 .24); "short encouragers" is not a coded category. Low-comfort condition
+described as: confederates "minimized disclosers’ emotions, encouraged disclosers to forget about the
+stress event or even blamed the discloser for what happened." [V].
+
+**VitalTalk, "Responding to Emotion: Respecting"** (URL as Part E §2.4), re-read: the note "Think of
+this as another kind of acknowledgment but stop short of suggesting you understand everything (you
+don’t)" [V] belongs to the Understanding row (example "This helps me understand what you are thinking"
+[V]); the Naming row's note is "In general, turn down the intensity a notch when you name the emotion"
+[V].
+
+**MacGeorge, Feng and Guntzviller 2016** (accepted manuscript), re-read: the review calls the face
+account's home "the central paradigm for communication research on advice" [V] ("the message
+paradigm") and then reviews "three alternative paradigms of advice research conducted primarily
+(though not exclusively) by scholars from other disciplines" [V].
+
+**Duhigg, *Supercommunicators*, Penguin UK sample**, re-read: the prologue opens with Felix Sigala;
+the author's own management story ("This book was born, in part, from my own failures at
+communicating." [V, doubled words removed]) comes later in it.

@@ -106,3 +106,13 @@ record decision 18 asks for.
   corrected) and "Zaki's reply that empathy can be widened" (should be "chosen, up or down").
 - **Quiz keys** for 07: 1,3,0,2,1,0, unchanged by the fix; checked by script against 01 to 06, 08
   and 09 (no identical or shifted sequence, no shared run of four).
+
+## 2026-09-26: lesson 10 Stage 4 (fixer's notes)
+
+- **`npm run build:drafts` exits 1 on this course**: "10 lessons and no final test". The final
+  test belongs beside the unwritten project (lesson 05 P14) before publish; the orchestrator should
+  put both in `docs/QUEUE.md`.
+- **Bolger and Amarel 2007 had a no-support group in Studies 2 and 3, and invisible support beat it
+  in neither at p < .05** (p = .159, .069). Any lesson or script that says invisible support
+  "reduced distress compared with no support" must say that comparison was a trend. Study 2's support
+  was reassurance, not a tip. SOURCES §6.4 corrected.

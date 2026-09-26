@@ -28,9 +28,9 @@ quiz:
       Naming how coming home to it must have felt, and asking how she is now, explicitly
       acknowledges her feelings, which is what the top levels describe. Questions about what was
       taken and the police are useful, and they sit in the middle band because they're about the
-      event rather than the feeling. "At least nobody was at home" minimises it, the kind of
-      it-could-be-worse remark that behaved like the bottom levels in the 2018 conversation study.
-      Telling her she should have fitted a lock blames her, which is the bottom of the scale.
+      event rather than the feeling. "At least nobody was at home, and it's only things" minimises
+      what she has lost, which challenges whether her feeling is legitimate: the low band. Telling
+      her she should have fitted a lock blames her, which is the bottom of the scale.
   - q: >-
       A friend says his car has failed its annual inspection and he doesn't know whether to pay for
       the repairs or sell it. On the sequencing study in this lesson, which order would readers
@@ -60,10 +60,12 @@ quiz:
     explain: >-
       The experiments found support worked when it avoided telling the recipient she couldn't
       cope, and a tip passed on in the course of your own story does that. Saying she's clearly in
-      a state and needs drilling delivers the message the authors found did the harm. Repeated
-      promises that she'll pass are reassurance without substance. Staying out of the way gives no
-      support at all. The studies were women students facing a speech, so applying them to a
-      driving test is this course's reading.
+      a state and needs drilling delivers the message the authors found did the harm. Promises
+      said straight to her are the visible kind, which in the reassurance experiment went with more
+      distress than the same words said about her to
+      someone else. Staying out of the way gives no support at all.
+      The studies were women students facing a speech, so applying them to a driving test is this
+      course's reading.
   - q: >-
       Two friends disagree about whether you should ever offer advice to someone who hasn't asked
       for it. Which study would do most to settle the empirical part of their argument?
@@ -97,26 +99,26 @@ quiz:
       differ is whether chosen empathy is a good guide to moral decisions. Neither tells you to
       share the fear fully, and neither is silent on support.
   - q: >-
-      A friend has been offered two jobs and asks you, "What would you do?" Which reply follows the
-      Ask-Offer-Ask structure described in this lesson?
+      Your sister asks whether she should tell her landlord about the damp in her flat. Which reply
+      follows the Ask-Offer-Ask structure described in this lesson?
     options:
-      - '"Take the one with the better pay. You can always move on again next year."'
-      - '"What does each pay, and the hours, and the commute, and the team, and..."'
-      - '"What are you weighing up?" Then your view, if he wants it. Then his reaction.'
-      - '"I can''t answer that for you. It has to be your decision in the end, not mine."'
+      - '"Tell him in writing today. Damp only gets worse the longer you leave it."'
+      - '"How bad is it? Which rooms? Since when? What does the lease say, and..."'
+      - '"What have you thought of doing?" Then your view, if she wants it. Then hers.'
+      - '"I can''t decide that one for you. It has to be your call in the end, not mine."'
     answer: 2
     explain: >-
-      Ask-Offer-Ask starts with what he already thinks, offers your view with his agreement, and
-      then asks how it sits with him. Naming the better-paid job gives advice with nothing before or
-      after it. A stream of questions never gets to the offer he asked for. And refusing to answer
+      Ask-Offer-Ask starts with what she already thinks, offers your view with her agreement, and
+      then asks how it sits with her. Telling her to write today gives advice with nothing before or
+      after it. A stream of questions never gets to the view she asked for. And refusing to answer
       withholds what was explicitly requested, which the advice research doesn't recommend: advice
       that's asked for, feasible and polite tends to be welcome.
 ---
 
 A friend tells you something has gone wrong, and before they have finished the second sentence part
 of you is already working on the answer. The impulse is kind. It is also what most of this lesson is
-about. In two studies of people responding to imagined complaints from friends who were not
-asking for advice, people offered some anyway, very early, in about 70% of cases, and more
+about. In two studies of undergraduates and members of the public responding to imagined
+complaints from friends who were not asking for advice, people offered some anyway, very early, in about 70% of cases, and more
 often to the friends they felt closest to.[3] Whether that helps depends on what the friend needed,
 and there's a good deal of research on how to tell.
 
@@ -144,13 +146,13 @@ event".[1]
 
 The nine levels fall into three bands:
 
-- **Low** (levels 1 to 3): condemning the person's feelings, challenging whether they are
+- **Low** (levels 1 to 3, the paper's LPC): condemning the person's feelings, challenging whether they are
   legitimate, or ignoring them.
-- **Moderate** (4 to 6): distracting the person from what happened, offering condolences that
+- **Moderate** (4 to 6, MPC): distracting the person from what happened, offering condolences that
   are not about the feeling, or explaining the event without reference to it. In the coding manual
   the paper describes, level 6 also takes in questions about what happened, paraphrases, and
   advice.
-- **High** (7 to 9): explicitly recognising the feelings, elaborating and explaining them, or
+- **High** (7 to 9, HPC): explicitly recognising the feelings, elaborating and explaining them, or
   helping the person see how the feelings fit a broader context.[1]
 
 ### What the studies found
@@ -173,13 +175,13 @@ recordings.
 
 :::predict In the conversations where the trained listener was told to give the most person-centred comfort, what share of that listener's turns do you think the coders placed in the top three levels?
 
-About a quarter: 24% on average. The rest were mostly in the moderate band: questions about what happened, sympathy, short encouragers. Independent raters still judged those conversations as highly person-centred.[1]
+About a quarter: 24% on average. The rest were almost all in the moderate band: about half of all that listener's turns were sympathy statements (level 5), and about a fifth were questions and comments about the event (level 6). Independent raters still judged those conversations as highly person-centred.[1]
 
 The authors' reading is that a listener giving good comfort cycles between moderate and high responses, rather than staying at the top.
 :::
 
-Two more results change how you would use the scale. First, low-comfort turns did more harm than
-high-comfort turns did good: "In terms of magnitude, LPC turns (levels 1–3) also exerted a stronger
+Two more results change how you would use the scale. First, low-comfort turns went with worse
+outcomes more strongly than high-comfort turns went with better ones: "In terms of magnitude, LPC turns (levels 1–3) also exerted a stronger
 impact on outcomes than HPC turns", and the effects either way were small.[1] Second, one level in
 the middle band behaved like the bottom. Level 4 covers distracting the person ("Let's go do
 something") and remarks that "everything will work out just fine," offered without any sign of how.
@@ -187,7 +189,7 @@ In their data, "Level 4 messages thus appear to operate much more like LPC messa
 messages, at least in terms of the outcomes we examined."[1]
 
 The authors name the obvious limit themselves: "it is possible that our results are unique to
-stranger dyads".[1] Friends were not studied. **This course's reading** of the two papers together:
+stranger dyads" (a dyad is a pair).[1] Friends were not studied. **This course's reading** of the two papers together:
 the scale is a way of hearing what a reply does, not a script. The strongest thing the evidence
 supports is avoiding the bottom of it, and the top levels are easier to reach honestly once you have
 asked enough to know what the person feels.
@@ -217,7 +219,7 @@ context of the whole conversation, which a list cannot do.
 Reply 6 on its own, as an opening line, could sound rehearsed. In real talk it tends to come after
 4 and 5, once you have heard enough to know that it is the rent he is lying awake about.
 
-:::checkpoint Your turn. Your brother tells you his band has split up after six years. Put each reply in the low, moderate or high band before you open this. (a) "Six years. That's a lot to lose, and it sounds like it wasn't your choice." (b) "Bands split up all the time. You shouldn't be this down about it." (c) "What happened? Was it the tour?" (d) "Forget about it and come and watch the match."
+:::checkpoint Your turn. Your brother tells you his band has split up after six years. Put each reply in the low, moderate or high band before you open this. (a) "Six years. That's a lot to lose, and it sounds like it wasn't your choice." (b) "Bands split up all the time. You shouldn't be this down about it." (c) "What happened? Was it the tour?" (d) "Come and watch the match, it'll take your mind off it."
 
 (a) High: it acknowledges what he has lost and guesses, tentatively, at part of why it hurts (level 7 or 8).
 
@@ -232,10 +234,9 @@ If you put (d) in the middle band, that is what the scheme says. The point of th
 
 ### "It'll be fine"
 
-Reassurance comes easily, and several traditions that share nothing
-else agree it ranks low. Lesson 8 met Rogers and Farson's warning that even "I'm sure everything
+Reassurance comes easily, and several traditions agree it ranks low. Lesson 8 met Rogers and Farson's warning that even "I'm sure everything
 will work out O.K." can land as an attempt to steer the speaker.[10] Gordon's list of twelve
-"roadblocks" to listening, as a US government counselling manual, SAMHSA's TIP 35, reproduces it,
+"roadblocks" to listening, which lesson 6 met, as a US government counselling manual, SAMHSA's TIP 35, reproduces it,
 puts "Reassuring, sympathizing, or consoling" tenth, and explains: "sympathy is not the same as
 empathy. Such reassurance can interrupt the flow of communication and interfere with careful
 listening."[11] That is **practitioner advice**, written for substance-use counsellors, and no study
@@ -249,6 +250,12 @@ on **this course's reading**: hope that is grounded in something ("you got throu
 restructuring; you know people in the trade") answers what the person said, while "it'll be fine"
 closes it down.
 
+One experiment later in this lesson complicates the picture. In it, a woman student waiting to
+give a speech heard a fellow student say she had nothing to worry about and would do fine. When that
+was said to the experimenter, in her hearing, her distress rose less than when the same words were
+said to her face.[9] The words were the same both times; what differed was whether they came addressed
+as help.
+
 ## Advice: hold it back, or give it well?
 
 Should you give advice when someone tells you about a problem? The listening professions and the
@@ -258,8 +265,9 @@ then where they meet.
 ### The case for holding back
 
 The helping traditions lean against advice. Rogers and Farson, in their 1957 booklet for managers,
-wrote that "advice is seldom taken, and information hardly ever utilized", as an assertion rather
-than a finding.[10] Gordon's roadblock number 3, as TIP 35 gives it, is "Giving advice, making
+gave their reason: advice and information "are almost always seen as efforts to change a person",
+and so get in the way of the speaker saying what they mean. They added that "advice is seldom taken,
+and information hardly ever utilized", as an assertion rather than a finding.[10] Gordon's roadblock number 3, as TIP 35 gives it, is "Giving advice, making
 suggestions, or providing solutions prematurely or when unsolicited", recognisable because such
 advice often begins "What I would do is."[11] The manual adds, of all twelve: "However well
 intentioned, these roadblocks to listening shift the focus of the conversation from the client to
@@ -269,8 +277,13 @@ tell practitioners to "refrain from unsolicited advice, confronting, instructing
 warning".[13] All of this is **practitioner advice**, from people whose work is listening to others
 in difficulty.
 
+Part of their case is about evidence, and part, on **this course's reading**, is a value: that the
+person with the problem should find their own way through it, and that a listener's job is to make
+room for that. No study settles the second part.
+
 Their case has research behind it, too. A review by Erina MacGeorge, Bo Feng and Lisa Guntzviller
-sets out the account most advice researchers work from, taken from Goldsmith's work: advice
+sets out the account at the centre of communication research on advice, which began with
+Goldsmith's work: advice
 can threaten "negative face" when it feels like "butting in", and "positive face" when it seems to
 imply "a lack of knowledge or competence".[4] Face, here, is the public self-image a person wants to
 keep. That is the authors' account of why advice stings, and later in this lesson a set of
@@ -297,9 +310,9 @@ study** of US college students, and the authors note that "an unexpectedly large
 people with a problem did not report getting any advice at all.[5]
 
 Lesson 9 described the other result the advice researchers point to. In Weger and colleagues' 2014
-experiment with strangers, advice about the weekend or a disappointment left people as satisfied,
-and liking their partner as much, as active listening did, though active listening made them feel
-more understood.[7] The authors' reading was that "people respond to listeners' overall level of
+experiment with US undergraduates talking to strangers, people given advice about the weekend or a
+disappointment were no less satisfied, and liked their partner no less, than people given active
+listening, though active listening made them feel more understood.[7] The authors' reading was that "people respond to listeners' overall level of
 responsiveness regardless of the form it takes".[7]
 
 Even the motivational interviewing tradition has moved. Miller and Rollnick's summary of their
@@ -319,7 +332,7 @@ different orders of support, questions and advice, with the advice itself the sa
 
 Support, then questions, then advice was rated highest in quality and most likely to be followed, in both groups.[6]
 
-The US students rated advice that came with support or questions somewhat higher than the Chinese students did. Feng calls the differences "small in magnitude", and warns against reading much into them.[6]
+The US students rated advice that came with support or questions somewhat higher than the Chinese students did. On how likely they were to follow the advice, the two groups didn't differ, and Feng's summary is that the sequence worked "very similarly" in both. Feng calls the differences "small in magnitude", and warns against reading much into them.[6]
 :::
 
 Feng is careful about the limits. The winning order's "supremacy was relatively small"; the advice
@@ -327,7 +340,8 @@ in both scenarios had been asked for, since the person in the transcript said th
 to do; the problems were modest ones; and imagined responses "may differ from their responses to
 those messages in real-life supportive interactions".[6] Feng also notes that groups can differ in
 how they use rating scales, which is one more reason not to read the country comparison as a
-difference in how supportive anyone is. It is a **single study**, in vignettes, of college students.
+difference in how supportive anyone is. It is a **single study**, in vignettes (written scenarios people imagine themselves in), of
+college students.
 
 Put the order beside the 70% figure from the start of the lesson and you have the advice
 researchers' practical point: in their studies people tended to advise early, and advice was
@@ -337,13 +351,17 @@ this course read only the abstract.[3]
 
 ### Where the two sides meet
 
-This is a contested question, but less contested than its slogans. The course's research classed it
-as **largely established** that timing, whether advice was asked for, and politeness matter; whether
-to advise in a particular case is a judgement.[4][6] Look at the qualifiers in the hold-back
-tradition's own texts: "prematurely or when unsolicited", "refrain from unsolicited advice". And look
-at where the research's best-rated advice sits: after support and questions. **This course's
-reading** is that the two positions mostly agree on the practice and differ on the default: the
-listening traditions start from holding back, the advice researchers from giving advice well.
+This is a contested question, but less contested than its slogans. This course classes it as
+**largely established** that timing, whether advice was asked for, and politeness matter; whether
+to advise in a particular case is a judgement.[4][6] Look at the qualifiers in two of the hold-back
+texts: TIP 35's "prematurely or when unsolicited" and MINT's "refrain from unsolicited advice".
+Samaritans' advice for someone who is struggling carries no such qualifier, and of the three its
+setting is the closest to this lesson's subject.[11][13][14] And look at where the research's best-rated
+advice sits: after support and questions. **This course's reading** is that the two positions agree
+more than their slogans suggest, and differ most where the person is in distress, which is where the
+advice studies say least: Feng's advice had been asked for and the problems were modest ones, and
+none of the studies here was of people in crisis. The listening traditions start from holding back,
+the advice researchers from giving advice well.
 
 What would settle the rest is experiments in live conversations about real problems, varying when
 advice comes and whether it was asked for, and measuring how the person coped afterwards. Most of
@@ -383,13 +401,13 @@ Now advice has been asked for, which changes things. This is Ask-Offer-Ask in a 
   money better than I do."
 - **Ask.** "How does that sit with you?"
 
-The advice itself follows what the MacGeorge study found people act on: it is feasible, it does not
+The advice itself follows what the MacGeorge study found people said they meant to act on: it is feasible, it does not
 carry obvious drawbacks, and it is put politely, leaving the decision where it belongs.[5] If he
 says, "No, I need something coming in," the last step has done its job. You have learned something
 about his situation that your advice did not account for.
 
 Charles Duhigg's popular book *Supercommunicators*, whose three kinds of conversation lesson 3 met,
-opens with the author's own version of Thaddeus's evening. When a colleague told him their
+includes, in its prologue, the author's own version of Thaddeus's evening. When a colleague told him their
 suggestions were being ignored, he offered fixes: "They had told me they needed empathy, but rather
 than listen, I replied with solutions."[17] His frame of practical, emotional and social
 conversations is a heuristic for asking which one you are in, not a finding.
@@ -414,21 +432,29 @@ noticed. It comes from Niall Bolger's lab, and counts as **one group's programme
 a diary study and one a set of experiments.
 
 In the first, 68 couples in which one partner was preparing for the New York State Bar Examination
-kept daily diaries for the weeks before it.[8] When the partner reported giving emotional
-support that the examinee did not report receiving, the examinee's depression fell; the examinee's own
-reports of receiving support went with worse adjustment.[8] That is a correlation from diaries, and
+kept daily diaries for the weeks before it.[8] On days near the exam when the partner reported
+giving emotional support, the examinee's depression rose less by the next day; on days the examinee
+reported receiving support, it rose more. Support the partner gave and the examinee didn't notice
+was the best combination, though that last comparison fell just short of statistical
+significance.[8] That is a correlation from diaries, and
 it raised the question the experiments tried to answer.
 
 [Bolger and David Amarel](http://www.columbia.edu/~nb2229/docs/bolger-amarel-support-experiments-2006.pdf)
-ran three experiments, 257 participants in all, and restricted them "to female participants and
-female peer confederates"; the first drew on New York University undergraduates.[9] Each participant
-was told she would have to give a speech, given a few minutes to practise, and then heard a fellow
-participant, secretly a confederate, pass on a common public-speaking tip. In the visible condition
-the tip was addressed to her. In the invisible one it was addressed to the experimenter, in her
-hearing. Invisible support reduced distress compared with visible support and with no support.
-Visible support "was either ineffective or it exacerbated reactivity."[9]
+ran three experiments, 257 participants in all, every one a woman taking introductory psychology
+at New York University; they restricted the studies "to female participants and female peer
+confederates".[9] Each participant was told she would have to give a speech and given a few minutes
+to practise. Then a fellow participant, secretly a confederate, said something helpful. In the first
+and third experiments it was a common public-speaking tip. In the second it was reassurance: that she
+had "nothing to worry about, that she would do fine." In the visible condition the words were
+addressed to her. In the invisible one they were addressed to the experimenter, in her hearing. The
+second and third experiments also had a group who got no support at all.
 
-:::predict Why would the same tip help less when it was said to you than when it was said near you? Write your guess before you open this.
+Invisible support reduced distress compared with visible support, and visible support "was
+either ineffective or it exacerbated reactivity" (reactivity here means the rise in distress).[9]
+Against no support, invisible support came out ahead in both experiments that tested it, but in
+neither did the difference reach statistical significance.[9]
+
+:::predict Why would the same words help less when they were said to you than when they were said near you? Write your guess before you open this.
 
 The third experiment separated the parts of the message. The authors' conclusion: "invisibility per se is not the essence of what makes invisible support effective; rather, it is (at least in part) avoiding the communication that the support recipient is inefficacious."[9]
 
@@ -440,8 +466,8 @@ That mechanism, tested in their third experiment rather than supposed, is the au
 advice that implies "a lack of knowledge or competence".[4][9] **This course's reading** is that the
 two literatures are describing the same risk from different sides.
 
-The limits matter. These were women students anticipating a speech, with a stranger's tip, in a
-lab. Later research on when visible support does better exists, and this course has not read it.
+The limits matter. These were women students anticipating a speech, with a stranger's tip or
+reassurance, in a lab. Later research on when visible support does better exists, and this course has not read it.
 "Invisible" in these studies did not mean secret; the participant heard every word. It meant help
 that did not come labelled as help for someone who could not cope.
 
@@ -476,8 +502,9 @@ the speaker is in distress. When someone brings you a problem, they often are, a
 this course read lean one way.
 
 Samaritans' advice, as lesson 4 quoted, includes not trying to identify what the person is going
-through with your own experiences.[14] VitalTalk's advice to clinicians naming a patient's emotion is
-to "stop short of suggesting you understand everything (you don't)".[16] And in the 2018 conversation
+through with your own experiences.[14] VitalTalk's advice to clinicians, on statements that show they
+understand, is to "stop short of suggesting you understand everything (you don't)".[16] It isn't
+about second stories, but it names the claim a matching story often makes. And in the 2018 conversation
 study, the confederates who had been trained to give low comfort "tended to accomplish this goal by
 engaging in prolonged narratives about their own experiences which have nothing to do with
 disclosers' emotional experiences."[1] That last is an observation from the coding of actors told to
@@ -511,9 +538,10 @@ trouble mostly needs.
 ## What people get wrong
 
 **"Never give advice."** The advice studies found advice that is asked for, feasible, polite and
-placed after support tends to be welcome, and in one experiment advice satisfied strangers as much as
-active listening did.[5][6][7] The listening traditions' own wording is "prematurely or when
-unsolicited", not never.[11]
+placed after support tends to be welcome, and in one experiment advice left US students no less satisfied
+than active listening did.[5][6][7] The counselling manual's own wording is "prematurely or when
+unsolicited", not never. Samaritans do say not to offer advice, but to someone who is struggling, not
+as a rule for every conversation.[11][14]
 
 **"The kindest thing is to solve it for them."** Unsolicited advice predicts poorer evaluations, and
 advice can imply the person could not have worked it out themselves, which is the risk the invisible
@@ -521,14 +549,16 @@ support experiments isolated.[4][9]
 
 **"Reassurance is supportive."** "It'll all work out" sits in a middle level of the comfort scale by
 its label, and behaved like the bottom levels in the one study that coded real conversations.
-Counselling and crisis-line advice agree.[1][11][15]
+Counselling and crisis-line advice agree. Bolger and Amarel's second experiment adds a twist: the same
+reassurance went with less distress when it was said about the person than when it was said to
+her.[1][9][11][15]
 
 **"The best support is visible and generous."** In Bolger and Amarel's experiments, support that
 announced itself was ineffective or made distress worse, and support that did not signal the person
-could not cope helped.[9]
+could not cope did better.[9]
 
-**"I know exactly how you feel."** VitalTalk tells clinicians to stop short of it, because you
-don't, and it turns the talk towards you.[16]
+**"I know exactly how you feel."** VitalTalk tells clinicians to stop short of claiming it,
+because you don't.[16]
 
 **"More empathy is always better support."** Bloom argues against sharing the distress in
 particular, and Zaki says there are times to turn empathy down; on support they largely agree.[18][19]
