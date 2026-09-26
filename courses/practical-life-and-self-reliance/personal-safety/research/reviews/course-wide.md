@@ -435,3 +435,60 @@
 - **The Criminal Damage Act 1971 was not read.** The CPS capture says defence of property "is governed
   by" it; the course cites s.76(2)(aa) for force against a person to protect property and must not
   describe the 1971 Act.
+
+## Final test review (2026-09-25)
+
+Fresh-context review of `assessments/final-test.md`, all 24 items, against each lesson passage, every
+quotation against SOURCES.md (all 40 sourced quotations match; the rest are invented stems), the
+OUTLINE blueprint and the briefs. Blueprint coverage is complete (1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 1, 1,
+2, 1, 1, 1 for lessons 1 to 16); at least 20 items are application; every law item (18, 20 to 24)
+has "as general information", names its jurisdiction, names nobody and asks which rule applies.
+No item asks what a victim should have done. `check-quiz-shape` and `check-quiz-letters` clean.
+
+**Fixed in place:**
+- **Keys.** The first six were lesson 8's exactly, and the file's comment was wrong: runs of four
+  also matched lessons 3, 6, 11, 13 and 16 at other offsets. No one- or two-item swap within items 1
+  to 6 clears every run (searched by script: six changes is the minimum). Options permuted in items
+  2, 3, 8, 9, 13 and 14 with `quiz-permute.cjs`. New sequence
+  1,3,2,3,0,3,2,0,1,0,1,2,1,0,2,0,2,3,1,3,2,0,3,1: six of each, no adjacent repeat, and the longest
+  run shared with any lesson at any offset is three. The first six still share four positions with
+  lesson 8 (1, _, _, 3, 0, 3), not in a run; getting that to three takes seven changes, and the
+  lesson-12 rule in force doesn't ask for it.
+- **The intro's pointer named the wrong questions** ("12 and 13"; the domestic abuse items are 11
+  and 12, and 13 is the dental practice). Replaced by a content note in the course form, by nation,
+  numbers from Gate closures G6 with non-breaking spaces, covering items 11, 12 and 18 and the
+  domestic abuse, sexual assault and homicide figures in the explanations to items 1 and 4. The site
+  requires an answer to every item, so the note says to pick any option for those three: 17 of the
+  other 21 still passes. No `[n]` markers, since the test has no Sources section.
+- **Places.** Carlisle and Barnsley (lesson 14), and also Fresno (lesson 15's quiz), Coventry
+  (lesson 10's quiz) and Derby (lesson 10's worked case), are now Chesterfield, Huddersfield,
+  Billings, Loughborough and Yeovil, none of which appears anywhere under `courses/`.
+- **Item 3** leaned on the SRS hierarchy ranking robbery above aggravated assault, which the course
+  never read (SOURCES has only the FBI's robbery-and-homicide example). The stem no longer says
+  robberies and homicides stayed flat, and the explanation argues from the FBI's own example.
+- **Item 8** replayed lesson 5's worked case (two locks, add two lights, 13 against 49). Now the
+  homes have window locks only (SPF 7) and the leaflet sells deadlocks and lights.
+- **Item 14's** distractors cloned lesson 8's quiz item 3 (repeat louder; ask for a manager's
+  details; swear then soften). Two rewritten, explanation to match.
+- **Item 15:** "crowds added none" overstated "more bystanders did not go with more help"; softened.
+  A garbled closing clause fixed. (A colon in a plain YAML option turns it into a mapping: none now.)
+- **Item 20** was written backward ("would have let the shopper get away"); now forward.
+- **Item 5:** "it found no trial" now "this course found". **Item 11:** non-breaking spaces in the
+  Supportline number.
+- **Minutes 35 to 50.** At the course's 140 words a minute the stems, options, explanations and intro
+  come to about 48 minutes; taking the test without the explanations is about 36.
+- **Pass mark** confirmed: the site passes at score ≥ 0.7, so 17 of 24 (0.708) passes and 16 fails.
+
+**Not changed, for the next pass or by choice:**
+- Items 13, 16, 18, 19 and 22 each sit close to a lesson's own quiz item (lesson 8 item 2, lesson
+  10 item 6, lesson 11 items 1 and 2, lesson 12 item 1, lesson 14 item 1): new settings, same point,
+  which is what the blueprint asks for. Item 16 is the closest; its car-and-brochure distractor is
+  what makes it more than a replay. If a later pass wants distance, re-set item 16 as a demand to get
+  into the robber's car at a cash machine, keeping the key.
+- Item 22's retreat distractor overlaps item 20's point; harmless, since it is a distractor.
+- Lesson 5 (not edited here; another session is on it) calls the Lamplugh caller advice
+  "practitioner opinion" at the start of the door section and the call-back rule "sensible,
+  untested" in its labelling paragraph. The test follows the second. The first sentence could say
+  which steps it means at the lesson's next edit.
+
+**Verdict: CLEAN** after the fixes above. `npm run validate` exits 0.

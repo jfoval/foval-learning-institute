@@ -1,11 +1,11 @@
 ---
 title: Final test
 pass_mark: 0.7
-minutes: 35
+minutes: 50
 quiz:
   # --- Fear, and setting it beside an ordinary risk (L1) ---
   - q: >-
-      After a mugging two streets away, a homeowners' association email in Fresno, California, sets
+      After a mugging two streets away, a homeowners' association email in Billings, Montana, sets
       the US death rates for road crashes and for homicide side by side. It then says the smaller
       number doesn't make fear of violence foolish, because another person chooses violence and it
       carries a dread a crash doesn't. On lesson 1's account, is that comparison fair or
@@ -37,9 +37,9 @@ quiz:
     options:
       - The FBI's police data, counting offences known to the police per 1,000 of all residents
       - The US victim survey, counting the share of people who were victims at least once
-      - The US victim survey, counting times people were victims, so two robberies count twice
       - The FBI's police data, counting incidents, each of which may have several victims
-    answer: 2
+      - The US victim survey, counting times people were victims, so two robberies count twice
+    answer: 3
     explain: >-
       Only a victim survey reaches crime nobody reported, and people aged 12 and over is the
       population of the National Crime Victimization Survey, run by the Bureau of Justice
@@ -52,21 +52,21 @@ quiz:
       offences or incidents.
   - q: >-
       In the year a US city's police department moves from the FBI's old Summary Reporting System
-      to NIBRS, its recorded aggravated assaults rise sharply, while its recorded robberies and
-      homicides barely move. A council member calls it an assault wave. What does lesson 2's
-      account of the two systems suggest?
+      to NIBRS, its recorded aggravated assaults rise sharply. A council member calls it an assault
+      wave. What does lesson 2's account of the two systems suggest?
     options:
-      - It may be less than it looks, since NIBRS logs assaults the old rule left out of the count
-      - It's likely real, since the old system logged every offence in an incident, as NIBRS does
       - It's likely real, since a police record is a count of crimes, where a survey is an estimate
+      - It's likely real, since the old system logged every offence in an incident, as NIBRS does
+      - It may be less than it looks, since NIBRS logs assaults the old rule left out of the count
       - It may be larger still, since NIBRS counts only the one most serious offence per incident
-    answer: 0
+    answer: 2
     explain: >-
       The old system's hierarchy rule, in the FBI's words, meant "only the one most serious offense
-      within a criminal incident is counted", so an assault in the course of a robbery went into
-      the count as the robbery alone. NIBRS records up to ten offences per incident. A switch can
-      therefore add assaults to the count with no more attacks, while robberies and homicides,
-      which ranked above assault, stay where they were. The two options about the rules have the
+      within a criminal incident is counted", so an offence that shared an incident with a more
+      serious one went uncounted, as the robbery does in the FBI's own example of a robbery and a
+      homicide, and an assault could be left out the same way. NIBRS records
+      up to ten offences per incident. A switch can therefore add assaults to the count with no
+      more attacks. The two options about the rules have the
       systems the wrong way round. Treating a police record as the real number is the
       misunderstanding the UK's statistics regulator names: a police count is a precise count of
       what reached the police and was written down, under whatever counting rules applied. None of
@@ -75,7 +75,7 @@ quiz:
 
   # --- Who is harmed, by whom, where and when (L3) ---
   - q: >-
-      A speaker at a freshers' welcome talk for women students at a college in Coventry says, "The
+      A speaker at a freshers' welcome talk for women students at a college in Loughborough says, "The
       biggest danger to you is violence from a stranger in the street." Against the England and Wales crime survey's
       figures for the year ending March 2024, which correction fits what the survey measured?
     options:
@@ -113,7 +113,7 @@ quiz:
       soon. Waiting months runs against the finding that repeats come quickly, and waiting for a
       second theft is the "lightning doesn't strike twice" belief the research corrects. A general
       tightening misses Pease's point: the first crime says a good deal about the next one, namely
-      which opening it showed. In this course's labels, acting quickly is sensible, untested: it
+      which opening it showed. In this course's labels, acting quickly is sensible, untested: this course
       found no trial of changing a code that week against changing it later. And none of it moves
       the blame from the person who took the scooters.
 
@@ -163,22 +163,22 @@ quiz:
 
   # --- Home, the door and the doorstep (L5) ---
   - q: >-
-      A home-security firm posts a leaflet to every house on a new housing development in Derby,
-      where nearly all the homes were built with window locks and door deadlocks. It says, "WIDE
-      homes had an SPF of 49, so adding our two lights will make your home 49 times safer." On
+      A home-security firm posts a leaflet to every house on a new housing development in Yeovil,
+      where nearly all the homes were built with window locks. It says, "WIDE homes had an SPF of
+      49, so adding our deadlocks and two lights will make your home 49 times safer." On
       lesson 5's account, what's wrong with that promise?
     options:
+      - The 49 is against homes with none of the devices; window locks alone are the SPF 7 group
       - Nothing, since an SPF of 49 is the drop any home gets once it has all four of the devices
-      - The 49 is against homes with none of the devices; homes with both locks are the SPF 13 group
       - The 49 is for homes that had a burglar alarm as well, and the leaflet says nothing of alarms
       - The 49 came from asking burglars in prison, not from counting which homes were burgled
-    answer: 1
+    answer: 0
     explain: >-
       Tseloni and colleagues' SPF compares households that have a set of devices with households
       that have "no security", none of the devices the survey asked about. In the England and Wales
       survey years 2008/09 to 2011/12 that was under one household in twenty (4.9%), and those
       households were nearly eight times as likely as the average to be burgled. Homes with window
-      locks and door double or deadlocks already sit in the SPF 13 group, so 49 is the wrong
+      locks already sit in the SPF 7 group, so 49 is the wrong
       comparison for them; and even against that group the figures compare different households and
       count devices present, not a before and after for one house, so no "times safer" follows.
       Reading 49 as what any home gets once it has all four is the misreading lesson 5 names. There
@@ -192,10 +192,10 @@ quiz:
       who we are." Which next step fits the call-back advice lesson 5 read?
     options:
       - Speak to the supervisor on her phone, since a real firm would put someone senior on to help
-      - Let one of them in to check the meter while the other waits outside where he can see her
-      - Check both ID cards and ring the number printed on the back of one of them to confirm it
       - Close the door and ring his supplier on the number from his own bill or a letter he has
-    answer: 3
+      - Check both ID cards and ring the number printed on the back of one of them to confirm it
+      - Let one of them in to check the meter while the other waits outside where he can see her
+    answer: 1
     explain: >-
       The Suzy Lamplugh Trust's advice is to use "the telephone number given in the phone book or on
       your utility bill, rather than the one on the identity card", and the FTC says the same for
@@ -243,7 +243,7 @@ quiz:
       - Refuge's National Domestic Abuse Helpline, since its page says it's for men as well
     answer: 1
     explain: >-
-      Victim Support's Supportline, 08 08 16 89 111, is free and 24/7 in England and Wales for
+      Victim Support's Supportline, 08 08 16 89 111, is free and 24/7 in England and Wales for
       anyone affected by crime, whether or not it has been reported, which is why lesson 7 gives it
       to men for the hours the Men's Advice Line is closed. The Men's Advice Line is the line made
       for him, but it runs Monday to Friday, 10am to 5pm, so it is closed then and open on a weekday
@@ -279,16 +279,16 @@ quiz:
 
   # --- Talking it down (L8) ---
   - q: >-
-      A man arrives late at a dental practice in Carlisle and is told he'll have to rebook. He says
+      A man arrives late at a dental practice in Chesterfield and is told he'll have to rebook. He says
       he has lost an afternoon's pay to be there and starts raising his voice. The receptionist's
       first reply was, "Well, you should have left home earlier." Which rewrite uses Project BETA's
       forms?
     options:
-      - "Losing an afternoon's pay would annoy anyone. I can't fit you in today; I can book you now."
       - "I'm so sorry, that's our fault. I'll get the dentist to see you now, however long it takes."
+      - "Losing an afternoon's pay would annoy anyone. I can't fit you in today; I can book you now."
       - "Please calm down and take a seat quietly, or I'll have to ask you to leave the practice."
       - "You're not the only patient here today, and shouting at me won't get you seen any sooner."
-    answer: 0
+    answer: 1
     explain: >-
       Saying that losing the pay would annoy anyone is agreeing with the odds, one of Project BETA's
       three ways to agree without conceding anything untrue. "I can't fit you in today" is a limit
@@ -300,23 +300,23 @@ quiz:
       All of it is practitioner opinion, and carrying it from emergency psychiatry to a dental
       reception desk is this course's step.
   - q: >-
-      At a car-boot sale near Barnsley, a man tells a stallholder that the lamp she sold him earlier
+      At a car-boot sale near Huddersfield, a man tells a stallholder that the lamp she sold him earlier
       doesn't work and he wants his money back. She has stayed calm and brief, with her table
       between them. Which of these is one of lesson 8's four signals to stop talking and leave?
     options:
-      - He says it all again, louder, and adds that he'll tell everyone her stall is a rip-off
       - He puts the lamp down and says, "Forget the refund. Hand over the cash tin instead."
-      - He asks for her name and phone number so that he can complain to the sale's organisers
-      - He swears about the price, then sighs and asks whether she'd swap it for another lamp
-    answer: 1
+      - He says it all again, louder, and adds that he'll tell everyone her stall is a rip-off
+      - He asks her to write down what she charged, so he can take it up with the organisers
+      - He calls her a con artist, then says he'd settle for swapping it for a working lamp
+    answer: 0
     explain: >-
       The argument about the lamp has stopped and a demand for her property has started. That is the
       fourth signal, the demand changing, which the practitioners would call the move from social to
       asocial and which belongs to lesson 10's decision: the point to stop talking and leave, or, if
       she can't, to move to the next rung. The same complaint said louder is still the same
-      argument, and Project BETA's own advice is to repeat your message until it's heard. A request
-      for her details is something she can decide on. And swearing followed by an offer to swap is
-      the conversation working. The list of four is this course's synthesis, sensible, untested, and
+      argument, and Project BETA's own advice is to repeat your message until it's heard. Asking her
+      to write down the price is a request she can decide on. And an insult followed by an offer to
+      swap is the conversation working. The list of four is this course's synthesis, sensible, untested, and
       whatever he chooses to do next is his responsibility, however long she talked.
 
   # --- Stepping in for someone else (L9) ---
@@ -328,7 +328,7 @@ quiz:
     options:
       - It holds, since coding the footage of shop robberies found help in most of them as well
       - It holds, since customers in a shop tend to step in more readily than people in the street
-      - It overreaches, as help came in about a third of shop robberies and crowds added none
+      - It overreaches, as help came in about a third of shop robberies; crowds didn't add to it
       - It can't be checked, since nobody has coded footage of robberies of shops or businesses
     answer: 2
     explain: >-
@@ -338,7 +338,7 @@ quiz:
       Their conclusion: "researchers should be wary of generalizing bystander intervention rates
       across emergency types". So help in most shop robberies as well is the generalisation the
       authors warn against, nothing this course read says shop customers step in more readily than people in the
-      street, and the study that checks it exists. This course read its abstract only, and the
+      street, and footage of shop robberies has been coded, in the study above. This course read its abstract only, and the
       abstract doesn't say why people helped less. It is not a verdict on any customer who didn't
       step in: the responsibility for a robbery lies with the robber.
 
@@ -430,7 +430,7 @@ quiz:
   # --- The law on using force (L13) ---
   - q: >-
       In a supermarket car park in Worthing, in England, a man comes at a shopper with a wheel brace.
-      A gap between two parked vans would have let the shopper get away safely. The shopper swings a
+      There is a gap between two parked vans the shopper could get away through. The shopper swings a
       bag of tins at him. At trial the prosecution tells the jury he had a duty to retreat. As general
       information, how does section 76 treat his chance to get away?
     options:
@@ -537,14 +537,31 @@ quiz:
 
 <!-- All sixteen lessons are in, per the blueprint in research/OUTLINE.md, "Assessments": 24 items,
 lessons 14, 15 and 16 one each. Keys were re-chosen by script so that each position is the key six
-times, no two adjacent items share a key, and no run of four matches any lesson's own quiz keys. If
-an item changes, rerun scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs. -->
+times, no two adjacent items share a key, and no run of four consecutive keys appears anywhere in
+any lesson's quiz key sequence, at any offset (re-keyed 2026-09-25 by the final test review, items
+2, 3, 8, 9, 13 and 14, after the first six keys were found to be lesson 8's exactly). If an item
+changes, rerun scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs and the run-of-four
+check. -->
 
 This test covers all sixteen lessons. **Twenty-four questions, and 70 per cent to pass**, which is
 seventeen (70 per cent of 24 is 16.8, rounded up).
 
 :::callout Before you rely on this
 This course is education, not legal advice, and not a self-defence class. If you're in danger now, call 999 in the UK or 911 in the US. On a 999 call from a mobile, if you can't speak, cough or tap if you can and press 55 when you're prompted; in the US you can text 911 where that's available, but call if you can. If a partner, ex-partner or family member is frightening you, the lesson on domestic abuse and stalking starts with the helplines. Responsibility for a crime lies with the person who commits it: precautions change the odds, not the blame. The law differs between England and Wales, Scotland, Northern Ireland and each US state, and it changes.
+:::
+
+:::callout Content note
+Questions 11 and 12 are about domestic abuse, and question 18 is about the law on rape and sexual assault. The explanations you see after submitting also give figures for domestic abuse and sexual assault (question 4) and for homicide (question 1). Every question needs an answer before the test will submit, so if you'd rather not read those three questions, choose any option for them and move on: 17 of the other 21 is still a pass. If you'd like to talk to someone:
+
+**England and Wales:** Victim Support is on 08 08 16 89 111, free and 24/7, whether or not you have reported anything. The Rape Crisis 24/7 Support Line is on 0808 500 2222 for anyone 16 or over.
+
+**Scotland:** Victim Support Scotland is on 0800 160 1985, 8am to 8pm on weekdays and 10am to 4pm at weekends. Rape Crisis Scotland's helpline is on 08088 01 03 02, any day from 5pm to midnight.
+
+**Northern Ireland:** Victim Support NI offers free support whether or not a crime has been reported, through its Belfast hub on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm. Rape Crisis Northern Ireland is on 0800 0246 991; check its page for hours.
+
+**The US:** VictimConnect takes calls and texts on 855-484-2846; it can talk with you only if you're physically safe right now, and if you aren't, call 911. RAINN's National Sexual Assault Hotline is on 800.656.HOPE (4673), 24/7.
+
+If a partner, ex-partner or family member is frightening you, the lesson "Domestic abuse and stalking" starts with the lines for that.
 :::
 
 Every question puts you somewhere the lessons didn't: a new person, a new place, a new figure to
@@ -557,7 +574,3 @@ about, and that's the figure to answer by. Where a question is on the law, it na
 law it asks about, and its answer is general information, not legal advice: it asks which rule or
 question applies, never whether anyone is guilty. No question asks what anyone who was harmed should
 have done, because responsibility for a crime lies with the person who commits it.
-
-Questions 12 and 13 touch on domestic abuse, and question 18 on the law of sexual assault. The
-lessons "Domestic abuse and stalking" and "Sexual assault: the freeze, resistance and the law" open
-with the support lines for each nation of the UK and for the US.
