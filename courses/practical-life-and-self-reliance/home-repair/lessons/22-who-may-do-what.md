@@ -1,0 +1,806 @@
+---
+title: "Who may do what: reserved work, and the argument about licensing"
+minutes: 95
+objectives:
+  - >-
+    For a described electrical job, state whether it must meet the rules and whether it must be
+    notified in England, Wales, Scotland and Northern Ireland, and the routes open to a householder,
+    as general information
+  - >-
+    Describe the shape of the US rules (state licensing, local permits, conditional homeowner
+    exemptions) from the five places this course read, and decide what to ask a local building
+    department or licensing board
+  - >-
+    Explain what can follow when building work in England or Wales doesn't comply, including when
+    you sell
+  - >-
+    Compare the case for occupational licensing and the case against it, each in its proponents'
+    own words, and state what the evidence this course read does and does not show
+  - >-
+    Describe the value question of whether householders should do their own electrical work, and
+    separate it from this course's own decision not to teach wiring
+quiz:
+  - q: >-
+      As general information: a householder in Torfaen, Wales, wants to add one socket to an existing
+      circuit in a spare bedroom. There's no special installation involved. Under the Welsh version
+      of the Building Regulations, which is right?
+    options:
+      - It needs no notice, but the work still has to meet the electrical safety requirement
+      - It must be notified first, because Wales kept notice for all new sockets in every room
+      - It must be notified first, because Wales treats any bedroom as a special location
+      - It needs no notice and no standard applies, because adding one socket is minor work
+    answer: 0
+    explain: >-
+      Wales's Schedule 4 takes adding socket outlets to an existing circuit out of notice when the
+      work isn't in a kitchen or a special location and involves no special installation. A bedroom
+      is neither, so no notice is needed. But Part P's requirement applies to electrical work
+      whether or not it's notifiable, so "no standard applies" is wrong. Wales kept notice for
+      kitchens, special locations and outdoor work, not for sockets in every room, and a special
+      location is the bath or shower zone or a pool or sauna room, not a bedroom.
+  - q: >-
+      As general information: someone who owns a second-floor flat in West Dunbartonshire, Scotland,
+      plans to have the whole flat rewired. On what this course read, which is right?
+    options:
+      - No warrant is needed, since Scotland allows virtually any work in a home without one
+      - A scheme member registered for England can certify it, since the schemes are British
+      - A warrant is needed, because a flat isn't a "house" for the warrant exemption
+      - Nothing applies, because Scotland has no Part P and no rule on domestic wiring
+    answer: 2
+    explain: >-
+      Scotland's exemption for "Any work to or in a house" uses a definition of house that a flat
+      doesn't meet, and the Scottish Government's research appendix says a warrant is required for
+      rewiring in flats. The handbook's "virtually any work" line is about one and two storey houses,
+      not flats. The IET says England and Wales's self-certification schemes don't apply in Scotland.
+      And Scotland does have a rule: standard 4.5 applies to electrical installations whether or not
+      a warrant is needed.
+  - q: >-
+      As general information: a couple buying a house in West Sussex, England, learn that the
+      seller had a new circuit added six years ago and has no certificate for it. Which statement
+      matches the law this lesson read?
+    options:
+      - Nothing can follow now, because the council's time to act on the work has already run out
+      - An electrical installation condition report is legally required before the sale can go on
+      - The work is lawful because it was done before the buyers bought, so they take no risk
+      - The council could still require it altered, and the owner can apply for regularisation
+    answer: 3
+    explain: >-
+      A new circuit is notifiable in England. Section 36 of the Building Act 1984 lets the council
+      require non-compliant work to be altered or removed for up to 10 years after it was completed,
+      and regulation 18 lets an owner apply for a regularisation certificate for work done without
+      approval since 11 November 1985. So time hasn't run out at six years. The Law Society's notes
+      say a condition report is not a legal requirement for a sale in England and Wales. And a
+      section 36 notice goes to the owner, whoever did the work.
+  - q: >-
+      As general information: a handyman in California with no contractor's licence quotes $850 to
+      add an outdoor light on a new circuit, a job that needs a building permit where the customer
+      lives. What does section 7048 of the state's Business and Professions Code say about that?
+    options:
+      - He needs no licence, because any single job under $1,000 counts as casual work
+      - The exemption doesn't reach him, because the job needs a building permit
+      - He needs no licence as long as the customer applies for the permit herself
+      - The exemption reaches him only if he employs a helper who holds a licence
+    answer: 1
+    explain: >-
+      Section 7048 exempts work under $1,000 only where it doesn't require a building permit, and
+      only for someone who doesn't employ anyone on it. This job needs a permit, so the exemption
+      doesn't apply whatever the price. Who applies for the permit doesn't change that condition,
+      and employing anyone, licensed or not, takes a person out of the exemption rather than into it.
+  - q: >-
+      What did the 2015 federal report on occupational licensing find about quality and safety,
+      and what did it recommend?
+    options:
+      - It found that licensing makes electrical work less safe, and it recommended ending licences
+      - It found that licensing clearly improves safety for electricians, and it urged more licences
+      - It compared DIY and licensed electrical work, and found that DIY work caused more of the fires
+      - It found little quality gain in most studies, but backed licences aimed at real safety risks
+    answer: 3
+    explain: >-
+      The report says the research it reviewed "does not find large improvements in quality or
+      health and safety from more stringent licensing", with greater licensing tied to better quality
+      in a minority of the studies. It also says licensing designed carefully can protect health and
+      safety, and its first best practice limits licensing to legitimate health and safety concerns.
+      So it didn't find licensing harmful or call for ending it, didn't find a clear safety gain, and
+      didn't compare DIY with licensed work at all.
+  - q: >-
+      A reader summarises SELECT's campaign in Scotland four ways. Which would SELECT itself accept
+      as what it's asking for?
+    options:
+      - An offence for anyone to call themselves an electrician without adequate qualifications
+      - A licence for every electrical job in Scotland, including a householder's own work at home
+      - A ban on householders doing any electrical work at all in their own homes across Scotland
+      - A voluntary register, run by employers, that electricians could choose whether to join
+    answer: 0
+    explain: >-
+      SELECT says it wants to "make it an offence for someone to call themselves an electrician when
+      they have no, or inadequate, qualifications", which is protection of title. It doesn't ask for a
+      licence for every job or for a ban on householders' own work, on the pages this course read.
+      And its managing director says "A voluntary approach doesn’t work", so a voluntary register is
+      the arrangement it argues against.
+---
+
+Adding a socket to a kitchen circuit needs no notice in England. Do the same job over the border in
+Wales, and building control must be told before you start. In New York City it needs a licensed
+electrical contractor, whoever owns the house. The socket is the same in all three. What changes is the
+answer to the course's question: law or advice, whose, and where? This lesson makes that question the
+whole subject, and then takes up an argument that economists and trade bodies are still having, about
+whether licensing tradespeople makes their work safer.
+
+:::callout Before you pick up a tool
+This course is education, not a trade qualification, and not legal advice about your own home. It teaches no gas work and no wiring. If you smell gas in Great Britain, open doors and windows, turn the gas off at the meter if you can do it safely (not if the meter is in a cellar or basement), and call 0800 111 999; in Northern Ireland the number is 0800 002 001. In the US, leave straight away and call 911 or your gas utility once you're outside. In either country, don't light a flame or touch an electrical switch. Isolate the water or power before you open anything up, and if a breaker, RCD or GFCI keeps tripping, leave it off and call an electrician. Which jobs the law leaves to a registered or licensed trade differs between England, Wales, Scotland, Northern Ireland and each US state, and it changes.
+:::
+
+The callout's last sentence is this lesson's first half, and most of it states law. This is general
+information, not legal advice. The rules differ between England, Wales, Scotland and Northern Ireland,
+and between US states and cities, and they change. Nothing here says what you may lawfully do in your
+own case; it says which rule applies where, and whom to ask.
+
+## Two questions, never one
+
+This is general information, not legal advice.
+
+People ask "am I allowed to do this?" as if it were one question. The law in the UK asks two, and they
+have different answers:
+
+1. **Must the work comply?** Does it have to meet a legal standard, whoever does it?
+2. **Must someone be told?** Does building control, or a registered scheme, have to know and check?
+
+A job can need no notice at all and still have to meet the standard. Answering only the second question
+is the commonest way to get this wrong.
+
+:::predict Before reading on: in England, a householder replaces a worn light switch with a new one of the same kind. No one needs to be told. Does that mean the law sets no standard for the work?
+
+No. In England, Part P's requirement covers electrical installation work in a dwelling whether or not it
+has to be notified, and the government's guidance says non-notifiable work should still be done,
+inspected and tested to the national wiring standard. "Not notifiable" answers the second question only.
+:::
+
+## England
+
+This is general information, not legal advice.
+
+The standard every piece of electrical work in an English home must meet is requirement P1 of the
+[Building Regulations 2010](https://www.legislation.gov.uk/uksi/2010/2214/schedule/1): "Reasonable
+provision shall be made in the design and installation of electrical installations in order to protect
+persons operating, maintaining or altering the installations from fire or injury."[4]
+
+Only three kinds of work have to be notified. [Regulation 12(6A)](https://www.legislation.gov.uk/uksi/2010/2214/regulation/12)
+lists them: "the installation of a new circuit", "the replacement of a consumer unit", and "any addition
+or alteration to existing circuits in a special location".[1] A special location is the space around a
+bath or shower, up to 2.25 metres from the floor (or the shower head, if higher) and 0.6 metres out from
+the edge of the bath or tray, or 1.2 metres from the shower head where there's no tray; or a room with a
+swimming pool or a sauna heater. A kitchen is not one. England narrowed the list to these three on 6
+April 2013.[1][5]
+
+[Approved Document P](https://assets.publishing.service.gov.uk/media/5a802da7ed915d74e622ceed/BR_PDF_AD_P_2013.pdf),
+the government's guidance for England, says "All other electrical installation work is not notifiable",
+and answers the first question for it too: "Non-notifiable electrical installation work, like
+notifiable work, should be designed and installed, and inspected, tested and certificated in accordance
+with BS 7671." BS 7671 is the national wiring standard.[5]
+
+Notifiable work has three routes: self-certification by a registered competent person, a registered
+third-party certifier appointed before the work begins, or a building control body.[5] The last is the
+householder's: "If an installer is not a registered competent person and has not appointed a registered
+third-party certifier, then before work begins the installer must notify a building control body."[5]
+
+Why tell anyone? So that a third party checks. The building control body decides what inspection and
+testing the work needs and issues a completion certificate; a registered installer's scheme checks its
+members by inspecting their work instead.[5][35] A scheme member's certificate is due within 30 days of
+completion under regulation 20 (GOV.UK's guide says eight weeks; the regulation is the law), and it is
+"evidence (but not conclusive evidence)" that the work complies.[4][6] For the schemes themselves, use
+the list GOV.UK keeps, which, updated 17 September 2026 and read on 26 September, names five for electrical work in homes, among them
+"Certsure LLP trading as NICEIC" and "NAPIT Registration Limited".[7] Lesson 23, "Hiring a
+tradesperson, and when to stop", shows how to check membership.
+
+## Wales
+
+This is general information, not legal advice.
+
+Wales shares the 2010 Regulations but kept the older, longer list when England cut its own. The [Welsh
+government's guidance](https://www.gov.wales/building-regulations-electrics) says you need not tell
+building control about "repairs, replacements and maintenance work or extra power points or lighting
+points or other alterations to existing circuits (except in a kitchen or bathroom, or outdoors)".[8] The
+Welsh Schedule 4 frees minor work from notice only if it "is not in a kitchen, or a special location" and
+involves no special installation, such as outdoor lighting or power.[2] The Welsh approved document adds
+that "Consumer unit replacements are, however, notifiable."[36] The householder's route is to tell
+building control before starting, "if you do the work yourself"; and "If you do the work yourself you may
+wish to engage a qualified electrician to check it for you."[8]
+
+## Scotland
+
+This is general information, not legal advice.
+
+Scotland uses building warrants, under its own [Building (Scotland) Regulations 2004](https://www.legislation.gov.uk/ssi/2004/406/regulation/5).
+Regulation 5 says work listed in Schedule 3 must still meet the building standards but needs no
+warrant.[9] Exempt from a warrant is not exempt from the standards: the two questions again.
+
+Schedule 3's first entry is "Any work to or in a house", with exceptions such as extending the floor
+area, altering the structure, or harming a separating wall (the handbook's example is recessed sockets
+in one).[9][10] "House" means "a dwelling on one or more storeys, either detached or forming part of a
+building from all other parts of which it is divided only vertically", so a flat is not one.[9] The
+[technical handbook](https://www.gov.scot/publications/building-standards-technical-handbook-2022-domestic/0-general/0-5-buildings-work-services-fittings-equipment-not-requiring-warrant/)
+(the 2022 edition, as read on 26 September 2026; check gov.scot for a later one) says the exemptions
+"permit virtually any work to be carried out to 1 or 2 storey houses", electrical work included.[10]
+
+Standard 4.5 applies either way: an installation must not "become a source of fire".[10] For flats, a
+research appendix the Scottish Government published in 2019 says that for rewiring "a building warrant is
+required for flats and buildings over three storeys, while houses up to two storeys are exempt".[11]
+Where a warrant is needed, "Using an approved certifier is optional".[11] And the IET says "Part P
+electrical self-certification schemes in England & Wales do not apply to work in Scotland."[12]
+
+## Northern Ireland
+
+This is general information, not legal advice.
+
+Northern Ireland's [Building Regulations (Northern Ireland) 2012](https://www.legislation.gov.uk/nisr/2012/192/contents)
+have a Part P, which confuses people: it covers "Sanitary appliances, unvented hot water storage systems
+and reducing the risk of scalding", and no Part covers electrical safety.[13] Electrical Safety First
+(ESF), a UK charity that campaigns on electrical safety, says: "There are currently no statutory
+requirements for domestic electrical installation work in Northern Ireland." It "strongly recommends
+that you engage a competent registered electrician".[13] That's advice, from a charity.
+
+### One job, four nations
+
+Hold one job still: adding a socket to an existing kitchen circuit, in a house, not a flat. The course
+teaches none of the work; this is only about which rule applies.
+
+| Nation | Must someone be told? | Must it meet a standard? | Rule read |
+|---|---|---|---|
+| England | No: a kitchen is not a special location | Yes: P1 | Reg 12(6A); AD P |
+| Wales | Yes, before you start: it's a kitchen | Yes: P1 | Schedule 4 (Wales) |
+| Scotland | No warrant for a one or two storey house | Yes: standard 4.5 | Reg 5, Schedule 3 |
+| Northern Ireland | No statutory rule on domestic electrics | No statutory standard | ESF; 2012 Regulations |
+
+On the law, the job is **Yours, on conditions** in England, Wales and Scotland (meet the standard; in
+Wales, tell building control first), and in Northern Ireland the law sets no condition. On ESF's advice
+and this course's scope, it's **Call someone** in all four, for reasons that come below.
+
+:::checkpoint Change the house. The same socket, in a ground-floor flat in Scotland, and then in a bathroom in England, next to the shower tray. What changes in each?
+
+**The Scottish flat:** the "house" exemption doesn't reach a flat. This course did not read a rule on one
+socket in a flat (the appendix covers rewiring), so the answer is a question for the local authority's
+building standards service. Standard 4.5 applies either way.
+
+**The English bathroom:** within 0.6 metres of the tray and below 2.25 metres is a special location, so
+it's notifiable: a registered installer, a certifier appointed before work starts, or a building notice
+before work starts.
+:::
+
+## Other notifiable work, briefly
+
+This is general information, not legal advice.
+
+In England and Wales, Schedule 3 lets registered installers self-certify other work too, among it a
+heat-producing gas appliance (by a member of the Gas Safe class), heating systems, replacement windows
+and doors, and bathrooms that don't touch shared or underground drainage.[3] Removing a loadbearing wall
+or a chimney breast is building work because it touches the structure.[4] And planning is separate:
+"Building regulations approval is different from planning permission. You might need both."[6] This
+course did not read the planning rules.
+
+## When work doesn't comply, and when you sell
+
+This is general information, not legal advice.
+
+In England and Wales, [section 35 of the Building Act 1984](https://www.legislation.gov.uk/ukpga/1984/55/section/35)
+says: "A person who contravenes a provision of building regulations, or a requirement imposed by virtue
+of any such provision, commits an offence." On indictment the penalty can be up to two years in prison
+or a fine. That wording has applied in England since 2023, and in Wales in full since 1 July 2026.[14]
+[Section 36](https://www.legislation.gov.uk/ukpga/1984/55/section/36) lets the council require the owner
+to remove or alter work that contravenes the regulations, and do it and recover the cost if the owner
+doesn't within 28 days. The limit for giving that notice is now "10 years" from completion.[14]
+
+There's a way back. Under regulation 18, the owner of unauthorised work done on or after 11 November
+1985 can apply for a **regularisation certificate**, and the council may have the work opened up and
+tested.[4]
+
+Selling is where most people meet this. The Law Society's notes on its property information form say
+"From 1 January 2005, all electrical installation work must follow building regulations", and a buyer's
+side will ask for a completion certificate, an installer's compliance certificate or an installation
+certificate. The same notes say an electrical installation condition report "is not a legal requirement
+for the sale of property in England and Wales."[15] This course did not read Scotland's or Northern
+Ireland's enforcement rules.
+
+## The US: the shape, then five places
+
+This is general information, not legal advice.
+
+This course found no national US rule on who may do electrical or plumbing work in a home. Three
+things decide it. **Licensing**: in four of the five places read the licence rules are state law, and
+New York City sets its own. **Permits and inspections** are run by a city or county building
+department, under the model codes that states adopt. And many states have **homeowner exemptions** from
+licensing: real, but conditional, usually on your own home, your own hands, a permit, and a rule about
+selling. The five places read are examples; they can't tell you the rule anywhere else.
+
+| Place | An owner's own electrical work, as far as licensing goes | Conditions read |
+|---|---|---|
+| California | The contractors' licence law doesn't apply to an owner improving their own property | Not for sale; a sale within a year raises a presumption |
+| Texas | Not required by the state to be licensed, for a dwelling you own and live in | TDLR's account; cities may override |
+| Florida | An owner may act as their own electrical contractor on their own home | Not intended for sale; owner signs the permit in person |
+| Washington | No licence needed at your own residence | Owner permit and affidavit; not if offered for sale within 12 months of obtaining it |
+| New York City | No: a licensed electrical contractor | Permit-exempt plumbing and gas work needs a Licensed Master Plumber |
+
+**California.** Section 7044 of the Business and Professions Code says the licensing chapter doesn't
+apply to "An owner who builds or improves a structure on his or her property", if none of it is for sale
+and the owner does the work personally or with wage-paid employees; a sale within a year of completion
+raises a rebuttable presumption that it was for sale.[16] Section 7048 exempts small jobs by anyone,
+under "one thousand dollars ($1,000)", but only where "the work or operation does not require a building
+permit", and not for anyone who employs someone on the job. The figure rose from $500 on 1 January 2025,
+and the state's licensing board, announcing it, added: "but there is a catch: the work cannot require a
+permit, and the unlicensed person cannot employ anyone for the project."[16]
+
+**Texas.** The state licensing department, TDLR, says electrical work on "a dwelling by a person who owns
+and resides in the dwelling" is not required by the state to be licensed, and adds: "Municipal or
+regional regulations may override these exemptions".[17] This course read TDLR's account, not the
+statute's official text.
+
+**Florida.** Section 489.503(6) exempts "An owner of property making application for permit,
+supervising, and doing the work" on their own single-family or duplex home, "not intended for sale", and
+the owner "shall personally appear and sign the building permit application".[18] The owner-builder
+disclosure statement in section 489.103(7) warns that the owner's homeowner's insurance "may not provide
+coverage for those injuries" if an unlicensed helper is hurt.[18]
+
+**Washington.** [RCW 19.28.261](https://app.leg.wa.gov/RCW/default.aspx?cite=19.28.261) says no
+licence is needed for electrical work at your own residence unless it's on a new building for rent,
+sale or lease, or "The electrical work is on property that is offered for sale within 12 months after
+obtaining the property."[19] It is not a free pass. The state's form begins: "In Washington, only
+licensed electrical contractors employing certified electricians may perform electrical work." The
+owner applies for an exemption, signs an affidavit before starting, and gets a permit and an inspection,
+from the state or from the city where a city inspects its own.[19]
+
+**New York City.** The Department of Buildings says electrical work "shall be performed by a New York
+City licensed electrical contractor", and that plumbing and gas repairs needing no permit still "must be
+performed by a Licensed Master Plumber."[20] No permit is not the same as no licence.
+
+### A garage workshop circuit in three places
+
+Three owners each want a new circuit run to a detached garage for a workshop. Each has lived in their
+house for years and is not selling. In England this would be notifiable. The US side, teaching none of
+the work:
+
+- **In Washington**, no licence, but the property owner permit: the application and affidavit before
+  starting, then the inspection. On the law, **Yours, on conditions**.[19]
+- **In Florida**, the owner may act as their own electrical contractor, applying for and signing the
+  permit in person, for a home not intended for sale. **Yours, on conditions**.[18]
+- **In New York City**, a licensed electrical contractor and an electrical permit. **Call someone**, and
+  here the law says so.[20]
+
+:::checkpoint Your step. The Washington owner now says she plans to sell in eight months. Does that change her answer under RCW 19.28.261(1)(b)? What one fact do you need first, and why is it a different fact from the one Florida or California would ask about?
+
+**When she obtained the property.** The exemption is lost for work on property "offered for sale within
+12 months after obtaining the property", so the clock starts when she got the house, not when the work
+ends. If she has owned it for years, a sale in eight months doesn't bring her within that paragraph as
+written. If she bought it two months ago, it would fall inside the 12.
+
+**California and Florida count from the other end:** a sale within a year after the work is completed,
+treated as evidence the work was for sale (California's is a rebuttable presumption; Florida's electrical
+section counts sales of more than one such structure). The same plan to sell can matter in one state and
+not another, because of the wording. Either way, ask the body that issues the permit.
+:::
+
+## Gas, recalled
+
+This is general information, not legal advice.
+
+Lesson 10, "Gas: the law and the engineer", set out the gas law, and it has not changed. In Great
+Britain, regulation 3 of the Gas Safety (Installation and Use) Regulations 1998 makes two duties:
+registration binds those who do gas work as a business, and competence binds everyone. HSE's guidance
+says anyone doing gas work, do-it-yourself included, "must have the necessary competence", and that
+membership of the approved class "is required only by businesses carrying out gas-fitting work".[21][22]
+HSE "strongly advises" a Gas Safe registered engineer, and the Register says the same, so the label is
+**Call someone**.[23] Northern Ireland's 2004 Regulations mirror Great Britain's. In the US this course
+found no general rule; New York City requires a Licensed Master Plumber for gas piping.[20]
+
+## Why this course teaches no wiring
+
+In England, Wales, Scotland, Washington, Florida and Texas the law lets a householder do some
+electrical work, on the conditions above. This course still teaches the procedure for none of it: no
+socket, switch, light fitting, consumer unit or proving-dead method. The reason is what a page can do.
+Proving a circuit dead needs a proper two-pole tester, itself checked before and after use, and the
+training to use it, as HSE's guidance for electrical workers describes; HSE doesn't recommend
+"non-contact devices such as 'volt sticks'".[25] A panel is "usually electrically live, even with the
+main circuit breakers turned off" (CPSC).[24] A page can't watch you or check the result.
+
+That's a teaching judgement. It is not a claim that the work is unlawful where the law allows it, and it
+is not a side in either argument that follows.
+
+## Does licensing make work safer?
+
+Everything so far is established fact: the rules say what they say. This half has two questions serious
+people disagree about. One is **contested and empirical**: does licensing tradespeople improve the
+quality and safety of their work, and at what cost? The other is a **value question**: should
+householders be allowed to do their own electrical work? The course answers neither. It gives each side
+in its own words, and the evidence it read. Logic and Argument lesson 7, "Reconstruction and charity:
+the strongest version first", is the rule for reading both.
+
+### The evidence this course read
+
+The fullest source is a 2015 US government report, *[Occupational Licensing: A Framework for
+Policymakers](https://obamawhitehouse.archives.gov/sites/default/files/docs/licensing_report_final_nonembargo.pdf)*,
+by the Treasury's Office of Economic Policy, the Council of Economic Advisers and the Department of
+Labor. It says "about 25 percent of today’s U.S. workforce is in an occupation licensed at the State
+level, up from less than 5 percent in the early 1950s".[27]
+
+Its research appendix says: "Overall, the empirical research does not find large improvements in
+quality or health and safety from more stringent licensing. In fact, in only two out of the 12 studies
+was greater licensing associated with quality improvements."[27] On electricians, it reports research
+finding that stricter requirements "did not significantly affect the severity of injuries suffered among
+electricians", and that requiring an oral examination or experience was "associated with fewer per capita
+electricians."[27] It also reports that "Other research suggests that licensing is not always adequate to
+address quality concerns, but may be complementary with other forms of regulation": in a study of
+television repairs, fraud was lower where licensing came with a state agency that investigated
+complaints.[27]
+
+The report is not simply against licensing, and it's wrong to cite it as if it were. It says: "When
+designed and implemented carefully, licensing can offer important health and safety protections to
+consumers, as well as benefits to workers." Its first recommended practice is "Limiting licensing
+requirements to those that address legitimate public health and safety concerns". And it says it is
+"beyond the scope of this report to recommend reforms to State or other regulations for specific
+occupations."[27] It makes no finding on whether electricians or plumbers should be licensed.
+
+What of the figures earlier lessons gave? Lesson 6, "Plugs, leads and electrical fires", gave NFPA's
+average of 32,620 US home fires a year in 2015 to 2019 involving electrical distribution and lighting
+equipment; it counts the equipment, not who installed or last worked on it.[28] ESF's survey of 1,000
+electricians found "More than 30% had reports of electric shocks caused by incompetent DIY-ers"; it
+measures what electricians reported.[26] Neither compares licensed with unlicensed work, so neither
+settles this.
+
+:::predict Before you read the two cases: what do you think the case for licensing leans on hardest, and what does the case against lean on hardest? Write one line for each.
+
+On the words quoted below, the case for leans on what a customer can't see: bad work can look fine and
+fail later, and a householder can't judge it. The case against leans on cost and entry: licences raise
+prices and keep people out of work, and most studies don't find the safety gain that would pay for it.
+If you named something else, test it against their own words.
+:::
+
+### The case for licensing, in its proponents' words
+
+**SELECT**, which calls itself "Scotland's Electrical Trade Association", campaigns for statutory
+regulation of electricians. Its case starts from a gap in the law: "At present, lack of regulation means
+anyone can claim to be an electrician and carry out electrical work in Scotland. These unqualified
+individuals put the people of Scotland at risk of injury and death, through faulty electrical
+installation and maintenance work." It asks for protection of the title, not a licence for every job:
+"We want to make it an offence for someone to call themselves an electrician when they have no, or
+inadequate, qualifications. But above all, we want to see improved safety for both domestic and
+commercial consumers across Scotland."[32] Its managing director, Alan Wilson, in 2021: "Regulation of
+the industry is really important and protection of title is what’s needed in the sector across the UK,
+not just in Scotland. A voluntary approach doesn’t work, I’m afraid. You need statutory regulation."[32]
+Unite the Union's Scottish Secretary, Pat Rafferty, backing the campaign in 2018: "Our members have
+expressed their frustration that people in such a safety-critical occupation are able to use the title
+of electrician when they have not met the established national and industry standards."[32] The Scottish
+Government's 2020 consultation on the question starts from the same point: "Currently anyone can call
+themselves an electrician, without the need for any qualifications or competency."[34]
+
+The **Utah Plumbing & Heating Contractors Association** made the case in the US in June 2026, against
+what it calls "continuous efforts by lawmakers and influential groups to reduce or eliminate licensing
+requirements in Utah": "It protects public safety. It protects consumers. It protects trained
+professionals." Bad work hides: "When plumbing is done wrong, the problems do not always show up
+immediately." A licence tells the customer what they can't find out alone: "Licensing creates a
+standard. It tells homeowners, business owners, facility managers, builders, and government agencies that
+plumbing work should be handled by trained professionals who understand the code and carry responsibility
+for the work." Without it: "Weak licensing standards can create lower-quality work, unsafe installations,
+unfair competition, reduced professionalism, and less incentive for workers to pursue proper
+training."[33]
+
+Both answer the obvious objection, that a trade body gains when entry to its trade is limited. The Utah
+association says "Advocating for the industry is the bedrock purpose of this organization", and then:
+"This is not about protecting territory for the sake of protecting territory. It is about protecting
+public safety, maintaining code compliance, and making sure plumbing work is performed by people who are
+trained and licensed to do it."[33] SELECT's then managing director, on who might be shut out: "We do not
+want to leave people behind if they want to operate as competent and safe electricians and we have taken
+steps to ensure that there are a variety of ‘routes to qualification’ to make the profession as
+inclusive as possible."[32]
+
+### The case against licensing, or for less of it, in its proponents' words
+
+The **US Federal Trade Commission** gave its view to Congress in September 2017, from the perspective of
+competition. It begins with what licensing can do: "The FTC recognizes that occupational licensing can
+offer important benefits. Licensing can protect consumers from actual health and safety risks and
+support other valuable public policy goals." Then its case: "But that does not mean all licensing is
+warranted, or that restrictions on an occupation always yield more benefits than harms. Licensing
+restrictions may impede competition and hamper entry into professional and services markets, yet offer
+few, if any, significant consumer benefits. Such regulations may lead to higher prices, lower quality,
+and reduced consumer access to services and goods."[29] Its first test for any licence: "Are there
+significant and non-speculative consumer health and safety issues, or other legitimate public policy
+purposes, that warrant licensing?" And the burden: "the proponents of any restrictions should bear the
+burden of justifying why they are needed."[29] Its Economic Liberty page: "For some professions,
+licensing is necessary to protect the public against legitimate health and safety concerns. But many
+more occupations could be practiced safely and effectively with fewer, or no, licensing
+requirements."[30]
+
+The **Institute for Justice**, a law firm that says it believes "all people have the right to earn an
+honest living in the occupation of their choice without arbitrary, unnecessary, or protectionist
+government interference", made its case in *License to Work*, now in a third edition (2022). It counted
+"more than 2,700 licenses across the 50 states and the District of Columbia" among 102 lower-income
+occupations, needing on average "nearly a year of required education and experience, at least one exam,
+and $295 in fees".[31] Its argument is about cost to the customer: "one of the most consistent findings
+in licensing research is that by limiting entry, and thus competition, licensing leads to higher earnings
+for licensees", and "consumers pay the price for those higher earnings through higher costs, limited
+access to services or both." And it states its test: "Licensing laws might be worth it if they improved
+services or made the public safer, but evidence suggests they often don’t."[31]
+
+Both concede ground. The FTC says licensing "can serve important goals and, when used appropriately,
+protect consumers from harm", and warns in turn about "self-interested boards whose members represent the
+very occupation to be regulated."[29] The Institute reports evidence against its own general case:
+"there is evidence that early 20th-century licensing of midwives reduced maternal and infant
+mortality".[31] Neither proposes nothing in licensing's place: the Institute asks states to "favor less
+restrictive alternatives like inspections, registration and certification", and the FTC names
+"government registration or certification".[31][29]
+
+### Where they meet, and what would settle it
+
+Side by side, the two cases agree on more than their headlines. Both accept licensing where there's a
+real health and safety risk, and so does the federal report. They disagree about how often that's true
+of a given trade, what counts as evidence, and who should have to prove it.
+
+Each side has an interest. A trade association gains when entry to its trade is limited, and the Utah
+association says advocating for its industry is its purpose; an organisation that campaigns and goes to
+court for less licensing has a cause to advance. Logic and Argument lesson 8, "Fallacies: the names, the
+patterns, and why the experts warn you about the names", covers this: an interest is a reason to check
+the evidence harder, not to call the claim false. That applies to both sides equally.
+
+What would move the question is evidence of the kind the federal report counted: comparisons of injury,
+fire or failure rates between places or times with different licensing rules for the same trade, with
+everything else that differs controlled for. Most such studies the report reviewed showed little effect
+on quality, and nothing this course read compared licensed with unlicensed electrical work in homes. The
+course stops there.
+
+:::checkpoint Write one sentence the case for licensing would sign, and one the case against would sign. Then name the one piece of evidence that would move you.
+
+Built from their own words above:
+
+**For:** "Bad electrical and plumbing work can look fine and fail later, customers can't judge it, and
+without a legal standard anyone can claim the trade, so the law should require qualifications."
+
+**Against:** "Licensing is justified only where there's a real, non-speculative safety risk, and since it
+raises prices and keeps people out of work, those who want a licence should have to show it improves
+safety."
+
+If yours would make its own side wince (licensing "never" helps; it's "only about jobs"), rewrite it
+until it would not. The evidence that would move most people is a well-controlled comparison of fire,
+shock or failure rates in homes between places with and without licensing for the same trade. This
+course found none.
+:::
+
+### Should householders do their own electrical work?
+
+A value question, on established facts: the places read answer it differently. England, Wales,
+Scotland (for houses), Washington and Florida allow it, on conditions; TDLR says Texas doesn't require
+a state licence for a dwelling you own and live in; New York City requires a licensed electrical
+contractor for wiring.
+
+ESF's position: "Any electrical work should be left to competent professionals."[26] The UK
+government's reasoning when England cut its notifiable list in 2013 was about cost: it amended the rules
+"in order to reduce cost (whilst maintaining an appropriate electrical safety regime)". It recorded that
+"Revocation of Part P was not supported by respondents": of 158 responses, 11% backed revocation, 11% no
+change and 62% the amendment. Its reason for keeping a regime at all: "homeowners do not have the
+expertise to assess whether an electrical installation has been done competently".[35]
+
+The other side, the case for a householder's freedom to work on their own home, is one this course did not
+find argued in its own words. The government's assessment says many homeowners who responded did so as
+DIYers, some with electrical qualifications, but doesn't give their reasons.[35] So the lesson won't put
+words in their mouths. It reaches no verdict on this question or on licensing, and its decision not to
+teach wiring is not an answer to either.
+
+## What people get wrong
+
+**"Kitchen electrics are notifiable."** In Wales, yes. In England, not since 6 April 2013, unless it's a
+new circuit or a consumer unit (see "England").
+
+**"Part P means you can't do any electrical work yourself."** England and Wales both give a householder
+a route: notify building control before starting. Most work is not notifiable at all.
+
+**"If it doesn't need notifying, no rules apply."** P1 still applies (see "Two questions, never one").
+
+**"Part P applies in Northern Ireland."** Its Part P is sanitary appliances and hot water (see "Northern
+Ireland").
+
+**"An electrician registered in England can certify work in Scotland," or "all rewiring in Scotland needs
+a warrant."** Neither: England's schemes don't apply there, and a one or two storey house needs no warrant
+for most work; a flat is different (see "Scotland").
+
+**"Once the work's been in a while, the council can't act."** The limit for a section 36 notice is now 10
+years.
+
+**"In California a handyman can do any job under $1,000."** Not if it needs a building permit, or he
+employs anyone on it.
+
+**"No permit needed in New York City means I can do it myself."** Permit-exempt plumbing and gas work
+still needs a Licensed Master Plumber.
+
+**"It's illegal to do any gas work yourself."** In Great Britain registration binds businesses and
+competence binds everyone (lesson 10).
+
+**"The research shows licensing makes work safer."** The federal report found little quality or safety
+gain in most studies it reviewed.
+
+**"The research shows licensing only protects the trade."** The same report says careful licensing "can
+offer important health and safety protections", and the FTC and the Institute for Justice each accept
+that some licences are justified.
+
+## Practice
+
+:::exercise Your address and eight jobs
+
+Take 15 minutes over these. Nothing here needs a tool or a cover taken off: don't open a consumer unit,
+panel, socket or fitting for this exercise. This is general information, not legal advice.
+
+1. **Your address.** For where you live, write down your nation, or your state and city; the body that
+   takes building notices or issues permits (building control; the local authority's building standards
+   service in Scotland; the city or county building department in the US); the body that licenses
+   electricians there, if any; and where each publishes its rules. Find each on the body's own site.
+2. **Eight jobs.** Sort each into "notifiable or needs a permit", "must comply but no notice", or
+   "reserved to a licensed or registered trade" for your nation or state, and say whose rule puts it
+   there. Outside the nine places this lesson read, write the question you'd ask the body from step 1.
+   The jobs: (a) replacing a broken ceiling rose with the same kind; (b) a new circuit for an electric car
+   charger; (c) replacing the consumer unit or panel; (d) adding a socket in a kitchen, on an existing
+   circuit; (e) a light in a bathroom, low over the bath; (f) outdoor lights on the garden wall, on an
+   existing circuit; (g) replacing a gas hob; (h) replacing a length of cold water pipe under the sink.
+
+Write your answers before you open the checkpoint.
+:::
+
+:::checkpoint Check your eight jobs for England, Wales and Washington.
+
+**England.** (a) must comply, no notice (a replacement). (b) notifiable (a new circuit). (c) notifiable.
+(d) must comply, no notice (a kitchen is not a special location). (e) notifiable, being within the bath
+zone. (f) must comply, no notice. (g) gas work: registration binds businesses, competence binds everyone,
+and HSE and the Register advise a Gas Safe engineer, so Call someone. (h) no notice; Schedule 4 lists
+replacing parts of an existing cold water supply.
+
+**Wales.** (a), (g) and (h) as England. (b), (c) and (e) notifiable. (d) notifiable (a kitchen). (f)
+notifiable (outdoors).
+
+**Washington.** (a) to (f): no licence at your own residence unless the property is offered for sale
+within 12 months of obtaining it; the state's form has the owner apply for a permit, sign the affidavit
+and be inspected. Whether a small replacement like (a) needs a permit at all, this course did not read; ask
+the state department or the city. (g) and (h): Washington's plumbing and gas rules were not read, so ask
+the building department.
+
+For the electrical jobs, the course's label everywhere is Call someone: ESF's advice, and this course's
+scope. If you marked (d) notifiable for England, you applied Wales's rule; if you marked (f) no notice
+for Wales, you applied England's.
+:::
+
+## For your plan
+
+This lesson adds to the **stop list**: every job your nation or state reserves to a licensed or
+registered trade, and every notifiable job you'd otherwise have done without telling anyone, each with
+the rule behind it, law or advice, whose and where. It adds to the **call list**: your building control
+body or building department, your state's licensing board in the US, and the GOV.UK list of competent
+person schemes in England and Wales.
+
+## Connections
+
+Lesson 5, "Electricity: what trips, and why", drew the line at the front of the consumer unit; lesson 6,
+"Plugs, leads and electrical fires", gave the fire figures that don't settle the licensing question; and
+lesson 10, "Gas: the law and the engineer", is the full gas law. Logic and Argument lessons 7 and 8 are
+the rules the contested half follows. Checking a body's rules on its own site is Digital Literacy's
+lateral reading. Next, lesson 23, "Hiring a tradesperson, and when to stop", uses these rules to check the
+person you hire.
+
+## Go deeper
+
+- **HM Government, [Approved Document P](https://assets.publishing.service.gov.uk/media/5a802da7ed915d74e622ceed/BR_PDF_AD_P_2013.pdf)**,
+  2013, for England, a free PDF, read in full here. Sections 2 and 3 are the two questions in the
+  government's words.
+- **Federal Trade Commission, [statement to Congress on occupational licensure](https://www.ftc.gov/system/files/documents/public_statements/1253073/house_testimony_licensing_and_rbi_act_sept_2017_vote.pdf)**,
+  2017, free, read in full here. The case for less licensing, with the regulator's own framework.
+- **SELECT, ["Regulation"](https://select.org.uk/SELECT/SELECT/Website/About/Regulation/Regulation-Landing-Page.aspx)**,
+  free. The case for regulating electricians in Scotland, from the trade association that makes it.
+
+## Sources
+
+1. [The Building Regulations 2010 (SI 2010/2214), regulation 12](https://www.legislation.gov.uk/uksi/2010/2214/regulation/12),
+   England and Wales versions. **Read: in full, both versions, re-read on the live page 26 September
+   2026.** <!-- SOURCES Part C C2; lesson 22 gate closures -->
+2. [The Building Regulations 2010, Schedule 4](https://www.legislation.gov.uk/uksi/2010/2214/schedule/4),
+   England and Wales versions. **Read: in full, both versions, re-read 26 September 2026.** <!-- SOURCES Part C C3; lesson 22 gate closures -->
+3. [The Building Regulations 2010, Schedule 3](https://www.legislation.gov.uk/uksi/2010/2214/schedule/3).
+   **Read: the full table, re-read 26 September 2026.** <!-- SOURCES Part C C4; lesson 22 gate closures -->
+4. The Building Regulations 2010, [regulation 3](https://www.legislation.gov.uk/uksi/2010/2214/regulation/3),
+   [Schedule 1, Part P](https://www.legislation.gov.uk/uksi/2010/2214/schedule/1),
+   [regulation 18](https://www.legislation.gov.uk/uksi/2010/2214/regulation/18) and
+   [regulation 20](https://www.legislation.gov.uk/uksi/2010/2214/regulation/20). **Read: Part P and
+   regulations 18 and 20 in full, re-read 26 September 2026; regulation 3 in full, 25 September 2026.** <!-- SOURCES Part C C1, C5; lesson 22 gate closures -->
+5. HM Government, [Approved Document P, *Electrical safety: dwellings*](https://assets.publishing.service.gov.uk/media/5a802da7ed915d74e622ceed/BR_PDF_AD_P_2013.pdf),
+   2013 edition, for use in England. **Read: full text; paragraphs 2.7, 3.1, 3.8 and 3.13 re-read 26
+   September 2026.** <!-- SOURCES Part C C6; lesson 22 gate closures -->
+6. GOV.UK, ["Building regulations approval"](https://www.gov.uk/building-regulations-approval), updated
+   24 January 2025. **Read: all parts, re-read 26 September 2026.** It covers England and Wales in one
+   list that matches England's electrical rules. <!-- SOURCES Part C C7; lesson 22 gate closures -->
+7. GOV.UK, ["Competent person scheme: current schemes and how schemes are authorised"](https://www.gov.uk/guidance/competent-person-scheme-current-schemes-and-how-schemes-are-authorised),
+   updated 17 September 2026. **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part C C8; lesson 22 gate closures -->
+8. Welsh Government, ["Building regulations: electrics"](https://www.gov.wales/building-regulations-electrics).
+   **Read: full page, re-read 26 September 2026.** An older page; used for the rule, not for dates. <!-- SOURCES Part C C9; lesson 22 gate closures -->
+9. [The Building (Scotland) Regulations 2004 (SSI 2004/406)](https://www.legislation.gov.uk/ssi/2004/406/regulation/5),
+   regulation 5, [Schedule 3](https://www.legislation.gov.uk/ssi/2004/406/schedule/3) and the
+   [regulation 2](https://www.legislation.gov.uk/ssi/2004/406/regulation/2) definition of "house".
+   **Read: in full, re-read 26 September 2026**, no known outstanding effects. <!-- SOURCES Part C C18; lesson 22 gate closures -->
+10. Scottish Government, *Building standards technical handbook 2022: domestic*, [clause 0.5](https://www.gov.scot/publications/building-standards-technical-handbook-2022-domestic/0-general/0-5-buildings-work-services-fittings-equipment-not-requiring-warrant/)
+    and [standard 4.5](https://www.gov.scot/publications/building-standards-technical-handbook-2022-domestic/4-safety/4-5-electrical-safety/).
+    **Read: clause 0.5 in full and standard 4.5 with its introductory clauses, re-read 26 September
+    2026.** No later handbook was looked for. <!-- SOURCES Part C C19; lesson 22 gate closures -->
+11. mygov.scot, ["Approved certification"](https://www.mygov.scot/approved-certification); and Scottish
+    Government, ["Regulation of electricians in Scotland: research report", Appendix 3](https://www.gov.scot/publications/regulation-electricians-scotland/pages/10/)
+    (Pye Tait, 7 June 2019). **Read: both in full, re-read 26 September 2026.** The appendix's summary
+    of England's rule is wrong against regulation 12(6A) and is not used. <!-- SOURCES Part C C20; lesson 22 gate closures -->
+12. IET, ["Part P: Scotland and Northern Ireland"](https://electrical.theiet.org/bs-7671/building-regulations/part-p-scotland-and-northern-ireland/).
+    **Read: full short page, re-read 26 September 2026.** Its Northern Ireland reference is out of date
+    and is not used. <!-- SOURCES Part C C21; lesson 22 gate closures -->
+13. [The Building Regulations (Northern Ireland) 2012 (SR 2012/192), contents](https://www.legislation.gov.uk/nisr/2012/192/contents);
+    and Electrical Safety First, ["Building regulations", Northern Ireland](https://www.electricalsafetyfirst.org.uk/find-an-electrician/building-regulations/northern-ireland/).
+    **Read: the contents list (not the text of each Part) and the ESF page in full, re-read 26 September
+    2026.** <!-- SOURCES Part C C22; lesson 22 gate closures -->
+14. Building Act 1984, [section 35](https://www.legislation.gov.uk/ukpga/1984/55/section/35) and
+    [section 36](https://www.legislation.gov.uk/ukpga/1984/55/section/36). **Read: both in full with their
+    amendment notes, re-read 26 September 2026.** <!-- SOURCES Part C C10; lesson 22 gate closures -->
+15. The Law Society, ["TA6 Property Information Form (6th edition, 2025): explanatory notes"](https://www.lawsociety.org.uk/topics/property/ta6-6th-edition-explanatory-notes),
+    13 October 2025. **Read: full text, 25 September 2026.** The page refused an automated re-read the
+    next day. The form itself was not read. <!-- SOURCES Part C C11; lesson 22 gate closures -->
+16. California Business and Professions Code, [section 7044](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7044)
+    and [section 7048](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7048)
+    (as amended effective 1 January 2026); and Contractors State License Board, [Industry Bulletin
+    24-07](https://www.cslb.ca.gov/Resources/IndustryBulletins/2024/AB%202622%20Implementation.FINAL.pdf),
+    31 December 2024. **Read: both sections and the bulletin in full, re-read 26 September 2026.** <!-- SOURCES Part C C24; lesson 22 gate closures -->
+17. Texas Department of Licensing and Regulation, ["Exemptions to Electrician Licensing"](https://www.tdlr.texas.gov/electricians/exemptions.htm).
+    **Read: full page, re-read 26 September 2026.** Undated. The statute's official text was not read.
+    <!-- SOURCES Part C C25; lesson 22 gate closures -->
+18. Florida Statutes (2026), [section 489.103](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0489/Sections/0489.103.html)
+    and [section 489.503](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0489/Sections/0489.503.html).
+    **Read: 489.103(7) with the disclosure statement, and 489.503(6), re-read 26 September 2026.** <!-- SOURCES Part C C26; lesson 22 gate closures -->
+19. [RCW 19.28.261](https://app.leg.wa.gov/RCW/default.aspx?cite=19.28.261); and Washington State
+    Department of Labor and Industries, [form F500-094-000, Property Owner Electrical Work Permit
+    Application](https://lni.wa.gov/forms-publications/F500-094-000.pdf). **Read: the section and the
+    form's instructions and affidavit, re-read 26 September 2026.** <!-- SOURCES Part C C28; lesson 22 gate closures -->
+20. New York City Department of Buildings, ["Project Requirements for Owner: Residential and Community Facilities"](https://www.nyc.gov/site/buildings/property-or-business-owner/project-requirements-owner-residential.page).
+    **Read: full page, re-read 26 September 2026.** Undated. <!-- SOURCES Part C C27; lesson 22 gate closures -->
+21. [The Gas Safety (Installation and Use) Regulations 1998 (SI 1998/2451), regulation 3](https://www.legislation.gov.uk/uksi/1998/2451/regulation/3).
+    **Read: in full; re-read on the live page 26 September 2026 for lesson 10.** <!-- SOURCES "The gas-work law, stated exactly"; C13; lesson 09 gate closures -->
+22. Health and Safety Executive, [*Safety in the installation and use of gas systems and appliances*, L56](https://www.hse.gov.uk/pubns/priced/l56.pdf),
+    fifth edition, 2018. **Read: paragraphs 52 to 55 and 81 to 95.** <!-- SOURCES C14; lesson 09 gate closures -->
+23. Health and Safety Executive, ["Gas safety: home owners"](https://www.hse.gov.uk/gas/domestic/faqownerocc.htm).
+    **Read: full text, re-read 26 September 2026 for lesson 10.** <!-- SOURCES C15; Stage 4 note, lesson 10 -->
+24. US Consumer Product Safety Commission, [Publication 5133, "Preventing Home Fires: Arc Fault Circuit Interrupters (AFCIs)"](https://www.cpsc.gov/s3fs-public/5133.pdf).
+    **Read: full text.** <!-- SOURCES Part A §3; Stage 4 note, lesson 14 -->
+25. Health and Safety Executive, [*Electricity at work: Safe working practices*, HSG85](https://www.hse.gov.uk/pubns/priced/hsg85.pdf),
+    third edition, 2013. **Read: the whole PDF; paragraphs 53 to 55 on proving dead.** Workplace
+    guidance, used here only to explain why the course doesn't teach proving dead. <!-- SOURCES Part D D36 -->
+26. Electrical Safety First, ["Advice for DIY-ers"](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/diyers/).
+    **Read: full text, re-read 26 September 2026.** No page date; the survey is undated and is of
+    electricians' reports. <!-- SOURCES Part C C31, Part D D34; lesson 22 gate closures -->
+27. Department of the Treasury Office of Economic Policy, Council of Economic Advisers and Department of
+    Labor, [*Occupational Licensing: A Framework for Policymakers*](https://obamawhitehouse.archives.gov/sites/default/files/docs/licensing_report_final_nonembargo.pdf),
+    July 2015. **Read: the executive summary, the best practices by search, and the research appendix
+    section "Impacts on Quality, Health, and Safety" in full, 26 September 2026; not read in full.** The
+    electrician studies it cites were not read. <!-- SOURCES Part C C33; lesson 22 gate closures -->
+28. Richard Campbell, ["Home Fires Caused by Electrical Distribution and Lighting Equipment"](https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Electrical/osElectricalDistLighting.pdf),
+    NFPA Research, February 2022. **Read: key findings and page 1.** Data 2015 to 2019. <!-- SOURCES Part C C30, Part D D37 -->
+29. US Federal Trade Commission, ["Prepared Statement of the Federal Trade Commission on Competition and Occupational Licensure"](https://www.ftc.gov/system/files/documents/public_statements/1253073/house_testimony_licensing_and_rbi_act_sept_2017_vote.pdf),
+    House Judiciary Subcommittee on Regulatory Reform, Commercial and Antitrust Law, 12 September 2017.
+    **Read: in full, 26 September 2026.** <!-- lesson 22 gate closure G-L3 -->
+30. US Federal Trade Commission, ["Economic Liberty"](https://www.ftc.gov/policy/advocacy/economic-liberty).
+    **Read: full page, live, 26 September 2026.** Undated; a page of 2017 to 2018 still on the live site.
+    <!-- lesson 22 gate closure G-L3 -->
+31. Institute for Justice, *License to Work 3* (Knepper, Deyo, Sweetland, Tiezzi and Mena, 29 November
+    2022): [the report's landing page](https://web.archive.org/web/20260712004730/https://ij.org/report/license-to-work-3/),
+    Internet Archive capture 20260712004730, and the section ["Steep Consumer and Economic Costs With Limited Benefits"](https://web.archive.org/web/20251007112550/https://ij.org/report/license-to-work-3/report/licensings-negative-effects/steep-consumer-and-economic-costs-with-limited-benefits/),
+    capture 20251007112550. **Read: those two pages in full, 26 September 2026** (the live site blocks
+    automated readers). The executive summary, methods and data were not read. <!-- lesson 22 gate closure G-L3 -->
+32. SELECT, ["Regulation"](https://select.org.uk/SELECT/SELECT/Website/About/Regulation/Regulation-Landing-Page.aspx);
+    ["MD: Danger of unqualified electricians must be regulated before there’s a tragedy"](https://select.org.uk/SELECT/SELECT/Website/About/News/News_Content/2021/Sep_2021/unqualified-electrician-must-regulated.aspx)
+    (September 2021); and ["UK’s biggest union supports the call for protection of title for electricians"](https://select.org.uk/SELECT/SELECT/Website/About/News/News_Content/2018/June_18/UK_s_biggest_union_supports_the_call_for_protection_of_title_for_electricians.aspx)
+    (June 2018). **Read: all three in full, live, 26 September 2026.** SELECT's own pages; the report it
+    commissioned was not read. <!-- lesson 22 gate closure G-N2 -->
+33. Utah Plumbing & Heating Contractors Association, ["Why Plumbing Licensing Matters in Utah"](https://uphca.net/2026/06/10/why-plumbing-licensing-matters-in-utah/),
+    10 June 2026. **Read: full text, live, 26 September 2026.** The association's own account of Utah's
+    rules is not used. <!-- lesson 22 gate closure G-N2 -->
+34. Scottish Government, ["Regulation of electricians: consultation"](https://www.gov.scot/publications/consultation-regulation-electricians/pages/3/),
+    23 November 2020. **Read: the landing page and section 3, "Context", 26 September 2026.** The outcome
+    was not read. <!-- lesson 22 gate closure G-N2 -->
+35. Department for Communities and Local Government, [*Building Regulations Part P, Electrical Safety in Dwellings: Impact assessment*](https://assets.publishing.service.gov.uk/media/5a75c34ee5274a4368299c6b/121217_-_Part_P_IA_-_to_publish_for_web.pdf),
+    December 2012. **Read: the summary, the problem and rationale, the response to the consultation, and
+    paragraphs 53 to 56 and 74 to 75, 26 September 2026.** The consultation and the government's response
+    were not read. <!-- lesson 22 gate closure G-L5 -->
+36. Welsh Government, [Approved Document P (Wales), *Electrical safety: dwellings*](https://www.gov.wales/sites/default/files/publications/2019-05/building-regulations-guidance-part-p-electrical-safety.pdf),
+    2006 edition incorporating 2010 amendments, for use in Wales. **Read: the front matter and Section 0
+    (notification, Tables 1 and 2 and the additional notes) in full, 25 September 2026; other sections by
+    search only.** <!-- SOURCES Part C C9 -->
