@@ -213,7 +213,7 @@ One more piece of law makes the checks you'll do below count. Section 48 of the 
 Offenders Act 1988 says the court must not endorse or disqualify for a section 41A offence if the
 driver proves "that he did not know, and had no reasonable cause to suspect, that the facts of the
 case were such that the offence would be committed".[7] The fine still applies. On this course's
-reading, the defence is narrow for a driver: a worn or damaged tyre that could be seen gave cause to
+reading, the exemption is narrow for a driver: a worn or damaged tyre that could be seen gave cause to
 suspect, whether or not anyone looked. The checks below are how you find it first. Lesson 20, "The
 law on a car's condition: Great Britain and Northern Ireland", has the rest. None of this section reaches Northern Ireland: Northern Ireland's own law on a car's condition
 wasn't read here, so a reader there checks nidirect instead.

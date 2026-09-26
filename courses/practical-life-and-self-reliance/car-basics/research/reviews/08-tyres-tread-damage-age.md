@@ -250,3 +250,11 @@ all twelve lessons on disk.
 `npm run validate`: exit 0.
 
 **Verdict: CLEAN.**
+
+## 2026-09-26 — Lesson 08 — one-word correction from lesson 20's Stage 4
+Lesson 20's Reviewer P (P2) found lesson 8 calling section 48 of the Road Traffic Offenders Act 1988
+"the defence" while lesson 20 says it is not a defence to the offence. The lesson 20 fixer read s.48
+live on 26 September 2026: it is headed "Exemption from disqualification and endorsement for certain
+construction and use offences" and leaves the conviction and the fine, where the Act says "defence"
+when it means one (s.41B(2)). Line 216 now reads "the exemption is narrow for a driver". Nothing else
+in lesson 8 changed. `npm run validate`: exit 0. See `20-the-law-on-a-cars-condition.md`.

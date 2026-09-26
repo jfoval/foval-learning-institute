@@ -8021,3 +8021,59 @@ header), for the lesson 21 fixes. Nothing here clears an entry on the `unread:` 
   re-read: "the tyre has any lump, bulge or tear caused by separation or partial failure of its
   structure" [V], under "shall not be used on a road, if" [V]. Lesson 21's Omagh checkpoint quotes it
   without naming the regulation in the body (Sources entry 18 names it).
+
+## Stage 4 note, lesson 20 (2026-09-26)
+
+*Read live on 26 September 2026 by the lesson 20 Stage 4 fixer, curl with a generic browser
+User-Agent and no personal data. legislation.gov.uk latest revised text unless noted; GOV.UK through
+the content API. Nothing here clears an entry on the `unread:` line. No earlier entry is corrected.*
+
+- **Road Traffic Offenders Act 1988, s.48** (E+W+S), re-read in full. Heading: "Exemption from
+  disqualification and endorsement for certain construction and use offences." [V] (1) and (2) as the
+  lesson 20/21 gate closures record them, including "order any particulars or penalty points to be
+  endorsed on" [V]; (3) repealed. The section is an exemption from disqualification and endorsement,
+  not a defence to the offence: compare s.41B(2), which says of the weight offence "it shall be a
+  defence to prove" [V]. On that basis lesson 8's "the defence is narrow" now reads "the exemption is
+  narrow".
+- **Road Traffic Act 1988, s.41B** heading "Breach of requirement as to weight: goods and passenger
+  vehicles." [V]; **s.41D** heading "Breach of requirements as to control of vehicle, mobile telephones
+  etc." [V], (a) "a position which does not give proper control or a full view of the road and traffic
+  ahead" [V], (b) "a hand-held mobile telephone or other hand-held interactive communication device"
+  [V]. Both E+W+S.
+- **Road Traffic Act 1988, s.40A(d)**: "the weight, position or distribution of its load, or the manner
+  in which it is secured" [V]; (c) "the number of passengers carried by it, or the manner in which they
+  are carried" [V].
+- **Road Traffic Offenders Act 1988, Schedule 2, Part I**: extent "E+W+S" [V] on the Schedule and the
+  Part.
+- **Road Vehicles (Construction and Use) Regulations 1986, introduction**: made "in exercise of the
+  powers conferred by sections 34(5), 40(1), (2) and (3) and 172 of the Road Traffic Act 1972" [V]. The
+  1988 Act's carry-over provision was not read; lesson 20 says so.
+- **C&U reg 18(1)**: "Every part of every braking system and of the means of operation thereof fitted
+  to a vehicle shall be maintained in good and efficient working order and be properly adjusted." [V]
+  E+W+S. Nothing else in reg 18 is relied on.
+- **C&U reg 27(1)(c)**, re-read: "the tyre has a cut in excess of 25 mm or 10% of the section width of
+  the tyre, whichever is the greater, measured in any direction on the outside of the tyre and deep
+  enough to reach the ply or cord" [V]. (1)(k): "a date marked on the tyre sidewall in accordance with
+  ECE Regulation 30, 54, 108 or 109 is illegible" [V]. (1A)(a) confines (1)(i) and (j) to front axles of
+  buses other than minibuses, single-configuration minibus axles and front axles of goods vehicles over
+  3,500 kg; (1A)(c) confines (1)(k) to buses (including minibuses) and heavier goods vehicles. (3):
+  "unless the vehicle is driven at a speed exceeding 50 mph" [V].
+- **C&U reg 34**, re-read: (1) "one or more efficient automatic windscreen wipers" [V]; (6) as Part C §3.
+- **C&U reg 61(1)**, re-read: "every vehicle shall be constructed [and maintained] so as not to emit
+  any avoidable smoke or avoidable visible vapour" (the bracket is legislation.gov.uk's amendment
+  marker), matching Part C §3.
+- **C&U reg 100(2)**: "The load carried by a motor vehicle or trailer shall at all times be so secured,
+  if necessary by physical restraint other than its own weight, and be in such a position, that neither
+  danger nor nuisance is likely to be caused" [V]. Which section a breach of reg 100 is charged under
+  was not read.
+- **Road Traffic (Northern Ireland) Order 1995, introductory text**: "Statutory Instruments 1995 No.
+  2994 (N.I. 18) The Road Traffic (Northern Ireland) Order 1995" [V], dated 23rd November 1995.
+- **nidirect, "Fixed Penalties for motoring offences"** (modified 14 May 2026), re-read: "A Fixed
+  Penalty is a fine for a motoring offence." [V]; "The DVA issue a range of fixed penalty notices" [V],
+  "endorsable - for example, for a defective tyre" [V].
+- **The Highway Code, Annex 6** (public_updated_at 2022-01-29), re-read through the content API: "When
+  you turn the ignition key, warning lights will be illuminated but will go out when the engine starts
+  (except the handbrake warning light). If they do not, or if they come on while you are driving, stop
+  and investigate the problem, as you could have a serious fault." [V] No MUST in the line.
+- **GOV.UK (DVLA), "Penalty points (endorsements)"**, re-read: CU20's description in full is as Part C
+  §3 records it, including "(excluding brakes, steering or tyres)" [V]. Lesson 20 no longer trims it.

@@ -413,3 +413,22 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   nidirect's two pages differ on the historic exemption (40 years against pre-1960); the course goes
   by "How the MOT scheme works" and says they differ.
 - **Quiz keys:** 21 1,0,3,1,2 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 20 fix pass: notes for later lessons
+
+- **Section 48 is an exemption, not a defence.** Its heading is "Exemption from disqualification and
+  endorsement for certain construction and use offences"; it leaves the conviction and the fine. Lesson
+  8 now says "exemption" (one word changed). Scripts 8 and 20 and the test never call it a defence or a
+  loophole.
+- **The C&U Regulations 1986 were made under the Road Traffic Act 1972**; only the Lighting Regulations
+  say on their face they were made under s.41 of the 1988 Act. The carry-over provision wasn't read.
+- **DVLA's codes never map to sections in the course's voice without the label.** CU20 excludes brakes,
+  steering and tyres, so which code a s.40A conviction about those parts gets is unknown.
+- **Reg 27(1)(c) always carries "whichever is the greater".** (1)(i) and (j) are the ten-year limits,
+  (1)(k) the illegible-date rule; none applies to cars.
+- **Lesson 3 taught reg 61A, not reg 61.** Reg 61(1) (avoidable smoke) is first taught in lesson 20.
+- **The Road Traffic (Northern Ireland) Order 1995 is off the `unread:` line** and is named in full in
+  lesson 20. Lesson 21's note above ("still not named ... while it is on the `unread:` line") is out of
+  date; lesson 21 may name it at its next open.
+- **Penalty tables at phone width:** points second, four columns, codes in prose (lesson 20's P7).
+- **Quiz keys:** 20 3,0,2,1,0 (unchanged by the fix).

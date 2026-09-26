@@ -1,6 +1,6 @@
 ---
 title: "The law on a car's condition: Great Britain and Northern Ireland"
-minutes: 70
+minutes: 75
 objectives:
   - >-
     State, as general information, the three Great Britain offences about a car's condition in the
@@ -19,71 +19,77 @@ objectives:
 quiz:
   - q: >-
       As general information: in England, a car is stopped with a worn steering joint that breaks a
-      construction and use requirement, and a reversing lamp that doesn't work. On the statute and
-      schedule this course read, how do the two compare?
+      construction and use requirement, and a windscreen wiper that no longer clears the screen. On
+      the statute and schedule this course read, how do the two compare?
     options:
       - Both come under section 41A, so each one carries 3 points and a £2,500 maximum
       - Neither can lead to anything until the car's next MOT records the two defects
       - Both come under section 42, so a £1,000 maximum each and no points for either
-      - The steering is section 41A, with 3 points; the lamp is section 42, with none
+      - The steering is section 41A, with 3 points; the wiper is section 42, with none
     answer: 3
     explain: >-
       Section 41A covers a construction and use requirement "as to brakes, steering-gear or tyres",
       and Schedule 2 of the Road Traffic Offenders Act gives it obligatory endorsement and 3 points.
-      A lamp requirement comes from the Lighting Regulations, made under section 41, so on this
-      course's reading of the words it falls under section 42, which Schedule 2 gives no endorsement
-      and no points. Putting both under one section misses that split. And the offences apply
-      whenever the car is used on a road; the MOT is a separate yearly test.
+      The wiper requirement is regulation 34 of the Construction and Use Regulations (lesson 10),
+      which is not about brakes, steering-gear or tyres, so it falls under section 42, which Schedule
+      2 gives no endorsement and no points. Putting both under one section misses that split. And
+      the offences apply whenever the car is used on a road; the MOT is a separate yearly test.
   - q: >-
-      As general information: in Great Britain, a driver who borrowed a car is convicted under
-      section 41A for a tyre whose damage was on the inner sidewall, facing under the car. What does
-      section 48 of the Road Traffic Offenders Act 1988 turn on?
+      As general information: in Scotland, a driver is convicted under section 40A after her car's
+      loose exhaust fell off on a busy road. What does section 48 of the Road Traffic Offenders Act
+      1988 turn on?
     options:
-      - Whether the driver proves they didn't know and had no reasonable cause to suspect it
-      - Whether the tyre's owner, not the driver, had the car serviced in the last 12 months
-      - Whether the prosecution proves the driver knew, since otherwise the charge is dropped
-      - Nothing, since section 48 covers only section 40A and doesn't reach tyres at all
+      - Whether she proves she didn't know, and had no reasonable cause to suspect, the danger
+      - Whether the car's last garage, not the driver, checked the exhaust in the past 12 months
+      - Whether the prosecution proves she knew, since otherwise the charge has to be dropped
+      - Nothing, since section 48 covers only section 41A and never reaches section 40A
     answer: 0
     explain: >-
-      Section 48(2) is about section 41A, and it applies "if he proves that he did not know, and had
-      no reasonable cause to suspect" the facts; the burden in those words is on the driver, not the
-      prosecution. If it's met, the court must not disqualify or endorse, but the conviction and the
-      fine stand, so nothing is "dropped". Section 48 has a subsection for section 40A too, and one
-      for 41A, so it does reach tyres. Nothing in it mentions servicing.
+      Section 48(1) is about section 40A, and it applies "if he proves that he did not know, and had
+      no reasonable cause to suspect, that the use of the vehicle involved a danger of injury to any
+      person"; the burden in those words is on the person convicted, not the prosecution. If it's
+      met, the court must not disqualify or endorse, but the conviction and the fine stand, so
+      nothing is "dropped". Section 48 has a subsection for section 40A as well as one for 41A, and
+      both extend to Scotland. Nothing in it mentions a garage's checks.
   - q: >-
-      As general information: a driver in Wales sets off on a long motorway run with the fuel
-      warning light already on. Which describes the Highway Code line that bears on this?
+      As general information: a driver in Wales starts the engine, sees a warning light that stays
+      on, and drives off without stopping to look into it. Which describes the Highway Code line
+      that bears on this?
     options:
-      - A MUST rule, so running low on fuel is itself an offence under the Code's own words
-      - Only the motorway rules apply to it, since Rule 97 is about the car and not the fuel
-      - A should line, advice rather than law, though the Code can be used in evidence
+      - A MUST rule, so driving on with a lit warning light is an offence under the Code itself
+      - Only Rule 97's fuel line, since the Code says nothing anywhere about warning lights
+      - Advice, not a MUST rule, though the Code can be used in evidence in court proceedings
       - Nothing, since the Highway Code doesn't apply in Wales and Welsh law was not read
     answer: 2
     explain: >-
-      Rule 97 puts fuel under "You SHOULD ensure that": "you have sufficient fuel or charge for your
-      journey, especially if it includes motorway driving". The introduction says rules without MUST
-      won't in themselves cause a prosecution, but the Code "may be used in evidence" to establish
-      liability. The Code "applies to England, Scotland and Wales", so Wales is inside it; and Rule
-      97 is the rule that names fuel.
+      Annex 6 says that if the warning lights don't go out when the engine starts, "stop and
+      investigate the problem, as you could have a serious fault." That line has no MUST, so
+      it is advice: the introduction says rules without MUST won't in themselves cause a prosecution,
+      but the Code "may be used in evidence" to establish liability. Annex 6 is where the Code names
+      warning lights, so it is not silent on them. The Code "applies to England, Scotland and Wales",
+      so Wales is inside it. If the fault itself breaks a construction and use requirement, that is an
+      offence under the Act, not under the Code's words.
   - q: >-
-      As general information: someone who drives in Northern Ireland asks whether Great Britain's section 41A
-      and its 3 points apply to her car. On what this course read, what's the accurate answer?
+      As general information: someone who drives in Northern Ireland asks whether Great Britain's
+      section 41A and its 3 points apply to her car. On what this course read, what's the accurate
+      answer?
     options:
       - Yes, because the Road Traffic Act 1988 extends to the whole of the United Kingdom
-      - Northern Ireland has its own Order with a matching article; its penalties weren't read
+      - 'No: Northern Ireland has its own Order with a matching article, penalties not read'
       - No, because Northern Ireland has no offence about brakes, steering-gear or tyres at all
       - Yes for the offence, and the 3 points follow from the Highway Code for Great Britain
     answer: 1
     explain: >-
       Section 41A's extent is England, Wales and Scotland. Northern Ireland has its own Road Traffic
-      Order, whose Article 56 makes contravening a requirement "as to brakes, steering-gear or tyres"
-      an offence in almost the same words, so it's wrong to say Northern Ireland has none. This course
-      didn't read the penalties Northern Ireland attaches to it, and Great Britain's Highway Code
-      doesn't set Northern Ireland's; nidirect is where to look.
+      (Northern Ireland) Order 1995, whose Article 56 makes contravening a requirement "as to brakes,
+      steering-gear or tyres" an offence in almost the same words, so it's wrong to say Northern
+      Ireland has none. This course didn't read the penalties Northern Ireland attaches to it. And
+      points don't come from a Highway Code at all: in Great Britain they come from Schedule 2 of the
+      Road Traffic Offenders Act, which doesn't extend there; nidirect is where to look.
   - q: >-
-      As general information: a car in England is stopped with two tyres below the legal tread depth
-      and nothing else wrong. What does the Sentencing Council's guideline for England and Wales say
-      about the fine and the points?
+      As general information: a car in England is stopped with one tyre below the legal tread depth,
+      another with a bulge in its sidewall, and nothing else wrong. What does the Sentencing
+      Council's guideline for England and Wales say about the fine and the points?
     options:
       - The fine can be for each tyre, but ordinarily only one set of points applies
       - The fine and the points are both counted once per tyre, so each doubles here
@@ -92,15 +98,17 @@ quiz:
     answer: 0
     explain: >-
       The guideline says "Fine is for each single tyre (but ordinarily only one set of points apply
-      where several offences committed on the same occasion)." So the fine can be imposed per tyre,
-      while the points ordinarily aren't. Doubling the points is the per-tyre claim some advice pages
-      make; the other two options reverse the guideline or ignore that each tyre is its own offence.
+      where several offences committed on the same occasion)." Two tyres, each with its own defect,
+      so two fines are possible, while the points ordinarily go on once. Doubling the points is the
+      per-tyre claim some advice pages make; the other two options reverse the guideline or ignore
+      that each tyre is its own offence.
 ---
 
-Picture two defects found at the same roadside check: a tyre worn below the legal depth and a
-number-plate lamp that doesn't light. Most drivers would call both "illegal" and stop there. The law
-in Great Britain doesn't. One of them sits in a section of the Road Traffic Act 1988 that carries
-three penalty points on your licence; the other sits in the section next to it, which carries none.
+Picture two defects found at the same roadside check after dark: a tyre worn below the legal depth
+and a number-plate lamp that doesn't light. Most drivers would call both "illegal" and stop there.
+The law in Great Britain doesn't. One of them falls under a section of the Road Traffic Act 1988 that
+carries three penalty points on your licence; the other, on this course's reading, falls under a
+later section that carries none.
 And an MOT pass last month changes neither, because the duty the law puts on a driver runs every
 time the car is used. This lesson reads that law in its own words, so you can say which rule a
 defect breaks, what can follow, who it reaches, and where the law in Northern Ireland is written
@@ -110,8 +118,8 @@ instead.
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
 :::
 
-Almost every section below states law, and each carries this label in short; here it is in full.
-This is general information, not legal advice. The rules differ between England and Wales,
+Most of this lesson is law, so here is the full caution once; each section after this opens with
+the short form. This is general information, not legal advice. The rules differ between England and Wales,
 Scotland, Northern Ireland and each US state, and they change. This lesson doesn't tell you what
 applies in your own case. It tells you which rule a set of facts points to, in the rule's own
 words, and whom to ask.
@@ -122,8 +130,12 @@ This is general information, not legal advice.
 
 Earlier lessons met the rules one at a time: the tread and tyre rules in regulation 27 (lessons 8 and
 18), glass, wipers and washers in regulations 30 and 34 (lessons 9 and 10), lamps in regulation 23
-of the Lighting Regulations (lesson 10), smoke and a removed filter in regulations 61 and 61A (lesson
-3). They sit in three layers, and it helps to see them together.
+of the Lighting Regulations (lesson 10), and a removed diesel particulate filter in regulation 61A
+(lesson 3). Those lessons are lesson 3, "Diesel exhaust: the DPF and AdBlue"; lesson 8, "Tyres II:
+tread, damage, age, and when to replace"; lesson 9, "Under the bonnet: oil, coolant, brake fluid and
+screenwash"; lesson 10, "Lights, wipers, glass and the walk-round"; and lesson 18, "A flat tyre: the
+decision, and spare, space saver, sealant or run-flat". The rules sit in three layers, and it helps to
+see them together.
 
 **The statute.** The Road Traffic Act 1988 creates the offences. Its sections 40A, 41A and 42 are
 the ones about a car's condition, and each applies in England, Wales and Scotland.[1][2][3]
@@ -131,10 +143,12 @@ the ones about a car's condition, and each applies in England, Wales and Scotlan
 **The regulations.** Section 41 of the Act lets the government make regulations "as to the use of
 motor vehicles and trailers on roads, their construction and equipment", and it defines
 "construction and use requirements" as requirements "imposed under this section".[4] The Road
-Vehicles (Construction and Use) Regulations 1986 are those regulations, and so, for lamps, are the
-Road Vehicles Lighting Regulations 1989, which say on their face that they were made under "section
-41 as read with section 43" of the Act.[4] So a regulation like 27 sets the standard, and the Act
-makes breaking it an offence.
+Vehicles (Construction and Use) Regulations 1986 are the main set of those regulations. They were
+made under the Road Traffic Act 1972, which the 1988 Act replaced, and this course reads them as
+carried over; it didn't read the provision that does that.[24] The Road Vehicles Lighting
+Regulations 1989 say on their face that they were made under "section 41 as read with section 43" of
+the 1988 Act.[4] So a regulation like 27 sets the standard, and the Act makes breaking it an
+offence.
 
 **The Highway Code.** It restates the law and adds advice, and lesson 1, "What a car is made of, and
 why the handbook comes first", taught its two voices. Rules that are law "are identified by the use
@@ -150,6 +164,12 @@ insurance are valid and "your vehicle is legal and roadworthy"; then, under "You
 that", comes "you have sufficient fuel or charge for your journey, especially if it includes
 motorway driving".[6] The first half is law. The second is advice that, the introduction says, "may
 be used in evidence in any court proceedings under the Traffic Acts".[5]
+
+Lesson 11, "Dashboard warning lights", met another advice line: Annex 6 says that if the warning
+lights stay on after the engine starts, "stop and investigate the problem, as you could have a
+serious fault."[25] It has no MUST, so a driver who ignores it breaks nothing in the Code's words.
+The fault behind the light is another matter. If it breaks a construction and use requirement,
+Rule 89's MUST points to it, and the offence is in the Act, whatever the dashboard showed.
 
 ## Three offences, and why only some carry points
 
@@ -179,11 +199,15 @@ to be shown. A tyre that breaks regulation 27 is enough.
 
 [Section 42](https://www.legislation.gov.uk/ukpga/1988/52/section/42) is headed "Breach of other
 construction and use requirements". It reaches any construction or use requirement other than the
-brakes, steering-gear and tyres ones in section 41A and two others (weight, and control of the
-vehicle, which includes phones), in the same two ways: breaking the requirement, or using, causing
+brakes, steering-gear and tyres ones in section 41A and two others (weight limits for goods and
+passenger vehicles, in section 41B, and the driver's control and view of the road and hand-held
+phones, in section 41D), in the same two ways: breaking the requirement, or using, causing
 or permitting the use of a vehicle that breaks it.[3][7] Lamps, glass, wipers, washers and avoidable
 smoke are requirements of this kind. That a lamp falls here is this course's reading of the words,
-from section 42 and the Lighting Regulations' own statement that they were made under section 41.
+from section 42 and the Lighting Regulations' own statement that they were made under section 41. So,
+on this course's reading, is regulation 61A's rule against using a car whose emissions fail their
+limits because the exhaust was altered (lesson 3's removed filter); the £1,000 for a car in the DVSA
+note lesson 3 quoted is the level 3 figure in the table below.
 
 ### What each one carries
 
@@ -194,28 +218,35 @@ levels into pounds for England and Wales: for an offence committed on or after 1
 3 is £1,000 and level 4 is £2,500.[8] Scotland has its own standard scale, which this course didn't
 read, so the pound figures below are England and Wales's.
 
-| Offence (Road Traffic Act 1988) | Maximum for a car (England and Wales) | Disqualification | Endorsement | Points | DVLA codes |
-|---|---|---|---|---|---|
-| s.40A, dangerous condition | Level 4, £2,500 | Obligatory if within three years of a previous s.40A conviction; otherwise discretionary | Obligatory | 3 | CU20 (parts or accessories), CU50 (load or passengers) |
-| s.41A, brakes, steering-gear or tyres | Level 4, £2,500 | Discretionary | Obligatory | 3 | CU10 brakes, CU30 tyres, CU40 steering |
-| s.42, other construction and use requirements | Level 3, £1,000 | None | None | None | none |
+| Offence (Road Traffic Act 1988) | Points and endorsement | Maximum for a car (England and Wales) | Ban |
+|---|---|---|---|
+| s.40A, dangerous condition | 3; must endorse | Level 4, £2,500 | Must, if within three years of an earlier s.40A conviction; otherwise may |
+| s.41A, brakes, steering-gear or tyres | 3; must endorse | Level 4, £2,500 | May |
+| s.42, other construction and use requirements | None | Level 3, £1,000 | No |
 
-Sources: Road Traffic Offenders Act 1988, Schedule 2, Part I; Sentencing Act 2020, s.122; DVLA's
-endorsement codes page; all read on the live pages on 26 September 2026.[7][8][9] Goods vehicles
-and vehicles adapted to carry more than eight passengers have a higher level in each row. DVLA's
-page says construction and use codes "must stay on a driving record for 4 years from the date of the
-offence."[9] Matching its codes to the sections is this course's reading of their descriptions; the
-page doesn't name the sections.
+Sources: Road Traffic Offenders Act 1988, Schedule 2, Part I; Sentencing Act 2020, s.122; all read
+on the live pages on 26 September 2026.[7][8] Goods vehicles and vehicles adapted to carry more than
+eight passengers have a higher level in each row.
+
+Three words in that table. A ban is disqualification from driving. Endorsement means the offence goes
+on the driver's record with its points, as lesson 8 put it. Schedule 2's own words are "obligatory",
+which the table gives as must, and "discretionary", given as may.
+
+DVLA (the Driver and Vehicle Licensing Agency) has its own codes. On this course's reading of their
+descriptions, CU20 (unsuitable vehicle, or parts or accessories other than brakes, steering or tyres)
+and CU50 (load or passengers) go with section 40A, and CU10 (brakes), CU30 (tyres) and CU40
+(steering) with section 41A. DVLA's page doesn't name the sections, and because CU20's description
+leaves out brakes, steering and tyres, this course cannot say which code a section 40A conviction
+about those parts would get. The page says construction and use codes "must stay on a driving record
+for 4 years from the date of the offence."[9]
 
 GOV.UK puts the first row in plain words: "You can be fined up to £2,500, be banned from driving and
 get 3 penalty points for driving a vehicle in a dangerous condition."[10]
 
-:::predict Before reading on: why would the law give points for a worn tyre, where no danger has to be shown, and none for a dead lamp? Guess what the statute's structure tells you, and what it doesn't.
-The structure tells you where the line falls. Parliament put brakes, steering-gear and tyres in a
-section of their own, 41A, and Schedule 2 gives that section endorsement and points; every other
-construction and use requirement is left to section 42, whose row has neither. What the structure
-doesn't give is a reason. None of the texts this course read says why those three parts were singled
-out, and this course won't supply one.
+:::predict Before reading on: you've seen where the points fall. Does anything in the words of sections 41A and 42 say why brakes, steering-gear and tyres get points and a lamp doesn't? Guess before you look.
+No. Parliament put brakes, steering-gear and tyres in a section of their own, and Schedule 2 gives
+that section points. None of the texts this course read says why those three parts were singled out,
+and this course won't supply one.
 :::
 
 ### Regulation 100, the "at all times" rule
@@ -237,8 +268,9 @@ tyres "shall not be used on a road, if" any of a list is true, and for a car the
 this:[12]
 
 - (a) the tyre is unsuitable for the use, or for the tyres on the other wheels;
-- (b) it's not inflated fit for the use (lesson 7);
-- (c) to (e) a cut over 25 mm or 10% of the section width that reaches the ply or cord, a lump, bulge
+- (b) it's not inflated fit for the use (lesson 7, "Tyres I: pressure, the placard and TPMS");
+- (c) to (e) a cut over 25 mm or 10% of the section width, whichever is the greater, that reaches the
+  ply or cord, a lump, bulge
   or tear from structural failure, or ply or cord exposed (lesson 8);
 - (h) "the tyre is not maintained in such condition as to be fit for the use to which the vehicle or
   trailer is being put", or has a defect that might damage the road or people.
@@ -248,8 +280,8 @@ paragraph (3) keeps a space saver out of (a)'s "unsuitable" rule only while the 
 50 mph (lesson 18); and paragraph (4)(f) sets the car
 tread rule, 1.6 mm "throughout a continuous band comprising the central three-quarters of the breadth
 of tread and round the entire outer circumference of the tyre" (lesson 8).[12] The ten-year age
-limits in paragraphs (1)(i) to (k) apply only to buses, minibuses and heavier goods vehicles, not to
-cars. On this course's reading, every one of these is a requirement "as to tyres", so a breach falls
+limits in paragraphs (1)(i) and (j), and the illegible-date rule in (1)(k), apply only to buses,
+minibuses and heavier goods vehicles, not to cars. On this course's reading, every one of these is a requirement "as to tyres", so a breach falls
 under section 41A.
 
 ## A roadside check near Spalding
@@ -263,7 +295,7 @@ point to, which carries points, and what does the Sentencing Council's guideline
 Wales add about the tyre?
 
 The tyre first. It breaks regulation 27(4)(f), a construction and use requirement as to tyres, so it
-points to section 41A: a £2,500 maximum, obligatory endorsement and 3 points (DVLA code CU30).[2][7][9]
+points to section 41A: a £2,500 maximum, obligatory endorsement and 3 points (on this course's reading of DVLA's list, code CU30).[2][7][9]
 The Sentencing Council's guideline, "Tyres defective", is for magistrates in England and Wales. It
 gives "Maximum for vehicles up to 3.5 tonnes: Level 4 fine", "Must endorse and impose 3 points", a
 starting point of a "Band B fine" for a driver, which the guideline sets at 100% of relevant weekly
@@ -302,7 +334,8 @@ conviction and the fine stay. The wording follows.
 Lesson 8, "Tyres II: tread, damage, age, and when to replace", quoted one half of this rule. Here is
 all of it. [Section 48 of the Road Traffic Offenders Act 1988](https://www.legislation.gov.uk/ukpga/1988/53/section/48)
 has two subsections. Each says that, on conviction, the court must not order disqualification or
-order particulars or penalty points to be endorsed on the driving record, and each sets its own
+order the offence's details (its "particulars") or penalty points to be endorsed on the driving
+record, and each sets its own
 condition. For section 40A it is "if he proves that he did not know, and had no reasonable cause to
 suspect, that the use of the vehicle involved a danger of injury to any person." For section 41A it
 is "if he proves that he did not know, and had no reasonable cause to suspect, that the facts of the
@@ -310,14 +343,15 @@ case were such that the offence would be committed."[14]
 
 Three things follow from the words, and the first two are easy to miss.
 
-It removes the points and the ban. It doesn't remove the conviction or the fine. It is not a defence
-to the offence at all, and calling it a loophole gets it wrong.
+It removes the points and the ban. It doesn't remove the conviction or the fine. The section's own
+heading calls it an "Exemption from disqualification and endorsement", the word lesson 8 used. It
+is not a defence to the offence itself, and calling it a loophole gets it wrong.[14]
 
 "If he proves." The burden in those words is on the person convicted, not on the prosecution.
 
 "No reasonable cause to suspect" is wider than "didn't know". On this course's reading, a defect that
-a look would have shown gave cause to suspect whether or not anybody looked. That is why the checks
-in lessons 7 to 10 carry legal weight in Great Britain: they're how a driver finds the defect first,
+a look would have shown gave cause to suspect whether or not anybody looked. On that reading, the
+checks in lessons 7 to 10 carry legal weight in Great Britain: they're how a driver finds the defect first,
 and a driver who never looks is in a weaker position under section 48, not a stronger one. Section 48
 has no subsection for section 42, and section 42 carries no points to remove.
 
@@ -327,7 +361,7 @@ This is general information, not legal advice.
 
 All three sections reach more than the driver. Each covers a person who "uses" the vehicle and a
 person who "causes or permits" it to be used.[1][2][3] This course reads those words as they stand
-and does not interpret them further; it read no case law on what "permits" takes. What it can do is
+and does not interpret them further; it read no case law on what "permits" requires. What it can do is
 show which words a set of facts turns on.
 
 ### A lent car in Corby
@@ -336,16 +370,15 @@ An owner in Corby lends her car to a friend for the weekend. On Saturday the fri
 supermarket with a bulge in the outer sidewall of a rear tyre. The bulge is a breach of regulation
 27(1)(d), a requirement as to tyres.
 
-Start with the section. It's 41A, and its words reach two people here in two different ways. The
-friend "uses on a road" a car that doesn't comply. The owner, if the facts meet the words, "causes or
-permits" that use.[2]
+Start with the section: it's 41A. Now the gap. Before you read the answer, say which words of
+section 41A reach each of them, and which words of section 48(2) the question for each then turns
+on. Answer as "which rule, and what it asks", not "is she guilty".
 
-Now the gap. Before you read the answer, say which words of section 48(2) the question for each of
-them turns on, and what facts would bear on those words. Answer as "which rule, and what it asks",
-not "is she guilty".
+:::checkpoint Which words of section 41A reach each person, which words of section 48(2) does each one's position turn on, and what facts would bear on them?
+Section 41A reaches them in two different ways. The friend "uses on a road" a car that doesn't
+comply. The owner, if the facts meet the words, "causes or permits" that use.[2]
 
-:::checkpoint Which words of section 48(2) does each person's position turn on, and what facts would bear on them?
-Both would turn on the same words, applied to each person separately: whether they prove that they
+Section 48(2) would then turn on the same words, applied to each person separately: whether they prove that they
 "did not know, and had no reasonable cause to suspect, that the facts of the case were such that the
 offence would be committed." The facts that bear on those words are things like when the bulge
 appeared, whether it was on the side anyone walking up to the car would see (the outer sidewall
@@ -355,7 +388,7 @@ evening is a different set of facts from one that had been there for a month. No
 
 A few practical lines follow, and all are this course's reading, not something a statute says. If
 you lend a car, the tyres and lights are worth a look before the keys change hands, because the
-words reach you. If you borrow one, the walk-round in lesson 10 takes two minutes. And if the car
+words reach you. If you borrow one, the walk-round in lesson 10 is quick, and it comes before you drive. And if the car
 belongs to a lease, finance or hire company, or an employer, the agreement decides who arranges
 tyres and repairs; this course read none of those agreements, so tell the company in writing and do
 only the owner's checks.
@@ -372,15 +405,15 @@ vehicle."[15] If a police officer asks, you must be able to show your licence, "
 certificate" and "a valid MOT certificate (if your vehicle needs one)", and if they're not with you,
 "you may be asked to take them to a police station within 7 days."[15]
 
-Two of those link back to condition. The MOT is lesson 21's subject; the offence of using a car with
+Two of those link back to condition. The MOT is the subject of lesson 21, "The MOT and Northern
+Ireland's vehicle test"; the offence of using a car with
 no current test certificate is section 47 of the Act, and Schedule 2 gives it "Level 3 on the
 standard scale in any other case" than larger passenger vehicles, with no endorsement and no
 points.[7] And insurance: the Highway Code's Annex 3 says "Driving an unroadworthy motor vehicle may
 invalidate your insurance."[16] Keep the "may". Insurance itself belongs to Personal Finance
 Fundamentals lesson 8, "Handing off what you cannot absorb".
 
-The Code's Annex 5, on penalties, says "Certain non-motoring offences, e.g. failure to rectify vehicle
-defects, can also attract penalty points", and its table gives "Using a vehicle in a dangerous
+The Code's Annex 5, on penalties, has a table that gives "Using a vehicle in a dangerous
 condition" a £2,500 maximum for a car and "3 in each case", and "No MOT certificate" a £1,000 fine
 and no points.[17] Those match the statute's rows above.
 
@@ -388,13 +421,15 @@ and no points.[17] Those match the statute's rows above.
 
 This is general information, not legal advice.
 
-Every section above extends to England, Wales and Scotland and stops there. Northern Ireland, as
+Every section of the Road Traffic Act and the Offenders Act above extends to England, Wales and
+Scotland and stops there, and so do the regulations. Northern Ireland, as
 nidirect puts it, "is largely responsible for its own road safety policy and legislation".[18] Earlier
 lessons said this course hadn't read that legislation. For this lesson it read the parts that match
 the ones above, and they're close to word for word.
 
-**The offences.** Northern Ireland's [Road Traffic (Northern Ireland) Order](https://www.legislation.gov.uk/nisi/1995/2994/contents),
-made in 1995, has its own three articles. Article 54, "Using vehicle in dangerous condition etc.",
+**The offences.** Northern Ireland's [Road Traffic (Northern Ireland) Order 1995](https://www.legislation.gov.uk/nisi/1995/2994/contents)
+has its own three articles. An Order is a kind of statutory instrument (this one is SI 1995/2994),
+not an Act, and where an Act has sections, an Order has Articles. Article 54, "Using vehicle in dangerous condition etc.",
 opens with the same words as section 40A: "A person is guilty of an offence if he uses, or causes or
 permits another to use, a motor vehicle or trailer on a road when".[19] Article 56 makes it an offence
 to contravene "a construction and use requirement as to brakes, steering-gear or tyres", or to use,
@@ -410,7 +445,7 @@ in 1999, with no revised version, so this course read the original text and not 
 amendment.
 
 **The Highway Code.** Northern Ireland's own Code, on nidirect, uses the same two voices, and its
-legal rules "are identified by the use of the words ‘must' and 'must not’", in lower case.[18] Its
+legal rules "are identified by the use of the words ‘must’ and ‘must not’", in lower case.[18] Its
 annex on vehicle maintenance gives the car tread rule as a must, "Must have a tread depth of at
 least 1.6 mm across the central three-quarters of the breadth of the tread and around the entire
 circumference", citing "CUR reg 32".[21]
@@ -421,45 +456,44 @@ law; "preferably more than 2 mm" is nidirect's advice, and lesson 8 set out the 
 margins above the floor.
 
 **What wasn't read.** The penalties Northern Ireland attaches to Articles 54, 56 and 58; whether it
-has a rule like section 48; and its scale of fines. nidirect's fixed-penalty page gives one example
-that bears on this lesson, that the Driver and Vehicle Agency's fixed penalty notices can be
-"endorsable - for example, for a defective tyre", with no figure.[23] Northern Ireland's Highway Code
+has a rule like section 48; and its scale of fines. nidirect's fixed-penalty page, which says "A Fixed
+Penalty is a fine for a motoring offence", gives one example that bears on this lesson: the Driver
+and Vehicle Agency's fixed penalty notices can be "endorsable - for example, for a defective tyre", with no figure.[23] Northern Ireland's Highway Code
 penalty table, as read, has no row for a car's condition.[21] And DVLA's page, which is Great
 Britain's, says: "Endorsement codes and processes in Northern Ireland are different."[9]
 
 | | Great Britain | Northern Ireland |
 |---|---|---|
-| Dangerous condition | Road Traffic Act 1988 s.40A | Road Traffic (NI) Order, Art. 54 |
+| Dangerous condition | Road Traffic Act 1988 s.40A | Road Traffic (Northern Ireland) Order 1995, Art. 54 |
 | Brakes, steering-gear or tyres | s.41A | Art. 56 |
 | Other construction and use requirements | s.42 | Art. 58 |
-| Car tread rule | C&U Regulations 1986, reg 27(4)(f) | C&U Regulations (NI) 1999, reg 32, as made |
+| Car tread rule | Construction and Use Regulations 1986, reg 27(4)(f) | Construction and Use Regulations (NI) 1999, reg 32, as made |
 | "At all times" danger rule | reg 100 | reg 115, as made |
-| Penalties | RTOA 1988 Sch 2; Sentencing Act 2020 s.122 (E and W) | Not read by this course |
+| Penalties | Road Traffic Offenders Act 1988, Schedule 2; Sentencing Act 2020 s.122 (England and Wales) | Not read by this course |
 | Highway Code | GOV.UK; MUST in capitals | nidirect; must in lower case |
 
 ## What people get wrong
 
-**"It passed its MOT, so it's legal."** GOV.UK: "You’re responsible for making sure your vehicle is
-always safe to drive (‘roadworthy’). It can be unsafe even if you have a current MOT
-certificate."[10] Sections 40A, 41A and 42 apply every time the car is used. Lesson 21 covers what
-the test does.
+This is general information, not legal advice.
 
-**"Three points for every bad tyre."** The fine can multiply by the tyre; the points ordinarily
-don't. The Spalding section has the guideline's words.
+**"It passed its MOT, so it's legal."** Lesson 1 quoted GOV.UK on this: a current certificate
+doesn't make a car roadworthy. The three offences above apply every time the car is used, and lesson
+21 covers what the test does.
 
-**"'Didn't know' gets you off."** Section 48 removes points and disqualification, not the conviction
-or the fine, and only if the driver proves both halves of it, including "no reasonable cause to
-suspect".
+**"Three points for every bad tyre."** The Spalding section has the guideline's words on fines and
+points.
 
-**"No MOT means points."** Not at present. Section 47 carries no endorsement. The government asked,
-in a consultation that closed on 11 May 2026, whether it should add points; lesson 21 has what it
-said and that no outcome was published when this course read it.
+**"'Didn't know' gets you off."** "Did not know, and had no reasonable cause to suspect", above, has
+section 48's words and what they leave in place.
 
-**"The Highway Code is only advice."** Its MUST rules are law and cite the legislation behind them;
-its should rules are advice that can be used in evidence. Rule 97 has both.
+**"No MOT means points."** Not on the Schedule 2 row this course read; "What else the law asks of a
+driver in Great Britain" has it, and lesson 21 has the government's consultation.
 
-**"Northern Ireland follows the same law."** It has its own Order and its own regulations, in almost
-the same words, and penalties this course didn't read. A reader there checks nidirect.
+**"The Highway Code is only advice."** "Where the law comes from, in Great Britain" has its two
+voices, with Rule 97 as the example.
+
+**"Northern Ireland follows the same law."** The Northern Ireland section above has what this course
+read and didn't; a reader there checks nidirect.
 
 ## Practice
 
@@ -472,14 +506,14 @@ named one. Nothing here needs a car; don't go and look for these defects on anyo
 
 - (a) One tyre's central band measures 1.3 mm all the way round.
 - (b) A bulge in a front tyre's sidewall.
-- (c) Brakes that DVLA's list would call defective.
+- (c) A parking brake that no longer holds the car on a slope.
 - (d) The only rear number-plate lamp doesn't light, after dark.
 - (e) The windscreen washers don't work.
 - (f) A crack across the windscreen that blocks the driver's view of the road.
 - (g) The engine gives off avoidable smoke.
 - (h) A space saver fitted, and the car driven at 65 mph.
 - (i) A five-year-old car whose MOT ran out a month ago.
-- (j) A car whose condition, taken as a whole, involves a danger of injury to other people.
+- (j) A ladder on the roof held by one loose strap, sliding about as the car turns.
 :::
 
 :::checkpoint Check your sort.
@@ -487,7 +521,9 @@ named one. Nothing here needs a car; don't go and look for these defects on anyo
 
 (b) Section 41A, 3 points: regulation 27(1)(d).
 
-(c) Section 41A, 3 points: a brakes requirement; DVLA's code is CU10.
+(c) Section 41A, 3 points: regulation 18(1) of the Construction and Use Regulations, which says every
+part of every braking system "shall be maintained in good and efficient working order" (on this
+course's reading of DVLA's list, code CU10).[26]
 
 (d) Section 42 on this course's reading, no points: regulation 23 of the Lighting Regulations (lesson
 10).
@@ -498,26 +534,32 @@ times (lesson 9).
 (f) Section 42, no points: regulation 30(3), glass maintained so it doesn't obscure the driver's vision
 (lesson 10).
 
-(g) Section 42, no points: regulation 61 (lesson 3).
+(g) Section 42, no points: regulation 61(1), which requires a vehicle to be "constructed and
+maintained so as not to emit any avoidable smoke".[26]
 
-(h) Section 41A on this course's reading, 3 points: regulation 27(3) shields a space saver from the
-"unsuitable" rule in 27(1)(a) only while the car isn't driven over 50 mph (lesson 18).
+(h) Section 41A on this course's reading, 3 points: above 50 mph regulation 27(3) no longer shields
+the space saver, so the question becomes whether it is "unsuitable" under 27(1)(a), a tyre
+requirement (lesson 18).
 
-(i) Section 47, no points: no current test certificate. It isn't a construction and use offence at
-all.
+(i) Section 47, no points: no current test certificate. It isn't a breach of a construction and use
+requirement at all.
 
-(j) Section 40A, 3 points. Any of (a) to (h) could also meet section 40A's words if the facts showed a
+(j) Section 40A, 3 points, if the facts show a danger of injury: "the manner in which it is secured"
+is one of its heads for a load (on this course's reading of DVLA's list, code CU50). Regulation 100
+also speaks of securing loads, and which section a breach of it is charged under is not something this
+course read. Any of (a) to (h) could also meet section 40A's words if the facts showed a
 danger of injury; which one is charged is a prosecutor's decision, not something this sort can
 settle.
 :::
 
 ## For your plan
 
-Add a legal page to your car file, after lesson 19's wheel page. On it: which country's law applies
-to the roads you drive (Great Britain or Northern Ireland; lesson 22 covers the US states), the
-three offences in one line each with their points, section 48's two conditions in its own words, and
-the date you last did the walk-round and the tyre check. On this course's reading, a dated record
-like that is the kind of thing that bears on "no reasonable cause to suspect".
+Add a legal page to your car file, after the wheel page from lesson 19, "Changing a wheel safely". On
+it: which country's law applies to the roads you drive (Great Britain or Northern Ireland; lesson 22,
+"The US: state inspections, emissions tests and tread law", covers the US states), the three
+offences in one line each with their points, section 48's two conditions in its own words, and a
+line pointing to the checks log you started in lesson 10, since, on this course's reading, a dated
+record like that is the kind of thing that bears on "no reasonable cause to suspect".
 
 ## Connections
 
@@ -525,9 +567,8 @@ Lesson 1 taught the Highway Code's two voices, and that the driver, not the test
 car's condition; this lesson traced both to the statute. Lessons 3, 7, 8, 9, 10 and 18 each taught a regulation, and this lesson showed
 which section of the Act each one hangs from. Home Repair and Maintenance lesson 22, "Who may do
 what: reserved work, and the argument about licensing", showed the same shape in building work, with
-separate rules for England, Wales, Scotland and Northern Ireland. Lesson 21, "The MOT
-and Northern Ireland's vehicle test", takes the test itself, and lesson 22, "The US: state
-inspections, emissions tests and tread law", the US.
+separate rules for England, Wales, Scotland and Northern Ireland. Lesson 21 takes the test itself, and
+lesson 22 the US.
 
 ## Go deeper
 
@@ -595,9 +636,9 @@ inspections, emissions tests and tread law", the US.
     updated 27 July 2022. Great Britain. **Read: full text, 26 September 2026.** <!-- SOURCES Part C §4; lesson 20/21 gate closures -->
 18. nidirect, ["Introduction to the Highway Code"](https://www.nidirect.gov.uk/articles/introduction-highway-code),
     Northern Ireland, modified 22 September 2026. **Read: full text, 26 September 2026.** <!-- lesson 01 gate closures; lesson 20/21 gate closures -->
-19. [Road Traffic (Northern Ireland) Order, Articles 54, 56 and 58](https://www.legislation.gov.uk/nisi/1995/2994/article/54)
-    (SI 1995/2994), latest revised text. Northern Ireland. **Read: the three articles in full, 26
-    September 2026.** Nothing else in the Order was read for this lesson. <!-- lesson 20/21 gate closures -->
+19. [Road Traffic (Northern Ireland) Order 1995, Articles 54, 56 and 58](https://www.legislation.gov.uk/nisi/1995/2994/article/54)
+    (SI 1995/2994), latest revised text. Northern Ireland. **Read: the three articles in full, and the
+    Order's introductory text, 26 September 2026.** Nothing else in the Order was read for this lesson. <!-- lesson 20/21 gate closures -->
 20. [Motor Vehicles (Construction and Use) Regulations (Northern Ireland) 1999, regulations 32 and 115](https://www.legislation.gov.uk/nisr/1999/454/regulation/32/made)
     (SR 1999/454), as made; legislation.gov.uk has no revised version. **Read: both regulations as made,
     26 September 2026.** Later amendments were not read. <!-- lesson 20/21 gate closures -->
@@ -608,3 +649,13 @@ inspections, emissions tests and tread law", the US.
     modified 2 August 2023. Northern Ireland. **Read: full text, 26 September 2026.** <!-- lesson 20/21 gate closures -->
 23. nidirect, ["Fixed Penalties for motoring offences"](https://www.nidirect.gov.uk/articles/fixed-penalties-motoring-offences),
     modified 14 May 2026. Northern Ireland. **Read: full text, 26 September 2026.** <!-- lesson 20/21 gate closures -->
+24. [Road Vehicles (Construction and Use) Regulations 1986, introduction](https://www.legislation.gov.uk/uksi/1986/1078/introduction).
+    **Read: the enabling words, on the live page, 26 September 2026.** The provision of the 1988 Act
+    that carries earlier regulations over was not read. <!-- lesson 20 Stage 4 note -->
+25. The Highway Code, ["Annex 6. Vehicle maintenance, safety and security"](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security),
+    updated 29 January 2022. Great Britain. **Read: full text through the GOV.UK content API, 26
+    September 2026.** The line used here is advice, not a MUST rule. <!-- SOURCES Part A §3, Part B §3; lesson 20 Stage 4 note -->
+26. [Road Vehicles (Construction and Use) Regulations 1986, regulation 18](https://www.legislation.gov.uk/uksi/1986/1078/regulation/18)
+    and [regulation 61](https://www.legislation.gov.uk/uksi/1986/1078/regulation/61), as amended.
+    England, Wales and Scotland. **Read: regulation 18(1) and regulation 61(1), on the live pages, 26
+    September 2026.** <!-- SOURCES Part C §3; lesson 20 Stage 4 note -->
