@@ -345,3 +345,25 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   relabel fixes width.
 - **Quiz keys:** 17 1,0,3,0,2 (unchanged by the fix); the new items were rebalanced after `npm run
   quiz` found the key the shortest option in four of five.
+
+## 2026-09-26 — Lesson 19 fix pass: notes for later lessons
+
+- **A missing chock ends a wheel change** unless there's a rock or block to use (Honda "a wheel block
+  or rock"; Mazda rocks or wood blocks "of sufficient size"). Every handbook read chocks before the car
+  is raised. No lesson, script or test item treats the chock as the one step that can be skipped.
+- **"Engine off" before a jack means the handbook's off state.** Hybrid, electric and stop-start cars
+  can be silent and still on; READY isn't off. Point to lesson 14; Nissan UK's READY line is 404 and
+  not used.
+- **The road condition is "not on a motorway or other fast road"** (from lesson 18's F2), never "not on
+  a motorway" alone. On a GB fast road the callout's steps apply, so on this course's reading no wheel
+  change there, lay-by or not.
+- **The makers set jacking height differently:** Toyota "slightly raised off the ground", Honda "off the
+  ground", Mazda "high enough so that the spare tyre can be installed". Attribute each; a Mazda case
+  raises by Mazda's rule.
+- **Honda puts the spare under the body before loosening** (no reason given). No lesson supplies one,
+  and step 12 still holds when it comes out.
+- **Green Flag's "won't budge" line is about a wheel on a raised car,** not a stuck nut. A stuck nut or
+  a missing locking-nut key is Call someone on the course's own reading.
+- **The 1998 jack note counts people hurt, not jobs done,** so it can't rank jobs by risk. Scripts and
+  the test say so.
+- **Quiz keys:** 19 3,1,0,2,0 (unchanged by the fix).
