@@ -49,7 +49,8 @@ quiz:
       reading", and AAA, whose clubs sell roadside assistance, says a warm tyre can read "up to 5 psi higher" than the cold figure. Letting
       it down to 2.4 bar warm could leave it under the handbook's figure once it cools. Warm tyres
       read higher, not lower, so adding air gets it backwards. And a TPMS, where a car has one, isn't a
-      gauge: the US standard, for one, only requires the light at 25 per cent under, so it says
+      gauge: the US standard, for one, only requires the light at 25 per cent under on standard-load
+      tyres, so it says
       nothing about a tyre that is close to right.
   - q: >-
       The last four digits of the code on a tyre's sidewall are 1719. Using the US federal rule on
@@ -118,8 +119,8 @@ quiz:
       a tyre's age, and NHTSA says ageing can't be seen by looking at the tyre.
 ---
 
-A tyre on a US car can lose a quarter of its air before the car's warning light is required to say
-so, and you probably won't see it. NHTSA, the US federal road safety regulator, says "Underinflated tires are
+A tyre on a US car can fall a quarter below the carmaker's pressure before the car's warning light
+is required to say so, and you probably won't see it. NHTSA, the US federal road safety regulator, says "Underinflated tires are
 visually difficult to detect", and it counted 511 people killed in tyre-related crashes in the US
 in 2024. It also says "only 19 percent of consumers properly inflate their tires".[1] Pressure is
 the check you'll make most often, and the usual ways it goes wrong are the wrong number, warm tyres,
@@ -200,8 +201,8 @@ why, the load link is the reason.
 
 ## Cold, with a gauge
 
-"Cold" has a definition. NHTSA: check "at least once a month when the tires are 'cold,' meaning
-that the car hasn't been driven for at least three hours."[1] Annex 6 gives the reason not to check
+"Cold" has a definition. NHTSA says to check at least once a month, when the tyres are cold,
+"meaning that the car hasn't been driven for at least three hours."[1] Annex 6 gives the reason not to check
 straight after a drive: "Warm or hot tyres may give a misleading reading."[7] AAA, whose clubs sell roadside assistance, puts a size on it:
 checking warm tyres "can result in a pressure reading of up to 5 psi higher than the recommended
 pressure."[11] Five psi is about a third of a bar (0.34 bar), on this course's conversion.
@@ -308,7 +309,8 @@ Table 1 of this standard for the corresponding type of tire, whichever is higher
 passenger tyre ("P-metric" in the table), 23 psi for an extra-load one, and 29 or 35 psi for
 light-truck tyres of load range C, D or E. On standard-load tyres the 25 per cent point is the higher
 one whenever the placard figure is above about 26.7 psi (this course's arithmetic), and every
-example below assumes those tyres; on light-truck tyres the floor can be the figure that counts.[2]
+example below assumes those tyres; on extra-load and light-truck tyres the floor can be the figure
+that counts.[2]
 The standard defines the system as one that warns when a tyre
 "is significantly under-inflated", and it does not say why a quarter was chosen as the line. This
 course read no source that does.
@@ -390,13 +392,13 @@ malfunction may show itself, not a low tyre. So the tyres are fine today, the sy
 them, and the fix is the dealer's inspection. Having the system repaired is **Call someone**;
 checking the tyres by hand until then is **Yours**.
 
-:::checkpoint A US car's placard says 35 psi. On a frosty morning its TPMS symbol comes on for the first two miles and then goes out. The driver says: "It went out, so the tyres are fine." Using NHTSA and FMVSS 138, what do you tell her, and what's the lowest the car's warning point can be?
+:::checkpoint A US car on standard-load tyres has a placard figure of 35 psi. On a frosty morning its TPMS symbol comes on for the first two miles and then goes out. The driver says: "It went out, so the tyres are fine." Using NHTSA and FMVSS 138, what do you tell her, and what's the lowest the car's warning point can be?
 
 That the light going out does not mean the tyres are fine. NHTSA's likely explanation of the
 cold-morning light is a pressure that "dips below the warning threshold overnight" and rises again as
 the tyres warm. The standard does not say where a maker sets that threshold, only the latest point:
 for a 35 psi placard on standard-load tyres, 26.25 psi, 25 per cent under (this course's arithmetic;
-the table minimum of 20 psi is lower). So at least one tyre was below the car's threshold, which can
+the table minimum of 20 psi is lower). So, on that likely explanation, at least one tyre was below the car's threshold, which can
 be no lower than 26.25 psi, and the light alone does not say by how much. Check all four cold with a
 gauge and bring them up to 35.
 :::
@@ -408,7 +410,7 @@ date for UK fitment could not be checked against a regulation, so it isn't given
 the MOT, Great Britain's periodic test. DVSA's inspection manual checks the system on "M1 vehicles
 first used on or after 1 January 2012", and M1 is the manual's category for passenger vehicles with
 "no more than 8 passenger seats in addition to the driver's seat", which takes in ordinary cars,[17] and a system "malfunctioning
-or obviously not working" is a Major defect, which fails the test.[9] The manual warns testers that a
+or obviously not working" is a Major defect, which fails the test.[9][17] The manual warns testers that a
 lit lamp "does not automatically mean the system has a malfunction", since it stays on after a real
 pressure loss, and that "In the event of a system malfunction, the lamp may flash a number of times
 and then remain on", the same pattern NHTSA describes for US cars.[9] Northern Ireland's test was
@@ -517,8 +519,8 @@ with them.
 
 ## What people get wrong
 
-**"The light will tell me when a tyre needs air."** In the US it's required only at 25 per cent under,
-within 20 minutes, and the law's own manual text says it "is not a substitute for proper tire
+**"The light will tell me when a tyre needs air."** In the US it's required only at 25 per cent under
+on standard-load tyres (at a higher floor on some others), within 20 minutes, and the law's own manual text says it "is not a substitute for proper tire
 maintenance".[2] This course read no UK rule that sets a trigger at all.
 
 **"I'd see a soft tyre."** NHTSA: "Underinflated tires are visually difficult to detect."[1] A
@@ -545,7 +547,7 @@ Take 15 minutes over these, one morning. You need a tyre pressure gauge, the han
 1. **Find the figure.** Copy the cold pressures for front, rear and spare from the placard, the fuel flap or the handbook, with where you found them. If the handbook gives figures for different tyre sizes or loads, copy those too, and read the size off one of your tyres to pick the row.
 2. **Check cold, and compare.** Check each tyre and the spare with your gauge. Write down each reading, the time and how long the car had stood, and each tyre's difference from the figure in psi and as a percentage.
 3. **Date the tyres and look at the wear.** Find the last four digits of the DOT code on each tyre, looking on both sides if you need to, and write down the week and year (or "not found on the outer side"). Then look across each tread, without touching anything hot or sharp, and note whether it's worn more in the centre, on both edges, on one edge, or evenly.
-4. **Work out the trigger.** Multiply your front placard figure by 0.75. On standard-load passenger tyres that's the pressure at or below which a US TPMS light is required within 20 minutes; FMVSS 138's Table 1 sets a higher floor for extra-load and light-truck tyres (23, 29 or 35 psi), and the higher figure applies. On a car built for another market, it's the US rule applied to your number, as a comparison. Write it next to your cold reading.
+4. **Work out the trigger.** Multiply your front placard figure by 0.75. On standard-load passenger tyres that's the pressure at or below which a US TPMS light is required within 20 minutes; FMVSS 138's Table 1 also sets a floor (20 psi on standard-load tyres; 23, 29 or 35 psi on extra-load and light-truck ones), and whichever is higher applies. On a car built for another market, it's the US rule applied to your number, as a comparison. Write it next to your cold reading.
 5. **Adjust, then record.** If a tyre is low, write down how much. Add the air the next time you're at an air line anyway, not as part of this exercise (on warm tyres, fill to the cold figure and check again cold another day, as NHTSA says). If the car isn't yours, write the readings down for its keeper instead.
 :::
 

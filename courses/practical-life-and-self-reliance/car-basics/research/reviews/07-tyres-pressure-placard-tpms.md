@@ -100,3 +100,53 @@ noted in SOURCES). `npm run quiz` exits 1 on GAMEABLE quizzes in other courses; 
 
 **Status after review:** needs second pass (R1 and R2 were wrong claims: a fact-check re-read of the
 TPMS passages, the chart, quiz 1 and the law paragraph before publish).
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context second-pass reviewer. Re-read live with curl (browser User-Agent, no
+personal data): FMVSS 138 S4.2, S4.3.3, S4.5, S7 and Table 1 via the eCFR renderer; FMVSS 110, 139,
+49 CFR 574.5 and 575.104; Annex 6, the Highway Code Introduction, C&U reg 27, RTA s.41A; the MOT manual
+section 5 and Introduction (updated 1 June 2026); AAA Exchange; the AA (updated 10 July 2025);
+TyreSafe; NHTSA "Tires" from capture 20260924154655. Every quoted string in the lesson matched its
+primary.
+
+**Arithmetic, redone by hand:** 38 x 0.75 = 28.5; 33 x 0.75 = 24.75 (1.71 bar); 35 x 0.75 = 26.25;
+30, 36, 40 give 22.5, 27, 30; 20 / 0.75 = 26.67, so "about 26.7 psi" holds; 4/33 = 12.1%; 5 psi =
+0.345 bar; 32 psi = 2.21 bar; 2.4 to 2.6 bar = 2.9 psi, inside AAA's 5. Chart at 7 px/psi: every bar
+and gold segment matches its value to the pixel.
+
+**Findings, each fixed with one edit:**
+- S1 Quiz 2's explanation and the "light will tell me" misconception gave "25 per cent under" without
+  the standard-load scope (the course convention; on light-truck tyres the floor is higher, so "only at
+  25 per cent" was false for them). Both now scoped.
+- S2 The 35 psi checkpoint's stem did not say standard-load (the answer did); stem now does. Its "So at
+  least one tyre was below the car's threshold" dropped NHTSA's "likely"; now "on that likely
+  explanation".
+- S3 Exercise step 4 said Table 1 "sets a higher floor for extra-load and light-truck tyres", which
+  hides the 20 psi standard-load floor; now lists all floors and "whichever is higher applies".
+- S4 Body line on Table 1: "on light-truck tyres the floor can be the figure that counts" omitted
+  extra-load (23 psi beats 0.75 x placard below about 30.7 psi); now "extra-load and light-truck".
+- S5 Opening: "lose a quarter of its air" (gauge pressure is not air content); now "fall a quarter
+  below the carmaker's pressure".
+- S6 "a Major defect, which fails the test" cited [9] only; the fail rule is the Introduction's, so
+  [9][17].
+- S7 R14's single-quote line reworked so the quote check passes: NHTSA's "cold" is now outside the
+  quotation ("says to check at least once a month, when the tyres are cold, "meaning that...""). Not
+  acceptable as it stood: a quotation should match its source, and the check should pass rather than
+  carry an explained miss.
+
+**Checked and passing:** S4.2 quoted exactly; phase-in dates (S7.1, S7.3); Table 1 floors 20/23/29/35/35;
+law section and quiz 4 follow the course-wide rule (Code's statement of the law beside reg 27(1)(b)'s
+words; Annex 6 cites "CUR reg 27" after its tyre block); s.41A's words; no US rule applied to a UK car
+(quiz 2 and step 4 label the US rule as US/comparison); AAA's steps 1 to 4; the AA's "every 2 weeks";
+the MOT Introduction's M1 and minor-defect lines; every other first-pass fix in place; each quiz
+explanation matches its options; keys 0,3,2,0,1,0 pass the relaxed rule and the any-offset shift rule
+against 01 to 06 on disk; option lengths 80 to 93, spread 2 to 5 per item; callout byte-exact; no em
+dashes or spaced en dashes; `npm run minutes` 90; `npm run quotes car-basics` no miss for this lesson;
+`npm run validate` exit 0.
+
+**Noted, not changed:** "light-truck tyres of load range C, D or E" is SOURCES' gloss; Table 1 says only
+"Load Range C/D/E". Quiz 5's "a bulb check lights the symbol briefly": S4.3.3 requires the lamp check
+at switch-on but gives no duration; the MOT manual's "illuminate and go off again" supports it loosely.
+Both harmless.
+
+**Verdict:** CLEAN
