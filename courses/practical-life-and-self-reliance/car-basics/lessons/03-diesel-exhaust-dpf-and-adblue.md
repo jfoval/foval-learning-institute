@@ -29,7 +29,7 @@ quiz:
     explain: >-
       Both organisations give about ten minutes above 40 mph to clear the light, and that means a
       road where 40 mph is legal and safe; neither suggests breaking a limit. The handbook allows a
-      steady run, so the run is the owner's to arrange. A full tank removes the low-fuel problem but
+      steady run, so the run is the owner's to arrange. Three quarters of a tank rules out the low-fuel problem but
       doesn't clear the filter, and more slow, stop-start driving is what the AA says leads to
       restricted performance mode. A forced regeneration is for a filter that driving no longer
       clears.
@@ -308,7 +308,8 @@ sizes varying, "you could need to refill somewhere between 3,000 and 12,000 mile
 AA's general figures. Your handbook gives your tank's size, and the countdown gives your car's
 reading.
 
-Topping up is one of the owner's jobs, **Yours, on conditions.** The AA says "You can refill the
+Topping up is **Yours, on conditions**: from a sealed container, into the AdBlue tank only, as your
+handbook describes. The AA says "You can refill the
 Adblue tank yourself", and its conditions are the ones to keep: "Follow any instructions given in
 your handbook or on the pack", and the fluid is "non-toxic but can cause irritation to your skin and
 eyes and may damage the paintwork", so wash your hands and rinse off spills. If it has run out
@@ -356,9 +357,11 @@ Now sort six dashboards:
 2. Fill up first, since a tank under about a quarter prevents active regeneration (the AA). Then as
    in the first case.
 3. A garage (the RAC; the AA). **Call someone.**
-4. Top up soon, from the handbook or the pack's instructions (the AA). **Yours, on conditions.**
+4. Top up soon, from a sealed container into the AdBlue tank only, following the handbook or the
+   pack's instructions (the AA). **Yours, on conditions.**
 5. It won't restart until it's refilled (the AA). Refill it before trying to start it: the AA says 5
-   litres should be enough to restart, and the handbook gives the tank's size. If you can't,
+   litres should be enough to restart, and the handbook gives the tank's size. **Yours, on
+   conditions.** If you can't,
    **Call someone.**
 6. The AA says a fault in the filter or its sensor can do that. The handbook for what each light
    means for your car, then a garage. **Call someone.** Lesson 11 covers the engine management
@@ -395,7 +398,7 @@ not the proposal itself.
 |---|---|---|
 | What it is called | AdBlue, a trade name | DEF, diesel exhaust fluid |
 | The warning | A text warning at around 1,500 miles left, usually with a countdown | A warning light, which EPA requires the system to give |
-| When it runs out | Power reduced; won't restart once stopped | Speed cut to 5 mph within four hours, before EPA's 2025 guidance; for light-duty cars and heavy pickups, a 45 mph step under it, if the maker has updated the software; a July 2026 proposal would replace derates on new vehicles with warnings |
+| When it runs out | Power reduced; won't restart once stopped | Speed cut to 5 mph within four hours on vehicles whose software hasn't been changed; for light-duty cars and heavy pickups, a 45 mph step under EPA's 2025 guidance, if the maker has updated the software; a July 2026 proposal would replace derates on new vehicles with warnings |
 
 A pickup owner near Laredo sees a DEF countdown on the dashboard. What does this lesson let him do
 with it? Not much by itself, and that is the honest answer. What happens at zero on his truck depends

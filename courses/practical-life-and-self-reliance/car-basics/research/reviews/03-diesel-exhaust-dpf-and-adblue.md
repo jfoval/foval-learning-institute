@@ -120,3 +120,54 @@ this file.
 
 **Status after review:** needs second pass (R1 was a wrong fact: a fact-check re-read of the US
 section and the law section before publish).
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, fact-check re-read of the fixed lesson. Primaries re-read live
+with curl (no personal data): EPA's proposed-rule page ("Last updated on August 31, 2026", docket
+EPA-HQ-OAR-2026-0728), EPA's DEF page ("Last updated on July 9, 2026"), EPA-420-F-25-011 (pdftotext
+-layout, the "HD Pickups and Light Duty Cars" row: Final "4,200 miles / 80 hours", "45 mph"; Before
+"4 hours", "5 mph"), the AA's "What is AdBlue?" (05 January 2017, updated 11 July 2024), C&U reg 61A
+(E+W+S, whole regulation), fueleconomy.gov "Diesel Vehicles".
+
+**Checked and sound.**
+- US section: every EPA string matches. The proposal is called a proposal and "not a rule"; the 2022
+  rule is scoped to heavy-duty from MY2027 as the DEF page has it; the fact-sheet guidance is called
+  guidance and voluntary, with EPA's "cannot mandate field fixes" line. Quiz 5 keeps guidance
+  non-binding. Nothing presents a proposal or guidance as binding.
+- Wrong tank: body, quiz 2 and its explanation match the live AA headings (AdBlue in the fuel tank:
+  "don't touch the ignition", drain before refilling; diesel in the AdBlue tank: "Don't turn on the
+  ignition or start the engine and call us for help"). The "whichever tank" line is labelled as the
+  course's summary.
+- GB 61A: (1), (3) and (3)(a) quoted accurately (the (3) quote stops before "by virtue of any
+  Community Directive", which changes nothing); the reading that 61A makes use the offence, and says
+  nothing of the cutting, is labelled "this course's reading". The delete-kit reading of 7522(a)(3)(B)
+  is labelled. DVSA's "almost invariably" and "potential penalties" kept.
+- The six cases now sit in plain body text before the checkpoint; answers numbered to match and
+  consistent with the sources.
+- New quiz item 1 (delivery van): not a replay of the Ripon example; key right on both organisations'
+  advice; option spread 2 characters.
+- First-pass fixes R2 to R24 all present and correct against the live pages (fueleconomy.gov's full
+  sentence re-read; AA "(usually) blue", trade-name and which-cars lines re-read).
+- Quiz keys 1,3,0,2,0,3 pass the relaxed rule by script against 01, 02 and 04 (0,2,3,0,1), value
+  shifts and runs of four at offsets 0 and ±1 included. Option spreads 2 to 8; key never sole longest.
+- No em dashes or en dashes anywhere in the file.
+
+**Fixed inline (one edit each).**
+1. The AdBlue top-up label lacked the conditions the 2026-09-26 convention in the briefs sets: now
+   "Topping up is **Yours, on conditions**: from a sealed container, into the AdBlue tank only, as your
+   handbook describes." Checkpoint case 4 given the same conditions; case 5's refill labelled **Yours,
+   on conditions** before its "If you can't, **Call someone**."
+2. Table cell: "Speed cut to 5 mph within four hours, before EPA's 2025 guidance" put the 5 mph derate in
+   the past, the error R18 fixed in the body; now "on vehicles whose software hasn't been changed", and
+   "a 45 mph step under EPA's 2025 guidance" replaces the dangling "under it".
+3. Quiz 1 explanation said "A full tank" of a tank at three quarters; now "Three quarters of a tank rules
+   out the low-fuel problem".
+
+**Not fixed, for the record (not defects).** The DEF page is dated 9 July 2026, before the proposal's
+publication; the sentence at "What happens next" cites [7] for the 2022 rule and [12] for the proposal,
+which reads correctly.
+
+**Measures:** `minutes: 80` (measured 80); `npm run quotes car-basics`: no misses for this file;
+`npm run validate`: exit 0, nothing naming this file.
+
+**Verdict: CLEAN.**
