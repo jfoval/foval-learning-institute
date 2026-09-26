@@ -270,3 +270,27 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Places now used by lesson 14:** Bedfordshire, Caithness, Dorset and Iowa (quiz), the Isle of
   Wight and the American Southwest (body).
 - **Quiz keys:** lesson 14 unchanged at 2,1,0,3,2; lesson 16's fixer changes its own.
+
+## 2026-09-26 — Lesson 13 fix pass: notes for later lessons
+
+- **Methylene chloride is not "banned".** EPA's rule page says supply is prohibited (manufacture,
+  processing, distribution, retailers included: for consumer paint and coating removal from November
+  2019, all consumer uses from the April 2024 rule), and for a tin a householder already has it says
+  only that EPA "is encouraging all consumers to stop using". EPA's VOC page still says to use such
+  products outdoors when possible. Any later lesson (19, 20) that mentions it states both, and says
+  nothing about what the law allows a householder to do with an old tin.
+- **OSHA's "disconnect" is the plug**, on the booklet's own "disconnect it from the receptacle" line.
+  OSHA 3080 never mentions batteries; taking out a cordless tool's battery is the course's reading,
+  labelled, with the tool's manual first.
+- **HSE's outdoor caveat travels with its enclosed-space line.** Where a lesson quotes CIS36's "the
+  more enclosed a space, the more the dust will build up", it also gives "do not assume that dust
+  levels will be low when working outside with high-energy tools", and never offers a shut room as
+  the answer.
+- **FFP3, not FFP2, for construction and wood dust.** HSE's sheets set a factor of 20; FFP2 is 10.
+  OUTLINE's lesson 13 objective was corrected with a dated note.
+- **LFB's battery advice is written for devices.** Applying it to tool packs is the course's reading,
+  in quiz stems too; keep "certified technician".
+- **Places now used by lesson 13:** Ceredigion, Stirlingshire (replacing Moray), Hawaii, Shetland
+  (quiz); Denbighshire and New Mexico (body).
+- **Quiz keys:** lesson 13 now 3,1,2,1,0,2, checked against every lesson on disk and lesson 12's keys
+  both before and after its own fix.

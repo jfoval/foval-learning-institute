@@ -1377,9 +1377,12 @@ batteries; lesson 14 below takes the before-you-drill routine. See lesson 9's no
 renumbering.*
 
 - **Objectives:** explain how misuse turns an ordinary hand tool into an injury, using OSHA's examples,
-  and apply its power-tool precautions; choose respiratory protection for dust (FFP2 or FFP3; N95) and
-  explain why it fails against vapour and with a beard; charge and store lithium-ion packs by the fire
-  service's advice.
+  and apply its power-tool precautions; choose respiratory protection for dust (FFP3 in the UK, where HSE's
+  construction and wood dust sheets set a factor of 20; a NIOSH-approved respirator such as an N95 in
+  the US) and explain why it fails against vapour and with a beard; charge and store lithium-ion packs
+  by the fire service's advice. *(Stage 4 note, 2026-09-26: this read "FFP2 or FFP3; N95" until
+  lesson 13's review. HSE's dust masks page puts FFP2 at a factor of 10, below the factor of 20 that
+  CIS36 and WIS23 set for construction and wood dust, so FFP2 was dropped from the objective.)*
 - **Core ideas:** the reason to care: the tool injures when it's used for the wrong job or in the wrong
   state, and the dust injures years later. **The kit** is defined by the jobs this course teaches, not
   by a shopping list (decision 10): each item is tied to a lesson (a radiator key to lesson 7, a spanner
@@ -1529,6 +1532,13 @@ under the 70 to 95 this file planned.*
 - **Connects:** lesson 15; lesson 12 (smoke alarms). Leads to lesson 20 (ceilings).
 - **Spaced review of:** lesson 15's set-up rules.
 - **Neutrality:** none contested; the figures with what each counts (decision 11).
+- **2026-09-26, Stage 4:** Socias's "43% of fatal falls in the last decade have involved a ladder" is
+  cut from the lesson and is not to be used in lesson 16's podcast script or any later lesson. Read as
+  the sentence reads (all US fatal falls; its source, Rockett 2012, was not read), it can't be squared
+  with the ladder death counts the course holds, which run to hundreds a year. SOURCES "Stage 4 note,
+  lesson 16 (2026-09-26)" has the reasoning. The misconception "only high falls are dangerous" is
+  taught as "a fall from stepladder height can't do much harm", with Socias's counts read as counts,
+  not risk.
 
 ### 17. Keeping water out: roof, gutters, ground and walls (~75 min)
 

@@ -5574,3 +5574,72 @@ No correction to earlier entries; D8 already carries EPA's "Generally,", which l
 - WIS23: [V] "When cleaning up, use vacuum equipment that meets at least the dust class M (medium hazard)"; [V] "Do not use compressed airlines or dry sweeping". Written for wood dust at work; applying it to plaster and brick dust is the course's reading.
 - HSE silica: [V] "bricks, tiles, concrete and mortar". HSE dust masks: [V] "You should carry out a pre-use check every time you put on your respirator."
 - **Struck gas pipe:** only National Gas (GB) was read on a struck pipe. For Northern Ireland and the US no page on a pipe hit inside a house was read; lesson 14 labels following lesson 9's steps as the course's reading, and quotes SoCalGas's [V] "DO NOT attempt to control the leak or repair a damaged pipe or meter." (Part A §4).
+
+## Stage 4 note, lesson 13 (2026-09-26)
+
+Re-read live on 2026-09-26 by lesson 13's Stage 4 reviewer (curl with a browser User-Agent, then
+pdftotext or pandoc; NIOSH's page from Internet Archive capture 20260923185140, the live page returning
+403), and the key strings checked again by the fixer against the same extracts. Recorded so lesson 13's
+new quotations have a [V] entry, and so later lessons state the methylene chloride rules precisely.
+
+- **EPA, "Risk Management for Methylene Chloride"** (last updated 6 March 2026): [V] "In March 2019, EPA issued a final rule to prohibit the manufacture (including import), processing, and distribution of methylene chloride for consumer paint and coating removal."; [V] "because of the acute fatalities that have resulted from exposure to the chemical in consumer paint and coating removal"; [V] "After November 22, 2019, all persons are prohibited from manufacturing (including importing), processing, and distributing in commerce, including distribution to and by retailers, methylene chloride for consumer paint and coating removal."; [V] "EPA is encouraging all consumers to stop using methylene chloride products that they may have already purchased for paint and coating removal."; [V] "Please consult your state and local government solid waste agencies to obtain proper disposal instructions for leftover or unused paint and coating removal products."; [V] "Prohibits manufacturing, processing and distribution of methylene chloride for all consumer uses."; [V] "Consumer paint and coating removal was prohibited in 2019."; [V] "In April 2024, EPA finalized prohibitions and workplace protections under the Toxic Substances Control Act (TSCA)". **Nothing on the page addresses a consumer's use of a tin already owned beyond "encouraging ... to stop using".** So the rules, as EPA summarises them, prohibit supply (manufacture, processing, distribution), not use: never write that methylene chloride is "banned" or that using an old tin is prohibited.
+- **EPA, "Volatile Organic Compounds' Impact on Indoor Air Quality"** (last updated 23 June 2026): [V] "Concentrations of many VOCs are consistently higher indoors (up to ten times higher) than outdoors."; [V] "During and for several hours immediately after certain activities, such as paint stripping, levels may be 1,000 times background outdoor levels."; [V] "Health effects may include:" (the list includes eye, nose and throat irritation, and [V] "Headaches, loss of coordination and nausea"; EPA doesn't call these short-term); [V] "go outdoors or in areas equipped with an exhaust fan to use it. Otherwise, open up windows to provide the maximum amount of outdoor air possible."; [V] "Use products that contain methylene chloride outdoors when possible; use indoors only if the area is well ventilated." The two EPA pages still differ on use.
+- **OSHA 3080** (2002 Revised): [V] "This booklet is designed to present to employees and employers a summary of the basic safety procedures"; [V] "Never yank the cord or the hose to disconnect it from the receptacle."; [V] "Disconnect tools when not using them, before servicing and cleaning them, and when changing accessories such as blades, bits, and cutters." The booklet does not define "disconnect" and **does not mention batteries anywhere**: taking out a cordless tool's battery is the course's reading, labelled as such.
+- **HSE CIS36** (Revision 3): [V] "the more enclosed a space, the more the dust will build up. However, do not assume that dust levels will be low when working outside with high-energy tools" (quote both halves; the lesson splits around the source's sentence break); [V] "enclosing the work to stop dust escaping. Use sheeting or temporary screens"; [V] "general mechanical ventilation to remove dusty air from the work area (eg in enclosed spaces such as indoors)"; [V] "The general level for construction dust is an APF of 20. This means the wearer only breathes one twentieth of the amount of dust in the air"; [V] "(ie H (High) M (Medium) or L (Low) Class filter unit)", and Table 1's rows ask for [V] "an H or M Class extraction unit"; Table 2, for longer-duration work, [V] "Powered RPE such as a TH2 powered hood/helmet". RPE is respiratory protective equipment.
+- **HSE WIS23** (Revision 3): [V] "an assigned protection factor (APF) of at least 20"; [V] "facial hair tight-fitting respirators are not appropriate as the hair can prevent the respirator sealing to the face, so a hood/helmet should be considered".
+- **HSE, "All you need to know about disposable dust masks"**: [V] "At present this is also the only way of meeting legal requirements." (of fit testing). FFP2's factor is 10, below the factor of 20 CIS36 and WIS23 set for construction and wood dust, so the course offers FFP3 for those jobs (OUTLINE's lesson 13 objective corrected the same day).
+- **NIOSH FFR CEL page** (capture 20260923185140): besides the donning instructions, it links an infographic that [V] "Explains donning and doffing your FFR, the user seal check and gives tips for a good fit". Not read.
+- **29 CFR 1926.1153**, Table 1 row (ii), handheld power saws, any blade diameter: [V] "Use saw equipped with integrated water delivery system that continuously feeds water to the blade"; [V] "Operate and maintain tool in accordance with manufacturer's instructions to minimize dust emissions"; indoors or in an enclosed area, APF 10 at any duration. (f): [V] "The employer shall not allow dry sweeping or dry brushing where such activity could contribute to employee exposure", with exceptions where wet sweeping, HEPA-filtered vacuuming or other methods are not feasible.
+- **LFB, "Batteries and chargers"**: [V] "Contact the manufacturer or certified technician" (keep "certified"). LFB's "Turn off the device" is written for devices; applying it to a detached tool pack is the course's reading.
+
+## Stage 4 note, lesson 16 (2026-09-26)
+
+Re-read live on 26 September 2026 with curl (browser User-Agent, no personal data in any header)
+and pdftotext, by the Tier A reviewer and, for the Socias capture, the two CPSC PDFs, the D'Souza
+abstract, LA455, the QuickCard and the Scottish page, by the fixer the same day. Each [V]
+string-matched in the extracted text.
+
+- **Socias 2014, "43% of fatal falls"** (capture 20260907020506). [V] "Falls remain a leading cause
+  of unintentional injury mortality nationwide, and 43% of fatal falls in the last decade have
+  involved a ladder (1)." Reference 1 is Rockett and colleagues, "Leading causes of unintentional
+  and intentional injury mortality: United States, 2000–2009" (not read). Read as the sentence reads
+  (all US fatal falls), the figure can't be squared with the ladder death counts this file holds
+  (NIOSH's 113 work deaths in 2011; CPSC's 79 as "half" of ladder and step stool deaths in 2000),
+  which run to hundreds a year. **Not used in any lesson**; lesson 16 cut it at Stage 4 (OUTLINE
+  lesson 16, note of this date).
+- **Socias, scope of the fall-height finding.** [V] "Fall height was documented for 82 of 113
+  fatalities and an estimated 11,400 of 34,000 nonfatal ED-treated LFIs" (about a third, the
+  course's arithmetic). Limitations: [V] "A preferable denominator to understand LFI risk would be
+  workers who used ladders in 2011". Counts of injured workers are not a risk per use.
+- **D'Souza 2007 abstract** (PubMed 17478268): [V] "cases of nonfatal ladder-related injuries
+  treated in U.S. emergency departments (EDs) from 1990 through 2005 were selected using NEISS ladder
+  product codes". The codes are not listed, so whether step stools were in or out is not known from
+  the abstract. [V] "ladder product codes".
+- **CPSC, hazard screening report, 65 and over** (hazard_older.pdf): the category is [V] "Ladders
+  and step stools" (NEISS codes 618, 620, 688, 711, 4032, 4033). Its "half (79) of all ladder deaths",
+  the 16% and the 39% are for ladders and step stools together.
+- **CPSC 2020 estimates**: injuries [V] "related to, but not necessarily caused by, a consumer
+  product". Methods: NEISS [V] "cannot estimate the number of product-related injuries that are
+  treated outside hospital EDs in facilities, such as doctors’ offices and medical clinics"; the
+  Injury Cost Model [V] "can estimate the proportion of medically attended injuries treated in places
+  other than an ED". So "medically attended" adds treatment outside emergency departments.
+- **LA455** (Ver 1 Rev 1 09/26), section 09, p. 8: [V] "Stepladders should not be used to access
+  another level, unless they have been specifically designed for this." No mention of stairs in
+  LA455 or HSE's ladder pages (reviewer's search).
+- **OSHA QuickCard 3246**: [V] "Do not use the top step/rung of a ladder as a step/rung unless it
+  was designed for that purpose." (Advice; OSHA's rule (b)(13) has no such exception.) Not used.
+- **HSE FAQ**: [V] "nor does it include walking up and down a permanent staircase in a building."
+- **HSE, "Types of ladder and using them safely"**: [V] "Check all four stepladder feet are in
+  contact with the ground and the steps are level". Page 2: [V] "As a guide, if your task would
+  require staying up a leaning ladder or stepladder for more than 30 minutes at a time, it is
+  recommended you use alternative equipment." That shorter spells meet the guide is the course's
+  reading, labelled as such in lessons 15 and 16.
+- **Scottish Government, "Fire and smoke alarms: the law", "Installation of alarms"**
+  (https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/pages/installation-of-alarms/):
+  [V] "Smoke and heat alarms should be fitted as per manufacturer’s guidance." [V] "If you have
+  asbestos in your ceiling, you do not need to disturb this to install interlinked alarms. Instead,
+  you can attach battery operated alarms using a firm adhesive, such as a mounting adhesive glue or
+  sticky pads." [V] "If you have any doubt about asbestos and installing fire alarms in your home,
+  you might want to seek specialist advice before doing so." Landing page, re-read: [V] "Every home
+  in Scotland must have interlinked fire alarms." [V] "All smoke and heat alarms should be attached
+  to the ceiling and be interlinked."

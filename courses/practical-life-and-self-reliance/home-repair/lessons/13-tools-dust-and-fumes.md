@@ -1,13 +1,14 @@
 ---
 title: "Tools, dust and fumes: a small kit used safely"
-minutes: 95
+minutes: 100
 objectives:
   - >-
     Explain how misuse and poor upkeep turn an ordinary hand tool into an injury, using OSHA's
     examples, and apply OSHA's power-tool precautions to a described job
   - >-
-    Choose respiratory protection for a dusty job (FFP2 or FFP3 in the UK, an N95 in the US), and
-    explain why a dust mask does nothing against solvent vapour and fails over a beard
+    Choose respiratory protection for a dusty job (in the UK, an FFP3, where HSE's sheets set a
+    factor of 20; in the US, a NIOSH-approved respirator such as an N95), and explain why a dust
+    mask does nothing against solvent vapour and fails over a beard
   - >-
     Put the controls for a dusty job in HSE's order (less dust, then water or extraction at the
     tool, then a respirator), and say what a solvent job needs instead
@@ -37,25 +38,26 @@ quiz:
       saw is still plugged in on the bench. By OSHA's power-tool precautions, what comes before
       the new blade goes in?
     options:
-      - Unplug the saw, since OSHA says disconnect tools when changing blades, bits and cutters
       - Lock the trigger off, since a locked switch is OSHA's condition for changing a blade
+      - Unplug the saw, since OSHA says disconnect tools when changing blades, bits and cutters
       - Keep a finger clear of the trigger, since OSHA's worry is starting it by accident
       - Let the motor cool for ten minutes, since OSHA's concern is a burn from the blade clamp
-    answer: 0
+    answer: 1
     explain: >-
       OSHA says: "Disconnect tools when not using them, before servicing and cleaning them, and when
-      changing accessories such as blades, bits, and cutters." Disconnect means the plug, not the
-      switch. A trigger lock isn't in OSHA's list as a substitute. Keeping fingers off the switch is
+      changing accessories such as blades, bits, and cutters." In the same list OSHA uses
+      "disconnect" for taking a cord out of the receptacle, so it means the plug, not the switch. A
+      trigger lock isn't in OSHA's list as a substitute. Keeping fingers off the switch is
       OSHA's rule for carrying a plugged-in tool, a different moment. And the booklet gives no
       cooling time for a blade change.
   - q: >-
-      A joiner in Moray with a thick two-week beard puts on a new FFP3 disposable respirator to cut
-      a stack of bricks. The mask is marked correctly and he does HSE's pre-use check. What does
+      A builder in Stirlingshire with a thick two-week beard puts on a new FFP3 disposable
+      respirator to cut a stack of bricks. The mask is marked correctly and he does HSE's pre-use check. What does
       HSE's guidance say about the protection he gets?
     options:
       - Close to the full factor of 20, because FFP3 is the highest of HSE's three FFP grades
       - The full factor, provided the check showed no leak and his glasses stayed clear
-      - Very little, since HSE says a face-fit mask is useless with a beard or thick stubble
+      - None to count on, since HSE says a face-fit mask is useless with a beard or stubble
       - About half the factor, since HSE says a beard halves an FFP3's protection factor
     answer: 2
     explain: >-
@@ -76,21 +78,21 @@ quiz:
     answer: 1
     explain: >-
       NIOSH says an N95 "Filters at least 95% of airborne particles", and that filtering facepiece
-      respirators protect by filtering particles out of the air. A vapour isn't a particle, and
-      HSE's dust mask page and its wood dust sheet both say dust masks give no protection against
-      gases and vapours. EPA's advice for a product whose label says use in a well-ventilated area is to go
+      respirators protect by filtering particles out of the air. A vapour isn't a particle. HSE's dust mask page
+      says FFP masks filter dust only and must not be used against harmful gases and vapours, and
+      its wood dust sheet says they will not provide any protection there. EPA's advice for a product whose label says use in a well-ventilated area is to go
       outdoors or use an exhaust fan, and otherwise open windows. Doubling the mask or fit testing
       it changes nothing about what the filter is for.
   - q: >-
       In a croft house on Shetland, the battery pack of a cordless hedge trimmer has started to bulge
-      at one end since last summer. The charger is the one it came with. On the London Fire
-      Brigade's advice, what's the step?
+      at one end since last summer. The charger is the one it came with. Applying the London Fire
+      Brigade's advice for devices, as this lesson does, what's the step?
     options:
+      - Stop charging, turn it off, keep the casing shut, call the maker or a certified technician
       - Charge it only when someone's in the room, and keep it on a hard surface while it charges
       - Run it flat in the trimmer to use up the charge, then take it to be recycled with the rest
       - Open the casing to check the cells, then refit it if none of them are damaged or leaking
-      - Stop charging, turn it off, don't open the casing, and contact the maker or a technician
-    answer: 3
+    answer: 0
     explain: >-
       LFB's steps for a battery that starts swelling or expanding are "Stop charging immediately",
       "Turn off the device", "Do not remove the casing or tamper with the equipment", and "Contact
@@ -99,23 +101,24 @@ quiz:
       casing is the one thing LFB says in terms not to do. Having the original charger is one of
       LFB's tips, but it doesn't make a swollen battery safe.
   - q: >-
-      As general information: a US neighbour offers you a half-used tin of methylene chloride paint
-      remover from before 2019. What does EPA's page on the chemical say about it?
+      As general information: in a US house you've just moved into, you find a half-used tin of
+      methylene chloride paint remover from before 2019. What does EPA's page on the chemical say?
     options:
-      - Nothing applies to a tin bought before 2019, so it's fine to use as long as it's outdoors
-      - That use is now legal only with an N95 and a fan, under the rule EPA finalised in 2024
-      - Its supply for consumer paint removal was banned in 2019, and EPA asks you to stop using it
-      - The 2024 rule lets householders finish tins bought before the ban, as long as it's outdoors
+      - Tins bought before 2019 are exempt from both rules and safe to finish if used outdoors
+      - Using it is now legal only with an N95 and a fan, under the rule EPA finalised in 2024
+      - Supply for consumer paint removal was prohibited in 2019, and EPA encourages you to stop
+      - The 2024 rule lets householders finish tins bought before 2019, as long as it's outdoors
     answer: 2
     explain: >-
-      EPA's page says the 2019 rule prohibited making and distributing it, retailers included, for
-      consumer paint and coating removal, and that "EPA is
-      encouraging all consumers to stop using methylene chloride products that they may have already
-      purchased for paint and coating removal", sending leftovers to state and local solid waste
-      agencies for disposal instructions. EPA's older indoor air page still says to use such products
-      outdoors where possible, but that page is general and the rule page is the one that deals with
-      the ban. Nothing on the rule page lets householders finish old tins, and no EPA page read here
-      offers an N95 as the answer: a dust mask stops particles, not vapour.
+      EPA's page says the 2019 rule prohibited making, processing and distributing it, retailers
+      included, for consumer paint and coating removal. That's what the rules prohibit, as EPA
+      summarises them. The page doesn't call an old tin exempt or safe, and on a tin a householder
+      already has it says only that "EPA is encouraging all consumers to stop using methylene
+      chloride products that they may have already purchased for paint and coating removal", and to
+      ask state and local solid waste agencies how to dispose of it. EPA's older indoor air page
+      still says to use such products outdoors where possible; the rule page is the one about the
+      rules. No EPA page read here offers an N95 as the answer: a dust mask stops particles, not
+      vapour.
 ---
 
 Most injuries from a small tool kit don't come from the tool being dangerous. They come from the
@@ -130,8 +133,8 @@ This course is education, not a trade qualification, and not legal advice about 
 :::
 
 "Isolate the power before you open anything up" has a tool-sized meaning in this lesson: a power
-tool is unplugged, or its battery taken out, before you change a blade or a bit, as the section on
-power tools sets out. The box stays shut, as it did in lessons 5 and 6, and the two facts that go
+tool is unplugged, or (on this course's reading) its battery taken out, before you change a blade
+or a bit, as the section on power tools sets out. The box stays shut, as it did in lessons 5 and 6, and the two facts that go
 with it still hold. CPSC, the US Consumer Product Safety
 Commission, says panel boxes "are usually electrically live, even with the main circuit breakers
 turned off".[13] And HSE's guidance for people who work on electrical systems does not recommend
@@ -155,10 +158,10 @@ of its own sheet: "Following the guidance is not compulsory, unless specifically
 are free to take other action."[3]
 
 So none of these rules is written for a householder's own DIY, and this course read no rule on
-masks or goggles at home that is.
-The advice is the other half. These are the best-specified practice anyone has written for
-cutting, drilling and sanding, and the dust does not know whether you are being paid. The pattern is
-the one lesson 1 set out, the law allowing more than the advice, and the label follows the advice.
+masks or goggles at home that is. The advice is the other half. These are the best-specified
+practice anyone this course read has written for cutting, drilling and sanding, and the dust does
+not know whether you are being paid. Where the rules this course read say nothing about a
+householder, the label follows the advice.
 Where this lesson says a job is **Yours, on conditions**, the conditions come from these workplace
 sources, applied at home as this course's reading.
 
@@ -177,10 +180,11 @@ course's own.
 | Rubber gloves, a flat-bottomed sink plunger, a bucket, adjustable pliers | WaterSafe's blocked sink, with the trap last | 4 |
 | A radiator key, a cloth, gloves | Worcester Bosch's and Vaillant's bleeding method | 7 |
 | A candy or meat thermometer | CPSC's check of the water at the hot tap | 8 |
-| Eye protection, a dust respirator, ear protection | This lesson, for drilling, cutting and sanding | 11 |
+| A vacuum cleaner | The Home Office's six-monthly vacuuming of smoke alarms, in England | 12 |
+| Eye protection, a dust respirator, ear protection | Poison Control's goggles for a drain cleaner, and this lesson's drilling, cutting and sanding | 4, 13 |
 
 North Seattle College's beginners' home repair course asks each student to bring "eye goggles, a
-respiratory mask, and ear protection".[15] That's one adult-education course's list, not a
+respiratory mask, and ear protection".[15] That is one adult-education course's list, not a
 standard, but it is the same three this lesson adds.
 
 What the list leaves out matters as much. It has no volt stick, because HSE doesn't recommend one
@@ -222,7 +226,7 @@ The booklet then gives five basic rules for hand and power tools alike. Four are
 the manufacturers’ instructions." The fifth is about you: "Provide and use properly the right
 personal protective equipment."[1]
 
-The booklet is a US workplace document, written for employers. That these rules carry over to a
+The booklet is a US workplace document, written for employers and employees. That these rules carry over to a
 kitchen drawer is this course's reading, and it is not a large leap: nothing in the four examples
 depends on who pays for the hammer. Using a sound hand tool for its own job is **Yours**. A tool
 with a cracked handle, sprung jaws or a mushroomed head is out of use until it's repaired or
@@ -246,9 +250,12 @@ rather than a piece of equipment:[1]
 On guards, OSHA is flat: "Safety guards must never be removed when a tool is being used."[1] For a
 powered grinder it adds: "Always use eye or face protection."[1]
 
-"Disconnect" is the plug, or the battery on a cordless tool, not the tool's own switch. That's the
-plain meaning of OSHA's word, and it is the same shape as lesson 6's rule that a plug is opened only
-when it's out of the socket.
+OSHA's booklet doesn't define "disconnect", but a line just above it in the same list uses the word
+for a cord: "Never yank the cord or the hose to disconnect it from the receptacle."[1] So this course
+reads it as the plug, not the tool's own switch. The booklet says nothing about cordless tools; taking
+the battery out is this course's reading of the same rule, and the tool's manual comes first where it
+says more. It is the same shape as lesson 6's rule that a plug is opened only when it's out of the
+socket.
 
 Electrical Safety First (ESF), a UK charity that campaigns on electrical safety, adds three lines
 for a British reader using power tools at home: "Use an RCD or plug-in RCD." "Check leads and plugs
@@ -263,9 +270,10 @@ Using a sound power tool for its own job, by the maker's instructions, with the 
 
 OSHA's booklet says that eye protection is needed with a powered grinder, and that "safety goggles
 and gloves" are the kind of equipment needed against the hazards of hand tools at work.[1] This
-course did not read a standard for eye protection in either country, so it names none. In general
-terms: wear eye protection whenever a tool can throw something (drilling, cutting, grinding,
-chiselling, knocking in masonry nails), and read the marking and the maker's information on the
+course did not read a standard for eye protection in either country, so it names none. This course's
+reading, from OSHA's examples of fragments flying off a struck chisel or a grinder: wear eye
+protection whenever a tool can throw something, which covers drilling, cutting, grinding and
+chiselling. And read the marking and the maker's information on the
 pack to see what it is made for.
 
 For noise, OSHA's booklet says "Noise is another hazard associated with pneumatic tools", and asks
@@ -277,6 +285,8 @@ If something does get into an eye, First Aid and CPR lesson 10, "Burns, cuts and
 covers it: don't rub it, and what to do next in each country. This lesson doesn't reteach it.
 
 ## Dust: why it's slow, and why it matters
+
+This section states law. This is general information, not legal advice.
 
 HSE's construction dust sheet opens: "Construction dust is not just a nuisance; it can seriously
 damage your health and some types can eventually even kill."[3] It names three kinds:[3]
@@ -317,8 +327,9 @@ risk is from fine dust, as you can breathe this deep into your lungs where it wi
 damage."[4]
 
 And on cleaning up: "Do not use compressed airlines or dry sweeping, particularly on clothing, as
-these will just create dust clouds and redistribute the dust."[4] OSHA's silica rule tells employers
-the same about dry sweeping and compressed air on a building site.[8]
+these will just create dust clouds and redistribute the dust."[4] OSHA's silica rule bars employers on
+construction sites from dry sweeping and from cleaning with compressed air where it could add to a
+worker's exposure, with narrow exceptions.[8]
 
 ### What to do about it, in HSE's order
 
@@ -330,11 +341,14 @@ HSE's sheet puts the controls in an order, and the order is the lesson:[3]
 2. **Stop it getting into the air.** Water, "enough water supplied at the right levels for the whole
    time that the work is being done", and HSE adds: "Just wetting the material beforehand does not
    work." Or on-tool extraction, a hood on the tool connected to an extraction unit of the right
-   class, and "Don’t just use a general commercial vacuum."
-3. **Then respiratory protection.** "Remember: RPE is the last line of protection."
+   class, and "Don’t just use a general commercial vacuum." HSE grades these units H (high), M
+   (medium) or L (low) by their filter, and for the jobs in its table it asks for H or M.
+3. **Then respiratory protection**, which HSE calls RPE (respiratory protective equipment).
+   "Remember: RPE is the last line of protection."
 
 HSE also names where you work as a risk factor: "the more enclosed a space, the more the dust will
-build up."[3] A garage with the door down is an enclosed space.
+build up", and it adds: "do not assume that dust levels will be low when working outside with
+high-energy tools".[3] A garage with the door down is an enclosed space.
 
 For a householder drilling a few holes, HSE's table has a row that fits: "Occasional short-duration
 drilling with hand-held rotary power tools". Its controls are equipment that stops dust getting into
@@ -351,6 +365,8 @@ two: less dust first, then extraction at the tool, then a respirator.[3]
 :::
 
 ## Masks: what they stop, and what they don't
+
+This section states law. This is general information, not legal advice.
 
 In the UK, the disposable dust respirators HSE describes are marked to a standard and graded FFP1,
 FFP2 or FFP3. [HSE's page on dust masks](https://www.hse.gov.uk/agriculture/dustmasks.htm): "FFP1, FFP2 and FFP3 respirators can reduce the amount of dust you breathe by
@@ -400,32 +416,34 @@ None. HSE: "FFP1, FFP2 and FFP3 are designed to filter out dust only. They must 
 there is an oxygen-deficient atmosphere or harmful gases and vapours."[2] Its wood dust sheet says
 dust respirators are not suitable "against gases or vapours (eg from paint spraying) as they will not
 provide any protection."[4] NIOSH describes filtering facepiece respirators as protecting "by
-filtering particles out of the air".[9] A vapour isn't a particle. The mask's grade measures dust; it
+filtering particles out of the air".[9] A vapour is not a particle. The mask's grade measures dust; it
 says nothing about fumes.
 :::
 
 ### The check you do every time
 
-HSE says a proper fit test is the only way to know the seal is good enough, and that it is the only
-way of meeting the legal requirements at work.[2] At home, the check you can do is HSE's pre-use
+HSE says a proper fit test is the only way to know the seal is good enough, and that, at present,
+it is also the only way of meeting the legal requirements (the page is written for people at
+work).[2] At home, the check you can do is HSE's pre-use
 check, for a disposable respirator of the kind it describes: "You should carry out a pre-use check
 every time you put on your respirator." Fit it by the maker's instructions, with the straps and the
 nose strip adjusted, "then hold the mask in place and breathe in or out sharply. You should readjust
 the respirator if you detect any leakage around your face or your glasses steam up when you breathe
-out."[2] NIOSH's version for filtering facepieces is the maker's donning instructions in or on the
-packaging.[9] Wearing a marked, well-fitted respirator is **Yours**, and the pre-use check is part of
+out."[2] NIOSH points to the donning instructions in or on the respirator's packaging; it also links a
+wearing guide that covers a user seal check, which this course didn't read.[9] Wearing a marked, well-fitted respirator is **Yours**, and the pre-use check is part of
 wearing it.
 
-## Fumes: solvents, strippers and the one chemical that was banned
+## Fumes: solvents, strippers and the stripper the US stopped selling
 
 This section states law. This is general information, not legal advice.
 
 [EPA](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality), the US Environmental Protection Agency, counts paints, paint strippers and other solvents among
 the sources of volatile organic compounds (VOCs) in a home, and says "Concentrations of many VOCs are
-consistently higher indoors (up to ten times higher) than outdoors."[11] Stripping is the extreme
-case: "During and for several hours immediately after certain activities, such as paint stripping,
-levels may be 1,000 times background outdoor levels."[11] The short-term effects EPA lists include
-headaches, loss of coordination and nausea.[11]
+consistently higher indoors (up to ten times higher) than outdoors."[11] Paint stripping is EPA's
+example of the worst of it: "During and for several hours immediately after certain activities, such as paint stripping,
+levels may be 1,000 times background outdoor levels."[11] The health effects EPA says VOCs
+may cause include eye, nose and throat irritation, and headaches, loss of coordination and
+nausea.[11]
 
 EPA's advice, for a product whose label says to use it in a well-ventilated area: "go outdoors or in
 areas equipped with an exhaust fan to use it. Otherwise, open up windows to provide the maximum
@@ -436,7 +454,7 @@ course read no official page on solvents at home, so it says only: read the tin,
 maker's instructions. Lesson 20, "Walls and paint: filling, preparing and painting", comes back to
 paints and their labels.
 
-The mask, as the last section showed, is no help here. Air is.
+The mask, as the last section showed, is no help here; what helps is air.
 
 ### Methylene chloride
 
@@ -450,17 +468,19 @@ The US law has moved. [EPA's page on the chemical](https://www.epa.gov/assessing
 prohibit the manufacture, processing and distribution of methylene chloride for consumer paint and
 coating removal, "because of the acute fatalities that have resulted from exposure to the chemical in
 consumer paint and coating removal".[12] In April 2024 it finalised a wider rule, which "Prohibits
-manufacturing, processing and distribution of methylene chloride for all consumer uses."[12] That's
-federal law, and this course read EPA's own summary of it, not the rules' text.
+manufacturing, processing and distribution of methylene chloride for all consumer uses."[12] That is
+federal law, and this course read EPA's own summary of it, not the rules' text. EPA's summary
+describes both rules as prohibiting manufacture, processing and distribution; it says nothing about
+a tin a householder already owns beyond encouraging them to stop using it.
 
-What EPA asks of a householder with an old tin: "EPA is encouraging all consumers to stop using
+What EPA encourages a householder with an old tin to do: "EPA is encouraging all consumers to stop using
 methylene chloride products that they may have already purchased for paint and coating removal." For
 disposal: "Please consult your state and local government solid waste agencies to obtain proper
 disposal instructions for leftover or unused paint and coating removal products."[12]
 
 EPA's two pages don't read the same. The indoor air page, updated in June 2026, still says to "Use
 products that contain methylene chloride outdoors when possible; use indoors only if the area is well
-ventilated."[11] The rule page is the one about the ban, and it asks consumers to stop.[12] This course
+ventilated."[11] The rule page is the one about the rules, and it encourages consumers to stop.[12] This course
 does not explain the difference, because EPA does not. For paint removal, it follows the page that
 deals with the rule.
 
@@ -481,9 +501,11 @@ sources give.
 2. **The tool.** ESF: check the lead and plug, and use an RCD or a plug-in RCD.[5] OSHA: clamp the
    board so both hands are on the sander, keep other people clear, and unplug it to change the
    sanding sheet.[1]
-3. **Where.** HSE says dust builds up the more enclosed the space is, and suggests enclosing the work
-   and keeping people away from it.[3] Outside, or a room with the door shut and nobody else in it,
-   is the course's reading of that for a flat.
+3. **Where.** HSE says dust builds up the more enclosed the space is. For other people, it
+   suggests keeping them away and enclosing the work with sheeting or screens so the dust doesn't
+   escape, and indoors it adds general ventilation to remove dusty air.[3] So outside if you can,
+   and indoors a room that nobody else is using, with the window open; the respirator matters more,
+   not less, in a small room. That last part is this course's reading.
 4. **Extraction, then the mask.** HSE's controls for this row are on-tool extraction to an H or M
    class extraction unit "and" a respirator with a factor of 20: both, not either.[3] A sander's own
    dust bag isn't what HSE describes, and HSE says not to rely on a general commercial vacuum, so
@@ -493,7 +515,7 @@ sources give.
    create dust clouds and redistribute the dust".[4]
 
 Sanding a board this way is **Yours, on conditions**, and the conditions are HSE's, OSHA's and ESF's.
-What makes it simple is that the material is known and new. The next case isn't simple.
+What makes it simple is that the material is known and new, which the next case's is not.
 
 ## A garage in New Mexico
 
@@ -509,32 +531,38 @@ chloride.
 :::checkpoint Find three separate problems, and for each, say which source's words answer it. Write them down before you open this.
 
 **1. The silica, cut dry and indoors.** Concrete is one of the materials OSHA names: cutting and
-sawing it makes respirable crystalline silica.[7] OSHA's silica rule for construction work gives
-employers a table of controls, and for a handheld power saw of any blade diameter the first is "Use
-saw equipped with integrated water delivery system that continuously feeds water to the blade". Even
-with water, OSHA requires a respirator with a protection factor of 10 when the saw is used indoors or
-in an enclosed area, however short the job.[8] That rule binds employers, not him, but it is the
-clearest measure anyone has written of how much dust this job makes. A garage with the door down is
+sawing it makes respirable crystalline silica.[7] OSHA's silica rule for construction work
+requires employers, for a handheld power saw of any blade diameter, to use a saw "equipped with
+integrated water delivery system that continuously feeds water to the blade", and, even with the
+water, a respirator with an assigned protection factor of 10 when the saw is used indoors or in an
+enclosed area, however short the job.[8] That rule binds employers, not him. It is here because it
+shows how seriously OSHA takes this job: water every time, and a respirator on top indoors. A garage with the door down is
 the enclosed case. The borrowed saw also wants OSHA's checks: look it over for damage first, and its
 guard stays on.[1]
 
 **2. The mask, twice over.** A one-strap mask with no approval marking is the "nuisance dust" kind,
-not a respirator: in the US, check for NIOSH approval.[9] And even an N95 wouldn't seal over a full
-beard: OSHA's rule for workers bars tight-fitting respirators over "Facial hair that comes between
-the sealing surface of the facepiece and the face".[10]
+not a respirator: in the US, check for NIOSH approval.[9] And even an N95 depends on a face seal:
+HSE says facial hair lifts a tight-fitting respirator off the face and lets contaminated air in,[4]
+and OSHA's rule for workers bars employers from letting anyone wear one over "Facial hair that comes
+between the sealing surface of the facepiece and the face".[10]
 
 **3. The stripper.** No particle mask of any kind stops vapour; NIOSH describes these respirators as
-filtering particles.[9] The vapour levels EPA describes during stripping ("1,000 times background
-outdoor levels") are the reason for air, not a mask.[11] And this chemical is methylene chloride:
-EPA's page says that since 2019 it has been prohibited to make or distribute it, retailers included,
-for consumer paint and coating removal, and it asks consumers to stop using what they already have and to ask state or local solid waste agencies how to dispose of
-it.[12] The course's answer is not to use it at all, which is EPA's.
+filtering particles.[9] The levels EPA says may be reached during stripping ("1,000 times
+background outdoor levels") are the reason for air, not a mask.[11] And this chemical is methylene
+chloride. EPA's rule page says that since November 2019 it has been prohibited to make or distribute
+it, retailers included, for consumer paint and coating removal. The rules, as EPA summarises them,
+are about supply; for a tin someone already has, EPA is encouraging consumers to stop using it and
+to ask state or local solid waste agencies how to dispose of it.[12] This course's answer is not to
+use it, which is what EPA's rule page encourages. (EPA's older indoor air page still says outdoors
+where possible; see the section above.)
 
 What would make the paver job **Yours, on conditions**, on these sources: cut outside, with the
-fewest cuts; water fed to the blade if the saw has it (OSHA) or a different method; and a
+fewest cuts (HSE warns that outside isn't low-dust with a powered saw, so the rest still applies);
+water fed to the blade if the saw has it (OSHA) or a different method; and a
 NIOSH-approved respirator on a clean-shaven face. That last is a choice he may not want to make. The
-alternatives are a respirator that does not depend on a face seal (HSE's wood dust sheet names hoods
-and helmets; this course read no US page on them) or someone else making the cuts.[4]
+alternatives are a respirator that does not depend on a face seal (HSE, for construction dust in
+Great Britain, lists powered hoods and helmets, and its wood dust sheet suggests one for a worker
+with facial hair; this course read no US page on them) or someone else making the cuts.[3][4]
 :::
 
 ## Batteries and chargers
@@ -558,7 +586,8 @@ over-charged, short-circuited, submerged in water or if they are damaged".[17] I
 
 If a battery starts swelling or expanding, LFB's steps are: "Stop charging immediately", "Turn off the
 device", "Do not remove the casing or tamper with the equipment", and "Contact the manufacturer or
-certified technician".[17] A swollen pack is **Call someone**: the maker, not a screwdriver.
+certified technician".[17] For a tool pack, this course reads "turn off" as taking it off the
+charger and out of the tool; LFB doesn't say. A swollen pack is **Call someone**: the maker, not a screwdriver.
 
 ## What people get wrong
 
@@ -576,19 +605,19 @@ lighting" (HSE).[6]
 **"Wet the slab first and it won't be dusty."** HSE: "Just wetting the material beforehand does not
 work." Water has to be there for the whole cut.[3]
 
-**"The switch is off, so I can change the blade."** OSHA says disconnect the tool, which is the plug
-or the battery, not the switch.[1]
+**"The switch is off, so I can change the blade."** OSHA says disconnect the tool, which this course
+reads as the plug (or, on a cordless tool, the battery), not the switch.[1]
 
 ## Practice
 
 :::exercise Your kit, and one dusty job planned
-Take 25 minutes over this, with a notebook. It's all looking and planning. Don't drill, cut, sand or
+Take 25 minutes over this, with a notebook. It is all looking and planning. Don't drill, cut, sand or
 scrape anything for this exercise, and in particular nothing that might be asbestos or old paint.
 Don't open a consumer unit, panel, socket or fitting, and don't use a volt stick or tester on
 anything. If you rent, this is planning only, and any real job waits until it's your home to repair
 or your landlord agrees.
 
-1. **The jobs, then the kit.** List the jobs from lessons 1 to 8 you expect to do in the next year,
+1. **The jobs, then the kit.** List the jobs from lessons 1 to 12 you expect to do in the next year,
    and next to each, the tool its source's method uses (the table in this lesson is the starting
    point). Note what you already own and anything in poor condition: a cracked handle, sprung jaws,
    a frayed lead, a mushroomed chisel. Those go out of use.
@@ -599,7 +628,7 @@ or your landlord agrees.
    and how you'll clean up without dry sweeping.
 3. **The mask, if you have one.** Read its marking: an FFP grade in the UK, an N95 and a NIOSH approval
    in the US, or neither. If it's a respirator, do HSE's pre-use check once in front of a mirror. If
-   you have a beard, note that the check can't fix the seal.
+   you have a beard, note that the check cannot fix the seal.
 4. **Batteries and chargers.** For each cordless tool, phone or e-bike charged at home: is the charger
    the one it came with? Where does it charge, and is anything covering it? Is anything left on
    charge after it's full? Any swelling? A swollen battery goes on the stop list, and the maker gets a
@@ -611,7 +640,8 @@ or your landlord agrees.
 The dust plan should start with the job itself (fewer cuts, a less powerful tool, a different
 method), then water or extraction at the tool, and end with the respirator, which HSE calls "the last
 line of protection".[3] Indoors, HSE's point is that "the more enclosed a space, the more the dust will
-build up", so the job moves outside if it can.[3] The battery answer is yours. LFB's own example of the
+build up", so the job moves outside if it can, though HSE says not to assume outside is low-dust with a
+power tool: the extraction and the respirator still apply.[3] The battery answer is yours. LFB's own example of the
 habit to drop is "it's best not to leave your phone plugged in overnight".[17]
 :::
 
