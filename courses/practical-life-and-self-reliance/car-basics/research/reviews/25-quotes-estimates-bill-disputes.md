@@ -213,3 +213,46 @@ nothing for this course.
 England-Wales-Northern Ireland split (body, objective 3, quiz 4), every row of the stop-points table
 against its lesson (F3), the Ohio lines ((C)(2), the notice and (C)(5), in the table, the $2,000
 checkpoint and the exercise answer), and the new exercise's sums, and confirm the table at phone width.
+
+## Second pass (2026-09-26)
+Fresh-context targeted re-check. Re-read live with curl (generic browser User-Agent, no personal
+data; no in-app browser): Citizens Advice's England page ("This advice applies to England"); the 1977
+Act s.12 and Sch 1 (extent E+W+N.I.; s.12(8), para 6(3), para 7(1) string-matched); CRA 2015 Part 1
+Ch 4 (ss.49, 51, 54 to 57); Fla. Stat. § 559.909; MCL § 257.1332; Ohio Adm. Code 109:4-3-13 (the
+notice, (C)(2), (C)(5), (C)(13), effective 21 March 2026); Cal. B&P § 9884.9; Cal. Civ. Code § 3068.
+Personal Finance lesson 10 and Car Basics lessons 1, 3, 4, 5, 6, 8, 9, 11, 13, 14, 16 to 20, 22 and
+23 opened for F2 and F3.
+
+- **F1:** clean. England-only for Citizens Advice in body, objective 3, quiz 4 and the disputes list;
+  the selling bar is E+W+N.I.; s.12(8) quoted as enacted.
+- **F2:** clean. Lesson 10 teaches US payment-method protections, mostly against unauthorised use; no
+  section 75 or chargeback.
+- **F3:** every row found in the lesson it cites and attributed as that lesson does; the table says
+  "the main ones" and "Each lesson has its own list in full". Note, not a defect: the 12 V row's
+  attribution names the AA and Nissan, while lesson 13's jump-start conditions also rest on Ford's
+  handbook and HSE; "swollen" is AAA's sign in lesson 5, which lesson 5 treats as Call someone under
+  the AA's "damaged or leaking".
+- **Ohio:** both wordings and (C)(5) in the table, both checkpoints and the exercise answer. **Fixed:**
+  the first predict's answer said flatly that Ohio lets a shop go over "with a percentage"; it now says
+  "on its required notice's wording", so nothing is resolved before the wrinkle paragraph.
+- **Exercise:** redone by hand. $75: Florida $85, Michigan $82.50, Ohio $7.50 (up to / under); $450:
+  $495, $495, $45; $1,500: $1,550, $1,550, $150. Error trace correct both ways. The $2,000 checkpoint
+  and the $100 / $500 break points also correct.
+- **Lien:** defined only at California, from § 3068(a); arising, (b)(1) and the 30 days match.
+  **Fixed:** the checkpoint stem "finished a job the owner booked 20 days ago" read as booked 20 days
+  ago, which leaves the completion date unknown and the answer ("five days ago") unsupported; now "20
+  days ago a shop finished a job the owner had booked".
+- **Florida return rule:** § 559.909(4) quoted exactly in its own paragraph.
+- **Quiz 3:** matches ss.55(2), 56(2) and (3), 54(7) and 57(1); each distractor answered. Keys
+  3,2,0,1,0,1 pass the relaxed rule by script against lessons 1 to 24 (no identity or value shift, no
+  shared run of four at offsets 0 or ±1 with 20 to 24, all positions, no adjacent repeat).
+- **Phone width:** `npm run build:drafts` still fails on the course's missing final test, so a scratch
+  copy of the repo (with a placeholder final test) was built and rendered in headless Chrome at 375 px
+  light and dark and at 1280 px. No page-level horizontal scroll at 375 px (scrollWidth 375). The stop
+  points table fits (343 px); the state table is 421 px inside its 343 px `.table-wrap` and scrolls
+  sideways within it, legible in both themes. Acceptable on the site's pattern.
+- Mechanics: no em dashes or spaced en dashes; callout byte-identical to lesson 24's; U+00A0 in 0808
+  223 1133 and after "(800)", U+2011 in 952‑5210 and 1‑518‑474‑8943. `npm run minutes`: 6,567 words,
+  85, ok. `npm run quotes car-basics`: 0 not found.
+
+**Verdict: CLEAN** (two one-edit fixes applied above).

@@ -218,7 +218,7 @@ amount of time or money. State law may require this."[4] Before the table, a gue
 
 :::predict Of California, New York, Florida, Michigan and Ohio, how many do you think let a shop charge anything at all over a written estimate without asking the customer again?
 
-Three of the five, each differently: Florida and Michigan with dollar caps, and Ohio with a percentage.
+Three of the five, each differently: Florida and Michigan with dollar caps, and Ohio, on its required notice's wording, with a percentage.
 California and New York allow nothing over the estimate without consent. If you guessed five, you
 were carrying the idea this lesson's misconceptions end with: that a shop can always go 10 per cent
 over.
@@ -388,7 +388,7 @@ it arose.[12] On **this course's reading**, "legally entitled" is the phrase tha
 lien shouldn't cover it. The statute doesn't say that in words. Florida's comes close, for Florida:
 a shop may not keep the car because the customer refused to pay for unauthorised repairs.
 
-:::checkpoint In California, a shop finished a job the owner booked 20 days ago and never gave the owner a written statement of charges. It is holding the car over $200 of extra work the owner never authorised. On § 3068 as read, when did any lien arise, what must the shop do within 30 days to keep it, and what does this course's reading say about the $200?
+:::checkpoint In California, 20 days ago a shop finished a job the owner had booked, and never gave the owner a written statement of charges. It is holding the car over $200 of extra work the owner never authorised. On § 3068 as read, when did any lien arise, what must the shop do within 30 days to keep it, and what does this course's reading say about the $200?
 
 It arose 15 days after the work was finished, since no statement was presented to the registered
 owner first, so five days ago. To keep it, the shop has 30 days from that date to apply for
