@@ -226,7 +226,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Navigation and Map Reading | Foundation | planned | T24 | |
 | Home Repair and Maintenance | Foundation | published | T3 | How a house works, the repairs a beginner can do, and which jobs the rules reserve for a registered or licensed trade, UK and US side by side. |
 | Cooking Fundamentals | Foundation | published | T3 | Technique over recipes. |
-| Car Basics | Foundation | research | T3 | How a car works, the owner's checks, the law on roadworthiness, breakdowns and garages, UK and US side by side. |
+| Car Basics | Foundation | drafting | T3 | How a car works, the owner's checks, the law on roadworthiness, breakdowns and garages, UK and US side by side. |
 | Gardening and Growing Food | Foundation | planned | T23 | |
 | Tools and Making Things | Foundation | planned | T23 | Wood, metal, basic fabrication. |
 | Personal Safety | Foundation | published | T3 | The crime data, avoidance, de-escalation, stepping in, and the law on force in the UK and three US states, taught as general information; neither side of the gun debate is called right. |
