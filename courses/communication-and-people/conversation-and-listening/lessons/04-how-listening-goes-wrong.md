@@ -8,8 +8,8 @@ objectives:
     Classify responses as shift or support responses, and explain why the same move can be either,
     depending on context
   - >-
-    Explain, from the self-disclosure findings, why turning the talk to yourself is a pull everyone
-    feels
+    Explain, from the self-disclosure findings and their limits, why turning the talk to yourself
+    comes easily
   - >-
     Explain what a distracted listener does to the speaker, with the evidence and what it was
     compared with
@@ -32,22 +32,22 @@ quiz:
       attending in order to attack something the speaker said, and you criticised the buses, not the
       flatmate.
   - q: >-
-      Two cousins at a family meal trade stories of their worst ever driving tests, each trying to
-      top the last, both laughing. Later, one tells the other that her marriage is ending, and gets
-      the other's divorce story back straight away. What does this lesson conclude?
+      At a family meal one cousin says her marriage is ending, and the other replies straight away
+      with the story of her own divorce. One relative says that was a failure of listening; another
+      says it showed she understood. On this lesson's account, what kind of evidence would settle it?
     options:
-      - The same move lands differently, and the second risks the error Headlee describes
-      - Both exchanges are fine, because matching a story is always how closeness is built
-      - Both exchanges are failures, because matching a story is always a shift response
-      - Neither can be judged, because the research found story-matching has no effect at all
+      - Studies coding replies like this in real talk, asking how understood the speaker felt
+      - A survey asking people whether they personally prefer support responses to shift ones
+      - A brain-imaging study showing that talking about yourself activates reward regions
+      - A count of how often conversations between friends include a matched story of any kind
     answer: 0
     explain: >-
-      Whether a matched story is a failure is contested, and this course's reading is that it
-      probably turns on whether the speaker is in distress. In the first exchange both people
-      offered stories and both enjoyed it. In the second, a story given straight back to someone in
-      distress risks what happened to Headlee, whose friend heard it as a competition. "Always" in
-      either direction closes a question the sources leave open, and no study this course read
-      found that matching has no effect.
+      The lesson says neither side has been tested head to head, and that what would settle it is
+      research coding second stories and support responses in real conversations and measuring how
+      understood the first speaker felt, separately for distress and sociable talk. A preference
+      survey measures taste, not what the reply did to the speaker. Tamir and Mitchell's reward
+      finding bears on why a shift might come easily, not on whether it helps. And a count tells you how
+      common matching is, not whether it works.
   - q: >-
       A study reports that speakers who talked to a listener who kept answering text messages felt
       more anxious than speakers whose listener didn't. A manager concludes, "So checking my phone
@@ -66,22 +66,23 @@ quiz:
       affected. Students are a limit to note, not a reason to discard everything. And the
       undistracted listeners' speakers were the ones reporting clearer attitudes.
   - q: >-
-      In an experiment, volunteers choose on each trial between answering a question about
-      themselves for a small payment and answering one about a stranger for a slightly larger one.
-      If they behave like the participants in Tamir and Mitchell's second study, what do you expect?
+      On coffee breaks, one colleague keeps bringing the talk back to her own weekend, whatever
+      anyone else mentions. Someone cites Tamir and Mitchell's studies as proof that she's selfish.
+      What do those studies let you conclude about her?
     options:
-      - They take the larger payment nearly every time, since money outweighs a small preference
-      - They choose at random, since talking about oneself has no value that can be measured
-      - They talk about the stranger, since describing others is what people find most rewarding
-      - They often give up some money to answer about themselves, showing they value it
+      - That she is selfish, since the studies measured how self-centred each person was
+      - That she is unusual, since most people studied preferred to judge others instead
+      - Nothing at all, since studies with samples this small can never tell us anything
+      - That people studied valued answering about themselves, not that she is selfish
     answer: 3
     explain: >-
-      In Tamir and Mitchell's Study 2, people gave up part of what they could have earned in order
-      to answer questions about themselves, which the authors read as self-disclosure having value
-      of its own. That doesn't mean they're selfish: it's a pull, measured as choices and brain
-      activation, and it's why the shift response is easy. Choosing at random or preferring the
-      stranger both run against what the study found, and "money always wins" ignores the choices
-      they actually made.
+      In Tamir and Mitchell's lab studies, people gave up small sums to answer about themselves
+      rather than judge someone else, and their reward systems were more active when they did,
+      which the authors read as self-disclosure having value of its own. Nothing in the studies
+      measured selfishness, so they can't label her, and on this course's reading that pull is part
+      of why the shift response comes easily. The participants preferred answering about
+      themselves, not judging others, and small samples are a reason for caution, not for throwing
+      the findings out.
   - q: >-
       A friend explains a problem at length. You nod throughout and say "mm" at the right places,
       but you're composing an email in your head, and afterwards you can't say what the problem was.
@@ -108,8 +109,8 @@ quiz:
       - It's impossible, so no kind of planning a reply can count as a listening failure at all
     answer: 2
     explain: >-
-      Lesson 1 showed that replies start so soon after a turn ends that listeners must plan during
-      it. The Minnesota textbook itself calls rehearsal an important part of listening, and says it
+      Lesson 1 gave Levinson's argument that replies start so soon after a turn ends that listeners
+      must plan during it. The Minnesota textbook itself calls rehearsal an important part of listening, and says it
       becomes a problem when it starts before you've understood, so that you're listening to respond
       rather than to understand. So planning can still be a failure, when it's aimed at winning or
       starts too early. No source this course read splits the rule by friends and work.
@@ -123,25 +124,26 @@ snapped: "Okay, Celeste, you win." She'd had her father for thirty years, the fr
 had it worse; she supposed she should not be so upset. Then she walked away.[1]
 
 Nothing in that reply was unkind, and nothing was untrue. It still failed, and it failed in a way
-most people will recognise from one side or the other. This lesson names the common ways listening
-goes wrong, looks at why one of them pulls on everybody, says what the evidence shows a distracted
-listener does to the person talking, and then takes on a question the sources disagree about:
-whether telling a similar story of your own is a failure at all.
+most people will recognise from one side or the other. Listening textbooks have names for the ways
+it goes wrong, and one of those ways pulls on everybody. There's evidence on what a distracted
+listener does to the person talking. And the sources disagree on whether telling a similar story of
+your own is a failure at all.
 
 ## The failures have names
 
 Listening textbooks give the common failures names, because a named failure is easier to catch in
-yourself. Adler, Proctor and Manning's *Looking Out, Looking In* lists pseudolistening, stage
-hogging, selective, insulated and defensive listening, ambushing and insensitive listening.[2] This
-course read that book's chapter outline, not the chapter, so it has the names and not the book's
-definitions. The textbooks' lists overlap heavily, and this lesson uses the six "bad listening
-practices" that the University of Minnesota's [open textbook](https://open.lib.umn.edu/communication/part/chapter-5-listening/) defines in full, several of them
+yourself. The 13th edition of Adler and Proctor's *Looking Out, Looking In*, in its publisher's
+chapter outline, lists pseudolistening, stage hogging, selective, insulated and defensive listening,
+ambushing and insensitive listening.[2] This course read that outline, not the chapter, so it has
+the names and not the book's definitions. The textbooks' lists overlap heavily, and this lesson
+uses the six "bad listening practices" that the University of Minnesota's [open textbook](https://open.lib.umn.edu/communication/part/chapter-5-listening/) defines in full, several of them
 following McCornack's textbook:[3]
 
 - **Interrupting**, when it "becomes a habit or is used in an attempt to dominate a conversation".
   Lesson 5, "Let them finish", is about interruption and overlap, so this lesson leaves it there.
 - **Distorted listening**, which "occurs when we incorrectly recall information, skew information to
   fit our expectations or existing schemata, or add material to embellish or change information".
+  (Schemata are the patterns you already expect.)
 - **Eavesdropping**, "a planned attempt to secretly listen to a conversation".
 - **Aggressive listening**, in which people "pay attention in order to attack something that a
   speaker says".
@@ -153,20 +155,20 @@ following McCornack's textbook:[3]
 
 These are **a teaching list, not findings**: nobody counted how often each happens. They are useful
 because they are specific. One caution the textbook adds itself: "we all understandably engage in
-pseudo-listening from time to time", for instance with a tired friend who needs to talk, and
-"occasionally" matching someone's story "doesn’t make you a narcissistic listener".[3] Each name
-describes something done in a moment, not a kind of person, and this course uses them that way.
+pseudo-listening from time to time", for instance when you're worn out and a friend needs to talk,
+and while "matching stories isn’t considered empathetic listening", "occasionally doing it doesn’t
+make you a narcissistic listener".[3] Each name describes something done in a moment, not a kind of person, and this course uses them that way.
 
 ## Planning your reply is not the failure
 
-The Minnesota textbook has one more failure, **response preparation**: "our tendency to rehearse
-what we are going to say next while a speaker is still talking".[3] It is easy to read that
-as the failure itself. Lesson 1, "What a conversation is made of", showed why it cannot be:
-replies typically begin within a fraction of a second of a turn ending, far less time than it takes
-to plan even a word, so everybody plans while the other person is talking.
+The Minnesota textbook lists one more item, among its barriers rather than its bad practices:
+**response preparation**, "our tendency to rehearse what we are going to say next while a speaker
+is still talking".[3] It is easy to read that as the failure itself. Lesson 1, "What a conversation
+is made of", gave Levinson's argument that it can't be: replies typically begin within a fraction of a second
+of a turn ending, far less time than it takes to plan even a word, so everybody plans while the other person is talking.
 
-Read the textbook's own words closely and it agrees. Rehearsal, it says, "is an important part of
-the listening process". It "becomes problematic when response preparation begins as someone is
+Read the textbook's own words closely and the gap narrows. Rehearsal, it says, "is an important
+part of the listening process". It "becomes problematic when response preparation begins as someone is
 receiving a message and hasn’t had time to engage in interpretation or recall. In this sense, we
 are listening with the goal of responding instead of with the goal of understanding".[3]
 
@@ -177,8 +179,8 @@ is the failure.
 
 ## Shift and support
 
-The sociologist Charles Derber gave the failure in Headlee's story a name. This
-course has not read his book; it knows his distinction through secondary accounts, chiefly Headlee's
+Headlee uses the sociologist Charles Derber's name for what she did: conversational narcissism.
+This course has not read his book; it knows his distinction through secondary accounts, chiefly Headlee's
 own. She describes two kinds of reply. A **shift response** and a **support response**: "The first
 shifts attention back to yourself, and the second supports the other person’s comment."[1] Her
 example: someone says they are very busy. A shift response: "Me, too", and then your own workload. A
@@ -197,7 +199,8 @@ response: it keeps the talk on Ifeoma and asks for more. Reply 3 is **advice**, 
 topic on her problem but moves straight to solving it; lesson 10, "When someone brings you a
 problem", is about when that helps. Reply 4 starts as a shift and then hands the floor back with a
 question. Whether it works depends on things the words alone do not show: how upset she is, and
-whether she wanted company in the problem or room to talk about it.
+whether she wanted company in the problem or room to talk about it. Whether a shift is ever the
+better reply is a question the sources disagree on, and the lesson comes back to it below.
 
 :::predict Before reading on: popular articles about "conversational narcissism" often say it was established by a big study that watched a large number of conversations. What would you expect to find if you went looking for that study?
 This course went looking and found no primary description of one. What secondary accounts quote from Derber is conceptual, illustrated with example dialogues, with no rates or effect sizes. The large-study version appears in popular retellings, and until someone reads Derber's own method it should not be repeated as a finding.
@@ -217,7 +220,7 @@ of him to say more.[5]
 
 ## Why the pull is so strong
 
-If the shift response is a failure, why does everyone do it? One set of studies gives part of an
+If shift responses are so widely criticised, why are they so common? One set of studies gives part of an
 answer.
 
 :::predict In a study, people could answer questions about themselves, about someone else, or about facts, and each option paid a few cents. The self-questions sometimes paid less. Would people give up money to talk about themselves, and if so, how much of what they could have earned?
@@ -229,7 +232,8 @@ programme** here: this course did not find an independent replication. In two br
 (78 and 117 people), disclosing your own opinions and traits activated the brain's reward
 system (the nucleus accumbens and ventral tegmental area) more than judging someone else. Two more
 studies (17 and 41 people) found disclosure was more rewarding when shared with another person than
-when kept private.[6] This course's notes record the sample sizes, not who the participants were.
+when kept private.[6] The studies were approved by ethics committees at Harvard University and
+Massachusetts General Hospital, and the paper's main text doesn't describe the participants further.
 
 Two limits keep it in proportion. "Rewarding" here means brain activation plus willingness to give
 up a little money. It is not evidence that people are selfish; nothing in the studies measures that. And
@@ -238,21 +242,23 @@ themselves, is not Tamir and Mitchell's measurement: their abstract states it, a
 earlier studies of conversation, which this course has not read.[6] Headlee's excerpt goes further,
 saying humans are "hardwired" to talk about themselves, which is more than these studies show.[1]
 
-What the studies do support is the mechanism this lesson needs: talking about yourself carries a
-pull that listening to someone else does not. A shift response is not a character flaw. It is the easy
-path, and a support response takes effort against it.
+What the studies support is narrower than the popular version. In those labs, answering about
+yourself carried value that judging someone else's opinions, or answering trivia, did not. Nobody
+in them was listening to a conversation partner. **This course's reading** is that the same pull
+helps explain why a shift response comes easily, and why a support response takes some effort
+against it.
 
 :::checkpoint Why does it matter for the practice section below that the pull is a common reward and not a trait of self-centred people?
-Because it changes what you look for. If shift responses were a trait, you'd look at other people and sort them. If they are a pull everyone feels, you look for them in yourself, in ordinary conversations, which is what the tally at the end of this lesson asks you to do. It also means one shift response tells you nothing about the person who made it.
+Because it changes what you look for. If shift responses were a trait, you'd look at other people and sort them. If they come from a pull that is common and not a trait, on this course's reading of the studies, you look for them in yourself, in ordinary conversations, which is what the tally at the end of this lesson asks you to do. It also means one shift response tells you nothing about the person who made it.
 :::
 
 ## What a distracted listener does
 
 Another common failure is divided attention: the phone, the other conversation,
 the email you're composing in your head. Itzchakov and Kluger describe a study from
-their research programme in the [*Harvard Business Review*](https://hbr.org/2018/05/the-power-of-listening-in-helping-people-change). They paired 112 undergraduates face to
-face as speaker and listener; the speaker talked for ten minutes about their attitude to a proposal
-the researchers chose. All listeners were told to "listen as you listen when you are at your best".
+their research programme in the [*Harvard Business Review*](https://hbr.org/2018/05/the-power-of-listening-in-helping-people-change). They paired 112
+undergraduates (the article doesn't say where) face to face as speaker and listener; the speaker
+talked for ten minutes about their attitude to a proposal the researchers chose. All listeners were told to "listen as you listen when you are at your best".
 Half, at random, were sent text messages and told to answer them briefly, "so the speakers saw that
 they were distracted".[7]
 
@@ -260,42 +266,46 @@ they were distracted".[7]
 Speakers with undistracted listeners "felt less anxious, more self-aware, and reported higher clarity about their attitudes on the topics", in the article's words, and wanted to share their view with others more.[7] The cost showed up in the speaker: they came away less clear about what they thought.
 :::
 
-Be exact about what was compared. The comparison group had a **visibly distracted listener**, and
+Be exact about what was compared. The comparison group had a visibly distracted listener, and
 the outcomes are what speakers reported about themselves. It's **one group's programme**, described
 here as the magazine article describes it; this course has not read the journal paper the study
 belongs to.[7] A 2026 review by Itzchakov and Graham Bodie adds that in other studies speakers often
 failed to notice when a listener was distracted, and were affected anyway.[8] That's the review's
 account of studies this course has not read, so treat it as a lead, not a finding.
 
-**Focus and Deep Work** lesson 5, "The phone on the desk", asked a different question: whether a
-phone's mere presence lowers your own performance on attention tasks. This lesson's question is
-what your divided attention does to the person talking to you.
+Focus and Deep Work lesson 5, "The phone on the desk", asked a different question: whether a
+phone's mere presence lowers your own performance on tests of memory and attention. This lesson's
+question is what your divided attention does to the person talking to you.
 
 ## Is a matching story a failure?
 
 Back to Headlee. Her rule in her [TED talk](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation/transcript) is plain: "Don't equate your experience with theirs." If
 someone's talking about losing a family member, she says, do not start on the time you lost one.[9]
-Samaritans, the UK and Ireland listening charity, says the same in [its advice](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting
+In her book she's less absolute than the rule sounds: a reply that turns to yourself "could be
+fine, as long as we allow the focus to shift back to the other person again", and the trouble is
+doing it repeatedly.[1] Samaritans, the UK and Ireland listening charity, is firmer in [its advice](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting
 someone who's struggling: listening "could mean not offering advice, not trying to identify what
 they’re going through with your own experiences and not trying to solve their problems."[10] That's
 **practitioner advice**, from people whose work is listening to someone in distress. The Minnesota
 textbook agrees as a default: it's "generally more competent to withhold sharing our stories until
 the other person has been able to speak".[3]
 
-The other side holds that swapping stories is part of how people get close. Adler's chapter outline lists agreeing and empathising among the supporting responses, and the
-textbooks' sections on self-disclosure treat matched disclosure as how people get closer; this
-course read those only as contents pages, and has not read a primary study of self-disclosure in
-conversation.[2] What it has read points the same way from another angle. Huang and colleagues,
-whose experiments found that people who ask more questions are liked more (lesson 6), flag a limit
-themselves: you can ask too many questions without disclosing anything in return.[11] Brooks and
-John, summarising that work for managers, note that "too many questions can also
-create a stilted dynamic".[12]
+The other side holds that swapping stories is part of how people get close. The fullest statement
+of it this course read is in Huang and colleagues' discussion: people "do not want to talk about
+themselves indefinitely without reciprocity", and they report earlier research in which more
+turn-taking in reciprocal self-disclosure went with more liking (this course didn't read that
+study).[11] The same researchers, whose experiments with strangers chatting online found that
+people who asked more questions were liked more (lesson 6), suggest a limit themselves: it "may be
+the case" that you can ask too many questions without disclosing anything in return.[11] Adler's
+textbook outline also lists empathising and agreeing among the supporting responses, though this
+course read only the outline.[2]
 
 This is a **contested** question, with a value in it: what you owe someone in distress. Neither
 side has been tested head to head in what this course read. **This course's reading** is that it
 probably turns on whether the speaker is in distress. With a friend who's grieving, a story of your
 own grief competes for the same small space, as Headlee found. With friends swapping holiday
-disasters, a matching story is the reply they are waiting for.
+disasters, a matching story of your own (this course calls it a second story) is the reply they
+are waiting for.
 
 Here is that contrast in full. Anselm and Greer are swapping worst-holiday stories: a ferry cancelled
 in a storm, then a flooded campsite, then a hire car that turned out to have no reverse gear. Each
@@ -321,14 +331,15 @@ separately for distress and for sociable talk.
 **"Good listening means showing you're listening."** Headlee argues the opposite: "There is no
 reason to learn how to show you're paying attention if you are in fact paying attention."[9]
 Worthington and Bodie point out the other side: a listener's responses "are the only signals that
-listening is taking (or has taken) place".[13] Both are right about something. Performed nods
+listening is taking (or has taken) place".[12] Both are right about something. Performed nods
 without attention are pseudo-listening; attention the speaker cannot see does not help them.
 
 **"Sharing a similar story always shows empathy."** Headlee's friend heard it as a competition,
 and Samaritans advise against it with someone who's struggling.
 
 **"Sharing a similar story is always narcissism."** Among friends trading stories it's ordinary
-and welcome, and the question-asking researchers themselves warn against taking without giving.
+and welcome, and the question-asking researchers themselves suggest that asking without ever
+giving back may cost you some liking.
 
 **"Conversational narcissism was proven in a big study."** The large-study version appears in
 popular retellings; what secondary accounts quote from Derber is conceptual, and the later research
@@ -339,12 +350,12 @@ distraction, and they came off worse. That hidden distraction costs something to
 review reports, from studies this course has not checked.
 
 **"Planning my reply while they talk means I'm not listening."** Everyone does it, as lesson 1
-showed. The failure is planning to win, or starting before you've understood.
+argued. The failure is planning to win, or starting before you've understood.
 
 ## Practice
 
 :::exercise Name the failure
-Take 5 minutes. For each described response, write which of these it is: pseudo-listening, distorted listening, aggressive listening, narcissistic listening, eavesdropping, response preparation, shift response, support response. Some could be two.
+Rewrite on paper. Take 5 minutes. For each described response, write which of these it is: pseudo-listening, distorted listening, aggressive listening, narcissistic listening, eavesdropping, response preparation, shift response, support response. Some could be two.
 
 1. A father nods through his daughter's account of her school play while reading the football scores, then asks, "So, did it go well?"
 2. A colleague recounts a meeting to his manager. The manager later tells others the colleague "said the deadline was fine", when he'd said it was fine only if the budget came through.
@@ -359,13 +370,13 @@ Take 5 minutes. For each described response, write which of these it is: pseudo-
 :::checkpoint Check your eight.
 1. Pseudo-listening: the signs of attention without the attention. 2. Distorted listening: the condition was dropped, which changed the message. 3. Aggressive listening: attending in order to attack. 4. Narcissistic listening, in its one-upping form, and a shift response. 5. Eavesdropping: planned and secret. 6. A support response. 7. Response preparation of the problem kind: rehearsal started before understanding. 8. A shift that hands the floor back, like reply 4 to Ifeoma: whether it lands depends on how the brother is feeling about it.
 
-If you labelled 8 as plain narcissism, look again at the question at the end. If you labelled 7 as aggressive listening, that is defensible too: the difference is whether he was hunting for something to attack or simply rehearsing too early.
+If you labelled 8 as plain narcissism, look again at the question the reply ends with. If you labelled 7 as aggressive listening, that is defensible too: the difference is whether they were hunting for something to attack or simply rehearsing too early.
 :::
 
 :::exercise A week's tally
-Take 5 minutes on each of three evenings this week.
+Notice. Take 5 minutes on each of three evenings this week.
 
-1. Pick one ordinary, low-stakes conversation from the day.
+1. Pick one ordinary, low-stakes conversation from the day, and write it up within an hour, as lesson 1 set out.
 2. In your journal, list each time the other person told you something about themselves, and mark your reply S for shift or U for support. Count honestly, including the replies you're not proud of.
 3. Pick one shift response and rewrite it as a support response, or as a short second story that hands the floor back.
 4. Write whether the shift responses cost anything in that conversation. "Nothing, we were swapping stories" is a real answer.
@@ -401,7 +412,7 @@ is in trouble, and to advice.
   free and openly licensed. Section 5.2 has the bad-listening practices with short dialogues. Skip
   its statistics and its listening styles, for the reasons in lesson 3.
 - **Tamir and Mitchell, ["Disclosing information about the self is intrinsically rewarding"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3361411/)**
-  (2012), free on PubMed Central. Short, and read in full at the course's research stage; Study 2
+  (2012), free on PubMed Central. Short, and read in full for this course; Study 2
   is the money experiment.
 - **Itzchakov and Kluger, ["The power of listening in helping people change"](https://hbr.org/2018/05/the-power-of-listening-in-helping-people-change)**
   (*Harvard Business Review*, 2018). A plain account of their distraction study and the programme
@@ -428,7 +439,7 @@ is in trouble, and to advice.
    philosophy website read at Stage 1). <!-- SOURCES Part A §7; G9 fallback -->
 6. D. I. Tamir and J. P. Mitchell, "Disclosing information about the self is intrinsically
    rewarding", *PNAS* 109(21) (2012), 8038 to 8043, [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC3361411/).
-   **Read: full text at Stage 1**; the abstract re-read 26 September 2026 (Europe PMC). <!-- SOURCES Part B §8.1; G16 fallback -->
+   **Read: full text**, re-read 26 September 2026 (PubMed Central). <!-- SOURCES Part B §8.1; G16 fallback; lesson 04 review gate closures -->
 7. G. Itzchakov and A. N. Kluger, ["The power of listening in helping people change"](https://hbr.org/2018/05/the-power-of-listening-in-helping-people-change),
    *Harvard Business Review*, 17 May 2018. **Read: full text** of the authors' hosted copy, re-read
    26 September 2026. <!-- SOURCES Part C §4.4; lesson 03/04 gate closures -->
@@ -442,9 +453,8 @@ is in trouble, and to advice.
     **Read: the page**, re-read 26 September 2026. UK and Ireland. <!-- SOURCES Part E §1.1; lesson 03/04 gate closures -->
 11. K. Huang, M. Yeomans, A. W. Brooks, J. Minson and F. Gino, "It doesn't hurt to ask:
     Question-asking increases liking", *Journal of Personality and Social Psychology* 113(3)
-    (2017), 430 to 452, corrected 2025. **Read: full text and the 2025 correction notice.** <!-- SOURCES Part B §4.1 -->
-12. A. W. Brooks and L. K. John, ["The surprising power of questions"](https://hbr.org/2018/05/the-surprising-power-of-questions),
-    *Harvard Business Review* 96(3) (2018), 60 to 67. **Read: full text.** <!-- SOURCES Part B §4.2 -->
-13. D. L. Worthington and G. D. Bodie, "Defining listening", in *The Sourcebook of Listening
+    (2017), 430 to 452, corrected 2025. **Read: full text and the 2025 correction notice**; the general discussion
+    re-read 26 September 2026. <!-- SOURCES Part B §4.1; lesson 04 review gate closures -->
+12. D. L. Worthington and G. D. Bodie, "Defining listening", in *The Sourcebook of Listening
     Research* (Wiley, 2018), [free chapter](https://catalogimages.wiley.com/images/db/pdf/9781119103073.excerpt.pdf).
     **Read: full text of chapter 1**, re-read 26 September 2026. <!-- SOURCES Part A §2.1 -->
