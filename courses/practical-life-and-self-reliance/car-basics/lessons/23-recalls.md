@@ -45,7 +45,7 @@ quiz:
       identified" among the things the search won't show, and adds "VINs are added continuously so
       please check regularly." A clean result a week after an announcement is exactly that case, so
       it doesn't show the car is outside the recall. Most recalls are the makers' own decisions, and
-      the lookup covers them; nothing on the page says makers load every VIN when they announce.
+      they aren't on the list of what the search won't show; nothing on the page says makers load every VIN when they announce.
   - q: >-
       As general information: in the US, tyres bought new seven years ago are named in a tyre
       maker's recall notice this month. Under 49 U.S.C. 30120 as read, is the maker required to
@@ -188,8 +188,8 @@ NHTSA is unusually frank about the search's limits. It won't show:[3]
 - "Manufacturer customer service or other non-safety recall campaigns."
 - "A recall involving an international vehicle."
 
-Each has a reason you can see. The list of affected VINs is the maker's, and a new recall's list may
-not be complete on the day it is announced. The 15 years is the same number as the free-remedy limit in the law,
+Some have a reason you can see. A new recall's list of affected VINs may not be complete on the day
+it is announced. The 15 years is the same number as the free-remedy limit in the law,
 below, though the lookup counts the recall's age and the law counts the car's; NHTSA doesn't say
 whether one comes from the other. A non-safety campaign is not a recall in the law's sense, so it is not in a safety database. And
 the Takata page adds one more: cars "scheduled to be recalled in the future under NHTSA’s Consent Order
@@ -204,7 +204,8 @@ has reported and loaded, and a check twice a year costs nothing.
 
 Any two of: a recently announced recall whose VINs haven't all been identified yet; a safety recall
 more than 15 years old (unless the maker offers more coverage); a small maker's recall; a non-safety campaign (which isn't a safety
-recall, but may still matter to her); or, for Takata cars, a recall scheduled but not yet made. The
+recall, but may still matter to her). NHTSA's Takata page adds one that isn't on the list: a Takata
+recall scheduled but not yet made. The
 answer to all of them is the same: check again, twice a year, as NHTSA advises.
 :::
 
@@ -393,9 +394,10 @@ recalls.[4] Both are for defects in design or manufacture, not for wear.
 
 ## What people get wrong
 
-**"Every recall means stop driving."** Only a "Safety Recall (Stop Drive)" in the UK, or a Do Not Drive
-warning in the US. An ordinary safety recall means book the repair and follow the letter's interim
-advice.
+**"Every recall means stop driving."** Not every one: a "Safety Recall (Stop Drive)" in the UK and a Do
+Not Drive warning in the US do, and the notice says so. For an ordinary safety recall, book the repair
+and follow the letter's interim advice; if the letter doesn't make clear you may keep driving, ask the
+maker first, as the stop-drive section above says.
 
 **"A clear lookup means no recall."** NHTSA lists six kinds of recall its VIN search won't show, and
 the MOT history's recall line depends on the maker.
@@ -425,7 +427,7 @@ leave the car where it is, and don't drive it for this.
    the date and the result, word for word.
 3. If a recall is open, write down its wording: stop drive or Do Not Drive, or an ordinary safety
    recall. If it says stop drive or Do Not Drive, don't drive the car at all until it's repaired. If the
-   car is yours, the next step is the maker's dealer, and for a stop-drive recall ask how the repair
+   car is yours, the next step is the maker's dealer, and for either of those ask how the repair
    will be arranged; if it's leased, a company car or borrowed, tell the keeper in writing today.
 4. Set two reminders, six months apart, to run the check again.
 :::

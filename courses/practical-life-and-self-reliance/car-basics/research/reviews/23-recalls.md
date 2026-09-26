@@ -103,3 +103,44 @@ items; no line names this course.
 **Status after review:** needs targeted re-check. R5 was a wrong fact: re-read the NHTSA-list
 checkpoint and the paragraph after the list (R6) against capture 20260924153654, and, because R1 and
 R2 are safety wording, the "Stop drive" section and exercise step 3.
+
+### Second pass (2026-09-26)
+**Reviewer:** fresh context, targeted re-check. Re-read today with curl (generic browser User-Agent, no
+personal data in any header): NHTSA "Check for Recalls" capture 20260924153654, "Takata Recall
+Spotlight" capture 20260924153455 and the booklet capture 20260918233001 (pdftotext); 49 U.S.C. 30120
+(a), (b), (g), (i) on uscode.house.gov; GOV.UK "Check if a vehicle, part or accessory has been recalled",
+"Vehicle recalls and faults" and the DVSA code (content API); nidirect's booking page (Citroën notice
+still present). Every quotation in the sections below string-matched.
+
+- **R5, R6:** right. The checkpoint gives "a safety recall more than 15 years old", NHTSA's wording. The
+  paragraph after the list says the lookup counts the recall's age and 30120(g)(1) the car's, and that
+  NHTSA doesn't say one comes from the other. Fixed here, one edit each: the checkpoint answer listed a
+  scheduled Takata recall as if it were on NHTSA's list (it is on the Takata page, and the recall doesn't
+  exist yet), now said so; and "The list of affected VINs is the maker's" was a mechanism no source read
+  states (decision 14), now "A new recall's list of affected VINs may not be complete", with "Each has a
+  reason you can see" cut to "Some".
+- **R1:** right. GOV.UK's two sentences quoted whole [6]; the narrowing is labelled "On this course's
+  reading", with the ask-the-maker fallback. Fixed here: the "What people get wrong" entry still said
+  "Only" a stop-drive or Do Not Drive notice stops the car, flat and unlabelled; it now points back to the
+  stop-drive section and carries the same fallback (convention: a misconception points back).
+- **R2:** right and safe; decision 16 kept (a reader who doesn't keep the car tells the keeper in writing).
+  Fixed here: "for a stop-drive recall ask how" became "for either of those", so a Do Not Drive result gets
+  the same step, matching quiz 5's key.
+- **R7:** right. 30120(g)(1) "more than 15 calendar years ... before notice"; the booklet's count from
+  "the date of sale to the first purchaser" to "the date the defect or noncompliance is determined" gives
+  the same answer for a defect found and notified this year.
+- **R8:** the short label opens every H2 that states law; the full label once, after the callout.
+- **Quiz 1:** right. "You need to know the manufacturer and model." and "for example for car child seats"
+  match; the explanation answers A, B and D. Options 87/81/84/85; key not the sole longest; two options
+  without an absolute. Quiz 2's explanation said "the lookup covers" makers' own recalls, which the page
+  doesn't say; now "they aren't on the list of what the search won't show". Quizzes 3 to 5 read against
+  their options: right.
+- **New NHTSA quotations:** Q5's "contact your dealer IMMEDIATELY" (said of certain Ford and Mazda trucks,
+  as the explanation says) and the loaner sentence, and the front-passenger-seat sentence, all match the
+  Takata capture.
+- **Mechanical:** keys 2,3,0,1,3 pass decision 20's relaxed rule (runs of four shared only with lessons 1
+  and 4, outside the five nearest). No em or en dashes; callout byte-identical to lesson 1's. The one phone
+  number, 888-327-4236, is hyphenated, so there is no space to protect. `npm run minutes`: 4,890 words, 70,
+  ok. `npm run quotes car-basics`: exit 0, 0 not found. `npm run validate`: exit 0, no line names this file.
+
+**Verdict: CLEAN.**
