@@ -199,6 +199,18 @@ something (a stop tap, an RCD) says in the exercise what to do if it doesn't beh
 tap is not forced ("Turn it on and off slowly, never force it", WaterSafe; call a plumber); an RCD
 that won't reset is left off and an electrician called.
 
+*Amended 2026-09-25, at lesson 7's Stage 4 (finding R2, option (a)):* the safe hands-on tasks also
+include **topping up a sealed heating system's pressure, only by the boiler's own user instructions,
+and only where those instructions give the user a method** (Worcester Bosch's *System Filling Guide*
+and Ideal's page are the two read; Ideal's is for combis whose filling loop or controls are clearly
+identifiable under or built into the boiler). Bleeding, already on the list, loses pressure on both
+makers' account, so an exercise that allows bleeding needs the top-up to leave a reader with a safe
+gauge. The exercise writes in the conditions: a filling method for the user in the boiler's own
+manual, filling controls the reader can clearly identify, the boiler off and cold, and a home that is
+the reader's to repair or a landlord who agrees (a renter asks the landlord). A filling loop anywhere
+else, or controls the reader can't clearly identify, is for the installer or a heating engineer.
+Nothing here opens the boiler beyond a panel the maker's user guide tells the user to remove.
+
 **2. Jurisdictions named exactly.** SOURCES' largest single source of error is "England is not the
 UK, and Wales is not England" (access problem 8; Part C opening). Rules:
 
