@@ -1,7 +1,7 @@
 ---
 title: Final test
 pass_mark: 0.7
-minutes: 20
+minutes: 35
 quiz:
   # --- Fear, and setting it beside an ordinary risk (L1) ---
   - q: >-
@@ -318,17 +318,230 @@ quiz:
       for her details is something she can decide on. And swearing followed by an offer to swap is
       the conversation working. The list of four is this course's synthesis, sensible, untested, and
       whatever he chooses to do next is his responsibility, however long she talked.
+
+  # --- Stepping in for someone else (L9) ---
+  - q: >-
+      A newsletter for shopkeepers in Syracuse, New York, reports the CCTV finding that at least one
+      bystander stepped in during about nine in ten public conflicts. It then tells readers that if
+      their shop is ever robbed at the till, customers will very likely step in to help. On lesson
+      9's account, what does the video research say about that promise?
+    options:
+      - It holds, since coding the footage of shop robberies found help in most of them as well
+      - It holds, since customers in a shop tend to step in more readily than people in the street
+      - It overreaches, as help came in about a third of shop robberies and crowds added none
+      - It can't be checked, since nobody has coded footage of robberies of shops or businesses
+    answer: 2
+    explain: >-
+      Lindegaard and colleagues applied the same way of coding footage to 43 robberies of shops and
+      other businesses and found bystanders helped "in 35% of the events", against 90.9% in the
+      public conflicts Philpot and colleagues coded, and more bystanders did not go with more help.
+      Their conclusion: "researchers should be wary of generalizing bystander intervention rates
+      across emergency types". So help in most shop robberies as well is the generalisation the
+      authors warn against, nothing this course read says shop customers step in more readily than people in the
+      street, and the study that checks it exists. This course read its abstract only, and the
+      abstract doesn't say why people helped less. It is not a verdict on any customer who didn't
+      step in: the responsibility for a robbery lies with the robber.
+
+  # --- What fear does to you, and the robbery decision (L10) ---
+  - q: >-
+      At a gas station in Topeka, Kansas, a man shows a knife to a driver who is boxed in at the pump
+      by another car, and tells her to get back behind the wheel and drive him out of town. On
+      lesson 10's account, what kind of case is this, and what do its sources say about it?
+    options:
+      - A demand for her, not for property, and no official page this course read covers it
+      - The narrow case, since a car is property and the DC police brochure says to give it up
+      - A demand for her, and every official page this course read advises resisting it
+      - The narrow case, since a weapon is shown, and a weapon is what makes a case narrow
+    answer: 0
+    explain: >-
+      The narrow case, where the official sources this course read all point towards handing
+      property over, is a weapon shown and property wanted. Here he wants her to drive him
+      somewhere, and being told to go somewhere with someone is a demand for the person. The DC
+      brochure's carjacking line is about giving up the car, not about going with the carjacker, and
+      none of the official robbery pages gives advice for being told to go with someone, so it says
+      nothing either way about resisting. A weapon alone doesn't make a case the narrow one; what is
+      demanded does. The resistance research points on average towards
+      resisting, from survivors, and gives no rule for one person's case. Whatever happens, it is his
+      responsibility.
+  - q: >-
+      A police force's review of its own robbery records finds that victims who fought back were
+      injured more often than victims who handed their things over, and concludes that fighting
+      back causes injury. Which problem, one lesson 10 says runs through the robbery evidence,
+      does that conclusion leave out?
+    options:
+      - Police records can't include robberies nobody reported, and that alone reverses the finding
+      - Robbery records count each injured victim twice, once for the robbery and once for the injury
+      - People choose when to resist, and records rarely show whether injury came before resisting
+      - Police records don't note weapons, so they can't say whether a knife or gun was shown
+    answer: 2
+    explain: >-
+      Nobody is randomly assigned to resist. People may resist where it looks survivable, and
+      someone already being hit may fight back because they're being hit, which makes resisters look
+      worse off. Smith's Home Office study of police records said female victims who resisted were,
+      "probably as a consequence", more likely to be injured: an inference, not a sequence the
+      records showed. Tark and Kleck, who took the order into account in survey data, found injury
+      followed resistance in only 10% of the incidents where both occurred. Unreported crime is a real limit on police records, as lesson 2 showed, but
+      nothing in the lessons says it reverses this finding. Nothing read says records count a victim
+      twice. And Smith's records did note weapons: he found robberies involving weapons less likely
+      to end in injury.
+
+  # --- Sexual assault: the freeze, resistance and the law (L11) ---
+  - q: >-
+      At a college debate in Crawley, in England, one speaker says: "If someone gives in without
+      saying no, the law treats that as consent." As general information, on the statute and the
+      prosecutors' guidance for England and Wales, which reply fits?
+    options:
+      - It's right, since giving in without saying no counts as agreeing by choice under section 74
+      - It's wrong the other way, since the guidance treats every reluctant yes as a crime
+      - It depends on injury, since the guidance treats signs of a struggle as the proof needed
+      - Consent and submission are different, and nobody has to have shown or said their refusal
+    answer: 3
+    explain: >-
+      Section 74 of the Sexual Offences Act 2003 says a person consents "if he agrees by choice, and
+      has the freedom and capacity to make that choice", and it applies to anyone. The CPS guidance says "Consent and
+      submission are different", and summarises Malone as "No requirement that absence of consent
+      has to be demonstrated or communicated to the accused." So giving in is not the same as
+      agreeing by choice. The guidance doesn't make every reluctant yes a crime either: it records
+      that a reluctant but free choice can be consent, and sets beside that the need to consider what
+      a relationship, including domestic abuse or coercive control, did to someone's freedom to
+      choose. Which a case is, is for a jury on its facts. And the CPS lists "If the victim didn't
+      scream, fight, or get injured then it could not have been rape" among the myths.
+
+  # --- Resistance training, and choosing a class (L12) ---
+  - q: >-
+      A randomised trial of a safety course for home-care workers who visit clients alone reports
+      that 12.5% of the untrained group and 5.0% of the trained group were assaulted at work within a
+      year. The course's leaflet says it "cuts assaults by 60%". What is the same result in absolute
+      terms?
+    options:
+      - 60 percentage points, so about three assaults prevented a year for every five trained
+      - 7.5 percentage points, so about one assault prevented a year for every 13 workers trained
+      - 5.0 percentage points, so about one assault prevented a year for every 20 workers trained
+      - 40 per cent, which is the share of the untrained group's risk the trained group still had
+    answer: 1
+    explain: >-
+      The absolute difference is 12.5 minus 5.0, which is 7.5 percentage points, and 100 divided by
+      7.5 is about 13, so about one assault prevented a year for every 13 workers. The 60% is the
+      relative change (7.5 is 60% of 12.5), not points. 5.0 is the trained group's own rate, not the
+      difference. And 40% is 5.0 divided by 12.5, the share of the risk the trained group still had:
+      a relative figure worked the wrong way round, the slip lesson 12's checkpoint on the EAAA trial
+      warned about.
+
+  # --- The law on using force (L13) ---
+  - q: >-
+      In a supermarket car park in Worthing, in England, a man comes at a shopper with a wheel brace.
+      A gap between two parked vans would have let the shopper get away safely. The shopper swings a
+      bag of tins at him. At trial the prosecution tells the jury he had a duty to retreat. As general
+      information, how does section 76 treat his chance to get away?
+    options:
+      - As a duty to retreat first, where he knew he could do so with complete safety
+      - As no question at all, since England removed the retreat question outside the home
+      - As a duty to retreat, since England requires a safe, reasonable escape to be taken
+      - As a factor for the jury to take into account, rather than as a duty to retreat
+    answer: 3
+    explain: >-
+      Section 76(6A), for England and Wales, says the possibility of retreat "is to be considered (so
+      far as relevant) as a factor to be taken into account, rather than as giving rise to a duty to
+      retreat". The gap is in the question because the law asks about it, not because anyone who
+      didn't take it is to blame. A duty to retreat with complete safety is New York's rule before
+      deadly force against deadly force, and the Model Penal Code's. A duty wherever a safe,
+      reasonable escape exists is closest to Scotland's model jury direction. And the 2013 change
+      made retreat a factor, which still puts it to the jury rather than removing it.
+  - q: >-
+      At a taxi rank in Kirkcaldy, in Scotland, a stranger swings a bottle at a man, who wrestles it
+      off him. The stranger runs away down the street. Ten minutes later the man sees him outside a
+      chip shop, goes over and hits him with the bottle. As general information, which question does
+      Scotland's model jury direction put about that blow?
+    options:
+      - Whether he could have escaped at the taxi rank, since escape is the question it puts first
+      - Whether his belief in danger was honest, even if it had no reasonable grounds behind it
+      - Whether any danger was still immediate, since a blow struck in revenge or anger is assault
+      - Whether it stays self-defence, since force that began as defence keeps that status to the end
+    answer: 2
+    explain: >-
+      The Jury Manual says "The danger must be immediate, not in the future", and "if he acted in
+      revenge, retaliation or anger, that would be a criminal assault, not self-defence." Ten
+      minutes on, outside the chip shop, the question is whether any threat was left. Escape was a
+      question about the moment at the taxi rank, and it is one of Scotland's questions, not the
+      whole of them. Scotland needs a belief on reasonable grounds; an honest belief without them is
+      enough in England and Wales, not in Scotland. And force doesn't stay self-defence once the
+      threat has gone; applying the manual's words to force after a threat has ended is lesson 13's
+      reading, since it read no case on it.
+
+  # --- The home and property (L14) ---
+  - q: >-
+      At a trial in Gateshead, in England, the jury agrees that a woman's force against an intruder
+      in her kitchen was not grossly disproportionate, and one juror says that settles it. As
+      general information, on the CPS summary of R v Ray, what is left for the jury to ask?
+    options:
+      - Whether, in the circumstances as she believed them to be, the force she used was reasonable
+      - Whether it was disproportionate, since the ordinary test is the one that decides it in the end
+      - Whether she could have retreated from the kitchen, since in her home that is a duty in England
+      - Nothing more, since force short of grossly disproportionate is reasonable in a home by law
+    answer: 0
+    explain: >-
+      In a householder case the jury asks two questions in order: was the force grossly
+      disproportionate, and if not, was it reasonable in the circumstances as she believed them to
+      be. As the CPS summarises Ray, "Disproportionate force which was short of grossly
+      disproportionate was not, on the wording of s.76 (5A), of itself the use of reasonable force."
+      So the jury isn't done. Nor does the ordinary test decide it: at home, the leaflet says, "it
+      might still be reasonable in the circumstances for you to use a degree of force that is
+      subsequently considered to be disproportionate", and "The law will give you the benefit of the
+      doubt in these circumstances." The ordinary line against disproportionate force is for cases
+      outside the householder rule. And in England and Wales retreat is a factor, not a duty, at
+      home or anywhere else.
+
+  # --- Carrying something for protection (L15) ---
+  - q: >-
+      After a friend is mugged nearby, a man in Hartlepool, in England, starts carrying a short
+      length of metal pipe in his rucksack on his walk home, "in case anyone tries it with me". As
+      general information, how does the CPS guidance treat his fear as a reasonable excuse under the
+      Prevention of Crime Act 1953?
+    options:
+      - It's an excuse, since the CPS accepts that his fear is genuine and his aim is to defend himself
+      - It's an excuse unless the prosecution disproves it, since the burden is on the prosecution
+      - It doesn't arise, since a pipe is an offensive weapon only if it was made or adapted to injure
+      - A lasting fear isn't enough; the exception is an imminent, specific attack close in time
+    answer: 3
+    explain: >-
+      The CPS says carrying an offensive weapon "merely because of the possibility of a constant or
+      enduring threat (even where genuine) does not amount to self-defence or a reasonable excuse".
+      The exception is an attack both imminent and specific, with the carrying closely connected in
+      time and purpose to that threat. So the CPS doesn't doubt his fear; it says a genuine,
+      continuing fear isn't enough. The pipe wasn't made or adapted to injure, but the Act's third
+      route is an article "intended by the person having it with him" for injury, and the CPS reads
+      that intention as "either offensively or defensively". And the burden of showing the excuse is
+      his: "the proof whereof shall lie on him".
+
+  # --- Afterwards (L16) ---
+  - q: >-
+      A man in Lisburn, in Northern Ireland, was hurt in an assault last month and has decided not
+      to tell the police for now. As general information, what does nidirect's page on Northern
+      Ireland's criminal injuries scheme say that bears on a claim?
+    options:
+      - It pays out only once an offender is convicted, so a report alone doesn't open any claim
+      - It asks the police for a report, and delay in telling them can reduce or refuse an award
+      - It's the same scheme as Great Britain's, which needs a report to police before you apply
+      - It has no link to the police, since Victim Support NI runs the scheme and decides claims
+    answer: 1
+    explain: >-
+      When an application arrives, nidirect says, "a request will be made for a police report about
+      the incident", and among the reasons for reducing or refusing an award it lists "your delay in
+      informing the police, or other organisation, or person of the incident". The page doesn't say
+      the crime must have been reported. The rule that "The crime must be reported to the police
+      before you apply" belongs to the scheme for England, Wales and Scotland; Northern Ireland has
+      its own. Nothing the lesson read ties the scheme to a conviction. Victim Support NI gives free
+      help with applying, and offers support "whether or not the crime has been reported", so
+      support is open to him either way, and whether to report is his decision.
 ---
 
-<!-- Items for lessons 1 to 8 only, which are the lessons through Stage 4. Each later lesson's items
-are appended here as that lesson passes Stage 4, per the blueprint in research/OUTLINE.md,
-"Assessments" (24 items when all sixteen are in). When you append: update the counts and the pass
-number in the intro, raise minutes, re-choose the key sequence by script, and rerun
-scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs. -->
+<!-- All sixteen lessons are in, per the blueprint in research/OUTLINE.md, "Assessments": 24 items,
+lessons 14, 15 and 16 one each. Keys were re-chosen by script so that each position is the key six
+times, no two adjacent items share a key, and no run of four matches any lesson's own quiz keys. If
+an item changes, rerun scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs. -->
 
-This test covers lessons 1 to 8 for now; questions on each later lesson are added as it is
-finished. **Fourteen questions, and 70 per cent to pass**, which is ten (70 per cent of 14 is 9.8,
-rounded up).
+This test covers all sixteen lessons. **Twenty-four questions, and 70 per cent to pass**, which is
+seventeen (70 per cent of 24 is 16.8, rounded up).
 
 :::callout Before you rely on this
 This course is education, not legal advice, and not a self-defence class. If you're in danger now, call 999 in the UK or 911 in the US. On a 999 call from a mobile, if you can't speak, cough or tap if you can and press 55 when you're prompted; in the US you can text 911 where that's available, but call if you can. If a partner, ex-partner or family member is frightening you, the lesson on domestic abuse and stalking starts with the helplines. Responsibility for a crime lies with the person who commits it: precautions change the odds, not the blame. The law differs between England and Wales, Scotland, Northern Ireland and each US state, and it changes.
@@ -340,5 +553,11 @@ explanations are the real ones the lessons read, each with its source, year and 
 covers.
 
 Where a figure differs between the two countries, the question names the country it's asking
-about, and that's the figure to answer by. No question asks what anyone who was harmed should have
-done, because responsibility for a crime lies with the person who commits it.
+about, and that's the figure to answer by. Where a question is on the law, it names the place whose
+law it asks about, and its answer is general information, not legal advice: it asks which rule or
+question applies, never whether anyone is guilty. No question asks what anyone who was harmed should
+have done, because responsibility for a crime lies with the person who commits it.
+
+Questions 12 and 13 touch on domestic abuse, and question 18 on the law of sexual assault. The
+lessons "Domestic abuse and stalking" and "Sexual assault: the freeze, resistance and the law" open
+with the support lines for each nation of the UK and for the US.
