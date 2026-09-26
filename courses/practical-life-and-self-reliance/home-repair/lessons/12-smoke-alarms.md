@@ -60,7 +60,8 @@ quiz:
       USFA says "Never take the battery out of your smoke alarm while cooking!", and gives three
       steps instead: open a window or door and press the hush button, wave a towel at the alarm,
       and move the entire alarm several feet away from the kitchen. Taking the battery out or
-      covering the alarm disables it, and USFA calls disabling an alarm "a deadly mistake". Moving
+      covering the alarm disables it, and USFA says disabling an alarm or removing the battery "can be a
+      deadly mistake". Moving
       it herself is the step a renter leaves to the landlord: in a rented home she tells the
       landlord rather than changing the alarm, as this course asks of every renter.
   - q: >-
@@ -76,8 +77,8 @@ quiz:
       The factsheet asks every home for a smoke alarm in the living room or most-used room, one in
       every hallway and landing, and a heat alarm in the kitchen, all on the ceiling and
       interlinked, and it allows sealed long-life battery alarms or mains-wired ones fitted by a
-      qualified electrician. Replaceable batteries "cannot be used"; a smoke alarm belongs nowhere
-      near the kitchen, which takes a heat alarm; alarms that work on their own aren't
+      qualified electrician. Replaceable batteries "cannot be used"; the kitchen takes a heat alarm,
+      not a smoke alarm; alarms that work on their own aren't
       interlinked; and mains alarms "must be fitted by a qualified electrician".
   - q: >-
       A US blog says most smoke alarms that fail do so because of batteries, citing NFPA. A fire
@@ -105,7 +106,7 @@ none.[6] The less familiar figure is the next one: in another 19% of those fires
 and didn't go off. This lesson is about where smoke and heat alarms go, what the law in each place
 requires, the routine that keeps them working, and what the fire figures say about why they fail.
 It also covers the tumble dryer, which England's fire table names more often than any other
-appliance once cooking appliances and the wiring are set aside.
+appliance once cooking appliances and electrical distribution, the wiring among it, are set aside.
 
 :::callout Before you pick up a tool
 This course is education, not a trade qualification, and not legal advice about your own home. It teaches no gas work and no wiring. If you smell gas in Great Britain, open doors and windows, turn the gas off at the meter if you can do it safely (not if the meter is in a cellar or basement), and call 0800 111 999; in Northern Ireland the number is 0800 002 001. In the US, leave straight away and call 911 or your gas utility once you're outside. In either country, don't light a flame or touch an electrical switch. Isolate the water or power before you open anything up, and if a breaker, RCD or GFCI keeps tripping, leave it off and call an electrician. Which jobs the law leaves to a registered or licensed trade differs between England, Wales, Scotland, Northern Ireland and each US state, and it changes.
@@ -270,7 +271,7 @@ leading reason for disconnected smoke alarms", and "Dead batteries caused one-qu
 smoke alarm failures."[7] Different country, different years, and the categories differ in a way
 that matters. NFPA counts a fire too small to set off an alarm (12% of US home fires) as its own
 category, not as a failure, and its list of reasons has no category for smoke that did not reach the
-alarm, while MHCLG counts smoke that did not reach the detector as a failure to operate.[7][6]
+alarm (its nearest, "Improper installation or placement", is 3%), while MHCLG counts smoke that did not reach the detector as a failure to operate.[7][6]
 Neither source compares the two counts, and this course can't say how much of the gap that
 difference accounts for. NFPA's sheet has a related pattern of its own: alarms present but not
 operating were 8% of the US home fires it counted but 21% of the deaths.[7] What
@@ -365,8 +366,8 @@ should be a heat alarm. Moving a battery one is **Yours, on conditions**, the sa
 moving a mains-wired one is **Call someone**; if you rent, tell the landlord.[5][2]
 
 **An alarm that didn't sound:** a battery, or a new alarm (Fire Kills); a sealed alarm is
-replaced whole. **Yours** for a battery
-alarm; **Call someone** for a mains one.[5]
+replaced whole. **Yours** for a new battery; **Yours, on conditions** for replacing a sealed
+alarm, the same as fitting one; **Call someone** for a mains one.[5]
 
 **A lint filter caked with fluff:** clean it before and after each cycle from now on (USFA).
 **Yours.**[9]

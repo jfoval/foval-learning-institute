@@ -119,3 +119,54 @@ line naming this file; `npm run quotes home-repair` finds nothing in this lesson
 
 **Status after review:** needs a second pass. R2 to R4 were wrong facts, and the fixes add new
 figures and quotations; a second fresh reader should check them.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context Tier A second-pass reviewer, reading the fixed lesson against the
+saved primaries in the first pass's scratchpad (MHCLG release and Table 5.1, FIRE0602 by script,
+SI 2015/1693 reg 4, the Scottish factsheet, Fire Kills, the Home Office guide and its GOV.UK
+applicability record, USFA's page and dryer flyer, NFPA's fact and tip sheets), and SSI 2019/8,
+its article 1 as amended and SSI 2021/46 re-fetched live from legislation.gov.uk.
+
+**Checked and correct:** 23%, 24%, 19%, 29% and every Table 5.1 figure in both columns and the
+chart (bar widths at 6 px per point, all seven); 66%; about 5% (1.8 + 3.1) and about 16% (7.2 + 8.7);
+9.3% (0.49 × 19%); the "other since the year to March 2011" sentence; footnote 10's "can be";
+the five-year average; the MoG sentence. FIRE0602 2025/26 accidental dwelling fires: tumble dryer
+579, top of Other electrical appliances; everything above it is cooking appliances, electrical
+distribution (wiring 2,497; batteries and generators 885), smokers' materials, candles or
+unspecified. NFPA's 46%, 24%, 12%, 8% and 21%, 38% and 21%, and its two quoted sentences. Reg
+4(1)(a)(i), 4(2), 4(4) "room"; quiz 2's key. SSI 2019/8 art 2 wording and 1 February 2022 (art 1
+as amended by SSI 2021/46). The factsheet's every quoted line. USFA's every quoted line and the
+fire marshal pointer. Every Fire Kills and Home Office line. Every first-pass fix R1 to R26 is in
+place and reads correctly; the renter key (quiz 3) matches the course's renter convention and its
+explanation says so. No England-only advice is labelled UK (the Home Office guide is England-only on
+GOV.UK and is labelled so; Fire Kills sits under "In England"). No em or en dashes. Keys 2,0,1,2,3
+re-checked by script against lessons 01 to 18 on disk: all four positions, no adjacent repeat, not
+identical, no value shift, no rotation or positional shift, no shared run of four at offsets 0 or ±1.
+
+**Findings:**
+1. S1 [minor] Opening: the dryer ranked above everything "once cooking appliances and the wiring
+   are set aside", but batteries and generators (885) outrank it and sit in electrical
+   distribution, not wiring. Fixed: "electrical distribution, the wiring among it".
+2. S2 [minor] Quiz 3 explanation: USFA "calls disabling an alarm 'a deadly mistake'" dropped the
+   hedge; USFA says it "can be a deadly mistake". Fixed.
+3. S3 [minor] Quiz 4 explanation: "a smoke alarm belongs nowhere near the kitchen" is not the
+   Scottish factsheet's claim, which only puts a heat alarm there. Fixed: "the kitchen takes a heat
+   alarm, not a smoke alarm".
+4. S4 [minor] NFPA "has no category for smoke that did not reach the alarm" is true but leaves out
+   that its list does carry "Improper installation or placement" at 3%, which bears on the
+   comparison. Fixed: a parenthesis giving it (a [V] string in SOURCES' Stage 4 note).
+5. S5 [minor] Checkpoint labelled replacing a sealed alarm **Yours**, where the body labels fitting
+   one **Yours, on conditions**. Fixed: Yours for a new battery; Yours, on conditions for a
+   sealed alarm; Call someone for mains.
+6. S6 [minor, not fixed] "The UK government gives two figures" attributes the publisher, but the
+   8-times figure comes from the England-only guide; the misconception's "siting about 19%" is the
+   course's addition without that label. Both read acceptably; left for the fixer's judgement.
+7. S7 [minor, not fixed] USFA's bedroom sentence is quoted to "a home", ending before its
+   "including the basement"; not a hedge, and the exercise's USFA list is unaffected.
+
+**After fixes:** `npm run validate` exit 0, no line naming this file; `node scripts/quotes.mjs
+home-repair` 0 not found; `npm run minutes` 65, matching. Option lengths unchanged (only
+explanations edited).
+
+**Verdict: CLEAN.** No wrong fact, law or scope remains; the five fixes were one edit each.
