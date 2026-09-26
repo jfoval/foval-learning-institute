@@ -125,3 +125,44 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   if yours is still safe or not."; CPSC's "states, counties or local jurisdictions".
 - **Quiz keys:** lesson 05 unchanged at 0,2,3,2,0,1. Keys so far: 01 1,3,0,2,3,0; 02 2,0,3,1,3; 03
   3,1,0,1,2; 04 3,2,0,1,3,2; 05 0,2,3,2,0,1; 06 1,3,2,1,2,0; 07 3,0,3,2,1; 08 1,2,1,3,0.
+
+## 2026-09-25 — Lesson 08 fix pass: notes for later lessons
+
+- **Lesson 1 does not list the T&P valve test among what the course leaves out.** Lesson 8 now says
+  it "adds testing a water heater's relief valve to that list". If lesson 1 is edited, its "What this
+  course leaves out" could gain the item; until then no lesson may say lesson 1 lists it.
+- **Mixing valves resolve nothing, on what was read.** A. O. Smith offers them only as a scald
+  measure, at the heater or the taps, and never mentions legionella. SOURCES Part A's "usually
+  resolved in practice by storing hot and blending down at the tap" is commentary (SOURCES "Stage 4
+  note, lesson 08"). Lessons 18, 19 and the assessments say no more than A. O. Smith does.
+- **Scald against legionella is US against GB in this course's sources.** Any later mention (the
+  test, the project, lesson 19) says the scald figures are CPSC's (US) and the legionella guidance
+  HSE's (Great Britain, landlords), that the course read no UK scald source and no US legionella
+  source, and that HSE's own low-risk example has outlets at 50°C. Neither body's advice is called
+  unsafe; each page's silence on the other hazard is stated as a fact.
+- **Thermostat label.** Any thermostat behind a cover on an electric water heater or a UK immersion
+  heater is **Call someone**, with the lesson 5 pointer; not only the US electric heater.
+- **CPSC's building-manager line is scoped to its "Furnace heater" paragraph.** Use it for a US
+  apartment only with that scope.
+- **Quiz keys:** lesson 08 unchanged at 1,2,1,3,0. Keys so far: 01 1,3,0,2,3,0; 02 2,0,3,1,3; 03
+  3,1,0,1,2; 04 3,2,0,1,3,2; 05 0,2,3,2,0,1; 06 1,3,2,1,2,0; 07 3,0,3,2,1; 08 1,2,1,3,0.
+
+## 2026-09-25 — Lesson 06 fix pass: notes for later lessons
+
+- **The fire statistics are MHCLG's**, not the Home Office's: fire-related responsibilities moved on
+  1 April 2025, and the year ending March 2026 release is published "From: Ministry of Housing,
+  Communities and Local Government". GOV.UK's 2022 "Fire safety in the home" guide is still the Home
+  Office's. Lesson 10 (smoke alarms, D33's alarm figures) cites MHCLG.
+- **No ESF page splits warning signs between appliance and wiring.** Its plugs and sockets pages send
+  burn marks, arcing, blowing fuses, tripping and a hot plug to the retailer, maker or repair
+  technician; its FAQ sends much the same list to a registered electrician. Any split is the
+  course's reading and says so.
+- **SI 2020/312 binds "specified tenancies" only.** Any later lesson (18, "Who may do what") gives the
+  Schedule 1 exclusions or points to lesson 6's law section, and says the landlord supplies the
+  report (existing tenants within 28 days, a new tenant before moving in), and "sooner if the last
+  report says so".
+- **No source read gives a method for adding up a lead's load by hand.** ESF offers a calculator
+  that did not render. Say so, and use ESF's 13A list or its 700 to 3,000 watt guide only as a flag
+  for checking.
+- **ESF's "RCDs Explained" address redirects to its "Home buyers" page**; cite it by that name.
+- **Quiz keys:** lesson 06 unchanged at 1,3,2,1,2,0.

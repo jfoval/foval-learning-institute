@@ -2984,6 +2984,11 @@ https://www.gov.uk/government/statistics/detailed-analysis-of-fires-england-year
 https://assets.publishing.service.gov.uk/media/6a7c8fde154113c988fd98ae/FIRE0602.xlsx
 Read: the statistical release sections 4 and 5 (causes; smoke alarms) via API; FIRE0602 opened
 and the 2025/26 accidental dwelling fire row and detailed ignition sources extracted.
+(Stage 4 note, lesson 06: the publisher is MHCLG alone, not the Home Office. The landing page reads
+[V] "From: Ministry of Housing, Communities and Local Government", and the release says [V] "All
+fire-related Ministerial responsibilities moved from the Home Office to the Ministry of Housing,
+Communities and Local Government (MHCLG) on 1 April 2025." Cite it as MHCLG's. The GOV.UK "Fire
+safety in the home" guide, D35, is still the Home Office's.)
 
 - 23,795 accidental dwelling fires in England in 2025/26; 27% caused by [V] "'misuse of equipment
   or appliances'"; cooking appliances 42% of accidental dwelling fires but 11% of fatalities;
@@ -4130,3 +4135,99 @@ Corrections:
 - **SCE's "open the cover" is undefined on both SCE pages.** The gloss "the panel door in front of
   the switches" in the lesson 05 gate closure is the drafter's reading, not [V]; a lesson gives it as
   this course's reading.
+
+## Stage 4 note, lesson 08 (2026-09-25)
+
+The lesson 08 reviewer ("Hot water: scalds, legionella and the tank") re-fetched CPSC 5098 (PDF,
+sheet code "009611 032012"), HSE "Legionella and landlords' responsibilities" (live page), A. O.
+Smith 326940-001 (PDF, 48 pp.), Vaillant "What is a tundish?", UGA Circular 1082, ASHI "Plumbing
+System" and EST "Boilers" (capture 20260919232017) with curl (browser User-Agent) plus pdftotext or
+pandoc on 2026-09-25. The fixer string-matched the lines below against the same extracts.
+
+New strings, each checked against the primary text:
+- CPSC 5098, in its "Furnace heater" paragraph (water heated by a furnace or on-line system): "If you live in an apartment, contact the building manager to discuss possible options for lowering your tap water temperature." [V]
+- HSE, landlords page, its typical low-risk example: "hot water is fed from instantaneous heaters or low volume water heaters (supplying outlets at 50°C)" [V]
+- HSE, landlords page: "Testing for legionella should not be confused with temperature monitoring, which is a reliable method for confirming the water system is under control." [V]
+- HSE, landlords page: "Health and safety law does not require landlords to obtain or produce a 'legionella test certificate'." [V] (HSE uses single curly quotes)
+- A. O. Smith 326940-001, p. 14: "In addition to using lowest possible temperature setting that satisfies demand of application, a mixing valve should be installed at the water heater (see Figure 8) or at hot water taps to further reduce system water temperature." [V]
+- A. O. Smith, T&P valve discharge pipe requirements (installation section, p. 16): "Must terminate a maximum of 6” above a floor drain or external to the building." [V]; "Shall not be plugged or blocked." [V]; danger label: "Keep clear of temperature-pressure relief valve discharge." [V]
+- A. O. Smith, closed water systems and thermal expansion: devices "such as pressure-reducing valves, check valves, and back flow preventers" [V] "cause the water system to be a closed system" [V]; "As water is heated, it expands (thermal expansion). In a closed system, the volume of water will increase when heated. As the volume of water increases, there will be a corresponding increase in water pressure due to thermal expansion." [V]
+- A. O. Smith: "Children, the elderly and the disabled and are at highest risk of scald injury." [V, sic]
+- A. O. Smith: "When leaving your home for extended periods (e.g., vacations etc.) turn the temperature dial to its lowest setting." [V] (context only)
+
+Checked absent: A. O. Smith's manual does not mention legionella anywhere. It offers mixing valves
+only as a scald measure. CPSC 5098 does not mention legionella; HSE's landlords page does not mention
+scalds.
+
+Corrections:
+- **Mixing valves are not a sourced resolution of scald against legionella.** Part A's item 2 ("usually
+  resolved in practice by storing hot and blending down at the tap") and Part A item 15 are this
+  file's commentary; no source read says so, in either country, and G-W6's partial closure (one US
+  maker's scald paragraph) does not support it. A lesson may say only what A. O. Smith says, for its
+  own heaters, and that the course read nothing on whether a mixing valve answers legionella.
+- **A. O. Smith's read level** now adds the T&P valve's installation requirements and Figure 8, and
+  the closed-system and thermal-expansion paragraphs.
+
+## Stage 4 note, lesson 06 (2026-09-25)
+
+Verified live on 25 September 2026 by the lesson 6 reviewer (curl, browser User-Agent, pandoc or
+pdftotext) and re-checked by the fixer against the saved copies; the SI 2020/312 Schedule 1 and
+regulation 2 re-read live by the fixer.
+
+- **D33 is MHCLG's** (corrected in place above). FIRE0602 "Data - fires", 2025/26 accidental
+  dwelling fires, checked by script: "Electrical distribution" 3,410 = "Wiring, cabling, plugs"
+  2,497 + "Apparatus - batteries, generators" 885 + "Heating equipment - Power Source" 28.
+  "Cooking appliances" 9,928 includes "Cooker incl. oven" 6,324, "Ring/hot plate (separate
+  appliance)" 1,150, "Microwave oven" 873, "Grill/Toaster" 822, "Deep fat fryer" 173, barbecues,
+  camping stoves and other cooking appliances; electric kettles sit under "Other electrical
+  appliances". Release: [V] "cooking appliances were the largest specified ignition category for
+  accidental dwelling fires, accounting for 42% of these fires".
+- **SI 2020/312** (legislation.gov.uk, no known outstanding effects). Reg 3(1): [V] "A landlord who
+  grants or intends to grant a specified tenancy must—". Reg 3(1)(c): [V] "ensure every electrical
+  installation in the residential premises is inspected and tested by a qualified person before the
+  specified tenancy commences." Reg 3(2)(a) [V] "at intervals of no more than 5 years"; 3(2)(b) an
+  earlier date where the most recent report requires it. Reg 3(3)(b): [V] "supply a copy of that
+  report to each existing tenant of the residential premises within 28 days of the inspection and
+  test;". Reg 3(3)(e)(i): a copy to [V] "any new tenant under a specified tenancy of premises to
+  which the report relates before that tenant occupies those premises". Reg 2: a "specified
+  tenancy" is a tenancy of residential premises in England which grants the right to occupy as an
+  [V] "only or main residence", [V] "provides for payment of rent (whether or not a market rent)",
+  and is not of a description in Schedule 1. **Schedule 1** (as amended by SI 2025/1043 from
+  1.11.2025): para 1 (private registered providers) omitted; para 2 [V] "A tenancy under the terms of
+  which the occupier shares any accommodation with the landlord or a member of the landlord’s
+  family." ("amenity" includes a toilet, personal washing facilities, a kitchen or a living room);
+  para 3 a long lease or [V] "grants a right of occupation for a term of 7 years or more."; para 4
+  student halls of residence; para 5 hostels and refuges; para 6 care homes; para 7 hospitals and
+  hospices; para 8 accommodation provided under a duty on a relevant NHS body; para 9 (inserted
+  2025) a moveable structure, vehicle or vessel. C12's read level now includes reg 2, reg 3(3) and
+  Schedule 1.
+- **ESF, "Plugs and fuses usage and safety"**, under "Check plugs and sockets" (the same two
+  sentences are on "Socket-outlets usage and safety"): [V] "Don't ignore burn marks, ‘arcing’
+  (buzzing or crackling) sounds, fuses blowing, circuit-breakers tripping, or if it feels hot to
+  touch." then [V] "Unplug and contact the retailer, manufacturer, or a qualified repair
+  technician." The ESF FAQ sends almost the same list to [V] "a registered electrician". So no
+  ESF page splits the signs between appliance and wiring; the split lessons 5 and 6 use is the
+  course's own reading. Also on the plugs page: [V] "As a general guide, plugs for appliances rated
+  from 700-3000 watts (the maximum rating of a wall socket) should be fitted with a 13-amp fuse
+  (coloured brown)." and [V] "A good rule of thumb is that fuses are rated according to the power
+  rating of the appliance."
+- **ESF, "Socket-outlets usage and safety"**: [V] "The rating should be clearly marked on the front
+  for cable reels and on the back or underside of extension leads. If not, refer to the
+  manufacturer’s instructions." The page offers a "socket overload calculator" (it needs
+  JavaScript and did not render); no ESF page read gives a method for adding up a lead's load by
+  hand. ESF says nothing about the thermal cut-out beyond [V] "It's important they are fitted with
+  a thermal-cutout."
+- **ESF "RCDs Explained" address** now 301-redirects to
+  https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/home-buyers/ (H1 "Home
+  buyers"; the HTML title tag still says "RCDs Explained"). On it: [V] "Don’t rely on the standard
+  home survey as this will not cover electrical safety."; [V] "crackling sounds from light
+  switches, light fittings, or socket-outlets."; [V] "Cracking or burn marks around light fittings
+  should be checked by a registered electrician."
+- **GOV.UK "Fire safety in the home"** (D35): the page says [V] "Applies to England"; the warning
+  signs sit in [V] "Keep your eyes peeled for signs of dangerous or loose wiring such as scorch
+  marks, hot plugs and sockets, fuses that blow or circuit-breakers that trip for no obvious
+  reasons, or flickering lights." Its "around 4,000 fires" gives no year, data source or
+  definition. Its vacuum-cleaner example is [V] "a vacuum cleaner a 5amp plug".
+- **NFPA, Campbell 2022** (D37), page 2: [V] "Electrical failures or malfunctions were a factor
+  contributing to the ignition of nearly four out of every five (80 percent)" of these fires. The
+  report gives contributing factors, not who installed or last worked on the equipment.
