@@ -21,8 +21,8 @@ quiz:
       own example, what's the earliest date it can be tested and keep the same renewal date?
     options:
       - 8 September, since the rule is exactly one calendar month before it runs out
-      - 9 September, a month before it runs out, minus a day, as in GOV.UK's example
-      - 1 October, since a test more than a week early always moves the renewal date
+      - 9 September, a month (minus a day) before it runs out, as in GOV.UK's example
+      - 1 October, since a test more than a week early moves the renewal date
       - Any day in the year, since the renewal date never moves once the car has passed
     answer: 1
     explain: >-
@@ -36,16 +36,16 @@ quiz:
       dangerous, and its current certificate has two months left. Which fits GOV.UK's guidance?
     options:
       - It can be taken away, but must still meet the roadworthiness standards at all times
-      - It can't move at all until it's repaired, since any fail ends the certificate at once
-      - It can be driven freely for two months, since the old certificate covers any fault
+      - It can't move until it's repaired, since a fail ends the old certificate straight away
+      - It can be driven freely for two months, since the old certificate still covers it
       - It can be driven only to a garage, since a major problem allows no other journey
     answer: 0
     explain: >-
       GOV.UK: you can take the vehicle away if your current MOT is still valid and no "dangerous"
       problems were listed, and "it must still meet the minimum standards of roadworthiness at all
-      times". So it isn't grounded by the fail alone, and it isn't covered for any fault either: the
-      law on its condition still applies every time it's used. Journeys only to a repair or a booked test are GOV.UK's rule for a
-      car whose MOT has run out.
+      times". So it isn't grounded by the fail alone, and the old certificate doesn't make it free to
+      drive either: the law on its condition still applies every time it's used. Journeys only to a
+      repair or a booked test are GOV.UK's rule for a car whose MOT has run out.
   - q: >-
       As general information: a car in Northern Ireland fails its DVA test, and its current
       certificate still has five weeks to run. What does nidirect say?
@@ -79,8 +79,8 @@ quiz:
       Someone buying a used car in Great Britain checks its MOT history and sees no mention of any
       recall. What does GOV.UK's page on the service say that bears on this?
     options:
-      - The history lists every recall for every car, so a clean one means there are none
-      - Recalls appear only on the paper certificate, never in the online history at all
+      - The history lists recalls for each car, so a clean one means there are none
+      - Recalls appear only on the paper certificate, and never in the online history at all
       - It may show a recall, depending on the manufacturer, so none shown proves nothing
       - Recalls appear only for cars tested in Northern Ireland since December 2017
     answer: 2
@@ -96,10 +96,10 @@ An MOT certificate is probably the most misread piece of paper a car owner keeps
 as "this car is fine for a year". It says something much narrower: on one day, a tester looked at a
 fixed list of things without taking anything apart, and found none of them bad enough to fail. And
 the rules around it change at the Irish Sea. In Great Britain the first test comes at three years,
-at a private garage, and a car that fails can sometimes be driven away. In Northern Ireland it generally
-comes at four, at a state test centre, and a car that fails shouldn't be on the road at all. This lesson
-covers both: when, where, what it costs, what the result means, and what the certificate doesn't
-promise.
+at a DVSA-approved test centre, and a car that fails can sometimes be driven away. In Northern
+Ireland it generally comes at four, at a government test centre run by the DVA, and a car that fails
+shouldn't be on the road at all. Here's both: when, where, what it costs, what the result means, and
+what the certificate doesn't promise.
 
 :::callout Before the car lets you down
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
@@ -122,7 +122,7 @@ such that their use on a road would involve a danger of injury to any person."[1
 those requirements, on one day.
 
 Three official lines mark its limits. GOV.UK: "The test does not cover the condition of the engine,
-clutch or gearbox."[2] DVSA's older plain-English guide: "It isn’t the same as having your vehicle
+clutch or gearbox."[2] DVSA (the Driver and Vehicle Standards Agency), in its older plain-English guide: "It isn’t the same as having your vehicle
 serviced and doesn’t check its general mechanical condition."[3] And DVSA's inspection manual, which
 is written for testers: "The MOT test must be carried out without dismantling, so it is not always
 possible to inspect some testable items."[4] Lesson 2 quoted the RAC, which sells breakdown cover
@@ -134,7 +134,7 @@ standards needed by law. It doesn’t mean that the vehicle is roadworthy for th
 certificate and isn’t a substitute for regular maintenance."[5]
 
 So the test and the law run on different clocks. The Department for Transport put it in one line in
-2018: "By law, all vehicles must be roadworthy, regardless of whether they have passed an MOT".[6]
+2018, for Great Britain: "By law, all vehicles must be roadworthy, regardless of whether they have passed an MOT".[6]
 Lesson 20, "The law on a car's condition: Great Britain and Northern Ireland", set out that law. This
 lesson is about the test.
 
@@ -144,7 +144,7 @@ This is general information, not legal advice.
 
 ### Great Britain
 
-GOV.UK: "You must get an MOT for your vehicle by either" the third anniversary of its registration,
+[GOV.UK](https://www.gov.uk/getting-an-mot): "You must get an MOT for your vehicle by either" the third anniversary of its registration,
 or "the anniversary of its last MOT, if it’s over 3 years old".[2] The law behind it is section 47 of
 the Road Traffic Act 1988, which makes it an offence to use a car on a road with no test certificate
 issued within "a period of twelve months or such shorter period as may be prescribed", once it was
@@ -175,27 +175,28 @@ car passes. Work out the new expiry date before reading the answer.
 :::checkpoint The car passes on 12 May 2027. When does the new certificate run out?
 On 11 May 2028. A test before the window moves the renewal date to "one year (minus a day) from the
 date the vehicle last passed its MOT". GOV.UK's own example does the same: a pass on 14 April changes
-the expiry to 13 April the following year. Nothing is lost except eight days, and the date has moved
-for good.
+the expiry to 13 April the following year. Tested inside the window, the car would have kept 19 June
+and run to 19 June 2028. Tested eight days early, it runs to 11 May 2028: 39 days of certificate
+given up, on this course's arithmetic, and the renewal date has moved for good.
 :::
 
 ### Why three years, and not four
 
-Search results regularly announce that the first MOT is moving to four years. It isn't, as read on
-26 September 2026. The history, from the Department for Transport: "The test was introduced in 1960,
+You may read that the first MOT is moving to four years. It isn't, as read on 26 September 2026. The history, from the Department for Transport: "The test was introduced in 1960,
 requiring vehicles to undergo a first check after 10 years. It was changed in 1967 to 3 years."[6]
 In 2018 the government decided to keep three years after a consultation.[6] It consulted again in
 2023, and in January 2024 published its outcome: "Given the significant concerns about road safety
 that were raised, and that any potential savings made by motorists would be limited by the
 additional cost of potential defects not identified at the MOT, the government does not intend to
-proceed in changing the date of a vehicle’s first MOT."[7] Those are the government's stated
-reasons, reported as its reasons. The Act would let a minister change the three years to "such other
+proceed in changing the date of a vehicle’s first MOT."[7] Those are the government's reasons,
+in its words. The Act would let a minister change the three years to "such other
 period (not being more than ten years)" by an order approved by both Houses of Parliament.[1] The Act's
 text, as read, still says three years.
 
 ### Northern Ireland
 
-nidirect gives the timing as a general rule, and its words keep the hedge: "as a general rule the
+[nidirect](https://www.nidirect.gov.uk/articles/how-mot-scheme-works) gives the timing as a general
+rule "during normal operating times", and its words keep the hedge: "as a general rule the
 points below suggest when your vehicle will be due a MOT test", with "cars and motorcycles which are
 four years old and over" first on the list.[8] Then yearly. It adds: "It is an offence to use a
 vehicle of MOT test age that doesn’t have a current test certificate on a public road."[8] No source
@@ -208,9 +209,6 @@ is valid in Northern Ireland." But the months don't carry over: "If you get your
 Ireland, you cannot retain any credit from a test done in another part of the United Kingdom." The
 new certificate runs 12 months from the day of the Northern Ireland test.[8]
 :::
-
-Going the other way, GOV.UK's early-test window doesn't apply to a car whose last MOT was in Northern
-Ireland, as above.
 
 One dated arrangement, because it will change. nidirect, on its booking page as read: "Private cars
 that were first registered between 1 June 2019 and 31 May 2020 or between 1 June 2021 and 31 May 2022
@@ -225,17 +223,17 @@ This is general information, not legal advice.
 
 | | Great Britain | Northern Ireland |
 |---|---|---|
-| Who tests | Private garages approved by DVSA: "Only centres showing the blue sign with 3 white triangles can carry out your MOT."[2] | The Driver and Vehicle Agency (DVA), at its own test centres, listed county by county on nidirect[10] |
+| Who tests | Test centres approved by DVSA: "Only centres showing the blue sign with 3 white triangles can carry out your MOT."[2] | The Driver and Vehicle Agency (DVA), at its own test centres, listed county by county on nidirect[10] |
 | Fee for a car | A legal maximum: "The maximum fee for a car is £54.85", and "You do not pay VAT on the fee."[2] | The DVA's own fee: £38.00 for a full test, £29.50 for a retest (Class IV motor car)[11] |
-| Can you watch? | "You can watch the test from a viewing area but you’re not allowed to interrupt the tester."[2] | Not covered by the pages read |
+| Can you watch? | "You can watch the test from a viewing area but you’re not allowed to interrupt the tester."[2] | nidirect: "You will have to exit the vehicle before it enters the test hall and Driver and Vehicle Agency (DVA) staff will take the vehicle through the full test", and "You should stay in the designated waiting area whilst the vehicle is being examined"[17] |
 
 Fees as read on 26 September 2026 on GOV.UK and nidirect. The GB figure is a ceiling; a garage may
 charge less. The NI figure is what the DVA charges.
 
 Northern Ireland has had a waiting list. nidirect: "you may not be able to get a vehicle test
 appointment before your current MOT expires. If this is the case, you must book the earliest
-available test appointment for your vehicle."[8] Its booking page reports what the police said:
-"The PSNI has agreed not to penalise drivers whose MOT has expired so long as" the vehicle is
+available test appointment for your vehicle."[8] Its booking page reports what the Police Service of Northern Ireland (PSNI)
+said: "The PSNI has agreed not to penalise drivers whose MOT has expired so long as" the vehicle is
 roadworthy and not declared off the road, is properly insured, and has a booked appointment you can
 prove. It adds: "All other vehicle roadworthiness and insurance offences will be dealt with in the
 usual way." On insurance, it reports that the Association of British Insurers "has confirmed that the
@@ -274,7 +272,7 @@ words. Gathered here, with where each was taught:
 | Tyre pressure | Tyre obviously under-inflated: Minor; TPMS not working: Major | 7, "Tyres I: pressure, the placard and TPMS" |
 | Tyres | Tread below the legal requirement: Dangerous; a lump, bulge or tear: Dangerous | 8, "Tyres II: tread, damage, age, and when to replace" |
 | Washers | Not providing enough fluid to clear the screen: Major | 9, "Under the bonnet: oil, coolant, brake fluid and screenwash" |
-| Lamps and glass | A single plate lamp out: Major; damage in zone A over 10 mm is looked at | 10, "Lights, wipers, glass and the walk-round" |
+| Lamps and glass | The only plate lamp out: Major (one of two out: Minor); damage in zone A over 10 mm is looked at | 10, "Lights, wipers, glass and the walk-round" |
 | Warning lamps | Engine, airbag or ESC lamp showing a fault: Major | 11, "Dashboard warning lights" |
 
 Northern Ireland's test uses its own paperwork. nidirect says a failed car gets "a notification of
@@ -296,7 +294,7 @@ banned from driving and get 3 penalty points for driving a vehicle that has fail
 a ‘dangerous’ problem."[2] On this course's reading, that matches lesson 20's section 40A row
 for a car.
 
-**In Northern Ireland**, nidirect: "If your vehicle fails an MOT test it is treated as not being
+**In Northern Ireland**, [nidirect](https://www.nidirect.gov.uk/articles/after-mot-vehicle-test): "If your vehicle fails an MOT test it is treated as not being
 roadworthy and it should not be on the road, regardless of whether you have time remaining on an
 existing MOT certificate. Anyone using a vehicle on the road or in a public place without a valid
 test certificate or with defects may be committing an offence."[12] nidirect gives no reason for the
@@ -325,8 +323,12 @@ help if only the pads had been found: Northern Ireland's page draws no line betw
 and any other. Its certificate page, writing about cars without a current certificate, lists the journeys that are
 exceptions, including "bringing it away from a test centre after it has failed the test, to a place of
 repair", and adds that "you may still be prosecuted for driving an unroadworthy vehicle if it doesn’t
-meet various regulations affecting its construction and use."[5] Whether a given journey fits,
-for a car in this position, is nidirect's and the DVA's to answer, not this course's.
+meet various regulations affecting its construction and use."[5] Home isn't one of the journeys on
+that list. And Northern Ireland's tyre regulation, which lesson 20 found in almost the same words as
+Great Britain's, says a car "shall not be used on a road, if" a tyre has "any lump, bulge or tear
+caused by separation or partial failure of its structure", whatever the journey.[18] So on this
+course's reading, that car doesn't go anywhere on that tyre. For the pads-only case, whether a given
+journey fits is nidirect's and the DVA's to answer, not this course's.
 :::
 
 ### Retests and appeals
@@ -336,8 +338,8 @@ Retests and appeals have their own clocks, and they differ.
 | | Great Britain (GOV.UK) | Northern Ireland (nidirect) |
 |---|---|---|
 | Free or cheaper retest | Free partial retest if left at the centre for repair and retested "within 10 working days"; free if returned to the same centre "before the end of the next working day" for listed items, including lamps, wipers and "wheels and tyres"; otherwise a partial fee within 10 working days, or the full fee[2] | "An application for a re-test must be made within 21 days of the original test. After 21 days a full test fee will be needed. Re-tests must be completed within 60 days of the original test."[12] |
-| Appeal | To DVSA "within 14 working days of the test"; "You should not have any repairs made until the appeal process has finished."[2] | At the centre, to a manager; or afterwards, "within 14 days of the initial test being carried out", by phone on 0300 200 7862 or email; "Do not have your vehicle repaired or any work carried out on it before your appeal is considered"[12] |
-| Phone | DVSA, 0300 123 9000, Monday to Friday, 8am to 5pm[2] | DVA, 0300 200 7862[12] |
+| Appeal against a fail | On DVSA's complaint form, sent "within 14 working days of the test"; "You should not have any repairs made until the appeal process has finished."[2] | At the centre, to a manager, but "If the original decision is upheld by the manager, there will be no further appeal open to you"; or after leaving, "within 14 days of the initial test being carried out", by phone on 0300 200 7862 or email; "Do not have your vehicle repaired or any work carried out on it before your appeal is considered"[12] |
+| Phone | DVSA, for problems with your MOT service: 0300 123 9000, Monday to Friday, 8am to 5pm (appeals go on the form)[2] | DVA, for appeals: 0300 200 7862[12] |
 
 Numbers and time limits as read on 26 September 2026. The reason neither place wants repairs before
 an appeal is given by nidirect: "any change to your vehicle may affect the outcome of the
@@ -381,9 +383,12 @@ wish to voluntarily undertake an MOT test anyway."[14] GOV.UK's guide puts the c
 keep it in a roadworthy condition." "You can be fined up to £2,500 and get 3 penalty points for using
 a vehicle in a dangerous condition."[15]
 
-**Northern Ireland.** nidirect gives the same 40-year and 30-year rule for vehicles of historical
-interest, and: "Even if the vehicle is exempt from annual testing, it must be maintained in a
-roadworthy condition."[8]
+**Northern Ireland.** nidirect's page on the MOT scheme gives a 40-year rule for vehicles of
+historical interest, with no major change in the last 30 years, and: "Even if the vehicle is exempt
+from annual testing, it must be maintained in a roadworthy condition."[8] nidirect's Highway Code
+pages still carry an older line exempting vehicles made before 1960, so the two pages differ.[19]
+This lesson goes by the scheme page, which is the DVA's page on testing, and a reader relying on the
+exemption should confirm it with the DVA.
 
 An exempt car has left the test. It hasn't left sections 40A, 41A and 42, or their Northern Ireland
 equivalents.
@@ -400,9 +405,9 @@ in Northern Ireland, GOV.UK's page says since 2017 and nidirect says since Decem
 
 Two limits. First, the recall line is hedged: "Your MOT history may also tell you if your vehicle has
 been recalled for a safety reason, depending on the manufacturer."[16] Lesson 23, "Recalls: checking,
-what's free, and 'stop drive'", covers the proper recall check. Second, this course read GOV.UK's
-page about the service, not the service itself, which refused automated readers, so it can't say
-exactly how the service displays advisories. Look for yourself.
+what's free, and 'stop drive'", covers the proper recall check. Second, this course couldn't open the service
+itself, only GOV.UK's page about it, so it can't say exactly how the service shows advisories. Look
+for yourself.
 
 On this course's reading, a history is most useful for patterns: the same minor problem recorded two
 years running, a mileage that goes down, a fail for tyres every spring. It tells you what testers saw
@@ -422,11 +427,11 @@ in January 2024. Northern Ireland's first test comes at four years on nidirect's
 different place's rule, not a change to Great Britain's.
 
 **"It failed, but there's time on the old certificate, so I can drive it anywhere."** In Great
-Britain, only with no dangerous problem listed, and it must still be roadworthy. In Northern
-Ireland, nidirect says a failed car "should not be on the road".
+Britain it depends on whether a dangerous problem was listed, and in Northern Ireland nidirect says a
+failed car shouldn't be on the road; both are in "After a fail" above.
 
 **"Classic cars don't have to be roadworthy."** Exempt from the test, not from the law, in both
-places.
+places; see "Classic cars" above.
 
 **"An advisory means nothing."** It means a tester saw an item that had deteriorated, though not enough
 to fail. GOV.UK puts
@@ -435,7 +440,7 @@ it among "problems to monitor or fix in the future".
 ## Practice
 
 :::exercise Read a car's MOT history
-Take 10 minutes over this. Use your own car, or a car whose keeper agrees; if you're looking at a
+This is general information, not legal advice. Take 10 minutes over this. Use your own car, or a car whose keeper agrees; if you're looking at a
 car for sale, ask the seller first (this course's line: it's their car until it's yours). You need
 only the number plate. Nothing here touches the car, and don't drive it for the exercise.
 
@@ -463,8 +468,8 @@ this course's reading a reason to slow down before buying.
 Add a test page to your car file, after lesson 20's legal page. On it: which test applies (the MOT in
 Great Britain, the DVA test in Northern Ireland, or your state's in the US), the date the current
 certificate runs out, the earliest date that keeps it in Great Britain, any fail, minor problem or
-advisory from the last two tests, and the phone number for appeals (DVSA or DVA) with the date you
-read it.
+advisory from the last two tests, and how to appeal (DVSA's complaint form in Great Britain, the DVA on
+0300 200 7862 in Northern Ireland) with the date you read it.
 
 ## Connections
 
@@ -529,3 +534,11 @@ which the MOT history may or may not show.
 16. GOV.UK (DVSA), ["Check the MOT history of a vehicle"](https://www.gov.uk/check-mot-history),
     updated 20 October 2017. **Read: the start page in full, 26 September 2026.** The service itself
     was not read. <!-- SOURCES Part C §5; lesson 20/21 gate closures -->
+17. nidirect (DVA), ["On the day of the MOT test"](https://www.nidirect.gov.uk/articles/day-mot-test),
+    modified 27 August 2026. Northern Ireland. **Read: full text, 26 September 2026.** <!-- Stage 4 note, lesson 21 -->
+18. [Motor Vehicles (Construction and Use) Regulations (Northern Ireland) 1999, regulation 32](https://www.legislation.gov.uk/nisr/1999/454/regulation/32/made),
+    as made. Northern Ireland. **Read: the regulation in full, 26 September 2026.** Later amendments
+    were not read. <!-- lesson 20/21 gate closures; Stage 4 note, lesson 21 -->
+19. nidirect, ["Motor vehicle documentation, learner and newly qualified driver requirements"](https://www.nidirect.gov.uk/articles/motor-vehicle-documentation-learner-and-newly-qualified-driver-requirements),
+    Northern Ireland's Highway Code, modified 22 September 2026. **Read: full text, 26 September
+    2026.** <!-- lesson 20/21 gate closures; Stage 4 note, lesson 21 -->

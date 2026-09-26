@@ -7976,3 +7976,48 @@ the end.
 - ORR, "Monitoring smart motorways", re-read live 26 September 2026 [V]: its related publications
   list "Quality assurance of smart motorways - Fourth-year progress report Published 13 March 2025"
   and the third-year report and before-after assessment, "Published 14 December 2023". Not read.
+
+## Stage 4 note, lesson 21 (2026-09-26)
+
+Re-read live on 26 September 2026 with curl (generic browser User-Agent, no personal data in any
+header), for the lesson 21 fixes. Nothing here clears an entry on the `unread:` line.
+
+- **Motor Vehicle Testing (Extension) Order (Northern Ireland) 1996, SR 1996/12**, as made
+  (legislation.gov.uk, `nisr/1996/12/made`), read in full. Made 15 January 1996 under Art. 63(9) of the
+  1995 Order. Article 3: "Articles 63(2) and 78(3) of the 1995 Order shall have effect with the
+  substitution for each reference to 5 years, of a reference to 4 years." [V] The explanatory note
+  (not part of the Order) gives the reason as compliance with Annex I of Council Directive 77/143/EEC,
+  as amended by 88/449/EEC and 91/328/EEC. **This resolves the lesson 20/21 gate closure's open
+  point:** the revised Art. 63(2)'s "not less than 5 years" is modified to four years by this Order, so
+  the statute as modified and nidirect agree on four years for a car. The note explains four against
+  five, not against Great Britain's three, so lesson 21's "No source this course read gives a reason
+  why Northern Ireland's first test comes a year later than Great Britain's" still stands. The lesson
+  does not name the Order.
+- **GOV.UK, "Getting an MOT"** (content API), "Appeal if your vehicle failed an MOT": "Fill in the
+  complaint form and send it to DVSA within 14 working days of the test." [V] "DVSA will contact you
+  within 5 days to discuss your appeal." [V] A pass the owner thinks should have failed: within 3 months
+  for a corrosion-related problem, 28 days for other defects. The number 0300 123 9000 appears only
+  under "If you're unhappy with your MOT service" and the test-record correction section, not as an
+  appeals line.
+- **nidirect, "After the MOT/ vehicle test"** (modified 22 May 2026): "If the original decision is
+  upheld by the manager, there will be no further appeal open to you" [V]; the after-leaving route
+  "within 14 days of the initial test being carried out" [V], by ringing 0300 200 7862 or by email.
+- **nidirect, "How the MOT scheme works"** (modified 22 May 2026): "However, during normal operating
+  times, as a general rule the points below suggest when your vehicle will be due a MOT test" [V];
+  vehicles of historical interest are "manufactured or first registered over 40 years ago and are no
+  longer in production", not "changed in any major way within the last 30 years", with a 3,500 kg limit
+  for the exemption from the test.
+- **nidirect, "Motor vehicle documentation, learner and newly qualified driver requirements"** (NI
+  Highway Code, modified 22 September 2026), re-read: still "From 30 September 2013, motor vehicles
+  manufactured before 1960 will be exempted from an MOT requirement" [V]. Lesson 21 now says the two
+  nidirect pages differ and goes by the scheme page.
+- **nidirect, "On the day of the MOT test"** (`/articles/day-mot-test`, modified 27 August 2026), read
+  in full: "You will have to exit the vehicle before it enters the test hall and Driver and Vehicle
+  Agency (DVA) staff will take the vehicle through the full test" [V]; "You should stay in the
+  designated waiting area whilst the vehicle is being examined" [V].
+- **nidirect, "The MOT certificate"** (modified 21 September 2026): the exceptions list re-read; home is
+  not one of the three journeys.
+- **Motor Vehicles (Construction and Use) Regulations (Northern Ireland) 1999, reg 32(1)(d)**, as made,
+  re-read: "the tyre has any lump, bulge or tear caused by separation or partial failure of its
+  structure" [V], under "shall not be used on a road, if" [V]. Lesson 21's Omagh checkpoint quotes it
+  without naming the regulation in the body (Sources entry 18 names it).

@@ -394,3 +394,22 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   (courses/CLAUDE.md 2(c)). Lesson 19 should point back to lesson 18's table for whether, and keep its
   own objective to the place's fitness for the jack. Nothing changed in lesson 18.
 - **Quiz keys:** 18 2,1,3,2,0 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 21 fix pass: notes for later lessons
+
+- **An early MOT's cost is certificate lost, not days early.** Tested before the window, the new
+  expiry is a year (minus a day) from the pass; the loss is the gap between that and the expiry a
+  window test would have given (lesson 21's Goole case: 39 days, not 8). Scripts and the test use
+  that sum, labelled as the course's arithmetic.
+- **Great Britain's MOT appeal is a form, not a phone call:** DVSA's complaint form "within 14 working
+  days of the test". 0300 123 9000 is DVSA's line for service complaints and record corrections. In
+  Northern Ireland the DVA's 0300 200 7862 is the appeals line, and a manager upholding the result at
+  the centre ends the appeal.
+- **A failed NI car's exceptions don't cover home, and never a bulged tyre.** NI reg 32(1)(d) bars a
+  tyre with a lump, bulge or tear from separation or partial failure of its structure on any journey.
+  Any script or test item on a failed car in NI says both.
+- **NI's four-year first test is settled in law:** SR 1996/12 art. 3 substitutes four years for five in
+  Art. 63(2). The 1995 Order is still not named in learner text while it is on the `unread:` line.
+  nidirect's two pages differ on the historic exemption (40 years against pre-1960); the course goes
+  by "How the MOT scheme works" and says they differ.
+- **Quiz keys:** 21 1,0,3,1,2 (unchanged by the fix).
