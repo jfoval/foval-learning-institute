@@ -189,7 +189,7 @@ have it done in fifteen minutes.
 
 :::predict Before opening this: does she change it? If not, what does she do, step by step, and does the space saver make any difference?
 
-She does not change it. On a motorway, Rule 277 says "DO NOT attempt repairs on your vehicle", National Highways says the same, and Green Flag, which sells breakdown cover, says not to change a tyre there "even if you're on the hard shoulder or in an emergency area". The side the flat is on, the space saver and her skill don't come into it. So the callout's steps: hazard lights on, sidelights because it is dark, everyone out by the side away from traffic and behind the barrier if there is one, and nobody goes back to the car. From there she calls. If she has stopped near one of the free emergency telephones, she uses it. National Highways also gives 0300 123 5000 for a mobile, from a hard shoulder, an emergency area or a lay-by. If she hasn't stopped near a free emergency telephone, Rule 277 and National Highways both say to call 999 and ask for the police. Then her breakdown service, if she has one. When the car is fixed or towed, leaving an emergency area is law, not advice: Rule 278 says she MUST "use the emergency telephone provided and follow the operator's advice for exiting the emergency area". Lesson 17, "Motorways and fast roads: go left, the live lane, and the smart motorway question", has the rest.
+She does not change it. On a motorway, Rule 277 says "DO NOT attempt repairs on your vehicle", National Highways says the same, and Green Flag, which sells breakdown cover, says not to change a tyre there "even if you're on the hard shoulder or in an emergency area". The side the flat is on, the space saver and her skill don't come into it. So the callout's steps: hazard lights on, sidelights because it is dark, everyone out by the side away from traffic and behind the barrier if there is one, and nobody goes back to the car. From there she calls. If she has stopped near one of the free emergency telephones, she uses it. National Highways also gives 0300 123 5000 for a mobile, from a hard shoulder, an emergency area or a lay-by. If she hasn't stopped near a free emergency telephone, Rule 277 and National Highways both say to call 999 and ask for the police. Then her breakdown service, if she has one. When the car is ready to rejoin the motorway, leaving an emergency area is law, not advice: Rule 278 says she MUST "use the emergency telephone provided and follow the operator's advice for exiting the emergency area". Lesson 17, "Motorways and fast roads: go left, the live lane, and the smart motorway question", has the rest.
 :::
 
 ### The conditions
@@ -401,7 +401,7 @@ constructed as to make the tyre in that condition fit for the use to which the m
 is being put" and the tyre's sides are marked to show it.[11]
 
 How far and how fast is the handbook's, and this course read no handbook for a car with run-flats. The
-general figure read here is TyreSafe's: "Run flat tyres are designed only to be used for 50 miles at a maximum speed of 50 mph."[15]
+general figure read here comes from TyreSafe, the industry-backed charity: "Run flat tyres are designed only to be used for 50 miles at a maximum speed of 50 mph."[15]
 Your handbook's figure is the one for your car. TyreSafe adds a warning of its
 own: "It can be difficult to tell just by looking if your car's run-flat tyres are in a deflated
 condition."[15] On this course's reading, that leaves the pressure warning and a gauge as the ways
@@ -451,7 +451,7 @@ On this course's reading, that is the link back to Toyota's warning at the top: 
 do damage that doesn't show from outside, and that damage is what turns a repairable puncture into a
 new tyre.
 
-TyreSafe says repairs "must only be carried out by a tyre specialist and in accordance with the
+TyreSafe, the industry-backed charity, says repairs "must only be carried out by a tyre specialist and in accordance with the
 current British Standard AU159", and separately that "To stay compliant with the law" repairs can
 only be made on the central three quarters of the tyre.[15] This course read no statute that makes
 either a legal requirement, so it reports them as TyreSafe's.

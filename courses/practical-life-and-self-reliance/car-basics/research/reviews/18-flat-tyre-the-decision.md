@@ -181,3 +181,55 @@ car-basics` and `npm run quiz` flag nothing in this lesson.
 
 **Status after review:** needs second pass. F1 to F3 were safety and neutrality corrections, and the
 M62 case, the conditions table and the run-flat paragraph were rewritten.
+
+## Second pass (2026-09-26)
+**Reviewer:** one, fresh context, all passes, against the live primaries today: Highway Code Annex 6 and
+Rules 275 to 279 (GOV.UK content API); C&U regs 27 and 3 (legislation.gov.uk); 19VAC30-70-130; NHTSA
+"Tires" (capture 20260923145155, re-fetched); Toyota's 2023 Corolla PDF; Honda's 2024 Civic online
+section; Nissan's 2024 LEAF (US) PDF; National Highways, Green Flag, the RAC, the BTMA, USTMA, TyreSafe
+and the California handbook, live.
+
+**Safety.** No sentence, checkpoint, exercise or quiz item sends a reader to change a wheel or place a
+triangle on a motorway, other fast road, hard shoulder, emergency area or fast-road lay-by. The M62
+answer matches Rule 277, National Highways and lesson 17: the free emergency telephone if stopped near
+one, 0300 123 5000 from a mobile, 999 and ask for the police if not near one (National Highways' "if
+you've not stopped near a free emergency telephone" re-read). Rule 278's MUST quoted exactly and labelled
+law. Reg 27(3) worded as lesson 1 and course-wide settled it (an exemption that ends above 50 mph, not a
+speed limit). Callout byte-identical to `CAR_BASICS_SAFETY`; no em or en dashes.
+
+**Quotations re-read live, all exact:** TyreSafe's "subjects the tyre structure to high stress", "both
+unsuitable and unsafe to repair" (its dropped middle clause, "can weaken and permanently damage it",
+doesn't change the sense), "several associations", the 50 miles at 50 mph, the reinforced sidewall,
+"To stay compliant with the law" (a separate sentence from the AU159 one, as the lesson now reports it);
+every BTMA string, including "Repair in area 'T' only" and its two methods as the accepted repair, the
+"not recognised" list, "on the inner liner", "currently suffix g" and "BS AU 159f :1997"; USTMA's four;
+NHTSA's goal, overreactions and five steps (the lesson quotes the fourth step's first sentence only);
+Nissan p. 6-3's tow line (above the 6-4 footer), "cannot permanently seal", the two "Never repair tires"
+lines and the stand-beside warning; National Highways' opening line, 0300 line and "other help as
+required, such as a Traffic Officer"; Honda's three recheck bands (19 psi; rear 32 psi, 220 kPa), 60 psi,
+the differential and the jack lines; Toyota's flat-tyre, 50 mph, speed-detection and sealant-sensor lines.
+`npm run quotes car-basics`: 0 not found.
+
+**The corrected BTMA reading.** Neither lesson 18 nor lesson 19 relied on the earlier misreading:
+lesson 18 now says "For a repair it accepts"; lesson 19 does not mention the BTMA, area 'T' or plugs.
+
+**Pedagogy and voice.** Objective 2 is testable and Q3 tests it with a new case (a rear burst weaving on
+a US interstate). The two-column kit table renders at 375 px in both themes with no overflow (checked
+headless). The exercise carries "Touch nothing orange or labelled high voltage." Quiz explanations read
+against every option: each key is right and each distractor answered by content. Keys 2,1,3,2,0: all
+four used, no adjacent repeat, no identical or value-shifted sequence among lessons 1 to 21 on disk, no
+run of four shared with the five nearest. Option spreads 3, 4, 9, 5, 7.
+
+**Fixed here (one edit each):**
+1. S1 [minor] "When the car is fixed or towed, leaving an emergency area is law": a towed car's driver
+   doesn't rejoin, and Rule 278 is about rejoining. Now "When the car is ready to rejoin the motorway".
+2. S2 [minor] TyreSafe unlabelled at two uses ("The general figure read here is TyreSafe's"; "TyreSafe
+   says repairs 'must only be carried out'"). Both now carry "the industry-backed charity".
+
+**Noted, not changed:** Mazda's kit speed is "80 km/h (50 mph) or less" where the lesson says "below 50
+mph" for all three kits; too small to act on. The M62 case doesn't say "England" beside the 0300 number,
+but the M62 is in England and lesson 17 carries the scope.
+
+**Measures.** `npm run minutes` 90 (claimed 90); 7,327 words by its count.
+
+**Verdict: CLEAN.**
