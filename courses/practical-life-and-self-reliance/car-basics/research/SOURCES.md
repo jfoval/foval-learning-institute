@@ -5186,3 +5186,298 @@ contradict the lesson. No licensed photograph of a placard was found. Lesson 7 h
   fetched live 2026-09-26 [V]: "generally, it's advised to replace it every 40,000 to 100,000
   miles." The page's introduction says 60,000 to 100,000 (already recorded). The page disagrees
   with itself; lesson 02 quotes both and leans on neither.
+
+## Gate closures, lesson 06 (2026-09-26)
+
+*Read by the lesson 06 drafter on 26 September 2026 with curl and a browser User-Agent (no personal data
+in any header), the eCFR versioner API (point in time 2026-09-24, compressed response), the GOV.UK
+content API, and pdftotext (-layout and -raw). Quotations marked [V] were copied from that extracted text.
+**G-H4 is closed** (a current handbook gives a brake-fluid interval; a current handbook states the
+pad-wear link; a current handbook says brake fluid damages paint). **G-H13 is not closed**: no source read
+explains how a hydraulic brake turns pedal effort into braking; the regulation's and handbooks' words name
+the parts (master cylinder, reservoir compartments, wheel cylinders or caliper pistons) and the lesson says
+no more. **G-H1 is not closed for steering and suspension**: no source read explains how either works; the
+lesson gives owner-visible signs from Annex 6, Nissan's and Ford's handbooks and the MOT manual. Nothing
+here clears an entry on the `unread:` line (the MOT manual's section 2, Steering, stays unread).*
+
+- **49 CFR 571.116, FMVSS No. 116** (eCFR versioner, 2026-09-24; last amended 2017-09-05). **Read: S1 to
+  S5.2.2.3 in full, and S6.2 (the wet test).** S2: "The purpose of this standard is to reduce failures in
+  the hydraulic braking systems of motor vehicles which may occur because of the manufacture or use of
+  improper or contaminated fluid." [V] S5.1.1 and S5.1.2 as Part A records ("(a) DOT 3: 205 °C. (401
+  °F.)."; "(b) DOT 4: 230 °C. (446 °F.)."; "(a) DOT 3: 140 °C. (284 °F.)."; "(b) DOT 4: 155 °C. (311
+  °F.)." [V]); these are minimums: "the ERBP shall not be less than the following value for the grade
+  indicated" [V] (ERBP, "Equilibrium reflux boiling point" [V]). **The wet test, exactly (S6.2.5):** the
+  fluid under test and a reference fluid (SAE TEGME) are humidified in the same desiccators; "When the
+  water content of the SAE fluid reaches 3.70 ±0.05 percent by weight (average of the duplicates). remove
+  the two test fluid specimens from their desiccators" [V, the source's full stop]; the test fluid's own
+  water content is then measured, not set. So "wet" means humidified until the **reference** fluid holds
+  3.70 per cent water, not that the brake fluid under test does (OUTLINE's "wet defined at about 3.7 per
+  cent water" is loose; Part A's wording is right). S5.2.2.2(g)(1): "FOLLOW VEHICLE MANUFACTURER'S
+  RECOMMENDATIONS WHEN ADDING BRAKE FLUID." [V] S5.1.14: "DOT 3, DOT 4, and DOT 5.1 non-SBBF—colorless to
+  amber." [V, the source's em dash; not quoted in a lesson] and "DOT 5 SBBF—purple." [V, likewise].
+- **49 CFR 571.135, FMVSS No. 135** (eCFR versioner, 2026-09-24; last amended 2023-12-05). **Read: S1 to
+  S5.5.5 in full.** S3: it applies "to passenger cars manufactured on or after September 1, 2000" [V] and
+  to light multipurpose vehicles, trucks and buses from 1 September 2002. S4: "Regenerative braking system
+  or RBS means an electrical energy system that is installed in an EV for recovering or dissipating kinetic
+  energy, and which uses the propulsion motor(s) as a retarder for partial braking of the EV while
+  returning electrical energy to the propulsion battery(s) or dissipating electrical energy." [V] S5.1.3(b):
+  "For an EV that is equipped with both ABS and RBS that is part of the service brake system, the ABS must
+  control the RBS." [V] S5.4.1: "A master cylinder shall have a reservoir compartment for each service
+  brake subsystem serviced by the master cylinder. Loss of fluid from one compartment shall not result in a
+  complete loss of brake fluid from another compartment." [V] S5.4.2 sizes the reservoir: "a total minimum
+  capacity equivalent to the fluid displacement resulting when all the wheel cylinders or caliper pistons
+  serviced by the reservoirs move from a new lining, fully retracted position (as adjusted initially to the
+  manufacturer's recommended setting) to a fully worn, fully applied position" [V]. S5.4.4 as Part A,
+  continuing: "This requirement is deemed to have been met if the vehicle is equipped with a transparent
+  brake fluid reservoir or a brake fluid level indicator meeting the requirements of S5.5.1(a)(1)." [V]
+  S5.5.1(a)(1): the indicator comes on at "A drop in the level of the brake fluid in any master cylinder
+  reservoir compartment to less than the recommended safe level specified by the manufacturer or to
+  one-fourth of the fluid capacity of that reservoir compartment, whichever is greater." [V] S5.5.1(c):
+  "Application of the parking brake." [V] S5.5.1(d): "Brake lining wear-out, if the manufacturer has elected
+  to use an electrical device to provide an optical warning" [V]. S5.5.2: indicators light as a check "when
+  the ignition (start) switch is turned to the “on” (“run”) position when the engine is not running" [V]
+  (the first of the options). S5.5.3: an indicator "shall remain activated as long as the condition exists"
+  [V]. S5.5.5(b): a common indicator "shall display the word “Brake.”" [V]
+- **DVSA, MOT inspection manual, section 1 "Brakes"** (content API; section updated 1 June 2026). **Read:
+  the section in full once; 1.1.10, 1.1.13, 1.6 and 1.8 closely.** Great Britain. 1.1.10: "Hydraulic brake
+  fluid level checks are confined to transparent reservoirs or where an indicator is fitted. Reservoir caps
+  should not be removed." [V]; "A brake fluid warning lamp may be shared with other components, for example
+  to indicate that brake pads are worn or the parking brake is applied." [V]; defects "Brake fluid below
+  minimum mark" Minor, "Brake fluid significantly below minimum mark" Major, "Brake fluid not visible"
+  Dangerous, "Master cylinder leaking" Dangerous, "Master cylinder reservoir cap missing" Major, "Brake fluid
+  warning light illuminated or defective" Minor [V each]. 1.1.13: "Some brake pads have metal wear
+  indicators so that when the pads become excessively worn the metal indicator touches the disc making a
+  squealing sound." [V]; "An illuminated brake wear indicator is not a reason for failure." [V]; "Brake
+  lining or pad worn down to wear indicator" Major, "Brake lining or pad worn below 1.5mm" Dangerous [V].
+  1.6: "It’s not permissible to remove or disable the ABS from a vehicle first used on or after 1 January
+  2010." [V]; "Warning device shows system malfunction" Major [V]. 1.8: "On many vehicles, you will not be
+  able to see if the brake fluid is contaminated. You should only fail a vehicle if you can clearly see that
+  the fluid is contaminated." [V]; "Brake fluid contaminated" Major [V].
+- **DVSA, MOT inspection manual, section 5, 5.3.2 "Shock absorbers"** (content API; updated 1 June 2026).
+  **Read: 5.3 to 5.3.2 in full, the 5.3 contents list.** "A shock absorber must be rejected if negligible
+  damping effect becomes evident at any point during the inspection." [V]; "Slight seepage causing a film
+  of fluid on a shock absorber is not a reason for rejection." [V]; "A shock absorber which has negligible
+  damping effect" Major; "A shock absorber damaged to the extent that it does not function or showing signs
+  of severe leakage" Major [V]. The 5.3 contents list: "Springs", "Shock absorbers", "Suspension arms, rods,
+  struts, sub-frames, anti-roll bars etc.", "Suspension joints, pins and bushes" [V]. Nothing in it explains
+  what the parts do.
+- **The Highway Code, Annex 6** (content API, 2022-01-29), re-read in full. The shock-absorber item whole:
+  "continues to bounce after pushing down on the front or rear, its shock absorbers are worn. Worn shock
+  absorbers can seriously affect the operation of a vehicle and should be replaced" [V] (the list item, after
+  "If your vehicle"). The pull item whole: "pulls to one side when braking, it is most likely to be a brake
+  fault or incorrectly inflated tyres. Consult a garage or mechanic immediately" [V]. "Take special care
+  that lights, brakes, steering, exhaust system, seat belts, demisters, wipers, washers and any audible
+  warning systems are all working." [V]
+- **The Highway Code, Rules 103 to 158** (content API, 2023-09-17). **Read: Rules 117 to 123 in full.** Rule
+  120 whole: "ABS. If your vehicle is fitted with anti-lock brakes, you should follow the advice given in the
+  vehicle handbook. However, in the case of an emergency, apply the footbrake firmly; do not release the
+  pressure until the vehicle has slowed to the desired speed. The ABS should ensure that steering control
+  will be retained, but do not assume that a vehicle with ABS will stop in a shorter distance." [V] Rule 121
+  whole: "Brakes affected by water. If you have driven through deep water your brakes may be less effective.
+  Test them at the first safe opportunity by pushing gently on the brake pedal to make sure that they work.
+  If they are not fully effective, gently apply light pressure while driving slowly. This will help to dry
+  them out." [V] Both are advice (should, do), not MUST rules.
+- **Nissan, 2024 LEAF Owner's Manual (US)**, PDF, re-read in pdftotext -raw. **p. 2-17**: the brake light
+  "remains illuminated for about a few seconds" at start-up; "If the light illuminates at any other time, it
+  may indicate that the hydraulic brake system is not functioning properly. If the BRAKE warning light
+  illuminates, stop the vehicle immediately and have the system checked." [V, hyphenation joined]; the low
+  brake fluid warning: "If the brake fluid level is correct, have the warning system checked." [V]; "If you
+  judge the brake system to be safe, drive carefully to the nearest service station for repairs. Otherwise,
+  have your vehicle towed because driving it could be dangerous." [V]; "If the brake fluid level is below the
+  minimum or MIN mark on the brake fluid reservoir, do not drive until the brake system has been checked." [V]
+  **pp. 5-160 to 5-163** ("Brake system", "Anti-lock Braking System (ABS)"): "Avoid resting your foot on the
+  brake pedal while driving. This will cause overheating of the brakes, wearing out of the brake pads and
+  shoes faster, and will reduce driving range." [V]; "Overheated brakes may reduce braking performance and
+  could result in loss of vehicle control." [V]; wet brakes: "the braking distance will be longer and the
+  vehicle may pull to one side during braking." [V]; ABS: "The ABS controls the brakes so the wheels do not
+  lock during hard braking or when braking on slippery surfaces. The system detects the rotation speed at
+  each wheel and varies the brake fluid pressure to prevent each wheel from locking and sliding." [V]; "By
+  preventing each wheel from locking, the system helps the driver maintain steering control and helps to
+  minimize swerving and spinning on slippery surfaces." [V]; "Remember that stopping distances on slippery
+  surfaces will be longer than on normal surfaces even with ABS." [V]; "Stopping distances may also be longer
+  on rough, gravel or snow covered roads, or if you are using tire chains." [V]; "If the computer senses a
+  malfunction, it switches the ABS off and illuminates the ABS warning light on the instrument panel. The
+  brake system then operates normally, but without anti-lock assistance." [V]; "When the ABS senses that one
+  or more wheels are close to locking up, the actuator rapidly applies and releases hydraulic pressure. This
+  action is similar to pumping the brakes very quickly." [V]; "The vehicle brakes are not affected by
+  regenerative brake system operation." [V]. **p. 8-7** ("Brake fluid"): "Use only new fluid from a sealed
+  container. Old, inferior or contaminated fluid may damage the brake system." [V]; "Clean the filler cap
+  before removing." [V]; "Do not spill the fluid on any painted surfaces. This will damage the paint." [V];
+  and Part B's quotations, which stand. **pp. 9-3 to 9-4** (owner checks): "Brakes: Check that the brakes do
+  not pull the vehicle to one side when applied." [V]; "Wheel alignment and balance: If the vehicle pulls to
+  either side while driving on a straight and level road, or if you detect uneven or abnormal tire wear,
+  there may be a need for wheel alignment." [V]; "If the steering wheel or seat vibrates at normal highway
+  speeds, wheel balancing may be needed." [V]; "Steering wheel: Check for changes in the steering
+  conditions, such as excessive free play, hard steering or strange noises." [V]; Part B's brake-pedal line
+  stands. **pp. 9-6 to 9-9** (maintenance schedules): "Perform at number of miles, kilometers or months,
+  whichever comes first." [V]; the standard schedule lists "Replace brake fluid" [V] at "30,000 miles/(48,000
+  km)/ 24 months" [V, line break joined] and at each 30,000 miles thereafter; the severe-use schedule adds it
+  at 15,000 miles/12 months and every 30,000 miles after that (so every 15,000 miles or 12 months); the
+  severe conditions include "Repeated short trips of less than 5 miles (8 km)." [V]; inspection items
+  include "Suspension components (shocks, sub-frame, tie rods)" [V], "Steering gear and linkage" [V] and
+  "Brake pads & rotors" [V]. Nissan's figures are Nissan's, for this car.
+- **Ford, 2024 Maverick Owner's Manual** (US and Canada), Internet Archive capture 20250505042038, read in
+  pdftotext -raw. **pp. 192 to 194 read in full, and p. 379.** p. 192: "Wet brakes result in reduced braking
+  efficiency. Gently press the brake pedal a few times when leaving a car wash or driving from standing
+  water to dry the brakes." [V]; "The anti-lock braking system does not eliminate the risk of crash when:"
+  [V], followed by driving too close, hydroplaning, cornering too fast and a poor road surface; "This system
+  helps you maintain steering control during emergency stops by keeping the brakes from locking." [V]; "Note:
+  If the system activates, the brake pedal could pulse and travel further. Maintain pressure on the brake
+  pedal." [V]. p. 193: "WARNING: Do not use any fluid other than the recommended brake fluid as this will
+  reduce brake efficiency." [V]; "Note: To avoid fluid contamination, the reservoir cap must remain in place
+  and fully tight, unless you are adding fluid." [V]; "WARNING: Do not allow the fluid to touch your skin or
+  eyes." [V]; "1. Park your vehicle on a level surface." [V]. p. 194: "WARNING: Driving your vehicle with the
+  warning lamp on is dangerous. A significant decrease in braking performance may occur. It may take you
+  longer to stop your vehicle." [V]; "If a metal-to-metal, continuous grinding or continuous squeal sound is
+  present, the brake linings may be worn-out and an authorized dealer should check them." [V]; "If the
+  vehicle has continuous vibration or shudder in the steering wheel while braking, an authorized dealer
+  should check your vehicle." [V]; "Brake fluid absorbs water over time which degrades the effectiveness of
+  the brake fluid. Change the brake fluid at the specified intervals to prevent degraded braking
+  performance." [V]. p. 379: Ford recommends "Dot 4 Low Viscosity (LV) High Performance Brake Fluid" [V,
+  spacing restored]. p. 457: "For your scheduled maintenance service intervals, visit
+  https://www.ford.com/support/maintenance-schedule." [V]; the handbook itself prints no brake-fluid
+  interval. p. 459 multi-point inspection lists "Suspension components for leaks or damage" and "Steering
+  and linkage" [V each].
+- **Toyota, 2023 Corolla Owner's Manual (US), OM02568U**, PDF (URL as Part E), pdftotext -layout. **p. 147**:
+  "If you hear a squealing or scraping noise (brake pad wear indicators)" [V, heading] "Have the brake pads
+  checked and replaced by your Toyota dealer as soon as possible." [V]; "It is dangerous to drive the vehicle
+  when the wear limits of the brake pads and/or those of the brake discs are exceeded." [V]. **pp. 308 to
+  309** ("Checking and adding the brake fluid"): "The brake fluid level should be between the “MAX” and
+  “MIN” lines on the tank." [V]; fluid type "FMVSS No.116 DOT 3 or SAE J1703 brake fluid" or "FMVSS No.116
+  DOT 4 or SAE J1704 brake fluid" [V]; "Excess moisture in the brake fluid can cause a dangerous loss of
+  braking efficiency. Use only newly opened brake fluid." [V]; "Take care as brake fluid can harm your hands
+  and eyes and damage painted surfaces." [V]; "It is normal for the brake fluid level to go down slightly as
+  the brake pads wear out or when the fluid level in the accumulator is high. If the reservoir needs
+  frequent refilling, there may be a serious problem." [V]. This is the current handbook G-H4 asked for.
+  **p. 356** ("Brake system warning light", red): it indicates that "The brake fluid level is low; or" "The
+  brake system is malfunctioning" [V] and says "Immediately stop the vehicle in a safe place and contact your
+  Toyota dealer. Continuing to drive the vehicle may be dangerous." [V]
+- **Also read for lesson 06, [V]:** FMVSS 116 S1: "This standard specifies requirements for fluids for use in
+  hydraulic brake systems of motor vehicles, containers for these fluids, and labeling of the containers."
+  [V]; S5.2.2.2(g)(4): "CAUTION: DO NOT REFILL CONTAINER, AND DO NOT USE FOR OTHER LIQUIDS." [V] (the fourth
+  warning). Nissan 2024 LEAF p. 5-162: "The Anti-lock Braking System (ABS) operates at speeds above 3 to 6
+  mph (5 to 10 km/h)." [V]
+  FMVSS 135 S5.4.4 whole: "Brake fluid reservoirs shall be so constructed that the level of fluid can be
+  checked without need for the reservoir to be opened. This requirement is deemed to have been met if the
+  vehicle is equipped with a transparent brake fluid reservoir or a brake fluid level indicator meeting the
+  requirements of S5.5.1(a)(1)." [V]
+  Ford 2024 Maverick p. 194, FAQ "Is brake noise considered normal?": "Occasional brake noise is normal." [V]
+
+## Gate closures, lesson 08 (2026-09-26)
+
+*Read on 26 September 2026 by the lesson 8 drafter, with curl and a browser User-Agent (no personal
+data in any header), text extracted with a small HTML stripper or pdftotext, and the GOV.UK content
+API. Quotations marked [V] were copied from that extracted text; curly apostrophes are written
+straight. The reads shared with lesson 7 (reg 27 in full, the MOT manual's section 5, Annex 6, NHTSA
+"Tires", 49 CFR 574.5 and 575.104, AAA Exchange, s.41A and s.48) are recorded in "Gate closures,
+lesson 07" above. Nothing here clears an entry on the `unread:` line: "MIRA", "MIRA wet braking
+test" and "Royal Mint 20p specification" stay on it.*
+
+**G-T1 (the 20p band): not closed; fallback.** The width rests on the AA alone, attributed. **The AA,
+"Check your tyres for proper tread depth"**, re-read in full ("Published: 29 October 2024 | Updated: 29
+October 2024 | Author: The AA" [V]). Part B's quotations stand. New lines: "New tyres start with about 8
+mm of tread depth" [V]; "You should consider replacing them at 3 mm" [V] (in the page's summary list,
+above the body's "Aim to replace tyres before the tread wears below 2 mm." [V], so the page gives both);
+"The best way to test your tyres is to use a calibrated tyre gauge." [V]; "To use, place the gauge into
+the tyre's groove." [V]; "It could get you a fine of up to £2,500 and 3 points on your licence. And
+that's just per tyre." [V] (the per-tyre points claim the Sentencing Council contradicts; not
+repeated as fact); "You can expect around 1,000 miles out of your tyres if they're down to 2 mm of
+tread." [V]; "You can expect to get around 20,000 miles out of 5 mm of tyre tread" [V] (the sentence
+continues after a dash).
+
+**G-T2 (the 44% test): not closed; fallback.** The report was not read, and the test house is not
+named in the lesson. **TyreSafe, "How to Check Your Tyre Tread Depth"** (last updated 16 September
+2026), re-read in full. Its 44% sentence names the test house and is paraphrased, not quoted. New
+lines: "The deeper the tyre tread, the more water it can clear from the road surface and the better
+its grip. As the tread wears down or water depth increases, grip is reduced." [V] "Aquaplaning occurs
+when the water cannot be removed from between the tyre and the road." [V] "While the legal limit is
+1.6mm, experts actually recommend that you have your tyres replaced sooner. You should have your tyre
+replaced once it reaches 2mm and the minimum tread depth commonly advised by tyre and safety experts is
+3mm." [V] "Tyre treads are designed to give good grip on wet roads but in general wet grip decreases as
+the tyre tread depth approaches the legal minimum." [V] "For the same reason, motorists may wish to
+consider replacing tyres before reaching the tyre tread limit." [V] "You should check your tyres at
+least once a month and before any long journeys." [V] "Generally, tyres with 3mm of tread depth may last
+between 10,000 and 20,000 miles. Actual lifespan can vary widely depending on factors like driving
+style, tyre type, road surface, and maintenance. Manufacturors do not provide mileage predictions for
+tread depth for this reason." [V, spelling as in source] "tyres with 2mm of tread depth may last ~1000
+miles" [V]. "If you can't see the coin's outer band, your tyres are above the legal limit." [V] (the
+page's own looser wording, beside the 20p page's "may be illegal"). The page still carries "three
+penalty points PER tyre" [V]. **The 20p page** (last updated 11 December 2025) and **the condition
+page** (last updated 11 December 2025) re-read: Part B's quotations stand.
+
+**G-G3: fallback.** TyreSafe labelled as a charity backed by tyre makers, carmakers and retailers. The
+"About TyreSafe" page (last updated 16 September 2026) re-read; it gives no income sources.
+
+**TyreSafe supporter page, "Michelin"**, re-read in full. The sentence before Part B's quotation, which
+concedes ground: "The fact that wet braking performance, which is key to safety, decreases as tyres
+are used highlights the importance of evaluating worn tyres." [V] The cost and environment passage in
+full: "But Michelin's Long-Lasting Performance approach goes beyond enabling everyone to insist on
+tyres that stay safe from the first mile to the last: it's also good for the environment and
+consumers' budgets. How? Because having tyres that are still safe when worn means changing our tyres
+less often. That's better for the planet since it saves resources and reduces CO2 emissions." [V] The
+page also makes a product claim about one of its tyres' braking distance after 18,000 miles; not used,
+and no test data comparing depths is given.
+
+**RAC Drive, "Tyre tread depth, UK law and tyre safety checks"** (page data "date":"2026-09-07"), re-read
+in full. New lines: "The difference in wet braking distance between a tyre worn to 3mm and one worn to
+1.6mm can be as much as 44%." [V] (the sentence before it names the test house and is not quoted);
+"Driving a car with bald tyres can risk a fine of £2,500 and three penalty points. That's per tyre,
+too." [V] (the per-tyre claim; not repeated as fact); "If your tyre tread is below or neat the legal
+limit, we would recommend that you purchase a replacement tyre. Head over to RAC Tyres where we sell
+everything from budget to premium brands." [V, "neat" as in source]. The RAC sells tyres as well as
+breakdown cover. "We suggest drivers conduct the 20p test around every two weeks and before long
+journeys." [V]
+
+**AAA, "Tread Lightly: Worn Tires Put Drivers at Risk"** (news release, 7 June 2018), re-read in full.
+The lede: worn tyres "can increase average stopping distances by a staggering 43 percent, or an
+additional 87 feet" (the sentence continues after a dash) "when compared to new tires" [V]. "While
+AAA's research found that tire performance does vary by brand, price is not necessarily an indicator of
+quality. In fact, worn tire performance deteriorated significantly for all tires tested, including those
+at a higher price point." [V] The warranty passage whole: "Unfortunately, current industry guidelines
+and state laws and regulations frequently recommend that drivers wait until tread depth reaches 2/32"
+to replace tires. Not only does this recommendation jeopardize a driver's safety, it minimizes
+manufacturer warranty costs and is often paired with environmental concerns." [V] The test compared new
+tyres with tyres worn to 4/32 inch; the release reports no 2/32 condition. The full research report it
+links to was not read.
+
+**Virginia State Police, Motor Vehicle Safety Inspection Manual (2026)**, 19VAC30-70-130 re-read in full
+(pdftotext -layout). New lines: "NOTE: Measure in two adjacent tread grooves where tread is thinnest.
+Refer to Figure 1. If either of the grooves measure 2/32 of an inch or more, no further measurements are
+necessary and tread depth is satisfactory. Do not take measurements from the tread wear indicators."
+[V] "If both adjacent grooves measure less than 2/32 of an inch, the tire tread depth must be measured
+again at two additional equally spaced intervals around the circumference of the tire in a like manner
+as the first measurement." [V] "If the tread depth is less than 2/32 of an inch in two adjacent tread
+grooves at each of the equally spaced intervals, the tire must be rejected." [V] Item 7 rejects a tyre
+with wear indicators "in contact with the pavement in any two adjacent grooves at three equally spaced
+intervals around the circumference of the tire." [V] Item 8: "Any tire has a cut or puncture into the
+fabric. This does not include a plug or patch that may be used as a manner of repair." [V] "Plugs or
+patches shall be in the tread area only." [V] Item 10 covers "knots or bulges in its sidewalls" [V].
+No age rule in the section.
+
+**PennDOT Pub 45 (2-26), § 175.80(e)(1)**, re-read. Part D's quotations stand. Also "(iii) A part of ply
+or cord is exposed." [V] and "(v) There is a bump, bulge or separation." [V] The (i) sentence continues
+after a spaced hyphen to "less than 4/32-inch tread on front tires of the vehicles having a gross weight
+in excess of 10,000 pounds." [V] No age rule in the paragraph.
+
+**New York State DMV** (capture 20260710141515; see "Gate closures, lesson 07"): "Tire condition - check
+for any fabric break or cut over the length or width of 1 inch, visible bumps, bulges or knots, and any
+restricted use designation on the tire" [V] (the hyphen is the page's).
+
+**49 CFR 393.75**, eCFR versioner API (version of 24 September 2026), re-read. "(b) Any tire on the front
+wheels of a bus, truck, or truck tractor shall have a tread groove pattern depth of at least 4/32 of an
+inch when measured at any point on a major tread groove." [V] "(c) Except as provided in paragraph (b)
+of this section, tires shall have a tread groove pattern depth of at least 2/32 of an inch when measured
+in a major tread groove." [V] **G-L13: fallback**, as OUTLINE gives it.
+
+**Sentencing Council, "Tyres defective"** and **DVLA endorsement codes** (updated 27 January 2025),
+re-read. Part C's quotations stand. The guideline's own table gives "Level 4" as "£2,500" [V], and its
+maximum line reads "Maximum for vehicles up to 3.5 tonnes: Level 4 fine" [V].
+
+**G-N4 (photographs), lesson 8: closed for one photograph.** Wikimedia Commons, "File:Autoreifen mit
+Verschleißanzeige.JPG", https://commons.wikimedia.org/wiki/File:Autoreifen_mit_Verschlei%C3%9Fanzeige.JPG,
+by Quallyptus, 19 November 2015, "Own work"; licence read from the file's metadata through the Commons
+API: "CC0" [V], http://creativecommons.org/publicdomain/zero/1.0/deed.en. The file's description:
+"Reifenprofil zur Veranschaulichung der Reifenverschleißanzeige" [V] (a tread shown to illustrate the
+wear indicator). The picture shows a worn tread with "TWI" moulded near the shoulder; no brand is
+legible. The file page itself, read the same day, states "This file is made available under the
+Creative Commons CC0 1.0 Universal Public Domain Dedication." [V]
