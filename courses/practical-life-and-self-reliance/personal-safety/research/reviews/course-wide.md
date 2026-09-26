@@ -255,3 +255,39 @@
   pass could check each exercise's priced total against its real length.
 - **Quiz keys:** lesson 10 is 3,2,0,2,1,0 (unchanged). Lesson 11's fixer should rerun the check
   against lessons 1 to 10 under the relaxed rule.
+
+## 2026-09-25 — from lesson 11's Stage 4 fix
+
+- **G9 is closed: the CPS rape myths annex is live**, as Annex A of the CPS *Rape and Sexual Offences
+  Prosecution Guidance - Full Page Version* (dated 24 June 2026, updated 29 and 30 June 2026),
+  `...full-page-version#annex-a`. Cite the live page, never the 2021 capture. Its scream myth now
+  reads "...then it could not have been rape"; the capture's freedom and capacity lists ("Position
+  of power", "asleep or unconscious") are gone. Details and a 98-string verbatim block in SOURCES
+  "Gate closures, lesson 11". Lessons 13 to 15 and any script quoting the annex use the live text.
+- **The annex's "reluctant but free" line is never quoted alone.** It applies "especially, but not
+  exclusively, in the context of a long-term loving relationship", and the annex sets against it
+  the relationship and coercive-control line and *Ali and Ashraf*. A partner-survivor reading one
+  half without the other is the harm.
+- **Kozlowska is quoted to "when active defense responses have failed"** wherever "last resort"
+  appears, and tonic immobility is a last-resort response, not the cascade's last stage. Möller ties
+  the freeze to the woman's own history (earlier trauma, psychiatric treatment) as well as the
+  attack: never present a freeze as a measure of how bad an attack was.
+- **Tark and Kleck 2014 (rape):** most resistance made no significant difference to further injury.
+  Never "reduced injury" or "the opposite of worse" for that paper, and never "counted only
+  injuries after resistance" (they "took into account" the order). Lesson 10's "points the same
+  way" is now narrowed to completed rapes (lesson 10's review file has the note).
+- **Read the resistance evidence as the survivor who fought and was raped or hurt anyway**, as well
+  as the one who froze. Lesson 11 now says to both that nothing in the averages says what was
+  possible for them. Lesson 12, which teaches the trials, should keep both lines.
+- **"Common" for freezing:** lesson 11 now uses Rape Crisis's "very common" line (practitioner,
+  written for everyone) and Möller's one-sample figure, each marked. The lesson 9 convention stands
+  for every other lesson.
+- **Content notes in sexual-violence lessons are set out by nation**, one short paragraph each with a
+  bold nation name, as lesson 7's "Help first" box is; lesson 11's was 1,327 px tall as one paragraph
+  on a phone. Lessons 12 and 15 should follow; the "Course conventions" line could say so.
+- **For the orchestrator (P8):** lesson 11's keys 0,2,1,2,0,3 pass the rule but share a run of four
+  with lesson 8 at offset −2, and only six sequences passed at all. The lesson 12 rule already in
+  "Course conventions" addresses this.
+- **Measured pattern seen again: an archived page treated as current.** The drafter found the old
+  URL dead and the site search empty, and cited a 2021 capture; the page had moved into a combined
+  full-page version. Search the site for a phrase from the page's own text, not only its title.

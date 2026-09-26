@@ -1,6 +1,6 @@
 ---
 title: "Sexual assault: the freeze, resistance and the law"
-minutes: 95
+minutes: 100
 objectives:
   - >-
     State where responsibility for a sexual assault lies, and what the prosecutors' guidance for
@@ -17,8 +17,8 @@ objectives:
     services advise when someone tells you it happened to them
 quiz:
   - q: >-
-      A training video for new jurors in England shows a complainant who went completely still and
-      said nothing throughout. One juror asks what the law actually makes the central question. On
+      A training video for new jurors in England shows a woman who says she was raped, and who went
+      completely still and said nothing throughout. One juror asks what the law actually makes the central question. On
       the prosecutors' guidance and the statute for England and Wales, taught here as general
       information, which is it?
     options:
@@ -43,7 +43,7 @@ quiz:
       Which answer fits the sources in this lesson best?
     options:
       - It suggests consent in law, since a person who does not resist is taken to have agreed
-      - It is unusual, since the one study found that immobility in only a small minority of people
+      - It is unusual, since the one study found immobility in only a small minority of people
       - It sounds like an involuntary response, and in England and Wales consent is a choice
       - It depends on how long it lasted, since only a very brief freeze is ever involuntary
     answer: 2
@@ -63,16 +63,17 @@ quiz:
     options:
       - None, since a survey like this records the order of events for every incident anyway
       - Some injuries may have come first and prompted the resisting, not the other way round
-      - Survey answers about injuries can never be trusted, so the result tells you nothing
+      - Injuries recalled in a survey are too vague to show whether fighting back caused them
       - Fighting back cannot change injury, since an attacker's plan is fixed before he starts
     answer: 1
     explain: >-
       Without the order, an injury that came first and led someone to fight back looks the same as
-      one caused by fighting back. That is the reading Ullman asked researchers to rule out, and it
-      is why Tark and Kleck counted only injuries that followed resistance. The option saying
-      surveys always record the order is wrong for this analysis, which by the question's own
-      account did not. Survey answers have limits, but "can never be trusted" goes far past them,
-      and nothing read here says an attacker's plan is fixed.
+      one caused by fighting back. That is why Ullman asked for data on which came first, the attack
+      or the resistance, and why Tark and Kleck took account of whether each injury came before or
+      after it. The option saying surveys always record the order is wrong for this analysis, which
+      by the question's own account did not. Vagueness is not the main problem: even an exact
+      record of injuries can't show what caused them without the order. Nothing read here says an
+      attacker's plan is fixed.
   - q: >-
       A college safety leaflet in England gives most of its space to strangers in car parks and on
       the walk home at night. On the ONS figures for England and Wales in this lesson, what is the
@@ -111,43 +112,56 @@ quiz:
     options:
       - The comment, since the studies found that resisting stops rape in almost every case
       - The reverse, since the studies found that resisting usually makes the injuries worse
-      - Nothing either way, since no study has looked at resisting a sexual assault at all
+      - Nothing either way, since the studies of resisting a sexual assault are too few to say
       - Only averages across many incidents, which say nothing of what was possible in one
     answer: 3
     explain: >-
-      Ullman's review and Tark and Kleck's abstract found that resistance went with fewer completed
-      rapes on average, and that injuries after resistance were rare. Those are averages across
+      Ullman's review found consistent evidence that forceful resistance helped avoid rape, and Tark
+      and Kleck's abstract found that most resistance, forceful or not, went with fewer completed
+      rapes and made no significant difference to further injury. Those are averages across
       incidents, from studies that cannot randomise anyone, and they say nothing about what was
-      possible for one person, least of all someone whose body froze. They do not show resisting
-      works in almost every case, they found the opposite of resisting making injuries worse, and
-      the field has plenty of studies, so "no study" is wrong too.
+      possible for one person, least of all someone whose body froze. They do not show that
+      resisting works in almost every case, they did not find that resisting made injuries worse,
+      and Ullman was already reviewing a body of studies in 1997, so "too few to say" is wrong too.
 ---
 
 :::callout Content note
-This whole lesson is about rape and sexual assault. It describes what happens to the body during an assault, the law, research on resisting, and what to say when someone tells you it happened to them, and the quiz and the exercise draw on all of it. If you'd like to talk to someone: in England and Wales, the Rape Crisis 24/7 Support Line is on 0808 500 2222 for anyone 16 or over,[14] and Victim Support is on 08 08 16 89 111, free and 24/7, whether or not you have reported anything.[14] In Wales, Live Fear Free is on 0808 80 10 800, 24 hours a day, for anyone experiencing domestic abuse or sexual violence, and calls are welcome in Welsh.[14] In Scotland, Rape Crisis Scotland's helpline is on 08088 01 03 02, any day from 5pm to midnight, for people of all genders aged 13 or over,[14] and Victim Support Scotland is on 0800 160 1985, 8am to 8pm on weekdays and 10am to 4pm at weekends.[14] In Northern Ireland, the Domestic and Sexual Abuse Helpline is on 0808 802 1414, 24/7, for anyone 18 or over;[14] Rape Crisis Northern Ireland is on 0800 0246 991, and you should check its page for hours;[14] and Victim Support NI offers free support whether or not a crime has been reported, through its Belfast hub on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm.[14] In the US, RAINN's National Sexual Assault Hotline is on 800.656.HOPE (4673), 24/7,[14] and VictimConnect takes calls and texts on 855-484-2846; it can talk with you only if you're physically safe right now, and if you aren't, call 911.[14] If a partner, ex-partner or family member is frightening you, the lesson "Domestic abuse and stalking" starts with the lines for that. You can leave this lesson at any point, and you can skip to "Connections".
+This whole lesson is about rape and sexual assault. It describes what happens to the body during an assault, the law, research on resisting, and what to say when someone tells you it happened to them, and the quiz and the exercise draw on all of it. If you'd like to talk to someone:
+
+**England and Wales:** the Rape Crisis 24/7 Support Line is on 0808 500 2222 for anyone 16 or over.[14] Victim Support is on 08 08 16 89 111, free and 24/7, whether or not you have reported anything.[14]
+
+**Wales:** Live Fear Free is on 0808 80 10 800, 24 hours a day, for anyone experiencing domestic abuse or sexual violence, and calls are welcome in Welsh.[14]
+
+**Scotland:** Rape Crisis Scotland's helpline is on 08088 01 03 02, any day from 5pm to midnight, for people of all genders aged 13 or over.[14] Victim Support Scotland is on 0800 160 1985, 8am to 8pm on weekdays and 10am to 4pm at weekends.[14]
+
+**Northern Ireland:** the Domestic and Sexual Abuse Helpline is on 0808 802 1414, 24/7, for anyone 18 or over.[14] Rape Crisis Northern Ireland is on 0800 0246 991; check its page for hours.[14] Victim Support NI offers free support whether or not a crime has been reported, through its Belfast hub on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm.[14]
+
+**The US:** RAINN's National Sexual Assault Hotline is on 800.656.HOPE (4673), 24/7.[14] VictimConnect takes calls and texts on 855-484-2846; it can talk with you only if you're physically safe right now, and if you aren't, call 911.[14]
+
+If a partner, ex-partner or family member is frightening you, the lesson "Domestic abuse and stalking" starts with the lines for that. You can leave this lesson at any point, and you can skip to "Connections".
 :::
 
 The only cause of a rape or a sexual assault is the person who commits it. Not where someone was,
 not who they trusted, not what they said or did not say, and not what their body did in the moment.
-Many people's bodies go still during an assault. They find they cannot move, cannot speak and
-cannot fight, and that stillness is common, it isn't chosen, and it isn't agreement. A survivor
+Many people's bodies go still during an assault.[11] They find they cannot move, cannot speak and
+cannot fight, and that stillness isn't chosen and isn't agreement. A survivor
 who did not fight, did not scream or was not injured did nothing wrong. In England and Wales, the
 prosecutors' own guidance lists the belief that a real victim fights back among the myths its
 lawyers have to answer in court, and treats as false the belief that a victim must have screamed,
 fought or been injured.[4] This is general information, not legal advice. The law differs by state,
 and between England and Wales, Scotland and Northern Ireland.
 
-Those sentences aren't comfort offered in place of evidence. Each one rests on a source you can
+:::callout Before you rely on this
+This course is education, not legal advice, and not a self-defence class. If you're in danger now, call 999 in the UK or 911 in the US. On a 999 call from a mobile, if you can't speak, cough or tap if you can and press 55 when you're prompted; in the US you can text 911 where that's available, but call if you can. If a partner, ex-partner or family member is frightening you, the lesson on domestic abuse and stalking starts with the helplines. Responsibility for a crime lies with the person who commits it: precautions change the odds, not the blame. The law differs between England and Wales, Scotland, Northern Ireland and each US state, and it changes.
+:::
+
+The sentences at the top of this lesson aren't comfort offered in place of evidence. Each one rests on a source you can
 read, and this lesson sets them out: a study of what happens to the body, the prosecutors' list of
 the beliefs they argue against, and the research on resisting, with what each can and cannot show.
 It's also what you'd want if a friend ever told you that something had happened to them and
 asked whether it "counts".
 
-:::callout Before you rely on this
-This course is education, not legal advice, and not a self-defence class. If you're in danger now, call 999 in the UK or 911 in the US. On a 999 call from a mobile, if you can't speak, cough or tap if you can and press 55 when you're prompted; in the US you can text 911 where that's available, but call if you can. If a partner, ex-partner or family member is frightening you, the lesson on domestic abuse and stalking starts with the helplines. Responsibility for a crime lies with the person who commits it: precautions change the odds, not the blame. The law differs between England and Wales, Scotland, Northern Ireland and each US state, and it changes.
-:::
-
-The researchers behind the best-known resistance programme put the same point in their own words,
+The researchers behind one of the resistance programmes lesson 12 teaches put the same point in their own words,
 in [a paper on their trial's second year](https://pmc.ncbi.nlm.nih.gov/articles/PMC5821219/): "The program makes clear that perpetrators are entirely
 responsible for the crimes they commit."[1] They add that sexual assault interventions for women
 "must not inadvertently suggest that women are responsible for sexual assault".[1] This lesson
@@ -159,7 +173,8 @@ First, **almost all of it is about women.** The study of freezing below was of w
 the study of training. Men are raped and sexually assaulted too. The Office for National
 Statistics (ONS) estimated, from the Crime Survey for England and Wales for the year ending March
 2025, that 8.2% of women and 0.7% of men aged 16 and over had experienced rape or assault by
-penetration, including attempts, at some point since they turned 16.[9] Where a finding comes from
+penetration, including attempts, at some point since they turned 16, a figure from half the usual sample, which ONS says to treat
+with caution.[9] Where a finding comes from
 women, this lesson says so and doesn't stretch it to men. Where a source is written for everyone,
 as the law and the support lines are, it says that too. The last case in the lesson is a man's.
 
@@ -173,7 +188,8 @@ not resist.
 Lesson 10, "What fear does to you, and the robbery decision", set out one account of the body's
 defence responses, from [a review by Kozlowska and colleagues](https://doi.org/10.1097/HRP.0000000000000065). At the far end of it are two kinds of
 stillness that are not the brief freeze of a startled moment: "tonic immobility and collapsed
-immobility are responses of last resort to inescapable threat".[3] Lesson 10 left one question for
+immobility are responses of last resort to inescapable threat, when active defense responses have
+failed".[3] Lesson 10 left one question for
 here, because the only study this course found that counted how often it happens was done after
 rape.
 
@@ -184,17 +200,19 @@ More than half. In [the study's abstract](https://pubmed.ncbi.nlm.nih.gov/285895
 
 The study is by Möller, Söndergaard and Helström, published in *Acta Obstetricia et Gynecologica
 Scandinavica* in 2017. This course read [its abstract](https://pubmed.ncbi.nlm.nih.gov/28589545/).[2]
-It assessed 298 women who had come to a Stockholm emergency clinic for women who had been raped,
-within a month of the assault, using a rating scale for tonic immobility. It defines the state as "a
+It assessed 298 women who had come to an emergency clinic for women who had been raped, within a
+month of the assault, using a rating scale for tonic immobility. The authors work at Stockholm's
+Karolinska Institute, so this lesson calls it the Stockholm study. It defines the state as "a
 state of involuntary, temporary motor inhibition": the body stops moving, for a while, and not by
 decision. It also followed some of the women up, and tonic immobility during the assault was
 associated with developing post-traumatic stress disorder and severe depression six months
-later.[2] The authors conclude that knowing about the reaction matters both in legal cases and in
+later. Women who had been through trauma before, or had had psychiatric treatment, were more
+likely to report going into it.[2] The authors conclude that knowing about the reaction matters both in legal cases and in
 the health care that follows.
 
 Three limits come with the 70%. It's one sample, of women, at one clinic in one city, so it cannot
 tell you how common the state is in men, in other countries, or among people who never went to a
-clinic; that is this course's reading of who was studied, not a caveat the abstract states. It is
+clinic. The abstract doesn't say this; it follows from who was studied. It is
 what the women reported afterwards on a scale, not something anyone watched. And the link to later
 depression and post-traumatic stress is an association across a group, not a forecast for any one
 person. If you have been through this and that last finding frightens you, it is the reason the
@@ -204,28 +222,21 @@ usually look like over time.
 
 ### Why freezing is not consent
 
-Two definitions, side by side, settle this, and joining them is this course's step rather than
-either source's.
+Put two definitions side by side and this settles itself. Neither source puts them together; that
+step is this course's.
 
-The first is Möller's: tonic immobility is involuntary.[2] The second is the law's. This is general
-information, not legal advice. The law differs by state, and between England and Wales, Scotland
-and Northern Ireland. In England and Wales, section 74 of the Sexual Offences Act 2003, read on
+This is general information, not legal advice. The law differs by state, and between England and
+Wales, Scotland and Northern Ireland. The first definition is Möller's: tonic immobility is
+involuntary.[2] The second is the law's. In England and Wales, section 74 of the Sexual Offences Act 2003, read on
 [the live legislation site](https://www.legislation.gov.uk/ukpga/2003/42/section/74) on 25 September
 2026, says: "For the purposes of this Part, a person consents if he agrees by choice, and has the
-freedom and capacity to make that choice."[5] The section speaks of "a person"; the "he" is its
-wording.
+freedom and capacity to make that choice."[5] It speaks of "a person", so it covers
+everyone; the "he" is only the statute's wording.
 
 Consent, on that definition, is agreeing by choice. A state your body goes into without your choice
 can't be an agreement by choice. So the stillness that so many people feel as their own failure is,
 in the law's terms, simply not consent. The prosecutors' guidance reaches the same place in its own
 words, as the next section shows.
-
-:::checkpoint Someone in a discussion online writes: "If she froze, she went along with it. Going along with it is agreeing." Using the two definitions above, what's wrong with that, in two sentences?
-
-Something like: freezing, as the Stockholm study defines tonic immobility, is involuntary, so it is not a choice at all; and in England and Wales the law defines consent as agreeing by choice, with the freedom and capacity to choose. A body that has stopped moving hasn't agreed to anything, and "went along with it" describes what the body did, not a choice the person made.
-
-If your answer said the comment was wrong because freezing is rare, look again at the predict above: it was common in the one group studied. The comment fails on the definitions, not on the numbers.
-:::
 
 ## What the law says in England and Wales
 
@@ -233,17 +244,17 @@ This is general information, not legal advice. The law differs by state, and bet
 Wales, Scotland and Northern Ireland.
 
 The Crown Prosecution Service (CPS) prosecutes crime in England and Wales. Its legal guidance on
-rape has an annex written for its own lawyers, [*Tackling Rape Myths and
-Stereotypes*](https://web.archive.org/web/20260421173121/https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-annex-tackling-rape-myths-and-stereotypes),
+rape ends with an annex written for its own lawyers, [*Tackling Rape Myths and
+Stereotypes*](https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a),
 which lists beliefs that come up in rape cases, marks each as false, and tells prosecutors how to
-answer them. The page has moved from its old address on the CPS site, and this course read it from a
-copy the Internet Archive saved in April 2026; the captured page is dated 21 May 2021.[4]
+answer them. This course read it on the CPS site on 25 September 2026, in the version dated 24 June
+2026.[4]
 
 ### What the prosecutors call myths
 
 Two entries on its list are this lesson's subject: "A real rape victim would never freeze when
 attacked, they would fight back" and "If the victim didn't scream, fight, or get injured then it
-wasn't rape".[4] Beside them, the annex gives its reasons. "When under threat, the brain will
+could not have been rape".[4] Beside them, the annex gives its reasons. "When under threat, the brain will
 implement instinctual survival responses that the victim will not necessarily have any control
 over", and those responses are "not just fight or flight, but flop, freeze or befriend".[4] It adds
 that people who are raped often become unable to move or fight from terror or shock, and that some
@@ -251,10 +262,11 @@ co-operate with the person raping them because they are afraid of being killed o
 hurt.[4]
 
 So the CPS and the Stockholm study, one from law and one from medicine, describe the same thing: a
-response the person doesn't control. Notice the word "befriend" in the CPS list; elsewhere the
-annex spells it out as befriending the attacker.[4] Lesson 10 said that "fawn", a word often added
-to fight, flight and freeze, comes from clinical writing rather than experiments, and the research
-behind this course treats "befriend" as the institutional version of the same idea.
+response the person does not choose and may not be able to control. Notice the word "befriend" in the CPS list; elsewhere the
+annex spells it out as befriending the attacker.[4] Lesson 10 met a similar word in Taylor's
+"tend-and-befriend", taught there as a proposal rather than a finding. On this course's reading, the
+CPS uses "befriend" to describe what victims do, for prosecutors answering a myth, not to settle the
+science.
 
 The annex's list goes well beyond freezing. It marks as false, among others, that rape most often
 happens between strangers in dark alleys, that you can't be raped by a husband or partner, that a
@@ -272,25 +284,38 @@ The annex also cites an older case, *Olugboja*, which on the CPS's summary held 
 be told that every consent involves submitting, but that submitting does not by itself mean
 consenting.[4]
 
-That doesn't make every reluctant yes a crime, and the annex says so too. It records that a jury
+That doesn't make every reluctant yes a crime, and the guidance says so too. It records that a jury
 may need help telling a reluctant but free choice apart from giving in out of fear of something
-worse, and that context decides which it was.[4] The first is consent in law; the second is not.
-Where a particular case falls is for a jury, on its facts.
+worse, especially but not only in a long-term relationship, and that context decides which it
+was.[4] It sets the other half beside it: prosecutors should consider what impact a relationship had
+on someone's freedom to consent, including domestic abuse and controlling or coercive behaviour, and
+a case it cites held that submission obtained by a high level of psychological coercion, in any
+existing relationship, may not be free agreement.[4] On the guidance's account, a reluctant but free
+choice can be consent, and giving in is not the same thing as consenting. Where a particular case
+falls is for a jury, on its facts.
 
-So when a court in England and Wales hears a rape case, the questions it asks aren't "did she
-fight?" or "was he injured?". On the annex's account, and the statute's, they are these:
+So when a court in England and Wales hears a rape case, the consent questions aren't "did she
+fight?" or "was the victim injured?". On the statute and the guidance, they are these:
 
-- Did the person agree by choice?
-- Did they have the freedom to choose? The annex lists things that may bear on it: a partner's or
-  family member's coercion or control, someone in a position of power over them, dependency.[4]
-- Did they have the capacity to choose? The annex's examples include being asleep or unconscious,
-  or too affected by drink or drugs to choose.[4]
-- Did the accused reasonably believe the person was consenting? The annex says the prosecution must
-  prove that he did not, and that prosecutors should ask how he knew the other person consented and
-  went on consenting.[4]
+- Did the person agree by choice?[5]
+- Did they have the freedom to choose? This is where the guidance's points on relationships, abuse
+  and coercion, above, come in.[4][5]
+- Did they have the capacity to choose? The guidance's chapter on consent says a
+  person does not consent if they are incapacitated through drink.[4][5]
+- Did the accused reasonably believe the person was consenting? This question is the guidance's,
+  not section 74's. It says the prosecution must prove that the accused did not, and that
+  prosecutors should ask how the accused knew the other person consented and went on
+  consenting.[4]
 
-Those are the questions. This lesson never asks, and you shouldn't try to answer, whether a
-particular person would be found guilty. That is a court's job, on evidence nobody outside it has.
+This lesson can't tell you whether a particular person would be found guilty, and no page can.
+That is a court's job, on evidence nobody outside it has.
+
+:::checkpoint Someone in a discussion online writes: "If she froze, she went along with it. Going along with it is agreeing." Using the statute and the prosecutors' guidance, what's wrong with that, in two sentences?
+
+Something like: freezing, as the Stockholm study defines tonic immobility, is involuntary, so it is not a choice at all; and in England and Wales the law defines consent as agreeing by choice, with the freedom and capacity to choose, and the CPS says consent and submission are different. A body that has stopped moving hasn't agreed to anything, and "went along with it" describes what the body did, not a choice the person made.
+
+If your answer said the comment was wrong because freezing is rare, look again at the predict above: it was common in the one group studied. The comment fails on the definitions, not on the numbers.
+:::
 
 ### What this course didn't read
 
@@ -301,11 +326,13 @@ nothing about them. Don't assume that the rules for England and Wales apply ther
 ## What the resistance studies found
 
 Everything in this section is evidence about what tends to happen, on average, across many
-incidents. It isn't a test anyone was set. A person who froze, or who co-operated to stay alive,
-appears in this research only as a number in the comparison group, and nothing in it says anything
-about what was possible for them.
+incidents. None of it is a standard anyone was supposed to meet. If you froze, or went along with
+it to stay alive, these studies count you at most as a number, and nothing in them says what was
+possible for you. And if you fought back and were raped anyway, or were hurt after resisting, nothing
+here says you resisted wrongly or not enough. The figures are averages, and the only cause of what
+happened is the person who did it.
 
-The best-known review is Ullman's, in *Criminal Justice and Behavior* in 1997. This course read
+Ullman reviewed the field in *Criminal Justice and Behavior* in 1997. This course read
 [its abstract](https://doi.org/10.1177/0093854897024002003). Its summary of the studies then
 published: "Consistent evidence suggests the effectiveness of forceful resistance strategies for
 avoiding rape; however, few studies have analyzed resistance within the social and situational
@@ -315,7 +342,7 @@ the next study.
 
 :::predict Some people believe that fighting back against a rapist mostly gets you hurt worse. A study of US crime survey data, which took account of whether any injury came before or after the victim resisted, tested exactly that. What do you think it found?
 
-That further injuries after resistance, especially serious ones, were rare, and that most kinds of resistance, forceful or not, went with a lower chance of the rape being completed and made no significant difference to the risk of further injury.[7] The next section reads the abstract sentence by sentence.
+That further injuries after resistance, especially serious ones, were rare.[7] That is the abstract's second sentence. What it found about whether the rape was completed is in its last sentence, and working that out is yours, below.
 :::
 
 ### Reading one abstract, sentence by sentence
@@ -333,11 +360,12 @@ for what a victim did to resist. The part to notice is the order. It is what Ull
 is what lesson 10 showed changes the robbery evidence: an injury that came before someone fought back
 cannot have been caused by their fighting back.
 
-**Sentence two** is the finding people most often get wrong: "Additional injuries besides rape,
+**Sentence two** is the one people misread most easily: "Additional injuries besides rape,
 particularly serious injuries, following victim resistance are rare."[7] Read it word by word.
 "Additional" and "besides rape" say the rape itself is the harm, and the question is whether
-resisting added more. "Following" means they counted only injuries that came after the resistance,
-since only those could have been caused by it.
+resisting added more. "Following" matters because, as sentence one said, they took account of
+whether each injury came before or after the resistance, so that injuries that came first were not
+blamed on it.
 
 The third sentence is yours.
 
@@ -378,12 +406,12 @@ Two things keep that in proportion. It's what the women said, not what anyone ob
 abstract does not describe a trial. And one more finding in the same abstract points somewhere
 painful: women who had taken training rated their own non-consent or resistance lower than untrained
 women did, and the authors suggest this may be because they held themselves to a higher
-standard.[8] If that suggestion is right, training may leave some people judging themselves more
-harshly afterwards, which is exactly what the responsibility sentence at the top of this lesson is
+standard.[8] If that suggestion is right, then on this course's reading training may leave some
+people judging themselves more harshly afterwards, which is exactly what the responsibility sentence at the top of this lesson is
 there to answer.
 
-Randomised trials of programmes that teach resistance do exist, and the best known was aimed at
-acquaintances rather than strangers. Lesson 12, "Resistance training, and choosing a class", teaches
+Randomised trials of programmes that teach resistance do exist, and the one whose authors are
+quoted at the top of this lesson was about assault by men the women knew, not strangers. Lesson 12, "Resistance training, and choosing a class", teaches
 them, their limits and the argument about them, so this lesson leaves them there.
 
 ### What these designs can and cannot show
@@ -401,21 +429,26 @@ not a claim any of the authors made.
   "consistent evidence" supports it.[6][7]
 - **The course of the attack shapes the resisting.** An attack that was already faltering may leave
   more room to resist. Tark and Kleck's attention to order deals with this for injury, since they
-  counted only injuries that came after resistance.[7] Whether their method did the same for
+  took account of whether each injury came before or after the resistance.[7] Whether their method did the same for
   completion, the abstract does not say.
-- **Something else drives both.** This is where the freeze comes back. On Kozlowska's account, tonic
-  immobility is a response to threat that cannot be escaped.[3] If so, the people who did not resist
-  will include many whose bodies shut down because the attack was the most overwhelming, and the
-  most overwhelming attacks may also be the likeliest to be completed. Resisters and non-resisters
-  would then differ in the attacks they faced, not only in what they did. No study read here
-  measures that, so it stays a possibility, and it is this course's inference from joining two
-  sources.
-- **Chance.** Tark and Kleck's abstract calls their sample large, which makes chance the least
-  likely of the four; the abstract gives no number.[7]
+- **Something else drives both.** This is where the freeze comes back, and it is this course's
+  inference, not a finding. Kozlowska places tonic immobility among the "responses of last resort to
+  inescapable threat, when active defense responses have failed".[3] If the attacks in which
+  people's bodies shut down differ from the ones in which they could resist, for instance in how
+  inescapable they felt, then resisters and non-resisters would differ in the attacks they faced as
+  well as in what they did, and that difference could also bear on whether the rape was completed.
+  On Kozlowska's account the freeze can come after active defence has failed, so some people may
+  resist first and freeze after, and the two groups may not even be separate. No study read here
+  measures any of this. Möller's study also tied the freeze to the woman's own history, earlier
+  trauma among it, not only to the attack.[2] So none of it makes a freeze a measure of how bad an
+  attack was: it is the body's response to the threat as the person met it.
+- **Chance.** Tark and Kleck's abstract calls their sample large, which makes chance a less
+  likely explanation, though the abstract gives no numbers.[7]
 
-So the honest summary is this. Observational studies, the best of them careful about order,
-consistently find that resistance goes with fewer completed rapes and rarely with added injury.[6][7]
-None is a trial, and none can say what would have happened in one person's case. That is where
+In short, Ullman called the evidence that forceful resistance helps avoid rape consistent, and
+Tark and Kleck, careful about order, found that most resistance went with fewer completed rapes and
+that further injury after it was rare.[6][7] None is a trial, and none can say what would have
+happened in one person's case, whether they froze or fought. That is where
 lesson 10 ended up for robbery, and it is why this course gives no rule for the moment itself.
 
 ## Who, and where
@@ -431,26 +464,27 @@ found that "around 4 in 10 (43.2%) were victimised by their partner or ex-partne
 (44.5% of females and 20.2% of males) and 16.3% were victimised by a stranger (15.0% of females and
 37.5% of males)". The next largest group, 37.8%, was someone else the victim knew, including dates
 (11.3%) and friends (10.7%). And "over one-third (38.2%) were victimised in their own home and 8.0%
-were victimised on the street, in a car park, park, or another open public space".[9] The same
+were victimised on the street, in a car park, park, or another open public space". The perpetrator's home came second, at 28.5%.[9] The same
 article says 98.0% of victims described the perpetrator as male.[9]
 
 :::predict In the same survey, victims were asked whether the perpetrator used physical force, such as holding them down. What share do you think said yes?
 
-48.3%, nearly half.[9] So just over half of victims did not describe physical force of that kind. It bears on a myth on the CPS list, that rape is always violent or involves physical force.[4] Many rapes happen without the kind of struggle people picture, which is one more reason a lack of injury tells you nothing about consent.
+48.3%, nearly half.[9] So just over half of victims did not describe physical force of that kind. It bears on a myth on the CPS list, that rape is always violent or involves physical force.[4] Many rapes happen without the kind of struggle people picture, which is one more reason a lack of injury is no evidence of consent.
 :::
 
 Put those figures together and they point somewhere the street advice of lesson 6 doesn't reach.
 Most rapes were by someone the victim knew, and most happened in a home, the victim's or the
-perpetrator's. So the prevention that matters most, on this course's reading of the figures, is
-about people known to the victim, not strangers outdoors, and that is the ground the best-known
-trial in lesson 12 is built on. For men the picture differs in one way: over a third of male victims were attacked by a
-stranger. None of this moves responsibility an inch. A figure says where harm fell; it says nothing
+perpetrator's. So on this course's reading, prevention aimed at strangers outdoors misses most of the
+harm. Lesson 12 takes up programmes built around acquaintances, and the argument over whether
+prevention should rest on potential victims at all. Harm from partners and ex-partners is a different
+subject: "Domestic abuse and stalking" describes the services' help. For men the picture differs:
+over a third of male victims (37.5%) were attacked by a stranger, and a partner or ex-partner in
+20.2% of cases, against 44.5% for women.[9] None of this moves responsibility an inch. A figure says where harm fell; it says nothing
 about what anyone should have done.
 
 ## When a friend tells you
 
-This is the case the lesson has been building to, written forward: what happens next, not what went
-wrong before.
+This is the case the lesson has been building to. It starts from now, with what happens next.
 
 Hana is a friend you've known for years, and she lives in England. Over coffee she tells you that
 in the spring, a man she had been seeing for a few weeks assaulted her at his flat. She says she just
@@ -466,20 +500,22 @@ is one of the body's automatic responses to fear and does not mean the person co
 course's labels, that is practitioner opinion: guidance from a service's long experience, not a
 finding from a trial.
 
-**What the sources say to her worry.** Her worry is the first myth this lesson quoted from the CPS,
-that a real victim fights back.[4] You don't need to be a lawyer to tell her what the sources say in
-general. This is general information, not legal advice. The law differs by state, and between
-England and Wales, Scotland and Northern Ireland. Freezing is common: in the Stockholm study, 70% of
-women described significant tonic immobility, and the study calls it involuntary.[2] In England and
+**What the sources say to her worry.** This is general information, not legal advice. The law
+differs by state, and between England and Wales, Scotland and Northern Ireland. Her worry is the
+first myth this lesson quoted from the CPS, that a real victim fights back.[4] You don't need to be a
+lawyer to tell her what the sources say in general. In the one study that counted it, 70% of women
+described significant tonic immobility, and the study calls it involuntary.[2] Rape Crisis says it
+is very common for people to find they cannot move or speak.[11] In England and
 Wales, consent means agreeing by choice, and the prosecutors' guidance says consent and submission
 are different and that nobody has to have shown refusal.[4][5] Whether a court would call it rape is
 a court's question, and it isn't yours to answer. What you can say is that freezing does not make it
 her fault, and does not mean she agreed.
 
-**What you might say.** Something like: "I believe you, and I'm glad you told me. Freezing is one of
-the most common things a body does when it's terrified, and it isn't agreeing to anything. Whatever
-you want to do next, or not do, I'll back you." Three sentences, in your own words. Nothing in them
-tells her what happened in law, and nothing asks her to explain herself.
+**What you might say.** Something like: "I believe you, and I'm glad you told me. Freezing is something
+bodies do on their own when they're terrified, and it isn't agreeing to anything. Whatever
+you want to do next, or not do, I'll back you." Three sentences, in your own words. The middle one
+is Rape Crisis's own point, that freezing is an automatic response to fear and not consent.[11]
+Nothing in the three tells her what a court would decide, and nothing asks her to explain herself.
 
 **What stays with her.** Rape Crisis tells supporters not to take over or make decisions for the
 person, and not to tell anyone else without their permission.[11] Whether she calls a line, sees a
@@ -490,7 +526,7 @@ Support Line is also open to friends and family supporting someone, so you can c
 
 Something like: that it is her decision, and you will back whichever she makes; that support is there whether or not she reports, as Victim Support says on its own page; and that lesson 15, "Afterwards", covers what reporting involves, so you could look at it together if she wants to.
 
-It may help her to know she wouldn't be unusual either way. In the ONS survey, around one in seven victims of rape or assault by penetration since 16 said they had reported it to the police.[9] That describes what people do; it is not advice.
+It may help her to know that many people do not report: in the ONS survey, around one in seven victims of rape or assault by penetration since 16 said they had told the police.[9] That describes what people do; it is not advice either way.
 
 What to avoid: pushing her in either direction, rushing her to decide, or making the call for her. Rape Crisis's guidance puts the decisions with her.[11]
 :::
@@ -504,7 +540,7 @@ A short third case. Tomasz lives in Wales. Last year a man he knew through frien
 after a party at Tomasz's flat. He's read this far and wonders whether any of it is about him,
 since almost everything in it is about women.
 
-Some of it is written for everyone and some is not, and the honest answer sorts them.
+Some of it is about him and some is not. Here is which is which.
 
 - **The law is general.** This is general information, not legal advice. The law differs by state,
   and between England and Wales, Scotland and Northern Ireland. Section 74 speaks of "a person", and
@@ -523,18 +559,18 @@ Some of it is written for everyone and some is not, and the honest answer sorts 
   whether or not he reports.[14]
 
 What this course can't give him is a resistance study or a training trial about men. That gap is
-real: the research behind this course found almost nothing on men, and lesson 12 says so again.
+real: this course found almost no research on men, and lesson 12 says so again.
 
 ## What people get wrong
 
 Where these touch the law, this is general information, not legal advice. The law differs by state,
 and between England and Wales, Scotland and Northern Ireland.
 
-**"A real victim fights back."** The CPS lists it as a myth, and in the Stockholm study 70% of women
-described significant tonic immobility during rape.[2][4] Freezing is common and involuntary.
+**"A real victim fights back."** The CPS lists it as a myth.[4] In the one study that counted it, most of the
+women had frozen to a significant degree, and the study calls the state involuntary.[2]
 
 **"If there's no injury, it wasn't rape."** The CPS lists "If the victim didn't scream, fight, or
-get injured then it wasn't rape" as false.[4] Just over half of victims in the ONS survey did not
+get injured then it could not have been rape" as false.[4] Separately, on force rather than injury, just over half of victims in the ONS survey did not
 describe physical force such as being held down.[9]
 
 **"If she froze, she consented."** In England and Wales, consent means agreeing by choice with the
@@ -558,16 +594,16 @@ law there has covered men as victims of rape since 1994.[4][9]
 
 Take 25 minutes for these, on paper. They're reading and writing only. Nothing here asks you to practise any movement, picture an attack, or go back over something that has happened to you. If any of it comes too close, stop; the lines are at the top of the lesson. If someone you live with frightens you, don't write this anywhere they could find it.
 
-**First, a sort.** The myths here come from the prosecutors' guidance for England and Wales, as general information. Sort the ten statements below into two groups, the beliefs the CPS annex lists as myths and the statements that answer those myths, and pair each myth with the statement that answers it.
+**First, a sort.** The myths here come from the prosecutors' guidance for England and Wales, as general information. Sort the ten statements below into two groups, the beliefs the CPS annex lists as myths and the statements that answer those myths, and match each myth with the statement or statements that answer it.
 
 - (a) A person who did not say no cannot have been raped.
 - (b) People often co-operate with an attacker because they are afraid of being killed.
 - (c) Someone who had really been raped would have gone to the police straight away.
 - (d) Consent and submission are different.
 - (e) You cannot be raped by your own partner.
-- (f) Many people do not tell anyone for a long time, out of shame or fear of not being believed.
+- (f) In the ONS survey, around one in seven victims said they had reported it to the police.
 - (g) A real victim would have fought back.
-- (h) Having had sex with someone before is not consent to sex with them again.
+- (h) The law in England and Wales treats rape by a husband or partner as rape.
 - (i) If there are no injuries, it was not rape.
 - (j) A person's body can stop moving under threat, without their control.
 
@@ -582,19 +618,19 @@ Take 25 minutes for these, on paper. They're reading and writing only. Nothing h
 
 :::checkpoint Compare your answers.
 
-**The sort.** Myths: (a), (c), (e), (g) and (i). Pairs: (a) with (d), and with *Malone* as the CPS summarises it, that nobody has to show or say refusal; (c) with (f); (e) with (h), and the annex also records that English law has no marital exemption; (g) with (j) and (b); (i) with (j) and (b) as well, since the annex answers the freezing myth and the injury myth together, with the same points. If you paired them differently but each myth is answered by a statement that contradicts it, that is fine.
+**The sort**, as general information for England and Wales, not legal advice. Myths: (a), (c), (e), (g) and (i). Pairs: (a) with (d), and with *Malone* as the CPS summarises it, that nobody has to show or say refusal; (c) with (f); (e) with (h); (g) with (j) and (b); (i) with (j) and (b) as well, since the annex answers the freezing myth and the injury myth together, with the same points. If you paired them differently but each myth is answered by a statement that contradicts it, that is fine.
 
-**The sentences.** Something like: "A man raped a woman who was walking home from a party." "An attacker assaulted the teenager, who could not fight him off." "A man she met online sexually assaulted a student after offering her a lift." Check each of yours: is the person who did it the subject of the sentence? Does anything in it suggest the person harmed could have prevented it? The original second sentence has the teenager "failing", which makes his response the story; the fix makes the attacker's act the story.
+**The sentences.** Something like: "A man raped a woman who was walking home from a party." "An attacker assaulted a teenager." "A man sexually assaulted a student after offering her a lift." Check each of yours: is the person who did it the subject of the sentence? Does anything in it suggest the person harmed could have prevented it? The original second sentence has the teenager "failing", which makes his response the story; the fix makes the attacker's act the story.
 
-**What you would say.** A good answer believes them, doesn't ask why they didn't fight or leave, says it wasn't their fault, and leaves every decision with them. The line should be right for your country: in England and Wales, the Rape Crisis 24/7 Support Line, 0808 500 2222; in Wales also Live Fear Free, 0808 80 10 800; in Scotland, Rape Crisis Scotland, 08088 01 03 02 (5pm to midnight); in Northern Ireland, the Domestic and Sexual Abuse Helpline, 0808 802 1414; in the US, RAINN, 800.656.HOPE (4673). RAINN's site sums up its own advice for these conversations as thanking them, asking how you can help, listening, and continuing to support them.[13]
+**What you would say.** A good answer believes them, doesn't ask why they didn't fight or leave, says it wasn't their fault, and leaves every decision with them. The line should be right for your country: in England and Wales, the Rape Crisis 24/7 Support Line, 0808 500 2222 (16 or over); in Wales also Live Fear Free, 0808 80 10 800; in Scotland, Rape Crisis Scotland, 08088 01 03 02 (5pm to midnight, 13 or over); in Northern Ireland, the Domestic and Sexual Abuse Helpline, 0808 802 1414 (18 or over); in the US, RAINN, 800.656.HOPE (4673). RAINN's site sums up its own advice for these conversations as thanking them, asking how you can help, listening, and continuing to support them.[13] In this course's labels, that is practitioner opinion too.
 :::
 
 ## Connections
 
 **Back.** Lesson 10, "What fear does to you, and the robbery decision", gave the defence cascade;
-this lesson took its last stage, tonic immobility, to the one study that counted it, and applied
+this lesson took one of its last-resort responses, tonic immobility, to the one study that counted it, and applied
 lesson 10's shared flaw to the rape research. Lessons 3 and 6 gave the ONS figures on who and where;
-lesson 7, "Domestic abuse and stalking", covers harm from partners, the largest single group here.
+the lesson "Domestic abuse and stalking" covers harm from partners, the largest single group here.
 Lesson 2's warning about how imprecisely the US survey measures rape is a limit on Tark and Kleck.
 Logic and Argument lesson 5 supplied the four readings of a correlation, and Writing Clearly lesson
 3 the tool for putting responsibility where it belongs in a sentence.
@@ -607,8 +643,8 @@ lesson 7 covers what reactions after a frightening event usually look like.
 
 ## Go deeper
 
-- **The CPS annex, [*Tackling Rape Myths and Stereotypes*](https://web.archive.org/web/20260421173121/https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-annex-tackling-rape-myths-and-stereotypes)**,
-  England and Wales, as archived April 2026. Read in full for this lesson. The fullest list this
+- **The CPS annex, [*Tackling Rape Myths and Stereotypes*](https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a)**,
+  England and Wales, the version dated 24 June 2026. Read in full for this lesson. The fullest list this
   course found of the beliefs that come up in rape cases, with the prosecutors' answers.
 - **Rape Crisis England & Wales, ["Supporting a survivor"](https://rapecrisis.org.uk/get-help/supporting-a-survivor/)**.
   Read in full for this lesson. Short, practical and plainly written: what to say, what not to ask,
@@ -630,11 +666,12 @@ lesson 7 covers what reactions after a frightening event usually look like.
    only.** <!-- SOURCES Part C §4.4; lesson 11 drafter re-read the PubMed abstract (28589545): six-month follow-up, rating scale, the authors' opening and conclusion, not yet in SOURCES -->
 3. Kozlowska, Walker, McLean and Carrive, ["Fear and the Defense Cascade: Clinical Implications and Management"](https://doi.org/10.1097/HRP.0000000000000065),
    *Harvard Review of Psychiatry* 23(4), 2015. **Read: abstract only.** <!-- SOURCES Part C §5 -->
-4. Crown Prosecution Service, [*Rape and Sexual Offences, Annex A: Tackling Rape Myths and Stereotypes*](https://web.archive.org/web/20260421173121/https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-annex-tackling-rape-myths-and-stereotypes),
-   legal guidance for England and Wales, page dated 21 May 2021. **Read: from Internet Archive
-   capture 20260421173121**, and re-read in full from the same capture for this lesson on 25
-   September 2026. The page's live address returns "not found", and the CPS site search did not turn
-   it up. Cases (*Malone*, *Olugboja*) are given only as the CPS summarises them. <!-- SOURCES Part C §4.4; access note 2; lesson 11 drafter re-read the capture (paralysis, co-operation, perpetrator responsibility, the other myths, Olugboja, reluctant choice against submission, freedom and capacity, reasonable belief, the 1994 change, no marital exemption: not yet in SOURCES) -->
+4. Crown Prosecution Service, [*Rape and Sexual Offences Prosecution Guidance*, Annex A: Tackling Rape Myths and Stereotypes](https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a),
+   full-page version, legal guidance for England and Wales, dated 24 June 2026 and updated 29 and 30
+   June 2026. **Read: Annex A in full, and the lines quoted from the consent chapter, on the live CPS
+   site, 25 September 2026.** The annex's old standalone address returns "not found"; a 2021 version saved by the
+   Internet Archive (capture 20260421173121) was read at drafting and is superseded. Cases are given
+   only as the CPS summarises them. <!-- lesson 11 gate closure G9; SOURCES Part C §4.4; access note 2; lesson 11 drafter re-read the capture (paralysis, co-operation, perpetrator responsibility, the other myths, Olugboja, reluctant choice against submission, freedom and capacity, reasonable belief, the 1994 change, no marital exemption: not yet in SOURCES) -->
 5. Sexual Offences Act 2003, [section 74, "Consent"](https://www.legislation.gov.uk/ukpga/2003/42/section/74),
    legislation.gov.uk, extent England and Wales. **Read: the live page, 25 September 2026**, marked
    up to date with changes in force on or before that day. <!-- lesson 11 drafter read at drafting; not yet in SOURCES -->
@@ -659,12 +696,12 @@ lesson 7 covers what reactions after a frightening event usually look like.
     2026**; the advice page it summarises was not opened. <!-- lesson 11 drafter read at drafting (curl blocked); not yet in SOURCES -->
 14. Support lines in the content note, each read on its service's own page on 25 September 2026:
     [Rape Crisis England & Wales](https://rapecrisis.org.uk/get-help/want-to-talk/),
-    [Victim Support](https://www.victimsupport.org.uk/help-and-support/get-help/),
+    [Victim Support](https://www.victimsupport.org.uk/help-and-support/get-help/) (its number) and [its "About us" page](https://www.victimsupport.org.uk/about-us/) (support whether or not you report),
     [Live Fear Free](https://www.gov.wales/contact-live-fear-free),
     [Rape Crisis Scotland](https://www.rapecrisisscotland.org.uk/help-helpline/),
     [Victim Support Scotland](https://www.victimsupport.scot/),
     [the Domestic and Sexual Abuse Helpline](https://dsahelpline.org/),
     [Rape Crisis Northern Ireland](https://rapecrisisni.org.uk/),
-    [Victim Support NI](https://www.victimsupportni.com/about-us/contact-us/),
+    [Victim Support NI](https://www.victimsupportni.com/about-us/contact-us/) (its hubs) and [its home page](https://www.victimsupportni.com/) (support whether or not a crime has been reported),
     [RAINN](https://rainn.org/) (in a browser) and [VictimConnect](https://victimconnect.org/).
     **Read: each page in full, re-read 25 September 2026.** <!-- SOURCES Gate closures G6, G27, G28 (G6); Gate closures, lesson 03 (G5, G8); lesson 11 re-read (G5) -->

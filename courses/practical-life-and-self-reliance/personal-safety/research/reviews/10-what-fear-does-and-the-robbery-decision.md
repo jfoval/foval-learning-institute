@@ -287,3 +287,26 @@ suggests", and no "both countries", "tells", "doing nothing" or dashes left.
 this file; `npm run quotes personal-safety` 208 quotations, one miss (lesson 11's), none for lesson 10.
 
 **Status after review:** clean
+
+## 2026-09-25 — Lesson 10 — note from lesson 11's Stage 4 fix (F8)
+
+Lesson 11's Reviewer F checked lesson 10's two forward claims against lesson 11 and the primaries.
+The tonic immobility promise is kept. Three small edits, made by lesson 11's fixer and nothing else
+in the file:
+- **"points the same way" narrowed** (the robbery-decision section on a demand for the person). Was
+  "the evidence on resistance to rape that lesson 11 sets out, which, as the research behind this
+  course summarises it, points the same way." Now "...that lesson 11 sets out, where, in the
+  abstracts this course read, most resistance, forceful or not, went with fewer completed rapes on
+  average and made no significant difference to further injury." Reason: it holds for completed
+  rapes only; Tark and Kleck 2014 found no significant effect on further injury, not less injury;
+  Ullman's support is for forceful resistance while Block and Skogan's favours non-forceful, so the
+  kinds don't line up; and "the research behind this course" was SOURCES' synthesis, not a source.
+  The next sentence ("the only evidence left points, on average, towards resisting") stands.
+- **Kozlowska's clause restored** in the defence-cascade quotation: "...responses of last resort to
+  inescapable threat, when active defense responses have failed". SOURCES now carries the quoted form
+  ("Gate closures, lesson 11", §5), so `npm run quotes` finds it.
+- **Tonic immobility is no longer the cascade's last stage.** "comes last, when there is no escape
+  from the threat" is now "is a last resort, when there is no escape from the threat and active
+  defences have failed". The abstract's list ends with quiescent immobility.
+
+`npm run minutes` 85, unchanged. No other line touched.

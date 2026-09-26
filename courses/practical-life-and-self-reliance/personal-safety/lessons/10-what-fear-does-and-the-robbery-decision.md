@@ -143,11 +143,12 @@ This course read its abstract. It describes a set of defence responses that it c
 automatically activated, and it puts them in an order: "Arousal is the first step ...
 flight or fight is an active defense response ... freezing is a flight-or-fight response put on
 hold; tonic immobility and collapsed immobility are responses of last resort to inescapable
-threat".[1]
+threat, when active defense responses have failed".[1]
 
 So on this account there are two very different kinds of stillness. Freezing comes early, while
 fight or flight is still possible, and is held back from them. Tonic immobility, a state in which the
-body is unable to move for a while, comes last, when there is no escape from the threat; the abstract
+body is unable to move for a while, is a last resort, when there is no escape from the threat and
+active defences have failed; the abstract
 names collapsed immobility beside it without defining it. Lesson 11, "Sexual assault: the
 freeze, resistance and the law", comes back to tonic immobility, because the research on it was done
 in that setting.
@@ -515,8 +516,9 @@ a person being forced into a car is about lowering the chance of it, not about w
 research that bears on it is the resistance research: Block and Skogan's finding that resisting
 without force, by screaming, running away or reasoning with the attacker, went with better outcomes
 on average in stranger crimes, rape among them;[14] Tark and Kleck's finding that self-protection in
-general reduced injury;[15] and the evidence on resistance to rape that lesson 11 sets out, which, as
-the research behind this course summarises it, points the same way.
+general reduced injury;[15] and the evidence on resistance to rape that lesson 11 sets out, where, in
+the abstracts this course read, most resistance, forceful or not, went with fewer completed rapes on
+average and made no significant difference to further injury.
 
 That is as far as any source goes, and it's an average drawn from survivors. In the narrow case, the
 official advice points to handing property over, and the resistance studies don't single it out. When the demand is for the person,

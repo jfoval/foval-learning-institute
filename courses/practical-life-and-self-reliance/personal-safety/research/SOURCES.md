@@ -48,7 +48,8 @@ collected here because together they decide which sources a lesson can lean on.
    **s.76(6A)**; cite the statute for that point. The CPS/NPCC householder leaflet is live as a PDF
    though its HTML landing page also 404s.
 2. **The CPS rape myths annex has moved** (Part C §1). Its URL returns 404; it was read from
-   **capture 20260421173121**. Find the current CPS location before citing it.
+   **capture 20260421173121**. Find the current CPS location before citing it. (Closed at lesson
+   11, 2026-09-25: it is Annex A of the live full-page guidance; see "Gate closures, lesson 11".)
 3. **The Model Penal Code was read from a teaching copy** (Part D §1) hosted by Markus Dubber at
    the University of Toronto, because the American Law Institute does not post the text. Check any
    quoted clause against a second copy.
@@ -2807,7 +2808,8 @@ assaults. A lesson should give both in their own terms and reach no verdict on t
   necessarily have any control over ... not just fight or flight, but flop, freeze or befriend."
   "Consent and submission are different." It cites *Malone* [1998]: "No requirement that absence of
   consent has to be demonstrated or communicated to the accused." [V] This is the England and Wales
-  prosecutor's position; Part D should carry the US equivalents.
+  prosecutor's position; Part D should carry the US equivalents. (Stage 4 note, lesson 11: this is the
+  2021 capture; the live annex's wording and citation are in "Gate closures, lesson 11".)
 
 ---
 
@@ -4993,3 +4995,179 @@ in place in Part C §3.1, §3.2, §3.3 and §5.
   Property can be replaced, you can’t." [V] (spaced dashes; quote only from "if you're").
 - **§3.2, Guerette and Santana:** *Crime & Delinquency* 56(2), pp. 198-226 (Crossref; online 27 June
   2008).
+
+## Gate closures, lesson 11 (2026-09-25)
+
+From lesson 11's Stage 4 review (Reviewer F, primaries fetched 2026-09-25 into the review's
+scratchpad; the verbatim block below was script-checked against the fetched copies, 98 of 98 strings
+found). The fixer re-fetched the live CPS full-page guidance on the same day and string-matched every
+annex line the lesson uses, with the section each sits in; re-read s.74 on legislation.gov.uk; and
+re-read the numbers on the Rape Crisis E&W, Victim Support (about us), Victim Support NI (home), Rape
+Crisis Scotland, DSA Helpline, Victim Support Scotland, Rape Crisis NI, VictimConnect and Live Fear
+Free pages.
+
+### G9 closed: the CPS rape myths annex is live
+- **Where it is now:** Annex A, "Tackling Rape Myths and Stereotypes", is the last section of the
+  CPS *Rape and Sexual Offences Prosecution Guidance - Full Page Version*,
+  `https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a`,
+  dated "24 June 2026", "updated: 29 Jun 2026, 30 Jun 2026" [V]. England and Wales. The old
+  standalone URL still returns 404; the CPS site search for "consent submission" finds the full page.
+  **Cite the live page**, read 25 September 2026. The Internet Archive capture 20260421173121 (page
+  dated 21 May 2021) is superseded and is not to be cited as current guidance.
+- **Unchanged on the live page:** both freeze entries, "flop, freeze or befriend", "Consent and
+  submission are different.", *Malone*, *Olugboja*, the reluctant-choice passage, *Watson*, s.142
+  CJPOA 1994, *R v R*, "Only a perpetrator is responsible for rape", "often become physically
+  paralysed", the reasonable-belief question, and the myths on strangers, partners, reporting
+  straight away, a coherent account, "no" and "only gay men".
+- **Changed or gone:**
+  - The scream myth now reads "If the victim didn't scream, fight, or get injured then it could not
+    have been rape. (FALSE)". The capture's "...then it wasn't rape" is the 2021 wording.
+  - The capture's freedom and capacity lists ("Domestic abuse – did a partner or family member use
+    coercion, control, force or power...", "Position of power", "Dependency", "Was the complainant
+    asleep or unconscious?") are **not** on the live page. Its nearest lines: the annex's
+    "Consider the context of the overall allegation including what impact the relationship had on
+    someone's freedom to consent, and the presence of domestic abuse and in particularly controlling
+    or coercive behaviour", and *Ali and Ashraf*. On capacity, the consent chapter (before the annex)
+    says "A complainant does not consent if they are incapacitated through drink." [V, fixer]
+  - The consent chapter adds a gloss on *Malone*: "What was required was some evidence to be put
+    before the jury of lack of consent, and the nature of that evidence depended on the
+    circumstances of the case." [V]
+- **The reluctant-choice passage in full** carries its scope: "especially, but not exclusively, in
+  the context of a long-term loving relationship". The annex sets *Zafar* and *Watson* on one side and
+  the relationship and coercive-control line and *Ali and Ashraf* on the other. Quote or paraphrase
+  both sides together, never the first alone.
+
+### Corrections to Part C
+- **§4.4, CPS entry:** its scream-myth quotation and "(capture 20260421173121)" are the 2021 page;
+  use the live wording and citation above.
+- **§4.4, Möller:** the abstract also ties tonic immobility to the person: "previous trauma history
+  (OR 2.36 ...) and psychiatric treatment history (OR 2.00 ...) were associated with the tonic
+  immobility response" [V]. A lesson must not treat a freeze as a measure of how overwhelming an
+  attack was. "Stockholm" is from the authors' affiliation (Karolinska Institute, Stockholm), not
+  the abstract's text, which names "the Emergency clinic for raped women".
+- **§5, Kozlowska:** when a lesson says "last resort", give the clause whole, "when active defense
+  responses have failed" included. The abstract's list ends with quiescent immobility ("promotes
+  rest and healing"), so tonic immobility is a last-resort response, not the cascade's "last stage".
+  The abstract's sentence in full (PubMed 26062169, re-read by the fixer): "Arousal is the first step
+  in activating the defense cascade; flight or fight is an active defense response for dealing with
+  threat; freezing is a flight-or-fight response put on hold; tonic immobility and collapsed
+  immobility are responses of last resort to inescapable threat, when active defense responses have
+  failed; and quiescent immobility is a state of quiescence that promotes rest and healing." [V]
+  Lesson 10 quotes it, with the clause restored, as "Arousal is the first step ... flight or fight is
+  an active defense response ... freezing is a flight-or-fight response put on hold; tonic immobility
+  and collapsed immobility are responses of last resort to inescapable threat, when active defense
+  responses have failed".
+- **§4.1, Tark and Kleck 2014:** the abstract says they took "into account whether harm to the
+  victim followed or preceded" resistance; never "counted only injuries that came after". Most
+  resistance made "no significant" difference to further injury: never "the opposite" of making
+  injuries worse, and never "reduced injury" for the rape paper. Ullman 1997's abstract says nothing
+  about injury, and its "effectiveness" is for "forceful resistance strategies" (Block and Skogan's
+  favourable result is for non-forceful resistance, so the two do not line up on kind).
+- **B20, ONS:** the perpetrator's home is 28.5%, after the victim's own home at 38.2%: "the most
+  common location for rape or assault by penetration to occur was in the victim's home (38.2%),
+  followed by the perpetrator's home (28.5%)" [V, fixer]. The year ending March 2025 prevalence
+  (8.2% of women, 0.7% of men) is from a half sample, which ONS says to treat with caution.
+- **Rape Crisis E&W, "Supporting a survivor":** "It's very common for people who experience rape or
+  another form of sexual violence or abuse to find that that they cannot move or speak" [V, fixer]
+  (sic, "that that"). Practitioner opinion, written for everyone.
+- **Victim Support's "regardless of whether they have reported"** is on `/about-us/`, and Victim
+  Support NI's "whether or not the crime has been reported" is on its home page; cite those pages
+  for those lines.
+
+### Verbatim block (Reviewer F; all reads 2026-09-25)
+
+**Sexual Offences Act 2003, s.74** (legislation.gov.uk, live):
+- [V] "For the purposes of this Part, a person consents if he agrees by choice, and has the freedom and capacity to make that choice."
+- [V] "74 “Consent” E+W"; "Sexual Offences Act 2003, Section 74 is up to date with all changes known to be in force on or before 25 September 2026."
+
+**CPS, *Rape and Sexual Offences Prosecution Guidance - Full Page Version*, Annex A** (live, `.../rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a`; "24 June 2026", "updated: 29 Jun 2026, 30 Jun 2026"):
+- [V] "A real rape victim would never freeze when attacked, they would fight back. (FALSE)"
+- [V] "If the victim didn't scream, fight, or get injured then it could not have been rape. (FALSE)"
+- [V] "If you don’t say ‘no’, it’s not rape. (FALSE)"
+- [V] "Rape is always violent or involves physical force. (FALSE)"; "Rape most commonly occurs between strangers in dark alleys. (FALSE)"; "You cannot be raped by your husband or partner. (FALSE)"; "If the victim didn’t complain to the police immediately it can't have been rape. (FALSE)"; "A real victim would always be able to provide a clear and coherent account of being raped. (FALSE)"; "Only gay men rape other men / only gay men get raped. (FALSE)"
+- [V] "When under threat, the brain will implement instinctual survival responses that the victim will not necessarily have any control over. The response may not appear logical to others, or even the victim, but in the moment the brain might choose to react based on basic instincts: not just fight or flight, but flop, freeze or befriend."
+- [V] "They can legitimately be afraid of being killed or seriously injured so co-operate with the rapist to save their life. They may also fear for the safety of others including their family members. Consent and submission are different."
+- [V] "Victims in a rape situations often become physically paralysed with terror or shock and are unable to move, resist or fight." (sic)
+- [V] "Victims in rape situations are often legitimately afraid of being killed or seriously injured and so co-operate with the rapist to save their lives."
+- [V] "not just fight or flight, but flop, freeze or to befriend the attacker."
+- [V] "Malone [1998] 2 Cr App R 447 . No requirement that absence of consent has to be demonstrated or communicated to the accused."
+- [V] "Only a perpetrator is responsible for rape and the law applies equally to all"
+- [V] "Section 142 CJPOA 1994 - Rape redefined to include non-consensual anal intercourse with a male or female as of 3 November 1994"
+- [V] "R v R [1992] AC 599 held that a marital rape exemption did not exist in English law."
+- [V] "There are circumstances where a jury will require assistance with the distinction between reluctant but free exercise of choice, especially, but not exclusively, in the context of a long-term loving relationship, and unwilling submission due to fear of worse circumstances."
+- [V] "CA & Watson [2015] EWCA Crim 559 : Context is critical. Submission to a demand that a complainant feels unable to resist may in certain circumstances be consistent with reluctant acquiescence."
+- [V] "Ali and Ashraf [2015] EWCA Crim 1279 held that submission achieved by high level psychological coercion in the context of any pre-existing relationship between the defendant and the complainant may not amount to free agreement."
+- [V] "R v Olugboja (1982) held that the jury should be directed that consent, or the absence of it, is to be given its ordinary everyday meaning and if need be, by way of example, that there is a difference between consent and submission; every consent involves submission, but it by no means follows that a mere submission involves consent."
+- [V] "Consider the context of the overall allegation including what impact the relationship had on someone’s freedom to consent, and the presence of domestic abuse and in particularly controlling or coercive behaviour."
+- [V] "the prosecution must prove that the suspect did not have a reasonable belief that the complainant was consenting. This can be difficult but the prosecutor needs to ask ‘how did the accused/defendant know s/he consented and continued to consent’?"
+- Same page, consent chapter: [V] "Whether he or she was in a position to make that choice freely, and was not constrained in any way." [V] "What was required was some evidence to be put before the jury of lack of consent, and the nature of that evidence depended on the circumstances of the case."
+
+**CPS annex, Internet Archive capture 20260421173121** (page dated "21 May 2021"). Lines **not** in the live version:
+- [V] "‘If the victim didn't scream, fight, or get injured then it wasn't rape’ - False"
+- [V] "Domestic abuse – did a partner or family member use coercion, control, force or power to remove a complainant’s freedom to consent?"; "Was the complainant asleep or unconscious?"
+
+**Kozlowska and colleagues 2015** (PubMed 26062169, abstract; *Harv Rev Psychiatry* 23(4):263-87):
+- [V] "Evolution has endowed all humans with a continuum of innate, hard-wired, automatically activated defense behaviors, termed the defense cascade."
+- [V] "tonic immobility and collapsed immobility are responses of last resort to inescapable threat, when active defense responses have failed; and quiescent immobility is a state of quiescence that promotes rest and healing."
+
+**Möller, Söndergaard and Helström 2017** (PubMed 28589545, abstract):
+- [V] "Active resistance is considered to be the 'normal' reaction during rape."
+- [V] "Tonic immobility at the time of the assault was assessed using the Tonic Immobility Scale in 298 women who had visited the Emergency clinic for raped women within 1 month of a sexual assault."
+- [V] "After 6 months, 189 women were assessed regarding the development of post-traumatic stress disorder and depression."
+- [V] "Of the 298 women, 70% reported significant tonic immobility and 48% reported extreme tonic immobility during the assault."
+- [V] "Further, previous trauma history (OR 2.36; 95% CI 1.48-3.77, p < 0.001) and psychiatric treatment history (OR 2.00; 95% CI 1.26-3.19, p = 0.003) were associated with the tonic immobility response."
+- [V] "Knowledge of this reaction in sexual assault victims is important in legal matters and for healthcare follow up."
+- Affiliation [V]: "Department of Clinical Science and Education, Karolinska Institute, Stockholm, Sweden."
+
+**Ullman 1997** (Crossref abstract; 24(2) 177-204):
+- [V] "Consistent evidence suggests the effectiveness of forceful resistance strategies for avoiding rape; however, few studies have analyzed resistance within the social and situational contexts of rape"
+- [V] "data on the sequential ordering of offender attack and victim resistance should be analyzed to enhance prediction of the probability of completed rape and physical injury to victims."
+
+**Tark and Kleck 2014** (Crossref abstract; 20(3) 270-292):
+- [V] "The impact of victim resistance on rape completion and injury was examined utilizing a large probability sample of sexual assault incidents, derived from the National Crime Victimization Survey (1992-2002), and taking into account whether harm to the victim followed or preceded self-protection (SP) actions."
+- [V] "Additional injuries besides rape, particularly serious injuries, following victim resistance are rare."
+- [V] "Results indicate that most SP actions, both forceful and nonforceful, reduce the risk of rape completion, and do not significantly affect the risk of additional injury."
+
+**Brecklin and Ullman 2005** (PubMed 15851540; 20(6) 738-62):
+- [V] "This study investigated the relationship of self-defense or assertiveness training and women's physical and psychological responses to subsequent rape attacks (N = 1,623)."
+- [V] "victims with preassault training were more likely to say that their resistance stopped the offender or made him less aggressive than victims without training."
+- [V] "were angrier and less scared during the incident"
+- [V] "Preassault training participants rated their degree of non-consent or resistance as lower than did nonparticipants, perhaps because they held themselves to a higher standard."
+
+**Senn and colleagues 2017** (PMC5821219; *Psychol Women Q* 41(2):147–162):
+- [V] "The program makes clear that perpetrators are entirely responsible for the crimes they commit."
+- [V] "sexual assault interventions for women must not inadvertently suggest that women are responsible for sexual assault"
+
+**ONS, *Nature of sexual assault by rape or penetration ... year ending March 2025*** (released 4 November 2025):
+- [V] "The year ending (YE) March 2025 Crime Survey for England and Wales (CSEW) estimated that 4.5% of people aged 16 years and over (2.2 million) had experienced sexual assault by rape or penetration (including attempts) since the age of 16 years (8.2% for females and 0.7% for males)."
+- [V] "CSEW data on sexual assault for year ending (YE) March 2025 are based on a half sample. Caution should be taken because of the impact of the reduced sample size on the quality of the data."
+- [V] "This was closely followed by someone who was known to them other than a partner or family member (37.8%), which includes dates (11.3%) and friends (10.7%)."
+- [V] "nearly half (48.3%) said the perpetrator used physical force, such as holding them down, to make them have sex with them"
+- [V] "stated that the perpetrator(s) was male (98.0%)"
+- [V] "around 1 in 7 (14.7%) reported the assault to the police"
+- [V] "A higher proportion of females (39.3%) than males (21.5%) were victimised in their own home."
+
+**NRC 2014** [V] "it is likely that the NCVS is undercounting rape and sexual assault victimization"
+
+**Rape Crisis England & Wales, "Supporting a survivor"**:
+- [V] "The most important thing you can do for a victim or survivor is to listen to them and believe what they are saying. And then let them tell you what they need"
+- [V] "100% of the blame, shame and responsibility for sexual violence and abuse lies with the perpetrator or perpetrators."
+- [V] "Don't ask them why they didn’t try to run away or fight back"
+- [V] "This is one of the bodies’ automatic responses to fear and does in no way mean that they consented to what was happening"
+- [V] "Don't tell anyone else without their permission"
+- [V] "This also includes their friends, family, or anyone else who is supporting them."
+- [V] "Remember that it’s okay to take time and space for yourself sometimes."
+
+**Rape Crisis E&W, "Support for men and boys"** [V] "Male victims and survivors aged 16+ can contact our 24-hour phone and online chat service."
+
+**Lines** (each on the service's own page):
+- Rape Crisis E&W: [V] "Call free on 0808 500 2222"; [V] "A free phone and online chat service for anyone aged 16+ in England and Wales who has been affected by rape, child sexual abuse, sexual assault, sexual harassment or any other form of sexual violence."
+- Victim Support get-help: [V] "Call our Supportline free on 08 08 16 89 111 , 24/7". About us: [V] "regardless of whether they have reported the crime to the police or when it occurred"
+- Live Fear Free: [V] "Call: 0808 80 10 800"; [V] "Calls are welcomed in Welsh. Available 24 hours a day 7 days a week."; [V] "anyone experiencing domestic abuse or sexual violence"
+- Rape Crisis Scotland: [V] "Get in touch any day between 5pm – midnight: Call: 08088 01 03 02"; [V] "We support people of all genders living in Scotland aged 13+ who have been affected by sexual violence."
+- Victim Support Scotland: [V] "0800 160 1985"; [V] "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"
+- DSA Helpline: [V] "0808 802 1414"; [V] "The DSA helpline is a free, confidential service for anyone aged 18+, providing 24/7, 365-day support."
+- Rape Crisis NI: [V] "0800 0246 991" (hours: two versions on the page; print none)
+- Victim Support NI: home [V] "We offer a free and confidential service, whether or not the crime has been reported, regardless of how long ago the crime took place."; contact page [V] "02890 243133", "02871 370086", "Opening hours: Monday – Friday from 9am-5pm"
+- VictimConnect: [V] "1-855-4VICTIM (855-484-2846)"; [V] "We can only talk, text, or chat with you if you are currently physically safe."; [V] "If you are in immediate danger, please call 911 for an immediate response."
+- RAINN (browser, home page): [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español."; "Call 800.656.HOPE (4673)"; [V] "THANK them, ASK how you can help, LISTEN, and KEEP supporting."
