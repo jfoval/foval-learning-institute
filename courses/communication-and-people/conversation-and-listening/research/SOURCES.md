@@ -4259,3 +4259,17 @@ the hyphen).
 
 **Gottman-Rapoport Conflict Blueprint** (URL as Part C §3.5), re-read: the "Postpone persuasion"
 sentence confirmed [V]; "Flooded? Practice self-soothing." [V].
+
+## Gate closures, lesson 07 targeted re-check (2026-09-26)
+
+Re-fetched today with curl and a generic browser User-Agent (no personal data); strings copied from
+the downloaded text. **Zaki, "Choosing Empathy", Edge** (URL as Part C §7.2): "what Mina Cikara and
+I have called empathic failures, cases in which people don't empathize, and that generates some
+problems down the line" [V]; "when adolescents bully each other, or when physicians fail to
+understand the suffering of their patients, those are empathic failures" [V]; "not just teaching
+people how to empathize, but getting them to want to empathize in the first place" [V]. **Bloom's
+Reality Club response** on the same page: "There is a growing body of research by scholars such as
+Matthieu Ricard, Tania Singer, and David DeSteno suggesting that we are better and more altruistic
+people—more willing to help and better at doing so—if we care about people, but don't empathize
+with them." [V] (the studies themselves not read); "the one thing I don’t say about empathy is that
+it’s inflexible" [V].

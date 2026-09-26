@@ -300,3 +300,60 @@ Perpetua; no places. `npm run quotes conversation-and-listening`: no misses in l
 
 **Status after review:** clean, subject to the targeted neutrality re-check of the Bloom and Zaki
 section that the reviewer asked for (R1); not a full Tier B pass.
+
+## Targeted re-check (2026-09-26)
+**Checker:** one fresh-context re-checker, against the fixer's commit 8737082 (lesson diffed against
+8737082~1) and the working-copy SOURCES "Gate closures, lesson 07 review". Re-fetched today by curl
+(generic browser User-Agent, no personal data): the Edge page with all five Reality Club responses,
+Bloom 2017 (course reading copy, PDF) and Eyal, Steffel and Epley 2018 (author PDF). Every quotation
+in the two empathy sections (23 strings) string-matched by script after normalising quotes and
+whitespace: all match, each in the source the lesson attributes it to, and each in context
+("a great argument" is Zaki on Bloom's case; "Here, it is understanding and compassion we need" is
+Box 3's anxious-or-sad paragraph; the wife example follows the self-care sentence and is about the
+patient).
+
+**Ideological Turing test, afresh.**
+- **Bloom** would accept his case: emotional empathy as the target, policy as the main ground, Box 3's
+  concessions and "well suited for more intimate interactions" kept, "corrosive" from his response,
+  not against caring or understanding. Two gaps against his response, fixed below: the lesson
+  omitted his evidence on support (the research he cites that people help more, and better, when
+  they care without sharing the feeling), and "says that is part of the problem" made *choice* the
+  problem where he says its flexibility makes it manipulable ("the one thing I don't say about
+  empathy is that it's inflexible").
+- **Zaki**, after R1, is no longer the "more empathy" side, and the turn-it-down half is in his words.
+  But the fix overshot: "control, up or down" with nothing on what his programme is mainly for left
+  out the centre of his conversation, "empathic failures, cases in which people don't empathize"
+  (outgroups, bullying, physicians), and the aim of "getting them to want to empathize in the first
+  place". A Zaki reader would say the lesson now has him neutral about empathy. Fixed below.
+- **Counts after the fixes:** Bloom 11 quotations, Zaki 10; one explanatory line each in the course's
+  voice; Bloom's response is the last word from either man, and the lesson says the page carries no
+  reply and that it stops mid-argument; the course-voice disagreement sentence gives each his
+  position and ends on Zaki's; misconceptions name one misreading of each man and one ("More empathy
+  always") answered from both. Passes.
+
+**Four one-edit fixes made here** (strings recorded [V] in SOURCES, "Gate closures, lesson 07
+targeted re-check", appended):
+1. Zaki's case: "His main target is what he calls "empathic failures, cases in which people don't
+   empathize", such as adolescents bullying each other or doctors who miss a patient's suffering,
+   and the practical programme follows: getting people to want to empathize, ..."
+2. Bloom's case: "In the same response he points to "a growing body of research" suggesting that
+   people are more willing to help, and better at it, when they care about someone without sharing
+   the feeling; this course hasn't read those studies."
+3. Bloom's response: "says its flexibility is part of the problem" (was "says that is part").
+4. Misconception: "Zaki wants more empathy all round" now answered "He argues for choosing it: more
+   where people fail to empathize, and less when you need to look after yourself or ...".
+
+**R2 to R16:** resolved in the text as recorded; no new error found. Numbers redone in changed
+passages: 8.60 / 4.90 = 1.76, "about three quarters"; d = 1.85 is the paper's absolute-difference d
+for getting-full against control (Results, Experiment 25), Φ(1.85) = 0.968; 13.71 against 6.20 is
+across conditions, interaction not significant, so "did not vary" fits; Φ(−0.23) = 0.41;
+Φ(0.51) = 0.69; chance of a third in the one group of four. Quiz keys 1,3,0,2,1,0 unchanged, option
+text unchanged; each explanation matches its key and addresses every option. The "What would settle"
+paragraph does not conflict with Bloom's cited research, which is not long-term trials rated by the
+person supported. R17's OUTLINE half stays with the orchestrator (`course-wide.md`).
+
+No em dashes or spaced en dashes in the lesson. `npm run quotes conversation-and-listening`: 142
+sourced quotations, 0 not found. `npm run minutes`: 5,842 words, measured 90 against stated 85,
+inside precision. `npm run validate` exits 0.
+
+**Verdict: SETTLED.**

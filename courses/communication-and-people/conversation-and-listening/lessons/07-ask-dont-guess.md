@@ -431,14 +431,20 @@ you don't want them anxious or sad too: "Here, it is understanding and compassio
 concedes the other side of that: "Nonetheless, even the most rabid foe of empathy has to concede that
 sometimes people really do want others to feel what they feel."[4] In his written response to Zaki he
 puts the cost in close relationships more sharply: emotional empathy "is corrosive in personal
-relationships, exhausting the spirit and making us less effective at helping those we love."[5] Bloom
+relationships, exhausting the spirit and making us less effective at helping those we love."[5] In
+the same response he points to "a growing body of research" suggesting that people are more willing
+to help, and better at it, when they care about someone without sharing the feeling; this course hasn't read
+those studies. Bloom
 is not against caring, and not against understanding. He argues for both, over sharing the distress.
 
 **Zaki's case.** Zaki calls Bloom's argument "a great argument. It's not one that I agree with."[5]
 On his account, the biases Bloom describes look fixed only if empathy is automatic. "If you instead
 view empathy as something that people can control, then people can choose to align their empathy
-more with their values."[5] On that view, empathy's biases can be worked on rather than accepted,
-and the practical programme follows: "Not just training skills, but also building motives."[5]
+more with their values."[5] On that view, empathy's biases can be worked on rather than accepted.
+His main target is what he calls "empathic failures, cases in which people don't empathize", such
+as adolescents bullying each other or doctors who miss a patient's suffering, and the practical
+programme follows: getting people to want to empathize, "Not just training skills, but also
+building motives."[5]
 
 He's just as clear that choice runs both ways. "It's easy to overdose on empathy," he says, and it
 "can cause you to burn out." Then: "The idea that you can control empathy is not just meant so that
@@ -450,8 +456,8 @@ arguing for more empathy all round. His case is for control, up or down, guided 
 and what the other person needs.
 
 **Bloom's response**, one of five written responses on the page and the only one this lesson uses,
-agrees that empathy can be chosen, and says that is part of
-the problem: "part of the problem with our empathy is that it can easily be manipulated by
+agrees that empathy can be chosen, and says its flexibility is part
+of the problem: "part of the problem with our empathy is that it can easily be manipulated by
 others."[5] The page carries no answer from Zaki to the response, and this course has not read one,
 so that exchange stops mid-argument rather than with a winner.
 
@@ -495,7 +501,8 @@ in particular, and Zaki says there are times to turn empathy down.[4][5]
 **"Bloom thinks you shouldn't care."** He argues for understanding and compassion, over sharing the
 distress.[4]
 
-**"Zaki wants more empathy all round."** He argues for choosing it, and for turning it down when you
+**"Zaki wants more empathy all round."** He argues for choosing it: more where people fail to
+empathize, and less when you
 need to look after yourself or when sharing the feeling wouldn't help the other person.[5]
 
 ## Practice
