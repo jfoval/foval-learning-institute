@@ -93,3 +93,57 @@ lesson.
 **Status after review:** needs second pass. R1 was a wrong framing of a source that SOURCES itself
 carried, so the corrected passages (the charge-light table, the bulb-check paragraph, quiz item 2 and
 the part-2 checkpoint) should be read once more in a fresh context.
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, not the drafter, first reviewer or fixer. Re-read live today
+with curl and a browser User-Agent (no personal data in any header): Highway Code Annex 6 (GOV.UK
+content API, `public_updated_at` 2022-01-29); the AA maintenance, flat-battery and jump-lead pages and
+the 2021 press release; AAA Mountain West; the RAC guide; HSE INDG139 (pdftotext, paras 1 to 20);
+fueleconomy.gov (both pages); AFDC gasoline and hybrid; NHTSA (capture 20260924154857); the Toyota
+2023 Corolla PDF (pp. 309 to 310, 357), the Nissan 2024 LEAF US PDF (pp. 2-16, 6-10, 9-4) and the Ford
+2024 Maverick PDF (capture 20250505042038, pp. 113, 457).
+
+**The charge-light section holds.** Both Annex 6 sentences are quoted exactly and in order; the table
+row, the sentence after the table ("sits with the stop-now rows"), the part-2 checkpoint and quiz item
+2 all match the live text. Toyota p. 357, Nissan p. 2-16 (the chime, "Stop the vehicle", the DC/DC
+caution, the no-charge line), Ford p. 113, the RAC and AAA rows verified word for word. The "number one"
+line is the AA's claim only; the life table, the three dates, the "both ways" paragraph, the "2 or 3
+years" line and the rule of thumb match the AA pages. The 2021 release: "top two causes" (unranked) and
+Ben Sheridan's "starts the onboard computer system" verified. HSE para 7 travels with para 16's "An
+explosion is likely..." clause; paras 3, 5, 9, 12, 13, 17 to 20 verified. Every other first-pass fix
+(R3 to R18) checked in place. Callout byte-identical to the briefs; no em dash; the only en dashes are
+Nissan's "400–volt". Quiz keys 3,2,1,2,0,1 rechecked by script against 01 to 04: all four used, no
+adjacent repeat, no whole or constant-shifted sequence, no shifted run of four at any offset. Option
+spreads 5, 7, 9, 11, 1, 14. Every explanation read against its options.
+
+**Found and fixed (each one edit):**
+- S1 [minor] "Some handbooks list cleaning the battery connections ..., Ford's for the Maverick among
+  them": only Ford's is on record (SOURCES' lesson 05 note says so). Now "Ford's handbook for the
+  Maverick lists cleaning the battery connections as an owner's check".
+- S2 [minor] Opening: "That's the AA's claim about its own call-outs": the page doesn't say the claim
+  comes from its call-outs. Now "That's the AA's claim".
+- S3 [minor] Quiz 6's explanation said two years is "well inside every life figure the AA gives (3 to
+  5, 5 to 7, 3 to 6)"; two is below all three. Now "well short of".
+- S4 [minor] Quiz 5's explanation answered the salt and coolant distractors by content but not
+  "overcharging". Now "road salt, coolant or overcharging".
+- S5 [minor] Kirkwall step 4: flickering dash lights called "the AA's first sign"; on the page it comes
+  after the fuel, key-fob and kerb checks. Now "one of the AA's signs".
+- S6 [minor] Exercise part 3: "an engine can restart" for "a hybrid or electric car"; lesson 4's source
+  (Ford) is for a hybrid. Now "a hybrid's engine can restart".
+- S7 [minor] HSE para 12: "which HSE lists as" dropped HSE's "for example". Now "for which HSE gives
+  the examples".
+- S8 [minor] The part-2 checkpoint's advice for a silent handbook gave the Highway Code and the RAC
+  but no US source. Added AAA's tow for a charging system check, which is already in the table.
+- S9 [minor] Quiz 6 stem reused the body's two-mile trips; now "under a mile".
+- S10 [minor] The fueleconomy.gov bullet's clauses were out of order ("in a list ..., in its advice
+  ..., that it credits"); reordered, same content.
+
+**Noted, not changed:** the checkpoint answers name the RAC and AAA without their industry label (the
+body labels both); HSE's phone-as-ignition-source line isn't in the exercise (the exercise has "let it
+cool" and no flame, and HSE's line is about batteries being or recently charged). Neither is a defect
+of fact.
+
+`npm run validate` exit 0, no line for this lesson; `npm run quotes car-basics` no miss for lesson 05;
+`npm run minutes` 85, matches. SOURCES not edited.
+
+**Verdict: CLEAN.**

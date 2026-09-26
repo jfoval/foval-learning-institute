@@ -96,12 +96,12 @@ quiz:
     explain: >-
       AAA: "If your battery leaks acid, you'll see a green or blue powdery substance on the terminals",
       and "Leaking or a swollen battery can often indicate your battery is near failure." Nothing in
-      the sources makes it road salt or coolant, and the owner shouldn't wipe or touch it: it comes from leaking acid.
+      the sources makes it road salt, coolant or overcharging, and the owner shouldn't wipe or touch it: it comes from leaking acid.
       Leave it, and have the battery looked at; the AA says never to jump-start a battery that looks
       damaged or is leaking.
   - q: >-
       A two-year-old battery has started to struggle on cold mornings. The car is used almost
-      entirely for school runs of under two miles. On the AA's rule of thumb, what is the likelier
+      entirely for school runs of under a mile. On the AA's rule of thumb, what is the likelier
       explanation?
     options:
       - The battery is simply worn out, since two years is past the AA's figure for battery life
@@ -113,7 +113,7 @@ quiz:
       The AA says that if an engine struggles to start before the battery is 5 years old, it probably
       means the battery isn't getting enough charge, the car is doing too many short journeys, or a
       fault is draining it; worn-out batteries are the likelier cause after five years. Two years is
-      well inside every life figure the AA gives (3 to 5, 5 to 7, 3 to 6). The AA calls cold a factor,
+      well short of every life figure the AA gives (3 to 5, 5 to 7, 3 to 6). The AA calls cold a factor,
       not the only one, and a slow start points first at charge, not at the alternator in particular;
       a test would tell.
 ---
@@ -122,7 +122,7 @@ Every car on the road has a small battery, whatever drives its wheels, and when 
 usually won't start. The AA, a motoring organisation that sells breakdown cover and repairs, puts it
 bluntly on its [maintenance page](https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips):
 "Battery problems are the number one cause of breakdowns at any time of year, and particularly for
-vehicles that aren't used very often."[1] That's the AA's claim about its own call-outs, and the
+vehicles that aren't used very often."[1] That's the AA's claim, and the
 page gives no figures behind it; its flat-battery page calls a flat battery "one of the top 10
 breakdown causes".[8] This lesson explains what that battery does in each kind
 of car, why the way a car is used wears it out, how to read the signs before it fails, what to do
@@ -192,8 +192,8 @@ The sources that give figures give them as advice, not as measurements, and they
 mile:
 
 - [fueleconomy.gov](https://www.fueleconomy.gov/feg/driveHabits.jsp), run by the US Department of
-  Energy and the Environmental Protection Agency, in a list of best practices, in its advice on
-  switching the engine off rather than idling, that it credits to a 2015 Argonne National Laboratory
+  Energy and the Environmental Protection Agency, in its advice on switching the engine off rather
+  than idling, in a list of best practices it credits to a 2015 Argonne National Laboratory
   study of starting systems: "Drive at least 5 miles between start
   cycles to fully recharge the battery."[7]
 - AAA's Mountain West club: "Drive for at least a 30-minute stretch once a week. Repeated short trips
@@ -244,7 +244,7 @@ temperature drops and more power is required to get the car started."[3] So on A
 earlier, in hot weather, is what the first cold morning shows up. The case doesn't say how old this
 battery is, and that's the next question to ask.
 
-**Step 4: what the owner does.** The flickering lights fit the AA's first sign of a flat battery:
+**Step 4: what the owner does.** The flickering lights fit one of the AA's signs of a flat battery:
 "If the dash lights are flickering or don't come on, it's likely the battery is discharged."[8] Before
 concluding that, the AA suggests three quick checks that cost nothing: "Make sure there's fuel in the
 tank."; "If the central locking isn't working, your key fob might have died so try a spare key."; and
@@ -311,8 +311,8 @@ AAA's list is the most complete the course read, and it's written for owners:[3]
 
 The AA adds the flickering dash lights from the Kirkwall case.[8] Of all these, the one that changes
 what you do is the leak. A powdery crust on a terminal comes from leaking acid, and this course's line is: don't
-touch it, don't wipe it, and don't try to jump-start the car. Some handbooks list cleaning the battery
-connections as an owner's job, Ford's for the Maverick among them;[14] this course doesn't teach it, as
+touch it, don't wipe it, and don't try to jump-start the car. Ford's handbook for the Maverick lists cleaning the battery
+connections as an owner's check;[14] this course doesn't teach it, as
 its own scope decision. The AA says "Never try to jump start a
 battery that looks damaged or is leaking", and lesson 13 comes back to it.[10] That makes a leaking or
 swollen battery **Call someone**. Toyota's 2023 Corolla handbook for the US gives the look-only
@@ -401,7 +401,7 @@ read, so this section uses it, with that label on it. It names three hazards, an
 fourth.
 
 **Hydrogen.** "Hydrogen and oxygen are usually produced inside a battery when it is being charged. A
-source of ignition", which HSE lists as "a flame, a spark, a cigarette or any hot object, electrical
+source of ignition", for which HSE gives the examples "a flame, a spark, a cigarette or any hot object, electrical
 equipment, a mobile phone", "will often cause mixtures of these gases to ignite and explode. The
 explosion is often so violent that it shatters the battery and produces a highly dangerous shower of
 fragments and corrosive chemicals."[15] Gas comes faster near the end: "Hydrogen and oxygen are
@@ -470,14 +470,14 @@ Take 15 minutes over these. Part 1 is on paper. Parts 2 and 3 use your own car's
 
 2. From your handbook (or the maker's online handbook), write down: where the 12 V battery is, or where the handbook's jump-start points are if the battery is hidden; the handbook's exact words for the charge warning light (what it means, and whether it says stop now or check soon); and anything the handbook says about a car that's little used or driven on short trips. If your car plugs in, add whether the handbook says plugging in maintains the 12 V battery.
 
-3. If you want to look at the battery itself, and it's under the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes, and let it cool. Take the key or fob away from the car. For a hybrid or electric car, remember from lesson 4 that an engine can restart if the ignition is left on and a cooling fan can start without warning, so switch off fully and look without reaching in. Open the bonnet only by the handbook's method. If your handbook asks for safety glasses near the battery, as Toyota's does for the 2023 Corolla, wear them or skip this part. Look, from where you stand, with nothing in your hands and no rings or watch hanging over the battery: is there any green or blue powder on the terminals, any crack, or any swelling of the case? Do not touch the battery, its terminals or its cables, do not lean over it, and do not smoke or use a flame nearby. If you see powder, a crack or a swollen case, leave it alone: write it down, and treat it as Call someone. Do not open, touch or reach past anything orange, anything blue in a mild hybrid, or anything labelled high voltage. Anything you cannot name, leave alone and note as unknown.
+3. If you want to look at the battery itself, and it's under the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes, and let it cool. Take the key or fob away from the car. For a hybrid or electric car, remember from lesson 4 that a hybrid's engine can restart if the ignition is left on and a cooling fan can start without warning, so switch off fully and look without reaching in. Open the bonnet only by the handbook's method. If your handbook asks for safety glasses near the battery, as Toyota's does for the 2023 Corolla, wear them or skip this part. Look, from where you stand, with nothing in your hands and no rings or watch hanging over the battery: is there any green or blue powder on the terminals, any crack, or any swelling of the case? Do not touch the battery, its terminals or its cables, do not lean over it, and do not smoke or use a flame nearby. If you see powder, a crack or a swollen case, leave it alone: write it down, and treat it as Call someone. Do not open, touch or reach past anything orange, anything blue in a mild hybrid, or anything labelled high voltage. Anything you cannot name, leave alone and note as unknown.
 
 4. Add to your notes the battery's age if you know it, from a service record or a receipt, and when it was last tested.
 :::
 
 :::checkpoint Check yourself on part 2. A handbook's words for the charge light fall into one of two kinds. Which kind is "Have your vehicle checked as soon as possible", which is "Immediately stop the vehicle in a safe place", and what do you do if your own handbook says nothing at all about the light?
 
-The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises that a warning light coming on while you drive means "stop and investigate the problem", and that this one should also be checked as soon as possible; the RAC says don't drive; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
+The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises that a warning light coming on while you drive means "stop and investigate the problem", and that this one should also be checked as soon as possible; the RAC says don't drive; AAA says get the car towed for a charging system check; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
 :::
 
 ## For your plan
