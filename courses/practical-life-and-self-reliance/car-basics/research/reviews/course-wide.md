@@ -192,3 +192,21 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **Knock** is the octane page's "detonating prematurely" and no further (decision 14); "before the spark"
   describes pre-ignition, which no source read covers.
 - **Quiz keys:** 12 0,2,0,3,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 09 fix pass: notes for later lessons
+
+- **Ford's restart warning is not hybrid-only.** The Maverick handbook prints the same box ("If you do
+  not switch the ignition off, the engine could restart at any time") on p. 170, in the "Auto-Start-Stop
+  - Gasoline" chapter, and on p. 184 for the hybrid. SOURCES' "p. 170 (hybrid)" is corrected. Lessons 11
+  and 14 must not say only hybrids and EVs carry the warning on Ford's authority; lesson 4's "Ford, for
+  its hybrid" cites p. 184 and stays true.
+- **The AA's oil lines travel with their neighbours:** "below halfway ... adding some oil" with "the level
+  is fine"; "This darkening is quite normal" with "However, if it's black and the texture is sludgy,
+  it'll need replacing." National Highways (top up below the minimum) and the AA (add some below
+  halfway) are not ranked against each other.
+- **Brake fluid:** a slight fall as the pads wear is Toyota's "normal"; only below MIN or a level that
+  keeps falling is Call someone. Nissan's MIN sentence is on its brake-warning-light pages (2-17, 2-20),
+  not its checklist.
+- **Nissan's fan:** the course doesn't teach disconnecting the 12 V battery; a top-up whose filler sits
+  by the fan, on a car whose handbook says to disconnect first, is Call someone.
+- **Quiz keys:** 09 1,3,2,3,0 (unchanged by the fix).

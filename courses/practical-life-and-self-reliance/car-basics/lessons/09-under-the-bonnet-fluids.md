@@ -1,6 +1,6 @@
 ---
 title: "Under the bonnet: oil, coolant, brake fluid and screenwash"
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Prepare any car for a look under the bonnet, including a hybrid or electric car that can start an
@@ -46,13 +46,14 @@ quiz:
       A hot cooling system is under pressure: Nissan warns that "high-pressure fluid" escaping can
       cause serious burns, and every source read says to wait. This course's rule is cold, stricter
       than Ford's ten minutes under a thick cloth. Opening the cap slowly now is the hot-cap mistake
-      itself; running the engine keeps it hot; and topping up at once means opening a hot cap. Once
-      cold, the handbook's coolant goes in, and an overheat with a low level is a fault to have
-      looked at.
+      itself. Running the engine is what Ford says not to do with the cap off: "Do not remove the
+      coolant reservoir cap when the engine is on or the cooling system is hot". Topping up at once
+      means opening a hot cap. Once cold, the handbook's coolant goes in, and an overheat with a low
+      level is a fault to have looked at.
   - q: >-
-      Winter nights where a pickup is kept fall well below freezing, and its washer bottle is
-      nearly empty. On the garage shelf is half a jug of the engine coolant its handbook
-      specifies. What do the two handbooks read in this lesson say?
+      A hatchback is kept somewhere with frosty nights, and its washer bottle is nearly empty.
+      On the garage shelf is half a jug of the engine coolant its handbook specifies. Which fits
+      the advice this lesson read?
     options:
       - Use the coolant, since it contains antifreeze too and so it won't freeze in the bottle
       - Use plain water for now, and add a splash of the coolant later to stop it freezing
@@ -64,7 +65,7 @@ quiz:
       glass it "could make it difficult to see", and Nissan's says it may damage the paint. So
       neither the full jug nor a splash of it is right. Below 5 °C (41 °F), Ford says to use washer
       fluid with antifreeze protection, which rules out plain water. And Ford warns against running
-      the washers with the reservoir empty, because the pump can overheat.
+      the washers with the reservoir empty, because the pump could overheat.
   - q: >-
       A plug-in hybrid has just come back from a run. The dashboard still shows READY, the car is
       silent, and its owner wants to look at the brake-fluid reservoir. Which fits the handbooks
@@ -86,7 +87,7 @@ quiz:
       washer bottle is empty. Which statement fits the regulation and the MOT manual this course
       read?
     options:
-      - Fitted washers must be kept in efficient working order whenever the car is on a road
+      - Fitted washers must be kept in efficient working order while a car is used on a road
       - The washer rule applies only when it is raining, so a dry day falls outside its words
       - The law covers the wipers but not the washers, which are left to the Highway Code
       - An empty bottle is only a Minor defect at the MOT, so it has no bearing on the road
@@ -101,9 +102,9 @@ quiz:
 
 Lift the bonnet (the hood, in American English) of almost any car and you'll find four things an
 owner can check in five minutes: the engine oil, the coolant, the brake fluid and the screenwash
-(windscreen washer fluid). An electric car has three of them. Each one tells you something is
-changing before a warning light does, and three of them can hurt you if you check them the wrong
-way. The Highway Code, which applies in Great Britain, puts the routine in its Annex 6: "Fluid
+(windscreen washer fluid; windshield washer fluid in the US). An electric car has three of them.
+Each one tells you something is changing before a warning light does, and two of them, oil and
+coolant, can hurt you if you check them the wrong way. The Highway Code, which applies in Great Britain, puts the routine in its Annex 6: "Fluid
 levels. Check the fluid levels in your vehicle at least weekly."[1] That's advice, a should rather
 than a legal MUST, and this lesson is how to do it by your own car's handbook.
 
@@ -132,19 +133,22 @@ for the 2024 Maverick, sold in the US and Canada, lists its own maintenance prec
 truck: "Do not work on a hot engine." "Make sure that nothing gets caught in moving parts." "Set the
 parking brake, shift the transmission to park (P) and block the wheels."[3]
 
-A hybrid or an electric car adds the third danger. Lesson 4, "Hybrids and electric cars: how they
-work", quoted Ford's warning that a hybrid's engine "could restart at any time" if the ignition is
-left on. The full instruction, from the Maverick hybrid's section on its high-voltage battery, is:
-"Apply the parking brake, shift into park (P), switch the ignition off and remove the key before you
-open the hood or have any service or repair work completed."[3] Nissan's handbook for the 2024 LEAF
+A hybrid or an electric car adds the third danger, and on Ford's handbook so does a petrol engine
+with automatic stop-start. Lesson 4, "Hybrids and electric cars: how they work", quoted Ford's
+warning that a hybrid's engine "could restart at any time" if the ignition is left on. Ford prints
+the full instruction twice for the Maverick, in the hybrid's section on its high-voltage battery and
+in the petrol truck's section on Auto-Start-Stop: "Apply the parking brake, shift into park (P),
+switch the ignition off and remove the key before you open the hood or have any service or repair work completed."[3] Nissan's handbook for the 2024 LEAF
 sold in the US says of that electric car: "Your vehicle is equipped with an automatic cooling fan.
 It may come on at any time without warning, even if the power switch is not in the ACC, ON or READY
 to drive position."[4] So a car can be switched off and still move a part under the bonnet.
 
 Nissan's own next step, for anyone working near that fan, is to disconnect the 12 V battery's
-negative cable first.[4] This course doesn't teach that, as its own scope decision: nothing in its
-checks goes near the fan, so the preparation below stops short of disconnecting anything, and your
-hands stay out of the engine bay.
+negative cable first.[4] This course doesn't teach that, as its own scope decision. So its checks are
+made by looking, with your hands kept away from the fan, and the only caps it has you open are the
+screenwash filler and, where your handbook says to add oil, the oil filler. If either of those sits
+next to the fan on your car and your handbook says to disconnect the battery before working there,
+that top-up is **Call someone** in this course.
 
 Nissan adds two lines worth keeping for any car. "Always wear eye protection whenever you work on
 your vehicle." And: "Do not work under the hood while the motor compartment is hot. Push the power
@@ -172,7 +176,8 @@ fluid reservoir and two separate coolant caps, one marked "Low temp" and one "Hi
 LEAF picture has no oil at all, but it has a coolant reservoir cap, a brake-fluid reservoir and a
 washer reservoir, beside the 12 V battery.[4] Your picture tells you what your car has. Anything
 orange, or labelled high voltage, is never touched; the checks in this lesson don't need it. Lesson
-1 showed that on a 48 V mild hybrid the wiring may be blue instead, and should be left alone too.
+1, "What a car is made of, and why the handbook comes first", showed that on a 48 V mild hybrid the
+wiring may be blue instead, and should be left alone too.
 
 ### Selby, straight after a drive
 
@@ -240,15 +245,17 @@ Ford's reason for its wait is in its own sentence: the oil needs time to drain b
 the dipstick measures it, and Ford adds that "Checking the oil level too soon could result in an
 inaccurate reading."[3] The AA's advice for the most accurate reading is "park your car on level
 ground. Never park on a slope."[2] If your handbook gives a time, that's your time. If it gives none,
-the longest of these, or a cold engine first thing, can't be wrong.
+this course's reading is that the longest of these, or a cold engine first thing, is the safe
+choice.
 
-The method itself is the same everywhere. Pull the dipstick out, wipe it clean, push it all the way
-back in, pull it out again and look where the oil film stops against the two marks near the tip.
-Ford adds a detail most people miss: "Read both sides of the dipstick and use the lowest oil level as
-the correct reading."[3]
+The method is the same in all three sources. Pull the dipstick out, wipe it clean, push it all the
+way back in, pull it out again and look where the oil film stops against the marks near the tip: a
+minimum and a maximum on the sticks the AA and National Highways describe, and on Ford's Maverick a
+middle "Nominal" mark as well. Ford adds a detail most people miss: "Read both sides of the dipstick
+and use the lowest oil level as the correct reading."[3]
 
 :::figure https://upload.wikimedia.org/wikipedia/commons/1/11/Engine_oil_dipstick_reading_level.JPG | An engine oil dipstick laid on a blue paper towel after being pulled out, with a film of oil covering its tip and small marks along the metal
-An engine oil dipstick, wiped and re-dipped, with the oil film on its tip read against the marks. Where the marks are, and which is the minimum, differs by car; your handbook shows yours. Photograph by Dvortygirl, 2007, via Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+An engine oil dipstick after a reading, with oil on its tip and small marks along the metal. Where the marks are, and which is the minimum, differs by car; your handbook shows yours. Photograph by Dvortygirl, 2007, [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Engine_oil_dipstick_reading_level.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
 :::
 
 ### When to add, and how much
@@ -261,13 +268,16 @@ the difference is the whole point of the handbook.
   oil."[3]
 - **National Highways**, for any car: if the oil is below the minimum mark, "you need to top up your
   oil level."[5]
-- **The AA**, for any car: "If the level is below halfway between the marks, then we would recommend
-  adding some oil."[2]
+- **The AA**, a motoring organisation that sells breakdown cover and repairs, for any car: "If the
+  top of the oil streak is between the minimum and maximum marks, the level is fine. If the level is
+  below halfway between the marks, then we would recommend adding some oil."[2]
 
-So a stick reading a little under halfway gets two answers. Ford says leave it; the AA would add
-some. Neither is wrong for what it covers. Ford's is the maker's instruction for its own engine; the
-AA's is a motoring organisation's general advice for any car. For a Maverick, Ford's wins. For your
-car, your handbook's wins, and the AA's is what you fall back on only if your handbook says nothing.
+So a stick reading a little under halfway gets two answers. Ford says it's acceptable and to add
+nothing; the AA also calls it fine but would add some. Neither is wrong for what it covers: Ford's is
+the maker's instruction for its own engine, the AA's a motoring organisation's general advice. For a
+Maverick, Ford's governs. For your car, your handbook's governs. If your handbook says nothing, the
+two general pages differ as well, National Highways topping up below the minimum mark and the AA
+below halfway, and this course doesn't pick between them.
 
 How much? The AA says "The difference between the minimum and maximum notches on a dipstick is about a
 litre of oil", and it's careful about the other direction: "Putting too much oil into your car is
@@ -299,8 +309,10 @@ warranty may not cover."[3]
 ### What the oil itself tells you
 
 Colour first. The AA: "New oil is clean and golden in colour, but quickly turns dark brown or black
-when it's in use. This darkening is quite normal and is nothing to worry about."[2] Dark oil isn't a
-reason to add any.
+when it's in use. This darkening is quite normal and is nothing to worry about."[2] The same page
+adds the exception: "However, if it's black and the texture is sludgy, it'll need replacing."[2]
+Dark oil isn't a reason to add any; black, sludgy oil is a reason to book the oil change, which is
+garage work in this course.
 
 Milky oil is different. The AA: "Oil with a milky, creamy or foamy appearance means coolant or water
 is leaking into the oil. You'll need to get this checked by a mechanic."[2]
@@ -317,8 +329,8 @@ In the course's labels, then:
 - **Yours**: reading the dipstick, or the dashboard oil display, by the handbook's method.
 - **Yours, on conditions**: adding oil. The conditions are the handbook's grade, level ground, an
   engine that is off and not hot, a little at a time, and never past the maximum mark.
-- **Call someone**: milky oil; a level you're topping up more often than usual; a level that keeps
-  rising.
+- **Call someone**: milky oil; black, sludgy oil; a level you're topping up more often than usual; a
+  level that keeps rising.
 
 Changing the oil is garage work, and this course doesn't teach it.
 
@@ -326,9 +338,10 @@ Changing the oil is garage work, and this course doesn't teach it.
 
 ### Why a hot cap is never opened
 
-The Met Office's winter checklist, which reproduces the RAC's, says what coolant is for: "Coolant (a
-mixture of water and antifreeze) is pumped around your engine to cool it."[6] An electric car has it
-too, for its motor and battery system, as lesson 4 showed.
+The Met Office's winter checklist, which reproduces one from the RAC, a motoring organisation that
+sells breakdown cover and repairs, says what coolant is for: "Coolant (a mixture of water and
+antifreeze) is pumped around your engine to cool it."[6] An electric car has it too: the LEAF has a
+coolant reservoir, and AFDC says some battery systems use liquid coolant, as lesson 4 showed.
 
 The danger is in two sentences from the handbooks. Nissan: "The coolant reservoir is equipped with a
 pressure type coolant reservoir cap." And, for the LEAF: "Never remove the coolant reservoir cap when
@@ -337,14 +350,16 @@ radiator."[4] Ford, for the Maverick: "Coolant expands when it is hot. The level
 the MAX mark." When Ford describes topping up a cooled system, its first step still says: "Unscrew
 the cap slowly. Any pressure escapes as you unscrew the cap."[3]
 
-That is the mechanism, as far as the sources go. Hot, the coolant has expanded and the system is
-holding it under pressure behind a cap designed to hold that pressure. Take the cap off and the
-pressure has somewhere to go, carrying hot coolant with it.
+Put those lines together, and this is this course's reading rather than any one source's sentence:
+hot, the coolant has expanded, and the system holds it under pressure behind Nissan's "pressure type"
+cap. Take the cap off and that pressure has somewhere to go, and Nissan's warning is that it takes
+hot fluid with it. Neither handbook explains the physics further; the technicians' textbook in Go
+deeper is where to look.
 
-:::predict Ford's handbook tells Maverick owners to wait 10 minutes and cover the cap with a thick cloth. Nissan's tells LEAF owners to wait until the motor compartment cools down. Before reading on: which should you follow on your own car, and why might the two differ?
+:::predict Ford's handbook tells Maverick owners to wait 10 minutes and cover the cap with a thick cloth. Nissan's tells LEAF owners to wait until the motor compartment cools down. Before reading on: which should you follow on your own car, and what would you do if your handbook gave no wait at all?
 
-Your own handbook's, because each wait is that maker's for its own car, and the cars are different:
-one has an engine, the other a motor and a battery. Where your handbook gives no time, this course's
+Your own handbook's. Each wait is that maker's for its own car, and neither handbook says why it
+chose its wording, so this course doesn't guess. Where your handbook gives no time, this course's
 rule is stricter than either: wait until the engine or motor compartment is cold. Nothing in the
 sources says a longer wait is ever less safe.
 :::
@@ -355,7 +370,7 @@ Here are the waits side by side.
 |---|---|---|
 | Ford, 2024 Maverick handbook (US and Canada) | That truck | "Wait 10 minutes for the cooling system to cool down", then a thick cloth over the cap and open it slowly |
 | Nissan, 2024 LEAF handbook (US) | That car | "Wait until the motor compartment cools down" |
-| The Met Office, reproducing the RAC's list | Any car, advice | "Remember only check this when the engine is cool otherwise you risk scalding yourself." |
+| The Met Office, reproducing the RAC's list (a motoring organisation, as above) | Any car, advice | "Remember only check this when the engine is cool otherwise you risk scalding yourself." |
 | The Highway Code, Annex 6 (Great Britain) | Any car that has overheated, advice | "If your engine overheats, you should wait until it has cooled naturally. Only then remove the coolant filler cap and add water or other coolant." |
 
 Sources: Ford p. 309; Nissan pp. 8-5 and 8-6; the Met Office; Annex 6.[3][4][6][1]
@@ -369,7 +384,8 @@ haven't got to hand.
 
 You read coolant the same way as brake fluid: through the side of a see-through reservoir, against a
 MIN and a MAX mark, with the cap shut. Ford: "When the engine is cold, check the concentration and
-level of the coolant", and the level should be between the marks. Nissan, for an electric car:
+level of the coolant", and the level should be between the marks (the concentration, Ford says, is
+measured with a refractometer, a tool this course leaves to a garage). Nissan, for an electric car:
 "Check the coolant level in the reservoir when the high-voltage parts are cold."[3][4] Reading it is
 **Yours**.
 
@@ -389,12 +405,12 @@ levels to drop suddenly, so if it does, get it checked out at a garage."[6] Ford
 for the Maverick: "If you have to add more than 1.1 qt (1 L) of engine coolant per month, have your
 vehicle checked as soon as possible." Nissan, for the LEAF: "If the cooling system frequently
 requires coolant, it is recommended that you visit a NISSAN certified LEAF dealer."[3][4] Ford's
-litre a month is Ford's, for a Ford. The pattern in all three is the one to keep: a level you keep
-having to make up is **Call someone**.
+litre a month is Ford's, for the Maverick. The pattern in all three is the one to keep: a level that
+drops, or one you keep having to make up, is **Call someone**.
 
-What about the temperature warning light? It's the one people most often answer with a top-up, and
-it is the wrong first move. Lesson 11, "Dashboard warning lights", takes the light itself; lesson 16,
-"When the car stops: where, who stands where, and the call", covers where to stop. What this lesson
+What about the temperature warning light? A top-up is a common first answer to it, and it is the
+wrong first move. Lesson 11, "Dashboard warning lights", takes the light itself; lesson 16, "When the
+car stops: where, who stands where, and the call", covers where to stop. What this lesson
 adds is the order: stop safely, switch off, and only once the engine is cold does anyone look at the
 coolant.
 
@@ -406,9 +422,9 @@ part of your weekly look.
 
 Ford's method, for the Maverick: park on a level surface, then "Look at the brake fluid reservoir to
 see where the brake fluid level is relative to the MIN and the MAX marks on the reservoir."[3]
-Nissan's LEAF checklist says the same in its own words, and says what a low reading means for that
-car: "If the brake fluid level is below the minimum or MIN mark on the brake fluid reservoir, do not
-drive until the brake system has been checked."[4] That's Nissan's instruction for the LEAF. Lesson
+Nissan's LEAF maintenance checklist says the same in its own words, and its brake-warning-light page
+says what a low reading means for that car: "If the brake fluid level is below the minimum or MIN
+mark on the brake fluid reservoir, do not drive until the brake system has been checked."[4] That's Nissan's instruction for the LEAF. Lesson
 6 showed Toyota's handbook saying something close for the Corolla.
 
 The cap stays on. As lesson 6 set out, reading the level through the side is **Yours**, and in this
@@ -417,12 +433,12 @@ adding fluid, which some handbooks do describe.
 
 :::checkpoint Three weekly readings, on three different cars. Car A's brake fluid sits a little below MAX, the same as last week. Car B's coolant, read cold, is between the marks but lower than last month, and the owner has added some twice. Car C's brake fluid is below MIN. Which label fits each, and what happens next?
 
-Car A: **Yours**, and nothing happens except a line in the log; a slight, steady level is what the
-handbooks describe as normal. Car B: a level you keep having to make up is **Call someone**; the Met
-Office, Ford and Nissan all send a repeatedly falling coolant level to a garage. Car C: **Call
-someone**, and on Nissan's handbook for its own car, don't drive it until the brakes have been
-checked; your handbook's words for your car come first, and lesson 11 covers the red brake light
-that often comes with it.
+Car A: **Yours**, and nothing happens except a line in the log; a level between the marks that isn't
+moving calls for nothing, and Toyota's handbook, in lesson 6, calls even a slight fall as the pads
+wear normal. Car B: **Call someone**; Ford and Nissan send a coolant level you keep having to make up
+to a garage, and the Met Office a sudden drop. Car C: **Call someone**, and on Nissan's handbook for its own car, don't drive it until the brakes have been
+checked; your handbook's words for your car come first, and lesson 11 covers the red brake light,
+which Nissan's handbook ties to a low fluid level.
 :::
 
 ## Screenwash, and the law on washers
@@ -434,7 +450,7 @@ This is general information, not legal advice.
 Screenwash is the one fluid in this lesson you can simply top up. National Highways says the
 reservoir "can be filled to the top" and to follow the mixing instructions on the bottle.[5] The
 filler usually has a bright cap with a windscreen symbol on it; the engine-bay picture in your
-handbook shows yours. Topping it up is **Yours**, with your handbook's washer fluid.
+handbook shows yours. Topping it up is **Yours**.
 
 What you put in depends on the weather, and here two handbooks and one weather service agree in
 outline and differ in the numbers.
@@ -443,8 +459,8 @@ outline and differ in the numbers.
   fluid with antifreeze protection."[3]
 - **Nissan**, for the LEAF: "In the winter season, add a windshield-washer antifreeze", pre-mixed with
   water to its maker's instructions before it goes in, not mixed inside the reservoir.[4]
-- **The Met Office**, for Great Britain in winter: "Make sure you top up your screenwash with a
-  product that is effective down to at least -15 degrees Celsius."[6]
+- **The Met Office**, the UK's weather service, for winter: "Make sure you top up your screenwash
+  with a product that is effective down to at least -15 degrees Celsius."[6]
 
 One thing never goes in. Ford: "Do not put coolant in the windshield washer reservoir. If sprayed on
 the windshield, coolant could make it difficult to see through the windshield." Nissan: "Do not
@@ -465,9 +481,9 @@ the winter fluid, mixed as its maker says, goes in before the first frost rather
 ### What the law says, in Great Britain
 
 In Great Britain, the Road Vehicles (Construction and Use) Regulations 1986 require a car with a
-windscreen to have automatic wipers, unless the driver can see ahead without looking through the
-windscreen, and, with a few exceptions such as very slow vehicles, a washer
-that can clear the swept area "of mud or similar deposit" with the wipers. Then [regulation
+windscreen to have "one or more efficient automatic windscreen wipers" (powered wipers, in the 1986
+wording), unless the driver can see ahead without looking through the windscreen, and, with a few
+exceptions such as very slow vehicles, a washer that can clear the swept area "of mud or similar deposit" with the wipers. Then [regulation
 34(6)](https://www.legislation.gov.uk/uksi/1986/1078/regulation/34) says: "Every wiper and washer
 fitted in accordance with this regulation shall at all times while a vehicle is being used on a road
 be maintained in efficient working order and be properly adjusted."[7] "At all times" is the phrase
@@ -492,8 +508,8 @@ steering with no fluid to check, and your handbook says which yours is. Neither 
 this lesson has one: Nissan's calls the LEAF's system "electric power steering", and Ford's
 engine-bay picture for the Maverick shows no steering reservoir.[4][3] Virginia's inspection, for
 cars that do have one, lists "Power steering fluid" among the levels checked.[10] This course read
-no handbook for a car with the fluid, so it gives no method; where your handbook gives one, it is a
-read-the-marks check like the others.
+no handbook for a car with the fluid, so it gives no method. If your car has the reservoir, your
+handbook's method is the one to follow.
 
 **AdBlue.** On some diesels the AdBlue filler is under the bonnet; the AA lists it as "either next to
 your fuel filler, in the boot or under the bonnet".[11] Lesson 3 covered it. Topping up AdBlue (DEF,
@@ -531,12 +547,15 @@ why, and in this course it is **Call someone**.
 ## Practice
 
 :::exercise The under-bonnet check
-Take 15 minutes over this. Use your own car, or one whose keeper agrees. You'll be reading the handbook,
-looking, and topping up screenwash, nothing more. Don't open the coolant cap, the brake-fluid
-reservoir or anything else under the bonnet for this exercise, except the screenwash cap and, if you
-need to add oil, the oil filler. Don't reach past, touch or go near anything orange, blue on a mild
-hybrid, or labelled high voltage. Don't get under the car, and don't drive it for the exercise. If
-anything below looks wrong, stop, write it down, and treat it as **Call someone**.
+Take 15 minutes over this. Use your own car, or one whose keeper agrees. You'll be reading the
+handbook, looking, topping up screenwash and, only if your handbook says so at the level you find,
+adding oil. Nothing more. Don't open the coolant cap, the brake-fluid reservoir or anything else
+under the bonnet for this exercise, except the screenwash cap and, if you need to add oil, the oil
+filler. Don't reach past, touch or go near anything orange, blue on a mild hybrid, or labelled high
+voltage. Keep your hands away from the fan; if the screenwash or oil filler sits next to it and your
+handbook says to disconnect the battery before working there, leave that top-up as **Call
+someone**. Don't get under the car, and don't drive it for the exercise. If anything below looks
+wrong, stop, write it down, and treat it as **Call someone**.
 
 1. **Prepare.** Level ground, parking brake on, P or in gear. Switch the car off as the handbook
    describes (READY is not off), take the key or fob away from the car, and wait until it's cold:
@@ -547,8 +566,8 @@ anything below looks wrong, stop, write it down, and treat it as **Call someone*
    reservoir and the washer filler.
 3. **Oil.** Read the dipstick by the handbook's method, both sides, and write where the level sits
    between the marks and the colour of the oil. Add oil only if your handbook says to at that level,
-   and only the handbook's grade, a little at a time, re-reading after each. If the handbook gives a
-   wait and it hasn't passed, wait.
+   and only the handbook's grade, a little at a time, re-reading after each, and never past the
+   maximum mark. If the handbook gives a wait and it hasn't passed, wait.
 4. **Coolant and brake fluid.** Read each level through the side of its reservoir, cap shut, against
    MIN and MAX. Write both down.
 5. **Screenwash.** Top it up with washer fluid suited to the season, mixed as its maker says.
@@ -557,13 +576,14 @@ anything below looks wrong, stop, write it down, and treat it as **Call someone*
 
 :::checkpoint Check your log against these. When does a reading in steps 3 and 4 mean you stop being the one who deals with it?
 
-Milky oil, an oil level that keeps rising, or oil you're adding more often than usual: **Call
-someone** (the AA; National Highways; Ford). Coolant below MIN on a cold engine is yours to top up
-with the handbook's coolant, **Yours, on conditions**; coolant you keep having to add is **Call
-someone**. Brake fluid anywhere below where it was, week on week, or below MIN: **Call someone**, and
-on Nissan's handbook for the LEAF a level below MIN means don't drive it until it's checked. A dark
-dipstick at a good level, or a steady brake-fluid level a little under MAX, is just a line in the
-log.
+Milky oil, black and sludgy oil, an oil level that keeps rising, or oil you're adding more often
+than usual: **Call someone** (the AA; National Highways; Ford). Coolant below MIN on a cold engine is
+**Yours, on conditions**, as a separate job after this exercise, not during it: the handbook's
+coolant, cold, and only to MAX. Coolant you keep having to add is **Call someone**. Brake fluid below
+MIN, or a level that keeps falling from week to week: **Call someone**, and on Nissan's handbook for
+the LEAF a level below MIN means don't drive it until it's checked. A slight fall over months is what
+Toyota's handbook calls normal as the pads wear (lesson 6). A dark dipstick at a good level, or a
+steady brake-fluid level a little under MAX, is just a line in the log.
 :::
 
 ## For your plan
@@ -612,7 +632,8 @@ summer", comes back to antifreeze in the coolant and the washer bottle.
    Archive capture 20250505042038 (Ford's site refuses automated readers). **Read for this lesson,
    26 September 2026: printed pages 87 to 91 (wipers and washers), 193 (brake fluid), 303 to 307
    (maintenance precautions, opening the hood, under-hood overviews) and 308 to 310 (oil and coolant),
-   in full; and the warning box on p. 184 (high-voltage battery precautions).** A maker's handbook for its own truck, sold
+   in full; and the warning boxes on pp. 170 (Auto-Start-Stop, petrol) and 184 (high-voltage battery
+   precautions).** A maker's handbook for its own truck, sold
    as petrol or hybrid. <!-- SOURCES Part B §2; lesson 09 gate closures -->
 4. Nissan North America, *2024 LEAF Owner's Manual and Maintenance Information* (US market), PDF.
    **Read for this lesson, 26 September 2026: pp. 8-2 to 8-12 and 9-2 to 9-4 in full, and the lines
