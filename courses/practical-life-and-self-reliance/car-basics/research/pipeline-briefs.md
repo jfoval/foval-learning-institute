@@ -201,6 +201,16 @@ written, so this course does not learn it again.
   under the stricter rule stand.
 - **Screenwash top-up is Yours** (decision 5), unlike oil, coolant and AdBlue, which are Yours, on
   conditions.
+- **2026-09-26, from lessons 14 to 16 at Stage 4:** a silent car is never called off, petrol
+  included (stop-start restarts; Ford p. 170). Any exercise that opens a plug-in's bonnet picks a
+  time when it isn't charging (Nissan: the fan "can start at any time during charging") and tells
+  nobody to unplug anything. Moving a damaged or flooded EV is the recovery service's job, labelled
+  as the course's reading. Ford's 15 m and NHTSA's 50 feet are never called the same advice. US
+  roadside advice always carries the callout's exceptions (too narrow a shoulder, or a guardrail to
+  wait behind). NHTSA's "stay with your car" never reaches a car on a Great Britain motorway or fast
+  road. Rule 283's "do not move injured people" is never said to be exactly First Aid's teaching,
+  which names its own exceptions. Fitting snow chains carries no job label; it points to the
+  handbook and the road authority.
 
 ## Drafting brief: Car Basics, Stage 3
 

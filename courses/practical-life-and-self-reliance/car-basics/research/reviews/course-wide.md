@@ -225,3 +225,22 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **MOT 1.1.10 (f) and (g) are both Minor.**
 - **The glow-plug light that stays on is taught in lesson 11** from DENSO; lesson 2 points there.
 - **Quiz keys:** 11 3,0,3,2,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 14 fix pass: notes for later lessons
+
+- **A silent car is not an off car, petrol included.** Never write that a silent petrol car is off:
+  Ford's Auto-Start-Stop box says a petrol engine with stop-start "could restart at any time" unless
+  switched off (lesson 9). Lessons 16, 19 and the test.
+- **Not while it's charging.** Nissan CH-2: the LEAF's traction motor cooling fan "can start at any
+  time during charging". Any exercise or step that opens a plug-in's bonnet picks a time when the car
+  isn't on charge; none tells a reader to unplug anything.
+- **Moving a damaged or flooded EV is the recovery service's job** (this course's reading, labelled).
+  Ford's 49 ft (15 m) is for storing a severely damaged car, NHTSA's 50 feet for parking any damaged
+  one and only in its flood answer; never "the same advice". Lessons 16 and 19.
+- **After a crash, the exposed-parts shock line goes in the body**: Ford p. 283 "present potential
+  high-voltage shock hazards", NHTSA "may cause". AFDC's deactivation rule is "in the US".
+- **EV fire frequency runs both ways**: no lesson lists only the anti-EV belief as a misconception;
+  Derbyshire's "rare and less likely" is unnormalised and not quoted.
+- **Lesson 14 points to lessons 4, 5 and 9** for voltages, colour code and bonnet preparation rather
+  than reprinting them; later lessons point to 14 the same way.
+- **Quiz keys:** 14 3,2,1,0,2,3 (unchanged by the fix).

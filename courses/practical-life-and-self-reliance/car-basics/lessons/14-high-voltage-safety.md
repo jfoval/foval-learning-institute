@@ -4,15 +4,16 @@ minutes: 90
 objectives:
   - >-
     Identify a car's high-voltage parts from the handbook and the colour code, with the MOT
-    manual's two caveats, and state what an owner must never do to them, and why
+    manual's two caveats, and state what the handbooks and NHTSA say an owner must never do to
+    them, and why
   - >-
-    Prepare a hybrid or electric car before looking under the bonnet, and explain why a silent car
-    is not an off car
+    State how to prepare a hybrid or electric car before its bonnet is opened, and explain why a
+    silent car is not an off car
   - >-
     Compare the home-charging advice of NFPA, Nissan and Electrical Safety First, saying where
     they agree and where they differ
   - >-
-    Set out what to do after a crash, a fire or a flood in a hybrid or electric car, including how
+    Plan what to do after a crash, a fire or a flood in a hybrid or electric car, including how
     far each source says to keep a damaged one from buildings
 quiz:
   - q: >-
@@ -20,40 +21,42 @@ quiz:
       see a single orange cable and concludes there's nothing high-voltage within reach. What does
       the MOT manual's guidance say about that reasoning?
     options:
-      - It's sound, since high-voltage wiring is always orange and that is how you can tell
-      - It's sound for imports only, because imported hybrids are all built at lower voltages
+      - It's sound, since the MOT manual says a car's high-voltage insulation is orange
+      - It's sound for imports only, because imported hybrids are built at lower voltages
       - It proves nothing, since all of a hybrid's wiring is high voltage whatever its colour is
       - It proves nothing; some imported cars use a different colour for high-voltage wiring
     answer: 3
     explain: >-
-      DVSA's MOT manual says high-voltage insulation is orange, "though some imported vehicles may
+      The MOT manual does say high-voltage insulation is orange, but adds "though some imported vehicles may
       have high voltage wiring insulation of a different colour". So an absence of orange proves
       nothing, and the handbook's labels and drawings are what tell her. The manual says nothing
       about imports running at lower voltages, and it doesn't make all hybrid wiring high voltage:
       the 12 V side is ordinary wiring, and 48 V mild-hybrid wiring isn't "regarded as being high
       voltage", though it "should still be avoided".
   - q: >-
-      A plug-in hybrid's owner charges from a garage socket through a heavy-duty indoor extension
-      lead, rated for high loads, because the car's cable won't reach. Which statement matches the
-      sources in this lesson?
+      A LEAF owner in the US reads that a UK electrical safety charity allows an outdoor-rated
+      cable reel for charging, and plans to run one across the driveway to the car. Which
+      statement matches the sources in this lesson?
     options:
-      - All three sources accept a heavy-duty lead as long as it is fully unwound for every charge
-      - Only Nissan objects, and only to leads that aren't sold by Nissan for its own cars
-      - NFPA and Nissan say no extension cords at all; ESF says never a domestic multi-socket lead
-      - The sources object only to charging outdoors; a lead used inside a garage is fine
+      - All three sources allow an outdoor-rated cable reel, as long as it is fully unwound first
+      - Only ESF objects to reels; NFPA and Nissan allow any lead rated for outdoor use
+      - ESF allows one as a fallback; NFPA and Nissan's LEAF handbook say no extension leads
+      - The sources object only to indoor leads, so a reel on the driveway is fine for all
     answer: 2
     explain: >-
       NFPA: "Do not use extension cords with the charger." Nissan, for the LEAF: "Never use
-      extension cords or plug adapters with EVSE." Electrical Safety First says never use a domestic
-      multi-socket extension lead, and allows only an outdoor-rated lead such as a reel "if you do
-      need to use" one. None of them accepts an indoor lead because it's heavy-duty or unwound.
-      Nissan's other page allows its own genuine parts, but its charging page's rule is "Never".
-      Where the charging happens doesn't change any of this.
+      extension cords or plug adapters with EVSE"; its one exception elsewhere is for Genuine
+      NISSAN parts, not a reel from anywhere. Electrical Safety First's 2019 advice rules out a
+      domestic multi-socket lead and allows an outdoor-rated one such as a reel "if you do need to
+      use" one. So the reel is the UK charity's fallback, not NFPA's or Nissan's, and this owner's
+      own handbook says never. Nothing in NFPA's or Nissan's rule turns on the lead being unwound
+      or rated for outdoors.
   - q: >-
-      An electric car is nudged at walking pace in a car park. There's a small scuff on the bumper
-      and it drives normally. What does the UK fire service advice in this lesson say to do?
+      An electric car's owner reverses into a low garden wall at home. The rear bumper is cracked,
+      no warning light comes on and it drives normally. What does the UK fire service advice in
+      this lesson say to do?
     options:
-      - Nothing, since a scuff at walking pace can't ever reach a battery pack under the floor
+      - Nothing, since a cracked bumper from a low-speed knock can't ever reach the battery pack
       - Have the battery inspected by an EV specialist or a dealer, even for a small bump
       - Charge it to full straight away, so the battery's own checks can find any fault
       - Rock the car on its springs to hear whether anything underneath has come loose
@@ -61,42 +64,44 @@ quiz:
     explain: >-
       Derbyshire Fire and Rescue Service: "If you have any accidents, even small bumps that only
       appear to cause cosmetic damage, have the vehicle battery inspected by an EV specialist or car
-      dealership." So a scuff isn't a reason to skip it. No source read suggests charging as a test, or
+      dealership." So a cracked bumper and a car that drives normally aren't a reason to skip it. No source read suggests charging as a test, or
       rocking the car to listen; a damaged battery pack is Call someone, and the inspection is
       the specialist's.
   - q: >-
-      Before topping up the screenwash on a full hybrid, the owner opens the bonnet with the car
-      silent and the ready light off, and the key still in his pocket. What does Ford's handbook for
-      its hybrid say he's missed?
+      A full hybrid is parked on a drive with the parking brake on and P selected. Its engine
+      stopped by itself and the car is silent, but the owner hasn't switched it off, and the key is
+      in the cupholder. Before the screenwash is topped up, what does Ford's handbook for its hybrid
+      say is missing?
     options:
-      - Switching the ignition off with the key removed, since the engine could restart
-      - Nothing, because a silent car with its ready light off cannot start by itself
-      - Only the hazard lights, which should be flashing before any bonnet is opened
-      - Only the gloves, since Ford asks for insulated gloves before any under-bonnet check
+      - Switching the ignition off and taking the key out, since the engine could restart
+      - Nothing, since a silent hybrid with its parking brake on can't start by itself
+      - Switching on the hazard lights first, which Ford asks for before the bonnet is opened
+      - Putting on insulated gloves, which Ford asks for before under-bonnet checks
     answer: 0
     explain: >-
       Ford's warning for the Maverick hybrid: apply the parking brake, shift into park, "switch the
       ignition off and remove the key before you open the hood", because "If you do not switch the
-      ignition off, the engine could restart at any time." Silence isn't off. Hazard lights are
+      ignition off, the engine could restart at any time." This car hasn't been switched off, and
+      silence was never the test. Hazard lights are
       about traffic, not the engine bay, and no handbook read asks an owner for insulated gloves:
       the owner's checks don't go near the high-voltage parts at all.
   - q: >-
-      In a supermarket car park in Great Britain, smoke starts coming from under a parked electric
-      car with its owner inside. A shopper runs over with a small extinguisher. What do the sources
-      in this lesson say?
+      In Great Britain, firefighters have put out a fire in a parked electric car and it has
+      stopped smoking. Its owner wants to fetch a bag from the boot (trunk) while they pack up.
+      What do the sources in this lesson point to?
     options:
-      - Use the extinguisher at once, before the fire can spread into the battery pack
-      - Open the bonnet so the extinguisher can reach the fire in the motor compartment
-      - Get the owner out and away, call 999, say it's an electric car, and don't fight it
-      - Get the owner out, then push the car away from the other parked cars before help comes
+      - Fetch it now, since a fire the fire service has put out cannot start again
+      - Fetch it once the car is plugged in, so its own checks can show the battery is safe
+      - Leave it; a battery fire can reignite after it seems out, so stay clear of the car
+      - Fetch it with the bonnet open, so any heat left in the battery can escape first
     answer: 2
     explain: >-
-      Derbyshire Fire and Rescue Service: "get to a point of safety and call 999. Do not attempt to
-      try and extinguish the fire yourself as this is unlikely to be effective." Ford's handbook:
-      exit, and tell emergency assistance it's an electric or hybrid car. The Highway Code, for any
-      car in Great Britain, says not to try to put out a fire in the engine compartment, because
-      "opening the bonnet will make the fire flare". Pushing a burning car keeps people beside it,
-      which every source read says not to do.
+      AFDC warns of "the potential for delayed ignition of a damaged vehicle or reignition of a
+      battery fire, even after it is believed to be extinguished". So a fire that has been put out
+      can start again, and a car that has stopped smoking isn't safe to go back to; this course's
+      reading is that the firefighters at the scene decide who goes near it. No source read
+      suggests plugging in a damaged car as a test, and the Highway Code warns that opening the
+      bonnet on a fire "will make the fire flare".
   - q: >-
       In the US, a hybrid has sat in floodwater up to its doors. The water has gone and the owner
       wants to put it in the attached garage out of the rain. What does NHTSA say?
@@ -104,18 +109,20 @@ quiz:
       - The garage is the safest place for it, since it keeps the rain off a damaged battery
       - The garage is fine if the car is left unplugged and the garage door stays open
       - Charge it first in the driveway, so the battery can be tested before it goes inside
-      - Not in a garage; keep it outdoors, well away from the house, and call the dealer
+      - Not in a garage or within 50 feet of the house; call the dealer before it's moved
     answer: 3
     explain: >-
       NHTSA: flooded vehicles "lead to high-voltage shock hazards, which could lead to a fire", and
       "Do not park a damaged vehicle with a lithium-ion battery in a garage or within 50 feet of your
       house, other structure, vehicle, or combustibles." It says to contact the dealer or emergency
       services if you suspect the battery is damaged. An open door or an unplugged cable doesn't
-      change the advice, and nothing in it suggests charging a flooded car to test it.
+      change the advice, and nothing in it suggests charging a flooded car to test it. Moving it is
+      for the dealer or the recovery service: nothing read tells an owner to drive or push a
+      flooded car, and this course's reading is that you don't.
 ---
 
 The battery that drives a hybrid or an electric car works at a voltage that can kill, and it sits
-under the floor of a car you park by your house and plug into your wall. [Nissan's handbook for the
+in a car you park by your house and, if it's a plug-in, charge from your wall. [Nissan's handbook for the
 LEAF](https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf) puts the rule for owners in one sentence: "Never disassemble, remove or replace high-voltage
 parts and cables as well as their connectors because they can cause severe burns or electric shock
 that may result in serious injury or death."[1] Nobody reading this course is going to take a
@@ -128,7 +135,7 @@ flood.
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
 :::
 
-The last clause of the callout is this lesson's whole subject. Nothing in it asks you to touch, open,
+The callout's clause about the orange cables is this lesson's whole subject. Nothing in it asks you to touch, open,
 unplug or go near any part of the high-voltage system, or to do any electrical work at home. Where
 it asks you to look at the car, you look from where you stand, with the car switched off. It uses UK
 words with the US word once: bonnet (hood) and extension lead (extension cord). Where NFPA says GFCI,
@@ -136,18 +143,18 @@ the UK word is RCD; Home Repair and Maintenance lesson 5 taught both.
 
 ## Two batteries, two kinds of danger
 
-Lesson 5, "The 12 V battery: what it does, and why short trips flatten it", showed that the small
-battery's dangers are gas, acid and short circuits, and that a shock isn't one of them. HSE, Great
-Britain's workplace safety regulator: "Most batteries produce quite low voltages, and so there is
-little risk of electric shock."[2] In the same leaflet, written for workplaces in 2011, it says of
-the other kind: "Serious electric shocks and burns are common in accidents involving high-voltage
-battery packs."[2]
+:::predict Before reading on, and from lesson 5: a colleague says, "I've jump-started cars and touched both battery terminals by accident, and felt nothing. So a car battery can't hurt you through the skin, whatever kind of car it's in." Which part of that is true, and where does it go wrong?
 
-What counts as high voltage? The ASE Education Foundation, in the standards it publishes for US
-automobile technician training programmes, defines it as "Automotive system voltages greater than 30
-VAC or 60 VDC".[3] Nissan's LEAF works far above that: "The EV system uses high voltage up to
-approximately DC 400 volt."[1] That is Nissan's figure for its car, and lesson 4, "Hybrids and
-electric cars: how they work", showed that other systems differ, down to 48 V in a mild hybrid.
+It's roughly true of the 12 V battery: HSE says there's "little risk of electric shock" from most batteries, although a short circuit can still burn. It goes wrong in "whatever kind of car". A hybrid or electric car has a second battery at hundreds of volts (Nissan's LEAF, up to about 400 V DC), and HSE says serious shocks and burns are common in accidents with high-voltage packs. His experience is with the one battery in the car that is not the dangerous one.
+:::
+
+Lesson 5, "The 12 V battery: what it does, and why short trips flatten it", quoted HSE, Great
+Britain's workplace safety regulator, on both kinds, in a leaflet written for workplaces in 2011:
+"little risk of electric shock" from most batteries, and "Serious electric shocks and burns are
+common in accidents involving high-voltage battery packs."[2] Lesson 4, "Hybrids and electric cars:
+how they work", gave ASE's line for high voltage (above 30 V AC or 60 V DC) and Nissan's figure for
+the LEAF, up to about 400 V DC, and showed that other systems differ, down to 48 V in a mild
+hybrid.[1][3]
 
 ASE's list of what trainee technicians must know about is the fullest account of the hazards this
 course read. It asks them to "Demonstrate knowledge of hazards related to high voltage systems/electric
@@ -155,29 +162,18 @@ vehicles, including electrocution, fire, explosion, arc flash, gases and fumes, 
 and EMF".[3] Set that beside HSE's line about the 12 V battery and the difference is plain: the
 small battery can burn you or blow up in your face, and the big one can also electrocute you. None
 of the sources read explains the physics of why a higher voltage makes a shock dangerous; the
-technicians' textbooks in Go deeper have chapters on high-voltage safety. Nissan adds one more
+technicians' textbook in Go deeper has a chapter on high-voltage safety. Nissan adds one more
 hazard for owners: "The system can be hot during and after starting and when the vehicle is shut
 off."[1]
 
-:::predict A colleague says: "I've jump-started cars and touched both battery terminals by accident, and felt nothing. So a car battery can't hurt you through the skin, whatever kind of car it's in." Before reading on: which part of that is true, and where does it go wrong?
-
-It's roughly true of the 12 V battery: HSE says there's "little risk of electric shock" from most batteries, although a short circuit can still burn. It goes wrong in "whatever kind of car". A hybrid or electric car has a second battery at hundreds of volts (Nissan's LEAF, up to about 400 V DC), and HSE says serious shocks and burns are common in accidents with high-voltage packs. His experience is with the one battery in the car that is not the dangerous one.
-:::
-
 ## Knowing high voltage when you see it
 
-Lesson 4 gave the colour code, and it bears repeating with its limits. Nissan: "High-voltage cables
-are colored orange."[1] Ford, in the 2024 Maverick handbook for the US and Canada, says the hybrid's
-high-voltage power flows through wiring "labeled as such or covered with a solid orange convolute, or
-orange striped tape, or both".[4] [NFPA](https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf), the US fire-safety standards body, tells owners: "Do not touch
-the orange high voltage cables."[5]
-
-[DVSA's MOT inspection manual](https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles), written for testers in Great Britain, gives the two caveats this
-course keeps every time it mentions the colour. High-voltage insulation is orange, "though some
-imported vehicles may have high voltage wiring insulation of a different colour"; and "Many mild
-hybrids only use 48V systems which may use blue coloured insulation, rather than orange, as these are
-not regarded as being high voltage. However, the wiring on these systems should still be
-avoided."[6] So orange tells you something, and the absence of orange tells you nothing.
+Lesson 4 gave the colour code: orange, on Nissan's and Ford's word, with the two caveats in
+[DVSA's MOT inspection manual](https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles), written for testers in Great Britain. Some imported cars
+may use another colour, and 48 V mild hybrids may use blue, wiring the manual says "should still be
+avoided".[1][4][6] So orange tells you something, and the absence of orange tells you nothing.
+[NFPA](https://web.archive.org/web/20240718031252/https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf) (its own link was down when this course checked it, so this is an archived copy),
+the US fire-safety standards body, tells owners: "Do not touch the orange high voltage cables."[5]
 
 The manual also tells testers how to behave around it. It says the high-voltage parts are often out
 of reach, and "where they are accessible, they are well insulated and do not present a high risk";
@@ -189,7 +185,7 @@ vehicle."[1][4]
 
 ## What an owner never does, and who does it
 
-Here are the handbooks and the regulator, side by side. Every row is a source's own instruction.
+Here are the two handbooks, NFPA and the US regulator, side by side. Every row is a source's own instruction.
 
 | Source | Whose, and for which car | What it says |
 |---|---|---|
@@ -204,10 +200,9 @@ In this course's labels, everything on the high-voltage system is **Call someone
 whatever the job looks like. The owner's checks around it (a tyre, the screenwash, reading a
 reservoir through its side) stay **Yours**, done by the handbook's method, and lesson 9, "Under the
 bonnet: oil, coolant, brake fluid and screenwash", showed how to do them without reaching past
-anything orange.
+anything orange, labelled high voltage, or blue on a 48 V mild hybrid.
 
-**Who, then?** NHTSA: "It is important that a qualified technician with specialized EV-specific
-high-voltage training service your electric vehicle."[7] In the UK, the Institute of the Motor
+NHTSA wants a technician with EV-specific high-voltage training.[7] In the UK, the Institute of the Motor
 Industry, a professional body that also sells the qualifications it recommends, runs a register
 called TechSafe, and says "IMI TechSafe recognition is evidence of being safe and qualified to work
 on vehicles with systems and technologies that have significant safety implications, e.g. electric
@@ -223,30 +218,20 @@ to ask a garage.
 
 ## Before you open the bonnet
 
-A petrol car that's silent is off. A hybrid or electric car that is silent may not be. Three sources
-say so, in different words:
+:::predict Before reading on, from lesson 9: what are the steps before the bonnet of a hybrid or electric car is opened, and why isn't a silent car an off car?
 
-- **Ford**, for the Maverick hybrid, in full: "Apply the parking brake, shift into park (P), switch
-  the ignition off and remove the key before you open the hood or have any service or repair work
-  completed. If you do not switch the ignition off, the engine could restart at any time."[4]
-- **Nissan**, for the LEAF's cooling fan: "It may come on at any time without warning, even if the
-  power switch is not in the ACC, ON or READY to drive position."[1]
-- **The MOT manual**, for testers in Great Britain: in a hybrid, "the internal combustion engine may
-  start without warning when electrical equipment is operated or if the battery voltage drops".[6]
-
-Nissan's next sentence tells owners to disconnect the 12 V battery's negative cable before working
-near the fan.[1] This course doesn't teach disconnecting a battery, as its own scope decision. Its
-line is simpler: an owner's checks don't need anyone to work near the fan, so hands stay out of the
-engine bay except to read a level or top up screenwash where the handbook shows.
-
-So the preparation from lesson 9 applies with extra force: parked on level ground, parking brake
-on, P selected, switched off in the way the handbook describes, the key or fob taken away from the
-car, and nothing done while anyone's in the driver's seat. Then look before you reach.
-
-:::checkpoint A hybrid's ready light is off and the car has been silent for ten minutes. The key is on the kitchen table indoors. Is it now safe to reach in and check the screenwash, and what would Ford's handbook add?
-
-On Ford's instruction for the Maverick hybrid, the car is prepared if it was also left with the parking brake on and in park: ignition off, key removed. Silence alone would not have been enough, because Ford says an engine that isn't switched off "could restart at any time". Nissan's warning about its fan still applies in a LEAF even when switched off, so the reach is to the screenwash filler only, by the handbook's route, with nothing orange touched or reached past.
+Lesson 9's list: level ground, parking brake on, P (or in gear), switched off in the way the handbook describes (READY is not off), key or fob away from the car, wait until it's cold, glasses on, rings and watch off, hands clear of the fan and belts, then open the bonnet by the handbook's method. Silence proves nothing: Ford says a hybrid's engine, and a petrol engine with stop-start, "could restart at any time" unless the ignition is switched off, and Nissan says the LEAF's cooling fan can come on "even if the power switch is not in the ACC, ON or READY to drive position". If you missed any step, lesson 9 has the reason for each.
 :::
+
+A silent car is not an off car. Lesson 9 showed it for a petrol engine with automatic stop-start,
+on Ford's handbook, and it holds for a hybrid or electric car too.[4] The MOT manual tells testers
+in Great Britain the same about hybrids: the engine "may start without warning when electrical
+equipment is operated or if the battery voltage drops".[6]
+
+A plug-in adds one condition to lesson 9's list: not while it is charging. Nissan says the LEAF's
+traction motor cooling fan "can start at any time during charging".[1] So pick a time when the car
+is not on charge. Everything in this lesson that has you look at the car starts from that list, and
+looks without reaching in.
 
 ## Charging at home
 
@@ -288,17 +273,18 @@ Sources: [1][5][10].
 
 The US sources say none at all, apart from Nissan's exception on one page for its own genuine
 parts. ESF's 2019 release rules out the ordinary household lead and
-daisy-chaining, and allows an outdoor-rated lead as a fallback. None of the three explains the
+daisy-chaining (plugging one lead into another for longer reach), and allows an outdoor-rated lead as a fallback. None of the three explains the
 difference, and this course does not settle it. What you can act on: the strict version is NFPA's and
 Nissan's, your own car's handbook governs your car, and a household multi-socket lead is ruled out
 by all three. Home Repair and Maintenance lesson 6, "Plugs, leads and electrical fires", covers
 extension leads and cable reels in the house generally.
 
-Why it matters is in ESF's own survey. In January 2019 it commissioned Censuswide to survey 1,500
-plug-in car owners across the UK; of those who didn't charge only at public points, 73.7% said they
-had used a domestic multi-socket extension lead outside to charge, at least sometimes.[10] That's one
-charity's commissioned survey, seven years old, and it measured what people said they did, not
-fires.
+How common the household lead is, ESF's own survey suggests. In January 2019 it commissioned the
+polling firm Censuswide to survey 1,500 owners of plug-in vehicles across the UK; of those who
+didn't charge only at public points, 73.7% said they had used a domestic multi-socket extension lead
+outside to charge, at least sometimes, at least partly because no convenient public charge point was
+nearby.[10] The release used it to call on the government to improve public charging. That's one charity's
+commissioned survey, seven years old, and it measured what people said they did, not fires.
 
 ### Three things the sources say, and two they do not
 
@@ -321,12 +307,12 @@ starting the charge operation."[1]
 Two habits are offered as fire safety that this course does not teach as such. Derbyshire's list says
 "Day to day use, the vehicle should be charged up to 80%" and "Don't charge your car immediately
 after a journey".[11] Those are its advice. No maker's handbook this course read calls either one a
-fire-safety measure, and some makers give their own charging advice for the battery's life, so the
-handbook governs. Electrical Safety First's EV page lists "Charging the battery continuously or
+fire-safety measure, though Nissan's LEAF handbook gives the second as advice for the battery's
+life: "Allow the vehicle and Li-ion battery to cool down after use before charging."[1] Your
+handbook governs your car. Electrical Safety First's EV page lists "Charging the battery continuously or
 overnight" under AVOID;[9] NHTSA, in its winter advice, calls plugging the car in at night in winter "A common way" to keep
-it warm and so cut the battery drain from heating.[12] This course doesn't teach the ESF line as EV guidance: on this
-course's reading it looks like advice written for smaller lithium batteries, and the sources read
-disagree.
+it warm and so cut the battery drain from heating.[12] Neither source explains its line, and this
+course does not settle it: your handbook's charging advice governs your car.
 
 ### A garage in Haverfordwest
 
@@ -359,17 +345,24 @@ subject, so this is only a pointer to GOV.UK's page.[13]
 A damaged hybrid or electric car gets treated as live. Ford's handbook for the Maverick, "In the
 event of damage or fire involving an electric vehicle or hybrid-electric vehicle", starts with:
 "Assume the high-voltage battery and associated components are energized and fully charged."[4]
-NHTSA gives owners the same sentence.[7] AFDC, the US Department of Energy's data centre, notes that
-light-duty cars "are required to have safety features that can deactivate or isolate the electrical
-system when they detect a collision or short circuit".[14] This course's reading of the two together:
-the design is meant to cut the power off, and the makers still tell you not to count on it.
+NHTSA gives owners the same sentence.[7] Ford's next line: "Exposed electrical components, wires
+and high-voltage batteries present potential high-voltage shock hazards."[4] NHTSA says they "may
+cause high-voltage shock hazards".[7] So after a crash, nobody touches exposed wiring, a battery or
+anything leaking, whatever its colour.
+
+AFDC, the US Department of Energy's data centre, notes that in the US, light-duty vehicles "are
+required to have safety features that can deactivate or isolate the electrical system when they
+detect a collision or short circuit".[14] This course's reading of AFDC's line beside Ford's and
+NHTSA's: the design is meant to cut the power off, and Ford and NHTSA still tell you not to count on
+it.
 
 Ford's crash steps, if possible, are to move the car to a safe place nearby and stay at the scene,
 then: "Roll down the windows before you switch your vehicle off." Then park, parking brake, switch
 off, hazard lights, and move "your key(s) at least 16 ft (5 m) away from the vehicle."[4] It adds:
 "Avoid contact with leaking fluids and gases, and remain out of the way of oncoming traffic until
 emergency responders arrive", and tell the responders it's an electric or hybrid car.[4] Those are
-Ford's steps for its car; where a crash leaves you on the road is lesson 16's subject, "When the car
+Ford's steps for the Maverick, sold in the US and Canada, and your own handbook's crash page governs
+your car; where a crash leaves you on the road is lesson 16's subject, "When the car
 stops: where, who stands where, and the call", and the callout's steps come before any of this on a
 motorway.
 
@@ -378,7 +371,9 @@ bumps that only appear to cause cosmetic damage, have the vehicle battery inspec
 specialist or car dealership."[11] That is **Call someone**.
 
 Anyone hurt is First Aid's. First Aid and CPR lesson 2, "Danger, the call, and recognising cardiac
-arrest", starts with the danger to you, and a damaged high-voltage car is one of those dangers.
+arrest", starts with the danger to you, and a damaged high-voltage car is one of those dangers. The
+Highway Code's Rule 283, advice for Great Britain: "DO NOT move injured people from their vehicles
+unless they are in immediate danger".[17]
 
 ## Fire
 
@@ -408,6 +403,11 @@ Do electric cars catch fire more often than petrol ones? This course found no da
 that fairly, counting fires against how many of each kind of car are on the road, so it makes no
 comparison either way. You'll see figures quoted on both sides; ask what each one was divided by.
 
+:::predict In Sarasota, an electric car rolls into a concrete post at low speed in a multi-storey car park. Nobody is hurt. A few minutes later there's a sharp smell and a gurgling sound from under the car. Before reading on: set out, in order, what the driver does, and where the car should end up afterwards, if you had to guess before the next section.
+
+This course's reading: the gurgle moves the driver from Ford's crash steps to its fire steps, whose first is "Exit the vehicle immediately." Ford's list for its car says to call emergency assistance if you "hear gurgling or bubbling from the high-voltage battery", and its crash advice is to "Avoid contact with leaking fluids and gases". So get out and get away from the car, keep others away, stay clear of any smoke, and call 911 at once, saying it's an electric car. Don't go back for belongings, don't touch the car, and don't try to put anything out. A multi-storey car park is a structure, so once responders have dealt with it, the car is not left or stored there: NHTSA says not in a garage or within 50 feet (about 15 m) of a house, other structure, vehicle or combustibles, and Ford says 49 ft (15 m) of any structure or vehicle. The recovery service moves it. Afterwards, the battery is inspected by a specialist or dealer, which Derbyshire's advice asks for even after small bumps. All of it is Call someone.
+:::
+
 ## Where a damaged car is kept
 
 Once the fire service or the recovery truck is done, the car still has to go somewhere. Two sources
@@ -420,35 +420,36 @@ give a distance, each its own:
 
 Sources: [4][7].
 
-It is the same advice in two roundings. This course found no UK source that gives a distance. Ford
+The two are close, about 15 m (50 feet) each, but each is its own source's: Ford's is for storing a
+severely damaged car, NHTSA's for parking any damaged one, and NHTSA adds combustibles. This course
+found no UK source that gives a distance. Ford
 also lists what to watch for afterwards: "Call emergency assistance if you observe leaking fluids,
 sparks, smoke or flames, or hear gurgling or bubbling from the high-voltage battery."[4] When the
 recovery service is called, tell it the car is electric or hybrid; lesson 16 comes back to the
-recovery call.
-
-:::predict In Sarasota, an electric car rolls into a concrete post at low speed in a multi-storey car park. Nobody is hurt. A few minutes later there's a sharp smell and a gurgling sound from under the car. Before opening this: set out, in order, what the driver does, and how far from buildings the car should end up.
-
-Get out and get away from the car, and keep others away, staying clear of any smoke; call 911 at once and say it's an electric car. Ford's list for its car says to call emergency assistance if you "hear gurgling or bubbling from the high-voltage battery", and its crash advice is to "Avoid contact with leaking fluids and gases". Do not go back for belongings, don't touch the car, and don't try to put anything out. A multi-storey car park is a structure, so once responders have dealt with it, the car is not left or stored there: NHTSA says not in a garage or within 50 feet of a house, other structure, vehicle or combustibles, and Ford says 49 ft (15 m) of any structure or vehicle. Afterwards, the battery is inspected by a specialist or dealer, which Derbyshire's advice asks for even after small bumps. All of it is Call someone.
-:::
+recovery call. Getting the car there is the recovery service's job. Neither source asks an owner to
+drive or push a damaged car, and this course's reading is that you don't.
 
 ## Flood
 
 Water and a high-voltage battery are a bad pair. NHTSA: "The batteries in hybrid and electric
 vehicles are highly corrosive and should not be exposed to standing water. Flooded vehicles lead to
-high-voltage shock hazards, which could lead to a fire."[7] Its advice is the same distance as after
-a crash, and then: "If you suspect your battery is damaged, contact your dealer and/or emergency
+high-voltage shock hazards, which could lead to a fire."[7] This is the answer the 50 feet in the
+table above comes from, and it ends: "If you suspect your battery is damaged, contact your dealer and/or emergency
 services."[7] A flooded hybrid or electric car is **Call someone**, and this course read nothing that
-tells an owner how to judge for themselves whether a flooded battery is damaged.
+tells an owner how to judge for themselves whether a flooded battery is damaged. Moving it, to a
+garage or anywhere else, is the recovery service's job.
 
 The Highway Code's Rule 121, advice for any car in Great Britain, covers something smaller: after
 driving through deep water, "your brakes may be less effective", so test them gently at the first
-safe opportunity.[16] That's about brakes after a splash, not about a car that has sat in a flood,
+safe opportunity.[16] That rule is about the brakes, not about a car that has sat in a flood,
 and nothing read suggests driving one of those to find out.
 
 ## What people get wrong
 
-**"Electric cars catch fire more often than petrol cars."** This course found no fair comparison and
-makes none. What the sources agree on is what to do if one does.
+**"Electric cars catch fire more often than petrol cars", or "less often".** Both are said, and one
+fire service's page says the second, from counts that aren't divided by how many of each car are on
+the road. This course found no fair comparison and makes none either way. What the sources agree on
+is what to do if one does.
 
 **"Don't charge in the rain."** NHTSA says chargers are weather-resistant; the handbook's charging
 precautions still apply.
@@ -468,16 +469,16 @@ colour, and mild hybrids' 48 V wiring may be blue and should still be avoided.
 ## Practice
 
 :::exercise Your car's high-voltage page
-Take 25 minutes over these. Part 1 uses the handbook (or the maker's online handbook) for a car that's yours or whose keeper agrees. Parts 2 and 3 are on paper. Nothing here asks you to touch, open, unplug or go near any high-voltage part, or to do any electrical work at home.
+Take 25 minutes over these. Part 1 uses a handbook (or the maker's online handbook). Parts 2 and 3 are on paper. Nothing here asks you to touch, open, unplug or go near any high-voltage part, or to do any electrical work at home.
 
-1. From the handbook, find the high-voltage precautions page and its drawing. Write down where it shows the high-voltage parts and cables, the voltage it gives, and the exact words of its warning. If you want to see the warning labels on the car: park on level ground, apply the parking brake, select P, and switch off in the way the handbook describes; take the key or fob away from the car, indoors if you can; wait until the car has been silent for a while. Open the bonnet only by the handbook's method, and look from where you stand, with your hands at your sides. Don't reach in, don't lean over, and don't touch or go near anything orange, blue on a mild hybrid, or labelled high voltage. If the car makes any sound, close nothing and step back. Note what you saw and where.
+1. From the handbook for a car that's yours or whose keeper agrees, find three pages and copy their exact words: the high-voltage precautions and the voltage it gives; what to do after a crash or a fire; and the charging precautions, including what it says about extension leads, adapters and the circuit. If your car is petrol or diesel only, do this from Nissan's LEAF handbook linked at the top of this lesson, and write "not my car" at the top. This part needs no bonnet opened. If you haven't yet looked at the labels on your own hybrid or electric car and want to, lesson 4's exercise has the steps; do it at a time when the car isn't on charge and has stood long enough to be cold, prepared as lesson 9 lists, and look from where you stand, with your hands at your sides. Don't reach in, don't lean over, and don't touch or go near anything orange, blue on a mild hybrid, or labelled high voltage. If a fan or anything else starts, step back and leave it until it stops. If anything you see on or near the high-voltage parts looks damaged, chafed, scorched or wet, write it down and leave it alone: that is **Call someone**, and nobody touches it.
 
 2. Write your car file's fire, crash and flood card. For your country: the emergency number; the words to say ("it's an electric car" or "it's a hybrid"); your handbook's crash steps if it gives them; the distance your sources give for keeping a damaged car from buildings; and the rule that nobody fights the fire or goes back to the car.
 
 3. Write the questions you'd ask an electrician about charging at home, without doing any electrical work yourself. Include: whether your circuit can take the load, as your handbook states it; whether a dedicated circuit or charge point is needed; whether it has RCD protection (GFCI in the US); and, in the UK, whether they're registered and trained to fit charge points. Add what your handbook says about extension leads.
 :::
 
-:::checkpoint Check yourself on part 2. A friend's card says: "Car fire: grab the extinguisher from the boot, then call." Using this lesson's sources, what should the card say instead, and in what order?
+:::checkpoint Check yourself on part 2. A friend's card says: "Car fire: grab the extinguisher from the boot (trunk), then call." Using this lesson's sources, what should the card say instead, and in what order?
 
 Get everyone out and away from the car, staying clear of the smoke (Ford), then call 999 in the UK or 911 in the US, and say it's an electric or hybrid car (Ford; Derbyshire; NHTSA). Don't fight it: Derbyshire says an extinguisher is "unlikely to be effective", and the Highway Code says not to open the bonnet on a fire because it will flare. Don't go back for anything, and remember a battery fire can reignite after it seems to be out (AFDC). Going back to the boot for an extinguisher is the first mistake on the card.
 :::
@@ -487,7 +488,8 @@ Get everyone out and away from the car, staying clear of the smoke (Ford), then 
 Add a high-voltage page to your car file: where the handbook shows the high-voltage parts and
 labels, as seen and not touched; the handbook's words for preparing the car before the bonnet is
 opened; your fire, crash and flood card; your charging setup, with what the handbook says about
-extension leads and the questions for an electrician. Lesson 16, "When the car stops: where, who
+extension leads and the questions for an electrician. Your own handbook's high-voltage, charging and
+emergency pages come first; every instruction here that names a car is that maker's. Lesson 16, "When the car stops: where, who
 stands where, and the call", adds what to tell the recovery service.
 
 ## Connections
@@ -503,13 +505,12 @@ covers electrical burns. Lesson 16 takes the damaged car to the roadside and the
 
 ## Go deeper
 
-- **Your own handbook**, its high-voltage, charging and emergency pages. Every instruction here that
-  names a car is that maker's.
 - **NHTSA, ["Electric and Hybrid Vehicles"](https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles)**,
   free, read here in full from an archived copy. The US regulator's short page, with its answers on
   charging in rain, floods and fires.
-- **NFPA, ["Electric Vehicles: Safe Charging at Home"](https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf)**,
-  one page, read here in full from an archived copy. The US standards body's charging advice for
+- **NFPA, ["Electric Vehicles: Safe Charging at Home"](https://web.archive.org/web/20240718031252/https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf)**,
+  one page, read here in full from an archived copy, which is what this link opens (NFPA's own link
+  returned an error on 26 September 2026). The US standards body's charging advice for
   owners.
 - **Electrical Safety First, ["Electric vehicles"](https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/transport/electric-vehicles/)**,
   free, read here in full. The UK charity's advice on home charge points and sockets.
@@ -522,8 +523,9 @@ covers electrical burns. Lesson 16 takes the damaged car to the roadside and the
 
 1. Nissan North America, *2024 LEAF Owner's Manual and Maintenance Information* (US market),
    [PDF](https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf).
-   **Read in full: pages EV-8 ("High voltage precautions"), CH-2 and CH-12 ("Precautions on
-   charging") and 8-2 ("Maintenance precautions"), re-read 26 September 2026.** A maker's handbook
+   **Read in full: pages EV-8 ("High voltage precautions"), EV-23 ("Li-ion battery life"), CH-2 and
+   CH-12 ("Precautions on charging") and 8-2 ("Maintenance precautions"), re-read 26 September
+   2026.** A maker's handbook
    for its own car. <!-- SOURCES Part B §5; lesson 13/14 gate closures -->
 2. Health and Safety Executive, [*Using electric storage batteries safely*](https://www.hse.gov.uk/pubns/indg139.pdf),
    INDG139(rev1), July 2011. Great Britain's workplace safety regulator, writing for workplaces.
@@ -576,3 +578,6 @@ covers electrical burns. Lesson 16 takes the damaged car to the roadside and the
 16. The Highway Code, ["General rules, techniques and advice for all drivers and riders (103 to 158)"](https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158),
     updated 17 September 2023. Great Britain. **Read: Rule 121 in full, 26 September 2026, through
     the GOV.UK content API.** Advice, not a MUST rule. <!-- lesson 13/14 gate closures -->
+17. The Highway Code, ["Breakdowns and incidents (275 to 287)"](https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287),
+    updated 14 September 2021. Great Britain. **Read: Rule 283 in full, re-read 26 September 2026
+    through the GOV.UK content API.** Advice, not a MUST rule. <!-- SOURCES Part E §1; lesson 15/16 gate closures -->

@@ -6805,3 +6805,316 @@ User-Agent, no personal data in any header):
   [V]: "In the worst case, it is possible that the engine or DPF will suffer damage, so immediate
   remedial action to find the underlying cause must be undertaken." Lesson 11 paraphrases it
   beside "should not be ignored".
+
+## Gate closures, lesson 17 (2026-09-26)
+
+Read by the lesson 17 drafter on 26 September 2026 with curl (a generic browser User-Agent, no
+personal data), pandoc, the GOV.UK content API and pdftotext. publications.parliament.uk refused
+curl (HTTP 403); the Transport Committee report was read from Internet Archive capture
+20260203160327. **[V]** as above. Nothing here edits the `unread:` line (this drafter was told to
+append only); see the note at the end for the orchestrator.
+
+- **The Highway Code, Rules 275 to 287** (content API, `public_updated_at` 2021-09-14, `updated_at`
+  2026-09-17), re-read in full. Part E §1's quotations match. Rule 277's live-lane box, in full: "If
+  you can’t" [V] / "get your vehicle to the left lane or a place of relative safety (see Rule 275),
+  and" [V] / "exit your vehicle safely to get well away from it and moving traffic," [V] / "you
+  should" [V], then "stay in your vehicle" [V]; "keep your seat belts and hazard warning lights on"
+  [V]; "call 999 immediately and ask for the police. Alternatively, press your SOS button if your
+  vehicle has one and ask for the police." [V] Rule 277's only MUST is the animals line; its law
+  citation is "MT(E&W)R reg 14 & MT(S)R reg 12" [V]. Rule 278: "a hard shoulder, build up speed,
+  indicate and watch for a safe gap in the traffic" [V]; "an emergency area, you MUST use the
+  emergency telephone provided and follow the operator’s advice for exiting the emergency area. A
+  lane may need to be closed so that you can rejoin the carriageway safely." [V] Law "RTA 1988 sect
+  36" [V].
+- **The Highway Code, Rules 253 to 274** (content API, `public_updated_at` 2021-09-14), re-read in
+  full. Rule 258: "Red flashing light signals and a red ‘X’ on a sign identify a closed lane in which
+  people, stopped vehicles or other hazards are present." [V] "follow the instructions on signs in
+  advance of a closed lane to move safely to an open lane" [V, after MUST]; "drive in a closed lane"
+  [V, after MUST NOT]; "emergency services and traffic authorities use closed lanes to reach
+  incidents and help people in need" [V]; "Lane and road closures indicated by red flashing lights
+  are enforced by the police." [V] Rule 269: "You MUST NOT use a hard shoulder except in an emergency
+  or if directed to do so by the police, traffic officers or a traffic sign." [V] "The hard shoulder
+  is used as an extra lane on some motorways during periods of congestion." [V] "You can only use
+  the hard shoulder as an extra lane when a speed limit is shown above the hard shoulder." [V] Rule
+  270: "Emergency areas are located along motorways with no hard shoulder or where the hard shoulder
+  can be used as an extra lane (see Rule 269) and MUST only be used in an emergency." [V] "They are
+  marked by blue signs with an orange SOS telephone symbol and may have orange surfacing." [V] Rule
+  271: "You MUST NOT stop on any carriageway, emergency area, hard shoulder, slip road, central
+  reservation or verge except in an emergency, or when told to do so by the police, traffic
+  officers, an emergency sign or by red flashing light signals." [V] Rule 272: "You MUST NOT pick up
+  or set down anyone, or walk on a motorway, except in an emergency." [V]
+- **The Highway Code, Introduction** (content API, `public_updated_at` 2022-07-01), re-read; as the
+  lesson 15/16 closures record.
+- **National Highways, "Driving on motorways"**, live. **The URL has moved**: the old
+  `/road-safety/breakdowns/` now redirects to
+  https://nationalhighways.co.uk/safety/driving-on-our-roads/driving-on-motorways/ . No page date.
+  Re-read in full (videos not viewed). Part E §2's quotations match except where noted: "Around 25
+  per cent of the motorway network is now made up of smart motorways." [V] "If your vehicle develops
+  a problem, or if you see a red or amber warning light on your vehicle’s dashboard, leave the
+  carriageway at the next exit or pull into a service area if possible." [V] "Do not stop in a live
+  lane unless absolutely necessary." [V] "Pull into an emergency area, lay-by or onto a hard
+  shoulder if you can" [V]. Get safe opens "If it’s safe and possible to exit your vehicle:" [V] and
+  its first line is now "Exit your vehicle on the side furthest from the traffic, and ensure
+  passengers do the same" [V] (Part E's "by the side" is the Highway Code's wording, not this
+  page's). The live-lane heading: "If it’s not safe to exit your vehicle, because you can’t get your
+  vehicle to the left lane or a place of relative safety:" [V]; "Stay in your vehicle" [V]; "Keep
+  your seatbelts and hazard warning lights on" [V]; "Call 999 immediately and ask for the police."
+  [V] "The emergency services can alert us, so we can close motorway lanes and send other help as
+  required, such as a Traffic Officer." [V] Get help: "If you’ve stopped in an emergency area,
+  lay-by or on the hard shoulder:" [V]; "Use the free emergency telephone (where provided) or a
+  mobile phone to call National Highways on 0300 123 5000 to obtain advice and assistance" [V]. "If
+  you have a hearing, speech or physical impairment text us on 0738 028 3600 for roadside
+  assistance." [V] (both numbers re-read today, gate G-N1). "Do not exit an emergency area without
+  speaking to National Highways first. We can set signs and warn approaching traffic that you're
+  about to exit an emergency area. We can even close the lane to help you rejoin the motorway if
+  required." [V] "Be aware that other vehicles may be stationary on the hard shoulder ahead of you."
+  [V] "If you or anyone in your vehicle is unable to follow our breakdowns advice for any reason,
+  stay in your vehicle, keep your seatbelts and hazard warning lights on and call 999 immediately."
+  [V] "Don't stop to assist another vehicle that has broken down or been involved in a collision. You
+  may feel you want to help, but it's safer to call National Highways,on 0300 123 5000, or if there
+  is an immediate risk to life call 999." [V] Kit list as Part E §2.
+- **National Highways, "Smart motorways evidence stocktake"**, live; **moved** to
+  https://nationalhighways.co.uk/roads-and-travel/road-projects/smart-motorways-evidence-stocktake/ .
+  Re-read in full; Part E §2's quotations match. Also: "We want drivers to not only be safe, but also
+  to feel safe and confident using our roads, including smart motorways." [V]
+- **National Highways, "National emergency area retrofit"**, live; **moved** to
+  https://nationalhighways.co.uk/roads-and-travel/road-projects/smart-motorways-evidence-stocktake/national-emergency-area-retrofit/ .
+  Re-read in full; Part E §2's quotations match. Also: "We have listened to drivers' concerns about
+  being able to find a safe place to stop in an emergency on all lane running smart motorways" [V].
+  The page lists fifteen named ALR sections where emergency areas were added (not used: places rule).
+- **National Highways, "Smart motorways stocktake: Fourth year progress report: December 2024"**
+  (PDF, URL as Part E §2), re-read: the executive summary (report pp. 5 to 9), "Smart motorway
+  features" (p. 10), the headline metrics section with Figure 5 (pp. 24 to 27) and the moving and
+  stopped vehicle section with its figures (pp. 30 to 33), in pdftotext, plain and -layout. The rest
+  (the annexes, contributory factors, confidence, Europe) not read. Part E §2's quotations match.
+  Additionally:
+  - "As of 2022, the 446 miles of smart motorway network carried around a third of all motorway
+    traffic in England." [V] "Smart motorways were introduced as they increase capacity without the
+    disruption and environmental impact of physically widening the road." [V] "The Government will
+    not roll out new smart motorways." [V] "We know some concerns remain about being able to find a
+    safe place to stop in an emergency on all lane running (ALR) motorways." [V]
+  - The three types (p. 10): controlled motorways "retain a permanent hard shoulder" [V]; DHS
+    motorways "temporarily increase capacity by using the hard shoulder as a running lane at the
+    busiest times" [V]; ALR motorways "increase capacity by permanently converting the hard shoulder
+    into a live lane" [V].
+  - SVD: "We had previously completed the action to put radar stopped vehicle detection on all
+    operational ALR schemes by the end of September 2022." [V] "The Office of Rail and Road (ORR)
+    announced in December 2023 that, following fixes we implemented by June 2023, the targets for
+    detection rates were now being met." [V] (the footnote numeral after "announced" dropped).
+  - "These types of collision happen on all roads whether there is a hard shoulder or not." [V]
+    "We will also need further years’ data to ensure we have a comprehensive understanding of
+    trends." [V] "We have started the process to assess and understand the impact of the actions on
+    safety outcomes and are undertaking further analysis now that the first full year of data (2023)
+    is available." [V]
+  - Metrics (p. 24): "Killed and seriously injured (KSI) rates: places equal emphasis on deaths and
+    serious injuries by giving no weighting between the two" [V]. Rates are five-year averages per
+    hundred million vehicle miles ("hmvm"), "injury-adjusted", "Data based on STATS19 with minor
+    amendment" [V], on National Highways' strategic road network.
+  - Figure 5, 2018-22, all collisions, as the chart labels print them [V, chart labels]: PIC
+    Conventional 5.26, ALR 5.62, DHS 6.88, Controlled 7.44; KSI Conventional 1.39, ALR 1.38,
+    Controlled 1.35, DHS 1.13; FWI Conventional 0.35, ALR 0.34, Controlled 0.32, DHS 0.32.
+  - p. 26: "As with previous progress reports, PIC are higher on all three types of smart motorways
+    than on conventional motorways, but a collision on a conventional motorway is more likely to
+    involve a death or serious injury than a collision on any of the three types of smart
+    motorway." [V]
+  - p. 27: "The FWI and KSI rates do not meet the criteria and cannot be tested at this time." [V]
+    "The PIC rate for conventional motorways is 5.26 and for ALR motorways is 5.62." [V] "there is
+    strong evidence that these two figures are statistically different to each other" [V].
+  - Stopped-vehicle figure, 2018-22 [V, chart labels]: PIC Conventional 0.19, Controlled 0.19, DHS
+    0.22, ALR 0.29; KSI Controlled 0.08, Conventional 0.10, DHS 0.11, ALR 0.19; FWI Controlled 0.02,
+    Conventional 0.03, DHS 0.04, ALR 0.05. "Stopped vehicle collisions are those where at least one
+    vehicle involved in the collision was stopped at the time the collision occurred." [V] "We
+    recognise that this type of collision, especially on high-speed motorways, is a point of concern
+    for some road users." [V] "The ALR motorway PIC rate for stopped vehicle collisions has decreased
+    compared with previous five-year periods, however, KSI and FWI rates for ALR motorways remain
+    relatively consistent with some year-to-year fluctuation." [V] "Stopped vehicle collisions are a
+    much smaller dataset than moving vehicle collisions and this means that there is a higher level
+    of uncertainty in the stopped vehicle PIC rates than moving vehicle PIC rates." [V]
+- **Department for Transport, the two press releases** (content API), re-read in full; Part E §2's
+  quotations match. Additionally, 12 January 2022: "Although available data shows smart motorways
+  are comparatively the safest roads in the country in terms of fatality rates, while their rollout
+  is paused, the government will go further by ensuring current smart motorways without a permanent
+  hard shoulder are equipped with best-in-class technology and resources to make them as safe as
+  possible." [V] Grant Shapps, then Transport Secretary: "While our initial data shows that smart
+  motorways are among the safest roads in the UK, it’s crucial that we go further to ensure people
+  feel safer using them." [V] Meera Naran, described by the release as an "Independent road safety
+  campaigner" [V] whose eight-year-old son died in a motorway crash in 2018: "Conventional and smart
+  motorways both have their risks and benefits. I welcome this pause in the rollout of smart
+  motorways, which will give us all a positive opportunity to assess the future of our motorway
+  network." [V] 15 April 2023: "Plans for new smart motorways will be cancelled, delivering on the
+  Prime Minister’s summer campaign pledge." [V] "Initial estimations suggest constructing future
+  smart motorway schemes would have cost more than £1 billion and cancelling these schemes will allow
+  more time to track public confidence in smart motorways over a longer period." [V] Mark Harper,
+  then Transport Secretary: "Today’s announcement means no new smart motorways will be built,
+  recognising the lack of public confidence felt by drivers and the cost pressures due to
+  inflation." [V]
+- **Office of Rail and Road, "Monitoring smart motorways"**, live, re-read; Part E §2's quotation
+  matches. Its own description: "We are responsible for monitoring and enforcing the performance and
+  efficiency of National Highways in its delivery of the Smart Motorway Action Plan." [V] The listed
+  PDFs were not opened (the SVD letter and the QA reports stay unread).
+- **The AA, two newsroom statements** (live), re-read in full; Part E §2's quotations match.
+  Additionally, 15 December 2022, Edmund King: "As a result, vulnerable drivers have been left
+  stranded in the most dangerous of places – the live lane of a motorway." [V; the dash is the AA's]
+  The undated third-year statement opens: "We applaud National Highways for making good progress in
+  implementing and improving the performance of Stopped Vehicle Detection and other safety measures
+  on ‘smart’ motorways following serious concerns raised by the AA and others." [V] "The prospect of
+  breaking down or stopping in a live lane is daunting as our AA call centre operators who take the
+  distressed calls can confirm." [V] "We welcomed the scrapping of new ‘smart’ motorways but even with
+  the progress made with new technology on existing ones, more needs to be done to reduce the dangers
+  of live lane stops." [V] The AA's KSI figures (1.31 and 1.43) are still not checked against the
+  third-year report and are not used (G-R1).
+- **The RAC (sells breakdown cover), "Ten years of smart motorways without hard shoulders - RAC
+  statement"**, 12 April 2024, https://media.rac.co.uk/national-highways-installs-52-new-emergency-areas-on-the-m25-and-other-smart-motorways-in-the-south-east-rac-reaction-3316392 ,
+  read in full. Simon Williams, RAC head of policy: "The hard shoulder is by no means a safe location,
+  but in the event of a breakdown, it is far safer than being stranded in a live lane of traffic
+  waiting for the ‘red X closed lane’ sign to be turned on and then for other drivers to do the right
+  thing and move into another lane." [V] "We continue to believe that the Government should either
+  convert existing all-lane-running smart motorways to ‘dynamic’ ones, where the hard shoulder is
+  only opened to traffic during busy periods, or repaint the white line and reintroduce a permanent
+  hard shoulder on these roads." [V] **Its "Key points" carry date errors** (the cancellation is
+  given as 15 April 2024 in one line and "a year to the day" before 12 April 2024 in another; the DfT
+  release is dated 15 April 2023): do not use the key points. Its survey figures are the RAC's own
+  polling, not used.
+- **Regulation 28 report to prevent future deaths**, David Urpeth, Senior Coroner for South Yorkshire
+  West, dated 19 January 2021, https://www.judiciary.uk/wp-content/uploads/2021/01/Alexandru-Murgeanu-and-Jason-Mercer-2021-0013-Redacted.pdf ,
+  read in full. Two drivers stopped in the left lane of an ALR section after a minor collision "even
+  though a “refuge” was available a mile further up the road" [V] and were struck about six minutes
+  later by a goods vehicle. "Whilst the main cause of the tragedy was the careless driving of the
+  driver of Mercedes goods vehicle, the inquest heard and accepted evidence that the lack of a hard
+  shoulder due to the road being a smart motorway contributed to their deaths." [V] Matters of concern
+  include "The obvious and foreseeable risk posed by the absence of a hard shoulder on smart
+  motorways;" [V] and "The need for better driver awareness of the need, where possible, to get over
+  the crash barrier on all motorways, not just smart motorways" [V]. On its own limits: "An inquest
+  cannot say what government policy should be" [V]. The inquest's conclusion was "unlawful killing"
+  [V].
+- **House of Commons Transport Committee, "Rollout and safety of smart motorways", Third Report of
+  Session 2021–22, HC 26, published 2 November 2021**, read from Internet Archive capture
+  20260203160327 of https://publications.parliament.uk/pa/cm5802/cmselect/cmtrans/26/report.html
+  (live 403): the introduction, paragraphs 1 to 8, and the whole "Conclusions and recommendations";
+  the rest not read. The page: "This is a House of Commons Committee report, with recommendations to
+  government." [V] Paragraph 1: "Of the 1,489 deaths on England’s roads in 2019, 15 (1%) occurred on
+  motorways without a hard shoulder. Seventy (5%) occurred on motorways with a hard shoulder." [V]
+  "Deaths on motorways without a permanent hard shoulder, however, have increased from five in 2017
+  to 15 in 2019." [V] "From 2017 to 2019, the number of miles of motorway without a hard shoulder
+  increased from 172 miles to 204 miles." [V] "In four recent cases, coroners ruled that the absence
+  of the hard shoulder contributed to deaths that occurred on all-lane running and dynamic hard
+  shoulder motorways." [V] Paragraph 7: "Some 40% of breakdowns on all-lane running motorways take
+  place in a live lane." [V] Conclusions: "successive Administrations, together with the Department
+  and National Highways’ predecessor, Highways England, underestimated the scale of safety measures
+  needed effectively and reliably to mitigate the risks associated with the permanent removal of the
+  hard shoulder on all-lane running motorways." [V] "The available data on the safety of all-lane
+  running motorways are limited and volatile." [V] "In conclusion, we are not convinced that the
+  benefits of all-lane running motorways are sufficient to justify the risks to safety associated
+  with permanently removing the hard shoulder." [V] "Controlled motorways, which retain the hard
+  shoulder and have technology to regulate traffic, have the lowest casualty rates of all types of
+  motorway on the Strategic Road Network." [V] "Examining the available evidence base, we are not
+  convinced that reinstating the hard shoulder on all all-lane running motorways will improve
+  safety. The evidence suggests that doing so could put more drivers and passengers at risk of death
+  and serious injury, especially if the reduction in capacity were to divert drivers on to less safe,
+  local roads. Although the hard shoulder offers a relative place of safety, it is not a safe place
+  to stop." [V]
+- **California DMV, California Driver Handbook, Section 8**, live, re-read; Part E §3's freeway
+  quotations match. Also: "If your vehicle stops working on the freeway:" [V]; "Use your emergency
+  flashers at your discretion. They can help other vehicles see you at night and in different
+  weather conditions." [V]
+- **AAA Club Alliance, "The Key To Staying Safe When Your Car Breaks Down"**, live, re-read; Part E §3
+  and the lesson 15/16 closures match. Also: "If the conditions of your situation make it impossible
+  to stay in your vehicle (and you've safely pulled over to the right shoulder), exit the vehicle
+  from the passenger side and wait beyond the protective guard rail, if one exists." [V]
+- **Not closed.** G-N3 (Northern Ireland's Highway Code): not attempted; the fallback is written.
+  G-R1 (the ORR's SVD letter): not read; the ORR's 2022 finding is quoted only through the AA, and its
+  2023 announcement only through National Highways' report. G-L15: not needed (Move Over is lesson
+  16's). No photograph (G-N4): none sought; no emergency-area image.
+- **For the orchestrator:** the Transport Committee report above clears the `unread:` entry
+  "Transport Committee Rollout and safety of smart motorways" (introduction, paragraphs 1 to 8 and the
+  conclusions read). The entry was left in place because this drafter was told to append only.
+  Lesson 17 names the report without that exact string.
+
+## Gate closures, lesson 17 (2026-09-26), continued
+
+Same reads as the section above; lines the lesson uses that the section did not record.
+
+- **Fourth-year report**, executive summary: "To gain further confidence in our analysis, ORR has
+  continued to undertake additional independent assurance of our work." [V] p. 27: "We understand
+  that all police forces will eventually move to injury-based reporting systems and when that change
+  has occurred severity adjustments will no longer be necessary." [V] "This will allow us to undertake
+  statistical testing of KSI rates from that point onwards, starting with one year of data." [V] The
+  96 and 4 per cent figure is captioned "Data: Moving and stopped vehicle collisions (2018-2022) as a
+  percentage of SRN collisions and associated personal injury collision rates by road type" [V].
+  The stocktake page's sign line: "installing more than 700 additional signs informing drivers of the
+  distance to the next place to stop in an emergency" [V].
+- **DfT, 12 January 2022**, Grant Shapps: "I want to thank safety campaigners, including those who have
+  lost loved ones, for rightly striving for higher standards on our roads. I share their concerns." [V]
+- **The coroner's report**: "About 6 minutes later, after other vehicles had managed, albeit with some
+  difficulty, to avoid their parked vehicles, they were struck by a Mercedes Goods Vehicle." [V] "The
+  drivers pulled over to the left lane to exchange details." [V]
+
+## Stage 4 note, lesson 14 (2026-09-26)
+
+*Read by the lesson 14 fixer on 26 September 2026 with curl and a generic browser User-Agent (no
+personal data in any header); PDFs with pdftotext -raw, HTML with pandoc, GOV.UK through the content
+API. Quotations marked [V] were copied from that extracted text, line breaks and PDF hyphenation
+joined. Nothing here clears an entry on the `unread:` line.*
+
+- **Nissan, 2024 LEAF Owner's Manual (US)**, live PDF (URL as Part B). CH-2, whole sentence pair:
+  "Be careful not to allow your hands, hair, jewelry or clothing to come into contact with, or get
+  caught in, the traction motor cooling fan. The cooling fan can start at any time during charging."
+  [V]. EV-23, "Li-ion battery life", under "To maximize the battery's useful life, use the following
+  driving and charging habits where possible:" [V]: "Allow the vehicle and Li-ion battery to cool down
+  after use before charging." [V] (battery-life advice, not fire safety). p. 8-2's fan sentence and
+  the extension-cord lines re-read; they stand.
+- **Ford, 2024 Maverick Owner's Manual**, capture 20250505042038, p. 283, the line after "Assume the
+  high-voltage battery and associated components are energized and fully charged.": "Exposed
+  electrical components, wires and high-voltage batteries present potential high-voltage shock
+  hazards." [V]. The p. 184 restart box, the p. 284 storage line (49 ft (15 m)) and the gurgling line
+  re-read; they stand.
+- **NHTSA, "Electric and Hybrid Vehicles"**, capture 20260924154857 re-read (live page 403 to curl).
+  The flood FAQ with the 50-feet line, and "Exposed electrical components, wires, and high-voltage
+  batteries may cause high-voltage shock hazards." [V] (the 13/14 gate closure's record) stand. The
+  50 feet is in the flood answer only; the damage-and-fire list gives no distance.
+- **The Highway Code, "Breakdowns and incidents"** (content API, `public_updated_at` 2021-09-14). Rule
+  283: "DO NOT move injured people from their vehicles unless they are in immediate danger" [V]
+  (as Part E §1). Advice, not a MUST. Rule 121 and Annex 6's fire paragraph re-read; they stand.
+- **Electrical Safety First, "Driven to danger"** (May 2019), live. Note [2]'s question ends "solely or
+  partly because you couldn't locate an available, convenient public charging point close by?" [V];
+  the release says ESF "is calling on the Government to commit to improving the infrastructure of
+  public charging points" [V]; note [5] glosses daisy-chaining as "plugging one extension lead into
+  another for longer reach" [V].
+- **NFPA tip sheet**: the live URL returned HTTP 500 again; the lesson now links capture
+  20240718031252 for the reader. AFDC, the MOT manual Introduction (updated 1 June 2026) and
+  Derbyshire FRS re-read live for the lines the fix kept; they stand.
+
+## Stage 4 note, lesson 13 (2026-09-26)
+
+Re-read live by the lesson 13 fixer on 26 September 2026 (curl, generic browser User-Agent; PDFs by
+pdftotext -raw/-layout, drawings rendered with pdftoppm and looked at).
+
+- **Toyota, 2023 Corolla (US), OM02568U**, live PDF. p. 385, step 6 whole: "Maintain the engine speed
+  of the second vehicle and start the engine of your vehicle by turning the engine switch to ON." [V]
+  Step 7 as recorded. Neither engine is switched off anywhere in steps 4 to 7; that both are running
+  while the leads come off is this course's reading, not the handbook's words. **p. 384 drawing, read
+  by eye:** A on the flat car's positive terminal, B the second vehicle's positive, C its negative,
+  and D, "Metallic point shown in the illustration", on a metal point on the engine, away from the
+  battery (the inset shows the clamp on it).
+- **Nissan, 2024 LEAF (US)**, live PDF. **p. 6-11 drawing LCE2388, read by eye:** A is the LEAF and B
+  the booster vehicle; 1 on the LEAF's positive terminal (under its cover, shown in the inset), 2 on
+  the booster's positive, 3 on the booster's negative, 4 on a body ground point on the LEAF (inset).
+  So Nissan's order starts at the flat battery, as Ford's and Toyota's do. p. 6-10, warning: "Always
+  follow the instructions below. Failure to do so could result in damage to the DC/DC converter and
+  cause personal injury." [V] p. 6-12, step 12's "to have the 12V battery tested" stands as recorded.
+- **The AA, "How to jump start a car in 9 steps"** (Last updated: 26 June 2024), live. Safety list,
+  the pair: "Don't remove the jump leads while the car engines are running. This can cause serious
+  damage to the cars' electronics" [V] (the page's apostrophe in "cars'" is a curly one). "How to
+  remove the jump leads" list, its last line: "Remove the other end of the red jump lead from the
+  positive (+) terminal on the flat battery" [V]. Read backwards, that puts the red lead on the flat
+  battery first, while step 7's "finish with the red lead from the other car" puts it on the working
+  car first: the page gives both orders for the red lead's ends. After a jump: "If you've managed to
+  jump start your car, the battery will need to recharge again fully." [V] (not used). **Correction:**
+  the AA page does not say to follow a booster pack maker's instructions (no "manufactur" on the
+  page; its one "instructions" is "make sure you read the instructions in your handbook and follow
+  those if they're different to our steps"); it gives its own eight booster-pack steps. Only Ford
+  (p. 285) says to follow the pack maker's instructions. Any lesson, script or test item must not
+  attribute that to the AA.
+- **HSE, INDG139(rev1)**, live PDF. Para 31's "the battery is still flat" re-read; it stands. Para 20
+  ends its connection routine "Reconnect the earthed terminal last." [V] (a workshop routine for any
+  battery, giving no reason; not used in lesson 13).
