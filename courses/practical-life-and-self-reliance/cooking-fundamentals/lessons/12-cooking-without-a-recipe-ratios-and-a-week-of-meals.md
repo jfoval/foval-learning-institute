@@ -1,6 +1,7 @@
 ---
 title: "Cooking without a recipe: ratios and a week of meals"
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/12-cooking-without-a-recipe-ratios-and-a-week-of-meals.mp3
 objectives:
   - >-
     Read a recipe for its method and rewrite it as techniques, ratios and tasting points, saying

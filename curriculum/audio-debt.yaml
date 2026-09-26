@@ -51,7 +51,6 @@ reset:
 owed:
   # course id (the folder name)   : episodes still to render
   bible-basics: 4
-  cooking-fundamentals: 2
   first-aid: 16
-  nutrition: 11
+  nutrition: 10
   strength-and-fitness: 10

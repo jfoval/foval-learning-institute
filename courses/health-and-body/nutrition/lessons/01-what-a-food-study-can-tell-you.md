@@ -1,6 +1,7 @@
 ---
 title: What a food study can tell you
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/nutrition/01-what-a-food-study-can-tell-you.mp3
 objectives:
   - >-
     Explain why a question about diet is harder to test than a question about a drug, naming at

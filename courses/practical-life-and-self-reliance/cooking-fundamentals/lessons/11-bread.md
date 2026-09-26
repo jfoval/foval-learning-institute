@@ -1,6 +1,7 @@
 ---
 title: Bread
 minutes: 125
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/11-bread.mp3
 objectives:
   - >-
     Explain what flour, water, salt and yeast each do in a lean dough, and how gluten forms either
