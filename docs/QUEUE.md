@@ -52,6 +52,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
   100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
   audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
+  **Conversation and Listening is in research** (2026-09-26), the first course of Term 4
+  (People). Next: Stage 1, `/research-course courses/communication-and-people/conversation-and-listening`.
+  Its popular claims (body language, active listening, the 7-38-55 figure) need the replication
+  record read before anything is taught.
+
   **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
   is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;
   audio owed. **Left open, none blocking:** lesson 16's recovery checkpoint is partly answered by the

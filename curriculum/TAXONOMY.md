@@ -240,7 +240,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Writing Clearly | Foundation | published | T1 | Rebuilt 2026-09-09 from four pre-pipeline placeholder lessons to nine written from research, with a twenty-item test and a project. Stage 4 reviews and podcasts still owed. |
 | Public Speaking | Foundation | planned | T4 | |
 | Persuasion and Influence | Core | planned | T14 | The research and the ethics. |
-| Conversation and Listening | Foundation | planned | T4 | |
+| Conversation and Listening | Foundation | research | T4 | |
 | Understanding People: Psychology Fundamentals | Foundation | planned | T4 | The replicated findings. |
 | Relationships and Family | Core | planned | T4 | What the research says about lasting relationships and raising children. |
 | Conflict Resolution | Core | planned | T4 | |
