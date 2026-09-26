@@ -5897,3 +5897,370 @@ Tire Rack has no entry here: its figures are used only as AAA Exchange's report 
 - **C&U reg 27(1A)**, re-read live: (1)(i) and (j) apply only to tyres fitted "to a front axle of a bus
   other than a minibus", "in single configuration on any axle of a minibus", and "to a front axle of a
   goods vehicle with a maximum gross weight exceeding 3,500 kg" [V]. The lesson's age predict now says so.
+
+## Gate closures, lesson 11/12 (2026-09-26)
+
+*Read on 26 September 2026 by the drafter of lessons 11 ("Dashboard warning lights") and 12 ("Fuel
+economy: what maintenance buys, and the figures that were withdrawn"), with curl and a generic browser
+User-Agent (no personal data in any header), text extracted with a small HTML stripper, pdftotext, the
+GOV.UK content API and the eCFR API. Quotations marked [V] were copied from that extracted text;
+[V-img] from an official image viewed by the drafter; curly apostrophes and quotation marks are written
+straight. Nothing here clears an entry on the `unread:` line.*
+
+**Gates.** G-H10 (EOBD dates; the EPA OBD regulation): **not closed; fallback written**. Lesson 11
+gives the MOT manual's MIL dates as the test's scope, not fitment law, and describes the US check-engine
+light from EPA's 2003 fact sheet, saying the regulation itself and the European fitment rules were not
+read. G-H9 (UK octane): **not closed; fallback written**. Lesson 12 prints US pump octane numbers only,
+labelled US, and says the course read no official UK page on octane. G-H8: no maker's oil interval is
+named. Nothing in either lesson needs G-N1 (no phone number or fee is printed).
+
+**A correction to Part A §5.** EPA420-F-03-042's list of monitored systems reads "exhaust gas
+recirculation (EGR) system" [V] (one word) in question 4's list that the lesson quotes; Part A's line
+has "re-circulation", which is the spelling of a different list on the same page ("oxygen sensors,
+exhaust gas re-circulation (EGR) system" [V]). Lesson 11 quotes the first list with its own spelling.
+
+### Lesson 11 reads
+
+**ISO 2575:2021, free publisher sample** (https://cdn.standards.iteh.ai/samples/68409/6480e873c14b4e56b7a0066b3ef65afc/ISO-2575-2021.pdf),
+re-read: clauses 1 to 5 in full, as Part B §3. Quoted: "red: danger to persons or very serious damage
+to equipment, immediate or imminent;" [V]; "yellow or amber: caution, outside normal operating limits,
+vehicle system malfunction, damage to vehicle likely, or other condition which can produce hazard in the
+longer term;" [V]; "green: safe, normal operating condition (where blue or yellow is not required)." [V];
+5.2 "yellow or amber: e.g. failure of anti-lock brake system;" [V]; 5.4 "The colour white may be used
+where none of the above conditions applies." [V]; 5.5 "A given symbol may be shown in more than one of
+the colours specified in 5.1 in order to convey a change in the operating condition." [V]. Also 5.3:
+"If colour is used on symbols for heating and/or cooling systems, the colour red shall be used to
+indicate hot, and the colour blue shall be used to indicate cold." [V] (not used).
+
+**UN Regulation 121, MLIT bilingual copy** (https://www.mlit.go.jp/jidosha/un/UN_R121.pdf, PDF created
+23 March 2014), re-read: paragraph 5.4 and Table 1; the table's page 15 viewed as an image. 5.4.1:
+"Light of each tell-tale listed in Table 1 shall be of the colour shown in column 5 of this table." [V,
+line broken across the bilingual layout]. Table 1, English column: engine oil pressure tell-tale "Red";
+engine coolant temperature tell-tale "Red"; electrical charging condition tell-tale "Red" [V-img for all
+three]; "Antilock brake system malfunction" "Yellow"; "Engine on-board diagnostics or engine
+malfunction" "Yellow"; brake lining wear-out "Yellow" [V]. **New:** row 25, "Brake system malfunction",
+has no colour in column 5; the column reads "See Regulation Nos. 13-H and 13 as appropriate" [V], and
+those regulations are on the `unread:` line ("UN Regulation 13-H"), so the lesson says only that the
+braking regulations set it. Footnote 18: "Symbol may be shown in other colours than specified in column 5
+in order to convey different meanings according to the general colour coding as proposed in paragraph 5
+of ISO 2575-2004." [V]
+
+**49 CFR 571.101, FMVSS 101** (eCFR API, version of 1 September 2026, fetched with compression), full
+text re-read; **Table 1 and its notes viewed from the five official images**
+(https://img.federalregister.gov/ER03JA25.001/ER03JA25.001_original_size.png to .005). S5.4.1: "The
+light of each telltale listed in Table 1 must be of the color specified for that telltale in column 6 of
+that table." [V]. Table 1 [V-img]: brake system malfunction "Red"; antilock "Yellow"; regenerative brake
+system malfunction "Yellow"; brake pressure, low brake fluid condition, parking brake applied "Red";
+**brake lining wear-out condition (for vehicles subject to FMVSS 135) "Red"** (new; Part B's list did not
+record this row); ESC malfunction "Yellow"; low tire pressure and TPMS malfunction "Yellow"; engine oil
+pressure, engine coolant temperature and electrical charge: telltale colour "-------" (blank). Note 4:
+"Blue may be blue-green. Red may be red-orange." [V-img]. S5.5.6(b): "telltales for which the color red is
+required in table 1 to this section must not be cancelable while the underlying condition for their
+activation exists." [V]; its scope is S5.5, "Common space for displaying multiple messages" [V] (not used
+in the lesson after cuts).
+
+**49 CFR 571.135, FMVSS 135** (eCFR API, version of 1 September 2026), S5.5 to S5.5.5 re-read. S5.5.2:
+the brake indicator is activated as a check function at ignition "on" or by "A single manual action by
+the driver" [V]; S5.5.3: "Each indicator activated due to a condition specified in S5.5.1 shall remain
+activated as long as the condition exists" [V]. S5.5.5(b): "Vehicles manufactured with a split service
+brake system may use a common brake warning indicator to indicate two or more of the functions described
+in S5.5.1(a) through S5.5.1(g). If a common indicator is used, it shall display the word "Brake."" [V].
+S5.5.5(d)(3), for a separate indicator for the S5.5.1(b) antilock or variable-proportioning condition:
+"the letters and background shall be of contrasting colors, one of which is yellow." [V]. Per the lesson
+05/06 Stage 4 notes, lesson 11 does not say ABS, regenerative-braking or pad-wear faults light "the brake
+warning light".
+
+**The Highway Code, Annex 6** (content API, `public_updated_at` 2022-01-29), re-read in full. Quoted:
+"When you turn the ignition key, warning lights will be illuminated but will go out when the engine
+starts (except the handbrake warning light). If they do not, or if they come on while you are driving,
+stop and investigate the problem, as you could have a serious fault." [V]; "If the charge warning light
+comes on while you are driving, it may mean that the battery isn't charging. This should also be checked
+as soon as possible to avoid loss of power to lights and other electrical systems." [V] (lesson 11 quotes
+the two together, per the lesson 05 Stage 4 note); "you should wait until it has cooled naturally. Only
+then remove the coolant filler cap and add water or other coolant." [V].
+
+**Ford, 2024 Maverick Owner's Manual** (Internet Archive capture 20250505042038 of
+https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2024_Ford_Maverick_Owners_Manual_version_1_om_EN-US.pdf),
+pp. 113, 114, 164 re-read and **p. 183 read for the first time**. p. 113: "If it illuminates, safely stop
+your vehicle and switch your vehicle off. Have your vehicle checked as soon as possible." [V] (coolant
+temperature); ABS: "Your vehicle continues to have normal braking without the anti-lock brake system
+function. Have your vehicle checked as soon as possible." [V]; battery: "Have your vehicle checked as
+soon as possible." [V]. p. 114: oil pressure, "It illuminates when the engine oil pressure is low." [V]
+(no action given on that page); MIL, "It illuminates when the ignition is on and the engine is off, this
+is normal operation." [V]; "If it flashes, have your vehicle checked immediately." [V]. p. 164: "If it
+illuminates when the engine is running, the on-board diagnostics system is detecting a malfunction of the
+vehicle emission control system." [V]; "If it flashes, engine misfire could be occurring. Increased
+exhaust gas temperatures could damage the catalytic converter or other vehicle components. Avoid heavy
+acceleration and deceleration, and have your vehicle checked as soon as possible." [V]. **p. 183
+(Catalytic converter, warning lamps), new:** "Your vehicle has an on-board diagnostics system that
+monitors the emission control system. If any of the following warning lamps illuminate, this may
+indicate that the on-board diagnostics system has detected an emission control system malfunction." [V];
+"Continuing to drive your vehicle may cause reduced power or the engine to stop. Failure to respond to a
+warning lamp may cause damage that your vehicle Warranty may not cover. Have your vehicle checked as soon
+as possible." [V].
+
+**Nissan, 2024 LEAF Owner's Manual (US)**
+(https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf),
+pp. 2-15 to 2-20 re-read. Quoted: "If any light does not come on or operate in a way other than
+described, it may indicate a burned-out bulb and/or a system malfunction." [V]; "If the BRAKE warning
+light illuminates, stop the vehicle immediately and have the system checked." [V]; 12 V charge light:
+"The DC/DC converter system may not be functioning properly" [V] and "Immediately stop the vehicle in a
+safe location and have the system checked." [V]; airbag: "If the supplemental air bag warning light is
+on, it could mean that the front air bag, side air bag, curtain air bag and/or pretensioner systems will
+not operate in an accident." [V]. p. 2-20: the yellow "Brake system warning light" covers "the
+cooperative regenerative brake and the electronically driven intelligent brake systems" [V]; "If the
+BRAKE warning light (red) also illuminates, stop the vehicle immediately and have the system checked."
+[V]. ABS, p. 2-19: "If an ABS malfunction occurs, the anti-lock function is turned off." [V] (the next
+sentence is paraphrased in the lesson because the PDF breaks "antilock" across a line). "There are two
+types of master warning lights: yellow and red." [V] (cut from the lesson).
+
+**RAC, "Dashboard warning lights guide: red, amber and green symbols explained"**
+(https://www.rac.co.uk/drive/advice/know-how/car-dashboard-warning-lights-meaning/), JSON
+`dateModified` 2026-08-18, re-read in full. Motoring organisation; the page advertises RAC Breakdown
+cover and RAC Mobile Mechanics. The table: "Stop driving as soon as it is safe to do so and call for
+recovery." [V]; "Have the vehicle checked by a mechanic as soon as possible." [V]; "The vehicle's systems
+are operating normally." [V]. Oil: "The oil warning light comes on when either the oil temperature gets
+too high or the oil level or pressure is too low. If the oil is not lubricating the engine effectively it
+could lead to expensive or even irreparable engine damage, so it's important to act quickly." [V]; "If
+the low engine oil light is on then you should stop as soon as safely possible and switch off the
+engine." [V]; "If the oil levels are fine, then the oil pump may be faulty. In this case call for
+recovery if you have breakdown cover, as driving any further could damage the engine." [V]. Temperature:
+"If the red engine temperature warning light is on, you should stop straight away as without enough
+coolant your engine could get so hot that it effectively welds itself together, causing irreparable
+damage." [V]; **new since Part B:** "Stop and wait until the engine has cooled off before checking the
+gauge on the side of the coolant tank under the bonnet, topping up as required." [V]; "Have a look to see
+if there are any obvious leaks. If you can't see any and the light goes off after topping up then you
+should be fine to continue your journey." [V]; "An overheating engine can cut out as well. Rather than
+risk it, you should call for recovery if you have breakdown cover." [V]. Battery: "You should not drive
+if the battery warning light is on." [V]. Brakes: "you should not drive if you see a red car warning
+light." [V]; "Unless you know how to check your brake fluid levels yourself, this will be one for the
+professionals, so get yourself to a garage." [V]. ABS: "If the ABS light comes on by itself you should
+still have normal, unassisted braking, so it's safe to continue your journey" [V] (the sentence continues
+after a spaced dash); "If it comes on with the brake warning light, it could indicate that the brake
+system is failing and you should stop straight away and call for recovery if you have breakdown cover."
+[V]. The page's opening list now has a "traffic light colour system" in prose, with a spaced hyphen, not
+quoted. The oil section also tells the reader to look "for any obvious oil leaks under the car" [V]; the
+lesson does not repeat it.
+
+**RAC, "Reasons your amber or orange engine management light (EML) is on"**
+(https://www.rac.co.uk/drive/advice/know-how/reasons-your-engine-management-light-is-on/), JSON
+`dateModified` 2026-08-11, re-read in full. Quoted: "While you can typically drive whilst your engine
+light is on, we'd strongly recommend getting a mechanic to look at your car as soon as possible." [V];
+"If the light is flashing then this suggests a more serious issue and you should get have the vehicle
+inspected by a qualified professional." [V, grammar as in source]. The sentence after the first:
+"Continuing to drive with this light on will likely lead to further damage to the engine and the
+surrounding systems." [V] (not quoted in the lesson).
+
+**EPA, EPA420-F-03-042** (https://nepis.epa.gov/Exe/ZyPDF.cgi/P100LW9G.PDF?Dockey=P100LW9G.PDF),
+questions 1 to 8 re-read. Quoted: OBD "is additional computer software that monitors the emission control
+and emission-related components/systems, along with certain engine components" [V]; "the on-board
+computer is able to determine the presence of a malfunction or deterioration that can affect emissions
+and illuminate the "Check Engine" or "Service Engine Soon" light" [V]; "catalyst efficiency, oxygen sensor
+response and heater, exhaust gas recirculation (EGR) system, fuel delivery system, engine misfire,
+evaporative system" [V]; "In some instances, the computer software may identify a problem before there
+is an overt indication to the vehicle operator." [V]; OBD II: "Malfunction indicator lamp (MIL)
+extinguishes after 3 consecutive trips where the problem did not re-occur." [V]; "The OBD requirements
+were implemented beginning with the 1994 model year." [V]; "1996 is commonly identified as the first year
+of full implementation once waivers were no longer available." [V].
+
+**fueleconomy.gov, "Keeping Your Vehicle in Shape"** (https://www.fueleconomy.gov/feg/maintain.jsp),
+re-read in full. The check-engine paragraph, as Part A §5: "The check engine light, or malfunction
+indicator lamp, on your dash board indicates that something is wrong with your engine. Modern vehicles
+are so advanced that they may seem to drive normally even when a repair is needed, which sometimes leads
+drivers to ignore the indicator." [V]; "It could be something as minor as a loose gas cap, but it could
+also be a more serious issue that could reduce your fuel economy, increase emissions, and/or lead to
+costly repairs later." [V]; "So, when the check engine light comes on, have your vehicle inspected by a
+mechanic." [V]. (Lesson 12's reads of the same page are below.)
+
+**DVSA, MOT inspection manual** (content API; sections 1 and 7 `public_updated_at` 2026-06-01, section 8
+2025-06-24; manual changed 1 June 2026). **Section 1 read in full; sections 7 and 8 re-read in full.**
+8.2.1.2: "Turn on the ignition and check that the engine malfunction indicator lamp (MIL) illuminates and
+then goes off. On some vehicles it will be necessary to start the engine before the MIL goes off." [V];
+MIL inspected on "petrol vehicles including hybrids with 4 or more wheels, not more than 8 passenger seats
+in addition to the driver's seat and first used on or after 1 July 2003" [V]; defect (h) "Engine MIL
+inoperative or indicating a malfunction" Major [V]. 8.2.2: "You need to inspect MIL fitted to diesel
+vehicles including hybrids with 4 or more wheels and first used on or after 1 July 2008." [V]; the same
+defect Major. 7.1.6: "The SRS MIL (Malfunction Indicator Lamp) should only be failed if it is indicating
+a system malfunction. A lamp illuminated to indicate the passenger airbag is disabled is not to be
+regarded as a defect." [V]; "(a) An SRS malfunction indicator lamp (MIL) indicates a system malfunction"
+Major [V]. 7.12: "Electronic stability control is also referred to as ESC, ESP, VDC, and DSC, among many
+other names." [V]; "The dashboard warning lamp for these systems might take various forms and you should
+only fail a vehicle if you're certain that the warning lamp is indicating an ESC malfunction. You might
+need to check the owner's handbook." [V]; "(e) ESC MIL indicates a system malfunction" Major [V]. **Section
+1, new for this course's warning-light reading:** 1.1.10 "(f) Brake fluid warning light illuminated or
+defective" Minor [V]; "(g) Incorrect functioning of brake fluid level warning device" Major [V]; "A brake
+fluid warning lamp may be shared with other components, for example to indicate that brake pads are worn
+or the parking brake is applied." [V]; 1.6 (ABS) "(a) Warning device not working" Major and "(b) Warning
+device shows system malfunction" Major [V]; 1.4 "(e) Electronic parking brake MIL indicates a
+malfunction" Major [V].
+
+**New York State DMV, "New York State Vehicle Safety/Emissions Inspection Program".** Part D's capture
+20260710141515 returned a challenge page (HTTP 403) three times on 26 September 2026; the CDX index lists
+it as a 200 capture. **Read instead: capture 20260610152208**
+(https://web.archive.org/web/20260610152208/https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program),
+in full; capture 20260415190425 has the same lines. The live page refuses automated readers. Quoted:
+"Most 1996 or newer gasoline-powered vehicles and most 1997 or newer diesel-powered vehicles that have a
+gross vehicle weight rating (GVWR) less than 8,501 pounds are subject to the OBDII emissions inspection.
+This test examines the Malfunction Indicator Lamp (MIL), also known as the "check engine" light, for
+operation/illumination, and verifies the test results of the vehicle's "on-board emissions diagnostic"
+system." [V]; "You can help your vehicle pass an OBDII emissions inspection by keeping it properly
+maintained. If the vehicle's Malfunction Indicator Lamp (MIL, or "check engine" light) indicates there may
+be a malfunction or other problem, have the vehicle properly repaired." [V]; "Your vehicle's Air Bag
+Warning Lamp will be checked for proper operation. You will be informed if the vehicle's air bag warning
+lamp is on or is not working. This is an advisement only and not cause for rejection." [V].
+
+### Lesson 12 reads
+
+**fueleconomy.gov, "Keeping Your Vehicle in Shape", current page** (read 26 September 2026). Quoted:
+"You can improve your gas mileage by 0.6% on average" [V] (continues after an unspaced em dash "up to 3%
+in some cases" [V]); "Under-inflated tires can lower gas mileage by about 0.2% for every 1 psi drop in the
+average pressure of all tires." [V]; "Properly inflated tires are safer and last longer." [V]; table
+"Fuel Economy Benefit: 0.6%", "Equivalent Gasoline Savings: $0.03/gallon" [V, flattened cells]; "You can
+improve your gas mileage by 1%–2% by using the manufacturer's recommended grade of motor oil. For example,
+using 10W-30 motor oil in an engine designed to use 5W-30 can lower your gas mileage by 1%–2%. Using
+5W-30 in an engine designed for 5W-20 can lower your gas mileage by 1%–1.5%." [V]; oil "Equivalent
+Gasoline Savings: $0.04–$0.09/gallon" [V]; heading "Replacing a Clogged Air Filter on Modern Cars Improves
+Performance but Not MPG" [V]; "Replacing a clogged air filter on vehicles with fuel-injected,
+computer-controlled gasoline engines" [V], then after an em dash "such as those manufactured from the
+early 1980s to the present" [V], then after a second "or diesel engines does not improve fuel economy,
+but it can improve acceleration." [V]; "Replacing a clogged air filter on an older vehicle with a
+carbureted engine can improve both fuel economy and acceleration by a few percent under normal
+replacement conditions." [V]; "Cost savings are based on an assumed fuel price of $4.32/gallon." [V];
+"Revised June 27, 2016. Estimates for fuel economy improvement from properly inflating tires assume a
+vehicle with an average under-inflation rate of 10% across all tires (25% for worst-case tire inflation
+scenarios)." [V]. The page lists its data sources, including titles on the `unread:` line; the lesson
+names none of them.
+
+**The same page in six Internet Archive captures** (http://www.fueleconomy.gov/feg/maintain.shtml, each
+fetched with the `id_` suffix; maintenance section of each read in full):
+
+- **20071226033438.** "Fixing a car that is noticeably out of tune or has failed an emissions test can
+  improve its gas mileage by an average of 4 percent, though results vary based on the kind of repair and
+  how well it is done. Fixing a serious maintenance problem, such as a faulty oxygen sensor, can improve
+  your mileage by as much as 40 percent." [V]; "Replacing a clogged air filter can improve your car's gas
+  mileage by as much as 10 percent." [V] (table "Fuel Economy Benefit: up to 10%" [V]); "You can improve
+  your gas mileage by around 3.3 percent by keeping your tires inflated to the proper pressure.
+  Under-inflated tires can lower gas mileage by 0.4 percent for every 1 psi drop in pressure of all four
+  tires. Properly inflated tires are safer and last longer." [V] (table "Fuel Economy Benefit: up to 3%"
+  [V]); "You can improve your gas mileage by 1-2 percent by using the manufacturer's recommended grade of
+  motor oil." [V]; "based on an assumed fuel price of $3.10/gallon" [V].
+- **20101226073534.** The tune-up and oxygen-sensor sentences as in 2007 [V]; "You can improve your gas
+  mileage by up to 3.3 percent by keeping your tires inflated to the proper pressure. Under-inflated tires
+  can lower gas mileage by 0.3 percent for every 1 psi drop in pressure of all four tires." [V]; "NEW
+  INFORMATION: Replacing a Clogged Air Filter on Modern Cars Improves Performance but Not MPG" [V]; "A new
+  study shows that replacing a clogged air filter on cars with fuel-injected, computer-controlled gasoline
+  engines does not improve fuel economy but it can improve acceleration time by around 6 to 11 percent."
+  [V]; "Tests suggest that replacing a clogged air filter on an older car with a carbureted engine may
+  improve fuel economy 2 to 6 percent under normal replacement conditions or up to 14 percent if the filter
+  is so clogged that it significantly affects drivability." [V]; "The effect of a clogged air filter on
+  diesel vehicles will be tested in the near future." [V]; its data source: "a study by Kevin Norman,
+  Shean Huff, and Brian West, Effect of Intake Air Filter Condition on Vehicle Fuel Economy, Oak Ridge
+  National Laboratory, 2009" [V] (the lesson says "a study from Oak Ridge in 2009"; the study was not
+  read); "$2.87/gallon" [V].
+- **20130102005358.** As 2010 for tyres ("up to 3.3 percent", "0.3 percent") and the filter [V];
+  tune-up and oxygen sensor present [V]; "$3.25/gallon" [V].
+- **20190104073529.** Tyres: "Updated Information You can improve your gas mileage by 0.6% on average"
+  [V], "Revised June 27, 2016." [V]; filter as the current page [V]; tune-up "an average of 4%" and oxygen
+  sensor "as much as 40%" [V]; "$2.37/gallon" [V].
+- **20210708122652.** As 2019, tune-up and oxygen-sensor sentences still present [V]; "$3.02/gallon" [V].
+- **20230706032230.** Tune-up and oxygen-sensor sentences absent; "Address Engine Issues Promptly" [V]
+  heads the check-engine paragraph; tyres and filter as now [V]; "$3.60/gallon" [V].
+
+No capture read says why any figure changed, except the 2010 filter note's "A new study shows".
+
+**fueleconomy.gov, "Fuel Economy Myths and Misconceptions"** (https://www.fueleconomy.gov/feg/myths.shtml),
+re-read in full; eleven MYTH/FACT pairs. Quoted: "Modern vehicles can be driven within seconds of being
+started, though the engine should not be subjected to extreme loads until it has reached its normal
+operating temperature. Plus, the quickest way to warm up a vehicle's engine is to drive it." [V]; "Modern
+fuel-injected engines start very efficiently, especially when warmed up. Idling can use a quarter to a
+half gallon of fuel per hour, depending on your vehicle's engine size, costing you about 1 to 2 cents per
+minute. Turn off your engine when your vehicle is sitting still, except when you are waiting in traffic or
+waiting in a line where you would need to turn it on and off frequently." [V]; air filter: "This is true
+for older vehicles with carbureted engines, but modern fuel-injected engines have on-board computers that
+automatically adjust the fuel-air ratio to the proper level. Changing a dirty air filter won't increase
+your fuel economy, but it might improve your engine's performance." [V]; "Excluding full conversions that
+meet all EPA certification standards, tests have shown that such devices and additives do not improve fuel
+economy and may damage your engine and/or increase your tailpipe emissions." [V]; "Vehicles that are 10 or
+even 15 years old will experience little decrease in fuel economy if properly maintained." [V]; premium:
+"Under severe duty operation, such as towing or hauling heavy loads (especially in hot weather), higher
+octane fuel might improve performance and gas mileage and reduce carbon dioxide (CO2) emissions by a few
+percent." [V].
+
+**fueleconomy.gov, "Selecting the Right Octane Fuel"** (https://www.fueleconomy.gov/feg/octane.shtml),
+re-read in full. Quoted: "Octane rating is the measure of a fuel's ability to resist "knocking" or
+"pinging" during combustion, caused by the air/fuel mixture detonating prematurely in the engine." [V];
+"In the U.S., unleaded gasoline typically has octane ratings of 87 (regular), 88–90 (midgrade), and 91–94
+(premium)." [V]; "You should use the octane rating required for your vehicle by the manufacturer. So,
+check your owner's manual. Most gasoline vehicles are designed to run on 87 octane, but others are
+designed to use higher octane fuel." [V]; "Higher octane fuels are often required or recommended for
+engines that use a higher compression ratio and/or use supercharging or turbocharging to force more air
+into the engine. Increasing pressure in the cylinder allows an engine to extract more mechanical energy
+from a given air/fuel mixture but requires higher octane fuel to keep the mixture from pre-detonating."
+[V]; "Using a lower octane fuel than required can cause the engine to run poorly and can damage the engine
+and emissions control system over time. It may also void your warranty." [V]; "Many newer vehicles can
+adjust the spark timing to reduce knock, but engine power and fuel economy will still suffer." [V];
+"However, under normal driving conditions, you may get little to no benefit." [V]; "If your vehicle
+requires midgrade or premium fuel, absolutely. If your owner's manual says your vehicle doesn't require
+premium but says that your vehicle will run better on higher octane fuel, it's really up to you. The cost
+increase is typically higher than the fuel savings." [V]. Its data sources include two titles on the
+`unread:` line; the lesson names none of them.
+
+**fueleconomy.gov, "Fuel Economy in Cold Weather"** (https://www.fueleconomy.gov/feg/coldweather.shtml),
+re-read. "Minimize idling your car to warm it up. Most manufacturers recommend driving off gently after
+about 30 seconds." [V].
+
+**fueleconomy.gov, "Driving More Efficiently"** (https://www.fueleconomy.gov/feg/driveHabits.jsp),
+re-read. "A large, blunt roof-top cargo box, for example, can reduce fuel economy by around 2% to 8% in
+city driving, 6% to 17% on the highway, and 10% to 25% at Interstate speeds (65 mph to 75 mph)." [V];
+"Avoid keeping unnecessary items in your vehicle, especially heavy ones. An extra 100 pounds in your
+vehicle could reduce your MPG by about 1%." [V]; "The reduction is based on the percentage of extra weight
+relative to the vehicle's weight and affects smaller vehicles more than larger ones." [V]; "Idling can use
+a quarter to a half gallon of fuel per hour, depending on engine size and air conditioner (AC) use. Turn
+off your engine when your vehicle is parked. It only takes about 10 seconds worth of fuel to restart your
+vehicle." [V].
+
+**fueleconomy.gov, "Fuel Economy in Hot Weather"** (https://www.fueleconomy.gov/feg/hotweather.shtml),
+read in full. "Under very hot conditions, AC use can reduce a conventional vehicle's fuel economy by more
+than 25%, particularly on short trips." [V]; "Driving with your windows down can also reduce fuel economy.
+Open windows increase aerodynamic drag (wind resistance), making your vehicle use more energy to push
+through the air. This effect is quite small at low speeds but increases at highway speeds." [V]; "Roll the
+windows down at lower speeds; use the AC at highway speeds." [V]. Its sources are Oak Ridge papers, one of
+them on the `unread:` line by number; the lesson says "an Oak Ridge test" and names none.
+
+**NHTSA, "Tires"**, Internet Archive capture 20260924154655, re-read. "Properly inflating your tires can
+save you as much as 11 cents per gallon on fuel. Yet only 19 percent of consumers properly inflate their
+tires." [V].
+
+**Energy Saving Trust, "Reduce emissions through efficient driving"**, Internet Archive capture
+20260731174146 (gzip-encoded; the live site returned 403 to curl), re-read in full. "Many newer cars
+automatically turn off when stationary in neutral. If yours doesn't, turn off your engine if you're going
+to be stationary for more than a minute." [V]; "Under-inflated tyres increase your fuel consumption and can
+be dangerous, so check them at least once a month and before long journeys." [V]; "Having these attached to
+your car will increase drag and fuel costs, especially at higher speeds, so try to take them off when
+they're not being used." [V] (roof racks, boxes and bars); "It's more fuel efficient to open a window than
+use air conditioning when driving, even at higher speeds." [V]; the next sentence: "However, we appreciate
+that open windows are not always pleasant on very hot days or at higher speeds, so if you need to use air
+conditioning, try to use it sparingly." [V]. The page gives no test or reason for the windows line.
+
+**The Highway Code, Rules 103 to 158** (content API, `public_updated_at` 2023-09-17), Rule 123 re-read in
+full: "The driver and the environment. You MUST NOT leave a parked vehicle unattended with the engine
+running or leave a vehicle engine running unnecessarily while that vehicle is stationary on a public road.
+Generally, if the vehicle is stationary and is likely to remain so for more than a couple of minutes, you
+should apply the parking brake and switch off the engine to reduce emissions and noise pollution. However
+it is permissible to leave the engine running if the vehicle is stationary in traffic or for diagnosing
+faults." [V]; "Law CUR regs 98 & 107" [V]. Part A §3 and Part B §6 recorded only the MUST sentence; the
+should and the exception are added here.
+
+**The Road Vehicles (Construction and Use) Regulations 1986, regulations 98 and 107**
+(https://www.legislation.gov.uk/uksi/1986/1078/regulation/98 and /107), read in full on the live pages;
+both extend to England, Wales and Scotland ("E+W+S" [V]). Reg 98(1): the driver "shall, when the vehicle is
+stationary, stop the action of any machinery attached to or forming part of the vehicle so far as may be
+necessary for the prevention of noise" [V], with "or of exhaust emissions" inserted from 2 February 1998
+(SI 1998/1); 98(2)(a) and (b): it does not apply "when the vehicle is stationary owing to the necessities
+of traffic" [V], or "so as to prevent the examination or working of the machinery where the examination is
+necessitated by any failure or derangement of the machinery or where the machinery is required to be
+worked for a purpose other than driving the vehicle" [V]. Reg 107(1): "no person shall leave, or cause or
+permit to be left, on a road a motor vehicle which is not attended by a person licensed to drive it unless
+the engine is stopped and any parking brake with which the vehicle is required to be equipped is
+effectively set." [V]; 107(2) exempts fire, police and ambulance use and vehicles using the engine to drive
+machinery [summarised].

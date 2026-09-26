@@ -152,3 +152,19 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **FMVSS 116's wet test** is open jars in a covered desiccator at 50 °C, not a sealed container, and the
   standard sets dry and wet floors, not a permitted fall.
 - **Quiz keys:** 06 1,0,2,0,2,3 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 08 fix pass: notes for later lessons
+
+- **1/32 inch is below every floor and every piece of advice read.** No lesson frames a groove under
+  2/32 inch (or 1.6 mm) as part of the replacement argument; NHTSA's "not safe" goes beside it.
+- **AAA Exchange reports a 4/32 against 2/32 comparison** (Tire Rack research, not read: a pickup at 70
+  mph on wet pavement, 122 feet or 24 per cent shorter). Carry it only as AAA's report, never as Tire
+  Rack's, and give Tire Rack no label or description (this course read nothing about it). SOURCES "Stage
+  4 note, lesson 08".
+- **AAA's 2018 release says "tire performance does vary by brand"** right before its price-point line.
+  Quote the two together; the price-point line alone reads as an answer to Michelin and isn't one.
+- **The RAC's and TyreSafe's 3 mm is their report of what experts recommend**; TyreSafe's own-voice point
+  is 2 mm, the AA's own are 2 mm and "consider" 3 mm. Lesson 15 and the test say it that way.
+- **Michelin's product claim** (one tyre, over 18,000 miles, "below the official level for a new tyre")
+  is used without the product name and always with "no test cited".
+- **Quiz keys:** 08 3,0,1,0,2,1 (unchanged by the fix).
