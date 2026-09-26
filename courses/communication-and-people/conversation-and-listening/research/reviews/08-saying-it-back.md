@@ -317,3 +317,78 @@ misses are in lesson 07, which another agent is fixing). Names: Ysolde, Zebedee,
 Leontyne, Aurelio, Radomir, Hesketh, Wendeline. `npm run validate` exit 0.
 
 **Status after review:** clean.
+
+## Targeted re-check (2026-09-26)
+
+**Checker:** fresh context. I read the review, the diff of lesson 08 against 453934b~1, SOURCES
+"Gate closures, lesson 08 review (2026-09-26)", the lesson 08 section of `course-wide.md`, and
+lesson 07 as it stands on disk (another agent is fixing it; read, not edited).
+
+**Every finding checked against the lesson text.** R1 to R17 and R19 are resolved as the
+resolutions say. R18's in-place parts (the `unread:` rename, OUTLINE) and R20 are course-level and
+were handed on, correctly. No fix introduced a factual error. Two small wording faults, both fixed
+inline:
+
+- **The SHUSH gloss repeated itself** after the R14 fix: "(one letter stands for "Say it back"):
+  "Say it back", with the instruction". Now "for supporting someone, where one letter stands for
+  "Say it back", with the instruction". The quotation is unchanged.
+- **Connections overstated the feedback finding** after the R2 fix: "feedback raised accuracy".
+  Ickes reports that feedback "accelerated the rate at which the perceivers' empathic accuracy
+  improved", and the body (l. 203) says "improved faster". Connections now says "feedback sped up
+  gains in reading another person".
+
+**The back-reference to lesson 07 matches what lesson 07 teaches.** Lesson 07 (ll. 352–362)
+teaches the Marangoni, Garcia and Ickes study: students guessing a client's thoughts from simulated
+therapy tapes, "half were shown, partway through, what the client had actually been thinking", the
+"accelerated" quotation, the single-study label, and "on this course's reading" a correction is
+feedback of the kind that helped. Lesson 08 recalls it in the same terms ("partway through", "a
+**single study** of students watching tapes, not talking", "**This course's reading**, as in lesson
+7") and does not re-teach it. Lesson 07's hand-off (l. 539: lesson 8 "turns Ickes's feedback finding
+into a habit") matches lesson 08's Connections. "Partway through" is fair to Ickes's "during the
+middle portion of each tape".
+
+**Primaries re-fetched today** with curl (generic browser User-Agent, no personal data) and
+string-matched: Ickes 1993 (Greater Good PDF; "middle portion of each tape", "accelerated the rate
+..."), Rogers 1957 (counselling-tutor PDF; "hold in any situation whether it is or is not labeled
+“psychotherapy.”", the client-centred example), Samaritans ("Say it back", "Check you’ve understood,
+but don’t interrupt or offer a solution.", then "Repeating something back ..."), 988 ("Summarize
+What You Hear": "By repeating, paraphrasing or even summarizing ..."; nothing on inviting a
+correction), VitalTalk (banner "seriously ill patients"), Headlee's transcript (opens with "show of
+hands"; the "look, nod and smile ... It is crap." passage matches), and the Weger 2010 abstract (UCF
+STARS record 1477: "One hundred and eighty", "comprehensive examinations", "associated with the
+social attractiveness of the listener", not associated with feeling understood; no word on
+assignment). Schegloff et al.'s "Y'mean X?" as the common modulation form is in SOURCES Part B §1.4
+and the lesson 01/02 gate closure. `npm run quotes conversation-and-listening`: 142 checked, 0 not
+found.
+
+**Weger 2010 and lesson 9.** Lesson 08 uses the study at abstract level only: one paragraph,
+"associated with", the study's own "social attractiveness", "single study", and a hand-off ("Lesson 9
+sets it beside studies that point in other directions"). No verdict is given, no misconception rests
+on it, and the quiz does not touch it. Nothing pre-judges lesson 9. One note: "seeming **more**
+likeable" gives a direction the abstract does not state. It is true: the full text, recorded in
+lesson 9's uncommitted G1 closure in SOURCES, has paraphrase above acknowledgement on social
+attraction (r = .15), and lesson 9's draft says the same. Not changed.
+
+**For the orchestrator (not a lesson 08 defect at HEAD).** Lesson 9's in-flight SOURCES change
+closes G1 for Weger 2010 (full text read) and clears it from the `unread:` line, which also settles
+R18(b). Once that lands, lesson 08's "this course has read only its abstract" (l. 429) is no longer
+true of the course. Commit with lesson 9, or just after it, a one-line change to "and this lesson
+draws only on its abstract, which doesn't say how people were assigned" (Sources [17]'s "Read: the
+abstract only" stays accurate for lesson 08).
+
+**Numbers redone in the changed passages:** 180 undergraduates (abstract); three crisis and
+suicide-prevention services among the five (Samaritans, 988, R U OK?); "most of them", three of five
+(R U OK?, Calgary-Cambridge, PON); Headlee's list at about 3:01 of 11 minutes, so "early in" is
+fair. Lesson 11 and Mental Fitness lesson 1 titles match lesson 04 and OUTLINE.
+
+**Quiz:** explanations checked against keys for all six items; each names its distractors by
+content and agrees with the key. The R5 key (Headlee: no need to show attention you are paying;
+Rogers and Farson: pretence is detected and technique without respect is "empty and sterile") and
+the R6 key (a guess at the meaning under "as usual", intensity not raised) both hold. Option
+lengths now 74–81, 86–89, 81–84, 81–82, 77–82, 79–82 (spreads 7, 3, 3, 1, 5, 3); keys 2,0,3,0,3,1;
+the key is never the sole longest.
+
+**Tools:** `npm run minutes`: 90 measured, 90 stated. `npm run validate`: exit 0, no warning on
+lesson 08.
+
+**Verdict: SETTLED.**

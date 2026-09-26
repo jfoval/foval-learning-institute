@@ -307,7 +307,7 @@ too strong asks the person to push back against your version of them, and some w
 
 Put the helping traditions side by side and they say nearly the same thing, in their own settings.
 
-- **Samaritans**, the UK and Ireland listening service, in [its SHUSH listening tips](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting someone (one letter stands for "Say it back"): "Say it back", with the instruction "Check you've understood, but don't interrupt or offer a
+- **Samaritans**, the UK and Ireland listening service, in [its SHUSH listening tips](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/how-support-someone-youre-worried-about/what-do-if-you-think-someone-struggling/) for supporting someone, where one letter stands for "Say it back", with the instruction "Check you've understood, but don't interrupt or offer a
   solution."[9]
 - **988 Lifeline**, the US crisis line, on [its page for helping someone else](https://988lifeline.org/help-someone-else/), under "Summarize What You Hear", offers phrases like "what
   I'm hearing is...", after first saying to let the speaker finish before asking anything.[10]
@@ -426,7 +426,7 @@ active listening work?", takes it up. One experiment bears on Headlee's point. I
 gave their opinions about a kind of university exam in peer interviews and got back either a paraphrase or a
 simple acknowledgement. The paraphrases were associated with the listener seeming more likeable
 ("social attractiveness", in the study's words), but not with the students feeling more
-understood. That is a **single study**, and this course has read only its abstract, which doesn't
+understood. That is a **single study**, and this lesson draws only on its abstract, which doesn't
 say how people were assigned.[17] Lesson 9 sets it beside studies that point in other directions.
 
 ## What people get wrong
@@ -495,7 +495,7 @@ you understand. Lesson 2's "Y'mean X?" is the everyday form of the check, and le
 that self-ratings are weak is the reason the speaker has to be the judge.
 
 Lesson 7, "Ask, don't guess", showed why asking beat imagining in the perspective-taking
-experiments, and that feedback raised accuracy in reading another person; this lesson makes that
+experiments, and that feedback sped up gains in reading another person; this lesson makes that
 feedback a habit. Next, lesson 9, "Does active listening work?", asks
 what the experiments found when they tested paraphrasing and good listening against other
 responses. Lesson 11, "When it's serious", uses saying it back in the hardest conversation in the
