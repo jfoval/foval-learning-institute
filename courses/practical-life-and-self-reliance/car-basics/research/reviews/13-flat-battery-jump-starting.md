@@ -135,3 +135,56 @@ nearest (10, 11, 12, 14, 15). Option-length spreads 5, 3, 8, 5, 4, 4. Places: Po
 
 **Status after review:** needs second pass. Several fixes correct what a source says (R1, R3, R4, R5,
 R6), so a fresh reader should check the corrected attributions and labels against the primaries.
+
+### Second pass (2026-09-26)
+**Reviewer:** one fresh-context second-pass reviewer. Primaries re-read today (curl, generic browser
+User-Agent; pdftotext -raw, pandoc, GOV.UK content API; drawings rendered with pdftoppm and looked
+at): Nissan 2024 LEAF live PDF pp. 6-10 to 6-13 with LCE2388; Toyota OM02568U live PDF pp. 383 to 386
+with the p. 384 drawing; Ford 2024 Maverick, capture 20250505042038, pp. 284 to 287; HSE INDG139 paras
+20 and 24 to 31; the AA's jump-lead page (Last updated: 26 June 2024) and flat-battery page (11 January
+2024), live; Highway Code Rules 276 and 277, content API (2021-09-14); NHTSA, capture 20260924154857.
+
+**The nine named checks.**
+1. Leads off, engines: Ford (p. 286, "run both vehicle engines ... before disconnecting", no switch-off)
+   and Toyota (p. 385, steps 6 and 7, no switch-off) both labelled "on this course's reading"; Nissan
+   (step 10, READY) and HSE (para 31) explicit; the AA (step 7, both off) explicit. All hold.
+2. The AA: step 7 "finish with the red lead from the other car" and the removal list's last line
+   "... the positive (+) terminal on the flat battery" both on the live page; the electronics sentence
+   verbatim. Set beside HSE's reason with no verdict.
+3. Booster packs: Ford p. 285 and p. 286 "follow the manufacturer's instructions"; the AA page has no
+   such line, only its own steps and "follow those [the handbook's] if they're different". The lesson
+   attributes it to Ford only, in both places.
+4. "Still flat": HSE para 31 verbatim. Toyota's "to recharge the battery of your vehicle" (5 minutes of
+   donor running) is a partial charge and does not contradict "doesn't leave the battery charged"; the
+   AA's "will need to recharge again fully" agrees.
+5. Drawings: LCE2388 numbers 1 LEAF +, 2 booster +, 3 booster -, 4 body ground on the LEAF (inset);
+   Toyota p. 384 puts A on the flat car's +, D on a metal point on the engine away from the battery.
+   The lesson states both correctly.
+6. Tightened readings: US freeway paragraph specific and labelled; placement "off the road, hazard
+   lights on if the car is causing an obstruction" matches Rule 276's bullets; no "nose to nose" left
+   (Portree uses Ford's "do not touch", and Ford's "close to the hood" fits "parked close").
+7. High-voltage colour: lesson 4 (ll. 203 to 205) does give DVSA's imported-car caveat; the body and
+   exercise step 6 carry it.
+8. SVG rendered with rsvg-convert in both themes (site tokens): all labels inside the viewBox, black
+   lead clear of the red arc, numbers carried in text, no blank line. Passes.
+9. Q3 is a new case (diesel van, full hybrid, works car park), not the Grand Rapids case. Predict 1
+   follows HSE para 20 and precedes every "away from the battery" statement; the Grand Rapids predict
+   precedes all donor text. Neither is answered above it.
+
+**Other checks.** Every other first-pass fix present and right (R2, R8 to R24). Quiz: every
+explanation answers every option. Keys 3,0,2,0,1,3 recomputed against all lessons on disk: all four
+used, no adjacent repeat, no identical or value-shifted sequence; the one shared run of four is lesson
+03 at offset +1, not among the five nearest. Passes decision 20's relaxed rule. No em dash, no spaced
+en dash. Callout byte-identical to pipeline-briefs and `CAR_BASICS_SAFETY`. `npm run minutes`: 85
+measured, 85 set, ok. `npm run quotes car-basics`: no miss in this lesson. Portree and Grand Rapids
+used nowhere else.
+
+**One fix applied inline.** "Each source gives its own reason and none of them answers the other"
+overstated: Ford and Toyota give no reason for their disconnection order. Now "HSE and the AA each
+give a reason, neither answers the other, and this course won't invent a reconciliation."
+
+**Noted, not changed (optional):** the AA's table row "Red lead from the working battery's positive
+to the flat one's" echoes the AA's step 2 wording, which a reader could take as an order; the prose
+beneath says the page gives both, so it is left.
+
+**Verdict: CLEAN.**

@@ -342,7 +342,7 @@ several miles before it has enough energy to restart the engine."[6] The AA, whi
 cover, switches both off and then restarts, and it gives a reason for its rule: removing the leads
 with the engines running "can cause serious damage to the cars' electronics".[3]
 
-Each source gives its own reason and none of them answers the other, and this course won't invent a
+HSE and the AA each give a reason, neither answers the other, and this course won't invent a
 reconciliation. What is established is narrower: the leads come off in reverse order, **the handbook
 for the car you are rescuing governs** whether its engine runs, and the donor's handbook governs the
 donor. If your handbook is silent, this course's reading is that it's a question for the maker's
