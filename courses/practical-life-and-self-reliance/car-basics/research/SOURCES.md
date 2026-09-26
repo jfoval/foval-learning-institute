@@ -8452,3 +8452,429 @@ extracted with pdftotext). Passages lesson 23 now quotes, recorded whole:
   dealer's possession at the time of notification" and "a covered rental vehicle in the company's
   possession", which "the dealer or rental company may sell, lease, or rent ... only if" remedied
   first [V]. Nothing in (i) reaches a used car at a dealer or a private sale: this course's reading.
+
+## Gate closures, lesson 24/25 (2026-09-26)
+
+*Read by the lesson 24 and 25 drafter on 26 September 2026 with curl and a browser User-Agent (no
+personal data in any header), text extracted with pandoc or pdftotext. Where a site refused curl, an
+Internet Archive capture was read and its ID is given. Every quotation marked [V] was copied from that
+extraction. The garage-law sections of Parts C and D were re-read in full on the live page; where the
+live text differs from what Part C or D recorded, the difference is noted here and the live text
+governs.*
+
+### Lesson 25: the UK
+
+- **Consumer Rights Act 2015, ss.49 to 52 and 54 to 57** (legislation.gov.uk, revised text, each
+  section read whole). Part C §7's quotations stand. Additionally, whole: s.49(1) "Every contract to
+  supply a service is to be treated as including a term that the trader must perform the service with
+  reasonable care and skill." [V]; s.50(1) "Every contract to supply a service is to be treated as
+  including as a term of the contract anything that is said or written to the consumer, by or on behalf
+  of the trader, about the trader or the service, if" [V], with (a) "it is taken into account by the
+  consumer when deciding to enter into the contract" [V]; s.51(1)(b) "the contract does not expressly
+  fix a price or other consideration, and does not say how it is to be fixed" [V]; s.52(3) "What is a
+  reasonable time is a question of fact." [V]; s.55(1) "The right to require repeat performance is a
+  right to require the trader to perform the service again, to the extent necessary to complete its
+  performance in conformity with the contract." [V]; s.55(3) "The consumer cannot require repeat
+  performance if completing performance of the service in conformity with the contract is impossible."
+  [V]; s.56(1) "The right to a price reduction is the right to require the trader to reduce the price
+  to the consumer by an appropriate amount (including the right to receive a refund for anything already
+  paid above the reduced amount)." [V]; s.56(4) "A refund under this section must be given without
+  undue delay, and in any event within 14 days beginning with the day on which the trader agrees that
+  the consumer is entitled to a refund." [V]; s.54(7) lists "claiming damages" [V] among other remedies.
+  s.57(1) "A term of a contract to supply services is not binding on the consumer to the extent that it
+  would exclude the trader's liability arising under section 49 (service to be performed with reasonable
+  care and skill)." [V] Extent: U.K.
+- **Citizens Advice, "Problem with a car repair"** (England version, re-read in full). **The page has
+  changed since Part C read it**, in order but not substance; the quotations below are today's. "A
+  quote is when a trader has promised to do work at an agreed price - it should say what work will be
+  done and the price." [V]; "An estimate is a trader's best guess as to how much the work will cost -
+  it’s not a quote." [V] (both lessons stop before or split around the page's hyphen-dashes); "If you
+  agreed on an amount (or got a quote) before the garage did the work, you’ll have to pay the full
+  bill." [V]; "This is because you’ve entered into a contract with the garage (even if you didn’t sign
+  anything)." [V]; "If the trader only gave an estimate then they can charge you more within reason."
+  [V]; "If you don't think the extra charged is reasonable, ask the garage to reduce the price." [V];
+  "It would be reasonable, for example, to be charged more if the garage needed a bit more time for the
+  repairs or they needed more parts." [V]; "If you told the garage to do whatever needs to be done to
+  fix the car, then you gave them the right to decide what work to do. You’ll have to pay if the work
+  was necessary and the price is reasonable." [V]; "If you only asked the garage to do a specific piece
+  of work and they did extra work that you didn’t ask for, you can ask them to undo the work. If this
+  isn't possible, you should insist you only pay for the work that was agreed." [V]; "If the work wasn’t
+  done with ‘reasonable skill and care’, you have the legal right to get the work done again or get a
+  price reduction." [V]; "The garage is not allowed to sell or get rid of the car while you’re
+  disputing the bill. They can, however, keep your car while the bill is being disputed." [V]; "If you
+  need the car back but aren’t happy with the amount you have to pay, you can pay ‘under protest’ then
+  continue with your dispute." [V]; "Write the words “paying under protest” clearly on their copy of the
+  repair order sheet and any copies of receipts that the garage make." [V]; "If you don’t say you’re
+  paying under protest it will be difficult to get compensation later on, because the garage could
+  argue that by paying the bill, you were accepting the charges." [V]; "There’s no guarantee that
+  you’ll get the money back later, but there are ways to try." [V]; "If you can’t afford to pay, offer
+  to pay what you consider a reasonable amount in exchange for getting the car back, then dispute the
+  rest of the bill separately." [V]; "You’ll only be able to get help from a trade association if the
+  garage is a member." [V]; "If you paid by credit card and the repair cost more than £100, it may be
+  easier to tell your bank you want to ‘make a section 75 claim’." [V]; "Contact the Citizens Advice
+  consumer helpline on 0808 223 1133 if you need more help" [V] (G-N1: helpline re-read today). The
+  page names a Northern Ireland service, on the `unread:` line, which lessons do not name.
+- **Citizens Advice, "Find an approved garage"** (re-read in full): "It's a good idea to use an
+  approved car garage for work on your car, such as a service, repair or MOT." [V]; "These garages are
+  all approved by the Motor Industry Code of Practice for Service and Repair." [V]; "You should search
+  for a garage that is accredited by The Motor Ombudsman." [V]
+- **The Motor Ombudsman, Service and Repair Code, issued 1 June 2025** (PDF re-read in full). Part C
+  §7's quotations stand. Additionally: Estimate (definitions) "An approximate cost for the Work
+  required, which may be subject to change." [V]; 2.8 "as a general guide to the cost of the Work
+  required (which could go up or down)" [V]; 2.9 "supplied in writing as a breakdown of the firm agreed
+  price to complete the Work requested" [V]; 3.2 "the Accredited Business will contact you for
+  authorisation prior to commencement of this additional Work." [V]; 3.4 "The Accredited Business will
+  Guarantee all service and repair Work against failure and will inform you of the duration of any
+  Warranty or Guarantee and how to exercise it." [V]; 3.6 "The Accredited Business will ensure the
+  records are retained for six years from the point of the completion of the Work." [V]; 3.7 "Replaced
+  parts will be made available for you to view and examine until collection of the Vehicle unless
+  otherwise agreed." [V]; 3.8 "Servicing will be carried out in accordance with the manufacturer’s
+  service specification unless expressly stated" [V]; 3.11 "The Accredited Business will agree with you
+  the parts to be used, prior to starting Work, including whether parts will be genuine or
+  non-genuine." [V]; 4.2 "If a Quotation was provided at the booking stage, the final Invoice should
+  match the Quotation unless the Accredited Business has informed you that further Work or time has
+  been required and you have authorised these additional costs." [V]; 4.3 final invoices will include
+  "the labour rate and number of hours spent" [V]; Introduction "The principles set out in the Service
+  and Repair Code are not intended to interpret, qualify, or supplement the law" [V]; definitions,
+  Extended Warranty: "Any warranty, excluding the New Vehicle Warranty, that has either been provided
+  free-of-charge or has been bought by you directly." [V]; Appendix: "A Consumer can refer their
+  complaint to The Motor Ombudsman once the Accredited Business has issued a final response, or if it
+  has been more than eight weeks since the Consumer contacted the Accredited Business and no response
+  has been received." [V]; "The service is free to Consumers as an alternative to traditional avenues
+  (such as a court)." [V]; "If the Consumer accepts the final decision of the ombudsman, it becomes
+  legally binding on all parties." [V]
+- **The Motor Ombudsman, "How is The Motor Ombudsman funded?"** (live, re-read): "The Motor Ombudsman
+  is funded by annual accreditations and service fees paid for by businesses that meet the strict
+  requirements to be a part of the organisation." [V]; "The payment of fees by businesses have no
+  influence or bearing on the independent and impartial decisions made by The Motor Ombudsman’s
+  adjudicators and ombudsmen." [V]
+- **Torts (Interference with Goods) Act 1977, s.12 and Schedule 1** (legislation.gov.uk, s.12 and
+  Sch 1 read whole; extent E+W+N.I.). Part C §7 stands. Additionally: Sch 1 para 2, goods accepted for
+  repair; para 6(4) "The notice shall be in writing and shall be sent by post in a registered letter, or
+  by the recorded delivery service." [V]; para 7(1) as Part C; **para 7(2)**: "This paragraph shall be
+  left out of account in determining under section 13(1) whether a bailee of goods is entitled to sell
+  the goods under section 12, or would be so entitled if he had given any notice required in accordance
+  with this Schedule." [V] Section 13 (sale authorised by the court) was not read, so lessons say a
+  court route exists in the Act and that this course did not read it. G-G4 (the common-law lien) stays
+  open: fallback written (Citizens Advice's words, and para 7).
+
+### Lesson 25: the US
+
+- **California Business and Professions Code §§ 9884.6, 9884.8, 9884.9, 9884.10** (leginfo, re-read in
+  full). Part D §5 stands. Additionally: § 9884.6(a) "It is unlawful for any person to be an automotive
+  repair dealer unless that person has registered in accordance with this chapter and unless that
+  registration is currently valid." [V]; § 9884.9(a) "The automotive repair dealer shall give to the
+  customer a written estimated price for labor and parts necessary for a specific job, except as
+  provided in subdivision (e). No work shall be done and no charges shall accrue before authorization to
+  proceed is obtained from the customer." [V]; "No charge shall be made for work done or parts supplied
+  in excess of the estimated price, or the posted price specified in subdivision (e), without the oral
+  or written consent of the customer that shall be obtained at some time after it is determined that
+  the estimated or posted price is insufficient and before the work not estimated or posted is done or
+  the parts not estimated or posted are supplied." [V]; the acknowledgment "I acknowledge notice and
+  oral approval of an increase in the original estimated price." [V] (amended 2018, effective 1 January
+  2019). § 9884.10: "Upon request of the customer at the time the work order is taken, the automotive
+  repair dealer shall return replaced parts to the customer at the time of the completion of the work"
+  [V]. No percentage tolerance anywhere in § 9884.9 (checked).
+- **California Civil Code § 3068** (leginfo, (a) to (d) read). (a): "Every person has a lien dependent
+  upon possession for the compensation to which the person is legally entitled for making repairs or
+  performing labor upon" [V]; "The lien shall be deemed to arise at the time a written statement of
+  charges for completed work or services is presented to the registered owner or 15 days after the work
+  or services are completed, whichever occurs first." [V]; (b)(1)(A) "The lienholder applies for an
+  authorization to conduct a lien sale within 30 days after the lien has arisen." [V]
+- **California BAR, "A Consumer's Guide to Auto Repair"** (PDF, re-read in full; undated). Part D §5
+  stands. Additionally: "By law, the auto repair shop must provide a written estimate before doing any
+  work. Ask if there is a charge for the estimate." [V]; "Your signature means you agree to pay for the
+  repairs up to the amount specified. Do not sign a blank work order." [V]; "The shop is required by law
+  to return the parts to you only if you ask for them before the work is done." [V]; "A repair shop is
+  not required by law to guarantee its work, but many shops do." [V]; "Although BAR cannot represent
+  you in court, collect money, or levy fines for you, the BAR representative will contact the owner or
+  manager of the shop, describe your complaint, and attempt to negotiate a resolution." [V]; phone
+  "(800) 952-5210" [V] (G-N1). Its teardown section: "Be aware that there may be a charge for a
+  teardown, even if you don’t have the vehicle repaired." [V]
+- **BAR, "File a complaint"** (live): "We mediate complaints between consumers and auto repair shops."
+  [V]; "The representative will contact you within 7-10 business days." [V]; "Filing a complaint about
+  an auto shop does not automatically mean the shop violated the law." [V]; "Repairs performed outside
+  of California" [V] is on its "cannot help with" list.
+- **New York VTL § 398-d**, fresh capture **20260926114501** (nysenate.gov refuses curl), read in full.
+  Part D §5 stands. § 398-d(2): "Upon the request of any customer, a motor vehicle repair shop shall make
+  an estimate in writing of the parts and labor necessary for a specific job and shall not charge for
+  work done or parts supplied in excess of the estimate without the consent of such customer. The motor
+  vehicle repair shop may charge a reasonable fee for making an estimate." [V] § 398-d(1): "Such right
+  of inspection shall also include the right to inspect all replaced parts and components thereof,
+  except warranty or exchange parts." [V]
+- **New York DMV, "New York State Vehicle Safety/Emissions Inspection Program"**, fresh capture
+  **20260926112204** (dmv.ny.gov refuses curl), "Consumer Help" section read. "If you are not satisfied
+  with the quality of a vehicle inspection or repair, or the service provided by a motor vehicle dealer,
+  first attempt to resolve the issue with the management of the business." [V]; "The DMV cannot accept
+  complaints against Repair Shops after 90 days or 3,000 miles (whichever comes first)." [V]; "The DMV
+  cannot resolve disputes over the terms of manufacturer or third-party warranties or guarantees." [V];
+  the complaint form "(VS-35)" [V] and the unit's phone "1-518-474-8943" [V] (G-N1).
+- **Florida Statutes §§ 559.905 and 559.909** (leg.state.fl.us, re-read in full). Part D §5 stands.
+  § 559.905(1): "When any customer requests a motor vehicle repair shop to perform repair work on a
+  motor vehicle, the cost of which repair work will exceed $150 to the customer, the shop shall prepare
+  a written repair estimate" [V]; (1)(l) "A statement indicating what, if anything, is guaranteed in
+  connection with the repair work and the time and mileage period for which the guarantee is
+  effective." [V]; § 559.909(3): "It shall be unlawful for a motor vehicle repair shop to charge more
+  than the written estimate plus $10 or 10 percent, whichever is greater, but not to exceed $50, unless
+  the motor vehicle repair shop has obtained authorization to exceed the written estimate in accordance
+  with subsection (1)." [V]; § 559.909(4): "It shall be unlawful for any motor vehicle repair shop to
+  fail to return any customer’s motor vehicle because the customer has refused to pay for unauthorized
+  repairs or because the customer has refused to pay for repair charges in excess of the final estimate
+  in violation of this section." [V] (Part D's quotation stopped at "unauthorized repairs"; the whole
+  subsection is recorded here.)
+- **Michigan Compiled Laws § 257.1332** (legislature.mi.gov, re-read in full; history "Am. 2025, Act
+  59, Eff. Feb. 1, 2026" [V]). "If a waiver is not signed under subsection (3) and the estimated price
+  is exceeded by not more than 10% or $50.00, whichever is lesser, the facility is not required to
+  obtain the written or oral consent of the customer for the excess charge unless specifically
+  requested by the customer." [V]; "If the actual cost of a repair is less than the agreed on estimated
+  cost, the customer shall pay only the actual cost." [V]; (5) the facility "shall at all times display
+  ... a current and valid certificate of repair facility registration" [V, ellipsis mine].
+  **§ 257.1311(1)** re-read: "An individual shall not engage or offer to engage in employment as a
+  specialty or master mechanic if he or she has not applied for and received a certificate for that
+  employment from the department." [V]; (2) "The term of a master mechanic's certificate is 1 year."
+  [V]
+- **Ohio Adm. Code 109:4-3-13** (codes.ohio.gov, re-read in full; "Last updated March 23, 2026" [V];
+  the page's effective-date field was blank in the extraction). The (A)(2) notice: "Your bill will not
+  be higher than the estimate by more than ten per cent unless you approve a larger amount before
+  repairs are finished." [V] **(C)(2)** makes it deceptive to "Fail, where an estimate has been requested
+  by a consumer, to obtain oral or written authorization from the consumer for the anticipated cost of
+  any additional, unforeseen, but necessary repairs or services when the cost of those repairs or
+  services amounts to ten per cent or more (excluding tax) of the original estimate" [V]. The notice
+  ("more than ten per cent") and (C)(2) ("ten per cent or more") differ at exactly ten per cent; lessons
+  say so and set no case at exactly ten per cent. (C)(5): "Charge for any repair or service which has not
+  been authorized by the consumer" [V]; (C)(13) "Fail to tender to the consumer any replaced parts" [V].
+  (F): a supplier may instead give "a written quotation of the price at which the repair or service will
+  be performed, which shall indicate that the quotation shall be binding upon the supplier for a period
+  of five days" [V].
+- **FTC, "Auto Repair Basics"** (live, re-read in full; page footer "August 2012"). Part D §5 stands.
+  Additionally: "It should state that the shop will contact you for approval before they do any work
+  exceeding a specified amount of time or money. State law may require this." [V]; "There is no
+  "standard warranty" on repairs." [V]; "Talk to the shop manager or owner first. If that doesn't work,
+  contact your Attorney General or local consumer protection agency for help." [V]; "Another option is
+  to file a claim in small claims court. You don't need an attorney to do this." [V]; "Many repair shops
+  charge for diagnostic time." [V]
+
+### Lesson 24: servicing
+
+- **Nissan North America, 2024 LEAF Owner's Manual and Maintenance Information** (PDF re-read, pp. 9-5
+  and 9-6). p. 9-6: "To help ensure smooth, safe and economical driving, NISSAN provides two maintenance
+  schedules that may be used, depending upon the conditions in which you usually drive." [V]; "However,
+  if you drive very little, your vehicle should be serviced at the regular time intervals shown in the
+  schedule." [V]; the severe list, whole: "Repeated short trips of less than 5 miles (8 km)." "Repeated
+  short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing."
+  "Operating in hot weather in stop-and-go “rush hour” traffic." "Extensive idling and/or low speed
+  driving for long distances, such as police, taxi or door-to-door delivery use." "Driving in dusty
+  conditions." "Driving on rough, muddy or salt spread roads." "Using a car-top carrier." [V]; "If your
+  vehicle is mainly operated under the severe conditions, follow the severe use maintenance intervals
+  shown in the maintenance schedule." [V] p. 9-5: "Items marked with “*” are recommended by NISSAN for
+  reliable vehicle operation. You are not required to perform maintenance on these items in order to
+  maintain the warranties which come with your NISSAN. Other maintenance items and intervals are
+  required." [V]
+- **Ford, 2024 Maverick Owner's Manual** (capture 20250505042038, printed pp. 456 to 458, "Scheduled
+  Maintenance"). p. 456: "Your vehicle comes with the Intelligent Oil-Life Monitor system, a message
+  appears in the instrument cluster display at the proper oil change interval. This interval may be up
+  to one year or 10,000 mi (16,000 km), hybrid vehicles could exceed 10,000 mi (16,000 km)." [V];
+  "Failure to perform scheduled maintenance invalidates warranty coverage on parts affected by the lack
+  of maintenance." [V]; "It is your responsibility to have all scheduled maintenance performed and to
+  make sure that the materials used meet the specifications identified in this owner's manual." [V];
+  "Keep all receipts for completed maintenance with your vehicle." [V]; under the heading "Why Maintain
+  Your Vehicle at Your Dealership?": "Service technicians participate in extensive factory-sponsored
+  certification training to help them become experts on the operation of your vehicle." [V] p. 457:
+  "Make sure you perform the oil change within two weeks or 500 mi (800 km) of the message appearing."
+  [V]; "If your instrument cluster display resets prematurely or becomes inoperative, you should perform
+  the oil change interval at six months or 5,000 mi (8,000 km) from your last oil change. Never exceed
+  one year or 10,000 mi (16,000 km) between oil change intervals." [V]; "You can also drive your vehicle
+  in such a way that dilutes and increases the level of oil by frequent short trips that do not allow
+  the engine to get to operating temperature, extended idling and low speed driving for long periods of
+  time." [V]; "It is important to rely upon your dealership to properly diagnose and repair your
+  vehicle." [V]; "For your scheduled maintenance service intervals, visit https://www.ford.com/
+  support/maintenance-schedule." [V, line-wrapped in the PDF; the website was not read]; "We strongly
+  recommend only using our genuine or our authorized re-manufactured replacement parts engineered for
+  your vehicle." [V]
+- **Toyota, 2023 Corolla Owner's Manual (OM02568U)** (PDF re-read, pp. 295 to 296). "For details about
+  maintenance items and schedules, refer to the “Scheduled Maintenance Guide” or “Owner’s Manual
+  Supplement”." [V] (not read); "Please be aware that do-it-yourself maintenance may affect warranty
+  coverage." [V]; "It is recommended that any problem you notice should be brought to the attention of
+  your Toyota dealer or qualified service shop for advice." [V]
+- **Mazda3 online manual (European English, 8GD7-EE-17H), "Scheduled Maintenance" page 07020100**:
+  the page's schedule table did not load outside a browser; only its notes were read. Not cited for a
+  schedule.
+- **AAA, "How Often Should You Change Your Oil?"** (live, re-read in full). Part A §6 stands.
+  Additionally: "Older cars have mileage-based oil change intervals, with separate schedules for normal
+  and severe service conditions." [V]; the list "Primarily short trips (5 miles or less)", "Extremely
+  hot, cold or dusty climates", "Sustained stop-and-go driving", "Carrying heavy loads or towing a
+  trailer" [V]; "Always defer to the maintenance schedule in your owner's manual for oil change
+  intervals. While oil-life indicators are helpful, they are not always accurate." [V]; "For severe
+  service conditions, follow the more rigorous maintenance schedule outlined in your owner's manual.
+  Otherwise, be cautious of unnecessary expenses for oil change services and other maintenance your car
+  may not require." [V]; the monitor "automatically shortens the oil change interval when it detects
+  heavy-duty operation" [V].
+- **CalRecycle, "Check Your Number"** (live): Part A §6's quotations stand unchanged.
+- **FTC, "Auto Repair Basics"** (above): "Follow the manufacturer's maintenance schedule in your owner's
+  manual for your type of driving." [V]; "Some repair shops create their own maintenance schedules,
+  which call for more frequent servicing than the manufacturer's recommendations." [V]; "Ask the repair
+  shop to explain — and make sure you understand — why it recommends service beyond the recommended
+  schedule." [V] (the lesson splits around the source's dashes); "Neglecting even simple routine
+  maintenance, like changing the oil or checking the coolant, can lead to poor fuel economy,
+  unreliability, or costly breakdowns. It also may invalidate your warranty." [V]; "Ask if the
+  technician or shop has experience working on the same make or model vehicle as yours." [V]; "Make
+  sure the shop will honor your vehicle's warranty." [V]; "Look for shops that display various
+  certifications" [V]; "Make sure the certifications are current, but remember that certification alone
+  is no guarantee of good or honest work." [V]
+- **California BAR, "Maintenance and repairs"** (live; **changed since Part A read it**). "You can get
+  warranty repairs at any auto shop, not just the dealership." [V]; "By law, your vehicle warranty will
+  stay in effect if you get repairs or maintenance at another auto shop. The shop must use appropriate
+  parts and procedures." [V]; "Be sure to keep a copy of all service and repair records." [V]; "Many
+  modern vehicles include built-in reminder systems." [V] The page also says "Recall repairs are always
+  at no cost to you." [V], which the federal 15-year limit (lesson 23) qualifies; not used.
+
+### Lesson 24: credentials
+
+- **ASE, "About ASE"**: ase.com refuses curl; read from capture **20260614094747** (newest). **The page
+  no longer carries two lines Part D §6 recorded** ("ASE certifies technicians, not businesses" and
+  "kept the government from licensing jobs"); neither is used. Today's text: "Since 1972 our independent
+  non-profit organization has worked to improve the quality of vehicle repair and service by testing
+  and certifying automotive professionals." [V]; "We test and certify automotive service professionals
+  so that the shop owners and service customers can better gauge a technician’s level of expertise
+  before contracting the technician’s services." [V]; "We certify the service individual so they can
+  offer tangible proof of their technical knowledge." [V]; "In addition to passing an ASE certification
+  test, automotive technicians must have two years of on-the-job-training or one year of on-the-job-training
+  and a two-year degree in automotive repair to qualify for certification." [V]; "To remain ASE
+  Certified, professionals must retest every five years to keep up with ever-advancing automotive
+  technology." [V]; repair shops may qualify "for the Blue Seal of Excellence Recognition Program" [V].
+  The "Consumers" and "ASE Certification" pages had no capture and were not re-read.
+- **IMI TechSafe page** (live; **changed since Part B read it**): "IMI TechSafe is a recognition of
+  skills, qualification achievements and a commitment to CPD within the IMI Professional Register." [V];
+  "View the IMI Professional Register online today" [V]. IMI news release on the 14 May 2026 event
+  (live): "The latest IMI TechSafe data  shows that just over a third of technicians have some level of
+  qualification to work on electric vehicles." [V, the source's double space]; "Event participants
+  identified the ongoing implementation of the Automated Vehicles Act 2024 as an immediate and
+  practical policy hook for mandating of TechSafe." [V] Part B's "calling on government to mandate its
+  use" was not found in today's text and is not used.
+
+### Lesson 24: warranties
+
+- **15 U.S.C. § 2302(c)** (uscode.house.gov, re-read): Part D §5's quotation stands.
+- **16 CFR 700.10** (eCFR renderer, current, read whole). (c) as Part D, and its last sentence, which
+  Part D did not record: "This does not preclude a warrantor from expressly excluding liability for
+  defects or damage caused by “unauthorized” articles or service; nor does it preclude the warrantor
+  from denying liability where the warrantor can demonstrate that the defect or damage was so caused."
+  [V]
+- **FTC, "Auto Warranties and Auto Service Contracts"** (live, re-read; page footer "April 2024"). Part
+  D §5's warranty quotations stand. Additionally: "But if the warranty says that the work will be done
+  for free, the dealer or manufacturer can make you use repair facilities it chooses." [V]; "The warranty
+  company could ask for your maintenance records." [V]; "An auto service contract or extended warranty is
+  not a warranty as defined by federal law, because you buy it separately; it’s not included when you buy
+  a car." [V]; "They probably aren’t working with your vehicle dealer or manufacturer." [V]
+- **FTC alert, "Hang up on auto warranty robocalls"** (live): Part D §5's quotation stands.
+- **EPA, "Emissions Warranties for 1995 and Newer Light-duty Cars and Trucks"** (EPA-420-F-15-035, PDF
+  re-read in full). Part D §4 stands. Additionally: "No. Scheduled maintenance may be performed by
+  anyone who has the knowledge and ability to perform the maintenance and repair." [V]; "However, the
+  manufacturer can require you to use parts that are of equal quality to the original parts." [V]; "If
+  the maintenance is not performed properly as recommended, the manufacturer may deny warranty
+  coverage." [V]; "Your receipt should list all the maintenance performed and should be kept for your
+  records." [V]
+- **CMA, "Guidance on motor vehicle agreements"** (5 June 2023, PDF re-read, paras 1.1, 2.4, 5.35 to
+  5.41). Part C §7 stands, with **5.35's own verdict word recorded**: the two restrictions are ones
+  "which are likely to be caught by the Chapter I prohibition." [V] 5.36 opens "Qualitative selective
+  distribution agreements may be caught by the Chapter I prohibition if" [V]. 5.37 whole second
+  sentence: "However, the Chapter I prohibition does not prevent a supplier of motor vehicles (or any
+  other warranty provider) from legitimately refusing to honour a warranty claim on the grounds that the
+  situation leading to the claim in question is causally linked i) to a failure on the part of a
+  repairer to carry out a particular repair or maintenance operation in the correct manner, or ii) to
+  the failure of a spare part supplied by a third party." [V] 5.41: "Terms and conditions proposed to
+  consumers by suppliers of motor vehicles or their Authorised Networks that clearly state the
+  consumer's right to use the services of an independent repairer without losing the benefit of the
+  warranty are unlikely to give rise to competition concerns." [V] 2.4: "The Chapter I prohibition
+  (section 2 CA98) prohibits agreements or concerted practices between undertakings or decisions by
+  associations of undertakings which have as their object or effect the prevention, restriction or
+  distortion of competition within the UK, and which may affect trade within the UK." [V]
+- **S.I. 2023/586, article 13** (legislation.gov.uk, live): "This Order ceases to have effect at the end
+  of 31st May 2029, except for the purposes of article 14 (revocation of S.I. 2023/501)." [V]
+
+### Lesson 24: right to repair (gate G-N2 closed)
+
+- **Mass. Gen. Laws ch. 93K § 2** (malegislature.gov, live): Part D §7 stands. Additionally (f):
+  "Access shall include the ability to send commands to in-vehicle components if needed for purposes of
+  maintenance, diagnostics and repair." [V]
+- **Election statistics** (electionstats.state.ma.us, live): 2012 Question 1 Yes 2,353,603 (85.7%), No
+  392,562 (14.3%); 2020 Question 1 Yes 2,599,182 (75.0%), No 867,674 (25.0%). Unchanged.
+- **Secretary of the Commonwealth, "Massachusetts Information for Voters", 2020** (official PDF, live,
+  Question 1 pages read in full). The page's own framing: "As provided by law, the 150-word arguments
+  are written by proponents and opponents of each question, and reflect their opinions. The
+  Commonwealth of Massachusetts does not endorse these arguments, and does not certify the truth or
+  accuracy of any statement made in these arguments." [V] **In favour** (signed for Massachusetts Right
+  to Repair, the ballot committee): "A YES vote for Right to Repair will guarantee that as technology
+  advances, drivers can continue to get their cars repaired where they want." [V]; "We passed the first
+  Right to Repair law in 2012, but as new cars become more computerized auto manufacturers are using a
+  loophole to restrict access to data needed to diagnose problems, make repairs, and perform
+  maintenance." [V]; "This means car owners are steered toward more expensive dealer repair options."
+  [V]; "Voting YES provides access ONLY to mechanical and repair information, not personal information."
+  [V]; "It’s your car, you paid for it, you should get it fixed where you want." [V] **Against** (signed
+  for the Coalition for Safe and Secure Data): "Vote NO on Question 1 to protect your privacy, your
+  safety, and your family." [V]; "Question 1 has nothing to do with fixing cars." [V]; "Question 1 is a
+  data grab by third parties who want to gather your personal vehicle information and access it
+  remotely, including location data in real time." [V]; "Privacy advocates, cybersecurity experts, and
+  domestic violence advocacy groups urge you to vote NO on Question 1." [V] Who funded either committee
+  was not read.
+- **Alliance for Automotive Innovation, Complaint, *Alliance for Automotive Innovation v. Healey*, No.
+  1:20-cv-12090 (D. Mass.), filed 20 November 2020** (capture 20260530044526 of the copy hosted by
+  Repairer Driven News; pages 1 to 5 read, the Introduction). The association's own words: "Each member
+  recognizes that access to that data, and to the secured vehicle systems that generate that data,
+  could, in the wrong hands, spell disaster." [V]; "Massachusetts’s new Data Law will reduce the
+  security of these systems, seriously hampering manufacturers’ attempts to keep vehicle data and vehicle
+  systems safe." [V]; "But consumers already enjoy the freedom to have their vehicles repaired at the
+  shops of their choice." [V]; "There is no evidence that members of Auto Innovators have blocked
+  independent auto repair shops from accessing data necessary to assess vehicle performance and conduct
+  maintenance and repair." [V]; "Under the guise of providing access to data necessary to perform
+  vehicle maintenance, the Data Law sweeps broadly to allow third-party access to nearly all data
+  generated by vehicles" [V] (the sentence continues past a dash). The complaint describes its members
+  as "The nation’s leading car and light truck manufacturers" [V]. It quotes NHTSA's 2020 testimony;
+  lessons do not quote NHTSA through it.
+- **Auto Care Association, "Massachusetts Right to Repair"** (autocare.org, live). Its own description:
+  "We represent the interests of all drivers, and the independent aftermarket industry that serves
+  them." [V]; "The Auto Care Association supports Massachusetts' right-to-repair law, which allows car
+  owners to choose who can access their vehicle's repair and maintenance data while preserving its
+  cybersecurity." [V]; "This law means Massachusetts car owners keep deciding where their vehicle gets
+  maintained and repaired, which keeps the state's repair market competitive." [V]; "Without that data,
+  independent shops can't fully service today's connected vehicles." [V] The page gives its own account
+  of the appeal's oral argument; that account is a party's and is not used. It names the 2014
+  memorandum, still not read and not described.
+- **The appeal**: no appellate decision or docket was read. The course states that the association
+  appealed in March 2025 (Part D §7, docket) and that the outcome is unknown to this course as of 26
+  September 2026. G-L17 fallback: the memorandum is never described.
+
+### Places and cuts
+
+- **Places**, checked with `grep -rlw` outside car-basics/research on 26 September 2026 and unused:
+  Ulverston, Scottsdale (lesson 24); Malton, Merced, Fort Myers (lesson 25).
+- **Cut or not used**: the Car Care Council; ASE's licensing line (no longer on the page); the IMI's
+  mandate line as Part B worded it; BAR's "always at no cost" recall line.
+
+## Gate closures, lesson 24/25 (2026-09-26), continued
+
+Two more sources read the same day by the lesson 24 drafter, for the dealer-or-independent block:
+
+- **Mazda3 online manual (European English, 8GD7-EE-17H)**, pages 07010100 ("Introduction" to the
+  maintenance chapter) and 07020100 ("Scheduled Maintenance", notes only), live. "Authorised Mazda
+  technicians and genuine Mazda parts are dedicated to your vehicle. Without this expertise and the
+  parts that have been designed and made especially for your Mazda, inadequate, incomplete, and
+  insufficient servicing may result in problems. This could lead to vehicle damage or an accident and
+  injuries." [V]; "If you are unsure about any procedure it describes, we strongly urge you to have a
+  reliable and qualified technician perform the work, we recommend an Authorised Mazda Repairer." [V];
+  07020100: "All inspections and adjustments must be made by an expert repairer, we recommend an
+  Authorised Mazda Repairer." [V] (under the note on emission control systems).
+- **Auto Care Association** (the page above): "We fight to secure choice and competition in the auto
+  repair industry to put vehicle maintenance decisions back in the vehicle owners’ hands." [V]
+- **The Motor Ombudsman, "About us"** (live): "Thousands of businesses, including vehicle
+  manufacturers, warranty product providers, franchised dealers, independent garages, networks and
+  bodyshops are accredited to one or more of the Codes" [V].
+- **The Motor Ombudsman, Service and Repair Code** (the PDF above), for lesson 25, recorded whole:
+  3.2 "If during the performance of the agreed Work, it becomes apparent that additional time, labour,
+  or parts will be necessary to address consequential/additional needs not previously recognised, the
+  Accredited Business will contact you for authorisation prior to commencement of this additional
+  Work. This gives you the opportunity to agree a new completion time and date, or you can decline and
+  exercise your right to cancel the booking and pay for any Work already completed." [V]; 3.3 "If your
+  Vehicle is dismantled, the Accredited Business will not compel you to agree to the completion of
+  additional Work. The Accredited Business will always offer an option of re-assembly within the
+  original price, where possible." [V]
