@@ -277,8 +277,9 @@ from serious injury if your disabled vehicle is struck by another vehicle". If y
 having pulled onto the right shoulder, "exit the vehicle from the passenger side and wait beyond the
 protective guard rail, if one exists. A good rule of thumb is to remain at least 40 feet from your
 disabled vehicle."[6] (40 feet is about 12 metres, on this course's conversion.) The California Driver
-Handbook lists the same two exceptions, a shoulder without enough space and a guardrail, in its
-freeway steps, and lesson 17 teaches them in full.
+Handbook lists the same two exceptions, a shoulder without enough space and a guardrail, among the
+situations in its freeway steps where it's safer to get out and stay away, and lesson 17 teaches them
+in full.
 
 **Warning devices.** The federal rules on carrying and placing warning devices are those of FMCSA (the
 Federal Motor Carrier Safety Administration, which regulates trucks and buses), and they're for
@@ -441,7 +442,7 @@ Where she is, in a form they can find (the road, the side street, a landmark); t
 
 Where to wait: the US page's stay-in advice is US advice for a car at the roadside. She's in England, where Rule 275's advice is to keep well away from the car and the traffic, so she waits in the side street, away from the car.
 
-Being electric matters because both handbooks read say not to tow their electric car with its driving wheels on the road: Nissan says flatbed or driving wheels off the ground for the LEAF, and Tesla all four wheels off the ground for the Model 3, because its motor generates power when the wheels spin. Her own maker's handbook has the instruction for her car, and it's worth reading the towing section before she ever needs it. When the truck comes, she leaves the car as it is until the operator says (this course's reading, from AAA's US advice that putting it in neutral is "A common mistake").
+Being electric matters because both handbooks read say not to tow their electric car with its driving wheels on the road: Nissan says flatbed or driving wheels off the ground for the LEAF, and Tesla all four wheels off the ground for the Model 3, because its motor generates power when the wheels spin. Her own maker's handbook has the instruction for her car, and it's worth reading the towing section before she ever needs it. When the truck comes, she leaves the car as it is until the operator says (this course's reading, from the US advice of AAA Club Alliance, which sells roadside assistance, that putting it in neutral is "A common mistake").
 :::
 
 ## After a collision: making the scene safe
@@ -499,8 +500,8 @@ You're already stopped somewhere Rule 275 would call relatively safe; hazards on
 
 ## What people get wrong
 
-**"A warning triangle is a legal requirement."** Not for a private car, on anything this course read in either country;
-see "Rule 276 on an ordinary road, and which of it is law" and the US section's "Warning devices", above.
+**"A warning triangle is a legal requirement."** Nothing this course read makes it one for a private
+car in either country, and in Great Britain placing one is advice; see "Rule 276 on an ordinary road, and which of it is law" and the US section's "Warning devices", above.
 
 **"A triangle goes behind any stopped car, motorway included."** Rule 276: "never use them on motorways".
 Rule 277: "DO NOT place a warning triangle on the carriageway". Both are advice, and both say the same.

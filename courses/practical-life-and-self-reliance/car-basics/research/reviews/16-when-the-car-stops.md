@@ -189,3 +189,54 @@ on other courses' items; no line names this lesson.
 **Status after review:** needs second pass (F1 and F2 were safety corrections: a fresh-context read of
 the US stopping text and table against the callout, the collision section's First Aid pointer, and the
 new level crossing section against Rule 299 and the California handbook).
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, all passes, aimed at the Tier B fixes. Primaries re-read
+today with curl (generic browser User-Agent, no personal data): Highway Code Rules 275 to 287, 299,
+116 and the Introduction (GOV.UK content API); nidirect's NI "Breakdowns and incidents (274 to 287)"
+and its "First aid on the road" annex; the California Driver Handbook, Section 8, live; Vehicle Code
+§ 21809 live; 49 CFR 392.22 and 393.95 (eCFR); 911.gov (capture 20260907153825); NHTSA Move Over
+(capture 20260917235712); AAA Club Alliance, the AAA Foundation and National Highways live; Nissan's
+2024 LEAF PDF pp. 6-13 to 6-14 live; Tesla's Model 3 page (capture 20241004175445); Ford's 2024
+Maverick PDF (capture 20250505042038, the coolant line); the Commons file page for M27_DLS.JPG and
+the image itself. Every quotation in the lesson string-matched against today's text, apart from
+course and lesson titles, which were matched against the lessons themselves.
+
+**Checked and passing.** F1: the First Aid wording matches lesson 11's "When moving comes first"
+(danger, the airway, CPR) and its titles. F2: the US stay-in advice carries the two exceptions in the
+Stopping paragraph, the table and the handbook sentence; Q4 is a Great Britain item and leaves its
+driver behind the barrier; nothing anywhere puts anyone in a lane. Rule 299's three lines and
+California's two cases are exact. Berwick step 5's quotation is on Ford's handbook (coolant light).
+The M27 licence (`{{self|cc-by-sa-3.0}}`, own work, Martinvl, 2012-08-05) and the credit are right,
+and the alt text matches the photograph. The first predict, the moved four-stops checkpoint, the A66
+predict, Q4 and Q5 are not answered by the text above them. Keys 2,3,1,0,1 pass decision 20's
+relaxed rule against lessons 1 to 15 and 17 to 19 (no identical sequence, no value shift, no shared
+run of four at offsets 0 or ±1). No em or en dashes; callout byte-identical to `CAR_BASICS_SAFETY`.
+`npm run minutes`: 90 measured, 90 set. `npm run quotes car-basics`: 0 not found.
+
+**Findings.**
+1. S1 [minor, fixed] "The California Driver Handbook lists the same two exceptions ... in its freeway
+   steps": the handbook's list "include[s]" a third ("An area for you to safely stay away from freeway
+   lanes"). Now "lists the same two exceptions ... among the situations in its freeway steps where it's
+   safer to get out and stay away".
+2. S2 [minor, fixed] The triangle misconception said "Not for a private car", which the Rule 276
+   section says the course cannot say ("says nothing about it either way"). Now "Nothing this course
+   read makes it one for a private car in either country, and in Great Britain placing one is advice".
+3. S3 [minor, fixed] The recovery checkpoint's answer cited "AAA's US advice" without the industry
+   label; now "the US advice of AAA Club Alliance, which sells roadside assistance".
+4. S4 [minor, open] The recovery checkpoint: of its three parts, what to tell the service and what to
+   leave alone are answered by the paragraphs just above it, and the stem already has her waiting in
+   the side street. The wait-or-stay-in choice is real application, so it is not a safety or fact
+   defect; a later edit could ask only about the US page's stay-in advice, with a new case. Not one edit.
+5. S5 [information] "999 is the emergency number there too" (Northern Ireland): the NI breakdown page
+   doesn't print 999, as SOURCES records, but nidirect's NI Highway Code annex "First aid on the road"
+   does ("call the appropriate emergency services on 999 or 112"). True. That read is not yet in
+   SOURCES; the next SOURCES note should add it (this pass does not edit SOURCES).
+6. S6 [information] Exercise item 4's NI line: nidirect prints the NI Code's "must" in lower case
+   (Rules 275, 281, 286, 287), so an NI reader looking for "MUST" should look for "must". Worth one
+   phrase once recorded in SOURCES.
+7. S7 [information] AAA Club Alliance's name in the US table cells is not re-labelled; the paragraph
+   directly above labels it. Left.
+
+**Verdict: CLEAN.** No wrong fact, safety step or jurisdiction; S4 to S7 are minor or information and
+none is a trigger for another full pass. `npm run validate`: exit 0, no line naming this file.

@@ -52,11 +52,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
   100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
   audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
-  **Car Basics is drafting** (2026-09-26), the seventh and last of Term 3: Stage 1 and the outline
-  are done (25 lessons, each planned at 60 to 85 minutes, with a list of what to cut first if long);
-  the build enforces its safety callout. Proposed: a six-monthly re-check of its dated fees and
-  policy facts. Drafters should plan
-  every lesson for the 100-minute ceiling from the start; Home Repair's lessons all ran long.
+  **Car Basics is drafting** (2026-09-26), the seventh and last of Term 3. Lessons 1 to 16 are
+  through Stage 4 (Tier B and neutrality where the outline says) and most have fact-checked
+  scripts; 17 is in its fix pass, 18 and 19 in Tier B review, 20 to 25, the project and the final
+  test are still to draft. `npm run state` has the per-lesson counts. Conventions settled along the
+  way are dated in `research/pipeline-briefs.md`; what each review caught is in
+  `research/reviews/course-wide.md`. **Left open, none blocking:** lesson 16's recovery checkpoint
+  is partly answered by the text above it (S4), and nidirect's "First aid on the road" line is not
+  yet in SOURCES (S5); lesson 6's four minor items in its review file. Proposed: a six-monthly
+  re-check of its dated fees and policy facts.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
