@@ -3459,3 +3459,178 @@ not on the list because I read the EPA landing page of that title; the pamphlet'
 a gate (f12). "Control of Lead at Work Regulations 2002" and "Control of Asbestos Regulations 2012"
 are not listed: I read regulation 3 of each (and CAR's contents), though not their operative
 duties.
+
+---
+
+## Gate closures, lesson 01 (2026-09-25)
+
+Read at drafting by the lesson 1 drafter, curl with a browser User-Agent and an HTML stripper,
+on 25 September 2026.
+
+**G-N1, the callout's two numbers: closed.** Both re-read on the networks' own live pages today.
+- National Gas, "Emergency Contacts", https://www.nationalgas.com/emergency-contacts, read in
+  full: [V] "Smell gas or suspect a leak? Call 0800 111 999 * (24 hours a day – free to call)."
+- Cadent Gas, "What to do if you smell gas", https://cadentgas.com/smell-gas, read in full (a first
+  request returned HTTP 429; the second returned the page): [V] "you should call us immediately on
+  0800 111 999* at any time of the day or night." The steps quoted in Part A §4 are unchanged.
+- SSE Airtricity Gas Supply NI, "In an Emergency", https://www.sseairtricitygasni.com/in-an-emergency/,
+  read in full: [V] "phone the 24-hour Northern Ireland Gas Emergency Service on 0800 002 001."
+  The page also says [V] "Do no turn on or off any electrical switches, including door entry
+  systems." (sic, "Do no").
+Both numbers match the callout. No change.
+
+**G-W8, the gas emergency control valve: closed, for Cadent's network.** Cadent Gas, "Locating
+your meter and turning off the gas", https://cadentgas.com/locating-your-meter-and-turning-off-the-gas,
+read in full.
+- Where the meter may be: "In a garage", "At the back of your house", "Under the stairs", "In the
+  kitchen", "Or outside the front or side of your house" (a list on the page); in buildings with
+  several homes, [V] "the meter can also be in various places around the home or in communal areas,
+  but will usually be inside."
+- Meter boxes: [V] "To access the meter you will need a key to open the door to the gas meter box."
+- The valve: [V] "Open your gas meter box and locate the red tap handle near to the pipe. This is
+  the emergency control valve (ECV). This handle will be aligned with the pipe; to switch off the
+  supply you should turn it either 90 degrees to the left or 90 degrees to the right (a quarter
+  turn clockwise or anti-clockwise). The gas supply is now off. Don’t turn it back on until
+  advised it’s safe to do so."
+- [V] "In your home it’s really important to know where to find your gas meter because this is
+  where you will turn off the gas supply if advised to do so, or in a gas emergency."
+Scope: one network's guide to the meters on its network. It describes the valve as Cadent's page
+does; the course has not read other networks' guides, and a lesson says "Cadent describes".
+
+**G-W5, water near electrics: closed with Electrical Safety First's current flood page.**
+Electrical Safety First, "Electrical safety after a flood",
+https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/electrical-safety-after-a-flood/,
+read in full. Written for flooding, and it names a burst pipe as a case of clean-water damage.
+- [V] "Switch off the electricity supply at the consumer unit/ fusebox, only if it is safe to do so."
+- [V] "Seek professional advice from a registered electrician if there is any sign of water inside
+  the consumer unit/ fusebox or any signs of arcing or overheating."
+- [V] "Keep away from any exposed wiring as it may still be live."
+- [V] "Do not attempt any electrical repairs or connection of temporary supplies yourself – always
+  use a registered electrician."
+- [V] "If the water damage to the electrics is relatively minor and caused by clean water (e.g. a
+  burst water pipe or tank), the electrician may need to just dry out cables and replace any
+  accessories affected by the water such as socket-outlets, switches, and plugs."
+- The page does not say what makes the consumer unit safe to reach. The lesson keeps the course's
+  plain reading, labelled as the course's: don't stand in water or touch anything wet to reach it.
+
+**Re-read, no gate:** the Gas Safety (Installation and Use) Regulations 1998, regulation 3, whole
+regulation, https://www.legislation.gov.uk/uksi/1998/2451/regulation/3: text as recorded in "The
+gas-work law, stated exactly"; the page still shows no known outstanding effects.
+
+**G-N4, photographs: not closed for lesson 1.** Wikimedia Commons searched; the stopcock files
+found are not UK stop taps and a licence check could not be completed. Fallback: no photograph.
+
+---
+
+## Gate closures, lesson 03 (2026-09-25)
+
+Read by the lesson 3 drafter on 2026-09-25, curl with a browser User-Agent plus pandoc (GOV.UK
+pages through the content API; the SI through legislation.gov.uk's XML). Every [V] below was
+string-checked against the extracted text on the day.
+
+### G-W3 closed: plunging a sink, taking off a trap, chemical drain cleaners
+
+**WaterSafe, "How do you unblock a sink with standing water in it?"**
+https://www.watersafe.org.uk/advice/common_plumbing_questions1/drainage/how-to-unblock-sink/
+Read: full text. No date shown. The same register as the stop tap page (Part A §1), run for the
+water industry. Its wording is partly American ("faucet", "channel lock pliers", "P-trap"). It
+says nothing about chemical drain cleaners, for or against.
+- Order on the page: scoop out standing water; look for visible debris and pull it out by hand
+  wearing rubber gloves; very hot water; a plunger; baking soda and vinegar; a plumber's snake
+  (drain auger); take the trap off; then a plumber.
+- "Before attempting to unclog the drain, remove as much standing water as possible." [V]
+- "If you see any obstructions, wear rubber gloves and try to pull them out by hand." [V]
+- Hot water: "Heat a couple of litres of water until it’s very hot but not boiling (boiling water can damage PVC pipes)." [V]
+- Plunger: "If your sink has two basins, use a wet rag to plug the unclogged side." [V] "Position a sink plunger (flat-bottomed) over the clogged drain to form a seal." [V] "Pump the plunger up and down about 5 to 10 times." [V] Then check, and repeat if necessary.
+- Baking soda and vinegar: one cup of each, covered, "for around 15 to 60 minutes" [V], then hot (not boiling) water.
+- Snake: push in until you feel resistance, rotate, pull out slowly.
+- Trap: "Place a bucket under the P-trap to catch water and debris." [V] "Use channel lock pliers to loosen the nuts on both sides of the trap." [V] Remove it, clean it with a brush or running water, "Reattach the P-trap and tighten the nuts." [V], run water.
+- "If the water still backs up, the clog might be deeper in the plumbing system, requiring professional assistance." [V]
+- The opening paragraph carries an em dash; quote around it, not through it.
+
+**Poison Control (National Capital Poison Center, US), "What’s in drain cleaner and what happens if you drink it?"**
+https://www.poison.org/articles/whats-in-drain-cleaner
+Read: full text. No publication date extracted. Written by a pharmacist and certified specialist
+in poison information.
+- "Since many drain cleaners contain highly concentrated corrosive chemicals, they must be used with great caution." [V]
+- Prevention tips: "Wear protective gear when using drain cleaners, including goggles and rubber gloves." [V] "Pour drain cleaners carefully and close to the drain to avoid splashing." [V] "Keep drain cleaner containers tightly closed, clean, and away from sight and reach of children." [V]
+- Contents: enzymatic cleaners use bacteria and enzymes; non-enzymatic ones are acidic or alkaline. "Common acidic ingredients in non-enzymatic drain cleaners include sulfuric and hydrochloric acids. Common alkali ingredients in drain cleaners include sodium and potassium hydroxide." [V] "Some drain cleaners generate heat when the contents are mixed together and poured down a drain." [V]
+- Splash-back: "injury can occur when a drain cleaner splashes back from the drain area. This can happen if the drain cleaner is poured from too high up, or if too much product is poured into a completely blocked drain." [V]
+- Baking soda and vinegar, which WaterSafe recommends: "Since drains are not airtight, the carbon dioxide gas can escape from through drain cover, so the gas generally does not build up enough pressure to release clogged drain contents." [V] (the page's own wording, "escape from through") and "the combination of baking soda and vinegar is unlikely to be strong enough to melt away tough drain clogs due to oil and grease." [V]
+- Exposure: webPOISONCONTROL or "call your poison center at 1-800-222-1222" [V]. (The number First Aid lesson 14 teaches as Poison Help.)
+
+**Poison Control (National Capital Poison Center, US), "Top tips for a safe spring cleaning"**
+https://www.poison.org/articles/spring-cleaning
+Read: full text.
+- "Always read the directions for use on cleaning product labels to avoid poisoning or injury." [V]
+- "Never mix household cleaning products. Doing so can result in poisonous fumes and serious breathing problems." [V]
+- "mixing an acid toilet bowl cleaner with bleach will result in the formation of irritating chlorine fumes that might cause serious breathing problems." [V]
+- "Ammonia should never be mixed with chlorine or bleach products. This can release a highly irritating gas known as chloramine." [V]
+- "Strong alkalis are in products such as oven cleaners, lye (caustic soda or sodium hydroxide), and drain cleaners." [V]
+- A case on the page: a 2-year-old "was splashed in the face with a lye drain cleaner when someone poured it into a sink full of water." [V]
+- "Ventilate your work area well, especially small spaces such as bathrooms, by opening a window or door and running an exhaust fan." [V]
+
+**UKHSA, "Sodium hydroxide: general information"** (Compendium of chemical hazards), updated 28
+November 2024.
+https://www.gov.uk/government/publications/sodium-hydroxide-properties-uses-and-incident-management/sodium-hydroxide-general-information
+Read: full text via the GOV.UK content API.
+- "It is also commonly known as caustic soda and soda lye." [V] Used in "various household products including de-scalers and drain cleaners." [V]
+- "Low level exposure from the correct use of household products that contain sodium hydroxide would not be expected to cause adverse health effects." [V]
+- "Sodium hydroxide containing products in the home should be stored in an appropriate container and kept out of the reach of children." [V]
+- Skin and eye first aid are on the page and are First Aid lesson 10's, not this course's.
+
+No UK official page read on mixing cleaners. CDC's "Never mix bleach with ammonia or other
+cleaners." (Part A §6) is the US mould page and is already recorded.
+
+### Re-read at drafting (thresholds, statutory guidance, service standards)
+
+**Approved Document H, 2015 edition.** GOV.UK's collection page still lists the 2015 PDF as the
+current edition (checked 2026-09-25). Section 1 re-read. Additions to Part A §2:
+- Para 1.5: "To prevent the water seal from being broken by the pressures which can develop in the system the branch discharge pipes should be designed as described in paragraphs 1.7 to 1.25." [V]
+- Para 1.6 in full: "If a trap forms part of an appliance the appliance should be removable. All other traps should be fitted directly after the appliance and should be removable or be fitted with a cleaning eye." [V]
+- Table 1 footnotes: the seal may be 50 mm only on flush-grated wastes without plugs on spray tap basins, and 38 mm where some appliances discharge to a gully.
+- Para 1.33: ventilated stacks may end inside a building with air admittance valves.
+
+**Thames Water, "Blockages and blocked drains"** re-read. **Correction to Part B §3:** the "48 hours
+... 72 hours" line sits under "What about blockages outside my home?", after reporting a drain
+"leaking sewage and endangering wildlife or the environment" [V]. It is not stated as the
+attendance time for every blockage. Also on the page:
+- "If you think you have a blockage within your drains or sewer, we advise you contact a plumber." [V]
+- Signs of a blockage: "You find it hard to flush your toilet." [V] "Your sink or bath empties very slowly." [V] "You notice a bad smell coming from your drains." [V]
+- "Sewers are only designed to take water from toilets, sinks, baths and showers along with human waste and toilet tissue. Everything else should be put in the bin." [V]
+- "We repair and clean the pipes that carry wastewater from your street to our treatment works. Property owners are responsible for the pipes in the homes and the ones connecting to our sewers." [V]
+- "Remember the three Ps: pee, poo and (toilet) paper – nothing else should be flushed!" [V] (the page's spaced dash; a lesson splits the quotation around it).
+- It may be the company's "if we have public sewers in the area and at least one of the following applies" [V]: the problem is outside the property boundary, or more than one property is having problems.
+
+**City of Portland, "Fats, Oil, and Grease"** re-read. Beyond Part A §2: "Don't run water over dishes, pans, fryers, or griddles to wash oil and grease down the drain." [V] "Small bits of food stick with FOG to pipes, causing additional build-up." [V] Tips: a sink strainer; pour grease into cans and bin them once hard; wipe pots and pans with dry paper towels before rinsing.
+
+**Thames Water, "Don’t feed the fatberg"** re-read. Beyond Part A §2: fats and oils "can congeal and combine with other waste over time to form fatbergs – solid masses that block pipes" [V] (the page's spaced dash; do not quote across it). The survey is described on the page as "New research carried out by Thames Water" [V].
+- Signs it is in your home include "Your neighbours aren't having problems with their drains" [V] and "Your upstairs facilities are impacted but downstairs is working - this suggests an internal blockage" [V].
+- "Property owners are responsible for the pipes in the homes and the ones connecting to our sewers." [V]
+- "Take chemicals, solvents, engine oil and paint to your local refuse or recycling site" [V].
+
+**ASHI, "Plumbing System"** re-read. Beyond Part A §2:
+- "Homeowners may notice an odor in a bathroom that is rarely used or in the basement." [V] "The problem could be that the trap in the bathtub or a basement floor drain that has dried out and the sewer gas is seeping out. Water can be poured into the drain to refill the trap." [V] It adds that it could also be a damaged pipe behind a wall or in the attic, a plumber's repair.
+- "Be sure to occasionally run water in fixtures (tubs, sinks, showers, floor drains, etc.)." [V]
+- "Don’t pour grease, fat, coffee grounds or other food products down the drain." [V]
+
+**City of Superior, "Sewer Smarts and Plumbing Basics"** re-read. Beyond Part A §2:
+- "This trap seal prevents sewage system odors, gases, and vermin (mice, insects, etc.) from entering the living or work space." [V]
+- House traps: "In Superior, they are prohibited by building code." [V]
+- Floor drains: "To prevent sewer gases from coming up through the drain, add a half a gallon of water to your floor drain at least once a month." [V]
+
+**WRc, "After Fine to Flush, what happens next?"** re-read. Beyond Part A §2:
+- "WRc fully supports the proposed ban on wet wipe containing plastic fibres" [V], and adds that
+  it "won’t solve the whole problem though, as products such as baby wipes and cleaning wipes made from non-plastic materials may not disintegrate to a level that is harmless to our sewers as they are designed to be robust." [V]
+- It is restarting flushability testing of plastic-free moist toilet tissue, against a standard it
+  expects in a draft ISO standard.
+
+**The Water Report** re-read, dated 1 October 2023: "But confusion among users for reasons that ranged from a blanket belief that all wipes were now safe to flush to failure to follow instructions accompanying the Fine to flush logo that only one wipe should be flushed at a time." [V] It names the scheme's developers as "Water UK and the Water Research Centre" [V].
+
+**City of Superior**, one more line used: "A sink trap remains filled with water so that sewer gases can’t enter the room." [V] **Approved Document H** para 1.31's heading: "Ventilating pipes open to outside air" [V].
+
+**SI 2025/1218** re-read in full on legislation.gov.uk: made 18 November 2025, in force 19 May 2027
+(reg 1(2), 18 months after making). Reg 1(3): extends to England and Wales, applies to England only.
+Reg 3(1): "A person may not, in the course of a business, supply or offer to supply wet wipes containing plastic to an end user in England." [V] Exemptions for registered pharmacies, medical
+use and supply to businesses and local authorities (regs 5 to 7). It regulates supply; it says
+nothing about what a householder flushes.
