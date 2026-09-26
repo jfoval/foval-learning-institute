@@ -1,0 +1,36 @@
+id: home-repair
+title: Home Repair and Maintenance
+school: practical-life-and-self-reliance
+subject: Practical Life & Self-Reliance
+level: Foundation
+status: research
+summary: >-
+  Keep a home sound: find the stopcock and the fuse box, fix the common small faults yourself, and
+  know which jobs the law or plain safety says to leave to a qualified person.
+description: >-
+  Most homes fail slowly: a dripping tap, a blocked trap, damp behind a wardrobe, a gutter nobody
+  cleared. This course teaches how a house works (water, drainage, electricity, gas, heat and the
+  building envelope), the tools worth owning, the repairs a careful beginner can do, and the
+  seasonal checks that stop small faults becoming large bills. It is written for the UK and the US
+  side by side, says which work the rules in each place reserve for a licensed or registered trade,
+  and treats electricity, gas, ladders and asbestos with the caution they need. It follows First Aid
+  and CPR and Personal Safety in Term 3.
+outcomes:
+  - >-
+    Explain how water, drainage, electricity, gas and heating are laid out in a typical home, and
+    find and use the main shut-offs in an emergency
+  - >-
+    Choose and use a basic tool kit safely, including working at height on a ladder
+  - >-
+    Carry out common repairs (a dripping tap, a blocked drain or trap, a running toilet, a sticking
+    door, filling and painting a wall, bleeding a radiator, resetting a tripped circuit) and check
+    the result
+  - >-
+    Recognise damp, condensation, leaks, pests and failing seals early, and say what causes each
+  - >-
+    Say which jobs the rules in the UK and in US states reserve for registered or licensed trades,
+    how to hire and check a tradesperson, and when to stop and call one
+  - >-
+    Plan a seasonal maintenance schedule for your own home
+prerequisites: [first-aid]
+sensitive_domain: false
