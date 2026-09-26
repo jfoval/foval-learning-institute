@@ -165,3 +165,53 @@ course.
 the new legal lines: the s.48 bridge and lesson 8's "exemption", the Annex 6 paragraph and Q3, the
 table and DVLA paragraph, Q2, answers (c), (g), (h), (j) and the P14 sentence). No full second Tier B
 pass.
+
+## Second pass (2026-09-26)
+**Reviewer:** targeted F recheck (facts and law), fresh context, on the changed passages only. Re-read
+live with curl (generic browser User-Agent, no personal data): RTOA 1988 s.48 and Sch 2 Part I (rows
+40A, 41A, 41B, 41D, 42, 47; extents E+W+S); RTA 1988 ss.40A, 41 (incl. (7)), 41A, 41B, 41D, 42; Sentencing
+Act 2020 s.122 (Part 7 extent E+W); C&U 1986 introduction and regs 18, 27, 34, 61, 61A, 100; RVLR 1989
+introduction and reg 23; the NI Order's introductory text (revised and as made) and Arts 54, 56, 58;
+GOV.UK content API for Highway Code Annex 6 and the Introduction and DVLA's endorsement codes; nidirect's
+fixed-penalty page. Lessons 1, 3, 8, 9, 10, 11 and 21 opened for the cross-references.
+
+- **F1** verified: after dark; reg 23(2)(a)(iv) reaches the rear registration plate lamp and (3)(c)'s
+  daylight exception doesn't apply; "a later section" and "on this course's reading" present.
+- **F3** verified: the C&U enacting words cite ss.34(5), 40(1) to (3) and 172 of the 1972 Act; RVLR's
+  "section 41 as read with section 43" matches.
+- **F4** verified: CU10, CU20 (full description), CU30, CU40, CU50 and "must stay on a driving record for
+  4 years from the date of the offence." match the live page; the uncertainty sentence and both
+  "on this course's reading of DVLA's list" labels are in place.
+- **F5** verified against the ss.41B and 41D texts and s.42(a)'s "other than one within section 41A(a) or
+  41B(1)(a) or 41D". **F6** verified word for word. **F8** verified: lesson 3 cites 61A only; reg 61(1)
+  quotation exact. **F9** verified: label opens the section; every item is a pointer; the section
+  headings and lesson 1 and 21 targets exist.
+- **Section 48 bridge** verified: heading "Exemption from disqualification and endorsement for certain
+  construction and use offences"; both conditions quoted exactly; "if he proves"; s.41B(2) is where the
+  Act says "defence". **Lesson 8 line 216** reads "the exemption is narrow"; no other "defence" in lesson 8.
+- **Annex 6 paragraph and Q3** verified: the quoted line matches, has no MUST, and the Introduction's
+  "will not, in itself, cause a person to be prosecuted", "may be used in evidence ... to establish
+  liability" and "applies to England, Scotland and Wales" match. Annex 6 excepts the handbrake warning
+  light from the "should go out" line; the stem's unnamed light doesn't turn on it. Not changed.
+- **Table and DVLA paragraph** verified cell by cell against Sch 2 and s.122 (level 3 £1,000, level 4
+  £2,500 from 1 October 1992; Level 5 and Level 4 for goods and more-than-eight-passenger vehicles).
+- **Q1** verified: reg 34(1) and (6) are about wipers and washers, not brakes, steering-gear or tyres;
+  Sch 2 figures right. **Q2** verified: s.40A(a) "condition"; s.48(1) quoted exactly; s.40A and s.48 E+W+S;
+  no Scottish figure stated.
+- **Answers** (c) reg 18(1) exact and "as to brakes"; (g) reg 61(1) exact; (h) reg 27(3)'s 50 mph and
+  (1)(a)'s "unsuitable" exact, labelled; (j) s.40A(d) "the manner in which it is secured" and reg 100(2)
+  "so secured" verified.
+- **P14 sentence** verified: lesson 3 quotes DVSA's "up to £1,000 for a car"; level 3 is £1,000; labelled.
+- **Labels, jurisdictions:** the short label opens every H2 that states law, the exercise carries it, all
+  five stems say "As general information". Great Britain and Northern Ireland in separate sections; no
+  Northern Ireland penalty figure anywhere (nidirect's "endorsable - for example, for a defective tyre"
+  quoted with no figure).
+- **Keys** 3,0,2,1,0 rechecked by script against lessons 01 to 23 on disk: all four used, no adjacent
+  repeat, no identical or value-shifted sequence, no shared run of four at offsets 0 or ±1 with the five
+  nearest. Every explanation read against its options. Option lengths 78/77/77/78, 86/88/85/79,
+  87/83/85/81, 81/82/87/84, 76/76/77/79.
+- No em dashes or en dashes; callout byte-identical to the brief and every other lesson. `npm run minutes`:
+  75, ok. `npm run quotes car-basics`: 850 quotations, 0 not found. `npm run validate`: exit 0, no line
+  naming lesson 20 or lesson 8.
+
+No edits made. **Verdict: CLEAN.**
