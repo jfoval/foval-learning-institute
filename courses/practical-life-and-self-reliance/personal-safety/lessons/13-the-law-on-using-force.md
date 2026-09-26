@@ -267,9 +267,9 @@ not reasonable "if it was disproportionate in those circumstances" (s.76(6)).[1]
 direction gives a plain example: a punch would not normally justify a knife in reply, though it
 leaves room for very exceptional cases, and says whether they exist is for the jury.[4]
 
-:::checkpoint A woman in England who has been drinking heavily at a party believes, wrongly, that a man walking towards her is about to attack her, and pushes him down a flight of steps. She would not have made the mistake sober. Under section 76, which part of the law on belief is the court most likely to be looking at, and why does Scotland's rule not even reach that point?
+:::checkpoint A man in England who has been drinking heavily at a party believes, wrongly, that another man walking towards him is about to attack him, and pushes him down a flight of steps. He would not have made the mistake sober. Under section 76, which part of the law on belief is the court most likely to be looking at, and why does Scotland's rule not even reach that point?
 
-Section 76(5): a mistaken belief "attributable to intoxication that was voluntarily induced" can't be relied on, so the honest-mistake rule in s.76(4)(b) doesn't help her on the facts as the question states them. In Scotland the belief would have to rest on reasonable grounds with "an objective background" in any case, drunk or sober. Which facts a court accepts is for the court.
+Section 76(5): a mistaken belief "attributable to intoxication that was voluntarily induced" can't be relied on, so the honest-mistake rule in s.76(4)(b) doesn't help him on the facts as the question states them. In Scotland the belief would have to rest on reasonable grounds with "an objective background" in any case, drunk or sober. Which facts a court accepts is for the court.
 :::
 
 ## Escape: five jurisdictions, four answers
@@ -512,7 +512,8 @@ This is general information, not legal advice. The law differs by state, and bet
 Wales, Scotland and Northern Ireland.
 
 Whether the law ought to require a person to retreat before using deadly force, when they safely
-could, is a **value question**. It weighs the defender's freedom, and the risk of being second-guessed
+could, is a **value question**. It weighs the defender's freedom, the danger that a retreat was not,
+in Deering's words below, "safe or reasonable in the moment", and the risk of being second-guessed
 later, against the attacker's life and a confrontation ending without a death. Evidence can inform
 it but can't settle it, so this course describes it and takes no side. Beside it sits an
 **empirical question**, whether the laws change how many people are killed. RAND points out where
@@ -550,12 +551,12 @@ didn't read the research it cites for that, so it gives the argument as Giffords
 ### Where each side meets the law read here
 
 Each side's case has a match in the texts earlier in this lesson, and both matches are this
-course's, not either side's. Deering's point about hindsight is the one section 76(7) makes about
-proportion: a frightened person can't weigh things "to a nicety".[1] And the retreat duties read
-here are written the way Giffords describes a duty to retreat: New York's and the Model Penal Code's
-apply only where the defender knows retreat is completely safe, Scotland's only to an escape the
-accused "can reasonably be expected to adopt", and Scotland's model direction uses Giffords' own
-phrase, violence "as a last resort".[4][5][7]
+course's, not either side's. The retreat duties read here are written the way Giffords describes a
+duty to retreat: New York's and the Model Penal Code's apply only where the defender knows retreat is
+completely safe, Scotland's only to an escape the accused "can reasonably be expected to adopt", and
+Scotland's model direction uses Giffords' own phrase, violence "as a last resort".[4][5][7] And
+Deering's point about hindsight is the one section 76(7) makes about proportion: a frightened person
+can't weigh things "to a nicety".[1]
 
 ### What the evidence says, as RAND grades it
 
@@ -618,6 +619,8 @@ Florida's chapter does add something, and it is part of what Giffords objects to
 776.032(1) says a person whose force the chapter permits "is justified in such conduct and is immune
 from criminal prosecution and civil action for the use or threatened use of such force", and that
 criminal prosecution "includes arresting, detaining in custody, and charging or prosecuting".[6][12]
+Whether a law should give that immunity belongs to the value question above, and this course leaves
+it open.
 
 ## After force is used
 

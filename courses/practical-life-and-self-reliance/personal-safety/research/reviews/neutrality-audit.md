@@ -387,3 +387,76 @@ against the bulletin, and lesson 1 should say "any harassment".
   contested.
 - Lesson 11's resistance evidence points one way because the studies read do. The lesson gives the
   limits and says "That does not make resisting a duty", which is 3.6, not false balance.
+
+## Open findings applied (2026-09-25)
+
+Applied by a fixer from this file and SOURCES.md. No new quotation was added that is not in SOURCES;
+`npm run quotes personal-safety` finds all 334. Scripts that repeated a changed sentence were
+mirrored (12, 13, 15), and their `checked:` entries say so. The course-wide review and the final
+test were left alone, because another agent is working on them.
+
+- **N1, gun blocks.** Lesson 13: "Where each side meets the law read here" now gives Giffords' match
+  first and Deering's last, and "What stand your ground doesn't change" now closes on the value
+  question ("Whether a law should give that immunity belongs to the value question above, and this
+  course leaves it open."), not on the immunity Giffords objects to. The main block already closed
+  on the value-question line and is unchanged. Lesson 15: the general pair now quotes Giffords first
+  and NRA-ILA second, and the lesson's value-question close follows.
+- **N2, household risk.** G17 stays open: the critics' methods work is unread, and this fix does not
+  read it. The interim fix is applied: lesson 15 now says the first two items it offers "are about
+  defensive use rather than household risk". Script 15 mirrors it in four words.
+- **N3, lesson 9.** Added a strongest-form paragraph for asking first, as this course reads it, beside
+  the one for calling. The audit's draft clause "one choice taken from them" was dropped, because
+  no Right To Be text in SOURCES gives it; every clause kept rests on its stated reasons (police
+  risk, communities who "may rightfully feel unsafe") or its Delay section. Script 9 already gives
+  the two readings a line each, and was not changed.
+- **N4, the sex of threatening people.** (a) Lesson 11's model answer now reads "Someone raped a
+  woman...". (b) Lesson 7's Euan now worries about a colleague, Ross, whose wife controls his money;
+  answer (c) is unchanged except that it now adds the Men's Advice Line's friends-and-family page
+  and that its hours (weekdays 10am to 5pm) leave it shut at midnight. Scotland's helpline serves
+  men (SOURCES, "Men and women both named"). (c) Lesson 12 now says the gap "includes men who have
+  been sexually assaulted, whom lesson 11 names"; mirrored in script 12. (d) See N6. (e) No
+  sourced figure was changed or added: the course has no source for the sex of perpetrators in
+  stranger violence, robbery or partner abuse, so no female-perpetrator figure was invented, and
+  only invented case characters were varied. The course test is another agent's. (f) The OUTLINE
+  line was not added: this pass was scoped to the lessons.
+- **N5, "mainstream ... not a fringe one".** Deleted in lessons 1 and 6. Lesson 6's "Its target
+  isn't a straw man either" is now "An example of the advice it has in view", and quiz 6's
+  explanation now says the location figures "bear on the critique's first point".
+- **N6, lesson 13's checkpoint.** The drinker is now a man who misreads another man; pronouns in the
+  answer matched. The legal point is unchanged.
+- **N7, lesson 13's value framing.** Now weighs "the danger that a retreat was not, in Deering's
+  words below, "safe or reasonable in the moment"", Deering's own words from the lesson and SOURCES.
+  Mirrored in script 13.
+- **N8, lesson 15.** "The fairest single statement" is now "The broadest statement", and the Go deeper
+  entry's "fairest short statement" is now "broadest". The misconception now ends: the report calls
+  it common, with the exact number disputed, "and "common" is itself one side of that dispute, as
+  "What would settle it" says". The audit's draft ("the lower estimates are its reason for the second
+  half") was not used, because SOURCES does not give the report's reason. Script 15 mirrored.
+- **N9.** Lesson 14's "mechanism" sentence is now labelled as the course's reading of how the two
+  texts fit, "an account of the rule, not an argument for it, and ... this course's, not Parliament's
+  or the court's". Lesson 6's "Where the street sits" now ends: "Owen's figures raise a question the
+  argument below doesn't take up: violence from strangers falls more on men, and the argument is
+  about advice aimed at women." The audit's "seldom aimed at the young men" was not used: no source
+  read says how often street advice is aimed at men.
+- **N10, lesson 14.** Added after the conditions table: condition (d) turns on believing the other
+  person a trespasser; this course read nothing on how that applies to force against someone who
+  lives in the home, such as a partner, so it gives no answer; outside a householder case lesson 13's
+  ordinary rule (s.76(6)) applies; lesson 7 has the lines. The audit's draft ("the rule is not
+  written for force against someone who lives there") was not used, because SOURCES has only the
+  statute's text of s.76(8A) to (8F) and the CPS notes on it, none of which addresses a co-resident,
+  or a partner excluded by a court order.
+- **N11, lesson 6.** The heading is now "Pepper spray is fine to carry anywhere."; body kept.
+- **N12, lesson 9.** The checkpoint's last line now reads "whatever they did, whether they froze or
+  stepped in".
+- **N13.** Lesson 4: "does harm" is now "gets misused". Lesson 3: "most serious harm" is tied to the
+  measures given, at line 545 (most rapes; a partner or ex-partner as the commonest killer of adult
+  women) and at line 592 (43.2% of rape victims, 40% of adult women killed). Lesson 1: "is consistent
+  with it" is now "shares it ..., though the next paragraph's critics argue that advice can shift it
+  in practice". **Declined:** lesson 4's displacement objection, because sourcing both sides needs
+  Guerette and Bowers, which is unread.
+- **N14, lesson 4.** Added after the clothing finding that it is about how raters judged moving
+  points of light, says nothing about why anyone is attacked, and, on the course's one value
+  commitment, what someone wore never puts the blame on them.
+- **Fact-check note (lesson 1's 10.0%).** **Declined** for now: SOURCES records "Harassment: 10.0%
+  of adults" without saying whether that is any harassment, so writing "any harassment" would go
+  beyond what was recorded. A fact-checker should confirm against the bulletin.

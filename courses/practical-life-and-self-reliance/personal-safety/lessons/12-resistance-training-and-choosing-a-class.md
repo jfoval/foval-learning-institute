@@ -498,7 +498,8 @@ refresher happen: tie it to a cue you meet reliably and notice easily.
 
 Everything controlled in this lesson is about women and girls, and about sexual assault. The
 research behind this course found **no controlled evidence on self-defence classes for men, or for
-general assault or robbery**.
+general assault or robbery**. That gap includes men who have been sexually assaulted, whom lesson 11
+names.
 
 That matters because of where men's risk lies. Lesson 3 showed that in England and Wales men were more likely than women to be victims of violence, with or
 without injury, by a stranger: 1% of men against 0.4% of women in

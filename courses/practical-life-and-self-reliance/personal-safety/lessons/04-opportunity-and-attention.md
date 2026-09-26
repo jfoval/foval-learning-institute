@@ -414,7 +414,9 @@ study](https://link.springer.com/article/10.1023/A:1020744915533) found that "Bo
 (Experiment 1) and male (Experiment 2) walkers could be differentiated according to ease-of-attack
 based solely on the kinematic information provided whilst walking."[6] Specific walking features
 predicted the ratings, and in a third experiment, variations in walking caused by different
-clothing and footwear predicted differences in ratings.[6]
+clothing and footwear predicted differences in ratings.[6] That is about how raters judged moving
+points of light. It says nothing about why anyone is attacked, and on this course's one value
+commitment, what someone wore never puts the blame on them.
 
 The authors were careful about what that shows, and their limits are the most important sentences
 in this line of research. Their raters made judgements of how easy someone would be to attack; they
@@ -477,7 +479,7 @@ picked on most walks, however they walk, so her own record can't tell her whethe
 anything. Her habit costs nothing, which is fine: sensible, untested, in this course's labels. The
 sentence is what outruns the evidence.
 
-Now the inverse, which is where this literature does harm. Suppose someone you know was attacked,
+Now the inverse, which is where this literature gets misused. Suppose someone you know was attacked,
 and a third person says: "She was picked because of how she walked." Take it apart on the evidence.
 
 The studies measured how raters judged walkers. None showed that any attacker, in a real street,

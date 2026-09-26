@@ -369,7 +369,7 @@ This section describes research, almost all of it American, because that's where
 the data are. It isn't guidance on guns, and in this course's labels every question in it is
 **contested**: the evidence points more than one way, and serious researchers disagree.
 
-The fairest single statement this course found comes from a 2013 report by the Institute of
+The broadest statement this course found comes from a 2013 report by the Institute of
 Medicine, working with the National Research Council, both part of the US National Academies,
 written to set priorities for research on gun violence. It holds both halves in one sentence:
 "Defensive use of guns by crime victims is a common occurrence, although the exact number remains
@@ -518,7 +518,8 @@ that access and death went together, not that one caused the other.
 
 The other side of this question has a case of its own. Critics of these studies
 have published on how they are done. This course did not read that work, so it does not set out their
-argument, and that gap is the course's, not theirs. What it can give from what it read:
+argument, and that gap is the course's, not theirs. What it can give from what it read, though the
+first two items are about defensive use rather than household risk:
 
 - The National Academies report's lower injury rates for gun-using victims, above.[9]
 - Kleck and Gertz's point that most defensive uses in their survey involved no shot: only "24% claim
@@ -570,14 +571,14 @@ my abuser, but it was because I had made the decision that if it came down to hi
 longer going to be a victim of his abuse." And her qualification: "It might not be an option for everyone, but for the majority
 of survivors, it is."[21]
 
-At the general level, the two sides of the US argument put it in their own terms. The NRA's
+At the general level, the two sides of the US argument put it in their own terms. Giffords, the
+gun-control group, states on its
+[statistics page](https://giffords.org/lawcenter/gun-violence-statistics/) that "Access to a gun
+triples a person's risk of suicide", citing research this course did not read.[20] The NRA's
 lobbying arm, NRA-ILA, on its
 [right-to-carry page](https://www.nraila.org/get-the-facts/right-to-carry-and-concealed-carry/):
 "Self-defense is a fundamental right", and "while law enforcement personnel provide protection
-generally, they are not required to protect individuals."[18] Giffords, the gun-control group,
-states on its [statistics page](https://giffords.org/lawcenter/gun-violence-statistics/) that
-"Access to a gun triples a person's risk of suicide", citing research this course did not
-read.[20]
+generally, they are not required to protect individuals."[18]
 
 Each of those is a position, quoted as one. The evidence under them is the contested evidence above,
 and the decision it bears on, whether a particular person should keep a gun, is a value question
@@ -606,7 +607,8 @@ people, regulate the device, or tie use to the force rules, and this course did 
 
 **"Defensive gun use is rare"** and **"defensive gun use is common, and that's settled."** Each is one
 side of a dispute over estimates more than twenty times apart. The National Academies report calls
-it common, with the number disputed.[9]
+it common, with the exact number disputed, and "common" is itself one side of that dispute, as "What
+would settle it" says.[9]
 
 **"The studies prove a gun in the home causes deaths"** and **"the studies prove nothing."** They're
 observational and show an association, which the authors say. Critics have
@@ -678,7 +680,7 @@ to Law, later on the Core.
 
 - **Institute of Medicine and National Research Council, [*Priorities for Research to Reduce the
   Threat of Firearm-Related Violence*](https://nap.nationalacademies.org/read/18319/chapter/3)**
-  (2013), free to read. This course read chapters 2 and 4. The fairest short statement of what was
+  (2013), free to read. This course read chapters 2 and 4. The broadest short statement of what was
   known, and not known, about defensive gun use and household risk.
 - **RAND, ["How Gun Policies Affect Defensive Gun Use"](https://www.rand.org/research/gun-policy/analysis/defensive-gun-use.html)**,
   updated January 2026. This course read the summary and background. Useful for why the definitions

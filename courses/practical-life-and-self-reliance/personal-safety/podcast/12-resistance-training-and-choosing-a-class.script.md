@@ -8,7 +8,7 @@ checked: >-
   authors' warning keeps "inadvertently"; the critics' case is marked as put at its strongest in
   the course's own words, since the course has not read a critic making it at length; and the gap
   for a man and a stranger is "nothing controlled that the course found". Sign-off re-read against
-  the finished script.
+  the finished script; 2026-09-25 neutrality-audit edit mirrored from the lesson.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Twelfth episode for
@@ -69,7 +69,7 @@ S1: Teach you to recognise trouble, what fear does, and how to choose a class. I
 
 S2: And if I'm a man?
 
-S1: That's the gap, said out loud. The research behind the course found no controlled evidence on self-defence classes for men, or for general assault or robbery. In England and Wales, men were more likely than women to be victims of violence by a stranger. But no evidence isn't evidence that classes don't work, because a search that turns up nothing is weak evidence either way. The honest label is practitioner opinion.
+S1: That's the gap, said out loud. The research behind the course found no controlled evidence on self-defence classes for men, or for general assault or robbery. That gap includes men who have been sexually assaulted, whom lesson eleven names. In England and Wales, men were more likely than women to be victims of violence by a stranger. But no evidence isn't evidence that classes don't work, because a search that turns up nothing is weak evidence either way. The honest label is practitioner opinion.
 
 S2: So how do I choose?
 

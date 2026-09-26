@@ -542,8 +542,8 @@ source.
 **"The person most at risk on the street at night is a woman alone."** Measured by violence from
 strangers, men, and people aged 16 to 24, are more at risk than women and than older people.[2]
 That does not make a woman's fear on the street irrational: harassment is common, and 11.2% of
-women reported it in the year ending March 2024. It means the street is not where most serious harm
-to women happens.
+women reported it in the year ending March 2024. It means the street is not where most rapes happen,
+and the commonest killer of adult women is not a stranger but a partner or ex-partner.
 
 **"Older people are most at risk."** They're the least victimised age group in the US survey, at 7.5
 per 1,000 in 2024 against 34.8 for 18 to 24 year olds.[1] In England and Wales in the year ending
@@ -589,8 +589,9 @@ evidence runs out, and it adds the National Research Council's judgement on rape
 "undercount" reading of the fear paradox.
 
 It leads to three lessons. Lesson 4, "Opportunity and attention", turns from who is harmed to what
-you can change. Lesson 7, "Domestic abuse and stalking", is where most serious harm to women comes
-from, and gets its own lesson for that reason. Lesson 8, "Talking it down", starts from the ONS
+you can change. Lesson 7, "Domestic abuse and stalking", is about partners and ex-partners. In
+the figures above they were the perpetrators for 43.2% of rape victims and the suspected killers of
+40% of adult women killed, and that is why it gets its own lesson. Lesson 8, "Talking it down", starts from the ONS
 finding that about half of killings in England and Wales were thought to begin in a quarrel, a
 revenge attack or a loss of temper.
 

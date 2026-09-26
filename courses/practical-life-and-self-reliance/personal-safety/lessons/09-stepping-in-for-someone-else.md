@@ -450,7 +450,7 @@ So what helps? This course's reading of the sources, labelled sensible, untested
 
 :::checkpoint Suppose the other customer, the one between Theo and the man, stands completely still through the whole thing, does not call, and cannot afterwards say what the man was wearing. Did she do anything wrong?
 
-No. Standing still is one of the things a frightened body does, and lesson 10 explains why freezing is automatic, not chosen. She stayed out of a robbery she could not have stopped, which is what the official advice for the people behind the counter points towards anyway. The responsibility for everything that happened in that shop lies with the man with the knife. Nobody in the queue is to blame for what happened, whatever they did.
+No. Standing still is one of the things a frightened body does, and lesson 10 explains why freezing is automatic, not chosen. She stayed out of a robbery she could not have stopped, which is what the official advice for the people behind the counter points towards anyway. The responsibility for everything that happened in that shop lies with the man with the knife. Nobody in the queue is to blame for what happened, whatever they did, whether they froze or stepped in.
 :::
 
 ## Should a bystander call the police?
@@ -475,6 +475,13 @@ suggests offering to help the person make a report, if they want to.
 That is an organisation's stated position, and the course reports it as one. Right To Be's page is
 written about harassment. It does not say how its rule applies when someone is being violently
 assaulted in front of you.
+
+Put at its strongest, as this course reads it, the case for asking first runs like this. A police
+response brings its own risks, and on Right To Be's reasons above they fall on the person being
+harassed, not on the caller, and harder on some communities than on others. The caller walks away
+afterwards; the person harassed is the one who lives with what follows. And asking first doesn't
+leave them without help, since the other Ds are still there, and Delay includes offering to help
+with a report if they want one.
 
 ### The official pages' position
 

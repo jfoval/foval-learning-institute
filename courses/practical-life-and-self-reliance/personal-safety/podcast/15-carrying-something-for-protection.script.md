@@ -11,7 +11,7 @@ checked: >-
   Gertz's respondents claimed; the CPS keeps "merely", "the possibility of" and "Exceptionally";
   Haley's torch line gives no verdict and includes carrying to hit back; and "not a cause" is the
   course's reading of observational studies, not the authors' words. Sign-off re-read against the
-  finished script.
+  finished script; 2026-09-25 neutrality-audit edit mirrored from the lesson.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Fifteenth episode for
@@ -59,7 +59,7 @@ S1: In England, Wales and Scotland, the Firearms Act nineteen sixty eight prohib
 
 S2: Then guns.
 
-S1: Every question in this part is contested, in the course's labels: the evidence points more than one way, and serious researchers disagree. The fairest single statement the course found is from a twenty thirteen report from the US National Academies: "Defensive use of guns by crime victims is a common occurrence, although the exact number remains disputed".
+S1: Every question in this part is contested, in the course's labels: the evidence points more than one way, and serious researchers disagree. The broadest statement the course found is from a twenty thirteen report from the US National Academies: "Defensive use of guns by crime victims is a common occurrence, although the exact number remains disputed".
 
 S2: Disputed by how much?
 
@@ -79,7 +79,7 @@ S1: The largest pooled study the course read, by Anglemyer and colleagues in twe
 
 S2: And the other side of that one?
 
-S1: Critics have published on how these studies are done. The course didn't read that work, and says the gap is its own, not theirs. What it can give: the National Academies report says studies found consistently lower injury rates among crime victims who used a gun than among those who protected themselves other ways, though effectiveness likely varies and those findings need confirming or discounting. And in Kleck and Gertz's survey most defensive uses involved no shot: only twenty four percent claimed to have fired their gun.
+S1: Critics have published on how these studies are done. The course didn't read that work, and says the gap is its own, not theirs. What it can give is about defensive use: the National Academies report says studies found consistently lower injury rates among crime victims who used a gun than among those who protected themselves other ways, though effectiveness likely varies and those findings need confirming or discounting. And in Kleck and Gertz's survey most defensive uses involved no shot: only twenty four percent claimed to have fired their gun.
 
 S2: And a woman who's being abused?
 

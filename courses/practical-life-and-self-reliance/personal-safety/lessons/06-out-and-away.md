@@ -112,7 +112,7 @@ quiz:
       advice to stay off the streets, so it doesn't answer the lecturer's objection to restriction,
       and critics reply that training still puts the work on women. Precautions can change odds, as
       the home security evidence showed for burglary, so "never" overshoots. The location figures
-      support the critique's point that the street is a small share, but who should carry the burden
+      bear on the critique's first point, that the street is a small share, but who should carry the burden
       of prevention is a value question the course describes and doesn't resolve.
 ---
 
@@ -437,7 +437,9 @@ on where rape happens.
 Violence from strangers has a different shape: as Owen's figures showed, it falls more on men and
 on the young.[10] So "don't walk alone at night" isn't wrong. It's the smaller part of the
 picture, and taken as the core of women's safety it points attention away from where most serious
-sexual violence happens: in homes, the victim's or the perpetrator's.
+sexual violence happens: in homes, the victim's or the perpetrator's. Owen's figures raise a
+question the argument below doesn't take up: violence from strangers falls more on men, and the
+argument is about advice aimed at women.
 
 That doesn't make the street safe, or the fear of it mistaken. What many people meet on the street
 is real, and it is harassment. In an ONS survey of adults in Great Britain in February and March 2022,
@@ -468,9 +470,8 @@ the first is the course's reading of lesson 3's figures): the advice is misdirec
 the risk to women is from men they know, not strangers on the street; it's costly, because every
 "don't go there" and "don't go alone" is a piece of freedom given up, and shrinks the lives of people
 who have done nothing; and it shifts responsibility, because a list of precautions invites the
-question of which one a victim skipped. That is a mainstream position in UK research on violence
-against women, not a fringe one, and the figures in the last section are consistent with its first
-point. Its target isn't a straw man either: the Washington DC police brochure quoted earlier, written for everyone rather than for women
+question of which one a victim skipped. The figures in the last section are consistent with its
+first point. An example of the advice it has in view: the Washington DC police brochure quoted earlier, written for everyone rather than for women
 in particular, says "If possible, don't walk alone during late-night hours".[3] Lesson 1 met feminist criminologists'
 related argument, as Scott summarises it, that street-crime framing hides violence behind closed
 doors.
@@ -599,7 +600,7 @@ mechanism is not settled.
 less than people walking alone; people on a phone call noticed least.[11] The Lamplugh Trust's one
 earphone for running is practitioner opinion.
 
-**"Carry pepper spray when you travel."** The State Department itself says to check the law
+**"Pepper spray is fine to carry anywhere."** The State Department itself says to check the law
 first;[4] lesson 15, "Carrying something for protection", has the law.
 
 **"Telling someone where you are is enough."** Only if they know when to expect you and what to do

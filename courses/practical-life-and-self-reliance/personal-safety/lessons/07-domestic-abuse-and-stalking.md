@@ -697,7 +697,7 @@ Take 15 minutes over these, on paper or in your head. Read the limits first, bec
 
 Nothing here is about your own situation. If someone at home frightens you, don't write anything from this lesson where they could find it, and do not do this exercise on a shared device; the lines in the box at the top can talk it through with you by phone instead. Please do not ring or text a helpline just to see what happens. If there is something real you want to talk about, though, for you or someone else, that's exactly what they are for. And nothing here asks you to look at anyone else's phone or accounts, so please don't.
 
-1. For each caller, name the line or lines from this lesson that fit, and say whether any of them is open at the time given. (a) Colm, 34, lives in Northern Ireland; his former boyfriend keeps turning up at his work and messaging him through the night. It is Wednesday at 2pm. (b) Maribel lives in Idaho with a partner who checks her phone calls; she wants support but can't talk out loud at home. It is Sunday evening. (c) Euan lives in Scotland and is worried about a colleague who has told him her partner controls her money. It is a Tuesday at midnight. (d) Jade is 16, lives in the US, and is worried about how her boyfriend reacts when she sees her friends.
+1. For each caller, name the line or lines from this lesson that fit, and say whether any of them is open at the time given. (a) Colm, 34, lives in Northern Ireland; his former boyfriend keeps turning up at his work and messaging him through the night. It is Wednesday at 2pm. (b) Maribel lives in Idaho with a partner who checks her phone calls; she wants support but can't talk out loud at home. It is Sunday evening. (c) Euan lives in Scotland and is worried about a colleague, Ross, who has told him that his wife controls all his money. It is a Tuesday at midnight. (d) Jade is 16, lives in the US, and is worried about how her boyfriend reacts when she sees her friends.
 
 2. Six weeks after telling you her partner frightens her, a friend (an imagined one, not a real person) says she has gone back to him. Write two or three sentences you might say, and name the piece of the services' guidance each follows. Then write one sentence you'd avoid, and say which piece of guidance it breaks.
 :::
@@ -708,7 +708,7 @@ Nothing here is about your own situation. If someone at home frightens you, don'
 
 (b) Maribel: the Hotline's live chat, which it says advocates answer 24/7, lets her write without speaking aloud; its text line, START to 88788, is another way, though the pages read do not give its hours separately. Her partner checks her phone, so the Hotline's monitoring warning applies to her: on this course's reading, whichever route she uses needs a phone or computer he can't get at, at a time that is safe. In danger, 911: call if she can, and text where that is available.
 
-(c) Euan: Scotland's Domestic Abuse and Forced Marriage Helpline, 0800 027 1234, open 24/7, and it says it supports colleagues of the person being harmed. It is open at midnight.
+(c) Euan: Scotland's Domestic Abuse and Forced Marriage Helpline, 0800 027 1234, open 24/7, and it says it supports colleagues of the person being harmed. It is open at midnight. The Men's Advice Line has a page for friends and family too, but it is open weekdays 10am to 5pm, so not at midnight.
 
 (d) Jade: the National Teen Dating Abuse Helpline, 866.331.9474, which the Hotline lists for young people, or the Hotline itself by call, text or chat.
 

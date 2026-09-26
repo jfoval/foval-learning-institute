@@ -14,7 +14,7 @@ checked: >-
   verdict PASS WITH NITS, and all four nits fixed: "England and Wales" in Haley's question, Dale's
   timeline (the man runs at once, the chase is a minute later), RAND's comparison-group reason for
   the shrunken effects, and the no-blame line tied to why escape keeps coming up. Sign-off re-read
-  against the finished script.
+  against the finished script; 2026-09-25 neutrality-audit edit mirrored from the lesson.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Thirteenth episode for
@@ -71,7 +71,7 @@ S1: One way is time. The lesson's case is a man called Dale in a takeaway queue.
 
 S2: Back to stand your ground. Is it a good idea?
 
-S1: The lesson splits that in two. Whether the law ought to require someone to retreat before using deadly force, when they safely could, is a value question. It weighs the defender's freedom, and the risk of being second guessed later, against the attacker's life and a confrontation ending without a death. Evidence can inform it but can't settle it, so the course takes no side, and gives each side in its own words. For stand your ground, Deering at NRA Women. A duty to retreat, she writes, is one more thing to have to think about in what might be the most stressful moment of your life. And: it's very easy for a prosecutor to, with the benefit of hindsight, point out all kinds of ways you could have retreated that you didn't notice at the time or which weren't safe or reasonable in the moment.
+S1: The lesson splits that in two. Whether the law ought to require someone to retreat before using deadly force, when they safely could, is a value question. It weighs the defender's freedom, the danger that a retreat was not, in Deering's words, safe or reasonable in the moment, and the risk of being second guessed later, against the attacker's life and a confrontation ending without a death. Evidence can inform it but can't settle it, so the course takes no side, and gives each side in its own words. For stand your ground, Deering at NRA Women. A duty to retreat, she writes, is one more thing to have to think about in what might be the most stressful moment of your life. And: it's very easy for a prosecutor to, with the benefit of hindsight, point out all kinds of ways you could have retreated that you didn't notice at the time or which weren't safe or reasonable in the moment.
 
 S2: And for a duty to retreat?
 

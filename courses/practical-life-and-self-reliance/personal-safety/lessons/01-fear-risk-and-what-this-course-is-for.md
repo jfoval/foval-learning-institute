@@ -461,8 +461,9 @@ of why her risk looks low.
 
 This course is built on one value commitment, stated in the box at the top: responsibility for a
 crime lies with the person who commits it, and precautions change the odds, not the blame. That is a
-value, not a finding, and the institute makes it openly. Every position this lesson describes is
-consistent with it, as far as this course has read, and some say it outright. The team behind a
+value, not a finding, and the institute makes it openly. Every position this lesson describes
+shares it, as far as this course has read, and some say it outright, though the next paragraph's
+critics argue that advice can shift it in practice. The team behind a
 randomised trial of a sexual assault resistance programme for university women, which lesson 12,
 "Resistance training, and choosing a class", teaches, wrote that their
 [programme](https://pmc.ncbi.nlm.nih.gov/articles/PMC5821219/) "makes clear that perpetrators are
@@ -470,9 +471,8 @@ entirely responsible for the crimes they commit".[19]
 
 Some researchers argue that safety advice can shade into blaming victims anyway. Vera-Gray and Kelly
 describe the "safety work" mandated for women and girls in public as limiting women's space for action
-and making them responsible for preventing violence.[20] That critique is a mainstream position in
-UK research on violence against women, and lesson 6 gives it in full beside the case for teaching
-skills.
+and making them responsible for preventing violence.[20] Lesson 6 gives that critique in full
+beside the case for teaching skills.
 
 ### The ladder
 

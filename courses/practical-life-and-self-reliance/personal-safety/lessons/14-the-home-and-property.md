@@ -209,8 +209,9 @@ day, whether other help was there, the wish to protect the home and the people i
 vulnerable they were (children especially), picking up an object such as a knife or a stick that
 would lawfully be to hand in a home, and the intruder's conduct.[2] Put that beside lesson 13's
 section 76(7), that a person "may not be able to weigh to a nicety the exact measure of any
-necessary action", and you have the mechanism as this course reads the two together: the law gives
-more room in the home because the situation gives less room to think.[1]
+necessary action", and you have this course's reading of how the two fit together: in the home, the
+law gives more room where the situation gives less room to think.[1] That is an account of the rule,
+not an argument for it, and it is this course's, not Parliament's or the court's.
 
 ### Four conditions, and where the rule stops
 
@@ -224,6 +225,12 @@ place without any right or permission to be there.
 | (b) Force used "in or partly in a building, or part of a building, that is a dwelling or is forces accommodation" | Forces accommodation is service living accommodation for the armed forces. "Building" includes "a vehicle or vessel" (s.76(8F)), so, the CPS says, caravans and houseboats count. "Partly in" covers someone at the threshold, meeting an intruder climbing through a window. It does not cover a confrontation "wholly outside the building, for example in the garden"[1][2] |
 | (c) The householder "is not a trespasser" | Squatters cannot rely on it, and neither can someone whose permission to be there came from a trespasser (s.76(8E))[1][2] |
 | (d) The householder "believed V to be in, or entering, the building or part as a trespasser" | An honest belief, even a mistaken one, as lesson 13's belief rules allow; a mistake caused by voluntary intoxication does not count (s.76(8D) applies subsections (4) and (5))[1] |
+
+Condition (d) turns on believing the other person to be a trespasser. This course read nothing on
+how that applies to force against someone who lives in the home, such as a partner, so it gives no
+answer on that. Outside a householder case, lesson 13's ordinary rule applies, that force is not
+reasonable if it was disproportionate, and lesson 7, "Domestic abuse and stalking", has the lines
+for someone frightened of a person they live with.[1]
 
 This is general information, not legal advice. The law differs by state, and between England and
 Wales, Scotland and Northern Ireland.
