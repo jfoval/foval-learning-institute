@@ -107,3 +107,41 @@ line for this lesson.
 
 **Status after review:** needs second pass. R1 was a wrong fact carried from SOURCES; a targeted
 re-check of R1, R2, R6 and R7 is the reviewer's recommendation.
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, targeted second pass on the first-pass fixes. Primaries re-fetched
+live with a generic User-Agent: the Ford 2024 Maverick handbook from Internet Archive capture
+20250505042038 (`id_` raw PDF, byte-identical to the fixer's copy, pdftotext -raw), the Nissan 2024 LEAF
+PDF, Toyota OM02568U, the AA oil page, National Highways, the Met Office, Annex 6 and MOT section 3 (GOV.UK
+content API), C&U reg 34, PennDOT, Virginia State Police, the AA AdBlue page. Every quotation in the lesson
+and quiz (108 source strings) string-matched by script against those texts: no miss.
+
+- **R1: resolved.** Contents: "Auto-Start-Stop - Gasoline" over "Auto-Start-Stop Precautions ....170";
+  p. 170's side tab "Auto-Start-Stop - Gasoline"; p. 184's "High Voltage Battery - Hybrid Electric Vehicle
+  (HEV)". The restart box occurs exactly twice in the handbook (pp. 170, 184), so "prints the full
+  instruction twice" is exact, and the lesson now states the warning for the petrol and the hybrid
+  Maverick. Sources entry 3 names both boxes. pp. 308 (three marks, "Nominal. B"), 309 (refractometer;
+  engine-on cap line; "Oil levels above the maximum mark may cause engine damage") and 310 (coolant in the
+  washer reservoir, 1.1 qt, emergency water) match every attribution and page cited.
+- **R2, R3: resolved.** The AA's two top-up sentences and its colour lines are quoted whole and match the
+  live page; the lesson stops at "the handbook governs" and "this course doesn't pick between them".
+- **R6: one residual, fixed.** Nissan p. 8-2's fan and disconnect lines match. But the fixed paragraph
+  said "its checks are made by looking" and listed only the two fillers, while exercise step 3 has the
+  reader pull and wipe the dipstick twice. Rewritten: coolant and brake fluid are read by looking, and the
+  things handled are the dipstick, the screenwash filler and, conditionally, the oil filler; the
+  "next to the fan" escape now covers all three, in the body and the exercise limits.
+- **R7: one residual, fixed.** Toyota's "go down slightly as the brake pads wear out" matches live.
+  The post-exercise checkpoint's "a slight fall over months" gave Toyota a timescale it doesn't state;
+  now "a slight fall as the pads wear is what Toyota's handbook calls normal". Car A's answer checked:
+  Yours, a log line, Toyota in the singular. Nissan's red BRAKE light entry (p. 2-17) carries its low
+  brake fluid warning, so "which Nissan's handbook ties to a low fluid level" stands.
+- **R4, R5, R8 to R21:** each checked in the text; all applied as recorded, no residual.
+- **Quiz:** each explanation read against all four options; each distractor answered. Keys 1,3,2,3,0 meet
+  decision 20's relaxed rule against lessons 1 to 15 on disk (all four positions, no adjacent repeat, no
+  identical sequence or value shift, no shared run of four at offsets 0 or ±1 with 6, 7, 8, 10, 11 or 12).
+  Option-length spreads 7, 5, 4, 3, 4.
+- **Checks:** no U+2014 or U+2013; no banned words; callout md5 identical to lesson 08's and the brief's.
+  `npm run minutes`: 90 measured, 90 declared. `npm run quotes car-basics`: 0 not found.
+  `npm run validate`: exit 0, no line names this file.
+
+**Verdict: CLEAN.** Both residuals were one-sentence wording fixes, applied here.

@@ -144,11 +144,11 @@ It may come on at any time without warning, even if the power switch is not in t
 to drive position."[4] So a car can be switched off and still move a part under the bonnet.
 
 Nissan's own next step, for anyone working near that fan, is to disconnect the 12 V battery's
-negative cable first.[4] This course doesn't teach that, as its own scope decision. So its checks are
-made by looking, with your hands kept away from the fan, and the only caps it has you open are the
-screenwash filler and, where your handbook says to add oil, the oil filler. If either of those sits
-next to the fan on your car and your handbook says to disconnect the battery before working there,
-that top-up is **Call someone** in this course.
+negative cable first.[4] This course doesn't teach that, as its own scope decision. So it keeps your
+hands away from the fan: coolant and brake fluid are read by looking, and the only things it has you
+handle are the dipstick, the screenwash filler and, where your handbook says to add oil, the oil
+filler. If any of those sits next to the fan on your car and your handbook says to disconnect the
+battery before working there, that job is **Call someone** in this course.
 
 Nissan adds two lines worth keeping for any car. "Always wear eye protection whenever you work on
 your vehicle." And: "Do not work under the hood while the motor compartment is hot. Push the power
@@ -552,9 +552,9 @@ handbook, looking, topping up screenwash and, only if your handbook says so at t
 adding oil. Nothing more. Don't open the coolant cap, the brake-fluid reservoir or anything else
 under the bonnet for this exercise, except the screenwash cap and, if you need to add oil, the oil
 filler. Don't reach past, touch or go near anything orange, blue on a mild hybrid, or labelled high
-voltage. Keep your hands away from the fan; if the screenwash or oil filler sits next to it and your
-handbook says to disconnect the battery before working there, leave that top-up as **Call
-someone**. Don't get under the car, and don't drive it for the exercise. If anything below looks
+voltage. Keep your hands away from the fan; if the dipstick, the screenwash filler or the oil filler
+sits next to it and your handbook says to disconnect the battery before working there, leave that job
+as **Call someone**. Don't get under the car, and don't drive it for the exercise. If anything below looks
 wrong, stop, write it down, and treat it as **Call someone**.
 
 1. **Prepare.** Level ground, parking brake on, P or in gear. Switch the car off as the handbook
@@ -581,8 +581,8 @@ than usual: **Call someone** (the AA; National Highways; Ford). Coolant below MI
 **Yours, on conditions**, as a separate job after this exercise, not during it: the handbook's
 coolant, cold, and only to MAX. Coolant you keep having to add is **Call someone**. Brake fluid below
 MIN, or a level that keeps falling from week to week: **Call someone**, and on Nissan's handbook for
-the LEAF a level below MIN means don't drive it until it's checked. A slight fall over months is what
-Toyota's handbook calls normal as the pads wear (lesson 6). A dark dipstick at a good level, or a
+the LEAF a level below MIN means don't drive it until it's checked. A slight fall as the pads wear is what
+Toyota's handbook calls normal (lesson 6). A dark dipstick at a good level, or a
 steady brake-fluid level a little under MAX, is just a line in the log.
 :::
 
