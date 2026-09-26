@@ -1675,7 +1675,8 @@ https://www.legislation.gov.uk/uksi/2013/3134
 Read: those regulations in full, revised version.
 Establishes:
 - Reg 5, "off-premises contract": among other things, a contract concluded "in the simultaneous physical presence of the trader and the consumer, in a place which is not the business premises of the trader" [V]. That covers a builder signing you up at your kitchen table.
-- Reg 7(4): the cancellation Part does not apply to off-premises contracts where the consumer pays "not more than £42" [V].
+- Reg 27(3): the cancellation Part does not apply to off-premises contracts where the consumer pays "not more than £42" [V]. <!-- corrected at lesson 23's Stage 4 (R18), 2026-09-26: this line said reg 7(4), which is the same figure for Part 2, the information requirements; see "Gate closures, lesson 23" and "Stage 4 note, lesson 23" -->
+- Reg 30(3): for a sales contract, which reg 5 defines to include one with both goods and services, the 14 days run from the day the goods come into the consumer's physical possession [V]. <!-- added at lesson 23's Stage 4 (R1), 2026-09-26 -->
 - Reg 6(1)(e): excludes contracts for "the construction of new buildings, or the construction of substantially new buildings by the conversion of existing buildings" [V]. Ordinary repair and improvement work is not excluded.
 - Reg 29: the consumer may cancel a distance or off-premises contract within the cancellation period "without giving any reason" [V].
 - Reg 30(2): for a service contract, "the cancellation period ends at the end of 14 days after the day on which the contract is entered into" [V].
@@ -6570,8 +6571,10 @@ gives NPIC's; not used, so not re-read under G-N1).
   which is of such a nature and so placed as to be likely to catch any animal coming into contact with
   it"; (bd) [V] "uses in Wales for the purpose of killing or taking any animal any glue trap, whether or
   not of such a nature or so placed as aforesaid"; new s11(7ZA): "animal" means a vertebrate (other than
-  a human). In force **17 October 2023** (s56(2)(d), per the page's annotations). Section 11 of the 1981
-  Act as amended (its defences and exceptions) was **not** read.
+  a human). In force **17 October 2023** (s56(2)(d), per the page's annotations). Section 11 and
+  section 16(3) of the 1981 Act as amended were read at lesson 21's Stage 4 (26 September 2026): **no
+  licence route and no s11 defence for a glue trap in Wales**. See "Stage 4 note, lesson 21" at the end
+  of this file.
 - **Wildlife Management and Muirburn (Scotland) Act 2024 (asp 4), ss 1 to 5**, read. s1(1) [V] "It is
   an offence for a person, without reasonable excuse, to use a glue trap for the purpose of killing or
   taking any animal other than an invertebrate." s2(1): supplying or offering to supply; s3(1) [V] "It
@@ -7040,3 +7043,89 @@ Motion to stay further proceedings in this court until Department of Justice att
 resume their usual civil litigation functions". 24 November 2025: stay lifted, briefing resumed.
 1 June 2026 argument; 2 June supplemental briefing directed, due 10 June; last entry 22 June 2026 (an
 EPA letter); no opinion. The docket is CourtListener's copy, and lesson 19 says so.
+
+## Stage 4 note, lesson 23 (2026-09-26)
+
+Re-read live by lesson 23's fixer on 26 September 2026 (curl with a browser User-Agent, no personal
+data): legislation.gov.uk data.xml for SI 2013/3134 regs 5, 27, 30 and 36 and the Consumer Rights Act
+2015 s.50; leginfo for Business and Professions Code §7159.5; Citizens Advice, "Before you get work
+done on your home".
+
+- **CCR reg 5**: [V] "“sales contract” means a contract under which a trader transfers or agrees to
+  transfer the ownership of goods to a consumer and the consumer pays or agrees to pay the price,
+  including any contract that has both goods and services as its object"; a "service contract" is a
+  contract other than a sales contract. So a supply-and-fit contract (a boiler, new fascia boards) is a
+  sales contract.
+- **CCR reg 30(3)**: [V] "If the contract is a sales contract and none of paragraphs (4) to (6) applies,
+  the cancellation period ends at the end of 14 days after the day on which the goods come into the
+  physical possession of— a the consumer, or b a person, other than the carrier, identified by the
+  consumer to take possession of them." (Paragraphs (4) to (6), multiple goods and regular deliveries,
+  not used in lessons.) Reg 30(2), from the contract date, is for service contracts.
+- **CCR reg 36(2)**: [V] "the consumer ceases to have the right to cancel a service contract under
+  regulation 29(1) if the service has been fully performed, and performance of the service began— a
+  after a request by the consumer in accordance with paragraph (1), and b with the acknowledgement
+  that the consumer would lose that right once the contract had been fully performed by the trader."
+- **CCR reg 27(3)**, re-matched: [V] "This Part does not apply to off-premises contracts under which the
+  payment to be made by the consumer is not more than £42." Part B §7's line now cites reg 27(3), with
+  a marker (it said reg 7(4)).
+- **CRA s.50(1)**, re-read because Part B §7's summary drops a condition: [V] "anything that is said or
+  written to the consumer, by or on behalf of the trader, about the trader or the service, if— a it is
+  taken into account by the consumer when deciding to enter into the contract, or b it is taken into
+  account by the consumer when making any decision about the service after entering into the
+  contract." This course did not read whether a general claim on a van or website is "said or written
+  to the consumer", and lesson 23 says so.
+- **BPC §7159.5(a)(3)** (new): [V] "If a downpayment will be charged, the downpayment shall not exceed
+  one thousand dollars ($1,000) or 10 percent of the contract amount, whichever amount is less." [V]
+  "(Amended by Stats. 2023, Ch. 403, Sec. 1. (SB 601) Effective January 1, 2024.)" This is the cap
+  itself; §7159(d)(8) makes a contract that charges a down payment print the notice, and §7159(d)(9)
+  puts the "AGAINST THE LAW" statement in a contract's progress-payment schedule. §7159.5(a)(8)'s bond
+  exemptions were not read closely; lessons give the CSLB guide's account, attributed.
+- **Citizens Advice, section 75** (England), re-matched: [V] "If you pay for work that costs between
+  £100.01 and £30,000 by credit card, it might be better to tell your credit card company you want to
+  make a ‘section 75 claim’." and [V] "This includes paying a deposit by credit card, even if that’s
+  less than £100." The band is the cost of the work, not of each payment.
+- **CSLB guide**, re-read for the bond exception: [V] "There is a down payment exception for a handful
+  of licensees to protect consumers, known as blanket performance and payment bonds. These exceptions
+  are noted on CSLB’s website." The guide does not say what such a bond is, and lessons don't define it.
+
+### Stage 4 note, lesson 21 (2026-09-26)
+
+Read or re-read on 26 September 2026 by lesson 21's reviewer and fixer: statutes from the
+legislation.gov.uk data.xml renderer, the DeVries abstract by PubMed efetch, CDC from the Internet
+Archive `id_` captures, the rest live.
+
+- **Wildlife and Countryside Act 1981, s11 and s16(3) as amended** (Wales), now read. The Agriculture
+  (Wales) Act 2023 s48(6) inserts "(a), (b), (be), (c) and (d)," after "11(1)" in s16(3), which now
+  reads [V] "Sections 9(1), (2), (4) and (4A), 11(1) (a), (b), (be), (c) and (d), and (2) and 13(1) do
+  not apply to anything done ...". So the licensing power leaves out the glue-trap offences (bc) and
+  (bd): **no licence can authorise a glue trap in Wales**. s48(3) takes glue traps out of s11(2) in
+  Wales. The defences in s11(6) and (7) are for the (2)(b) and (c) offences only (s11(7) via (2)(f)), so
+  s11 carries no defence for a glue trap. The G-L14 closure's Wales entry is updated to match.
+- **Glue Traps (Offences) Act 2022** s1(2) [V] "in a manner which gives rise to a risk that a rodent will
+  become caught in the glue trap"; s1(11) [V] "is designed, or is capable of being used, to catch a
+  rodent".
+- **UC Pest Notes 7467**: [V] "Sticky traps or glue boards offer the best way to detect and monitor
+  cockroach populations." (full sentence; the lesson now keeps "glue boards"). New: [V] "Severe
+  infestations may spread to other parts of buildings." and [V] "Cockroaches have also become resistant
+  to many insecticides in common sprays and aerosols that formerly controlled them."
+- **NHM, clothes moths**: new [V] "adhesive boxes which emit artificial pheromones" (its moth traps are
+  adhesive traps).
+- **EPA, bed bug tips**: new [V] "Kill bed bugs with heat, but be very careful." and [V] "Special
+  equipment and very high temperatures are necessary for successful heat treatment."
+- **EPA, rodenticide restrictions**: new [V] anticoagulants "interfere with blood clotting and cause
+  death from excessive bleeding".
+- **DeVries 2019b** (PMID 31121031): new [V] "suggest that TRFs would lack efficacy against German
+  cockroaches in residential settings".
+- **Babergh and Mid Suffolk, wood-boring insects**: new [V] "We recommend that you use a surveyor, or an
+  engineer who is accredited to work in historic buildings." It sits in the treatment paragraph, after
+  a comprehensive spray treatment of a listed building needs "an independent assessment of the
+  buildings, which justifies its necessity". The page never gives the surveyor the job of finding damp;
+  "a surveyor first, to find the damp" is the course's reading. The page uses "frass" both ways ("The
+  interiors of the holes ('frass')" and "lemon-shaped frass"); the gate closure's correction stands.
+- **CDC, rodent control**: the index page (capture 20260913133434) lists "How to Trap Up", "How to Seal
+  Up" and "How to Clean Up" in that order, and no page states the three as a slogan or an order. The
+  sealing-first sequence is the trap page's (capture 20260806235217): [V] "first check inside and
+  outside your home to see how they got inside. Learn how to seal up holes inside and outside the home
+  to prevent new rodent infestations. Set traps throughout your home". The index page also uses the
+  clean-up as the test for active rodents: [V] "safely clean the area". The seal page lists [V] "Around
+  all electrical, water, gas, and sewer lines".

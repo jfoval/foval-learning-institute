@@ -443,3 +443,20 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   Valley, the Upper Midwest and Appalachia; Bridgend, Illinois and Harrisburg dropped.
 - **Lesson 19 is at 110 minutes**, over the ceiling, after the reviewers' additions; its second pass
   decides the cut.
+
+## 2026-09-26 — Lesson 23 fix pass: notes for later lessons and scripts
+
+- **A UK contract that includes goods is a sales contract, and its 14 days run from delivery.** CCR
+  reg 5 counts any contract with "both goods and services as its object" as a sales contract, and reg
+  30(3) runs its cancellation period from the day the goods reach the consumer; reg 30(2), from the
+  contract date, is for services only. A boiler, windows or new fascia boards supplied and fitted fall
+  under 30(3). And reg 36(2): a service finished after an early start the consumer asked for, with the
+  acknowledgement, can no longer be cancelled. Any podcast script for lesson 23 keeps both.
+- **The CCR's £42 for cancellation is reg 27(3)**, not reg 7(4) (Part 2's same figure); SOURCES Part B
+  §7 now says so.
+- **CRA s.50 is about what is "said or written to the consumer".** This course didn't read whether a
+  claim on a van or a website counts; say so rather than implying it.
+- **California's cap is BPC §7159.5(a)(3)**; §7159 makes a contract that charges a down payment print
+  the notice, and the "AGAINST THE LAW" line goes with progress payments. String in SOURCES, "Stage 4
+  note, lesson 23".
+- **Places.** Humberside is now taken (lesson 23's burst-pipe checkpoint); Merseyside stays lesson 21's.

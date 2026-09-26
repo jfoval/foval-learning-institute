@@ -30,9 +30,9 @@ quiz:
     answer: 1
     explain: >-
       A contract made at her home with the trader there is an off-premises contract (regulation
-      5), the cancellation Part covers those over £42 (regulation 27(3)), and for a service the
-      14 days run from the day the contract was made (regulation 30(2)). Eleven days is inside
-      that, and because he gave her no cancellation information, regulation 31 stretches the
+      5), the cancellation Part covers those over £42 (regulation 27(3)), and whether the 14 days
+      run from the contract (a service, regulation 30(2)) or from delivery (new boards supplied,
+      regulation 30(3)), eleven days with nothing delivered is inside them. And because he gave her no cancellation information, regulation 31 stretches the
       period further still. Three business days is the US federal Cooling-Off Rule, not a British
       one. Letting him in doesn't matter: the definition is about where the contract was made. And
       the right is hers to use without his agreement or a reason (regulation 29).
@@ -48,8 +48,8 @@ quiz:
       - $720, since the cap is $1,000 or 10 percent of the price, whichever is the smaller one
     answer: 3
     explain: >-
-      California's Business and Professions Code section 7159 makes every home improvement
-      contract say that the down payment may not exceed $1,000 or 10 percent of the contract price,
+      California's Business and Professions Code section 7159 makes any home improvement contract
+      that charges a down payment say that the down payment may not exceed $1,000 or 10 percent of the contract price,
       whichever is less. Ten percent of $7,200 is $720, which is less than $1,000. The state licence
       board's guide says there are no exceptions for special-order materials; its only exception is
       a contractor with a blanket performance and payment bond on file. A quarter is Citizens
@@ -124,9 +124,10 @@ quiz:
       HSE's asbestos FAQs say sprayed coatings, lagging and asbestos insulating board should only
       be removed by a contractor licensed by HSE, and that you shouldn't repair or remove any
       asbestos yourself without training. Where the law allows more than the advice, this course's
-      label follows the advice, so it's Call someone. The law half of the "crime" option is wrong:
-      as lesson 19 set out from HSE's pages, the Regulations bind the people who work on asbestos,
-      not an owner-occupier doing a job in her own home. A mask and water are not a method this
+      label follows the advice, so it's Call someone. The law half of the "crime" option is wrong on
+      this course's reading: lesson 19 read the Regulations as binding the people who work on
+      asbestos, not an owner-occupier doing a job in her own home, and said that is a reading, not a
+      ruling. A mask and water are not a method this
       course gives for asbestos, anywhere.
 ---
 
@@ -158,8 +159,8 @@ absorb" and "Defending it".
 ## When to stop: the course's stop points in one place
 
 Every job this course has named carries one of three labels: **Yours**, **Yours, on conditions**,
-or **Call someone**. Here are the Call someone jobs from lessons 1 to 20, with the reason each
-lesson gave. Read the middle column before the first: the reason is what tells you whether a job
+or **Call someone**. Here are the main Call someone jobs from lessons 1 to 21, with the reason
+each lesson gave. Read the middle column before the first: the reason is what tells you whether a job
 you've never met belongs on the list.
 
 | The job | Why it's Call someone | Lesson |
@@ -170,17 +171,17 @@ you've never met belongs on the list.
 | A cable hit while drilling, whether or not anything tripped | It is wiring now | 14 |
 | Anything inside a boiler's casing beyond a panel the maker's user guide opens | HSE advises a Gas Safe registered engineer; yours is only what the user instructions give you | 7, 10 |
 | Water at a water heater's relief valve pipe, or a dripping tundish | The maker sends it to a plumber or engineer | 8 |
-| Repairing, removing or sampling asbestos | The law allows a householder more than the advice does; HSE and EPA advise trained people | 19 |
-| Mould over EPA's "about 10 square feet" | GOV.UK sends larger areas to qualified professionals; EPA to its larger-job guide and experienced help | 18 |
+| Repairing, removing or sampling asbestos | On this course's reading, the asbestos Regulations allow a householder more than the advice does; HSE and EPA advise trained people | 19 |
+| Mould beyond "very small amounts" (GOV.UK) or about 10 square feet (EPA), behind wallpaper or panelling, or from sewage | GOV.UK: "qualified professionals"; EPA: its larger-job guide and experienced help, a professional for sewage | 18 |
 | Roof work, flashing and slipped tiles | HSE's workplace guidance calls roof work highly dangerous, and this course teaches none | 17 |
-| A job that fails the ladder test, or within 6 m of an overhead line | HSE's test for when a ladder is the right equipment; the line is someone else's | 15, 16 |
-| A mains-wired smoke alarm | The Home Office: fitted by a qualified electrician | 12 |
+| A job that fails the ladder test, or within HSE's 6 m of an overhead line (GB) | HSE's test for when a ladder is the right equipment; the line is someone else's | 15, 16 |
+| A mains-wired smoke alarm | England's Home Office guide, Scotland's factsheet and USFA (US): a qualified electrician | 12 |
 | A cistern with no maker's leaflet | This course read no method | 3 |
+| Rodents in ducts or out of reach, a pest that needs a professional-only product, persistent bed bugs, active woodworm, termites | CDC sends the rodents to a professional; the product's label (US) or HSE (GB) keeps it from the public; EPA: termites need a state-licensed professional; bed bugs and woodworm are this course's line | 21 |
 
 Look down the middle column and three kinds of reason turn up. Some stops are the law's: in Great
 Britain, a business doing gas work must be registered. Some are the advice's, where the law would
-let you do more and every official source this course read says don't (asbestos is the clearest
-case). And some are this course's own, because it read no method, or the work is wiring, which it
+let you do more and the advice read says don't (asbestos is the clearest case: HSE and EPA). And some are this course's own, because it read no method, or the work is wiring, which it
 explains and doesn't teach. The first kind is lesson 22's subject. All three belong on your stop
 list, but label them honestly: "it's illegal" is a different claim from "every body I read advises
 against it", and a reader who finds the first claim false may stop believing the second.
@@ -303,9 +304,9 @@ The UK's Consumer Rights Act 2015 puts a floor under every contract in which a t
 service to a consumer.[10]
 
 - Section 49: the trader "must perform the service with reasonable care and skill".
-- Section 50: what the trader says or writes about itself or the service, if you took it into
-  account in deciding, becomes a term of the contract. On this course's reading, that can include a
-  claim on the van or the website, if it is what persuaded you.
+- Section 50: anything "said or written to the consumer" by or for the trader about itself or the
+  service, if you took it into account in deciding, is treated as a term of the contract. Whether a
+  claim painted on a van was said to you, this course didn't read, so get it into the written quote.
 - Section 51: where no price was fixed, "the consumer must pay a reasonable price for the service,
   and no more". Section 52 does the same for time.
 - Section 57: a term that tries to exclude the section 49 duty is not binding on you.
@@ -324,28 +325,28 @@ means problems can be put right before you make the final payment."[1] Californi
 idea into its law, below.
 
 **In England**, Citizens Advice's advice (guidance, not law) is to pay by debit or credit card if you
-can, otherwise by bank transfer, and "Don’t pay with cash."[1] Pay in stages, so problems can be put
-right before the last payment. Avoid deposits; if the trader wants one for materials, offer to buy the
+can, otherwise by bank transfer, and "Don’t pay with cash."[1] Avoid deposits; if the trader wants one for materials, offer to buy the
 materials yourself; and on a long job where you can't avoid one, "don’t agree to more than 25%". For
-credit card payments between £100.01 and £30,000, Citizens Advice says you may be able to make a
-"section 75 claim" against the card company if something goes wrong, including for a deposit paid by
-credit card. Which ways of paying can be clawed back, and why, is Personal Finance lesson 10.
+work costing between £100.01 and £30,000 paid by credit card, Citizens Advice says you may be able to
+make a "section 75 claim" against the card company if something goes wrong, including for a deposit,
+even one under £100. Which ways of paying can be clawed back, and why, is Personal Finance lesson 10.
 
-**In California**, the cap is law, and [section 7159](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7159) makes every contract print it in bold type:[9]
+**In California**, the cap is law, and [section 7159](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7159) makes a contract that charges a down payment print it in bold type:[9]
 
 > "THE DOWNPAYMENT MAY NOT EXCEED $1,000 OR 10 PERCENT OF THE CONTRACT PRICE, WHICHEVER IS LESS."
 
 The licence board's guide adds that there are "no exceptions for special order materials"; the only
-exception is a contractor with a blanket performance and payment bond on file with the board.[8] And
-the statute makes each contract carry this: "IT IS AGAINST THE LAW FOR A CONTRACTOR TO COLLECT PAYMENT
+exception is a contractor with a blanket performance and payment bond on file with the board,
+which the guide says only "a handful of licensees" have, noted on the board's website.[8] And a contract with
+progress payments must carry this: "IT IS AGAINST THE LAW FOR A CONTRACTOR TO COLLECT PAYMENT
 FOR WORK NOT YET COMPLETED, OR FOR MATERIALS NOT YET DELIVERED. HOWEVER, A CONTRACTOR MAY REQUIRE A
-DOWNPAYMENT."[9] That is the mechanism above, written into law.
+DOWNPAYMENT."[9]
 
 Keep the two apart: England's 25% is advice, California's cap is law, and neither is the other
 country's rule. Elsewhere in the US, the FTC says "Some states actually limit the amount of money a
 contractor can ask for as a down payment", and to ask your state or local consumer agency.[6] And the
 last payment waits: the FTC says never make it "until the work is done and you’re
-satisfied".[7] Citizens Advice's stages come to the same thing.
+satisfied".[7]
 
 ### Liens: why paying in full doesn't end it, in California
 
@@ -373,10 +374,10 @@ This section states law. This is general information, not legal advice.
 
 | | UK (Consumer Contracts Regulations 2013) | US federal (FTC Cooling-Off Rule) | California (on top of the federal rule) |
 |---|---|---|---|
-| Which contracts | Off-premises, such as one made at your home with the trader there, over £42 | Sales at your home of $25 or more, or at a temporary location of $130 or more, including when you invited the seller | Home improvement contracts over $500 not negotiated at the contractor's place of business |
-| How long | 14 days from the day the contract is made | Until midnight of the third business day; Saturday counts, Sunday and federal holidays do not | Three business days; five if you are 65 or older; seven for repairing damage from a declared emergency |
+| Which contracts | Off-premises, such as one made at your home with the trader there, over £42 | Sales at your home of $25 or more, or elsewhere away from the seller's premises of $130 or more, including when you invited the seller | Home improvement contracts over $500; the three- and five-day rights not if negotiated at the contractor's place of business |
+| How long | 14 days from the contract for a service; where goods are supplied, even fitted, from the day you get them | Until midnight of the third business day; Saturday counts, Sunday and federal holidays do not | Three business days; five if you are 65 or older; seven for repairing damage from a declared emergency |
 | If you were not told | Extended by up to 12 months | The seller must tell you and give you two copies of a cancellation form | The contract must carry the notice |
-| Repairs you called for | No right to cancel an urgent repair you asked for, but extra work or goods sold on that visit keep it | Excludes an emergency you started, with your handwritten waiver, and repairs to your personal property you asked for; extras keep it | The licence board's guide: the right ends once work starts on emergency repairs you asked for |
+| Repairs you called for | No right to cancel an urgent repair you asked for, but extra work or goods sold on that visit keep it | Excludes an emergency where you made the contact, with your handwritten waiver, and repairs to your personal property you asked for; extras keep it | The licence board's guide: the right ends once work starts on emergency repairs you asked for |
 | Money back | Pay a proportion for work you asked to start in the 14 days | Refund within 10 business days | Refund within 10 days |
 
 Sources: the UK column, regulations 5, 27(3), 28 to 31 and 36;[11] the federal column, 16 CFR Part 429
@@ -385,11 +386,12 @@ and the FTC's page;[12][13] California, section 7159, Civil Code section 1689.5 
 
 Three points in that table are the ones people miss.
 
-**The 14 days and early work.** [The Regulations](https://www.legislation.gov.uk/uksi/2013/3134/part/3) do not stop work starting in the 14 days, but the
+**The 14 days and early work.** For the work itself, [the Regulations](https://www.legislation.gov.uk/uksi/2013/3134/part/3) do not stop it starting in the 14 days, but the
 trader "must not begin" unless you have made an express request, and for an off-premises contract the
 request must be "on a durable medium", which the Regulations define to include paper or email.[11]
-If you then cancel, you pay for what was done, in proportion. If the trader never gave you the
-cancellation information, you pay nothing for it.
+If you then cancel, you pay for what was done, in proportion. And once the job is finished, if you
+asked for the early start and acknowledged you'd lose the right, the right is gone (regulation
+36(2)). If the trader never gave you the cancellation information, you pay nothing for it.
 
 **Urgent repairs.** Regulation 28(1)(e) takes away the right to cancel "contracts where the consumer
 has specifically requested a visit from the trader for the purpose of carrying out urgent repairs or
@@ -398,20 +400,19 @@ replacement parts the repair needed, sold on that same visit.[11] The FTC's rule
 for repairs you asked for, and says "personal property"; this course did not read whether a repair to
 the house itself counts as that, so it says nothing either way.[12]
 
-**States can give more.** The FTC's rule says it does not override a state law that gives the buyer a
-right to cancel "substantially the same or greater".[12] California's longer periods are such
-rights, which is why the California column sits on top of the federal one, on this course's reading
-of the two texts.
+**States can give more.** The FTC's rule leaves a state law in force unless it is "directly
+inconsistent", and a state right to cancel that isn't "substantially the same or greater" counts as
+that.[12] On this course's reading of the two texts, California's longer periods are not
+inconsistent, which is why the California column sits on top of the federal one.
 
-:::checkpoint A homeowner on Merseyside rings a plumber at 7am because a pipe under the bath has burst. He fixes it for £180, and while he's there sells her a new shower mixer from his van for £260 and fits it before he leaves. She signs for both at her kitchen table. The next day she has second thoughts about both. Which one does she have a right to cancel, on the Regulations as this lesson read them?
+:::checkpoint A homeowner on Humberside rings a plumber at 7am because a pipe under the bath has burst. He fixes it for £180, and while he's there sells her a new shower mixer from his van for £260 and fits it before he leaves. She signs for both at her kitchen table. The next day she has second thoughts about both. Which one does she have a right to cancel, on the Regulations as this lesson read them?
 
 The shower mixer, not the pipe repair. She specifically asked him to come for an urgent repair, so
 regulation 28(1)(e) removes the right to cancel that. The mixer is a good other than a part the
 repair needed, supplied on the same visit, so regulation 28(2) keeps the right for it: it's an
 off-premises contract, over £42, and she's well inside 14 days.[11] What cancelling something
 already fitted costs her, and what happens to it, is set by regulations this course didn't read, so
-the answer stops at the right itself. The trader who comes for an emergency is also well placed to
-sell you something else, and the Regulations keep the extra cancellable.
+the answer stops at the right itself.
 :::
 
 ## When the work is wrong
@@ -424,7 +425,7 @@ complete its performance in conformity with the contract" (section 55). The trad
 within a reasonable time, without significant inconvenience to you, and "must bear any necessary
 costs incurred in doing so (including in particular the cost of any labour or materials)". Only if
 putting it right is impossible, or the trader fails to do it within a reasonable time, do you move to
-a price reduction, which can be the full price, refunded within 14 days of the trader agreeing
+a price reduction, which can, where appropriate, be the full price, refunded within 14 days of the trader agreeing
 (section 56). The Act doesn't stop you seeking other remedies too, but this course didn't read how
 those work. Citizens Advice's practical order:[1] as soon as something's wrong, ask the trader to put
 it right, agree how, and get that agreement in writing.
@@ -474,17 +475,17 @@ life.
    says to be cautious about; it may not cover the same work. She asks C what the price includes. The
    answer leaves out removing the old boiler and flushing the system. She chooses A.[1]
 4. **Signing.** Engineer A comes round to measure up, and she signs his contract at her kitchen
-   table. That makes it an off-premises contract, over £42, so she has 14 days to cancel.[11]
-5. **Early start.** She wants it in next week, before the 14 days are up. So she emails him asking
-   him to start then; an email is a durable medium. If she cancelled after he'd started, she'd pay
-   for what had been done, in proportion.[11]
+   table. That makes it an off-premises contract, over £42, so she can cancel. Because it includes the
+   boiler itself, the Regulations treat it as a sales contract, and her 14 days run from the day the
+   boiler is delivered, not the day she signed.[11]
+5. **Early start.** She wants it in next week. So she emails him asking him to start then; an email is
+   a durable medium. On this course's reading, if she cancelled after he'd started, she'd pay for the
+   fitting done, in proportion; what happens to a boiler already fitted is set by regulations this
+   course didn't read.[11]
 6. **Paying.** He asks for £285 up front for the boiler. Citizens Advice's advice is to avoid a
    deposit where she can; she pays it by credit card, which Citizens Advice says may give her a
    section 75 claim, and she pays the rest when it is fitted and working.[1] Her last step, from
    Citizens Advice's list, is telling her buildings insurer about the work.
-
-What made this simple is that each step had one source to go to. The next case has two layers of
-law and a man at the door.
 
 ## A hailstorm in Riverside County, with a gap for you
 
@@ -535,12 +536,6 @@ for a certificate of completion, so the bank pays the contractor for each stage 
 approved it.[7] What her policy covers is Personal Finance lesson 8's question, not this lesson's.
 
 ## What people get wrong
-
-**"A quote and an estimate are the same thing."** A quote is a fixed price; an estimate is a rough
-guess (Citizens Advice).[1]
-
-**"The cheapest quote is the best value."** Citizens Advice says to be cautious of a price far below
-the rest; the FTC says not to pick the lowest bidder automatically.[1][6]
 
 **"The logo on the van proves membership."** Check the body's own members' list, found by your own
 route (FMB; Citizens Advice).[4][1]
@@ -612,7 +607,7 @@ can" (UK), or, in the US, "no cash, no wire, no signing over the insurance check
 
 ## Connections
 
-Every earlier lesson's Call someone jobs are in the table. Lesson 10 has the Gas Safe check;
+The main Call someone jobs from every earlier lesson are in the table. Lesson 10 has the Gas Safe check;
 lessons 19 and 20 sent you here for trained, licensed and lead-safe certified firms; lesson 22, "Who
 may do what: reserved work, and the argument about licensing", has the law on who may do which job.
 Personal Safety lesson 5 has the doorstep, Personal Finance Fundamentals lessons 8 and 10 insurance
@@ -621,14 +616,14 @@ and paying, and Digital Literacy lesson 11 the own-route rule.
 ## Go deeper
 
 - **Citizens Advice, ["Before you get work done on your home"](https://www.citizensadvice.org.uk/consumer/getting-home-improvements-done/before-you-get-building-work-done/).**
-  Read here in full. England's most complete checklist, from permissions to paying, and the source of
-  most of this lesson's UK advice.
+  Read here in full. England's most complete checklist, and the source of most of this lesson's UK
+  advice.
 - **FTC, ["How To Avoid Scams After Weather Emergencies and Natural Disasters"](https://consumer.ftc.gov/articles/how-avoid-scams-after-weather-emergencies-and-natural-disasters).**
   Read here in full. Short, and worth reading before the storm rather than after it.
 - **Contractors State License Board, [*A Consumer Guide to Home Improvement Contracts*](https://www.cslb.ca.gov/Resources/GuidesAndPublications/HomeImprovementContractsConsumerGuide.pdf).**
   Read here in full. California's, but its account of liens is the clearest explanation this course
-  found of why paying the contractor isn't the end of it. It predates the seven-day right in the
-  statute, so read it beside section 7159.
+  found of why paying the contractor isn't the end of it. It doesn't mention the seven-day right in
+  the statute, so read it beside section 7159.
 
 ## Sources
 
