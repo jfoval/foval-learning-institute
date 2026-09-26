@@ -27,7 +27,7 @@ about: >-
   the chart and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note). 2026-09-26, lesson 22 Stage 4: John's line opening the US tread turn now says 'The federal tread rules that bind a driver cover commercial vehicles' (was 'Federal tread rules cover commercial vehicles'), because 49 CFR 570.9 sets 2/32 inch for passenger cars as a standard for state inspection systems, which binds states that inspect, not drivers; lesson 8 corrected the same day."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note). 2026-09-26, lesson 22 Stage 4: John's line opening the US tread turn now says 'The federal tread rules that bind a driver cover commercial vehicles' (was 'Federal tread rules cover commercial vehicles'), because 49 CFR 570.9 sets 2/32 inch for passenger cars as a standard for state inspection systems, which binds states that inspect, not drivers; lesson 8 corrected the same day. Re-checked 2026-09-26 after the US tread line changed (lesson 22's 49 CFR 570 correction): fresh fact-check PASS WITH NITS, two optional framing nits left as they are."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
