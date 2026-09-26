@@ -1,6 +1,7 @@
 ---
 title: Writing and progressing a plan
 minutes: 120
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/07-writing-and-progressing-a-plan.mp3
 objectives:
   - >-
     Build a first full-body plan for a healthy beginner from ACSM 2026 and WHO, with or without a
