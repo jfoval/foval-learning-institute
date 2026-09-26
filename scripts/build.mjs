@@ -856,19 +856,19 @@ function lintLessons() {
         // Car Basics: every lesson carries the same safety callout, word for word: each country's
         // fast-road breakdown steps, never under a car held only by a jack, never touch orange
         // high-voltage cables, and that the law differs by nation and state. research/OUTLINE.md decision 4.
-        if (cdir.name === "car-basics" && path.basename(lessonsDir) === "lessons") {
+        if (cdir.name === "car-basics" && ["lessons", "assessments"].includes(path.basename(lessonsDir))) {
           const CAR_BASICS_SAFETY = ":::callout Before the car lets you down\nThis course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.\n:::";
           if (!src.replace(/\r\n/g, "\n").includes(CAR_BASICS_SAFETY))
-            fail(`${file}: the safety callout is missing or differs from the standard text. Every Car Basics lesson carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Car Basics lesson, test and project carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
         // Home Repair and Maintenance: every lesson carries the same safety callout, word for word:
         // no gas work and no wiring taught, each country's gas-leak steps, isolate first, and that
         // the reserved-work rules differ by nation and state. research/OUTLINE.md decision 4.
-        if (cdir.name === "home-repair" && path.basename(lessonsDir) === "lessons") {
+        if (cdir.name === "home-repair" && ["lessons", "assessments"].includes(path.basename(lessonsDir))) {
           const HOME_REPAIR_SAFETY = ":::callout Before you pick up a tool\nThis course is education, not a trade qualification, and not legal advice about your own home. It teaches no gas work and no wiring. If you smell gas in Great Britain, open doors and windows, turn the gas off at the meter if you can do it safely (not if the meter is in a cellar or basement), and call 0800 111 999; in Northern Ireland the number is 0800 002 001. In the US, leave straight away and call 911 or your gas utility once you're outside. In either country, don't light a flame or touch an electrical switch. Isolate the water or power before you open anything up, and if a breaker, RCD or GFCI keeps tripping, leave it off and call an electrician. Which jobs the law leaves to a registered or licensed trade differs between England, Wales, Scotland, Northern Ireland and each US state, and it changes.\n:::";
           if (!src.replace(/\r\n/g, "\n").includes(HOME_REPAIR_SAFETY))
-            fail(`${file}: the safety callout is missing or differs from the standard text. Every Home Repair lesson carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Home Repair lesson, test and project carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
