@@ -3,7 +3,7 @@ title: "Motorways and fast roads: go left, the live lane, and the smart motorway
 minutes: 90
 objectives:
   - >-
-    Apply "Go left, Get safe, Get help" (the Highway Code's Rule 277 and National Highways' advice) to
+    Apply go left, get safe, get help (the Highway Code's Rule 277 and National Highways' advice) to
     a breakdown on an English motorway with a hard shoulder and on one without, including emergency
     areas, the Red X (Rule 258) and rejoining (Rule 278), saying which parts are MUST and which are
     should
@@ -84,7 +84,7 @@ quiz:
       safety metric", and that "we can be confident" the stopped-vehicle injury collision rates for
       conventional and controlled motorways are lower than all-lane running's. So "every measure", in
       either direction, is wrong. Dynamic hard shoulder, not controlled, has the lowest
-      killed-or-seriously-injured rate, and ALR's stopped-vehicle rate is the highest. The government's
+      killed-or-seriously-injured rate across all collisions, and ALR's stopped-vehicle rate is the highest. The government's
       stated reasons for cancelling were public confidence and cost.
   - q: >-
       A colleague says the government stopped building smart motorways in April 2023 because its own
@@ -178,7 +178,7 @@ live-lane section below shows.
 This is general information, not legal advice.
 
 The Highway Code's [Rule 277](https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287)
-is headed "Go left, Get safe, Get help", and it starts before the car stops: "If your vehicle develops a
+sets out its steps under three headings, "Go left", "Get safe" and "Get help", and it starts before the car stops: "If your vehicle develops a
 problem, leave the carriageway at the next exit or pull into a service area if possible (see Rule 275
 for places of relative safety). If you cannot, you should".[1] Then the first list:
 
@@ -557,15 +557,15 @@ stopped-vehicle collision and casualty rates on all-lane running roads over seve
 changes, compared with the other types, with the killed-or-seriously-injured rates tested for
 significance once police injury reporting allows it, and, on this course's reading, checked by someone
 other than the operator. The Office of Rail and Road, which is "responsible for monitoring and enforcing the performance and
-efficiency of National Highways" on this, has assured past reports.[10] This course read none of its
-reports.
+efficiency of National Highways" on this, lists its own quality assurance of the fourth-year report, published 13 March 2025, among
+its reports.[10] This course read none of them.
 
 The value half no data settles: whether a road that, on the operator's figures, does as well or better
 on deaths and serious injuries overall but has more injury collisions with stopped cars is the better
 road, and how much drivers' confidence should count. This
 course takes no side on either.
 
-:::checkpoint Sort each into what's settled, what National Highways or the government says, what a critic says, or what an official inquiry found (the Transport Committee or a coroner). (1) New smart motorways were cancelled in April 2023. (2) Stopped-vehicle incidents are more frequent on all-lane running roads, so the hard shoulder should be reinstated, or emergency areas radically increased. (3) All three smart types are better than conventional motorways on the measures that consider deaths or serious injuries. (4) Reinstating the hard shoulder everywhere might put more people at risk if traffic diverted to local roads. (5) The hard shoulder is far safer than a live lane. (6) One in 18 motorway deaths from 2018 to 2022 involved the hard shoulder. (7) The rollout of new all-lane running schemes was paused in January 2022. (8) An inquest heard that the lack of a hard shoulder contributed to two deaths. Then: (9) which would help settle the empirical half, another year of the same headline rates, or stopped-vehicle rates on all-lane running for several years after detection and the extra emergency areas, tested for significance?
+:::checkpoint Sort each into what's settled, what National Highways or the government says, what a critic says, or what an official inquiry found (the Transport Committee or a coroner). (1) New smart motorways were cancelled in April 2023. (2) Stopped-vehicle incidents are more frequent on all-lane running roads, so the hard shoulder should be reinstated, or emergency areas radically increased. (3) All three smart types are better than conventional motorways on the measures that consider deaths or serious injuries. (4) Reinstating the hard shoulder everywhere might put more people at risk if traffic diverted to local roads. (5) The hard shoulder is far safer than a live lane. (6) One in 18 motorway deaths from 2018 to 2022 involved the hard shoulder. (7) The rollout of new all-lane running schemes was paused in January 2022. (8) An inquest heard that the lack of a hard shoulder contributed to two deaths. Then: (9) which would help settle the empirical half, another year of the same headline rates, or stopped-vehicle and killed-or-seriously-injured rates on all-lane running for several years after detection and the extra emergency areas, tested for significance?
 
 (1) Settled: a Department for Transport decision, for confidence and cost. (2) A critic, the AA, which sells breakdown cover and repairs, for the "so". The first half is also National Highways' own finding on stopped-vehicle injury collision rates; the conclusion drawn from it, and the alternative, are the AA's. (3) National Highways, which runs the roads, in its fourth-year report. (4) An official inquiry: the Transport Committee. (5) A critic: the RAC, which sells breakdown cover. (6) National Highways' report, 2018 to 2022, England. (7) Settled: the Department's decision. (8) An official inquiry: one inquest's finding, January 2021, whose coroner asked for "a wider review / inquiry into Smart Motorways". (9) The second, the kind of evidence the report says it has started to gather.
 :::

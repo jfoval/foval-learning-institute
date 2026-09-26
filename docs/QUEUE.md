@@ -59,7 +59,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   way are dated in `research/pipeline-briefs.md`; what each review caught is in
   `research/reviews/course-wide.md`. **Left open, none blocking:** lesson 16's recovery checkpoint
   is partly answered by the text above it (S4), and nidirect's "First aid on the road" line is not
-  yet in SOURCES (S5); lesson 6's four minor items in its review file. Proposed: a six-monthly
+  yet in SOURCES (S5); lesson 6's four minor items in its review file. Lesson 17: the fourth-year report's summary line that smart motorways are "in most cases" safer than the roads they replaced is not in the lesson (a balance call, noted at its second pass as S4); record it in SOURCES and weigh it at the course-wide neutrality audit. Proposed: a six-monthly
   re-check of its dated fees and policy facts.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine

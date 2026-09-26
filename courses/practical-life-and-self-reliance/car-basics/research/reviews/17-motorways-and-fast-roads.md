@@ -225,3 +225,114 @@ the sole shortest. Places: an unnamed all-lane running stretch in England; I-5 n
 items, the safety guidance (Rule 279, Northern Ireland, the California reconciliation) and every part
 of the smart motorway block; a second reader should re-walk the roadside steps and re-run the balance
 check on N1 to N9 as applied.
+
+## Neutrality re-check (2026-09-26)
+
+**Auditor:** fresh context, following `.claude/commands/neutrality-audit.md` and standards Part 3,
+checking N1 to N9 as applied and the smart motorway block as a whole.
+
+**Quotations added by the fix pass, re-checked live** (curl, generic browser User-Agent, no personal
+data, 26 September 2026): the fourth-year report PDF [7] (the 4% passage word for word across a layout
+break, "is only viable where ... whole number data point", "all police forces will eventually move to
+injury-based reporting systems", the ORR detection sentence, "strong evidence ... statistically
+different"); the DfT releases [8] and [9] via the GOV.UK content API (both Naran statements, "I'll
+continue ..." preceded in the source by "However,", which the lesson's "She went on" fairly carries);
+the AA statement [11] (both controlled-motorway sentences, split around the unchecked 1.31 and 1.43 as
+G-R1 requires); the coroner's report [13] ("The need for a wider review / inquiry into Smart
+Motorways", followed by his reasons ending "An inquest cannot say what government policy should be").
+**All match.** The fixer's paraphrase of the severity adjustment is fair to the report.
+
+**N1 to N9:** all applied as proposed (N7 (a) to (d) at each named use; N8's value sentence; N9
+attributed to National Highways).
+
+**Balance.** 460 words (operator side, two holders) against 650 (critics, four holders): about 230 a
+holder against about 160. The gap is voices, not tilt; the operator's data also fills both tables, each
+half of which is tested. **Opening:** names the empirical and the value side and says the course
+settles neither. **Order:** settled, operator, critics, committee (whose last quoted conclusion is
+against simple reinstatement), numbers, settle. **Last word:** "This course takes no side on either."
+**Naran:** now in both halves of her own words, under a heading her campaign for the pause fits, with
+the explicit line that her words do not ask for the hard shoulder back; fair to her and to the reader.
+**Labels:** every holder labelled in the contested section, checkpoint, quiz 4 and the misconception.
+**No verdict** by adjective, placement, the tables, the predict, quiz 4 or 5, or the exercise.
+
+**R1 [minor, fixed] Checkpoint item (9) keyed the critics' measure as the one that settles it.** The
+right option read "stopped-vehicle rates on all-lane running for several years ... tested for
+significance" against "another year of the same headline rates", so the operator's KSI headline sat
+only in the wrong option, while "What would settle it" asks for both (stopped-vehicle rates, and the KSI
+rates tested once police reporting allows). An operator reader would object. Fixed in one edit: the
+right option now reads "stopped-vehicle and killed-or-seriously-injured rates on all-lane running for
+several years after detection and the extra emergency areas, tested for significance". Answer (9)
+unchanged. `npm run validate` exit 0.
+
+**Perspectives checked against:** National Highways and the DfT (would sign their section; R1 was
+their remaining objection); the AA and the RAC (their alternatives and full sentences are in); a
+bereaved-family campaigner (Naran whole, the coroner's call for a wider inquiry restored); a daily
+all-lane running driver (detection targets now reported met, the value question put without a
+presupposed answer).
+
+**Verdict: BALANCED.**
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context second-pass reviewer (truth, safety, pedagogy, format; the neutrality
+re-check ran separately). Every primary re-fetched live with curl (generic browser User-Agent, no
+personal data): Highway Code Rules 253 to 287 and the Introduction (GOV.UK content API), National
+Highways' three pages, the fourth-year report PDF (pdftotext), the DfT releases of 12 January 2022 and
+15 April 2023 (content API), the ORR page, the AA and RAC statements, the coroner's Regulation 28 PDF,
+the Transport Committee report (Internet Archive capture 20260203160327), California handbook Section 8,
+AAA Club Alliance, nidirect's NI "Breakdowns and incidents (274 to 287)" (modified 22 September 2026)
+and "First aid on the road" (modified 21 September 2026), and the Commons file API for the photograph.
+
+**Checked and clean.**
+- Every quotation in the body and quiz (about 140) string-matched on the live primary it is attributed
+  to, including the AAA lines to the club's page (not the fleet manager), Naran's two statements and the
+  DfT's "Independent road safety campaigner", the coroner's list order ("first matter of concern"), the
+  report's 4 per cent sentence, whole-number sentence and ORR detection line. `npm run quotes
+  car-basics`: 0 not found.
+- Safety: every GB step matches Rule 277's lists, its live-lane box, Rule 278's MUST (RTA s.36) and
+  should, Rule 279, and National Highways' "anyone ... for any reason" line; nothing puts a reader in a
+  lane, and no repair, triangle or wheel change appears on a motorway. The emergency telephone goes to the
+  control room and 0300 123 5000 is the mobile route, as National Highways' page words it ("Use the free
+  emergency telephone (where provided) or a mobile phone to call"). 0738 028 3600 and the 999 condition
+  ("unable to exit ... or ... not stopped near a free emergency telephone") match. NI Rule 275 differs
+  (left-hand door; the telephone connects to the police), so "not the same as Rule 277" is true; the
+  annex prints "999 or 112", so "999 too" stands and 112 stays unprinted. California's six steps and
+  three exceptions match; the Redding reconciliation is labelled as the course's reading; the US table
+  carries the exceptions. Callout byte-identical to `CAR_BASICS_SAFETY`; no em dash or spaced en dash;
+  all six phone numbers use non-breaking spaces.
+- Both numbers tables match Figures 5 and 9 value for value (16 of 16), and the caption's
+  "injury-adjusted", "per hmvm" and "with minor amendment" are the report's. Rendered with the site
+  stylesheet and fonts in headless Chrome at a 375 px viewport (343 px column): all four tables, the
+  two numbers tables and the US table included, fit at 343 of 343 px, light and dark.
+- Photograph: CC BY-SA 2.0, David Dixon, Geograph, 15 July 2013, per the Commons API; the image shows
+  the blue "Emergency refuge area" sign with the orange SOS symbol, as the alt text says.
+- Quiz: each explanation read against its options; keys 1,0,3,0,2 pass decision 20's relaxed rule
+  against lessons 01 to 21 on disk (all four positions, no adjacent repeat, no identical or value-shifted
+  sequence, no shared run of four at offsets 0 or ±1), by script. Option spreads 3, 4, 5, 8, 8.
+- Cross-references (lessons 1, 11, 16, 18; Logic and Argument lesson 7) found in the lessons named.
+  40 ft to about 12 m and 446 miles to about 718 km redone by hand.
+
+**Findings and fixes (one edit each, applied).**
+- S1 [minor, fixed] "Rule 277 is headed "Go left, Get safe, Get help"" quoted a string the Code never
+  prints: the rule has three bold subheadings, "Go left", "Get safe" and "Get help", and National
+  Highways numbers the same three. Now "sets out its steps under three headings, "Go left", "Get safe"
+  and "Get help"". The first objective's quotation marks around the phrase were removed for the same
+  reason.
+- S2 [minor, fixed] Quiz 4 explanation: "Dynamic hard shoulder ... has the lowest
+  killed-or-seriously-injured rate" is true of all collisions (1.13) but not of stopped-vehicle
+  collisions, where controlled is lowest (0.08). Now "across all collisions".
+
+**Noted, not changed.**
+- S3 [minor] Quiz 2 and the live-lane box: the car is already in lane 1, and the box's first condition
+  reads "can't get your vehicle to the left lane or a place of relative safety". The intended reading
+  (a live lane is not a place of relative safety) is the natural one, and National Highways' "for any
+  reason" line and checkpoint (c) cover it; a later edit could cite that line in the explanation.
+- S4 [for the neutrality re-check, not changed here] The ORR page lists its quality assurance of the
+  fourth-year report itself (published 13 March 2025); the lesson says the ORR "has assured past
+  reports". Also unused: the report's executive summary says its before-and-after analysis "shows that in
+  most cases smart motorways are safer than the roads they replaced". Either is a balance call, left to
+  the neutrality re-check under the instruction not to move the block's balance.
+
+**Measures after the fixes:** `npm run minutes` 8,150 words, 90 minutes (`minutes: 90`); `npm run
+validate` exit 0, no line naming this file; `npm run quiz` nothing for this file.
+
+**Verdict: CLEAN** (truth, safety, pedagogy and format), subject to the separate neutrality re-check.

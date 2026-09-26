@@ -7667,3 +7667,312 @@ line the fix adds or re-words. **[V]** as above. Two earlier entries are correct
 - **Reviewer F's SOURCES note (F22):** Part B §1's NHTSA blowout line is marked in place as steps 1 and
   3 of five; the lesson's Source 3 now calls capture 20260923145155 "the newest readable one" (later
   CDX rows are non-200 revisits).
+
+## Gate closures, lesson 20/21 (2026-09-26)
+
+Read by the lessons 20 and 21 drafter on 26 September 2026 with curl and Python (a generic browser
+User-Agent, no personal data in any header), pandoc, and the GOV.UK content API. legislation.gov.uk was
+read as HTML, the "latest available (revised)" text unless marked "as made"; the "changes to
+legislation" panels were not opened. **[V]** as above: copied from text extracted today. Every
+quotation in lessons 20 and 21 was checked by script against today's extracted text. Nothing here
+edits the `unread:` line (this drafter was told to append only); see the notes for the orchestrator at
+the end.
+
+### Great Britain: the statute and the regulations
+
+- **Road Traffic Act 1988, s.40A** (extent E+W+S), re-read in full; Part C §3's quotation matches.
+  "A person is guilty of an offence if he uses, or causes or permits another to use, a motor vehicle or
+  trailer on a road when" [V] (the source's dash follows); "the condition of the motor vehicle or
+  trailer, or of its accessories or equipment" [V]; "is such that the use of the motor vehicle or
+  trailer involves a danger of injury to any person." [V] Heading: "Using vehicle in dangerous
+  condition etc." [V]
+- **s.41A**, re-read in full: "contravenes or fails to comply with a construction and use requirement
+  as to brakes, steering-gear or tyres" [V]; "uses on a road a motor vehicle or trailer which does not
+  comply with such a requirement, or causes or permits a motor vehicle or trailer to be so used" [V].
+- **s.42**, re-read in full. Heading "Breach of other construction and use requirements" [V]; it
+  reaches "any construction or use requirement other than one within section 41A(a) or 41B(1)(a)" or
+  41D (the last inserted by amendment, shown in the revised text in editorial brackets).
+- **s.41**, read in full. s.41(1): regulations "as to the use of motor vehicles and trailers on roads,
+  their construction and equipment" [V]; s.41(7): "construction and use requirements" means
+  requirements "imposed under this section" [V].
+- **Road Vehicles Lighting Regulations 1989, introduction** (the enacting words), read: made under
+  "section 41 as read with section 43" [V] of the 1988 Act for all provisions other than revocations.
+  So a Lighting Regulations requirement is a construction and use requirement; that a lamp defect
+  therefore falls under s.42 is the lesson's reading of the words, labelled so.
+- **s.45**, re-read: s.45(1) has effect "for the purpose of ascertaining whether" two requirements are
+  met, the second being "the requirement that the condition of motor vehicles should not be such that
+  their use on a road would involve a danger of injury to any person." [V]
+- **s.47**, re-read in full: "a period of twelve months" [V]; first registered "not less than three
+  years" [V] before; s.47(9): "such other period (not being more than ten years)" [V], by order approved
+  by each House.
+- **Road Traffic Offenders Act 1988, s.48**, re-read in full (E+W+S). s.48(1) (s.40A): the court must
+  not disqualify or endorse "if he proves that he did not know, and had no reasonable cause to suspect,
+  that the use of the vehicle involved a danger of injury to any person." [V] s.48(2) (s.41A): "if he
+  proves that he did not know, and had no reasonable cause to suspect, that the facts of the case were
+  such that the offence would be committed." [V] s.48(3) is repealed. "his driving record" is the
+  amended wording.
+- **RTOA 1988, Sch 2 Part I** (E+W+S), rows re-read for RTA ss.40A, 41A, 41B, 41D, 42 and 47 and the
+  column headings. s.40A: Level 5 for goods vehicles or vehicles adapted to carry more than eight
+  passengers, "Level 4 on the standard scale in any other case" [V]; disqualification "(a) Obligatory if
+  committed within three years of a previous conviction of the offender under section 40A." [V], "(b)
+  Discretionary in any other case." [V]; endorsement obligatory; 3 points. s.41A: Level 5 / Level 4 as
+  above; disqualification "Discretionary." [V]; endorsement obligatory; 3 points. s.41B heading "Breach
+  of requirement as to weight: goods and passenger vehicles." [V]; s.41D heading "Breach of requirements
+  as to control of vehicle, mobile telephones etc." [V]. s.42: Level 4 / "Level 3 on the standard scale
+  in any other case." [V]; no disqualification, endorsement or points. s.47: "(b) Level 3 on the
+  standard scale in any other case." [V]; no disqualification, endorsement or points.
+- **Sentencing Act 2020, s.122** (E+W), read in full. For offences on or after 1 October 1992: level 3
+  £1,000, level 4 £2,500, level 5 £5,000, with s.122(3) applying LASPO 2012 s.85 to level 5 for offences
+  on or after 12 March 2015. The table is headed for "Code offences". Scotland's scale not read.
+- **Road Vehicles (Construction and Use) Regulations 1986, reg 27** (E+W+S), re-read in full; lesson
+  18/19's closure and "The tread rule, stated exactly" match. Paragraph (1): a vehicle "shall not be
+  used on a road, if" [V]; (1)(h): "the tyre is not maintained in such condition as to be fit for the use
+  to which the vehicle or trailer is being put" [V]; (4)(f): "throughout a continuous band comprising the
+  central three-quarters of the breadth of tread and round the entire outer circumference of the tyre"
+  [V]. (1)(i) to (k) (ten-year age) apply under (1A) only to buses, minibuses and heavier goods
+  vehicles. **Correction:** the definitions ("breadth of tread", "tread pattern", "tread wear
+  indicator") are in **reg 27(6)(a)**, not 27(5) as "The tread rule, stated exactly" and Part C §3 say;
+  reg 27(5) is about recut tyres. No lesson was found citing "27(5)" for the definition; not edited in
+  place (append only).
+- **reg 100** (E+W+S), read in full. Heading "Maintenance and use of vehicle so as not to be a danger,
+  etc" [V]. "A motor vehicle, every trailer drawn thereby and all parts and accessories of such vehicle
+  and trailer shall at all times be in such condition" [V] ... "that no danger is caused or is likely to
+  be caused to any person in or on the vehicle or trailer or on a road." [V]
+- **regs 30 and 34, and RVLR reg 23**, re-read in full; lessons 9 and 10's quotations stand. Lesson 20
+  points to them and quotes none.
+
+### Great Britain: guidance, guidelines and the Highway Code
+
+- **Sentencing Council, "Tyres defective"** (live, effective 4 August 2008, E+W), re-read in full: "Road
+  Traffic Act 1988, s.41A"; "Maximum for vehicles up to 3.5 tonnes: Level 4 fine" [V]; "Must endorse and
+  impose 3 points" [V]; starting point "Band B fine" for a driver; Band B is "100% of relevant weekly
+  income"; "Fine is for each single tyre (but ordinarily only one set of points apply where several
+  offences committed on the same occasion)." [V]
+- **Sentencing Council, "Brakes defective" and "Steering defective"** (live, same URL pattern, E+W),
+  read today for the first time: each gives "Road Traffic Act 1988, s.41A", "Effective from 04 August
+  2008", "Maximum for vehicles up to 3.5 tonnes: Level 4 fine" [V], "Must endorse and impose 3 points"
+  [V], starting point "Driver: Band B fine". Neither carries the tyres guideline's per-tyre note. This
+  clears, in substance, two `unread:` entries (orchestrator note below). The "using vehicle in dangerous
+  condition" guideline was not found at the slugs tried (404) and stays unread.
+- **GOV.UK (DVLA), "Penalty points (endorsements)"** (content API, public_updated_at 2025-01-27), re-read
+  in full. Construction and use codes "must stay on a driving record for 4 years from the date of the
+  offence." [V]; CU10, CU20, CU30, CU40 as Part C §3, plus "CU50 Causing or likely to cause danger by
+  reason of load or passengers" 3. And: "Endorsement codes and processes in Northern Ireland are
+  different." [V] The page does not say which RTA section each code belongs to.
+- **GOV.UK (DVSA), "Check your vehicle is safe to drive"** (2018-04-05), re-read: "You’re responsible
+  for making sure your vehicle is always safe to drive (‘roadworthy’). It can be unsafe even if you have
+  a current MOT certificate." [V]; "You can be fined up to £2,500, be banned from driving and get 3
+  penalty points for driving a vehicle in a dangerous condition." [V]
+- **GOV.UK, "Legal obligations of drivers and riders"** (2015-08-27), re-read in full: "be registered
+  with DVLA" [V]; "have up to date vehicle tax" [V]; "have a current MOT certificate (if your vehicle
+  needs one)" [V]; "be roadworthy" [V]; "You must also have a minimum of third party insurance that
+  covers your use of the vehicle." [V]; "a valid insurance certificate" [V]; "a valid MOT certificate
+  (if your vehicle needs one)" [V]; "you may be asked to take them to a police station within 7 days."
+  [V]
+- **The Highway Code, Introduction** (2022-07-01), re-read: "This Highway Code applies to England,
+  Scotland and Wales." [V]; rules that are law "are identified by the use of the words ‘MUST/MUST NOT’"
+  [V]; "In addition, the rule includes an abbreviated reference to the legislation which creates the
+  offence." [V]; "may be used in evidence in any court proceedings under the Traffic Acts" [V].
+- **Rules 89 and 97** (2021-09-14), re-read: "Vehicle condition. You MUST ensure your vehicle and trailer
+  comply with the full requirements of the Road Vehicles (Construction and Use) Regulations and Road
+  Vehicles Lighting Regulations" [V]; Rule 97: "You MUST ensure that" [V] ... "your vehicle is legal and
+  roadworthy" [V]; "You SHOULD ensure that" [V] ... "you have sufficient fuel or charge for your
+  journey, especially if it includes motorway driving" [V]. The live text capitalises SHOULD.
+- **Annex 3** (2018-05-20), re-read: "Driving an unroadworthy motor vehicle may invalidate your
+  insurance." [V] **Annex 5** (2022-07-27), re-read: "Certain non-motoring offences, e.g. failure to
+  rectify vehicle defects, can also attract penalty points." [V]; row "Using a vehicle in a dangerous
+  condition" [V], "LGV or PCV unlimited, other vehicles £2,500", "3 in each case" [V]; row "No MOT
+  certificate", "£1,000 fine", points "-".
+
+### Northern Ireland: the law and the Highway Code
+
+- **Road Traffic (Northern Ireland) Order, SI 1995/2994 (N.I. 18), Articles 54, 56 and 58**
+  (legislation.gov.uk, latest revised, extent N.I.), read in full; nothing else in the Order was read
+  except Article 63 (below). Art. 54, "Using vehicle in dangerous condition etc.": "A person is guilty of
+  an offence if he uses, or causes or permits another to use, a motor vehicle or trailer on a road when"
+  [V], with the same four heads as s.40A. Art. 56, "Breach of requirement as to brakes, steering-gear or
+  tyres": "contravenes a construction and use requirement as to brakes, steering-gear or tyres" [V] (no
+  "or fails to comply with"), and the same use limb. Art. 58, "Breach of other construction and use
+  requirements" [V].
+- **The same Order, Article 63** (for lesson 21's reviewer; not cited in either lesson). Art. 63(2)'s
+  revised text on legislation.gov.uk reads "not less than 5 years" for the test age, with an annotation
+  "F1 mod. by SR 1996/12" that this drafter did not read; nidirect gives four years. Lesson 21 states the
+  NI timing from nidirect only, with nidirect's own hedge. Art. 63(7A) provides for "a certificate of
+  temporary exemption" (the statutory basis of TECs).
+- **Motor Vehicles (Construction and Use) Regulations (Northern Ireland) 1999, SR 1999/454**:
+  legislation.gov.uk redirects the revised address to the **as made** version; there is no revised
+  text. Read as made: reg 1 (citation; in operation 1 January 2000), reg 32 "Condition and maintenance
+  of tyres" in full, and reg 115 in full. Reg 32(1): "shall not be used on a road, if" [V], with (a) to
+  (h) as GB's reg 27(1)(a) to (h); reg 32(4)(f): "throughout a continuous band comprising the central
+  three-quarters of the breadth of tread and round the entire outer circumference of the tyre" [V]; reg
+  32(3): the same 50 mph space-saver exception. Reg 115, "Maintenance and use of vehicle so as not to be
+  a danger, etc." [V], in the same words as GB reg 100 but "a trailer drawn by it" and "a person".
+  Later amendments were not read.
+- **nidirect, "Introduction to the Highway Code"** (dateModified 2026-09-22), re-read: Northern Ireland
+  "is largely responsible for its own road safety policy and legislation" [V]; legal rules "are
+  identified by the use of the words ‘must' and 'must not’" [V]; and the same "may be used in evidence"
+  sentence, with "the Traffic Legislation".
+- **nidirect, "Vehicle maintenance, safety and security"** (the NI Code's annex; 2026-09-21), read in
+  full. Tyres: "Must have a tread depth of at least 1.6 mm across the central three-quarters of the
+  breadth of the tread and around the entire circumference." [V], "Law CUR reg 32". Also the same
+  warning-light sentence as GB Annex 6 and "Laws RTO 1995 Art 58, CUR reg 37 and CU(A)R 2005" for tints.
+- **nidirect, "Penalties"** (the NI Code's annex; 2026-09-21), read in full: the table has no row for a
+  vehicle's condition or tyres; "No MOT certificate", "£1,000", no points. Its "failure to rectify
+  vehicle defects" sentence matches GB Annex 5.
+- **nidirect, "Motor vehicle documentation, learner and newly qualified driver requirements"** (the NI
+  Code's annex; 2026-09-22), read in full. "Cars and motorcycles must normally pass an MOT test (vehicle
+  test) four years from the date of the first registration and every year after that." [V] "Driving an
+  unroadworthy vehicle may invalidate your insurance." [V] It also still says: "From 30 September 2013,
+  motor vehicles manufactured before 1960 will be exempted from an MOT requirement" [V], which differs
+  from nidirect's "How the MOT scheme works" (40 years). Neither lesson uses the annex's line.
+- **nidirect, "Maintaining your vehicle"** (2023-08-02), read in full: "there must be at least the legal
+  minimum 1.6 mm of tread and preferably more than 2 mm" [V]; "there is no legal requirement to fit
+  specialist tyres to deal with snow or ice" [V].
+- **nidirect, "Fixed Penalties for motoring offences"** (2026-05-14), read in full: DVA graduated fixed
+  penalty notices can be "endorsable - for example, for a defective tyre" [V]; no figure given for it.
+- **nidirect, "Endorsements and penalty points"** (2021-07-02) and **"Keeping your vehicle safe"**
+  (2026-05-19, in its "Driving for a living" section), read in full; neither is cited.
+
+### The MOT (Great Britain)
+
+- **GOV.UK (DVSA), "Getting an MOT"** (content API, public_updated_at 2024-11-28, updated_at
+  2026-09-09), all nine parts re-read. Part C §1's quotations match, including "The maximum fee for a car
+  is £54.85" [V] and "You do not pay VAT on the fee." [V] Additionally: "You must get an MOT for your
+  vehicle by either" [V]; "the anniversary of its last MOT, if it’s over 3 years old" [V]; "An MOT lasts
+  for a year." [V]; "You can get an MOT up to a month (minus a day) before it runs out and keep the same
+  renewal date." [V]; "You can get an MOT earlier, but the renewal date for the following year will
+  change to one year (minus a day) from the date the vehicle last passed its MOT." [V]; the second
+  example, a pass on 14 April giving an expiry of 13 April; "This does not apply if your last MOT was in
+  Northern Ireland and your vehicle’s next test is in Great Britain." [V]; "Otherwise, you’ll need to
+  get it repaired before you can drive." [V]; "If you can take your vehicle away, it must still meet the
+  minimum standards of roadworthiness at all times." [V]; "You can be fined up to £2,500, be banned from
+  driving and get 3 penalty points for driving a vehicle that has failed its MOT because of a
+  ‘dangerous’ problem." [V]; "You cannot drive or park your vehicle on the road if the MOT has run out.
+  You can be prosecuted if caught." [V]; "You can be fined up to £1,000 for driving a vehicle without a
+  valid MOT." [V]; "you cannot renew your vehicle tax if your MOT has expired." [V]; "Only centres showing
+  the blue sign with 3 white triangles can carry out your MOT." [V]; "You can watch the test from a
+  viewing area but you’re not allowed to interrupt the tester." [V]; "The test does not cover the
+  condition of the engine, clutch or gearbox." [V]; "problems to monitor or fix in the future" [V];
+  retests "within 10 working days" [V], "before the end of the next working day" [V], list including
+  "wheels and tyres (excluding motorcycles and motorcycles with sidecar)" [V]; appeals "within 14
+  working days of the test" [V]; "You should not have any repairs made until the appeal process has
+  finished." [V]; DVSA "0300 123 9000", "Monday to Friday, 8am to 5pm" [V] (G-N1, re-read today).
+- **DVSA, MOT inspection manual, Introduction** (content API; manual public_updated_at 2026-06-01, latest
+  change note 1 June 2026, speed limiter), re-read in full. Section 7's three definitions match Part C
+  §1; "If a vehicle has only minor defects, it will pass its MOT inspection and a test certificate will
+  be issued. If a vehicle has any major or dangerous defects, it must be failed and a refusal notice
+  issued." [V]; "The MOT test must be carried out without dismantling, so it is not always possible to
+  inspect some testable items." [V]; "When an item is not sufficiently deteriorated to justify
+  rejection, there may be an option to select ‘advisory’ to inform the presenter of this fact." [V];
+  "Unlike advisory items, the use of minor defects, where appropriate, is mandatory." [V]
+- **DVSA, "Car parts checked at an MOT"** (2015-05-21), re-read: "It isn’t the same as having your
+  vehicle serviced and doesn’t check its general mechanical condition." [V]
+- **DfT news story, 18 January 2018**, re-read: "By law, all vehicles must be roadworthy, regardless of
+  whether they have passed an MOT" [V]; "The test was introduced in 1960, requiring vehicles to undergo a
+  first check after 10 years. It was changed in 1967 to 3 years." [V]; also "costs owners a maximum of
+  £54.85" (2016).
+- **DfT, "Changes to the date of the first MOT test ..."** (content API, outcome public_updated_at
+  2024-01-25), final outcome re-read in full: "Given the significant concerns about road safety that
+  were raised, and that any potential savings made by motorists would be limited by the additional cost
+  of potential defects not identified at the MOT, the government does not intend to proceed in changing
+  the date of a vehicle’s first MOT." [V] The response PDF was not read.
+- **DfT, "Proposed changes to penalties for motoring offences"** (content API; opening 7 January 2026,
+  closing 11 May 2026; document type still `closed_consultation`, no outcome field, updated_at
+  2026-09-17). The consultation document read: introduction, "Introducing new penalties for motoring
+  offences and road traffic matters", Questions 25 to 31. "This consultation does not present a
+  preferred option" [V]; "Police and road safety groups have told the government they are concerned that
+  some offences do not carry extra penalties, such as penalty points or vehicle seizure." [V]; Question
+  29: "In your view, should the government introduce penalty points for the offence of driving or using
+  a vehicle with no current MOT?" [V]; Question 30 the same for vehicle seizure. G-L7's consultation half:
+  no outcome as of 26 September 2026.
+- **"Historic (classic) vehicles: MOT exemption criteria"** (2026-05-19) and **"Historic (classic)
+  vehicles: MOT and vehicle tax"** (2025-01-24), re-read. Criteria: "no substantial changes have been made
+  to the vehicle in the last 30 years" [V]; "Your vehicle must be roadworthy whether it is exempt or not,
+  you may wish to voluntarily undertake an MOT test anyway." [V] Guide: "You do not have to apply to stop
+  getting an MOT for your vehicle each year. However, you must still keep it in a roadworthy condition."
+  [V]; "You can be fined up to £2,500 and get 3 penalty points for using a vehicle in a dangerous
+  condition." [V]
+- **"Check the MOT history of a vehicle"** (start page, 2017-10-20, updated_at 2026-09-25), re-read. "if
+  it passed or failed" [V]; "the mileage recorded when it was tested" [V]; "when the next MOT is due"
+  [V]; for GB tests "see what parts failed at each test, and if any parts had minor problems" [V]; "Your
+  MOT history may also tell you if your vehicle has been recalled for a safety reason, depending on the
+  manufacturer." [V]; cars "since 2005"; NI "You can only get results for tests done since 2017." [V]
+  The service itself was not read (G-L6 stays open).
+
+### The DVA test (Northern Ireland)
+
+- **nidirect, "How the MOT scheme works"** (2026-05-22), re-read in full. "It is an offence to use a
+  vehicle of MOT test age that doesn’t have a current test certificate on a public road." [V]; "as a
+  general rule the points below suggest when your vehicle will be due a MOT test" [V]; "cars and
+  motorcycles which are four years old and over" [V]; "An official MOT vehicle test certificate issued
+  within the United Kingdom is valid in Northern Ireland." [V]; "If you get your next MOT in Northern
+  Ireland, you cannot retain any credit from a test done in another part of the United Kingdom." [V];
+  "You will get a new 12‑month MOT certificate starting from the date your vehicle is tested." [V];
+  "you may not be able to get a vehicle test appointment before your current MOT expires. If this is the
+  case, you must book the earliest available test appointment for your vehicle." [V]; historic: "Even if
+  the vehicle is exempt from annual testing, it must be maintained in a roadworthy condition." [V]
+- **nidirect, "Vehicle test fees"** (2026-03-12), re-read (G-N1): "Class IV Motor Car and Heavy Motor
+  Car", full test "38.00", retest "29.50" [V].
+- **nidirect, "Driving and vehicle test centres"** (2026-08-31), re-read: centres listed by county with
+  the vehicle tests each carries out; Omagh (2 Mullaghmena Park) lists "Cars". The lesson gives no count.
+- **nidirect, "A guide to booking your MOT/ vehicle test"** (2026-06-09), re-read (G-L7, TECs). The TEC
+  sentences match Part C §2; additionally "if it is kept in a roadworthy condition, is taxed and
+  insured" [V]; "The PSNI has agreed not to penalise drivers whose MOT has expired so long as" [V] (three
+  conditions: roadworthy and not SORN; properly insured; a booked appointment that can be proved); "All
+  other vehicle roadworthiness and insurance offences will be dealt with in the usual way." [V]; the ABI
+  "has confirmed that the lack of a valid MOT certificate would not necessarily invalidate a motor
+  insurance policy" [V]; "These arrangements only apply in Northern Ireland." [V]; "You can only get
+  results for tests done since December 2017 for vehicles tested in Northern Ireland." [V]. The page
+  also carries the Citroën 'stop drive' notice (from 20 June 2025), still present.
+- **nidirect, "After the MOT/ vehicle test"** (2026-05-22), re-read in full. "a notification of refusal
+  containing details of the faults which will have to be repaired for the re-test" [V]; "An application
+  for a re-test must be made within 21 days of the original test. After 21 days a full test fee will be
+  needed. Re-tests must be completed within 60 days of the original test." [V]; "If your vehicle fails an
+  MOT test it is treated as not being roadworthy and it should not be on the road, regardless of whether
+  you have time remaining on an existing MOT certificate. Anyone using a vehicle on the road or in a
+  public place without a valid test certificate or with defects may be committing an offence." [V];
+  appeal at the centre to a manager, or "within 14 days of the initial test being carried out" [V], by
+  "0300 200 7862" [V] (G-N1) or email; "Do not have your vehicle repaired or any work carried out on it
+  before your appeal is considered, as any change to your vehicle may affect the outcome of the appeal."
+  [V]
+- **nidirect, "The MOT certificate"** (2026-09-21), re-read in full. "The MOT certificate confirms that
+  your vehicle at the time of its test met the minimum acceptable environmental and road safety standards
+  needed by law. It doesn’t mean that the vehicle is roadworthy for the life of the certificate and isn’t
+  a substitute for regular maintenance." [V]; "It's generally an offence to use a vehicle of test age that
+  doesn’t have a current test certificate on a public road except when" [V], then three journeys,
+  including "bringing it away from a test centre after it has failed the test, to a place of repair" [V];
+  "Even in the above circumstances you may still be prosecuted for driving an unroadworthy vehicle if it
+  doesn’t meet various regulations affecting its construction and use. The insurance may also not be
+  valid." [V]; "Any defects that are not serious enough to result in a test failure will be shown on a
+  vehicle test certificate. It's important that these defects are repaired as soon as possible." [V]
+
+### Gates, places, keys
+
+- **Gates.** G-N1 closed for lessons 20 and 21 (DVSA 0300 123 9000, DVA 0300 200 7862, £54.85, £38.00
+  and £29.50, all re-read today). G-L1 fallback written (the Tests Regulations 1981 not named; s.47 is
+  the basis). G-L2 fallback (only the manual's Introduction cited; the categories table points to
+  sections read for lessons 3, 6, 7, 8, 9, 10, 11). G-L3 fallback (the hedges kept; Personal Finance
+  lesson 8). G-L4 fallback (Scotland's scale not read, said in the body). G-L5 partly closed: brakes and
+  steering guidelines read; the dangerous-condition guideline not found, and the lesson uses the
+  statutory maxima only. G-L6 fallback (start page only). G-L7 closed for today (TECs as dated; no
+  consultation outcome). G-T3 and G-H10 not needed (no fitment dates stated).
+- **Places:** lesson 20, Spalding and Corby; lesson 21, Goole and Omagh. Each checked with `grep -rlw`
+  outside car-basics/research on 26 September 2026 and unused. No other place is named.
+- **Quiz keys:** lesson 20, 3,0,2,1,0; lesson 21, 1,0,3,1,2. Checked by script under the relaxed rule
+  against every lesson on disk (01 to 19) and each other.
+
+### Notes for the orchestrator
+
+- **Unread line.** The drafter read "Road Traffic (Northern Ireland) Order 1995" (Articles 54, 56, 58
+  and 63) and the Sentencing Council's brakes and steering guidelines today. Their `unread:` entries
+  ("Road Traffic (Northern Ireland) Order 1995", "Sentencing Council brakes defective guideline",
+  "Sentencing Council steering defective guideline") were left in place because this drafter was told
+  to append only. Lesson 20 names the Order as "Road Traffic (Northern Ireland) Order", "made in 1995",
+  without the exact string; once the entry is removed, it can be named in full.
+- **SOURCES correction** above: reg 27's definitions are in 27(6)(a), not 27(5).
+
+## Stage 4 note, lesson 17 second pass (2026-09-26)
+
+- ORR, "Monitoring smart motorways", re-read live 26 September 2026 [V]: its related publications
+  list "Quality assurance of smart motorways - Fourth-year progress report Published 13 March 2025"
+  and the third-year report and before-after assessment, "Published 14 December 2023". Not read.
