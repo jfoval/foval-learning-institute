@@ -2770,7 +2770,11 @@ material (§4.4) **before** the resistance evidence, not after it.
 - Malawi (Decker and colleagues, *BMC Public Health* 2018, abstract): past-year sexual assault
   "RR 0.68, 95% CI 0.56, 0.82". [V] South Sudan and Kakuma (Wheeler and colleagues, *J Adolesc
   Health* 2024, abstract): rape fell "from 10.7% to 5.5%" in programme schools, "no change in the
-  control schools". [V] Both are implementation trials run with the programme provider.
+  control schools". [V] Both are implementation trials run with the programme provider. (Stage 4
+  note, lesson 12: Wheeler's words are "there was no change in the control schools (10.0%-9.0%)"
+  [V]; "run with the provider" rests on the author affiliations, which list Ujamaa-Pamodzi and
+  Ujamaa-Africa for Decker and Ujamaa Africa for Wheeler [V]. Both Nairobi trials also ran a
+  boys' programme alongside the girls'; see "Gate closures, lesson 12".)
 - **Kettrey and colleagues, *J Adolesc Health* 2023;72:831-44** (meta-analysis, abstract): 80
   studies of campus programmes; "Effects on sexual assault victimization were significant but small
   (g = 0.15)", and "programs that use a risk reduction framework are associated with less favorable
@@ -2778,13 +2782,22 @@ material (§4.4) **before** the resistance evidence, not after it.
   ("Empowerment Self-Defense Prevents Rape: A Response to Kettrey et al.'s Meta-Analysis", 2024),
   and Kettrey's team replied that their meta-analysis "Is Not About Empowerment Self-Defense
   Programs" (titles only, PubMed; neither letter read). The dispute is about which programmes count
-  as ESD.
+  as ESD. (Stage 4 note, lesson 12: that sentence is the research file's reading of the two titles,
+  not of either letter, and both titles are on the unread line: never teach it as what either side
+  argues. A third comment exists, Coker and Ray (CDC), *J Adolesc Health* 74(1):210, 2024, PubMed
+  38103920, metadata only, unread. Kettrey's abstract also says "effects on sexual assault
+  perpetration were nonsignificant" [V], and its pool is "American college students".)
 - **Hollander**, *Violence Against Women* 2014 (abstract): a 10-week university feminist
   self-defence class; participants "are less likely to experience sexual assault" over a year than
   similar women who did not take it. [V] Non-randomised. Her 2016 and 2018 reviews (abstracts)
   argue ESD is "so far the *only* approach that has produced substantively significant decreases in
   victimization rates" and that the critiques (ineffective, victim-blaming, neglects acquaintance
-  assault) are "misguided". [V]
+  assault) are "misguided". [V] (Stage 4 note, lesson 12: the 2016 abstract's list has four items,
+  not three: "concerns that it is ineffective, encourages victim blaming, neglects acquaintance
+  assault, and does not target the underlying factors that facilitate sexual violence" [V]. The
+  fourth is the critics' value case; quote the list whole. The same abstract says ESD "helps to
+  change the root conditions that allow violence against women to flourish". [V] See "Gate
+  closures, lesson 12".)
 
 **The value question underneath (3.1, category 3).** Whether prevention effort should go to
 teaching potential victims to resist, or to changing perpetrators and communities, is partly a
@@ -2845,7 +2858,10 @@ assaults. A lesson should give both in their own terms and reach no verdict on t
   10".)
 - **Training under stress**: Nieuwenhuys and Oudejans, *Cogn Process* 2011 (abstract): 27 officers;
   after training with an opponent who shot back with soap cartridges, "shot accuracy of the
-  experimental group no longer deteriorated under anxiety", still present at 4 months. [V] But
+  experimental group no longer deteriorated under anxiety", still present at 4 months. [V] (Stage 4
+  note, lesson 12: the abstract does give a possible mechanism: "Additional analyses showed that
+  these effects are potentially related to changes in visual attention on task-relevant
+  information." [V] Never write that neither abstract gives one; the 2015 abstract gives none.) But
   Nieuwenhuys and colleagues, *Appl Ergon* 2015 (abstract, 57 officers): threat-induced errors in
   shoot/don't-shoot decisions "persisted" despite three weeks' practice and "may be hard to prevent
   within the limits of available practice". [V] Together: practice with an opponent who shot back
@@ -5171,3 +5187,134 @@ Free pages.
 - Victim Support NI: home [V] "We offer a free and confidential service, whether or not the crime has been reported, regardless of how long ago the crime took place."; contact page [V] "02890 243133", "02871 370086", "Opening hours: Monday – Friday from 9am-5pm"
 - VictimConnect: [V] "1-855-4VICTIM (855-484-2846)"; [V] "We can only talk, text, or chat with you if you are currently physically safe."; [V] "If you are in immediate danger, please call 911 for an immediate response."
 - RAINN (browser, home page): [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español."; "Call 800.656.HOPE (4673)"; [V] "THANK them, ASK how you can help, LISTEN, and KEEP supporting."
+
+
+## Gate closures, lesson 12 (2026-09-25)
+
+From lesson 12's Stage 4 review (Reviewer F, primaries fetched 2026-09-25 into the review's
+scratchpad: PubMed records for Senn 2015 and 2023, Sarnquist 2014 and 2024, Baiocchi 2017, the
+Nairobi protocol, Decker 2018, Wheeler 2024, Kettrey 2023, Nieuwenhuys 2011, and the two letters;
+Europe PMC full text of Senn 2017 and of the Expression of Concern; Crossref abstracts for Hollander
+2014, 2016 and 2018; London Met repository 5706; the CDC STOP SV capture 20210608134353; the NWMAF
+guide; the UConn Police page; OSHA 3148; ONS's year ending March 2024 article; and the support-line
+pages). The verbatim block below was script-checked against the fetched copies, 90 of 90 strings
+found; RAINN's line was read in a browser. The fixer re-read the Hollander 2016 and Nieuwenhuys 2011
+abstracts, Kettrey's abstract, Senn 2017's Table 4 and the NWMAF page from those copies, and
+re-fetched nine of the ten line pages on 25 September 2026 (every number found; Rape Crisis NI with
+a browser user agent; RAINN not re-fetched, read by Reviewer F in a browser the same day).
+
+### Corrections (also noted in place)
+- **Part C §4.3, Hollander 2016:** the critics' objections are four, not three; the one the research
+  file dropped, "does not target the underlying factors that facilitate sexual violence", is their
+  value case. Quote the list whole.
+- **Part C §5, Nieuwenhuys 2011:** the abstract gives a possible mechanism, "changes in visual
+  attention on task-relevant information". The 2015 abstract gives none.
+- **Part C §4.3, Nairobi:** both the 2017 cluster trial and the 2024 trial paired the girls'
+  programme with a concurrent boys' programme ("The boys' program promotes healthy gender norms"),
+  so their results are for the pair, not for self-defence alone; the 2024 trial reports
+  exploratory results for boys that its abstract doesn't give. The 2017 trial is not smaller than
+  the 2024 one (5,686 girls analysed against 3,263).
+- **Part C §4.3, Expression of Concern:** "The actual ratio is under dispute among the authors"; the
+  editor's statement is not that the ratio was higher as a settled fact.
+- **Part C §4.3, Baiocchi 2017's conflict statement** also says the Stanford evaluators had no
+  financial ties to Ujamaa-Africa; quote both halves or neither.
+- **Part C §4.2, Senn 2017:** the proponents' reason for teaching women now is that "few
+  interventions with men have been rigorously evaluated"; their word for the perpetration
+  programmes is "boys", not "men". The two-year completed-rape differences carry p = .10 and .13
+  (.02 at twelve months) and the 24-month interval runs from 8.5 points fewer to 1.1 more.
+- **Part C §7:** the commercial "how to choose" pages were not quoted; "never be a victim" is in no
+  source read. Note also UConn's twelve-hour course for men (line below).
+
+### Verbatim block (script-checked)
+- Senn 2015, PubMed 26061837: [V] "primarily by male acquaintances"
+- Senn 2015, PubMed 26061837: [V] "as was common university practice"
+- Senn 2015, PubMed 26061837: [V] "Of the women assigned to the resistance group, 91% attended at least three of the four units."
+- Senn 2015, PubMed 26061837: [V] "Funded by the Canadian Institutes of Health Research and the University of Windsor"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "5.2 (1.1) | 7.2 (1.3) | 8.1 (1.4)"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "9.8 (1.4) | 10.9 (1.5) | 11.8 (1.6)"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "−4.6 | −3.7 | −3.7"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "[−8.5, −0.6] | [−8.1, 0.7] | [−8.5, 1.1]"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "46.3 | 34.0 | 31.3"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] ".02 | .02 | .10 | .13"
+- Senn 2017, PMC5821219, Table 4 (cells joined by |): [V] "63.2 | 63.8 | 63.9"
+- Senn 2017, PMC5821219 full text: [V] "continued to be efficacious up to 24 months, albeit with diminishing, no longer statistically significant, risk reductions"
+- Senn 2017, PMC5821219 full text: [V] "Only participants enrolled in the first year of the trial’s recruitment period were invited to complete the 24-month survey, and therefore, only 370 participants (185 from each group) were included in the 24-month analyses."
+- Senn 2017, PMC5821219 full text: [V] "Funding did not allow follow-up of the entire cohort for 2 years."
+- Senn 2017, PMC5821219 full text: [V] "a booster may be required in the second year of university to maintain the larger effects observed in the first year of the trial"
+- Senn 2017, PMC5821219 full text: [V] "It is possible that the 12-hr program cannot address these particular circumstances sufficiently."
+- Senn 2017, PMC5821219 full text: [V] "our pilot studies during the development phase suggested that shorter units with less practice time led to effects with limited duration"
+- Senn 2017, PMC5821219 full text: [V] "We do not know whether EAAA would have similar effects for less privileged young women who do not attend university"
+- Senn 2017, PMC5821219 full text: [V] "the opportunity to speak to someone knowledgeable about local sexual assault resources"
+- Senn 2017, PMC5821219 full text: [V] "survivors realized that their experience was too recent and dropped out of the study"
+- Senn 2017, PMC5821219 full text: [V] "The EAAA program is one critical piece of the solution for campus sexual assault."
+- Senn 2017, PMC5821219 full text: [V] "reductions in perpetration through widespread implementation of the few effective or promising interventions for boys"
+- Senn 2017, PMC5821219 full text: [V] "for the majority of sexual assault situations where there is no bystander present"
+- Senn 2017, PMC5821219 full text: [V] "few interventions with men have been rigorously evaluated"
+- Senn 2017, PMC5821219 full text: [V] "Those that are effective usually show attitudinal changes for a few months, with no effect on the occurrence of rape or other forms of sexual assault"
+- Senn 2017, PMC5821219 full text: [V] "yielding reductions between 30% and 64% at 2 years"
+- Senn 2017, PMC5821219 full text: [V] "when their intentions are detected early and their actions thwarted by bystanders or by the women they have targeted"
+- Senn 2017, PMC5821219 full text: [V] "which explanation is correct is an empirical question that could be tested in future research"
+- Senn 2017, PMC5821219 full text: [V] "The study findings are likely generalizable to any North American university campus"
+- Senn 2017, PMC5821219 full text: [V] "This study was supported by an Operating Grant from the Canadian Institutes of Health Research (FRN 110976) and by the University of Windsor."
+- CDC STOP SV, capture 20210608134353: [V] "Empowerment-based training approaches have typically been implemented and evaluated with college populations."
+- CDC STOP SV, capture 20210608134353: [V] "These approaches can serve as a useful and effective complement to efforts focused on the prevention of perpetration, particularly when implemented as part of a comprehensive, multifaceted prevention effort."
+- CDC STOP SV, capture 20210608134353: [V] "It is critical that any program, practice, or policy focused specifically on reducing risk for victimization avoid placing any responsibility, implied or explicit, for potential victimization on participants."
+- CDC STOP SV, capture 20210608134353: [V] "in keeping with CDC’s emphasis on the primary prevention of perpetration"
+- Sarnquist 2014, PubMed 24733880: [V] "A prospective cohort of 1978 adolescents from 4 neighborhoods near Nairobi"
+- Sarnquist 2014, PubMed 24733880: [V] "The standard-of-care (SOC) group (n = 428) received a life skills class."
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "The participants were primary school girls aged 10-16."
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "Classroom-based interventions for girls and boys were delivered by instructors from the same settlements"
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "The boys' program promotes healthy gender norms."
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "Fourteen schools with 3147 girls from the intervention group and 14 schools with 2539 girls from the control group were included in the analysis."
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "95 % CI = (0.4, 8.0)"
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "Members of the Stanford evaluation team did not have their time compensated for by Ujamaa-Africa and do not have ongoing financial connections with Ujamaa-Africa."
+- Baiocchi 2017, PubMed 27562036 (abstract + COI): [V] "Thus, the in-country data collection was funded by Ujamaa-Africa."
+- Sarnquist 2024, PubMed 37966676: [V] "This study evaluated the joint implementation of a girls' ESD program and a concurrent boys' program"
+- Sarnquist 2024, PubMed 37966676: [V] "Schools were randomized to the 12-h intervention or 2-h standard of care."
+- Sarnquist 2024, PubMed 37966676: [V] "findings should be interpreted cautiously due to limitations"
+- Sarnquist 2024, PubMed 37966676: [V] "Exploratory analyses of boys' victimization and perpetration are reported."
+- Sarnquist 2024, PubMed 37966676: [V] "The authors declare no competing interests."
+- Sarnquist 2024, PubMed 37966676: [V] "NCT02771132"
+- Protocol, PubMed 31248392: [V] "NCT02771132"
+- Expression of Concern, PMC8133355: [V] "The surveys were given in small groups of two to four girls with one interviewer"
+- Expression of Concern, PMC8133355: [V] "which is not reflected in the article, even though it was published after the conclusion of the study"
+- Expression of Concern, PMC8133355: [V] "Post publication peer review concluded that the higher ratio could affect the results, in that it may have caused underreporting of sexual assault incidents."
+- Expression of Concern, PMC8133355: [V] "The actual ratio is under dispute among the authors."
+- Decker 2018, PubMed 30514264: [V] "The unit of randomization and analysis was the school (n = 141)."
+- Decker 2018, PubMed 30514264: [V] "Intervention participants received a 12-h intervention over 6 weeks, with refreshers."
+- Decker 2018, PubMed 30514264: [V] "Ujamaa-Pamodzi, Lilongwe, Malawi"
+- Decker 2018, PubMed 30514264: [V] "Ujamaa-Africa, Nairobi, Kenya"
+- Wheeler 2024, PubMed 38085205: [V] "there was no change in the control schools (10.0%-9.0%)"
+- Wheeler 2024, PubMed 38085205: [V] "Ujamaa Africa, Nairobi, Kenya"
+- Kettrey 2023, PubMed 37037692: [V] "385 effect sizes from 80 eligible studies disseminated between 1991 and 2021"
+- Kettrey 2023, PubMed 37037692: [V] "effects on sexual assault perpetration were nonsignificant"
+- Kettrey 2023, PubMed 37037692: [V] "programs that use a risk reduction framework are associated with less favorable outcomes than programs that do not use a risk reduction framework"
+- Kettrey 2023, PubMed 37037692: [V] "Considering the limited effect of campus sexual assault prevention programs on violence, we recommend programming efforts move beyond a focus on individuals and, instead, adopt an ecological perspective targeting individuals, social relationships, community factors, and societal factors."
+- Hollander 2014/2016 abstracts (Crossref): [V] "concerns that it is ineffective, encourages victim blaming, neglects acquaintance assault, and does not target the underlying factors that facilitate sexual violence"
+- Hollander 2014/2016 abstracts (Crossref): [V] "empowerment-based self-defense training helps to change the root conditions that allow violence against women to flourish"
+- Hollander 2014/2016 abstracts (Crossref): [V] "a mixed methods study of a 10-week, university-based, feminist self-defense class"
+- Vera-Gray and Kelly, London Met repository 5706: [V] "It ends in exploring the possibilities of feminist self defence as a means of making safety work visible and measurable, to both ourselves and the wider world."
+- Nieuwenhuys 2011, PubMed 21431863: [V] "these effects are potentially related to changes in visual attention on task-relevant information"
+- Nieuwenhuys 2011, PubMed 21431863: [V] "At the retention test, 4 months after training, positive results for the experimental group remained present"
+- NWMAF guide page: [V] "Knows the facts – about abuse and assault aimed at women, transgender and non binary people, and others targeted for violence"
+- NWMAF guide page: [V] "no one should feel pressured into doing specific exercises"
+- NWMAF guide page: [V] "Published September 26, 2025"
+- NWMAF page schema: [V] ""name":"Amy Eckert""
+- UConn Police page: [V] "The 12 hour course usually broken down into 3 and 4 hour blocks"
+- UConn Police page: [V] "Please note that any self-defense class requires practice time and physical exertion."
+- UConn Police page: [V] "The goal of this 12 hour course (4 classes) is to provide realistic self-defense options to men regardless of their physical conditioning."
+- OSHA 3148 PDF (pdftotext drops the hyphen in hands-on at a line break): [V] "Both de-escalation and self-defense training should include a hands"
+- ONS nature of violent crime YE Mar 2024: [V] "a higher proportion of men were a victim of violence with or without injury where the perpetrator was a stranger (1%) than women (0.4%)"
+- Rape Crisis NI home: [V] "0800 0246 991 Information & Support Line Monday to Thursday, 6pm – 8pm"
+- Rape Crisis E&W want-to-talk: [V] "A free phone and online chat service for anyone aged 16+ in England and Wales"
+- Victim Support get-help: [V] "Call our Supportline free on 08 08 16 89 111 , 24/7"
+- Live Fear Free: [V] "Calls are welcomed in Welsh. Available 24 hours a day 7 days a week."
+- Rape Crisis Scotland helpline: [V] "Get in touch any day between 5pm – midnight: Call: 08088 01 03 02"
+- Rape Crisis Scotland helpline: [V] "We support people of all genders living in Scotland aged 13+"
+- Victim Support Scotland: [V] "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"
+- DSA Helpline: [V] "The DSA helpline is a free, confidential service for anyone aged 18+, providing 24/7, 365-day support."
+- Victim Support NI contact: [V] "02890 243133 Opening hours: Monday – Friday from 9am-5pm Foyle Hub: 25D Bishop Street Londonderry BT48 6PR 02871 370086"
+- VictimConnect: [V] "Call or text directly at 1-855-4VICTIM (855-484-2846)"
+- VictimConnect: [V] "We can only talk, text, or chat with you if you are currently physically safe."
+
+- RAINN home page (browser): [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español. Call 800.656.HOPE (4673)"

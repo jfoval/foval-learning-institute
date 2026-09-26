@@ -291,3 +291,27 @@
 - **Measured pattern seen again: an archived page treated as current.** The drafter found the old
   URL dead and the site search empty, and cited a 2021 capture; the page had moved into a combined
   full-page version. Search the site for a phrase from the page's own text, not only its title.
+
+## 2026-09-25 — from lesson 12's Stage 4 fix
+
+- **SOURCES Part C §4.3 and §5 corrected** (Stage 4 notes in place; lines in "Gate closures, lesson
+  12"). A later lesson or podcast script must not say: that Hollander lists three objections (four,
+  and the dropped one, "does not target the underlying factors that facilitate sexual violence", is
+  the critics' value case); that neither Nieuwenhuys abstract gives a mechanism (2011: "changes in
+  visual attention on task-relevant information"); that the Nairobi results are for self-defence
+  alone (both trials ran a boys' programme alongside); that the Expression of Concern settles the
+  interviewer ratio ("under dispute among the authors"); or that "the dispute is about which
+  programmes count as ESD" is either letter's argument (it is the research file's reading of two
+  unread titles).
+- **Say what the course found, not what exists.** "No controlled evidence on classes for men" is
+  "this course found none", never "no trial has tested it". Lesson 12 had six such slips. Lessons
+  13 to 15 and any script should keep the scope.
+- **The critics of resistance education have no own-words primary in SOURCES** beyond Kettrey's
+  recommendation and Hollander's list of their objections. Vera-Gray and Kelly are not critics of
+  resistance training (their abstract ends favouring feminist self-defence). A value question never
+  goes under "What people get wrong".
+- **Content notes that offer a skip must list every later place the subject returns**, including
+  the exercise, its answers and the quiz, and come before the first mention (lesson 12's opening
+  was rewritten so it names no assault before the note).
+- **Quiz keys:** lesson 12 is 0,3,1,0,2,1 (unchanged). Lesson 13's fixer should recheck under the
+  lesson 12 rule against lessons 1 to 12.
