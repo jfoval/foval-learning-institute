@@ -1109,8 +1109,10 @@ more (see lesson 5's note).*
 
 *Split from the heating lesson on 2026-09-25 (see lesson 7's note).*
 
-- **Objectives:** compare the scald and legionella temperature advice and explain why neither "turn
-  it down" nor "turn it up" is safe advice on its own; apply CPSC's tap-thermometer check and read the
+- **Objectives:** compare the scald and legionella temperature advice, and explain what each body's
+  advice protects against and what its page leaves out (amended 2026-09-25 at Stage 4: the earlier
+  wording, "explain why neither "turn it down" nor "turn it up" is safe advice on its own", passed a
+  verdict in the course's voice on CPSC's advice, measured by HSE's; decision 3); apply CPSC's tap-thermometer check and read the
   result against CPSC's exposure times; identify a storage water heater's T&P valve or an unvented
   cylinder's tundish, and state what the makers read here say about checking each and who deals with
   a fault.
