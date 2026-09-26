@@ -14,8 +14,9 @@ garage page**.
 
 It takes about eight and three quarter hours of your own time, spread over a month, because the
 checks log needs a month of dated readings. An hour and a half goes on the handbook page, since it
-gathers figures from a dozen lessons' handbook hunts; about two hours on the checks log over the
-four weeks, a first full round taking about an hour and later rounds less; twenty minutes on the
+gathers figures from ten lessons' handbook hunts; about two hours on the checks log over the
+four weeks, a first full round taking about an hour and later rounds less (each extra round adds
+about half an hour); twenty minutes on the
 warning-light card; three quarters of an hour on the service page; an hour on the legal page, most
 of it on official pages for your own country; an hour and forty minutes on the breakdown plan, which
 has the most parts; half an hour on the seasonal checklist; forty minutes on the garage page; and
@@ -55,7 +56,8 @@ Lessons 13 and 19 teach the jump start and the wheel change on paper for a reaso
 gave: a page can't check a jack's footing. Every look under the bonnet starts with lesson 9's
 preparation, and on a car that plugs in, at a time when it isn't charging and without unplugging
 anything (lesson 14). If the engine has to run for the lights, it runs outdoors, never inside a
-garage, even with the door open (lesson 10).
+garage, even with the door open, which for a detached garage is this course's own precaution
+(lesson 10).
 
 **This page teaches no method.** Every instruction in it is a lesson's, and each part names the
 lesson. Nothing here adds a step or lifts a condition a lesson set. If a line below seems to ask for
@@ -82,7 +84,7 @@ recall work; tell them in writing, and do only the owner's checks without asking
 car needs the keeper's agreement, as every exercise said.
 
 You can do the whole project, and reach the top level on every part, this way. Wherever a part asks
-what you'd arrange, write "the keeper's", who the keeper is, and what you told them in writing and
+what you would arrange, write "the keeper's", who the keeper is, and what you told them in writing and
 when. "Told the lease company on 3 March, in writing, that the brake fluid was below MIN" is a
 complete line. Readings you can't take because the keeper hasn't agreed are written as "not taken:
 keeper not asked yet" or "keeper declined", with the date.
@@ -115,12 +117,12 @@ Two rules from the course hold throughout. **Never put another country's roadsid
 plan**, and that includes Great Britain's motorway steps on a Northern Ireland plan: lesson 17 found
 that Northern Ireland's motorway rule differs from Rule 277. And where the course read nothing for
 your place (Scotland's fines and consumer law, Northern Ireland's penalties, a US state outside the
-ones lessons 22 and 25 read), write "not read by this course" and the official body you'd ask.
+ones lessons 22 and 25 read), write "not read by this course" and the official body to ask.
 
 ## What you keep
 
 Eight pages, in one folder or one notebook. In front of them goes lesson 25's table, "The course's
-stop points, in one place", copied with its column for whose rule each stop is.
+main stop points, in one place", copied with its column for whose rule each stop is.
 
 1. The handbook page: the maker's figures for this car, each with its page.
 2. The checks log, with the tyre record: a month of dated readings.
@@ -163,7 +165,7 @@ Then what the later lessons added, each from the handbook, with its page:
   as seen in its pictures or from where you stood, never touched (lessons 4 and 14); the handbook's
   words for preparing the car before the bonnet is opened (lesson 14); and the charging page: the
   connector, the handbook's own charging rules, what it says about extension leads and adapters, and
-  the questions you'd put to an electrician about charging at home (lesson 14). Getting a circuit or
+  the questions to put to an electrician about charging at home (lesson 14). Getting a circuit or
   charge point checked or put in is **Call someone** in both countries (lesson 14).
 
 ## Part 2: the checks log and the tyre record
@@ -177,13 +179,14 @@ advice that is. Lesson 1 set out three bodies' intervals for tyre pressures, and
 Highway Code's weekly advice on fluid levels, which is advice in Great Britain and not a legal rule.
 Lesson 7 asked you to put your choice and its source at the top.
 
-**A month of readings.** The log covers four weeks, and each check below appears at least twice, at
-the start and at the end, and more often if your interval is shorter. Each entry has the date, and
-for the under-bonnet check the mileage.
+**A month of readings.** How many is this project's own requirement, not a lesson's: the log covers
+four weeks; the pressure check, the under-bonnet check and the walk-round each appear at least twice,
+at the start and at the end, and more often if your interval is shorter; the tread check and the
+bounce test at least once. Each entry has the date, and for the under-bonnet check the mileage.
 
 - **Pressures, cold, with a gauge** (lesson 7): the car stood at least three hours, off the road on
   level ground; each tyre's reading, the time, and its difference from the maker's figure. The spare
-  only if it's carried inside the car. If a tyre is low, write how much and add the air the next
+  only if it is carried inside the car. If a tyre is low, write how much and add the air the next
   time you're at an air line anyway, not as part of this project (lesson 7).
 - **Tread at three points, and damage** (lesson 8): at least once in the month, each tyre at three
   points round it and across it, with the gauge or the coin you used; any cut, cord, lump, bulge or
@@ -199,7 +202,7 @@ for the under-bonnet check the mileage.
   wheels.
 
 **What a reading means is the lesson's, not yours to improvise.** Brake fluid below MIN, or a level
-you keep making up, is **Call someone** (lessons 6 and 9), and for a level below MIN, Nissan's
+that keeps falling from week to week, is **Call someone** (lessons 6 and 9), and for a level below MIN, Nissan's
 handbook, for its own car, says not to drive until the brake system has been checked. A milky or
 black, sludgy dipstick is **Call someone** (lesson 9). If anything looks wrong, stop, write it down,
 and label it as its lesson did.
@@ -207,8 +210,8 @@ and label it as its lesson did.
 **The tyre record**, beside the log (lessons 7 and 8): the tyre size; the cold pressures with where
 each came from; your trigger point, worked out and labelled as lesson 7's step 4 did it; each tyre's
 date code, read as week and year; the wear pattern across each tread; and your own replacement line,
-with whose advice it follows. Lesson 8 set out the positions above the legal floor and who holds
-each; your line names one, with its source and that source's interest, as lesson 8 labelled them.
+with whose advice it follows. Lesson 8 set out the positions, from the legal floor with Michelin's
+case to the earlier replacement points, and who holds each; your line names one, with its source and that source's interest, as lesson 8 labelled them.
 
 ## Part 3: the warning-light card
 
@@ -223,22 +226,24 @@ instruction in its own words, and a label.
   Lesson 5's table showed two makers giving different instructions for the same light on petrol cars
   sold in the same country, which is why your card copies yours and nobody else's.
 - **The red brake light and the amber ABS light**, in the handbook's words (lesson 6).
-- **The check-engine light, steady and flashing**, or "not stated" (lesson 11); ABS; the airbag
-  light; the tyre pressure light.
-- **For a diesel:** the glow-plug light (lesson 2), and the DPF and AdBlue lights (lesson 3).
+- **The check-engine light, steady and flashing**, or "not stated" (lesson 11); the airbag light;
+  the tyre pressure light.
+- **For a diesel:** the glow-plug light (lessons 2 and 11), and the DPF and AdBlue lights (lesson 3).
 - **The start-up check** (lesson 11): which lights came on and went out when you switched on without
   starting, parked, and any that the handbook says should light and didn't, noted for a garage.
 
-Across the top, one line: stopping "in a safe place" means the places lessons 16 and 17 teach, and
-on a motorway or other fast road the callout's steps for your country come first.
+Across the top, one line: stopping "in a safe place" means the steps for your own country on your
+breakdown plan (Part 6): the callout's and lessons 16 and 17's in Great Britain, your state
+handbook's and the callout's in the US, and Northern Ireland's own Code's in Northern Ireland.
 
 ## Part 4: the service page
 
 From lesson 24, "Choosing a garage, servicing and warranties", and lesson 2, with lines from lessons
 3 to 6. Reading the schedule is **Yours**; the servicing beyond the owner's checks is **Call
-someone** (lesson 24).
+someone** (lesson 24). If the car is leased, financed or a company car, lesson 24 has you find the
+schedule and note who arranges the rest; the other lines are "the keeper's".
 
-- **The schedule** and where it's printed: the handbook, a service booklet or the maker's site.
+- **The schedule** and where it is printed: the handbook, a service booklet or the maker's site.
   Whether it gives a normal and a severe schedule; the handbook's list of severe conditions, word
   for word; and one honest sentence on which list your driving matches, and why (lesson 24).
 - **An oil-life monitor**, if the car has one, with the limits the handbook puts round it (lesson
@@ -266,7 +271,7 @@ This is general information, not legal advice.
 
 From lessons 8 and 20 to 23. Write it for your own place only, from the set below that fits. No line
 on this page says what you may lawfully do in your own case; it records which rules apply where you
-drive and whom you'd ask.
+drive and whom to ask.
 
 **In Great Britain**
 
@@ -294,7 +299,7 @@ drive and whom you'd ask.
 **In a US state**
 
 - **The state page** (lesson 22): your state; whether it inspects private cars for safety, and how
-  often; whether your area tests emissions; the tread rule and how it's measured, or "none on the
+  often; whether your area tests emissions; the tread rule and how it is measured, or "none on the
   page"; the fee, if the page gives one; and the page's name and the date you read it, from a web
   address ending in .gov. If your state has no inspection, write that with the date, and beside it
   the checks from lessons 7 to 10, which are then the only regular ones the car gets (lesson 22).
@@ -311,37 +316,42 @@ registered.
 
 ## Part 6: the breakdown plan
 
+This is general information, not legal advice.
+
 From lessons 13 to 19. Everything on this page is for your own country and written for the roads you
 use. It's a plan on paper: nothing on it is rehearsed at a roadside, and no job on it is tried for
 practice.
 
 **1. The numbers.** The emergency number; your breakdown service's number and your membership or
 policy number, if you have cover; and, if you don't, whether a free public service covers roads you
-use and how you'd find a recovery service (lesson 16). In England, the numbers lesson 17 gave for
+use and how to find a recovery service (lesson 16). In England, the numbers lesson 17 gave for
 England's motorways and major A-roads (it read no road operator's page for Scotland or Wales); in
 Northern Ireland, what its own Code's page gives; in the US, any assistance number your state's
 handbook gives (lesson 17).
 
-**2. The steps, for your country only.** For ordinary roads, lesson 16's: where to stop, where
-everyone stands, and, in Great Britain, which of Rule 276's lines are advice. For motorways and fast
+**2. The steps, for your country only.** For ordinary roads: in Great Britain, lesson 16's Rules 275
+and 276, where to stop and where everyone stands, with which of Rule 276's lines are advice; in
+Northern Ireland, the same steps copied from its own Code's "Breakdowns and incidents" page, which
+lesson 16's exercise has you open, not Great Britain's; in a US state, lesson 16's US advice, with
+the callout's exceptions. For motorways and fast
 roads, lesson 17's: in Great Britain, the callout's steps as Rule 277 gives them, with each line
 marked MUST or should; in Northern Ireland, the motorway steps copied from [its own Highway
 Code](https://www.nidirect.gov.uk/articles/breakdowns-and-incidents-274-287), not Great Britain's;
 in a US state, your state handbook's steps for a disabled vehicle, and the callout's exceptions (a
-shoulder too narrow, or a guardrail to wait behind). Add the one sentence you'd say to the operator
-if you were stuck in a live lane, with how you'd tell them where you are (lesson 17).
+shoulder too narrow, or a guardrail to wait behind). Add the one sentence for the operator if you
+were stuck in a lane of traffic, with how to tell them where you are (lesson 17).
 
-**3. Your roads.** The ordinary road you use most, where on it you'd try to stop, and where everyone
-would stand (lesson 16). The fast road you use most, its exits and services in order, and whether it
+**3. Your roads.** The ordinary road you use most, where on it to try to stop, and where everyone
+would stand (lesson 16), by your own country's steps. The fast road you use most, its exits and services in order, and whether it
 has a hard shoulder all the way, or "not known" and a plan for both, which is also lesson 17's
 answer in Scotland and Wales.
 
 **4. What the car carries, and where.** A warning triangle, light-coloured or high-visibility
 clothing and a torch, and what's missing (lesson 16); the spare, space saver, sealant kit or
-run-flats, the jack, the wheel brace, any locking wheel nut key, and a chock or what you'd use
+run-flats, the jack, the wheel brace, any locking wheel nut key, and a chock or what to use
 instead (lessons 18 and 19). The winter kit goes in Part 7.
 
-**5. What you'd tell a recovery service** (lesson 16): the make and model, whether it's electric or
+**5. What to tell a recovery service** (lesson 16): the make and model, whether it is electric or
 hybrid, and the handbook's towing section.
 
 **6. The jump page** (lesson 13): the handbook's page, the connection order in its own words, where
@@ -353,9 +363,9 @@ handbook says about being a donor and about the main battery after a jump.
 **7. The wheel page** (lessons 18 and 19): what the car carries and its limits in the handbook's
 words; the sealant's expiry date, read from the label without opening anything; the handbook's
 wheel-change section and pages; its jack warning, word for word; where the jacking points are; the
-torque; the three places on your roads where you'd change a wheel and the one where you wouldn't,
+torque; the three places on your roads where you would change a wheel and the one where you wouldn't,
 each with lesson 19's reason; one line on the law on a space saver where you drive, as lesson 18's
-exercise set it (in Northern Ireland, "not read by this course"); and the number you'd call for a
+exercise set it (in Northern Ireland, "not read by this course"); and the number to call for a
 flat you won't change yourself.
 
 **8. The fire, crash and flood card** (lesson 14): the emergency number for your country; the words
@@ -366,10 +376,11 @@ the card anyway, with "not electric or hybrid" where a line is only for those ca
 gave the Highway Code's fire advice for any car in Great Britain.
 
 Two cautions travel with the whole page. **Nothing on it happens on a motorway, its hard shoulder or
-an emergency area.** No repair, wheel change or jump start: Rule 277's advice is "DO NOT attempt
-repairs on your vehicle", and a jump start there is a repair on this course's reading (lessons 13
-and 18). No warning triangle: Rule 276's advice is never to use one on a motorway (lesson 16). On
-this course's reading the same goes for any other fast road, a lay-by on one included, and a wheel
+an emergency area.** No repair, wheel change or jump start, and no warning triangle. In Great
+Britain, the Highway Code's Rule 277 advises "DO NOT attempt repairs on your vehicle", and a jump
+start there is a repair on this course's reading (lessons 13 and 18); and Rule 276 advises never
+using a triangle on a motorway (lesson 16). Elsewhere, Northern Ireland included, the same stops are
+this course's reading (lesson 25's table gives it for a repair, wheel change or jump start). On this course's reading the same goes for any other fast road, a lay-by on one included, and a wheel
 change or jump start on a US freeway shoulder is a call (lessons 13 and 18). And **a place on your
 list is not permission on the day**: lesson 18's conditions are checked at the scene, and darkness,
 on this course's reading, tips a close decision towards a call.
@@ -389,14 +400,14 @@ anything for the project (lesson 15).
 For the law, this is general information, not legal advice. In Great Britain, Rule 229's two MUST
 lines in your own words, and one sentence on Rule 123 and defrosting (lesson 15). In Northern
 Ireland, write that this course didn't read Northern Ireland's Code on winter (lesson 15), and the
-page on nidirect you'd read. In a US state, which agency's page you'd check for winter rules such as
-chain controls, and the question you'd ask it.
+page on nidirect to read. In a US state, which agency's page to check for winter rules such as
+chain controls, and the question to ask it.
 
 Three items lesson 15 labelled, which belong on the winter list in its words: the exhaust pipe
 cleared of snow before the engine starts, which is **Yours**; the battery tested before winter,
 which is **Call someone**; and exhaust fumes inside the car, which is **Call someone** on this
-course's reading. On the summer list: your two hot-car habits from NHTSA's list, in the words you'd
-use, and where the reminder item goes in the car.
+course's reading. On the summer list: your two hot-car habits from NHTSA's list, in your own
+words, and where the reminder item goes in the car.
 
 ## Part 8: the garage page
 
@@ -404,7 +415,7 @@ This is general information, not legal advice.
 
 From lesson 24 and lesson 25, "Quotes, estimates, the bill and disputes".
 
-- **The garage, and how you checked it** (lesson 24). The garage you'd use; the body whose register
+- **The garage, and how you checked it** (lesson 24). The garage you would use; the body whose register
   or accreditation you checked (The Motor Ombudsman in the UK, which is funded by the garages it
   accredits and is not a statutory ombudsman; BAR, California's regulator of garages; your state's
   regulator elsewhere in the US, if it has one); the site, reached by a route you chose, never a
@@ -414,17 +425,19 @@ From lesson 24 and lesson 25, "Quotes, estimates, the bill and disputes".
   will be authorised, the parts to be used, the old parts if you want them, and any guarantee in
   writing.
 - **The allowance over an estimate where you live** (lesson 25). In the UK, the difference between a
-  quote and an estimate, as lesson 25 set it out, with whose words each line is. In a US state
+  quote and an estimate as lesson 25 set it out: The Motor Ombudsman's code for the garages it
+  accredits, and, in England, Citizens Advice's page, each line with whose words it is. In a US state
   lesson 25 read, that state's figure from its table; in any other, "not read by this course".
 - **If a bill goes wrong** (lesson 25): the dispute route for your place, free routes first, with
   any time limit, and what lesson 25 says about the car while a bill is disputed where you live.
   Where the course read nothing (Scotland's consumer law, Northern Ireland's consumer advice
-  service, a state outside the five), write "not read by this course" and whom you'd ask.
+  service), write "not read by this course" and whom to ask. In a US state other than California
+  and New York, the route is lesson 25's "elsewhere" one, the FTC's.
 - **The paperwork**: where every estimate, work order and invoice is kept, from the first day,
   because each route asks for them (lesson 25).
 
 If the car isn't yours, the garage page records who arranges servicing and repairs under the
-agreement, and what you'd do if a fault turned up between services: tell the keeper in writing.
+agreement, and what to do if a fault turned up between services: tell the keeper in writing.
 
 ## If something doesn't fit your car
 
@@ -446,17 +459,19 @@ agreement, and what you'd do if a fault turned up between services: tell the kee
 
 ## Rubric
 
-Mark each part yourself, or with someone you trust, at one of three levels.
+Mark each part yourself, or with someone you trust, at one of three levels. Wherever a level asks
+for a reading, a check or a lookup, a line written "no car to check", "not taken: keeper not asked
+yet" or "keeper declined", with its date, meets that level.
 
 - **The handbook page.** Thorough: every figure lesson 1 listed and every line the later lessons
   added that applies to this car, each with its page or section and the maker named, and "none
   given" where the handbook is silent. Sound: lesson 1's ten figures with pages, with some later
   lines missing. Not yet: figures without pages, or any figure taken from another car's handbook or
   a website.
-- **The checks log and tyre record.** Thorough: a month of dated readings, each check at least
-  twice, your intervals at the top with whose advice each is, and the tyre record complete with the
+- **The checks log and tyre record.** Thorough: a month of dated readings, each check as often
+  as Part 2 asks, your intervals at the top with whose advice each is, and the tyre record complete with the
   date codes and your replacement line and its source. Sound: the month covered, with the tyre
-  record or the intervals incomplete. Not yet: fewer than two rounds, readings without dates, a
+  record or the intervals incomplete. Not yet: fewer than two rounds without a reason written, readings without dates, a
   reading taken in a way its lesson ruled out, or a Call someone finding written as something you'll
   fix.
 - **The warning-light card.** Thorough: every light the exercise listed, each with the page, symbol,
@@ -505,7 +520,8 @@ written into the file as a step or done for the project:
 - a hot coolant cap opened (lessons 9 and 11);
 - anything orange, blue on a mild hybrid, or labelled high voltage touched, unplugged, opened or
   worked on (lessons 4 and 14);
-- a domestic multi-socket extension lead in your charging setup (lesson 14);
+- a domestic multi-socket extension lead written into your charging setup as what you'll use (one
+  you find there goes on the page as something to stop, with lesson 14's sources);
 - a hybrid or electric car as the donor for a jump start, unless its own handbook says it can be one
   (lesson 13);
 - a frozen, damaged or leaking battery jumped (lesson 13);
