@@ -1,6 +1,7 @@
 ---
 title: Breathing but not awake
 minutes: 135
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/07-breathing-but-not-awake.mp3
 objectives:
   - >-
     Decide whether an unresponsive person needs CPR, the recovery position or to be left as
