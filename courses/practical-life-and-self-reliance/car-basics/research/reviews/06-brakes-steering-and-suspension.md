@@ -128,3 +128,56 @@ for this file.
 **Status after review:** needs second pass. R1 was a wrong statement about a federal standard: a
 fact-check re-read of "The red brake light", its table, the regenerative misconception, Connections and
 quiz 4 against FMVSS 135 S5.5 and the LEAF's pp. 2-17 to 2-20 before publish.
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context second-pass reviewer. Primaries re-read today with curl and a browser
+User-Agent (no personal data in any header): eCFR versioner at 2026-09-24 for 571.135 (S1 to S5.5.5 in
+full), 571.116 (S2, S3, S5.1.1, S5.1.2, S5.1.14, S5.2.2, S6.2 to S6.2.5) and 571.101 (S5.4, S5.5); the
+Nissan 2024 LEAF PDF fetched fresh from nissanusa.com (byte-identical to the fixer's copy), pp. 2-16 to
+2-20, 5-160 to 5-163, 9-3 and 9-6 to 9-8; Toyota OM02568U and Ford Maverick (IA 20250505042038) PDFs for
+every quoted line; GOV.UK content API for Annex 6, Rules 103 to 158, and MOT manual Introduction and
+sections 1 and 5 (updated 2026-06-01). Every quotation in the lesson and the quiz string-matched.
+
+**Confirmed:** the red-light list against S5.5, S5.5.1(a) to (g), S5.5.3 and S5.5.5(b) and (d); Nissan's
+yellow brake system light (colour p. 2-17, entry p. 2-20), the red BRAKE line and "about a few seconds"
+(p. 2-17), the MIN-mark bullet (p. 2-18) and the "drive carefully" bullet (p. 2-17); the page citations;
+FMVSS 116 as floors only, no "cap on the fall" anywhere; the DOT 5 and 5.1 lines; the three R10
+rewordings (one tightened, below); quiz 5 against Nissan's balancing line and Ford's "continuous
+vibration or shudder in the steering wheel while braking"; S5.1's "service brake" quotation; every other
+first-pass fix. Sums redone by hand: 401 - 284 = 117; 446 - 311 = 135; 65 and 75 °C; 75/230 = 0.33 and
+65/205 = 0.32; SVG bar widths all 1.2 px per °C and labels inside the 420 viewBox. Quiz: each explanation
+read against its options; option spreads 4 to 10 characters; keys 1,0,2,0,2,3 checked by script against
+committed 01 to 05 and 07 (whole-sequence shifts and runs of four under any constant shift at any
+offset): none. Callout byte-identical; no em or en dashes; `npm run minutes` 90.
+
+**Fixed inline (one edit each):**
+- S2-1 Wet test: the reference fluid "has taken up" 3.70% was wrong (it starts at 0.50%, S6.2.5); now
+  its "water content reaches" 3.70%.
+- S2-2 R10's second rewording still said signs "often" come "first", unsourced; now "can give signs an
+  owner can notice".
+- S2-3 Connections dropped the scope of S5.5.1(g); now "where it is part of the service brake".
+- S2-4 The function check "for a moment" is not in S5.5.2(a)(1); cut.
+- S2-5 The ABS paragraph drew "booking the car in rather than stopping at once" from Ford's "as soon as
+  possible", but Ford uses the same words for its red brake lamp (pp. 113 and 193); now the sentence
+  rests on both makers' "normal braking" lines.
+- S2-6 Quiz 4's explanation: "S5.5.3 keeps it on only" overstated S5.5.3, and "the light would stay on"
+  ignored separate indicators; both reworded.
+
+**Noted, not fixed (minor, for the next edit of this lesson):**
+- S2-7 Ford's WARNING box ("Driving your vehicle with the warning lamp on is dangerous ...", p. 193)
+  heads "BRAKES – WARNING LAMPS", above both the ABS and the brake indicator entries. The table's
+  "Elsewhere:" gives it to the red lamp; that is a fair reading (it warns of reduced braking, which the
+  ABS entry rules out), but it could be labelled as this course's reading.
+- S2-8 "'service brake' is its name for that main braking system": "main" is a gloss. S5.3.1 (read,
+  inside S1 to S5.5.5) says the service brakes are worked by a foot control, with the parking brake's
+  control independent; quoting it needs a [V] line in SOURCES first.
+- S2-9 "a separate light for an ABS fault or a regenerative-braking fault must be yellow" and the
+  misconception's "a yellow light of its own": S5.5.5(d)(3) and (6) require contrasting letters and
+  background "one of which is yellow", and an RBS fault may share an "ABS/RBS" lamp. Within the course
+  convention; tighten if the paragraph is edited.
+- S2-10 "Lesson 11 explains why that light is amber and the brake light red": check against lesson 11
+  when it is committed (the standards say yellow and red; no source read gives a reason).
+
+`npm run quotes`: nothing for this file. `npm run validate`: exit 0, no line naming this file.
+
+**Verdict: CLEAN.**

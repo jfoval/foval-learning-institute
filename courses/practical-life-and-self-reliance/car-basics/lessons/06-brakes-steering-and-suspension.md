@@ -76,9 +76,9 @@ quiz:
     answer: 0
     explain: >-
       FMVSS 135 S5.5.1 lists "Application of the parking brake" among the conditions that switch the
-      brake indicator on, and S5.5.3 keeps it on only "as long as the condition exists". A light that
+      brake indicator on, and S5.5.3 requires an indicator to stay on "as long as the condition exists". A light that
       goes out the moment the parking brake is released points to that. Low fluid, an ABS fault or pad
-      wear would still be there after the release, and the light would stay on. An ABS failure can be
+      wear would still be there after the release, so a light reporting any of them would stay on. An ABS failure can be
       reported through the brake light, and pad wear only if the maker chose that, but neither clears
       when the parking brake is let off. If the light had stayed on
       with the parking brake off, Ford's and Toyota's handbooks treat it as a fluid or system fault.
@@ -226,7 +226,7 @@ calls wet.[2]
 
 The wet test is worth describing exactly, because it's easy to describe loosely. The fluid under test
 stands in an open jar beside a reference fluid, inside the same covered glass vessel over water, kept
-at 50 °C (122 °F), and it comes out when the **reference** fluid has taken up "3.70 ±0.05 percent by weight" of water.[2] The fluid being tested may by then hold more or
+at 50 °C (122 °F), and it comes out when the **reference** fluid's water content reaches "3.70 ±0.05 percent by weight".[2] The fluid being tested may by then hold more or
 less water than that; its boiling point is what's measured. So "wet" means a fluid that has sat in
 the same damp air as a reference fluid until that fluid was about 3.7 per cent water, not a fluid
 that is exactly 3.7 per cent water itself.
@@ -364,7 +364,7 @@ red BRAKE light.[6] The conditions include:
   RBS", the regenerative braking system that lesson 4 described.
 
 The indicator must "remain activated as long as the condition exists".[3] The standard also requires a
-way to check that the light works, either by lighting it for a moment when you switch on or by a test
+way to check that the light works, either by lighting it when you switch on or by a test
 the driver does, and requires the handbook to explain it; Nissan says the LEAF's BRAKE light "remains
 illuminated for about a few seconds" at switch-on.[3][6] FMVSS 101 makes the brake-system light
 red.[10] Lesson 11, "Dashboard warning lights", sets the brake light beside the others.
@@ -409,14 +409,14 @@ the vehicle handbook", which is this course's rule too.[12] It's advice (a shoul
 
 If the ABS itself fails, you still have brakes. Ford: "Your vehicle continues to have normal braking
 without the anti-lock brake system function."[11] Nissan: "The brake system then operates normally, but
-without anti-lock assistance."[6] So an ABS light, on Ford's handbook, is a matter of booking the car in rather than stopping at once: it
-says to have the vehicle checked "as soon as possible".[11] Lesson 11 explains why that light is amber
+without anti-lock assistance."[6] So an ABS light, on both handbooks, leaves you with ordinary brakes, and Ford says to have the vehicle
+checked "as soon as possible".[11] Lesson 11 explains why that light is amber
 and the brake light red. This course's reading: with the ABS light on, the car has lost what ABS was there for, keeping the
 steering in a hard stop, so drive as if you had no ABS until it's fixed. Having it checked is **Call someone**.
 
 ## Signs you can notice: the pedal, the pull, the noise, the bounce
 
-Brakes, steering and suspension often give signs an owner can notice first, and the sources name
+Brakes, steering and suspension can give signs an owner can notice, and the sources name
 these. Every one below can be noticed from the driver's seat or the pavement, and each has a source
 and a label.
 
@@ -578,7 +578,8 @@ the brake-fluid reading to your regular checks log.
 
 Lesson 2, "The engine: petrol, diesel, and the drive to the wheels", treated the cambelt as a date
 rather than a symptom, and brake fluid is the same kind of item. Lesson 4, "Hybrids and electric cars:
-how they work", explained the regenerative braking whose failure FMVSS 135 now requires a warning for.
+how they work", explained the regenerative braking whose failure FMVSS 135 requires a warning for, where it is part of
+the service brake.
 Lesson 7 reads the tyres for signs of alignment trouble. Lesson 9 makes the reservoir reading part of
 your routine; lesson 11 puts the brake and ABS lights on your warning-light card; and lesson 21, "The
 MOT and Northern Ireland's vehicle test", covers the whole test.
