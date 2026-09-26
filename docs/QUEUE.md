@@ -46,8 +46,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   lesson 15 says so); Guerette and Bowers on displacement unread (lesson 4); lesson 5 calls the Suzy
   Lamplugh Trust's caller advice "practitioner opinion" and later "sensible, untested" (make them
   agree at its next edit); lessons 13, 15 and 16 run 100 to 110 minutes.
-  **Home Repair and Maintenance is in research** (2026-09-25), the sixth of Term 3: Stage 1 builds
-  `research/SOURCES.md`, UK and US side by side, with the jobs reserved to registered trades.
+  **Home Repair and Maintenance is drafting** (2026-09-25), the sixth of Term 3: Stage 1 is done,
+  `research/SOURCES.md` (UK and US side by side; the gas-work law quoted exactly), then the outline.
+  Its licensing lesson gets the neutrality pass though the course is not flagged sensitive.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to

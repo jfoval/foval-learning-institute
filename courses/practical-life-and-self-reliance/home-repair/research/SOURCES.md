@@ -1,0 +1,3461 @@
+# Sources: Home Repair and Maintenance
+
+<!-- unread: 18th Edition, 210.12, 210.8, A Citizen's Guide to Radon, ADAO, afcisafety.org, American Ladder Institute, Anglian Water, ANSI Z87.1, Approved Document A, Approved Document G, Asbestos Disease Awareness Organization, Asbestos in the Home, Asbestos: are you at risk?, Assessing Damp in Historic Buildings, Association of Professional Independent Chimney Sweeps, BEIR VI, Better Business Bureau, BS 7671:2018, BS EN 50292, Buy Safe, Certification Register, Chimney Fire Safety Week, Collins Complete DIY Manual, Competent Persons Register, Construction Skills Certification Scheme, Consumer Credit Act, Consumer Reports, Current Best Practices for Preventing Asbestos Disease Among Brake and Clutch Repair Workers, Digest 245, ELECSA, Electrical Competent Person Register, EN 131, EN 166, Fatal Incidents Associated with Non-Fire Carbon Monoxide Poisoning from Engine-Driven Generators, Get Water Fit, Glue Traps (Offences) Act, GS38, Guild of Master Chimney Sweeps, Haynes, Hazards in Social Housing, Health and Safety Code 19825, Home Accident Surveillance System, Home Electrical Fires, Hospital Episode Statistics, How Safe Is Your Home, HS034, HSENI, HSG274, HUD Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing, IFGC, INDG455, Institute for Justice, International Fuel Gas Code, International Plumbing Code, International Residential Code, Iowa Radon Lung Cancer Study, IRC, L143, LABC Front Door, Lead Safe Housing Rule, License to Work, Moulton Niguel, National Association of Chimney Sweeps, National Electrical Code, National Pest Management Association, NFPA 70, NFPA 72, NFPA 720, PaintSafe, Party Wall etc. Act 1996, PGMA G300, Planning Portal, R105, Registered Competent Person Electrical, Renovate Lead-Safe Fact Sheet, Safe removal of lead paint, SELECT, spab.org.uk, Spartanburg Water, Steps to LEAD Safe Renovation, Storage or Tank-Type Water Heaters, Technical Booklet E, Texas Chemistry Council, Texas Occupations Code 1305.003, This Old House, Tolerable Standard Guidance, Total Exposure Assessment Methodology, Trade Association Forum, UL 2034, UL 217, UL 2201, Uniform Plumbing Code, Warm Homes Plan, water.org.uk, Wessex Water, which.co.uk, Which? Trusted Traders -->
+
+*Stage 1 research, 2026-09-25. Written before any lesson is drafted. Four researchers each worked
+one part of the subject in parallel, in a fresh context. Part A covers how a house works, plus the
+manuals, syllabi and free resources. Part B covers tools, ladders, common repairs, decorating,
+pests, seasonal maintenance and hiring a tradesperson. Part C covers the rules that reserve work to
+registered or licensed trades. Part D covers the hazards: asbestos, lead paint, carbon monoxide,
+electric shock and electrical fire, and dust, fumes and radon. The four parts are brought together
+here. The synthesiser re-read the gas-work law independently of Part C (next section) because it is
+the claim in this course most likely to be stated wrongly. All reading was done on 2026-09-25 unless
+a capture date is given. For each source the parts say what it is good for, what it establishes and
+exactly how much of it was read.*
+
+**This is a practical, safety-critical course that states law in two countries and four UK
+nations.** It is not a standards 3.4 domain as a whole (`sensitive_domain: false` stays), but two
+parts of it need more care than a Foundation course usually gets:
+
+- **The law.** Every legal statement is general information, not legal advice, and the lesson must
+  say so. Every rule carries its jurisdiction in the same sentence ("In England ...", "In Florida
+  ..."), because the rule changes at every border (Part C).
+- **Occupational licensing is an economics question** (standards 3.4 lists economics). The lesson
+  that asks whether licensing does what it claims should get the neutrality pass even though the
+  course is not flagged sensitive. At present that side of the question rests on one federal
+  report (Part C, C33). The trade and safety case appears only in Electrical Safety First's
+  consumer advice, and the Institute for Justice material is unread.
+
+A wrong instruction here could hurt someone: gas, a ladder, an asbestos sheet, a live cable. Every
+number goes through the fact-check against the source text, not against this file. This file tells
+the drafter which text to check against.
+
+**How to read the quotation marks.** The four parts use one convention:
+
+- **[V]**: copied from text the researcher extracted directly. That means curl with pandoc or an
+  HTML stripper, pdftotext on the publisher's PDF, the GOV.UK content API, the legislation.gov.uk or
+  eCFR renderers, the PubMed E-utilities API, or an Internet Archive capture (ID given).
+  **[V, catalogue note]** (Part A): copied from a library catalogue's contents note, not the book.
+- **[T]**: returned by the WebFetch summarising tool, which is a small model. Only Part A has any,
+  and only for the Collins manual's contents. Nothing marked [T] is quoted in a lesson.
+- **Snippet only**: seen only in a search result. Nothing so marked is in quotation marks, and
+  nothing so marked may be stated in a lesson as a finding.
+- **Abstract only** (Part B, the ladder-injury papers): a lesson may report what the abstract says
+  and no more.
+
+**The raw extracts are not durable.** The parts name text files in a scratchpad `hr/raw/` folder.
+That folder is session scratch and will not survive. Part B also reports that the shared helper was
+overwritten partway through, so some of its later extracts sat in `hr/B/raw/`. The quotations below
+were checked when they were read. A drafter who needs a quoted line re-reads the live source, not a
+raw file.
+
+## Access and provenance problems a drafter inherits
+
+1. **US DOE Energy Saver is gone** (Part A). Every energy.gov/energysaver URL returned 404 on
+   2026-09-25, and the section root redirects to the energy.gov home page. The furnace, water
+   heater, heat pump, ventilation and air-sealing pages were read from 2024 and 2025 Internet
+   Archive captures (IDs in Part A). **No lesson links energy.gov/energysaver as a live
+   resource.** If a lesson cites those pages, it cites them "as archived". ENERGY STAR is live
+   and covers some of the same ground.
+2. **Sites that block automated readers.** Gas Safe Register (403), Water UK, Ofwat, SPAB, the live
+   Energy Saving Trust and Historic England pages, ESFi's AFCI page, CPSC's HTML safety-centre
+   pages and CDC all blocked curl. The Gas Safe pages that matter were read from Internet Archive
+   captures: **20251023004454** ("Don't DIY when it comes to gas appliances") and
+   **20260221055602** ("Concerns & Reporting Illegal Gas Work"). EST was read from a capture.
+   Electrical Safety First loads some page bodies by script, which is why its RCD figures are
+   gates (below).
+3. **INDG455 no longer exists** (Part B). HSE's ladder leaflet was replaced in July 2021 by
+   **LA455**, published jointly by the Ladder Association and HSE (current revision "09/26"). LA455
+   says it is written for employers. Cite LA455 and HSE's web guide, never INDG455.
+4. **CPSC's "Asbestos in the Home" guide has been removed**, and its archived copy is a 404
+   (Part D). It is on the unread line.
+5. **Defra's lead paint leaflet was withdrawn in April 2024** (Part D, D19). The British Coatings
+   Federation's current guidance (HS032, October 2025) still points readers to it. A lesson that
+   uses Defra's figures (the 450°C heat-gun limit, the 1960s date) must say the leaflet has been
+   withdrawn.
+6. **NFPA's web pages rendered empty** through curl, the Internet Archive and WebFetch (Part D). The
+   NFPA figures in this file come from dated PDF reports: 2009 to 2013 and 2015 to 2019 data, and
+   the February 2022 electrical-fires report. There is no current NFPA web guidance on smoke
+   alarms, CO or electrical fires.
+7. **The manuals were read only as catalogue contents** (Part A §7). This covers Reader's Digest
+   (1973 contents note), Black & Decker (2008 contents note) and Collins (publisher description via
+   WebFetch, [T]). A lesson may name them as further reading but must not attribute any content to
+   them beyond the chapter headings. **Collins Complete DIY Manual** is on the unread line.
+8. **England is not the UK, and Wales is not England.** This is the single largest source of error
+   the research found (Part C). England and Wales share the Building Regulations 2010 but no
+   longer share their electrical rules. Scotland and Northern Ireland have separate systems.
+   GOV.UK's "Building regulations approval" guide covers England and Wales in one summary that is
+   right only for England on electrics. **The course description says "the UK"; lessons must name
+   the nation.**
+9. **Everything with a date on it moves.** All phone numbers, fees, thresholds and editions were
+   read on 2026-09-25 and must be rechecked at drafting. Examples: gas emergency numbers,
+   California's $1,000 minor-work threshold (in force from 2025), the Consumer Contracts
+   Regulations' £42 threshold, the FTC's $25 and $130 thresholds, AD P 2013, and the 10-year s36
+   enforcement window (commenced in Wales on 1 July 2026). The current edition of BS 7671 is also
+   unread, and a lesson does not name an edition as current.
+
+**The `unread:` line is the build's enforcement.** It combines the four parts' "Not read" lists,
+deduplicated. The build matches each entry as a whole word, case-sensitively. These changes were
+made so that no source that **was** read is blocked:
+
+- **Gas Safe Register** (Part D) is **off the line**. Part C and the synthesiser read the Register's
+  own pages from Internet Archive captures. Lessons will name the Register constantly.
+- **BS 7671** bare (Part D) is **off the line**. Nobody read the standard. But AD P, the IET FAQ and
+  ESF, which were read, all name it, and a lesson may say what they say about it. The unread edition
+  stays blocked as **BS 7671:2018** and **18th Edition**. Whether a lesson may describe "safe zones"
+  for cables is a gate, not a build rule.
+- **Federal Trade Commission** (Part C) is **off the line**, because Part B read the FTC's contractor,
+  disaster-scam and Cooling-Off Rule pages. The FTC licensing material Part C meant is covered by
+  gate G-L3.
+- **ESFi** and **Electrical Safety Foundation International** (Part C) are **off the line**, because
+  Parts A and D read ESFi's GFCI page.
+- **Approved Document J** and **Approved Document H** (Part C) are **off the line**. Part D read AD J
+  (2010 edition incorporating the 2022 amendments) on alarms and servicing. Part A read AD H 2015
+  Section 1 and Table 1 on traps. AD J's ventilation sections were not read, and neither were AD
+  H's other sections. That limit is enforced by the fact-check, not the build.
+- **Electrical Safety Standards in the Private Rented Sector** (Part D) is **off the line**, because
+  Part C read regulation 3 of those Regulations (C12).
+- The manuals Part A read as catalogue contents only (Reader's Digest, Black & Decker) are **off the
+  line**, so a lesson can name them as further reading. Collins, known only through [T], is **on**.
+- **IRC**, **R105**, **International Residential Code**, **National Electrical Code**, **NFPA 70**,
+  **210.8** and **210.12** stay on. Nobody read a model code's text. A lesson may say "the model
+  codes that states adopt" and cite CPSC's or ESFi's account of where GFCIs are required, but it may
+  not quote or cite a code section.
+
+## The gas-work law, stated exactly
+
+This is the point the brief named as a known confusion. The synthesiser read the primaries
+independently of Part C, and the two readings agree. The sources:
+
+- **The Gas Safety (Installation and Use) Regulations 1998 (SI 1998/2451), regulation 3**, from
+  https://www.legislation.gov.uk/uksi/1998/2451/regulation/3. Read in full on 2026-09-25 via
+  curl and pandoc. Page status: [V] "There are currently no known outstanding effects for The Gas
+  Safety (Installation and Use) Regulations 1998, Section 3." Regulation 3 extends to England,
+  Wales and Scotland (Part C, C13).
+- **HSE, L56, *Safety in the installation and use of gas systems and appliances*, Approved Code of
+  Practice and guidance**, [V] "L56 (Fifth edition)", [V] "Published 2018", from
+  https://www.hse.gov.uk/pubns/priced/l56.pdf, via pdftotext. Read: regulation 2(1) guidance
+  paragraphs 52 to 55, the regulation 3 summary, ACOP paragraph 81, guidance paragraphs 82 to 87,
+  and the glossary entry "gas engineer".
+- **HSE, "Gas safety: home owners"**, https://www.hse.gov.uk/gas/domestic/faqownerocc.htm, read in
+  full via curl.
+- **Gas Safe Register, "Don't DIY when it comes to gas appliances"**, read in full from Internet
+  Archive capture 20251023004454. **Gas Safe Register, "Concerns & Reporting Illegal Gas Work"**,
+  read in full from capture 20260221055602.
+
+**Regulation 3, word for word (the parts that decide the question):**
+
+- 3(1): [V] "No person shall carry out any work in relation to a gas fitting or gas storage vessel
+  unless he is competent to do so."
+- 3(3): [V] "Without prejudice to the generality of paragraphs (1) and (2) above and subject to
+  paragraph (4) below, no employer shall allow any of his employees to carry out any work in
+  relation to a gas fitting or service pipework and no self-employed person shall carry out any
+  such work, unless the employer or self-employed person, as the case may be, is a member of a class
+  of persons approved for the time being by the Health and Safety Executive for the purposes of this
+  paragraph."
+- 3(4): [V] "The requirements of paragraph (3) above shall not apply in respect of— (a)the
+  replacement of a hose or regulator on a portable or mobile space heater; or (b)the replacement of
+  a hose connecting a re-fillable cylinder to installation pipework." (The dash and the missing
+  spaces after "(a)" and "(b)" are as legislation.gov.uk renders them. The lesson quotes the words,
+  not the rendering.)
+- 3(7): [V] "No person shall falsely pretend to be a member of a class of persons required to be
+  approved under paragraph (3) above."
+
+**HSE's Approved Code of Practice and guidance (L56), word for word:**
+
+- Guidance para 52: [V] "For the purposes of GSIUR, ‘work’ includes do-it-yourself activities, work
+  undertaken as a favour for friends and relatives, and work for which there is no expectation of
+  reward or gain, eg voluntary activity for charities. This means that anyone carrying out such work
+  must have the necessary competence, as required by regulation 3(1). However, membership of an
+  HSE-approved class of persons (under regulation 3(3)) is required only by businesses carrying out
+  gas-fitting work."
+- Guidance para 83: [V] "Anyone who does work on a gas fitting or gas storage vessel must be
+  competent to do so (whether or not they are required to be a member of an approved class of
+  persons). Therefore, do-it-yourself gas engineers and those performing favours for friends and
+  relatives all need to have the required competence."
+- ACOP para 81 (Code text, not guidance): [V] "Gas work should only be undertaken: (a) by a person
+  who has successfully completed an industry-recognised training course followed by assessment of
+  competence." Limbs (b) and (c) cover a currently or previously registered person who has proved
+  competence through a certification scheme, and premises outside the Regulations.
+- Guidance para 85: [V] "Competence is a combination of practical skill, training, knowledge and
+  experience to carry out the job in hand safely, and ensuring the installation is left in a safe
+  condition for use."
+- Glossary, "gas engineer": it includes anyone who does the work, [V] "whether they are an employer,
+  employee, self-employed or working on their own behalf, ie in a ‘do-it-yourself’ activity."
+- The ACOP's legal status, from the copyright page as Part C read it (C14): [V] "If you are
+  prosecuted for breach of health and safety law, and it is proved that you did not follow the
+  relevant provisions of the Code, you will need to show that you have complied with the law in
+  some other way or a Court will find you at fault."
+
+**HSE's page for home owners, word for word:**
+
+- [V] "Anyone employed to work on gas appliances in domestic premises must be a Gas Safe registered
+  engineer and competent in that area of gas work."
+- [V] "HSE strongly advises that all gas appliances, flues and pipework should be installed,
+  regularly maintained and serviced at least annually by a Gas Safe registered engineer."
+- [V] "It is illegal for anyone to use a gas appliance if they suspect it is unsafe."
+
+**Gas Safe Register, word for word (archived pages):**
+
+- [V] "By law, anyone carrying out work on gas appliances and fittings as part of their business
+  must be competent and registered with us. That’s why you should only ever use a Gas Safe
+  registered engineer to carry out gas work in your home."
+- [V] "Don’t DIY with gas appliances, always use a Gas Safe registered engineer"
+- [V] "It is illegal for someone who is not Gas Safe registered to fit a gas appliance or do other
+  gas work and then have the work checked by a Gas Safe registered engineer. Both parties would be
+  breaking the law."
+- What a consumer may do: [V] "you can perform the tasks set out in the user’s instructions,
+  (provided by the appliance manufacturer) that are intended for the user to carry out. This would
+  not be a breach of the law." And: [V] "The law allows you to replace or adjust any component or
+  control that is designed to be operated or replaced by the consumer e.g., a cooker tap control
+  knob."
+- [V] "Approximately two thirds of illegal gas work inspected by the Register has been found to be
+  unsafe."
+
+**What this means, and how a lesson says it.** In Great Britain the duty to be Gas Safe
+registered, regulation 3(3), binds employers and the self-employed: businesses. It does not bind a
+householder working on their own home. The duty to be competent, regulation 3(1), binds everyone,
+householders included. HSE's Code sets competence at industry-recognised training followed by an
+assessment, a bar almost no householder meets. So:
+
+- "It is illegal to do any gas work yourself" **overstates** the law.
+- "You may legally do your own gas work" **misleads**, because the competence test is the law too.
+- Every official source read tells a householder to use a Gas Safe registered engineer, and a
+  lesson says so plainly.
+- Gas Safe's "both parties would be breaking the law" line has no provision that Part C or the
+  synthesiser could find that makes a householder who does competent work, then has it checked,
+  a law-breaker. A lesson either quotes it as Gas Safe's statement or leaves it out. It is not
+  stated as law (gate G-G1).
+
+Suggested framing for a lesson, in the course's own words: *In Great Britain the law says anyone
+who works on a gas fitting must be competent, and anyone who does it as a business must be on the
+Gas Safe Register. HSE's code of practice measures competence by recognised training and an
+assessment. So the official advice to every householder is the same: gas work is for a Gas Safe
+registered engineer. What you can do is what the appliance's user instructions tell you to do.*
+
+**Northern Ireland** has its own instrument, the Gas Safety (Installation and Use) Regulations
+(Northern Ireland) 2004 (SR 2004/63). Part C read its regulation 3 in full: it mirrors GB's, with
+the approval given by "the Executive" (HSENI). HSE's Gas Safe page says the Register covers
+[V] "Great Britain, Northern Ireland, the Isle of Man and Guernsey". No HSENI page confirming the
+approval was read (gate G-G2).
+
+**Correction applied to Parts A and B.** Part A's UK vs US table said "Gas Safe registered engineer
+required for work on gas appliances (HSE)". Part B's said "Gas Safe registration mandatory for gas
+work". Both were written before this reconciliation and are corrected in place. Part B's Citizens
+Advice quotation ("If you're getting gas work done, you must use a Gas Safe registered engineer") is
+advice to someone hiring, which is accurate: anyone you hire is a business.
+
+## The first things Stage 1 found, and they shape the course
+
+1. **Two questions, never one: must the work comply, and must someone be told?** In England and
+   Wales, requirement P1 applies to all electrical work in a dwelling, but only some of it is
+   notifiable. In Scotland, work that needs no building warrant must still meet the standards
+   (reg 5). A lesson that answers only "do I need permission?" teaches the wrong half.
+2. **England notifies three kinds of electrical work; Wales still notifies more** (Part C, C2, C3,
+   C6, C9). Since 6 April 2013, England requires notice only for a new circuit, a replacement
+   consumer unit, and additions or alterations in a bathroom's special location or a room with a
+   pool or sauna. Wales never adopted the 2013 change, so kitchen work, outdoor work and special
+   installations are still notifiable there.
+3. **A householder may do notifiable electrical work in England and Wales** by notifying building
+   control before starting (AD P 3.8; gov.wales). The other routes are a registered competent
+   person, or a third-party certifier appointed before work starts.
+4. **Northern Ireland's Part P is not about electricity.** It covers sanitary appliances and
+   unvented hot water. There is no statutory building regulation for domestic electrical work in NI
+   (Part C, C22; ESF). A Scottish house (not a flat) needs no warrant for most electrical work, but
+   standard 4.5 still applies (C18, C19).
+5. **Gas: registration binds businesses; competence binds everyone** (the section above).
+6. **US homeowner exemptions are real but conditional, and they differ by state** (Part C, C24 to
+   C28). The conditions are usually: your own home, your own hands, often owner-occupied, often a
+   permit and an inspection, and often lost if you sell or let within a year. Texas exempts a
+   homestead owner from the state plumbing licence, and "plumbing" includes gas piping. Florida
+   lets an owner act as their own electrical contractor on their own single-family home. Washington
+   issues a property-owner electrical permit. New York City requires a licensed master plumber even
+   for permit-exempt plumbing. **A lesson never says "in the US you can do your own wiring."**
+7. **Asbestos: the law permits more than the advice does** (Part D, D1 to D11). In Great Britain,
+   an owner-occupier doing their own work is outside the Control of Asbestos Regulations 2012. US
+   federal law requires no training for work on a single-family home. But every authority read
+   (HSE, UKHSA, EPA) says to leave sound material alone and not to repair or remove it without
+   training. The lesson states the law and the advice together, the same pattern as gas.
+8. **A CO alarm is not the protection; servicing is.** Approved Document J says an alarm [V] "should
+   not be regarded as a substitute for the correct installation and regular servicing" (Part D,
+   D25). The same order appears in HSE, CDC and CPSC: install correctly, service annually, keep
+   flues clear, do not block ventilation, and then fit an alarm.
+9. **Official gas-leak advice differs between the countries** (Part A §4). UK networks say: open
+   doors and windows, turn off at the meter's emergency control valve if safe (not if the meter is
+   in a cellar), and call 0800 111 999. In Northern Ireland the number is 0800 002 001. US
+   utilities say: leave immediately, touch nothing (the phone and light switches included), and
+   call 911 and the utility from outside. The shared core is no flames, no switches, and get out if
+   the smell is strong. Teach each country's advice as its authorities give it.
+10. **Ladders are the commonest serious DIY injury the research could quantify** (Part B). D'Souza
+    and colleagues 2007 (abstract): about 136,118 US emergency-department ladder cases a year,
+    97.3% of them away from work. HSE's and OSHA's rules are workplace rules (the Work at Height
+    Regulations 2005 bind work, not a householder's own DIY), but they are the best-specified
+    practice there is: 1 in 4, 1 m or 3 feet above the landing, off the top three rungs, secure the
+    ladder, 30 minutes as the guide for how long to stay on one. **No UK ladder-injury figure could
+    be sourced**, and the RoSPA numbers that circulate were seen only in snippets.
+11. **Rising damp is a live dispute, and the English government now calls it "often misdiagnosed"**
+    (Part A §6). The damp-proofing trade body (PCA) and a 2017 doctoral study reported in the RICS
+    journal defend diagnosis and treatment. Conservation voices call injected damp-proof courses
+    largely unnecessary. The 2022 joint position statement signed by RICS, Historic England and the
+    PCA is the common ground.
+12. **Hot water sits between two established hazards** (Part A §1). CPSC says 120°F (49°C) at the
+    tap to prevent scalds; HSE says store at 60°C against legionella. Neither is wrong, and the
+    lesson does not tell a learner simply to turn the heater down or up.
+
+## Boundaries with other Core courses, settled here so no lesson re-opens them
+
+- **First Aid and CPR** (T3, published). Lesson 2 teaches "power off before you touch" and CO's signs
+  ("get outside and call from there"). Lesson 10 teaches electrical burns (every one to 999 or A&E).
+  Lesson 14 teaches the poisoning response, including CO and the 0800 111 999 number, and says the
+  later course can assume the learner knows CO's signs and that every room with a burning appliance
+  needs an alarm. **This course does not reteach symptoms or rescue.** It teaches where the hazard
+  comes from and what keeps it away, and links back.
+- **Personal Safety** (T3, published). Lesson 5 owns the evidence on what deters burglary (WIDE, the
+  England and Wales survey's security-device findings) and the doorstep con. **This course owns
+  fitting and maintaining locks, and links there for which devices matter.** Personal Safety's
+  doorstep-caller material also overlaps the rogue-trader section here. This course keeps the
+  contractual side (quotes, deposits, cancellation rights, licence checks) and links there for the
+  pressure pattern and the call-back rule.
+- **Personal Finance Fundamentals** (T2, published). Lesson 8 owns insurance, and lesson 10 owns scams
+  in general. This course mentions only that illegal gas work "may invalidate your home insurance"
+  (Gas Safe) and links there.
+- **Cooking Fundamentals** (T3, published). Lesson 4 owns kitchen hygiene. Fats, oils and grease down
+  the sink belong to this course's drainage lesson, not to Cooking.
+- **Emergency Preparedness** (T24, planned) owns floods, storms and grid-down. This course keeps the
+  house-side basics: shut-offs, frozen pipes, generators and CO.
+- **Tools and Making Things** (T23, planned) owns woodworking and fabrication. This course keeps the
+  small kit a householder needs for repairs, and how to use it safely.
+- **Energy: How the World Is Powered** (T9, planned) owns energy policy. Heat pumps appear here only
+  as equipment to maintain.
+
+## What the field considers essential (the outline's backbone)
+
+In the order the ideas build. The parts' own lists (Part A (a), B (a), C (a), D (a)) have the
+detail and the sources.
+
+1. **Know your shut-offs before you need them.** The stop tap or main shut-off valve, the consumer
+   unit or panel and its main switch, the gas emergency control valve. Every source on each service
+   puts finding the control first (WaterSafe, WSSC, ESF, Cadent). The UGA checklist and the manuals
+   treat labelling breakers and exercising valves as routine.
+2. **A house is a set of flows.** Pressurised water in; gravity drainage out through traps that hold a
+   water seal against sewer air, with vents so the seals are not sucked out (AD H: 75 mm seal for a
+   sink, 25 mm retained). Power in through protective devices. Fuel in, and combustion products out
+   through a flue.
+3. **Protective devices are there to trip.** RCDs and GFCIs protect people from shock. Breakers,
+   fuses and AFCIs protect the wiring from fire (CPSC 1989: [V, Part D] "circuit breakers and fuses
+   function primarily to prevent the home wiring system from causing a fire"). A device that trips again is reporting a fault, not
+   being a nuisance.
+4. **Moisture is what destroys a building.** Four kinds of damp with different causes (GOV.UK).
+   Moisture control is mould control (EPA). Most basement water is grading, gutters and
+   condensation (UMN). Most of a seasonal checklist is about keeping water off and out.
+5. **Tight homes need deliberate ventilation.** Seal the leaks, then ventilate on purpose, and never
+   block the air a fuel-burning appliance needs (DOE, GOV.UK, EST, AD J).
+6. **Isolate before you fix, and prove it.** Water off at the isolation valve; plug out, or circuit
+   off and proved dead with a tester that has itself been proved (HSG85); heating off and radiators
+   cool before bleeding.
+7. **Most common repairs are diagnosis first.** A washer tap and a ceramic-disc tap fail
+   differently. A dye test finds a leaking toilet. Cold at the top of a radiator means air; cold at
+   the bottom means sludge. A cable detector finds only live cables.
+8. **Height is the commonest serious risk.** Choose the right equipment, set the ladder up
+   properly, do not overreach, and keep it short.
+9. **Hazardous materials are a stop-work signal.** Assume by date (UK: any building built or
+   refurbished before 2000 may contain asbestos; US: pre-1978 for lead). If it is sound, leave it.
+   Never sand, burn or break it. Know who to call.
+10. **Know which jobs the law or plain safety reserves**, and which nation or state you are in
+    before you know the rule.
+11. **Hire with evidence.** Several written quotes; check registration on the scheme's own site; keep
+    deposits small (California caps them by law); pay in stages and by card; know the doorstep
+    cancellation rights (UK 14 days; US 3 business days under the federal rule); in the US, guard
+    against liens.
+12. **Maintenance is a calendar.** Test smoke alarms monthly and replace them at ten years. Service
+    fuel-burning appliances every year. Sweep chimneys every year (twice for wood, UK). Clear
+    gutters. Clean dryer lint. Prepare the pipes and the stop tap for winter. Change or check
+    filters. Use IPM for pests.
+
+## Common misconceptions
+
+The parts each list these with their source (A (b), B (b), C (b), D (b)). These are the ones a
+lesson should correct directly.
+
+- **"It's illegal to do any gas work on your own home" / "It's legal, so it's fine."** Both wrong
+  (gas section above).
+- **"Part P means you can't do any electrical work yourself."** Wrong in England and Wales: notify
+  building control before starting, or do non-notifiable work, which needs no notice but must still
+  meet P1 (AD P 2.7, 3.8, 3.13).
+- **"Kitchen electrical work is notifiable."** Wrong in England since 2013; right in Wales (Part C).
+- **"Part P applies in Northern Ireland."** Wrong (Part C, C22).
+- **"The council only has 12 months to act."** Out of date: s36(4) now gives 10 years (Building
+  Safety Act 2022 amendment; Wales from 1 July 2026).
+- **"California lets a handyman do any job under $1,000."** Not if the job needs a permit, or if the
+  handyman employs anyone (B&P 7048; CSLB 24-07).
+- **"A CO alarm means the boiler doesn't need servicing."** AD J says the opposite in terms (Part D).
+- **"A volt stick showing nothing means the wire is dead."** HSE does not recommend non-contact
+  devices for proving dead (HSG85, Part D). **"A cable detector that shows nothing means there is no
+  cable."** Bosch: it detects only cables carrying current (Part B).
+- **"Breakers and fuses protect you from shock."** They protect the wiring; the RCD or GFCI protects
+  the person (CPSC, Part D).
+- **"If you find asbestos you must have it removed."** Often best left in place (HSE); EPA says
+  "don't panic" (Part D).
+- **"A negative home lead test means no lead."** BCF says a negative cannot be relied on (Part D).
+- **"Someone footing the ladder makes it safe."** HSE ranks footing as the last resort (Part B).
+- **"Flushable wipes can be flushed."** Thames Water: they block pipes, [V, Part B] "even the ones
+  labelled ‘flushable’". The Fine to Flush standard was withdrawn in March 2024 (Part A).
+- **"A radiator cold at the bottom needs bleeding."** Cold at the top is air; cold at the bottom is
+  likely sludge (Worcester Bosch, Part A).
+- **"A damp-meter reading means rising damp."** Salts affect resistance meters, and rising damp
+  [V, Part A] "is often misdiagnosed" (GOV.UK; the 2022 joint position statement).
+- **"Damp and mould are the tenant's lifestyle."** GOV.UK calls blaming tenants' lifestyle choices
+  "totally unreasonable" (Part A).
+- **"Bug bombs clear cockroaches."** They fail on German cockroaches and leave residues (DeVries and
+  colleagues 2019; UC IPM, Part B).
+- **"A quote and an estimate are the same thing."** A quote is fixed; an estimate is not (Citizens
+  Advice, Part B).
+- **"Paying the contractor in full protects you from liens."** Unpaid subcontractors can still lien
+  the home (CSLB, Part B).
+- **"Turning the thermostat up heats the house faster."** It does not (EST, Part A).
+
+## Contested questions and the positions on each
+
+Classified under standards 3.1. The parts give each position in its own proponents' words.
+
+| # | Question | Classification and handling | Part |
+|---|---|---|---|
+| 1 | How common is rising damp, and do injected damp-proof courses work? | **Contested** on frequency and on treatment efficacy. **Established** that the mechanism exists. England's official line is that it is "often misdiagnosed". Present the PCA and the RICS-reported 2017 study against the conservation sceptics, with the 2022 joint position statement as common ground | A §6, A (c)1 |
+| 2 | Should DIY electrical work be allowed at all? | **Value.** The rules differ (established): England and Wales and Washington say yes with notice or a permit; NYC says no for wiring. Electrical Safety First argues for registered electricians. The liberty and cost side was not read in anyone's own words: gate G-L4 | C (c) |
+| 3 | Does occupational licensing improve safety and quality? | **Contested** (economics). The 2015 federal report finds little evidence in most studies and real costs, but endorses licensing aimed at health and safety. The trade case appears only as ESF advice. The Institute for Justice was not read. Neutrality pass required | C (c), C33 |
+| 4 | Should a householder remove small amounts of asbestos cement themselves? | The **law** is established: it permits it in GB and in the federal US. Whether it is **advisable** is a value judgement on which every official source says no without training. State both | D (c)1 |
+| 5 | Must a householder test for lead before sanding old paint? | **Established** that there is no legal duty for DIY in either country. **Contested** only on whether a DIY kit is good enough: BCF and EPA say a negative is not proof. Consensus: assume lead in older paint and work wet, or test professionally | D (c)2 |
+| 6 | Where does a CO alarm go? | Not a dispute: **different national standards**. UK: the appliance room, 1 to 3 m from the appliance (AD J, Scotland). US: every level and outside sleeping areas (CPSC, CDC). Give each | D (c)4 |
+| 7 | How much of the UK's house-fire problem is "electrical"? | **Definitional.** ESF's "almost half" is snippet only. The Home Office table gives about a quarter for electrical distribution plus non-cooking appliances. Say what is counted | D (c)5 |
+| 8 | Hot water: scald risk against legionella | Two **established** hazards and a **value/risk** trade-off. The usual resolution, a thermostatic mixing valve, was not read (gate) | A (c)2 |
+| 9 | Mould: bleach or not? | **Contested practice**, minor. CDC allows a dilute solution; EPA says not routinely; GOV.UK prefers mould products. All agree: fix the moisture first, and never mix bleach with ammonia | A (c)3 |
+| 10 | Should a second person foot a leaning ladder? | **Contested in emphasis**, not fact. HSE: footing is the last resort. RoSPA (home): consider having another person present. Teach HSE's order, and that a helper nearby is worth having | B (c)1 |
+| 11 | Frozen pipe: turn off the stop tap before thawing? | CCW (UK) says yes; the Red Cross (US) says keep the tap open and does not mention isolating. **Established**: no naked flame. Give CCW's order and its reason (a split pipe floods) | A (c)8, B (c)2 |
+| 12 | Woodworm: chemicals or damp management? | **Contested** in practice. The council and conservation view (fix the damp; old holes need no action) is read; the commercial view is snippet only. Attribute | B (c)3 |
+| 13 | Glue traps and rodent poison | **Established** that non-chemical methods come first. Whether glue traps are humane is a **value** question, and their legal status differs (England's Act unread, gate) | B (c)4 |
+| 14 | How much of the fall in US electrocutions is owed to GFCIs? | The decline is **established**. GFCIs' share is an **estimate** (CPSC: GFCI effectiveness 81 to 95% from a UL study) | D (c)6 |
+| 15 | Radon action level: 200 Bq/m³ (UK) or 4 pCi/L (US)? | **Established** that they differ; the threshold is a policy judgement | D (c)7 |
+| 16 | Gas Safe's "both parties would be breaking the law" | **Contested interpretation.** No provision found that binds a householder in the way it says. Quote it as Gas Safe's, or leave it out | C16, gas section |
+
+## UK vs US differences
+
+Each part has its own table: Part A (d) for the systems, Part B (d) for ladders, repairs and
+hiring, Part C (d) for the law nation by nation and state by state, and Part D (d) for the hazards.
+A lesson reads the table for its own topic. The differences a learner meets first:
+
+- **Names:** stop tap or stopcock against main shut-off valve; consumer unit against breaker panel;
+  RCD against GFCI; emulsion against latex; mould against mold.
+- **Ladders:** 1 m above the landing against 3 feet; 75° or 1 in 4 against a quarter of the working
+  length.
+- **Heating:** wet central heating with a boiler, radiators, TRVs and a pressure gauge, against
+  (mostly) forced-air furnaces with filters.
+- **Plugs:** fused BS 1363 plugs (3 A or 13 A) against none.
+- **Gas leak:** ventilate, valve off and call, against leave and call from outside.
+- **CO alarm:** BS EN 50291 in the appliance room, against every level and outside sleeping areas.
+- **Hazard dates and limits:** asbestos (GB 1999 white ban) against the US partial ban and the 2024
+  chrysotile rule. Lead: the UK dates vary by source, the US uses pre-1978. The heat-gun limit is
+  450°C (Defra, withdrawn) against 1,100°F (EPA rule, paid work).
+- **Hiring:** a 14-day cancellation right (UK, off-premises contracts over £42) against 3 business
+  days (US federal rule, $25 at home). Deposits are guidance in England (Citizens Advice: at most
+  25%) against law in California (the lesser of $1,000 or 10%).
+- **Units:** bar, °C, metres and Bq/m³ against psi, °F, feet and pCi/L.
+
+## Safety-critical guidance
+
+Collected from the four parts' notes for drafters (A (e), B (e), C (e), D (e)). These are not
+optional.
+
+1. **Gas.** The course teaches what to do on smelling gas, how to find the emergency control valve,
+   annual servicing and how to check a Gas Safe card, including the categories on the back. It
+   teaches no gas work. The user tasks the manufacturer's instructions allow are named as the
+   boundary. The UK leak steps are never taught to US learners, whose utilities say leave and touch
+   nothing. Give the GB (0800 111 999) and NI (0800 002 001) numbers.
+2. **Electricity.** Householder work stops at the front of the consumer unit or panel: switching,
+   resetting, testing RCDs and GFCIs, plug fuses and plug-in RCDs. CPSC says panels [V, Part A] "are
+   usually electrically live, even with the main circuit breakers turned off". A device that trips
+   again after one reset is not forced, taped or held on; call an electrician. No lesson implies a
+   volt stick proves a circuit dead. Any wiring the law allows a householder (non-notifiable work in
+   England) is described as legal and never taught as a procedure in this Foundation course. That
+   is a scope decision recorded under Open concerns.
+3. **Before drilling:** turn the power off where you can, use a detector, and know that it misses
+   cables that are not carrying current. Cables often run straight up, down or across from sockets
+   and switches, but do not state BS 7671 "safe zones" as a rule (gate G-E3).
+4. **Ladders:** give the numbers exactly (75°, 1 in 4, 1 m or 3 feet above the landing, top three
+   rungs, 6 m from overhead lines, the 30-minute guide). Say the rules are written for workplaces
+   and that most injuries happen at home. CPSC's electrocution data include ladders touching
+   overhead lines (22 deaths, 2011 to 2020).
+5. **Asbestos:** do not tell a UK reader they may remove asbestos cement, textured coating or floor
+   tiles because the law allows it. State the law and the advice together. Never suggest breaking
+   AC sheets, sanding Artex or vacuuming suspected debris with a household vacuum. Artex removal is
+   not taught as a DIY task.
+6. **Lead:** no open flame, no dry sanding, no power sanding without HEPA extraction. Keep children
+   and pregnant women out. Give the heat-gun limit with its source and unit.
+7. **CO:** the alarm is never presented as the protection (the order is in the first-findings list,
+   item 8). No generator, barbecue, camping stove or gas oven used for heat indoors. Generators go
+   20 feet (about 6 m) from the house (CPSC, a US figure).
+8. **Water and electricity together:** after a burst pipe, never reach through water to the
+   consumer unit. The Met Office's wording on this is ambiguous (gate G-W5).
+9. **Hot water:** never "turn it down" without the legionella caveat or "turn it up" without the
+   scald caveat. A T&P valve test can release scalding water and may not reseat, so it is not taught
+   without a manufacturer's source.
+10. **Mould:** small areas only (EPA: under about 10 sq ft). Gloves and eye protection; never mix
+    bleach and ammonia; fix the moisture.
+11. **Rodents:** never sweep or vacuum droppings. Air the room, wear gloves, soak with disinfectant,
+    double-bag. Bait only in tamper-resistant stations; no outdoor pesticide indoors; no foggers.
+12. **Dust:** FFP2 or FFP3 (UK), N95 (US). A mask stops dust, not solvent vapour, and a beard
+    defeats the seal. Silica from cutting masonry is the biggest construction health risk after
+    asbestos (HSE).
+13. **Hiring:** never sign blank papers or sign over an insurance cheque. Never pay by wire, gift card
+    or cash. The UK urgent-repairs exclusion removes the 14-day right for a trader you called out in
+    an emergency, but not for extra work sold on the same visit.
+14. **First aid is not retaught.** Refer back to First Aid lessons 2, 10 and 14.
+
+## Best existing free resources (to link, not duplicate)
+
+Status as read on 2026-09-25. Part A §7 and the parts' source entries have the URLs.
+
+- **UK:** GOV.UK damp and mould guidance (updated 1 April 2026); HSE gas pages for home owners;
+  Gas Safe Register "Find" and "Check an Engineer" (live, but blocks automated readers, so check it
+  by hand before linking); WaterSafe (stop tap, pressure, finding a plumber); Cadent or National Gas
+  on smelling gas; Electrical Safety First (with care, since some pages load by script); Energy
+  Saving Trust on draught-proofing; HSE and Ladder Association LA455 and HSE's ladder web guide;
+  Citizens Advice "Before you get work done on your home"; TrustMark; UKradon maps; Home Office
+  *Fire Safety in the Home*; the British Coatings Federation's HS032 on lead paint.
+- **US:** EPA's mould guide, WaterSense and "Lead-Safe Renovations for DIYers"; EPA asbestos pages;
+  ENERGY STAR maintenance checklist; university extension services (UGA Circular 1082, the best
+  published seasonal checklist; University of Minnesota on moisture); CPSC CO and GFCI fact sheets;
+  CDC Seal Up, Trap Up, Clean Up; FTC "How To Avoid a Home Improvement Scam"; the OSHA Portable
+  Ladder QuickCard; state licence lookups (CSLB for California).
+- **Do not link:** energy.gov/energysaver (404), INDG455 (withdrawn), Defra's lead leaflet
+  (withdrawn), CPSC "Asbestos in the Home" (removed), and This Old House and Which? how-to pages
+  (not read).
+
+## Canonical textbooks and university syllabi
+
+There is no university discipline of household repair, so the canon is the general manuals and
+the extension-service and adult-education courses (Part A §7). **Reader's Digest *Complete
+Do-It-Yourself Manual*** (1973 onward), **Black & Decker *The Complete Photo Guide to Home Repair*
+and *The Book of Home How-To***, and **Jackson and Day's *Collins Complete DIY Manual*** (UK). North
+Seattle College's continuing-education course names the first two as the usual books. All three
+were read only as catalogue contents or a publisher description. Their shared order is: tools,
+fixings, interior, exterior, plumbing, electrics, heating, decorating, with pests and damp as their
+own chapters. The courses read are UGA Extension Circular 1082 (full), North Seattle College's
+course page, the Goodlife Centre's London beginners' classes and the City & Guilds 6219 unit list.
+City & Guilds is a useful benchmark for what a beginner is trusted with: radiators and push-fit
+fittings, while electrical units are done in a training workshop, not a home.
+
+## Gates: what must be read before a lesson states it
+
+Consolidated from the four parts' (f) lists and deduplicated. Each gate names the lesson area it
+blocks. The parts' own lists keep the detail. **Closed in this synthesis:** Part B's gate 20 (the
+current California threshold) is closed by Part C's reading of B&P 7048 and CSLB 24-07. Part A's
+gate 19 (US gas and electrical licensing) is closed for the five states Part C read. Part D's gate
+14 (the Gas Safe Register's own advice) is closed for the DIY and illegal-work pages by the archived
+captures above; its CO and servicing pages are still unread.
+
+**Gas and the law (G-G, G-L)**
+- G-G1. The legal basis, if any, for Gas Safe's "both parties would be breaking the law" statement.
+- G-G2. HSENI confirmation that the Gas Safe Register is the approved class under the NI 2004
+  Regulations, reg 3(3).
+- G-G3. The source for HSE's "around 7 people die" each year from gas-related CO.
+- G-G4. The Isle of Man and Channel Islands gas emergency numbers, only if a lesson says "UK" broadly.
+- G-L1. IRC R105 (permits required and work exempt): not read at all. The ICC site returned 403.
+- G-L2. Texas Occupations Code 1305.003(a)(6) and 1305.201 in the official text; whether TSBPE has
+  moved into TDLR; whether Texas has any state general contractor licence.
+- G-L3. The Institute for Justice and FTC positions on occupational licensing, before the licensing
+  question is taught.
+- G-L4. A read statement of the liberty and cost case for DIY electrical work, in its own words.
+- G-L5. The 2013 Part P review and its arguments, before the change is characterised.
+- G-L6. The previous s36(4) period and the transitional rule (SI 2023/993 reg 7).
+- G-L7. Whether a later Scottish domestic technical handbook has replaced the June 2022 one.
+- G-L8. Scottish approved certifier scheme names (SELECT, NICEIC): snippets only.
+- G-L9. California local permit rules for owner-occupants; New York State outside NYC;
+  Massachusetts (not attempted).
+- G-L10. TA6 question numbers from the form itself.
+- G-L11. Approved Document G (unvented hot water), AD J's ventilation sections and AD H beyond
+  Section 1; the Party Wall etc. Act 1996 and permitted development, if a lesson says more than
+  "separate from building regulations".
+- G-L12. Consumer Rights Act 2015 ss.54, 56 and 57; s.75 of the Consumer Credit Act 1974 (known only
+  through Citizens Advice); TrustMark's "Government Endorsed" status (stated only by TrustMark and
+  Citizens Advice).
+- G-L13. US lien law in any state other than California.
+- G-L14. The Glue Traps (Offences) Act 2022, before any UK statement on glue traps.
+
+**Electricity (G-E)**
+- G-E1. The RCD 30 mA rating and ESF's three-monthly test interval: snippets only.
+- G-E2. Ring and radial circuit definitions and MCB ratings.
+- G-E3. The current BS 7671 edition and amendment, and its "safe zones" for cables.
+- G-E4. Current NEC GFCI and AFCI locations: CPSC's list stops at 2005.
+- G-E5. An authoritative step-by-step for resetting a tripped circuit and finding the faulty
+  appliance.
+- G-E6. ESF's "almost half of severe shocks are DIY" and "almost half of domestic fires are
+  electrical" figures, and its 2013 shock survey: snippets only.
+- G-E7. Which appliances take which plug fuse. ESF's current and older pages disagree, so teach
+  "follow the manufacturer".
+- G-E8. Current NFPA web guidance and figures on home electrical fires, smoke alarms and CO.
+
+**Water, heating and the envelope (G-W)**
+- G-W1. What a T&P relief valve does, and how and how often to test it; water heater flushing
+  intervals (a manufacturer's manual).
+- G-W2. UK cistern mechanics (siphon, flush valve, float valve).
+- G-W3. Plunging a sink, removing a trap, and chemical drain cleaners.
+- G-W4. Ofwat's 7 m (0.7 bar) guaranteed minimum pressure: known only via WaterSafe.
+- G-W5. The Met Office burst-pipe sentence on electrics.
+- G-W6. Thermostatic mixing valves.
+- G-W7. Boiler pressure for makes other than Worcester Bosch and Vaillant (1 to 1.5 bar cold is those
+  two makers' figure, not a standard).
+- G-W8. What the gas emergency control valve looks like open and closed.
+- G-W9. Awaab's Law commencement and scope; the HHSRS review outcome; the wet-wipe ban dates for
+  Wales, Scotland and NI.
+- G-W10. Energy Saving Trust savings figures in pounds (price-period bound).
+
+**Repairs, decorating, pests (G-R)**
+- G-R1. Sticking doors, silicone sealant, wallpaper, filling: no primary source read. Needs a
+  manufacturer or extension source before a lesson gives a method.
+- G-R2. The revised (post-Brexit) text of the VOC Regulations 2012; US consumer paint VOC labelling.
+- G-R3. EPA's 2019 methylene chloride paint-stripper ban and the 2024 TSCA rule.
+- G-R4. Wasp nests: no official source read.
+- G-R5. The EPA 2008 rodenticide decision document; CRRU pack-size limits; hantavirus in the UK.
+- G-R6. The USFA dryer-fire figure (about 2,900 a year): snippet only.
+- G-R7. NFPA 211 itself (known only as CSIA quotes it).
+
+**Height and tools (G-H)**
+- G-H1. Any UK ladder-injury figure. Leave UK figures out until a RoSPA, NHS or HES primary source
+  is read.
+- G-H2. Whether WAHR reg 3(3)(b) reaches a householder who controls a tradesperson's work.
+- G-H3. LA455 and HSE web guide pages 7 and 8 (inspection, EN 131).
+- G-H4. OSHA's assigned protection factors (do not give one for N95); EN 166 and ANSI Z87.1 (advise
+  eye protection in general terms only).
+- G-H5. CPSC's lithium-ion and ladder safety-centre pages (blocked).
+
+**Hazards (G-Z)**
+- G-Z1. The current court status of EPA's March 2024 chrysotile rule. Say no more than "EPA finalised
+  a ban in March 2024" until it is read.
+- G-Z2. Scotland's in-force date for the alarm standard (widely given as 1 February 2022) and the
+  Tolerable Standard Guidance.
+- G-Z3. UL 2034, UL 217, UL 2201 and PGMA G300 as the US alarm and generator standards.
+- G-Z4. HSE's individual asbestos essentials task sheets, before any method is described; council
+  and state asbestos disposal rules.
+- G-Z5. The contents of the "Renovate Right" pamphlet; HUD's Lead Safe Housing Rule.
+- G-Z6. UK annual radon lung-cancer deaths; the 2005 Surgeon General radon advisory text.
+
+## Open concerns about scope
+
+1. **The course is wide.** It spans eight topic areas and two countries' law, all at Foundation
+   level. Stage 2 should expect about 14 to 16 lessons and resist more. The seasonal checklist is
+   better as the project than as a lesson.
+2. **How far to teach electrical work.** The outcomes stop at resetting a tripped circuit, which is
+   right for Foundation. England allows a householder non-notifiable work, such as replacing a
+   socket faceplate like for like. This research recommends the course *explain* that the law
+   allows it and what compliance means (P1, inspection and testing to BS 7671), but not teach the
+   procedure. Proving dead needs a two-pole tester and training that HSG85 describes for
+   professionals, and a video lesson cannot check the learner's work. This is an ordinary scope
+   call, recorded here so Stage 2 does not reopen it.
+3. **The US cannot be covered state by state.** Part C read five states (California, Texas, Florida,
+   Washington and New York City). The lesson should teach the *shape* of US rules (state licensing,
+   local permits, conditional homeowner exemptions), use two or three named states as worked
+   examples, and send the learner to their own building department. It should not claim coverage it
+   lacks.
+4. **Northern Ireland is thin.** Its gas regulation 3 and its building regulations contents were
+   read, but not its fire-alarm law or its asbestos disposal. Mention NI where a primary was read,
+   and otherwise say "different again".
+5. **UK ladder figures are missing** (G-H1). The ladder lesson has to carry US numbers and say so.
+6. **Damp and mould crosses into law for renters** (Awaab's Law, HHSRS). Keep this course to the
+   building and the householder's side, with one pointer for renters, and do not teach landlord and
+   tenant law.
+7. **Rising damp, occupational licensing and DIY electrics are the three places where the institute
+   takes no side.** Each is a contested or value question. The lessons attribute each position and do
+   not resolve it editorially.
+
+## Suggested lesson sequence (for Stage 2 to confirm)
+
+1. How a house works, and where its off-switches are (water, electricity, gas; a first walk-round)
+2. Water in: supply, stop taps, pressure, hot water, frozen and burst pipes
+3. Water out: drains, traps, vents, what not to put down them
+4. Electricity: the consumer unit or panel, RCDs, GFCIs and AFCIs, tripping, plug fuses, what not to
+   touch
+5. Gas and heating: boilers and furnaces, radiators, filters, servicing, smelling gas
+6. Carbon monoxide, smoke and fire: sources, servicing, alarms (links to First Aid)
+7. The building envelope: roof, gutters, damp, condensation, mould, ventilation
+8. Tools and working safely: the basic kit, dust, eyes, detectors, batteries
+9. Ladders and working at height
+10. Common repairs I: taps, toilets, blockages, silicone
+11. Common repairs II: doors, walls and filling, radiators, resetting a circuit
+12. Decorating: preparation, paint, and old paint (lead)
+13. Asbestos and the other hidden hazards (silica, solvents, radon)
+14. Pests: IPM, rodents, insects, wood
+15. Who may do what: the rules for registered and licensed trades, UK nations and US states
+16. Hiring and checking a tradesperson, and when to stop and call one
+
+Project: a seasonal maintenance plan for the learner's own home, built from UGA Circular 1082 and the
+UK sources, with its shut-offs located and labelled.
+
+---
+
+## Part A: How a house works, and the textbooks, syllabi and free resources
+
+Researcher A, Stage 1, Home Repair and Maintenance. Read 25 September 2026.
+
+Conventions. [V] means copied from text I extracted myself (curl plus pandoc, pdftotext, the GOV.UK content API, or a Wayback Machine capture with its ID). [T] means the words came through WebFetch, which summarises, so they are not safe to quote as the source's own. "Snippet only" means I saw it only in a search-result summary: it is not a finding and nothing from it is quoted.
+
+Two access findings that matter to the whole course:
+
+1. **The US Department of Energy's Energy Saver pages are gone from the live web.** Every energy.gov/energysaver URL I tried (furnaces and boilers, storage water heaters, tankless water heaters, heat pumps, ventilation, air sealing, maintaining an air conditioner) returned HTTP 404 on 25 September 2026, and the section root now redirects to the energy.gov home page. A Wayback capture of the furnace page from 6 September 2026 is also a 404. I read the pages from late 2024 and early 2025 Wayback captures (IDs below). **Lessons must not send learners to energy.gov/energysaver as a live free resource.** ENERGY STAR (energystar.gov) is still live and covers some of the same ground.
+2. Several key UK sites block automated reading: Gas Safe Register, Water UK, Ofwat, SPAB, the Energy Saving Trust (live), Historic England (live), ESFi (live), CPSC's HTML pages and CDC (live). I got round this with Wayback captures, other official pages, or WebFetch where noted. Where I could not, the source is on the "Not read" list.
+
+---
+
+### 1. Water supply
+
+#### WaterSafe, "How can I locate my internal stop tap to turn off my water in an emergency?"
+https://www.watersafe.org.uk/advice/general_plumbing_advice/winter_advice/locate-internal-stop-tap/
+Read: full text, curl plus pandoc. No date shown. WaterSafe is the UK's approved-plumber register, run for the water industry; its scheme operators listed on the page are APHC, CIPHE, SNIPEF and WIAPS.
+What it establishes:
+- Definition: the internal stop tap is "also sometimes called a stop valve or stopcock" and is "the point where you can shut off the water supply to your home or business." [V]
+- What it looks like: "It looks like a spout-less tap or lever and sits between two lengths of pipe acting as a connector." [V]
+- Where: usually under the kitchen sink; also kitchen cupboard, downstairs bathroom or toilet, garage or utility room, cellar, under the stairs.
+- How to use: "Turning the valve clockwise will close it" [V]; it "may take a few minutes for the water to stop altogether" [V]; "Turn it on and off slowly, never force it." [V] If it will not turn or shut off, call a plumber.
+Good for: the Lesson 1 shut-off drill, UK side.
+
+#### Met Office, "What to do if you have a frozen or burst pipe"
+https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/your-home/frozen-or-burst-pipes
+Read: full text, curl plus pandoc. No date shown. Advice given jointly in tone with WaterSafe (it sends readers to watersafe.org.uk).
+- Suspected frozen pipe: "turn off your inside stop tap immediately." [V] Open taps to drain, keeping some water in a bucket for flushing. Thaw slowly "with hot water bottles or towels soaked in hot water. Never use a naked flame or blowtorch" [V]. Turn on nearby cold taps with the stop tap still off to relieve pressure.
+- Burst pipe: stop tap off, switch off the boiler, open taps to drain, soak up water, call a WaterSafe plumber. "If water has leaked near your electrics, do not touch them and switch them off at the fuse box." [V] (Drafters: this sentence tells people both not to touch the electrics and to switch them off at the fuse box. A lesson should say plainly: do not touch wet fittings, and only go to the consumer unit if you can reach it without standing in water; otherwise keep clear and call an electrician. See Gates.)
+- Prevention: "Make sure you know where your stop tap is and check it’s working every six months." [V] Leave heating on low when away; insulate loft pipes.
+
+#### American Red Cross, "Preventing and Thawing Frozen Pipes"
+https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html
+Read: full text, curl plus pandoc. No date shown.
+- Mechanism: water "expands as it freezes" and "No matter the strength of a container, expanding water can cause pipes to break." [V]
+- Prevention: drain hose bibs and sprinkler lines, close the inside valve to an outdoor hose bib and leave the outside tap open; insulate; open cabinet doors under sinks; "let the cold water drip from the faucet served by exposed pipes" [V]; keep the same thermostat setting day and night; if away, heat "no lower than 55° F." [V]
+- Thawing: "Keep the faucet open." [V] Heat with a heating pad, hair dryer, space heater kept away from flammables, or hot towels; no blowtorch, kerosene or propane heater or open flame; call a licensed plumber if you cannot find or reach the frozen section.
+Good for: the US side. Note the difference from the UK advice: the US source keeps the supply on and the tap open while thawing; the UK source shuts the stop tap first. See UK vs US.
+
+#### Consumer Council for Water (CCW), "Who is responsible for my water pipes?"
+https://www.ccw.org.uk/faq/who-is-responsible-for-my-water-pipes/
+Read: full text, curl plus pandoc. No date shown. CCW is the statutory consumer body for water in England and Wales.
+- The water company owns the main and the pipe up to the property boundary, and "The external stop tap usually located in the public footpath." [V]
+- "The homeowner is responsible for maintaining any water pipes located on private property up to the boundary of the road where the company’s water main is laid." [V] Shared supply pipes are the joint responsibility of all the owners connected. Internal leaks are the homeowner's to fix.
+
+#### WaterSafe, "What is the minimum water pressure that a water supplier must supply?"
+https://www.watersafe.org.uk/advice/common_plumbing_questions1/pressure/what_is_the_minimum_water_pressure_that_a_water_supplier_must_supply/
+Read: full text, curl plus pandoc.
+- Pressure is measured "usually the outside stop valve or property boundary" [V].
+- Home test: the first tap (usually the kitchen) "should be able to fill a 4.5 litre (one gallon) bucket in 30 seconds, with all other taps and appliances turned off." [V]
+- "Most water companies will aim to provide at least 10 metres head (approximately 14 psi or 1.0 bar) at the end of their communication pipes. They are committed to a guaranteed standard of service to provide a minimum of 7 metres static head (0.7 bar)." [V]
+Ofwat's own pressure page returned 403; the guaranteed standard is therefore stated here from WaterSafe, not from the regulator (see Gates).
+
+#### WSSC Water (Washington Suburban Sanitary Commission, Maryland), "Find and Operate Your Home's Main Water Valve"
+https://www.wsscwater.com/customer-service/report-problem/find-and-operate-your-main-water-valve
+Read: full text, curl plus pandoc. A US public water utility.
+- "Every home was required to have a main water shut-off valve installed inside the home when it was built." [V] (This is WSSC's statement about its own service area, not a national rule.) The outside underground valve at the property line is for a registered master plumber or the utility.
+- Where to look, by house type: basements, "typically located near the front foundation wall" and "typically within three to five feet of where the main water enters" [V]; crawl-space homes and slab-on-grade homes, near the water heater or under the kitchen sink, "but anywhere is possible." [V]
+- Operation: "Round “wheel” handle valves will turn off by turning the handle clockwise. It may take two or more full revolutions." [V] Turn back on slowly, part-way first.
+- Fire sprinklers: in a home with sprinklers, shut the plumbing supply and leave the sprinkler piping live unless the sprinkler pipe is what is leaking.
+Good for: the US side of the shut-off lesson. One search-engine summary I saw during this research stated the direction the wrong way round (clockwise to turn water on). The primary sources above agree that clockwise closes. Drafters should cite WSSC or WaterSafe, not a summary.
+
+#### EPA WaterSense, "Fix a Leak Week"
+https://www.epa.gov/watersense/fix-leak-week
+Read: full text, curl plus pandoc. "Last updated on March 13, 2026."
+- "The average household's leaks can account for more than 9,300 gallons of water wasted every year and nine percent of homes have leaks that waste 50 gallons or more per day." [V]
+- Meter test: check the meter "before and after a two-hour period when no water is being used. If the meter changes at all, you probably have a leak." [V]
+- Toilet dye test: food colouring in the tank; "If any color shows up in the bowl after 10 minutes, you have a leak." [V]
+- Flapper: "should be checked periodically and replaced at least every five years" [V].
+Good for: the running-toilet and leak lessons (Part A supplies the "how the supply works" frame; the repair itself may be another researcher's part).
+
+#### Hot water: UK (combi, system, regular) 
+**Energy Saving Trust, "Boilers"** (energysavingtrust.org.uk/advice/boilers/). Read: full text from Wayback capture 20260919232017 (live site returns 403 to curl). The EST is the UK's government-funded energy advice body.
+- "Combi boilers don’t use a hot water cylinder – all the heat and hot water comes directly from the boiler itself." [V] They suit smaller households; less suitable for "Houses with multiple bathrooms or higher hot water demands." [V]
+- "System boilers have a separate water cylinder to store hot water." [V] Good for larger families; heat is lost from the cylinder over time; the cylinder can store energy from solar panels.
+- "Heat-only boilers, also called regular or conventional boilers, work in a similar way to system boilers. The main difference is that heat-only boilers have two extra header tanks to store cold water, usually installed in the loft if there is one." [V]
+- Recognising a condensing boiler: "The flue is made of plastic. If it’s made of metal, it’s unlikely to be a condensing boiler." [V]
+- Heating and hot water are "over half of what you spend in a year on energy bills" [V].
+
+#### Hot water: US (tank and tankless)
+**US DOE Energy Saver, "Tankless or Demand-Type Water Heaters."** Read: full text from Wayback capture 20250102084025 (page now 404 live).
+- Flow: "Typically, tankless water heaters provide hot water at a rate of 2–5 gallons (7.6–15.2 liters) per minute." [V] Gas units give higher flow than electric.
+- For homes using "41 gallons or less of hot water daily, demand water heaters can be 24%–34% more energy efficient than conventional storage tank water heaters" [V]; 8% to 14% for heavy users around 86 gallons a day.
+- Maintenance: "Read your owner's manual for specific maintenance recommendations." [V]
+The companion "Storage or Tank-Type Water Heaters" page could not be read: 404 live, and no Wayback capture returned content. See Not read.
+
+**CPSC Publication 5098, "Avoiding Tap Water Scalds"** (https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf). Read: full text, pdftotext. Dated on the sheet "032012".
+- "The U.S. Consumer Product Safety Commission (CPSC) urges all users to lower their water heaters to 120 degrees Fahrenheit." [V] Also: "a thermostat setting of 120 degrees Fahrenheit (49 degrees Celsius) may be necessary for residential water heaters to reduce or eliminate the risk of most tap water scald injuries." [V]
+- Exposure times: "Most adults will suffer third-degree burns if exposed to 150 degree water for two seconds. Burns will also occur with a six-second exposure to 140 degree water or with a thirty second exposure to 130 degree water. Even if the temperature is 120 degrees, a five minute exposure could result in third-degree burns." [V]
+- Adjusting an electric heater: shut off power at the breaker first; "Most electric water heaters have two thermostats" [V] behind access panels.
+
+**HSE, "Legionella and landlords' responsibilities"** (https://www.hse.gov.uk/legionnaires/legionella-landlords-responsibilities.htm). Read: full text, curl plus pandoc.
+- For domestic systems "temperature is the most reliable way of ensuring the risk of exposure to legionella bacteria is minimised – keep the hot water hot, cold water cold and keep it moving." [V]
+- Control measure named: "setting the temperature of the hot water cylinder (calorifier) to ensure water is stored at 60°C" [V].
+- Testing for legionella "is not usually required for domestic hot and cold water systems" [V].
+This sits in tension with CPSC's 49°C. See Contested questions.
+
+**Temperature and pressure (T&P) relief valve.** I did not find an official consumer page that states a test interval. What I read:
+- DOE Energy Saver, "Furnaces and Boilers" (Wayback 20250102062644), lists "Test pressure-relief valve" [V] among jobs for "a heating system professional" on hot-water heating systems. This is the boiler's valve, not the water heater's.
+- UGA Extension Circular 1082 (below) lists, under Plumbing, "Test the water-heater pressure and temperature-relief valve for proper operation." [V] with spring and fall tick boxes.
+- ASHI's plumbing page (below) says to drain a gallon or two from the bottom of the water heater every month.
+The mechanism (a valve that opens if tank temperature or pressure gets too high, to stop the tank bursting) and the manufacturer's test instructions need a primary read: see Gates.
+
+---
+
+### 2. Drainage
+
+#### HM Government, Approved Document H, "Drainage and waste disposal", 2015 edition (England)
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/442889/BR_PDF_AD_H_2015.pdf
+Read: Section 1 (Sanitary pipework), paragraphs 1.1 to 1.34 and Table 1, pdftotext. This is statutory guidance under the Building Regulations 2010 for England.
+- Performance: a foul drainage system should "prevent foul air from the drainage system from entering the building under working conditions" and "is ventilated" and "is accessible for clearing blockages" [V] (Requirement H1 guidance, page 5).
+- Para 1.3: "All points of discharge into the system should be fitted with a trap (e.g. a water seal trap) to prevent foul air from the system entering the building. Under working and test conditions traps should retain a minimum seal of 25mm of water or equivalent." [V]
+- Table 1 (page 6), minimum trap sizes and seal depths: washbasin and bidet, 32 mm trap, 75 mm seal; bath and shower, 40 mm, 50 mm; sink, washing machine, dishwasher, food waste unit, urinal bowl, 40 mm, 75 mm; WC pan, 75 mm or 100 mm outlet, 50 mm seal. Footnotes allow reduced seals where appliances discharge to a gully.
+- Para 1.6: traps "should be removable or be fitted with a cleaning eye." [V] This is the regulatory basis for a householder being able to undo a sink trap.
+- Para 1.29: "To prevent water seals in the traps from being lost by pressures which can develop in the system, discharge stacks should be ventilated." [V] Air admittance valves are an accepted alternative in some layouts (para 1.20 area).
+- Boiler condensate may join sanitary pipework through "a 75mm condensate trap" [V] (para 1.17 area).
+Good for: why the U-bend holds water, why a drain gurgles or smells (lost seal, siphonage, blocked vent), and what a gully and soil stack are. It gives UK numbers; it is England-specific, and Wales publishes its own version.
+
+#### American Society of Home Inspectors (ASHI), "Plumbing System"
+https://www.homeinspector.org/for-consumers/homeowner-resources/home-systems/plumbing-system/
+Read: full text, curl plus pandoc. Trade body for US home inspectors.
+- Vent piping: "Vent piping allows air into the system so drains flow easily." [V] Its analogy: an upturned gallon jug goes "glub, glub" until you poke a second hole. "The vent pipe also allows sewer gas out of the system." [V]
+- Signs of trouble: backing up and "the smell of sewer gas in the house" [V].
+- Advice to "Drain a gallon or two of water from the bottom of your water heater every month to prevent sediment build up." [V] (A trade-body tip; manufacturers may differ. Gate.)
+
+#### City of Superior, Wisconsin, "Sewer Smarts and Plumbing Basics"
+https://www.superiorwi.gov/963/Sewer-Smarts-and-Plumbing-Basics
+Read: full text, curl plus pandoc. A US municipal page.
+- Older homes may have a "house trap" or "whole house trap" on the main sewer line that "provides a single liquid seal to stop sewer gases from rising up into the home" [V]; modern fixtures each have their own trap, so these are "no longer necessary" [V] and collect debris.
+- Quotes a code definition of a stack as "the vertical main of a system of soil, waste, or vent piping extending through one or more stories." [V] The page attributes it to the "Universal Plumbing Code (UPC)" [V]; the US model code is usually called the Uniform Plumbing Code. Code text not read.
+- Sump pumps and foundation drains explained; disconnect flexible sump hoses in winter.
+
+#### Fats, oils and grease (FOG)
+**Thames Water, "Don’t feed the fatberg" (news release, November 2025)**, https://www.thameswater.co.uk/news/2025/nov/avoid-festive-fatbergs. Read: full text, curl plus pandoc.
+- "Pouring fats, oils and grease (FOG) down the kitchen sink is one of the leading causes of blockage-related internal flooding." [V]
+- "Every year, Thames Water clears up to 75,000 blockages" [V] costing up to £40 million; FOG "account for 28% (20,000+) blockages in the Thames Water network annually" [V].
+- From its own commissioned survey of over 2,500 adults: milk (61%) and meat juices (31%) were among the substances most poured down sinks; "a quarter (25%) of respondents being under the impression that disposable wet wipes are safe to flush down the toilet." [V] (A company-commissioned survey; cite as such.)
+**City of Portland Bureau of Environmental Services, "Fats, Oil, and Grease"**, https://www.portland.gov/bes/preventing-pollution/fats-oil-and-grease. Read: full text, curl plus pandoc.
+- FOG "doesn't break down in water, separates from other liquids, and sticks to pipes." [V] Blockages "can cause sewer backups and overflows" [V]. Scrape scraps to the bin; FOG "gets thick and sticky when it cools" [V].
+
+#### What not to flush: the end of "Fine to Flush"
+**WRc, "After Fine to Flush, what happens next?"** https://www.wrcgroup.com/headlines/bite-sized-views/after-fine-to-flush,-what-happens-next/ Read: full text, curl plus pandoc. WRc developed and ran the testing.
+- "The beginning of March 2024 saw the end of the Fine to Flush (F2F) certification scheme, which had been operated by Water UK since 2019" [V]. Technical name WIS 4-02-06.
+- Why it ended, in WRc's account: messaging, "reinforced by the view from the then Secretary of State, Therese Coffey, which stated that the term flushable (and by default the Fine to Flush scheme) confused customers" [V] and weakened the "Bin the Wipe" and "3Ps (pee, poo and paper only down the loo)" [V] messages.
+- WRc's own position, which dissents: "flushable products are not the real problem for sewer networks. The evidence clearly shows that plastic wipes that don’t disintegrate are the primary cause of blockages and pump clogs." [V] WRc says it is resuming flushability testing for plastic-free moist toilet tissue.
+**The Water Report, "Fine to flush certification to go down the pan"**, https://www.thewaterreport.co.uk/single-post/fine-to-flush-certification-to-go-down-the-pan. Read: full text. Confirms withdrawal in March 2024 and gives the reason as consumer confusion, "ranged from a blanket belief that all wipes were now safe to flush to failure to follow instructions" [V].
+**The Environmental Protection (Wet Wipes Containing Plastic) (England) Regulations 2025, SI 2025/1218**, https://www.legislation.gov.uk/uksi/2025/1218/made. Read: citation and commencement provisions only. They "come into force 18 months after the day on which they are made" [V]; the page shows 19 May 2027. They ban supply of plastic-containing wet wipes in England (Wales has its own ban; not read).
+Water UK's own Fine to Flush pages returned 403. Drafters: **do not teach the Fine to Flush logo as a current guide**; teach the 3Ps.
+
+---
+
+### 3. Electricity
+
+#### Electrical Safety First (ESF), "RCDs Explained" and "FAQ for Electrical Safety"
+https://www.electricalsafetyfirst.org.uk/guidance/safety-around-the-home/rcds-explained/ and https://www.electricalsafetyfirst.org.uk/safety-advice/your-questions-answered/
+Read: full extracted text of both, curl plus pandoc and HTML parsing. ESF is a UK electrical safety charity. The RCD page's main explanatory body appears to load by script and did not come through; what extracted is the home-buyer checklist and FAQ. WebFetch of the page also returned no RCD explanation or 30 mA figure [T].
+What it establishes:
+- "Modern consumer units have a main switch and fuses and/or circuit breakers." [V]
+- "To check whether your consumer unit has an RCD, look for the ‘Test’ or ‘T’ button. If you have one, pressing it will switch off the power to the areas of the home it protects." [V]
+- "Older units may not have an RCD or circuit breakers, but this does not necessarily mean they are unsafe or require upgrading." [V] Without a working RCD, use plug-in RCDs.
+- Warning signs: burn marks on plugs or sockets, "crackling sounds from light switches, light fittings, or socket-outlets" [V], curled labels or scorching on light fittings.
+- Home surveys do not cover electrics: "Don’t rely on the standard home survey as this will not cover electrical safety." [V]
+- FAQ: "If the RCD in your fusebox keeps tripping, there is likely to be a fault that needs investigating - either with a particular appliance or the wiring itself. You should get a registered electrician to investigate" [V].
+- Periodic inspection (EICR): "for tenanted properties, every 5 years or at each change of occupancy, whichever is sooner at least every 10 years for an owner-occupied home" [V] (list items run together in the extraction).
+- "The neutral wire is blue." [V]
+- Part P: notifiable work is "all installation work and anything in a bathroom" [V] in ESF's summary, and must be done by a registered electrician or reported to building control.
+**ESF, "Plugs and fuses"** (https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/plugs-and-fuses/). Read: full text. "An RCD (residual current device) in your consumer unit (fusebox) protects you from electric shocks if a product is faulty." [V]
+Not established from a read source: the 30 mA trip rating, the ESF "test every three months" interval (search snippet only), the ring final circuit and radial circuit definitions, MCB ratings. See Gates.
+
+#### IET, "Part P (England and Wales): Frequently Asked Questions"
+https://electrical.theiet.org/bs-7671/building-regulations/part-p-england-and-wales/frequently-asked-questions/
+Read: full text, curl plus pandoc. The IET publishes BS 7671 jointly with BSI.
+- "Part P came into effect in England and Wales on 1 January 2005." [V] "The current edition of Part P of the Building Regulations came into effect on 6 April 2013" [V].
+- The standard: "BS 7671:2018, Requirements for electrical installations (The IET Wiring Regulations 18th Edition)." [V] (The FAQ may be behind the current amendment; see Gates.)
+- Notifiable: "new installations, house re-wires, and the installation of new circuits" and "additions to existing circuits in special locations" [V]. Everything else, "maintenance, replacement and repair work" [V], is non-notifiable.
+- Special location, bathroom: the zone extends to 2.25 m above floor and 0.6 m horizontally from the bath or shower tray edge (or 1.2 m from a showerhead with no tray).
+- "Part P will apply to all electrical work in dwellings, whether carried out by professionals or DIYers." [V] Minor non-notifiable examples: "adding a lighting or power point to an existing circuit, adding a spur to an existing circuit or replacing a light fitting." [V]
+This overlaps outcome 5 (who may do what); flag for whichever researcher owns the regulation part.
+
+#### City & Guilds 6219, unit 133 (a small but useful fact)
+The 6219 handbook (below) records a change "Unit 133 – change ‘ring main’ to ‘ring final circuit’ in title and throughout unit." [V] The trade term is "ring final circuit"; "ring main" is the everyday name.
+
+#### CPSC, "GFCIs Fact Sheet" (CPSC Document 099)
+https://www.cpsc.gov/s3fs-public/099_0.pdf
+Read: full text, pdftotext (two pages; layout is two-column, so I checked each quoted phrase in context). Undated on the sheet.
+- A GFCI "is an inexpensive electrical device that can either be installed in your electrical system or built into a power cord to protect you from severe electrical shocks." [V]
+- How: it compares current out and back; if they differ "as little as 0.006 amperes" [V] it cuts power. (Note: 0.006 A is 6 mA. The UK RCD rating for personal protection is 30 mA; the two figures are not the same standard. Gate.)
+- "A ground fault is an unintentional electrical path between a power source and a grounded surface." [V]
+- NEC GFCI requirements with effective dates, as CPSC lists them: underwater pool lighting (1968); receptacles outdoors (1973), bathrooms (1975), garages (1978), kitchens (1987), crawl spaces and unfinished basements (1990), wet bar sinks (1993), laundry and utility sinks (2005). "The NEC typically only applies to new construction/major renovations." [V] The list is old: it stops at 2005 and the NEC is revised every three years. Do not present it as current.
+- Test: "At least once a month" [V], press test (light should go out), then reset.
+- Install: circuit-breaker GFCIs by a qualified electrician; receptacle GFCIs may be fitted by consumers "with adequate knowledge and skills" [V], otherwise by an electrician.
+
+#### ESFi, "Ground Fault Circuit Interrupters" 
+https://www.esfi.org/gfci/ Read: full page text from Wayback capture 20250524154705 (live site 403). Thin page. "GFCIs should be tested every month to ensure they are in working order." [V] GFCI described as "a special type of electrical outlet designed to cut off power before an electrical shock can occur." [V]
+
+#### CPSC Publication 5133, "Preventing Home Fires: Arc Fault Circuit Interrupters (AFCIs)"
+https://www.cpsc.gov/s3fs-public/5133.pdf Read: full text, pdftotext. Dated "R042012".
+- "Typical household fuses and circuit breakers do not respond to early arcing and sparking conditions in home wiring." [V]
+- "AFCIs are intended to address fire hazards; GFCIs address shock hazards. Combination devices include both AFCI and GFCI protection in one unit." [V]
+- Older homes "especially may benefit" [V].
+- "Be sure to have a qualified electrician install AFCIs; do not attempt this work yourself. The installation involves working within electrical panel boxes that are usually electrically live, even with the main circuit breakers turned off." [V]
+Where the current NEC requires AFCIs: search snippets name NEC 210.12 and a long list of rooms; I did not read NFPA or ESFi's AFCI page. Gate.
+
+#### Resetting a tripped circuit and finding the fault
+No official page I could read gives the step-by-step. What is established from read sources: an RCD that keeps tripping means a fault in an appliance or the wiring, for a registered electrician (ESF FAQ [V]); fuses and breakers are not arc detectors (CPSC 5133 [V]); UGA's checklist says to "Trip the circuit breakers and test ground fault interrupters to ensure proper protection; label switches if needed." [V] Search snippets from electrical contractors describe the usual method (switch everything off, unplug appliances on the circuit, reset, reconnect one at a time; do not hold a breaker on; do not keep resetting if it trips instantly with nothing connected). That method is sound practice but needs an authoritative source before a lesson states it. Gate.
+
+---
+
+### 4. Gas
+
+#### Cadent Gas, "What to do if you smell gas"
+https://cadentgas.com/smell-gas Read: full text, curl plus pandoc. Cadent is the largest gas distribution network in Great Britain.
+- Number: "call us immediately on 0800 111 999* at any time of the day or night." [V] It is the National Gas Emergency Service number, free and 24/7.
+- Steps before and while calling: "Open doors and windows to ventilate the property." [V] "Turn off the gas at the mains tap. This can usually be located near the gas meter and has a handle that can be turned 90 degrees. If the gas leak is in a cellar or basement, do not enter and instead evacuate the building." [V]
+- Do not: "Turn any power or light switches on or off." [V] (The rest of the don't list is in images and did not extract; the text version below from Con Edison covers the same ground for the US.)
+- Symptoms such as dizziness, nausea and headaches with no gas smell "could be a sign of a carbon monoxide leak." [V]
+- Loss of smell: points to the charity SmellTaste.
+- Gas smelled outside: still call 0800 111 999 and avoid naked flames.
+
+#### National Gas, "Emergency Contacts"
+https://www.nationalgas.com/emergency-contacts Read: full text. Confirms "Call 0800 111 999" [V] and that "these emergency guidelines apply to all gas users." [V]
+
+#### SSE Airtricity Gas Supply NI, "In an emergency"
+https://www.sseairtricitygasni.com/in-an-emergency/ Read: full text.
+- Northern Ireland number: "phone the 24-hour Northern Ireland Gas Emergency Service on 0800 002 001." [V]
+- "Turn off the gas supply at the meter, unless the meter is located in a cellar or basement – in which case, do not enter." [V] "Open doors and windows for ventilation." [V] "Never leave it to anyone else to call the Emergency number" [V].
+Not covered by any source read: the Isle of Man and Channel Islands numbers.
+
+#### HSE, "Domestic gas: frequently asked questions" and "Carbon monoxide awareness"
+https://www.hse.gov.uk/gas/domestic/faqs.htm and https://www.hse.gov.uk/gas/domestic/co.htm Read: full text of both.
+- "It is illegal for anyone to use a gas appliance if they suspect it is unsafe. Turn the appliance off and do not touch it until it has been checked by a Gas Safe registered engineer." [V]
+- "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer." [V]
+- "Anyone employed to work on gas appliances in domestic premises must be a Gas Safe registered engineer and competent in that area of gas work." [V]
+- "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." [V] (No year given for the figure.)
+- CO alarms: HSE "strongly recommends" them but they "should not be regarded as a replacement for regular maintenance" [V]; buy to "British Standard EN 50291" [V].
+- HSE Gas Safety Advice Line 0800 300 363 (office hours).
+- Note: the FAQ still names "National Grid's Gas Emergency Freephone number: 0800 111 999" [V]. The number is right; the operator name is out of date. Lessons should say "National Gas Emergency Service".
+- CO symptoms "can mimic many common ailments" [V]: headaches, dizziness and others; seek urgent advice from a GP or A&E.
+
+#### US: gas utilities
+**SoCalGas, "Natural Gas Leaks"** (https://www.socalgas.com/safety/safety-and-prevention/natural-gas-leak). Read: full text; page stamped 07/23/2024.
+- "IMMEDIATELY EVACUATE THE AREA and call us from a safe location" [V]; call 911 from a safe location if life or property is at risk; do not smoke, light a flame, or "turn electrical appliances or lights on or off" [V].
+- Odour fade: odorant can be lost in new steel pipe, at higher pressures with intermittent flow, and with rust or other substances, so "it's important to not rely only on your sense of smell" [V]. Signs to see and hear: hissing or whistling, dirt or water blowing, a dry patch of grass.
+**Con Edison, "Gas Safety"** (https://www.coned.com/en/safety/energy-safety/gas-safety). Read: full text.
+- "Leave immediately and take others with you." [V] Call 911 or the utility. "Don’t light a match, smoke, flip a switch, ring a doorbell, or touch appliances or electronics, including your phone. Doing so can produce sparks that might cause the gas to explode." [V] "Don’t assume someone else has already called." [V]
+**Atmos Energy** (https://www.atmosenergy.com/safety/recognizing-leak/). Read: full text. "leave the area immediately! From a safe distance call 911" [V]; use smell, sound and sight.
+PHMSA's page returned 403 (not read).
+
+Where the meter and emergency control valve are: Cadent's text says near the meter with a 90-degree handle. A description of the valve's colour or handle position (open when in line with the pipe) was seen only in snippets. Gate.
+
+---
+
+### 5. Heating
+
+#### UK: boilers, pressure, radiators, TRVs
+**Worcester Bosch, "Boiler Pressure: How often should I need to top up the pressure in the heating system?"** https://www.worcester-bosch.co.uk/support/troubleshooting/faqs/all-faqs/how-often-should-i-need-to-top-up-the-pressure-in-the-heating-system Read: full text, curl plus pandoc. A major UK boiler manufacturer (Bosch group).
+- **Who says 1 to 1.5 bar:** "When the heating system is cool, the pressure should be between 1 and 1.5 bar on the pressure gauge (the indicator needle would usually be in the green section)." [V]
+- "If pressure is below 0.5 bar (down in the red section), water has been lost from the system and must be replaced." [V] Red can also mean too high, "about 2.75 bar or more" [V]; overfilled systems are brought down by bleeding a radiator.
+- "If pressure rises by more than 1 bar when the heating is up to temperature then the expansion vessel may require repressurising. This will require a service engineer." [V]
+- "The pressure in the system will usually require topping up once or twice a year." [V] More often suggests a leak: contact the installer.
+This is one manufacturer's figure for its sealed systems. The range is widely repeated by other brands and installers (snippet only). A lesson should say "check the figure in your boiler's manual; Worcester Bosch, for example, gives 1 to 1.5 bar cold." It applies to sealed (combi and system) circuits, not open-vented regular systems with a header tank.
+
+**Worcester Bosch, "How to bleed a radiator"** https://www.worcester-bosch.co.uk/support/troubleshooting/faqs/all-faqs/how-to-bleed-a-radiator Read: full text.
+- Diagnosis: radiators needing bleeding are "colder at the top than at the bottom"; if the reverse, "cold at the bottom and hot at the top" this "could mean that sludge has built up in your radiator and you might need your system cleaned." [V]
+- Steps: heat on to find the cold ones; "Turn off your heating system and wait for the radiators to cool" [V]; key in the bleed screw at the top; anti-clockwise to open, hiss of gas, close clockwise when water flows steadily; heating back on; check; then "make sure you top up the pressure on your boiler. Boiler pressure can be lost when bleeding radiators." [V]
+
+**Energy Saving Trust, "The most economical ways to use your central heating"** (energysavingtrust.org.uk/take-control-your-heating-home/). Read: full text from Wayback capture 20260417064839 (live 403).
+- "turning up your room thermostat won’t make your home heat any faster!" [V]
+- Room thermostat: "For most people, this is between 18°C and 21°C." [V] Keep it clear of curtains, furniture and radiators.
+- TRVs "work by sensing the air temperature around them. If the room is warmer than the setting on the TRV, the valve will close a little." [V] "TRVs usually have a scale from 0 – 6, where zero (0) is off and six (6) is fully open." [V] Suggests 3 to 4 in main rooms and 2 to 3 in bedrooms.
+- Savings figures (e.g. programmer, thermostat and TRVs "can save £110 a year" [V]) are EST estimates tied to a price cap period; they date quickly. Use with a date or leave out.
+- Boiler flow temperature explained as the temperature of water pumped to the radiators.
+
+#### US: furnaces, filters, heat pumps, boilers
+**DOE Energy Saver, "Furnaces and Boilers."** Read: full text from Wayback capture 20250102062644 (404 live).
+- "Furnaces heat air and distribute the heated air through the house using ducts. Boilers heat water, and provide either hot water or steam for heating." [V]
+- AFUE: "An AFUE of 90% means that 90% of the energy in the fuel becomes heat for the home" [V]. AFUE excludes duct losses, "which can be as much as 35% of the energy for output of the furnace when ducts are located in the attic, garage, or other partially conditioned or unconditioned space." [V] Old systems 56% to 70%; modern up to 98.5%.
+- Maintenance "should be provided by a heating system professional" [V]: vent connector and chimney, heat exchanger integrity. "Furnace heat exchangers mix combustion gases with house air when they leak" [V], which the page gives as an important safety reason for inspection. "It is suggested that ever home have a working carbon monoxide alarm." [V] (sic: "ever").
+- Hot-water systems: "Test pressure-relief valve", "Test high-limit control" [V]; steam systems: test the low-water cutoff.
+- Venting: "If you smell gases, you have a venting problem that could affect your health." [V]
+**DOE Energy Saver, "Operating and Maintaining Your Heat Pump."** Read: full text, Wayback 20250102062920 (404 live).
+- "You should have a professional technician service your heat pump at least once a year." [V]
+- "Clean or change filters every 3 months or as recommended by the manufacturer or installer." [V]
+- Neglect penalty: "can range from 10% to 25% (NREL)" [V].
+- "Do not set back the heat pump's thermostat if it causes the backup heating to come on." [V] Clean outdoor coils with the fan power off.
+**DOE Energy Saver, "Maintaining Your Air Conditioner."** Read: full text, Wayback 20241215045250.
+- "Clean or replace your air conditioning system's filter or filters every month or two during the cooling season." [V] Keep 2 feet (0.6 m) clear round the condenser; fin combs; condensate drains.
+**DOE Energy Saver, "Heat Pump Systems."** Read: full text, Wayback 20241231180018. Air-source heat pumps "can reduce your electricity use for heating by up to 75% compared to electric resistance heating" [V]; ENERGY STAR Cold Climate label for regions that regularly freeze.
+**ENERGY STAR, "Maintenance Checklist"** (https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist). Read: full text, live. Annual pre-season contractor check-ups: cooling in spring, heating in fall. Contractor checks include "Check all gas (or oil) connections, gas pressure, burner combustion and heat exchanger." [V] Do-it-yourself: "Inspect, clean, or change air filters once a month in your central air conditioner, furnace, and/or heat pump." [V] Check the condensate drain: "A plugged drain can cause water damage in the house" [V].
+Filter frequency therefore differs by source: ENERGY STAR "inspect, clean, or change" monthly; DOE heat pump page every 3 months; DOE air conditioner page every month or two in season. They are consistent if taught as "check monthly, change when dirty and at least as often as the maker says." See Contested questions.
+
+---
+
+### 6. The building envelope: roof, gutters, damp, condensation, mould, ventilation
+
+#### GOV.UK (DHSC, MHCLG, OHID, UKHSA), "Understanding and addressing the health risks of damp and mould in the home"
+https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2
+Read: full body text via the GOV.UK content API (about 16,700 words). First published 7 September 2023; updated 1 April 2026. Audience: landlords, health and housing professionals in England; still the best official plain-language account of damp types for a householder.
+- Origin: "In December 2020, 2-year-old Awaab Ishak died from a severe respiratory infection caused by prolonged exposure to damp and mould in his home." [V] The guidance responds to the Coroner's concerns after the inquest.
+- The four types, as defined:
+  - "Condensation damp happens when moisture generated inside the home cools and condenses onto colder parts of the buildings (for example window frames, corners and low points on walls behind sofas or wardrobes)." [V]
+  - "Penetrating damp is water that gets into the building from outside due to defects in the walls, roofs, windows or floors." [V]
+  - "Rising damp is moisture from the ground that rises up through parts of the buildings in contact with the ground (walls and floors); it is usually found in older properties and is often misdiagnosed." [V]
+  - "Traumatic damp can be caused by leaking water from waste and heating pipes, overflowing baths or sinks, burst pipes or defective water storage vessels inside the building." [V]
+- "Condensation is one of the most common causes of damp and mould in homes." [V]
+- Causes can combine: "traumatic or penetrating dampness may exacerbate condensation dampness." [V]
+- External checks listed: "damaged or blocked pipes, gutters or downpipes", broken window seals, cracks in render, "missing or broken roof finishes", "bridged (compromised) damp proof course" [V]. Internal checks: peeling wallpaper, staining, visible condensation, defective plaster, high humidity, low insulation, "damaged, blocked, absent or switched off mechanical ventilation (for example, extractors in kitchens and bathrooms)" [V].
+- Hidden mould: "The smell of mould without visible evidence of mould may indicate that there is mould behind a surface" [V].
+- Cleaning: "most tenants could reasonably be expected to remove condensation and very small amounts of mould using an appropriate mould and mildew cleaner, larger areas of mould should only be addressed by qualified professionals." [V] "Mould and mildew products should be used in preference to bleach, for health and safety reasons." [V]
+- Ventilation: "Under building regulations, all replacement windows are required to have trickle vents." [V] Kitchens and bathrooms especially need adequate ventilation. Practical suggestions include "cooking with pan lids on, and keeping internal doors shut when cooking and bathing" [V].
+- Blame: "We are absolutely clear that it is totally unreasonable to blame damp and mould in the home on ‘lifestyle choices’." [V] and "Approaches that attach blame to occupants’ behaviour are unjust and counterproductive." [V] (Drafting point: a course that tells householders how to cut moisture must not slide into implying that damp is the occupant's fault. The guidance says both things: small behavioural adjustments help; blame is wrong.)
+- Law (England): Housing Act 2004 and the HHSRS; "Generally, a ‘category 1’ hazard means that an occupier of or visitor to the property may require some form of medical attention over the course of a year." [V] Also the Homes (Fitness for Human Habitation) Act 2018, Landlord and Tenant Act 1985, Decent Homes Standard. "The government’s review of the HHSRS has now concluded" [V] with findings to follow.
+- The body text I extracted does not mention "Awaab's Law" or the Hazards in Social Housing regulations by name. Gate.
+
+#### US EPA, "A Brief Guide to Mold, Moisture and Your Home"
+https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home Read: full text, curl plus pandoc. "Last updated on February 18, 2026." Web version of EPA publication 402-K-02-003.
+- "The key to mold control is moisture control." [V]
+- "It is important to dry water-damaged areas and items within 24-48 hours to prevent mold growth." [V]
+- "It is impossible to get rid of all mold and mold spores indoors" [V]; spores do not grow without moisture.
+- DIY threshold: if the area is "less than about 10 square feet (less than roughly a 3 ft. by 3 ft. patch), in most cases, you can handle the job yourself" [V]; bigger areas or lots of water damage, consult EPA's remediation guide.
+- "keep indoor humidity below 60 percent (ideally between 30 and 50 percent) relative humidity" [V]; hygrometers cost "$10-$50" [V].
+- Biocides: "The use of a chemical or biocide that kills organisms such as mold (chlorine bleach, for example) is not recommended as a routine practice during mold cleanup." [V] Never mix bleach with ammonia products.
+- "You must have completely fixed the water or moisture problem before the cleanup or remediation can be considered finished." [V]
+- Renters: report leaks and moisture to the owner; escalate to health or housing authorities.
+
+#### CDC, "About Mold and Your Health" (or similar title)
+https://www.cdc.gov/mold-health/about/index.html Read: full text from Wayback capture 20260923211319 (live 403).
+- Humidity "no higher than 50%" [V]; dry out within 24 to 48 hours after a flood.
+- Cleaning: hard surfaces "with household products, soap and water, or a bleach solution of no more than 1 cup of household laundry bleach in 1 gallon of water." [V] "Never mix bleach with ammonia or other cleaners." [V]
+- Health: cites the 2004 Institute of Medicine finding of "sufficient evidence" [V] linking indoor mould with upper respiratory symptoms, cough and wheeze, asthma symptoms in people with asthma, and hypersensitivity pneumonitis in susceptible people; and the 2009 WHO dampness and mould guidelines (neither read).
+
+#### University of Minnesota Extension, "Controlling moisture problems in your home" and "Moisture in basements: causes and solutions"
+https://extension.umn.edu/moisture-and-mold-indoors/do-you-have-too-much-moisture-your-home and https://extension.umn.edu/moisture-and-mold-indoors/moisture-basements-causes-and-solutions Read: full text of both. A US land-grant university extension service.
+- Symptoms: "window condensation, mildew, mold, peeling paint and excessive dust mites." [V] "When the relative humidity is more than 50%, moisture problems may occur." [V] Target "25% (winter) to 50% (summer)" [V] in a cold climate.
+- Roof water volume: "In a 1-inch rain, 1,250 gallons of water fall on the roof of a 2,000-square-foot house." [V]
+- Grading: slope soil away "a minimum of 1 inch per foot for at least 6 feet." [V]
+- Gutters: "A downspout without an extender or splash block is worse than no downspout at all." [V] "Place a minimum of one downspout per 50 linear feet of roof eave. Extensions should discharge water at least 4 feet beyond the wall." [V]
+- A named misconception: summer basement condensation is often mistaken for leakage: "Many homeowners see this moisture and believe they are experiencing basement wall leakage, when in fact the accumulated moisture is from condensation." [V]
+
+#### DOE Energy Saver, "Whole-House Ventilation" and "Air Sealing Your Home"
+Read: full text from Wayback captures 20250102092834 and 20241231180120 (both 404 live).
+- "Energy-efficient homes -- both new and existing -- require mechanical ventilation to maintain indoor air quality." [V] Four types: exhaust, supply, balanced, energy recovery. Exhaust systems "Can cause backdrafting in combustion appliances" [V]; supply systems "Can cause moisture problems in cold climates" [V].
+- Air sealing: "Relying on air leakage for natural ventilation is not recommended." [V] "The recommended strategy is to reduce air leakage as much as possible and to provide controlled ventilation as needed." [V] Caulk and weatherstrip; "Check your dryer vent to be sure it is not blocked. This will save energy and may prevent a fire." [V]
+This is the US statement of "build tight, ventilate right", and matches the GOV.UK guidance's point that an energy-efficient home is less prone to condensation "provided it is adequately ventilated" [V].
+
+#### The rising damp question: both sides in their own words
+
+**Side 1: the damp-proofing industry (Property Care Association).**
+**PCA, "Rising Damp Advice"** https://www.property-care.org/homeowners/advice/rising-damp/ Read: full text. The PCA is the trade body for damp-proofing and related specialists.
+- "Rising damp is simply due to the process of external ground water being drawn up through brickwork by what is known as capillary action." [V]
+- Signs: moisture at the base reducing with height, often a "‘tide-mark’" [V]; "Hygroscopic salts (particularly chlorides/nitrates) are almost invariably present in groundwater" [V].
+- Causes include bridging of the DPC by raised ground or a patio, and incorrect installation. A DPC is "installed roughly at about 6 inches from the ground" [V].
+- Remedy: remove bridging first; if the DPC "has failed in some way" [V], get a PCA specialist survey; salt-contaminated plaster may need replacing with salt-resistant plaster.
+**RICS Property Journal, Michael Cooper FRICS and Andrew Thompson FRICS, "Rising damp needs continuing research", 23 November 2020** https://ww3.rics.org/uk/en/journals/property-journal/rising-damp-needs-continuing-research.html Read: full text. This article reports, and leans towards, the "rising damp is real" side. It summarises Leslie Sellers' 2017 University of Salford doctoral thesis (not read) as concluding: "Rising damp is a real phenomenon that warrants treatment and the contemporary method of damp-proofing, installed as it would be on a real construction site, does provide effective control." [V] It also describes the other side's claim that "rising damp was simply a myth used by surveyors as a cash cow" [V] and notes Hart v Large [2020] EWHC 985 (TCC), where a surveyor who missed a damp defect was found negligent.
+
+**Side 2: sceptics (conservation professionals and some surveyors).**
+**The Architects' Journal, "Rising damp is a myth, says former RICS chief", 26 June 2009** https://www.architectsjournal.co.uk/home/-rising-damp-is-a-myth-says-former-rics-chief/5204095.article Read: full text.
+- Stephen Boniface, former chair of the RICS construction faculty, said "‘true rising damp’ is a myth" and chemically injected DPCs are "‘a complete waste of money’" [V]; and "‘The most likely causes of damp are moisture penetration and, most commonly, condensation’" [V].
+- Elaine Blackett-Ord (building conservation architects' register) called injected DPCs "ineffective and grossly expensive" and cement-based internal renders damaging to historic buildings [V].
+- Jeff Howell (author of The Rising Damp Myth, 2008, not read) on his laboratory brick-pillar trials [V, as quoted].
+- The counter-voice in the same article, Terry Brown of GMW Architects: "It’s right to question the diagnostic skills of commercial damp proofing firms, but to state categorically there is no such thing as rising damp undermines a whole litany of rules of brickwork detailing" and "the challenge has to be scientific and not anecdotal." [V]
+
+**The settled middle: the 2022 Joint Position Statement.**
+**RICS, Historic England and PCA, "Investigation of moisture and its effects on traditional buildings: Principles and competencies", Joint position statement, 1st edition, September 2022** (ISBN 978 1 78321 478 5). https://ihbc.org.uk/toolbox/docs/JPS2022%20Investigation%20of%20moisture%20v3.pdf Read: full text, pdftotext (15 pages).
+- Adopted also by Cadw, Historic Environment Scotland, HED Northern Ireland, IHBC and SPAB. This is the one document both camps have signed.
+- "Traditional" means "buildings with solid walls built from permeable materials such as brick, stone, earth, timber and lime-based mortars, plasters and renders. Traditional construction absorbs moisture but allows it to evaporate when conditions become drier." [V]
+- Section 1B: surveyors should "Recognise that traditional buildings are constructed with different detailing and performance expectations from modern buildings, and that moisture presence in such buildings may not be down to a construction failure." [V]
+- Section 2 item 9 and section 3: understand salts and "how this might influence a resistance meter" [V]; the listed measuring methods include gravimetric analysis, carbide meters, resistance and capacitance meters.
+- Section 5: recommendations "must be proportionate to the defect and the significance of the building." [V]
+- Explanatory notes: a contractor who quotes must "report objectively on the facts of the problem, only suggest remedial works that are proportionate to any defects discovered" [V] and declare any financial interest in the product or treatment specified.
+**Historic England, "Damp in Historic Buildings"** landing page, Wayback 20250717054548 (live 403). Read: full extracted text (about 320 words). "Damp is a significant problem in many buildings. It causes decay of building fabric and contents, creates unhealthy conditions for occupants and makes buildings more expensive to heat." [V] Links to the JPS and to conference recordings; the guidance publication "Assessing Damp in Historic Buildings" was not read.
+**Cadw, "Investigation of moisture in traditional buildings"** (https://cadw.gov.wales/investigation-moisture-traditional-buildings). Read: full text (about 260 words); confirms Cadw's adoption.
+
+What a householder course can teach from this: rising damp exists as a mechanism (both sides' documents describe capillarity), is less common than condensation and penetrating damp, is "often misdiagnosed" (GOV.UK [V]), and a resistance moisture meter reading on a wall is not a diagnosis because salts distort it (JPS [V]). Check the cheap outside causes first (gutters, downpipes, ground level against the wall, bridged DPC, cement render or pointing on an old wall), and treat a quote from someone selling a treatment with the JPS's own standard: proportionate, declared interest.
+
+---
+
+### 7. Canonical textbooks, courses and free resources
+
+#### Manuals most often recommended
+Evidence that these are the standard general manuals: North Seattle College's continuing-education course "Basic Hands-On Home Repair and Maintenance" (https://conted.northseattle.edu/courses/basic-hands-home-repair-and-maintenance, read in full) says "No textbooks are needed but a general home repair book (Readers Digest, Black & Decker, etc.) might enhance class demos." [V]
+
+**Reader's Digest, Complete Do-It-Yourself Manual** (first published 1973; "New Complete" edition 1991, 528 pp, ISBN 0895773783; "Completely Revised and Updated" edition with Family Handyman, 2005 (Publishers Weekly listing ISBN 978-0-7621-0579-3) and a 2009 Canadian printing, ISBN 9780888509604).
+Read: TOC only, from the Internet Archive catalogue record for the 1973 edition (readersdigestcom0000unse_x7w4, contents note), plus the Publishers Weekly review of the revised edition (full text) and the archive.org description of the 2009 printing. Book text not read (lending-restricted).
+- 1973 sections: 1 Hand tools; 2 Power tools; 3 Fasteners, hardware and adhesives; 4 Interior repairs (walls and ceilings, floors, windows, weatherstripping, doors and locks, ceramic tile, basements, household pests); 5 Exterior repairs (roof repairs, asphalt and slate shingles, flat roofs, "Gutters and downspouts", waterproofing basement walls); 6 Furniture; 7 Plumbing ("Plumbing emergencies", "Home plumbing systems", "Hot-water heaters", "Sewage disposal"); 8 Electricity ("solving power problems safely"); 9 Climate control (heating and air conditioning, heat pump, controls); 10 Painting and decorating; further sections beyond the extract.
+- Publishers Weekly on the revision: "Seventeen chapters" and "more than 3,000 photos and illustrations" [V]; new Landscaping and Storage sections.
+Use: the shape of the field. Tools first, then fixings, then interior, exterior, plumbing, electrics, heating, decoration.
+
+**Black & Decker (Creative Publishing International, now Cool Springs Press / Quarto), The Complete Photo Guide to Home Repair** (1999, 504 pp; 2004, 598 pp; 2008 edition 559 pp, ISBN 9781589234178; 4th edition c. 2016, ISBN 9781591866633) and its successor **The Book of Home How-To** (2014, 600 pp, ISBN 9781591865988; updated editions since).
+Read: TOC only, from the Internet Archive catalogue record for the 2008 edition (contents note), plus the Quarto product page for "Black & Decker The Book of Home How-To" (full text).
+- 2008 contents: "Introduction -- Interior -- Maintaining windows & doors -- Exterior repairs -- Plumbing & wiring -- Heating, ventilation, & air conditioning -- Reference charts" [V, catalogue note]; publisher blurb: "more than 200 essential home repair projects, including common wiring, plumbing, interior and exterior repairs" [V].
+- Quarto page: the current "Home How-To Home Repair" covers "over 50 of the most common household repairs, including wiring and plumbing, all current with the latest 2019–2020 codes" [V]. US codes only.
+
+**Albert Jackson and David Day, Collins Complete DIY Manual** (HarperCollins; 1993, 528 pp; revised 1997, 2001, 2004 (550 pp, ISBN 9780007185238), 2007, 2011 (552 pp, ISBN 9780007425952)).
+Read: publisher description via Google Books through WebFetch [T], and Open Library and Internet Archive catalogue records (edition data). Book text and full TOC not read.
+- 2004 contents per the publisher description [T]: planning; decorating; repairs and maintenance; home security; infestation, rot and damp; insulation and ventilation; electricity; plumbing; heating; garden projects; tools and techniques.
+Use: the standard UK manual. Its section on "infestation, rot and damp" and "insulation and ventilation" as chapters of their own is itself a signal of what British practice treats as core. Its regulatory content predates Part P's 2013 edition in the 2011 printing at best; do not rely on it for current rules.
+
+**Haynes home manuals.** Searches returned only the motoring manuals and bookseller category pages. I found no specific Haynes home-maintenance title with a readable contents list. Not read.
+
+#### Real syllabi and course outlines
+**UGA Cooperative Extension Circular 1082, "Home Maintenance Checklist"**, Pamela R. Turner and Lindsey Bailey, "Reviewed June 2021". https://www.fcs.uga.edu/docs/HomeMaintChecklist_update_6.21.pdf Read: full text, pdftotext (3 pp). A land-grant extension publication and the best model for the seasonal-schedule outcome.
+- Organised as spring and fall checks under: Basement/Crawl Space; Exterior; Yard; Windows and Walls; Roof and Attic; Appliances; Plumbing and Bathrooms; Electrical; Heating and Cooling. Note "maintenance frequencies may vary depending on your local climate and appliance manufacturing recommendations." [V]
+- Examples: "Clean gutters and downspouts (may need to be done more frequently). Make sure they discharge water 2-3 feet away from the house." [V] "Check flashing around the chimney, plumbing vent, skylight" [V]. "Check ductwork connections to make sure that fans exhaust to outdoors." [V] "Vacuum clothes dryer lint from ducts" [V]. Septic tank pumping "every 3 - 7 years" [V]. "Test the water-heater pressure and temperature-relief valve" [V]. "Trip the circuit breakers and test ground fault interrupters" [V]. "Replace air filters" [V] (with a note that it may be more often). "Hire a professional to tune-up the heating and cooling system." [V]
+- Where it says hire a professional: sewer line clearing, foundation cracks, pest treatment, septic pumping, HVAC tune-up, chimney (optional).
+Note that UGA's downspout figure (2 to 3 feet) and UMN's (at least 4 feet) differ; both are US extension services. Teach "well away from the wall; your local guidance may give a figure."
+
+**Utah State University Extension, "Home Maintenance Checklist"** (https://extension.usu.edu/finance/faq/home-maintenance-checklist). Fetched in full (about 700 words) but only skimmed for structure; not relied on.
+
+**North Seattle College continuing education, "Basic Hands-On Home Repair and Maintenance."** Read: full course page. Content: "hand tools, how to work with electrical outlets, switches, lighting; plumbing, faucets, wall repair and more. Get an overview of door and window installation, weatherization and remodeling." [V] Required safety gear: "eye goggles, a respiratory mask, and ear protection" [V].
+
+**The Goodlife Centre, London, "7 DIY Courses for Beginners in London."** https://www.thegoodlifecentre.co.uk/7-diy-courses-for-beginners-in-london/ Read: full text. A private UK adult-education workshop, the closest UK analogue to a community-college home-repair class.
+- Beginners' plumbing: "Plumbing = water in and water out." [V] It teaches how to "isolate water supply, fix a leaky tap, rescue something from a U-bend and unclog a blocked sink" [V], replace cistern parts, and fit washing machines.
+- Beginners' electrics: wire a simple lighting circuit and "Stay safe in your home by finding out what you can and can’t do yourself without certification." [V]
+- Also drilling and fixings, preparing and painting, tiling.
+
+**City & Guilds 6219, Entry Level and Level 1 Awards, Certificates and Diplomas in Basic Construction Skills, Qualification handbook**, "July 2025 Version 4.9". https://www.cityandguilds.com/-/media/productdocuments/construction_and_the_built_environment/construction/6219/centre_documents/6219_e3_l1_a_c_d_qualification_handbook_v4,-d-,9-pdf.pdf Read: contents and unit list (pages 1 to 5), pdftotext. This is pre-vocational trade training, not a homeowner course, but it is the recognised UK entry qualification in the same skills.
+- Entry 3 units include "Painting techniques", "Tiling a plain wall", "Removing and refitting water-filled radiators", "Working with non-manipulative fittings", "Connecting flex to common apparatus" [V]. Level 1 units include "Introduction to health and safety in construction", "Fitting locks and latches", "Painting and wallpapering", "Cutting and fixing tiles to wet areas", "Bending and jointing copper pipes", "Installing rain water goods", "Assembling 13amp switched sockets wired in ring final" (circuits) and lighting circuits [V].
+- Useful as a benchmark: the practical plumbing units a beginner is trusted with are radiators and push-fit (non-manipulative) fittings; the electrical units are done in a training workshop, not in a home.
+
+#### Best free resources to link (status as of 25 September 2026)
+- **ENERGY STAR** (energystar.gov): live; maintenance checklist read. Recommended.
+- **US DOE Energy Saver**: **not live** (404). Do not link. Cite Wayback if needed.
+- **EPA** mold guide and WaterSense: live, dated 2026. Recommended.
+- **University extension services** (UGA, UMN): live, free, research-based. Recommended.
+- **GOV.UK damp and mould guidance**: live, updated April 2026. Recommended.
+- **WaterSafe** (stop tap, pressure, find a plumber): live. Recommended for UK.
+- **Energy Saving Trust**: live but blocks automated reading; content read via Wayback. Recommended.
+- **Electrical Safety First**: live; some content script-loaded. Recommended with care.
+- **HSE gas pages**: live. Recommended.
+- **Cadent / National Gas**: live. Recommended.
+- **This Old House** and **Which?** how-to pages: not read. Do not cite until read.
+
+---
+
+### (a) What this part says the field considers essential
+
+1. **Know your shut-offs before you need them.** Every source on water, gas and electricity makes finding the control point the first skill: the internal stop tap or main shut-off valve (WaterSafe, WSSC), the consumer unit or panel and its main switch (ESF), the gas emergency control valve by the meter (Cadent, SSE NI). The manuals and the UGA checklist both treat labelling breakers and exercising valves as routine.
+2. **Water gets in, water gets out, and air and gas must not come back.** The house is a set of flows: pressurised supply in, gravity drainage out through traps that hold a water seal against sewer air, with vents to stop the seals being sucked out (Approved Document H, ASHI).
+3. **Moisture is the enemy of the building.** EPA: moisture control is mould control; GOV.UK: four kinds of damp with different causes; UMN: most basement water is grading, gutters and condensation. The seasonal lists (UGA) are mostly about keeping water off and out.
+4. **Protective devices are there to trip.** RCDs and GFCIs protect people from shock; AFCIs and breakers protect against fire; a repeated trip means a fault, not a nuisance (ESF, CPSC).
+5. **Gas is a stop-and-call trade.** Owners may shut off and ventilate (UK) or leave (US); appliance and pipework work is for a Gas Safe registered engineer (HSE); annual service; CO alarms.
+6. **Tight homes need controlled ventilation.** DOE and GOV.UK agree: seal leaks, then ventilate deliberately; extractors and trickle vents matter.
+7. **A seasonal schedule is the course's backbone.** UGA's spring and fall layout, ENERGY STAR's spring cooling and fall heating check-ups, the Met Office's six-monthly stop tap check.
+
+### (b) Common misconceptions (named by a source)
+
+- "Turning up your room thermostat" heats the home faster. It does not (EST [V]).
+- A radiator cold at the bottom needs bleeding. Cold at the top is air; cold at the bottom is likely sludge (Worcester Bosch [V]).
+- Wet basement walls in summer mean a leak. Often it is condensation (UMN [V]).
+- Wet wipes are safe to flush: a quarter of Thames Water's survey respondents thought so (Thames Water [V]); the Fine to Flush logo caused "a blanket belief that all wipes were now safe to flush" (The Water Report [V]).
+- A home survey covers the electrics. It does not (ESF [V]).
+- An older consumer unit without RCDs must be replaced. "not necessarily" (ESF [V]).
+- Ordinary breakers and fuses protect against arcing faults. They do not respond to early arcing (CPSC 5133 [V]).
+- AFCIs and GFCIs do the same job. One is for fire, the other for shock (CPSC 5133 [V]).
+- If you cannot smell gas there is no leak. Odour fade and loss of smell (SoCalGas [V]; Cadent on anosmia).
+- Mould can be eradicated or should be routinely bleached. "impossible to get rid of all mold" and bleach "not recommended as a routine practice" (EPA [V]).
+- A damp reading on a meter means rising damp. Rising damp "is often misdiagnosed" (GOV.UK [V]); salts affect resistance meters (JPS [V]).
+- Damp and mould are caused by tenants' "lifestyle choices". The guidance calls this "totally unreasonable" (GOV.UK [V]).
+- Leaky old houses ventilate themselves adequately. "Relying on air leakage for natural ventilation is not recommended" (DOE [V]).
+- An AFUE figure is what you get. It excludes duct losses of up to 35% (DOE [V]).
+
+### (c) Contested questions
+
+1. **How common is rising damp, and does injected damp-proofing work?**
+   Positions: the damp-proofing trade body says rising damp is capillary rise from the ground, found where a DPC is absent, failed or bridged, and a remedial DPC and salt-resistant replastering can cure it (PCA [V]); a 2017 doctoral study summarised in the RICS journal concludes it "is a real phenomenon that warrants treatment" and modern damp-proofing "does provide effective control" (RICS, 2020 [V]). Sceptics say "true rising damp" is a myth or rare, and injected DPCs are "a complete waste of money", with condensation and penetrating damp the usual causes (Boniface, Blackett-Ord, Howell, in AJ 2009 [V]). Common ground, signed by RICS, Historic England and the PCA in 2022: moisture in old solid walls may not be a defect; diagnosis must be proper and meter readings interpreted with salts in mind; remedies proportionate; interests declared (JPS [V]). GOV.UK: "often misdiagnosed" [V].
+   Status: **contested** as to frequency and treatment efficacy; the mechanism exists (established fact); that it is overdiagnosed is now the official line in England (GOV.UK, JPS), though the trade body frames it as poor diagnosis rather than non-existence.
+2. **Hot water temperature: scald risk against legionella.** CPSC: set heaters to 120°F (49°C) [V]. HSE: store hot water in cylinders at 60°C [V]. Both are established facts about different hazards; the choice is a **value/risk trade-off**, usually resolved in practice by storing hot and blending down at the tap (thermostatic mixing valves: not read, gate).
+3. **Mould cleaning with bleach.** CDC: bleach solution of no more than 1 cup per gallon is acceptable [V]. EPA: biocides like bleach "not recommended as a routine practice" [V]. GOV.UK: mould products "in preference to bleach" [V]. **Contested practice** (minor); all agree fix the moisture first and never mix bleach with ammonia.
+4. **Indoor humidity targets.** EPA below 60%, ideally 30 to 50% [V]; CDC no higher than 50% [V]; UMN 25% winter to 50% summer in a cold climate [V]. Not really contested: climate-dependent. Teach a range and the reason.
+5. **Filter change interval.** ENERGY STAR monthly inspect, clean or change [V]; DOE heat pumps every 3 months [V]; DOE air conditioners every month or two in season [V]. **Varies by equipment and use**; teach "check monthly, follow the maker."
+6. **Flushability labelling.** Water UK and the government withdrew Fine to Flush in favour of the 3Ps message (WRc, The Water Report [V]); WRc argues plastic wipes, not certified flushable ones, are the problem and is restarting testing [V]. **Contested** between sector bodies; for a householder the safe teaching (only the 3Ps) is not in dispute.
+7. **What to do on smelling gas.** UK networks: ventilate, turn off at the meter valve if safe (not in a cellar), call 0800 111 999 (Cadent, SSE NI [V]). US utilities: leave immediately, touch nothing including the phone, call 911 and the utility from outside (Con Edison, SoCalGas, Atmos [V]). **Established fact that the official advice differs**; the lesson should teach each country's advice as given and note the shared core (no flames, no switches, get out if the smell is strong or the meter is in an enclosed space).
+8. **Frozen pipes.** UK: stop tap off first, drain, thaw slowly (Met Office [V]). US: keep the faucet open so flowing water helps melt the ice, heat the pipe (Red Cross [V]). **Different established practices**; both forbid open flames.
+
+### (d) UK vs US differences
+
+| Topic | UK | US |
+|---|---|---|
+| Water shut-off name | internal stop tap, stop valve or stopcock (WaterSafe) | main shut-off valve (WSSC) |
+| Outside valve | external stop tap, usually in the public footpath, water company's (CCW) | underground valve at property line, often in a meter pit; utility or master plumber operates (WSSC) |
+| Pipe ownership | owner responsible from the boundary of the road where the main is laid (CCW) | varies by utility (not researched further) |
+| Pressure units | bar and metres head; 0.7 bar guaranteed minimum, 1.0 bar aim (WaterSafe) | psi (no US standard read) |
+| Hot water | combi (no cylinder), system (cylinder), heat-only/regular (cylinder plus loft tanks) (EST) | storage tank water heater or tankless on-demand (DOE); T&P valve on tanks |
+| Heating | wet central heating: boiler and radiators, TRVs, sealed-system pressure gauge (EST, Worcester Bosch) | mostly forced-air furnaces with ducts and filters; also boilers and heat pumps (DOE) |
+| Protective devices | consumer unit with main switch, MCBs, RCDs; RCD test button (ESF) | panel or load centre with breakers; GFCI (shock, about 6 mA per CPSC) and AFCI (fire) (CPSC) |
+| Wiring terms | live brown, neutral blue (ESF); ring final circuits and radials (C&G 6219) | NEC-based; circuits are radial (not researched further) |
+| Rules on DIY electrics | Part P (England and Wales): notifiable vs non-notifiable (IET) | state and local adoption of the NEC; permits vary (not researched) |
+| Gas emergency | 0800 111 999 (GB); 0800 002 001 (NI); ventilate, ECV off if safe | leave, then 911 and utility from outside; do not touch anything |
+| Gas workers | Gas Safe registration required of anyone doing gas work as a business; competence required of everyone, householders included (GSIUR reg 3; corrected at synthesis, see "The gas-work law, stated exactly") | licensed plumbers or gas fitters by state (not researched) |
+| Damp vocabulary | rising, penetrating, condensation, traumatic damp; DPC (GOV.UK) | "moisture" and "mold"; grading, gutters, sump pumps, crawl spaces (EPA, UMN) |
+| Temperatures | °C; thermostat 18 to 21°C (EST) | °F; water heater 120°F (CPSC); leave heat no lower than 55°F when away (Red Cross) |
+| Spelling | mould | mold |
+
+### (e) Safety-critical notes for drafters
+
+1. **Gas:** do not teach the UK "ventilate and turn off at the meter" steps to US learners, whose utilities tell them to leave immediately and touch nothing. In both countries: no flames, no switches, do not enter a cellar or basement where the meter is if you smell gas, call from outside or from a safe place. Give both GB (0800 111 999) and NI (0800 002 001) numbers.
+2. **CO:** annual service by a Gas Safe engineer (UK) or professional (US); CO alarm to EN 50291 (UK); symptoms mimic flu. Link to the First Aid course for response.
+3. **Electricity:** householder work stops at the front of the consumer unit or panel: switching, resetting, testing RCDs and GFCIs, and plug-in RCDs. Working inside a panel is for an electrician; CPSC says panels "are usually electrically live, even with the main circuit breakers turned off" [V]. A breaker or RCD that trips again immediately must not be forced or held on. Water near electrics: do not touch.
+4. **Water and electricity together:** after a burst pipe, do not reach through water to the consumer unit; the Met Office sentence is ambiguous (see Gates).
+5. **Hot water:** 49°C tap safety against 60°C storage for legionella; do not tell learners simply to "turn the water heater down" without the legionella caveat, or to "turn it up" without the scald caveat. Adjusting an electric water heater thermostat means isolating the power first and removing panels (CPSC 5098): this may belong in the "call a professional" column for a Foundation course.
+6. **T&P valves:** testing one can release scalding water and a valve that will not reseat will keep leaking. Do not teach the test without a manufacturer source.
+7. **Mould:** small areas only (EPA under about 10 sq ft; GOV.UK "very small amounts"); gloves, eye protection, never mix bleach and ammonia.
+8. **Frozen pipes:** no blowtorch or naked flame (Met Office, Red Cross).
+9. **Heating pressure:** repressurising via a filling loop is a user task on many sealed systems, but overfilling to the red zone and a pressure that keeps dropping (a leak) or rises by more than 1 bar when hot (expansion vessel) are engineer jobs (Worcester Bosch).
+10. **Drain chemicals and FOG:** this part did not research chemical drain cleaners; if a lesson mentions them it needs a source on their hazards.
+
+### (f) Gates: claims that need a primary read before a lesson states them
+
+1. **RCD 30 mA** rating for socket and personal protection, and ESF's "test every three months" interval: seen only in snippets. Read BS 7671 guidance, the IET's On-Site Guide or a readable ESF page.
+2. **Ring final circuit and radial circuit definitions, MCB ratings (32 A ring, 20 A or 16 A radial)**: snippets only from contractors.
+3. **Current BS 7671 edition and amendment**: the IET FAQ cites BS 7671:2018; check whether a later amendment or a new edition is in force at drafting time.
+4. **Current NEC GFCI and AFCI locations** (e.g. NEC 210.8, 210.12, 2023 or 2026 edition): CPSC's list stops at 2005 and I read no NFPA text. Use NFPA or ESFi primary pages, and say the NEC applies as adopted by each state.
+5. **Resetting a tripped circuit and isolating the faulty appliance**: the step-by-step needs an authoritative source (ESF, ESFi, a manufacturer).
+6. **T&P relief valve**: what it does, test interval and method: read a water heater manufacturer's manual (e.g. A. O. Smith, Rheem) or a code-body page.
+7. **Water heater flushing interval** (ASHI monthly, others annually): read a manufacturer's manual.
+8. **Gas emergency control valve**: position when open and closed, typical colour, location for flats and outside meter boxes. Read Gas Safe Register's page (blocked) via another route, or a network's meter guide.
+9. **Isle of Man and Channel Islands gas emergency numbers**, if the course names "UK" broadly.
+10. **Ofwat guaranteed standard of 7 m head (0.7 bar)**: stated here via WaterSafe; confirm on Ofwat or legislation.gov.uk (Water Supply and Sewerage Services (Customer Service Standards) Regulations).
+11. **Awaab's Law** (Hazards in Social Housing (Prescribed Requirements) (England) Regulations 2025): commencement date and scope; not in the GOV.UK guidance text I extracted.
+12. **HHSRS review outcome**: GOV.UK says findings to be published; check before stating any change.
+13. **Wet wipes ban**: Wales, Scotland and Northern Ireland dates; I read only the England SI's commencement.
+14. **The Met Office burst-pipe sentence** on electrics ("do not touch them and switch them off at the fuse box"): confirm current advice with ESF before paraphrasing.
+15. **Thermostatic mixing valves** as the resolution to scald against legionella: not read.
+16. **Boiler pressure range for other makes**: the 1 to 1.5 bar figure is Worcester Bosch's; other makers' manuals not read.
+17. **Collins Complete DIY Manual contents** and edition currency: publisher description came through WebFetch [T] only.
+18. **Energy Saving Trust savings figures** (£ per year): tied to a price period; re-read before use or omit.
+19. **US gas work licensing and US electrical permit rules**: not researched in this part.
+
+### (g) Not read
+
+
+*The part's own "Not read" list below is superseded by the combined `unread:` line at the top of this file, which drops strings that another part read (see "The `unread:` line is the build's enforcement").*
+
+Strings for the build-time blocklist (whole words, case-sensitive). Each is a work or site named above or met in my searches that I did not read. I checked every string against the extracted text of every source in the shared raw folder (mine and the other researchers'), and removed any that matched a source someone read.
+
+- Assessing Damp in Historic Buildings
+- Digest 245
+- spab.org.uk
+- water.org.uk
+- afcisafety.org
+- Storage or Tank-Type Water Heaters
+- Hazards in Social Housing
+- HSG274
+- 210.12
+- 210.8
+- This Old House
+- which.co.uk
+- Haynes
+
+Named in this part but known only through a source I did read, so deliberately left off the blocklist (a lesson may mention them only as that source reports them, never as if read): Howell, The Rising Damp Myth (via AJ 2009 and RICS 2020); Leslie Sellers' 2017 thesis (via RICS 2020); BRE DG 245 and BS 5250 (named in RICS 2020); EPA's "Mold Remediation in Schools and Commercial Buildings" (named in the EPA guide); the 2004 Institute of Medicine report and the 2009 WHO dampness and mould guidelines (named by CDC and GOV.UK); PAS 2035 (named by GOV.UK); the Uniform Plumbing Code (not read); Gas Safe Register's own pages, Ofwat's pages, NFPA and PHMSA pages (blocked for me; other researchers' files show some were read by them).
+
+Read at catalogue or table-of-contents level only (the books themselves not read; name them as recommended reading, but do not attribute any content beyond the chapter headings recorded above):
+- Reader's Digest Complete Do-It-Yourself Manual (all editions)
+- Black & Decker The Complete Photo Guide to Home Repair; The Book of Home How-To
+- Collins Complete DIY Manual (description via WebFetch [T] only)
+
+---
+
+## Part B: tools, working at height, common repairs, decorating, pests, seasonal maintenance, hiring a tradesperson
+
+Researcher B. Sources read 2026-09-25. Extraction tools: curl with pandoc or a small HTML-to-text script, pdftotext for PDFs, the PubMed E-utilities API, the legislation.gov.uk and eCFR renderers, and Internet Archive captures where a site returned 403 to curl (capture IDs given). Nothing below comes from WebFetch, so there are no [T] items. Where a fact was seen only in a search-engine summary it is marked "Snippet only" and must not be stated as a finding.
+
+A caution on the shared scratch directory: the helper scripts in `hr/` were rewritten by another researcher partway through this session, so from the pest section onward my extracts sit in `hr/B/raw/`. Earlier ones are in `hr/raw/` and may have been overwritten since; the quotations below were checked at the time of reading.
+
+---
+
+### 1. Tools and safe use
+
+#### OSHA, *Hand and Power Tools*, OSHA 3080, 2002 (Revised)
+https://www.osha.gov/sites/default/files/publications/osha3080.pdf
+Read: the whole booklet, pdftotext; general precautions and the sections on guards, electric tools and abrasive wheels read closely. Dated "2002 (Revised)" on the cover.
+Good for: the standard list of power tool precautions. Written for employers and employees under 29 CFR 1910 and 1926, so it describes duties at work, but the precautions carry straight over to the home.
+- Hand tools: most harm comes from "misuse and improper maintenance". Its examples: a chisel used as a screwdriver can shatter, a loose hammer head can fly off, sprung wrench jaws slip, and mushroomed chisel heads can splinter.
+- Power tool precautions, all [V]: "Never carry a tool by the cord or hose."; "Disconnect tools when not using them, before servicing and cleaning them, and when changing accessories such as blades, bits, and cutters."; "Secure work with clamps or a vise, freeing both hands to operate the tool."; "Avoid accidental starting. Do not hold fingers on the switch button while carrying a plugged-in tool." Also: dress so loose clothing, ties and jewellery cannot catch; keep bystanders at a distance; tag damaged tools "Do Not Use".
+- Guards: "Safety guards must never be removed when a tool is being used." [V]
+- Electric tools should be grounded, double-insulated or low-voltage. Eye and face protection are required with grinders and similar tools.
+- Dull tools: "dull tools can cause more hazards than sharp ones" [V].
+
+#### London Fire Brigade, "Batteries and chargers" and "E-bikes and e-scooters: fire safety advice"
+https://www.london-fire.gov.uk/safety/the-home/electrical-items/batteries-and-chargers/ and https://www.london-fire.gov.uk/safety/lithium-batteries/
+Read: the full text of both pages (curl). No date shown.
+Good for: lithium-ion charging advice in the UK. The advice is written about phones, laptops and e-bikes, not cordless tool packs, though the principles are the same.
+- The e-bike page: "On average there’s a fire from a lithium-ion battery in an e-bike or e-scooter every two days in London." [V] Many of these fires start while a battery is charging at home.
+- Batteries are a fire risk "when over-charged, short-circuited, submerged in water or if they are damaged" [V].
+- Charging tips: use the charger supplied with the device; if you replace it, buy a branded, genuine one from a trusted seller; avoid charging or storing batteries at very high or very low temperatures; protect them from crushing, puncture and water; "Don’t leave items continuously on charge after the charge cycle is complete" [V]; never cover a charger while it is working.
+- If a battery swells: stop charging at once, do not open the casing, and contact the manufacturer.
+
+#### Office for Product Safety and Standards, "Statutory guidelines on lithium-ion battery safety for e-bikes" (GOV.UK)
+https://www.gov.uk/guidance/statutory-guidelines-on-lithium-ion-battery-safety-for-e-bikes
+Read: only the title, description and date, through the GOV.UK content API. Published 2024-12-12. The description says it is "Guidance for businesses." [V]
+Good for: showing that the UK regulator's formal lithium-ion document is aimed at producers, not households. Consumer advice should come from LFB.
+
+#### HSE, "All you need to know about disposable dust masks"
+https://www.hse.gov.uk/agriculture/dustmasks.htm
+Read: full text (curl). No date is shown. The page points to "e-COSHH essentials which will come on line in autumn 2005", so the text is about twenty years old. It was written for farm work.
+Good for: FFP grades explained in plain terms, and the point about fit.
+- FFP1, FFP2 and FFP3 "can reduce the amount of dust you breathe by factors of 4, 10 and 20 respectively" [V]. These are the grades marked to EN 149:2001.
+- Fit: a tight-fitting respirator "is useless if you have a beard or thick beard stubble" [V]. Do a pre-use check each time you put it on.
+- These masks filter dust only. They "must not be used where there is an oxygen-deficient atmosphere or harmful gases and vapours" [V]. So they give no protection against solvent vapour from paint strippers.
+- "Nuisance dust masks" or comfort masks that carry no standard mark and often have one strap are not respirators.
+
+#### NIOSH, "Find Filtering Facepiece Respirators on the Certified Equipment List"
+https://www.cdc.gov/niosh/ppe/niosh-approved-respirators/ffr-cel.html (Wayback capture 20260923185140)
+Read: full page.
+Good for: the US counterpart to the FFP grades. An N95 "Filters at least 95% of airborne particles. Not resistant to oil." [V] Each type of respirator has an assigned protection factor, set out in Table 1 of the OSHA respiratory protection standard. I did not read that table (see Gates).
+
+#### Bosch DIY, "How to drill without any nasty surprises"
+https://www.bosch-diy.com/gb/en/all-about-diy/drill-more-safely
+Read: full text (curl). This is manufacturer guidance for its own detectors. I found no official UK or US consumer page on cable detectors; Electrical Safety First's advice on this was seen only as a social media post in search results.
+Good for: how cable and pipe detectors work, and where they fall short. Take off rings and watches. Keep the whole device flat on the wall. Pass over the same spot more than once. "A cable must have a current in order to be picked up by the device." [V] Switch on something on that circuit while scanning, then turn the power off completely before drilling.
+Implication for drafters: a detector that finds nothing does not prove there is no cable. Where cables are likely to run is a wiring question for the electricity part of the course.
+
+---
+
+### 2. Ladders and working at height (the priority)
+
+#### HSE and the Ladder Association, *LA455 Safe Use of Ladders and Stepladders: A brief guide* (replaces INDG455)
+Landing page: https://ladderassociation.org.uk/la455/. PDF: https://ladderassociation.org.uk/wp-content/uploads/2026/09/LA455-Safe-Use-of-Ladders-and-Stepladders-A-brief-guide-Ver-1-Rev-1-0926.pdf
+Read: the landing page in full, and the PDF through pdftotext, with the scope, leaning ladder, stepladder and securing sections read closely. The landing page says "LA455 – Version 1, Rev 1, 09/26" and "Page last updated 02 September 2026".
+Answer to the brief's question: **INDG455 has no current URL.** hse.gov.uk/pubns/indg455.pdf returns 404. The landing page says: "Released in July 2021, the guidance replaces the HSE Guidance Document INDG455." [V] The guide was produced jointly by the Ladder Association and HSE, with the text under Crown copyright.
+Scope: "This guidance is for employers on the simple, sensible precautions they should take to keep people safe when using portable leaning ladders and stepladders in the workplace." [V] (PDF p. 2). Lessons can use it as the best available standard of practice, but must say that it is written for workplaces.
+
+#### HSE, "Safe use of ladders and stepladders" (web guide, 8 pages)
+https://www.hse.gov.uk/work-at-height/ladders/index.htm and its sub-pages
+Read: pages 1 to 6 in full through curl, with lists extracted: overview, when to use, pre-use check, types of ladder, where to use, securing. I did not read page 7 (inspection) or page 8 (product standards).
+What it establishes, all [V] unless marked:
+- "Ladders and stepladders are not banned under health and safety law." They suit "low-risk, short-duration tasks".
+- The 30-minute guide: "if your task would require staying up a leaning ladder or stepladder for more than 30 minutes at a time, it is recommended you use alternative equipment." Also: "Short duration is not the deciding factor in establishing whether use of a ladder is acceptable – you must have first considered risk."
+- The 1-in-4 rule: "you should use the 1-in-4 rule. This is where the ladder should be one space or unit of measurement out for every four spaces or units up (a 75° angle)". This is the same rule as the brief's "1 out, 4 up".
+- Overreaching: "make sure your belt buckle (or navel) stays within the stiles".
+- Height: "Don’t work off the top three rungs. Try to make sure that the ladder extends at least 1 metre or three rungs above where you are working".
+- Three points of contact "when climbing and wherever possible at the work position". On a stepladder this means "two feet and one hand, or when both hands need to be free for a brief period, two feet and the body supported by the stepladder".
+- Power lines: "Don’t work within 6 m horizontally of any overhead power line, unless it has been made dead or it is protected with insulation." Use a non-conductive ladder for electrical work.
+- The top rest must be strong: do not rest a ladder against glazing or plastic gutters. Do not stand it on movable objects, and level it with proper devices, not "ad-hoc packing such as bricks, blocks, timbers".
+- Securing, in order of preference: tie both stiles; use a stability device; wedge; "If you cannot achieve any of these options, foot the ladder. Footing is the last resort".
+- Stepladders: all four feet on the ground; locks engaged; face the work where possible; avoid side-loading, such as drilling side-on into brick; do not work from the top three steps unless there is a suitable handhold. HSE lists hanging wallpaper and fitting a smoke detector on a ceiling as tasks where losing your handhold has to be justified.
+- Pre-use check: stiles, feet, rungs, locking mechanisms, platform, treads. Check the feet again when moving from soft ground to hard ground.
+- Telescopic ladders: check that each section locks, and watch for fingers trapped between sections as they close.
+
+#### Work at Height Regulations 2005 (SI 2005/735), regulation 3 (Application)
+https://www.legislation.gov.uk/uksi/2005/735/regulation/3
+Read: regulation 3 in full on legislation.gov.uk, revised version. Extent E+W+S (Great Britain).
+What it establishes: the Regulations place duties on an employer "in relation to work" by an employee or a person under the employer's control, on a "relevant self-employed person", and on other persons in relation to work by people under their control (regs 3(2) and 3(3)). They contain no duty on a householder doing their own jobs at home. **Say so in the lesson**: the law's ladder rules bind people at work, and a householder follows them as good practice, not as a legal duty. Reg 3(3)(b) might reach a householder who controls someone else's work; I have not settled that (see Gates).
+
+#### OSHA, 29 CFR 1926.1053 Ladders (construction)
+eCFR, current: https://www.ecfr.gov/current/title-29/part-1926/section-1926.1053
+Read: paragraph (b) "Use", clauses (1) to (17), in full from the eCFR renderer.
+What it establishes, all [V]:
+- (b)(1): when a portable ladder is used to reach an upper landing, its side rails "shall extend at least 3 feet (.9 m) above the upper landing surface". If the ladder is too short, secure it at the top and provide a grab rail.
+- (b)(5)(i): a non-self-supporting ladder is set so that the horizontal distance from the top support to the foot is "approximately one-quarter of the working length of the ladder". This is the US 4-to-1 rule.
+- (b)(13): "The top or top step of a stepladder shall not be used as a step."
+- (b)(11): ladders "shall not be moved, shifted, or extended while occupied."
+- (b)(12): non-conductive side rails near exposed energised equipment.
+- (b)(14): do not climb the rear cross-bracing of a stepladder unless it is designed for it.
+This is a workplace rule, like WAHR. OSHA does not regulate householders.
+
+#### OSHA QuickCard, "Portable Ladder Safety"
+https://www.osha.gov/sites/default/files/publications/portable_ladder_qc.pdf
+Read: full two-sided card, pdftotext. Some diagram text was garbled.
+Establishes: 3-point contact ("two hands and a foot, or two feet and a hand" [V]); face the ladder and keep your body near the middle of the step; do not use a stepladder as a single ladder or partly closed; "not stand on the three top rungs of a straight, single or extension ladder" (a fragment rejoined across a line break, so quote it only as a paraphrase); set the base "a quarter of the working length of the ladder from the wall" [V]; extend 3 feet above the point of support; look for overhead power lines before handling a ladder; avoid metal ladders near power.
+
+#### D'Souza AL, Smith GA, Trifiletti LB. "Ladder-related injuries treated in emergency departments in the United States, 1990-2005." *Am J Prev Med* 2007;32(5):413-8. doi:10.1016/j.amepre.2007.01.012. PMID 17478268
+Read: abstract only (PubMed efetch).
+What it establishes: from NEISS, an estimated 2,177,888 people were treated in US emergency departments for ladder injuries over 16 years, "an average of 136,118 cases annually" [V], or 49.5 per 100,000. 76.5% were male. Fractures were the most common injury (31.5%). About 10% were admitted or transferred, "approximately twice that of consumer product-related injuries overall" [V]. Injuries rose by more than 50% over the period. Of cases where the location was recorded, "97.3% occurred in non-occupational settings, such as homes and farms" [V]. This is the key figure for a home course: most ladder injuries happen at home, not at work.
+
+#### Barbat A, Partiali B, Oska S, Folbe A. "Head, Face, and Neck Fractures Secondary to Ladder-Related Injuries Treated in United States Emergency Departments in 2009-2018." *J Emerg Med* 2020;59(2):186-192. PMID 32561108
+Read: abstract only (PubMed).
+Establishes: a weighted national estimate of 20,450 ladder-related head, face and neck fractures. Mean age 53. "the majority of cases occurred in home settings" [V]. About 25% of patients were over 65. Admission rates were much higher than for ladder injuries overall.
+
+#### Wakim J et al. "Etiologies, incidence, and demographics of lumbar vertebral fractures in U.S. emergency departments." *J Spine Surg* 2022;8(1):21-28. PMID 35441096
+Read: abstract only.
+Establishes: across 2010 to 2018, ladders were the third most common cause of lumbar fractures seen in US emergency departments (an estimated 31,053), after floors and stairs. Declared conflicts: one author has industry consulting fees and stock holdings, none related to ladders. Supporting evidence only.
+
+#### Socias CM et al. (NIOSH), "Occupational Ladder Fall Injuries: United States, 2011." *MMWR* 2014;63(16)
+https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6316a2.htm (Wayback capture 20260907020506; cdc.gov returns 403 to curl)
+Read: full text. An erratum exists and I did not read it.
+Establishes: "43% of fatal falls in the last decade have involved a ladder" [V]. The figure covers all falls, not just falls at work. In 2011, work-related ladder falls caused 113 deaths and an estimated 34,000 emergency department visits. The ED admission rate was 14%. "nearly 90% were from heights <16 feet (<4.9 m)" [V], and falls of 6 to 10 feet were the most common. Head injuries were involved in about half of the fatal falls. Useful for teaching that low falls are dangerous too.
+
+#### US CPSC, *Consumer Product-Related Injuries and Deaths in the United States: Estimated Injuries Occurring in 2020* (Schroeder, September 2021)
+https://www.cpsc.gov/s3fs-public/ConsumerProductRelatedInjuriesandDeathsintheUnitedStates.pdf
+Read: the whole document through pdftotext, with Table F read closely. It is a staff analysis that the Commission has not reviewed.
+Establishes: "Ladders, stools" accounted for an estimated 227,000 emergency department treated injuries in 2020 and 633,000 medically attended injuries (Table F). This is the most recent CPSC ladder figure I could read. The cpsc.gov ladder safety centre page returned 403 and has no Wayback capture.
+
+#### US CPSC, *Hazard Screening Report: Injuries to Persons 65 Years of Age and Older* (NEISS data 1997 to 2002)
+https://www.cpsc.gov/s3fs-public/hazard_older.pdf
+Read: the full text, with the ladder rows read closely. The data are old.
+Establishes: "Persons 65 and older account for half (79) of all ladder deaths." [V] Older people made up 16% of ED-treated ladder injuries but 39% of those admitted to hospital. Use it only with its date.
+
+#### RoSPA, "Garden safety" and "Neil's story" (case study)
+https://www.rospa.com/home-safety/garden-safety ; https://www.rospa.com/case-studies/neil
+Read: full text of both (curl).
+Good for: the only DIY-focused UK ladder advice I read. Use a 1:4 ratio or 75° angle, keep three points of contact, don't overreach, and "Consider having another person present, especially when using leaning ladders." [V] The case study describes a hedge-cutting fall that caused a punctured lung and nine broken ribs; the man says it "should have been a two-person job".
+**UK ladder injury figures:** I could not find a primary source. Search summaries attribute to RoSPA figures of about 6,000 hospital admissions and about 48,000 A&E attendances a year from ladder accidents at home. These are Snippet only, from commercial training and ladder retail sites. Neither figure appears on any RoSPA page I read, and both may come from the Home Accident Surveillance System, which ended in 2002. Do not state them (see Gates).
+
+#### American Ladder Institute
+Not read. americanladderinstitute.org returned 403, and a Wayback capture of its Ladder Safety Month page was a 404. Search summaries say ALI sponsors National Ladder Safety Month in March (Snippet only).
+
+---
+
+### 3. Common repairs
+
+#### US EPA WaterSense, "Fix a Leak Week" and "Statistics and Facts"
+https://www.epa.gov/watersense/fix-leak-week (last updated March 13, 2026); https://www.epa.gov/watersense/statistics-and-facts (last updated March 11, 2026)
+Read: full text of both (curl).
+Establishes:
+- Toilet dye test: "Identify toilet leaks by placing a few drops of food coloring in the toilet tank. If any color shows up in the bowl after 10 minutes, you have a leak." [V]
+- US flapper: "the flapper should be checked periodically and replaced at least every five years" [V]. A worn flapper can make a toilet refill by itself or leak silently.
+- Taps: "Old and worn faucet washers and gaskets frequently cause leaks in faucets. A leaky faucet that drips at the rate of one drip per second can waste more than 3,000 gallons per year." [V] Tip: "Don't forget to turn off the water line before you start!" [V]
+- Showerheads: re-seat with thread-seal tape (PTFE, "teflon tape"). Call a plumber for valve leaks.
+- **The two EPA pages disagree.** One says household leaks nationally waste "nearly 1 trillion gallons" and the average household loses "more than 9,300 gallons". The other says "approximately nearly 900 billion gallons" and "9,400 gallons". Use rounded wording, such as "nearly a trillion gallons", "about 9,000 gallons", or cite one page by name.
+
+#### Southern Water, "How to fix a dripping tap"
+https://www.southernwater.co.uk/help-and-support/how-to-fix-a-dripping-tap/ (Wayback capture 20260515022127; the live site returned 403)
+Read: full text.
+Establishes: a slow drip can waste "up to 10,000 litres per year" [V]. Most drips come from a worn washer. The sequence for a traditional washer (compression) tap: turn off the water at the stop tap; unscrew the cover; loosen the hexagon nut with a spanner and lift out the tap top; lay the parts out in order; lift out the jumper plate, undo the nut and replace the washer; do not overtighten when putting it back. If that fails, use a plumber "qualified to meet the regulations for working safely with drinking water" [V].
+
+#### Bristan, *Installation Instructions & User Guide* (tap, product file 576945)
+https://www.bristan.com/product-files/576945/fitting-instructions.pdf
+Read: pdftotext of the whole leaflet. The layout is heavily columnar, so read the extract for meaning only and quote nothing from it.
+Good for: modern ceramic-disc (quarter-turn) taps. The maintenance panel shows turning off the isolation valve, removing the shroud, taking out the cartridge and fitting a replacement. The troubleshooting table puts continued dripping down to the "ceramic disc valves/cartridge". The main difference from a washer tap: the fix is a new cartridge, usually specific to that make and model, not a new washer. Isolation valves "must be fitted to the inlet water supplies to ensure ease of future maintenance" is the gist of the fitting text; it is garbled, so do not quote it.
+
+#### United Utilities, "Find leaks inside your home or business"
+https://www.unitedutilities.com/help-and-support/your-water-supply/your-pipes/leakage/inside-leaks/
+Read: full text.
+Establishes (UK toilets): "Nearly 80% of all leaks reported to us last year were leaky loos!" [V] It blames "modern push button toilet cisterns" and says a faulty cistern can cost "as much as £400 a year" [V]. On an older cistern, a dripping overflow pipe through the outside wall is the sign of a fault. It points to WaterSafe-approved plumbers and a leak allowance for metered customers who fix a leak within six weeks.
+**Gap:** I read no source describing the parts of a UK cistern (siphon, drop-valve flush valve, float or fill valve). See Gates.
+
+#### Electrical Safety First, "Plugs and fuses usage and safety"
+https://www.electricalsafetyfirst.org.uk/guidance/safety-around-the-home/plugs-and-fuses/
+Read: full text (curl).
+Establishes (UK plug fuses):
+- The fuse "will 'blow' if an electrical appliance or extension lead draws too much current" [V].
+- "If you have to replace a fuse, replace it only with another of the same rating." [V] Plugs usually take 3 A or 13 A fuses. Its 3 A examples are a table lamp, television and computer. Its 13 A examples include a washing machine, fridge, power drill, kettle and iron. Appliances of 700 to 3000 W take 13 A. 5 A fuses survive in some older equipment.
+- Fuses to BS 1362 and plugs to BS 1363 carry the standard's number. Wiring colours: brown is live, blue is neutral, green and yellow is earth. Only open a plug once it is out of the socket.
+- Owner-occupied homes should have the wiring inspected and tested "at least every 10 years" [V]; tenanted properties every 5 years or at each change of occupier.
+- The page also says test smoke alarms at least monthly and replace them every ten years.
+- Snippet only: a search summary of an older ESF page listed fridges and power drills under 3 A. The page I read puts both under 13 A. Teach "use the rating the manufacturer specifies", not a list of appliances.
+
+#### Electrical Safety First, "If my RCD keeps 'tripping', what action is required?"
+https://www.electricalsafetyfirst.org.uk/guidance/your-questions-answered/questions/if-my-rcd-keeps-tripping-what-action-is-required/
+Read: full answer.
+Establishes: a repeatedly tripping RCD probably means a fault "either with a particular appliance or the wiring itself" [V], and a registered electrician should investigate. The method often described, unplugging appliances one at a time and resetting, was seen only in a search summary (Snippet only). Leave the detail to the electricity part.
+
+#### Worcester Bosch, "How to bleed a radiator"; Vaillant, "How to bleed a radiator"
+https://www.worcester-bosch.co.uk/support/troubleshooting/faqs/all-faqs/how-to-bleed-a-radiator ; https://www.vaillant.co.uk/advice/heating-tips/home-advice/how-to-bleed-a-radiator/
+Read: full text of both (curl). Both are manufacturer pages.
+Establishes: a radiator cold at the top holds air. One cold at the bottom may hold sludge, which a bleed will not fix (Worcester). Turn the heating off and let the radiators cool; Vaillant says about an hour, or two to be cautious. Put a cloth under the valve, turn the key anticlockwise until it hisses, and close it when water runs steadily. Vaillant suggests a quarter to half a turn and warns against overtightening when closing. Then check the boiler pressure: Vaillant says "The boiler should read between 1 to 1.5 bar of pressure when the central heating is cold." [V] Top it up following the boiler's instructions. Vaillant adds that radiators needing repeated bleeding point to an underlying fault for the installer to find.
+Minor difference: Worcester says to run the heating first so you can find the cold radiators, then turn it off before bleeding.
+
+#### American Red Cross, "Preventing & Thawing Frozen Pipes"
+https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html
+Read: full text. No date shown.
+Establishes (US): the pipes most at risk are outdoor hose bibs, pipes in unheated basements, crawl spaces, attics and garages, and pipes on uninsulated exterior walls. To prevent freezing: close the inside valve to the hose bib and leave the outside tap open to drain; insulate; open cabinet doors under sinks; let a cold tap drip in severe cold; keep the thermostat steady day and night; if you are away, keep the heat "no lower than 55° F" [V]. To thaw: keep the tap open and warm the pipe with a heating pad, hair dryer, space heater or hot towels. "Do not use a blowtorch, kerosene or propane heater, charcoal stove, or other open flame device." [V] Call a licensed plumber if you cannot find or reach the frozen section.
+
+#### CCW (Consumer Council for Water), "Winter advice"
+https://www.ccw.org.uk/advice-and-support/households/winter-advice/
+Read: full text.
+Establishes (UK): find your stop tap, lag exposed pipes, fit covers on outside taps, and insulate tanks and cisterns. Signs of a frozen pipe include no water or only a trickle, frost on the pipe, and a boiler that will not fire or gurgles. To thaw: "Turn off your water supply at the stop tap" [V], switch off the immersion heater and central heating, leave the cold tap open, and warm the pipe slowly with a hair dryer or hot water bottle. "Never use a naked flame or blow torch." [V] For a burst: stop tap off, heating off, open the taps to drain the system, call a plumber, and photograph the damage for the insurer. Water companies in England and Wales run free Priority Services Registers.
+
+#### Water company advice on blockages: Thames Water, "Blockages and blocked drains"
+https://www.thameswater.co.uk/help/water-and-waste-help/blockages
+Read: full text.
+Establishes: the "three Ps" (pee, poo and toilet paper) are the only things to flush. Fat, oil and food scraps set solid in pipes. Wet wipes block pipes, "even the ones labelled ‘flushable’" [V]. A blockage inside the property is the owner's to clear. The water company clears public sewers and aims to attend within 48 hours, or 72 when exceptionally busy. Leave cooking fat to cool and put it in the bin.
+**Gap:** I read no official or manufacturer source on plunging a sink or taking off a trap (U-bend). Search summaries mentioned coat hangers and bicarbonate of soda with vinegar (Snippet only). Drain chemical safety was not researched. See Gates.
+
+#### Not researched in this part
+A sticking door, filling holes and cracks (Dulux and Polycell cover filling, below), and silicone sealant around a bath. UGA's checklist says to scrape out damaged caulk and re-caulk (see §6). I read no manufacturer instructions for a sealant. See Gates.
+
+---
+
+### 4. Decorating basics
+
+#### US EPA, "Volatile Organic Compounds' Impact on Indoor Air Quality"
+https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality (last updated June 23, 2026)
+Read: full text.
+Establishes: "Concentrations of many VOCs are consistently higher indoors (up to ten times higher) than outdoors." [V] Paints, varnishes and paint strippers are named sources. During and soon after paint stripping, "levels may be 1,000 times background outdoor levels" [V]. Short-term effects include headaches, nausea and loss of coordination. Advice: increase ventilation; if a label says to use in a well-ventilated area, work outdoors or open the windows; buy only as much paint as you need; do not bin leftovers but use household hazardous waste collection. Methylene chloride strippers turn into carbon monoxide in the body; use them outdoors where possible.
+
+#### The Volatile Organic Compounds in Paints, Varnishes and Vehicle Refinishing Products Regulations 2012 (SI 2012/1715)
+https://www.legislation.gov.uk/uksi/2012/1715 (regs 3, 4, 5 and Schedule 2)
+Read: regs 3 to 5 in the "as made" version and Schedule 2 on legislation.gov.uk. I did not check the revised version, and post-Brexit amendments are likely (the scope in reg 3(2) refers to the EU customs territory).
+Establishes: a relevant product may not be placed on the market unless its VOC content is within the Schedule 2 limit and it is labelled under reg 5 (reg 4(1)). The label must show "the sub-category of the product and the relevant VOC limit values, measured in g/l" and "the maximum content of VOC in g/l of the product in a ready to use condition" (reg 5(1)) [V]. Schedule 2: interior matt walls and ceilings (gloss ≤25 at 60°), 30 g/l for both water-borne and solvent-borne.
+Implication: every UK tin of decorative paint carries its VOC figure, and a lesson can teach students to read it.
+
+#### Dulux, "Preparing Walls For Painting" and "Dr Dulux: How To Paint New Plaster"
+https://www.dulux.co.uk/en/articles/preparation-and-tools ; https://www.dulux.co.uk/en/expert-help/dr-dulux-painting-on-new-plaster
+Read: full text of both. Manufacturer pages with product promotion.
+Establishes: matt emulsion hides imperfections, while satin, silk, eggshell and gloss reflect more light. Synthetic brushes suit water-based paint. Choose a filler for the job and a flexible one for gaps at skirtings and frames. Set aside time for preparation. New plaster must dry first: "As a rule of thumb, plaster takes up to 4 weeks to dry completely." [V] Then apply a mist coat of thinned white emulsion: "Ten parts paint to one part water should work." [V]
+Caution: a search summary of another Dulux page gave 2 to 3 weeks for a skim and 6 months for full plaster (Snippet only). Drying times vary, so tell students to follow the plasterer's and the paint maker's advice.
+Terminology: "emulsion" in the UK is a water-based wall paint, broadly what US retail calls "latex" paint. I read no US source that defines latex paint.
+
+#### Sanding old paint
+I read nothing in this part on sanding. Lead paint belongs to another part. Drafters should note that HSE's dust mask page (§1) covers only dust, not vapours. See Gates.
+
+#### Wallpaper
+Not researched. The only source I read that mentions it is HSE's stepladder guidance, which lists hanging wallpaper as a task where losing your handhold must be justified.
+
+---
+
+### 5. Pests
+
+#### CDC, "Controlling Wild Rodent Infestations" and "Seal Up", "Trap Up", "Clean Up"
+https://www.cdc.gov/healthy-pets/rodent-control/index.html (Wayback 20260913133434), seal-up.html (20260917020302), trap-up.html (20260806235217), clean-up.html (20260918085500). All four pages are dated April 8, 2024.
+Read: the full text of all four.
+Establishes:
+- Signs: droppings ("pointed at one end and often contain hair" [V]) and gnaw marks. Clean the area, then look again: fresh droppings mean rodents are still active.
+- Seal up: "Mice can fit through a hole the width of a pencil (1/4 inch or 6 millimeters in diameter)." [V] Pack small holes with steel wool held in with caulk or spray foam. Use lath screen, cement, hardware cloth or metal sheeting for large holes. Store food in thick plastic, metal or glass. Keep compost bins and woodpiles 100 feet from the house.
+- Trap up: "Traditional snap traps are recommended". Use poison or bait stations only for infestations that persist. "Do not use glue traps and live traps." [V] Glue and live traps frighten rodents into urinating, which raises the risk of infection. Set traps in a T against the wall. Pre-bait for rats, which are wary of new objects. If a week passes with no catches and no new signs, the rodents are gone.
+- Clean up (the hantavirus precautions): "Don't vacuum or sweep rodent urine, droppings, or nesting materials." [V] Open doors and windows for 30 minutes before cleaning and leave the area while it airs. Wear rubber or plastic gloves. Spray with disinfectant or bleach solution ("1 part bleach to 9 parts water" [V]) and leave it to soak for 5 minutes. Bag dead rodents twice. The disease list includes hantavirus, leptospirosis and salmonellosis.
+Note: hantavirus pulmonary syndrome is a US and Americas concern. I read nothing on UK hantavirus risk.
+
+#### US EPA, "Restrictions on Rodenticide Products"
+https://www.epa.gov/rodenticides/restrictions-rodenticide-products (last updated September 8, 2026)
+Read: full text.
+Establishes the 2008 risk mitigation decision as it applies today: "second-generation anticoagulant rodenticides no longer are registered for use in products geared toward consumers" [V]. They are sold only to professionals. "Pelleted baits no longer are permitted to be used in rodenticide products targeted for consumer markets." [V] Consumer products are ready-to-use bait stations (bromethalin, chlorophacinone or diphacinone) labelled for indoor use or for use within 50 feet of buildings, depending on tamper-resistance testing against children and dogs. Anticoagulants kill in four days to two weeks. The 2008 decision document itself was not read.
+
+#### HSE, "Rodenticides" (biocides)
+https://www.hse.gov.uk/biocides/using/rodenticides.htm
+Read: full text.
+Establishes (GB and NI): regulators' risk assessments show that anticoagulants "present a higher risk to people and non-target animals than is normally acceptable for authorisation". They are authorised only because society needs them, and with controls. The public should consider other control methods before turning to anticoagulants. Amateur products may be restricted in strength and to use "only within a bait box" [V]. Professional use must follow a UK rodenticide stewardship regime built on IPM principles. HSE chairs the Government Oversight Group.
+
+#### CRRU UK, "Stewardship" (thinkwildlife.org)
+https://www.thinkwildlife.org/stewardship-regime/
+Read: full text (short).
+Establishes: CRRU runs the industry-led stewardship regime. Search summaries give amateur pack-size caps (300 g of block bait, 150 g of loose bait) and a strength cap under 30 ppm (Snippet only; neither appears on the page I read).
+
+#### US EPA, "Integrated Pest Management (IPM) Principles"
+https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles (the old /ipm/introduction URL redirects here; last updated July 22, 2026)
+Read: full text.
+Establishes the four tiers: set action thresholds ("Sighting a single pest does not always mean control is needed." [V]); monitor and identify; prevent; then control, with "Effective, less risky pest controls are chosen first". "Broadcast spraying of non-specific pesticides is a last resort." [V] It is written mainly for growers but says it applies to the home.
+
+#### US EPA bed bug pages: "Top Ten Tips", "Bed Bug Myths", "Safety Issues in Controlling Bed Bugs"
+https://www.epa.gov/bedbugs/top-ten-tips-prevent-or-control-bed-bugs (updated August 19, 2026); /bed-bug-myths (July 17, 2026); /safety-issues-controlling-bed-bugs (September 8, 2026)
+Read: full text of all three.
+Establishes: confirm it is bed bugs before treating, and an extension agent can identify them. Don't throw everything out. Don't reach first for the spray can. Reduce clutter. Mattress encasements, left on for a year. Wash and heat-dry bedding. Home freezing is unreliable. Turning up the thermostat will not work: "Bed bugs die when their body temperatures reaches 45°C (113°F)." [V] Vacuum thoroughly and bin the bag sealed and outdoors. Slash or destroy any infested mattress you throw away. Use a professional who follows IPM. "Never use a pesticide indoors that is intended for outdoor use." [V] Myths page: bed bugs are a public health pest, but "There have been no cases or studies that indicate bed bugs transmit diseases between humans." [V] A lit room will not deter them, and pesticide alone will not clear them because of resistance.
+
+#### UC Statewide IPM Program, "Cockroaches" (Pest Notes, home and landscape)
+https://ipm.ucanr.edu/home-and-landscape/cockroaches/
+Read: the whole page (about 5,500 words), with control sections read closely. Revision date not captured.
+Establishes: "Good sanitation and exclusion are important for effective control; pesticides alone will not solve cockroach problems. When using insecticides, baits provide better control than sprays." [V] Avoid foggers, bombs and aerosol sprays, which "may repel and disperse cockroaches" [V]. Cockroach allergens are risk factors for childhood asthma. Use a HEPA vacuum. Gel baits may take 7 days or more to show results.
+
+#### DeVries ZC, Santangelo RG, Crissman J, Mick R, Schal C. "Exposure risks and ineffectiveness of total release foggers (TRFs) used for cockroach control in residential settings." *BMC Public Health* 2019;19:96. PMID 30686267
+Read: abstract only.
+Establishes: in 20 infested homes, "TRFs failed to reduce cockroach populations, whereas similarly priced gel baits caused significant declines" [V] (10 homes had baits). After fogging, pesticide residues on kitchen surfaces were 603 times baseline on average, with a median of 85 times.
+
+#### DeVries ZC et al. "Pervasive Resistance to Pyrethroids in German Cockroaches ... Related to Lack of Efficacy of Total Release Foggers." *J Econ Entomol* 2019;112(5):2295-2301. PMID 31121031
+Read: abstract only.
+Establishes the mechanism: cockroaches collected from apartments had 202-fold resistance to cypermethrin, and more than 96% carried the kdr mutation. Foggers killed susceptible sentinel insects but not the apartment ones.
+
+#### US EPA, "Termites: How to Identify and Control Them"
+https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them (last updated October 21, 2025)
+Read: full text.
+Establishes: termites cause "billions of dollars in structural damage" a year [V]. The native subterranean termite is the most common in the US. Signs: hollow-sounding wood when probed with a screwdriver, and swarms, which can be confused with ant swarms. Prevention: keep soil at the foundation dry by maintaining gutters and grading, seal cracks where utilities pass through walls, keep vents clear, don't stack firewood against the house, and keep plants off exposed wood. Soil barrier treatments done badly can contaminate the home and wells, so "it is important to hire a pest management professional who is licensed and trained" [V]. The page also describes bait systems. Termites are a US topic. I read nothing on termites in the UK.
+
+#### Natural History Museum, "Clothes moths identification guide"
+https://www.nhm.ac.uk/take-part/identify-nature/common-insect-pest-species-in-homes/clothes-moths-identification-guide.html
+Read: full text.
+Establishes: the common clothes moth (*Tineola bisselliella*) and the case-bearing clothes moth (*Tinea pellionella*). The larvae do the damage by feeding on keratin in wool, fur and similar fibres; the adults do not feed. "Freezing to -20°C for a week or heating fabric to temperatures of 49°C for over 30 minutes kills all life stages" [V], which a home freezer or washing machine can do. Dry cleaning, airtight storage and vacuuming carpets also help. Pheromone traps catch adult males and are for monitoring. Note that the page calls pyrethrin sprays free of toxic residues; that is the NHM's claim and I have not checked it.
+
+#### Babergh and Mid Suffolk District Councils, "Wood-boring insects"
+https://www.babergh.gov.uk/wood-boring-insects
+Read: full text. A council heritage page.
+Establishes (UK woodworm): an active attack shows holes with sharp edges and bore dust (frass) "the colour of freshly-cut timber" [V]. Otherwise "holes may indicate an old infestation, that's no longer active. In these cases, no action is normally needed." [V] Common furniture beetle holes are 1 to 2 mm. To test, cover holes with tissue paper for a year and see whether new holes appear. Wood-boring insects are "a symptom of excess damp" [V], so the fix is to deal with the damp, often caused by cement render or modern paints on old buildings.
+
+#### NHS, "Insect bites and stings"
+https://www.nhs.uk/conditions/insect-bites-and-stings/
+Read: full text.
+Good for: a first-aid handoff only, covering stinger removal and when to call 999 for a severe reaction. It says nothing about wasp nests. I read no official source on wasp nest removal. See Gates.
+
+#### BPCA (British Pest Control Association), "Find a pest controller"
+https://bpca.org.uk/find (Wayback capture 20260208074048)
+Read: full text (short).
+Establishes the membership criteria: "at least £2M public liability insurance" [V]; audited to BS EN 16636, the European pest management standard; members follow BPCA Codes of Best Practice. This gives a UK check on a pest controller, like the trade checks in §7.
+
+#### NPMA / pestworld.org
+Fetched, not read (the home page only). US: EPA's bed bug and termite pages advise using a licensed professional and checking with the state pesticide agency.
+
+---
+
+### 6. Seasonal maintenance
+
+#### University of Georgia Cooperative Extension, *Home Maintenance Checklist*, Circular 1082 (Turner PR, Bailey L), reviewed June 2021
+https://www.fcs.uga.edu/docs/HomeMaintChecklist_update_6.21.pdf
+Read: full text (pdftotext). **This is the published seasonal checklist from an extension source that the brief asked for.**
+Structure: spring and fall tick-columns under Basement/Crawl Space, Exterior, Yard, Windows & Walls, Roof & Attic, Appliances, Plumbing & Bathrooms, Electrical, Heating & Cooling. Frequencies "may vary depending on your local climate and appliance manufacturing recommendations" [V]. Items include:
+- Gutters: "Clean gutters and downspouts (may need to be done more frequently). Make sure they discharge water 2-3 feet away from the house." [V]
+- Drain outdoor taps and store hoses for winter. Check weather-stripping and caulk. Re-caulk tubs and sinks where the seal has failed.
+- Dryer: vacuum lint from the ducts; clean the filter after every use.
+- Fridge door seal test: close the door on a dollar bill, and if it slides out easily, replace the gasket.
+- Septic tank pumped every 3 to 7 years. Test the water heater's temperature and pressure relief valve.
+- Electrical: "Trip the circuit breakers and test ground fault interrupters" [V].
+- Hire a professional to tune the heating and cooling system. Check the fireplace damper and clean the chimney.
+Drafters: some items, such as the T&P valve and tripping breakers, carry scald or electrical risk. Frame them as "check or have checked".
+
+#### NFPA, "Smoke Alarms at Home" safety tip sheet (©2018)
+https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/smokealarmssafetytips.pdf
+Read: full text (pdftotext). The nfpa.org smoke alarm web page renders by script and gave no text, even from Wayback.
+Establishes: alarms in every bedroom, outside each sleeping area and on every level; interconnected is best; "Test all smoke alarms at least once a month." [V]; at least 10 feet (3 m) from the stove; "Replace all smoke alarms when they are 10 years old." [V]; "Roughly 3 out of 5 fire deaths happen in homes with no smoke alarms or no working smoke alarms" [V].
+
+#### US Fire Administration, "Smoke Alarms"
+https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+Read: full text.
+Establishes: "Test the alarm monthly." [V] Replace the whole alarm every 10 years. Replace the batteries in 9-volt alarms (wording on the page is garbled across items; confirm before quoting).
+
+#### UK Home Office, *Fire Safety in the Home* (v4, GOV.UK PDF) and the Fire Kills campaign, "Detection"
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1077145/Fire_Safety_in_the_Home_v4_-_Web_accessible.pdf ; https://firekills.campaign.gov.uk/detect/
+Read: the whole PDF (pdftotext; smoke alarm pages read closely) and the Fire Kills page in full.
+Establishes: at least one alarm on every level; "test them at least monthly" [V] (Fire Kills); change one-year batteries every year; vacuum alarms every six months; replace ten-year alarms after ten years; never take the battery out after a false alarm; don't fit alarms in or near kitchens or bathrooms; fire and rescue services may fit alarms for people who need help. Fire Kills: "you are around 11 times more likely to die in a fire if you do not have any working smoke alarms" [V].
+
+#### HSE, "Gas safety in the home: FAQs"
+https://www.hse.gov.uk/gas/domestic/faqs.htm
+Read: the sections on servicing and checking engineers (the page is about 9,500 words; I searched it for these topics and did not read it all).
+Establishes: HSE "strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer" [V]. "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." [V] To check an engineer: the Gas Safe Register's "Check an Engineer" service using the licence number on the engineer's ID card, a freephone line, or a text service. A statutory annual check applies to landlords, which the gas part of the course covers.
+
+#### HETAS, "When should I get my chimney swept?"
+https://www.hetas.co.uk/consumer/advice-hub/advice-articles/when-should-i-get-my-chimney-swept/
+Read: full text.
+Establishes (UK): "HETAS encourage having your chimney swept at least twice a year when burning wood and at least once a year when burning smokeless fuels." [V] The best times are just before the heating season and after a long period of disuse. Use a HETAS Approved sweep and ask for ID. England had 2,608 chimney fires from April 2021 to March 2022.
+
+#### CSIA, "Homeowner Resources"
+https://www.csia.org/homeowner-resources
+Read: full text (curl).
+Establishes (US): CSIA follows NFPA 211, which it quotes: "Chimneys, fireplaces, and vents shall be inspected at least once a year for soundness, freedom from deposits, and correct clearances. Cleaning, maintenance, and repairs shall be done if necessary." [V] Gas-appliance flues still need an annual inspection, because nests and debris can block them. Ask for a "Level 1" inspection. I did not read NFPA 211 itself.
+
+#### US Fire Administration, *Clothes Dryer Fire Safety* flyer
+https://www.usfa.fema.gov/downloads/pdf/publications/clothes_dryer_fire_safety_flyer.pdf
+Read: full text (one page).
+Establishes: "Clean the lint filter before and after each cycle." [V] Don't run the dryer without its filter. Clean behind the dryer. Check that the vent is not crushed or restricted. Make sure the outdoor vent flap opens while the dryer runs. Have the dryer installed and serviced by a professional. The widely quoted figure of about 2,900 dryer fires a year, 5 deaths and $35 million in losses was seen only in search summaries (Snippet only).
+
+#### Energy Saving Trust, "Draught proofing"
+https://energysavingtrust.org.uk/advice/draught-proofing/ (Wayback 20260916151311; the live site returned 403)
+Read: full text.
+Establishes: draught proofing around windows, floors and doors "could save you around £55 a year in Great Britain (GB) and £80 in Northern Ireland (NI)" [V]. Draught proofing an unused open chimney could save about £45 in GB and £60 in NI. Professional draught proofing of a whole house costs about £250. **Do not block** extractor fans, underfloor airbricks, wall vents or trickle vents. "You must not block fixed ventilation openings needed for flueless or open-flue gas heaters." [V] Very airtight homes may not suit more draught proofing. Get three quotes, for example through TrustMark.
+
+#### Met Office, "10 things you should do now to prepare for winter"
+https://weather.metoffice.gov.uk/warnings-and-advice/seasonal-advice/10-things-you-should-do-now-to-prepare-for-winter
+Read: full text.
+Establishes: lag pipes; know where your stop tap is "and to check it regularly to make sure it is working" [V]; get the boiler serviced before the cold weather; heat the home to at least 18°C, especially for people over 65; secure garden items against storms; remember the power cut number, 105. The old WeatherReady URL returned 404; this page replaces it.
+
+---
+
+### 7. Hiring and checking a tradesperson
+
+#### UK: Consumer Rights Act 2015, ss. 49 to 52 and 55
+https://www.legislation.gov.uk/ukpga/2015/15/section/49 (and /50, /51, /52, /55)
+Read: each section in full on legislation.gov.uk, revised version. In force for these purposes from 1 October 2015. Extent U.K.
+Establishes, all [V]:
+- s.49(1): "Every contract to supply a service is to be treated as including a term that the trader must perform the service with reasonable care and skill."
+- s.50: anything the trader says or writes about itself or the service is binding if the consumer took it into account when deciding. This includes the pre-contract information required under the Consumer Contracts Regulations.
+- s.51: where no price is fixed, "the consumer must pay a reasonable price for the service, and no more". "What is a reasonable price is a question of fact."
+- s.52: where no time is fixed, "the trader must perform the service within a reasonable time".
+- s.55: the right to repeat performance, within a reasonable time, at the trader's cost "(including in particular the cost of any labour or materials)". I did not read s.54 (the index of remedies) or s.56 (price reduction).
+
+#### UK: Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 (SI 2013/3134), regs 5, 6, 7, 28 to 31, 36
+https://www.legislation.gov.uk/uksi/2013/3134
+Read: those regulations in full, revised version.
+Establishes:
+- Reg 5, "off-premises contract": among other things, a contract concluded "in the simultaneous physical presence of the trader and the consumer, in a place which is not the business premises of the trader" [V]. That covers a builder signing you up at your kitchen table.
+- Reg 7(4): the cancellation Part does not apply to off-premises contracts where the consumer pays "not more than £42" [V].
+- Reg 6(1)(e): excludes contracts for "the construction of new buildings, or the construction of substantially new buildings by the conversion of existing buildings" [V]. Ordinary repair and improvement work is not excluded.
+- Reg 29: the consumer may cancel a distance or off-premises contract within the cancellation period "without giving any reason" [V].
+- Reg 30(2): for a service contract, "the cancellation period ends at the end of 14 days after the day on which the contract is entered into" [V].
+- Reg 31: if the trader fails to give the required cancellation information, the period is extended by up to 12 months.
+- Reg 36: the trader must not start work within the 14 days unless the consumer expressly asks, and for an off-premises contract that request must be "on a durable medium" [V]. If the consumer then cancels, they pay for what has been supplied, in proportion. They pay nothing if the trader failed to give the cancellation information.
+- Reg 28(1)(e): no right to cancel for "contracts where the consumer has specifically requested a visit from the trader for the purpose of carrying out urgent repairs or maintenance" [V]. Reg 28(2) keeps the right for extra services or goods sold on that same visit.
+
+#### Citizens Advice, "Before you get work done on your home" (England)
+https://www.citizensadvice.org.uk/consumer/getting-home-improvements-done/before-you-get-building-work-done/
+Read: full text (about 4,700 words). The page says "This advice applies to England" [V] and links to separate advice for Northern Ireland, Scotland and Wales.
+Establishes:
+- Permissions: planning permission; building regulations approval, which covers most plumbing, electrical and heating work; competent person schemes, which avoid a separate application; conservation areas, listed buildings, tree preservation orders, covenants, leases and mortgage conditions.
+- Gas and electricity: "If you're getting gas work done, you must use a Gas Safe registered engineer" [V]. For electrical work you should use a properly qualified or registered electrician.
+- Checking a trader: get 2 or 3 recent references and speak to the customers yourself, because "written references aren’t always genuine" [V]. Ring the business to confirm it exists. Check membership claims on the scheme's own website. Be wary of a mobile number only.
+- Quotes: "Try to get written quotes from at least 3 different traders before you decide on one." [V] A quote is a fixed price; an estimate is a guess. The trader can't charge more than the quote unless you ask for extra work or agree to it. Be wary of a price far below the others.
+- Insurance: public liability, employers' liability ("If a trader which has employees doesn’t have employer’s liability insurance, they are breaking the law." [V]), professional indemnity, and contractors' all-risk. Tell your own buildings insurer.
+- The contract covers timings, tidying up, materials, subcontractors and payment. You may be able to cancel within 14 days.
+- Payment: pay by card, or failing that bank transfer, and "Don’t pay with cash." [V] Section 75 applies to credit card payments "between £100.01 and £30,000" [V], including a deposit paid by credit card. Pay in stages. Offer to buy materials yourself instead of paying a deposit. On long jobs, keep any deposit low "and don’t agree to more than 25%" [V].
+
+#### Citizens Advice, "Find a trader and check you can trust them"
+https://www.citizensadvice.org.uk/consumer/get-more-help/find-a-trader-and-check-you-can-trust-them/
+Read: full text.
+Establishes: start with the council's Trading Standards pages or "approved traders" list. TrustMark is listed as "the Government’s trader scheme" [V]. Check any trade association membership on the association's own site.
+
+#### TrustMark, "Why TrustMark?"
+https://www.trustmark.org.uk/homeowners/why-use-trustmark
+Read: full text (short).
+Establishes TrustMark's own description: "TrustMark is the Government Endorsed Quality Scheme that covers work a consumer chooses to have carried out in or around their home." [V] Registered businesses are vetted. The claim of government endorsement comes from TrustMark and from Citizens Advice; I read no government source for it.
+
+#### Federation of Master Builders, "Find a builder"
+https://www.fmb.org.uk/find-a-builder/
+Read: full text.
+Establishes: members pass vetting and inspection. Some are also TrustMark registered, and TrustMark businesses "are also expected to provide a minimum two-year financial protection policy" [V]. FMB offers dispute resolution. Check membership, because "some places claim to be a member when they're not" [V].
+
+#### US: FTC, "How To Avoid a Home Improvement Scam"
+https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam (the old 0242-hiring-contractor URL redirects here; updated 2025-12-10 according to page metadata)
+Read: full text.
+Establishes: signs of a scam include knocking on your door because they are "in the area", materials "left over from a previous job", pressure for an immediate decision, demanding everything up front or cash only, "Scammers ask you to get any required building permits." [V], and suggesting a lender they know. Advice: use only licensed and insured contractors and confirm the licence with the state or county; get several written estimates and don't simply pick the lowest; the contract should include the contractor's name, address, phone and licence number, start and completion dates, any verbal promises, and the three-day cancellation notice where it applies; fill in every blank. "Some states actually limit the amount of money a contractor can ask for as a down payment." [V] Never make the final payment until you are satisfied. The home-improvement loan scam: never sign blank papers, never transfer your deed.
+
+#### US: FTC, "How To Avoid Scams After Weather Emergencies and Natural Disasters"
+https://consumer.ftc.gov/articles/how-avoid-scams-after-weather-emergencies-and-natural-disasters (updated 2026-04-28)
+Read: full text.
+Establishes: scammers claim they don't need a licence, want payment up front, and insist on wire transfer, gift card, payment app, crypto or cash; "FEMA doesn’t charge application fees" [V]; "never sign your insurance check over to a contractor" [V] (arrange staged payments through your bank instead); be sceptical of anyone promising immediate repairs.
+
+#### US: FTC Cooling-Off Rule, 16 CFR Part 429, and FTC consumer page "Buyer's Remorse: The FTC's Cooling-Off Rule May Help"
+eCFR: https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-429 ; https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help
+Read: Part 429 in full from the eCFR renderer; the FTC page in full.
+Establishes:
+- §429.0(a): a "door-to-door sale" has "a purchase price of $25 or more if the sale is made at the buyer's residence or a purchase price of $130 or more if the sale is made at locations other than the buyer's residence" [V]. This includes visits made at the buyer's invitation.
+- The required notice: "You, the buyer, may cancel this transaction at any time prior to midnight of the third business day after the date of this transaction." [V] "Business Day" excludes Sundays and federal holidays, so Saturday counts (§429.0(f)).
+- The seller must refund within 10 business days (§429.1(g)).
+- Exclusions, per §429.0(a)(3) and the FTC page: a buyer-initiated bona fide emergency, which needs a handwritten, signed waiver from the buyer; repairs or maintenance on personal property that the buyer asked the seller to come and do (anything bought beyond that request is covered); real estate, insurance and securities.
+- §429.2: state laws giving equal or greater rights are not pre-empted.
+
+#### US: California Contractors State License Board, *A Consumer Guide to Home Improvement Contracts* and Business and Professions Code §7159
+https://www.cslb.ca.gov/Resources/GuidesAndPublications/HomeImprovementContractsConsumerGuide.pdf ; https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7159
+Read: the guide in full (pdftotext; no date shown) and the statute text, with the down payment notice and definitions read closely.
+Establishes:
+- The deposit limit, stated in BPC 7159 as mandatory contract text: "THE DOWNPAYMENT MAY NOT EXCEED $1,000 OR 10 PERCENT OF THE CONTRACT PRICE, WHICHEVER IS LESS." [V] The guide adds that this excludes finance charges, that there are "no exceptions for special order materials" [V], and that the only exception is contractors with a blanket performance and payment bond on file with CSLB.
+- A home improvement contract over $500 falls under §7159(b). Payments must not run ahead of the value of the work done. Price changes need a written change order.
+- Mechanic's liens: unpaid subcontractors, suppliers and workers can lien the property even when the contractor has been paid in full. "A property owner could be forced to pay twice or have the court sell the home to pay the lien." [V] Suppliers and subcontractors must send a "Preliminary Notice" within 20 days. Protect yourself by getting a list of subcontractors and suppliers, lien releases (the brief's "lien waivers") as each part of the work is finished, or joint cheques.
+- California's right to cancel is three business days, or five if the buyer is 65 or over. It does not apply to a contract negotiated at the contractor's premises, or to a service and repair contract for emergency work the consumer asked for once the work has started.
+
+#### State contractor licence lookups, BBB
+CSLB (above) is one state's licensing board. The FTC tells consumers to check with "your state or county government" [V]. I did not read any other state's lookup page, and I did not read the BBB.
+
+#### The "cowboy builder" problem
+No source I read uses the phrase. Citizens Advice's warnings (cash only, mobile number only, no written quote, a price far below the others, doorstep approaches) and the FTC's scam signs describe the same thing. Snippet only: a Citizens Advice press release title seen in search results reported "more than 700 complaints a week" about shoddy trades work. It was not read.
+
+---
+
+### (a) What this part says the field considers essential
+
+1. **Ladders: use the right equipment first, set the ladder up properly, and don't overreach.** Consider whether a ladder is right for the job at all: under 30 minutes, low risk, level firm ground. Then set it at 1 in 4 (75°), extend it 1 m or 3 feet above the landing, keep three points of contact, keep your belt buckle between the stiles, stay off the top three rungs or steps, secure it (footing is the last resort), and keep 6 m from overhead power lines. US emergency department data show nearly all ladder injuries happen away from work, in homes and on farms.
+2. **Power tools:** unplug to change a bit or blade, never remove guards, clamp the work, protect your eyes, and use the right dust mask (FFP2/FFP3 or N95). Know that a mask stops dust, not vapour, and that it only works if it fits.
+3. **Isolate before you fix:** stop tap or isolation valve for taps and toilets; switch off at the socket and unplug before opening a plug; heating off and radiators cool before bleeding.
+4. **Common repairs are mostly about diagnosis.** A washer tap and a ceramic-disc tap fail in different ways. A leaking toilet shows up with a dye test. Cold at the top of a radiator means air; cold at the bottom means sludge. A repeatedly tripping RCD means a fault for an electrician.
+5. **Pests: IPM.** Identify, exclude and clean up, trap, and use poison only as a later step. Use snap traps rather than glue traps (CDC). Consumer rodenticide comes only in tamper-resistant bait stations. Never sweep or vacuum rodent droppings. Foggers do not work on German cockroaches. Bed bugs need more than pesticide.
+6. **Seasonal routine:** test smoke alarms monthly and replace them at ten years; service gas appliances every year; sweep or inspect chimneys every year (twice for wood in the UK); clean gutters so water discharges away from the house; clean dryer lint; draught proof without blocking ventilation; prepare pipes and the stop tap for winter.
+7. **Hiring:** get several written quotes, check registration and insurance on the scheme's own website, keep deposits small (California caps them by law), pay in stages and by card, know the doorstep cancellation rights (14 days in the UK, 3 business days under the US federal rule), and in the US protect yourself against liens.
+
+### (b) Common misconceptions (each named by a source)
+
+- "Ladders are banned under health and safety law." HSE: they are not.
+- "A short job justifies a ladder." HSE: "Short duration is not the deciding factor" [V]; risk comes first.
+- "Someone footing the ladder makes it safe." HSE ranks footing as the last resort after tying, a stability device and wedging. RoSPA still suggests having a second person present (see Contested).
+- "A cable detector that shows nothing means there is no cable." Bosch: it detects only cables carrying current.
+- "Any dust mask will do." HSE: nuisance or comfort masks are not respirators, and a beard defeats the seal.
+- "Flushable wipes can be flushed." Thames Water: they block pipes "even the ones labelled ‘flushable’".
+- Bed bug myths (EPA): that they live only in dirty places, carry disease between people, avoid light, or can be cleared with pesticide alone. Also that turning up the thermostat kills them (EPA Top Ten).
+- "Bug bombs clear cockroaches." DeVries et al. 2019 and UC IPM: they fail, and they leave residues.
+- "Woodworm holes mean live woodworm." Babergh council: old holes usually need no action.
+- "A quote and an estimate are the same thing." Citizens Advice: a quote is fixed, an estimate is not.
+- "Paying the contractor in full protects you from liens." CSLB: unpaid subcontractors can still lien the home.
+
+### (c) Contested questions
+
+1. **Should a second person foot or hold a leaning ladder?**
+   - HSE/LA455 (workplace): "Footing is the last resort". Prefer tying, a stability device or wedging.
+   - RoSPA (home): "Consider having another person present, especially when using leaning ladders."
+   - Status: **contested in emphasis, not in fact.** Both agree that securing the ladder matters. A second person nearby is also useful if something goes wrong. Teach the HSE order of preference and say a helper is worth having.
+2. **Thawing a frozen pipe: turn off the stop tap first?**
+   - CCW (UK): turn off the water at the stop tap, then thaw slowly with the cold tap open.
+   - American Red Cross (US): keep the tap open so running water helps melt the ice. It does not mention shutting off the supply before thawing.
+   - Status: **established fact** that you should never use a naked flame and should thaw gently. **Contested** whether to isolate first. Turning the water off first limits flooding if the pipe has already split. A lesson can give the CCW order and the reason for it.
+3. **Woodworm: treat with chemicals, or manage the damp?**
+   - Heritage and conservation advice (Babergh council): the damp is the cause; old holes need no action; monitor for a year.
+   - The commercial position that active infestations need treatment appears only in trade-site snippets I did not read. The council page itself says an active infestation "might need" treatment straight away.
+   - Status: **contested** in practice. Established that frass and hole edges show activity. Present both, attributed.
+4. **Rodent control: when to use poison, and are glue traps acceptable?**
+   - CDC: snap traps first; no glue or live traps; bait stations only for persistent infestations.
+   - EPA and HSE: consumer anticoagulants are allowed only in restricted forms. HSE says to consider other methods before anticoagulants.
+   - Glue traps are largely prohibited in England under separate legislation, which I did not read (see Gates).
+   - Status: **established** that non-chemical methods come first. Whether glue traps are humane is a **value** question, and their legal status differs by country.
+5. **How much deposit is reasonable?**
+   - California law: at most $1,000 or 10%, whichever is less.
+   - Citizens Advice (England, guidance, not law): avoid deposits; if unavoidable, no more than 25%.
+   - Status: **established law** for California; **guidance** in England. Do not merge the two.
+6. **How long does new plaster take to dry before painting?** Dulux pages differ: up to 4 weeks on the page read, other figures in a snippet. **Contested / varies.** Follow the plasterer's and the paint maker's advice.
+
+### (d) UK vs US differences
+
+| Topic | UK | US |
+|---|---|---|
+| Ladder angle | 1-in-4, 75° (HSE/LA455) | about one-quarter of working length (29 CFR 1926.1053(b)(5)(i)); the "4-to-1 rule" |
+| Height above landing | 1 m (three rungs) | 3 feet (0.9 m) |
+| Top of stepladder | don't work on the top three steps without a handhold | "The top or top step of a stepladder shall not be used as a step." |
+| Legal status for householders | WAHR 2005 bind work, not DIY | OSHA binds employers, not DIY |
+| Tap fault | washer (compression) or ceramic-disc cartridge | "faucet washers and gaskets"; cartridge taps too |
+| Toilet fault | push-button cistern and flush valve leaks (UU, about 80% of reported leaks); overflow pipe drip | worn flapper; dye test; replace the flapper at least every 5 years |
+| Plug fuse | fused BS 1363 plug, 3 A or 13 A | no fused plug |
+| Paint names and VOC | "emulsion"; statutory VOC label in g/l | "latex"; EPA guidance on VOCs (US labelling law not researched) |
+| Pests | woodworm, clothes moths; CRRU stewardship; HSE biocides | termites; EPA 2008 rodenticide restrictions; state pesticide agencies |
+| Chimney | HETAS: sweep at least once a year, twice for wood | CSIA/NFPA 211: inspect at least once a year |
+| Gas | Gas Safe registration mandatory for anyone doing gas work as a business, competence for everyone (corrected at synthesis, see "The gas-work law, stated exactly"); annual service advised | licensing varies by state (not researched here) |
+| Doorstep cancellation | 14 days, off-premises contracts over £42; urgent repairs you called for are excluded | 3 business days, $25+ at home or $130+ elsewhere; emergency and requested repairs excluded; states may add more (California: 5 days if 65 or over) |
+| Services law | CRA 2015 implied terms: reasonable care and skill, price, time | state law; FTC guidance |
+| Checking a trader | Trading Standards approved lists, TrustMark, competent person schemes, trade associations | state or county licence lookup, proof of insurance, home builders' association |
+| Deposits | guidance only (Citizens Advice: at most 25%) | some states cap them by law (California: $1,000 or 10%) |
+| Liens | not researched | mechanic's liens; lien releases; preliminary notices (California) |
+
+### (e) Safety-critical notes for drafters
+
+- **Ladders:** give the numbers exactly: 75°, 1 in 4, 1 m or 3 feet above the landing, top three rungs, 6 m from power lines, and the 30-minute guide. Say that HSE and OSHA rules are written for workplaces and that most injuries happen at home (D'Souza 2007). Do not publish a UK injury figure until a primary source is found.
+- **Before drilling:** detectors miss cables that aren't carrying current. Turn the power off. Send wiring zones to the electricity lesson.
+- **Masks:** FFP and N95 masks do not protect against solvent vapour. A beard defeats the fit. Methylene chloride strippers should be used outdoors.
+- **Batteries:** use the original charger, stop using a swollen battery, don't leave it charging unattended once charged, and don't cover chargers.
+- **Plug fuses:** replace with the same rating only. Never "upgrade" a fuse. Never open a plug that is in the socket.
+- **RCD or breaker that keeps tripping:** after one reset attempt, stop and call an electrician. Do not tape or hold a breaker on. (That last instruction is common sense and not quoted from any source I read; check it against the electricity part.)
+- **Radiators and boilers:** bleed only when the system is cool, and repressurise to the maker's figure (Vaillant: 1 to 1.5 bar cold). Boiler repairs are for Gas Safe engineers.
+- **Frozen pipes:** never use a naked flame or blowtorch. Know where the stop tap is.
+- **Rodent clean-up:** do not sweep or vacuum droppings. Air the room, wear gloves, soak with disinfectant for 5 minutes, and bag the waste twice.
+- **Poisons:** keep bait in tamper-resistant stations away from children and pets. Never use an outdoor pesticide indoors. Avoid foggers.
+- **Chimneys and gas:** service and sweep annually. Do not block ventilation needed by flueless or open-flue gas appliances when draught proofing (EST).
+- **Hiring:** never sign blank papers or sign over an insurance cheque, and never pay by wire, gift card or cash. The CCR urgent-repairs exclusion means a trader you called out in an emergency is not covered by the 14-day cancellation right. Additional work sold on that same visit still is.
+
+### (f) Gates (need a primary read before a lesson states them)
+
+1. **UK ladder injury figures.** The about 6,000 admissions and about 48,000 A&E attendances credited to RoSPA were seen only in snippets. Find a RoSPA or NHS primary source (for example Hospital Episode Statistics, ICD-10 code W11) or leave UK figures out.
+2. **WAHR 2005 reg 3(3)(b)** and householders who control a tradesperson's work. Read HSE's guidance on domestic clients before saying anything beyond "the Regulations govern work, not your own DIY".
+3. **LA455 page 7 and 8 content** (inspection, product standards EN 131) and the HSE web guide pages 7 and 8: not read.
+4. **OSHA respiratory protection standard Table 1** (assigned protection factors): not read. Do not give an APF for N95.
+5. **Eye protection standards** (EN 166 in the UK, ANSI Z87.1 in the US): not read. Advise safety glasses in general terms only.
+6. **UK cistern mechanics** (siphon, flush valve, float or fill valve): no source read. Needs a manufacturer's or water company's page.
+7. **Plunging a sink and removing a trap; chemical drain cleaners:** no primary source read.
+8. **Sticking doors, silicone sealant, wallpaper, sanding old paint:** no primary source read.
+9. **VOC Regulations 2012 revised text** (post-Brexit amendments): only the "as made" version of regs 3 to 5 and Sch 2 was read.
+10. **US paint labelling or VOC law for consumers:** not researched. Don't claim a US equivalent of the UK g/l label.
+11. **NFPA 211 itself:** quoted here only as CSIA quotes it. Attribute the annual inspection rule to CSIA, citing NFPA 211, or read the standard.
+12. **CPSC lithium-ion and ladder safety centre pages:** blocked. The US lithium-ion figures are unverified.
+13. **The USFA dryer fire figure** (about 2,900 a year): snippet only.
+14. **The EPA 2008 rodenticide decision document** and **CRRU pack size limits:** not read. Cite the EPA restrictions page and HSE instead.
+15. **Glue traps in England** (the Glue Traps (Offences) Act 2022): not read. Needed before any UK statement on glue traps.
+16. **Wasp nests:** no official source read. Needs a council, BPCA or NHS source before a lesson says "don't disturb, call a professional".
+17. **CRA 2015 ss. 54, 56, 57** (remedies index, price reduction, liability that cannot be excluded): not read.
+18. **Section 75 of the Consumer Credit Act 1974:** stated here only through Citizens Advice.
+19. **TrustMark's "Government Endorsed" status:** stated by TrustMark and Citizens Advice. No government source read.
+20. **US state licensing thresholds** (including the current California threshold) and **any state's lien law other than California:** not read.
+21. **Electrical Safety First's list of appliances by fuse rating:** the page read and an older page (snippet) disagree. Teach "follow the manufacturer".
+22. **Hantavirus in the UK:** not researched. Frame the CDC clean-up advice as US guidance that is also good practice anywhere.
+
+### (g) Not read (strings for the build-time blocklist)
+
+
+*The part's own "Not read" list below is superseded by the combined `unread:` line at the top of this file, which drops strings that another part read (see "The `unread:` line is the build's enforcement").*
+
+- INDG455
+- American Ladder Institute
+- Which? Trusted Traders
+- Consumer Reports
+- This Old House
+- Better Business Bureau
+- National Pest Management Association
+- Glue Traps (Offences) Act
+- ANSI Z87.1
+- EN 166
+- EN 131
+- Trade Association Forum
+- LABC Front Door
+- Registered Competent Person Electrical
+- Construction Skills Certification Scheme
+- Total Exposure Assessment Methodology
+- Buy Safe, Be Safe
+- Warm Homes Plan
+- Get Water Fit
+- Guild of Master Chimney Sweeps
+- National Association of Chimney Sweeps
+- Association of Professional Independent Chimney Sweeps
+- Chimney Fire Safety Week
+- Home Accident Surveillance System
+- Hospital Episode Statistics
+- Moulton Niguel
+- Spartanburg Water
+- Wessex Water
+- Anglian Water
+- Consumer Credit Act
+
+---
+
+## Part C: Work reserved to registered or licensed trades, and what a householder may lawfully do
+
+Researcher C. All sources read live on 25 September 2026 unless stated. Plain-text extractions are in the scratchpad `hr/raw/` folder under the short names given. [V] marks words copied from text I extracted myself; [T] marks words from a summarising fetch tool; "snippet only" marks something seen only in a search result, which is not a finding.
+
+A general caution for the whole part: this is the area where a lesson is most likely to be wrong, because the rule changes at every border. England and Wales share one statutory instrument but no longer share its electrical rules; Scotland and Northern Ireland have separate systems; and in the US the rule changes by state, by county and by city. Nothing below should reach a lesson without the jurisdiction attached to it.
+
+---
+
+### UK: England and Wales, building regulations
+
+#### C1. The Building Regulations 2010 (SI 2010/2214), regulation 3 (meaning of building work)
+URL: https://www.legislation.gov.uk/uksi/2010/2214/regulation/3 (raw: `br_reg3`)
+Read: full text of regulation 3 and its amendment notes, HTML extraction.
+Version: legislation.gov.uk states [V] "Section 3 is up to date with all changes known to be in force on or before 25 September 2026", with changes that may come into force later.
+
+Establishes:
+- Reg 3(1) defines "building work" as, among other things, (a) erection or extension of a building; (b) [V] "the provision or extension of a controlled service or fitting in or in connection with a building"; (c) material alteration of a building or controlled service or fitting; (e) cavity wall insulation; (f) underpinning.
+- Reg 3(2): an alteration is "material" if at any stage it would leave the building or a controlled service or fitting non-compliant with a "relevant requirement" where it previously complied, or more unsatisfactory where it already did not comply.
+- Reg 3(3) lists the relevant requirements: Part A (structure), B1, B3, B4, B5 (fire), Part M (access) and, in England from 1 October 2024, Part T (toilet accommodation). This is why removing a loadbearing wall or a chimney breast is building work: it touches Part A.
+
+#### C2. The Building Regulations 2010, regulation 12 (giving notice), England and Wales versions
+URL: https://www.legislation.gov.uk/uksi/2010/2214/regulation/12 (raw: `br_reg12`)
+Read: full text of both the England version and the Wales version, with amendment notes.
+Version: [V] "Section 12 is up to date with all changes known to be in force on or before 23 September 2026". Outstanding changes are listed, none to reg 12(6A).
+
+Establishes:
+- Reg 12(2): a person intending to carry out building work must either give the authority a building notice (reg 13) or apply for building control approval with full plans (reg 14).
+- Reg 12(6): no notice is needed where the work consists only of (a) work in column 1 of Schedule 3 carried out by the person in column 2 (a competent person scheme member), (b) work described in Schedule 4, or (c) in England, work in Schedule 3A inspected by a third-party certifier appointed before work starts.
+- **Reg 12(6A), England only.** Where Part P applies, notice is required where the work consists of [V] "(a) the installation of a new circuit; (b) the replacement of a consumer unit; or (c) any addition or alteration to existing circuits in a special location." Inserted from 6 April 2013 by SI 2012/3119.
+- Reg 12(9), England: "special location" means (a) within a room containing a bath or shower, the space around a bath tap or shower head, extending vertically from the finished floor to 2.25 metres (or to the shower head if higher), and horizontally 0.6 metres from the edge of the bath or shower tray, or 1.2 metres from the centre of the shower head where there is no tray; or (b) [V] "a room containing a swimming pool or sauna heater."
+- **Wales version:** reg 12(6)(c) and 12(6A) are shown as omitted (dotted lines). The Welsh text keeps only routes (a) Schedule 3 and (b) Schedule 4. The extent note reads [V] "This version of this provision applies to Wales only".
+- Reg 12(8): emergency repairs where prior notice is impracticable: give a building notice [V] "as soon as reasonably practicable after commencement of the work."
+
+#### C3. The Building Regulations 2010, Schedule 4 (work needing no notice), England and Wales versions
+URL: https://www.legislation.gov.uk/uksi/2010/2214/schedule/4 (raw: `br_sch4`)
+Read: full text, both versions; the pandoc extraction dropped some bracketed paragraphs, so paragraphs 1 to 3 were re-read from the raw HTML.
+Version: [V] "SCHEDULE 4 is up to date with all changes known to be in force on or before 26 September 2026".
+
+Establishes:
+- **England**, para 1(a) to (e) are omitted (the minor electrical items). Remaining non-notifiable items relevant to a householder include: replacing parts of an existing fixed building service that are not a combustion appliance (1(f)); replacing an external door where not more than 50% of its internal face is glazed (1(h)); replacing a toilet with one using no more water, a washbasin, sink or bidet, a fixed bath, a shower, a rainwater gutter or downpipe, provided there is no work to underground drainage and nothing to the water or drainage system that may prejudice health or safety (1(j)); replacing parts of, or adding output or control devices to, an existing cold water supply (1(k)); a hot water storage vessel not exceeding 15 litres (1(l)); loft insulation installed solely as such (1(m)); insulation to suspended timber floors (para 3A).
+- **Wales**, para 1(a) to (e) are present: [V] "(a) replacing any fixed electrical equipment which does not include the provision of (i) any new fixed cabling, or (ii) a consumer unit; (b) replacing a damaged cable for a single circuit only;" re-fixing enclosures; mechanical protection; main or supplementary equipotential bonding.
+- **Wales**, para 2: work which [V] "(a) is not in a kitchen, or a special location; (b) does not involve work on a special installation; and (c) consists of (i) adding light fittings and switches to an existing circuit, or (ii) adding socket outlets and fused spurs to an existing ring or radial circuit."
+- **Wales**, para 3: telephone and extra-low voltage communications wiring not in a special location; prefabricated equipment sets with plug and socket connections.
+- Para 4 definitions (Wales): "special installation" means [V] "an electric floor or ceiling heating system, an outdoor lighting or electric power installation, an electricity generator, or an extra-low voltage lighting system which is not a pre-assembled lighting set bearing the CE marking"; "special location" is defined by the bath, shower, pool and sauna zones of BS 7671:2008 (17th edition).
+
+What this means, stated carefully: in **England** since 6 April 2013 only three kinds of electrical work are notifiable (new circuit, consumer unit replacement, additions or alterations in a special location); **kitchens and gardens are not special locations** in England. In **Wales** the pre-2013 list survives: work in a kitchen, in a special location or on a special installation (including outdoor power and lighting) is notifiable unless it is one of the minor items in para 1(a) to (e).
+
+#### C4. The Building Regulations 2010, Schedule 3 (self-certification schemes)
+URL: https://www.legislation.gov.uk/uksi/2010/2214/schedule/3 (raw: `br_sch3`)
+Read: full table, from raw HTML (amendment notes stripped by me).
+Version: [V] "up to date with all changes known to be in force on or before 23 September 2026".
+
+Establishes (column 1 work, column 2 person):
+- Item 1: installation of a heat-producing gas appliance (not a masonry chimney): [V] "A person, or an employee of a person, who is a member of a class of persons approved in accordance with regulation 3 of the Gas Safety (Installation and Use) Regulations 1998." That is the Gas Safe Register.
+- Item 2: oil-fired appliances, oil storage tanks and connecting pipes: APHC, Blue Flame, BESCA, Certsure, NAPIT, OFTEC.
+- Item 3: solid fuel appliances other than biomass: includes HETAS and OFTEC.
+- Item 4: heating or hot water system or its controls: Gas Safe class, or the oil, solid fuel and multi-trade schemes.
+- Item 8: [V] "Installation of fixed low or extra-low voltage electrical installations in dwellings": Blue Flame, Certsure, NAPIT, OFTEC (and others struck through).
+- Item 9: electrical work as a necessary adjunct to other work by the registered person.
+- Item 10: replacement window, rooflight, roof window or door in an existing dwelling: Assure, Blue Flame, CERTASS, Certsure, Fensa, NAPIT.
+- Item 12: sanitary conveniences, sinks, basins, baths, showers or bathrooms in a dwelling, not involving shared or underground drainage.
+- Item 16: replacement roof coverings: NAPIT or the National Federation of Roofing Contractors.
+
+#### C5. The Building Regulations 2010, Schedule 1 Part P, and regulations 18 and 20
+URLs: https://www.legislation.gov.uk/uksi/2010/2214/schedule/1 (raw `br_sch1`), /regulation/18 (`br_reg18`), /regulation/20 (`br_reg20`)
+Read: Part P and Part G3 text from Schedule 1; full text of regs 18 and 20.
+Version: Schedule 1 up to date to 23 September 2026 (outstanding Part L changes only); reg 18 up to date to 21 September 2026.
+
+Establishes:
+- **P1**: [V] "Reasonable provision shall be made in the design and installation of electrical installations in order to protect persons operating, maintaining or altering the installations from fire or injury." It applies to low and extra-low voltage installations in or attached to a dwelling, common parts serving dwellings (not lift supplies), buildings supplied from a dwelling's source, and gardens supplied from a dwelling.
+- Part P therefore applies to **all** electrical installation work in a dwelling, notifiable or not. Notification is a separate question (reg 12 and Schedule 4).
+- Reg 20(3): the competent person must, not more than 30 days after completion, give the occupier a copy of the certificate and give the authority notice or the certificate. Reg 20(5): the certificate is [V] "evidence (but not conclusive evidence)" of compliance.
+- Reg 18: where unauthorised building work was carried out on or after 11 November 1985, the owner may apply for a **regularisation certificate**; the authority may require the owner to lay open the work for inspection, make tests and take samples (18(3)); the certificate is evidence but not conclusive evidence (18(6)).
+
+#### C6. Approved Document P, Electrical safety: dwellings, 2013 edition (for use in England)
+URL: https://assets.publishing.service.gov.uk/media/5a802da7ed915d74e622ceed/BR_PDF_AD_P_2013.pdf; GOV.UK landing page https://www.gov.uk/government/publications/electrical-safety-approved-document-p (raw: `adp`)
+Read: full text (about 4,900 words), pdftotext. GOV.UK landing page read via the content API; it lists this 2013 edition as current, with no later edition.
+Version: [V] "2013 edition, for use in England" [my comma for their dash]; took effect 6 April 2013. It applies also to "excepted energy buildings" in Wales. Its technical reference is BS 7671:2008 incorporating Amendment No 1:2011 (the 17th edition), not the current edition of BS 7671.
+
+Establishes:
+- Main changes 2013: [V] "The range of electrical installation work that is notifiable ... has been reduced", and a non-registered installer may use a registered third-party certifier.
+- Para 1.1: installations "should be designed and installed in accordance with BS 7671:2008 incorporating Amendment No 1:2011". BS 7671 is the route to compliance the approved document names; the legal duty is P1.
+- Para 1.6: when altering, only the new work must meet current standards; no obligation to upgrade the existing installation unless the new work affects its safety or the existing installation cannot safely carry the new work.
+- Para 2.2: Part P covers the dwelling, outside fixtures, garden lighting and pond pumps, sheds, detached garages and greenhouses.
+- Para 2.5: notifiable work is what reg 12(6A) sets out. Diagram 2 shows the 600 mm and 2.25 m zone.
+- **Para 2.7**: [V] "All other electrical installation work is not notifiable, namely additions and alterations to existing installations outside special locations, and replacements, repairs and maintenance anywhere." (I have replaced their dash with a comma.)
+- Para 2.8: installing a built-in cooker is not notifiable unless a new cooker circuit is needed; connecting a gate to an existing isolator is not notifiable, but a new circuit to the isolator is.
+- Para 3.1: notifiable work must be certified by one of three routes: [V] "a. Self-certification by a registered competent person. b. Third-party certification by a registered third-party certifier. c. Certification by a building control body."
+- Para 3.5 to 3.7: a non-registered installer may appoint a registered third-party certifier **before work begins**, notify it within 5 days of completion.
+- Para 3.8: [V] "If an installer is not a registered competent person and has not appointed a registered third-party certifier, then before work begins the installer must notify a building control body." This is the householder's DIY route in England.
+- Para 3.9 to 3.12: the building control body decides the inspection and testing needed, may contract a specialist, and issues a completion certificate.
+- **Para 3.13**: [V] "Non-notifiable electrical installation work, like notifiable work, should be designed and installed, and inspected, tested and certificated in accordance with BS 7671." Para 3.14: local authorities can take enforcement action against unsafe non-notifiable work.
+- Front matter: [V] "If building work does not comply with the Building Regulations, the building owner may be served with an enforcement notice."
+
+#### C7. GOV.UK, "Building regulations approval" (guide)
+URL: https://www.gov.uk/building-regulations-approval (via https://www.gov.uk/api/content/building-regulations-approval; raw `gov_building-regulations-approval`)
+Read: all parts. Updated 24 January 2025.
+
+Establishes:
+- Approval may be needed to [V] "replace fuse boxes and connected electrics", "change electrics near a bath or shower", "replace windows and doors", "install or replace a heating system", "add extra radiators to a heating system", and to install a bathroom involving plumbing.
+- No approval needed for [V] "most repairs, replacements and maintenance work (except heating systems, oil tanks, fuse boxes and glazing units)" and [V] "new power and lighting points, or changes to existing circuits (except around baths and showers)". This summary is correct for England but **not for Wales**, where kitchen and outdoor work stays notifiable (C3, C8). The page covers both nations under one heading.
+- [V] "Building regulations approval is different from planning permission. You might need both."
+- Penalties: the person doing the work [V] "could be prosecuted and fined"; the building control body "could make you pay to fix faulty work"; without approval you will not have certificates you may need to sell.
+- A competent person gives [V] "a certificate within 8 weeks of completion". Note: reg 20(3) says 30 days for the scheme member to give the certificate; the two are not the same number (see Gates).
+- Building notice: [V] "You can start work 2 days after your notice has been submitted". Regularisation is from a local authority only, and [V] "Only work carried out after 11 November 1985 can be approved in this way."
+- Choice of building control body: the local council or a [V] "private registered building control approver" in England or Wales (the Building Safety Act 2022 regime). Higher-risk buildings (at least 7 storeys or 18 m with 2 or more residential units) go to the Building Safety Regulator.
+
+#### C8. GOV.UK, "Competent person scheme: current schemes and how schemes are authorised"
+URL: https://www.gov.uk/guidance/competent-person-scheme-current-schemes-and-how-schemes-are-authorised (raw `gov_competent-person-scheme...`)
+Read: full text. Updated 17 September 2026.
+
+Establishes:
+- A competent person scheme lets an installer [V] "self-certify certain types of building work ... instead of getting building regulations approval." Schemes are authorised by MHCLG.
+- Current schemes (full names as listed): ATTMA, APHC, Assure Certification, Blue Flame Certification, British Board of Agrément, BESCA, Capita Gas Registration and Ancillary Services Limited (Gas Safe Register), Certass, **"Certsure LLP trading as NICEIC"**, Elmhurst Airtightness Scheme, Fensa, HETAS, Installation Assurance Authority, **NAPIT Registration Limited**, National Federation of Roofing Contractors (CompetentRoofer), OFTEC.
+- Electrical work in dwellings: BESCA, Blue Flame Certification, Certsure, NAPIT, OFTEC.
+- Gas: [V] "*The GSR is not technically a competent person scheme, but in practice its installers have the same responsibilities for complying with building regulations."
+- Electrical scheme members appear on the Electrical Competent Person Register.
+- **ELECSA is not named on this list.** The brief asked me to name it; the current primary list names Certsure (trading as NICEIC) and NAPIT. A lesson should use the GOV.UK list, not a remembered one.
+
+#### C9. Welsh Government, "Building regulations: electrics", and Approved Document P (Wales), 2006 edition incorporating 2010 amendments
+URLs: https://www.gov.wales/building-regulations-electrics (raw `wal_electrics`); https://www.gov.wales/approved-document-p-electrical-safety-dwellings (page dated first published and last updated 3 April 2017, with an amendment slip of September 2013) and the PDF https://www.gov.wales/sites/default/files/publications/2019-05/building-regulations-guidance-part-p-electrical-safety.pdf (raw `wal_adp_pdf`)
+Read: the guidance page in full; the approved document's front matter, Section 0 (notification, Tables 1 and 2 and the additional notes) in full, other sections by search only.
+Version: [V] "2006 edition incorporating 2010 amendments", "For use in Wales". It cites BS 7671:2001 as amended.
+
+Establishes:
+- gov.wales: [V] "you do not need to tell them about repairs, replacements and maintenance work or extra power points or lighting points or other alterations to existing circuits (except in a kitchen or bathroom, or outdoors)."
+- gov.wales, DIY route: [V] "You should make a Building Regulations application to Building Control if the electrician you employ ... is not registered as a competent person ... or if you do the work yourself." Contact building control **before** starting.
+- gov.wales, minor works: replacing any electrical fitting; adding a fused spur (not in a kitchen, bathroom or outdoors); repair or maintenance; bonding; extra-low voltage cabling. [V] "If you do the work yourself you may wish to engage a qualified electrician to check it for you."
+- AD P (Wales) para 0.4 note: kitchen is [V] "a room or part of a room which contains a sink and food preparation facilities"; in open-plan areas, as a guide, 3 m from the edge of the sink.
+- Table 1 (work that need not be notified) and Table 2 (special locations: bath or shower, pools, saunas; special installations: electric floor or ceiling heating, outdoor lighting or power, solar PV, small generators, extra-low voltage lighting not pre-assembled). Additional notes: (a) notifiable jobs include new circuits and extensions of circuits in kitchens and special locations; (b) replacement, repair and maintenance generally not notifiable even there; (c) [V] "Consumer unit replacements are, however, notifiable."; (j) a socket outlet on an external wall is notifiable; (m) fitting or replacing cookers and electric showers is not notifiable unless a new circuit is needed; (n) new central heating control wiring is notifiable.
+- The gov.wales guidance page opens with [V] "you will have to follow new rules": it is an old page that still reads as if 2005 were recent. Useful for the rule, not for dates.
+
+#### C10. Building Act 1984, sections 35 and 36
+URLs: https://www.legislation.gov.uk/ukpga/1984/55/section/35 (`ba_s35`), /section/36 (`ba_s36`)
+Read: full text of both sections with amendment notes.
+Version: s35 up to date to 24 September 2026; s36 up to date to 25 September 2026.
+
+Establishes:
+- s35(1), as substituted by the Building Safety Act 2022: [V] "A person who contravenes a provision of building regulations, or a requirement imposed by virtue of any such provision, commits an offence." s35(4): on indictment, up to two years' imprisonment or a fine or both; on summary conviction, imprisonment up to the maximum summary term for either-way offences or a fine; plus a daily fine for continuing default. In force for England from 2023 and for Wales fully from 1 July 2026.
+- s36(1): the building control authority may by notice require the owner to pull down or remove contravening work or alter it to comply. s36(3): if not done in 28 days, the authority may do it and recover its expenses.
+- **s36(4): a section 36 notice may not be given after [V] "10 years" from completion of the work.** The words were substituted by the Building Safety Act 2022 s39(3) (England from 2023; Wales in full from 1 July 2026). Before that the period was 12 months (my knowledge, not read in the pre-2023 text: see Gates).
+
+#### C11. Law Society, TA6 Property Information Form (6th edition, 2025): explanatory notes for sellers and buyers
+URL: https://www.lawsociety.org.uk/topics/property/ta6-6th-edition-explanatory-notes (raw `ta6_notes`)
+Read: full text. Dated 13 October 2025; reflects the Law Society's understanding [V] "as of 1 September 2025". The form itself not read.
+
+Establishes:
+- Questions 5.1 and 5.2 deal with planning permission, building regulations and competent person certificates. Questions 11.1 and 11.2 with electrical installation work and certificates.
+- [V] "From 1 January 2005, all electrical installation work must follow building regulations." The notes say building regulations [V] "have been different in England and Wales since 31 July 2014."
+- Most electrical work requires [V] "a building control completion certificate", "the installer's Building Regulations Compliance Certificate, or" "the BS7671 Electrical Installation Certificate".
+- 11.3: an EICR [V] "is not a legal requirement for the sale of property in England and Wales."
+- On buying: buyers may need approvals and completion certificates for alteration or fitting of glazing, pipes, cables and gas or electrical equipment, or evidence the work was done by registered competent persons.
+
+#### C12. The Electrical Safety Standards in the Private Rented Sector and Social Rented Sector (England) Regulations 2020 (SI 2020/312), regulation 3
+URL: https://www.legislation.gov.uk/uksi/2020/312/regulation/3 (`ll_reg3`)
+Read: regulation 3(1) and (2). No known outstanding effects.
+
+Establishes: a landlord must ensure every electrical installation is inspected and tested by a qualified person before the tenancy starts and at regular intervals, meaning [V] "at intervals of no more than 5 years", or sooner if the last report requires. The title now includes the social rented sector (amended). England only.
+
+---
+
+### UK: gas (Great Britain and Northern Ireland)
+
+#### C13. The Gas Safety (Installation and Use) Regulations 1998 (SI 1998/2451), regulations 3 and 36
+URLs: https://www.legislation.gov.uk/uksi/1998/2451/regulation/3 (`gs_reg3`), /regulation/36 (`gs_reg36`)
+Read: full text of reg 3; reg 36 definitions and 36(3).
+Version: [V] "There are currently no known outstanding effects" for either regulation. Extent of reg 3: England, Wales and Scotland.
+
+Establishes:
+- **Reg 3(1)**: [V] "No person shall carry out any work in relation to a gas fitting or gas storage vessel unless he is competent to do so." This applies to everyone, including a householder.
+- Reg 3(2): employers and self-employed persons in control of the work must ensure 3(1) is complied with.
+- **Reg 3(3)**: [V] "no employer shall allow any of his employees to carry out any work in relation to a gas fitting or service pipework and no self-employed person shall carry out any such work, unless the employer or self-employed person, as the case may be, is a member of a class of persons approved for the time being by the Health and Safety Executive". This is the registration duty. **Its words reach employers and the self-employed; they do not reach a householder working on their own home.**
+- Reg 3(4): 3(3) does not apply to (a) replacing a hose or regulator on a portable or mobile space heater, or (b) replacing a hose connecting a refillable cylinder to installation pipework.
+- Reg 3(7): no person shall falsely pretend to be a member of the approved class.
+- Reg 36(3)(a): a landlord shall ensure each appliance and flue is checked for safety within 12 months of installation and at intervals of not more than 12 months (with reg 36A allowing some flexibility on timing); 36(3)(c) a record is kept. "Lease" here means a lease for less than 7 years or a periodic tenancy (36(1)).
+
+#### C14. HSE, L56: Safety in the installation and use of gas systems and appliances. Approved Code of Practice and guidance, 5th edition (2018)
+URL: https://www.hse.gov.uk/pubns/priced/l56.pdf (raw `l56`)
+Read: copyright page on legal status; regulation 2 and 3 ACOP and guidance paragraphs 52 to 93 in full; paragraphs 120 to 121; glossary entry "gas engineer". Other parts by search only.
+Version: [V] "L56 (Fifth edition) Published 2018", revised for SI 2018/139.
+
+Establishes the precise position on DIY gas work, which is the point of confusion the brief names:
+- Para 52 (guidance to reg 2(1)): [V] "For the purposes of GSIUR, 'work' includes do-it-yourself activities, work undertaken as a favour for friends and relatives, and work for which there is no expectation of reward or gain". [V] "This means that anyone carrying out such work must have the necessary competence, as required by regulation 3(1). However, membership of an HSE-approved class of persons (under regulation 3(3)) is required only by businesses carrying out gas-fitting work."
+- Para 83 (guidance to reg 3(1) to (2)): [V] "do-it-yourself gas engineers and those performing favours for friends and relatives all need to have the required competence."
+- **Para 81 is Approved Code of Practice text, not guidance**: [V] "Gas work should only be undertaken: (a) by a person who has successfully completed an industry-recognised training course followed by assessment of competence"; or (b) a currently or previously registered person who has proved competence through a certification scheme; or (c) at premises outside the regulations, a person with an appropriate full training course and assessment.
+- Legal status of ACOP (copyright page): [V] "the Code has a special legal status. If you are prosecuted for breach of health and safety law, and it is proved that you did not follow the relevant provisions of the Code, you will need to show that you have complied with the law in some other way or a Court will find you at fault."
+- Para 85: competence is [V] "a combination of practical skill, training, knowledge and experience".
+- Para 93: [V] "At the time of publication of this edition of the ACOP, the only body with such approval is the Gas Safe Register".
+- Para 121: the ban on using a source of ignition when searching for a gas escape (reg 6(5)) [V] "extends to householders and other members of the general public."
+
+So, precisely: in Great Britain it is **not** unlawful as such for a householder who is not Gas Safe registered to do gas work on their own home; the registration duty in reg 3(3) binds businesses. It **is** unlawful for anyone, householder included, to do gas work without being competent (reg 3(1)), and the ACOP's measure of competence is industry-recognised training followed by assessment. A lesson that says "it is illegal to do any gas work yourself" overstates the law; a lesson that says "you may legally do your own gas work" misleads, because the competence test is one almost no householder meets. Both HSE and Gas Safe advise against DIY (C15, C16).
+
+#### C15. HSE, "Domestic gas: frequently asked questions" and "Gas safety: home owners"; HSE "Gas Safe Register" page
+URLs: https://www.hse.gov.uk/gas/domestic/faqs.htm (`hse_faq`), https://hse.gov.uk/gas/domestic/faqownerocc.htm (`hse_ownerocc`), https://www.hse.gov.uk/gas/domestic/newschemecontract.htm (`hse_gsr`)
+Read: the home-owner FAQ in full; the landlord and tenant FAQ sections by search; the Gas Safe Register page in full.
+
+Establishes:
+- [V] "Anyone employed to work on gas appliances in domestic premises must be a Gas Safe registered engineer and competent in that area of gas work. The gas engineer's competencies are clearly marked on the back of the engineer's Gas Safe Register ID card." Note the word "employed".
+- [V] "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer."
+- [V] "It is illegal for anyone to use a gas appliance if they suspect it is unsafe."
+- Suspected leak: call the National Gas Emergency number 0800 111 999, open doors and windows, shut off at the meter control valve if you know where it is.
+- Moving a bayonet-fitted cooker temporarily to clean behind it is not "work"; [V] "Any other type of installation/reinstallation is regarded as gas work and must be carried out by a Gas Safe registered engineer." (That sentence sits in the tenant section and is advice.)
+- [V] "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." (HSE, undated figure.)
+- HSE Gas Safe page: Gas Safe Register covers natural gas and LPG work in [V] "Great Britain, Northern Ireland, the Isle of Man and Guernsey"; launched 1 April 2009, replacing CORGI; run by Capita Gas Registration and Ancillary Services Ltd under a concession from HSE. ID card: [V] "The front of the card has a photograph, a registration number and an expiry date and the reverse shows the different categories of work that the engineer is qualified to undertake, eg cookers, boilers, gas fires."
+
+#### C16. Gas Safe Register, "Don't DIY when it comes to gas appliances" (home improvements)
+URL: https://www.gassaferegister.co.uk/gas-safety/home-gas-safety/home-improvements/ ; live site returned HTTP 403 to curl, so read from Internet Archive capture 20251023004454 (raw `gsr_diy_ia`).
+Read: full page text of the capture.
+
+Establishes:
+- [V] "By law, anyone carrying out work on gas appliances and fittings as part of their business must be competent and registered with us." This matches reg 3(3) exactly: "as part of their business".
+- Advice: [V] "Don't DIY with gas appliances, always use a Gas Safe registered engineer"; ask to see the ID card.
+- [V] "It is illegal for someone who is not Gas Safe registered to fit a gas appliance or do other gas work and then have the work checked by a Gas Safe registered engineer. Both parties would be breaking the law." This is Gas Safe's statement; I did not find its legal basis in reg 3 as it applies to a householder (see Gates).
+- What a consumer may do: [V] "you can perform the tasks set out in the user's instructions, (provided by the appliance manufacturer) that are intended for the user to carry out. This would not be a breach of the law." The consumer may replace or adjust a component designed to be operated or replaced by the consumer, for example a cooker control knob, but should not disturb gas-carrying components or anything affecting combustion.
+
+#### C17. The Gas Safety (Installation and Use) Regulations (Northern Ireland) 2004 (SR 2004/63), regulation 3
+URL: https://www.legislation.gov.uk/nisr/2004/63/regulation/3 (`ni_gas3`)
+Read: full text of reg 3. No known outstanding effects.
+
+Establishes: the NI regulation mirrors GB reg 3: 3(1) competence for all; 3(3) employers and self-employed must be members of a class approved by [V] "the Executive" (HSENI); 3(4) the same hose and regulator exceptions. With C15 (Gas Safe covers NI), the practical answer is that Gas Safe registration applies in Northern Ireland too, under the NI regulations. I did not read an HSENI page confirming the approval (see Gates).
+
+---
+
+### UK: Scotland
+
+#### C18. The Building (Scotland) Regulations 2004 (SSI 2004/406): regulation 5, Schedule 3, and the regulation 2 definition of "house"
+URLs: https://www.legislation.gov.uk/ssi/2004/406/regulation/5 (`sc_reg5`), /schedule/3 (`sc_sch3`), /regulation/2 (`sc_reg2`)
+Read: reg 5 in full; Schedule 3 in full (types 1 to 26 with exceptions); reg 2 definition of "house" from raw HTML.
+Version: [V] "There are currently no known outstanding effects" for reg 5 and Schedule 3.
+
+Establishes:
+- Reg 5: work of a kind in Schedule 3 [V] "shall meet the standards required by regulations 8 to 12 but shall not, subject to the exceptions and conditions, require a building warrant." Exempt from a warrant is not exempt from the standards.
+- Schedule 3, **type 1**: [V] "Any work to or in a house." Exceptions include work increasing floor area, demolition or alteration of the roof, external walls or elements of structure, underpinning, work adversely affecting a separating wall, change in the method of wastewater discharge, and work (other than types 3 to 26) to a house with a storey at more than 4.5 m.
+- "House" (reg 2): [V] "a dwelling on one or more storeys, either detached or forming part of a building from all other parts of which it is divided only vertically". **A flat is not a house**, so type 1 does not cover flats.
+- Type 22: extra-low voltage installations (not exceeding 50 V ac or 120 V dc) not connected to a higher-voltage supply.
+- Type 24 (condition B, "no worse than at present"): replacement of a fitting or equipment by another of the same general type, including a sanitary facility, gutter, solid fuel appliance, [V] "electrical fixture", ventilation fan, kitchen fitments. Exceptions: any door, window or rooflight; [V] "Any oil firing or gas fired boiler."
+- Type 20: a door, window or rooflight when the work includes replacing the frame, is listed among work not requiring a warrant, subject to condition A (it must meet the standards).
+- Type 6: work on a fixed combustion appliance installation is exempt, except solid fuel over 50 kW, oil over 45 kW, gas over 70 kW net input, any work on a chimney, flue pipe or constructional hearth, and oil tanks over 90 litres.
+
+#### C19. Scottish Government, Building standards technical handbook 2022: domestic, clauses 0.5 and 4.5
+URLs: https://www.gov.scot/publications/building-standards-technical-handbook-2022-domestic/0-general/0-5-buildings-work-services-fittings-equipment-not-requiring-warrant/ (`sc_hb05`); .../4-safety/4-5-electrical-safety/ (`sc_hb45`)
+Read: clause 0.5 explanation and table in full; standard 4.5 and its introductory clauses.
+Version: handbook dated 1 June 2022, [V] "applies to a building warrant submitted on or after 1 June 2022 and to building work which does not require a warrant commenced from that date." I did not check whether a later handbook has superseded it (see Gates).
+
+Establishes:
+- 0.5.1: type 1 [V] "means much more work to or in houses does not need a warrant", listing examples including [V] "electrical work", an en-suite bathroom, a central heating system. Exception example: [V] "work adversely affecting a separating wall (e.g. installing recessed electrical sockets)".
+- [V] "types 1 and 2 permit virtually any work to be carried out to 1 or 2 storey houses".
+- Standard 4.5: every building must be designed and constructed so that the electrical installation does not [V] "threaten the health and safety of the people in, and around, the building" or "become a source of fire". Guidance: installations should follow BS 7671:2008; [V] "electrical installation work should be inspected and tested by persons who possess sufficient technical knowledge, relevant practical skills and experience".
+
+#### C20. mygov.scot, "Approved certification"; and Scottish Government, "Regulation of electricians in Scotland: research report", Appendix 3 (Pye Tait, published 7 June 2019)
+URLs: https://www.mygov.scot/approved-certification (`mygov_cert`); https://www.gov.scot/publications/regulation-electricians-scotland/pages/10/ (`sc_elec_app3`)
+Read: both in full.
+
+Establishes:
+- Certification [V] "only applies to work that needs a building warrant." [V] "Using an approved certifier is optional". Approved certifiers of construction certify electrical installation, drainage, heating and plumbing; they work for an "approved body" listed on the Scottish Government Certification Register.
+- Pye Tait appendix: for [V] "'Rewiring', 'Wiring to artificial lighting' or 'Electrical work associated with new boiler (large)', a building warrant is required for flats and buildings over three storeys, while houses up to two storeys are exempt." Where a warrant is needed, the work must be certified as compliant with BS 7671.
+- The same appendix's summary of England ("all electrical work involving ... alterations to existing circuits ... has to be reported") is wrong against reg 12(6A) and AD P para 2.7. A government-published report can misstate the English rule; draft from the primary.
+- The certifier scheme names (SELECT, NICEIC) appear only in search snippets, not in anything I read; mygov.scot names no schemes.
+
+#### C21. IET, "Part P: Scotland and Northern Ireland"
+URL: https://electrical.theiet.org/bs-7671/building-regulations/part-p-scotland-and-northern-ireland/ (`iet_scotni`)
+Read: full short page.
+
+Establishes: Scottish requirements sit in standard 4.5 (electrical safety) and 4.6 (electrical fixtures, domestic); [V] "Part P electrical self-certification schemes in England & Wales do not apply to work in Scotland." It says Northern Ireland has Technical Booklet E 2005 supporting the Building Regulations (Northern Ireland) 2000; that is an old reference (see C22).
+
+---
+
+### UK: Northern Ireland
+
+#### C22. The Building Regulations (Northern Ireland) 2012 (SR 2012/192), contents; Electrical Safety First, "Building regulations" (Northern Ireland tab); NI Department of Finance and nidirect pages
+URLs: https://www.legislation.gov.uk/nisr/2012/192/contents (`ni_br_contents`); https://www.electricalsafetyfirst.org.uk/find-an-electrician/building-regulations/northern-ireland/ (`esf_ni`); https://www.finance-ni.gov.uk/articles/building-regulations-northern-ireland (`dof_br`); https://www.nidirect.gov.uk/articles/how-apply-building-regulations-approval (`nid_apply`)
+Read: the contents list of the 2012 Regulations (not the text of each Part); ESF page in full; DoF and nidirect pages in full (short).
+
+Establishes:
+- The 2012 NI Regulations' Parts are: A interpretation, B materials, C site and moisture, D structure, E fire, F fuel and power, G sound, H stairs, J solid waste, K ventilation, L combustion appliances and fuel storage, M broadband infrastructure, N drainage, **P "Sanitary appliances, unvented hot water storage systems and reducing the risk of scalding"**, R access, V glazing. **There is no Part on electrical safety**, and **"Part P" in Northern Ireland means something else entirely.**
+- ESF: [V] "There are currently no statutory requirements for domestic electrical installation work in Northern Ireland." and [V] "At the present time Northern Ireland has no equivalent statutory requirement." ESF [V] "strongly recommends that you engage a competent registered electrician".
+- DoF: district councils enforce; building control officers [V] "may also serve a contravention notice". nidirect: [V] "You must tell the council in your area about building work you want to do." Neither page mentions electrical work.
+- A search-result summary claimed Part P applies in NI; that is contradicted by the primary contents list and by ESF. Snippet only, and wrong.
+
+---
+
+### UK: other notifiable work, in brief (from C4, C7, C8, C18)
+- **Replacement windows and doors** (England and Wales): building work; either a scheme member (Fensa, CERTASS, Assure, Blue Flame, Certsure, NAPIT) or building control. A replacement external door with not more than 50% glazing is in Schedule 4 and not notifiable. Scotland: replacing a door or window including the frame is type 20 (no warrant, must meet standards).
+- **Boilers and heating** (E and W): heat-producing gas appliance by the Gas Safe class (Sch 3 item 1); oil (OFTEC and others, item 2); solid fuel (HETAS and others, item 3); heating or hot water system or controls (item 4). GOV.UK lists "install or replace a heating system" and "add extra radiators" as needing approval.
+- **Unvented hot water cylinders**: Part G3(3) requires safety devices on a hot water storage vessel; a small vessel not over 15 litres is Schedule 4. Who may install a larger unvented system is set out in Approved Document G, which I did not read (Gates).
+- **Drainage**: Schedule 4 excludes any work to underground drainage; bathroom installations by a scheme member exclude shared or underground drainage. Part H itself not read.
+- **Structural alterations, including removing a chimney breast or a loadbearing wall**: material alteration under reg 3(2) to (3) because Part A is a relevant requirement; in Scotland, alteration of an element of structure is an exception to type 1 and needs a warrant.
+- **Planning is separate**: [V] "Building regulations approval is different from planning permission. You might need both." (GOV.UK). Permitted development rules were not read.
+- **Party Wall etc. Act 1996**: relevant where work cuts into a party wall (for example some chimney breast removals). Not read; mention only as a pointer, if at all.
+
+---
+
+### US
+
+#### C23. International Residential Code (ICC), section R105 (permits; work exempt from permit)
+URL tried: https://codes.iccsafe.org/content/IRC2024V2.0/chapter-1-scope-and-administration and an Internet Archive capture of the 2021 edition.
+Read: **not read.** The ICC site is rendered by script (21 words extracted) and WebFetch returned HTTP 403; the archive capture was also empty. Nothing about R105 may be stated from this research.
+
+#### C24. California: Business and Professions Code sections 7044 and 7048; CSLB Industry Bulletin 24-07
+URLs: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=7048 (`ca_7048`), ...sectionNum=7044 (`ca_7044`); https://www.cslb.ca.gov/Resources/IndustryBulletins/2024/AB%202622%20Implementation.FINAL.pdf (`cslb_ab2622`)
+Read: both sections in full; the CSLB bulletin in full (English text).
+Versions: 7048 [V] "Amended by Stats. 2025, Ch. 67, Sec. 12. (AB 1170) Effective January 1, 2026." 7044 amended by SB 944, effective 1 January 2017. Bulletin dated 31 December 2024.
+
+Establishes:
+- **7048(a)**: the contractors' licensing chapter does not apply to work on one project [V] "if the aggregate contract price for labor, materials, and all other items is less than one thousand dollars ($1,000), that work or operation being considered of casual, minor, or inconsequential nature, and the work or operation does not require a building permit." 7048(c): the exemption is lost if the person advertises as a contractor or employs another person on the work.
+- CSLB bulletin: from 1 January 2025 AB 2622 (Carrillo, Chapter 240, Statutes of 2024) raised the minor work exemption from $500 to $1,000, [V] "but there is a catch: the work cannot require a permit, and the unlicensed person cannot employ anyone for the project."
+- So the brief's framing ("licence required for jobs of $1,000 or more") is incomplete: below $1,000 a licence is still required if the job needs any permit or the worker employs anyone.
+- **7044(a)(1)**: the chapter does not apply to [V] "An owner who builds or improves a structure on his or her property" where none of the improvements are intended or offered for sale and the owner personally does all the work (or the owner's wage-paid employees do). 7044(a)(3): a homeowner improving their principal residence, where the work is done before sale, they have resided there 12 months before completion, and they have not used the exemption on more than two structures more than once in three years. 7044(b)(1): sale or offer within one year after completion creates a rebuttable presumption the work was for sale.
+- These sections concern contractor licensing only. Whether a California homeowner may pull an electrical or plumbing permit is a local building department matter, not read.
+
+#### C25. Texas: TDLR, "Exemptions to Electrician Licensing"; Texas Occupations Code chapter 1301 (Plumbing License Law), TSBPE unofficial plain-view text, June 2023
+URLs: https://www.tdlr.texas.gov/electricians/exemptions.htm (`tx_exempt`); https://tsbpe.texas.gov/wp-content/uploads/documents/TSBPE_PlumbingLicenseLaw(PlainView)_June2023.pdf (`tx_plaw`)
+Read: TDLR page in full; Plumbing License Law sections 1301.002(7), 1301.051, 1301.052 in full, table of contents. The official Texas statutes site (statutes.capitol.texas.gov) returns a script-only shell to curl, and Justia returned 403, so section 1305.003 itself was **not read**; I have TDLR's description of it.
+Version: TDLR page undated. The plumbing text is marked [V] "JUNE 20, 2023 (UNOFFICIAL VERSION)".
+
+Establishes:
+- TDLR: those who do electrical work on [V] "a dwelling by a person who owns and resides in the dwelling (1305.003(a)(6) )" are not required by the state to be licensed. And: [V] "*NOTE: Municipal or regional regulations may override these exemptions, as outlined in Sec. 1305.201 of the Texas Electrical Safety and Licensing Act."
+- **1301.051**: [V] "A property owner is not required to be licensed under this chapter to perform plumbing in the property owner's homestead."
+- 1301.002(7): "plumbing" includes piping used to [V] "supply, distribute, circulate, or recirculate water, other liquid, or gas", so the homestead exemption from the state plumbing licence extends to gas piping in the owner's homestead as a matter of the licensing statute.
+- 1301.052: further exemptions for certain rural or unplatted property outside municipalities or in small municipalities, except plumbing in connection with new construction, repair or remodelling.
+- None of this removes permit and inspection requirements, which are local. "No state general contractor licence in Texas" is snippet only.
+
+#### C26. Florida Statutes (2026), sections 489.103(7) and 489.503(6)
+URLs: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0489/Sections/0489.103.html (`fl_489103`); ...0489.503.html (`fl_489503`)
+Read: 489.103(7) in full including the disclosure statement items 1 to 12 (item 12 truncated in my extract); 489.503(6)(a) to (c).
+Version: [V] "The 2026 Florida Statutes".
+
+Establishes:
+- **489.103(7)(a)1**: exempt are [V] "Owners of property when acting as their own contractor and providing direct, onsite supervision themselves of all work not performed by licensed contractors", when building or improving one-family or two-family residences [V] "for the occupancy or use of such owners and not offered for sale or lease". **Sale or lease, or offering, within 1 year after completion creates a presumption the work was for sale or lease.**
+- 489.103(7)(b): the exemption does not cover anyone employed by or contracted to the owner acting as a contractor; the owner may not delegate supervision except to a licensed person within scope.
+- 489.103(7)(c): the owner [V] "must personally appear and sign the building permit application" and satisfy local requirements proving understanding of the disclosure statement. Violations: the permitting agency shall withhold final approval, revoke the permit or pursue action.
+- Disclosure statement (selected): item 3, the owner-builder is [V] "the responsible party of record on a permit"; item 7, the owner may be liable for injuries to unlicensed workers and [V] "My homeowner's insurance may not provide coverage for those injuries"; item 8, unlicensed workers must be the owner's employees, with tax withholding and workers' compensation.
+- **489.503(6)(a)** (electrical contracting): exempt is [V] "An owner of property making application for permit, supervising, and doing the work in connection with the construction, maintenance, repair, and alteration of and addition to a single-family or duplex residence for his or her own use and occupancy and not intended for sale". Proof of sale or lease of more than one such structure within 1 year is prima facie evidence of construction for sale. 489.503(6)(c): the owner must personally appear and sign the permit application.
+
+#### C27. New York City: Department of Buildings, "Project Requirements for Owner: Residential and Community Facilities"
+URL: https://www.nyc.gov/site/buildings/property-or-business-owner/project-requirements-owner-residential.page (`nyc_res`)
+Read: full page. Undated.
+
+Establishes:
+- Work exempt from permit under NYC Administrative Code §28-105.4.5, including ordinary plumbing work (§28-105.4.4) and minor alterations and ordinary repairs (§28-105.4.2). Exempt from permit is not exempt from licensing.
+- [V] "AC 28-105.4.4 lists work considered ordinary maintenance and repair, including allowable replacement/relocation of plumbing, gas piping, equipment and components, which must be performed by a Licensed Master Plumber."
+- [V] "Electrical work including new installation, alteration, or repair of electric wiring, wiring apparatuses, appliances or equipment requires a separately submitted electrical permit and shall be performed by a New York City licensed electrical contractor".
+- The page offers no homeowner route for plumbing, gas or electrical wiring. New York State outside the city: not read.
+
+#### C28. Washington State: RCW 19.28.261; L&I form F500-094-000, Property Owner Electrical Work Permit Application (07-2026)
+URLs: https://app.leg.wa.gov/RCW/default.aspx?cite=19.28.261 (`wa_rcw`); https://lni.wa.gov/forms-publications/F500-094-000.pdf (`wa_form`)
+Read: RCW 19.28.261(1) to (5)(a); the form's instructions and affidavit.
+
+Establishes:
+- RCW 19.28.261(1): no licence or certified electrician is required [V] "in order to do electrical work at his or her residence or farm or place of business or on other property owned by him or her unless: (a) The electrical work is on the construction of a new building intended for rent, sale, or lease; or (b) The electrical work is on property that is offered for sale within 12 months after obtaining the property."
+- Form: [V] "In Washington, only licensed electrical contractors employing certified electricians may perform electrical work. Property owners ... may apply for an exemption from these requirements by completing this application and signing the affidavit below before beginning electrical work". Permit valid 1 year. Some cities inspect instead of L&I.
+- This is a clear example of a homeowner exemption that is **a permit, not a free pass**: the owner applies, signs an affidavit and is inspected.
+
+#### C29. Gas in the US: Columbia Gas of Ohio, "Safe appliance installation"; plus C25 and C27
+URL: https://www.columbiagasohio.com/safety/home-safety/appliance-safety/safe-appliance-installation (`colgas`)
+Read: full page.
+
+Establishes: [V] "For your safety, a qualified professional should perform all work on natural gas lines and equipment inside the home." [V] "Have qualified professionals install natural gas appliances to make sure they're properly connected. Never attempt this yourself!" [V] "If you have flexible appliance connectors, do not reuse them." The utility says "qualified", not "licensed". Legal position: NYC requires a Licensed Master Plumber for gas piping (C27); Texas exempts a homestead owner from the state plumbing licence, which covers gas piping (C25). No general US rule was read.
+
+---
+
+### Why the rules exist: figures read
+
+#### C30. NFPA Research, "Home fires caused by electrical distribution and lighting equipment", Richard Campbell, February 2022
+URL: https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Electrical/osElectricalDistLighting.pdf (`nfpa_edl`)
+Read: key findings and page 1 in full.
+
+Establishes: US fire departments responded to an estimated average of [V] "32,620 home fires involving electrical distribution and lighting equipment per year in 2015–2019" [the dash is NFPA's]; these caused an estimated average of 430 civilian deaths and 1,070 civilian injuries a year, and [V] "$1.3 billion in direct property damage each year" (the body text on the same page says "$1.3 million": an internal inconsistency; use billion from the key findings, or omit). Wiring and related equipment accounted for 68% of these fires. The report does **not** attribute any share to DIY work.
+
+#### C31. Electrical Safety First, "Advice for DIY-ers" and "DIY and electrics"
+URLs: https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/diyers/ (`esf_diyers`); https://www.electricalsafetyfirst.org.uk/guidance/safety-around-the-home/diy-and-electrics/ (`esf_diy`)
+Read: both pages in full.
+
+Establishes: [V] "In a survey Electrical Safety First carried out with 1,000 electricians about their experiences fixing DIY projects: More than 30% had reports of electric shocks caused by incompetent DIY-ers. 15% reported that DIY had caused an electrical fire." The survey is undated on the page and is of electricians' reports, not a measure of how often DIY causes shocks or fires. The "almost half of severe shocks are caused by DIY" figure appeared only in a search summary (snippet only).
+
+#### C32. Electrical Safety First, "Building regulations" pages (England, Wales, Scotland and Northern Ireland tabs)
+URLs: .../building-regulations/england/ (`esf_eng`), /wales/ (`esf_wales`), /northern-ireland/ (`esf_ni`)
+Read: full text (the tabs share one page body).
+
+Establishes: electrical work must either be reported to building control or done by a registered electrician; a registered electrician's customer receives [V] "an Electrical Installation Certificate or Minor Work Certificate that confirms that the work meets BS 7671" and [V] "a Building Regulations Compliance Certificate". ESF also says [V] "By law, all homeowners and landlords must be able to prove that all electrical installation work meets Part P, or they will be committing a criminal offence." That sentence goes beyond the primaries I read: s35 makes contravening the regulations an offence; I found no duty to "be able to prove" compliance. Do not repeat it.
+
+#### C33. Department of the Treasury Office of Economic Policy, Council of Economic Advisers and Department of Labor, "Occupational Licensing: A Framework for Policymakers", July 2015
+URL: https://obamawhitehouse.archives.gov/sites/default/files/docs/licensing_report_final_nonembargo.pdf (`wh2015`)
+Read: title page, and the passages on scale, quality and electricians, by search and surrounding context. Not read in full.
+
+Establishes: [V] "about 25 percent of today's U.S. workforce is in an occupation licensed at the State level, up from less than 5 percent in the early 1950s". On quality: [V] "Overall, the empirical research does not find large improvements in quality or health and safety from more stringent licensing. In fact, in only two out of the 12 studies was greater licensing associated with quality improvements." On electricians: research found stricter requirements [V] "did not significantly affect the severity of injuries suffered among electricians", and that oral examination or experience requirements were [V] "associated with fewer per capita electricians." The report also recognises licensing's aims of quality and health and safety, and recommends targeting restrictions at [V] "legitimate public health and safety" concerns.
+
+---
+
+### (a) What this part says the field considers essential
+1. **Know which jurisdiction you are in before you know the rule.** England, Wales, Scotland and Northern Ireland differ on electrical work; US rules differ by state and city.
+2. **Two separate questions: "must the work comply?" and "must someone be told?"** In England and Wales Part P applies to all electrical work in a dwelling; only some is notifiable. In Scotland, work that needs no warrant must still meet the standards (reg 5).
+3. **The legal routes for notifiable electrical work in England**: a registered competent person, a registered third-party certifier appointed before work starts, or notice to building control before work starts (AD P 3.1, 3.5, 3.8).
+4. **Always notifiable in England**: new circuit, consumer unit replacement, additions or alterations in a bathroom zone or a room with a pool or sauna. **Additionally notifiable in Wales**: extending circuits in a kitchen, outdoors or on special installations.
+5. **Gas**: competence is required of everyone; registration is required of businesses; HSE and Gas Safe advise every householder to use a Gas Safe engineer and check the card, including the categories on the back.
+6. **Evidence matters when you sell**: certificates (competent person certificate, completion or regularisation certificate, EIC or Minor Works Certificate) are asked for on TA6.
+7. **US homeowner exemptions are real but conditional**: own home, own hands, often owner-occupied, often with a permit and inspection, and often lost if the property is sold or let within a year.
+
+### (b) Common misconceptions (each tied to the source that corrects it)
+- **"Kitchen electrical work needs a registered electrician or building control."** Wrong in England since 6 April 2013 (reg 12(6A); AD P 2.7); right in Wales (Sch 4 Wales para 2; gov.wales).
+- **"Part P means you can't do any electrical work yourself."** Wrong: England and Wales both allow DIY notifiable work by notifying building control before starting (AD P 3.8; gov.wales), and non-notifiable work needs no notice at all (AD P 2.7).
+- **"Non-notifiable work doesn't have to meet any standard."** Wrong: P1 applies to all work; AD P 3.13 says it should be inspected, tested and certified to BS 7671; councils can enforce (3.14).
+- **"It's illegal for a householder to do any gas work."** Overstated: reg 3(3) registration binds employers and the self-employed; L56 para 52 says registration [V] "is required only by businesses". But reg 3(1) competence binds everyone, and ACOP para 81 sets that bar at industry-recognised training and assessment.
+- **"You can legally do your own gas work, so it's fine."** Misleading for the same reason; HSE and Gas Safe both advise against (C15, C16).
+- **"Part P applies in Northern Ireland."** Wrong: NI's Part P is sanitary appliances and unvented hot water; there is no electrical Part (C22). Seen in a search summary.
+- **"Part P self-certification schemes cover Scotland."** Wrong (IET, C21). Scotland uses building warrants and optional approved certifiers.
+- **"In Scotland all rewiring needs a warrant."** Wrong for houses (type 1); right for flats (Pye Tait appendix; handbook 0.5).
+- **"The council has only 12 months to act on non-compliant work."** Out of date: s36(4) now gives 10 years (Building Safety Act 2022 amendment).
+- **"California lets unlicensed handymen do any job under $1,000."** Wrong since 2025: not if the job needs a permit or the handyman employs anyone (B&P 7048; CSLB 24-07).
+- **"No permit needed in NYC means I can do it myself."** Wrong: permit-exempt ordinary plumbing must still be done by a Licensed Master Plumber (NYC DOB).
+- **ELECSA listed as a current Part P scheme.** Not on the GOV.UK list read on 25 September 2026.
+
+### (c) Contested questions
+- **Should DIY electrical work be allowed at all?** Value question. The UK and Washington State answer yes, with notification or a permit; New York City answers no for wiring. Safety bodies (ESF, C31, C32) press for registered electricians; the counter-position (home owners' liberty and cost) I did not read in any source's own words. Established fact: the rules differ; which is better is contested.
+- **The scope of Part P, 2005 to 2013.** Established fact that England narrowed notifiable work in 2013 (AD P 2013 "Main changes") and Wales did not (C2, C3). The arguments for and against, including the review that led to 2013, were **not read**; a lesson may report the change but not characterise the debate until a source is read.
+- **Homeowner exemptions in the US.** Established fact that they exist in the forms read (TX, FL, WA, CA licensing). Whether they are wise is a value question.
+- **Occupational licensing.** The 2015 federal report (C33) finds little evidence that stricter licensing improves quality or safety in most studies, and costs for workers and consumers; it still endorses licensing targeted at health and safety. Trade and safety bodies' case for licensing electricians and plumbers was read only in ESF's consumer advice form. The Institute for Justice and FTC material the brief names was **not read**. How established: contested; empirical findings are specific to the studies cited.
+- **Gas Safe's "both parties would be breaking the law" statement** (C16) versus the text of reg 3 and L56 para 52. Contested interpretation; I could not tie it to a provision for a householder.
+
+### (d) UK nations and US states compared
+
+| Place | Electrical work by a householder | Gas work by a householder | Main primary read |
+|---|---|---|---|
+| England | Allowed. Notifiable (new circuit, consumer unit, bathroom zone, pool or sauna room) needs building control notice before starting, or a third-party certifier appointed before starting. All work must meet P1. | Not barred by registration duty (businesses only); competence required (reg 3(1)); HSE advises Gas Safe | SI 2010/2214 reg 12(6A); AD P 2013; GSIUR reg 3; L56 |
+| Wales | Allowed. Notifiable also includes kitchen, outdoor and special installation work; notify before starting | As England (GSIUR extends to Wales) | SI 2010/2214 reg 12 and Sch 4 (Wales versions); AD P Wales 2006/2010 |
+| Scotland | No warrant for most work in a house (1 or 2 storeys, type 1); warrant needed for rewiring in a flat; standard 4.5 always applies | As England (GSIUR extends to Scotland) | SSI 2004/406 reg 5, Sch 3; handbook 2022 |
+| Northern Ireland | No statutory building regulation for domestic electrical work (ESF; no electrical Part in the 2012 Regulations) | NI 2004 Regs reg 3 mirrors GB; Gas Safe covers NI | SR 2012/192 contents; SR 2004/63 reg 3 |
+| California | State contractor licence rules exempt an owner doing own work on own property not for sale (B&P 7044); permits local, not read | Not read | B&P 7044, 7048 |
+| Texas | No state electrician licence needed for work on a dwelling you own and live in (TDLR, citing 1305.003(a)(6)); cities may override | Homestead owner exempt from state plumbing licence, and "plumbing" includes gas piping (1301.051, 1301.002(7)); permits local | TDLR page; Plumbing License Law (unofficial 2023) |
+| Florida | Owner may act as own electrical contractor on own single-family or duplex home, personally applying for the permit (489.503(6)) | Not read specifically | Fla. Stat. 489.103(7), 489.503(6) (2026) |
+| New York City | Licensed electrical contractor required for wiring work | Licensed Master Plumber for gas piping, even permit-exempt work | NYC DOB owner page |
+| Washington State | Owner may do own work with a Property Owner Electrical Work Permit and inspection; lost if sold within 12 months of acquiring | Not read | RCW 19.28.261; L&I F500-094-000 |
+
+### (e) Safety-critical and legal-accuracy notes for drafters
+1. **Every rule gets its jurisdiction in the same sentence.** "In England, ..." not "In the UK, ...". The GOV.UK guide (C7) covers England and Wales in one summary that is only right for England on electrics; do not copy its list without saying so.
+2. **Lessons give general information, not legal advice.** Say so where the lesson discusses the law, and point learners to the named primary or to their building control body, local building department or state licensing board.
+3. **Do not say "illegal" for DIY gas in Great Britain without the precise wording.** Suggested framing: the law requires anyone working on gas to be competent, and businesses to be Gas Safe registered; the official guidance for householders is to use a Gas Safe engineer. Keep the permitted user tasks (those in the manufacturer's user instructions) distinct from gas work.
+4. **Gas leak action**: HSE's steps are call 0800 111 999, open doors and windows, turn off at the meter if you know where it is; no ignition sources (reg 6(5), L56 para 121). UK number only; US learners should be told to follow their utility's instructions.
+5. **Dates and edition numbers drift.** AD P (England) is still the 2013 edition and cites BS 7671:2008+A1:2011; the Welsh AD P is 2006 incorporating 2010 amendments; the Scottish handbook read is 2022. The current edition of BS 7671 itself was not read. Do not state an edition of BS 7671 as current from this research.
+6. **Certificates**: a scheme member's compliance certificate is due to the occupier within 30 days of completion (reg 20(3)); GOV.UK says 8 weeks. Quote the regulation if a number is needed.
+7. **Enforcement numbers**: s35 penalties and the s36 10-year window are for England and Wales, with Wales commencement from 1 July 2026. Do not apply them to Scotland or NI.
+8. **US**: never say "homeowners can do their own electrical work in the US". Say it depends on the state and city, give one or two named examples with their conditions, and tell the learner to ask the local building department before starting.
+9. **Statistics**: the NFPA figure is for US home fires involving electrical distribution and lighting equipment, not DIY; the ESF figure is a survey of electricians. Neither measures the risk of DIY work as such.
+
+### (f) Gates: claims that need a primary read before a lesson states them
+1. IRC section R105 (permits required; work exempt from permit): not read at all.
+2. Texas Occupations Code 1305.003(a)(6) and 1305.201 in the official text (only TDLR's description read); whether TSBPE's functions have moved to TDLR; whether Texas has any state general contractor licence.
+3. Whether a later Scottish domestic technical handbook (after June 2022) has replaced the one read, and whether its clause 0.5 wording is unchanged.
+4. HSENI confirmation that Gas Safe Register is the approved class under the NI 2004 Regulations reg 3(3).
+5. Gas Safe's claim that DIY work later checked by a registered engineer makes "both parties" law-breakers (Gas Safe's words, C16): find the legal basis or do not state it.
+6. The previous s36(4) period (12 months) and the transitional rule for work completed before the 10-year limit took effect (SI 2023/993 reg 7 was named, not read).
+7. Approved Document G on unvented hot water systems (who may install them); Approved Document J; Part H drainage specifics.
+8. The Party Wall etc. Act 1996, and planning permitted development, if a lesson says more than "separate from building regulations".
+9. Scottish approved certifier scheme names (SELECT, NICEIC): read the Scottish Government Certification Register or scheme pages.
+10. California local permit rules for owner-occupants doing electrical or plumbing work; New York State outside NYC; Massachusetts (not attempted).
+11. The 2013 Part P review and the arguments for and against: read a primary (consultation or response) before characterising it.
+12. Institute for Justice and FTC positions on occupational licensing.
+13. The current edition and amendment of BS 7671 (18th edition and its amendments) before naming it as current.
+14. TA6 form question numbers from the form itself (only the explanatory notes read).
+15. The ESF "almost half of severe electric shocks are caused by DIY" figure (snippet only).
+
+### (g) Not read
+
+
+*The part's own "Not read" list below is superseded by the combined `unread:` line at the top of this file, which drops strings that another part read (see "The `unread:` line is the build's enforcement").*
+Strings suitable for a whole-word, case-sensitive blocklist. I have left off names of sources I did read (for example "Approved Document P", "Gas Safe Register", "L56", "BS 7671" on its own, which the read primaries name).
+
+- International Residential Code
+- IRC
+- R105
+- National Electrical Code
+- NFPA 70
+- International Plumbing Code
+- Uniform Plumbing Code
+- International Fuel Gas Code
+- IFGC
+- Approved Document G
+- Approved Document J
+- Approved Document H
+- Approved Document A
+- Party Wall etc. Act 1996
+- Planning Portal
+- Technical Booklet E
+- BS 7671:2018
+- 18th Edition
+- ELECSA
+- SELECT
+- Institute for Justice
+- License to Work
+- Federal Trade Commission
+- Electrical Safety Foundation International
+- ESFi
+- HSENI
+- Certification Register
+- Electrical Competent Person Register
+- Competent Persons Register
+- Texas Occupations Code 1305.003
+- Health and Safety Code 19825
+
+---
+
+## Part D: Safety hazards in the home a DIYer meets
+
+Researcher's scope note. This part covers prevention and the house side of six hazards: asbestos,
+lead paint, carbon monoxide, electric shock and electrical fire, smoke alarms (briefly), and the
+lesser hazards a DIYer meets (silica dust, solvent fumes, radon, mould). The first-aid response to
+electric shock, electrical burns and carbon monoxide poisoning is already taught in First Aid and
+CPR: lesson 2 teaches "power off before you touch" and carbon monoxide's signs with "get outside
+and call from there"; lesson 10 teaches electrical burns (every one to 999 or A&E); lesson 14
+repeats the CO response (do not go in after them; the National Gas Helpline 0800 111 999; Poison
+Help in the US) and ends by saying this course "can assume you know carbon monoxide's signs and why
+every room with a burning appliance needs an alarm". So this course should not re-teach symptoms
+or the rescue; it should teach where the sources are, what keeps them safe (servicing, flues,
+alarms, isolation) and what not to disturb.
+
+All sources below were fetched live on 25 September 2026 with the scratchpad fetch helper (curl
+plus pandoc or pdftotext) unless marked otherwise. "Wayback" means an Internet Archive capture,
+with its capture ID. [V] marks wording copied from text I extracted. Nothing here came from
+WebFetch except where marked [T] (in the end, no WebFetch output was usable: both NFPA pages
+rendered empty).
+
+---
+
+### 1. Asbestos
+
+#### D1. HSE, "Asbestos: FAQs"
+https://www.hse.gov.uk/asbestos/faq.htm
+Read: full text (about 5,400 words), direct fetch. Page stamp "Updated 2025-09-04".
+
+- Health: HSE says asbestos is responsible for [V] "over 5000 deaths every year"; lists
+  mesothelioma, asbestos-related lung cancer, asbestosis and diffuse pleural thickening; symptoms
+  take [V] "anywhere between 15-60 years" to develop; the effect is cumulative.
+- Ban date as HSE puts it here: asbestos was used [V] "until 1999, when it was banned". (This page
+  gives 1999 only; the 1985 blue/brown date comes from UKHSA, D4.)
+- Where it is found in a home (answer to "I have just bought a property"): any building [V] "built
+  or refurbished before the year 2000"; list: asbestos cement products (pipes, flues, roofs), lagging
+  on pipes and boilers, water tanks and toilet cisterns, asbestos insulating board (AIB, which
+  [V] "closely resembles typical plasterboard"), loose asbestos in ceiling and wall cavities,
+  sprayed coatings, [V] "textured decorative coatings (commonly referred to as Artex)", floor tiles,
+  textiles and composites.
+- The law in a private home ("What is the law concerning asbestos in domestic properties?"): the
+  general duties in s.3(1) of the Health and Safety at Work etc Act 1974 protect householders from
+  risks from work done in their homes; where the work involves asbestos, the Control of Asbestos
+  Regulations 2012 also apply, in particular regs 11, 15 and 16. [V] "In owner-occupied domestic
+  properties, the owners are not legally responsible for risks to contractors from asbestos, as the
+  owners themselves are not engaged in any work activity."
+- What a householder should do ("I think I may have asbestos in my home"): [V] "Do not try to
+  repair or remove any asbestos materials yourself if you have not had any training for non-licensed
+  asbestos work." Seek advice from the council's environmental health officer. If in good condition
+  and unlikely to be damaged, [V] "it is often best to leave them where they are"; check its
+  condition from time to time. Slight damage can sometimes be sealed or enclosed, but only with
+  training. Sprayed coatings, lagging/insulation and AIB [V] "should only be removed by a contractor
+  licensed by HSE". Tell any builder about known asbestos before work starts. [V] "HSE strongly
+  encourages the use of trained professionals to repair or remove ACMs."
+- Disposal: ACMs [V] "need to be legally disposed of as hazardous waste"; not with household waste;
+  contact the local authority. Elsewhere on the page (for workers): double-wrap, red inner bag with
+  asbestos labels, clear outer bag; intact AC sheets and textured-coated boards [V] "should not be
+  broken up into smaller pieces".
+- Context: "The presence of asbestos alone should not be a cause for concern" (answer on buildings
+  people work in) [V].
+
+#### D2. HSE, "Introduction to asbestos safety" (8-part guide): parts 1, 2, 6, 8 read
+https://www.hse.gov.uk/asbestos/introduction/index.htm ; .../why-and-where.htm ;
+.../deciding.htm ; .../relevant-law.htm
+Read: full text of those four pages, direct fetch. Page stamp "Updated: 2021-03-01" on parts 1 and
+6 (this may be a template date; treat as the date shown).
+
+- Part 1: [V] "Asbestos is the greatest cause of work-related deaths in Great Britain. Around 5,000
+  people die every year". [V] "Buildings constructed after 2000 are unlikely to contain asbestos."
+  Activities that disturb it include [V] "drilling into a wall". [V] "When asbestos is in good
+  condition and not disturbed the risk of exposure is extremely low."
+- Part 1, "Members of the public and homeowners": contractors working in your home have a legal
+  duty to protect you from their activities; owner-occupiers are not legally responsible for risks
+  to contractors. Duty to manage covers non-domestic premises and the "common parts" of
+  multi-occupancy domestic premises (purpose-built flats), not the inside of a private home.
+- Part 2: you cannot see, smell or feel fibres; if you come across material you think may contain
+  asbestos [V] "stop work immediately". Since 1999 using asbestos in construction or refurbishment
+  has been illegal. Asbestos can be hidden, e.g. in cavity walls.
+- Part 6 (licensing tiers, written for employers but the clearest official statement of what counts
+  as low-risk): non-licensed examples include [V] "cleaning up small quantities of asbestos dust and
+  debris", [V] "drilling textured decorative coatings to install fixtures or fittings",
+  encapsulating asbestos in good condition. Notifiable non-licensed: AC products [V] "where the
+  material will be substantially damaged or broken up"; large-scale removal of textured coatings by
+  steaming or gelling. Licence required: any work on sprayed asbestos; [V] "most repair or any
+  removal of asbestos insulation, for example lagging on pipes"; [V] "most work on asbestos
+  insulating boards".
+- Part 8 (relevant law): reg 4 duty to manage covers non-domestic premises; [V] "In people's homes,
+  the duty to manage asbestos under regulation 4 of the Control of Asbestos Regulations does not
+  apply but COSHH will." Landlords of domestic premises have HSW Act general duties to tenants.
+
+#### D3. HSE, "Asbestos essentials task sheets" (index)
+https://www.hse.gov.uk/asbestos/essentials/index.htm
+Read: index page only (list of sheet titles), direct fetch. Individual sheets not read.
+
+- Series for [V] "building, maintenance and allied trades on how to safely carry out non-licensed
+  work". Sheets relevant to a home: A9 drilling holes in AC; A10 cleaning debris from guttering on
+  an AC roof; A14 removing AC sheets, gutters and dismantling a small AC structure; A15 removing an
+  AC water cistern; A26 drilling through textured coatings; A27 screws through textured coatings;
+  A28 [V] "Removing textured coating from a small area, for example 1m²"; A29 clean-up after
+  collapse of a textured-coated ceiling; EM1 what to do if you accidentally disturb asbestos; EM9
+  disposal.
+- Use: it shows the task-level methods exist and are written for trained workers. It does not by
+  itself say a householder may do these tasks; D1 says not without training.
+
+#### D4. UK Health Security Agency, "Asbestos: general information" (GOV.UK)
+https://www.gov.uk/government/publications/asbestos-properties-incident-management-and-toxicology/asbestos-general-information
+Read: full body, via GOV.UK content API. Public updated 15 May 2025 (note on page: format updated 4
+March 2024, no significant content change).
+
+- Types: serpentine (chrysotile, white) and amphiboles (crocidolite blue, amosite brown and
+  others). Amphiboles [V] "are more hazardous to health than chrysotile (white)"; all forms are
+  carcinogenic (IARC).
+- Ban dates, this is the source for them: [V] "the importation of blue and brown asbestos has been
+  banned in the UK since 1985. This ban was extended to include white asbestos in 1999." Note the
+  precise wording: an importation ban (1985), extended (1999). HSE (D1, D2) says "banned in 1999"
+  for use in construction.
+- Intact materials [V] "pose very little risk"; [V] "Caution should be taken when doing DIY work in
+  buildings containing asbestos."
+- Children: not shown to be more susceptible per dose, but because of the long latency they have a
+  greater lifetime risk of mesothelioma.
+- If exposed: do not shake or brush fibres off; wet-wipe with a damp cloth using a gentle patting
+  action; remove contaminated clothing (not over the head) and bag it; ask the local authority about
+  disposal. (House-side decontamination advice, useful for the "if you have already disturbed it"
+  box.)
+
+#### D5. HSE, "Mesothelioma statistics for Great Britain, 2026" (July 2026) and "Asbestos-related disease statistics, Great Britain 2026" (July 2026)
+https://www.hse.gov.uk/statistics/assets/docs/mesothelioma.pdf ;
+https://www.hse.gov.uk/statistics/assets/docs/asbestos-related-disease.pdf
+Read: summary pages and contents of both (pdftotext), not the annexes.
+
+- [V] "There were 2,146 mesothelioma deaths in Great Britain in 2024", down from 2,255 in 2023 and
+  below the 2011 to 2020 average of 2,508. 1,771 male, 375 female. Over 70% of deaths are in people
+  over 75. Men who worked in the building industry remain most at risk.
+- Asbestos-related disease report summary: around 5,000 deaths per year including mesothelioma,
+  lung cancer and asbestosis; a similar number of lung cancer deaths to mesothelioma; 503 deaths in
+  2024 mentioning asbestosis (excluding those also mentioning mesothelioma). Current statistics
+  [V] "reflect the legacy of past working conditions"; the latest two years [V] "suggest overall
+  numbers may now be starting to reduce."
+- Use for a lesson: the scale is real and occupational in origin; the home DIYer's risk is from
+  disturbing material, not from its presence.
+
+#### D6. Control of Asbestos Regulations 2012 (SI 2012/632), legislation.gov.uk
+https://www.legislation.gov.uk/uksi/2012/632/contents/made ; regulation 3
+Read: contents page and regulation 3 (as made), direct fetch. Regulations 4, 11, 15, 16 not read
+in the text (known only via HSE's description in D1 and D2).
+
+- Reg 3(1): the Regulations apply to a self-employed person as to an employer and employee. That,
+  with HSE's statements in D1/D2, is the basis for saying they bind work, not a householder doing
+  their own DIY. The householder is not a dutyholder; a contractor in your home is.
+
+#### D7. GOV.UK, "Asbestos in your home" (local transaction)
+https://www.gov.uk/asbestos-in-home
+Read: full content via API (it is a council-finder, about 50 words). Updated 24 September 2026.
+
+- [V] "Get information about asbestos and its disposal from your local council." [V] "Available in
+  England and Wales only". So disposal routes are council by council; Scotland and Northern Ireland
+  need their own councils' pages (not read).
+
+#### D8. US EPA, "Protect Your Family from Exposures to Asbestos"
+https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos
+Read: full text, direct fetch. "Last updated on June 25, 2026".
+
+- Identification: [V] "Generally, you can't tell whether a material contains asbestos simply by
+  looking at it, unless it is labeled. If in doubt, treat the material as if it contains asbestos
+  and leave it alone." Sampling [V] "can be more hazardous than leaving the material alone. Taking
+  samples yourself is not recommended." If materials are undamaged and won't be disturbed [V] "you
+  do not need to have your home tested for asbestos."
+- [V] "If you think there may be asbestos in your home, don't panic."
+- Homeowner Do's and Don'ts: leave undamaged material alone; limit access to damaged areas; have
+  removal and major repair done by trained people; [V] "It is highly recommended that sampling and
+  minor repair also be done by a trained and accredited asbestos professional." Don't dust, sweep
+  or vacuum debris; don't saw, sand, scrape or drill; never use a power stripper on asbestos
+  flooring; [V] "When asbestos flooring needs replacing install new floor covering over it, if
+  possible."
+- Repair = sealing (encapsulation) or covering (enclosure); removal is for remodelling or extensive
+  damage; [V] "Improper removal may actually increase your and your family's exposure".
+- Legal point: [V] "Federal law does not require persons who inspect, repair or remove
+  asbestos-containing materials in detached single-family homes to be trained and accredited;
+  however, some states and localities do require this."
+- Hiring: use separate firms for inspection and removal to avoid a conflict of interest; written
+  contract; what a good contractor does (wetting, sealing off the area, HVAC off, HEPA vacuum,
+  never a regular vacuum, no breaking into small pieces).
+
+#### D9. US EPA, "EPA Actions to Protect the Public from Exposure to Asbestos"
+https://www.epa.gov/asbestos/epa-actions-protect-public-exposure-asbestos
+Read: full text, direct fetch. "Last updated on January 21, 2026".
+
+- 1989 rule (54 FR 29460, 12 July 1989): EPA [V] "attempted to ban most asbestos-containing
+  products"; most of it [V] "was overturned in 1991 by the Fifth Circuit Court of Appeals". What
+  remains banned under TSCA: corrugated paper, rollboard, commercial paper, specialty paper,
+  flooring felt, and new uses begun after 25 August 1989 (40 CFR 763 subpart I).
+- Other bans: under the Clean Air Act, spray-applied surfacing (1973, 1978) and friable pipe/block
+  insulation (1975); CPSC banned asbestos in artificial fireplace embers and wall patching
+  compounds in 1977 (16 CFR 1304, 1305).
+- March 2024 final rule on chrysotile (see D10). November 2024: Part 2 risk evaluation (legacy
+  uses). EPA's own caveat worth quoting: [V] "EPA's risk finding does not mean that every person
+  with asbestos-containing material in their house or school will suffer adverse health effects.
+  If asbestos is present in the insulation in an older building and the asbestos-containing
+  insulation is not disturbed, the asbestos does not present a risk".
+
+#### D10. US EPA, "Risk Management for Asbestos, Part 1: Chrysotile Asbestos"
+https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/risk-management-asbestos-part-1-chrysotile-asbestos
+Read: full text, direct fetch. "Last updated on May 5, 2026". The Federal Register final rule
+itself not read.
+
+- [V] "In March 2024, EPA announced a ban of ongoing uses of chrysotile asbestos". Chrysotile is
+  [V] "the only known form of asbestos imported, processed or distributed for use in the United
+  States". Phase-outs: import for chlor-alkali banned immediately with facility conversions over 5
+  to 12 years; most sheet gaskets 2 years; oilfield brake blocks, aftermarket automotive brakes and
+  linings, other vehicle friction products and other gaskets 6 months after the effective date.
+- The page says nothing about litigation. Search snippets only (not read, not findings): trade and
+  advocacy sites report that the rule was challenged in the Fifth Circuit, held in abeyance in 2025
+  while the new EPA leadership reconsidered it, and argued in 2026. A lesson should say "EPA
+  finalised a ban in March 2024" and not describe its current legal status without a primary read.
+- Relevance to a householder: the 2024 rule addresses products still in commerce, not asbestos
+  already in houses. A US lesson should not imply that the ban made old materials safe or that it
+  requires removal.
+
+#### D11. 40 CFR 61.141 (Asbestos NESHAP definitions), eCFR
+https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-40.xml?part=61&section=61.141
+Read: the definition of "Facility" only, via eCFR API.
+
+- [V] "Facility means any institutional, commercial, public, industrial, or residential structure
+  ... but excluding residential buildings having four or fewer dwelling units". This is why the
+  federal demolition and renovation asbestos rules generally do not reach a single-family home; state
+  and local rules fill the gap, and they vary.
+
+#### D12. CPSC, "Asbestos in the Home" (consumer guide)
+https://www.cpsc.gov/Safety-Education/Safety-Guides/Home/Asbestos-in-the-Home
+Read: nothing. Live URL returns 403 to curl; the Wayback capture (20251219083812) is CPSC's "Page
+not found". The guide appears to have been removed. Do not cite it.
+
+---
+
+### 2. Lead paint
+
+#### D13. 40 CFR Part 745 Subpart E (Residential Property Renovation), eCFR, as at 1 September 2026
+https://www.ecfr.gov/api/versioner/v1/full/2026-09-01/title-40.xml?part=745&subpart=E
+Read: whole subpart fetched (about 10,600 words); searched and read §745.82 (applicability), the
+§745.83 definition of minor repair and maintenance, §745.85(a)(3) prohibited practices, and the
+pamphlet provision.
+
+- Applicability, §745.82(a): [V] "This subpart applies to all renovations performed for
+  compensation in target housing and child-occupied facilities". The words "for compensation" are
+  why a homeowner working on their own home is outside it. (Target housing is defined in subpart F,
+  §745.103; pre-1978 is from EPA's pages, D14.)
+- Minor repair and maintenance (the thresholds): activities [V] "that disrupt 6 square feet or less
+  of painted surface per room for interior activities or 20 square feet or less of painted surface
+  for exterior activities where none of the work practices prohibited or restricted by §
+  745.85(a)(3) are used and where the work does not involve window replacement or demolition of
+  painted surface areas." Jobs in the same room within 30 days count as one job.
+- Prohibited and restricted practices, §745.85(a)(3): [V] "(i) Open-flame burning or torching of
+  painted surfaces is prohibited." (ii) High-speed machines (sanding, grinding, power planing,
+  needle gun, abrasive blasting, sandblasting) prohibited unless shrouded with a HEPA vacuum
+  attachment. [V] "(iii) Operating a heat gun on painted surfaces is permitted only at temperatures
+  below 1,100 degrees Fahrenheit."
+- The pre-renovation pamphlet: [V] "Renovate Right: Important Lead Hazard Information for Families,
+  Child Care Providers and Schools". Amended 12 November 2024 (89 FR 89457).
+- Note: the rule does not use the phrase "dry sanding"; "dry sanding is prohibited" is not a
+  statement of the rule. The rule restricts power sanding without HEPA shrouds; EPA's DIY advice
+  (D15) and the UK leaflets (D19, D20) say to sand wet.
+
+#### D14. US EPA, "Lead Renovation, Repair and Painting Program"
+https://www.epa.gov/lead/renovation-repair-and-painting-program
+Read: full text, direct fetch. "Last updated on June 17, 2026".
+
+- [V] "In 1978, the federal government banned the sale of lead-based paint for use in homes".
+  [V] "Approximately three-quarters of the homes in the United States built before 1978 still
+  contain some lead-based paint." Children can live safely in them if paint is in good condition
+  and surfaces are kept clean.
+- The rule requires [V] "anyone paid to perform work that disturbs painted surfaces in homes,
+  childcare facilities and preschools built before 1978" to be certified. [V] "In general, the RRP
+  Rule does not apply to homeowners doing RRP projects in their own pre-1978 homes. However, it
+  does apply if you rent all or part of your home, operate a childcare center in your home or if
+  you buy, renovate and sell homes for profit (i.e., a house flipper)."
+- EPA recommends homeowners hire a lead-safe certified contractor. 14 states plus one Tribe run
+  their own authorised programmes (listed). National Lead Information Center 1-800-424-5323.
+- Test kits: an EPA-recognised kit [V] "when used by a trained professional, can reliably determine
+  that regulated lead-based paint is not present by virtue of a negative result." (Note the
+  qualifier "trained professional".)
+
+#### D15. US EPA, "Lead-Safe Renovations for DIYers"
+https://www.epa.gov/lead/lead-safe-renovations-diyers
+Read: full text, direct fetch. "Last updated on August 20, 2026". Linked PDFs ("Steps to LEAD Safe
+Renovation, Repair and Painting", "Renovate Lead-Safe Fact Sheet") not read.
+
+- Seven practices: determine if lead-based paint is present; set up safely; protect yourself;
+  minimise dust; leave the work area clean; control waste; clean one more time.
+- Determine: find the build year; pre-1978 may have lead paint, [V] "the older your home, the more
+  likely"; EPA recommends a certified inspector or risk assessor; [V] "If you are unable to determine
+  the age of your home, it's safest to assume the area you are renovating has lead-based paint".
+- Set up: remove furnishings, plastic sheeting on floors, seal doors, airlock if needed, turn off
+  forced-air heating and cooling and cover vents, close windows.
+- Protect: [V] "A disposable N-100 certified respirator"; disposable coveralls, hat, shoe covers,
+  eye protection, gloves; wash hands and face at every break; wash work clothes separately; no
+  eating, drinking or smoking in the work area.
+- Minimise dust: mist before sanding, scraping, drilling, cutting; wet-dry sandpaper; HEPA vacuum;
+  [V] "Low-temperature heat gun (under 1,100 degrees Fahrenheit)"; chemical strippers (follow the
+  label; some contain hazardous substances); power tools with HEPA attachments.
+- Waste: most residential renovation waste is [V] "solid, non-hazardous waste" (routine residential
+  maintenance), but check state and local rules. Final clean: mop, HEPA-vacuum, wet-wipe until
+  cloths come away clean; optional dust-lead test by a certified technician.
+
+#### D16. US EPA, "Renovate Right" landing page
+https://www.epa.gov/lead/renovate-right-important-lead-hazard-information-families-child-care-providers-and-schools
+Read: landing page only (about 500 words). The pamphlet PDF itself not read. "Last updated on June
+15, 2026". Current version dated September 2011.
+
+#### D17. US EPA, "Hazard Standards and Clearance Levels for Lead in Paint, Dust and Soil (TSCA Sections 402 and 403)"
+https://www.epa.gov/lead/hazard-standards-and-clearance-levels-lead-paint-dust-and-soil-tsca-sections-402-and-403
+Read: full text, direct fetch. "Last updated on December 19, 2025". Federal Register final rule not
+read.
+
+- [V] "In October 2024, EPA finalized stronger requirements". The dust-lead hazard standard (now
+  called the dust-lead reportable level) went from 10 µg/ft² on floors and 100 µg/ft² on sills to
+  [V] "any reportable level as analyzed by a laboratory recognized by EPA's National Lead Laboratory
+  Accreditation Program", [V] "in recognition of the fact that there is no level of lead in blood
+  that has been found to be safe for children."
+- Post-abatement dust-lead action levels (formerly clearance levels): floors 10 to 5 µg/ft²; sills
+  100 to 40; troughs 400 to 100. EPA recommends abatement at or above the action levels; below them
+  but above reportable, best practices (HEPA vacuuming, damp cleaning).
+- Relevance: this is a professional-assessment rule; a Foundation lesson needs only the principle
+  (no safe level for children; clean-up standards got stricter in 2024) and should not teach the
+  numbers as DIY targets.
+
+#### D18. CDC, "CDC Updates Blood Lead Reference Value" and "Recommended Actions Based on Blood Lead Level" (clinical guidance)
+https://www.cdc.gov/lead-prevention/php/news-features/updates-blood-lead-reference-value.html
+(Wayback 20260919024350); https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html
+(Wayback 20260914110553)
+Read: full text of both via Wayback (CDC returns 403 to curl). Page dates shown: 25 August 2026
+and 21 August 2025.
+
+- [V] "As of October 28, 2021, CDC uses a blood lead reference value (BLRV) of 3.5 micrograms per
+  deciliter (µg/dL)", updated from 5.0. It is the 97.5th percentile of US children aged 1 to 5
+  (NHANES 2015 to 2018). [V] "It is not a health-based standard or a toxicity threshold."
+- [V] "No safe level of lead in children has been identified." Low levels are linked to reduced
+  IQ, attention and academic achievement.
+- Clinical page: actions for BLL at or above 3.5 µg/dL; notes that BLLs below 5 may not trigger a
+  HUD environmental investigation (HUD's rule itself not read).
+
+#### D19. Defra, "Advice on lead paint in older homes" (leaflet PB10973), GOV.UK
+https://www.gov.uk/government/publications/advice-on-lead-paint-in-older-homes ; PDF
+https://assets.publishing.service.gov.uk/media/66324e4269098ded31fca7fc/withdrawn-pb10973-leadpaintleaflet.pdf
+Read: full leaflet (about 780 words, pdftotext) and the GOV.UK record via API. First published 1
+April 2013 on GOV.UK. **Withdrawn 26 April 2024**: [V] "This page has been withdrawn because it's
+out of date." No replacement is linked.
+
+- Dates as Defra gave them: [V] "up until the mid-1960s, lead was used to make some kinds of paint
+  – for windows, doors and other woodwork as well as for some metal items, like radiators. A few
+  minor uses continued until the 1980s." Guide: a home [V] "built before the 1960s" with original
+  coats may have lead; thick paintwork is another clue.
+- Advice: overcoat sound paint; for removal, use liquid (solvent or caustic) strippers; if using a
+  hot-air gun, don't burn the paint, [V] "make sure your gun is set below 450°C"; moisten and use
+  waterproof abrasive paper, [V] "don't use dry sandpaper"; mask with an EN143 P2 filter; keep
+  children and pregnant women out; wash clothes separately.
+- Status for drafters: it is the only UK government householder leaflet found and it is withdrawn.
+  It can be cited as historical guidance, with the withdrawal stated, not as current government
+  advice.
+
+#### D20. British Coatings Federation, "Lead in painted surfaces: Repainting and removal. Guidance for the general public" (HS032, version 2.2, October 2025)
+https://cdn.ymaws.com/coatings.org.uk/resource/resmgr/webpage_files/technical_publications/health&safety/hs_032_lead_in_painted_surfa.pdf
+Read: full document (about 2,700 words), pdftotext. (Note: the task brief's title "Safe removal of
+lead paint" did not turn up; this is the BCF's current public guidance. The BCF's PaintSafe web
+page returned 403.)
+
+- Dates as the BCF gives them: [V] "Lead pigments were taken out of most paints in the 1960s, and
+  lead pigments and driers (at very low levels) were completely removed from decorative paints by
+  1992. Surfaces painted before the 1990s could contain significant levels of lead." In its Do's
+  list: test if [V] "renovating an old house (Pre-1995)".
+- Do's: test; consider a professional decorator; contain the work area; keep dust to an absolute
+  minimum; [V] "Use chemical stripper or wet abrasive paper"; mask, gloves, overalls; HEPA vacuum
+  and wet-wipe; bag outer clothes and shoes.
+- Don'ts: [V] "Remove paint if it is in a sound condition, especially if the lead paint is not the
+  top layer – overcoating is the safest option"; let bystanders stay; [V] "Use dry abrasive paper or
+  techniques"; [V] "Use blow lamps or gas torches to strip the paint"; create fumes by
+  over-heating; burn lead-containing waste.
+- Test kits: a positive means lead is present, but [V] "a negative reading should not be relied upon
+  to show the absence of lead"; if you think lead could be present, get a professional test. The
+  BCF notes (inconsistently within the same document) that kits are sold at DIY stores and that
+  the main DIY outlets no longer stock them as a regular item.
+- Hot-air gun: soften only, [V] "Take care that the paint does not burn"; gives no temperature
+  (unlike Defra's 450°C).
+- It points readers to the Defra leaflet as [V] "The UK government's official advice", without
+  noting that the leaflet has been withdrawn.
+- Children and pregnancy: keep them out of the work area; children absorb lead mostly by
+  swallowing.
+
+#### D21. UKHSA, "Lead: general information" (GOV.UK)
+https://www.gov.uk/government/publications/lead-properties-incident-management-and-toxicology/lead-general-information
+Read: full body via API. Updated 31 October 2024.
+
+- [V] "the sale of lead paint was banned in the UK from 1992." Children [V] "may be exposed to lead
+  in soils, dusts, and flakes of old paint" through hand-to-mouth behaviour. Pregnant women, infants
+  and young children are particularly sensitive; effects in children include lower IQ and
+  behavioural problems. Concerns: GP or NHS 111.
+
+#### D22. Control of Lead at Work Regulations 2002 (SI 2002/2676), regulation 3; HSE "Working safely with lead"
+https://www.legislation.gov.uk/uksi/2002/2676/regulation/3/made ; https://www.hse.gov.uk/lead/index.htm
+Read: regulation 3 (as made) in full; HSE index page (a menu of links, 62 words). Rest not read.
+
+- Reg 3: duties fall on employers and apply to the self-employed; employers owe a like duty, so far
+  as reasonably practicable, to others affected by their work. So a paid decorator stripping lead
+  paint in your home is covered; you, doing your own, are not. HSE's lead pages are for employers
+  and workers.
+
+#### Who says which date for UK lead paint (summary)
+| Claim | Source |
+|---|---|
+| Lead used in some paints "until the mid-1960s"; homes "built before the 1960s" at risk; minor uses into the 1980s | Defra leaflet (withdrawn 2024), D19 |
+| Lead pigments out of "most paints in the 1960s", completely removed from decorative paints "by 1992"; test if pre-1995 | BCF HS032 (2025), D20 |
+| "sale of lead paint was banned in the UK from 1992" | UKHSA (2024), D21 |
+| US: sale for residential use banned 1978; RRP covers pre-1978 homes | EPA, D14 |
+
+---
+
+### 3. Carbon monoxide
+
+#### D23. The Smoke and Carbon Monoxide Alarm (England) Regulations 2015 (SI 2015/1693), regulation 4, as amended
+https://www.legislation.gov.uk/uksi/2015/1693/regulation/4
+Read: regulation 4 in full, current revised text (showing amendments F1 to F4). The amending SI
+2022/578 page was fetched (1,465 words) but only used to confirm the date.
+
+- Reg 4(1)(a)(i): a smoke alarm [V] "on each storey of the premises on which there is a room used
+  wholly or partly as living accommodation".
+- Reg 4(1)(a)(ii): a carbon monoxide alarm [V] "in any room of the premises which is used wholly or
+  partly as living accommodation and contains a fixed combustion appliance other than a gas
+  cooker".
+- Reg 4(1)(b): checked in working order on the day a new tenancy begins. Reg 4(1)(c): after a
+  report made on or after 1 October 2022 by a tenant, an alarm found faulty must be repaired or
+  replaced. Reg 4(2): a bathroom or lavatory counts as living accommodation.
+- England only; applies to landlords of specified tenancies. It says nothing about owner-occupiers.
+
+#### D24. DLUHC/MHCLG, "Smoke and Carbon Monoxide Alarm (Amendment) Regulations 2022: guidance for landlords and tenants" (GOV.UK record)
+https://www.gov.uk/government/publications/smoke-and-carbon-monoxide-alarms-explanatory-booklet-for-landlords
+Read: GOV.UK summary and change history via API; the Q&A booklet itself not read. Updated 29 July
+2022.
+
+- New requirements in the social rented sector (smoke and CO) and new CO requirements in the private
+  rented sector [V] "come into force on 1 October 2022".
+
+#### D25. Approved Document J: Combustion appliances and fuel storage systems (2010 edition incorporating 2010, 2013 and 2022 amendments), England
+https://www.gov.uk/government/publications/combustion-appliances-and-fuel-storage-systems-approved-document-j ;
+PDF https://assets.publishing.service.gov.uk/media/6336e58be90e0772dc9651a2/ADJ_2022.pdf
+Read: requirement J3, the summary of changes, and paragraphs 2.34 to 2.36 and 3.43 to 3.45
+(pdftotext of the whole 38,000-word document; searched, those passages read). GOV.UK record
+updated 30 September 2022.
+
+- Requirement J3: [V] "Where a fixed combustion appliance is provided, appropriate provision shall
+  be made to detect and give warning of the release of carbon monoxide." Applies only to fixed
+  combustion appliances in dwellings.
+- History from the document: J3 and CO alarms for new or replacement **solid fuel** appliances came
+  in with the 2010 edition; the 2022 amendments extended the guidance to **gas and oil**, [V] "in
+  effect on 1 October 2022" (GOV.UK record). England only.
+- Para 3.43: [V] "Where a new or replacement fixed gas burning appliance (excluding gas appliances
+  used solely for cooking) is installed in a dwelling, a carbon monoxide alarm should be provided in
+  the room where the appliance is located." Para 2.34 says the same for solid fuel.
+- Paras 2.35 and 3.44: alarms should comply with [V] "BS EN 50291-1:2018" and be battery-powered
+  for the alarm's working life, with an end-of-life warning; mains-wired Type A alarms (not plug-in)
+  with a sensor-failure warning are an alternative.
+- Paras 2.36 and 3.45, siting: in the same room, on the ceiling at least 300mm from any wall, or on
+  a wall as high as possible (above doors and windows) but not within 150mm of the ceiling; and
+  between 1m and 3m horizontally from the appliance.
+- The key line for the contested question: [V] "Provision of a carbon monoxide alarm should not be
+  regarded as a substitute for the correct installation and regular servicing of combustion
+  appliances."
+
+#### D26. Scottish Government, "Fire and smoke alarms: the law" (factsheet), sections "What each home needs" and "Where and what to buy"
+https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/ ;
+.../pages/where-and-what-to-buy/
+Read: those two sections in full, direct fetch. First published 21 October 2020; last updated 14
+August 2024. The Tolerable Standard Guidance itself not read.
+
+- [V] "Every home in Scotland must have interlinked fire alarms." Owner's responsibility (all
+  tenures). Each home: a smoke alarm in the living room or most-used room; one in every hallway and
+  landing; a heat alarm in the kitchen; all ceiling-mounted and interlinked.
+- CO: [V] "If you have a carbon-fuelled appliance like a boiler, open fire or wood burner, you must
+  also have a carbon monoxide detector in the same room. This does not need to be linked to the
+  smoke alarms. Gas cookers and hobs do not need a carbon monoxide detector."
+- What to buy: sealed tamper-proof long-life lithium battery alarms (fit yourself) or mains-wired
+  (fitted by a qualified electrician, replaced every 10 years); battery CO alarms must have a sealed
+  battery for their lifespan; replaceable-battery alarms don't meet the standard. Standards: smoke
+  BS EN14604:2005, heat BS 5446-2:2003, CO [V] "British Kitemark EN 50291-1". Says one named smart
+  alarm system does not meet the standard (it is not a heat alarm under BS 5839-6:2019). The page
+  does not give the 2022 date on these pages; the change history shows February 2022 updates on
+  "timescales" (the in-force date of February 2022 is not stated in what I read: gate).
+
+#### D27. HSE, "Gas safety: Carbon monoxide awareness frequently asked questions"
+https://www.hse.gov.uk/gas/domestic/co.htm
+Read: full text, direct fetch. Page stamp 2026-02-10, though it still cites NHS Direct on 0845
+4647, a number that has not operated for years; treat the page as old content re-stamped.
+
+- [V] "According to the HSE statistics every year around 7 people die from CO poisoning caused by
+  gas appliances and flues that have not been properly installed, maintained or that are poorly
+  ventilated." (HSE's statistics source not read.)
+- Warning signs of incomplete combustion at the appliance (house-side, not first aid): [V] "yellow
+  or orange rather than blue flames (except fuel effect fires or flueless appliances which display
+  this colour flame)"; [V] "soot or yellow/brown staining around or on appliances"; pilot lights
+  that frequently blow out; increased condensation inside windows.
+- Servicing: any combustion appliance (gas, oil, wood, coal) should be [V] "serviced and maintained
+  by a competent person and the chimney is regularly swept."
+- If you think an appliance is spilling CO: call the National Gas Emergency Service 0800 111 999;
+  switch off the appliance and shut off the gas at the meter control valve; open doors and windows.
+  (First Aid lesson 14 already gives the number; the house-side step here is shutting the appliance
+  and meter valve.)
+
+#### D28. CPSC, "Non-Fire Carbon Monoxide Deaths Associated with the Use of Consumer Products: 2022 Annual Estimates" (John Topping, May 2026)
+https://www.cpsc.gov/s3fs-public/Non-Fire-Carbon-Monoxide-Deaths-Associated-with-the-Use-of-Consumer-Products-2022-Annual-Estimates.pdf
+Read: executive summary and introduction (pdftotext of the 51-page report). Staff report, not
+reviewed or approved by the Commission.
+
+- 2022: an estimated [V] "274 unintentional, non-fire CO poisoning deaths associated with the use of
+  consumer products". Engine-driven tools 107 (39%), of which 93 generators; heating systems 76
+  (28%); 64% of deaths from exposure in a home location (including detached garages, campers,
+  sheds, tents).
+- 2020 to 2022 average: 238 deaths per year; [V] "more than half (59%) of the deaths occurring
+  during the four cold months of November, December, January, and February."
+- 2012 to 2022: a statistically significant upward trend, peaking in 2022; generators alone about
+  892 deaths since 2012 (41%).
+- Mechanism: CO binds haemoglobin with about 250 times oxygen's affinity; rapidly rising levels
+  from engine exhaust can cause [V] "rapid incapacitation and loss of consciousness, which prevent
+  exposed individuals from leaving the hazardous environment."
+
+#### D29. CPSC, "Carbon Monoxide" safety education centre page
+https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center
+Read: full text via Wayback 20260908150612 (CPSC blocks curl).
+
+- [V] "one portable generator can produce the same amount of carbon monoxide as hundreds of cars."
+  More than 200 US deaths a year from non-fire consumer-product CO, more than 100 linked to portable
+  generators.
+- Generators: [V] "Never use portable generators inside homes or garages, even if doors and windows
+  are open. Use generators outside only, at least 20 feet away from homes with exhaust facing
+  away."
+- Alarms: battery or battery-backup CO alarms [V] "on every level of the home and outside sleeping
+  areas. Interconnected CO alarms are best".
+- The page lists recent CPSC warnings to stop using particular combination smoke/CO detectors and
+  plug-in gas/CO detectors sold online that fail to alert. (Relevant to buying: a cheap unlisted
+  alarm may not work.)
+
+#### D30. CDC, "Carbon Monoxide Poisoning Basics"
+https://www.cdc.gov/carbon-monoxide/about/index.html
+Read: full text via Wayback 20260920191925. Page date 12 January 2026.
+
+- [V] "Each year, more than 400 Americans die from unintentional CO poisoning not linked to fires,
+  more than 100,000 visit an emergency department, and more than 14,000 are hospitalized." (CDC's
+  400 counts all non-fire CO deaths, including vehicles; CPSC's 238 to 274 counts consumer products
+  under its jurisdiction. They are different scopes, not a contradiction.)
+- House-side advice: battery or battery-backup CO detectors near every sleeping area; check
+  batteries when clocks change; replace the detector [V] "following the manufacturer's instructions
+  or every 5 years"; have heating system, water heater and any gas, oil or coal appliances serviced
+  by a qualified technician every year; horizontal vent pipes should slope slightly up toward the
+  outdoors; [V] "Never heat your house with a gas oven"; have the chimney checked or cleaned every
+  year; never burn charcoal indoors; generators more than 20 feet from windows, doors and vents;
+  never run a vehicle in an attached garage even with the door open.
+
+#### D31. NCSL, "Carbon Monoxide Detector Requirements, Laws and Regulations"
+https://www.ncsl.org/environment-and-natural-resources/carbon-monoxide-detector-requirements-laws-and-regulations
+Read: introduction and the first dozen rows of the state table, direct fetch. No page date seen in
+the body text.
+
+- [V] "Most states have adopted requirements mandating the use of carbon monoxide detectors. These
+  requirements may come from statute, regulation or code requirement." Variation: many require
+  them in multifamily dwellings, some only where there is a fossil-fuel appliance, some only on
+  sale or renovation; some states rely on the International Residential Code (13 listed); several
+  leave codes to local jurisdictions. Examples: California requires owners of every single-family
+  dwelling to maintain a CO device; Colorado on sale or transfer where there is a fuel-burning
+  appliance, fireplace or attached garage; Illinois within 15 feet of every sleeping room.
+- NCSL's own caveat: [V] "may not be reflective of all requirements"; homeowners should contact
+  their state or local housing department. A lesson should say "most states require them, and the
+  details vary", not give a state count.
+
+#### D32. CPSC portable generator standard: status from the Federal Register
+Federal Register API search, CPSC documents matching "portable generators", newest first:
+https://www.federalregister.gov/api/v1/documents.json (query shown in method notes);
+CPSC Regulatory Agenda, 14 August 2026 (document 2026-16614)
+Read: the API result excerpts only (titles, abstracts, the agenda excerpt), not the full notices.
+
+- The agenda (information accurate as of November 2025) lists [V] "Safety Standard for Portable
+  Generators" under "Final Rule Stage" (RIN 3041-AC36). So as of that agenda there was no final
+  mandatory federal CO standard for portable generators. A supplemental proposed rule appeared on
+  20 April 2023 (search result title only).
+- Voluntary standards UL 2201 and ANSI/PGMA G300 are known to me only from search snippets (CPSC
+  staff's 2022 finding that compliance was minimal): not read; gate.
+
+---
+
+### 4. Electric shock and electrical fire
+
+#### D33. Home Office/MHCLG, "Detailed analysis of fires and response times to fires attended by fire and rescue services, England, year ending March 2026" (19 August 2026), and data table FIRE0602
+https://www.gov.uk/government/statistics/detailed-analysis-of-fires-england-year-ending-march-2026 ;
+https://assets.publishing.service.gov.uk/media/6a7c8fde154113c988fd98ae/FIRE0602.xlsx
+Read: the statistical release sections 4 and 5 (causes; smoke alarms) via API; FIRE0602 opened
+and the 2025/26 accidental dwelling fire row and detailed ignition sources extracted.
+
+- 23,795 accidental dwelling fires in England in 2025/26; 27% caused by [V] "'misuse of equipment
+  or appliances'"; cooking appliances 42% of accidental dwelling fires but 11% of fatalities;
+  smoking materials 7.6% of fires but 27% of fatalities.
+- From FIRE0602a (my arithmetic from the published counts): "Electrical distribution" 3,410
+  (14.3%), of which "Wiring, cabling, plugs" 2,497 (10.5%) and "Apparatus - batteries, generators"
+  885; "Other electrical appliances" 2,739 (11.5%), led by tumble dryers 579 and washing machines
+  409. Electrical distribution plus other electrical appliances is 6,149, about 26% of accidental
+  dwelling fires, **excluding** cooking appliances (9,928), which the table does not split by fuel.
+  Fatalities (FIRE0602b, 161 accidental dwelling fire deaths): electrical distribution 3, other
+  electrical appliances 13.
+- Smoke alarms in dwelling fires: no alarm present in 23% of dwelling fires and 24% of related
+  deaths; present but failed to operate 19%; the leading failure reasons were fire products not
+  reaching the detector and fire in an area not covered (66% together), i.e. siting and coverage.
+- So a lesson can say "in England, faults and misuse involving electrical wiring, plugs and
+  appliances, not counting cookers, start about a quarter of accidental house fires". The larger
+  "almost half" figure that circulates (see D34) depends on counting electric cooking; it is not in
+  what I read from the Home Office.
+
+#### D34. Electrical Safety First (ESF), "Advice for DIY-ers"; "Socket-outlets usage and safety"; "Facts and figures"
+https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/diyers/ ;
+https://www.electricalsafetyfirst.org.uk/guidance/safety-around-the-home/overloading-sockets/ ;
+https://www.electricalsafetyfirst.org.uk/what-we-do/facts-and-figures/
+Read: full text of the three pages, direct fetch. No page dates shown. The socket calculator is
+JavaScript and did not render. ESF's research reports ("How Safe Is Your Home 2025", 404) and its
+RCD and statistics pages (404 at the tried URLs) not read. ESF is a charity that campaigns; its
+figures come from its own surveys unless it says otherwise.
+
+- DIY survey: of 1,000 electricians surveyed, [V] "More than 30% had reports of electric shocks
+  caused by incompetent DIY-ers" and [V] "15% reported that DIY had caused an electrical fire". The
+  commonest mistakes: [V] "cutting through power leads, drilling into wiring, or trying to repair an
+  electrical item while it is switched on." (Survey date not given on the page.)
+- Advice: [V] "Any electrical work should be left to competent professionals." Always use an RCD
+  or plug-in RCD; shut off the power for DIY close to electrics; check leads and plugs on power
+  tools; use a cable detector before drilling; cables in walls run horizontally or vertically from
+  accessories (ESF's shorthand for the "safe zones": see Common misconceptions).
+- ESF's test that the power is off, for non-electrical DIY: [V] "plug an appliance in or try
+  switching on lights." (Contrast with HSE's proving-dead standard for electrical work, D36.)
+- Part P: work in bathrooms or a new circuit must be done or signed off by a registered competent
+  electrician; much work is "notifiable". (Belongs to another part's regulatory lesson; noted
+  only.)
+- Sockets: most extension leads are 13A, some older ones and cable reels 10A or less; don't
+  daisy-chain extension leads; cable reels rated as low as 3 or 4A when wound, so unwind fully and
+  use one with a thermal cut-out. Warning signs: burn marks, buzzing or crackling, fuses blowing,
+  breakers tripping, hot to touch. RCD in the consumer unit, or an RCD plug if none. Smoke/heat
+  alarms: [V] "Test alarms at least once a month. Replace them every ten years".
+- Periodic inspection (EICR) recommended at least every 10 years for an owner-occupied home, 5
+  years or change of occupancy for rentals (ESF recommendation, not a legal statement on this page).
+- Facts page: describes a dashboard built on the Home Office dataset; no figures in the text.
+- Search snippet only (not a finding): an ESF page says "almost half of all domestic fires are
+  caused by electricity" and a 2013 survey that almost half of severe shocks come from DIY mistakes.
+
+#### D35. GOV.UK (Home Office), "Fire safety in the home" (accessible version), in "Make your home safe from fire"
+https://www.gov.uk/government/publications/make-your-home-safe-from-fire/fire-safety-in-the-home-accessible-version
+Read: full body via API. Updated 25 May 2022.
+
+- [V] "Faulty electrics (appliances, wiring and overloaded sockets) cause around 4,000 fires in the
+  home across the country every year."
+- Smoke alarms: [V] "Test your smoke alarms at least monthly."; vacuum every six months; a ten-year
+  alarm is replaced whole every ten years; mains alarms need a qualified electrician and still need
+  testing.
+- Electrics: one plug per socket where possible; high-powered appliances like washing machines on
+  a socket of their own; know the amp limit of adaptors and leads; plug fuse examples (TV 3A,
+  vacuum cleaner 5A); danger signs [V] "scorch marks, hot plugs and sockets, fuses that blow or
+  circuit-breakers that trip for no obvious reasons, or flickering lights."
+
+#### D36. HSE, "Electricity at work: Safe working practices" (HSG85, third edition, 2013)
+https://www.hse.gov.uk/pubns/priced/hsg85.pdf
+Read: whole PDF extracted; "Proving dead" paragraphs 53 to 55 and the locking-off paragraphs read.
+(HSE GS38 at the tried URL returned 404; not read.)
+
+- Para 53: having isolated, [V] "check that the parts to be worked on or near really are dead".
+- Para 54, the source for the limits of a non-contact tester: for low voltages use proprietary
+  two-pole voltage detectors, test lamps, or voltmeters with insulated probes and fused leads.
+  [V] "The use of multimeters, which can be set to the wrong function, is not recommended for
+  proving dead on low-voltage systems, neither is the use of non-contact devices such as 'volt
+  sticks'".
+- Para 55: [V] "It will be necessary to test the instrument before and after use", e.g. with a
+  proving unit. This is the prove-test-prove sequence.
+- Locking off: breakers locked OFF with a safety lock; lockable blanks for empty fuse ways.
+- For the lesson: this is workplace guidance and the course is not teaching electrical work. Its
+  use is to explain why a household "volt stick" or pen tester's silence is not proof a wire is
+  dead, and why a DIYer who is not doing electrical work isolates at the consumer unit and does not
+  rely on a light switch.
+
+#### D37. NFPA, "Home Fires Caused by Electrical Distribution and Lighting Equipment" (Richard Campbell, February 2022)
+https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Electrical/osElectricalDistLighting.pdf
+Read: key findings and first two pages (pdftotext). The NFPA "Home Electrical Fires" report at the
+old URL is 404; not read.
+
+- 2015 to 2019 annual averages: [V] "32,620 home fires involving electrical distribution and
+  lighting equipment per year"; 430 civilian deaths; 1,070 injuries; $1.3 billion direct property
+  damage (the body text on page 1 says "$1.3 million", an evident typo against the key findings).
+- Wiring and related equipment: 68% of these fires and 42% of deaths. Commonest origins: bedroom
+  16%, attic or ceiling 11%, wall assembly or concealed space 8%. 23% occurred between midnight and
+  8 a.m. but caused 52% of deaths. Concealed wiring faults can burn for a prolonged period before
+  detection. Aluminium wiring connections deteriorate; CPSC recommends a qualified electrician
+  repair or replace it (per NFPA; CPSC source not read).
+- Data are now seven years old; flag the period whenever used.
+
+#### D38. CPSC, "Electrocutions Associated With Consumer Products: 2011-2020" (Hanway, Massie, Seebruck, November 2023)
+https://www.cpsc.gov/s3fs-public/Electrocutions-2011-to-2020.pdf
+Read: executive summary and Table 5 (product categories), pdftotext.
+
+- [V] "an estimated average of 100 electrocution fatalities associated with consumer products per
+  year over the 3-year period from 2018 through 2020". Nearly nine times as many male as female
+  victims; more victims aged 45 to 64 than population share would predict. Fractal ("Lichtenberg")
+  wood burning emerged as a major source.
+- Table 5 reported deaths 2011 to 2020 include: appliance 66, fractal wood burning 65, pole 31,
+  ladder 22 (ladders contacting power lines), pool/hot tub 19, electrical box/outlet 16, extension
+  cord 11, power tool 9. (The categories listed that are relevant to DIY: ladders near overhead
+  lines, outlets, cords, power tools.)
+- Caveat: incidents associated with a product [V] "were not necessarily caused by the product."
+
+#### D39. CPSC, news release 89-031, "Easily Installed Device Protects Family Against Electrocution" (28 May 1989), and CPSC memorandum "Economic Considerations: GFCIs" (Karels, 10 March 2003)
+https://www.cpsc.gov/Newsroom/News-Releases/1989/Easily-Installed-Device-Protects-Family-Against-Electrocution
+(Wayback 20260311171701); https://www.cpsc.gov/s3fs-public/ecgfci.pdf
+Read: full text of both.
+
+- 1989 release: a GFCI [V] "shuts down the power in milliseconds" if current leaks to ground,
+  [V] "whereas circuit breakers and fuses function primarily to prevent the home wiring system from
+  causing a fire." Code-compliant new homes then required GFCIs in bathrooms, basements, garages,
+  outdoors and kitchen countertop receptacles within six feet of the sink; homes built before 1973
+  can be upgraded with GFCI breakers or receptacles.
+- 2003 memo: average 196 consumer-product residential electrocutions a year 1995 to 1999; about 47%
+  in scenarios GFCI protection could address; an earlier UL study found GFCIs 81% to 95% effective
+  in preventing electrocution deaths. Estimate: 75 to 88 deaths a year averted by extending GFCIs to
+  other circuits.
+
+#### D40. ESFi, "Ground Fault Circuit Interrupters: Preventing Electrocution Since 1971/1973"
+https://www.esfi.org/ground-fault-circuit-interrupters-preventing-electrocution-since-1973/
+Read: text via Wayback 20251123184045 (live site 403). Infographic text only; no method.
+
+- Claims [V] "81% drop in electrocutions" and [V] "95% drop in electrocutions caused by consumer
+  products" since GFCIs; 47% of current electrocutions preventable with proper GFCI protection;
+  NEC timeline: 1971 outdoor receptacles, 1975 bathrooms, 1978 garages.
+- A search snippet of a later ESFi version gives 80% and 93%. The drop is an association over
+  decades (wiring, appliance standards and other changes also contributed). A lesson may say CPSC
+  and ESFi credit GFCIs with a large share of the fall; it should not state a causal percentage.
+
+---
+
+### 5. Smoke alarms (maintenance only)
+
+#### D41. U.S. Fire Administration (FEMA), "Smoke alarms"
+https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+Read: full text, direct fetch. "Page last reviewed: Sept. 21, 2026".
+
+- [V] "Test smoke alarms every month and replace 9-volt smoke alarm batteries at least once every
+  year." [V] "They need to be replaced 10 years from the manufacture date." Same for hardwired
+  alarms with backup batteries.
+
+#### D42. NFPA, "Smoke Alarms in U.S. Home Fires" fact sheet (from Ahrens, September 2015)
+https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Fact-sheets/SmokeAlarmsFactSheet.pdf
+Read: full fact sheet. Data 2009 to 2013 (old).
+
+- Three in five home fire deaths occurred where there were no smoke alarms (38%) or no working
+  ones (21%). Where alarms were present but did not operate, 46% had missing or disconnected
+  batteries (nuisance alarms the leading reason) and 24% dead batteries. Hardwired alarms operated
+  94% of the time, battery-only 80%. Interconnected alarms sounded more often. Use for the
+  principle (why testing and not disconnecting matter), not for current figures. UK equivalents:
+  D33 (2025/26), D35.
+
+(The NFPA smoke-alarm and CO web pages returned empty shells to curl, Wayback and WebFetch; not
+read.)
+
+---
+
+### 6. Other hazards a DIYer meets
+
+#### D43. HSE, "Cancer and construction: Silica" and "Silicosis: causes and risk controls"
+https://www.hse.gov.uk/construction/healthrisks/cancer-and-construction/silica-dust.htm ;
+https://www.hse.gov.uk/lung-disease/silicosis.htm
+Read: full text of both, direct fetch.
+
+- Silica is in most rocks, sand and clay (sandstone over 70%, granite 15 to 30%) and in bricks,
+  tiles, concrete and mortar. Cutting, drilling, grinding and polishing make respirable crystalline
+  silica, [V] "too fine to see with normal lighting". [V] "Silica is the biggest risk to
+  construction workers after asbestos." HSE-commissioned estimates: over 500 construction worker
+  deaths in 2005.
+- Silicosis is irreversible and continues to develop after exposure stops; acute silicosis follows
+  very high short exposures. RCS also causes COPD and is linked to lung cancer.
+- For a householder: cutting a paving slab, chasing a brick wall or cutting concrete tiles makes the
+  same dust; wet cutting or on-tool extraction and a proper mask (details are on HSE's construction
+  dust pages, not read) are the controls.
+
+#### D44. OSHA, "Silica, Crystalline" (overview)
+https://www.osha.gov/silica-crystalline
+Read: overview menu page only (about 380 words; highlights list). Standards and Table 1 not read.
+
+- Confirms OSHA's construction standard and "Table 1" task controls and a 2026 OSHA-NIOSH hazard
+  alert on engineered-stone countertops. Nothing citable for a householder beyond the fact that the
+  hazard is regulated for workers.
+
+#### D45. US EPA, "Volatile Organic Compounds' Impact on Indoor Air Quality"
+https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality
+Read: full text, direct fetch. "Last updated on June 23, 2026".
+
+- Sources include [V] "paints, paint strippers and other solvents". Indoor levels of several
+  organics average 2 to 5 times outdoors; [V] "During and for several hours immediately after certain
+  activities, such as paint stripping, levels may be 1,000 times background outdoor levels."
+- Advice: increase ventilation; if a label says use in a well-ventilated area, go outdoors or use
+  an exhaust fan, otherwise open windows; buy only what you will use; don't bin leftovers,
+  use household hazardous waste collection.
+- Methylene chloride: in paint strippers, adhesive removers, aerosol spray paints; [V] "converted to
+  carbon monoxide in the body". The page still advises using such products outdoors or with good
+  ventilation. It does not mention EPA's 2019 ban on consumer sale of methylene chloride paint
+  removers or the 2024 rule (not read). Drafters should not repeat this page's methylene chloride
+  paragraph as current US law without a primary read; see Gates.
+
+#### D46. US EPA, "Health Risk of Radon"
+https://www.epa.gov/radon/health-risk-radon
+Read: full text, direct fetch. "Last updated on June 24, 2026". "A Citizen's Guide to Radon" (the
+URL tried was 404) not read.
+
+- [V] "Radon is the number one cause of lung cancer among non-smokers, according to EPA estimates.
+  Overall, radon is the second leading cause of lung cancer. Radon is responsible for about 21,000
+  lung cancer deaths every year. About 2,900 of these deaths occur among people who have never
+  smoked." Best estimate 21,000 with uncertainty range 8,000 to 45,000 (2003 assessment based on
+  BEIR VI).
+- Surgeon General: on 13 January 2005 Dr Richard H. Carmona issued a national health advisory
+  urging Americans to test their homes (EPA's account; the advisory itself not read).
+- Action level: the risk tables say "Fix your home" at 4 pCi/L (150 Bq/m³) and above, and
+  [V] "Consider fixing between 2 and 4 pCi/L (75-150 Bq/m³)". Average indoor level 1.3 pCi/L;
+  average outdoor 0.4. At 4 pCi/L, about 7 in 1,000 never-smokers and about 62 in 1,000 smokers
+  could get lung cancer over a lifetime.
+
+#### D47. UKradon (UKHSA), "What is radon?", "Radon Action Level and Target Level", "UK maps"
+https://www.ukradon.org/information/whatisradon ; https://www.ukradon.org/information/level ;
+https://www.ukradon.org/information/ukmaps
+Read: full text of the first two; maps page text only. No page dates shown.
+
+- Radon is a colourless, odourless radioactive gas from uranium in all rocks and soils. Average UK
+  home 20 Bq/m³; below 100 Bq/m³ individual risk [V] "remains relatively low".
+- [V] "UK Health Security Agency recommends that radon levels should be reduced in homes where the
+  average is more than 200 becquerels per metre cubed (200 Bq m⁻³)." Measured with two detectors
+  (bedroom and living room) over three months. Target level 100 Bq/m³; between 100 and 200,
+  consider reducing, especially with a smoker or ex-smoker in the home.
+- Maps: the darker the area, the greater the chance of a high level, but not all buildings in dark
+  areas are high. (UK deaths per year from radon not stated in what I read.)
+
+#### D48. MHCLG, DHSC and UKHSA, "Understanding and addressing the health risks of damp and mould in the home" (GOV.UK guidance, updated 1 April 2026, applies to England)
+https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2
+Read: key messages and the cleaning paragraph (the page was reached via the old NHS "damp and mould"
+URL, which now redirects here). Written for rented housing providers.
+
+- [V] "Damp and mould primarily affect the airways and lungs, but they can also affect the eyes and
+  skin. The respiratory effects of damp and mould can cause serious illness and, in the most severe
+  cases, death". Everyone is vulnerable; people with certain health conditions, children and older
+  adults are at greater risk. It names the death of two-year-old Awaab Ishak in December 2020.
+- Cleaning: mould can be removed from hard surfaces with an appropriate product and left to dry;
+  [V] "Mould and mildew products should be used in preference to bleach, for health and safety
+  reasons"; mouldy carpets and soft furnishings may have to go; tenants can remove condensation and
+  very small amounts of mould, [V] "larger areas of mould should only be addressed by qualified
+  professionals." (Another part covers damp; this is the health line only.)
+
+---
+
+### (a) What this part says the field considers essential
+
+1. **Leave it alone if it is sound.** Every asbestos authority read (HSE, UKHSA, EPA) and both UK
+   lead sources (Defra, BCF) put "undisturbed and in good condition, leave it (or paint over it)"
+   first. The hazard is created by disturbing it: drilling, sanding, scraping, cutting, breaking.
+2. **Assume by date.** UK: any building built or refurbished before 2000 may contain asbestos
+   (HSE). US: EPA says you cannot tell by looking; treat as asbestos if in doubt. Lead: US pre-1978
+   (EPA); UK dates differ by source (1960s, 1992, pre-1995 test advice), so a UK lesson should give
+   the range and the sources.
+3. **Asbestos is a stop-work material for a householder.** HSE: don't repair or remove it without
+   non-licensed-work training; licensed contractors only for sprayed coatings, lagging and AIB;
+   dispose as hazardous waste through the council. EPA: sampling and even minor repair are best done
+   by accredited professionals; federal law doesn't require it for single-family homes but some
+   states do.
+4. **Lead paint: wet methods, containment, no burning.** Both countries agree: no open flame or
+   blowlamp; heat gun only low (US rule: below 1,100°F for contractors; Defra: below 450°C); no dry
+   sanding (UK leaflets; EPA's DIY advice by implication: mist and wet-sand); keep children and
+   pregnant women out; clean with HEPA and wet wipes. In the US the RRP rule binds paid work only.
+5. **Carbon monoxide: service, ventilate, alarm, in that order.** Approved Document J says in terms
+   that an alarm is not a substitute for correct installation and regular servicing. Annual
+   servicing of fuel-burning appliances and chimney sweeping (HSE, CDC). Know the appliance warning
+   signs (lazy yellow flames, soot, staining, pilot lights going out). Alarms to BS EN 50291 in the
+   room with the appliance (UK), or on every level and outside sleeping areas (CPSC). Generators
+   outdoors only, 20 feet away (CPSC, CDC). Never a gas oven for heating (CDC).
+6. **Electricity: isolate at the consumer unit, prove dead properly, RCD/GFCI protection.** The
+   common DIY accidents are drilling into cables, cutting leads, and working on live items (ESF).
+   Cable detector before drilling. HSE: prove dead with a two-pole detector and prove the tester
+   before and after; not with a volt stick or multimeter. RCD (UK) and GFCI (US) protection cut
+   shock deaths; overcurrent devices protect wiring from fire, not people from shock (CPSC 1989).
+7. **Warning signs of an electrical fire risk**: scorch marks, hot plugs or sockets, buzzing or
+   crackling, fuses blowing, breakers tripping for no reason, flickering lights (GOV.UK, ESF).
+   Don't overload extension leads; don't daisy-chain; unwind cable reels.
+8. **Smoke alarms**: test monthly, replace the whole alarm at 10 years (USFA, GOV.UK, ESF). Siting
+   and coverage failures, not dead batteries, were the leading reason alarms failed to operate in
+   English dwelling fires in 2025/26 (Home Office).
+9. **Dust and fumes**: silica dust from cutting masonry is the biggest construction health risk
+   after asbestos (HSE); ventilate for solvents and strippers (EPA); test for radon where maps or US
+   guidance suggest it (UKHSA 200 Bq/m³ action level; EPA 4 pCi/L).
+
+### (b) Common misconceptions (only ones a source names)
+
+- "If you find asbestos you must have it removed." Sources: HSE FAQ (D1: often best left in place);
+  EPA (D8: [V] "don't panic"; leave undamaged material alone). EPA also says sampling it yourself
+  can be more hazardous than leaving it.
+- "The asbestos ban means old asbestos is no longer a risk" / "a risk finding means everyone with
+  asbestos at home will be harmed." EPA (D9) rejects the second directly; HSE (D5) shows deaths are
+  still around 5,000 a year from past exposures.
+- "A negative home lead test kit means there is no lead." BCF (D20): a negative reading should not
+  be relied on. EPA (D14) qualifies reliability to a trained professional using a recognised kit.
+- "Dry sandpaper is fine on old paint." Defra (D19) and BCF (D20) say explicitly not to.
+- "A carbon monoxide alarm means I don't need the boiler serviced." Approved Document J (D25): an
+  alarm [V] "should not be regarded as a substitute for the correct installation and regular
+  servicing".
+- "Running a generator in the garage with the door open is safe." CPSC (D29) and CDC (D30): never,
+  even with doors and windows open. CDC: the same for a car in an attached garage.
+- "A volt stick showing nothing means the wire is dead." HSE HSG85 (D36) says non-contact devices
+  are not recommended for proving dead.
+- "Circuit breakers and fuses protect you from shock." CPSC (D39): they function primarily to stop
+  the wiring causing a fire; the GFCI protects people.
+- "Replaceable-battery alarms are fine" (Scotland). Scottish Government (D26): they don't meet the
+  standard because sensors degrade and batteries get removed.
+- "Bleach is the thing for mould." UK government guidance (D48): mould and mildew products in
+  preference to bleach.
+- Possible misconception inside a source, to avoid repeating: ESF (D34) states it [V] "is required
+  that cables buried in walls are installed either horizontally or vertically from electrical
+  accessories". That is a simplification of the wiring regulations' "safe zones" and does not hold
+  for all cables or all old houses; a lesson should say cables are often run straight up, down or
+  across from sockets and switches, and a detector is still needed. (BS 7671 not read: gate.)
+
+### (c) Contested questions
+
+1. **Should a householder remove small amounts of asbestos cement (a garage roof sheet, a
+   cistern) themselves?**
+   - Against (HSE, D1): do not repair or remove any asbestos material without training for
+     non-licensed work; HSE [V] "strongly encourages the use of trained professionals". EPA (D8):
+     removal [V] "must be done only by a trained and accredited asbestos professional".
+   - For, or at least permissive: in law, owner-occupiers doing their own work are outside CAR 2012
+     (D1, D2, D6); HSE classes some AC work as non-licensed and publishes task sheets for it (D3);
+     US federal law does not require training for single-family homes (D8, D11); many councils
+     accept householder-bagged AC waste (not read; council-specific).
+   - Status: the law is established fact (it permits); whether it is advisable is a value judgement
+     on which every official source read says no without training. A lesson should state both.
+2. **Must a householder test for lead before sanding old paint?**
+   - EPA (D15): find the build year; recommends a certified inspector; if you can't find out, assume
+     lead. BCF (D20): test if pre-1995, with the caution that kits can give false negatives.
+     Defra (withdrawn, D19): the age of the home is a good guide; overcoat sound paint.
+   - Not a legal duty for DIY in either country (D13, D14, D22). The practical consensus is
+     "assume lead in older paint and work wet, or test professionally". Established: no legal duty;
+     contested only on whether a DIY kit is good enough (BCF and EPA say a negative is not proof).
+3. **Is a CO alarm a substitute for servicing?** No source read says yes; ADJ (D25) says no in
+   terms, and CDC and HSE put annual servicing first. Established.
+4. **Where should a CO alarm go: in the appliance room (UK) or near sleeping areas/every level
+   (US)?** Different national standards, not a dispute: ADJ and the Scottish standard fix it to the
+   appliance room 1 to 3m away; CPSC and CDC to sleeping areas and every level. A lesson should give
+   each country's rule; a UK reader with a boiler and bedrooms upstairs may reasonably want both.
+5. **How much of the UK's house-fire problem is "electrical"?** ESF (snippet) says almost half;
+   the Home Office table (D33) gives about a quarter for electrical distribution plus non-cooking
+   appliances, with cooking (42% of all accidental dwelling fires, fuel unsplit) the difference.
+   Definitional, not factual; say what is counted.
+6. **How much of the fall in US electrocutions is due to GFCIs?** ESFi (D40) gives 81 to 95% drops
+   since 1971; CPSC (D39) gives GFCI effectiveness of 81 to 95% from a UL study and estimates about
+   half of residual electrocutions are GFCI-addressable. The decline is established; the share owed
+   to GFCIs is an estimate.
+7. **Radon: act at 4 pCi/L (US, about 150 Bq/m³) or 200 Bq/m³ (UK)?** Different national action
+   levels; EPA also says consider action from 2 pCi/L (75 Bq/m³), UKHSA's target is 100 Bq/m³.
+   Established fact that they differ; the choice of threshold is a policy judgement.
+
+### (d) UK vs US differences
+
+| Topic | UK | US |
+|---|---|---|
+| Asbestos ban | Import of blue/brown banned 1985, white 1999 (UKHSA); use in building illegal since 1999 (HSE); buildings pre-2000 may contain it | 1989 EPA ban mostly overturned 1991; five product types plus new uses remain banned; March 2024 EPA chrysotile rule (status in court not read) |
+| Asbestos law and the householder | CAR 2012 binds work; owner-occupier doing own DIY not a dutyholder; licensed contractors for sprayed, lagging, AIB | Federal law doesn't require training for single-family homes; NESHAP excludes buildings of 4 or fewer units; states vary |
+| Asbestos waste | Hazardous waste via the council (England and Wales GOV.UK finder) | Contractor bags and disposes under federal/state rules; homeowner rules vary by state |
+| Lead paint dates | 1960s to 1992 depending on source; test if pre-1995 (BCF) | Pre-1978 |
+| Lead rules | No householder rule; CLAW 2002 binds employers and self-employed; Defra leaflet withdrawn 2024 | RRP rule binds paid work in pre-1978 homes (6/20 sq ft minor-repair thresholds, no open flame, heat gun below 1,100°F); homeowner exempt unless renting, childcare or flipping |
+| Heat gun | Defra: below 450°C (withdrawn); BCF: don't let it burn | Below 1,100°F (about 593°C) |
+| Mask | EN143 P2 (Defra) | N-100 respirator (EPA) |
+| CO alarm law | England: landlords, every room with a fixed combustion appliance except a gas cooker (2022); ADJ: new or replacement fixed appliance, same room (solid fuel 2010, gas/oil 2022); Scotland: every home with a carbon-fuelled appliance | State by state (NCSL); many require near sleeping rooms |
+| CO alarm standard | BS EN 50291-1 | UL 2034 (not read) |
+| CO alarm siting | Appliance room, ceiling 300mm from wall, 1 to 3m from appliance | Every level and outside sleeping areas (CPSC); near every sleeping area (CDC) |
+| Gas emergency | National Gas Emergency Service 0800 111 999 | Leave, call from outside (utility/911; not read in this part) |
+| Shock protection | RCD in consumer unit or RCD plug | GFCI receptacle or breaker; NEC required outdoors 1971, bathrooms 1975, garages 1978 (ESFi) |
+| Plugs | Fused plugs (3A, 5A, 13A); 13A extension leads | No plug fuses; not covered by a read source |
+| Smoke alarms | Test monthly, replace at 10 years; Scotland: interlinked, sealed or mains, heat alarm in kitchen; England: landlord one per storey | Test monthly, replace 10 years from manufacture, 9-volt batteries yearly |
+| Radon action level | 200 Bq/m³ (target 100) | 4 pCi/L (150 Bq/m³); consider 2 to 4 |
+| Units | Bq/m³, metres, °C | pCi/L, feet, °F |
+
+### (e) Safety-critical notes for drafters
+
+1. Do not tell a UK reader they may remove asbestos cement, textured coating or floor tiles
+   themselves because the law allows it. HSE's advice is not to without training; state the legal
+   position and the advice together. Never suggest breaking up AC sheets, sanding Artex, or
+   vacuuming suspected debris with a household vacuum (EPA: never a regular vacuum; HSE: don't break
+   up).
+2. Don't teach Artex removal by steaming or scraping as a DIY task. HSE classes large-scale removal
+   of textured coatings as notifiable non-licensed work.
+3. Lead: no open flame, no dry sanding, no power sanding without HEPA extraction, no burning waste;
+   keep children and pregnant women out; clothes off and bagged; wash before eating. Give the heat
+   gun limit with the source and unit (US rule 1,100°F; Defra 450°C, withdrawn).
+4. CO: the lesson should never present an alarm as the protection. Order: correct installation by a
+   registered engineer, annual servicing, flue and chimney kept clear, ventilation not blocked, then
+   an alarm. Never block air vents to stop draughts (ADJ context; not directly quoted here: the
+   ventilation sections of ADJ were not read, so state it only if another part's source supports
+   it). Never use a portable generator, barbecue, camping stove or gas oven for heat indoors.
+5. First aid is not re-taught: refer back to First Aid lessons 2, 10 and 14 for CO symptoms, the
+   rescue and electrical burns.
+6. Electricity: "Switch off at the consumer unit, lock or tape the breaker, and check with a tester
+   you have just proved on a known live source" is professional practice (HSG85). For a DIYer doing
+   non-electrical work near cables, ESF's lower bar (plug something in or try the lights) is what
+   ESF actually says. A lesson must not imply that a volt stick proves dead. It must not teach
+   electrical installation work; Part P/notifiable work belongs to the regulations lesson.
+7. Before drilling: use a cable and pipe detector; don't drill directly above, below or beside
+   sockets and switches. (Detector limitations not sourced here.)
+8. Ladders near overhead lines appear in CPSC electrocution data (22 deaths 2011 to 2020); the
+   ladder part should cross-reference.
+9. Generators: 20 feet (about 6m) from the house, exhaust away (CPSC); this is a US figure.
+10. Radon and mould: this course gives the health line only. For mould, larger areas are for
+    professionals (UK guidance); use mould products rather than bleach.
+11. Dates on HSE pages are unreliable as content dates (the CO FAQ is stamped 2026 but cites a dead
+    NHS Direct number). Prefer the legislation and dated statistics.
+
+### (f) Gates (need a primary read before a lesson states them)
+
+1. The current legal status of EPA's March 2024 chrysotile rule (Fifth Circuit litigation,
+   abeyance, any reconsideration). Read the court docket or the Federal Register before saying
+   anything beyond "EPA finalised a ban in March 2024".
+2. Scotland's in-force date for the interlinked alarm and CO standard (widely given as 1 February
+   2022) and the Tolerable Standard Guidance chapters 16 and 17. The pages read do not state it.
+3. UL 2034 as the US CO alarm standard, and UL 217 for smoke alarms: named by no source read.
+4. Portable generator voluntary standards (UL 2201, ANSI/PGMA G300) and CPSC's 2022 compliance
+   finding: snippet only.
+5. EPA's 2019 ban on consumer sale of methylene chloride paint removers and the 2024 TSCA rule
+   (the EPA VOC page read predates or omits them).
+6. HSE's source for "around 7 people die" from gas-appliance CO each year (D27): statistical
+   source not read.
+7. UK annual radon lung cancer deaths (often given as about 1,100): not read.
+8. BS 7671 "safe zones" for cables in walls, before any lesson describes where cables run.
+9. Any NFPA smoke alarm or CO guidance or current home electrical fire figures (NFPA web pages did
+   not render; the read NFPA reports cover 2009 to 2013 and 2015 to 2019).
+10. Individual HSE asbestos essentials sheets (A14, A15, A28 and EM9) before describing any method.
+11. Council-level asbestos disposal rules (England and Wales via GOV.UK finder; Scotland and
+    Northern Ireland not read); US state homeowner asbestos removal rules (no state read).
+12. "Renovate Right" pamphlet contents (only the landing page read) and HUD's Lead Safe Housing
+    Rule.
+13. ESF's "almost half of domestic fires are caused by electricity" and its 2013 DIY shock survey:
+    snippet only.
+14. The Gas Safe Register's own CO and servicing advice (site returned 403 and has no Wayback
+    capture of the tried URL).
+15. Surgeon General 2005 radon advisory text (only EPA's account read).
+
+### (g) Not read (blocklist strings; whole-word, case-sensitive)
+
+
+*The part's own "Not read" list below is superseded by the combined `unread:` line at the top of this file, which drops strings that another part read (see "The `unread:` line is the build's enforcement").*
+
+Works or pages cited or named above but not read in this part. None of these strings occurs in the
+title of a source I did read.
+
+- Asbestos in the Home
+- Asbestos: are you at risk?
+- L143
+- Current Best Practices for Preventing Asbestos Disease Among Brake and Clutch Repair Workers
+- ADAO
+- Asbestos Disease Awareness Organization
+- Texas Chemistry Council
+- Safe removal of lead paint
+- HS034
+- PaintSafe
+- Steps to LEAD Safe Renovation
+- Renovate Lead-Safe Fact Sheet
+- Lead Safe Housing Rule
+- HUD Guidelines for the Evaluation and Control of Lead-Based Paint Hazards in Housing
+- Tolerable Standard Guidance
+- UL 2034
+- UL 217
+- UL 2201
+- PGMA G300
+- NFPA 720
+- NFPA 72
+- Home Electrical Fires
+- How Safe Is Your Home
+- GS38
+- BS 7671
+- BS EN 50292
+- A Citizen's Guide to Radon
+- BEIR VI
+- Iowa Radon Lung Cancer Study
+- Fatal Incidents Associated with Non-Fire Carbon Monoxide Poisoning from Engine-Driven Generators
+- Gas Safe Register
+- Electrical Safety Standards in the Private Rented Sector
+
+Notes on the list: "Gas Safe Register" is named on the HSE page I read (D27) but the Register's own
+site was not read; if another part read it, drop this string. "Renovate Right" is deliberately
+not on the list because I read the EPA landing page of that title; the pamphlet's contents remain
+a gate (f12). "Control of Lead at Work Regulations 2002" and "Control of Asbestos Regulations 2012"
+are not listed: I read regulation 3 of each (and CAR's contents), though not their operative
+duties.
