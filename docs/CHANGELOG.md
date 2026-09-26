@@ -11,6 +11,31 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-26 — Car Basics is published and written
+
+**Car Basics went live, the seventh and last course of Term 3**, which makes Term 3 fully published:
+what a car is made of, the engine, diesel exhaust and AdBlue, hybrids and electric cars, the 12 V
+battery, brakes and steering, tyres (pressure, then tread and age), the fluids, lights and glass,
+warning lights, fuel economy, a flat battery, high voltage, winter and summer, when the car stops,
+motorways, a flat tyre and changing a wheel, the law in Great Britain and Northern Ireland, the MOT
+and Northern Ireland's test, US inspections, recalls, choosing a garage, and quotes and bills.
+Twenty-five lessons, each through Stage 4 with a fresh second pass or targeted re-check; the
+safety-critical lessons (high voltage, breakdowns, motorways, flat tyres, wheel changes, the law,
+bills) had two-reviewer Tier B reviews. Lessons 8, 17, 22 and 24 (tread depth, smart motorways, US
+inspection, dealer against independent and right to repair) had neutrality passes and re-checks,
+and a course-wide audit then removed a small cumulative tilt from source choice and dropped labels.
+A 24-item test and the project "Your car file" were each reviewed whole. Twenty-five fact-checked
+podcast scripts make it *written*; `curriculum/audio-debt.yaml` opens at twenty-five.
+
+**It teaches nothing under a car on a jack and nothing high-voltage, and it keeps three places
+apart.** Great Britain, Northern Ireland and the US each get their own roadside steps and law; a
+safety callout carried word for word by every lesson, the test and the project gives each country's
+breakdown steps, and the build now checks it in assessments too. Every job carries one of the three
+labels, "the handbook governs" throughout, and every claim is attributed to a named source with what
+it sells. Review caught and fixed real errors on the way: a half-quoted Highway Code line, the TPMS
+trigger stated for every tyre, section 48 called a defence, the federal tread rule said to bind
+drivers, Texas's 2025 repeal understated, and two fuel prices misread from an archive.
+
 ## 2026-09-26 — Home Repair and Maintenance is published and written
 
 **Home Repair and Maintenance went live, the sixth course of Term 3**: how a house works and where

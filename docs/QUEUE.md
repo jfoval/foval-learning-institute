@@ -52,15 +52,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
   100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
   audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
-  **Car Basics is drafting** (2026-09-26), the seventh and last of Term 3. Lessons 1 to 16 are
-  through Stage 4 (Tier B and neutrality where the outline says) and most have fact-checked
-  scripts; 17 is in its fix pass, 18 and 19 in Tier B review, 20 to 25, the project and the final
-  test are still to draft. `npm run state` has the per-lesson counts. Conventions settled along the
-  way are dated in `research/pipeline-briefs.md`; what each review caught is in
-  `research/reviews/course-wide.md`. **Left open, none blocking:** lesson 16's recovery checkpoint
-  is partly answered by the text above it (S4), and nidirect's "First aid on the road" line is not
-  yet in SOURCES (S5); lesson 6's four minor items in its review file. Lesson 17: the fourth-year report's summary line that smart motorways are "in most cases" safer than the roads they replaced is not in the lesson (a balance call, noted at its second pass as S4); record it in SOURCES and weigh it at the course-wide neutrality audit. Lesson 11: New York's airbag-lamp page has been reworded since the lesson quoted it (found at lesson 22's review, 2026-09-26); re-read and requote. Lesson 24: Which? also gives a second pair for cars available new (£331 franchised, £262 local); the lesson quotes only the all-cars pair (£361, £260). Weigh at the course-wide neutrality audit (S3). Proposed: a six-monthly
-  re-check of its dated fees and policy facts.
+  **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
+  is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;
+  audio owed. **Left open, none blocking:** lesson 16's recovery checkpoint is partly answered by the
+  text above it (S4), and nidirect's "First aid on the road" line is not yet in SOURCES (S5);
+  lesson 6's four minor items in its review file; lesson 11's New York airbag page has been
+  reworded since it was quoted (re-read and requote). Proposed: a six-monthly re-check of its dated
+  fees and policy facts.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
