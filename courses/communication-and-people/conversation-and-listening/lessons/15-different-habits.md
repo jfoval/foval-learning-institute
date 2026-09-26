@@ -18,21 +18,21 @@ objectives:
     Plan a conversation around asking the person how they want to be spoken with
 quiz:
   - q: >-
-      Imelda is explaining how the heating works to a lodger who has just moved in. He looks at the
-      floor the whole time, and Imelda decides he isn't taking it in. On this lesson's evidence,
-      what's her best next step?
+      In the study where Finnish and Japanese students faced a woman through an electronic shutter,
+      what differed between the two groups when she looked straight at them?
     options:
-      - Ask him to look at her while she talks, since attention shows in the eyes
-      - Assume he is shy, and skip the rest of the details until he settles in
-      - Assume it's a custom from where he grew up, and carry on exactly as before
-      - Notice what he says back, and check the key point in words if it matters
+      - Their hearts, since the Japanese students' heart rates slowed far more when she looked
+      - Nothing measurable, so the authors concluded culture plays no part in reactions to a look
+      - Whether they noticed her gaze, since only the Finnish students looked back into her eyes
+      - Their ratings, as a direct look led the Japanese students, not Finns, to rate her angrier
     answer: 3
     explain: >-
-      Looking down could come from a gaze habit, from eye contact costing attention, or from not
-      listening, and the gaze alone can't tell these apart. His words can: whether he asks, repeats or
-      sums up. Asking him to look at her demands the one signal that some listeners find makes
-      listening harder. Deciding he's shy, or deciding it's his culture, is still guessing from the
-      eyes, just with a kinder guess.
+      Both groups' hearts slowed in the same way to a direct gaze, so the body's response was much the
+      same. What differed was how they rated her: a direct gaze made the Japanese students rate her
+      angrier and made no difference to the Finns' anger ratings, while it made the Finns, not the
+      Japanese, find her more approachable. The authors put the difference down to display rules and
+      cultural norms, which is not the same as culture playing no part, and the study reports nothing
+      about only one group noticing her gaze.
   - q: >-
       In Rossano, Brown and Levinson's recordings of questions in three unrelated communities, which
       pattern did they find?
@@ -62,8 +62,10 @@ quiz:
       Reviews of the research using Hall's categories call the country classifications flawed or very
       limited, and one found tests failing to support the claims about directness. Large value surveys
       found more agreement than disagreement across countries. None of that shows the opposite is true,
-      so "take every word literally" swaps one rule for another, and a national score is the same kind
-      of label. Applying a country label to each person is the step the critics object to most.
+      so "take every word literally" swaps one rule for another. A national score is the same kind of
+      label, and Hofstede himself warns against using national scores to stereotype individuals. The
+      reviews question the country classifications themselves, so applying one to a single person
+      rests on weak ground twice over.
   - q: >-
       A friend says, "Science has proved that autistic and non-autistic people pass on information
       worse when they're paired." Which is an accurate summary of the two studies this lesson
@@ -81,20 +83,21 @@ quiz:
       in both the all-autistic chains did as well as the non-autistic ones. Critiques and defences of
       the idea have been published since, so "nobody has challenged either" is wrong too.
   - q: >-
-      Oswin's father has hearing loss, and they're meeting in a busy café. Oswin catches himself
-      talking louder and more slowly. What does RNID's advice suggest instead?
+      A care-home manager reads about the elderspeak studies and tells her staff they prove that
+      talking sweetly to any older person makes them resist. Which is the most accurate summary?
     options:
-      - Face him, speak clearly, move somewhere quieter, and ask what works best for him
-      - Keep talking louder and slower, since both help anyone with hearing loss to follow
-      - Talk to the person sitting next to his father, who can pass the gist on afterwards
-      - Repeat each sentence twice in the same words, so that his father can lipread the rest
+      - They come from dementia care, and the step to other older people is the course's inference
+      - They compared trained homes with untrained ones directly, so the result holds for everyone
+      - They found that elderspeak made residents with dementia more cooperative during their care
+      - They were done with healthy older adults at home, so they apply to any grandparent directly
     answer: 0
     explain: >-
-      RNID asks people to face the person, speak clearly, avoid shouting or unnecessarily slow
-      speech, move somewhere quieter if possible, and ask how the person wants to be communicated
-      with. Louder and slower is the habit that advice names. Talking through a companion ignores
-      RNID's point that you follow the wishes of the person with communication needs. And when
-      someone doesn't catch a sentence, RNID suggests rephrasing it, not saying the same words again.
+      Both studies come from one research group, in US nursing homes, with residents who have
+      dementia. The trial couldn't be analysed as a comparison of trained and untrained homes, because
+      too few pairs qualified, so its figures are before-and-after changes. The finding ran against
+      elderspeak, not for it: resistance was more likely after it. What older adults without dementia
+      think of it is something the trial reports from studies this course hasn't read, so the step to
+      them is the course's reading.
   - q: >-
       Gerlinde is using a phone interpreter to explain a repair visit to a tenant who speaks little
       English. Which approach matches the interpreting service's own tips?
@@ -107,8 +110,8 @@ quiz:
     explain: >-
       The tips say to speak directly to the person as if the interpreter weren't there, to speak
       naturally, not louder, at a normal pace, and to speak in one sentence or two short ones at a
-      time. "Tell her" talks past the tenant, louder and slower is what the tips advise against, and one
-      long block is harder to interpret, not easier.
+      time. "Tell her" talks past the tenant, louder and slower is what the tips advise against, and
+      instead of one long block the tips ask for a sentence or two at a time, keeping each thought whole.
 ---
 
 Sooner or later you'll talk with someone whose habits aren't yours. They answer a beat later than
@@ -122,24 +125,18 @@ it matters, ask how they want to be spoken with.
 
 ## A small difference, felt as large
 
-Lesson 1, "What a conversation is made of", showed the timing data: in Tanya Stivers and colleagues'
-recordings of informal talk in ten languages, the average gap before answering a yes/no question ran
-from +7 ms in the Japanese recordings to +469 ms in the Danish ones, and every language's average
-fell within about 250 ms of the overall mean. The authors' reading was that local variations are
-"quantitative only".[1] So there is one system, shared, with small differences in tempo.
+You've met the timing data already. In Tanya Stivers and colleagues' recordings of ten languages,
+from lesson 1, "What a conversation is made of", every language's average gap before answering a
+yes/no question fell within about 250 ms of the overall mean, and the authors called the local
+variations "quantitative only". Lesson 1 also gave their account of why
+travellers still come home with stories about slow Nordic replies: each community is tuned to its
+own tempo, so an outsider hears a gap that is normal locally as a meaningful pause. That is the
+authors' argument, not something their study tested.[1] Lesson 2 added that a longer silence may
+read as a bad sign in more than one language, even if where the line falls in each isn't known.[1]
 
-Why, then, do travellers come home with stories about slow Nordic replies or people who never let
-you finish? Lesson 1 gave Stivers and colleagues' answer, and it is worth keeping its label attached:
-each community is tuned to its own tempo, so an outsider hears a gap that is normal locally as a
-meaningful pause. That is the authors' argument, not something their study tested.[1] Lesson 2, "Why
-'no' comes late", added that longer silences drew more negative ratings in American English, Italian
-and Japanese in one earlier study, which this course knows only as another paper reports it, and that paper's authors suggest the
-direction may be shared even if the exact point where a pause starts to mean something differs.
-
-The practical consequence is small but real. If someone replies a fraction slower than you're used
-to, that is not yet evidence that they're reluctant or unfriendly. It may just be their normal
-pace. And if you're the faster one, you may be heard as jumping in. Neither of you is doing
-anything wrong; you're calibrated differently, on the authors' account.
+So if someone replies a fraction slower than you're used to, that is not yet evidence that they're
+reluctant. It may just be their normal pace, and if you're the faster one, you may be heard as
+jumping in. On the authors' account, neither of you is doing anything wrong.
 
 ## Where a listener looks
 
@@ -153,7 +150,7 @@ In recordings from three unrelated communities, the person asking. People asking
 If you expected the listener to look more, you expected what most earlier accounts of gaze had said. The authors call their result a surprise, because it runs against those accounts.
 :::
 
-Federico Rossano, Penelope Brown and Stephen Levinson took about 300 question-and-answer sequences
+Federico Rossano, Penelope Brown and Stephen Levinson took 300 question-and-answer sequences
 from roughly ten pairs of speakers in each of three communities with no historical connection:
 northern Italians, Tzeltal speakers in Mexico, and Yélî Dnye speakers on Rossel Island in Papua New
 Guinea. The talk was informal and natural. For each question they coded whether the person asking,
@@ -163,7 +160,7 @@ questions only.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="cl15-gaze-title cl15-gaze-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="cl15-gaze-title">Who looked at whom during a question, in three communities</title>
-  <desc id="cl15-gaze-desc">Six horizontal bars in three pairs. Tzeltal: the person asking looked at the other in 65.7% of questions, the person being asked in 42.3%. Italian: 73% and 63.3%. Yélî Dnye: 79.7% and 67.3%. In every community the person asking looked more. About 300 questions per community, from Rossano, Brown and Levinson 2009.</desc>
+  <desc id="cl15-gaze-desc">Six horizontal bars in three pairs. Tzeltal: the person asking looked at the other in 65.7% of questions, the person being asked in 42.3%. Italian: 73% and 63.3%. Yélî Dnye: 79.7% and 67.3%. In every community the person asking looked more. Based on 300 questions per community, from Rossano, Brown and Levinson 2009.</desc>
   <text x="20" y="28" font-size="15" fill="var(--text, #111418)">Tzeltal (Mexico)</text>
   <rect x="20" y="36" width="164" height="22" fill="var(--navy, #0f2a4a)"/>
   <text x="192" y="53" font-size="15" fill="var(--text, #111418)">Asking 65.7%</text>
@@ -183,7 +180,7 @@ questions only.
 </svg>
 
 *Share of questions in which the person asking, and the person being asked, looked at the other at
-least once during the question. About 300 questions from roughly ten pairs of speakers in each
+least once during the question, in 300 questions from roughly ten pairs of speakers in each
 community, informal conversation. Rossano, Brown and Levinson, "Gaze, questioning and culture",
 2009, Table 7.1. Drawn by this course from the figures in the chapter.[2]*
 
@@ -202,7 +199,7 @@ a recipient". And they add something that rules out a simple story about the set
 "Tzeltal participants are similar to the Italian when they speak but not when they listen to
 questions."[2] The same people, in the same surroundings, looked differently depending on whether they were asking or being asked.
 
-Keep the scope attached. This is questions only, about 300 in each community, among particular
+Keep the scope attached. This is questions only, 300 in each community, among particular
 groups of speakers; the authors name the restriction to question sequences as a limitation.[2] It
 describes those recordings. It does not tell you where any individual Tzeltal or Italian speaker
 looks.
@@ -216,8 +213,11 @@ looking straight at them, looking away, or with her eyes closed. Nobody talked. 
 slowed in the same way to direct gaze, and both rated it as more arousing, so the body's response was
 much the same. The ratings differed: "Japanese participants rated the model as angrier when the model
 displayed a direct rather than an averted gaze, whereas gaze direction had no effect on Finnish
-participants' anger ratings." The Japanese students also rated her as less approachable and less
-pleasant when she looked at them.[3] The difference in anger ratings was only just statistically significant (p = .048).[3]
+participants' anger ratings." Approachability went the other way round: "Finnish participants rated
+direct eye contact as more approachable than displays of averted gaze; however, gaze direction had
+no effect on Japanese participants' approachability ratings." Compared with the Finns, the Japanese
+students also found her direct gaze less pleasant, though that difference was only marginal.[3] The
+difference in anger ratings was only just statistically significant (p = .048).[3]
 
 That is a **single study** of 40 students, with a silent face rather than a conversation, and its
 authors are careful about it: "we collected data from individuals representing only one Western and
@@ -225,48 +225,60 @@ one East Asian country. Thus, we do not know to which extent the present results
 Western and East Asian cultures, in general."[3] They put the difference down to "display rules and
 cultural norms", learned expectations about looking, rather than to physiology.[3]
 
-A 2020 review of gaze research by Roy Hessels adds a general caution: where people look on a face
-depends on the task, on what the face is doing and on the situation, so cultural differences in gaze
-are real but do not reduce to a simple rule.[4]
+A 2020 review by Roy Hessels adds that where people look on a face depends on the task and the
+situation, so cultural differences in gaze don't reduce to a simple rule.[4]
 
-Lesson 14, "What body language can and cannot tell you", quoted a warning from the US
-Government Accountability Office that behaviour natural to one culture can look suspicious to members
-of another. Now you can see one reason. Where a listener is expected to look, and how a steady look
-feels, both differ between groups that have been measured.
+Lesson 14 quoted a US Government Accountability Office warning that behaviour natural to one culture
+can look suspicious to another. You can now see one reason: where a listener looks, and how a steady
+look feels, both differ between the groups measured.
 
 ## What a country's label can and cannot tell you
 
-If groups differ, why not learn the differences country by country? That is the promise of two
-well-known frameworks: the anthropologist Edward Hall's division of cultures into "high-context" and
-"low-context", and Geert Hofstede's model, which gives countries scores on dimensions of national
-culture. One review found Hall's scheme the most cited framework in research on intercultural
-business communication, and its claims include claims about how directly people speak.[6]
+If groups differ, why not learn the differences country by country? It is tempting to use two
+well-known frameworks that way: learn the country, predict the person. The anthropologist Edward
+Hall divided cultures by how they communicate, in Geert Hofstede's summary of him "into high-context
+(much of the information is implicit) and low-context cultures (nearly everything is explicit)".
+Hofstede's own model gives each country a score on dimensions of national culture, such as
+individualism against collectivism.[22]
 
-**This course has not read Hall's or Hofstede's own books**, so it can't give their case in their
-words, and it won't reconstruct it from their critics. What it has read is the critics' side, at the
-level of abstracts, and that is worth stating plainly so you can weigh it.
+**This course hasn't read Hall's or Hofstede's books.** It has read a short 2011 account by Hofstede
+of his own model, and that account says something the predict-the-person use leaves out. A
+dimension, he writes, "is an aspect of a culture that can be measured relative to other cultures",
+and he cites more than 400 significant correlations between his country scores and other studies'
+results. But culture is "always a collective phenomenon", and "Within each collective there is a
+variety of individuals." His
+conclusion: "national culture scores should not be used for stereotyping individuals."[22] So on
+Hofstede's own account, predicting one person from a country's score misuses the model. The course
+has no comparable statement from Hall himself.
 
-- A systematic review by Markus Kittler, David Rygl and Alex Mackinnon in 2011 found that most
-  research using high- and low-context country classifications rests on "seemingly less-than-adequate
-  evidence", and that the conventional classifications "are flawed or, at best, very limited".[5]
-- Peter Cardon's 2008 review of 224 articles in intercultural business communication found the
-  contexting model the most cited framework, few of its propositions tested, and that the tests "have
-  failed to support many contexting propositions, particularly those related to directness".[6]
+The critics, read here at the level of abstracts, question something else: the country
+classifications themselves.
+
+- A systematic review by Markus Kittler, David Rygl and Alex Mackinnon in 2011 describes Hall's
+  concept as the idea that people "combine preprogrammed culture specific context and information to
+  create meaning", with country rankings attached to it that have changed over time. It found that
+  most research using those classifications rests on "seemingly less-than-adequate evidence", and that the conventional
+  classifications "are flawed or, at best, very limited".[5]
+- Peter Cardon's 2008 review of 224 articles in business and technical communication journals found
+  the contexting model the most cited framework, few of its propositions tested, and that the tests
+  "have failed to support many contexting propositions, particularly those related to directness".[6]
 - Ronald Fischer and Shalom Schwartz analysed three large value surveys, with between 41,968 and
-  84,887 respondents each, in 2011, and found "more consensus than disagreement on value priorities
-  across countries, refuting strong claims that culture determines values".[7]
+  84,887 respondents each, in 2011. They measured values, not conversation, and found "more consensus
+  than disagreement on value priorities across countries, refuting strong claims that culture
+  determines values". Conformity values were the exception, looking like "good candidates for
+  measuring culture as shared meaning systems".[7]
 
-All three were read here as abstracts. Together they make a narrower claim than "culture doesn't
-matter". The Rossano and Akechi studies show that groups do differ in measurable ways. What the
-reviews dispute is that a country's label predicts what a particular person will do, because people
-within a country vary so much.
+No source this course read tests Hofstede's dimensions against how people talk. Together, these
+sources make a narrower claim than "culture doesn't matter". The Rossano and Akechi studies show that
+groups do differ in measurable ways. The reviews question the country labels, and Hofstede himself
+warns against reading a person off a national score. Either way, a label is a weak guide to the
+person in front of you.
 
 So this is **contested**. How far cultural variation goes, and whether national typologies help,
-are open questions; what would settle them is comparative recordings of natural conversation across
-many communities, coded for what people do and what they take it to mean, with the variation within
-each country reported beside the differences between countries. There is also a value question
-underneath, which evidence cannot settle: how far you should adjust to someone else's habits, and how
-far they should adjust to yours.
+are open questions. What would settle them is recordings of natural conversation across many
+communities, with the variation within each country reported beside the differences between
+countries. There is also a value question that evidence cannot settle: how far you should adjust to
+someone else's habits, and how far they should adjust to yours.
 
 On this course's reading, the useful stance follows from both sides at once. Differences exist, so
 don't assume your habits are everyone's. A label predicts poorly, so do not assume you know someone's
@@ -286,7 +298,7 @@ else. Or it could be none of these: lesson 14 found no body movement with one fi
 
 :::checkpoint Before opening: can the gaze itself tell Ottilie which of these it is? And what could she attend to instead, and ask, without guessing and without asking him to explain himself?
 
-No. Each reading produces the same behaviour, so on this course's reading the gaze can't distinguish them, and trying to work out which one applies is guessing, the thing lesson 7 found makes people less accurate, not more.
+No. Each reading produces the same behaviour, so on this course's reading the gaze can't distinguish them, and trying to work out which one applies is guessing, the kind of imagining that lesson 7 found doesn't make people more accurate.
 
 What she can attend to is his words, the channel the Tzeltal listeners used: does he ask questions, repeat back a step, pick up a detail? If it matters that he's got it, she can check the content rather than the eyes: "Shall we run through the first complaint together, so you can see how it goes?" If she wants to know what works for him, she can ask about the briefing rather than about his gaze: "Is this a good way to go through it, or would a written version help?"
 
@@ -355,8 +367,8 @@ If you expected the 2020 result to hold, that was a reasonable expectation. The 
 
 Here are the two studies side by side, because neither should be read alone.
 
-- **Crompton and colleagues, 2020** (a **single study**): 72 adults in nine chains of eight, three
-  all-autistic, three all-non-autistic, three mixed. Each person retold a story with 30 details to
+- **Crompton and colleagues, 2020** (a **single study**, with preregistered analyses): 72 adults in
+  nine chains of eight, three all-autistic, three all-non-autistic, three mixed. Each person retold a story with 30 details to
   the next. Autistic chains passed on about as many details as non-autistic chains (12.96 against
   12.40), and mixed chains fewer (8.92). "Information transfer selectively degrades more quickly in
   mixed pairs, in parallel with a reduction in rapport." The authors listed their limits: "the sample
@@ -371,8 +383,8 @@ Here are the two studies side by side, because neither should be read alone.
 
 Read that last sentence carefully, because both sides can take something from it. Autistic people
 passed information to each other as well as non-autistic people did, in both studies, which is hard
-to square with a strong deficit reading. But the mixed-chain drop, the result that most directly
-supported double empathy, did not replicate. The authors suggest why: their larger sample was more
+to square with a strong deficit reading in this task. But the mixed-chain drop, the result that most
+directly supported double empathy, did not replicate. The authors suggest why: their larger sample was more
 varied, and "The experimental context tested here may have failed to capture difficulties experienced
 in real-world cross-neurotype interactions."[10] That is their explanation, offered after the fact,
 not something they tested. All the participants were from the US and UK.[10]
@@ -380,14 +392,17 @@ not something they tested. All the participants were from the US and UK.[10]
 Since 2025 the idea itself has drawn published argument. This course read each of these as an
 abstract only.
 
-- Lucy Livingston, Lili Hargitai and Punit Shah argue in a 2025 critique that "The DEP is poorly conceptualized, and we find that it is being conflated with many
-  other constructs", and "we caution against the translation of DEP research into applied
-  settings".[12]
+- Lucy Livingston, Lili Hargitai and Punit Shah, in a 2025 critique, grant that the research could
+  improve understanding of social processes, but argue that "The DEP is poorly conceptualized, and we
+  find that it is being conflated with many other constructs". They call for a stronger chain from
+  theory to prediction, and add: "Until then, we caution against the translation of DEP research into
+  applied settings."[12]
 - Caroline Bollen and Janna van Grunsven replied in 2026 that the critique's "warning note is
   problematic both from an ethical and philosophy of science point of view".[12]
 - The 2026 study with Baron-Cohen among its authors, testing how accurately autistic and non-autistic adults
   read autistic and non-autistic storytellers' feelings, concluded: "Findings suggest partial support
-  for the double empathy problem theory".[13] A 2026 study of observers judging filmed suspects
+  for the double empathy problem theory" (its key interaction was a trend, not a significant
+  effect).[13] A 2026 study of observers judging filmed suspects
   reported that "The double empathy hypothesis was not supported".[14]
 
 So the empirical question is open. On this course's reading, what would settle it is larger studies of real, back-and-forth
@@ -408,14 +423,15 @@ works.
 
 ## Hearing loss
 
-:::predict Most people, talking to someone who has not caught what they said, do two things without thinking. What are they, and what does RNID say about them?
+The advice here comes from RNID, the UK charity for people who are deaf or have hearing loss,
+speaking from its community's experience. In this course's terms it is **practitioner advice**.
+
+:::predict Most people, talking to someone who has not caught what they said, do two things without thinking. What are they, and what would you expect a charity for deaf people to say about them?
 
 They talk louder and they slow down. RNID asks people to avoid both shouting and speaking unnecessarily slowly, and to face the person and speak clearly instead.[16] RNID's page doesn't say why, and this course doesn't supply a reason of its own.
 :::
 
-Here the advice comes from an advocacy body, speaking from its community's experience, and it is
-**practitioner advice** in this course's terms: RNID, the UK charity for people who are deaf or have
-hearing loss. Its [communication page](https://rnid.org.uk/information-and-support/how-to-communicate-with-deaf-people-hearing-loss/)
+RNID's [communication page](https://rnid.org.uk/information-and-support/how-to-communicate-with-deaf-people-hearing-loss/)
 starts with "Please face me when you talk to me. Lots of people rely on lipreading to some degree to
 understand." It asks people to speak clearly and "avoid shouting, speaking too fast or unnecessarily
 slow", and says: "Don't be afraid to repeat or rephrase and try something different."[16]
@@ -437,22 +453,23 @@ where, how, and what he'd ask her. Write three or four steps.
 
 :::checkpoint Compare your plan with this one.
 
-First, the place. RNID's advice for a noisy room is to move somewhere quieter if possible. That could mean sitting beside her at a quieter end of the table, or asking her to step into the next room for ten minutes.
+First, the question: he sits down beside her and asks, "What works best for you when it's noisy like this?" She knows what helps her, and RNID's point is that people differ. She may want the quiet room, or something he hasn't thought of.
 
-Second, the manner. Face her and speak clearly at a normal pace. No shouting, no exaggerated slowness. If she does not catch something, say it a different way rather than louder, or write a word down.
+Second, the place, if her answer allows it. RNID's advice for a noisy room is to move somewhere quieter if possible: a quieter end of the table, or ten minutes in the next room.
 
-Third, the question, and it comes early: "What works best for you when it's noisy like this?" She knows what helps her, and RNID's point is that people differ. She may prefer the quiet room, or something he hasn't thought of.
+Third, the manner. Face her and speak clearly at a normal pace. No shouting, no exaggerated slowness. If she does not catch something, repeat it or say it a different way rather than louder, or write a word down.
 
 Fourth, what not to do: talk about her to someone else in front of her, or decide on her behalf that she'd rather be left out.
 
-If your plan started with the question, that is the best order. Everything else depends on her answer.
+If your plan put the place or the manner first, move the question up. Everything else depends on her answer.
 :::
 
 ## Through an interpreter
 
 The interpreting company LanguageLine Solutions, in telephone tips the Minnesota Department of Health
 publishes (a company's advice, labelled so), says "SPEAK DIRECTLY TO THE CUSTOMER", not to the
-interpreter, and "SPEAK NATURALLY, NOT LOUDER - Speak at your normal pace, not slower."[17] That is
+interpreter, and "SPEAK NATURALLY, NOT LOUDER - Speak at your normal pace, not slower." It asks you
+to "Speak in one sentence or two short ones at a time", keeping each thought whole.[17] That is
 RNID's pattern again: talk to the person, at a normal pace.
 
 ## Older people
@@ -465,14 +482,18 @@ it is "a speech style similar to baby talk".[18]
 
 Kristine Williams and colleagues studied it in US nursing homes, with residents who have dementia. In
 a 2017 **randomised trial** across 13 nursing homes, 42 pairs of staff and residents were filmed
-during care. Staff in the homes assigned to three one-hour training sessions cut their elderspeak,
-from 34.6% of their talk by 13.6 percentage points on average, and residents' resistance to care
-fell, from 35.7% of the time by 15.3 points. How much resistance fell tracked how much elderspeak
-fell.[18] The authors name their limits: a small sample, and the chance that staff behaved
+during care. After three one-hour training sessions, staff cut their elderspeak, from 34.6% of their
+talk by 13.6 percentage points on average, and residents' resistance to care fell, from 35.7% of the
+time by 15.3 points. How much resistance fell tracked how much elderspeak fell. The trial was
+designed to compare trained homes with untrained ones, but too few pairs qualified to analyse it that
+way, so these figures are before-and-after changes once staff had been trained (the comparison homes
+were trained later too).[18] The authors also name a small sample and the chance that staff behaved
 differently while being filmed. An earlier observational study by the same group, of 80 filmed care
 episodes with 20 residents, found resistance to care more likely after elderspeak than after normal
-talk, which shows an association, not a cause; this course read that study's abstract.[19] Both are
-**one group's programme**, in dementia care.
+talk. Its authors say an experiment is needed to show cause, and they record the other side:
+some dementia-care researchers and clinicians recommend parts of elderspeak, such as simpler grammar
+and a slower rate, and one study found that some older people value its warmth.[19] Both are **one
+group's programme**, in dementia care.
 
 The trial also reports, citing two studies this course has not read, that older adults without
 cognitive impairment "readily recognize and react negatively to elderspeak", and that it does not help
@@ -519,11 +540,13 @@ contact makes listening harder. That eye contact is a poor test of listening is 
 reading, from three sources.[2][3][8]
 
 **"Some nations leave long silences."** In the ten-language recordings, the Japanese conversations
-were the fastest, and every language's average was within about 250 ms of the overall mean.[1]
+were the fastest and the Danish the slowest, but every language's average was within about 250 ms of
+the overall mean.[1]
 
-**"A country's label tells you how a person will talk."** Reviews of the research call national
-classifications flawed or very limited, and large value surveys find more agreement than
-disagreement across countries.[5][7]
+**"A country's label tells you how a person will talk."** Reviews of the research call the
+high- and low-context country classifications flawed or very limited, large value surveys find more
+agreement than disagreement across countries, and Hofstede himself warns against using national
+scores to stereotype individuals.[5][7][22]
 
 **"Culture makes no difference, then."** Also wrong. Where listeners look, and how a direct look
 feels, differed measurably between the groups studied.[2][3]
@@ -573,8 +596,7 @@ said, and what you did.
 
 ## Connections
 
-Lesson 1, "What a conversation is made of", measured the timing this lesson builds on, and lesson 2
-showed that a slow reply tends to mean reluctance, which is why a different local tempo can be
+Lessons 1 and 2 measured the timing this lesson builds on, and why a different local tempo can be
 misread. Lesson 5 gave STAMMA's advice and Tannen's conversational styles, another kind of difference
 in habit. Lesson 7, "Ask, don't guess", is this lesson's rule. Lesson 14 found that gaze tells you
 almost nothing about lying; this lesson adds that it is a weak test of listening too.
@@ -672,10 +694,14 @@ the manners of mixed company on this lesson rather than repeating it.
     cognitively intact older adults were not read. <!-- SOURCES Part E §6.5; lesson 15 gate closure G13 -->
 19. Williams, K. N., Herman, R., Gajewski, B., and Wilson, K. (2009). Elderspeak communication: impact
     on dementia care. *American Journal of Alzheimer's Disease and Other Dementias*, 24(1), 11–20.
-    **Read: the abstract only.** <!-- SOURCES Part E §6.5; lesson 15 gate closure G13 -->
+    **Read: the full text**, from an Internet Archive copy of the PMC PDF, 26 September 2026. <!-- SOURCES Part E §6.5; lesson 15 review gate closure -->
 20. STAMMA (British Stammering Association). In conversation with someone who stammers.
     [stamma.org](https://stamma.org/about-stammering/conversation-someone-stammers). **Read: the whole
     page**, re-read 26 September 2026. <!-- SOURCES Part E §6.7; lesson 15 gate closure -->
 21. StoryCorps. Great questions.
     [storycorps.org](https://storycorps.org/participate/great-questions/). **Read: the whole page**,
     re-read 26 September 2026. <!-- SOURCES Part E §5.3; lesson 15 gate closure -->
+22. Hofstede, G. (2011). Dimensionalizing cultures: the Hofstede model in context. *Online Readings
+    in Psychology and Culture*, 2(1). [doi:10.9707/2307-0919.1014](https://doi.org/10.9707/2307-0919.1014).
+    **Read: the introduction, the sections on classifying cultures, the IBM research and the six
+    dimensions**, from an Internet Archive copy, 26 September 2026. <!-- lesson 15 review gate closure -->

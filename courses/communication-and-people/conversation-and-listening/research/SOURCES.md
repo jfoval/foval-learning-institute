@@ -1,6 +1,6 @@
 # Sources: Conversation and Listening
 
-<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
+<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
 
 *Stage 1 research, 2026-09-26. Written before any lesson is drafted. Five researchers each worked
 one part of the subject in parallel, in a fresh context, from a shared brief. Part A covers the
@@ -5618,3 +5618,101 @@ cleared or cited; Wolf, Nafe and Tomasello 2021 and Sprecher 2025 stay uncited.
   sentence comes from the BPS article (§4.8: "Their search process identified 73 studies ... of
   which 48 were appropriate for inclusion in their statistical meta-analysis" [V]), not from the
   abstract, and the lesson now cites [32] for it.
+
+## Gate closures, lesson 15 review (2026-09-26)
+
+Read live on 26 September 2026 by the lesson 15 Stage 4 fixer, with curl (generic browser
+User-Agent, no personal data in any header); PMC material through Internet Archive captures and the
+Europe PMC and Crossref APIs (PMC blocks curl). Quotations string-matched after normalising quote
+marks. **For the orchestrator (not done here, because this section is an append):** "Williams 2009
+elderspeak" on the `unread:` line is cleared by the full-text read below.
+
+- **Akechi et al. 2013 re-read** (PLoS ONE HTML), for Reviewer F's F1. "Finnish participants rated
+  direct eye contact as more approachable than displays of averted gaze; however, gaze direction had
+  no effect on Japanese participants' approachability ratings." [V] Pleasantness: a culture-by-gaze
+  interaction (p = .043) with only "a marginal simple main effect of culture for the direct gaze
+  difference scores" (p = .094), Japanese participants rating direct-gaze faces "as more unpleasant
+  than did FI participants" [V]. Abstract: individuals from an East Asian culture "perceive another's
+  face as being angrier, unapproachable, and unpleasant when making eye contact as compared to
+  individuals from a Western European culture" [V]. The gate closure for lesson 15 did not record the
+  approachability result; the lesson's earlier sentence that the Japanese students rated her "less
+  approachable" when she looked at them was wrong and is corrected.
+- **Williams, Perkhounkova, Herman and Bossen 2017 re-read** (PMC5881770, Internet Archive capture
+  20250415130417), for F2: "The NHs assigned to control later crossed over and received the
+  intervention." [V]; because too few dyads met the inclusion criteria, "the sample sizes for a
+  traditional randomized controlled trial analyses that compared intervention and control groups
+  were inadequate. We instead used a linear mixed modeling (LMM) approach that utilized all available
+  data pre and post intervention" [V]. The 34.6/13.6 and 35.7/15.3 figures are before-and-after
+  changes; the 3-month fall in resistiveness, 13.4 points, had p = .077 [V].
+- **Williams, Herman, Gajewski and Wilson 2009, now read in full** (the PMC PDF,
+  10.1177_1533317508318472.pdf, through the Internet Archive; 10 pages with a text layer), for F7.
+  80 videotaped care interactions, 20 residents with dementia (moderate stage), 52 staff, 3 facilities.
+  Probability of resistiveness to care after elderspeak .55 (95% CrI .44 to .66), after normal talk .26
+  (.12 to .44), after silence .36 [V]. The authors call it an "observational study" supporting "a
+  temporal relationship" and write: "A research design that experimentally manipulates nursing staff
+  communication and then assesses resulting resident RTC behaviors is essential to establish a true
+  antecedent-consequent (cause and effect) relationship." [V] The other side, in their background:
+  "some social scientists promote the use of components of elderspeak to improve communication and
+  cooperation in dementia care" [V]; "some dementia care investigators and clinicians suggest that
+  aspects of elderspeak can improve resident cooperation" [V], with Orange and Colton-Hudson
+  recommending "simplification of grammar and vocabulary, slow rate, and accentuated pitch" [V]; and
+  "O'Connor and Rigby found that some elders value the warmth and the succorance of elderspeak." [V]
+  Limits named: awareness of recording, a limited sample, homogeneity of dementia stage, infrequent
+  resistiveness. (The abstract gives Bayes P = .0082 and the results section .0028; the lesson uses
+  neither.)
+- **RNID re-read** (page as of today), for F3 and P2: "If someone doesn't understand you, repeat what
+  you said or phrase it differently" [V], alongside "Don't be afraid to repeat or rephrase and try
+  something different." [V] Repeating is part of RNID's advice.
+- **LanguageLine tips re-read** (Minnesota Department of Health PDF), for P3 and F9: under
+  "SEGMENTS", "Speak in one sentence or two short ones at a time. Try to avoid breaking up a thought.
+  Your interpreter is trying to understand the meaning of what you're saying, so express the whole
+  thought if possible." [V] Under "CLARIFICATIONS": "if the interpreter is given a long statement,
+  the interpreter will ask you for a complete or partial repetition of what was said" [V].
+- **Livingston, Hargitai and Shah 2025, abstract re-read** (Europe PMC), for F4. The caution is
+  conditional: "Overall, we argue for a strengthening of the derivation chain pertaining to the DEP,
+  toward more robust research on (a)typical social cognition. Until then, we caution against the
+  translation of DEP research into applied settings." [V-abstract] The same abstract grants that
+  "research on the DEP has the potential to improve understanding of both typical and atypical social
+  processes" [V-abstract]. The lesson 15 gate closure's quotation began at "we caution", dropping
+  "Until then"; the lesson now quotes the full sentence.
+- **Rum et al. 2026, abstract re-read** (Europe PMC), for F6(a): "No significant main effects emerged
+  for rater or target neurotype"; "A trend-level interaction (p=.059, d = 0.13)" [V-abstract].
+- **Crompton et al. 2020 re-read** (Europe PMC XML, PMC7545656), for F6(c): "Initial pre-registered
+  ( Crompton & Fletcher-Watson, 2019 ) analyses" [V].
+- **Rossano, Brown and Levinson 2009, p. 205 re-read** (MPG PuRe author copy, page OCR'd today at
+  200 dpi), for F8: "we selected roughly ten dyads and searched for question-response sequences until
+  we had 300 such sequences for each cultural sample." [V, OCR] Exactly 300 per community.
+- **Kittler, Rygl and Mackinnon 2011; Cardon 2008; Fischer and Schwartz 2011: abstracts re-read**
+  (Crossref), for F5. Kittler et al.: "Hall's concept suggests that individuals combine preprogrammed
+  culture specific context and information to create meaning. The use of context is argued to vary
+  across cultures and country classifications have been attached to Hall's concept. These country
+  rankings have evolved over time" [V-abstract]. Cardon: "a meta-analysis of 224 articles in business
+  and technical communication journals between 1990 and 2006" [V-abstract]. Fischer and Schwartz:
+  "Only conformity values show patterns suggesting they are good candidates for measuring culture as
+  shared meaning systems." [V-abstract] Neither Kittler et al. nor Cardon mentions within-country
+  variation or applying labels to individuals; that point is not theirs.
+- **New: Hofstede, G. (2011). Dimensionalizing cultures: the Hofstede model in context. *Online
+  Readings in Psychology and Culture*, 2(1). doi:10.9707/2307-0919.1014.** A primary statement of
+  Hofstede's model by Hofstede, read for F5 so the lesson can give the typologies in a proponent's
+  terms. ScholarWorks@GVSU returns a Cloudflare challenge to curl; read from the Internet Archive
+  capture 20260915075456 of the PDF (12 pages, text layer). Read: the introduction, "Classifying
+  Cultures", the IBM research, the six dimensions in summary, and the later sections on
+  individual-level research; the tables were skimmed. Quotations [V]: "Culture is the collective
+  programming of the mind that distinguishes the members of one group or category of people from
+  others"; "It is always a collective phenomenon, but it can be connected to different collectives.
+  Within each collective there is a variety of individuals."; "A dimension is an aspect of a culture
+  that can be measured relative to other cultures."; the second edition of *Culture's Consequences*
+  "lists more than 400 significant correlations between the IBM-based scores and results of other
+  studies"; "One of the weaknesses of much cross-cultural research is not recognizing the difference
+  between analysis at the societal level and at the individual level"; "So culture and personality
+  are linked but the link is statistical; there is a wide variety of individual personalities within
+  each national culture, and national culture scores should not be used for stereotyping
+  individuals."; Individualism and Masculinity are described "as a societal, not an individual
+  characteristic". His summary of Hall: "U.S. anthropologist Edward T. Hall (1976) divided cultures
+  according to their ways of communicating, into high-context (much of the information is implicit)
+  and low-context cultures (nearly everything is explicit)." [V] Hall's own book remains unread;
+  Hofstede is a sympathetic summariser of Hall, not a critic, but this is still Hall at one remove.
+  Hofstede's books remain unread. Nothing read here tests Hofstede's dimensions against conversation.
+- **Beyond Culture (Hall 1976):** the Internet Archive copies (beyondculture0000hall and
+  beyondculture0000hall_t6d8) are access-restricted lending items; search inside returns "Item not
+  available". Not read.
