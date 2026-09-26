@@ -187,3 +187,64 @@ predict); "Before you open the bonnet" (new predict and two paragraphs); the sur
 paragraphs; "After a crash" (F14, F6, F5, Rule 283); the moved Sarasota predict; "Where a damaged car
 is kept" and "Flood" (distances, recovery service); the fire misconception; exercise part 1; Go deeper
 and source entries [1], [5] link and [17].
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, full pass (not only the changed sentences), because the
+rewrite was heavy. **Verdict: CLEAN**, after five one-edit fixes applied in this pass.
+
+**Primaries re-read today** (curl, generic browser User-Agent, no personal data): Nissan's 2024 LEAF
+PDF live (EV-8, EV-23, CH-2, CH-11 to CH-12, 8-2, each quotation located by page); Ford's 2024
+Maverick, capture 20250505042038 (live 403): pp. 184 and 283 to 284; NHTSA capture 20260924154857
+(live 403); NFPA capture 20240718031252 (loads, HTTP 200; live still 500); ESF's EV page and the
+2019 "Driven to danger" release, live; Highway Code Rules 283 and 121 and Annex 6 (content API);
+MOT manual Introduction section 20 (content API); AFDC, Derbyshire FRS and the GOV.UK grants page,
+live. Every quotation the fixer added or changed matched: CH-2's "can start at any time during
+charging"; EV-23's cool-down line; Ford's "present potential high-voltage shock hazards" and the
+crash, fire and post-incident lines; NHTSA's "may cause high-voltage shock hazards", the flood answer
+and its 50 feet; ESF's "must", AVOID list, reel fallback, daisy-chain gloss, Censuswide figures and
+"calling on the Government"; Rule 283 and Rule 121 ("deep water").
+
+**Safety sweep:** nothing has a reader touch, open or unplug a high-voltage part, or reads as
+permission to; no silent car is called off (petrol stop-start included); every bonnet look is off
+charge and cold (the "Before you open the bonnet" section and exercise part 1); the exercise's
+optional look is hands at sides, no reaching or leaning, step back if a fan starts, damage left
+alone as Call someone; exposed high voltage after a crash is in the body with Ford's and NHTSA's
+lines and "nobody touches ... whatever its colour"; moving a damaged or flooded car is the recovery
+service's, labelled as the course's reading, in the body and quiz 6.
+
+**Also checked:** pointers to lessons 4 (ASE's 30 V AC / 60 V DC, Nissan's ~400 V DC, 48 V, the
+colour code and both MOT caveats, the exercise's label steps), 5 (both HSE quotations) and 9 (the
+preparation list item by item, and Ford's stop-start restart) are accurate, as are the titles of
+lessons 13, 16 and 24 and the Home Repair and First Aid pointers. Quiz keys 3,2,1,0,2,3: all four
+used, no adjacent repeat, no identical or value-shifted sequence and no shared run of four at
+offsets 0 or ±1 against every lesson on disk (01 to 19). Every explanation read against its options.
+Callout byte-exact against `CAR_BASICS_SAFETY`; no em dashes or spaced en dashes; no banned words
+("journey" only in Derbyshire's quotation). `npm run quotes car-basics`: no misses for this file.
+
+**Fixed in this pass (one edit each):**
+- S1. The retrieval predict trimmed Nissan's p. 8-2 fan sentence to its "even if" clause with a
+  paraphrased "can come on", against the course convention that it is quoted whole; now "may come
+  on at any time without warning, even if ...".
+- S2. Quiz 2: the key was the only option carrying no absolute (the P9 pattern again). Option B is
+  now "ESF objects to reels, while NFPA and Nissan allow a lead rated for outdoor use" (78 chars;
+  spread 78 to 89; key 84, not the longest). Still wrong on both halves; the explanation covers it.
+- S3. Sarasota predict: "Before reading on" and "if you had to guess before the next section" said
+  the same thing; the second went.
+- S4. "Those are its advice." to "That is Derbyshire's advice."
+- S5. "The callout's clause ... is this lesson's whole subject. Nothing in it asks you" overstated
+  the clause (the lesson also covers charging, fire and flood) and left "it" ambiguous; now "is
+  where this lesson starts. Nothing in this lesson asks you".
+
+**Noted, not fixed (low; none blocks):**
+- N1. Quiz 6's key says "call the dealer before it's moved"; NHTSA says to contact the dealer
+  and/or emergency services if you suspect battery damage, and says nothing about timing. The
+  explanation gives NHTSA's words, so the item teaches correctly. NHTSA's wording in the option
+  would make the key the sole longest (85 against 84), so it was left.
+- N2. Quiz 1: only option A carries no absolute on a strict count, because the key and option C
+  share "proves nothing". Not a cue, since the key shares the word.
+- N3. Sources [5] links the live NFPA URL (HTTP 500) and says "it is linked for the reader"; the
+  body and Go deeper link the working capture. Rewording the entry is optional.
+- N4. "The handbooks' own words for owners are stricter" fits Ford's "Do not come in contact" better
+  than Nissan's "Follow the warning labels".
+
+**Measures:** 6,642 words, `minutes: 90` (measured 90). `npm run validate`: exit 0.

@@ -39,7 +39,7 @@ quiz:
       statement matches the sources in this lesson?
     options:
       - All three sources allow an outdoor-rated cable reel, as long as it is fully unwound first
-      - Only ESF objects to reels; NFPA and Nissan allow any lead rated for outdoor use
+      - ESF objects to reels, while NFPA and Nissan allow a lead rated for outdoor use
       - ESF allows one as a fallback; NFPA and Nissan's LEAF handbook say no extension leads
       - The sources object only to indoor leads, so a reel on the driveway is fine for all
     answer: 2
@@ -109,7 +109,7 @@ quiz:
       - The garage is the safest place for it, since it keeps the rain off a damaged battery
       - The garage is fine if the car is left unplugged and the garage door stays open
       - Charge it first in the driveway, so the battery can be tested before it goes inside
-      - Not in a garage or within 50 feet of the house; call the dealer before it's moved
+      - Not in a garage or within 50 feet of the house; contact the dealer if the battery is suspect
     answer: 3
     explain: >-
       NHTSA: flooded vehicles "lead to high-voltage shock hazards, which could lead to a fire", and
@@ -135,7 +135,7 @@ flood.
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
 :::
 
-The callout's clause about the orange cables is this lesson's whole subject. Nothing in it asks you to touch, open,
+The callout's clause about the orange cables is where this lesson starts. Nothing in this lesson asks you to touch, open,
 unplug or go near any part of the high-voltage system, or to do any electrical work at home. Where
 it asks you to look at the car, you look from where you stand, with the car switched off. It uses UK
 words with the US word once: bonnet (hood) and extension lead (extension cord). Where NFPA says GFCI,
@@ -220,7 +220,7 @@ to ask a garage.
 
 :::predict Before reading on, from lesson 9: what are the steps before the bonnet of a hybrid or electric car is opened, and why isn't a silent car an off car?
 
-Lesson 9's list: level ground, parking brake on, P (or in gear), switched off in the way the handbook describes (READY is not off), key or fob away from the car, wait until it's cold, glasses on, rings and watch off, hands clear of the fan and belts, then open the bonnet by the handbook's method. Silence proves nothing: Ford says a hybrid's engine, and a petrol engine with stop-start, "could restart at any time" unless the ignition is switched off, and Nissan says the LEAF's cooling fan can come on "even if the power switch is not in the ACC, ON or READY to drive position". If you missed any step, lesson 9 has the reason for each.
+Lesson 9's list: level ground, parking brake on, P (or in gear), switched off in the way the handbook describes (READY is not off), key or fob away from the car, wait until it's cold, glasses on, rings and watch off, hands clear of the fan and belts, then open the bonnet by the handbook's method. Silence proves nothing: Ford says a hybrid's engine, and a petrol engine with stop-start, "could restart at any time" unless the ignition is switched off, and Nissan says the LEAF's cooling fan "may come on at any time without warning, even if the power switch is not in the ACC, ON or READY to drive position". If you missed any step, lesson 9 has the reason for each.
 :::
 
 A silent car is not an off car. Lesson 9 showed it for a petrol engine with automatic stop-start,
@@ -306,7 +306,7 @@ starting the charge operation."[1]
 
 Two habits are offered as fire safety that this course does not teach as such. Derbyshire's list says
 "Day to day use, the vehicle should be charged up to 80%" and "Don't charge your car immediately
-after a journey".[11] Those are its advice. No maker's handbook this course read calls either one a
+after a journey".[11] That is Derbyshire's advice. No maker's handbook this course read calls either one a
 fire-safety measure, though Nissan's LEAF handbook gives the second as advice for the battery's
 life: "Allow the vehicle and Li-ion battery to cool down after use before charging."[1] Your
 handbook governs your car. Electrical Safety First's EV page lists "Charging the battery continuously or
@@ -403,7 +403,7 @@ Do electric cars catch fire more often than petrol ones? This course found no da
 that fairly, counting fires against how many of each kind of car are on the road, so it makes no
 comparison either way. You'll see figures quoted on both sides; ask what each one was divided by.
 
-:::predict In Sarasota, an electric car rolls into a concrete post at low speed in a multi-storey car park. Nobody is hurt. A few minutes later there's a sharp smell and a gurgling sound from under the car. Before reading on: set out, in order, what the driver does, and where the car should end up afterwards, if you had to guess before the next section.
+:::predict In Sarasota, an electric car rolls into a concrete post at low speed in a multi-storey car park. Nobody is hurt. A few minutes later there's a sharp smell and a gurgling sound from under the car. Before reading on: set out, in order, what the driver does, and where the car should end up afterwards.
 
 This course's reading: the gurgle moves the driver from Ford's crash steps to its fire steps, whose first is "Exit the vehicle immediately." Ford's list for its car says to call emergency assistance if you "hear gurgling or bubbling from the high-voltage battery", and its crash advice is to "Avoid contact with leaking fluids and gases". So get out and get away from the car, keep others away, stay clear of any smoke, and call 911 at once, saying it's an electric car. Don't go back for belongings, don't touch the car, and don't try to put anything out. A multi-storey car park is a structure, so once responders have dealt with it, the car is not left or stored there: NHTSA says not in a garage or within 50 feet (about 15 m) of a house, other structure, vehicle or combustibles, and Ford says 49 ft (15 m) of any structure or vehicle. The recovery service moves it. Afterwards, the battery is inspected by a specialist or dealer, which Derbyshire's advice asks for even after small bumps. All of it is Call someone.
 :::
@@ -539,7 +539,7 @@ covers electrical burns. Lesson 16 takes the damaged car to the roadside and the
    lesson: printed p. 184 ("High Voltage Battery Precautions") and pp. 283 to 284 (crash, fire and
    post-incident), 26 September 2026.** A maker's handbook for its own car, sold as petrol or full
    hybrid. <!-- SOURCES Part B §5; lesson 13/14 gate closures -->
-5. NFPA (US National Fire Protection Association), ["Electric Vehicles: Safe Charging at Home"](https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf),
+5. NFPA (US National Fire Protection Association), ["Electric Vehicles: Safe Charging at Home"](https://web.archive.org/web/20240718031252/https://www.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/ev-safe-charging-at-home.pdf) (archived copy; NFPA's own link was down when checked),
    safety tip sheet, ©NFPA 2024, read from Internet Archive capture 20240718031252 (the live URL
    returned a server error on 26 September 2026; it is linked for the reader). **Read: full text,
    re-read 26 September 2026 from the same capture.** <!-- SOURCES Part B §5; lesson 13/14 gate closures -->
