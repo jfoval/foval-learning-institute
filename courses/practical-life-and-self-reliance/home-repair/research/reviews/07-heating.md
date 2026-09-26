@@ -145,3 +145,72 @@ the "Yours, on conditions" paragraph for topping up, the reordered Ideal list an
 section were rewritten; a fresh reader should walk the exercise as a renter and as an owner with a
 system boiler whose filling loop is not at the boiler, and check each condition against Ideal's and
 Worcester Bosch's pages and OUTLINE decision 1's amendment.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context second-pass reviewer, on the top-up chain, the new gas section, quiz
+items 1 and 4, and every first-pass fix. Re-read live today with curl: Ideal "Topping up the
+pressure"; Worcester Bosch *System Filling Guide* PDF (all eight pages) and pressure FAQ; Vaillant
+"Why is my radiator not working?"; SI 1998/2451 reg 3 and SR 2004/63 reg 3 on legislation.gov.uk;
+DOE "Furnaces and Boilers" capture 20250102062644. Checked against OUTLINE decision 1 and its
+2026-09-25 amendment.
+
+**Walk 1, a renter.** The exercise's opening covered bleeding and topping up but not the US filter
+change in step 3, which changes something in a rented home (decision 1; the briefs' "if it's your
+home to repair, or your landlord agrees"). Fixed: the opening now reads "bleed a radiator, top up
+the pressure or change a filter only if ...". Step 4 sent a renter who had the landlord's agreement
+to top up, but whose loop turned out to be elsewhere, to call the installer herself. Fixed: "If you
+rent, tell the landlord instead." Quiz 2's key is a top-up by a tenant; its stem did not say the
+guide gives a user method or where the loop is. Fixed in the stem ("and a filling method for the
+user, and the filling loop is under the boiler"); options and key unchanged.
+
+**Walk 2, an owner with a system boiler whose filling loop is not at the boiler.** The exercise
+sends the top-up to the installer correctly, but only after step 4 has had the owner bleed, so it
+left a reader with a low gauge and the heating off: exactly what the amendment's reasoning ("an
+exercise that allows bleeding needs the top-up to leave a reader with a safe gauge") rules out.
+Fixed: bleed "only if you could top the pressure back up on the conditions below, since bleeding
+lowers it; if you couldn't, write the radiator down for your installer instead." The body's
+"Yours, on conditions" paragraph lacked the location condition that decision 1's amendment and
+step 4 carry, so a reader of the body alone could top up from a loop in an airing cupboard. Fixed:
+"you can clearly identify the filling controls and they are under or built into the boiler".
+Noted, not changed: Worcester Bosch's guide places its external hose "beneath or beside and close
+to the boiler", so a Worcester Bosch owner with a hose beside the boiler is sent to the installer by
+step 4 although the maker gives a user method. That is stricter than the maker, in the safe
+direction, and it is decision 1's line. Also noted: the first-pass resolution declined "(near a
+cylinder or in an airing cupboard)" saying no source places the loop there; Ideal's live page does
+("such as near the hot-water cylinder or inside an airing cupboard"). The lesson's wording is still
+right without it; a fixer may add it to SOURCES and use it.
+
+**Ideal's steps against the live page.** All six in the lesson match Ideal's seven (step 2, the
+gauge's location, omitted as "in short"). Step 4 hardened Ideal's "may cause the system pressure to
+continue rising" to "lets"; fixed to "may let".
+
+**Gas section.** Reg 3(1) and 3(3) of SI 1998/2451 re-read live (extent E+W+S): competence binds
+every person; 3(3) binds employers and the self-employed to membership of the HSE-approved class.
+The lesson's sentence matches the briefs' settled wording, with no "illegal", no "both parties" and
+nothing a reader may lawfully do. SR 2004/63 reg 3 re-read live (extent N.I.): paragraphs (1) to (8)
+track GB's almost word for word, with "the Executive" for HSE, so "mirrors" is right. Short label at
+the top of the H2, the full one in the opening: as the convention says.
+
+**Quiz 1.** Key 3 is right on Vaillant's text, but the explanation's "so bleeding isn't the first
+step" overstated it: the same Vaillant page's summary says a radiator that is entirely cold "is
+likely" to need bleeding, alternatively the valves. Fixed to "and with its TRV at 1 the valve is the
+first thing to check", and the body's whole-cold sentence now carries Vaillant's own condition,
+"with no sign of trapped air". Owed (not a lesson edit): a line in SOURCES' entry for this page
+recording the summary and why it is not used. **Quiz 4:** DOE's 35% "of the energy for output of
+the furnace" re-read on the capture; 0.80 × 0.65 = 0.52 and 80 − 35 = 45, by hand; new case, key
+right, explanations name distractors by content.
+
+**First-pass fixes.** R1 to R22 each read against the lesson and, where the claim is a source's,
+against the live page or capture: all correct as applied, with the two refinements above (R3's
+renter line, R14's "may").
+
+**Measures.** Quiz keys 3,0,3,2,1, checked by script against lessons 01 to 06 and 08 on disk: all
+four positions, no adjacent repeat, none identical, no pure shift, longest shared run at offsets 0
+or ±1 is 3 (lesson 06). Option-length spreads 10, 7, 4, 4, 3. Contractions 7.9 per 1,000 body words
+outside quotations (40 in 5,097; 8.1 with quoted text), inside the band after "Here's" became "Here
+is". No em or en dashes. Read aloud: nothing that fails (one "and/or", inside ENERGY STAR's
+quotation). `minutes: 100` matches `npm run minutes`. `npm run quotes home-repair`: 146, 0 not
+found. `npm run validate`: exit 0; no line names this file.
+
+**Verdict: CLEAN.**

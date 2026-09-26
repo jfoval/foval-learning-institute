@@ -27,13 +27,14 @@ quiz:
       air, check the valve on it first; if it still won't heat, the valve may be "blocked by
       sludge or limescale", which Vaillant sends to a heating engineer. Worcester Bosch's rule
       is about part of a radiator: cold at the top is air, and hot at the top with cold below
-      could be sludge. A radiator cold all over fits neither, so bleeding isn't the first step.
+      could be sludge. A radiator cold all over fits neither, and with its TRV at 1 the valve is the first thing to check.
       Topping up answers a gauge that reads low against the manual's figure, and one cold
       radiator among hot ones isn't a gauge reading. And "always sludge" skips the valve check
       that Vaillant puts first.
   - q: >-
       A tenant in a flat in Ayrshire reads the gauge on her combi one cold morning, with the
-      heating off: 0.4 bar. The boiler's user guide gives 1 to 1.5 bar cold. Her landlord agrees
+      heating off: 0.4 bar. The boiler's user guide gives 1 to 1.5 bar cold and a filling method for the user, and the filling
+      loop is under the boiler. Her landlord agrees
       she can deal with the boiler's water pressure. What fits the guidance this lesson read?
     options:
       - Water has been lost, so top up by the guide's own method to its figure and watch it
@@ -195,7 +196,7 @@ filling guide, for its own boilers, says: "A sealed system relies on an operatin
 to deliver heating and hot water at a consistently comfortable and reliable level."[4] (Lesson 2 used the same unit for the water supply, with WaterSafe's conversion of 1 bar to about
 14 psi.)
 
-Here's where the course's question, **law or advice, whose, and where?**, earns its keep. That
+Here is where the course's question, **law or advice, whose, and where?**, earns its keep. That
 figure is a maker's, for its own boilers, and makers differ:
 
 | Maker (about its own boilers) | Normal pressure it gives | What it says about too low and too high |
@@ -237,8 +238,8 @@ fix is **Call someone**. Nothing about it is a householder's to adjust.
 
 Putting water back into a sealed system is a job some makers write up for householders. It is
 **Yours, on conditions**: your boiler's own user instructions give you a filling method, you
-follow them to your boiler's own figure, you can clearly identify the filling controls, the boiler
-is off and cold, and it's your home to repair or your landlord agrees. If you rent, ask your
+follow them to your boiler's own figure, you can clearly identify the filling controls and they are
+under or built into the boiler, the boiler is off and cold, and it's your home to repair or your landlord agrees. If you rent, ask your
 landlord first. This lesson gives two makers' accounts to show what those instructions look like,
 not to replace yours.
 
@@ -264,7 +265,7 @@ have. Its steps for a combi, in short:[5]
    controls. Do not operate unidentified valves underneath the boiler."
 3. Open the filling valve or valves slowly, watching the gauge, "as the pressure may rise quickly."
 4. At about 1.0 to 1.5 bar, return the valves to where they were, and make sure they are fully
-   closed, because a valve left partly open lets the pressure keep rising.
+   closed, because a valve left partly open may let the pressure keep rising.
 5. Bleed the radiators, heating still off and cool (the steps are in the bleeding section below),
    then check the pressure again.
 6. Switch the boiler back on and check it works normally.
@@ -313,7 +314,7 @@ says the oxygen in trapped air "causes corrosion which can result in leaking and
 radiators".[8] Neither maker says more about what the sludge is made of, and this course won't
 either. What matters is where it sits, and that a bleed key can't reach it.
 
-A third pattern: the whole radiator is cold. Vaillant's advice is to check its valve first, since
+A third pattern: the whole radiator is cold, with no sign of trapped air. Vaillant's advice is to check its valve first, since
 a thermostatic valve may simply be set too low, and if the valve is right and the radiator still
 won't heat, the valve may be blocked by sludge or limescale, which it sends to a heating
 engineer.[9]
@@ -515,8 +516,8 @@ Ideal says a fault becomes more likely, and to contact it.[3][5]
 
 :::exercise Know your system
 Take 40 minutes over this. If you rent, do the looking, the reading and the writing, and bleed a
-radiator or top up the pressure only if it's your home to repair or your landlord agrees; if it
-isn't, ask your landlord.
+radiator, top up the pressure or change a filter only if it's your home to repair or your landlord
+agrees; if it isn't, ask your landlord.
 
 1. **Identify it.** UK: find the boiler and its flue (plastic or metal), and look for a cylinder in
    an airing cupboard and tanks in the loft. Don't climb a ladder into the loft for this exercise;
@@ -538,14 +539,16 @@ isn't, ask your landlord.
 4. **Walk the radiators** (UK wet systems). With the heating on, feel the top and bottom of each
    radiator, carefully, since they are hot. Write each one down as warm all over, cold at the top,
    cold at the bottom, or cold all over. Bleed only one that's cold at the top, by the steps in
-   this lesson, with the heating off and the radiators cool. Then check the gauge. If it (or step
+   this lesson, with the heating off and the radiators cool, and only if you could top the pressure
+   back up on the conditions below, since bleeding lowers it; if you couldn't, write the radiator
+   down for your installer instead. Then check the gauge. If it (or step
    2's cold reading) is below your manual's figure, top it up only if all of these hold: your
    boiler's user manual gives a filling method for you, the filling controls are clearly
    identifiable under or built into the boiler, the boiler is off and cold, and it's your home to
    repair or your landlord agrees. Ideal's method, for one, is for combis only. If the filling loop
    is somewhere other than under or built into the boiler, or you can't clearly identify the
-   controls, leave the heating off and call your installer or a heating engineer. If you rent and
-   haven't got the landlord's agreement, tell the landlord instead.
+   controls, leave the heating off and call your installer or a heating engineer. If you rent, tell
+   the landlord instead.
 :::
 
 :::checkpoint Check your walk-round against this. For each finding, what does it point to, and whose job is it?
