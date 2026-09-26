@@ -206,6 +206,9 @@ instead).
   shared in more than three positions, no run of three shared at any offset, not a rotation or
   shift; chosen by script. **From lesson 9 on** (no sequence passes that against eight lessons):
   no run of three at offsets 0 or ±1; a run of three at ±2 is tolerated; value rotation advisory.
+  **From lesson 12 on** (only six sequences passed that against ten lessons): all four positions
+  used, no adjacent repeat, not identical to or a pure shift of any earlier lesson, and no shared
+  run of four at offsets 0 or ±1. The point is that no lesson's answers can be learned from another's.
 
 - **From lesson 7's review (2026-09-25):** any contact route offered to a reader whose phone or
   computer may be watched is tied to a device the abuser can't reach, labelled as the course's
