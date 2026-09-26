@@ -95,3 +95,8 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   minutes" costs the lesson 37.5 modelled minutes with three steps. Lesson 01 measures 95 with the
   twelve-job sort kept.
 - **Quiz keys:** 01 3,0,1,3,2,0 (unchanged by the fix).
+
+## Keys as committed (2026-09-26, after the second passes)
+
+The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 03 1,3,0,2,0,3;
+04 0,2,3,0,1. Read the lessons, not this file, when checking a new lesson's keys.

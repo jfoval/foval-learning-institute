@@ -1,6 +1,6 @@
 ---
 title: What a car is made of, and why the handbook comes first
-minutes: 95
+minutes: 100
 objectives:
   - >-
     Explain the car as a set of systems (engine or motor, 12 V electrics, brakes, steering and
@@ -108,10 +108,9 @@ quiz:
     answer: 0
     explain: >-
       Whose is it? A company that sells cover and repairs, so it is a motoring organisation's
-      advice, not official, and it names no car. It is not law: the law in Great Britain, as Annex 6's
-      MUST rule states it, is that tyres are inflated to the maker's specification, and it sets no
-      interval. Nor is
-      it a handbook figure. Landing between the Highway Code's weekly and NHTSA's monthly does not
+      advice, not official, and it names no car. It is not law: Great Britain's law requires tyres
+      inflated fit for their use, which Annex 6's MUST rule reads as the maker's specification, and it
+      sets no interval. Nor is it a handbook figure. Landing between the Highway Code's weekly and NHTSA's monthly does not
       make it official; it's a third piece of advice to weigh against the other two.
 ---
 
@@ -150,7 +149,7 @@ reading of their contents pages (the books themselves were not read): the engine
 system, the brakes, steering and suspension (with tyres and wheels inside it), and the
 transmission. The two US books add a part on heating and air conditioning (one calls it passenger
 comfort), and one gives hybrid and electric vehicles a part of its own; the UK book groups brakes,
-steering and suspension as chassis systems.[20] That map is for people who repair cars. An owner
+steering and suspension, on this course's reading, under the part its contents call chassis systems.[20] That map is for people who repair cars. An owner
 needs a smaller one: which system each of your checks looks after. This course's map gives tyres a
 row of their own, because so many of the owner's checks are on them.
 
@@ -271,7 +270,7 @@ teaches the check itself.
 Inflate cold to 32 psi at the front and 30 psi at the rear: the carmaker's figures for this car
 (FMVSS 110 puts them on the pillar in the US). The 44 psi is the tyre maker's maximum for the tyre
 (FMVSS 139), not a target. In Great Britain the Highway Code marks inflating to the maker's
-specification as a MUST rule, citing a regulation, so the law points you to the handbook's number. In the
+specification as a MUST rule, citing a regulation that requires a pressure fit for the use, so the Code points you to the handbook's number. In the
 US, the placard itself is required by federal law; this course read no US law on what pressure you
 must run.
 :::
@@ -316,8 +315,8 @@ The figure is the one in that car's handbook, so the first job is to get it. BAR
 available online. Visit the manufacturer’s website to find yours."[1] Mazda, Honda and Nissan UK
 publish online handbooks and Toyota a PDF, all read by this course.[10][11][12][13] Until she has it,
 the four handbooks read here all say 50 mph (80 km/h), and Toyota's spare says "TEMPORARY USE ONLY"
-on its sidewall, but four other cars' handbooks are not hers. In Great Britain the law allows a car on
-a temporary use spare only at up to 50 mph, which is a ceiling, not her handbook's figure.[22] If you answered "50 mph" with no source,
+on its sidewall, but four other cars' handbooks are not hers. In Great Britain the Construction and Use Regulations excuse
+a car's temporary use spare from their rule against unsuitable tyres only while it goes no faster than 50 mph; on this course's reading that is a legal ceiling, not her handbook's figure.[22] If you answered "50 mph" with no source,
 you've repeated a figure, not checked one. Lesson 18, "A flat tyre: the decision, and spare, space
 saver, sealant or run-flat", covers the spare and the law on it.
 :::
@@ -378,7 +377,7 @@ law in Great Britain. "Tyre pressures. Check weekly. Do this before your journey
 cold." is advice.[6] NHTSA, for the US, advises checking "at least once a month" when the tyres are
 cold, and TyreSafe, the industry-backed charity, says "every month or before every long
 journey".[3][18] Three bodies, two intervals, and the one legal rule among them, Great Britain's,
-sets no interval. It sets the pressure, through a regulation the Code reads as the maker's figure.
+sets no interval. It requires a pressure fit for the use, which the Code reads as the maker's figure.
 
 ### Three labels for every job
 
@@ -511,7 +510,7 @@ driver's door pillar, with the car parked off the road, engine or motor off and 
 - G. **Call someone**, and don't do it. All four handbooks this course read on changing a wheel forbid getting under a car on its jack; Toyota's words, "any part of your body", are the widest. For any other car, this course's own rule is the same. Toyota's answer, a jack stand, is a step this course doesn't teach.
 - H. **Call someone**, on this course's reading. The Highway Code (Great Britain) warns that "Low brake fluid may result in brake failure and a crash"; no source this course read makes a falling level an owner's job. Lessons 6 and 9 take it up.
 - I. **Yours**: read the handbook's schedule for that car. CalRecycle's advice (California) is that 3,000 miles "no longer applies to most cars"; AAA, US motoring clubs that sell roadside assistance, give 5,000 to 7,500 miles for "most engines".[19]
-- J. **Yours.** Law in Great Britain that the required lamps are in good working order and clean (Road Vehicles Lighting Regulations 1989, reg 23, which Annex 6's MUST rule cites)[22]; the check before every drive is GOV.UK's advice.
+- J. **Yours.** Law in Great Britain that the lamps the regulation covers, including stop lamps and indicators, are in good working order and, for a lamp, clean (Road Vehicles Lighting Regulations 1989, reg 23, which Annex 6's MUST rule cites)[22]; the check before every drive is GOV.UK's advice.
 - K. **Call someone.** The Highway Code's advice (Great Britain): "Consult a garage or mechanic immediately".
 - L. **Call someone**, on this course's reading: whoever the agreement names, the employer or the lease company. This course read no agreement; tell them in writing.
 

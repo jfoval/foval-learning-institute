@@ -128,3 +128,63 @@ lesson); Northern Ireland named as the jurisdiction in quiz 4. `npm run quotes c
 and 27(3) and RVLR reg 23, none of which it stated before, and R1 rewrote five statements of Great
 Britain's tyre law. A fresh reader should check those against legislation.gov.uk and SOURCES "Stage 4
 note, lesson 01", and read the two new quiz items. Everything else is clean.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context reviewer, limited to the law the fix added plus the listed checks.
+Re-read live today with curl (browser User-Agent, no personal data in any header): C&U 1986 reg 27
+and RVLR 1989 reg 23 (legislation.gov.uk data.xml, both whole, extent E+W+S); the Highway Code
+Introduction and Annex 6 (GOV.UK content API); nidirect "The MOT certificate"; CalRecycle; GAO-15-705
+(capture 20260109053421); Toyota OM02568U pp. 372, 373, 376 to 378, 397 and 398 (pdftotext).
+
+**Verified.** Reg 27(1)(b)'s words are quoted exactly and attributed to reg 27; reg 27(3)'s text
+matches SOURCES' [V]; reg 23(1) matches; both regulations extend to England, Wales and Scotland only,
+so "Great Britain" is right and Northern Ireland is correctly left out. Annex 6 cites "Law CUR reg 27"
+under the tyre MUST rules and "RVLR 1989 regs 23 & 27" under the clean-lights MUST line. Every Highway
+Code quotation (the Introduction's MUST/MUST NOT and "may be used in evidence" sentences, the tyre,
+tread, weekly-check, brake-fluid, pulls-to-one-side and overheat lines) is exact. GAO "As of July 2015,
+we found 16 states with periodic inspection programs." exact; "fewer since" and "two with no periodic
+safety inspection for private cars" (California; Texas, non-commercial vehicles from 1 January 2025)
+match SOURCES and OUTLINE decision 12. CalRecycle's three sentences exact, and the lesson presents a
+spread. Toyota Types C and D (225/40R18 88V and 88W) are 33 psi front, 30 psi rear, so "the two 18-inch
+types share the first pair" is right; the Type B row, p. 372 jack line, p. 373 jack-stand line and
+p. 377 "TEMPORARY" label all check. Jobs A, B, D, F, G, H, J and L each carry a label, law or handbook
+or advice, whose and which car, law first where there is law, and the course's own readings are
+labelled. Quiz 4 and 5: each explanation disposes of every distractor by content; nidirect's sentence
+exact; the MOT manual's 48 V and restart lines match SOURCES. No em dash or spaced en dash; callout
+byte-identical to the briefs' text. Keys 3,0,1,3,2,0 against the committed 02 (3,1,0,3,2), 03
+(1,3,0,2,0,3) and 04 (0,2,3,0,1): all four positions, no adjacent repeat, no identical or value-shifted
+sequence, no run of four matching at any offset under any constant shift (mod 4 or linear), by script.
+Option spreads 4, 7, 2, 5, 7, 5.
+
+**Findings, all fixed in one edit each:**
+1. S1 [major] The space-saver checkpoint said "the law allows a car on a temporary use spare only at up
+   to 50 mph". Reg 27(3) only lifts reg 27(1)(a)'s unsuitable-tyre ban while the car goes no faster
+   than 50 mph; that this makes 50 mph a ceiling is a reading. Now: the Regulations "excuse a car's
+   temporary use spare from their rule against unsuitable tyres only while it goes no faster than
+   50 mph; on this course's reading that is a legal ceiling".
+2. S2 [major] Quiz 6's explanation still stated "the law in Great Britain ... is that tyres are
+   inflated to the maker's specification", the R1 defect the fix missed. Now: the law requires tyres
+   inflated fit for their use, which Annex 6's MUST rule reads as the maker's specification.
+3. S3 [minor] The pressure checkpoint said "so the law points you to the handbook's number"; the
+   regulation does not. Now names the regulation's requirement and says the Code points you there.
+4. S4 [minor] "It sets the pressure, through a regulation the Code reads as the maker's figure"
+   overstated reg 27. Now "It requires a pressure fit for the use, which the Code reads as the maker's
+   figure."
+5. S5 [minor] J said reg 23 covers "the required lamps". Reg 23(2)(b) also covers stop lamps,
+   indicators and front fog lamps "with which it is fitted", required or not, and "clean" applies to
+   lamps only. Now "the lamps the regulation covers, including stop lamps and indicators, are in good
+   working order and, for a lamp, clean".
+6. S6 [minor] "The UK book groups brakes, steering and suspension as chassis systems" stated as fact
+   what SOURCES could not see (Denton and Pells' top-level contents only). Now labelled "on this
+   course's reading".
+
+**Not fixed, for the record.** `reviews/course-wide.md` records lesson 02's keys as 3,1,0,2,1; the
+committed file is 3,1,0,3,2 (this pass checked against the committed one, and it passes). The first
+pass's measures line records 02 the same stale way. `npm run minutes` now measures 100 against the
+frontmatter's 95, inside precision; left at 95.
+
+`npm run validate`: exit 0, nothing naming 01. `npm run quotes`: nothing for 01.
+
+**Verdict: CLEAN.** Every law statement now matches the regulation's own words and scope, and each
+reading beyond them is labelled as the Code's or the course's.
