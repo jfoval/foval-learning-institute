@@ -1,6 +1,6 @@
 # Sources: Conversation and Listening
 
-<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Weger Castle Emmett 2010, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Aron et al 1997 full text, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Weger 2010 full text, Weger 2014 full text, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, Kluger et al 2024 JBP full text, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, DeMarree 2026 four-lab preprint full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, Blades 2018, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
+<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Aron et al 1997 full text, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, Blades 2018, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
 
 *Stage 1 research, 2026-09-26. Written before any lesson is drafted. Five researchers each worked
 one part of the subject in parallel, in a fresh context, from a shared brief. Part A covers the
@@ -429,7 +429,7 @@ merged list, with the classification under standards 3.1.
 12. **Is empathy teachable, and is it good?** (Part C C3.) In-person training g = 0.63 (0.51 after
     bias correction, Teding van Berkhout and Malouff 2016, abstract); digital training near zero
     (Williams et al. 2026, abstract). Bloom: emotional empathy is a biased spotlight, prefer
-    understanding and compassion. Zaki: empathy is a motivated choice and can be widened.
+    understanding and compassion. Zaki: empathy is a motivated choice and can be chosen, up or down (see "Gate closures, lesson 07 review").
     **Teachability contested empirical; "is it good" partly value.**
 13. **Is communication difficulty in autism one person's deficit or a mismatch?** (Part D C6.)
     Milton 2012 and Crompton et al. 2020 (mismatch) versus the 2025 registered replication (no
@@ -1681,17 +1681,17 @@ Coverage: the Rogers and Farson origin of "active listening" and Rogers' 1957 co
 - **Ickes, W. (1993).** Empathic accuracy. *Journal of Personality*, 61(4), 587–610. **Read:** full text, https://greatergood.berkeley.edu/images/uploads/Empathic_Accuracy.pdf
   - Method: two people are videotaped unaware; each lists their own thoughts and feelings at each moment; then each infers the partner's; independent raters score similarity.
   - Stinson and Ickes (1992, reported here): male friends' accuracy was "about 50% higher than those of male strangers (Ms 29.8 vs. 19.9, p < .02)" [V]; the advantage came from shared knowledge of each other's lives, not more interaction or personality similarity.
-  - Marangoni et al. (1993, reported here): 80 undergraduates inferring clients' thoughts in taped therapy sessions improved with exposure, and feedback about the client's actual thoughts "accelerated the rate at which the perceivers' empathic accuracy improved" [V].
+  - Marangoni et al. (1993, reported here): 80 undergraduates inferring clients' thoughts in three taped simulated psychotherapy sessions improved with exposure, and feedback about the client's actual thoughts "accelerated the rate at which the perceivers' empathic accuracy improved" [V].
   - People "lack metaknowledge" of their own empathic accuracy; self-report empathy scales did not predict actual accuracy, and most correlations were negative [V, paraphrased].
 - **May say:** even friends read each other's moment-to-moment thoughts only partly; accuracy improves with feedback, which is what checking your understanding out loud provides.
-- **Caution:** the 0 to 100 accuracy index is a rater-similarity score, not "percent of thoughts read correctly"; do not present 30 as "30% of thoughts".
+- **Caution:** the review gives the global score as .00 to 1.00 and does not state the scale of the 29.8 and 19.9 means (lesson 07 review gate closure). The index is a rater-similarity score, not "percent of thoughts read correctly"; do not present 30 as "30% of thoughts".
 
 #### 7.7 Gilovich, T., Savitsky, K., and Medvec, V. H. (1998). The illusion of transparency: Biased assessments of others' ability to read one's emotional states. *JPSP*, 75(2), 332–346. DOI 10.1037/0022-3514.75.2.332
 
 - **Read:** full text via a third-party upload, http://www.communicationcache.com/uploads/1/0/8/8/10887248/the_illusion_of_transparency-_biased_assessments_of_others_ability_to_read_ones_emotional_states.pdf (do not link this in a lesson; link PubMed 9731312).
 - **Study 1a:** 39 Cornell undergraduates in groups of five, each lying once in five rounds; chance detection 25%. Liars estimated that "48.8% of the participants would correctly peg them as the liar when, in fact, only 25.6% did so" [V], about chance. Studies 2a/2b: tasters of foul drinks estimated 4.91 of 10 observers would spot their disgust; 3.56 did [V].
 - **Relevance:** speakers overestimate how much their inner state shows, so listeners should not assume they have seen it, and speakers should say it. Together with Eyal et al. and Ickes this supports asking and checking rather than assuming.
-- **May not say:** that people are "unreadable"; observers did somewhat better than chance on disgust.
+- **May not say:** that people are "unreadable" when not trying to hide a feeling (every study tested concealment). Corrected: observers were at chance on disgust, not "somewhat better" (see "Gate closures, lesson 07").
 
 ---
 
@@ -1746,7 +1746,7 @@ Coverage: the Rogers and Farson origin of "active listening" and Rogers' 1957 co
 
 **C3. Is empathy teachable, and is it good?**
 - *Teachable:* meta-analytic g = 0.63 (0.51 after bias correction) for in-person RCTs, mostly short term (Teding van Berkhout and Malouff 2016); motivation interventions raise empathic accuracy for positive emotions (Weisz et al. 2021). Against: digital interventions g = 0.07 after bias correction (Williams et al. 2026); perspective-taking instructions do not raise empathic concern above baseline (McAuliffe et al. 2020) or accuracy (Eyal et al. 2018).
-- *Good?* Bloom: emotional empathy is a biased, innumerate spotlight that can burn people out; prefer cognitive understanding plus compassion. Zaki: empathy is a motivated choice, so its biases are not fixed, and it can be widened; it remains a social bridge. Bloom accepts that empathy is flexible but says that makes it manipulable.
+- *Good?* Bloom: emotional empathy is a biased, innumerate spotlight that can burn people out; prefer cognitive understanding plus compassion. Zaki: empathy is a motivated choice, so its biases are not fixed, and it can be chosen, up or down (he says it must sometimes be turned down; see "Gate closures, lesson 07 review"); it remains a social bridge. Bloom accepts that empathy is flexible but says that makes it manipulable.
 - *What would settle the empirical part:* long-term RCTs with behavioural outcomes (helping, relationship quality) measured by others, not self-report. The normative part (should compassion or empathy guide moral choice?) is partly a value question.
 - *Classification:* teachability is contested empirical (moderate short-term evidence); "is it good" is partly value, partly empirical (burnout and bias findings).
 
@@ -4066,3 +4066,196 @@ that text [V]. Nothing on the unread line was cleared; G1 stays open for lesson 
 - **Note on the `unread:` line.** It still lists "Weger Castle Emmett 2010" beside "Weger 2010 full
   text", although the abstract has been read. Left unedited here because other agents are writing this
   file; recorded in `reviews/course-wide.md` for the orchestrator.
+
+## Gate closures, lesson 07 review (2026-09-26)
+
+Re-read today with curl and a generic browser User-Agent (no personal data), string-matched against
+the downloaded text, for the lesson 07 Stage 4 fix pass.
+
+- **Zaki, "Choosing Empathy", Edge** (URL as Part C §7.2; full page, including the Reality Club
+  excerpts). Zaki on turning empathy down: "It's easy to overdose on empathy, and empathy can be
+  dangerous thing for an individual's well-being. It can cause you to burn out." [V]; "The idea that
+  you can control empathy is not just meant so that everyone can turn their empathy up to eleven all
+  the time. It's just as important to know when to turn down one's empathy, especially if you need
+  to engage in self-care." [V]; "My wife is a clinical psychologist, and she says that the last thing
+  that any of her patients need if they're depressed, is for her to be depressed as well. She needs
+  to modulate her empathy on line in order to be able to guide those people towards something that
+  will help them" [V]; "That requires knowing not just how to turn up empathy, but also how to turn
+  it down sometimes." [V]. So Zaki's position is control of empathy, up or down, not "more"; on
+  support for a distressed person he and Bloom (Box 3) largely agree. The page lists five
+  Reality Club respondents: Paul Bloom, David DeSteno, Daryl Cameron, Dan Zahavi and Christian
+  Keysers [V]; DeSteno: "Whereas Zaki is right about empathy and compassion being partially subject
+  to choice, the usefulness of such “choosing” can be called into question." [V] (not used in the
+  lesson). This corrects "can be widened" in contested question 12 and Part C C3 (both amended in
+  place today to "can be chosen, up or down").
+- **Bloom 2017, Box 3** (course reading copy, URL as Part C §7.3). The sentences between the two
+  already quoted: "The features of empathy that make it so worrisome in the policy domain – its
+  biased, parochial, and innumerate nature – might not be problems when it comes to family and
+  friends. Many of us, I assume, want those who we love to be biased toward us. Consider also that
+  empathy may have evolved to facilitate certain close relationships, such as between parents and
+  babies [9,45], and so while it might falter in a world of strangers, it is well suited for more
+  intimate interactions. Still, the importance of empathy – as opposed to understanding, compassion,
+  and love – can be overstated." [V]
+- **Ickes 1993** (Greater Good copy). The global score is "conveniently scaled, with a possible range
+  of .00 (total inaccuracy) to 1.00 (total accuracy)" [V]. Stinson and Ickes (1992): "male friends
+  had empathic accuracy scores that were about 50% higher than those of male strangers (Ms - 29.8 vs.
+  19.9, p < .02)" [V; the dash is the scan's rendering of "="]. **The review does not state the scale
+  of the 29.8 and 19.9 means** and gives no sample size for that study (searched: no "100", no
+  percentage scale). Marangoni, Garcia and Ickes (1993): "80 undergraduates viewed a series of three
+  simulated psychotherapy sessions. In each session, a different female client discussed her
+  real-life problem(s) with a professional client-centered therapist." [V]; feedback "accel- erated
+  the rate at which the perceivers' empathic accuracy improved" [V, hyphenated across a line in the
+  scan].
+- **Gilovich, Savitsky and Medvec 1998** (third-party copy, URL as Part C §7.7). Study 1a:
+  "Thirty-nine Cornell University undergraduates participated in one of seven groups of 5
+  participants each, or one group of 4" [V], "screened to ensure that they were unacquainted with one
+  another" [V]. General Discussion: "In many cases, people may be well calibrated regarding how much
+  their thoughts, feelings, and emotions are apparent to others." [V]; the two preconditions, some
+  intensity of the state, and "A second precondition for the illusion of transparency may be that
+  the individual believe there is some route by which the internal state can leak out and be
+  detected by others." [V].
+- **Corrections made in place today** (small targeted replacements): contested question 12 and Part
+  C C3, "can be widened" to "can be chosen, up or down"; Part C §7.6, the Marangoni sessions are
+  "simulated", and the caution now says the review gives the global score as .00 to 1.00 and does not
+  state the scale of the 29.8 and 19.9 means; Part C §7.7's "may not say" line now carries the
+  lesson 07 gate closure's correction (observers were at chance).
+
+## Gate closures, lesson 09 (2026-09-26)
+
+Stage 3 drafting of lesson 9 ("Does active listening work?"). Full texts that curl could not get
+(Taylor and Francis 403, Springer bot check, EconStor proof-of-work page) were read in the desktop
+app's built-in browser, which served each publisher's free or open-access page normally; the page
+text was extracted and read. No personal data was sent anywhere. Strings marked [V] were copied from
+that text today.
+
+**G1: closed for Weger 2010, Weger 2014, Kluger et al. 2024 and DeMarree et al. 2026; not closed for
+the two PSPB papers.** Unread-line entries cleared in the same change: "Weger Castle Emmett 2010",
+"Weger 2010 full text", "Weger 2014 full text", "Kluger et al 2024 JBP full text", "DeMarree 2026
+four-lab preprint full text". Still on the line: "Itzchakov Kluger Castro 2017 full text" and
+"Itzchakov DeMarree 2018 full text" (SAGE, "Restricted access" in a browser too; OpenAlex lists no
+open copy).
+
+**Weger, Castle and Emmett 2010**, full text, https://www.tandfonline.com/doi/full/10.1080/10904010903466311
+("Free access" in a browser). Design: 180 undergraduates in basic public speaking courses "at a
+large southeastern university", "100 females and 80 males with a mean age of 18.5 years", extra
+credit; cover story that the student government was gathering views on a proposed comprehensive exam
+for graduation, debriefed afterwards. Three trained student interviewers (the paper's per-interviewer
+counts, 88, 66 and 31, sum to 185, not 180). Paraphrase against simple acknowledgement "such as
+“O.K.,” “That's great,” and so forth"; nonverbal involvement held constant (eye contact, slight
+forward lean). The study "focuses on only the verbal element (i.e., paraphrasing the speaker's
+message)" [V]. Measures: FUMS (feeling understood), McCroskey social attraction, Hecht Com-Sat,
+presented as student-government "quality control" items. Results: social attraction t(178) = 2.00,
+p = .045, r = .15; feeling understood t(178) = 1.10, p = .25; satisfaction t(178) = .78, p = .48.
+Authors' possible explanations, untested: "people may attend more to nonverbal than verbal cues"
+[V]; "The impersonal nature of the peer interviews" [V]. Limits named: three interviewers; one topic
+most students disliked. Conclusion: "little, if any, research clearly demonstrates that people
+perceive active listening to be superior to other types of listener responsiveness." [V]
+
+**Weger, Castle Bell, Minei and Robinson 2014**, full text, https://www.tandfonline.com/doi/full/10.1080/10904018.2013.813234
+(browser). 115 undergraduates from an introductory communication course "at a large southeastern
+university" (the paper's sex split, 39.1% and 70.9%, sums to 110%; not used). Twelve confederates,
+two dropped, leaving ten; about four hours' training in active listening. Condition by die roll.
+Active listening "included paraphrasing the participant's message and, when appropriate, asking the
+participant to elaborate on what they said" [V]; simple acknowledgement "consisted of only back
+channel cues such as head nods, and short verbal statements such as “I see,” “OK,” “That makes
+sense,”" [V]; advice was "suggesting activities the participant should engage in over the weekend,
+solutions to problems identified by participant" [V]. Prompts: "Please discuss your plans for this
+weekend," and "What has been your biggest disappointment with (university name) since you began
+attending school here." [V] Conversations M = 4.9 minutes. Manipulation check by three raters on 107
+videos, confirmed. Results: condition effect on feeling understood F(2, 20.68) = 3.79, p = .04, η² =
+.09, active listening above both others (Dunnett); satisfaction and social attraction: active
+listening above acknowledgement, not above advice. Authors: "people respond to listeners' overall
+level of responsiveness regardless of the form it takes" [V]; "a low-risk response strategy with
+some potential dyadic rewards" [V]; sample "mostly young, White, female college students" [V]. As
+reported there: "Markman et al. (2001) confirm that the speaker-listener technique (i.e., active
+listening) feels unnatural to couples because it is designed to help couples avoid natural
+conversation pitfalls." [V] Answers Part C gate 1: the 2014 active listening messages were
+paraphrase plus requests to elaborate; effect sizes as above.
+
+**Kluger et al. 2024**, full text, https://link.springer.com/article/10.1007/s10869-023-09897-5
+(browser; open access; tables not rendered as text and not read). 122 papers, 144 independent
+samples, 664 effect sizes, 400,020 observations, 155,143 independent individuals. Speakers:
+customers 27%, subordinates 23%, patients 19%; listeners: managers 36%, salespeople 21%, healthcare
+19%; 98% of studies in one country, US 46%, Israel 15%, Germany 7%, UK 5%. r̄ = .39 [.36, .43];
+affect .36, cognition .40, performance .36, relationship .51. Same source .43 against different
+sources .26; same method .42 against different .29; concurrent .42 against predictive .27;
+experimental designs .39 against correlational .40, from "the 30 experimental effects of listening"
+[V]. Only effects from different sources or methods: performance .21, relationship .44. Negative
+effects: "5.4% showed negative associations" [V] in the results, "Only 5.6% of the effect sizes
+found here were negative" [V] in the discussion (the paper's own inconsistency; the lesson uses
+neither). "only Castro et al. (2018) tested the effect of listening on actual performance
+experimentally" [V]. Strings [V]: "a powerful and often overlooked predictor of work outcomes:
+perceived listening"; "a cause of superior performance"; "this study only exposed the possibility
+that listening predicts performance"; "Otherwise, the results reported above may reflect the
+benefits of good relationships for performance, affect, and cognition instead of the specific
+benefit of listening." Part C gate 13 ("fewer than 6% negative"): the paper gives 5.4% and 5.6%.
+
+**DeMarree, Itzchakov, See, Weinstein, Lee, Turjeman-Levi and Venezia 2026**, PsyArXiv preprint
+version 2, full text, downloaded with curl from https://osf.io/download/b9e2s_v2/ (the /download
+path Part C tried returns HTML). Four sites; after exclusions Israel 330, Singapore 354, UK 369, US
+354 (sum 1,407); mostly undergraduates, the UK partly Prolific undergraduates. Ten-minute Zoom
+conversations between strangers on the topic of strongest disagreement (US topics included remote
+classes, requiring a college degree for most professions, parental monitoring of a teenager's online
+communication). Learning-goal instruction [V]: "we ask that you attempt to learn about their
+perspective on the issue." Persuasion goal the comparison; the partner got no goal. Strings [V]: "The
+goal manipulation did not influence perceived listening quality or polarization outcomes in any
+sample."; "suggests a failure of the manipulation, making it difficult to evaluate the conceptual
+hypothesis about the impact of learning goals"; "simply trying to learn or persuade does not
+immediately translate into behavior that one’s partner recognizes as an instance of goal pursuit.";
+"a promising, yet difficult to induce, interpersonal behavior". Manipulation check: no effect on
+self-reported or partner-perceived learning goals in any lab; persuasion-goal effects only in actors'
+own reports. Correlational paths: perceived listening predicted psychological safety in all samples;
+safety predicted less social polarization on most outcomes, not attitude polarization. Pilot: 107
+dyads of US undergraduates on Zoom, learning-goal listener against a listener told to listen
+attentively without responding verbally: perceived listening d = 0.98. The authors describe listening
+interventions as inconsistent "except when very intensive trainings (e.g., involving many hours) are
+deployed" [V], and say the dominant paradigm uses trained experimenters as listeners.
+
+**Itzchakov, Kluger and Castro 2017**: abstract re-read on the SAGE page (browser) [V-abstract]:
+"merely providing high quality listening". The article carries a 2017 corrigendum (DOI
+10.1177/0146167217712522, free access, read): a minus sign wrongly printed on one path in Figure 6,
+which "should read β = .52** (.05)" [V].
+
+**Gottman et al. 1998, G4: closed for three quotations.** The scan (URL as Part C §3.1) was
+rendered at 200 dpi, OCR'd, and each quotation read by eye on the page image: page 9 of the PDF
+"These active listening exchanges hardly ever occurred, and they were not predictive of differential
+marital outcomes." [V-OCR, image]; page 14 (journal p. 18) "we are led to the hypothesis that the
+active listening model may be expecting a form of emotional gymnastics from people who, at that
+moment in that relationship, are somewhat emotionally disabled by conflict." [V-OCR, image]; page 16
+"If we are right, then the implications are that marital therapy needs to do two things. First, it
+needs to abandon the active listening model in favor of a model of increased softening and
+gentleness in start-up, de-escalating" [V-OCR, image]. The page text lists the divorce-predicting
+pattern as "negative start-up by the wife, refusal of the husband to accept influence from his wife,
+wife’s reciprocation of low intensity negativity in kind, and the absence of de-escalation of low
+intensity negativity by the husband" [V-OCR, image]; Part C's "harsh start-up" and "lack of
+physiological soothing" are from elsewhere in the paper.
+
+**Stanley, Bradbury and Markman 2000**, abstract re-read through the OpenAlex API [V-abstract]:
+"appear to us to be premature at best"; "the use of correlational data to make strong causal
+inferences". **Gottman et al. 2000 reply**, abstract re-read through OpenAlex: it lists the
+critique's themes and notes "Stanley et al. do not challenge five other major conclusions" [V-abstract].
+
+**Correction to Part C §3.2.** The claim that PREP's speaker-listener technique is a tool for
+escalated conflict is attributed there to "the secondary summaries (Hafen and Crane 2003; Kim et al.
+2007)". Kim, Capaldi and Crosby 2007 (PMC1828692, re-read today) does not say it; it cites Stanley
+et al. only on over-represented wives' topics, extreme-groups analysis and cluster coding, and
+Hafen and Crane is abstract only. The lesson carries PREP's side through Weger 2014's report of
+Markman et al. 2001 (above) and the Stanley abstract. Kim et al. strings re-confirmed [V]: "occurred
+very rarely"; abstract "The major findings of Gottman et al. failed to replicate".
+
+**Bodie et al. 2015** (author's PDF, re-read). Design detail for Part C §2.3: 301 undergraduates at
+Louisiana State University; 130 untrained and 41 trained listener dyads; the trained listeners were
+"eight (7 females, 1 male) masters’ students enrolled in the University’s Counseling Education
+program" [V], employed "to ensure adequate variability in the use of active listening techniques"
+[V]; five-minute conversations; the analysis regresses coded behaviours on outcomes across all dyads
+rather than comparing trained with untrained. For affect improvement, "five behaviors contributed
+over 10% to model R2" [V] but the strongest, open questions, had a substantive contribution of
+"only 3%" [V].
+
+**Itzchakov and Bodie 2026** (author PDF, re-read). Puzzle 8 reports that paraphrasing "has been used
+frequently to create high" quality listening in the programme's experiments (Itzchakov et al. 2020,
+2022, 2024, as cited there); the lesson paraphrases this and does not quote it (the text layer loses
+the hyphen).
+
+**Gottman-Rapoport Conflict Blueprint** (URL as Part C §3.5), re-read: the "Postpone persuasion"
+sentence confirmed [V]; "Flooded? Practice self-soothing." [V].

@@ -56,20 +56,22 @@ Rewrite these five lines each session. Nothing else goes in this block.
   conversations to Mental Fitness. Stage 2 is done: `research/OUTLINE.md` plans seventeen lessons
   (Tier B for 5, 9, 11, 14, 15 and 16; the Mental Fitness crisis callout on 10 and 11, enforced by
   the build), a 20-item test and a listening-journal project.
-  **Where it stands (2026-09-26):** lessons 1 to 6 drafted, 7 and 8 in drafting. Lessons 1, 2, 3, 4 and 6 are settled
-  (Stage 4, fixes, targeted re-check) and have fact-checked scripts. Lesson 5 has its Tier B review
-  (F and P) applied; F5 was a failed Turing test, so it **owes a fresh second pass**, then its
-  script. Lessons 7 and 8 then owe Stage 4; the drafters' notes go in
-  `research/reviews/cl-draft-07-notes.md` and `cl-draft-08-notes.md`.
+  **Where it stands (2026-09-26):** lessons 1 to 9 drafted. Lessons 1 to 6 and 8 are settled
+  (Stage 4, fixes, re-check or fresh second pass); 1 to 6 have fact-checked scripts and 8's is
+  being written. Lesson 7 has its review applied and **owes the targeted re-check of its Bloom and
+  Zaki section** (R1 was a failed neutrality check). Lesson 9 (Tier B) **owes Stage 4, reviewers F
+  and P**; the drafter's notes are in `research/reviews/cl-draft-09-notes.md`.
   **Gates:** G2, G4 and G20 closed. G20 changes the outline: Leydon et al. 2018 is a partial
   replication of Heritage's "some"/"any" result, so "no replication found" is no longer true
   (lesson 6 reports both). G5 not closed (Beckman and Frankel refused; the 18 seconds is cited as
   Singh Ospina reports it). G3, the Gino integrity check on Yeomans et al. 2020, is open for lesson
-  16: OSF holds a 2024 integrity report; Retraction Watch still unchecked. G1, before lesson 9:
-  Weger et al. 2010 and 2014 and Kluger et al. 2024 are abstract-only and should be read in full.
+  16: OSF holds a 2024 integrity report; Retraction Watch still unchecked. G1 mostly closed at the
+  lesson 9 draft: Weger 2014, Kluger 2024 and the four-lab preprint read in full. **Weger 2010 and
+  the two PSPB papers stay abstract-only** (publisher-locked); lessons 8 and 9 use them at abstract
+  level only.
   SOURCES Part B §3.3 mislabels the first-author-gender moderator as non-significant (noted in
   the lesson 05/06 gate closure; lesson 5 has it right). `npm run build:drafts` now wants a final
-  test, which is planned. The course is `sensitive_domain: true`.
+  test, which is planned; the course project is not written yet (course-wide.md, P14). The course is `sensitive_domain: true`.
 
   **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
   is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;
