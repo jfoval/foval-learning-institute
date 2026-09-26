@@ -1164,7 +1164,7 @@ Note that UGA's downspout figure (2 to 3 feet) and UMN's (at least 4 feet) diffe
 3. **Mould cleaning with bleach.** CDC: bleach solution of no more than 1 cup per gallon is acceptable [V]. EPA: biocides like bleach "not recommended as a routine practice" [V]. GOV.UK: mould products "in preference to bleach" [V]. **Contested practice** (minor); all agree fix the moisture first and never mix bleach with ammonia.
 4. **Indoor humidity targets.** EPA below 60%, ideally 30 to 50% [V]; CDC no higher than 50% [V]; UMN 25% winter to 50% summer in a cold climate [V]. Not really contested: climate-dependent. Teach a range and the reason.
 5. **Filter change interval.** ENERGY STAR monthly inspect, clean or change [V]; DOE heat pumps every 3 months [V]; DOE air conditioners every month or two in season [V]. **Varies by equipment and use**; teach "check monthly, follow the maker."
-6. **Flushability labelling.** Water UK and the government withdrew Fine to Flush in favour of the 3Ps message (WRc, The Water Report [V]); WRc argues plastic wipes, not certified flushable ones, are the problem and is restarting testing [V]. **Contested** between sector bodies; for a householder the safe teaching (only the 3Ps) is not in dispute.
+6. **Flushability labelling.** Water UK and the government withdrew Fine to Flush in favour of the 3Ps message (WRc, The Water Report [V]); WRc argues plastic wipes, not certified flushable ones, are the problem and is restarting testing [V] (written in 2024; see the Stage 4 note, lesson 04). **Contested** between sector bodies; for a householder the safe teaching (only the 3Ps) is not in dispute.
 7. **What to do on smelling gas.** UK networks: ventilate, turn off at the meter valve if safe (not in a cellar), call 0800 111 999 (Cadent, SSE NI [V]). US utilities: leave immediately, touch nothing including the phone, call 911 and the utility from outside (Con Edison, SoCalGas, Atmos [V]). **Established fact that the official advice differs**; the lesson should teach each country's advice as given and note the shared core (no flames, no switches, get out if the smell is strong or the meter is in an enclosed space).
 8. **Frozen pipes.** UK: stop tap off first, drain, thaw slowly (Met Office [V]). US: keep the faucet open so flowing water helps melt the ice, heat the pipe (Red Cross [V]). **Different established practices**; both forbid open flames.
 
@@ -1415,6 +1415,27 @@ https://www.bristan.com/product-files/576945/fitting-instructions.pdf
 Read: pdftotext of the whole leaflet. The layout is heavily columnar, so read the extract for meaning only and quote nothing from it.
 Good for: modern ceramic-disc (quarter-turn) taps. The maintenance panel shows turning off the isolation valve, removing the shroud, taking out the cartridge and fitting a replacement. The troubleshooting table puts continued dripping down to the "ceramic disc valves/cartridge". The main difference from a washer tap: the fix is a new cartridge, usually specific to that make and model, not a new washer. Isolation valves "must be fitted to the inlet water supplies to ensure ease of future maintenance" is the gist of the fitting text; it is garbled, so do not quote it.
 
+**Stage 4 note, lesson 03 (2026-09-25): the entry above misreads the maintenance panel.** Re-read
+on the live PDF and as the rendered page image (pdftoppm, page 2), which resolves the columns. The
+panel is headed "Maintenance - Cleaning/Replacing Cartridge" [V], and its six steps are: 1 "IMPORTANT
+Isolate the water supply before starting!" [V], with the drawing showing the valve on the flexible
+pipe, and "Unscrew and loosen grub screw to remove handle." [V] (2.5 mm hex key); 2 "Remove shroud
+and retaining nut. Remove cartridge." [V]; 3 "Place cartridge in a suitable solution and soak until
+fully de-scaled." [V]; 4 "Replace cartridge, retaining nut and shroud." [V]; 5 "Replace the handle."
+[V]; 6 "Turn on the mains water supply, letting the water flow for a few minutes to flush through
+the system." [V] Step 4's "Replace" is refitting, since it covers the nut and shroud too. **The panel
+shows the cartridge cleaned and descaled and put back, not a new cartridge fitted.** The leaflet's
+only word on new parts is its Spare Parts panel: visit bristan.com "and search for your product" [V].
+**"Usually specific to that make and model" is this file's gloss, not the leaflet's; do not cite it
+to Bristan.** Nor does the leaflet say "mixer" or "kitchen": it shows a single-lever sink tap, product
+code K SNKSL EF C (D2), and its panels show a retaining nut under the shroud, so a nut alone does not
+tell a washer tap from a ceramic one. Troubleshooting, "Water dripping from taps": "This is normal for
+a short time after using the taps." [V], cause "This is caused by residual water tension, the build up
+of water in the tap body." [V]; and "If water continues to drip, possibly due to the ceramic disc
+valves/cartridge" [V], remedy "Refer to the Maintenance section" [V]. Fitting text, read clean on the
+rendered page: "Isolation valves must be fitted to the inlet water supplies to ensure ease of future
+maintenance." [V] It also recommends servicing the tap at least once a year.
+
 #### United Utilities, "Find leaks inside your home or business"
 https://www.unitedutilities.com/help-and-support/your-water-supply/your-pipes/leakage/inside-leaks/
 Read: full text.
@@ -1582,7 +1603,7 @@ Structure: spring and fall tick-columns under Basement/Crawl Space, Exterior, Ya
 - Drain outdoor taps and store hoses for winter. Check weather-stripping and caulk. Re-caulk tubs and sinks where the seal has failed.
 - Dryer: vacuum lint from the ducts; clean the filter after every use.
 - Fridge door seal test: close the door on a dollar bill, and if it slides out easily, replace the gasket.
-- Septic tank pumped every 3 to 7 years. Test the water heater's temperature and pressure relief valve.
+- Septic tank: "Hire a professional to pump your septic tank to prevent backup." [V], "every 3 - 7 years" [V], more often with a garbage disposal. (Stage 4 note, lesson 04: this line said only "pumped every 3 to 7 years", which dropped the instruction to hire a professional; the job label is Call someone.) Test the water heater's temperature and pressure relief valve.
 - Electrical: "Trip the circuit breakers and test ground fault interrupters" [V].
 - Hire a professional to tune the heating and cooling system. Check the fireplace damper and clean the chimney.
 Drafters: some items, such as the T&P valve and tripping breakers, carry scald or electrical risk. Frame them as "check or have checked".
@@ -3604,7 +3625,7 @@ attendance time for every blockage. Also on the page:
 
 **City of Portland, "Fats, Oil, and Grease"** re-read. Beyond Part A §2: "Don't run water over dishes, pans, fryers, or griddles to wash oil and grease down the drain." [V] "Small bits of food stick with FOG to pipes, causing additional build-up." [V] Tips: a sink strainer; pour grease into cans and bin them once hard; wipe pots and pans with dry paper towels before rinsing.
 
-**Thames Water, "Don’t feed the fatberg"** re-read. Beyond Part A §2: fats and oils "can congeal and combine with other waste over time to form fatbergs – solid masses that block pipes" [V] (the page's spaced dash; do not quote across it). The survey is described on the page as "New research carried out by Thames Water" [V].
+**Thames Water, "Don’t feed the fatberg"** re-read. Beyond Part A §2: fats and oils "can congeal and combine with other waste over time to form fatbergs – solid masses that block pipes" [V] (the page's spaced dash; do not quote across it). The survey is described on the page as "New research carried out by Thames Water" [V]. (Stage 4 note, lesson 04: the same page also says "New research commissioned by Thames Water" [V], and its footnote gives the pollster: Opinion Matters, 2,501 adults (18+) in London, Oxfordshire, Wiltshire, Berkshire, Surrey and Buckinghamshire, data collected 29.10.2025 to 06.11.2025; the 61% and 31% are for "this past month". Cite it as commissioned, never as run by the company itself.)
 - Signs it is in your home include "Your neighbours aren't having problems with their drains" [V] and "Your upstairs facilities are impacted but downstairs is working - this suggests an internal blockage" [V].
 - "Property owners are responsible for the pipes in the homes and the ones connecting to our sewers." [V]
 - "Take chemicals, solvents, engine oil and paint to your local refuse or recycling site" [V].
@@ -3623,14 +3644,233 @@ attendance time for every blockage. Also on the page:
 - "WRc fully supports the proposed ban on wet wipe containing plastic fibres" [V], and adds that
   it "won’t solve the whole problem though, as products such as baby wipes and cleaning wipes made from non-plastic materials may not disintegrate to a level that is harmless to our sewers as they are designed to be robust." [V]
 - It is restarting flushability testing of plastic-free moist toilet tissue, against a standard it
-  expects in a draft ISO standard.
+  expects in a draft ISO standard. (Stage 4 note, lesson 04: the article expects that draft "in
+  2025", so it was written in 2024; its words are that WRc "is working with retailers and
+  manufacturers to recommence flushability testing". No later status read, so a lesson says WRc
+  "said it was working to restart" testing, not that it is restarting now.)
 
 **The Water Report** re-read, dated 1 October 2023: "But confusion among users for reasons that ranged from a blanket belief that all wipes were now safe to flush to failure to follow instructions accompanying the Fine to flush logo that only one wipe should be flushed at a time." [V] It names the scheme's developers as "Water UK and the Water Research Centre" [V].
 
-**City of Superior**, one more line used: "A sink trap remains filled with water so that sewer gases can’t enter the room." [V] **Approved Document H** para 1.31's heading: "Ventilating pipes open to outside air" [V].
+**City of Superior**, one more line used: "A sink trap remains filled with water so that sewer gases can’t enter the room." [V] **Approved Document H** para 1.31: "Ventilating pipes open to outside air" [V]. (Stage 4 note, lesson 04: this is the opening of para 1.31's first sentence, "...should finish at least 900mm above any opening", not a heading; headed paragraphs in AD H take the form "1.29 Ventilation of discharge stacks – To prevent...".)
 
 **SI 2025/1218** re-read in full on legislation.gov.uk: made 18 November 2025, in force 19 May 2027
 (reg 1(2), 18 months after making). Reg 1(3): extends to England and Wales, applies to England only.
 Reg 3(1): "A person may not, in the course of a business, supply or offer to supply wet wipes containing plastic to an end user in England." [V] Exemptions for registered pharmacies, medical
 use and supply to businesses and local authorities (regs 5 to 7). It regulates supply; it says
 nothing about what a householder flushes.
+
+---
+
+## Gate closures, lesson 05 (2026-09-25)
+
+Read by the lesson 5 drafter on 2026-09-25, curl with a browser User-Agent plus pandoc for HTML
+pages and pdftotext for PDFs. Every [V] below was string-checked against the extracted text on the
+day. Sites that refused automated reading are named with what they returned.
+
+### G-E5 closed: a step-by-step for resetting a tripped circuit, one UK and one US source (plus a second of each)
+
+**UK. National Grid Electricity Distribution, "What to do during a power cut"**
+https://powercuts.nationalgrid.co.uk/power-cut-advice/what-to-do (page title "National Grid - What
+to do"). Read: full text. No date shown. A distribution network operator (the Midlands, the South
+West and South Wales), writing for its own customers about power cuts.
+- "First, check to see if it's a power cut or a problem with your fuses. Speak to your neighbours, or during the night, check the street lights. You'll soon know whether it's a power cut or not." [V]
+- "Find your fuse box and check that the trip switch is set to 'On' (It's the biggest switch and is usually red). If it's in the 'Off' position, turn off anything plugged into the sockets (or pull out the plugs) and turn the switch to 'On'. If the power doesn't come back on, you can call our Contact Centre 24/7/365" [V] (no full stop after "24/7/365" on the page).
+- "Turn off or unplug any sensitive and expensive electrical equipment." [V] (in a power cut, against surges)
+- "Power cut? Call 105" [V] (a button on the page).
+- Scope: the page does not say what to do if the switch trips again, and does not distinguish a
+  main switch from an RCD. "It's the biggest switch and is usually red" is the network's own
+  description, not a standard. A lesson quotes it as National Grid's and says it is one network's
+  description.
+
+**UK, second source. SSEN (Scottish and Southern Electricity Networks), "What to do during a power cut"**
+https://www.ssen.co.uk/power-cuts-emergencies/what-to-do-during-a-power-cut/ (redirected from
+/Powercuts/whattodo/). Read: full text. A distribution network operator (north of Scotland, and
+central southern England).
+- "If everyone has power and you don’t, check your fuse box to see if any switches are in the ‘off’ position and check if your meter has a display, if it does, this means power is coming into your property." [V]
+- "Complete a full reset of your fuse box by turning OFF the main larger switches and then all your smaller switches. Repeat the process by turning ON the larger switches first, then turn the smaller switches on one by one. This reset can help identify if there is an internal issue." [V]
+- "If you have checked with your neighbours and reset your internal switches and still have no power, report it to us on our Power Track site" and "call us on 105" [V].
+- "Just give us a call on 105 for free on landline or mobile." [V]
+
+**G-N1: 105 re-read today** on both pages above. It is the UK power cut number; the lesson prints
+it only as the number for a power cut, not for a tripped switch.
+
+**US. Southern California Edison (SCE), "How do I reset my circuit breakers?"** (Help Center)
+https://www.sce.com/customer-service-center/help-center/outages/general/reset-circuit-breakers
+Read: full text. No date shown. A California electric utility, writing for its customers.
+- "If a circuit in your home overloads or shorts, the breaker will trip and cut power. This helps prevent fire and possible electrocution." [V]
+- Steps, numbered on the page:
+  1. "Turn off light switches and unplug appliances in all rooms that have lost power." [V]
+  2. "Find your circuit breaker box and open the cover. Inside you’ll see the circuit breakers – small switches that may be labeled "kitchen," "bathroom" etc." [V] ("open the cover" here means the panel door in front of the switches; the page gives no instruction to remove anything. The page's spaced dash: quote around it.)
+  3. "Find the tripped breaker – it’s the one that’s in the "off" position, or the middle position between "on" and "off."" [V] (spaced dash again)
+  4. "If it isn’t already, move the switch to the full "off" position, then back to "on." This should clear any overload and return power to the room." [V]
+  5. "If the breaker trips again, it could be for a number of reasons: too many lamps and appliances plugged in; a damaged cord or plug; a short-circuit in a receptacle, switch, or fixture; or faulty wiring. Be sure to identify and fix problems." [V]
+- Notes and warnings: "If a breaker trips repeatedly, reset it only when you've corrected the problem. You can also call an electrician." [V] "Most tripped breakers show an orange flag when a breaker is in the tripped position." [V] "If your home has fuses instead of circuit breakers, follow the same steps for finding the blown fuse. Make sure to replace it with a new one of the same amperage." [V] "When resetting a breaker, use only one hand. Stand to the side to avoid electrical arcing if the breaker should malfunction." [V] "Working with electrical systems is potentially dangerous. If you're unsure of your abilities, or about any aspect of the job, call an electrician." [V]
+- For the drafter: SCE's "Be sure to identify and fix problems" covers the receptacle, switch,
+  fixture and wiring causes it has just listed. Fixing those is wiring, which this course does not
+  teach (OUTLINE decision 7). A lesson quotes SCE's steps 1 to 4 and its warnings, and for step 5
+  keeps the householder to the plug-in causes (too much plugged in, a damaged cord or plug) and
+  sends the rest to an electrician, saying that is the course's line. It never presents SCE's
+  sentence as permission to open anything.
+
+**US, second source. SCE, "A Step-by-Step Guide to Safely Resetting Your Breakers"** (Energized by
+Edison, Shulie Tornel, published June 08, 2022)
+https://energized.edison.com/stories/a-step-by-step-guide-to-safely-resetting-your-breakers
+Read: full text. The same utility's news site; the same five steps in other words.
+- "Resetting a circuit breaker is simple if you know how and will restore power to the room or rooms affected if there isn’t an outage or problem in the wiring." [V]
+- "Some homes may have multiple electrical panels located outside or within the home." [V]
+- "Breaker Trips Again: If the circuit breaker trips again, it could be for several reasons: too many lamps and appliances plugged into the circuit; a damaged cord or plug; a short-circuit in a receptacle, switch or fixture; or faulty wiring or circuit breakers." [V]
+- "Troubleshooting: Hire a qualified, licensed electrical contractor to troubleshoot the issue and perform repairs." [V]
+
+**Not read:** Electrical Safety First's RCD page (the old URL now redirects to its home-buyers page,
+which is the checklist Part A §3 recorded), UK Power Networks' "What are trip switches" and SP Energy
+Networks' power-cut page (both 403). No source read gives the "plug back in one at a time" method
+for finding a faulty appliance, so a lesson does not teach it as a step. What the sources do give
+is: unplug or switch off before resetting (National Grid, SCE), reset once, and a second trip means
+a fault (ESF FAQ, SCE).
+
+**The 30 mA figure (G-E1): closed from HSE, for workplaces.** HSE, *Electrical safety and you: A
+brief guide*, INDG231(rev1), first published 04/12, reprinted 08/13,
+https://www.hse.gov.uk/pubns/indg231.pdf. Read: full text (6 pages), pdftotext. Written for work.
+- "An RCD is a device which detects some, but not all, faults in the electrical system and rapidly switches off the supply." [V]
+- "The best place for an RCD is built into the main switchboard or the socket outlet, as this means that the supply cables are permanently protected. If this is not possible, a plug incorporating an RCD or a plug-in RCD adaptor can also provide additional safety." [V]
+- "RCDs for protecting people have a rated tripping current (sensitivity) of not more than 30 milliamps (mA)." [V]
+- Its list: "an RCD is a valuable safety device, never bypass it;" [V] "if it trips, it is a sign there is a fault – check the system before using it again;" [V] (spaced dash; quote around it) "the RCD has a test button to check that its mechanism is free and functioning – you should use this regularly." [V]
+- The leaflet's status: "Following the guidance is not compulsory, unless specifically stated, and you are free to take other action." [V]
+- **Still not closed:** a UK test interval (HSE says "regularly", no number; ESF's three months is
+  still snippet only), so the fallback stands: the maker's instructions say how often. And a UK
+  account of how an RCD detects a fault: HSE's "detects some, but not all, faults" is all that was
+  read, so the mechanism stays CPSC's, given for the GFCI.
+- 30 mA and CPSC's 0.006 A (6 mA) are different standards' figures. Never set side by side as
+  equivalent.
+
+**G-E4 (current NEC GFCI locations): not closed.** NFPA's code text needs an account; ESFi's live
+site returned 403 before (Part A); the search results were manufacturers' and trade blogs. Fallback:
+CPSC's list, labelled as CPSC's, stopping at 2005, and "the code applies as each state adopts it".
+
+### Re-read at drafting
+
+**CPSC, "GFCIs Fact Sheet" (Document 099)**, https://www.cpsc.gov/s3fs-public/099_0.pdf, re-read in
+full. Additions to Part A §3:
+- "A GFCI constantly monitors current flowing through a circuit. If the current flowing into the circuit differs by a very small amount (as little as 0.006 amperes) from the returning current, the GFCI interrupts power faster than a blink of an eye to prevent a lethal dose of electricity." [V] (line breaks joined)
+- "GFCIs are designed to operate before the electricity can affect your heartbeat." [V] (the PDF's OCR prints "GFCls" with a lower-case L; quoted with the capital I)
+- The example: "A bare wire inside an appliance touches its metal case. The case is then charged with electricity. If you touch the appliance with one hand while another part of your body is touching a grounded metal object, such as a water faucet, you will get shocked." [V]
+- The receptacle GFCI "protects against ground-faults for whatever is plugged into the outlet and other electrical outlets further "down stream" in the branch circuit." [V]
+- Test every GFCI "After installation", "At least once a month", "After a power failure", "According to the manufacturer's instructions." [V] Without instructions: "Plug a lamp into the outlet and turn the lamp on." "Press the GFCI's test button. Did the light go out? If not, the GFCI is not working or has not been correctly installed. Contact a qualified electrician to correct the wiring and/or replace the defective GFCI." "Press the reset button. Did the light come back on? If not, replace the GFCI." [V]
+- Also: portable GFCI protection "With electric tools (drills, saws, sanders, etc.) for do-it-yourself work in and around the house" [V].
+- "The GFCI is designed to protect people from severe or fatal electric shocks but because a GFCI detects ground faults, it can also prevent some electrical fires" [V].
+
+**CPSC Publication 5133 (AFCIs)**, re-read in full; every quotation in Part A §3 matches. One more:
+"By the time a fuse or circuit breaker opens a circuit to defuse these conditions, a fire may already have begun." [V]
+
+**Electrical Safety First, "Plugs and fuses usage and safety"** (G-E7). The URL in Part B §3 now
+redirects to https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/plugs-and-fuses/.
+Read: full text. Its fuse examples re-read, so a lesson may give them as ESF's:
+- "The fuse inside a UK plug is a safety device to protect you. It will 'blow' if an electrical appliance or extension lead draws too much current, either because of an overload or a fault." [V]
+- "The blown fuse cuts off the electricity, stopping the cable and appliance from overheating and causing a fire." [V]
+- "If you have to replace a fuse, replace it only with another of the same rating. A standard UK plug is usually fitted with a 3A or 13A fuse." [V]
+- "3A – Table lamp, standard lamp, television, video, computer, soldering iron." [V] "13A – Washing machine, dishwasher, fridge, freezer, power drill, vacuum cleaner, microwave, kettle, toaster, iron." [V] (spaced dashes; quote around them)
+- "Manufacturers have now standardised plug fuse ratings to be either 3A or 13A. But 5A fuses are still used in some older equipment and are available to buy." [V]
+- "Only remove the cover when the plug is out of the socket first." [V] "The fuse is the correct size and meets British Standard BS 1362 – it will be marked on the fuse body. Check manufacturer's instructions if you are not sure which fuse to use." [V]
+- "Don't ignore burn marks, ‘arcing’ (buzzing or crackling) sounds, fuses blowing, circuit-breakers tripping, or if it feels hot to touch." [V] "Unplug and contact the retailer, manufacturer, or a qualified repair technician." [V]
+- "If you don’t have RCD protection, use an RCD plug on the socket where the product is plugged in." [V]
+- Periodic inspection "at least every 10 years for an owner-occupied home" [V]; "for tenanted properties, every 5 years or at each change of occupancy, whichever is sooner" [V] (ESF's recommendation).
+- GOV.UK's 5A vacuum cleaner example (D35) and ESF's 13A for a vacuum cleaner disagree; the lesson
+  teaches "the rating the maker specifies" and gives neither list as a rule.
+
+**Electrical Safety First, "Socket-outlets usage and safety"** (D34), now at
+https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/overloading-sockets/.
+Read: full text; the calculator did not render.
+- "Most extension leads are rated at 13A but some older ones and many cable reels may be only 10A or less." [V]
+- "plugging an extension lead into another extension lead as this could cause the plug in the wall socket to overheat." [V]
+- Cable reels: "It's important they are fitted with a thermal-cutout." "Make sure they are fully unwound if you need the full current rating." "The current rating is typically as low as 3 or 4A when wound." [V]
+
+**Electrical Safety First, "FAQ for Electrical Safety"**, now at
+https://www.electricalsafetyfirst.org.uk/safety-advice/your-questions-answered/ (the RCD FAQ URL in
+Part B §3 redirects here). Re-read:
+- "If the RCD in your fusebox keeps tripping, there is likely to be a fault that needs investigating - either with a particular appliance or the wiring itself." [V] (the page's hyphen)
+- "You should get a registered electrician to investigate and they will be able to advise you on a solution and carry out any work required." [V]
+- "If you notice anything unusual - for example, burn marks on plugs and sockets, sounds of ‘arcing’ (buzzing or crackling), fuses blowing or circuit-breakers tripping - get a registered electrician to check your electrics as soon as possible." [V]
+
+**SI 2020/312, regulation 3**, re-read in full on legislation.gov.uk; no known outstanding effects.
+Reg 3(1)(b) and (2)(a): inspected and tested "at intervals of no more than 5 years" [V]; reg
+3(1)(c) (amended) before the tenancy starts; reg 3(3)(b): a copy of the report to "each existing
+tenant of the residential premises within 28 days of the inspection and test" [V]. Reg 3(2A), added
+by amendment, lets a landlord show "all reasonable steps". England.
+
+---
+
+## Gate closures, lesson 02 (2026-09-25)
+
+Read by the lesson 2 Stage 4 fixer on 25 September 2026, curl with a browser User-Agent and an HTML
+stripper, whole regulation each time. Every [V] below was string-checked against the extracted text
+on the day.
+
+**G-W4, the 7 m guaranteed minimum pressure: closed, for England and Wales, from the regulations
+themselves.** Ofwat's page is still unread; the standard is now stated from the statute, not from
+WaterSafe. The Water Supply and Sewerage Services (Customer Service Standards) Regulations 2008,
+SI 2008/594, revised text on legislation.gov.uk, both pages showing "no known outstanding effects".
+- Regulation 17G (England), https://www.legislation.gov.uk/uksi/2008/594/regulation/17G, versions
+  from 1 April 2017 and 2 July 2025 (amended by SI 2025/662). Heading "Pressure standard", extent
+  E+W. Reg 17G(1): [V] "An English water wholesaler must maintain, in a communication pipe serving
+  premises supplied with water, a minimum water pressure of seven metres static head (the “MW
+  pressure”)". Reg 17G(2)(a): the English service provider [V] "must pay the customer £50" when the
+  pressure failure conditions are met. Reg 17G(3): the pressure falls below the MW pressure [V] "for
+  an hour or more", other than in connection with necessary works or because of drought, and does so
+  again within [V] "the period of 28 days" beginning on the day of the first failure. Reg 17G(5)(a):
+  no payment once payments [V] "totalling £250" have been made to the customer in the same financial
+  year; 17G(5)(b) and (c) add a three-month claim rule where the company could not identify the
+  customer, and exceptions for industrial action and third parties' acts. Reg 17G(6)(a):
+  "communication pipe" means [V] "the part of a service pipe between an English wholesaler’s water
+  main and the boundary of the street in which the water main is laid"; (b) gives a variant for
+  premises abutting the street, with a stopcock near the boundary.
+- Regulation 10 (Wales), https://www.legislation.gov.uk/uksi/2008/594/regulation/10, as amended
+  1 April 2017. Heading "Pressure standard". Reg 10(1): [V] "A Welsh water undertaker must maintain,
+  in a communication pipe serving premises supplied with water, a minimum water pressure of seven
+  metres static head." Reg 10(2): two occasions in 28 days each lasting one hour or longer, and the
+  undertaker [V] "must, except in the circumstances described in paragraph (3), pay the customer
+  £25." Reg 10(3): not for necessary works or drought. Reg 10(5)(a): no payment where one has already
+  been made [V] "in respect of another such failure in the same financial year" (so at most one a
+  financial year). Reg 10(6)(a) defines "communication pipe" in the same words for a Welsh undertaker.
+- Scope: England and Wales only. Scotland and Northern Ireland not read. The regulations measure in
+  the communication pipe, which is the company's side of the boundary; nothing in them concerns a tap
+  inside the home. WaterSafe's "7 metres static head (0.7 bar)" matches the statutory figure.
+
+## Stage 4 note, lesson 04 (2026-09-25)
+
+The lesson 04 reviewer ("Water out: traps, vents and blocked drains") re-fetched every primary the
+lesson cites with curl (browser User-Agent) on 2026-09-25; the fixer re-fetched the Thames Water
+release, UGA Circular 1082, Poison Control's drain-cleaner page, ASHI, WaterSafe and Approved
+Document H 2015 the same day. Corrections made in place above, each marked "Stage 4 note, lesson
+04": UGA's septic line (hire a professional), the Thames Water survey's provenance (commissioned,
+Opinion Matters), WRc's restart of testing (written in 2024, no later status), and Approved Document
+H para 1.31 (not a heading). Also:
+
+- **UKHSA, sodium hydroxide:** gives no advice on goggles, gloves, ventilation, pouring or mixing.
+  It says correct use of household products is not expected to cause harm, and gives storage
+  advice for "Sodium hydroxide containing products" (not caustic products in general). Every
+  condition on using a drain cleaner in this course is Poison Control's (US).
+- **Approved Document H 2015:** Table 1 is titled "Minimum trap sizes and seal depths" [V]; para
+  1.3's 25 mm applies "Under working and test conditions" [V], a performance condition, not a rule
+  that a trap may never fall below 25 mm. Approved Documents are "for the purpose of providing
+  practical guidance" [V] (front matter, reviewer's read).
+- **City of Superior:** attributes its stack definition to "The Universal Plumbing Code (UPC)" [V];
+  its floor-drain reason is preventing sewer gas, not that the drain is forgotten.
+- **Thames Water, blockages:** the owner's responsibility for "the ones connecting to our sewers"
+  sits beside the company's "may be our responsibility" cases (outside the property boundary, or
+  more than one property affected); quote the one with the other.
+
+Verified strings, checked against the live primary on 2026-09-25 (reviewer; the first three of the
+new ones also by the fixer):
+- WaterSafe: "A natural and chemical-free way to break up clogs is by using baking soda and vinegar" [V]. "If your sink has two basins, use a wet rag to plug the unclogged side." [V] "for around 15 to 60 minutes" [V] "Place a bucket under the P-trap to catch water and debris." [V] "Reattach the P-trap and tighten the nuts" [V] "If the water still backs up, the clog might be deeper in the plumbing system, requiring professional assistance." [V]
+- Poison Control, drain cleaner: "Liquid drain cleaners contain potentially poisonous acidic or basic compounds, enzymes, and bacteria that are effective in clearing clogged drains." [V] (the page's "bottom line"). "Pour drain cleaners carefully and close to the drain to avoid splashing." [V] "injury can occur when a drain cleaner splashes back from the drain area. This can happen if the drain cleaner is poured from too high up, or if too much product is poured into a completely blocked drain." [V] Of drain cleaners that heat up: "The heat helps melt grease" [V] (reviewer).
+- Poison Control, spring cleaning: "Never mix any cleaning chemicals since it might lead to a potentially dangerous chemical reaction." [V] Vinegar is named there as a mild acid and lye drain cleaners as strong alkalis.
+- ASHI: "Flush the garbage disposal and bathroom sinks monthly by adding one pot of hot water, then a half cup of baking soda followed by one cup of vinegar." [V] "glub, glub, glub" [V] (analogy for why drains need air; nothing on the page about gurgling drains). "a damaged pipe behind a wall or in the attic" [V], given as "also possible", not as a next step.
+- UKHSA: "commonly known as caustic soda and soda lye" [V]; "would not be expected to cause adverse health effects." [V]; "Sodium hydroxide containing products in the home should be stored in an appropriate container and kept out of the reach of children." [V]
+- CDC (Internet Archive capture 20260923211319): "Never mix bleach with ammonia or other cleaners." [V]
+- Approved Document H 2015: "should retain a minimum seal of 25mm of water or equivalent" [V]; "should be removable or be fitted with a cleaning eye" [V]; fn 2 to Table 1: "Where these appliances discharge directly to a gully the depth of seal may be reduced to not less than 38mm." [V] (covers dishwashers too).
+- Thames Water, blockages: "we advise you contact a plumber." [V] "even the ones labelled ‘flushable’" [V]; 48 hours in normal weather and 72 when exceptionally busy, under "What about blockages outside my home?".
+- Thames Water, fatberg release: "one of the leading causes of blockage-related internal flooding" [V]; up to 75,000 blockages, up to £40 million, 28% (20,000+); milk (61%), meat juices (31%) "this past month"; a quarter (25%) on wipes.
+- Portland: "gets thick and sticky when it cools." [V] "doesn't break down in water, separates from other liquids, and sticks to pipes" [V].
+- WRc: "based primarily on messaging" [V]; "flushable products are not the real problem for sewer networks." [V]; operated by Water UK since 2019, ended at the beginning of March 2024; WIS 4-02-06.
+- SI 2025/1218: made 18 November 2025; in force 19 May 2027; reg 1(3) extends to England and Wales, applies to England only; reg 3(1) as recorded above; exemptions regs 5 to 7.
+- UGA Circular 1082 (reviewed June 2021): "Hire a professional to pump your septic tank to prevent backup." [V] "every 3 - 7 years" [V].
