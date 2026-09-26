@@ -367,3 +367,30 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **The 1998 jack note counts people hurt, not jobs done,** so it can't rank jobs by risk. Scripts and
   the test say so.
 - **Quiz keys:** 19 3,1,0,2,0 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 18 fix pass: notes for later lessons
+
+- **The 999 condition on a motorway is "not near a free emergency telephone", not "in an emergency".**
+  Rule 277 and National Highways both give it. Any case, script or test item that has a driver call
+  from a hard shoulder or emergency area gives the phone first, 0300 123 5000 from a mobile, and 999
+  (ask for the police) if she hasn't stopped near a phone. Leaving an emergency area is Rule 278's MUST.
+- **Road type for a roadside job is "a motorway or other fast road"**, as the callout says; a lay-by on
+  a fast road counts as the fast road (this course's reading, labelled). Lesson 19's Hornsea step
+  already matches.
+- **TyreSafe settles the driven-flat run-flat:** "both unsuitable and unsafe to repair". No lesson,
+  script or test frames that case as contested; only the rest of run-flat repair is left to the tyre
+  maker. TyreSafe's "To stay compliant with the law" belongs to its central-three-quarters sentence, not
+  to its British Standard sentence.
+- **The BTMA's "Repair in area 'T' only" is its accepted repair, not a rejected method.** The lesson
+  18/19 gate closure had it inside the "not recognised" list; SOURCES is marked. Lesson 19, the scripts
+  and the test check any BTMA line against SOURCES "Stage 4 note, lesson 18".
+- **Mazda counts punctures, Honda and Nissan count tyres** in the sealant kit's "don't use" list.
+- **Traffic officers:** nothing read says they change wheels. Say National Highways "can send other help
+  ... such as a Traffic Officer", no more.
+- **P20, for lesson 19's next open:** lesson 19's objective 1 ("Decide whether a place is fit for a
+  wheel change, using the handbooks' conditions and the Highway Code's advice, and say whose rule or
+  advice each condition is") nearly repeats lesson 18's, and lesson 19 repeats Toyota's and Honda's
+  surface lines and Rule 276 from lesson 18's conditions table. Batch-drafting repetition
+  (courses/CLAUDE.md 2(c)). Lesson 19 should point back to lesson 18's table for whether, and keep its
+  own objective to the place's fitness for the jack. Nothing changed in lesson 18.
+- **Quiz keys:** 18 2,1,3,2,0 (unchanged by the fix).

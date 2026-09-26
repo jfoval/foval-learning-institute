@@ -1414,7 +1414,7 @@ What it establishes:
 - Age: "Some vehicle and tire manufacturers recommend replacing tires that are six to 10 years old, regardless of treadwear." [V] Reading the date: "The last four digits of the TIN indicate the week and year the tire was made. If the TIN reads 0308 it was made in the third week of 2008." [V] "The TIN may not be on both sides." [V]
 - Damage signs: stop using tyres for "signs of physical damage (cuts, cracks, bulges, etc.)" [V].
 - Spare: NHTSA recommends a full-size spare "not be used as a replacement for worn tires, except in emergencies such as replacing a flat tire." [V]
-- Blowout: "Hold the steering wheel with both hands." then "Gradually release the accelerator." [V] (listed steps; do not slam on brakes).
+- Blowout: "Hold the steering wheel with both hands." then "Gradually release the accelerator." [V] (listed steps; do not slam on brakes). (Steps 1 and 3 of five, not consecutive; see Gate closures, lesson 18/19.)
 Good for: US side of tyre checks, TPMS, tyre age and DOT date code.
 
 #### eCFR, 49 CFR 571.138 (FMVSS No. 138, Tire pressure monitoring systems), S4.2
@@ -7414,7 +7414,7 @@ drafter recorded the same outage.
 - **BTMA, "Tyre Industry Professionals"** (live), re-read in full; Part E §4's quotations match.
   Additionally, in its list of "'repair' methods" that "are not recognised as acceptable": "Liquid
   sealants." [V] "Plugs applied externally to fitted tyres." [V] "Inner tubes fitted to tubeless tyres."
-  [V] "Temporary repairs." [V] "Repair in area 'T' only, requiring one of the following:" [V] "1. Rubber
+  [V] "Temporary repairs." [V] (The next three are not in that list: they are the summary's accepted repair, printed above it; see Stage 4 note, lesson 18.) "Repair in area 'T' only, requiring one of the following:" [V] "1. Rubber
   only combination plug patch." [V] "2. Rubber only patch and penetration filling material." [V]
   "BTMA only condones tyre repairs which are carried out in accordance with the recommendations in the
   prevailing issue of British Standard BS AU 159, currently suffix g." [V] Footnote 5 on T-type spares:
@@ -7591,3 +7591,79 @@ lines the Tier B fix now quotes.
   lesson 18/19" matches. HSE does not say the slope was the cause.
 - **Nissan UK's 2023 LEAF pages are not used** for the hybrid and EV "off" line in step 4, as the
   lesson 18/19 closure records. The line points to lesson 14 instead.
+
+## Stage 4 note, lesson 18 (2026-09-26)
+
+The lesson 18 fixer re-read each page below live on 26 September 2026 (curl with a generic browser
+User-Agent and no personal data in any header; text extracted with Python and pdftotext) for every
+line the fix adds or re-words. **[V]** as above. Two earlier entries are corrected in place (marked).
+
+- **TyreSafe, "The Complete Guide To Punctures and Repairs"** (live). The run-flat section: "Driving on
+  a punctured or deflated run-flat subjects the tyre structure to high stress, which can weaken and
+  permanently damage d it, making the tyre both unsuitable and unsafe to repair." [V] (the page's own
+  broken word; the lesson quotes only "subjects the tyre structure to high stress" and "both unsuitable
+  and unsafe to repair"). The next sentence, whole: "A fully qualified tyre repairer may struggle to
+  detect under inflation in a run flat, which is why several associations do not recommend repairing a
+  run-flat tyre." [V] So TyreSafe settles the driven-flat case and reports others' caution for the rest;
+  no source read argues that a driven-flat run-flat can be repaired. The standard sentence and the law
+  clause are two sentences: "Puncture repairs to car tyres must only be carried out by a tyre
+  specialist and in accordance with the current British Standard AU159." [V] and, under "Location of
+  the puncture", "To stay compliant with the law, tyre repairs can only be carried out on the central ¾
+  of the tyre." [V] The lesson had joined the law clause to the standard sentence; it now reports them
+  separately, both as TyreSafe's, with no statute read.
+- **BTMA, "Tyre Industry Professionals"** (live). **Correction to "Gate closures, lesson 18/19":**
+  "Repair in area 'T' only, requiring one of the following:" and its two methods are the first of "the
+  main points contained within BS AU 159", printed above the procedure; they are the accepted repair,
+  not part of the "not recognised as acceptable" list (section 3 d), which is "Liquid sealants.",
+  "Plugs applied externally to fitted tyres.", "Inner tubes fitted to tubeless tyres.", the tube-type
+  line and "Temporary repairs." The entry is marked in place. Added: area 'T' is "defined as percentage
+  of nominal section width of tyre" [V]; procedure 2 f): "Hold the patch in position and mark its
+  outline on the inner liner." [V]; "Permission to reproduce extracts from BS AU 159f :1997 is granted
+  by BSI." [V] against "currently suffix g" [V].
+- **Honda, 2024 Civic Sedan (US), "Temporarily Repairing a Flat Tire"** (live). After the first 10
+  minutes, three bands: "Less than 19 psi (130 kPa): Do not add air or continue driving. The leak is too
+  severe. Call for help and have your vehicle towed." [V]; "Front: 33 psi (225 kPa)/rear: 32 psi (220
+  kPa) or more: Continue driving for another 10 minutes or until you reach the nearest service station,
+  whichever is sooner. Do not exceed 50 mph (80 km/h). If you have not reached a service station, stop
+  and check the tire pressure." [V]; "Greater than 19 psi (130 kPa), but less than front: 33 psi (225
+  kPa)/rear: 32 psi (220 kPa): Turn the air compressor on to inflate the tire until the tire pressure
+  reaches front: 33 psi (225 kPa)/rear: 32 psi (220 kPa)." [V] then "drive carefully for 10 more minutes
+  or until you reach the nearest service station, whichever is sooner." [V] "Changing a Flat Tire": "Use
+  the jack provided in your vehicle." [V]; compact spare: "Replace with a full-size tire as soon as
+  possible." [V]
+- **Toyota, 2023 Corolla (US), OM02568U**, p. 379 (PDF re-downloaded): "When a tire is repaired with
+  liquid sealants, the tire pressure warning valve and transmitter may not operate properly. If a liquid
+  sealant is used, contact your Toyota dealer or other qualified service shop as soon as possible. Make
+  sure to replace the tire pressure warning valve and transmitter when replacing the tire." [V]
+- **Nissan, 2024 LEAF (US) PDF** (re-downloaded), p. 6-3 (the review said 6-4; the line sits under the
+  6-3 page header in the PDF): "If possible, have the vehicle towed to a facility that can repair or
+  replace the flat tire." [V] Same page: "it is recommended that you visit a NISSAN certified LEAF
+  dealer to replace the TPMS sensor in addition to repairing or replacing the tire." [V]
+- **National Highways, "Driving on motorways"** (live). "Whatever part of National Highways' network
+  you're driving on" [V] opens the page, and "What to do if you break down" follows with no road type in
+  its heading. "Get help": "If you've stopped in an emergency area, lay-by or on the hard shoulder: Use
+  the free emergency telephone (where provided) or a mobile phone to call National Highways on 0300 123
+  5000" [V]; "If you're unable to exit your vehicle or if you've not stopped near a free emergency
+  telephone: Call 999 immediately and ask for the police." [V] "send other help as required, such as a
+  Traffic Officer" [V]. Nothing on the page says traffic officers change wheels. Also: "Do not exit an
+  emergency area without speaking to National Highways first." [V] (not quoted).
+- **Highway Code, "Breakdowns and incidents"** (GOV.UK content API, public_updated_at 2021-09-14).
+  Rule 276: "at night or in poor visibility do not stand where you will prevent other road users seeing
+  your lights" [V]. Rule 277: "if you are unable to exit your vehicle or if you have not stopped near a
+  free emergency telephone, call 999 immediately and ask for the police." [V] Rule 278 (Law RTA 1988
+  sect 36): from an emergency area, "you MUST use the emergency telephone provided and follow the
+  operator's advice for exiting the emergency area." [V] Rule 275: "Otherwise moving traffic could
+  collide with your vehicle, forcing it into you and your passengers." [V]
+- **California Driver Handbook, Section 8** (live): the exceptions to staying in the car on a freeway
+  are three: "Not enough space on the shoulder." "A guardrail." "An area for you to safely stay away
+  from freeway lanes." [V] The Freeway Service Patrol runs "During commute times ... in certain areas"
+  and will "Change a flat tire." [V]
+- **C&U reg 27(2)** (legislation.gov.uk, live): "a tyre which is deflated or not fully inflated and
+  which has any of the defects described in sub-paragraph (c), (d) or (e) of paragraph (1)" [V]. "Cut,
+  bulge or exposed cord" is the course's shorthand for those three sub-paragraphs.
+- **Not verified:** whether the M62 between junctions 20 and 25 (over the Pennines) still has a hard
+  shoulder. National Highways' scheme page was not found at the addresses tried (404). The lesson's case
+  now stops in an emergency area, which holds either way.
+- **Reviewer F's SOURCES note (F22):** Part B §1's NHTSA blowout line is marked in place as steps 1 and
+  3 of five; the lesson's Source 3 now calls capture 20260923145155 "the newest readable one" (later
+  CDX rows are non-200 revisits).
