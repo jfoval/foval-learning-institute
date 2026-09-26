@@ -188,6 +188,12 @@ written, so this course does not learn it again.
   paragraph 16's explosion warning. FMVSS 135 requires "an indicator" for brake conditions; a
   separate ABS or regenerative-braking indicator is yellow, so no lesson says those faults light "the
   brake warning light".
+- **2026-09-26, from lesson 7 at Stage 4:** FMVSS 138's "placard x 0.75" is the latest point the
+  TPMS light may come on, and only for standard-load passenger tyres (Table 1 floors: 20 psi
+  standard-load, 23 extra-load, 29 Load Range C, 35 D and E). Any lesson or test item using the sum
+  says "on standard-load passenger tyres"; none calls a lit TPMS light "a quarter low" or treats
+  0.75 as the car's own threshold. No UK TPMS trigger rule was found; the US rule is never applied to
+  a UK car. AAA is "AAA, whose clubs sell roadside assistance" at each use.
 
 ## Drafting brief: Car Basics, Stage 3
 

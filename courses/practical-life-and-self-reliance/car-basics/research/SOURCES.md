@@ -5531,3 +5531,100 @@ Quotations marked [V] were copied from that extracted text.*
 - **Checked and not found:** no source read says a Nissan handbook tells owners to clean the battery
   terminals; only Ford's p. 457 "Battery connections. Clean if necessary." [V] (lesson 05 gate closures)
   is on record.
+
+## Stage 4 note, lesson 07 (2026-09-26)
+
+Primaries re-read live by the lesson 07 fixer, 26 September 2026, with curl (browser User-Agent, no
+personal data in any header).
+
+- **FMVSS 138 Table 1** (eCFR, 49 CFR 571.138, current). Column 3, minimum activation pressure: P-metric
+  Standard Load 140 kPa, 20 psi; P-metric Extra Load 160 kPa, 23 psi; Load Range C 200 kPa, 29 psi; Load
+  Range D 240 kPa, 35 psi; Load Range E 240 kPa, 35 psi [V]. S4.2(a) takes "whichever is higher" [V] of
+  that and the 25 per cent point. **Correction for every later lesson, the script and the test: the TPMS
+  trigger is "placard x 0.75" only on standard-load passenger tyres, and on those only when the placard
+  is above about 26.7 psi (arithmetic).** On extra-load or light-truck tyres the floor can be higher. Any
+  quoted "trigger" is the latest point the standard allows ("not more than 20 minutes after" [V]), not
+  the car's own threshold: nothing in S4.2 stops a maker warning earlier, and no source read says how
+  makers set it. NHTSA's cold-morning explanation opens "This is likely caused by" (Part B §1): keep
+  "likely".
+- **FMVSS 138 S4.5**, manual text: "TPMS malfunctions may occur for a variety of reasons, including the
+  installation of replacement or alternate tires or wheels on the vehicle that prevent the TPMS from
+  functioning properly." [V]
+- **AAA Exchange, "Tire Safety and Maintenance"**, live, "Checking Air Pressure": "1. Remove the tire's
+  valve cap. 2. Place the gauge over the tire's valve stem and press firmly so that no escaping air is
+  heard. The tire gauge will indicate how much pressure is in the tire. 3. Adjust the tire's air pressure
+  as needed. When adding air, push the air hose into the valve firmly, until the air stops escaping.
+  Check the pressure every few seconds to help judge the amount of air going into the tire, until you
+  reach the recommended air pressure." [V] "4. Replace the valve cap. 5. Repeat the process for the other
+  tires. Don't forget the spare tire." [V] (The reviewer's suggested "this course read no guide to
+  forecourt air lines" was not used: step 3 is one.)
+- **The AA, "10 essential car maintenance tips"**, live, "Updated: 10 July 2025" [V]: "We recommend you
+  check your tyres – including the spare – every 2 weeks, as tyres do naturally deflate over time." [V]
+  (the dashes are the AA's). Part B §2's "every 2 weeks" stands; it is the tyres check as a whole, under
+  the heading "Check tyre condition as well as pressure" [V].
+- **DVSA, MOT inspection manual, Introduction** (GOV.UK content API, updated 1 June 2026): "If a vehicle
+  has only minor defects, it will pass its MOT inspection and a test certificate will be issued." [V]
+  and the M1 definition as recorded in "Gate closures, lesson 07" [V]. Both are the Introduction's, not
+  section 5's: cite the Introduction for them.
+- **49 CFR 575.104**, live: "a tire graded 150 would wear one and one-half (1 1/2) times as well on the
+  government course as a tire graded 100" [V]; (c)(1) excludes "deep tread, winter-type snow tires" [V],
+  not winter tyres in general.
+- **NHTSA "Tires"** (capture 20260924154655): the lesson renders the inner quotation marks of "at least
+  once a month when the tires are "cold," meaning ..." as single quotes so it reads as one quotation;
+  `npm run quotes` reports that line as a miss, and the words are NHTSA's unchanged.
+
+## Stage 4 note, lesson 06 (2026-09-26)
+
+*Re-read by the lesson 06 fixer on 26 September 2026 with curl and a browser User-Agent (no personal data
+in any header): the eCFR versioner API (point in time 2026-09-24, compressed response) for 49 CFR 571.135
+S1 to S5.6 and 571.116 S1 to S5.2.2 and S6.2; the Nissan 2024 LEAF PDF fetched fresh from nissanusa.com
+(byte-identical to the drafter's copy) through pdftotext -raw; the GOV.UK content API for MOT manual
+section 1 (updated 2026-06-01). Quotations marked [V] were copied from that text.*
+
+- **Correction to "Gate closures, lesson 06": FMVSS 135 S5.5.1 does not say what lights "the brake
+  warning light".** It says "An indicator shall be activated ... whenever any of conditions (a) through (g)
+  occur" [V, elision the fixer's]. S5.5.5(b): "Vehicles manufactured with a split service brake system may
+  use a common brake warning indicator to indicate two or more of the functions described in S5.5.1(a)
+  through S5.5.1(g). If a common indicator is used, it shall display the word “Brake.”" [V]. S5.5.5(d)(3),
+  a separate ABS indicator: "the letters and background shall be of contrasting colors, one of which is
+  yellow." [V]; (d)(5): a separate lining-wear indicator uses "the words “Brake Wear”" [V]; (d)(6), a
+  separate RBS indicator: "one of which is yellow. The indicator shall be labeled with the symbol “RBS.”"
+  [V], or "a yellow lamp that also indicates “ABS” failure and displays the symbol “ABS/RBS.”" [V]. So
+  the conditions may share one red BRAKE light or have their own lights, and the ABS and RBS ones are
+  yellow when separate. Lesson 11 must not say the red light covers ABS or RBS faults as a rule.
+- **S5.5.1(a) has three options, not two**: (1) the level, (2) "a differential pressure of 1.5 MPa (218
+  psi) between the intact and failed brake subsystems" [V], and (3) "A drop in the supply pressure in a
+  brake power unit to one-half of the normal system pressure." [V]. The split-system definition's elided
+  words: "(such as a leakage-type failure of a pressure component of a hydraulic subsystem except
+  structural failure of a housing that is common to two or more subsystems, or an electrical failure in
+  an electric subsystem)" [V]; S5.5.1(a) repeats the housing exception.
+- **S5.5.2, the function check, has two routes**: "(1) Automatic activation when the ignition (start)
+  switch is turned to the “on” (“run”) position when the engine is not running" [V] or "(2) A single
+  manual action by the driver, such as momentary activation of a test button or switch mounted on the
+  instrument panel" [V]; "(c) The manufacturer shall explain the brake check function test procedure in
+  the owner's manual." [V].
+- **S5.1 and S5.1.1**: "Each vehicle shall be equipped with a service brake system acting on all wheels."
+  [V]; "Wear of the service brakes shall be compensated for by means of a system of automatic
+  adjustment." [V]. S5.4.3's letters: "at least 3.2 mm ( 1/8 inch) high" [V, the source's space]; the
+  distance: "within 100 mm (3.94 inches) of the brake fluid reservoir filler plug or cap" [V].
+- **FMVSS 116 S6.2.4 to S6.2.5, the wet test's vessel**: the fluid goes "into an open corrosion test jar"
+  [V]; test fluid and reference fluid go "into the same desiccator" [V], a covered glass desiccator over
+  "450 ±10 ml. of distilled water" [V], in "an oven with temperature controlled at 50 ±1 °C. (122 ±1.8
+  °F.)" [V]. "Same sealed container" (the draft's words) was wrong. S5.1.14 lists DOT 5.1 non-SBBF with
+  DOT 3 and DOT 4 as colorless to amber and gives no reason for the colours; S5.2.2.2(e) requires the
+  container to say "DOT 5 SILICONE BASE" [V] or "DOT 5.1 NON-SILICONE BASE" [V] as applicable.
+- **Nissan 2024 LEAF, pp. 2-17 to 2-18 and 2-20.** The low brake fluid warning (p. 2-17): "If this warning
+  light illuminates, the Vehicle Dynamic Control (VDC) warning light and the brake system warning light
+  (yellow) also illuminate." [V]; "stop the vehicle and perform the following items." [V]; "1. Check the
+  brake fluid level. If brake fluid is necessary, add fluid and have the system checked." [V, spacing
+  restored]; the WARNING box opens "Your brake system may not be working properly if the warning light is
+  on. Driving could be dangerous." [V, spacing restored], and its last bullet, "If the brake fluid level
+  is below the minimum or MIN mark on the brake fluid reservoir, do not drive until the brake system has
+  been checked." [V], runs onto p. 2-18. So the "drive carefully" line is never quoted without the MIN
+  line beside it. p. 2-20, the brake system warning light: "This light functions for both the
+  cooperative regenerative brake and the electronically driven intelligent brake systems." [V, spacing
+  restored]; "If the BRAKE warning light (red) also illuminates, stop the vehicle immediately and have
+  the system checked." [V]. The reviewer placed the regenerative light on p. 2-17; it is p. 2-20, and its
+  colour (yellow) is stated on p. 2-17.
+- **MOT manual section 1 headings** (updated 2026-06-01): "1.1.13. Brake linings and pads" [V] and
+  "1.1.14. Brake discs and drums" [V] (the fixer re-read the headings for this point).

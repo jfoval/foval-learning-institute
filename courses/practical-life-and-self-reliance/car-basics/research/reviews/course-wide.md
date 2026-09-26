@@ -119,3 +119,19 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   close to an ignition source." Lesson 13.
 - **Nissan's frozen-battery line is the LEAF's**; no source read gives a freezing temperature.
 - **Quiz keys:** 05 3,2,1,2,0,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 07 fix pass: notes for later lessons
+
+- **The US TPMS trigger is not "placard x 0.75" for every tyre.** FMVSS 138 S4.2(a) takes the higher of
+  that and Table 1's floor: 20 psi standard-load passenger, 23 extra load, 29 Load Range C, 35 D and E.
+  Say "on standard-load passenger tyres" wherever the 0.75 sum is used. Lessons 8, 15, 18 and the test.
+- **That point is the latest the standard allows, not the car's threshold.** A maker may warn earlier;
+  no source read says how makers set it. A lit or cold-morning light never tells a reader a tyre is "a
+  quarter low". NHTSA's cold-morning line keeps "likely".
+- **No UK rule read sets a TPMS trigger or requires fitment.** Never give a UK car the US 25 per cent.
+- **AAA's page has the gauge and air-line steps** (SOURCES "Stage 4 note, lesson 07"); any lesson that
+  sends a reader to check or add air can quote them rather than assume the skill.
+- **MOT manual lines on defect categories and M1 are the Introduction's**, not section 5's.
+- **Industry label short forms used in lesson 07:** "TyreSafe, the industry-backed charity"; "AAA, whose
+  clubs sell roadside assistance"; "the AA, which sells breakdown cover and repairs".
+- **Quiz keys:** 07 0,3,2,0,1,0 (unchanged by the fix).
