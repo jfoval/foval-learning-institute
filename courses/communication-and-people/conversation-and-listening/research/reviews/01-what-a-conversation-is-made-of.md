@@ -96,3 +96,64 @@ flagged for this course. `npm run validate` exit 0, nothing naming this file. Na
 unchanged (Bram, Linnea, Tadhg, Oona, Imre, Soraya, Wren removed from quiz 6).
 
 **Status after review:** clean
+
+## Targeted re-check (2026-09-26)
+
+Fresh context. Read the reviewer's findings, the fixer's resolutions and `git diff 00740e8 d82cf6a`
+on the lesson. Primaries re-fetched live today with curl (generic browser User-Agent, no personal
+data): the LDC catalogue page for LDC97S62, Levinson and Torreira 2015 (PMC4464110), Levinson 2016
+(MPG PuRe PDF), Stivers et al. 2009 (PMC2705608), and Sacks, Schegloff and Jefferson 1974 (ISCA PDF).
+
+**Findings.** R1 to R21 are all resolved in the text. The kitchen answer (R11) now matches the
+transcript: both fragments are three syllables and only Imre restarts. OUTLINE's image note no longer
+says "four".
+
+**The three declined wordings are sound.**
+- R5, "strangers": the catalogue says a robot operator selected and dialled the callee, introduced a
+  topic, and never paired two speakers twice. It doesn't say they were strangers. "Paired by an
+  automated operator" is what the source supports, and the scope point R5 wanted (not friends, a
+  suggested topic) still reaches the reader in the body, the caption and "Run it on this lesson".
+- R4, "most cited": nothing read counts citations. "It isn't the only account" makes the same
+  correction without a claim the course can't back.
+- R2, last clause: Levinson recorded neither Switchboard nor the other corpora. He co-authored
+  Stivers et al. and Levinson and Torreira, so "a reviewer who worked on two of them" is accurate and
+  still discloses the dependence.
+
+**New and changed lines against the live primaries.** No new quotation marks were added. The new
+paraphrases match their sources:
+- "planned in the middle of the turn": Levinson 2016 (his [4]).
+- "where the setting narrows down": his "in this kind of constraining context".
+- Heldner and Edlund's "can neither be used in arguments in favor of projection, nor against
+  reaction": quoted by Levinson and Torreira and answered as "misguided".
+- The 3.8% as "either between-overlaps or within-overlaps".
+- The 1974 footnote's "apparently for Thai materials ... New Guinea creole".
+- Stivers' confirmations faster than disconfirmations "in all languages".
+- The catalogue's "1990-1991", "robot operator" and "no two speakers would converse together more
+  than once".
+
+The gate closure entries in SOURCES string-match. There are no em dashes and no spaced en dashes,
+and the voice is unchanged.
+
+**Quiz 2, 5, 6.**
+- Quiz 2: the explanation's 100 − 900 = −800 matches key D ("About 800 ms before"), and it rules
+  out each distractor.
+- Quiz 5: the explanation covers A and C, and "the Japanese recordings were the fastest" rules out
+  D. D's Italian half is true (+310 against +208), but the conjunction is false. That makes it a
+  fair distractor.
+- Quiz 6: the explanation rules out B ("short gaps are a sign of planning"), C ("face to face and
+  on the phone alike") and D ("listeners predict from what they're hearing"), and it keeps R4's "On
+  Levinson's argument".
+
+**SVGs.** Both SVGs were rendered headless in Chrome against the site's `styles.css` in the light
+and dark tokens, at 375 px and 720 px. Every element's bounding box is inside the viewBox, and no
+two text boxes overlap. The Danish leader sits clear of "500 ms", and the no-overlap bar's outline
+shows in both themes.
+
+`npm run validate` exits 0. `npm run quotes` has one miss, and it is in lesson 05 (another
+session's work), not this lesson.
+
+Optional, not a defect: "the same scale in different collections of informal talk" includes
+Switchboard's topic-prompted calls, where "informal" is generous. The earlier sentences give the
+scope.
+
+**Verdict: SETTLED.**
