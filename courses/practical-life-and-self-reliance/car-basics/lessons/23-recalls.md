@@ -443,8 +443,8 @@ the letter goes to.
 ## Connections
 
 Lesson 1 put checking for recalls among the jobs that are **Yours**, and said a car you don't keep
-goes to its keeper. Lesson 21 showed that the MOT history may mention a recall, depending on the maker,
-and lesson 22 that California's Smog Check report lists open safety recalls. Lesson 7 showed where to
+goes to its keeper. Lesson 21 showed that the MOT history may mention a recall, depending on the maker.
+Lesson 7 showed where to
 find a tyre's identification number. Lesson 24, "Choosing a garage, servicing and warranties", takes
 up the garage that does everything a recall doesn't cover.
 

@@ -326,3 +326,32 @@ en dash; callout byte-identical to the brief's and to `CAR_BASICS_SAFETY`. Cross
 935 quotations, 0 not found. `npm run validate`: exit 0, no line naming this file.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+From the course-wide neutrality audit (`neutrality-audit.md`), applied by a fixer in a fresh context.
+Quotations are recorded in SOURCES, "Stage 4 note, course-wide neutrality fixes, lessons 17 to 24
+(2026-09-26)", re-read live that day.
+
+- **N2, applied as written.** Which?'s second pair added: for cars still sold new, "franchised dealer
+  services cost £331, compared with local garages at £262." The yearly-totals caveat and the
+  fixed-price line stay. Cut from Connections: the lesson 12 clause and the Home Repair 22 and 23
+  sentence. The Home Repair lesson 22 pointer at the Michigan paragraph stays; the hiring pointer
+  (Home Repair 23) is not needed in a lesson about garages, so the Scottsdale case is untouched. The
+  pipeline-briefs decision 11 exception still names only the first pair. That file is outside this
+  fixer's scope and is left for the orchestrator.
+- **N10, applied as written.** Ford's handbook and Nissan's severe schedule for a car with no engine
+  oil; "partly commercial" and "garages are paid by the service" are gone.
+- **N4.** The Motor Ombudsman carries "funded by the garages it accredits" at its first use in each
+  H2 section, in the credentials table, the checkpoint answer, the misconception and the exercise.
+  Which? carries its commission label at line 292 and in Source 30. AAA has the base label (N5) in
+  the body and in Source 4.
+- **N6.** "it's worded more carefully" became "it speaks of what is likely"; "puts it plainly"
+  (the FTC) became "says". Script 24's own "puts it plainly" is spoken style and was left.
+- **Cuts for time:** "Lesson 6 used the same handbook for brake fluid" and the signpost sentence
+  ending the dealer-or-independent section.
+- **Measures.** 7,479 words (was 7,443); `npm run minutes` 90. Words per side in the dealer or
+  independent block: the makers' case is 174 and the independents' case is 130, both unchanged. The
+  neutral voices paragraph is 217 (was 196), and the new words are the dealer-side pair. The
+  oil-monitor paragraph is 86 (was 78). The quiz is unchanged.
+- **Script 24** needs no change: it prints none of the figures, and it leaves out the monitor and AAA.

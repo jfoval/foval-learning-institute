@@ -94,15 +94,15 @@ quiz:
       - It said the figures had proved them more dangerous, and it ordered every hard shoulder reinstated
       - It paused new schemes until five years of data were in, which is a pause, not a cancellation
       - It cancelled new ones, citing drivers' lack of confidence and cost pressures, not a safety finding
-      - It cancelled them because the Transport Committee had found them unsafe and had recommended doing so
+      - It cancelled new ones while saying its figures had proved them the safest roads in the country
     answer: 2
     explain: >-
       The April 2023 release: plans for new smart motorways "will be cancelled in recognition of the
-      current lack of public confidence felt by drivers and cost pressures". It gives no finding that
-      they were less safe, and existing ones stay, with safety money spent on them. The pause until five
-      years of data was January 2022. The Transport Committee had recommended a pause, not a
-      cancellation, and said it was not convinced reinstating the hard shoulder on all all-lane running
-      motorways would improve safety.
+      current lack of public confidence felt by drivers and cost pressures". It gives no safety finding
+      either way: not that they were less safe, and not the January 2022 release's claim that they were
+      "comparatively the safest roads in the country in terms of fatality rates". Existing ones stay,
+      with safety money spent on them. The pause until five years of data was January 2022, and no
+      hard shoulder was ordered back.
 ---
 
 A car that stops on a motorway is sitting beside traffic at motorway speed. The danger is the
@@ -118,8 +118,8 @@ This course is education, not mechanical training, and not legal advice about yo
 :::
 
 Lesson 16, "When the car stops: where, who stands where, and the call", covered ordinary roads and the call
-itself; this one is the fast roads. **Follow the advice for the road you're on.** No source read gives a
-reason why British and American advice differs, and this course doesn't supply one.
+itself; this one is the fast roads. **Follow the advice for the road you're on.** No source read says
+why British and American advice differs, and this course doesn't supply one.
 
 **Northern Ireland** has its own Highway Code, on nidirect, and its motorway breakdown rule is not the
 same as Great Britain's Rule 277.[17] This lesson doesn't teach Northern Ireland's steps, and a reader
@@ -205,7 +205,7 @@ act on an amber one too.
 
 :::predict Rule 277 says "exit your vehicle by the side furthest from traffic". Why do you think it says that, rather than "by the left-hand door"?
 
-On this course's reading, because the rule is about where the traffic is, not about which door is which. On a British motorway the side furthest from traffic is usually the left, but the Code names the traffic, and that's the thing to check before a door opens. The reason for keeping away from the traffic side at all is Rule 275's, which lesson 16 taught and the live-lane section below uses.
+On this course's reading, because the rule is about where the traffic is, not about which door is which. On a British motorway the side furthest from traffic is usually the left, but the Code names the traffic, and that's the thing to check before a door opens.
 :::
 
 ### Power loss in lane 3
@@ -276,7 +276,7 @@ makes law for everyone behind you.[2] Put together, on this course's reading: st
 car because stepping out puts a person in the lane, and call at once because the call is how the lane
 gets closed.
 
-The two countries agree on this case. AAA Club Alliance, whose clubs sell roadside assistance, on its own advice page for
+The two countries agree on this case. AAA Club Alliance, whose clubs sell roadside assistance and run a repair network, on its own advice page for
 the US: "You should never leave your vehicle if you haven’t pulled over, particularly if there is traffic
 moving around it."[16]
 
@@ -324,8 +324,8 @@ Rejoining from an emergency area is
 
 This section is the US's, and a UK reader on a UK road doesn't act on it. The US has no single federal
 breakdown rule for private cars that this course read. The two sources here are California's official
-driver handbook, for California's freeways, and AAA Club Alliance, a US motoring club that sells roadside
-assistance.
+driver handbook, for California's freeways, and AAA Club Alliance, a US motoring club; AAA's clubs sell
+roadside assistance and run a repair network.
 
 [California's handbook](https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving-cont2/),
 "If your vehicle stops working on the freeway":[15]
@@ -350,13 +350,12 @@ Read in order, the list's "Return to your vehicle as soon as you can" is for the
 walk to a call box. Where one of the exceptions applies, the handbook says it is "safer to get out of
 your vehicle and stay away", and on this course's reading that governs until help arrives.
 
-Lesson 16 gave AAA's reason for staying in: the car's airbags and the seat belt. And if you can't stay
-in, AAA Club Alliance's page says: "If the conditions of your situation make it impossible to stay in your
+If you can't stay in, AAA Club Alliance's page says: "If the conditions of your situation make it impossible to stay in your
 vehicle (and you've safely pulled over to the right shoulder), exit the vehicle from the passenger side
 and wait beyond the protective guard rail, if one exists." Its rule of thumb is "to remain at least 40
 feet from your disabled vehicle".[16] (40 feet is about 12 metres, on this course's conversion.) 911 is the emergency number; lesson 16 has what the call-taker needs.
 
-| On a fast road | In Great Britain (Highway Code; National Highways) | In California (DMV handbook) and AAA |
+| On a fast road | In Great Britain (Highway Code; National Highways) | In California (DMV handbook) and AAA (whose clubs sell roadside assistance and run a repair network) |
 |---|---|---|
 | Where to stop | Next exit or services; if not, left lane, then an emergency area or hard shoulder | The right shoulder |
 | Default | Out on the side furthest from traffic, behind the barrier; don't go back | In, belted, until help arrives, unless the shoulder is too narrow, there's a guardrail, or a safe area away from the lanes |
@@ -389,7 +388,7 @@ charity: the strongest version first", is the rule for reading them.
 
 ### What's settled
 
-These are facts, dated, and the words matter. In **January 2022** the Department for Transport **paused**
+In **January 2022** the Department for Transport **paused**
 new all-lane running schemes: "rollout of new all lane running smart motorway schemes will be paused
 until 5 years of safety data is available".[8] In **April 2023** it **cancelled** all new smart
 motorways, "in recognition of the current lack of public confidence felt by drivers and cost pressures",
@@ -399,18 +398,16 @@ stocktake (its review of smart motorway safety, which set these actions) are com
 all lane running (ALR) motorway", and that "Around 25 per cent of the motorway network is now made up of
 smart motorways".[5][4]
 
-The government's stated reasons for cancelling were confidence and cost. The release makes no claim
-that smart motorways had been found less safe.[9]
-
 ### The case that they're as safe or safer
 
-**National Highways** runs the roads it reports on, and its report is the most detailed evidence this
-course read. Its headline: "overall, all three types of smart motorway continue to be better than
+**National Highways** runs the roads it reports on. Its headline: "overall, all three types of smart motorway continue to be better than
 conventional motorways for those safety metrics which consider deaths or serious injuries, and that no
 one type of motorway, smart or conventional, is ranked best against every safety metric."[7] It explains
 the pattern: "PIC are higher on all three types of smart motorways than on conventional motorways, but a
 collision on a conventional motorway is more likely to involve a death or serious injury than a
 collision on any of the three types of smart motorway." (PIC means personal injury collisions.)[7]
+Its report gives the reason the roads were built: "Smart motorways were introduced as they increase
+capacity without the disruption and environmental impact of physically widening the road."[7]
 
 It points to where people are hurt. "The majority (96%) of collisions on our network involve only moving
 vehicles and the risk of being killed or seriously injured in this type of collision continues to be
@@ -424,11 +421,14 @@ but, in reality, it does not provide a completely safe place to stop. Between 20
 every 18 motorway deaths resulted from a vehicle entering, leaving or being on a hard shoulder. There
 have been no deaths resulting from a vehicle entering, leaving or being in an emergency area."[7]
 
+Comparing each scheme with the same road before its upgrade, the report finds that "in most cases
+smart motorways are safer than the roads they replaced": of 39 schemes of the three types, 25 had
+lower injury-collision rates afterwards and 27 lower killed-or-seriously-injured rates; at some, rates
+rose.[7]
+
 **The Department for Transport**, which set the policy, said in January 2022 that "available data shows
 smart motorways are comparatively the safest roads in the country in terms of fatality rates", and that
-"it does not agree with the view that smart motorways were rolled out prematurely or unsafely."[8] The
-Transport Secretary then, Grant Shapps: "While our initial data shows that smart motorways are among the
-safest roads in the UK, it’s crucial that we go further to ensure people feel safer using them."[8]
+"it does not agree with the view that smart motorways were rolled out prematurely or unsafely."[8]
 
 Someone who holds this view would put it this way, in this course's summary: judge a road by how many
 people are killed or badly hurt on it, and on that measure these roads do as well as or better than the
@@ -446,7 +446,7 @@ making good progress in implementing and improving the performance of Stopped Ve
 Its alternative: "We have called for more ‘controlled motorways’", and "These motorways have the
 benefit of ‘smart’ motorway technology whilst also having a hard shoulder."[11]
 
-**The RAC**, which also sells breakdown cover, makes the comparison directly. Simon Williams, its head
+**The RAC**, which also sells breakdown cover and repairs, makes the comparison directly. Simon Williams, its head
 of policy, in April 2024: "The hard shoulder is by no means a safe location, but in the event of a
 breakdown, it is far safer than being stranded in a live lane of traffic waiting for the ‘red X closed
 lane’ sign to be turned on and then for other drivers to do the right thing and move into another lane."
@@ -562,19 +562,19 @@ its reports.[10] This course read none of them.
 
 The value half no data settles: whether a road that, on the operator's figures, does as well or better
 on deaths and serious injuries overall but has more injury collisions with stopped cars is the better
-road, and how much drivers' confidence should count. This
+road, what its extra capacity is worth, and how much drivers' confidence should count. This
 course takes no side on either.
 
 :::checkpoint Sort each into what's settled, what National Highways or the government says, what a critic says, or what an official inquiry found (the Transport Committee or a coroner). (1) New smart motorways were cancelled in April 2023. (2) Stopped-vehicle incidents are more frequent on all-lane running roads, so the hard shoulder should be reinstated, or emergency areas radically increased. (3) All three smart types are better than conventional motorways on the measures that consider deaths or serious injuries. (4) Reinstating the hard shoulder everywhere might put more people at risk if traffic diverted to local roads. (5) The hard shoulder is far safer than a live lane. (6) One in 18 motorway deaths from 2018 to 2022 involved the hard shoulder. (7) The rollout of new all-lane running schemes was paused in January 2022. (8) An inquest heard that the lack of a hard shoulder contributed to two deaths. Then: (9) which would help settle the empirical half, another year of the same headline rates, or stopped-vehicle and killed-or-seriously-injured rates on all-lane running for several years after detection and the extra emergency areas, tested for significance?
 
-(1) Settled: a Department for Transport decision, for confidence and cost. (2) A critic, the AA, which sells breakdown cover and repairs, for the "so". The first half is also National Highways' own finding on stopped-vehicle injury collision rates; the conclusion drawn from it, and the alternative, are the AA's. (3) National Highways, which runs the roads, in its fourth-year report. (4) An official inquiry: the Transport Committee. (5) A critic: the RAC, which sells breakdown cover. (6) National Highways' report, 2018 to 2022, England. (7) Settled: the Department's decision. (8) An official inquiry: one inquest's finding, January 2021, whose coroner asked for "a wider review / inquiry into Smart Motorways". (9) The second, the kind of evidence the report says it has started to gather.
+(1) Settled: a Department for Transport decision, for confidence and cost. (2) A critic, the AA, which sells breakdown cover and repairs, for the "so". The first half is also National Highways' own finding on stopped-vehicle injury collision rates; the conclusion drawn from it, and the alternative, are the AA's. (3) National Highways, which runs the roads, in its fourth-year report. (4) An official inquiry: the Transport Committee. (5) A critic: the RAC, which sells breakdown cover and repairs. (6) National Highways' report, 2018 to 2022, England. (7) Settled: the Department's decision. (8) An official inquiry: one inquest's finding, January 2021, whose coroner asked for "a wider review / inquiry into Smart Motorways". (9) The second, the kind of evidence the report says it has started to gather.
 :::
 
 ## What people get wrong
 
 **"The hard shoulder is a safe place."** Rule 275: hard shoulders "provide less protection than other
 places of relative safety".[1] National Highways, which runs the roads: it "does not provide a completely safe place to stop",
-and the RAC, which sells breakdown cover and argues for bringing it back: "by no means a safe location",
+and the RAC, which sells breakdown cover and repairs and argues for bringing it back: "by no means a safe location",
 though "far safer than being stranded in a live lane".[7][12]
 
 **"Wait in the car on the hard shoulder, where it's warm."** Rule 277: "DO NOT return to your vehicle
@@ -585,6 +585,10 @@ vehicle".[4] Call instead.
 
 **"Smart motorways were cancelled because they were shown to be less safe."** The Department's stated
 reasons were public confidence and cost; see "What's settled" above.
+
+**"National Highways' figures prove smart motorways are safer."** The killed-or-seriously-injured rates
+behind its headline "cannot be tested at this time", and injury collisions involving a stopped vehicle
+are higher on all-lane running, a difference the report says "we can be confident" about.[7]
 
 **"British and American advice can't both be right."** Each is written for its own roads, and they agree
 on the live lane. Follow the advice for the road you're on.
@@ -611,9 +615,7 @@ country's steps and numbers, and the live-lane sentence.
 ## Connections
 
 Lesson 16 gave the call and Rule 275's reason for standing away from a stopped car, and this lesson put
-both on the fast roads. Lesson 11's warning lights are National Highways' trigger to leave at the next
-exit. The table in the US section sets the two countries' first steps side by side, as lesson 1
-promised. Logic and Argument lesson 7 is the method used on the smart motorway question. Lesson 18, "A flat tyre: the decision, and spare, space
+both on the fast roads. Logic and Argument lesson 7 is the method used on the smart motorway question. Lesson 18, "A flat tyre: the decision, and spare, space
 saver, sealant or run-flat", starts from this lesson's "DO NOT attempt repairs": a flat on a motorway is
 not changed there.
 
@@ -624,13 +626,12 @@ not changed there.
   free, read here in full. The official text for Great Britain: Rules 258, 269 to 272 and 277 to 279,
   with the MUSTs marked.
 - **National Highways, ["Smart motorways stocktake: Fourth year progress report"](https://nationalhighways.co.uk/media/mk5hcv3t/cre24_0128-smart-motorways-stocktake-4ypr-120325-final.pdf)**,
-  December 2024, free. This course read the executive summary and the safety sections. The operator's own evidence, with its caveats in its own words.
+  December 2024, free. The operator's own evidence, with its caveats in its own words.
 - **House of Commons Transport Committee, ["Rollout and safety of smart motorways"](https://publications.parliament.uk/pa/cm5802/cmselect/cmtrans/26/report.html)**,
-  November 2021, free. This course read its introduction and its conclusions. The critics' concerns
+  November 2021, free. The critics' concerns
   and the case against simply reinstating the hard shoulder, in one report.
 - **California DMV, [California Driver Handbook, Section 8](https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving-cont2/)**,
-  free. Read here in full. One state's official freeway advice; your own state's handbook is the one to
-  read if you drive in the US.
+  free. Read here in full. One state's official freeway advice.
 
 ## Sources
 
@@ -653,7 +654,8 @@ not changed there.
    cover date December 2024. England's strategic road network, 2018 to 2022 data. The operator of the
    roads it reports on. **Read: the executive summary, the description of the three types, the headline
    safety metrics and the moving and stopped vehicle section, 26 September 2026, and Annex E's note on
-   adjusted figures; the other annexes and sections not read.** <!-- SOURCES Part E §2; lesson 17 gate closures -->
+   adjusted figures; the before-and-after pages (pp. 46 to 48) and Annex B's note on significance
+   testing, 26 September 2026; the other annexes and sections not read.** <!-- SOURCES Part E §2; lesson 17 gate closures -->
 8. Department for Transport, ["Smart motorway rollout to be paused as government responds to Transport Committee report"](https://www.gov.uk/government/news/smart-motorway-rollout-to-be-paused-as-government-responds-to-transport-committee-report),
    press release, 12 January 2022. **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part E §2; lesson 17 gate closures -->
 9. Department for Transport, ["All new smart motorways scrapped"](https://www.gov.uk/government/news/all-new-smart-motorways-scrapped),
@@ -663,7 +665,7 @@ not changed there.
     reports and letters it lists were not opened.** <!-- SOURCES Part E §2; lesson 17 gate closures -->
 11. The AA (a motoring organisation that sells breakdown cover and repairs), ["'Smart' motorways third year progress report"](https://www.theaa.com/about-us/newsroom/smart-motorways-third-year-progress-report),
     statement by Edmund King, undated. **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part E §2; lesson 17 gate closures -->
-12. The RAC (a motoring organisation that sells breakdown cover), ["Ten years of smart motorways without hard shoulders - RAC statement"](https://media.rac.co.uk/national-highways-installs-52-new-emergency-areas-on-the-m25-and-other-smart-motorways-in-the-south-east-rac-reaction-3316392),
+12. The RAC (a motoring organisation that sells breakdown cover and repairs), ["Ten years of smart motorways without hard shoulders - RAC statement"](https://media.rac.co.uk/national-highways-installs-52-new-emergency-areas-on-the-m25-and-other-smart-motorways-in-the-south-east-rac-reaction-3316392),
     statement by Simon Williams, 12 April 2024. **Read: full text, 26 September 2026.** Its "key points"
     list carries date errors and is not used. <!-- lesson 17 gate closures -->
 13. David Urpeth, Senior Coroner for South Yorkshire West, [Regulation 28 report to prevent future deaths](https://www.judiciary.uk/wp-content/uploads/2021/01/Alexandru-Murgeanu-and-Jason-Mercer-2021-0013-Redacted.pdf),
@@ -675,7 +677,7 @@ not changed there.
     not read.** <!-- lesson 17 gate closures -->
 15. California DMV, [California Driver Handbook, "Section 8: Safe Driving (Continued)"](https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving-cont2/).
     California. No date shown. **Read: full section, re-read 26 September 2026.** <!-- SOURCES Part E §3; lesson 17 gate closures -->
-16. AAA Club Alliance (a US motoring club that sells roadside assistance; not an official body),
+16. AAA Club Alliance (a US motoring club; AAA's clubs sell roadside assistance and run a repair network; not an official body),
     ["The Key To Staying Safe When Your Car Breaks Down"](https://cluballiance.aaa.com/the-extra-mile/advice/car/staying-safe-when-your-car-breaks-down),
     an advice article by Matt Hill quoting its fleet manager, February 7, 2022. **Read: full text, re-read 26
     September 2026.** <!-- SOURCES Part E §3; lesson 17 gate closures -->

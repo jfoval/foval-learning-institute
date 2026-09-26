@@ -121,7 +121,7 @@ its state. None of them is "US law" unless it says federal.
 
 This is general information, not legal advice.
 
-The fullest official account this course found is a [2015 report](https://www.gao.gov/products/gao-15-705) by the Government Accountability
+The main official account this course found is a [2015 report](https://www.gao.gov/products/gao-15-705) by the Government Accountability
 Office (GAO), the audit office of the US Congress. It counted the states: "As of July 2015, we found
 16 states with periodic inspection programs." Of those, "11 of the 16 states with inspection
 programs require an annual vehicle safety inspection, three states require a biennial inspection,

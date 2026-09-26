@@ -189,7 +189,7 @@ In 2018 the government decided to keep three years after a consultation.[6] It c
 that were raised, and that any potential savings made by motorists would be limited by the
 additional cost of potential defects not identified at the MOT, the government does not intend to
 proceed in changing the date of a vehicle’s first MOT."[7] Those are the government's reasons,
-in its words. The Act would let a minister change the three years to "such other
+in its words. This course didn't read the consultations' own case for four years. The Act would let a minister change the three years to "such other
 period (not being more than ten years)" by an order approved by both Houses of Parliament.[1] The Act's
 text, as read, still says three years.
 
@@ -236,7 +236,8 @@ available test appointment for your vehicle."[8] Its booking page reports what t
 said: "The PSNI has agreed not to penalise drivers whose MOT has expired so long as" the vehicle is
 roadworthy and not declared off the road, is properly insured, and has a booked appointment you can
 prove. It adds: "All other vehicle roadworthiness and insurance offences will be dealt with in the
-usual way." On insurance, it reports that the Association of British Insurers "has confirmed that the
+usual way." On insurance, it reports that the Association of British Insurers, the insurers' trade body, funded by its
+member firms' subscriptions, "has confirmed that the
 lack of a valid MOT certificate would not necessarily invalidate a motor insurance policy", and says
 to check your policy or ask your insurer. And: "These arrangements only apply in Northern
 Ireland."[9] All of this is the PSNI's and the ABI's position as nidirect reported it on the day read.

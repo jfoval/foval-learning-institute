@@ -167,3 +167,14 @@ Regulations 1999 reg 32 as made on legislation.gov.uk.
 9. Every other first-pass fix (R6 to R19) read in place: applied as recorded.
 
 **Verdict: CLEAN.** Lesson settled.
+
+## Neutrality audit fixes (2026-09-26)
+
+- **N11 (lesson 21 part), applied as written.** After "Those are the government's reasons, in its
+  words.": "This course didn't read the consultations' own case for four years." SOURCES shows the
+  response PDF and the 2017 consultation were not read.
+- **N4, the ABI.** It is now "the insurers' trade body, funded by its member firms' subscriptions",
+  from the ABI's own "About us" page (Internet Archive capture 20251210030620; the live site refused),
+  recorded in SOURCES "Stage 4 note, course-wide neutrality fixes, lessons 17 to 24".
+- The RAC already carried the base label (N5). 5,946 words; `npm run minutes` 70. Script 21 names
+  neither passage and is unchanged.

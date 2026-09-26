@@ -142,7 +142,7 @@ police, taxi or door-to-door delivery use"; dusty conditions; rough, muddy or sa
 car-top carrier. The rule is one sentence: "If your vehicle is mainly operated under the severe
 conditions, follow the severe use maintenance intervals shown in the maintenance schedule."[1]
 
-Lesson 6 used the same handbook for brake fluid. The LEAF has no engine oil, and it still has a
+The LEAF has no engine oil, and it still has a
 severe schedule, because the list changes how often brakes, steering and suspension are inspected.
 And notice the other half of the rule:
 "if you drive very little, your vehicle should be serviced at the regular time intervals shown in the
@@ -169,17 +169,17 @@ or 10,000 mi (16,000 km) between oil change intervals."[2] Ford also names the d
 that do not allow the engine to get to operating temperature, extended idling and low speed driving
 for long periods of time", which "dilutes and increases the level of oil".[2]
 
-AAA, the US motoring clubs, which sell roadside assistance and run an approved repair network, puts
+AAA, whose clubs sell roadside assistance and run a repair network, puts
 the monitor more strongly: newer cars drop severe-service recommendations "because the oil-life
 monitoring system automatically shortens the oil change interval when it detects heavy-duty
 operation". And the same page hedges its own claim:
 "Always defer to the maintenance schedule in your owner's manual for oil change intervals. While
 oil-life indicators are helpful, they are not always accurate."[4]
 
-So is severe use a thing of the past? That's **contested**, and partly commercial: AAA's "newer
-cars" is a generalisation, a 2024 handbook, Nissan's, still prints a severe schedule, and garages are
-paid by the service. No source read measured how accurate
-monitors are. What every source read agrees on is
+So is severe use a thing of the past? That's **contested**. AAA's "newer cars" is a generalisation;
+Ford's 2024 handbook still names the driving that works against the oil, and Nissan's still prints a
+severe schedule, though for a car with no engine oil. No source read measured how accurate monitors
+are. What every source read agrees on is
 the order of authority: your handbook first, then the monitor if your car has one, and an honest
 reading of your own driving against the handbook's list.
 
@@ -229,20 +229,20 @@ all drivers, and the independent aftermarket industry that serves them".[7]
 Toyota dealer or qualified service shop".[3] The FTC's test for any shop is whether it has "experience
 working on the same make or model vehicle as yours", and it tells you to "Make sure the shop will
 honor your vehicle's warranty".[5] In England, Citizens Advice recommends a garage "accredited by The
-Motor Ombudsman", and The Motor Ombudsman lists franchised dealers and independent garages among the
-businesses it accredits.[8][9] Which?, the UK consumer body, which earns commission from some
+Motor Ombudsman", and The Motor Ombudsman, funded by the garages it accredits, lists franchised
+dealers and independent garages among them.[8][9] Which?, the UK consumer body, which earns commission from some
 retailer links on its pages, asked 63,334 car owners in 2025 what they had spent in total on
 servicing, parts included, over the past 12 months: "a service from a franchised dealer costs £361,
-while a local independent costs just £260 on average." Those are owners' reported yearly totals, not
-the same job priced at each. It also makes a point for dealers: "you may be able to take advantage of
+while a local independent costs just £260 on average." For cars still sold new, it gives "franchised
+dealer services cost £331, compared with local garages at £262." Those are owners' reported yearly
+totals, not the same job priced at each. It also makes a point for dealers: "you may be able to take advantage of
 a fixed-price servicing deal at a main dealer that can give you peace of mind over how much you're
 going to pay."[29][30]
 
 Where they meet: every voice here agrees the schedule and the right parts matter; they differ on
 whether the maker's network is the best way to get them. What would settle it is a
 comparison nobody here has published on quality, the same jobs at both kinds of garage checked
-independently. The next section shows what the law in each country lets a maker's warranty require,
-and what it doesn't.
+independently.
 
 ## Warranties and servicing outside the dealer
 
@@ -264,7 +264,7 @@ anyone other than an authorized `ABC' dealer".[11] The same paragraph ends with 
 doesn't stop a warrantor denying liability for damage caused by "unauthorized" parts or service
 "where the warrantor can demonstrate that the defect or damage was so caused."[11]
 
-The FTC's [consumer page](https://consumer.ftc.gov/articles/auto-warranties-and-auto-service-contracts) puts it plainly: "it's illegal for a dealer to deny your warranty coverage
+The FTC's [consumer page](https://consumer.ftc.gov/articles/auto-warranties-and-auto-service-contracts) says: "it's illegal for a dealer to deny your warranty coverage
 because you had routine maintenance or repairs done by someone else." Its exceptions: if the warranty
 provides work or parts free, the maker can choose where and which. Aftermarket parts don't end the
 warranty either, but if one is faulty or badly fitted and damages a covered part, coverage for that
@@ -274,7 +274,7 @@ warranty, EPA says the same about who may do the work: "Scheduled maintenance ma
 anyone who has the knowledge and ability to perform the maintenance and repair", and "the
 manufacturer can require you to use parts that are of equal quality to the original parts."[13]
 
-**In the UK**, the route is competition law, and it's worded more carefully. The Competition and
+**In the UK**, the route is competition law, and it speaks of what is likely. The Competition and
 Markets Authority's [guidance on motor vehicle agreements](https://assets.publishing.service.gov.uk/media/647d9cb15f7bb700127fa41a/2.0_CMA_Guidance_on_Motor_Vehicle_Agreements.pdf) explains how the UK's ban on
 anti-competitive agreements, the "Chapter I prohibition", applies to makers and their dealer networks.
 It names two warranty restrictions "which are likely to be caught by the Chapter I prohibition": a
@@ -289,8 +289,8 @@ part supplied by a third party." And terms that "clearly state the consumer's ri
 of an independent repairer without losing the benefit of the warranty are unlikely to give rise to
 competition concerns" (5.41). The guidance also says that where an extended warranty is sold "years
 after the purchase of the vehicle", independent garages seem less likely to be shut out "even if" it
-carries servicing or parts restrictions (5.39).[14] Which? notes that some extended warranties require
-a main dealer.[30] The block exemption order this guidance sits beside "ceases to have
+carries servicing or parts restrictions (5.39).[14] Which?, which earns commission from some retailer
+links, notes that some extended warranties require a main dealer.[30] The block exemption order this guidance sits beside "ceases to have
 effect at the end of 31st May 2029".[15]
 
 Read the UK wording as written. It is guidance on competition law between makers and their networks,
@@ -321,7 +321,8 @@ maintain the warranties", and adds "Other maintenance items and intervals are re
 warns that "do-it-yourself maintenance may affect warranty coverage".[3] Doing the servicing yourself is outside this course anyway: its owner jobs stop at the checks.
 
 What to keep: the date, the mileage, what was done and to which schedule, the parts used (genuine or
-not, which The Motor Ombudsman's code says a garage should agree with you in advance), and the
+not, which the code of The Motor Ombudsman, funded by the garages it accredits, says a garage should
+agree with you in advance), and the
 invoice.[9]
 
 ## A hybrid in Ulverston
@@ -341,8 +342,8 @@ third-party part that failed?[14] If the answer is no, that exception doesn't re
 What the owner does: put the claim to the maker's dealer with the service invoices showing the
 schedule was followed and which parts were fitted; ask for any refusal in writing, with its reason;
 and read the warranty booklet's own terms, since the guidance is about what makers' agreements may
-contain, not a promise about any single claim. If the garage is accredited, The Motor Ombudsman's
-Service and Repair Code applies to its work, and lesson 25 covers the dispute routes.
+contain, not a promise about any single claim. If the garage is accredited by The Motor Ombudsman,
+funded by the garages it accredits, its Service and Repair Code applies to the work, and lesson 25 covers the dispute routes.
 
 ## A refused claim in Scottsdale, with a gap for you
 
@@ -377,7 +378,8 @@ a warranty as defined by federal law, because you buy it separately; it’s not 
 car."[12] Whether one is worth buying is Personal Finance lesson 8's
 question, "Handing off what you cannot absorb", and this course doesn't answer it.
 
-**In the UK the words run differently.** The Motor Ombudsman's code defines an "Extended Warranty" as
+**In the UK the words run differently.** The code of The Motor Ombudsman, funded by the garages it
+accredits, defines an "Extended Warranty" as
 "Any warranty, excluding the New Vehicle Warranty, that has either been provided free-of-charge or has
 been bought by you directly."[9] Neither usage is wrong; read the contract.
 
@@ -398,7 +400,7 @@ Checking a garage is **Yours**, and it costs nothing, but each credential means 
 
 | | Law or voluntary | What it tells you |
 |---|---|---|
-| The Motor Ombudsman accreditation (UK) | Voluntary | The garage has accepted the code, approved by the Chartered Trading Standards Institute, including its complaints route |
+| The Motor Ombudsman accreditation (UK; funded by the garages it accredits) | Voluntary | The garage has accepted the code, approved by the Chartered Trading Standards Institute, including its complaints route |
 | IMI TechSafe (UK) | Voluntary | The person holds certain qualifications and keeps up training |
 | ASE certification (US) | Voluntary | A technician passed a knowledge test in an area |
 | BAR registration (California) | Law | The shop is registered, and BAR lists any discipline |
@@ -439,8 +441,8 @@ link in a message or a badge on a website: Digital Literacy lesson 11's rule.
 
 :::checkpoint A garage in England has a large "approved" sign and a website badge. Before you book, what do you check, and where?
 
-Whether it's accredited by The Motor Ombudsman, on The Motor Ombudsman's own site, reached by a route
-you chose, not the badge's link. If the job is on a hybrid or electric car, ask which technicians hold
+Whether it's accredited by The Motor Ombudsman (funded by the garages it accredits), on its own site,
+reached by a route you chose, not the badge's link. If the job is on a hybrid or electric car, ask which technicians hold
 high-voltage qualifications and look them up on the IMI's register. Keep in mind what each check shows:
 accreditation to a code and a complaints route, or a person's qualifications. Neither proves the work
 will be good, which is why you keep the invoice.
@@ -553,7 +555,7 @@ within the handbook's limits.
 **"ASE certifies garages."** It certifies individuals; a shop can qualify for a separate recognition programme.
 
 **"An extended warranty is a warranty."** In the US, not under federal law: it's a service contract
-you buy separately. In the UK, The Motor Ombudsman's code calls it a warranty. Read the contract.
+you buy separately. In the UK, the code of The Motor Ombudsman, funded by the garages it accredits, calls it a warranty. Read the contract.
 
 ## Practice
 
@@ -571,7 +573,7 @@ going under it.
 3. Write the next three items due, with the miles or date for each, whichever the handbook says comes
    first.
 4. Choose one garage you might use. Check its accreditation or registration on the body's own site
-   (The Motor Ombudsman in the UK; BAR in California; your state's regulator elsewhere in the US, if it
+   (The Motor Ombudsman, funded by the garages it accredits, in the UK; BAR in California; your state's regulator elsewhere in the US, if it
    has one), reached by a route you chose. Write down the site, the date, and what the entry said.
 :::
 
@@ -585,9 +587,8 @@ do when a bill goes wrong.
 
 ## Connections
 
-Lesson 1 made the handbook the authority for every per-car figure; lesson 12 showed how advice gets
-revised. Lesson 23 covered recalls, which are separate from any warranty. Home Repair lessons 22 and
-23 set out licensing and hiring for the house. Lesson 25, "Quotes, estimates, the bill and disputes",
+Lesson 1 made the handbook the authority for every per-car figure. Lesson 23 covered recalls, which
+are separate from any warranty. Lesson 25, "Quotes, estimates, the bill and disputes",
 takes you from choosing the garage to paying it.
 
 ## Go deeper
@@ -612,7 +613,7 @@ takes you from choosing the garage to paying it.
    US market. **Read: pp. 295 to 296 ("Maintenance requirements"), 26 September 2026.** The separate
    Scheduled Maintenance Guide was not read. <!-- lesson 24/25 gate closures -->
 4. AAA, ["How Often Should You Change Your Oil?"](https://www.aaa.com/autorepair/articles/does-your-car-need-an-oil-change-every-3000-miles).
-   US motoring clubs, which sell roadside assistance and run an approved repair network. **Read: in
+   US motoring clubs, which sell roadside assistance and run a repair network. **Read: in
    full, 26 September 2026.** <!-- SOURCES Part A §6; lesson 24/25 gate closures -->
 5. FTC, ["Auto Repair Basics"](https://consumer.ftc.gov/articles/auto-repair-basics). US federal.
    **Read: in full, 26 September 2026.** <!-- SOURCES Part D §5; lesson 24/25 gate closures -->
@@ -677,4 +678,4 @@ takes you from choosing the garage to paying it.
     (9 June 2026). UK consumer body; earns commission from some retailer links. **Read: in full, 26
     September 2026.** Its statement about the law was not relied on. <!-- Stage 4 note, lesson 24 -->
 30. Which?, ["How to find a good garage and get the best service"](https://www.which.co.uk/reviews/new-and-used-cars/article/how-to-find-a-good-garage-am8d52i5tQoY)
-    (28 April 2026). UK consumer body. **Read: in full, 26 September 2026.** <!-- Stage 4 note, lesson 24 -->
+    (28 April 2026). UK consumer body; earns commission from some retailer links. **Read: in full, 26 September 2026.** <!-- Stage 4 note, lesson 24 -->

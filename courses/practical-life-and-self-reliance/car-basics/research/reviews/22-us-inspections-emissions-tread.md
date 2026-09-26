@@ -380,3 +380,12 @@ User-Agent, no personal data.
   paragraph. Back to 90 (7,802 words).
 - **Balance:** 355 words for keeping, 365 for ending (body text, headings excluded, `wc -w`). The 10
   are the True Texas Project's label and S4's fuller quotation. Neither case was trimmed.
+
+## Neutrality audit fixes (2026-09-26)
+
+- **N6 (a grade in the course's voice), one word:** "The fullest official account this course found"
+  became "The main official account". Word count unchanged (7,802); `npm run minutes` 90. Script 22
+  does not use the phrase.
+- Left for review, not changed: "The fullest statement of the case" (the officials GAO interviewed)
+  in the case for keeping inspection. The case for ending it has "makes the fuller case", so the two
+  are symmetrical.

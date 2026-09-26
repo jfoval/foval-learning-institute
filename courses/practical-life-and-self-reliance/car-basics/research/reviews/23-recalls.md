@@ -144,3 +144,11 @@ still present). Every quotation in the sections below string-matched.
   ok. `npm run quotes car-basics`: exit 0, 0 not found. `npm run validate`: exit 0, no line names this file.
 
 **Verdict: CLEAN.**
+
+## Neutrality audit fixes (2026-09-26)
+
+- **The audit's "found in passing" item, L23 Connections.** The clause "and lesson 22 that
+  California's Smog Check report lists open safety recalls" is cut: lesson 22 no longer says so. The
+  audit's alternative was to have lesson 23 quote BAR itself; the cut was chosen because it needs no
+  new source or citation. BAR's line stays in SOURCES. 4,880 words; `npm run minutes` 70. Script 23
+  doesn't mention it.

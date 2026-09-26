@@ -336,3 +336,42 @@ and "First aid on the road" (modified 21 September 2026), and the Commons file A
 validate` exit 0, no line naming this file; `npm run quiz` nothing for this file.
 
 **Verdict: CLEAN** (truth, safety, pedagogy and format), subject to the separate neutrality re-check.
+
+## Neutrality audit fixes (2026-09-26)
+
+From the course-wide neutrality audit (`neutrality-audit.md`), applied by a fixer in a fresh context.
+Every added quotation is recorded in SOURCES, "Stage 4 note, course-wide neutrality fixes, lessons
+17 to 24 (2026-09-26)", re-read live that day.
+
+- **N1, applied as written.** Added after the hard-shoulder paragraph: the report's before-and-after
+  line ("in most cases smart motorways are safer than the roads they replaced"), 25 and 27 of 39
+  schemes, and "at some, rates rose" (p. 48). Annex B was checked: its significance tests cover the
+  headline and moving/stopped five-year rates, not the scheme counts, so no wording about testing was
+  added. Cuts: the Grant Shapps sentence, and "and its report is the most detailed evidence this
+  course read" (also N6). Source 7's "Read" line now names pp. 46 to 48 and Annex B's testing note.
+- **N9, applied.** New misconception, "National Highways' figures prove smart motorways are safer",
+  with the untestable KSI headline and the stopped-vehicle difference. The capacity reason is added
+  to the operator's case, and "what its extra capacity is worth" to the value half. Cuts as stated:
+  "These are facts, dated, and the words matter"; the paragraph repeating the stated reasons for
+  cancelling; the two "This course read..." sentences in Go deeper; the Connections sentence on the
+  US table. **Quiz 5**, one-sided in the same way: its Transport Committee distractor became the
+  operator-side over-claim ("while saying its figures had proved them the safest roads in the
+  country"), and the explanation now says the April 2023 release makes no safety claim in either
+  direction, quoting the January 2022 release's "comparatively the safest" claim. The April 2023
+  release was re-read in full to confirm it makes no safety claim. The key is unchanged (C), so the
+  sequence stands. Every explanation was read against its options; option lengths are 92 to 98.
+- **N4 and N5 (labels).** AAA gets the base label, "whose clubs sell roadside assistance and run a
+  repair network", at its first use in each H2 section, in the US table's header and in Source 16.
+  The RAC gets "sells breakdown cover and repairs" at every use: the case against, the checkpoint
+  answer, the misconception and Source 12.
+- **Extra cuts, to keep the lesson at 90 minutes** (neither side's case touched): "Lesson 16 gave
+  AAA's reason for staying in", which lesson 16 already teaches; the last sentence of the first
+  predict answer; the Connections sentence on lesson 11; the second half of the California Go deeper
+  entry; "gives a reason" became "says why".
+- **Measures.** 8,153 words (was 8,161); `npm run minutes` gives 90, where it gave 95 before.
+  Words per side: the case that they're as safe or safer is 496 (was 465); the case against is 656
+  (was 654, from the label). Place, callout and dashes unchanged.
+- **Script 17** mirrors N1 (the before-and-after line), the capacity reason, the RAC's label and
+  capacity in the value half. 1,243 words. Its `checked:` entry says a fresh fact-check is owed.
+- **Not applied here** (not in this fixer's scope): the audit's suggestion to convert one quiz item
+  to a US case, and first-use glosses.
