@@ -408,3 +408,70 @@ Gaspard, Kerensa; places: Homewood, Chicago, Midway, London stations, Turkey, Ja
 conversation-and-listening`: 0 not found. `npm run validate`: exit 0, no line naming this file.
 
 **Status after review:** clean
+
+## Fresh second pass (2026-09-26)
+
+**Checker:** one fresh-context re-checker (neither drafter, reviewer nor fixer), against 42d799d, with
+a full neutrality re-audit. Re-fetched today by curl (generic browser User-Agent, no personal data):
+Kardas, Kumar and Epley 2022, Schroeder, Lyons and Epley 2022 and Epley and Schroeder 2014 (Epley lab
+PDFs); Milek et al. 2018 and Mehl et al. 2010 (Internet Archive captures of PMC6139582 and PMC2861779);
+Transparent Replications Report #7; the Crossref abstracts of Sprecher 2025, Ascigil et al. 2023 and
+Folk and Dunn 2024; the OpenAlex abstracts of Sun, Harris and Vazire 2020 and Ishiguro 2023. Every new
+or changed quotation string-matched after normalising quotes, ligatures and line-break hyphens: the
+supermarket counter-sentence, "may provide a more conservative test", "might vary across contexts",
+"tended to report positive experiences after relatively shallow conversations", "Cultures may vary in
+their openness to strangers", "a culture well-known for being reserved", "a stranger vs. a friend",
+"the satisfied person", "is still to be clarified", the two Experiment 1a and 2 questions, and "This
+finding was replicated in our study." All match. Footnote 7 ("Without noticing, we worked from a file
+containing an early version") supports "noticed afterwards".
+
+**R1 to R21:** all resolved in the text as recorded; R11's decline is right (the report's Initiator
+instructions carry "hadn't spent time with that person in awhile"). Numbers: 3.83 against 1.36 from
+the CIs, "nearer three times than four" holds; d = .48; 429 against 486; 66 returned of 105. Quiz:
+keys 2,1,0,3,1,3 unchanged; spreads 3, 3, 5, 3, 7, 9; no key the sole longest; each explanation
+matches its key and answers every distractor; quiz 4 and 6 changes read correctly against their
+explanations.
+
+**Abstract-level sources.** Sprecher 2025 (not "Sprecher 2025 liking gaps", which stays unread),
+Ascigil 2023 and Ishiguro 2023: every claim is inside the abstract, and the body says "in her
+abstract" and "this course read their abstracts only". Two slips, fixed below: Ascigil's greeting and
+thanking were of weak ties, not strangers; and Sun 2020's "generally associated" had lost its
+"generally", with no read level in the body where it carries the "what would settle it" case.
+
+**The cuts.** Checked every one of the ~860 words against what follows: the table's "taxi riders; a
+lab waiting room" still has its paragraph; Mental Fitness 2, Note-Taking 4 and lesson 3 all survive
+in the body after leaving Connections; quiz 3 covers the dropped "Deep questions will be awkward";
+"escalating" is still introduced by "the questions deepened as they went"; Eulalie's checkpoint
+matches her shortened setup; every footnote 1 to 16 is still reached from the body. "The number that
+travelled" lost its antecedent sentence but reads from the lesson's opening. Nothing the quiz,
+objectives or Sources depend on was removed.
+
+**Neutrality, recounted.** Contested block: depth side [3] twice, [7], [8], plus Sun [16] under "what
+would settle it" (flagged same group, depth not small talk); small-talk side [1], [3], [14], [15], [8],
+[6], now opening on its own case with non-US evidence and Milek's stranger-or-friend caveat, and the
+course's reading on openings labelled. Explained vs quoted: the depth mechanism still has its own
+subsection; the small-talk side is argued, not merely asserted, and says it has no book-length
+defence. Last word: the course's scoped reading, second clause leaning to depth but "in these
+studies". Misconceptions: two depth-side overreaches, one pro-stranger and one anti-stranger error,
+two popular errors, one scope error. **Turing test:** the depth researchers pass (supermarket paragraph
+now two-sided, 6b connectedness in, their cultural prediction reported not contradicted); a small-talk
+defender passes after fix 3 (Ascigil's direction evidence was dropped in the lead-in, which undersold
+it); the reserved-culture reader passes after fix 1 (the [3] marker sat after "a norm, not an error",
+attributing to Kardas et al. a verdict their own prediction leans against).
+
+**Five one-edit fixes made here:**
+1. Privacy section: [3] moved to follow the Kardas quotation, and "a norm, not an error" labelled "on
+   this course's reading".
+2. Ascigil: "greeting and thanking them" (strangers and acquaintances) to "greeting and thanking
+   acquaintances", as the abstract says (weak ties).
+3. Ascigil: "(the Turkish one used a statistical method aimed at the direction of the link)", from
+   the recorded abstract ("instrumental variable approach to provide evidence for the direction").
+4. Sun 2020: "by its abstract" and "generally went with greater well-being".
+5. `minutes:` 90 to 95 (measured 95 after these edits).
+No new source text: every addition is already [V] in "Gate closures, lesson 12 review", so SOURCES is
+unchanged.
+
+No em dashes or spaced en dashes. `npm run quotes conversation-and-listening`: 292 sourced quotations,
+0 not found. `npm run minutes`: 95, matching. `npm run validate` exits 0, no line naming this lesson.
+
+**Verdict: SETTLED.**

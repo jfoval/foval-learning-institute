@@ -1,6 +1,6 @@
 ---
 title: Strangers, small talk and going deeper
-minutes: 90
+minutes: 95
 objectives:
   - >-
     Explain what the commuter experiments found about what people expect from talking to a stranger,
@@ -483,9 +483,10 @@ weather or "Where are you from?".[1] Across Kardas and
 colleagues' own experiments, people "tended to report positive experiences after relatively shallow
 conversations", and better than expected.[3] Beyond the US and UK, a nationally
 representative survey of 3,266 people in Turkey found that talking with strangers and loose
-acquaintances, and even just greeting and thanking them, went with greater life satisfaction, and a
+acquaintances, and even just greeting and thanking acquaintances, went with greater life satisfaction, and a
 survey of 957 people in Japan found brief contact with strangers and non-intimates went with greater
-happiness.[14][15] Those are surveys, not experiments, and this course read their abstracts only. The
+happiness.[14][15] Those are surveys, not experiments (the Turkish one used a statistical method aimed at
+the direction of the link), and this course read their abstracts only. The
 pooled replication found no link between small talk and life satisfaction across 429 people, but its
 authors note they could not tell whether the small talk was with "a stranger vs. a friend", and point to
 research on brief chats with a barista or a classmate as a reason it may matter more in some
@@ -500,8 +501,8 @@ testing whether the other person wants to go on.
 suggest comparing each person's days with a lot of small talk against their days with mostly
 substantive conversation, rather than comparing different people.[8] Kardas and colleagues call for
 field experiments and diaries over longer periods, outside the lab.[3] A 2020 study from Vazire's group
-went some way towards the first: over a week of recordings of 256 people, deeper conversation went with
-greater well-being, more consistently within the same people than between them, and more when
+went some way towards the first, by its abstract: over a week of recordings of 256 people, deeper
+conversation generally went with greater well-being, more consistently within the same people than between them, and more when
 people rated the depth themselves than when observers did.[16] It is the same group,
 and it measured depth, not small talk. And all of the experiments so far are from the US and UK.
 
@@ -538,8 +539,8 @@ person can easily decline, and to take the answer you get.
 
 ### Privacy: a preference to respect, and an open question
 
-Some people keep to themselves on trains because they prefer to. Kardas and colleagues note that "Cultures may vary in their openness to strangers", and in some families and
-places asking a near-stranger about their life is rude: a norm, not an error.[3] The London
+Some people keep to themselves on trains because they prefer to. Kardas and colleagues note that "Cultures may vary in their openness to strangers",[3] and in some families and
+places asking a near-stranger about their life is rude: on this course's reading, a norm, not an error. The London
 authors, who began with those badges, describe their own setting as "a culture well-known for being
 reserved"; the effect held there, in one British commuter setting.[2] Kardas and colleagues also predict that cultures differ more in what people
 expect from deep talk than in how it goes, which would make some reticence a misjudgement in their
