@@ -1,6 +1,7 @@
 ---
 title: Choosing a translation
 minutes: 155
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/11-choosing-a-translation.mp3
 objectives:
   - Explain what source texts modern translations are made from and why the King James Version differs from them at passages like 1 John 5:7
   - Compare formal, functional, and free translation and place the major English versions on the spectrum with reasons

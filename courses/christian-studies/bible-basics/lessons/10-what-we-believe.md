@@ -1,6 +1,7 @@
 ---
 title: What we believe about this book, and what others make of it
 minutes: 155
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/10-what-we-believe.mp3
 objectives:
   - Explain inspiration, inerrancy, infallibility, and authority as the Christian tradition uses the words, and compare the main positions within Christianity in terms their holders would accept
   - Describe the critical-scholarly view of the Bible so that a student of Hayes or Martin would recognise it
