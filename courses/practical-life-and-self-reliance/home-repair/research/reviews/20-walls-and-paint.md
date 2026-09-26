@@ -103,3 +103,60 @@ Fort Wayne, the Forest of Dean, Youngstown, Scotland (a landing wall), England (
 pointer, merged countries, repeated cases and a misattribution, each fixed with text from recorded
 [V] strings. The new quiz 4 and surface (3) have not had a second reviewer's eyes; a second pass is
 not triggered under the review-lesson rule, but the orchestrator may choose one.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer, on the orchestrator's request, reading the first
+pass's new text against the primaries. Re-read live with curl (browser User-Agent; pandoc and
+pdftotext): EPA "Lead-Safe Renovations for DIYers", HSE "Asbestos: FAQs", BCF HS032 v2.2, EPA's VOC
+page and EPA's methylene chloride rule page. Lesson 19 read on disk as it stood mid-fix (its lead
+labels, the BCF list, the new "no overcoat-or-strip rule" paragraph for the US, the asbestos list and
+"Leave it"); lesson 13's methylene chloride section and its review R2.
+
+**Checked and correct.**
+- Quiz 4 (the 1962 banister, Fort Wayne): EPA's "If your home was built before 1978, it may have
+  lead-based paint", "recommends homeowners hire lead-safe certified contractors for all RRP projects
+  in pre-1978 homes" and "disposable N-100 certified respirator" all string-match; key B is the only
+  defensible answer; distractors are wrong for the reasons the explanation gives; new place, no body
+  case reused. Option lengths 92/93/93/88.
+- Surface (3): HSE's "it is often best to leave them where they are", "in good condition and unlikely
+  to get damaged", and the environmental health officer "at your local authority/council" all match;
+  "textured decorative coatings (commonly referred to as Artex)" is on HSE's before-2000 list; the FAQ
+  says nothing on painting over a coating, so "nothing this course read says" holds. **Call someone**
+  follows.
+- "Old paint", split: BCF's "Remove paint if it is in a sound condition, especially if the lead paint
+  is not the top layer" (a DO NOT) and "overcoating is the safest option to prevent exposure" match;
+  the wet rub-down is BCF step 3.1. EPA's two DIY sentences match whole. Both labels match lesson 19
+  on disk.
+- Every other lesson 19 pointer (objective 4, "First, read the wall", the filling section, step 5,
+  quiz 4's explanation, surfaces (2) and (3), "What people get wrong", Connections) matches what lesson
+  19 now says.
+- First-pass fixes R1 to R20 read in place: each is as recorded and correct.
+- Quiz keys 0,3,2,1,3 pass the relaxed rule: all four positions, no adjacent repeat, not identical to
+  or a value shift of any lesson 01 to 23 on disk, and neither run of four (0321, 3213) appears in any
+  lesson. Spreads 6, 11, 4, 5, 9.
+- No em or en dash in the file.
+
+**Findings, all fixed here (one edit each):**
+- S1 [minor] The strippers paragraph gave EPA's rule page only and dropped the VOC page's "Use
+  products that contain methylene chloride outdoors when possible; use indoors only if the area is
+  well ventilated.", which lesson 13's convention keeps beside it. Added, with a pointer to lesson 13
+  and the same "follows the rule page for paint removal" line; the rule sentence now cites [8] and the
+  carbon monoxide quotation [4]. "Banned" appears nowhere. (The brief's "HSE's outdoor warning": the
+  only outdoor line in lesson 13's methylene chloride convention is EPA's, and this is it; HSE's
+  CIS36 outdoor-dust caveat has no counterpart claim in lesson 20 to guard.) The Youngstown
+  checkpoint's "EPA's line" became "EPA's lines" to match.
+- S2 [minor] The Youngstown checkpoint asked whether the US door "can be cleaned and overcoated", as
+  lesson 19's question, but lesson 19 now says the EPA pages give no overcoat-or-strip rule; that
+  option is the BCF's, a UK source. Now "whether the door's paint should be disturbed at all".
+- S3 [minor] Misconception "EPA's advice is to ventilate while painting whatever the product"
+  overstated EPA's step; now "EPA's advice, to increase ventilation when using products that emit
+  VOCs, makes no exception for a low number".
+
+**Noted, not changed:** "Both kinds give off some VOCs (the limits ... are above zero for both ...)"
+leans on a weak inference from limits, though EPA's "Paints ... contain organic solvents" carries it.
+
+`npm run quotes home-repair`: 0 not found. `npm run minutes`: 100, unchanged. `npm run validate`:
+exit 0, no line for this file.
+
+**Verdict: CLEAN.**

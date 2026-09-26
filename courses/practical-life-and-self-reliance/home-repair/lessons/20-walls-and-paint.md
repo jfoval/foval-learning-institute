@@ -382,10 +382,13 @@ area; this course read no other UK body on leftover paint, so your council's was
 to ask.
 
 **Strippers.** Lesson 13 covered methylene chloride, a solvent some old paint strippers contain, which
-EPA says "is converted to carbon monoxide in the body". In the US, EPA's rules since 2019 have
+EPA says "is converted to carbon monoxide in the body".[4] In the US, EPA's rules since 2019 have
 prohibited making and distributing it for consumer paint removal, and for a tin someone already has,
 "EPA is encouraging all consumers to stop using methylene chloride products that they may have
-already purchased for paint and coating removal."[4][8] This course read no UK rule on it. Any other
+already purchased for paint and coating removal."[8] EPA's indoor air page still says to "Use
+products that contain methylene chloride outdoors when possible; use indoors only if the area is well
+ventilated."[4] Lesson 13 set the two pages side by side; for paint removal, this course follows the
+one about the rules. This course read no UK rule on it. Any other
 stripper, in either country, is used by its own label.
 
 ## Old paint: overcoat or strip?
@@ -471,10 +474,9 @@ The first question is its age, not how to strip it. The house was built in the 1
 "If your home was built before 1978, it may have lead-based paint; the older your home, the more
 likely it has lead-based paint."[10] Thick old layers on an original door are the kind of paint that
 may hold it. So this is lesson 19's question before it is a decorating one, whenever the guests
-arrive: whether the door needs stripping at all or can be cleaned and overcoated, and, if it must be
-stripped, which methods lesson 19's sources allow, before the tin is opened. (The stripper itself is
-used by its own label, and if it contains methylene chloride, EPA's line in the section above
-applies.) EPA recommends homeowners hire "lead-safe certified contractors for all RRP projects in
+arrive: whether the door's paint should be disturbed at all, and, if it must be stripped, which methods lesson 19's sources allow, before the tin is opened. (The stripper itself is
+used by its own label, and if it contains methylene chloride, EPA's lines in the section above
+apply.) EPA recommends homeowners hire "lead-safe certified contractors for all RRP projects in
 pre-1978 homes", or, if they do it themselves, the seven practices on the same page, which lesson 19
 sets out.[10] Those are lesson 19's labels: in the US, EPA's first advice is a certified contractor;
 doing it yourself is **Yours, on conditions**, the conditions being EPA's seven practices. Lesson
@@ -497,7 +499,7 @@ on the plaster and the weather; paint on wet plaster is "likely to crack and pee
 coat.[2]
 
 **"A low VOC number means no need to open a window."** The label is a legal requirement on
-whoever puts the tin on the market, about what is in the tin; EPA's advice is to ventilate while painting whatever the product.[3][4]
+whoever puts the tin on the market, about what is in the tin; EPA's advice, to increase ventilation when using products that emit VOCs, makes no exception for a low number.[3][4]
 
 **"Leftover paint is fine in the cupboard with the lid on."** EPA: gases can leak even from closed
 containers.[4]
