@@ -59,7 +59,7 @@ quiz:
       - An alternator on the engine, as in a petrol car, charging it while the engine runs
       - A mains charger clipped onto the 12 V battery at home, since the car has no socket
       - Nothing while driving, so only a jump start from another car can top it up
-      - Typically a DC-DC converter, stepping the big battery's voltage down, says NHTSA
+      - A DC-DC converter, stepping the big battery's voltage down, says NHTSA
     answer: 3
     explain: >-
       NHTSA: "Typically, fully electric and many hybrid-electric vehicles do not use a conventional
@@ -70,26 +70,28 @@ quiz:
       flat battery, by the handbook's method, not the routine charge. Nothing on the high-voltage side
       is touched: the converter is the car's own, and anything on that side is Call someone.
 
-  # --- A LEAF's charge light, and no alternator (L5) ---
+  # --- An electric car that stands unplugged (L5) ---
   - q: >-
-      In Kalispell, the 12 V charge warning light on a 2024 Nissan LEAF sold in the US comes on while
-      the car is in READY and stays on. The driver says an electric car has no alternator, so the
-      light can't mean anything. What does Nissan's handbook say?
+      A nurse in Wetherby, England, drives her battery-electric car only now and then, and between
+      trips it stands unplugged outside her house for weeks. She asks how to keep its 12 V battery
+      from running down while it stands. On the AA's advice, which fits?
     options:
-      - Carry on, since with no alternator the light can't be reporting a charging fault
-      - Stop and plug in, since the light means the Li-ion battery is running out of range
-      - Stop in a safe place right away and have the system checked, as its handbook says
-      - Fit a new 12 V battery first, since the light means that battery itself has failed
+      - Nothing, since an electric car's 12 V battery can't run down while it's parked
+      - Leave it unplugged, since plugging in fills only the big battery, never the 12 V
+      - Plug it in at least once a month; her handbook says if that keeps the 12 V up
+      - A five-mile drive each month, which fueleconomy.gov says fully recharges it
     answer: 2
     explain: >-
-      Nissan's handbook for the 2024 LEAF sold in the US: "Immediately stop the vehicle in a safe
-      location and have the system checked." The light is for the converter's job. NHTSA says such
-      cars "use a DC-DC converter" in place of a conventional alternator, and Nissan says that when
-      the light stays on in the ready state, "The DC/DC converter system may not be functioning
-      properly". So no alternator is no reason to ignore it. The range gauge reports the Li-ion
-      battery; this light is the 12 V side's. And it doesn't name a new battery as the fix: AAA, whose
-      clubs sell roadside assistance and run a repair network, says a battery light "doesn't usually
-      mean you need (just) a battery". Stopping somewhere safe is yours; the cause is Call someone.
+      The AA, which sells breakdown cover and repairs: "If you haven't got your vehicle plugged in,
+      it's good practice to plug in at least once a month to help maintain systems." It also says
+      many plug-in cars automatically maintain the 12 V battery when they're plugged in, and that the
+      handbook will tell you whether yours does. That's the AA's advice, and the handbook is the
+      authority on her car. A parked electric car's 12 V battery can run down: Nissan's handbook for
+      the LEAF lists a car "not driven regularly and/or only driven short distances" among the causes
+      of a flat one. Leaving it unplugged has no source behind it, since on the AA's account plugging
+      in reaches the 12 V battery in many plug-in cars. fueleconomy.gov's "Drive at least 5 miles
+      between start cycles" comes from its advice on switching an engine off rather than idling; it
+      isn't a monthly routine, and it says nothing about a car that stands unplugged.
 
   # --- A red brake light that isn't the parking brake (L6) ---
   - q: >-
@@ -335,8 +337,7 @@ quiz:
       retrieving them". Rule 116's MUST NOT is about hazard lights while driving; stopped, they "may
       be used" when the car is obstructing traffic, which makes them advice, not a duty. This course
       read nothing on whether the law requires a car to carry a triangle. Placing it is yours, on
-      conditions: an ordinary road, great care, and nobody standing between the car and oncoming
-      traffic.
+      conditions: an ordinary road, never a motorway, and great care in placing it.
 
   # --- A narrow shoulder on a California freeway (L17) ---
   - q: >-
@@ -403,7 +404,7 @@ quiz:
     answer: 0
     explain: >-
       No handbook read covers a locking nut without its key, or offers a way to force a nut, and
-      Honda warns against "extra torque using your foot or a pipe"; on this course's reading that ends
+      Honda warns against "extra torque using your foot or a pipe" when tightening; on this course's reading that ends
       the job before the car is lifted, since the nuts are loosened with the tyre still on the ground.
       The passenger is a step, not an end: Mazda says "Have everyone get out of the vehicle and away
       from the vehicle and traffic", and Toyota "Do not raise the vehicle while someone is inside."

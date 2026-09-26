@@ -377,3 +377,46 @@ no em dash or spaced en dash. `npm run validate`: exit 0.
 
 **Verdict: needs targeted re-check of changed items** (3, 4, 15, 21, 22, 24 in full; the edited
 options and explanations in 2, 6, 7, 8, 10, 14, 16, 17, 18, 19, 23; the intro).
+
+## Re-check (2026-09-26)
+
+Fresh-context targeted re-check of every changed item (3, 4, 15, 21, 22, 24 in full; the edits in 2,
+6, 7, 8, 10, 14, 16, 17, 18, 19, 23; the intro), each read against its lesson, with every quotation
+string-matched to the lessons by script. Keys unchanged: ACDCACBDBCDACDBCBABDADBA.
+
+**Item 4 replaced (key C kept).** The LEAF charge-light item was not a new case: its key is lesson 5's
+Juneau predict answer, the same Nissan line sits in lesson 4's body and lesson 11's table and
+checkpoint, and its no-alternator twist is lesson 4's checkpoint. The new item tests lesson 5's
+plug-in habit, which no quiz, checkpoint, predict or worked example uses: an electric car standing
+unplugged for weeks in Wetherby, England (grep: only this test); key, the AA's "plug in at least once
+a month to help maintain systems", with the handbook as the authority and the AA's "many" plug-ins
+kept as a hedge. Distractors answered from Nissan's "not driven regularly" list, the AA's plug-in line
+and fueleconomy.gov's 5 miles "between start cycles" (idling advice, not a monthly routine). The AA
+carries its base label. Keswick was tried first and dropped: Home Repair lesson 21 uses it.
+
+**One-edit fixes.**
+- Item 3: the key opened "Typically", the stem's own word, a match tell of the R6 kind. Dropped from
+  the key; the hedge stays in the stem ("typically") and the explanation ("many", not all).
+- Item 15: the triangle's conditions were given as "an ordinary road, great care, and nobody standing
+  between the car and oncoming traffic"; lesson 16's conditions for placing it are an ordinary road,
+  never a motorway, and great care. Now "an ordinary road, never a motorway, and great care in
+  placing it" (the standing line is Rule 276's, not a triangle condition).
+- Item 18: Honda's "extra torque using your foot or a pipe" is about tightening (lesson 19 says so,
+  and applies it to loosening on its own reading). Now "when tightening".
+
+**Checked and left.** Item 3 is new against lesson 4 quiz 2 (it asks what recharges, not what is
+flat). Item 15's fog case is new; its MUST-or-advice point overlaps lesson 16 quiz 1, but the key turns
+on the "poor visibility" clauses, which no lesson case applies by day. Item 21's C (police reports
+before and after) is rightly wrong on the police-report half, which lesson 22 says GAO found wanting;
+"for every state" in the key is a fair reading of "comprehensive" and "state level". Items 22 and 24
+match lessons 23 and 25 exactly, with the course's reading labelled. Item 17 has the chock; item 22's
+link to the letter is labelled as this course's reading. Every explanation answers every option by
+content.
+
+**Re-run.** `check-quiz-shape.cjs` and `check-quiz-letters.cjs`: clean. By script: the key is never
+the sole longest option (spread 2 to 14); absolute words 0.54 per key, 0.60 per distractor, and no item
+has the key as its only absolute-free option; no run of four in the key sequence matches any of the
+25 lessons' sequences. Every quotation in the test matches a lesson. Callout byte-identical to
+`CAR_BASICS_SAFETY`; no em dash or spaced en dash. `npm run validate`: exit 0.
+
+**Verdict: CLEAN.**
