@@ -286,3 +286,29 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   the road authority where they're required. Lesson 15 cut its California chain law for length, so no
   later lesson may say "as lesson 15 showed" about chains.
 - **Quiz keys:** 15 3,1,2,0,2 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 16 fix pass: notes for later lessons
+
+- **The callout's US exceptions cover every US road.** "Stay in, belted" never appears without "unless
+  the shoulder is too narrow or there's a guardrail to wait behind", in the body, a table cell or a
+  checkpoint. California's handbook lists them for freeways; the callout gives them to every US reader.
+- **Rule 283 and First Aid are not the same rule.** Rule 283 names one exception ("immediate danger");
+  First Aid lesson 11 names danger, the airway and CPR. Say First Aid "starts from the same place and
+  names its own exceptions", never "exactly what First Aid teaches". Lesson 17 and the test.
+- **Northern Ireland's Highway Code differs** (nidirect, "Breakdowns and incidents (274 to 287)", read
+  26 September 2026, dateModified 22 September 2026; SOURCES "Stage 4 note, lesson 16"). NI Rule 274 is
+  Great Britain's Rule 276 in near identical words. NI Rule 275 (motorways) says "return and wait near
+  your vehicle (well away from the carriageway and hard shoulder)" and, if at risk from another person,
+  return to the vehicle by a left-hand door. NI Rule 283: "unless they are in immediate danger from fire
+  or explosion". NI Rule 286: report "immediately" (RTO 1981 Arts 175 and 176), not within 24 hours. The
+  page does not print 999. **So G-N3 cannot turn the callout's "in Great Britain" into "in the UK"**;
+  the callout stays as it is. Lesson 17 especially: no GB motorway step is ever given to an NI reader.
+- **Level crossings: Great Britain has its own steps.** Highway Code Rule 299 (advice, "should"): get
+  everyone out and clear, a railway telephone if available, move the vehicle only "if there is time
+  before a train arrives", and leave it once the alarm sounds or the amber light comes on. Any later
+  lesson or test item that gives California's railroad steps gives Rule 299 beside them, in its own set.
+- **Placing and removing things on an ordinary road.** Rule 280's other-roads line makes moving a fallen
+  obstruction **Yours, on conditions** (not a high-speed road, and only if safe); on a high-speed road it
+  is stop, 999, and don't.
+- **eCFR's API needs compression** (`curl --compressed`), or it returns a 406.
+- **Quiz keys:** 16 2,3,1,0,1 (unchanged by the fix).

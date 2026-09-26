@@ -7154,3 +7154,46 @@ generic browser User-Agent). No earlier entry is corrected.
   gives body-temperature thresholds but no safe outside temperature and no safe time. Its words are
   "does little", not "do little".
 - **CDC "Clear Snow from Tailpipes"**, capture 20260725201242: the page shows the date February 7, 2024.
+
+## Stage 4 note, lesson 16 (2026-09-26)
+
+Strings the lesson 16 fixer added, each re-read live on 26 September 2026 (curl, generic browser
+User-Agent). No earlier entry is corrected.
+- **The Highway Code, Rule 299** (GOV.UK content API, `road-works-level-crossings-and-tramways-288-to-307`,
+  public_updated_at 2021-09-14), read in full: "**Incidents and breakdowns.** If your vehicle breaks
+  down, or if you have an incident on a crossing you should" [V], then "get everyone out of the vehicle
+  and clear of the crossing immediately" [V]; "use a railway telephone if available to tell the signal
+  operator. Follow the instructions you are given" [V]; "move the vehicle clear of the crossing if there
+  is time before a train arrives. If the alarm sounds, or the amber light comes on, leave the vehicle
+  and get clear of the crossing immediately." [V] No MUST and no law line, so advice under the
+  Introduction. Lesson 16 gives it to Great Britain readers beside California's railroad steps.
+- **The Highway Code, Introduction** (content API, 2022-07-01): "This includes rules which use advisory
+  wording such as ‘should/should not’ or ‘do/do not’." [V], and legal requirements carry "an
+  abbreviated reference to the legislation which creates the offence" [V].
+- **The Highway Code, Rule 280**, re-read: "If anything falls from a vehicle on to a motorway or other
+  high-speed road, DO NOT remove the obstruction yourself. Stop in a place of relative safety (see Rule
+  275) and call the emergency services on 999." [V]
+- **California Driver Handbook, Section 8** (live), re-read: under "If Your Vehicle Becomes Disabled on
+  the Freeway", "There are certain circumstances where it is safer to get out of your vehicle and stay
+  away. These include situations where there is:" [V] "Not enough space on the shoulder." [V] "A
+  guardrail." [V] These are freeway steps; the callout gives the same two exceptions to every US reader.
+- **49 CFR 392.22(b)(2)** (eCFR versioner API, as of 2026-09-01): special placements for fusees,
+  daylight, business or residential districts, "Hills, curves, and obstructions" [V] and "Divided or
+  one-way roads" [V]. The lesson says only that other placements exist.
+- **AAA Club Alliance**, live: the page is dated "February 7, 2022" [V], byline Matt Hill; the get-out
+  sentence opens "If the conditions of your situation make it impossible to stay in your vehicle" [V].
+  **AAA Foundation** project page, live: dated "April 2026" [V].
+- **Wikimedia Commons, File:M27_DLS.JPG** (G-N4 closed for lesson 16): file page wikitext read with
+  curl. Description "A British Driver Location Sign on the M27 at location 2.8 km" [V]; date 2012-08-05;
+  source own work; author Martinvl; licence `{{self|cc-by-sa-3.0}}` (CC BY-SA 3.0). Image checked by
+  eye: a blue sign reading M27, B, 2.8, legible. Nothing read says what each line stands for; the
+  caption says so.
+- **Northern Ireland, nidirect, "Breakdowns and incidents (274 to 287)"** (The Highway Code for
+  Northern Ireland; `dateModified` 2026-09-22), read for the review only; lesson 16 teaches none of it
+  and names only that it exists and differs. NI Rule 274 gives Great Britain's Rule 276 list in near
+  identical words ("light coloured fluorescent clothing"; "keep your side lights on" without "if
+  possible"). NI Rule 275 (motorways): "return and wait near your vehicle (well away from the
+  carriageway and hard shoulder)" [V]. NI Rule 283: "do not move injured people from their vehicles
+  unless they are in immediate danger from fire or explosion" [V]. NI Rule 286: "report the collision
+  to the police immediately" [V], Law "RTO 1981 Arts 175 & 176". The page does not print 999. G-N3 stays
+  open: the callout keeps "in Great Britain".
