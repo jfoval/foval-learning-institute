@@ -1,6 +1,7 @@
 ---
 title: Salt and sugar
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/nutrition/07-salt-and-sugar.mp3
 objectives:
   - >-
     State what the trials show about sodium and blood pressure, and what SSaSS showed for strokes
