@@ -16,12 +16,15 @@ description: >-
   high-voltage systems with the caution they need and says which work to leave to a mechanic. It
   follows Home Repair and Maintenance in Term 3.
 outcomes:
-  - Explain in plain terms how the main systems of a petrol, diesel, hybrid and electric car work
-  - Carry out the owner's routine checks (tyres, fluids, lights, wipers, battery) and read what the
-    dashboard warnings mean
-  - Say what the law requires of a roadworthy car in the UK and in US states, including the MOT and
-    state inspections, and what the driver is responsible for
-  - Handle a breakdown or a flat tyre safely, and know when not to attempt a roadside fix
-  - Choose and deal with a garage, read a quote or a service record, and know your consumer rights
+  - Explain how the main systems of a petrol, diesel, hybrid and electric car work, and what each of
+    the owner's checks protects
+  - Carry out the owner's routine checks (tyres, fluids, lights, wipers, battery) by the handbook, and
+    decide what each dashboard warning light calls for
+  - State, as general information, what the law requires of a car's condition and its periodic test in
+    Great Britain, Northern Ireland and a range of US states, and who is responsible
+  - Decide what to do when a car fails on an ordinary road or a motorway in the UK or the US, and when to
+    jump-start or change a wheel and when not to
+  - Choose and deal with a garage, read a service schedule, a quote or a bill, check for recalls, and use
+    your consumer rights in each country
 prerequisites: [first-aid, home-repair]
 sensitive_domain: false

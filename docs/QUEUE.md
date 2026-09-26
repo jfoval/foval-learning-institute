@@ -52,7 +52,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
   100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
   audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
-  **Car Basics is drafting** (2026-09-26), the seventh and last of Term 3; Stage 1 done. Drafters should plan
+  **Car Basics is drafting** (2026-09-26), the seventh and last of Term 3: Stage 1 and the outline
+  are done (25 lessons, each planned at 60 to 85 minutes, with a list of what to cut first if long);
+  the build enforces its safety callout. Proposed: a six-monthly re-check of its dated fees and
+  policy facts. Drafters should plan
   every lesson for the 100-minute ceiling from the start; Home Repair's lessons all ran long.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine

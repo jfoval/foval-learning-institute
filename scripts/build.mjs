@@ -853,6 +853,15 @@ function lintLessons() {
             fail(`${file}: Personal Safety lessons 15 and 16 carry the crisis callout word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
+        // Car Basics: every lesson carries the same safety callout, word for word: each country's
+        // fast-road breakdown steps, never under a car held only by a jack, never touch orange
+        // high-voltage cables, and that the law differs by nation and state. research/OUTLINE.md decision 4.
+        if (cdir.name === "car-basics" && path.basename(lessonsDir) === "lessons") {
+          const CAR_BASICS_SAFETY = ":::callout Before the car lets you down\nThis course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(CAR_BASICS_SAFETY))
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Car Basics lesson carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
+        }
+
         // Home Repair and Maintenance: every lesson carries the same safety callout, word for word:
         // no gas work and no wiring taught, each country's gas-leak steps, isolate first, and that
         // the reserved-work rules differ by nation and state. research/OUTLINE.md decision 4.
@@ -1126,6 +1135,13 @@ const REPETITION_EXEMPT = [
   "which jobs the law leaves to a registered or licensed trade differs",
   // and its general-information label, which every lesson stating a rule repeats.
   "the rules differ between england wales scotland and northern ireland and between us states",
+  // Car Basics' safety callout, which every lesson carries word for word.
+  "this course is education not mechanical training",
+  "if your car fails on a motorway or other fast road in great britain",
+  "if you re stuck in a live lane or can t get out safely",
+  "in the us pull as far onto the right shoulder as you can",
+  "never put any part of your body under a car held up only by a jack",
+  "the law on a car s condition differs between great britain northern ireland and each us state",
   "the law differs by state and between england and wales scotland and northern ireland",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
