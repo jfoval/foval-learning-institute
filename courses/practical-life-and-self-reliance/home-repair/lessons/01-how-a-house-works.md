@@ -130,7 +130,7 @@ This course is education, not a trade qualification, and not legal advice about 
 That box opens every lesson in this course, word for word, because someone may arrive at the
 lesson on radiators with a smell of gas in the hall and never read this one. Notice that its gas
 advice splits by country. That isn't a slip: British gas networks and American gas utilities
-give different first steps, and lesson 6, "Gas: the smell, the valve, the law and the engineer",
+give different first steps, and lesson 7, "Gas: the smell, the valve, the law and the engineer",
 sets the two side by side. The rule for now is to follow your own country's.
 
 ## A house is four flows
@@ -153,7 +153,7 @@ England's statutory guidance on drainage says traps "should retain a minimum sea
 or equivalent" under working conditions, and that "discharge stacks should be ventilated" so the
 seals are not sucked out by pressure in the pipes.[21] The American Society of Home Inspectors
 (ASHI) puts the same job in plain words: "Vent piping allows air into the system so drains flow
-easily."[22] There's no shut-off on this flow to find. Lesson 3,
+easily."[22] There's no shut-off on this flow to find. Lesson 4,
 "Water out: traps, vents and blocked drains", is about what goes wrong with it.
 
 A London workshop that teaches beginners plumbing sums up those first two flows in one line:
@@ -168,11 +168,11 @@ interrupter (GFCI) cuts the power fast when current leaks where it should not, "
 breakers and fuses function primarily to prevent the home wiring system from causing a fire."[8]
 ESF says the British equivalent of the GFCI, the residual current device or RCD, "protects you from
 electric shocks if a product is faulty."[7] So breakers protect the wiring and RCDs and GFCIs
-protect the person. Lesson 4, "Electricity: what trips, and why", takes that apart.
+protect the person. Lesson 5, "Electricity: what trips, and why", takes that apart.
 
 **Fuel in, combustion products out.** Gas (or oil, or wood) comes in, burns in a boiler, a
 furnace, a cooker or a fire, and what is left after burning has to leave by a flue or chimney. The
-gas has a shut-off at the meter. The way out is the half people forget, and lesson 7, "Carbon
+gas has a shut-off at the meter. The way out is the half people forget, and lesson 8, "Carbon
 monoxide, smoke and the alarms that warn you", is about keeping it working.
 
 That gives you three controls to find: water, power and gas. The rest of this lesson is where
@@ -250,7 +250,7 @@ They have learned something they'd far rather know on a Sunday afternoon than fi
 
 Next they open the door of the consumer unit. There is a main switch, a row of circuit breakers and
 a button marked "T". ESF: "To check whether your consumer unit has an RCD, look for the ‘Test’ or
-‘T’ button."[6] They leave the button for lesson 4. Two of the breakers have no label, so they tell
+‘T’ button."[6] They leave the button for lesson 5. Two of the breakers have no label, so they tell
 each other what is about to go off, switch the first unlabelled one off, walk round the house to see
 what stopped, write it on the chart, and switch it back on; then the second. That's labelling from
 the front of the box, which is what the University of Georgia's home maintenance checklist means
@@ -281,7 +281,7 @@ Two other facts come up wherever electricity does in this course. First, a pocke
 that stays silent proves nothing: the Health and Safety Executive's guidance for people who work on
 electrical systems says the use of "non-contact devices such as 'volt sticks'" is not recommended
 for proving a circuit dead.[10] Second, the course teaches no wiring at all. It explains, in lesson
-15, "Who may do what: reserved work, and the argument about licensing", which electrical work the
+16, "Who may do what: reserved work, and the argument about licensing", which electrical work the
 law lets a householder do in each UK nation and in five US places, and it teaches the procedure for
 none of it. That's this course's decision about what a page can check, not a claim that the work is
 unlawful wherever you are.
@@ -337,7 +337,7 @@ not in doubt: "HSE strongly advises that all gas appliances, flues and pipework 
 installed, regularly maintained and serviced at least annually by a Gas Safe registered
 engineer."[18] The Register's own line is "Don’t DIY with gas appliances, always use a Gas Safe
 registered engineer".[19] What a householder does is what the appliance's user instructions give
-the user to do. Lesson 6 has the rest.
+the user to do. Lesson 7 has the rest.
 
 ## When a pipe bursts
 
@@ -489,7 +489,7 @@ even with the main breakers off.[9]
 
 **"It's illegal to do any gas work yourself."** In Great Britain the registration duty binds
 businesses and the competence duty binds everyone. The advice to use a Gas Safe registered engineer
-is the same either way.[16][17][18] This is general information, not legal advice; lesson 6 has the
+is the same either way.[16][17][18] This is general information, not legal advice; lesson 7 has the
 detail.
 
 :::exercise Your shut-off map, and twelve jobs
@@ -508,7 +508,7 @@ plumber**, as WaterSafe says. Write down whether it turned freely, and how long 
 
 **2. Power.** Find the consumer unit or panel. Photograph the front with the door open. Note the
 main switch or main breaker and any button marked "T" or "Test", but leave the test button for
-lesson 4. Copy down the labels that are there and mark which circuits have none. Don't take off any
+lesson 5. Copy down the labels that are there and mark which circuits have none. Don't take off any
 cover, and don't use a tester or volt stick on anything.
 
 **3. Gas.** If you have gas, find the meter and, in the UK, the handle beside it. Photograph it.
@@ -574,9 +574,10 @@ First Aid and CPR lesson 2 taught the danger step, including making sure the pow
 you touch someone in contact with a supply, and this lesson used it at the fuse box. Personal Safety
 lesson 5 has what makes a difference to burglary, which this course does not reteach.
 
-Next, lesson 2, "Water in: supply, leaks, taps and toilets", goes to the other side of the stop tap:
-who owns which pipe, how much a drip costs, and what to do about the tap that drips. Lessons 4 and 6
-come back to the consumer unit and the gas meter in full, and lesson 15 is where the question "law or
+Next, lesson 2, "Water in: supply, leaks and frozen pipes", goes to the other side of the stop tap:
+who owns which pipe and how much a drip costs. Lesson 3, "Taps and toilets", deals with the tap
+that drips and the toilet that runs. Lessons 5 and 7
+come back to the consumer unit and the gas meter in full, and lesson 16 is where the question "law or
 advice, whose, and where?" becomes the whole subject.
 
 ## Go deeper
