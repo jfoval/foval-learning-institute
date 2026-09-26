@@ -405,7 +405,8 @@ both lights and what each asks of you, including why an AdBlue top-up is **Yours
 covers the glow-plug light at starting: wait for it to go out. If it stays on once the engine is
 running, DENSO, the glow-plug maker quoted there, says it "should not be ignored". DENSO puts the
 likeliest causes in the glow plugs or the sensors that control them, and adds that it "could also
-indicate a problem with the engine itself".[14] No handbook this course read gives the step, so copy
+indicate a problem with the engine itself". In the worst case, it says, the engine or the DPF can be
+damaged, so the cause should be found at once.[14] No handbook this course read gives the step, so copy
 your handbook's onto your card, and the cause is **Call someone**.
 
 ## The RAC's table, and why the handbook still governs

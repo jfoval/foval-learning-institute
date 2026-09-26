@@ -6797,3 +6797,10 @@ User-Agent, no personal data in any header):
   (8,501 × 0.45359237 = 3,856.0).
 - **GAO-15-705** is cited in lesson 11 for the 2015 count only, as recorded in "Stage 4 note, lesson
   01"; "fewer since" rests on Texas (Part D).
+
+## Stage 4 note, lesson 11 second pass (2026-09-26)
+
+- DENSO Europe, "Why might the glow plug warning light come on?", re-read live 26 September 2026
+  [V]: "In the worst case, it is possible that the engine or DPF will suffer damage, so immediate
+  remedial action to find the underlying cause must be undertaken." Lesson 11 paraphrases it
+  beside "should not be ignored".

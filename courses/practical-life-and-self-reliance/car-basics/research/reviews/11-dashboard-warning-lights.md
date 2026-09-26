@@ -106,3 +106,53 @@ for this lesson.
 **Status after review:** needs second pass. R1 and R2 were half-quotations. A second reader re-reads
 Ford pp. 164 and 183 from capture 20250505042038 (not re-read by the fixer) and checks the R1 and R2
 passages, the Durango answer and the new glow-plug paragraph against their sources.
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context second reader. Reads made live with curl (generic browser
+User-Agent, no personal data in any header): Ford 2024 Maverick handbook, Internet Archive capture
+20250505042038 (`id_` raw PDF, pdftotext -raw), printed pp. 113, 114, 164 and 183 (PDF pp. 117, 118,
+168, 187); RAC EML page; DENSO Europe glow-plug page; GAO-15-705 from Internet Archive capture
+20260109053421 of gao.gov's PDF.
+
+- **Ford p. 164 (R2): verified.** Under "Starting and Stopping the Engine – Warning Lamps", after the
+  MIL and Powertrain Warning Lamp entries: "If both lamps illuminate when the engine is running, stop
+  your vehicle as soon as it is safe to do so. Continuing to drive your vehicle could cause reduced
+  power or the engine to stop." The condition is the MIL and the powertrain lamp lit together. The
+  Durango answer's "if the powertrain warning lamp comes on as well" is a fair reading, and
+  "Neither line about the engine light says stop at once" is right for the steady and flashing lines.
+- **Ford p. 183 (R6): verified.** "Catalytic Converter – Warning Lamps" shows icons E103308, E67021
+  and E67028, which p. 113 and p. 114 name as Engine or Motor Coolant Temperature, Battery and
+  Malfunction Indicator Lamp. The sentence "Continuing to drive ... may cause reduced power or the
+  engine to stop. Failure to respond to a warning lamp may cause damage that your vehicle Warranty may
+  not cover. Have your vehicle checked as soon as possible." is verbatim. The lesson's three uses (the
+  charge-light paragraph, "Ford adds the warranty ... beside the temperature, battery and engine
+  lamps", the RAC-table paragraph and the misconception) match it. Ford frames those lamps as possible
+  emission-control faults; the lesson's "for the battery lamp among others" is accurate as far as it goes.
+- **p. 113 and p. 114**: battery, temperature, ABS, brake (parking brake first) and oil lines, and
+  p. 114's "If it flashes, have your vehicle checked immediately", all verbatim.
+- **RAC (R1): verified.** The two sentences are consecutive on the live page, as quoted. "Ford adds
+  the warranty" is accurate.
+- **Durango answer: sound.** Ease off, then the nearest place that can check it, labelled as the
+  course's reading; the p. 164 powertrain line now sits before the label.
+- **GAO (R3): verified.** "As of July 2015, we found 16 states with periodic inspection programs."
+  The replacement wording (16 in 2015, fewer since, emissions testing by where a car is registered,
+  lesson 22 for the rest) matches SOURCES Part D and makes no 50-state claim.
+- **Glow-plug paragraph (R4): quotations verbatim; one omission fixed here.** DENSO's page goes on to
+  say that when the sensors fail "the engine or DPF will suffer damage" in the worst case, so
+  "immediate remedial action to find the underlying cause must be undertaken". The paragraph had only
+  "should not be ignored", which undersells DENSO in the same way R1 undersold the RAC. Added as a
+  paraphrase (no new quotation, so SOURCES is untouched): "In the worst case, it says, the engine or
+  the DPF can be damaged, so the cause should be found at once." The label **Call someone** for the
+  cause is right; DENSO gives no owner step and does not say stop, so the light stays under "Amber
+  lights that aren't stop-now". The DENSO date (10 November 2023) in footnote 14 is right. For the
+  fixer's SOURCES note next time: DENSO's "immediate remedial action" sentence is unrecorded.
+- **Other first-pass fixes (R5 to R25):** each read against the review's fix text; all in place.
+  8,501 lb = 3,856 kg checked.
+- **Quiz:** each explanation read against its options and key; all fit. Keys 3,0,3,2,1: all four
+  positions, no adjacent repeat, not identical to or a value shift of any lesson on disk (01 to 10,
+  12 to 16), no shared run of four at offsets 0 or ±1 with any of them.
+- **Measures:** no em dashes, no spaced en dashes; callout byte-identical across all 16 lesson files
+  (one md5); `npm run minutes` 85 measured, 85 set; `npm run quotes car-basics` 0 not found;
+  `npm run validate` exit 0, no line naming this file.
+
+**Verdict: CLEAN.**
