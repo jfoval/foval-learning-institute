@@ -1,6 +1,6 @@
 # Sources: Conversation and Listening
 
-<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Aron et al 1997 full text, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
+<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Williams 2009 elderspeak, Williams 2017 CHAT trial, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
 
 *Stage 1 research, 2026-09-26. Written before any lesson is drafted. Five researchers each worked
 one part of the subject in parallel, in a fresh context, from a shared brief. Part A covers the
@@ -4758,3 +4758,255 @@ paradigm") and then reviews "three alternative paradigms of advice research cond
 **Duhigg, *Supercommunicators*, Penguin UK sample**, re-read: the prologue opens with Felix Sigala;
 the author's own management story ("This book was born, in part, from my own failures at
 communicating." [V, doubled words removed]) comes later in it.
+
+## Gate closures, lesson 12 (2026-09-26)
+
+Stage 3 drafting of lesson 12 ("Strangers, small talk and going deeper"). Everything below was fetched
+today with curl and a generic browser User-Agent (no personal data) and converted with pdftotext or an
+HTML-to-text script; strings marked [V] were copied from that text (curly quotation marks and
+apostrophes given straight; one OCR slip in Aron et al. corrected and flagged). OUTLINE assigns lesson
+12 gate G20 (Aron et al. 1997). **G20 closed for Aron: full text read. This clears "Aron et al 1997
+full text" from the unread line; the drafter was told to append only, so the orchestrator should
+remove that entry.** Sandstrom and Dunn 2014 (barista), Liu et al. 2023, Sprecher 2021 and Dunbar,
+Marriott and Duncan 1997 stay unread and the lesson does not cite them. Four primaries the lesson
+rests on were re-read in full because Part B §7 held them at summary level (drafter defect 26), and
+**two corrections follow from them** (Mehl et al.'s -.33, and what the Liu replication is a replication
+of).
+
+**G20, Aron, Melinat, Aron, Vallone and Bator 1997**, PSPB 23(4), 363 to 377. **Read: the full text**
+(a scan with the publisher's header, uploaded by a third party at stafforini.com; fetched from the
+Internet Archive capture of 12 April 2026, http://web.archive.org/web/20260412222222/https://stafforini.com/docs/Aron%20et%20al%20-%20The%20experimental%20generation%20of%20interpersonal%20closeness.pdf;
+**not to be linked from a lesson**; link the DOI). Abstract [V]: "Over a 45-min period subject pairs
+carry out self-disclosure and relationship-building tasks that gradually escalate in intensity. Study
+1 found greater postinteraction closeness with these tasks versus comparable small-talk tasks." (the
+scan's OCR reads "graduaUy" and "smaU-talk"). Study 1: run "during a regular class session of a large
+psychology course" [V], students paired with someone they did not know, cross-sex and all-women pairs;
+three sets of slips, 15 minutes each, intensity rising within and across sets; the small-talk
+condition's slips "involved minimal disclosure or focus on partner or relationship" [V] (the slips
+mention UCSC). Closeness composite (Inclusion of Other in the Self scale plus Subjective Closeness
+Index): "Means on the closeness composite were 4.06 for the closeness condition and 3.25 for the
+small-talk condition. This difference corresponds to an effect size (d) of .88 standard deviations"
+[V]; pair as unit of analysis. Studies 2 and 3: matching for non-disagreement on important attitudes,
+expecting mutual liking, and making closeness an explicit goal made no significant overall difference;
+General Discussion [V]: "only the first, the nature of the tasks themselves (self-disclosure, etc., vs.
+small talk), made a significant overall difference." Study 3's introversion result: with no mention
+of closeness, extravert pairs became closer than introvert pairs; "when closeness was made an explicit
+task of the procedure, the greater reported closeness for the extraverted individuals essentially
+disappeared" [V]; the authors call these findings "tentative" [V]. Level of closeness [V]: "So are we
+producing real closeness? Yes and no." and "it seems unlikely that the procedure produces loyalty,
+dependence, commitment, or other relationship aspects that might take longer to develop." Follow-up
+about 7 weeks later in Study 3 (58 pairs): "57% had had at least one subsequent conversation, 35% had
+done something together,and 37% had subsequently sat together in class" [V, the scan's missing space
+kept], with the authors' own caution that "without a control group, it remains possible that there
+could have been this much closeness without the procedure" [V]. Debriefing (note 9) [V]: "this is an
+unusual way to form relationships and that subjects should not feel any obligation to their partners".
+The first slip: "Given the choice of anyone in the world, whom would you want as a dinner guest?" [V];
+slip 36 asks each partner to share a personal problem and ask the other's advice. Anecdote in the
+introduction: from an earlier version, "one pair who married!" [V]. Nothing in the paper concerns
+falling in love; the procedure's aim is felt closeness in a lab.
+
+**Kardas, Kumar and Epley 2022** ("Overly shallow?"), re-read in full from the author PDF linked on
+the Epley lab publications page (https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b685_OverlyShallowKardasKumarEpley.pdf).
+Abstract [V]: "Misunderstanding others can encourage overly shallow interactions." Experiment 1a: 25
+pairs of financial services executives at a management conference (18% female, mean age 48.92), four
+deep questions adapted from Aron et al., about 10 minutes; participants underestimated how interested
+the partner would be in hearing their answers (d = -2.14) and overestimated awkwardness (d = 1.74);
+the same executives wished for marginally more small talk with strangers (d = .25, p = .083) and
+significantly more deep conversation (d = 1.35). Experiment 2: 89 pairs of master's degree students at
+a campus wellness event; five shallow questions adapted from Aron et al.'s small-talk slips or five deep
+ones; deep-condition overestimation of awkwardness d = 2.23, shallow d = .55; discussion [V]: "Although
+deep conversations did indeed feel more awkward than shallow conversations, the difference in
+participants' expectations was roughly four times larger than the difference that participants
+actually experienced." Unexpected result: the deep condition reported feeling lonelier afterwards (M
+1.82 against 1.65, d = .48); the authors [V] "are also reluctant to conclude that this effect is a
+general consequence of deep conversations rather than an idiosyncratic consequence of the specific
+questions", naming the embarrassing-moment and crying questions, and dropped the measure afterwards.
+Experiment 6b (not 6a): before two conversations people expected to prefer the shallow one (d =
+-.48); afterwards they preferred the deep one (d = .27); **for a future session they showed no
+significant preference (d = .13)**; the shift in predicted preference is the d = .60 in Part B §7.1.
+General Discussion: between-condition experience was inconsistent [V]: "we observed somewhat
+inconsistent differences in experienced connectedness, happiness, and enjoyment across the experiments
+in which participants experienced only a relatively deep or shallow conversation" (connectedness
+higher for deep in Experiments 3 and 4a, not in 2 and 4b; happiness not significantly higher). The
+authors' own gateway suggestion [V]: "relatively shallow questions could act as a gateway to deeper
+conversation". Limits [V]: all experiments ran where "both people in the conversation knew they were
+going to have a conversation as part of an experiment"; asking about the last time someone cried
+"might be received much differently when you raise the question to the person standing next to you in
+the supermarket line than it was in our experiments"; listeners might infer "romantic" interest or
+manipulation in daily life; only "short-term outcomes of a single relatively shallow and/or deep
+conversation"; all run "within a relatively narrow time period within the United States". Their
+prediction that expectations vary across cultures more than experiences is a prediction, untested.
+
+**Epley and Schroeder 2014**, re-read in full from the Epley lab PDF
+(https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b5c3_EpleySchroederJEPG2014.pdf).
+Abstract [V]: "This mistaken preference for solitude stems partly from underestimating others' interest
+in connecting". Experiment 1a: 118 commuters recruited at the Homewood, Illinois, Metra station,
+walking alone, inbound morning express trains; three instructions (connection, solitude, normal); 97
+analysed (8 did not follow instructions, 7 of them because nobody sat next to them); connection more
+positive than solitude, d = 0.63; the normal-commute group fell between and differed from neither
+significantly; no difference in reported productivity; conversations averaged 14.2 minutes.
+Experiment 1b: 66 other commuters, imagining the same conditions, predicted the opposite (connection
+less positive than solitude, d = 0.41, and less productive). Experiment 3a: commuters "predicted that
+fewer than 47% of commuters would be willing to engage in conversation" [V]; "all who returned our
+surveys reported talking with the person they attempted to connect with, and not a single person
+reported being rebuffed" [V]; "As far as we can tell, it posed no risk at all." [V]. Experiment 4:
+cab riders at Chicago Midway who routinely talked to drivers predicted the benefit; those who rarely
+did not. Experiment 5: in a lab waiting room, people talked to were as positive as those told to talk.
+How conversations began, from 31 of 62 participants e-mailed afterwards: current events such as the
+weather, or personal questions such as "How are you?" and "Where are you from?"; none mentioned the
+experiment; "they tried to say something worth responding to." [V].
+
+**Schroeder, Lyons and Epley 2022** ("Hello, stranger?"), re-read in full from the Epley lab PDF
+(https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b683_SchroederLyonsEpley%20Hello%20Stranger.pdf).
+Abstract [V]: "People may avoid pleasant conversations with strangers because of miscalibrated
+concerns about starting them." Experiment 1 at Liverpool Street, Cambridge, Chelmsford and Colchester
+stations; 78.0% of the conversation condition reported following the instruction (intent-to-treat
+analysis). Experiment 2 (148 commuters): trying to have a conversation expected to be less pleasant
+than having one; starting expected to be harder than ending; about 25% of fellow commuters expected to
+be willing to talk. Those who did not talk "were not rejected by others but instead seemed more likely
+to infer that others did not want to talk and hence did not try" [V]. The paper's own setting: a 2016
+"Tube chat?" badge campaign on the London Underground and a rival campaign whose badges read "Do not
+even think about talking to me" [V, as the paper quotes it]. Phones and headphones may provide "an
+imperfect signal that one is uninterested in talking to others." [V]. Same research group as 2014; a
+conceptual replication in a second country, not an independent one.
+
+**Mehl, Vazire, Holleran and Clark 2010**, re-read in full (PMC2861779, through the Internet Archive
+capture of 14 May 2026; PMC returns 403 to curl). **Correction to Part B §7.4 and OUTLINE lesson 12:**
+Table 1 shows that the headline r = -.33 is small talk **as a percentage of all conversations**,
+against a well-being index combining life satisfaction and happiness. Small talk as a share of all
+recordings correlated -.07 with that index (not significant; -.03 with life satisfaction alone). With
+life satisfaction alone (the SWLS column, the measure Milek et al. used), small talk as a percentage of
+conversations was r = -.25; substantive conversation r = .26 (share of recordings) and .20 (percentage
+of conversations, not significant); against the index, .31 and .28. So "Mehl's -.33 against Milek's
+.05" compares two different measures; the like-for-like pair is -.33 (index) or -.25 (life
+satisfaction) against Milek's normalised -.08. Text [V]: "Naturally, our correlational findings are
+causally ambiguous." 79 undergraduates, 47 women; the happiest (+1.5 SD) against the unhappiest (-2.0
+SD) "had roughly one third as much small talk (10.2% vs. 28.3%)" [V].
+
+**Milek et al. 2018**, re-read in full (PMC6139582, Internet Archive capture of 12 May 2026). Samples:
+the original undergraduates; cancer patients (N = 50) and their spouses (51); healthy working adults in
+a meditation trial (184, pre-intervention data only); recently divorced or separated adults (122);
+pooled analyses N = 429 without the spouses. Two of the eight authors (Vazire, Mehl) wrote the
+original, so this is a pooled replication by a team including the original authors, with three new
+samples, not an independent team. Pooled, life satisfaction: small talk r = .05 [-.04, .14],
+normalised small talk r = -.08 [-.17, .01]; substantive r = .23 [.14, .32], normalised .15 [.06,
+.24]; time alone -.19, time talking .22. Discussion [V]: "The negative correlation suggested by the
+underpowered original study seems to have been a false-positive finding." Limits [V]: "our data are
+correlational and therefore causally ambiguous"; they "did not account for the broader social context
+of the sampled interactions, that is with whom participants were having small talk or substantive
+conversations (e.g., a stranger vs. a friend)"; they suggest comparing "participants' happiness on
+days when they have a lot of small talk with days when they predominately engage in substantive
+conversations" [V]. Personality did not substantially moderate, and the authors add [V] "Absence of
+evidence, however, should not be mistaken for evidence of absence".
+
+**Folk and Dunn**, "How can people become happier? A systematic review of pre-registered
+experiments", PsyArXiv preprint (https://osf.io/8r2uq/), "accepted for publication in the Annual
+Review of Psychology" [V]. **Read: the abstract and the "Be more sociable" section.** An independent
+group's review of preregistered experiments; it counts Kardas, Schroeder and O'Brien 2022 (Study 5),
+Schroeder, Lyons and Epley 2022 and a week-long act-extraverted trial: "These three studies provide
+compelling initial support for the idea that behaving in a more sociable manner may boost positive
+feelings." [V]; "we could not find any pre-registered experiments investigating the benefits of
+improving close relationships" [V].
+
+**Sandstrom, Boothby and Cooney 2022**, "Talking to strangers: A week-long intervention reduces
+psychological barriers to social connection", *Journal of Experimental Social Psychology* 102, 104356.
+**Read: the accepted manuscript (OSF, https://osf.io/29q8j/) abstract, method sample, the rejection
+results and the limitations.** 286 students at one US and one UK university (treatment 198, control
+88), preregistered question, a scavenger-hunt app prompting a conversation with at least one stranger
+a day for a week. Abstract [V]: "Previous research has attempted but failed to get people to realize
+that their concerns about talking to strangers are overblown." Expected rejections fell by the end of
+the week and stayed lower a week later; control participants stayed as pessimistic as the treatment
+group had been at the start. Boothby and Cooney are liking-gap authors: the same wider network, not an
+outside team.
+
+**Transparent Replications Report #7** (Clearer Thinking, 2023;
+https://replications.clearerthinking.org/replication-2023jpsp124-4/), re-read. Original Study 4a n =
+201, d = .32; replication n = 742 (online, Positly), d = .25; "This finding was replicated in our
+study." [V]. **Clarification to Part B §7.3 and OUTLINE lesson 12:** Liu, Rim, Min and Min are not
+part of the Epley network, and Study 4a is an imagined-scenario study about reaching out to a weak-tie
+acquaintance. So it is an outside team's direct replication of a *related* finding from a *different*
+lab, not a replication of the stranger or deep-talk experiments. The report notes an alternative
+explanation the design does not rule out.
+
+**Replication search.** OpenAlex, 26 September 2026: works citing Epley and Schroeder 2014 (309
+citing works), Kardas, Kumar and Epley 2022 (98), Schroeder, Lyons and Epley 2022 (62) and Mehl et al.
+2010 (265), filtered for "replication" and for depth, stranger and self-disclosure terms. **No direct
+replication of the commuter experiments or of the deep-talk experiments by an outside team was
+found**; Milek et al. is the one replication of Mehl et al., and Sandstrom, Boothby and Cooney is an
+intervention study, not a replication. A search of this kind can miss work; the lesson says "this
+course found none".
+
+## Gate closures, lesson 11 review (2026-09-26)
+
+Stage 4 fix pass on lesson 11 ("When it's serious"), applying Reviewers F and P. Every page below was
+re-fetched today with curl and a generic browser User-Agent (no personal data), converted to text
+(pdftotext for the Blades manuscript), and each string string-matched; strings marked [V] were copied
+from that text (curly quotation marks and apostrophes given straight). No SOURCES entry carried an
+error; every finding was lesson-level. Nothing on the unread line is newly cited.
+
+**R U OK?, "What should I do if I'm worried about someone's immediate safety"** (URL as lesson 11
+gate closure), re-read in full. [V]: "If they say yes, the most important things for you to do are
+to: keep them safe – do not leave them alone get them some immediate professional help." (on the
+page the last two are list items with no punctuation between them; the lesson quotes them as two
+strings, "keep them safe – do not leave them alone" and "get them some immediate professional
+help"). The page continues "To keep them safe, remove any dangerous items from their physical
+location, particularly if they have mentioned a suicide plan." [V]; the lesson names this as safety
+planning and does not teach it. Unchanged: "don't agree to keep these or their suicidal thoughts a
+secret", "Calling a crisis support line together", "call 000".
+
+**#BeThe1To, "How and Why the 5 Steps Can Help"** (URL as Part E §1.3), re-read. Step 3 is addressed
+to the helper, whoever they are [V]: "After the "Ask" step, and you've determined suicide is indeed
+being talked about, it's important to find out a few things to establish immediate safety."; the
+questions about a previous attempt, knowing how, a plan, its timing and access follow (not
+reproduced here or in the lesson); "Knowing the answers to each of these questions can tell us a lot
+about the imminence and severity of danger the person is in." [V]. Also [V]: "avoid trying to impose
+your reasons for them to stay alive" (not used). **So #BeThe1To does ask any helper to assess
+immediate risk; the lesson's leaving those questions to the lines is labelled as this course's
+decision (Reviewer F, F1).**
+
+**Mental Health First Aid USA, ALGEE explainer** (URL as Part E §1.5), re-read. [V]: "ALGEE is an
+action plan developed by Mental Health First Aid to guide anyone as they assist someone experiencing
+a mental health or substance use challenge in crisis and non-crisis situations."; first step
+"Approach, assess for risk of suicide or harm" and "Remember that your role is not to diagnose
+someone or solve the problem, but instead to provide support and information." unchanged, on the same
+page.
+
+**988 Lifeline, "Help Someone Else"** (URL as Part E §1.2), re-read. [V]: "Offer hope that
+alternatives are available but do not offer glib reassurance." (between "Don't be sworn to secrecy.
+Seek support." and "Take action. Remove means, like weapons or pills."); "Don't lecture on the value
+of life." unchanged.
+
+**Dazzi et al. 2014** (Cambridge Core full text), re-read. Reynolds et al. 2006, full sentence [V]:
+"While 77% ( n = 44) reported at least one increase in suicidality following assessment, out of the
+total 764 participant sessions, 16.4% ( n = 125) showed an increase and 17.5% ( n = 134) showed
+decreases in suicidality." Participants "evaluated ... every 4 months for self-reported ratings of
+suicidality both at the beginning and end of assessment sessions" (paraphrase of the page's
+sentence). 44 of 63 is 70%; the lesson gives both of Dazzi's figures as the review gives them and does
+not recompute. The physician surveys: the German one is Stoppe et al. 1999 (170 primary-care
+physicians, 23% would not assess), and the English one is "103 general practitioners based in
+England (Bajaj et al. ... 2008 ); one-third believed that questions about suicidal behaviour could
+induce thoughts of self-harm" [V].
+
+**Blades et al. 2018** (UWA accepted manuscript), re-read. The 36% is the same Bajaj 2008 survey
+[V]: "36% of general medical practitioners believed that exposure to questions or information about
+suicidal behaviour could increase the likelihood of suicidal thoughts or acts (Bajaj et al. 2008), and
+23.1% of primary-care physicians would not ask patients about suicide for fear that talking about it
+may induce suicidality (Stoppe, Sandholzer, Huppertz, Duwe, & Staedt, 1999)." **Dazzi's third and
+Blades' 36% are one survey, not two (Reviewer F, F4).** After the three non-significant clinical
+trends [V]: "These non-significant trends might suggest that future research further investigate any
+possible moderating role of clinical versus non-clinical samples, although in the present study where
+moderation analyses were possible, no moderating effects of clinical versus non-clinical samples were
+found."
+
+**Samaritans, "Supporting someone with suicidal thoughts"** sections 1 and 2, re-read. [V]: "People
+who have felt suicidal will often say what a huge relief it was to be able to talk about what they
+were experiencing." (section 1; not used); "getting in touch with their friends or family (with their
+permission)" (section 2; now quoted). samaritans.org serves country-specific content; the "call them
+on their behalf" offer was confirmed on the version served today, not separately for Ireland.
+
+**G7, crisis lines, calls from people worried about someone else**, re-read today on each home page
+[V]: 988lifeline.org "Take care of a friend, a loved one, or yourself"; 988.ca "How to get help for
+someone else"; samaritans.org "If you're worried about someone else"; lifeline.org.au "I'm worried
+about someone". Numbers unchanged: 988lifeline.org "Call, text, or chat"; 988.ca "Call 9-8-8", "Text
+9-8-8"; samaritans.org "116 123"; lifeline.org.au "13 11 14", "000"; findahelpline.com "Free,
+confidential support". The callout stands.

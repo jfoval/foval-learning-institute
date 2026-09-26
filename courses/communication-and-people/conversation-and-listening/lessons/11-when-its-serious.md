@@ -1,6 +1,6 @@
 ---
 title: When it's serious
-minutes: 85
+minutes: 90
 objectives:
   - >-
     State what the crisis services advise a friend to do when they're worried someone is thinking
@@ -26,10 +26,11 @@ quiz:
     answer: 3
     explain: >-
       988 says "Don't be sworn to secrecy. Seek support."; #BeThe1To says never to promise to keep
-      thoughts of suicide a secret; R U OK? says not to agree to keep a plan secret. Promising
-      "unless she seems worse" makes you the judge of how serious it is, which none of the services
-      asks of a friend. A promise made to be broken behind her back isn't in any service's advice
-      either. And keeping it to protect her trust is the misconception the services name.
+      thoughts of suicide a secret; R U OK? says not to agree to keep a plan secret. A promise kept
+      unless she seems to be getting worse is still a secret kept on a condition, which is what all
+      three services rule out. A promise made to be broken behind her back isn't in any service's
+      advice either. And keeping it to protect her trust is exactly what the three services advise
+      against.
   - q: >-
       A parents' group objects to a school wellbeing questionnaire that includes a question about
       suicidal thoughts, saying it will put the idea into pupils' heads. What does the evidence this
@@ -43,28 +44,30 @@ quiz:
     explain: >-
       Two reviews, one of 13 papers and a meta-analysis of 18 studies that included high-school
       samples, found no increase in suicidal thinking after being asked, and the meta-analysis found
-      small reductions. "Proven to prevent suicide" goes well beyond that. The minority who felt
-      worse in one interview study felt worse in mood, mostly from being reminded of their
-      difficulties, which isn't an increase in suicidal thinking. And questionnaires are exactly what
+      small reductions. "Proven to prevent suicide" goes well beyond that. Some individuals do feel
+      worse for a while: in one clinical study suicidal feelings rose after about a sixth of
+      assessments and fell after about as many. But on average asking hasn't raised suicidal
+      thinking, so the evidence gives no reason to cut the item. And questionnaires are exactly what
       was studied; conversations between friends are what wasn't.
   - q: >-
-      You ask a teammate who has seemed withdrawn for weeks how he's going, and he says he doesn't
-      want to talk about it. What does R U OK?'s guide suggest you do?
+      Your sister keeps cancelling your plans at the last minute. When you mention it and ask how she
+      is, she laughs, says she's fine, and changes the subject. What fits R U OK?'s advice?
     options:
-      - Keep asking until he tells you, since he wouldn't be withdrawn for weeks for no reason
-      - Take him at his word and drop the subject for good, since pushing would only annoy him
-      - Tell his manager what you've noticed, so that someone with more authority can step in
-      - Don't criticise him; say you're still concerned, and offer someone else to talk to
+      - Laugh along and change the subject too, since she has made it quite clear that she's fine
+      - Tell her that brushing you off is unfair, so she knows how much being shut out hurts
+      - Bring it up again every time you see her, until she finally tells you what is wrong
+      - Leave it for now without blame, say you're still worried and care, and stay in touch
     answer: 3
     explain: >-
-      R U OK? says not to criticise someone who doesn't want to talk, to tell them you're still
-      concerned and that you care, to avoid a confrontation, and to ask whether there's someone else
-      they'd rather talk to. Pressing until he tells you is the confrontation it warns against.
-      Dropping it for good leaves out the concern it says to keep showing, and Samaritans says to
-      keep letting a person know you're there. Going over his head to a manager isn't in the guide.
+      R U OK? says that if someone doesn't want to talk, you tell them you're still concerned about
+      the changes and that you care, avoid a confrontation, and leave a way back, such as "Please
+      call me if you ever want to chat". Telling her that brushing you off is unfair is the kind of
+      criticism it says not to make. Raising it at every meeting until she tells you turns into the
+      confrontation it warns against, and Samaritans says not to try to force anyone to open up.
+      Laughing along and dropping it leaves out the concern it says to keep showing.
   - q: >-
       A friend tells you she has been thinking about suicide. You feel you ought to work out exactly
-      how serious it is before you involve anyone else. What do the services this lesson read say?
+      how serious it is before you involve anyone else. What does this lesson advise?
     options:
       - That's your first job, so ask about every detail before you decide who else to call
       - Wait a few days to see whether she seems any better before you involve anyone else
@@ -72,27 +75,30 @@ quiz:
       - Only a doctor can help, so tell her to book an appointment and then leave it with her
     answer: 2
     explain: >-
-      Mental Health First Aid says a helper's role is "not to diagnose someone or solve the problem,
-      but instead to provide support and information", and R U OK? and #BeThe1To both say a crisis
-      line can advise you when you aren't sure what to do. Working out how serious it is belongs to
-      trained responders, not to a friend. Waiting to see isn't in any service's advice, and
-      "leave it with her" drops the connecting and following up that every service asks for.
+      This course leaves working out how serious it is to the crisis lines and trained responders,
+      although #BeThe1To's third step and Mental Health First Aid's first step do ask helpers some of
+      those questions. Mental Health First Aid says a helper's role is "not to diagnose someone or
+      solve the problem, but instead to provide support and information", and R U OK? and #BeThe1To
+      both say a crisis line can advise you when you aren't sure what to do. Asking about every
+      detail first is the part this course leaves to the lines. Waiting to see isn't in any service's
+      advice, and "leave it with her" drops the connecting and following up the services ask for.
   - q: >-
-      A cousin tells you her partner checks her phone, controls her money and has pushed her, and
-      asks you not to tell anyone. Which fits the services' advice as Personal Safety lesson 7
-      reports it?
+      A friend from your choir tells you she was sexually assaulted last year and asks you not to
+      tell anyone. Later that night she says she has been thinking about ending her life. Which fits
+      the services' advice for each part, as this lesson and Personal Safety lesson 11 report it?
     options:
-      - Tell her parents straight away, since a secret like this isn't a safe one to keep
-      - Believe her, leave the decisions with her, and make sure she knows help exists
-      - Confront the partner yourself, calmly, so that he knows somebody else is now aware
-      - Tell her she has to leave him now, and offer her your spare room from tonight
+      - Keep both secrets, since she asked you to, and trust her to get help when she is ready
+      - Leave the assault hers to tell, but don't keep her thoughts of suicide a secret
+      - Tell her family about both tonight, since each is too serious for a friend to hold
+      - Report the assault for her, and keep the suicide part quiet so that she trusts you
     answer: 1
     explain: >-
-      The domestic abuse services in that lesson say to believe her, not to tell her to leave, not to
-      confront the abuser, and that decisions about her life are hers, while making sure she knows
-      help exists, and that the helplines take calls from friends and family too; Refuge adds calling 999 in an emergency if you
-      fear for her safety. Telling her parents takes a decision away from her. The suicide services'
-      advice not to keep a plan secret is different advice for a different situation.
+      Rape Crisis, in Personal Safety lesson 11, says not to tell anyone else about an assault
+      without the survivor's permission. 988, #BeThe1To and R U OK? say not to keep thoughts of
+      suicide or a plan secret, and to seek support, with her if you can. Keeping both secrets
+      carries the assault advice into a situation it wasn't written for. Telling her family about
+      both, or reporting the assault for her, overrides her permission on the assault, and keeping
+      the suicide part quiet is what the three suicide services advise against.
   - q: >-
       A charity poster reads: "Asking someone about suicide protects them." Which description of
       that sentence fits what this lesson read?
@@ -103,11 +109,13 @@ quiz:
       - A service's claim, which goes further than the evidence from the settings studied
     answer: 3
     explain: >-
-      Samaritans writes that asking "can protect". The reviews found no increase in suicidal thinking
-      and some small reductions after people were asked in research, screening and clinical
-      settings, which is not the same as protection from suicide. No study tested friends asking
-      friends. "No difference in either direction" understates the small reductions, and "prevents
-      suicide outright" overstates everything.
+      Samaritans writes that evidence shows asking "can protect". The reviews found no increase in
+      suicidal thinking and some small reductions after people were asked in research, screening and
+      clinical settings, and one pooled comparison found fewer reported suicide attempts, though
+      "exposure" there included a school programme and follow-up calls. That's support for the
+      claim, not proof of protection, and no study tested friends asking friends. "No difference in
+      either direction" understates the small reductions, and "prevents suicide outright" overstates
+      everything.
 ---
 
 This lesson is about one conversation: the one you have when you are worried that someone you know
@@ -115,36 +123,41 @@ may be thinking about suicide. It's a hard conversation to start, and one fear o
 asking will make things worse. That fear is not only a layperson's. In one survey of 103
 family doctors in England, reported in a 2014 review, a third believed that questions about suicidal
 behaviour could put thoughts of self-harm into a patient's head.[8] The services that deal with
-suicide every day disagree, and their advice to a worried friend is strikingly consistent.
+suicide every day disagree, and their advice to a worried friend is much the same from one service
+to the next.
 
 :::callout If you're struggling right now
 This course is education, not care. If you're thinking about suicide or self-harm, or don't feel able to keep yourself safe, contact emergency services (911 in the US and Canada, 999 in the UK, 112 across the EU, 000 in Australia) or a crisis line: call or text 988 in the US and Canada, call Samaritans on 116 123 in the UK and Ireland, or Lifeline on 13 11 14 in Australia. Elsewhere, findahelpline.com lists free, confidential lines by country.
 :::
 
-If you are the person who is struggling, that box is for you, and you can stop reading here. This
-lesson is for the friend, the colleague, the relative. It teaches what a friend does in a
-conversation: notice, ask, listen, do not promise secrecy, help the person connect with people who are
-trained for this, follow up, and look after yourself. **It does not teach counselling, risk assessment
-or safety planning**, and it says where those are done. Mental Fitness lesson 1, "Where ordinary
-ends", is where the institute draws the line between ordinary distress and something that needs more
-than a course; that course, too, says it does not teach suicide prevention, and points to the lines.
+If you're the person who is struggling, that box is for you, and it matters more than anything
+below it. You don't need to read on, though you're welcome to. The rest of this lesson is written
+for the friend, the colleague, the relative. It teaches what a friend does in a conversation:
+notice, ask, listen, do not promise secrecy, stay with the person and help them connect with people
+who are trained for this, follow up, and look after yourself. **It doesn't teach counselling, risk
+assessment or safety planning**, and it says where those are done. Mental Fitness lesson 1, "Where
+ordinary ends", is where the institute draws the line between ordinary distress and something that
+needs more than a course; that course, too, says it does not teach suicide prevention, and points to
+the lines.
 
 ## What the services say
 
-Five organisations' advice to ordinary people is behind this lesson. **Samaritans** runs the free
-listening line for the UK and Ireland. The **988 Suicide & Crisis Lifeline** is the US line, and
-**#BeThe1To** is a campaign it created. **R U OK?** is an Australian suicide-prevention charity.
-**Mental Health First Aid USA** trains lay people to help someone in a mental health crisis. The
-numbers in the box above were re-read on each line's own page for this lesson, on 26 September
-2026.[11] All of what follows is **practitioner advice**: what services teach from long
-experience, not a finding from a trial of friends.
+Five organisations' advice to ordinary people is behind this lesson, and each name below links to
+the page this lesson quotes. **[Samaritans](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/supporting-someone-suicidal-thoughts/)**
+runs the free listening line for the UK and Ireland. The **[988 Suicide & Crisis Lifeline](https://988lifeline.org/help-someone-else/)**
+is the US line, and **[#BeThe1To](https://www.bethe1to.com/bethe1to-steps-evidence/)** is a campaign
+it created. **[R U OK?](https://www.ruok.org.au/how-to-ask)** is an Australian suicide-prevention
+charity. **[Mental Health First Aid USA](https://mentalhealthfirstaid.org/news/algee-how-mhfa-helps-you-respond-in-crisis-and-non-crisis-situations/)**
+trains lay people to help someone in a mental health crisis. The numbers in the box above were
+re-read on each line's own page for this lesson, on 26 September 2026.[11] All of what follows is
+**practitioner advice**: what services teach from long experience.
 
 Put their pages side by side and the same moves come up.
 
 **Notice, and say what you have noticed.** R U OK? tells you to mention the specific changes that
 worried you, and gives an example: "You seem less chatty than usual. How are you going?"[5]
 Samaritans, on checking in with someone who has gone quiet, says the same kind of thing, and adds
-that people often do not reach out "because they're worried they'll be a burden or because they feel
+that people often don't reach out "because they're worried they'll be a burden or because they feel
 shame."[3]
 
 **Ask directly.** Samaritans: "If you're worried someone is suicidal, it's okay to ask them
@@ -157,15 +170,21 @@ suicide."[6]
 **Listen, without shock and without a lecture.** 988: "Be willing to listen. Allow expressions of
 feelings. Accept the feelings." And: "Don't act shocked. This will put distance between you."[1] Its
 list also says not to debate whether suicide is right or wrong, and "Don't lecture on the value of
-life."[1] R U OK? asks you to take what they say seriously, not to interrupt or rush, and "If they
-need time to think, sit patiently with the silence."[5]
+life."[1] It asks for hope without false comfort: "Offer hope that alternatives are available but do not offer glib reassurance."[1]
+R U OK? asks you to take what they say seriously, not to interrupt or rush, and "If they need time
+to think, sit patiently with the silence."[5]
 
 **Do not promise to keep it secret.** 988: "Don't be sworn to secrecy. Seek support."[1] #BeThe1To:
 "Do not ever promise to keep their thoughts of suicide a secret."[2] R U OK?: "If they share details
 of their plan with you, don't agree to keep these or their suicidal thoughts a secret."[6] That is
-three services, not all five. The Samaritans pages this course read do not mention secrecy either way.
+three services, not all five. The Samaritans pages this course read do not mention secrecy either
+way; the nearest they come is a list of practical help that includes "getting in touch with their friends or family (with their permission)".[3]
 
-**Help them connect.** 988 says to "Get help from people or agencies specializing in crisis
+**Stay with them, and help them connect.** R U OK?'s page on immediate safety is plainest about
+the first minutes. If the person says yes when you ask about suicide, "the most important things for you to do are to: keep them safe – do not leave them alone" and "get them some immediate professional help".[6]
+The same page goes on to removing dangerous items, which is safety planning and is left to the
+services (see below). Staying does not ask you to judge anything; on this course's reading it's
+988's second step, "Be there". 988 says to "Get help from people or agencies specializing in crisis
 intervention and suicide prevention."[1] R U OK? lists "Calling a crisis support line together"
 among the routes to help.[6] Samaritans offers something unusual: "Or you can ask us to call them on
 their behalf", and, if someone is in immediate danger, "We can call an ambulance for you, if you
@@ -198,36 +217,40 @@ Each service is careful about what it is asking of you. Mental Health First Aid 
 to diagnose someone or solve the problem, but instead to provide support and information."[7] One of
 R U OK?'s readiness questions is "Do I understand that I can't 'fix' someone's problems?"[5]
 Samaritans: "You don't have to be able to solve their problems."[3] Lesson 10, "When someone brings
-you a problem", was about the fixing reflex. Here the services give it a different answer: do not fix,
-connect.
+you a problem", was about the fixing reflex. Here the services give it a different answer: do not
+fix, connect.
 
-Some of what the services teach goes beyond a conversation between friends, and this course does not
-teach it:
+Some of what the services teach goes beyond what this course will teach, and one part of that line
+is this course's own choice rather than the services':
 
-- **Risk assessment.** #BeThe1To's third step, "Help keep them safe", asks the helper to find out
-  whether the person has already tried, whether they know how and have a plan, the timing, and their
-  access to a method.[2] Mental Health First Aid's first step is "Approach, assess for risk of suicide
-  or harm", and its courses train people to do it.[7] Those questions are named here so you will
-  recognise them. They are not rehearsed, because working out how immediate the danger is belongs to
-  trained responders, and the lines exist partly so that you do not have to.
+- **Risk assessment.** #BeThe1To's third step, "Help keep them safe", asks the helper, whoever they
+  are, to find out whether the person has already tried, whether they know how and have a plan, the
+  timing, and their access to a method, because the answers "can tell us a lot about the imminence and severity of danger".[2]
+  Mental Health First Aid describes its steps as a plan "to guide anyone", and the first is
+  "Approach, assess for risk of suicide or harm"; its courses train people to do it.[7] So two of the
+  services do ask a helper these questions. **This course does not teach them**, and that's this
+  course's decision, not the services' advice: they are named here so you will recognise them, and left
+  to the crisis lines and trained responders. If you're unsure, the lines will advise you.
 - **Safety planning.** Samaritans suggests making a written safety plan together once the person is
   ready, with a template on its site, and 988's list includes removing the means, "like weapons or
   pills".[3][1] Those belong to the services' own pages and to the professionals who help people with
   them.
 - **Counselling.** Nothing in this course is therapy, and the listening lessons were not built for a
-  crisis.
+  crisis. Counselling is done by trained counsellors and therapists; Mental Fitness lesson 1's
+  section "When to get help rather than rely on a course" says when to go to a doctor and, in
+  England, how to refer yourself to NHS Talking Therapies.
 
-What you can do if you are not sure what to do: ask the people who are. R U OK?: "if you don't feel
+What you can do if you aren't sure what to do: ask the people who are. R U OK?: "if you don't feel
 confident, a good first step is to call a crisis helpline to seek some immediate advice".[6]
 #BeThe1To: "The Lifeline can always act as a resource during these moments as well if you aren't
 entirely sure what to do next."[2] The lines in the box take calls from people worried about someone
-else. If a life is in danger now, the emergency numbers in the box are the call.
+else.[11] If a life is in danger now, the emergency numbers in the box are the call.
 
-:::checkpoint Your friend has told you he has been thinking about suicide. Which of these belong to a friend's part, on the services' advice, and which do not? (a) Saying "I'm really glad you told me." (b) Asking him about his plan in detail, to decide how worried to be. (c) Asking whether he would ring a line with you now. (d) Making a note to call him on Thursday.
+:::checkpoint Your friend has told you he has been thinking about suicide. Which of these belong to a friend's part, on this lesson's advice, and which do not? (a) Saying "I'm really glad you told me." (b) Asking him about his plan in detail, to decide how worried to be. (c) Asking whether he would ring a line with you now. (d) Making a note to call him on Thursday.
 
 (a), (c) and (d) are a friend's part: listening and accepting what he says, helping him connect, and following up.
 
-(b) is not. Questions about a plan are the risk-assessment step that #BeThe1To and Mental Health First Aid train for, and the services say a friend's role is not to diagnose. If you are unsure how worried to be, the crisis line is the place to ask, with him or on your own.
+(b) is not, in this course. #BeThe1To's third step and Mental Health First Aid's first step do ask helpers about a plan; this course leaves those questions to the lines, which is why (b) isn't part of your job here. If you're unsure how worried to be, the crisis line is the place to ask, with him or on your own.
 :::
 
 ## What the evidence shows, and where it comes from
@@ -238,7 +261,7 @@ What researchers have tested is the fear in the opening paragraph: that asking p
 
 The studies that exist are in places where people are already being asked, with ethics approval and a plan for anyone who is struggling: research questionnaires and interviews, school screening, and clinical assessments.
 
-What they cannot tell you about is the conversation this lesson is about. Nobody, in anything this course read, has studied one friend asking another.
+What they can't tell you about is the conversation this lesson is about. Nobody, in anything this course read, has studied one friend asking another.
 :::
 
 ### A review of thirteen papers
@@ -247,11 +270,11 @@ In 2014 Dazzi and three colleagues set out to answer the question
 that worries ethics committees. Their paper, in *Psychological Medicine*, opens: "There is a commonly
 held perception in psychology that enquiring about suicidality, either in research or clinical
 settings, can increase suicidal tendencies."[8] They searched two databases and found 13 papers from
-2001 to 2013, with adolescents and adults, and with general and at-risk groups. Their conclusion:
-"None found a statistically significant increase in suicidal ideation among participants asked about
-suicidal thoughts."[8] Suicidal ideation means suicidal thinking.
+2001 to 2013, with adolescents and adults, and with general and at-risk groups. Their conclusion,
+where suicidal ideation means suicidal thinking: "None found a statistically significant increase in
+suicidal ideation among participants asked about suicidal thoughts."[8]
 
-It is a short **narrative review**, a written survey of the studies that does not pool their numbers. The [full text](https://www.cambridge.org/core/journals/psychological-medicine/article/does-asking-about-suicide-and-related-behaviours-induce-suicidal-ideation-what-is-the-evidence/FCAEE9E5BC840D76CF10AEBECD921AC9)
+It is a short **narrative review**: it describes the studies one by one without pooling their numbers. The [full text](https://www.cambridge.org/core/journals/psychological-medicine/article/does-asking-about-suicide-and-related-behaviours-induce-suicidal-ideation-what-is-the-evidence/FCAEE9E5BC840D76CF10AEBECD921AC9)
 is free and takes ten minutes to read.
 
 Two of the studies it describes show what "no increase" does and does not mean for individuals, as
@@ -262,11 +285,15 @@ Dazzi and colleagues report them:
   57% improved. 22% had lower scores afterwards, and most of them said it was from being reminded of
   their difficulties, or of shame and embarrassment; several felt it would be temporary.[8]
 - Reynolds and colleagues (2006) followed 63 women with borderline personality disorder and a history
-  of suicide attempts through two years of assessments. Of 764 sessions, 16.4% were followed by an
-  increase in self-rated suicidality and 17.5% by a decrease.[8]
+  of suicide attempts through two years of assessments, and the women rated how suicidal they felt at
+  the start and end of each one. Most of them (44 women; the review gives it as 77%) reported at
+  least one increase after an assessment at some point. Across all 764 sessions, 16.4% were followed
+  by an increase and 17.5% by a decrease.[8]
 
-So some people feel worse after being asked, at least for a while, and in both studies at least as
-many felt better. What the studies did not find is an increase on average.
+So some people feel worse after being asked, at least for a while. In Biddle's study more people
+improved than got worse; in Reynolds', about as many sessions were followed by a decrease as by an
+increase, though most of the women had at least one increase along the way. What the studies did not
+find is an increase on average.
 
 ### A meta-analysis of eighteen studies
 
@@ -277,14 +304,16 @@ suicidal behaviour.[9] This course read the authors' accepted manuscript in full
 
 Their abstract: "Exposure to suicide-related content led to significant, albeit small, reductions in
 suicidal ideation (g = -.13, p < .001) and a lower likelihood of engaging in suicidal behaviour (OR =
-.714, p < .05)."[9] Read those two numbers the way Mental Fitness lesson 2, "What a small effect is, and what the
+.714, p < .05)."[9] The p values mean results like these would be unlikely if asking made no
+difference. Read the two numbers the way Mental Fitness lesson 2, "What a small effect is, and what the
 other group got", taught:
 
-- **g = -.13** is a standardised difference, like the effect sizes in that lesson's table, where 0.2
-  was the smallest row. This one is smaller than that, and it is a before-and-after change in the same
-  people, from four studies, so part of it could be what the authors call "regression to the mean", which
-  Time Management lesson 1 met: someone who scores unusually high on one measure tends to score
-  less extremely on the next, purely as a statistical matter.[9] The same people were not compared with anyone who was not asked.
+- **g = -.13** is a standardised difference, smaller than the 0.2 that was the smallest row in that
+  lesson's table, and the minus sign means suicidal thinking went down. It comes from four studies
+  that measured the same people before and after, with nobody unasked to compare them with, so part
+  of it could be what the authors call "regression to the mean", which Time Management lesson 1 met:
+  someone who scores unusually high on one measure tends to score less extremely on the next, purely
+  as a statistical matter.[9]
 - **OR = .714** is an odds ratio from four studies that did have a comparison group: 1 would mean no
   difference, and below 1 means fewer reported suicide attempts afterwards among those "exposed" to
   suicide-related content.[9] But look at what exposure meant. Those four studies included a school
@@ -299,16 +328,18 @@ Their own summary is careful: "evidence to date suggests that asking research pa
 suicide does not increase risk, and may be associated with small benefits."[9] And they list the
 limits. Every study had ethics approval and a plan for adverse events, so "this sample of studies may
 be selective."[9] The three studies whose results leaned, not significantly, towards more suicidal
-thinking all involved people with significant mental health problems, in the authors' words.[9] And in most studies, the suicide
+thinking all involved people with significant mental health problems, in the authors' words, though
+where the authors could test it, clinical and non-clinical samples did not differ.[9] And in most
+studies, the suicide
 questions came among questions about depression and support, so the effect of the suicide questions
 alone is unclear.[9]
 
-### Settled where it was studied, untested where you will use it
+### Settled where it was studied, untested where you'll use it
 
-Put the two reviews together, and this course's research classes the question like this. It is
-**established** that asking about suicide in research, screening and clinical settings has not been
-found to increase suicidal thinking, and pooled data even find small reductions. That is a replicated,
-pooled finding, and false balance would be its own mistake.
+Taken together, the two reviews give a two-part answer. It is **established** that asking about
+suicide in research, screening and clinical settings has not been found to increase suicidal thinking,
+and pooled data even find small reductions. That has been found again and again, and it would be
+wrong to present it as an open question.
 
 It is **untested** for the conversation this lesson is about. **No study in either review tested a
 conversation between friends or family.** "Ask directly" for a friend is the services' unanimous
@@ -322,14 +353,15 @@ including comparisons with groups who were not asked, being asked has not been f
 suicidal thinking.[1][2][4][6][8][9]
 
 **Caution about how far the evidence reaches.** Some clinicians and ethics committees have held the
-older view; Dazzi and colleagues cite surveys of doctors who would not ask, and Blades and colleagues
-report a survey in which "36% of general medical practitioners believed that exposure to questions or
-information about suicidal behaviour could increase the likelihood of suicidal thoughts or acts".[8][9]
+older view. Dazzi and colleagues cite a German survey in which 23% of 170 primary-care physicians
+said they would not assess suicide risk in older patients with depression for fear of encouraging
+suicidal thoughts, and both reviews report the English survey of 103 family doctors (a third in
+Dazzi's account; Blades and colleagues give 36%).[8][9]
 The strongest form of the caution today is not that asking plants the idea. It is that the evidence
 comes from structured questionnaires and trained clinicians with support in place, not a frightened
 friend in a kitchen; that some individuals do feel worse for a while (Biddle's 22%); and that the
-reviewers themselves say their sample may be selective and that clinical samples leaned the other
-way. This course has not read a published statement of that position in its holders' own words; what
+reviewers themselves say their sample may be selective and that three studies of people with
+significant mental health problems leaned, not significantly, the other way. This course has not read a published statement of that position in its holders' own words; what
 it has is the surveys and the evidence's own stated limits.
 
 What would settle it is a study of lay conversations: friends trained to ask compared with friends
@@ -339,37 +371,38 @@ they sought help.
 ## Leopold has gone quiet
 
 Leopold is a colleague you get on with. For about two weeks he has barely spoken in meetings, stopped
-coming to lunch, and snapped at someone over nothing. This is not a diagnosis of anything, and you
-should not try to make one. It is a change, and R U OK?'s guide starts from noticing one.[5]
+coming to lunch, and snapped at someone over nothing. This isn't a diagnosis, and you shouldn't try
+to make one. It's a change, and R U OK?'s guide starts from noticing one.[5]
 
 **Before you ask.** R U OK? suggests checking yourself first, with questions such as "Am I in a good
 headspace?", "Am I willing to genuinely listen?" and "Can I give as much time as needed?", and
-choosing somewhere "relatively private and comfy".[5] If you are not the right person, it suggests
-thinking of someone else in his support network who could talk to him.[5] So not a corridor at five
-to six. Perhaps a walk to get coffee on a quiet afternoon.
+choosing somewhere "relatively private and comfy".[5] If you aren't the right person, it suggests
+thinking of someone else in his support network who could talk to him.[5] So not in a corridor at the
+end of the day. Perhaps a walk to get coffee on a quiet afternoon.
 
 **Asking.** Name the change, not a conclusion. "You've been really quiet the last couple of weeks.
-How are you going?" If he says he's fine and doesn't want to talk, R U OK?'s advice is: "If they
-don't want to talk, don't criticise them", tell him you are still concerned and that you care, and
+How are you doing?" If he says he's fine and doesn't want to talk, R U OK?'s advice is: "If they
+don't want to talk, don't criticise them", tell him you're still concerned and that you care, and
 "Avoid a confrontation."[5] You might leave it with "Is there someone else you'd rather talk to?"[5]
 
-Suppose instead he says things have been bad, that he is not sleeping, and that he cannot see the
-point of any of it. If that worries you, this is where the services say to ask the plain question. "When you say you
-can't see the point, are you thinking about suicide?"
+Suppose instead he says things have been bad, that he isn't sleeping and can't see the point of any
+of it. If that worries you, this is where the services say to ask the plain question. "When you say
+you can't see the point, are you thinking about suicide?"
 
-**Listening.** This is where lessons 5 and 8 do their hardest work. Leave him silence, because R U OK?
-says to sit with it.[5] Say back what you heard, in your own words, and check it, which is R U OK?'s
-advice as well as lesson 8's: "So it's been building for months, and work is the only thing holding
-it together. Have I got that right?" Do not argue him out of how he feels, do not act shocked, and
-do not tell him how much he has to live for; 988 lists all three.[1]
+**Listening.** Whatever he answers, this is where lessons 5 and 8 do their hardest work. Leave him
+silence, because R U OK? says to sit with it.[5] Say back what he said, in your own words, and check
+it, which is R U OK?'s advice as well as lesson 8's: "So you're not sleeping, and nothing feels as if
+it has much point at the moment. Have I got that right?" Don't argue him out of how he feels, don't
+act shocked, and don't lecture him on the value of life; 988 lists all three.[1]
 
-**Connecting.** Suppose he says yes, he has been thinking about it. You do not need to find out more
+**Connecting.** Suppose he says yes, he has been thinking about it. You don't need to find out more
 to know what comes next. You might say, "I'm really glad you told me. I don't know how to help with
-this on my own, but people do. Would you ring a line with me now?" Which line depends on where you
-both are: the box at the top names four countries' lines, and findahelpline.com lists others. In the
-UK and Ireland, Samaritans will call him for you if he would rather.[3] If he says no, you can call a
-line yourself for advice, as R U OK? suggests.[6] If a life is in danger now, the emergency number
-comes first.
+this on my own, but people do. Would you ring a line with me now?" Stay with him while you do; R U
+OK? puts not leaving him alone first.[6] Which line depends on where you both are: the box at the top
+has lines for the US, Canada, the UK, Ireland and Australia, and findahelpline.com lists others. In
+the UK and Ireland, Samaritans says you can ask it to call him on his behalf.[3] If he says no, you
+can call a line yourself for advice, as R U OK? suggests, without leaving him on his own.[6] If a
+life is in danger now, the emergency number comes first.
 
 **Afterwards.** Put a reminder in your diary, as R U OK? says, and call him sooner if he is really
 struggling.[5] And use the line yourself if the conversation has shaken you. Samaritans takes those
@@ -387,9 +420,9 @@ a plan to hurt themselves." It goes on: "Contact 988 so that you can find out wh
 available in your area, or encourage your loved one to reach out."[1] #BeThe1To: "Do not ever promise
 to keep their thoughts of suicide a secret."[2] R U OK?: do not agree to keep a plan or suicidal
 thoughts a secret.[6] That is clear advice from three services, and on this course's reading 988's
-"never" covers a promise you have already made: you do not have to keep it.
+"never" covers a promise you've already made: you don't have to keep it.
 
-What they do not give you is a script for saying so. What follows is this course's wording, built from
+What they don't give you is a script for saying so. What follows is this course's wording, built from
 their advice, and it goes in three parts.
 
 1. **Stay with what she has told you first.** The promise can wait a minute. "Thank you for telling
@@ -397,28 +430,30 @@ their advice, and it goes in three parts.
 2. **Take back the promise honestly.** Not a lie now and a betrayal later.
 3. **Say what happens next, with her.** Who you would call, and that you will be there while you do it.
 
-Your turn with the gap. Before you open the checkpoint, write two sentences in your own words: the
-direct question you would have asked if she had not told you, and the sentence that takes back the promise
-without pushing her away.
+Your turn. Before you open the checkpoint, write two sentences in your own words: the direct
+question you'd ask someone who had hinted at it but not said it (say, "I just want it all to stop"),
+and the sentence that takes back Fenella's promise without pushing her away.
 
 :::checkpoint Compare yours with these. Your wording will differ; check yours against the services' advice.
 
-The direct question, from #BeThe1To: "Are you thinking about suicide?" Or R U OK?'s longer form: "People in situations like this may be thinking about suicide. Have you thought about killing yourself?" If yours was softer ("You're not going to do anything silly, are you?"), notice that, on this course's reading, it tells her which answer you would like to hear. The services ask for the word itself.
+The direct question, tied to the hint: "When you say you want it all to stop, are you thinking about suicide?" That's #BeThe1To's question with their words in front of it. If yours was softer ("You're not going to do anything silly, are you?"), notice that, on this course's reading, it tells them which answer you'd like to hear. The services ask for the word itself.
 
 Taking back the promise, in this course's words: "I said I'd keep it to myself, and I can't, because I care about you too much to hold this on my own. I'm not going to go behind your back. Can we call someone together, now?"
 
 That keeps what the services ask for (no secret, support sought) and adds 988's second step, "Be there". #BeThe1To's warning about that step is "do not commit to anything you are not willing or able to accomplish", so offer only what you will do.[2] R U OK? gives another line to borrow: "Who's a person you trust? I would like to call them so we can both help."[6]
 :::
 
-Then the call. She might agree to ring a crisis line with you. If she will not, you can ring one
-yourself for advice.[6] In the UK and Ireland, you can ask Samaritans to call her.[3] And if you
-believe her life is in danger now, R U OK? puts it simply: "If you believe their life is in immediate
-danger or you are finding the situation difficult to manage, call 000", its emergency number; the
-box at the top has yours.[6] Deciding exactly how much danger she's in isn't your job.
+Then the call. She might agree to ring a crisis line with you; stay with her while you do.[6] If
+she won't, you can ring one yourself for advice, and R U OK?'s advice not to leave her alone still
+holds.[6] In the UK and Ireland, you can ask Samaritans to call her.[3] And if you believe her life
+is in danger now, R U OK? puts it simply: "If you believe their life is in immediate danger or you
+are finding the situation difficult to manage, call 000", its emergency number; the box at the top
+has yours.[6] In this course, working out exactly how much danger she is in is left to the line you
+call.
 
 ## When the secret is about something else
 
-Not every "don't tell anyone" is the same, and the services do not treat them the same.
+Not every "don't tell anyone" is the same, and the services don't treat them the same.
 
 If a friend tells you about domestic abuse or stalking, Personal Safety lesson 7, "Domestic abuse and
 stalking", has the services' advice in its section "Helping someone". As that lesson reports it, the
@@ -427,7 +462,7 @@ the abuser, and that decisions about their life are theirs to make; Refuge adds 
 if you fear for your friend's safety, you call 999. If a friend tells you about sexual assault,
 Personal Safety lesson 11's section "When a friend tells you" gives Rape Crisis's advice, and the
 page itself puts one of its rules as a heading: "Don't tell anyone else without their permission".[10]
-This lesson does not reteach either.
+This lesson doesn't reteach either.
 
 So the abuse and assault services say the decisions stay with the person, and three of the suicide
 services say not to keep a plan secret. Each is that service's advice for its own situation. **This
@@ -451,23 +486,24 @@ found no increase in suicidal thinking after people were asked, and small reduct
 data.[8][9]
 
 **"Talking it through with me is enough."** It can feel like the kindest thing, because they chose to
-tell you. Every service here says to help the person connect with a line or a professional, and
-Samaritans' page for helpers says it can be important "to recognise the limit of the support you can
-offer as a friend".[3]
+tell you, but the services all say to help the person connect with a line or a professional, and
+Samaritans says it can be important "to recognise the limit of the support you can offer as a
+friend".[3]
 
 **"Keeping the secret keeps their trust."** A promise feels like part of friendship, which is why
-this one is hard. 988, #BeThe1To and R U OK? each say not to keep a plan or suicidal thoughts
-secret.[1][2][6] Taking back the promise openly, and staying, is how this course's wording tries to
-keep both.
+this one's hard; 988, #BeThe1To and R U OK? each say not to keep a plan or suicidal thoughts secret,
+and taking the promise back openly, and staying, is how this course's wording tries to keep both.[1][2][6]
 
-**"It's my job to fix it, or to work out how serious it is."** Wanting to be useful pulls this way.
-The services say a friend's role is not to diagnose or solve, and the crisis lines will advise you if
-you are unsure.[3][5][7][6]
+**"It's my job to fix it, or to work out how serious it is."** Wanting to be useful pulls this way;
+Mental Health First Aid says a helper's role is not to diagnose or solve, and although #BeThe1To and
+Mental Health First Aid do ask helpers some risk questions, this course leaves those to the crisis
+lines, which will advise you if you are unsure.[7][2][6]
 
-**"The services say asking protects people, so that's proven."** Samaritans' "can protect" is its
-claim, and #BeThe1To's "may in fact reduce" is more careful. The evidence is no increase and small
-reductions in the settings studied, not proof that asking prevents suicide, and not measured between
-friends.[3][2][8][9]
+**"The services say asking protects people, so that's proven."** Samaritans writes that evidence
+shows asking "can protect", and #BeThe1To that studies show asking "does not increase suicides or suicidal thoughts".
+The evidence is no increase in suicidal thinking, small reductions, and one pooled comparison with
+fewer reported attempts where "exposure" included a school programme and follow-up calls: support,
+not proof that asking prevents suicide, and neither review measured deaths by suicide.[3][2][8][9]
 
 ## Practice
 
@@ -499,18 +535,15 @@ This is not an assessment of them, and nothing here tells you how worried to be.
 ## For your journal
 
 This lesson adds nothing to the observation journal, on purpose. A conversation about suicide,
-self-harm, abuse or assault is not one to write up or analyse for the course, and the project says to
-choose another. What it adds is the two numbers from the first exercise, stored where you will find
+self-harm, abuse or assault is not one to write up or analyse for the course, and lesson 1's journal
+rules say to choose another. What it adds is the two numbers from the first exercise, stored where you will find
 them.
 
 ## Connections
 
 Lesson 5's silence, lesson 6's questions and lesson 8's saying it back all came back here, in
-the hardest conversation in the course. Lesson 6 said closed questions have their own job; "Are you
-thinking about suicide?" is the clearest one. Lesson 10's fixing reflex gets a different answer:
-connect, do not fix. Mental Fitness lesson 1, "Where ordinary ends", is where the institute draws the
-line between ordinary distress and needing help, and has the same box. Personal Safety lessons 7 and
-11 carry the advice for disclosures of abuse and assault.
+the hardest conversation in the course. Personal Safety lessons 7 and 11 carry the advice for
+disclosures of abuse and assault.
 
 Lesson 12, "Strangers, small talk and going deeper", is a deliberate change of pace: back to ordinary
 conversation, and what people get wrong about talking to strangers.
@@ -524,8 +557,8 @@ conversation, and what people get wrong about talking to strangers.
   conversation steps, with the charity's role-play videos. This course read the page in full; the
   videos were not watched.
 - **Samaritans, ["Supporting someone with suicidal thoughts"](https://www.samaritans.org/how-we-can-help/if-youre-worried-about-someone-else/supporting-someone-suicidal-thoughts/).**
-  Seven short sections, from asking to looking after yourself. This course read five of them; the
-  safety-plan section was not read.
+  Seven short sections, from asking to looking after yourself. This course read five of them;
+  sections 3 (the safety plan) and 4 were not read.
 - **Dazzi and colleagues, ["Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?"](https://www.cambridge.org/core/journals/psychological-medicine/article/does-asking-about-suicide-and-related-behaviours-induce-suicidal-ideation-what-is-the-evidence/FCAEE9E5BC840D76CF10AEBECD921AC9)**
   (2014). Three pages, free, and the clearest account of why the fear persists and what the studies
   found. This course read the full text.
@@ -568,4 +601,5 @@ conversation, and what people get wrong about talking to strangers.
     [samaritans.org](https://www.samaritans.org/), [lifeline.org.au](https://www.lifeline.org.au/)
     and [findahelpline.com](https://findahelpline.com/). **Read: the home pages, for the numbers
     and how to contact each**, 26 September 2026. The numbers in the box at the top are the
-    institute's standard text and matched every page. <!-- SOURCES Part E §1.8; lesson 11 gate closure G7 -->
+    institute's standard text and matched every page, and each of the four lines' pages has a route
+    for people worried about someone else. <!-- SOURCES Part E §1.8; lesson 11 gate closure G7 -->
