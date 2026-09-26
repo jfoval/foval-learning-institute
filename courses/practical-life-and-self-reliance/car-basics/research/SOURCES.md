@@ -6263,3 +6263,10 @@ permit to be left, on a road a motor vehicle which is not attended by a person l
 the engine is stopped and any parking brake with which the vehicle is required to be equipped is
 effectively set." [V]; 107(2) exempts fire, police and ambulance use and vehicles using the engine to drive
 machinery [summarised].
+
+## Stage 4 note, lesson 08 neutrality re-check (2026-09-26)
+
+- Tire Rack, home page, Internet Archive capture 20260917012351 (the live site refuses automated
+  readers), read 26 September 2026 [V]: "We are the only retailer that performs in-house,
+  independent tire tests." A US online tyre retailer. Lesson 08 labels it so wherever AAA's report
+  of its braking test appears. Its test reports were not read.

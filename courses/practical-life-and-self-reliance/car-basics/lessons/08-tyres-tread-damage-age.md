@@ -1,6 +1,6 @@
 ---
 title: "Tyres II: tread, damage, age, and when to replace"
-minutes: 95
+minutes: 100
 objectives:
   - >-
     State, as general information, Great Britain's tread rule exactly (1.6 mm in a continuous band
@@ -478,8 +478,8 @@ design does.
 
 The chart puts the positions on one scale. Read it from the bottom: the two legal floors are almost
 the same depth, and everything above them is somebody's advice. From the top, a new tyre has 7 to 9
-mm to lose, and the argument is about where in the last 0.4 to 1.6 mm above the floor, on this
-course's arithmetic, it should come off. The AA and TyreSafe each give two points, 2 mm and 3 mm,
+mm to lose, and the argument is about whether it should come off at the floor, where NHTSA's advice
+sits, or up to 1.6 mm above it, on this course's arithmetic. The AA and TyreSafe each give two points, 2 mm and 3 mm,
 in different words, and the quotations below keep both. NHTSA's advice sits at the US floor. One
 position can't go on this scale: Michelin's, that the tyre's design matters more than its depth
 alone.
@@ -559,13 +559,13 @@ network), as its release describes it, compared new tyres with tyres at 4/32 inc
 2/32.[19] The release also says "tire performance does vary by brand", with no figures by brand, and
 its finding on tyres "at a higher price point" compares each tyre with itself new, so it doesn't
 test Michelin's claim about design either way.[19] AAA's tyre-care page does report a comparison of
-the disputed depths, from Tire Rack research this course didn't read: a pickup truck at 70 mph on
+the disputed depths, from research by Tire Rack, a US online tyre retailer that runs its own tyre tests, which this course didn't read:[21] a pickup truck at 70 mph on
 wet pavement stopping 122 feet shorter, a 24 per cent difference, on tyres that pass the quarter
 test (4/32 inch) than on tyres that pass only the penny test (2/32).[20] TyreSafe (the
 industry-backed charity) and the RAC (which sells tyres) cite a comparison of 3 mm with 1.6 mm, from
 a report this course didn't read. Michelin, which makes and sells tyres, gives no test comparing
-depths; its page does claim that one of its own tyres, after over 18,000 miles of use, brakes "below
-the official level for a new tyre", with no test cited.[16] So what was read here is one release
+depths; its page does claim that one of its own tyres, after over 18,000 miles of use, has a braking distance
+"below the official level for a new tyre", with no test cited.[16] So what was read here is one release
 comparing new tyres with worn ones, two comparisons of the disputed depths known only through
 parties who cite them, and one maker's claim for its own tyre. None answers, from a report this
 course read, the question in dispute, which is how much stopping distance, on which tyres, is bought by
@@ -722,3 +722,8 @@ state programmes the tread rules sit in.
     **Read: full text**, re-read 26 September 2026; undated. Its Tire Rack comparison is AAA's report;
     this course didn't read Tire Rack's research. US motoring clubs that sell roadside assistance and
     run a repair network. <!-- SOURCES Part B §1; lesson 07 gate closures; Stage 4 note, lesson 08 -->
+21. Tire Rack, [home page](https://www.tirerack.com/), Internet Archive capture
+    [20260917012351](https://web.archive.org/web/20260917012351/https://www.tirerack.com/).
+    **Read: the home page only**, 26 September 2026, for what the company is: "We are the only
+    retailer that performs in-house, independent tire tests." Its test reports were not read. A US
+    online tyre retailer. <!-- Stage 4 note, lesson 08 neutrality re-check -->

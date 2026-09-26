@@ -149,3 +149,104 @@ spreads 1 to 6 characters; the key is never the sole longest. Places Hawes and L
 
 **Status after review:** needs second pass and neutrality re-check. R1 and R2 changed what the lesson
 says about the evidence, and the contested section was rebalanced from both directions in one pass.
+
+## Neutrality re-check (2026-09-26)
+**Auditor:** fresh context, following `.claude/commands/neutrality-audit.md`, against N1 to N10 and the
+fixer's resolutions above. The lesson was not edited.
+
+**Quotations re-checked live** (curl, generic browser User-Agent, no personal data): AAA Exchange (the
+Tire Rack passage, "122 feet shorter", "24 percent"); AAA's 2018 release ("does vary by brand", "at a
+higher price point", the 87/86 feet line, the 4/32 position, the warranty sentence); Michelin's
+supporter page (the blockquote, the budgets and CO2 passage, "below the official level for a new
+tyre", which on the page follows "after over 18,000 miles of use"). All match. The lesson's "compares
+each tyre with itself new" matches the release, which tests new tyres against the same tyres at 4/32.
+
+**N1 to N10:** each is resolved, and the ones fixed differently (N3, N6) are better than the audit's
+text. The chart now has NHTSA's row and says in its description and the paragraph after it why
+Michelin's position isn't drawn; the checkpoint gives Michelin its own qualifier; the exercise gives
+the floor-and-design view a line to choose; NHTSA's advice stands unglossed.
+
+**Balance.** 543 to 289 words is four holders to one: about 136 words a holder on the early side
+against 289 for Michelin, who also gets the only blockquote and a strongest-form summary. The count
+now reflects the number of voices, not a tilt. The opener still leads with AAA's figure, but the same
+paragraph names the tyre maker's case, so the reader meets both before the callout. Order: early side,
+Michelin, NHTSA, the driver, the evidence. The last word among the positions is NHTSA's, stated
+without comment, and the last word of the argument is the evidence section's close, which names what
+would settle it for both sides' claims ("across tread depths and across tyre designs") and the value
+judgement. No verdict by adjective, placement or omission. The evidence section's descriptions are
+symmetric in kind: the early side's figures are "known only through parties who cite them", and
+Michelin's claim is "with no test cited", both true of the pages. Chart, exercise step 3, checkpoints
+and quiz 5 each leave room for every position; the exercise checkpoint keeps "no right answer".
+
+**Finding.**
+1. NR1 [minor] **Tire Rack has no label, and it sells tyres.** The one comparison of the disputed
+   depths the lesson gives in figures (122 feet, 24 per cent) is also the strongest single figure for
+   replacing early, and its originator is the one party in the contested material whose interest goes
+   unstated. The fixer left it unlabelled because nothing about Tire Rack's business had been read;
+   that is now read. Tire Rack's homepage (Internet Archive capture 20260917012351; the live site
+   refuses automated readers) calls it "the destination for tires, wheels, and automotive accessories
+   online" and says "We are the only retailer that performs in-house, independent tire tests." A
+   Michelin-side reader would insist on that fact (3.3, omitted facts). AAA's own description,
+   "America's largest independent tire tester", should not be used alone: it states the credential
+   and not the interest.
+   *Fix (not applied: it needs a source entry, so it is more than one edit):* add the capture as
+   source [21] and a SOURCES note, and at line 562 change "from Tire Rack research this course didn't
+   read" to "from research by Tire Rack, a US online tyre retailer that runs its own tyre tests,
+   which this course didn't read".[21] Say in the SOURCES note that Tire Rack sells many makers'
+   tyres, Michelin's among them (check the capture before saying so), so its interest is in
+   replacement generally, like the RAC's.
+
+**Perspectives checked:** Michelin (would now sign its checkpoint line and summary; would raise NR1);
+TyreSafe and the RAC (labels fair, both quotations whole); AAA (its test, position and motive claim in
+its words; the brand line gives its concession too); NHTSA (advice stated as advice, no gloss); a
+driver paying (cost section labels its sources and says no one prices the miles).
+
+**Verdict: NEEDS FIXES**, one minor finding (NR1). Everything else is BALANCED; once NR1 is applied
+as written, no further neutrality pass is needed.
+
+### Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, truth, law, pedagogy and format (neutrality re-checked
+separately). **Re-read live with curl** (generic browser User-Agent, no personal data): AAA Exchange;
+AAA's 2018 release; TyreSafe's tread, 20p and condition pages and the Michelin page; NHTSA "Tires"
+through capture 20260924154655; reg 27 (27(1)(c) to (h), (i) to (k), 27(1A), 27(4)(f), 27(6)); RTOA
+s.48(2); the Sentencing Council's "Tyres defective"; DVLA codes; MOT manual section 5; Annex 6; PennDOT
+Pub 45 § 175.80(e)(1); Virginia's 2026 manual, 19VAC30-70-130 items 5 to 8; NY DMV through capture
+20260710141515; 49 CFR 393.75; the AA; the RAC.
+
+**Checked and sound:** the Tire Rack passage matches AAA Exchange as AAA reports it (penny-passing truck
+"up to 499.5 feet", 122 feet shorter on quarter-passing tyres, 24 per cent; 122/499.5 = 24.4), and AAA
+itself frames it as 4/32 against 2/32; "tire performance does vary by brand" and "including those at a
+higher price point" match the release, and the price-point finding is worn against new; NHTSA's "not
+safe" line, the monthly check, the penny, the damage list, ageing and spare quotations all match; 1/32
+inch is 0.79 mm; the Lynchburg front-left verdicts hold under each rule (Virginia: second point 3/32 and
+3/32 ends it; Pennsylvania: one point with two adjacent under 2/32 rejects; Virginia's bus-only
+exemptions don't touch a car), and the rear-right gap answer quotes the "either" note exactly; the fines
+passage (Level 4, £2,500, "Must endorse and impose 3 points", per-tyre fine with one set of points,
+CU30, TyreSafe's "PER tyre", the AA's £10,000 and 12, the RAC's per-tyre points) matches; reg 27(1A)
+limits 27(1)(i) and (j) to front axles of buses and of goods vehicles over 3,500 kg and single-wheel
+minibus axles, as the predict says; 27(4)(f) and 27(6) quoted exactly; s.48(2) quoted exactly and the
+fine does survive it. Chart re-rendered with rsvg-convert: seven rows, the NHTSA row in the advice
+colour, widths to scale (27.33 px per mm), every label inside the 420 by 410 viewBox; description counts
+match. Quiz: each explanation answers every option by content; keys 3,0,1,0,2,1 pass decision 20's
+relaxed rule by script against lessons 01 to 07 and 09 to 12 (all four positions, no adjacent repeat, no
+identical or value-shifted sequence, no shared run of four at any offset); option spreads 2 to 6
+characters, key never the sole longest. No em dashes or spaced en dashes; callout byte-identical across
+all twelve lessons on disk.
+
+**Fixed inline (one edit):**
+1. Michelin's product claim said the tyre "brakes 'below the official level for a new tyre'", which can
+   be read as braking worse than the standard. The page says "the braking distance remains below the
+   official level". Now "has a braking distance 'below the official level for a new tyre'".
+
+**Noted, not changed:**
+2. [minor] "Take 20 minutes" is tight for 36 gauge readings, the sidewall look, a state lookup and step 3;
+   25 is nearer. `npm run minutes` already prices the block at 27.5, so the lesson's total is honest, and
+   raising the stated figure would put the lesson over 95. Left for the feedback loop.
+3. [minor] After the chart, "where in the last 0.4 to 1.6 mm above the floor" reads awkwardly and leaves
+   out NHTSA's position at the floor. It is in the contested section, so it is left for the neutrality
+   re-check.
+
+**Final measures:** 8,027 words as `npm run minutes` counts them; `minutes: 95` (measured 95).
+`npm run validate`: exit 0.
+
+**Verdict: CLEAN.**
