@@ -57,7 +57,7 @@ asked. "Asked on 3 March, no answer yet" is a complete line. If your landlord ag
 things the lessons allowed with that agreement, but nothing in this project requires it. That's
 this course's own line, from lesson 1, and not a statement of tenancy law, which this course doesn't
 teach. Put the landlord's name and contact details at the top of your call list, as lesson 23
-said, since most of these calls are the landlord's to make, and on each card.
+said, since most of these calls are the landlord's to make, and on each card, as Part 2 says.
 
 ## If your home has no gas
 
@@ -76,7 +76,7 @@ Do the whole project for where you live, and write it at the top: your nation of
 Wales, Scotland or Northern Ireland), or your US state and city. The UK and the US get the same six
 parts, side by side, and each part below says where they differ. Two rules from the course hold
 throughout. **Never put the other country's steps on your card.** And where the course read nothing
-for your place (a nation's rule it didn't read, a state outside the five lesson 22 read), write "not
+for your place (a nation's rule it didn't read, a US state or city outside the five places lesson 22 read), write "not
 read by this course", and the question you'd put to the body lesson 22's exercise had you find.
 
 ## What you keep
@@ -145,9 +145,10 @@ landlord where it is if you can't find it, whether it turns freely, and when it 
 write down the answer. If the consumer unit's circuits aren't labelled, ask the landlord for the
 list rather than switching breakers off to find out.
 
-**If you can't find a control:** write that down, with where you looked. For water, lesson 1 sends
-you to a plumber in the UK, and in the US to your water utility, whose number is on its website or
-your bill. A control nobody can find is the first thing the plan has taught you.
+**If you can't find a control:** write that down, with where you looked. The course read no source
+on a stop tap or valve nobody can find, so asking a plumber (UK) or your water utility, whose number
+is on its website or your bill (US), is this project's suggestion, not a lesson's. A control nobody
+can find is the first thing the plan has taught you.
 
 ## Part 2: the emergency cards
 
@@ -198,7 +199,7 @@ chimney, no septic tank, no frost), so a reader can see you considered it.
 
 Many items split by country. Where a lesson gave the UK and the US different intervals or different
 sources, use your own country's and don't average them. The University of Georgia's *Home
-Maintenance Checklist*, which lesson 1 named as the course's calendar source, is American: use its
+Maintenance Checklist*, which lesson 1 named as the checklist this project borrows from, is American: use its
 lines where a lesson used them, with its name.
 
 Your calendar must include at least these, each from the lesson named:
@@ -291,8 +292,8 @@ live, its web address found by your own route, and the one check you'd make at t
   officer for asbestos questions, and in Great Britain, for removing sprayed coatings, lagging or
   asbestos insulating board, a contractor licensed by HSE (lessons 19 and 23); in the US, your state's asbestos and radon programmes, EPA's National Lead Information Center, and,
   for paint in a home built before 1978, a lead-safe certified contractor found through EPA's search.
-- **A chimney sweep**, if you have a chimney in use, with HETAS's line from lesson 11: ask to see
-  identification.
+- **A chimney sweep**, if you have a chimney in use: in the UK, a sweep from HETAS's scheme (lesson
+  23); in either country, the check lesson 11 gives, HETAS's line, to ask to see identification.
 - **A pest controller**, checked on the trade association's own site in the UK or your state's in
   the US (lesson 21).
 - **Your networks and utilities**: 105 for a power cut in the UK (lesson 5), and in the US your water
@@ -323,9 +324,10 @@ else:
 - **Lesson 7:** bleeding a radiator, by its makers' steps; topping up a sealed system, only by your
   boiler's own user instructions and every condition lesson 7 set; a furnace filter, by your unit's
   size and your furnace's manual.
-- **Lesson 8:** the relief valve check, only by your own heater's manual.
-- **Lesson 20:** filling and repainting a small patch of plain plastered wall, after lesson 20's
-  first step, reading the wall, and lesson 19's check of the paint's age.
+- **Lesson 8:** on a US storage water heater, the T&P valve check, only by your own heater's manual.
+  In a UK home, lesson 8 gives no householder's check; a dripping tundish is **Call someone**.
+- **Lesson 20:** filling and repainting a small patch of plain plastered wall you can reach from
+  the floor, after lesson 20's first step, reading the wall, and lesson 19's check of the paint's age.
 
 Write it under five headings:
 
@@ -337,7 +339,7 @@ Write it under five headings:
 3. **The fix.** The steps, each attributed to the lesson's source or the maker's instructions you
    used. If your fix makes dust, lesson 13's exercise step 2 is its plan; if it needs a drill, lesson
    14's order is.
-4. **The check.** How you knew it worked: the tap run, the drip gone by the meter test, the radiator
+4. **The check.** How you knew it worked: the tap run, the drip stopped, the radiator
    warm at the top, the pressure back to your boiler's figure.
 5. **The stop point.** What would have made you stop and call someone, in the lesson's words: a stop
    tap that stiffens, a sink that still backs up after the trap, a device that trips again with the
@@ -368,9 +370,10 @@ sealant round a bath or a sticking door (lessons 3 and 20).
 Mark each part yourself, or with someone you trust, at one of three levels.
 
 - **The shut-off map.** Full marks: all three controls found, photographed and described so a
-  stranger could find them in the dark; the stop tap's stiffness and timing recorded, or the
-  landlord's answer; the box drawn with every RCD or GFCI and label; and the rest of the house as
-  your home has it. Partly there: the three controls found, with the timing, the drawing or most of
+  stranger could find them in the dark, or noted as absent ("no gas supply"), or, for one nobody can
+  find, where you looked and whom you've asked; the stop tap's stiffness and timing recorded, or, if you
+  rent, what you asked the landlord and when; the box drawn with every RCD or GFCI and label; and the rest of the house as
+  your home has it. Partly there: the three controls found or accounted for, with the timing, the drawing or most of
   the rest missing. Not yet: a control missing with no note of where you looked, or a step on the
   map that a lesson ruled out.
 - **The emergency cards.** Full marks: three cards, each for your own country, in its lesson's order
@@ -385,7 +388,8 @@ Mark each part yourself, or with someone you trust, at one of three levels.
 - **The stop list.** Full marks: every job that could arise in your home, each with its reason, law,
   advice or this course's own line said correctly, and whose and where, consistent with your nation
   or state. Partly there: the right jobs, with the kind of rule missing or wrong in places. Not yet:
-  a job lesson 23's table or lesson 22 puts on it missing, or advice called law.
+  a job that could arise in your home and that lesson 23's table or lesson 22 puts on it missing, or
+  advice called law.
 - **The call list.** Full marks: every trade your home needs, each with its register found by your
   own route and one check at the door; the cancellation period, the deposit rule marked law or
   advice, and three questions. Partly there: the trades and registers, with checks or the contract
@@ -412,13 +416,13 @@ lesson said can hurt someone:
 - drilling, cutting, sanding, scraping, breaking or sampling anything that might be asbestos, or
   dry-sanding, burning or torching old paint, as a step (lessons 13, 14 and 19);
 - a generator anywhere but outside, at least 20 feet (about 6 metres) from the house with the
-  exhaust facing away, a charcoal barbecue or grill burned indoors, or a gas oven used for heat
+  exhaust facing away, charcoal burned indoors, or a gas oven used for heat
   (lesson 11);
 - a ladder resting on a plastic gutter or glass, or any job within 6 m of an overhead line (lesson
   15);
 - a fogger for cockroaches, or sweeping or vacuuming rodent droppings (lesson 21);
-- paying a contractor in cash, or in the US by wire transfer or gift card, or signing an insurance
-  cheque over to a contractor (lesson 23).
+- paying a contractor in cash, or, in the US, paying by wire transfer or gift card, or signing your
+  insurance check over to a contractor (lesson 23).
 
 ## What this project is not
 
