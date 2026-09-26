@@ -1,6 +1,7 @@
 ---
 title: Heat, cold, bites and stings
 minutes: 120
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/15-heat-cold-bites-and-stings.mp3
 objectives:
   - >-
     Distinguish heat exhaustion from heatstroke, sequence the response to each under US and UK
