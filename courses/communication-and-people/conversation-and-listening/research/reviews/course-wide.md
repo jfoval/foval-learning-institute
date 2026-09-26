@@ -37,3 +37,17 @@ record decision 18 asks for.
   lengths, unread, "as reported by" only).
 - **Flat rejections** (Kendrick and Torreira: a quarter of refusals, early, a third in overlap) are
   now in lesson 2; later lessons shouldn't call the cushioned refusal the only shape.
+
+## 2026-09-26: lesson 03 Stage 4 (fixer's notes)
+
+- **Quiz keys confirmed** for 03: 2,3,0,1,2,0, unchanged by the fix.
+- **Lesson 6 must teach Huang et al. 2017** (with its 2025 correction and "one group's programme"
+  label), because lesson 03 now points there for the question-asking and liking finding.
+- **Derber's status, class and gender argument is not taught anywhere** unless G9 closes. The only
+  read source is Headlee's excerpt, which quotes "the dominant attention-getting psychology in
+  America" and says nothing of status; SOURCES Part A §7's summary of it comes from web pages the
+  course must not cite. Lessons 4 and 17 keep to that.
+- **Rogers and Farson called active listening "definite techniques" aimed at change in the
+  speaker.** Lessons 8 and 9 should not set them against technique; the contrast with Carnegie is
+  whose change and what grounds it.
+- **Worthington and Bodie's definitions table has 18 entries and is a sample.** SOURCES corrected.

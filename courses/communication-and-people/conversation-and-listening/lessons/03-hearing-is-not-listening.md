@@ -1,6 +1,6 @@
 ---
 title: Hearing is not listening
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Explain the difference between hearing and listening, and why listening scholars keep several
@@ -57,8 +57,8 @@ quiz:
       - It's fine if he scored high on every item, since consistency shows the scale is reliable
     answer: 0
     explain: >-
-      Ickes's studies found self-report empathy measures predicted people's actual accuracy poorly,
-      and he concluded that people lack knowledge of their own accuracy. A self-rating is one of
+      In one of Ickes's studies, self-report empathy measures predicted people's actual accuracy
+      poorly, and from his programme he concluded that people lack knowledge of their own accuracy. A self-rating is one of
       three ways listening is measured, and the other two, the speaker's rating and coded behaviour,
       are the ones that can catch what he missed. Consistent answers show he answered consistently,
       not that he listens well. The main research scale was adapted from a sales scale, but that
@@ -69,14 +69,14 @@ quiz:
       this lesson?
     options:
       - Four types is too few, and a modern version of the scale would sort people into eleven
-      - The four-type scale was found unreliable, and styles may well shift with the situation
+      - The four-type scale was found unreliable, and whether any style is fixed is still open
       - The questionnaire is fine but should be filled in by a partner, never by the employee
       - The types are fine as labels, but printing them on a badge breaks the staff's privacy
     answer: 1
     explain: >-
       Bodie, Worthington and Gearhart described the scale behind the popular four types as having
       "uncharacteristically low reliability estimates and unvalidated factor structure", and the
-      authors of the revision question whether styles are fixed traits at all. Eleven
+      authors of the revision leave open whether styles are fixed traits. Eleven
       is the number of items on a different scale, the AELS, not a number of types. Privacy and who
       fills in the form are fair points, but neither touches the problem that the types were never a
       sound measurement.
@@ -87,19 +87,19 @@ quiz:
     options:
       - Right, and the five stages were confirmed experimentally, which is why every book has them
       - Wrong, because the stages were replaced by a single definition adopted internationally
-      - Staged models are teaching schemes, and its historians argue for several definitions
+      - Staged models are teaching schemes, and the field's historians argue for several definitions
       - Wrong, since the scholars agree listening is purely cognitive and has no behaviour in it
     answer: 2
     explain: >-
       The textbooks give staged models (five stages in some, six in Brownell's HURIER), and they are
-      ways of teaching the process, not findings. Worthington and Bodie list seventeen published
-      definitions and argue that several definitions, rather than one, are the goal. The
-      International Listening Association did adopt a definition, but as a teaching consensus they
-      list beside the others. And the field treats listening as having emotional, behavioural and
+      ways of teaching the process, not findings. Worthington and Bodie list a sample of eighteen
+      published definitions and argue that several definitions, rather than one, are the goal. The
+      International Listening Association did adopt a definition, but Worthington and Bodie list it
+      beside the others and argue against privileging any one. And the field treats listening as having emotional, behavioural and
       thinking parts, not thinking alone.
   - q: >-
       Two people argue about why listening matters. One says it's the surest way to be liked and to
-      win customers; the other says it's attention owed to a person whatever it gets you. How does
+      win customers; the other says it's attention owed to a person, whatever it gets you. How does
       this lesson treat the disagreement?
     options:
       - As a value question, describing each view and stating the course's own aim as its own
@@ -109,16 +109,18 @@ quiz:
     answer: 0
     explain: >-
       What listening is for is a question of values, and no experiment settles a value question.
-      The lesson describes Carnegie's position, Rogers and Farson's, and the attention-as-a-resource
-      view in their own terms, then says this course aims at understanding, which is its own
-      standpoint, not a finding. Research does find people like being asked about themselves (lesson
-      6), but that supports Carnegie's observation, not a verdict on what listening ought to be for.
+      The lesson describes Carnegie's position and Rogers and Farson's in their own terms, says it
+      can't give Derber's in his own words because it hasn't read his book, then says this course
+      aims at understanding, which is its own standpoint, not a finding. One group's experiments
+      found strangers liked partners who asked more questions (lesson 6), but that supports
+      Carnegie's observation, not a verdict on what listening ought to be for.
 ---
 
 A [guide for UK managers](https://www.acas.org.uk/sites/default/files/2021-04/challenging-conversations-and-how-to-manage-them.pdf) from Acas, the government-funded advisory service on employment, tells
 readers that "On average we spend our working day communicating in the following ways", and lists
-four figures. The last is "listening 45%".[1] There's no footnote and no study named. You will find
-the same 45 in textbooks, training slides and after-dinner speeches. It sounds like a measurement.
+four figures. The last is "listening 45%".[1] There's no footnote and no study named. You'll find
+the same 45 in textbooks and training material, and this course found it in one textbook itself. It
+sounds like a measurement.
 
 This lesson is about what listening is before it is about how to do it better, and the 45 is a good
 place to start, because following it back teaches three things this course needs. What people mean
@@ -137,13 +139,13 @@ that book's chapter outline (from its 13th edition) and its current table of con
 chapter itself, so the list is all it can report.
 
 You've met the distinction in ordinary speech: "I heard you, I just wasn't listening." What the
-textbooks add is the claim that listening is several things at once. Worthington and Bodie, in the
+field's scholars add is the claim that listening is several things at once. Worthington and Bodie, in the
 [opening chapter](https://catalogimages.wiley.com/images/db/pdf/9781119103073.excerpt.pdf) of *The Sourcebook of Listening Research*, describe it as having an
 emotional side (being motivated to attend), a behavioural side (the responses you give) and a
-thinking side (attending, understanding, interpreting, judging).[3]
+thinking side (attending, understanding, receiving and interpreting).[3]
 
-:::predict How many published definitions of listening do you think scholars have proposed, and do you expect them to have settled on one?
-Worthington and Bodie's table lists seventeen definitions, from Tucker in 1925 to Bostrom in 2011, and they do not pick a winner. They argue that because different theories need different terms, several definitions, rather than one, "are the goal".[3]
+:::predict Scholars have published definitions of listening for a century. Do you expect them to have settled on one?
+No. Worthington and Bodie's table, which they call a sample, lists eighteen, from Tucker in 1925 to Bostrom in 2011, and they don't pick a winner. They argue that because different theories need different terms, several definitions, rather than one, "are the goal".[3]
 
 That surprises most people, because a textbook's five stages look like an agreed answer. They are a way of teaching the process, and the next paragraph says why that matters.
 :::
@@ -151,7 +153,7 @@ That surprises most people, because a textbook's five stages look like an agreed
 Three of those definitions show how much they differ. Paul Rankin, in 1926, called listening "The
 ability to understand spoken language". Wolvin and Coakley, in 1988, called it "The process of
 receiving, attending to, and assigning meaning to aural stimuli". The International Listening
-Association's version, adopted for teaching, is "the process of receiving, constructing meaning
+Association's own definition is "the process of receiving, constructing meaning
 from, and responding to spoken and/or nonverbal messages".[3][4] The first is an ability. The
 second is something done to sound. The third adds responding and counts what is not spoken. Each is
 a reasonable choice for a different purpose, which is Worthington and Bodie's point.
@@ -164,14 +166,14 @@ me" are using the same word for different things.
 
 The **staged models** belong here too. Adler's five elements and Brownell's six-part HURIER
 model (hearing, understanding, remembering, interpreting, evaluating, responding, from her book's
-contents) are teaching schemes.[2][5] They help you notice which part of listening went wrong. They
-were not discovered by experiment, and a textbook that draws them as a sequence is not reporting that
-the brain runs them in that order.
+contents) are teaching schemes.[2][5] They help you notice which part of listening went wrong. No
+source this course read presents them as experimental findings; they are teaching schemes, and a
+textbook that draws them as a sequence is not reporting that the brain runs them in that order.
 
 ## What are you listening for?
 
 The textbooks this course read also agree that listening has different **purposes**, and that the
-right behaviour depends on which one you are serving. The three that matter most in conversation:
+right behaviour depends on which one you are serving. The three this course uses:
 understanding information, judging a claim, and supporting a person. This course read the
 textbooks' outlines rather than their chapters, so these are the purposes as the outlines and the
 listening field's summaries give them, not any one author's list.
@@ -218,7 +220,7 @@ support. It is the most useful thing in this lesson, because every stock statist
 this course has a chain like it.
 
 :::predict Before reading on: the Acas guide says 45% of the working day goes on listening. Guess where that figure was first measured, on how many people, and how.
-It goes back to one survey, reported in 1929, of 68 adults in Detroit who kept a log of their own communicating every fifteen minutes. And the 45 is not even that survey's figure as the listening field itself reports it.
+It goes back to one survey, reported in 1929, of 68 adults, run by a Detroit schools researcher, who kept a log of their own communicating every fifteen minutes. And another retelling of that survey gives 42, not 45.
 :::
 
 **Link 1: Rankin's survey (1920s).** Paul Rankin worked for the Detroit public schools. In Ralph
@@ -226,23 +228,23 @@ Nichols and Leonard Stevens's 1957 book [*Are You Listening?*](https://archive.o
 different occupations and asked them to keep tabs, every fifteen minutes" of how long they spent
 talking, reading, writing and listening, for about two months.[8] Worthington and Bodie describe the
 same work (which they date 1926) as asking "adults to chart their waking hours devoted to several
-communication activities".[3] That is a **single study**, self-reported, with 68 people in one city.
+communication activities".[3] That is a **single study**, self-reported, with 68 people.
 This course could not open Rankin's own article, so it knows the survey only through the people who
 retold it.
 
 **Link 2: the retellings disagree.** Nichols and Stevens give Rankin's split of verbal
 communicating time as "9 per cent in writing, 16 per cent in reading, 30 per cent in talking and 45
-per cent in listening".[8] The listening field's own compilers give his published figures as
-listening 42% and speaking 32%. The [open textbook by Usera](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_(Usera)/07:_Listening/7.01:_The_Fundamentals_of_Listening) puts it plainly: "Paul Rankin (1926)
+per cent in listening".[8] Another retelling gives different figures. The [open textbook by Usera](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_(Usera)/07:_Listening/7.01:_The_Fundamentals_of_Listening) puts it plainly: "Paul Rankin (1926)
 found that adults listen 42% and speak 32% of their daily communication time."[9] Two retellings,
-two numbers, and this course cannot say which matches Rankin's text.
+two numbers, citing different Rankin publications (Nichols and Stevens a conference paper they date 1929, Usera
+his 1926 University of Michigan study), and this course cannot say which matches Rankin's text.
 
-**Link 3: the retellers' own caveat.** Nichols and Stevens, straight after the figures, wrote that
+**Link 3: the retellers' own caveat.** Nichols and Stevens, a paragraph later, wrote that
 the survey "may mean little if harshly analyzed in terms of scientific research", that an expert
 might show its accuracy "may be open to doubt". And then, in the next sentence, that "regardless of
 technical merit", it "may be one of the most important pieces of educational research in several
 generations".[8] Both halves matter. The next sentences give their reason: the survey showed that
-schools taught reading and writing and neglected listening. The numbers were rough; the point was
+schools taught reading and writing and neglected speaking and listening. The numbers were rough; the point was
 what mattered to them.
 
 **Link 4: textbooks and guides.** The University of Minnesota's open textbook says "research shows
@@ -250,17 +252,19 @@ that adults spend about 45 percent of their time listening", citing a later text
 for workers and 63% for managers.[11] The Acas guide gives "writing 9%", "reading 16%", "speaking
 30%", "listening 45%", with no source.[1] Put those four beside Nichols and Stevens's four. They are
 the same numbers in the same order. That's **this course's reading**, not something Acas says:
-four identical figures make it very likely that the guide descends from the 1957 retelling of a
-1920s survey, restated as a fact about "our working day".
+four identical figures make it very likely that the guide carries the version of Rankin's survey
+that Nichols and Stevens printed in 1957, whether it came from their book or from one of the many
+places that repeated it, restated as a fact about "our working day".
 
 **Link 5: a newer survey.** The most recent update this course found, Janusik and Wolvin's 2009
-survey of 680 undergraduates at one large university in the eastern US, reports: "Students spend
-24% of their time listening, 20% speaking, 13% using the Internet, 9% writing, and 8% reading."[10]
-This course read only that study's abstract.
+survey of 680 undergraduates at one large university in the eastern US, a single study, reports:
+"Students spend 24% of their time listening, 20% speaking, 13% using the Internet, 9% writing, and 8%
+reading."[10] Its categories include the internet, so its 24% is not a share of the same four
+activities. This course read only that study's abstract.
 
 | Link | What it says | What it can support |
 |---|---|---|
-| Rankin, 1920s | 68 Detroit adults logged their day | Those adults reported listening a lot |
+| Rankin, 1920s | 68 adults logged their day | Those adults reported listening a lot |
 | Nichols and Stevens, 1957 | 45%, with a caveat | A retelling, which differs from others' |
 | Textbooks, Acas | 45%, stated as fact | Nothing Rankin's survey did not |
 | Janusik and Wolvin, 2009 | 24%, 680 students | What students at one university reported |
@@ -268,9 +272,8 @@ This course read only that study's abstract.
 So what can you say? Something like: surveys going back to the 1920s, all self-reported, have found
 listening to be the communication activity people report doing most, or near it, with estimates
 from about a quarter to over half of communication time depending on who was asked and what counted.[8][10][11]
-The direction is reasonably settled. **No single percentage is a fact**, and "45%" is the one with
-the weakest claim to be, because it's a 1957 retelling of 68 diaries that another retelling gives
-as 42.
+The direction is reasonably settled. No single percentage is a fact, and "45%" is a retelling of 68
+people's own logs from the 1920s, which another retelling gives as 42.
 
 ## "We forget half of what we hear"
 
@@ -281,13 +284,13 @@ testing "several thousand students" and "hundreds of business and professional p
 listened to "short talks by various faculty members" and then took a standard test of comprehension
 and retention. His conclusion was that immediately afterwards the average person "remembers only
 about half of what he heard", and that after two months, supported by work he mentions at Florida
-State and Michigan State, the figure was about a quarter.[8] Call that **one group's programme**,
+State and Michigan State, the figure was about a quarter.[8] Call that one group's programme,
 reported without its data in the book.
 
 His own earlier study, in 1948, is described by Worthington and Bodie: he "played six 10‐minute
 audio‐recorded lectures to a sample of undergraduate students", with ten multiple-choice questions
-after each, and they "recalled an average of 68% of the lecture material".[3] That's a **single
-study**, and its figure is not half. Worthington and Bodie's own summary is that "Even in Nichols’s
+after each, and they "recalled an average of 68% of the lecture material".[3] That's a single
+study, and its figure is not half. Worthington and Bodie's own summary is that "Even in Nichols’s
 work, the average recall score hovered around two thirds."[3]
 
 :::checkpoint Here's the question the claim depends on. A test of how much of a ten-minute recorded lecture students could answer questions about: what does it license you to say about how much of a friend's story you'll remember?
@@ -301,7 +304,7 @@ because we think faster than people talk, so attention has spare time to wander.
 plausible and worth keeping. The numbers attached to it are not.
 
 :::checkpoint Your turn with the gap. Three sources give the speed of speech. Nichols and Stevens (1957): "around 125 words per minute" for "most Americans". The Minnesota textbook: 125 to 175 words per minute. Celeste Headlee's TED talk: "about 225 word per minute". Before you open this, write what each figure is, and what you'd keep.
-Three popular sources, three speech rates, and none says how it was measured.[8][11][12] Nichols gives no figure for the speed of thought at all, only that it's "much higher"; the textbook gives 400 to 800 words per minute for processing, and Headlee says we "can listen at up to 500". None of the sources this course read measured thinking in words per minute, so the second half of each comparison is not a measurement.
+Three popular sources, three speech rates, and none says how it was measured; the textbook cites another textbook.[8][11][12] For the other half, Nichols gives no figure for thought, only "much higher", though he adds that experiments found people can "comprehend speech at more than 300 words per minute"; the textbook gives 400 to 800 words per minute for processing; and Headlee says we "can listen at up to 500". Following speech fast and thinking in words per minute are not the same thing, and none of the sources this course read measured the second.
 
 Keep the idea (a listener has spare capacity, and it wanders). Drop every number. If you wrote "the figures disagree, so average them", that's the move to unlearn: averaging three unsourced numbers gives you a fourth unsourced number.
 :::
@@ -309,87 +312,102 @@ Keep the idea (a listener has spare capacity, and it wanders). Drop every number
 ## One ability, or several?
 
 Early listening tests tried to measure listening as one skill, the way a reading test measures
-reading. Worthington and Bodie report Kelly's finding, from the 1960s, that those tests "were more
-highly correlated with tests of intelligence than with each other".[3] If three listening tests
-agree with an intelligence test better than with one another, they are not measuring one shared
-thing called listening. That result pushed the field toward treating listening as several
-processes, which is where the definitions above came from.
+reading. Worthington and Bodie report the finding of one researcher's studies, Kelly's in the 1960s, that
+those tests "were more highly correlated with tests of intelligence than with each other".[3] If
+listening tests agree with an intelligence test better than with one another, they are not
+measuring one shared thing called listening. Worthington and Bodie say the finding led the field to
+rethink listening as "a complex, multifaceted process".[3]
 
 The same caution applies to **listening styles**. You may have taken a quiz that told you you're a
 "people-oriented" or "time-oriented" listener. Those four types came from a questionnaire, the
 LSP-16, that Bodie, Worthington and Gearhart described in 2013 as "the most widely used self-report
 listening instrument in the communication discipline", used "despite its uncharacteristically low
-reliability estimates and unvalidated factor structure".[13] Their revision measures four
-tendencies, "relational, analytical, task-oriented, and critical listening". In their discussion
-the authors suggest the scale taps the goals listeners bring to particular situations, which "calls
-into question whether listening styles truly are habitual, trait-like conditions or if they vary
-depending upon the nature of the situation".[13] That's a **contested** question, and they leave it
-open. What the field has left behind is the old four-type sorting, which the Minnesota open textbook
+reliability estimates and unvalidated factor structure".[13] In plain terms: people's scores didn't
+hang together well, and nobody had shown that the questions sort into the four types the scale
+claims. Their revision measures four tendencies, "relational, analytical, task-oriented, and
+critical listening", and its scores held steady when people took it again. Whether those tendencies
+are fixed is the open part. The revision's authors give the originators' definition of listening
+styles as "characteristic or habitual ways of listening", and in their discussion they suggest
+instead that the scale taps the goals listeners bring to particular situations, which "calls into
+question whether listening styles truly are habitual, trait-like conditions or if they vary
+depending upon the nature of the situation".[13] That's a **contested** question; they propose testing it by
+putting people in different situations and seeing whether their style changes. What the revision replaced is the old four-type scale, which the Minnesota open textbook
 still teaches.[11]
 
 ## Why your own rating is weak evidence
 
 Listening gets measured three ways. You can rate yourself. The person you talked to can rate how
-listened-to they felt. Or someone can record the conversation and code what you did. The most used
-research scale of the first kind is Graham Bodie's **Active-Empathic Listening Scale**, eleven
-statements such as "I am aware of what others imply but do not say." It was adapted from a scale
+listened-to they felt. Or someone can record the conversation and code what you did. A widely used
+research scale of the first kind is the **Active-Empathic Listening Scale**, as Graham Bodie adapted
+it, eleven statements such as "I am aware of what others imply but do not say." It was adapted from a scale
 built for salespeople and tested on college students: 416 rating themselves in one study, 217
-rating someone else in another.[14] Bodie opens that paper by noting that "Definitions of listening
+rating someone else in another.[14] Bodie opens his definition of the scale by noting that "Definitions of listening
 are as varied as researchers studying the phenomenon".[14]
 
 A scale like that measures what people say they do. Whether it matches what they do is a separate
 question, and the nearest evidence this course read is from Ickes's work on **empathic
 accuracy**: how well one person infers what another is actually thinking and feeling. In his
 studies, two people are videotaped talking, each later lists what they were thinking at each
-moment, and each then guesses the other's. In one study by his group, reported in his 1993 review,
-self-report measures of empathic skill and accuracy "proved to be disappointingly poor predictors
-of actual empathic accuracy". His conclusion: "people lack metaknowledge regarding their own
-empathic accuracy".[15] That's **one group's programme**, with student samples in the studies he
-describes, and it's about reading thoughts and feelings, which is part of listening, not all of it.
+moment, and each then guesses the other's. In one of his group's studies, of 38 pairs of opposite-sex strangers (Ickes and colleagues, 1990,
+as reported in his 1993 review), self-report measures of empathic skill and accuracy "proved to be
+disappointingly poor predictors of actual empathic accuracy"; most of the correlations were in fact
+negative. From that study and others in his programme he concluded that "people lack metaknowledge
+regarding their own empathic accuracy".[15] That's a single study inside one group's
+programme, with student samples, and it's about reading thoughts and feelings, which is part of
+listening, not all of it.
 
-Why would self-ratings be weak? One reason, which is **this course's reading** rather than
-something Ickes tested, is that the things you missed are exactly the ones you cannot count. You
-know the moments you asked a good question. You do not know the moment someone's voice dropped and
-you talked over it.
+Why would self-ratings be weak? Ickes suggests reasons, which he offers rather than tests: people
+rarely ask how accurately they've read someone, and the feedback they do get can mislead, because
+"to be polite or avoid giving offense" the other person may nod along "even when the perceiver has
+failed to understand them".[15] A further reason, which is this course's reading, is that the
+things you missed are exactly the ones you can't count. You know the moments you asked a good
+question. You don't know the moment someone's voice dropped and you talked over it.
 
 :::checkpoint A friend says, "I'm a really good listener. Everyone tells me so." Using this section, what would count as better evidence, and what's the problem with "everyone tells me so"?
-Better evidence: the ratings of the people they listen to, collected in a way that lets those people be honest, and checks of understanding in the moment, where the friend says back what they heard and the speaker says whether it's right (lesson 8, "Saying it back", is about that). "Everyone tells me so" is at least other people's view, which is an improvement on a self-rating. But people rarely tell a friend to their face that they do not listen, so the reports are filtered.
+Better evidence: the ratings of the people they listen to, collected in a way that lets those people be honest, and checks of understanding in the moment, where the friend says back what they heard and the speaker says whether it's right (lesson 8, "Saying it back", is about that). "Everyone tells me so" is at least other people's view, which is an improvement on a self-rating. But people rarely tell a friend to their face that they do not listen, so the reports are filtered (Ickes makes the same point about politeness).
 :::
 
-The field's own leaders are frank about where this leaves things. A 2026 review by Guy Itzchakov
-and Graham Bodie, two leading researchers in the field, opens by saying research on listening
-"remains conceptually fragmented and theoretically inconsistent".[16] That is not a reason to give
+The field's current reviewers put it plainly. A 2026 review by Guy Itzchakov and Graham Bodie opens
+by saying research on listening "remains conceptually fragmented and theoretically inconsistent",
+while also saying that "extensive evidence shows that good listening benefits" emotional, cognitive,
+motivational and relational outcomes.[16] That is not a reason to give
 up on the evidence. It's a reason to ask, every time, which kind of listening a study measured and
 whose rating it used.
 
 ## What is listening for?
 
-There's one more question, and it is not one evidence can settle. Is listening a technique for
-getting what you want, or attention you owe a person? This is a **value question**, and three
-positions on it are worth hearing in their own terms.
+There's one more question, and it is not one evidence can settle. Is listening mainly something
+that gets you what you want, or attention you owe a person whatever it gets you? This is a **value
+question**, and the positions on it are worth hearing in their own terms.
 
-**Dale Carnegie**, in *How to Win Friends and Influence People* (1936), puts the principle as "Be a
+Dale Carnegie, in *How to Win Friends and Influence People* (1936), puts the principle as "Be a
 good listener. Encourage others to talk about themselves."[17] His anchor story is a dinner where
 he listened to a botanist for hours, said very little, and was later called "a
-most interesting conversationalist". He quotes the writer Jack Woodford that few people are proof
+most interesting conversationalist". He's clear that it worked because it was real: he had
+listened, he says, "because I was genuinely interested". He quotes the writer Jack Woodford that few people are proof
 against "the implied flattery of rapt attention".[17] For Carnegie listening is generous and it
-also works: people like you for it, and in his examples angry customers calm down. Modern
-research gives his core observation some support. People asked more questions by a partner, in
-experiments with strangers, liked that partner more, which lesson 6, "Asking better questions",
-takes up.
+also works: people like you for it, and in his examples angry customers calm down. These are
+anecdotes, many from his courses, not research. One group's experiments give his core observation some
+support: strangers getting acquainted, mostly in online chats, liked partners who asked them more
+questions (Huang and colleagues, 2017, a paper audited and corrected in 2025 with its conclusions
+confirmed), which lesson 6, "Asking better questions", takes up.[20]
 
-**Rogers and Farson**, who coined "active listening" in a 1957 booklet for managers,
-put the aim as understanding. You have not understood someone, they wrote, until you can
-communicate that understanding "to the others satisfaction" (their spelling). And they warned that
-listening done as a technique, without real respect for the speaker, "will be empty and
-sterile".[18]
+Rogers and Farson, who coined "active listening" in a 1957 booklet for managers, also expected
+results: active listening, they wrote, "aims to bring about changes in people", and "relies upon
+definite techniques". But the change they meant was in the speaker, who grows less defensive and
+clearer about what they think, and they warned that the techniques done without real respect for
+the speaker "will be empty and sterile". Their test of understanding was saying it back until the
+other person agrees, "to the others satisfaction" [sic]. It is an essay, not a study, and it cites
+"clinical and research evidence" without naming any.[18]
 
-A third view treats attention as a scarce resource that people compete for, so that who gets
-listened to is a question of status and fairness. It's associated with the sociologist Charles
-Derber, whose book this course has not read; it reaches the course only through secondary accounts
-such as Celeste Headlee's.[19] Lesson 4 takes up the part of his work those accounts describe.
+A third view treats listening as a question of who gets attention at all. It's associated with
+the sociologist Charles Derber, whose book this course has not read. The one account of him this
+course cites, Celeste Headlee's, quotes his description of what he called conversational narcissism as "the key
+manifestation of the dominant attention-getting psychology in America".[19] Taking that phrase to be
+about a whole culture, not just one person's habit, is this course's reading. Because this course has not read Derber's own statement of his view, it can't give it here
+in its own terms. Lesson 4 takes up the part of his work Headlee describes.
 
-This course takes a side here, and says so: its lessons aim at **understanding the other person**.
+This course takes a side here, and says so: its lessons aim at understanding the other person.
 That's a standpoint, not a finding. Techniques for changing someone's mind belong to a later course,
 Persuasion and Influence, and where a source in this course frames listening as a way to win
 something, the lesson will name that goal and leave it there.
@@ -397,7 +415,8 @@ something, the lesson will name that goal and leave it there.
 ## What people get wrong
 
 **"We spend 45% of our time listening."** It's a 1957 retelling of a 1920s diary survey of 68
-people, which another retelling gives as 42%, and a 2009 student survey put it at 24%. The
+people, which another retelling gives as 42%, and a 2009 survey of students, counting more kinds of
+communication, put it at 24%. The
 direction (listening is reported as a big share) holds; the number does not.
 
 **"We only remember a quarter of what people tell us."** The figures came from comprehension tests
@@ -405,14 +424,15 @@ on short talks and lectures, and even there they moved from about half to 68%. T
 direct about a conversation.
 
 **"I'm a people-oriented listener."** The four types came from a scale its own field found
-unreliable, and the revision's authors question whether styles are fixed at all.
+unreliable, and whether any style is fixed or shifts with the situation is still open.
 
 **"Listening is one ability, and a good test would measure it."** Kelly's early tests agreed with
 intelligence tests better than with each other. Listening has emotional, behavioural and thinking
 parts, and different studies measure different ones.
 
 **"I know I'm a good listener."** Self-ratings of empathic skill predicted real accuracy poorly in
-Ickes's studies. The speaker's view and a checked restatement are better evidence than yours.
+one of Ickes's studies. On this course's reading, the speaker's view and a checked restatement tell
+you more than your own rating.
 
 ## Practice
 
@@ -428,7 +448,7 @@ If nobody is willing, do step 1, then write down for each item one moment from t
 :::
 
 :::checkpoint Before you look at anyone's numbers: if your rating and your partner's disagree, which is more likely to be right, and what can this exercise not tell you?
-On this lesson's evidence, lean towards theirs, because they can see what you missed and you cannot. But one person is one view, filtered by how they feel about you and by whether they felt free to be honest. The exercise cannot tell you how you come across to people who know you less well, and it cannot tell you whether you understood any particular thing correctly. Only checking in the moment does that.
+This lesson can't tell you which is right. Their view includes things you can't see, but Ickes's point cuts both ways: people are polite, and one person's rating is filtered by how they feel about you and whether they felt free to be honest. The exercise cannot tell you how you come across to people who know you less well, and it cannot tell you whether you understood any particular thing correctly. Only checking in the moment does that.
 :::
 
 :::exercise Three conversations, three purposes
@@ -452,10 +472,10 @@ and how many links back you can follow it before the trail stops.
 
 Lesson 1, "What a conversation is made of", gave you the question this course asks of every claim:
 finding or advice, who was in the room and where, and compared with what? The 45% chain is that
-question in action: 68 adults in Detroit in the 1920s, keeping diaries, with no comparison at all. **Reading
-Well** lesson 8, "Reading a research paper", made the point that a paper's methods decide what its
-evidence can support; here the "methods" of the 45 were a diary and a retelling. **Logic and
-Argument** lesson 9, "Bad reasoning in the news and everyday life", gave you "who says, how do they
+question in action: 68 adults in the 1920s, keeping diaries, with no comparison at all. Reading
+Well lesson 8, "Reading a research paper", made the point that a paper's methods decide what its
+evidence can support; here the "methods" of the 45 were a diary and a retelling. Logic and
+Argument lesson 9, "Bad reasoning in the news and everyday life", gave you "who says, how do they
 know, who disagrees" for a source; the Acas guide fails the second question because it names no
 source at all.
 
@@ -468,7 +488,7 @@ whole talk.
 
 - **Worthington and Bodie, ["Defining Listening"](https://catalogimages.wiley.com/images/db/pdf/9781119103073.excerpt.pdf)**,
   the publisher's free chapter. A short, dense history of what listening research measured over a
-  century and why the classic numbers are weak. This course read it in full.
+  century and why the classic recall measures are weak. This course read it in full.
 - **Nichols and Stevens, [*Are You Listening?*](https://archive.org/details/areyoulistening00ralp)
   (1957)**, free on the Internet Archive. Its early chapters have the Rankin retelling and the caveat
   in their own words.
@@ -491,9 +511,9 @@ whole talk.
    assessment", in *The Sourcebook of Listening Research* (Wiley, 2018), pp. 3 to 17,
    [free chapter](https://catalogimages.wiley.com/images/db/pdf/9781119103073.excerpt.pdf).
    **Read: full text of chapter 1**, re-read 26 September 2026. Rankin 1926, Wolvin and Coakley
-   1988, Nichols's 1948 study, Rankin's definition and Kelly's findings as reported there. <!-- SOURCES Part A §2.1; lesson 03/04 gate closures -->
+   1988, Nichols's 1948 study, Rankin's definition and Kelly's findings as reported there. <!-- SOURCES Part A §2.1; lesson 03/04 gate closures; lesson 03 review gate closures -->
 4. International Listening Association, ["Listening Definition"](https://www.listen.org/listening-definition).
-   **Read: the page**, at Stage 1. Other sources date the definition 1995 or 1996. <!-- SOURCES Part A §2.2 -->
+   **Read: the page**, at Stage 1; the page dates it 1996; one open textbook gives 1995. <!-- SOURCES Part A §2.2 -->
 5. J. Brownell, *Listening: Attitudes, Principles, and Skills*, 7th edition (Routledge, 2024).
    **Read: the publisher's description and table of contents only.** <!-- SOURCES Part A §2.3 -->
 6. C. Duhigg, *Supercommunicators* (Random House, 2024). **Read: the publisher's free sample and
@@ -503,7 +523,7 @@ whole talk.
    **Read: full text.** A theoretical review. <!-- SOURCES Part B §4.3 -->
 8. R. G. Nichols and L. A. Stevens, [*Are You Listening?*](https://archive.org/details/areyoulistening00ralp)
    (McGraw-Hill, 1957). **Read: full text on the Internet Archive**; the Rankin, retention and
-   speech-rate passages re-read 26 September 2026 from the Archive's text layer. <!-- SOURCES Part A §3.1 to 3.3; lesson 03/04 gate closures -->
+   speech-rate passages (pp. 5 to 7, 78) checked against the page images, 26 September 2026. <!-- SOURCES Part A §3.1 to 3.3; lesson 03/04 gate closures; lesson 03 review gate closures -->
 9. S. Usera, *Communicating to Connect*, section ["7.1 The Fundamentals of Listening"](https://socialsci.libretexts.org/Bookshelves/Communication/Introduction_to_Communication/Communicating_to_Connect_-_Interpersonal_Communication_for_Today_(Usera)/07:_Listening/7.01:_The_Fundamentals_of_Listening)
    (LibreTexts). **Read: section 7.1**, re-read 26 September 2026. Its statement that Janusik and
    Wolvin's 2009 study found "at least 50%" of the day listening does not match that study's
@@ -520,24 +540,29 @@ whole talk.
 13. G. D. Bodie, D. L. Worthington and C. C. Gearhart, "The Listening Styles Profile-Revised
     (LSP-R)", *Communication Quarterly* 61(1) (2013), 72 to 90, [authors' copy](https://static1.squarespace.com/static/5633a3ade4b02b1547969346/t/572d1bdb40261d2ef97f3eb2/1462574044157/LSPR+CQ+FINAL+PUBLISHED.pdf).
     **Read: the abstract, opening and discussion**, re-read 26 September 2026; results tables not
-    read in detail. <!-- SOURCES Part A §2.6 -->
+    read in detail. <!-- SOURCES Part A §2.6; lesson 03/04 gate closures; lesson 03 review gate closures -->
 14. G. D. Bodie, "The Active-Empathic Listening Scale (AELS)", *Communication Quarterly* 59(3)
     (2011), 277 to 295, [author's copy](http://www.grahambodie.com/s/7-The-Measurement-of-Active-Empathic-Listening_Final-PUBLISHED.pdf).
     **Read: full text**; Table 1's items re-read 26 September 2026. <!-- SOURCES Part C §2.4; lesson 03/04 gate closures -->
 15. W. Ickes, "Empathic accuracy", *Journal of Personality* 61(4) (1993), 587 to 610,
     [copy at Greater Good](https://greatergood.berkeley.edu/images/uploads/Empathic_Accuracy.pdf).
     **Read: full text**, re-read 26 September 2026. The study of self-report measures (Ickes and
-    colleagues, 1990) as reported there. <!-- SOURCES Part C §7.6; lesson 03/04 gate closures -->
+    colleagues, 1990: 38 opposite-sex pairs of strangers) as reported there. <!-- SOURCES Part C §7.6; lesson 03/04 gate closures; lesson 03 review gate closures -->
 16. G. Itzchakov and G. D. Bodie, "Puzzles of interpersonal listening", *Social and Personality
     Psychology Compass* 20 (2026), [doi:10.1111/spc3.70145](https://doi.org/10.1111/spc3.70145).
-    **Read: full text (Puzzles 1 to 8 in detail)**, the abstract re-read 26 September 2026. <!-- SOURCES Part C §2.5 -->
+    **Read: full text (Puzzles 1 to 8 in detail)**, the abstract re-read 26 September 2026. <!-- SOURCES Part C §2.5; lesson 03 review gate closures -->
 17. D. Carnegie, *How to Win Friends and Influence People* (1936), Part Two, chapter 4, "An Easy Way
     to Become a Good Conversationalist". **Read: the full chapter, from a 1943 printing on the
-    Internet Archive.** No other part of the book was read. <!-- SOURCES Part A §6.5 -->
+    Internet Archive**; the botanist page (p. 105) checked against the page image, 26 September 2026.
+    No other part of the book was read. <!-- SOURCES Part A §6.5; lesson 03 review gate closures -->
 18. C. R. Rogers and R. E. Farson, [*Active Listening*](https://wholebeinginstitute.com/wp-content/uploads/Rogers_Farson_Active-Listening.pdf)
     (1957), as excerpted in *Communicating in Business Today* (1987). **Read: the full excerpt**,
-    re-read 26 September 2026; the full 1957 booklet was not read. <!-- SOURCES Part C §1.1; lesson 03/04 gate closures -->
+    re-read 26 September 2026; the full 1957 booklet was not read. <!-- SOURCES Part C §1.1; lesson 03/04 gate closures; lesson 03 review gate closures -->
 19. C. Headlee, ["Why we should all stop saying 'I know exactly how you feel'"](https://ideas.ted.com/why-we-should-all-stop-saying-i-know-exactly-how-you-feel/),
     TED Ideas, an excerpt from *We Need to Talk* (2017). **Read: the full excerpt**, re-read 26
-    September 2026. Charles Derber's *The Pursuit of Attention* is described only as this excerpt
-    and other secondary accounts report it; this course has not read his book. <!-- SOURCES Part A §6.1, §7; G9 fallback -->
+    September 2026; it does not describe Derber's structural argument. Charles Derber's *The Pursuit
+    of Attention* is known here only as this excerpt reports it; this course has not read his book. <!-- SOURCES Part A §6.1, §7; G9 fallback -->
+20. K. Huang, M. Yeomans, A. W. Brooks, J. Minson and F. Gino, "It doesn't hurt to ask: Question-asking
+    increases liking", *Journal of Personality and Social Psychology* 113(3) (2017), 430 to 452,
+    [authors' copy](https://www.hbs.edu/ris/Publication%20Files/Huang%20et%20al%202017_6945bc5e-3b3e-4c0a-addd-254c9e603c60.pdf);
+    correction, *JPSP* 128(3) (2025), 669. **Read: full text and the correction notice.** <!-- SOURCES Part B §4.1 -->
