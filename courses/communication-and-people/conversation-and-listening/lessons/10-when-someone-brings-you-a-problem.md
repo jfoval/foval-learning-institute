@@ -58,7 +58,7 @@ quiz:
       - Say nothing at all about the test, and keep well out of her way all evening
     answer: 2
     explain: >-
-      The experiments found support worked when it avoided telling the recipient she couldn't
+      The experiments found support did better when it avoided telling the recipient she couldn't
       cope, and a tip passed on in the course of your own story does that. Saying she's clearly in
       a state and needs drilling delivers the message the authors found did the harm. Promises
       said straight to her are the visible kind, which in the reassurance experiment went with more
@@ -435,8 +435,8 @@ In the first, 68 couples in which one partner was preparing for the New York Sta
 kept daily diaries for the weeks before it.[8] On days near the exam when the partner reported
 giving emotional support, the examinee's depression rose less by the next day; on days the examinee
 reported receiving support, it rose more. Support the partner gave and the examinee didn't notice
-was the best combination, though that last comparison fell just short of statistical
-significance.[8] That is a correlation from diaries, and
+was the best combination: in it depression tended to fall, though not by a statistically
+significant margin.[8] That is a correlation from diaries, and
 it raised the question the experiments tried to answer.
 
 [Bolger and David Amarel](http://www.columbia.edu/~nb2229/docs/bolger-amarel-support-experiments-2006.pdf)

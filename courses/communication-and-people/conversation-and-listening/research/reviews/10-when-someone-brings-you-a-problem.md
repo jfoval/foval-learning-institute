@@ -387,3 +387,49 @@ conversation-and-listening`: 205 quotations, 0 not found. Names and places uncha
 **Status after review:** clean on R2 to R18. R1's correction goes beyond the reviewer's own fix (the
 no-support comparison was not significant), so a targeted re-check of the Bolger and Amarel passages
 (body, "It'll be fine", misconceptions, quiz 3) and SOURCES §6.4 is advised.
+
+## Targeted re-check (2026-09-26)
+
+**Checker:** one fresh-context re-checker, against the fixer's commit d24d1bf (lesson diffed against
+d24d1bf~1). Bolger and Amarel 2007 re-fetched today from the author's PDF (curl, generic browser
+User-Agent, no personal data; pdftotext) and read in full for Studies 1 to 3; Bolger, Zuckerman and
+Kessler 2000 read from today's author-PDF copy.
+
+**The fixer's correction to R1 is right.** Study 3 had five conditions including no support (Table 3,
+"No, not really."), so Study 2 was not the only experiment with a no-support group. Invisible against
+no support: Study 2 Mdiff = −0.78, d = −0.36, t(82) = −1.42, p = .159; Study 3 (Contrast 3, Invisible
+A) Mdiff = −0.61, t(142) = 1.83, p = .069, "failed to reach significance at the .05 level".
+Significant: invisible below visible in Study 1 (p = .004) and Study 2 (p < .017), and in Study 3
+visible (A) above no support (p < .001). All three samples were NYU Introduction/Introductory
+Psychology women; Study 2's reassurance wording ("nothing to worry about, that she would do fine")
+and the abstract's "either ineffective or it exacerbated reactivity" match. Every Bolger and Amarel
+sentence in the body, "It'll be fine", the misconceptions, the predict and quiz 3, and SOURCES §6.4's
+corrected entry, now say what the paper says. Bolger 2000: provision b = −0.16, p = .001; receipt
+b = 0.11, p = .024; the "invisible" cell's depression "tended to decrease over time by 0.09 units,
+t(67) = − 1.73, p = .088". Correct in SOURCES §6.4.
+
+**Two one-edit fixes made here:**
+1. Bolger 2000: the p = .088 tests whether depression in the invisible cell changed from zero, not a
+   comparison with the other cells, so "though that last comparison fell just short of statistical
+   significance" became "was the best combination: in it depression tended to fall, though not by a
+   statistically significant margin."
+2. Quiz 3 explanation: "support worked when it avoided telling the recipient she couldn't cope" now
+   "did better", matching the misconception's wording, since invisible support never beat no support
+   significantly.
+
+**Noted, no change.** (a) "Against no support, invisible support came out ahead in both experiments"
+is true of the paper's own invisible-support contrast (Invisible A); Study 3's Invisible B (0.91) was
+level with no support (0.77); the lesson does not describe that condition. Acceptable as written. (b) The abstract's N = 257 does not equal the final
+samples (31 + 86 + 150 = 267, Study 3's 150 from 30 per condition and t(142)); the lesson prints the
+authors' own figure. The original review's "140 for Study 3, consistent" was wrong.
+
+**R2 to R17:** resolved as recorded. New strings checked against today's primaries: Rogers and
+Farson's "are almost always seen as efforts to change a person" (1987 excerpt), Feng's "very
+similarly" and the implementation-intention null, VitalTalk's Understanding-row note. R2 and R3 now
+give the hold-back side its reason and name its value element as this course's reading; Samaritans'
+unqualified line is attributed with its setting. Quiz keys 1,3,2,3,0,2 unchanged; every explanation
+addresses its key and each option. No em dash. `npm run quotes conversation-and-listening`: 205, 0
+not found. `npm run minutes`: 7,402 words, 90, matching. `npm run validate` exits 0. Crisis callout
+untouched.
+
+**Verdict: SETTLED.**
