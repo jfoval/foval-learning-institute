@@ -130,7 +130,8 @@ written, so this course does not learn it again.
   CRA for services in general). **Personal Safety** lesson 6, "Out and away: streets, travel and meeting
   people", for threat from other people (it does not mention breakdowns; don't say it does). **Personal
   Finance** lessons 3 (car loans), 8 (insurance; whether a service contract is worth it) and 10 (scams;
-  section 75). **Digital Literacy** lesson 11 (call back on a number you found yourself). **Logic and
+  US payment protections, mostly against unauthorised use; **it does not teach section 75 or
+  chargeback**, corrected 2026-09-26 at lesson 25's Stage 4). **Digital Literacy** lesson 11 (call back on a number you found yourself). **Logic and
   Argument** lesson 7 for every contested block. **Open the earlier lesson and find the sentence before
   you write "as lesson N showed".**
 
@@ -211,6 +212,18 @@ written, so this course does not learn it again.
   road. Rule 283's "do not move injured people" is never said to be exactly First Aid's teaching,
   which names its own exceptions. Fitting snow chains carries no job label; it points to the
   handbook and the road authority.
+- **2026-09-26, decision 11 exception (lesson 24):** Which?'s 2025 survey averages (£361 franchised
+  dealer, £260 local independent) may be quoted, labelled as owners' reported yearly totals with parts
+  included, not a price for any job. They are the one exception to the no-prices rule; the test and
+  scripts treat them the same way.
+- **2026-09-26, from lesson 25 at Stage 4:** Personal Finance lesson 10, "Defending it", teaches US
+  payment-method protections (FTC), mostly against unauthorised use; it has no section 75 and no
+  chargeback, so no lesson, script or test item points there for either. Citizens Advice's "Problem
+  with a car repair" page is England's ("This advice applies to England"); its advice, including that
+  a garage may keep a car while a bill is disputed, is never applied to Wales or Northern Ireland,
+  where only the 1977 Act's bar on selling was read. "Lien" is used only for California's § 3068, in
+  its own words. Ohio's notice ("more than ten per cent") and (C)(2) ("ten per cent or more") are
+  never reconciled, and (C)(5) travels with them.
 
 ## Drafting brief: Car Basics, Stage 3
 

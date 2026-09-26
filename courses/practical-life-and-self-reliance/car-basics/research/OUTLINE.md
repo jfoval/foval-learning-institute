@@ -1946,8 +1946,9 @@ file (the project), so the project assembles itself.
   (lesson 2); The Motor Ombudsman's code 3.8 (servicing to the maker's specification) and 3.11 (genuine
   or non-genuine agreed); records (BTEC Unit 9's list; TMO's six years; the FTC: "Otherwise, your claim
   might be denied"). **Credentials**: IMI and TechSafe (voluntary; the IMI sells its qualifications);
-  ASE ("ASE certifies technicians, not businesses"; two years and a test; every five years; its own "kept
-  the government from licensing jobs"); Michigan's state certificate; BAR registration in California
+  ASE (About page, capture 20260614094747: "We certify the service individual"; two years and a test;
+  "retest every five years"; a separate shop programme; the two Stage 1 lines are no longer on the page
+  and are not used, 2026-09-26); Michigan's state certificate; BAR registration in California
   (lesson 25's law); The Motor Ombudsman (Citizens Advice's recommendation, TMO's funding); the FTC:
   "certification alone is no guarantee of good or honest work". Checking one on the scheme's own site
   (Digital Literacy lesson 11). Home Repair lesson 22 for the licensing argument, by pointer.

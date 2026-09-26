@@ -9026,3 +9026,168 @@ Read live on 26 September 2026 with curl, a generic browser User-Agent and no pe
   Visual Anti-Tampering Check." [V]
 - **Texas DPS release**, re-read for the table: new vehicles "are required to pay an initial
   inspection program replacement fee of $16.75 to cover two years." [V]
+
+## Stage 4 note, lesson 24 (2026-09-26)
+
+Read live on 26 September 2026 with curl, a generic browser User-Agent and no personal data (no
+in-app browser), except where a capture is named. Every string lesson 24 added at Stage 4 is recorded
+here.
+- **YourCar-YourChoice**, home page, https://yourcaryourchoice.co.uk/ , read in full. **New source.** A
+  UK campaign: "The YourCar-YourChoice campaign is a co-operative programme developed by individuals
+  and companies from all parts of the independent automotive aftermarket and is administered by the
+  IAAF" [V]. Its case, quoted in lesson 24: "Choosing an independent garage or autocentre could save
+  you time and money and provide a fast, efficient, hassle-free and friendly service." [V] **Its legal
+  claims are not used**: it says motorists "are protected under the EU Motor Vehicle Block Exemption
+  Regulation 461/2010" [V], which is not the instrument in force in Great Britain since 2023 (the CMA
+  guidance and S.I. 2023/586 are), and "you will NOT invalidate the warranty" [V], stronger than the
+  CMA's "likely to be caught".
+- **Independent Automotive Aftermarket Federation (IAAF)**, home page, https://iaaf.co.uk/ , read for
+  its self-description: "IAAF exists to protect its members, secure their future and promote the
+  automotive aftermarket to motorists and government" [V]; "The IAAF is the UK’s leading automotive
+  trade association, comprising suppliers, manufacturers, parts distributors, garages and service
+  providers." [V] Lesson 24 calls it the independent aftermarket's "trade body".
+- **Which?, "Car servicing and repair costs"** (dated 09 Jun 2026),
+  https://www.which.co.uk/reviews/new-and-used-cars/article/car-maintenance-costs-ak42T6h2YcqS , read in
+  full. **New source.** UK consumer body; the page says a retailer link "enables W? to receive an
+  affiliate commission if you make a purchase, which supports our mission to be the UK's consumer
+  champion" [V]. Method: "Between April and June 2025, we surveyed 63,334 car owners about their car
+  ownership in the past 12 months, including how much they spent on servicing and repairs." [V]; "For
+  those who said they did, we asked them how much in total they’d spent on servicing, including
+  replacement parts (such as fluids, filters, tyres and any other consumable or wear-and-tear part)."
+  [V] Finding: "Across all cars in our survey, a service from a franchised dealer costs £361, while a
+  local independent costs just £260 on average." [V] So the figures are owners' reported yearly
+  totals, parts included, not the same job priced at each kind of garage; lesson 24 says so. **Not
+  used:** "consumer law dictates that you’re allowed to take it to any garage" [V], which overstates
+  the CMA guidance.
+- **Which?, "How to find a good garage and get the best service"** (dated 28 Apr 2026),
+  https://www.which.co.uk/reviews/new-and-used-cars/article/how-to-find-a-good-garage-am8d52i5tQoY ,
+  read in full. **New source.** "You’ll nearly always find that labour rates at local independent
+  garages are significantly lower than at a franchised dealer. However, you may be able to take
+  advantage of a fixed-price servicing deal at a main dealer that can give you peace of mind over how
+  much you’re going to pay." [V]; "There are some extended warranties (such as Toyota/Lexus Relax) that
+  require you to use a main dealer, however, so it’s best to check the exact terms of your warranty
+  before booking in." [V] Lesson 24 paraphrases the second without naming the product (decision 11).
+- **Mazda3 online handbook (8GD7-EE-17H), maintenance "Introduction" page**, re-read live. The
+  sentences lesson 24 quotes follow an owner-maintenance passage: "If you are unsure about any
+  procedure it describes, we strongly urge you to have a reliable and qualified technician perform
+  the work, we recommend an Authorised Mazda Repairer." [V] Then: "Authorised Mazda technicians and
+  genuine Mazda parts are dedicated to your vehicle. Without this expertise and the parts that have
+  been designed and made especially for your Mazda, inadequate, incomplete, and insufficient
+  servicing may result in problems. This could lead to vehicle damage or an accident and injuries."
+  [V] Lesson 24 now quotes the lead-in with them.
+- **CMA, Guidance on motor vehicle agreements**, re-read (PDF, pdftotext). 5.39: "Another relevant
+  consideration is whether an extended warranty is being sold years after the purchase of the
+  vehicle." [V] and "it seems less likely that independent repairers could face a significant
+  foreclosure effect even if car warranties issued by suppliers of motor vehicles or their Authorised
+  Networks contained servicing or parts restrictions." [V] 5.40: "any other warranty restrictions
+  which indirectly limit the consumer’s right to source repair and maintenance services from
+  independent repairers are likely to be within scope of the Chapter I prohibition." [V] 5.41 as
+  recorded above.
+- **16 CFR 700.10(c)**, re-read (eCFR renderer, current): "This does not preclude a warrantor from
+  expressly excluding liability for defects or damage caused by “unauthorized” articles or service;
+  nor does it preclude the warrantor from denying liability where the warrantor can demonstrate that
+  the defect or damage was so caused." [V]
+- **Mass. Gen. Laws ch. 93K § 2(f)**, re-read live (malegislature.gov) and in the 2020 Information
+  for Voters' full text: mechanical data is accessible to an independent repair facility or class 1
+  dealer "limited to the time to complete the repair or for a period of time agreed to by the vehicle
+  owner for the purposes of maintaining, diagnosing and repairing the motor vehicle." [V] "Access
+  shall include the ability to send commands to in-vehicle components if needed for purposes of
+  maintenance, diagnostics and repair." [V]
+- **2020 Information for Voters**, Question 1, re-read (PDF): the Yes argument's "This means car
+  owners are steered toward more expensive dealer repair options. Vote YES to protect independent
+  repair shops and preserve your ability to shop around." [V]
+- **Alliance complaint**, re-read from Internet Archive capture 20260530044526 (pdftotext), p. 2,
+  para 3: NHTSA "provided written testimony to the Massachusetts Legislature’s Joint Committee on
+  Consumer Protection and Professional Licensure last July, stating that the ballot initiative would
+  force “vehicle manufacturers to redesign their vehicles in a manner that necessarily introduces
+  cybersecurity risks, and to do so in a timeframe that makes design, proof, and implementation of
+  any meaningful countermeasure effectively impossible.”" [V] The complaint was filed 20 November
+  2020, so "last July" is July 2020. NHTSA's letter itself (the complaint's Exhibit A) was not read;
+  lesson 24 says it quotes the complaint's quotation.
+- **Auto Care Association, "Massachusetts Right to Repair"**, re-read live: "This law means
+  Massachusetts car owners keep deciding where their vehicle gets maintained and repaired, which keeps
+  the state's repair market competitive." [V]; "We represent the interests of all drivers, and the
+  independent aftermarket industry that serves them." [V, recorded above, now used]. Its account of
+  the February 2026 oral argument is not used (the appeal is on the `unread:` line).
+- **IMI release, 14 May 2026 event** (published 19 May 2026), re-read live: "Consensus reached at
+  IMI-hosted policy panel discussion that government must act to ensure safety-critical competence
+  across key vehicle technology areas" [V]; the "policy hook" sentence is the "Event participants"'
+  (see the correction in "Lesson 24: credentials" above), and lesson 24 no longer quotes it.
+- **CalRecycle, "Check Your Number"** (https://calrecycle.ca.gov/usedoil/oilchange/), re-read live:
+  "no longer applies to most cars" is on the page, as Part A §6 records. Lesson 24 now quotes that
+  hedge and cites the page as its source [27].
+
+## Stage 4 note, lesson 25 (2026-09-26)
+
+*Read by the lesson 25 fixer on 26 September 2026 with curl and a generic browser User-Agent (no
+personal data in any header); text extracted with pandoc or pdftotext. Every quotation marked [V] was
+copied from that extraction. These add to "Gate closures, lesson 24/25" above and correct it where
+noted.*
+
+- **Ohio Adm. Code 109:4-3-13** (codes.ohio.gov, live). **Correction:** the page now shows
+  "Effective: March 21, 2026" [V], with "Last updated March 23, 2026" [V] and "Prior Effective
+  Dates: 9/11/1978, 3/14/2005, 8/10/2015" [V]; the gate-closure entry above says the effective-date
+  field was blank. The (A)(2) notice ("more than ten per cent"), (C)(2) ("ten per cent or more") and
+  (C)(5) "Charge for any repair or service which has not been authorized by the consumer" [V] read as
+  recorded above. Lesson 25 now states (C)(5) beside the ten per cent and resolves neither difference.
+- **Consumer Rights Act 2015** (legislation.gov.uk, live): s.55(2)(b) the trader "must bear any
+  necessary costs incurred in doing so (including in particular the cost of any labour or materials)."
+  [V]; s.54(6) "This section and sections 55 and 56 do not prevent the consumer seeking other remedies
+  for a breach of a term to which any of subsections (3) to (5) applies, instead of or in addition to a
+  remedy referred to there (but not so as to recover twice for the same loss)." [V]; s.54(7) "Those
+  other remedies include any of the following that is open to the consumer in the circumstances" [V],
+  (a) "claiming damages" [V]. Section headings for ss.54 and 55 carry the extent "U.K." [V].
+- **Torts (Interference with Goods) Act 1977** (legislation.gov.uk, live): s.12(8) "This section, and
+  Schedule 1 to this Act, have effect subject to the terms of the bailment." [V]; Sch 1 para 6(3) "If
+  any amount is payable in respect of the goods by the bailor to the bailee, and become due before
+  giving of the notice, the said period shall be not less than three months." [V] Sch 1 paras 1, 4, 6,
+  7 and 8 carry the extent "E+W+N.I." [V].
+- **Citizens Advice, "Problem with a car repair"** (live). The page opens "This advice applies to
+  England." [V] and links separate Northern Ireland, Scotland and Wales pages, none of which this
+  course read; lessons apply its advice (including the right to keep the car) to England only. Also:
+  "If you didn’t agree a price before the work was done (or you only got an estimate)" [V] (a
+  heading); "If no price was agreed before the work was done, the Consumer Rights Act 2015 gives you
+  the legal right to only pay a ‘reasonable price’." [V]; "The garage might have a sign on their
+  premises saying that they’re not responsible for any damage" [V]; "You and the garage would need to
+  agree on who provides this report, how the cost would be split and that you’ll both accept the
+  findings." [V]; "If they don’t agree up front to make things right, you may want to write or email
+  the garage so you have a record of the problem and your communication to them." [V]; ADR is "a way
+  of solving disagreements without going to court" [V]; "Contact them and say you want to use the
+  ‘chargeback’ scheme." [V]. The page doesn't call the helpline free, and doesn't say "lien" or name
+  the source of the garage's right to keep the car (G-G4 stays open).
+- **California Civil Code § 3068** (leginfo, live): (b)(1) "Any lien under this section that arises
+  because work or services have been performed on a vehicle with the consent of the registered owner
+  shall be extinguished and no lien sale shall be conducted unless either of the following occurs" [V];
+  (b)(1)(B) "An action in court is filed within 30 days after the lien has arisen." [V]
+- **California Business and Professions Code** (leginfo, live): § 9884.9(e) "A written estimate is not
+  required for an automotive repair dealer to perform any of the preventative maintenance services
+  defined in Section 9880.1 if the customer authorizes the service and either of the following occurs"
+  [V], (1) free of charge, or (2) the price "is displayed in a place and manner conspicuous to the
+  customer" [V]. § 9884.10 continues after the return rule: "excepting such parts as may be exempt
+  because of size, weight, or other similar factors from this requirement by regulations of the
+  department and excepting such parts as the automotive repair dealer is required to return to the
+  manufacturer or distributor under a warranty arrangement" [V], in which case the dealer "shall offer
+  to show" [V] them.
+- **Florida Statutes § 559.909(5)** (live): "Upon request made at the time the repair work is
+  authorized by the customer, the customer is entitled to inspect parts removed from her or his
+  vehicle or, if the shop has no warranty arrangement or exchange parts program with a manufacturer,
+  supplier, or distributor, have them returned to her or him." [V] §§ 559.909(3) and (4) read as
+  recorded above.
+- **MCL § 257.1332(1)** (live): read as recorded above, including "unless specifically requested by
+  the customer" [V].
+- **The Motor Ombudsman, Service and Repair Code** (PDF, live): quotations are "inclusive of all parts,
+  labour and VAT (where appropriate)" [V]; "The Accredited Business will have up to eight weeks in
+  which to issue a final response, but should aim to acknowledge your complaint within ten working
+  days." [V, joined across line breaks].
+- **FTC, "Auto Repair Basics"** (live): "Document all transactions as well as your experiences with
+  dates, times, expenses, and the names of people you dealt with." [V]
+- **BAR, "A Consumer's Guide to Auto Repair"** (PDF, live): "Save all your receipts; they may be
+  helpful" [V].
+- **Personal Finance lesson 10, "Defending it"** (read in the repo): it teaches US payment-method
+  protections, mostly against unauthorised use (FTC), and does not mention section 75 or chargeback.
+  The course conventions' boundary line said otherwise and is corrected in `pipeline-briefs.md`.
+- **Arithmetic** (the course's, from the statutes' words), redone by hand for the new exercise: $75
+  estimate, Florida max($10, $7.50) = $10, so $85; Michigan min($7.50, $50), so $82.50; Ohio $7.50
+  (up to, on the notice; under, on (C)(2)). $450: $495 in both Florida and Michigan; Ohio $45.
+  $1,500: $1,550 in both; Ohio $150. Florida and Michigan give the same allowance on any estimate of
+  $100 or more and part only below $100.

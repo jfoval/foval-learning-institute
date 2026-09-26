@@ -18,7 +18,7 @@ quiz:
   - q: >-
       A handbook gives a standard and a severe schedule. Its severe list includes repeated short
       trips and driving on salt-spread roads. A driver's car does a few very short runs each
-      weekday and sits on gritted winter roads for months. What does the handbook's own wording
+      weekday and is driven on gritted roads all winter. What does the handbook's own wording
       tell her to do?
     options:
       - Use the standard schedule, since the severe one is for taxis and delivery vans only
@@ -81,10 +81,10 @@ quiz:
       to check one yourself.
   - q: >-
       A US shop's window shows a sign for an industry certification scheme for technicians. What does
-      that sign tell a customer, on the FTC's and the certifying body's own words?
+      that sign tell a customer, in the FTC's and the certifying body's own words?
     options:
       - That the shop is licensed by the state and has passed a state inspection of its premises
-      - That the shop guarantees its work, since certified shops must offer a written guarantee
+      - That the shop's work is usually guaranteed, since most certified shops offer a written guarantee
       - That every technician there is certified in every area, including hybrids and electric cars
       - That some or all of its technicians met a knowledge standard, not that the work is honest
     answer: 3
@@ -92,8 +92,7 @@ quiz:
       The FTC: certification "indicates that some or all of the technicians meet basic standards of
       knowledge and competence in specific technical areas", and "certification alone is no guarantee
       of good or honest work". ASE says it certifies "the service individual". A state licence is a
-      separate thing, set by state law, and BAR says a shop "is not required by law to guarantee its
-      work".
+      separate thing, set by state law, and nothing read ties certification to a guarantee.
   - q: >-
       Which of these is the automakers' trade association's argument against the Massachusetts
       telematics law, in its own court filing as this course read it?
@@ -111,20 +110,16 @@ quiz:
       what one side argues, not which side is right.
 ---
 
-A service is the one thing almost every car owner pays for every year, and it's where most of the
-money in car ownership quietly goes. It's also where three questions get muddled together: how often
+A service is the one thing almost every car owner pays a garage for, year after year. It's also where three questions get muddled together: how often
 the car really needs work, who is allowed to do it, and whether going anywhere but the dealer puts
 the warranty at risk. Each has an answer, but the answers come from different places: the
-handbook for the first, a credential or a register for the second, and the law for the third. This
-lesson takes them one at a time, in the UK and in the US, and ends with an argument the law
-hasn't finished with.
+handbook for the first, a credential or a register for the second, and the law for the third.
 
 :::callout Before the car lets you down
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
 :::
 
-Parts of this lesson state law, and those sections carry the short form of this label; here it is in
-full. This is general information, not legal advice. The rules differ between England and Wales,
+This is general information, not legal advice. The rules differ between England and Wales,
 Scotland, Northern Ireland and each US state, and they change. Everything below is as read on 26
 September 2026.
 
@@ -134,7 +129,7 @@ Reading your handbook's schedule is **Yours**. The servicing itself, beyond the 
 lessons 7 to 10, is **Call someone**: a garage does it.
 
 Lesson 1 met the figure that most needs unlearning, the 3,000-mile oil change, which CalRecycle,
-California's waste and recycling agency, calls "out of date". What replaces it isn't another number.
+California's waste and recycling agency, says "no longer applies to most cars".[27] What replaces it isn't another number.
 It's your handbook, and a modern handbook often gives you more than one schedule.
 
 **Nissan, in the [handbook for the 2024 LEAF](https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf) sold in the US**, explains why: "To help ensure smooth,
@@ -168,23 +163,22 @@ handbook for the 2024 Maverick sold in the US and Canada** (petrol and hybrid): 
 the Intelligent Oil-Life Monitor system, a message appears in the instrument cluster display at the
 proper oil change interval. This interval may be up to one year or 10,000 mi (16,000 km), hybrid
 vehicles could exceed 10,000 mi (16,000 km)."[2] It then puts limits round the monitor: do the change
-"within two weeks or 500 mi (800 km) of the message appearing", and if the display fails, change it at
-six months or 5,000 mi (8,000 km), and "Never exceed one year or 10,000 mi (16,000 km) between oil
-change intervals."[2] Ford also names the driving that works against the oil: "frequent short trips
+"within two weeks or 500 mi (800 km) of the message appearing", and if the display resets early or stops working,
+change it at six months or 5,000 mi (8,000 km), with, in the same paragraph, "Never exceed one year
+or 10,000 mi (16,000 km) between oil change intervals."[2] Ford also names the driving that works against the oil: "frequent short trips
 that do not allow the engine to get to operating temperature, extended idling and low speed driving
 for long periods of time", which "dilutes and increases the level of oil".[2]
 
 AAA, the US motoring clubs, which sell roadside assistance and run an approved repair network, puts
 the monitor more strongly: newer cars drop severe-service recommendations "because the oil-life
 monitoring system automatically shortens the oil change interval when it detects heavy-duty
-operation". Its severe list overlaps Nissan's: "Primarily short trips (5 miles or less)", extreme or
-dusty climates, stop-and-go driving, heavy loads or towing. And the same page hedges its own claim:
+operation". And the same page hedges its own claim:
 "Always defer to the maintenance schedule in your owner's manual for oil change intervals. While
 oil-life indicators are helpful, they are not always accurate."[4]
 
 So is severe use a thing of the past? That's **contested**, and partly commercial: AAA's "newer
-cars" is a generalisation, a 2024 handbook, Nissan's, still prints a severe schedule, and garages earn
-more from shorter intervals while makers advertise longer ones. No source read measured how accurate
+cars" is a generalisation, a 2024 handbook, Nissan's, still prints a severe schedule, and garages are
+paid by the service. No source read measured how accurate
 monitors are. What every source read agrees on is
 the order of authority: your handbook first, then the monitor if your car has one, and an honest
 reading of your own driving against the handbook's list.
@@ -203,11 +197,14 @@ Ombudsman is funded by the garages it accredits; more on that below.)
 
 Is a main dealer better for servicing than an independent garage? That isn't a question of law (the
 law comes in the next section) or of fact that any source here measured. **No source this course read
-compares dealers and independents on quality, safety or price.** It's a question of value and
+compares dealers and independents on quality or safety**; the one price comparison below is of
+owners' reported spending. It's a question of value and
 preference, and the voices in it have interests. So here is each side in its own words, with its
 interest named, and no verdict.
 
-**The makers' case.** Mazda, in the European handbook for the Mazda3: "Authorised Mazda technicians and
+**The makers' case.** Mazda, in the European handbook for the Mazda3, tells an owner unsure of a
+maintenance procedure: "we strongly urge you to have a reliable and qualified technician perform the
+work, we recommend an Authorised Mazda Repairer." Its reason: "Authorised Mazda technicians and
 genuine Mazda parts are dedicated to your vehicle. Without this expertise and the parts that have been
 designed and made especially for your Mazda, inadequate, incomplete, and insufficient servicing may
 result in problems. This could lead to vehicle damage or an accident and injuries."[6] Ford, in the
@@ -221,21 +218,31 @@ car under its warranty.
 **The independents' case.** The Auto Care Association, the US trade body for the independent
 aftermarket (the parts makers, sellers and repair shops that aren't the carmakers'), describes its aim:
 "We fight to secure choice and competition in the auto repair industry to put vehicle maintenance
-decisions back in the vehicle owners’ hands."[7] The interest: its members sell the parts and the
-service. This course read no UK independent garages' body stating its own case, and says so rather
-than filling the gap.
+decisions back in the vehicle owners’ hands."[7] In the UK, YourCar-YourChoice, a campaign by the
+independent aftermarket administered by its trade body, the Independent Automotive Aftermarket
+Federation, puts the case to drivers: "Choosing an independent garage or autocentre could save you
+time and money and provide a fast, efficient, hassle-free and friendly service."[28] The interest:
+both bodies' members sell the parts and the service; Auto Care says it represents "the interests of
+all drivers, and the independent aftermarket industry that serves them".[7]
 
 **Voices with no side in it.** Toyota's US handbook for the 2023 Corolla sends a problem to "your
 Toyota dealer or qualified service shop".[3] The FTC's test for any shop is whether it has "experience
 working on the same make or model vehicle as yours", and it tells you to "Make sure the shop will
 honor your vehicle's warranty".[5] In England, Citizens Advice recommends a garage "accredited by The
 Motor Ombudsman", and The Motor Ombudsman lists franchised dealers and independent garages among the
-businesses it accredits.[8][9]
+businesses it accredits.[8][9] Which?, the UK consumer body, which earns commission from some
+retailer links on its pages, asked 63,334 car owners in 2025 what they had spent in total on
+servicing, parts included, over the past 12 months: "a service from a franchised dealer costs £361,
+while a local independent costs just £260 on average." Those are owners' reported yearly totals, not
+the same job priced at each. It also makes a point for dealers: "you may be able to take advantage of
+a fixed-price servicing deal at a main dealer that can give you peace of mind over how much you're
+going to pay."[29][30]
 
 Where they meet: every voice here agrees the schedule and the right parts matter; they differ on
 whether the maker's network is the only reliable way to get them. What would settle it is a
-comparison nobody here has published, the same jobs at both kinds of garage checked independently.
-The next section shows that in both countries the law leaves the choice to you.
+comparison nobody here has published on quality, the same jobs at both kinds of garage checked
+independently. The next section shows what the law in each country lets a maker's warranty require,
+and what it doesn't.
 
 ## Warranties and servicing outside the dealer
 
@@ -254,8 +261,8 @@ servicing: "No warrantor may condition the continued validity of a warranty on t
 authorized repair service and/or authorized replacement parts for non-warranty service and
 maintenance", and gives as a prohibited example a warranty that "is void if service is performed by
 anyone other than an authorized `ABC' dealer".[11] The same paragraph ends with the other side: it
-doesn't stop a warrantor "denying liability where the warrantor can demonstrate that the defect or
-damage was so caused."[11]
+doesn't stop a warrantor denying liability for damage caused by "unauthorized" parts or service
+"where the warrantor can demonstrate that the defect or damage was so caused."[11]
 
 The FTC's [consumer page](https://consumer.ftc.gov/articles/auto-warranties-and-auto-service-contracts) puts it plainly: "it's illegal for a dealer to deny your warranty coverage
 because you had routine maintenance or repairs done by someone else." Its exceptions: if the warranty
@@ -280,15 +287,21 @@ claim in question is causally linked i) to a failure on the part of a repairer t
 particular repair or maintenance operation in the correct manner, or ii) to the failure of a spare
 part supplied by a third party." And terms that "clearly state the consumer's right to use the services
 of an independent repairer without losing the benefit of the warranty are unlikely to give rise to
-competition concerns" (5.41).[14] The block exemption order this guidance sits beside "ceases to have
+competition concerns" (5.41). The guidance also says that where an extended warranty is sold "years
+after the purchase of the vehicle", independent garages are less likely to be shut out "even if" it
+carries servicing or parts restrictions (5.39).[14] Which? notes that some extended warranties require
+a main dealer.[30] The block exemption order this guidance sits beside "ceases to have
 effect at the end of 31st May 2029".[15]
 
 Read the UK wording as written. It is guidance on competition law between makers and their networks,
-and it says "likely to be caught" and "may be caught". It doesn't, in its own words, give the owner a
-right in the way the US rule does, and this course read no UK consumer statute on the point. The
-practical line, which is **this course's reading** of the guidance: servicing by an independent garage
-to the maker's schedule, with parts of matching quality and a record of the work, shouldn't by itself
-cost you the warranty, and a bad repair or a failed third-party part can still get a claim refused.
+and it says "likely to be caught" and "may be caught". The US rule forbids the warranty term
+itself; the CMA's guidance says an agreement between a maker and its network that contains one is
+likely to be caught by competition law. It speaks of "the consumer's right" to use an independent
+repairer (5.40, 5.41) without creating one, and this course read no UK consumer statute on the point.
+The practical line, which is **this course's reading** of the guidance: servicing by an independent
+garage to the maker's schedule, with parts of matching quality and a record of the work, shouldn't by
+itself cost you the warranty, though an extended warranty bought later may require the dealer, so
+read its terms; and a bad repair or a failed third-party part can still get a claim refused.
 
 | | In the UK | In the US |
 |---|---|---|
@@ -309,20 +322,19 @@ warns that "do-it-yourself maintenance may affect warranty coverage".[3] Doing t
 
 What to keep: the date, the mileage, what was done and to which schedule, the parts used (genuine or
 not, which The Motor Ombudsman's code says a garage should agree with you in advance), and the
-invoice.[9] An accredited garage in the
-UK keeps its own records "for six years from the point of the completion of the Work".[9]
+invoice.[9]
 
 ## A hybrid in Ulverston
 
 This is general information, not legal advice.
 
 A hybrid bought new two years ago is garaged in Ulverston, in England, and is still inside the
-maker's warranty. The owner has it serviced by an independent garage, to the maker's schedule, with
+maker's original new-car warranty. The owner has it serviced by an independent garage, to the maker's schedule, with
 an itemised invoice. A year later a fault appears in a part the warranty covers.
 
 Work it through. The CMA's guidance says a warranty that makes cover conditional on dealer-only
-servicing of non-warranty work is "likely to be caught" by competition law, so the independent
-service by itself shouldn't be a reason to refuse. The question the maker can legitimately ask is
+servicing of non-warranty work is "likely to be caught" by competition law, so, on this course's
+reading, the independent service by itself shouldn't be a reason to refuse. The question the maker can legitimately ask is
 5.37's: is the fault "causally linked" to the independent garage's work done incorrectly, or to a
 third-party part that failed?[14] If the answer is no, that exception doesn't reach the claim.
 
@@ -330,8 +342,7 @@ What the owner does: put the claim to the maker's dealer with the service invoic
 schedule was followed and which parts were fitted; ask for any refusal in writing, with its reason;
 and read the warranty booklet's own terms, since the guidance is about what makers' agreements may
 contain, not a promise about any single claim. If the garage is accredited, The Motor Ombudsman's
-Service and Repair Code applies to its work, and lesson 25 covers the dispute routes. That's the
-course's reading.
+Service and Repair Code applies to its work, and lesson 25 covers the dispute routes.
 
 ## A refused claim in Scottsdale, with a gap for you
 
@@ -349,13 +360,11 @@ the last sentence of 16 CFR 700.10(c). Who has to show what?
 
 Not by itself. The FTC: "Your warranty stays in effect if you use aftermarket or recycled parts", and
 "The manufacturer or dealer must prove the aftermarket or recycled part caused the damage before they
-can deny warranty coverage."[12] The rule says the same from the warrantor's side: it may deny
+can deny warranty coverage."[12] The rule points the same way from the warrantor's side: it may deny
 liability "where the warrantor can demonstrate that the defect or damage was so caused."[11] So the
 owner asks, in writing, for the evidence that the filter caused the fault, and keeps the invoices
 showing the oil changes were done on schedule. If the dealer shows the filter did cause it, the
-refusal for that damage can stand. For a dispute about warranties, the FTC's advice is the shop
-manager or owner first, then "your Attorney General or local consumer protection agency", or small
-claims court;[5] lesson 25 has the rest.
+refusal for that damage can stand. Lesson 25 has the dispute routes.
 :::
 
 ## "Extended warranties", and the call that sells one
@@ -365,13 +374,12 @@ This is general information, not legal advice.
 The FTC draws a line that the words blur: an auto service contract, sometimes called an "extended
 warranty", is something you buy separately, and "An auto service contract or extended warranty is not
 a warranty as defined by federal law, because you buy it separately; it’s not included when you buy a
-car."[12] Its page lists the questions to ask before buying one.[12] Whether one is worth buying is Personal Finance lesson 8's
+car."[12] Whether one is worth buying is Personal Finance lesson 8's
 question, "Handing off what you cannot absorb", and this course doesn't answer it.
 
 **In the UK the words run differently.** The Motor Ombudsman's code defines an "Extended Warranty" as
 "Any warranty, excluding the New Vehicle Warranty, that has either been provided free-of-charge or has
-been bought by you directly."[9] Neither country's usage is wrong; they're different definitions for
-different purposes, and the thing to read is the contract.
+been bought by you directly."[9] Neither usage is wrong; read the contract.
 
 Then the call. The FTC: "This is an illegal robocall and likely a scam. The companies behind this type
 of robocall are not with your car dealer or manufacturer, and the "extended warranty" they're trying
@@ -386,18 +394,15 @@ warranty's end date, ring the dealer on a number you found yourself. Personal Fi
 
 This is general information, not legal advice.
 
-Checking a garage is **Yours**, and it costs nothing. What you're checking depends on the country,
-and the credentials don't all mean the same thing.
+Checking a garage is **Yours**, and it costs nothing, but each credential means something different.
 
-| | What it is | Law or voluntary | What it tells you |
-|---|---|---|---|
-| The Motor Ombudsman accreditation (UK) | A garage signs up to its CTSI-approved code | Voluntary | The garage has accepted the code, including its complaints route |
-| IMI TechSafe (UK) | A recognition on the IMI's Professional Register | Voluntary | The person holds certain qualifications and keeps up training |
-| ASE certification (US) | A test per area, plus work experience | Voluntary | A technician passed a knowledge test in an area |
-| BAR registration (California) | Every automotive repair dealer must register | Law | The shop is registered, and BAR lists any discipline |
-| Michigan mechanic's certificate | A specialty or master mechanic needs a state certificate | Law | The individual holds the state's certificate |
-
-Each needs its own caution, in its own words.
+| | Law or voluntary | What it tells you |
+|---|---|---|
+| The Motor Ombudsman accreditation (UK) | Voluntary | The garage has accepted the code, approved by the Chartered Trading Standards Institute, including its complaints route |
+| IMI TechSafe (UK) | Voluntary | The person holds certain qualifications and keeps up training |
+| ASE certification (US) | Voluntary | A technician passed a knowledge test in an area |
+| BAR registration (California) | Law | The shop is registered, and BAR lists any discipline |
+| Michigan mechanic's certificate | Law | The individual holds the state's certificate |
 
 **The Motor Ombudsman** is not a statutory ombudsman. It says it "is funded by annual accreditations
 and service fees paid for by businesses that meet the strict requirements to be a part of the
@@ -408,10 +413,8 @@ The Motor Ombudsman"; that's Citizens Advice's recommendation of one industry-fu
 
 **The IMI**, the motor industry's professional body, also sells the qualifications it recognises. Its
 page: "IMI TechSafe is a recognition of skills, qualification achievements and a commitment to CPD
-within the IMI Professional Register." It isn't required by law; the IMI's own release on a May 2026
-event reports that "just over a third of technicians have some level of qualification to work on
-electric vehicles" and calls the Automated Vehicles Act 2024 "an immediate and practical policy hook
-for mandating of TechSafe".[17] For a hybrid or electric car, lesson 14 explained why high-voltage work
+within the IMI Professional Register." It isn't required by law: at a May 2026 event the IMI hosted,
+participants called on government to make it so, as lesson 14 described.[17] For a hybrid or electric car, lesson 14 explained why high-voltage work
 is graded by training and is never owner work; this is where you'd look.
 
 **ASE**, the US certifying body, describing its own credential: "We certify the service individual so
@@ -447,8 +450,9 @@ will be good, which is why you keep the invoice.
 
 This is general information, not legal advice.
 
-One US state has written the dealer-or-independent question into law, and the argument over it is
-still in court.
+One US state has passed a law on access to a car's repair information and data, which its supporters
+call right to repair and the carmakers' complaint calls the "Data Law", and the argument over it went
+to court.
 
 ### What the law says
 
@@ -456,10 +460,11 @@ Massachusetts General Laws chapter 93K, section 2, requires carmakers selling th
 for purchase, to owners and independent repair facilities, "the same diagnostic and repair
 information, including repair technical updates, that such manufacturer makes available to its
 dealers" (subsection (a)), and the same diagnostic tools (subsection (c)).[22] Subsection (f), added by the 2020 ballot, requires cars from model year 2022
-that use telematics (systems that send the car's data wirelessly to the maker) to have "an
-inter-operable, standardized and open access platform across all of the manufacturer's makes and
-models", reachable by the owner through an app and, with the owner's authorisation, by an independent
-repair facility.[22]
+that use telematics (systems that send the car's data wirelessly to the maker) to give owners, and
+independent repairers they authorise, access to the car's mechanical data. That access "shall include
+the ability to send commands to in-vehicle components if needed for purposes of maintenance,
+diagnostics and repair", and a repairer's is "limited to the time to complete the repair or for a
+period of time agreed to by the vehicle owner".[22]
 
 The votes, from the Secretary of the Commonwealth's statistics: in 2012, Question 1 (repair
 information) passed with 2,353,603 votes yes (85.7%) to 392,562 no (14.3%); in 2020, Question 1
@@ -478,15 +483,17 @@ The official [2020 voter guide](https://www.sec.state.ma.us/divisions/elections/
 these arguments."[25] The ballot committee for the law, Massachusetts Right to Repair, wrote: "We passed
 the first Right to Repair law in 2012, but as new cars become more computerized auto manufacturers are
 using a loophole to restrict access to data needed to diagnose problems, make repairs, and perform
-maintenance." And: "This means car owners are steered toward more expensive dealer repair options."
-On privacy: "Voting YES provides access ONLY to mechanical and repair information, not personal
+maintenance." And: "This means car owners are steered toward more expensive dealer repair options.
+Vote YES to protect independent repair shops and preserve your ability to shop around." On privacy: "Voting YES provides access ONLY to mechanical and repair information, not personal
 information." And its conclusion: "It’s your car, you paid for it, you should get it fixed where you
 want."[25]
 
 The Auto Care Association, the independent aftermarket's trade body, argues the same way today: the
 law "allows car owners to choose who can access their vehicle's repair and maintenance data while
 preserving its cybersecurity", and "Without that data, independent shops can't fully service today's
-connected vehicles."[7] Their interest: independent shops and parts sellers gain the work.
+connected vehicles." And: "This law means Massachusetts car owners keep deciding where their vehicle
+gets maintained and repaired, which keeps the state's repair market competitive."[7] Their interest:
+independent shops and parts sellers gain the work.
 
 ### The case against, in its opponents' own words
 
@@ -495,18 +502,22 @@ The 2020 committee against, the Coalition for Safe and Secure Data, wrote in the
 your personal vehicle information and access it remotely, including location data in real time." It
 quoted domestic violence advocates on the danger of location data, and ended: "Privacy advocates,
 cybersecurity experts, and domestic violence advocacy groups urge you to vote NO on Question 1."[25]
-This course didn't read who funded that committee, and says nothing about it.
 
 The Alliance for Automotive Innovation, whose members it describes as "The nation’s leading car and light
 truck manufacturers", made the legal case in its complaint. On security: "Each member recognizes that
 access to that data, and to the secured vehicle systems that generate that data, could, in the wrong
 hands, spell disaster." And: "Massachusetts’s new Data Law will reduce the security of these systems,
-seriously hampering manufacturers’ attempts to keep vehicle data and vehicle systems safe." On the
-need for it: "But consumers already enjoy the freedom to have their vehicles repaired at the shops of
+seriously hampering manufacturers’ attempts to keep vehicle data and vehicle systems safe." The complaint
+leans on the federal vehicle safety regulator, NHTSA, quoting its 2020 testimony to the state
+legislature that the measure would force "vehicle manufacturers to redesign their vehicles in
+a manner that necessarily introduces cybersecurity risks, and to do so in a timeframe that makes
+design, proof, and implementation of any meaningful countermeasure effectively impossible." This
+course read the complaint's quotation, not NHTSA's letter. On the need for it: "But consumers already enjoy the freedom to have their vehicles repaired at the shops of
 their choice." And: "There is no evidence that members of Auto Innovators have blocked independent
 auto repair shops from accessing data necessary to assess vehicle performance and conduct maintenance
 and repair."[26] Their interest: the makers build the systems, run the dealer networks, and answer
-for the cars' security.
+for the cars' security. This course didn't read who funded either ballot committee, and says nothing
+about it.
 
 ### What kind of question this is, and what would settle it
 
@@ -517,29 +528,29 @@ would settle it: independent security testing of platforms built to the law, and
 repairs independents can and can't do on connected cars. Part is **legal**, and that's for the court.
 And part is a **value** question: who should control the data a car sends, and how to weigh an owner's
 choice against a security risk. Voters answered it twice for Massachusetts, by large margins; that
-settles what the state's law is, not whether the law is wise, and this course takes no side. Read each side at its strongest before you weigh it, as Logic and Argument lesson 7 asked.
+decided what the statute says, not whether it survives the court challenge or whether it is wise, and
+this course takes no side. Read each side at its strongest before you weigh it, as Logic and Argument lesson 7 asked.
 
 :::predict Before you read on: what do both sides, in the words quoted, agree on?
 
-That an owner should be able to choose where the car is repaired. The supporters make it their
-conclusion; the Alliance's complaint says consumers "already enjoy the freedom" to do it. They disagree
+That an owner should be able to choose where the car is repaired. The ballot committee for the law makes it
+its conclusion; the carmakers' trade association's complaint says consumers "already enjoy the freedom" to do it. They disagree
 about whether the old law secured that choice for connected cars, and about the security cost of the
 new one.
 :::
 
 ## What people get wrong
 
-**"An independent garage voids the warranty."** In the US, federal law bars a warrantor from making
-cover depend on dealer servicing the warranty doesn't provide free; in the UK, the CMA's guidance says such conditions are likely
-caught by competition law. In both, a claim can still be refused for damage caused by bad work or a
-failed part. See the warranty section above.
+**"An independent garage voids the warranty."** Not by itself, in either country, though a claim can
+still be refused for damage caused by bad work or a failed part, and some extended warranties bought
+later do require a main dealer. The warranty section above has each country's rule.
 
 **"Change the oil every 3,000 miles."** Your handbook's schedule, normal or severe, or its monitor
 within the handbook's limits.
 
 **"Certified means honest."** The FTC: certification "alone is no guarantee of good or honest work".
 
-**"ASE certifies garages."** It certifies individuals; a shop's recognition depends on its staff.
+**"ASE certifies garages."** It certifies individuals; a shop can qualify for a separate recognition programme.
 
 **"An extended warranty is a warranty."** In the US, not under federal law: it's a service contract
 you buy separately. In the UK, The Motor Ombudsman's code calls it a warranty. Read the contract.
@@ -574,33 +585,29 @@ do when a bill goes wrong.
 
 ## Connections
 
-Lesson 1 made the handbook the authority for every per-car figure and met the 3,000-mile myth;
-lesson 12 showed how advice gets revised. Lesson 6 used the LEAF's schedule for brake fluid, and
-lesson 2 the cambelt's interval. Lesson 14 is why an electric or hybrid car needs a technician trained
-for high voltage. Lesson 23 covered recalls, which are separate from any warranty. Home Repair
-lessons 22 and 23 set out licensing and hiring for the house; Personal Finance lessons 8 and 10 cover
-buying cover and getting money back; Digital Literacy lesson 11 covers the call. Lesson 25, "Quotes,
-estimates, the bill and disputes", takes you from choosing the garage to paying it.
+Lesson 1 made the handbook the authority for every per-car figure; lesson 12 showed how advice gets
+revised. Lesson 23 covered recalls, which are separate from any warranty. Home Repair lessons 22 and
+23 set out licensing and hiring for the house. Lesson 25, "Quotes, estimates, the bill and disputes",
+takes you from choosing the garage to paying it.
 
 ## Go deeper
 
 - **FTC, ["Auto Warranties and Auto Service Contracts"](https://consumer.ftc.gov/articles/auto-warranties-and-auto-service-contracts)**,
-  free. Read here in full. The US rules on warranties and servicing, and the full list of questions to
+  free. The US rules on warranties and servicing, and the full list of questions to
   ask about a service contract.
 - **CMA, ["Guidance on motor vehicle agreements"](https://assets.publishing.service.gov.uk/media/647d9cb15f7bb700127fa41a/2.0_CMA_Guidance_on_Motor_Vehicle_Agreements.pdf)**
-  (June 2023), free. This course read paragraphs 5.35 to 5.41 on warranties closely; the rest of the
-  document covers parts, technical information and repair networks, and wasn't read for this lesson.
+  (June 2023), free. This course read paragraphs 5.35 to 5.41 on warranties; the rest covers parts,
+  technical information and repair networks.
 - **Massachusetts, [2020 "Information for Voters"](https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/IFV_2020-English.pdf)**,
-  free. Read here for Question 1. Both sides' arguments side by side, with the full text of the law.
+  free. Both sides' arguments side by side, with the full text of the law.
 
 ## Sources
 
 1. Nissan North America, [2024 LEAF Owner's Manual and Maintenance Information](https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2024/2024-nissan-leaf-owner-manual.pdf),
-   US market. **Read: pp. 9-5 and 9-6 ("Maintenance and schedules") in full, 26 September 2026.** <!-- lesson 24/25 gate closures -->
+   US market. **Read: pp. 9-5 to 9-9 ("Maintenance and schedules") in full, 26 September 2026.** <!-- lesson 24/25 gate closures -->
 2. Ford Motor Company, [2024 Maverick Owner's Manual](https://www.fordservicecontent.com/Ford_Content/Catalog/owner_information/2024_Ford_Maverick_Owners_Manual_version_1_om_EN-US.pdf),
    edition 202307, US and Canada. **Read: pp. 456 to 458 ("Scheduled Maintenance") from the Internet
-   Archive capture of 5 May 2025 (20250505042038), 26 September 2026**; Ford's site refuses automated
-   readers. The website it points to for intervals was not read. <!-- lesson 24/25 gate closures; SOURCES Part B §2 -->
+   Archive capture of 5 May 2025 (20250505042038), 26 September 2026**. The website it points to for intervals was not read. <!-- lesson 24/25 gate closures; SOURCES Part B §2 -->
 3. Toyota, [2023 Corolla Owner's Manual (OM02568U)](https://assets.sia.toyota.com/publications/en/om-s/OM02568U/pdf/OM02568U.pdf),
    US market. **Read: pp. 295 to 296 ("Maintenance requirements"), 26 September 2026.** The separate
    Scheduled Maintenance Guide was not read. <!-- lesson 24/25 gate closures -->
@@ -640,7 +647,7 @@ estimates, the bill and disputes", takes you from choosing the garage to paying 
     2026.** <!-- SOURCES Part B §5; lesson 24/25 gate closures -->
 18. ASE, ["About ASE"](https://www.ase.com/about-ase). US certifying body, on its own credential.
     **Read: in full from the Internet Archive capture of 14 June 2026 (20260614094747), 26 September
-    2026**; ase.com refuses automated readers. <!-- SOURCES Part D §6; lesson 24/25 gate closures -->
+    2026**. <!-- SOURCES Part D §6; lesson 24/25 gate closures -->
 19. [California Business and Professions Code § 9884.6](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=9884.6).
     California. **Read: in full, 26 September 2026.** <!-- SOURCES Part D §5; lesson 24/25 gate closures -->
 20. California Bureau of Automotive Repair, ["Maintenance and repairs"](https://www.bar.ca.gov/auto-repairs).
@@ -658,6 +665,16 @@ estimates, the bill and disputes", takes you from choosing the garage to paying 
 25. Secretary of the Commonwealth of Massachusetts, [2020 "Information for Voters"](https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/IFV_2020-English.pdf),
     Question 1. **Read: the Question 1 pages in full, 26 September 2026.** <!-- lesson 24/25 gate closures, G-N2 -->
 26. Alliance for Automotive Innovation, Complaint, *Alliance for Automotive Innovation v. Healey*, No.
-    1:20-cv-12090 (D. Mass.), filed 20 November 2020. **Read: pages 1 to 5 (the Introduction), from the
+    1:20-cv-12090 (D. Mass.), filed 20 November 2020; the same case as 24, under its earlier caption. **Read: pages 1 to 5 (the Introduction), from the
     Internet Archive capture of 30 May 2026 (20260530044526) of the copy [hosted by Repairer Driven News](https://www.repairerdrivennews.com/wp-content/uploads/2020/12/auto-innovators-v-healey-20201120-complaint.pdf),
     26 September 2026.** <!-- lesson 24/25 gate closures, G-N2 -->
+27. CalRecycle, ["Check Your Number, Because 3,000 Miles May Be Too Early to Change Your Oil"](https://calrecycle.ca.gov/usedoil/oilchange/).
+    California state agency. **Read: in full, 26 September 2026.** <!-- SOURCES Part A §6; Stage 4 note, lesson 24 -->
+28. YourCar-YourChoice, [home page](https://yourcaryourchoice.co.uk/). UK campaign by the independent
+    aftermarket, administered by the Independent Automotive Aftermarket Federation, a trade body.
+    **Read: in full, 26 September 2026.** Its statements about the law were not relied on. <!-- Stage 4 note, lesson 24 -->
+29. Which?, ["Car servicing and repair costs"](https://www.which.co.uk/reviews/new-and-used-cars/article/car-maintenance-costs-ak42T6h2YcqS)
+    (9 June 2026). UK consumer body; earns commission from some retailer links. **Read: in full, 26
+    September 2026.** Its statement about the law was not relied on. <!-- Stage 4 note, lesson 24 -->
+30. Which?, ["How to find a good garage and get the best service"](https://www.which.co.uk/reviews/new-and-used-cars/article/how-to-find-a-good-garage-am8d52i5tQoY)
+    (28 April 2026). UK consumer body. **Read: in full, 26 September 2026.** <!-- Stage 4 note, lesson 24 -->

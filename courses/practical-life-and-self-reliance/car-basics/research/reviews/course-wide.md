@@ -473,3 +473,31 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   11's next open; not edited here.
 - **Quiz keys:** 22 1,2,1,3,0 (unchanged by the fix); quiz 5 replaced (safety half against emissions
   half on a New York inspection).
+
+## 2026-09-26 — Lesson 24 fix pass: notes for later lessons
+
+- **The UK independents now have their own voice:** YourCar-YourChoice, "administered by the IAAF"
+  (the Independent Automotive Aftermarket Federation, a trade body). Its legal claims (the EU block
+  exemption regulation; "you will NOT invalidate the warranty") are never used; the CMA guidance is
+  the course's UK authority. Which?'s "consumer law dictates" line is not used either.
+- **Which?'s £361 and £260 are owners' reported yearly totals for servicing, parts included** (63,334
+  owners, April to June 2025), never "the price of a service" at each. Always with its fixed-price
+  dealer point beside them, and its affiliate-commission label. They are the one exception to decision
+  11's no-prices rule, made for the neutrality fix; the test and script say "Which?'s survey".
+- **Mazda's "Authorised Mazda technicians ..." is never quoted without its lead-in** ("If you are
+  unsure about any procedure it describes, we strongly urge you ..."): it is advice to an owner about
+  DIY, not a claim against independent garages.
+- **CMA 5.39 travels with "whether standard or extended":** an extended warranty sold years after the
+  car is less likely to foreclose independents even with servicing restrictions, and some extended
+  warranties require a main dealer. Never "an independent garage can't cost you any warranty".
+- **The UK has no owner right in terms, but the CMA speaks of "the consumer's right" (5.40, 5.41).**
+  Say the US rule forbids the term and the CMA says an agreement containing it is likely to be caught;
+  never "there is no right".
+- **Massachusetts:** the law is "access to a car's repair information and data", not "the
+  dealer-or-independent question"; the security case carries the statute's "send commands" clause and
+  NHTSA's 2020 testimony as the complaint quotes it (the letter itself unread; the 2023 NHTSA letter is
+  on the `unread:` line); the court story is past tense ("went to court"), outcome unknown. Funding of
+  either ballot committee wasn't read; say so of both or neither.
+- **The IMI "policy hook" sentence is the event participants', not the IMI's.** SOURCES now records that
+  "calling on government to mandate its use" is in the release.
+- **Quiz keys:** 24 1,0,3,2,3,1 (unchanged by the fix).
