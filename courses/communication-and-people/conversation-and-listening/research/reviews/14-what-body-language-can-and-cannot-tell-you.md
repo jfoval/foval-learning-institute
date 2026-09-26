@@ -445,3 +445,101 @@ longest. New name: Rosalind (grep empty). `npm run quotes conversation-and-liste
 `npm run validate`: exit 0, nothing on this file.
 
 **Status after review:** clean
+
+## Fresh second pass (2026-09-26)
+
+**Checker:** one fresh-context re-checker (neither drafter, reviewer nor fixer), against a7e05ae,
+diffing the lesson against a7e05ae~1, with a whole-lesson neutrality re-count. Re-fetched today by
+curl (generic browser User-Agent, no personal data): Vrij, Hartwig and Granhag 2019 (gwern.net PDF,
+pdftotext), Denault et al. 2020 (copmadrid, live), Carney 2016 (Berkeley Haas, live), GAO-14-159
+report (Internet Archive capture of 25 November 2020), Hale and Hamilton 2016 (Internet Archive
+capture of 2 February 2025 of PMC5064448) and the BPS article (live). **Every new or changed
+quotation string-matched** after normalising quotes and spacing: "more promising"; Denault's "suffers
+from fatal methodological shortcomings", "small sample, no comparison group of untrained or lay
+evaluators", "some other aspects of BAI may offer avenues for research", and the unchanged Reid,
+manual, SPOT and Harrigan strings; Carney's "p-hacked" (item 10: "The self-report DV was p-hacked");
+GAO's "holds promise" sentence; Hale and Hamilton's abstract (50 in Study 1, "Rapport was higher
+towards mimicking avatars", forty in the preregistered Study 2, "no effects of mimicry on rapport or
+trust") and the General Discussion's "we consider Study 2 to be the more definitive. This is because
+Study 1 was an exploratory study". `npm run quotes conversation-and-listening`: 292, 0 not found.
+
+**F1, verified on the source.** The PDF text reads, verbatim: "Ten of the 14 cues listed in Table 1
+have a nonverbal element, and the average effect size for these nine cues is d = 0.26", then "The
+results for the verbal cues are more promising ... Eight of the cues listed in Table 1 contain a
+verbal element, and the average effect size for the eight cues is d = 0.30. Moreover, only a small
+majority of verbal cues (10 out of 18, or 55%) was unrelated to deception", with "35 of the 50 cues
+... (25 out of 35, or 71%)" between them. The lesson's bullet (8 of 18 verbal against 10 of 35
+nonverbal related; 0.30 against 0.26 among the related cues; 62% "on one of those eight cues"), §2.7
+and C2 all now say this correctly. **One provenance slip:** the passage is on **p. 302**, after Table
+1's page footer "301", not p. 301 as F1 and the SOURCES gate closure say. The lesson gives no page;
+the correction is appended to SOURCES ("Gate closures, lesson 14 fresh second pass").
+
+**F2 to F9 and P1 to P13: all resolved in the text as recorded,** checked line by line against the
+diff. F5's "the word, the tone and the face don't agree" reads as a three-way conflict where each
+1967 study set two channels against each other; the predict above it states the pairwise design, and
+the papers are unread (G6), so it stands. The Vrij bullet's "So the difference is mostly in how many
+cues work, not in how strong the working ones are" is the course's inference from the two figures
+just given, and it follows from them directly; not a finding.
+
+**Read levels.** Hale and Hamilton (Source 26, "the abstract ... and the full text searched for the
+authors' judgement"): every clause the lesson gives is in the abstract except "exploratory" and "more
+definitive", which are the searched General Discussion sentence; nothing else from the full text is
+used (the eight Study 2 exclusions for noticing are not claimed). Horvath, Jayne and Buckley 1994:
+named only as the study Denault et al. say is "often presented as supporting" the interview, flagged
+"which this course hasn't read", with the critique in Denault's words; not a numbered source. Nothing
+cited is on the unread line (validate enforces it and exits 0); the unread items the lesson names
+(Harrigan, the Reid manual, Carney, Cuddy and Yap 2015, Cuddy et al. 2018, Credé, DHS's letter) are
+each flagged in the body or in Sources 14 and 32 as known at one remove, and each chain is in
+SOURCES.
+
+**Two one-edit fixes made here.**
+1. **Quiz 5's key was the sole longest option** (77/79/74/75), against the "Final measures" line,
+   which recorded the same lengths and said the key never was. "failed to replicate" → "didn't
+   replicate": now 77/76/74/75, spread 3.
+2. **Elkjær's "48 of them pooled"** comes from the BPS article, not the abstract the lesson says it
+   read; the sentence now carries [32] after "pooled,". Recorded in SOURCES.
+
+**Numbers.** Chart re-extracted and rendered headless (Chrome, playwright-core) in light and dark at
+375 and 720 px with the site's tokens: every `text` and `rect` `getBBox` inside the 420 × 320
+viewBox (rightmost edge x = 333.9, lowest y = 316.7); labels 12.3 px at phone width, 24.3 at 720;
+oxblood and grey bars legible in both themes; the heading, footer and d = 0.03 line all draw. Bars
+at 4 px per point still 255, 113, 101, 100. Quiz keys **0,3,2,0,1,3**; lengths 86/83/90/93,
+80/81/81/79, 75/68/72/74, 87/90/83/84, 77/76/74/75, 76/82/74/79 (spreads 10, 2, 7, 7, 3, 8); the
+key is now never the sole longest; each item has at least two options with no absolute; each
+explanation matches its key and answers every distractor by content (quiz 2's 39% and "face only"
+routes, quiz 3's 55% route traced as 30 against 25, quiz 6's "handbook chapter").
+
+**Neutrality, re-counted across the whole lesson.** *Faces:* basic-emotion side [19] in own words,
+[20], [21]; constructionist [18] in own words twice, [22], [23]; the r = .32 guard applies to
+Barrett's own number; common ground, then the settling design, then a checkpoint that states each
+side's view in its own terms; misconceptions one each way. *Lie detection:* the demeanour-only
+verdict is SOURCES' classification (C2), and the over-correction ("nobody can ever tell") is
+corrected alongside the popular errors. *Practitioners:* Reid's description, the manual's hedged
+sentence and culture caution, the Horvath study as their evidence and Denault's concession "some
+other aspects of BAI may offer avenues"; SPOT's indicators, DHS's three objections, and GAO's "holds
+promise" concession. *Mimicry:* Chartrand and Bargh, Hale and Hamilton Study 1 positive, Study 2
+null, the authors' own weighting, the review's "may be fragile"; labelled contested. *Power posing:*
+felt-power side has Ranehill's own felt-power result, the special issue's "clear" felt-power effect,
+Cuddy et al. 2018 and Cuddy's quotation as the last word of the evidence; against, Carney (now with
+"p-hacked"), Simmons and Simonsohn, Credé and Elkjær; hormones and behaviour settled per decision 12,
+felt power contested with a settling design. Balanced.
+
+**Turing test.** *Basic-emotion researcher:* passes; the "upwards of 20 ... multimodal" position,
+not the six-face caricature. *Constructionist:* passes; "an expression of anger, but not the
+expression" and the agreement "more than ... chance" are both there. *Reid-trained interviewer:*
+passes; the manual is quoted with "generally speaking" and its own culture caution, their supporting
+study is named, and the lesson says plainly that it read the critique and not the study or the
+manual. They would still say their evidence is heard only through its critics, which the lesson
+admits. *TSA/SPOT officer:* passes; DHS's case is set out in three points and GAO's concession is
+quoted, though the order is GAO's verdict first. The promise now says "with the answer to it", not
+"first", so the order doesn't break it. *Cuddy's side of power posing:* passes; felt power is given
+as a live and legitimate outcome in their words, and her retraction-free defence is quoted last.
+
+**Commands.** `npm run minutes`: 7,748 words, 90, matches. `npm run validate`: exit 0, nothing on
+this file.
+
+**Process note.** While this pass was running, another session's commit 67ee07b ("lesson 13: Stage
+4 review applied") took in SOURCES.md with this pass's first appended bullet; the heading above it
+was added afterwards and is uncommitted, with the two lesson edits.
+
+**Verdict: SETTLED.**

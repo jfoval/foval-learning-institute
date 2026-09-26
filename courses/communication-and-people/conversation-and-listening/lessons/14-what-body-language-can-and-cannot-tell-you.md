@@ -84,7 +84,7 @@ quiz:
       lesson support?
     options:
       - The claims are sound, since a larger study in 2015 confirmed the 2010 results
-      - The hormone and boldness claims failed to replicate; felt power is still argued
+      - The hormone and boldness claims didn't replicate; felt power is still argued
       - The whole idea was shown to be fraud, and the original paper was retracted
       - Posing works, but only if held for six minutes, as the authors later showed
     answer: 1
@@ -542,7 +542,7 @@ outcome in its own right, reporting strong evidence for effects on felt power. T
 read that paper; it knows it through the same BPS article, which reports it that way.[32] On the
 other side, Marcus Credé pointed out, again as that article reports, that most of those studies had
 no neutral posture to compare with, so a difference between expansive and slumped poses could come
-from slumping making people feel worse.[32] A review of 73 studies, 48 of them pooled, by
+from slumping making people feel worse.[32] A review of 73 studies, 48 of them pooled,[32] by
 Emma Elkjær and colleagues, published online in 2020 and read here as an abstract, points the same way: slumped against neutral postures showed
 an effect of g = 0.45, expansive against neutral only 0.06, and they conclude "it is the absence of
 contractive displays rather than the presence of expansive displays that alters affective and
