@@ -46,8 +46,9 @@ quiz:
     explain: >-
       Count from the last change: 3 years and 52,000 miles. The mileage limit has passed although the
       years haven't, and the RAC's rule is "whichever comes first". Waiting for the fourth year reads
-      the rule as "whichever comes last". Waiting for warning signs ignores the RAC's own line, "Many
-      cambelts show no obvious symptoms before failure." And the RAC says an MOT won't check the
+      the rule as "whichever comes last". Waiting for warning signs ignores what the RAC adds after its
+      five signs and its advice to have them checked: "Many cambelts show no obvious symptoms before
+      failure." And the RAC says an MOT won't check the
       cambelt; this course read nothing saying a US state inspection does either.
   - q: >-
       On fueleconomy.gov's account of a conventional petrol car, where does most of the energy in
@@ -70,9 +71,9 @@ quiz:
     options:
       - A spark from the glow plugs, which fire once in each four-stroke cycle to light the fuel
       - A spark plug as in a petrol engine, but firing later in the cycle than a petrol one does
-      - Fuel sprayed into air the piston has compressed and so made hot, which makes it ignite
       - Heat from the exhaust, which is drawn back into the cylinder during each intake stroke
-    answer: 2
+      - Fuel sprayed into air the piston has compressed and so made hot, which makes it ignite
+    answer: 3
     explain: >-
       DOE: in a diesel "only air is inducted into the engine and then compressed", and the fuel is
       sprayed "into the hot compressed air", "causing it to ignite". AFDC calls this compression
@@ -83,10 +84,10 @@ quiz:
       manual will "always" use less fuel. On fueleconomy.gov's pages, what's the best reply?
     options:
       - "Agree: official figures favour manuals, so the manual is the version to pick for economy"
-      - The automatic often matches or beats it now, and both versions' figures can be compared
       - Agree for petrol models, but a diesel automatic usually matches its own manual version
+      - The automatic often matches or beats it now, and both versions' figures can be compared
       - Agree unless the automatic is a CVT, since CVTs are the automatics that caught up
-    answer: 1
+    answer: 2
     explain: >-
       The myths page says advances have made "the automatic version of a vehicle often" get "the
       same or better fuel economy", and that you can compare the two versions' figures. The same
@@ -190,7 +191,7 @@ mixture, the spark ignites it, causing combustion."[1]
 That's true of some petrol engines and not others. The Alternative Fuels Data Center (AFDC), another
 US Department of Energy site, says the fuel "is injected into either the intake manifold or the
 combustion chamber, where it is combined with air, and the air/fuel mixture is ignited by the spark
-from a spark plug."[2] AFDC doesn't define the intake manifold; what matters here is only that it's
+from a spark plug."[2] AFDC doesn't define the intake manifold; on this course's reading, what matters here is only that it's
 before the combustion chamber, so fuel injected there meets the air on the way in. So a petrol engine may mix its fuel with the air before it reaches the
 combustion chamber, in the intake manifold, which is the case DOE's sentence describes, or inject it
 straight into the chamber. Either way, the spark does the lighting.
@@ -401,7 +402,7 @@ Not reliably. The RAC lists five signs of cambelt failure (a misfire, poor idlin
 difficulty starting, a cracked or frayed belt) and says that if you notice any of them, "it's
 important to have your vehicle checked as soon as possible by a qualified mechanic." Then it adds:
 "Many cambelts show no obvious symptoms before failure."[11] A rule that waits for a symptom will
-sometimes wait too long, which is why the RAC's rule is also a date and a mileage.
+sometimes wait too long, which, on this course's reading, is why the RAC's rule is also a date and a mileage.
 :::
 
 ### The rule: miles or years, whichever comes first
@@ -409,7 +410,8 @@ sometimes wait too long, which is why the RAC's rule is also a date and a mileag
 The RAC's range is wide: "Replacement is typically recommended every 60,000 to 100,000 miles, but
 some vehicle manufacturers may suggest the belt is changed when the vehicle reaches five or six
 years of age".[11] (60,000 to 100,000 miles is about 97,000 to 161,000 km, by this course's
-arithmetic.) That range is the RAC's, across many cars, and it isn't the figure for yours. The RAC
+arithmetic.) Lower down, the same page's FAQ gives a wider range still, "every 40,000 to 100,000
+miles", which is one more reason not to lean on either. That range is the RAC's, across many cars, and it isn't the figure for yours. The RAC
 itself sends you to the handbook: "The replacement interval for your car's cambelt will be detailed
 in the owner's manual for the vehicle. This will be after a specific number of years or miles,
 whichever comes first."[11] And: "Regardless of the cost, it's important to have a cambelt change
@@ -475,7 +477,7 @@ read no source it can rely on about engines without one, so it says nothing abou
 "the handbook gives none" and ask at the next service what your engine has; that's this course's
 suggestion. And the RAC's five signs still matter: its
 advice is to have a car showing any of them checked "as soon as possible by a qualified mechanic".
-They're not a reason to leave a belt past its interval because the car seems fine.
+Their absence isn't a reason to leave a belt past its interval because the car seems fine.
 
 ## Four ways to the wheels: gearboxes
 
@@ -544,7 +546,8 @@ most of the rest is lost in the engine as heat.[4]
 **"The MOT checks the cambelt."** The RAC says your mechanic "will not check your cambelt" at the
 MOT.[11]
 
-**"A cambelt will warn me before it goes."** The RAC gives five signs, then says "Many cambelts show
+**"A cambelt will warn me before it goes."** The RAC gives five signs, says a car showing any of them
+should be checked "as soon as possible by a qualified mechanic", then adds "Many cambelts show
 no obvious symptoms before failure."[11] That is why the rule is the handbook's interval, whichever
 comes first.
 

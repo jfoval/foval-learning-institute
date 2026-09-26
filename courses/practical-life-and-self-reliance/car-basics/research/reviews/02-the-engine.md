@@ -107,3 +107,65 @@ longest option. Places: Thurso, Middlesbrough (unchanged). `npm run quotes car-b
 02. `npm run validate`: exit 0, nothing naming 02.
 
 **Status after review:** clean.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer. Re-read live today with curl (browser user
+agent, HTML stripped, every alt and title attribute kept): the RAC cambelt page (dated 31 July 2026
+on the page), the RAC warning-lights page (18 August 2026), AFDC's gasoline page, and
+fueleconomy.gov atv.shtml. Toyota's 2023 Corolla pp. 305 to 307 and maintain.jsp checked against
+the session's saved text. Every sentence the fixer touched was string-matched; every sum redone.
+
+**What held.** The rebuilt cambelt section is in the RAC's order: five signs (misfire, poor idling,
+unusual noises, difficulty starting, cracked or frayed belt), then "it's important to have your
+vehicle checked as soon as possible by a qualified mechanic", then "Many cambelts show no obvious
+symptoms before failure." The camshaft, sync, MOT, annual-service, interval and "whichever comes
+first" quotations all match. The energy table matches both diagrams' labels, the auxiliary row
+included, and the city alt text does say idle losses sit inside the engine and parasitic rows; 48
+mph is on the page. The oil bullets match the RAC ("lubricating ... irreparable engine damage";
+"stop as soon as safely possible and switch off the engine"), Toyota (consumed while driving; "To
+prevent serious engine damage" / "Check the oil level on a regular basis"; "Avoid overfilling") and
+maintain.jsp ("Energy Conserving" on the API performance symbol). AFDC's glossary sentence matches
+and is the page's only mention of the intake manifold. Sums: 1 to 3 of 10 litres; 6 to 15 of 50,
+35 to 44 lost; 50 L = 11.0 imp gal, 13.2 US gal; 48 mph = 77 km/h; 60,000 to 100,000 miles = 97,000
+to 161,000 km; 58,000 miles = 93,000 km; quiz 2's 52,000 miles; the checkpoint's 6 years, 17,000
+miles, 11 years or 104,000 miles, 3,100 a year, 73,000 miles about 24 years off. Callout identical to
+the briefs' text by script. No em dash, no spaced en dash. Every quiz explanation matches its options
+and names each distractor by content; option spreads 4, 2, 7, 2, 7; the key is never the longest.
+
+**Findings:**
+1. S1 [major, quiz keys] Keys 3,1,0,2,1 breach the convention added today from lessons 2 and 4 ("no
+   run of four may match another lesson's keys shifted by a constant at any offset"): 3,1,0,2 plus 2
+   (mod 4, the course's reading of a value shift, as in lesson 04's R27) is 1,3,2,0, lesson 01's keys
+   at positions 3 to 6 (01 is 3,0,1,3,2,0). The first-pass fixer checked offsets 0 and ±1 only; this
+   is offset 2. No single-item change passes against 01, 03, 04 (now 0,2,3,0,1), 05 and 07 on disk;
+   the two-item options are 3,0,3,2,1, 2,1,0,3,1, 3,1,0,3,2, 0,1,0,2,3 and 2,1,0,2,3, checked by
+   script. Suggested: 3,1,0,3,2 (move item 4's key to D and item 5's to C; both explanations name
+   distractors by content, so neither changes). Not applied: two item edits, not one.
+2. S2 [minor, convention] The misconception "A cambelt will warn me before it goes" and quiz 2's
+   explanation carried the no-symptoms line without the RAC's advice to have a car showing a sign
+   checked, against the briefs' 2026-09-26 bullet. Fixed in both.
+3. S3 [minor, labelling] "What matters here is only that it's before the combustion chamber" (the
+   intake-manifold gloss added for R16) and the predict's "which is why the RAC's rule is also a date
+   and a mileage" are the course's inferences; neither source says either. Labelled "on this course's
+   reading" in both.
+4. S4 [minor, voice/logic] "They're not a reason to leave a belt past its interval because the car
+   seems fine" had the five signs as its subject, so it said the signs are no reason to wait. Now
+   "Their absence isn't a reason ...". Fixed.
+5. S5 [minor, omitted fact] The RAC page is not consistent with itself: its introduction gives 60,000
+   to 100,000 miles (quoted), and its FAQ, further down, "every 40,000 to 100,000 miles". The lesson's
+   "The RAC's range is wide" then understates how wide. Not fixed: the FAQ string is not in SOURCES
+   and this pass does not edit SOURCES. Next fixer: record it [V] and add half a sentence.
+6. S6 [note] The table caption's "HWFET" is not on the page, which says "EPA Highway Fuel Economy
+   Test procedure"; standard abbreviation, left. The RAC page also says the belt "is most likely
+   checked every year during your annual service", slightly stronger than the lesson's "a service
+   might" if asked; not wrong, left.
+7. S7 [note, not this lesson] `npm run validate` warns that lesson 01's quiz item 5 option B parses as
+   an object (an unquoted colon). Belongs to lesson 01; left for its owner.
+
+**Measures after this pass:** 6,758 words, 80 minutes measured (frontmatter 80). `npm run validate`
+exit 0, nothing naming 02.
+
+**Verdict: NEEDS ANOTHER PASS**, for S1 only: re-key two items by script and re-check against every
+lesson on disk. After that, and S5's half-sentence with its SOURCES entry, no further review is
+needed.

@@ -4907,6 +4907,22 @@ on the `unread:` line.*
   working near the battery." [V]; "Keep children away from the battery." [V]; "Always charge the battery in
   an open area." [V]. Toyota's recharging steps are not taught.
 - **AFDC, "How Do Gasoline Cars Work?"** Re-read; Part A's battery quotation stands.
+- **Whole sentences, for quotation** (lesson 05; each copied from the extracted texts above): AAA Mountain
+  West, "while winter weather is most likely to cause your battery to fail, it's actually hot weather that
+  does most of the damage, which becomes evident when the temperature drops and more power is required to
+  get the car started." [V]; "A battery light doesn't usually mean you need (just) a battery, but if it goes
+  on, your battery might have been fatally damaged by a bad alternator." [V]. Nissan 2024 LEAF p. 2-16,
+  CAUTION: "The DC/DC converter system may not be functioning properly if the 12-volt battery charge
+  warning light illuminates continuously when the power switch is in the READY to drive position." [V]
+  HSE INDG139 para 12, whole: "Hydrogen and oxygen are usually produced inside a battery when it is being
+  charged. A source of ignition – for example, a flame, a spark, a cigarette or any hot object, electrical
+  equipment, a mobile phone – will often cause mixtures of these gases to ignite and explode. The
+  explosion is often so violent that it shatters the battery and produces a highly dangerous shower of
+  fragments and corrosive chemicals." [V, the leaflet's spaced dashes]; its "don't" list on page 1
+  includes "Wear a watch, ring, chain, bracelet or any other metal item." [V]. The AA flat-battery page:
+  "If your car battery is flat and your car is less than three years old, then there's a decent chance
+  you'll be able to revive your battery with a jump start or simple recharge. This is also the case if you
+  accidentally left an interior light on in your car and the battery was drained because of it." [V]
 
 ## Stage 4 note, lesson 01 (2026-09-26)
 
@@ -4977,3 +4993,196 @@ the fix used.*
   Suspension; Erjavec's "45. Tires and Wheels." sits in Suspension and Steering and "35. Hybrid
   Vehicles." and "36. Electric Vehicles." under Engine Performance; Denton and Pells' top level is
   engine, electrical, chassis and transmission systems. The three share a core, not a whole division.
+
+## Gate closures, lesson 07 (2026-09-26)
+
+*Read on 26 September 2026 by the lesson 7 drafter, with curl and a browser User-Agent (no personal
+data in any header), text extracted with a small HTML stripper, the GOV.UK content API, the eCFR
+versioner API (version of 24 September 2026) or pdftotext. Quotations marked [V] were copied from
+that extracted text; curly apostrophes are written straight. Nothing here clears an entry on the
+`unread:` line.*
+
+**G-T6 (NHTSA's 511): closed by re-reading the latest capture.** NHTSA, "Tires",
+https://www.nhtsa.gov/vehicle-safety/tires, live page 403 to curl. The Internet Archive's CDX index
+lists no capture after 20260924154655, and every capture from 24 September carries the same content
+digest, so capture 20260924154655 was re-read in full. "In 2024, a total of 511 people died on the
+road in tire-related crashes." [V] stands. New lines used by lesson 7:
+- "Underinflated tires are visually difficult to detect." [V] "It is recommended that you inspect
+  tires monthly with an accurate gauge. The TPMS is not intended to be a substitute for regular tire
+  maintenance." [V]
+- "Keep a tire pressure gauge in your vehicle. A tire can suddenly lose pressure if you drive over a
+  pothole or bump into a curb when you park." [V]
+- The label gives the pressure "measured in both kilopascals (kPA) and pounds per square inch" (the
+  sentence contains a dash; paraphrase only).
+- Step 3: "If the tire pressure is too high in any of the tires, slowly release air by gently
+  pressing on the tire valve stem with the edge of your tire gauge until you get to the correct
+  pressure." [V] Step 4: "If the tire pressure is too low, note the difference between the measured
+  tire pressure and the correct tire pressure. These "missing" pounds of pressure are what you will
+  need to add." [V] "At a service station, add the missing pounds of air pressure to each tire that
+  is under inflated." [V]
+- The warm-tyre passage continues after Part B's "(sentence continues)": "than to drive with a
+  significantly underinflated tire." [V] and "Since this is a temporary fix, don't forget to recheck
+  and adjust the tire's pressure when you can obtain a cold reading." [V] Also: "To get an accurate
+  tire pressure reading, you must measure tire pressure when the tires are cold or compensate for the
+  extra pressure in warm tires." [V]
+- TPMS: "Tire pressure monitoring systems monitor the tire pressure through sensors located in the
+  tires (direct system) or wheel speed use and other vehicle sensors (indirect system)." [V] "All
+  passenger cars, light trucks and vans that are model year 2008 or newer are required to come
+  equipped with this feature." [V] "When the TPMS symbol appears on your dashboard, it means at least
+  one of your tires is significantly underinflated. You should inspect your tires and check the tire
+  pressure as soon as possible." [V] The cold-morning line continues: "This is likely caused by
+  marginally low tire pressure that dips below the warning threshold overnight but rises to an
+  acceptable level as the tires heat up through vehicle operation or an increase in external
+  temperatures." [V] After the malfunction sentence: "The flashing sequence followed by continuous
+  illumination of the warning lamp will repeat at each subsequent vehicle start-up until the
+  malfunction is corrected. You should contact your vehicle dealer for a system inspection." [V]
+- Age and tread (for lesson 8): "Tire aging occurs when the rubber and other components in a tire
+  change over time due to service, storage, and environmental conditions." [V] "Most of us drive our
+  vehicles enough that the tires' treads wear out, and we replace our tires before aging becomes an
+  issue." [V] "In addition to infrequent use, exposure to sunlight and warmer climate, poor storage
+  and poor maintenance also contribute to tire aging." [V] "You cannot detect tire aging simply by
+  looking at your tires." [V] "As tires age, they are more prone to failure." [V] "Look on both sides
+  of the tire. The TIN may not be on both sides." [V] "You should stop using tires for several
+  reasons, including if a tire's tread is worn down to a minimum depth using the penny test, signs of
+  physical damage (cuts, cracks, bulges, etc.), or signs of irregular wear or other damage due to
+  underinflation or overloading." [V] "Tire tread provides the gripping action and traction that
+  prevents your car or truck from slipping and sliding, especially when the road is icy or wet." [V]
+  "Check your tire's tread at least once a month when you're checking their pressure." [V]
+- Grades: "A control tire is assigned a grade of 100. Other tires are compared to the control tire.
+  For example, a tire grade of 200 should wear twice as long as the control tire." [V]
+
+**49 CFR 571.138 (FMVSS 138), full section re-read.** S3: a TPMS is "a system that detects when one or
+more of a vehicle's tires is significantly under-inflated and illuminates a low tire pressure warning
+telltale." [V] S4.2(a) as Part D records. Table 1, column 3, "P-metric—Standard Load": minimum
+activation pressure 140 kPa, 20 psi [V] ("Extra Load" 160 kPa, 23 psi). S4.4(c)(2): a combined
+telltale "Flashes for a period of at least 60 seconds but no longer than 90 seconds" [V], then stays
+lit. S4.5(a), the required owner's-manual text, includes: "Each tire, including the spare (if
+provided), should be checked monthly when cold and inflated to the inflation pressure recommended by
+the vehicle manufacturer on the vehicle placard or tire inflation pressure label." [V] "Accordingly,
+when the low tire pressure telltale illuminates, you should stop and check your tires as soon as
+possible, and inflate them to the proper pressure." [V] "Driving on a significantly under-inflated
+tire causes the tire to overheat and can lead to tire failure. Under-inflation also reduces fuel
+efficiency and tire tread life, and may affect the vehicle's handling and stopping ability." [V]
+"When the malfunction indicator is illuminated, the system may not be able to detect or signal low
+tire pressure as intended. TPMS malfunctions may occur for a variety of reasons, including the
+installation of replacement or alternate tires or wheels on the vehicle that prevent the TPMS from
+functioning properly." [V] S7.1 begins with vehicles "manufactured on or after October 5, 2005" [V];
+S7.3: "Except as provided in S7.7, all vehicles manufactured on or after September 1, 2007 must
+comply with all requirements of this standard." [V] The standard gives no reason for the 25 per cent
+figure.
+
+**49 CFR 571.110 (FMVSS 110), S4.2.1 and S4.3 re-read.** S4.2.1.1: "The vehicle maximum load on the
+tire shall not be greater than the applicable maximum load rating as marked on the sidewall of the
+tire." [V] S4.2.1.2: "The vehicle normal load on the tire shall not be greater than 94 percent of the
+load rating at the vehicle manufacturer's recommended cold inflation pressure for that tire." [V]
+S4.3 places the placard on the driver's side B-pillar, and for a car without one names other places in
+order, as Part D records.
+
+**49 CFR 574.5, re-read.** "The first and second symbols of the date code must identify the week of
+the year" [V]; "The third and fourth symbols of the date code must identify the last two digits of
+the year of manufacture." [V] The 0109 example stands.
+
+**49 CFR 575.104, (c) and the Figure 2 text re-read.** The treadwear sentence continues: "The relative
+performance of tires depends upon the actual conditions of their use, however, and may depart
+significantly from the norm due to variations in driving habits, service practices and differences
+in road characteristics and climate." [V] Traction: "Warning: The traction grade assigned to this tire
+is based on straight-ahead braking traction tests, and does not include acceleration, cornering,
+hydroplaning, or peak traction characteristics." [V]
+
+**The Highway Code, Annex 6** (content API, updated 29 January 2022), tyre paragraph re-read. New lines:
+"Your brakes and steering will be adversely affected by under-inflated or over-inflated tyres." [V]
+"Excessive or uneven tyre wear may be caused by faults in the braking or suspension systems, or wheels
+which are out of alignment. Have these faults corrected as soon as possible." [V] "Tyres should also be
+free from certain cuts and other defects." [V]
+
+**The Road Vehicles (Construction and Use) Regulations 1986, reg 27, the whole regulation re-read on
+the live page.** A correction to "The tread rule, stated exactly" and Part C §3: **"breadth of tread"
+is defined in reg 27(6)(a), not 27(5).** Reg 27(5) is about recut tyres ("A recut pneumatic tyre shall
+not be fitted to any wheel of a motor vehicle or trailer if" [V]). 27(6)(a) also defines "tread
+pattern", excluding "(i) tie bars or tread wear indicators; (ii) features which are designed to wear
+out substantially before the rest of the pattern under normal conditions of use; and (iii) other
+minor features" [V]. Reg 27(1)(a): "the tyre is unsuitable having regard to the use to which the
+motor vehicle or trailer is being put or to the types of tyres fitted to its other wheels;" [V]
+27(1)(h) in full: "the tyre is not maintained in such condition as to be fit for the use to which the
+vehicle or trailer is being put or has a defect which might in any way cause damage to the surface of
+the road or damage to persons on or in the vehicle or to other persons using the road;" [V] The
+10-year rule, 27(1)(i) to (k), is limited by 27(1A) to buses, minibuses and heavy goods vehicles, as
+Part C records.
+
+**DVSA, MOT inspection manual, section 5 "Axles, wheels, tyres and suspension"**,
+https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/5-axles-wheels-tyres-and-suspension,
+content API, updated 1 June 2026; 5.2.1 to 5.2.3 read in full. New lines:
+- "For example, a 215/55R15 has an aspect ratio of 55%." [V] The manual decodes no other part of the
+  size.
+- "In simple terms, grooves containing tread wear indicators (TWI) or grooves cut as deep as those
+  containing the wear indicators when new, are considered to be primary grooves. Other grooves or
+  sipes that are not cut as deep as the primary grooves are secondary grooves and are not to be
+  considered when assessing tread depth." [V]
+- TPMS: "The TPMS warning lamp (see diagram 3) will generally illuminate and go off again when the
+  ignition is switched on. If the system has identified a previous pressure loss, the lamp will remain
+  illuminated. This does not automatically mean the system has a malfunction. In the event of a system
+  malfunction, the lamp may flash a number of times and then remain on." [V]
+- "Tyres with a three-digit code will be more than 10 years old." [V] "The first two digits of the code
+  represent the week of manufacture of the tyre and the second two digits represent the year of
+  manufacture." [V]
+- Cuts: "Before failing a cut, you must make sure it's the cords that you can feel not a foreign
+  object. If you're not sure, then you should pass and advise." [V] "If you notice a defect on a spare
+  tyre, you should advise the vehicle presenter." [V]
+- Defect table, **one line Part C did not record**: "(d)(i) A tyre with a cut in excess of the
+  requirements deep enough to reach the ply or cords" is "Major" [V]. The rest stand: (d)(ii) lump,
+  bulge or tear, Dangerous; (e) tread depth, Dangerous; (h) TPMS, Major; (l) "Tyre obviously
+  under-inflated", Minor.
+- Introduction, section 1 (read today for the definition): "category M1 vehicle A vehicle with 4 or
+  more wheels used for the carriage of passengers, with no more than 8 passenger seats in addition to
+  the driver's seat." [V] The class table lists "Cars and Taxis - category M1" [V].
+
+**G-T3 (UK TPMS fitment): not closed; fallback written.** No UK or UN regulation was read. Lesson 7
+states no UK fitment law and gives the MOT manual's "M1 vehicles first used on or after 1 January
+2012" as what the MOT tests.
+
+**G-G3: fallback.** TyreSafe is labelled "a UK tyre safety charity backed by tyre makers, carmakers
+and retailers". **TyreSafe, "Check your pressures"**, re-read (last updated 16 September 2026). New
+lines: "Pressure affects the tyre's speed capability, load carrying capacity, handling response, wear
+rate and overall safety. Underinflated tyres also use more fuel." [V] "Low tyre pressure will increase
+the chances of tyres suffering catastrophic failure." [V] "While your car is likely to have a Tyre
+Pressure Monitoring System (TPMS), you should always use an accurate pressure gauge to check the
+settings are correct." [V] The page offers "one of our supporter websites" [V] to look up a car's
+pressure; not used.
+
+**AAA Exchange, "Tire Safety and Maintenance"**, re-read in full, undated. New lines: "Over inflation:
+Too much air pressure causes mostly the tire's middle section to contact the road." [V] "Under
+inflation: Too little air pressure causes mostly the tire's outer edges to contact the road. This
+creates wear primarily on both edges of the tire tread, with less wear in the center." [V] "Tread wear
+on one edge of the tire: This typically occurs when the wheels are out of alignment." [V] "Check your
+car's tire pressure at least once a month with a quality gauge" [V]; "The digital and dial designs
+tend to be more accurate and easier to read, although a good pen/stick gauge will do the job as
+well." [V] "Checking tire pressure on a car that has warm tires can result in a pressure reading of
+up to 5 psi higher than the recommended pressure." [V] "On older cars the decal may be in the glove
+box or inside the fuel filler door." [V] Tread: "Tires depend on good tread condition depth to
+maintain traction and to shed water on wet roads." [V] "Take measurements in three locations across
+the tire's tread: (1)outer edge, (2) center, and (3) inside edge." [V] The page's stopping-distance
+figures are attributed to a tyre tester this course did not read, and are not used.
+
+**NHTSA, "Winter Weather Driving Tips"**, capture 20260812080428 (the latest in the CDX index), tyre
+section re-read: the Part B quotations stand. Also: "Inspect your tires at least once a month and
+before long road trips." [V]
+
+**New York State DMV, "New York State Vehicle Safety/Emissions Inspection Program"**, capture
+20260710141515 re-read (the next capture, 20260712164006, is a 403 page). The tyre items sit under
+"Tires (Except Spare)" [V]; the tread and pressure lines stand as Part D records (the page's own "in
+not within" typo sits inside the pressure sentence).
+
+**Road Traffic Act 1988 s.41A and Road Traffic Offenders Act 1988 s.48**, re-read on the live pages;
+Part C's quotations stand.
+
+**G-N4 (photographs), lesson 7: not closed.** Wikimedia Commons searched through its API.
+"File:DOT tire code.jpg" (CC BY-SA 4.0) was rejected: its labels ("Tire Size", "Tire Type Code")
+follow an older layout of the code and don't match 49 CFR 574.5's current structure, so it would
+contradict the lesson. No licensed photograph of a placard was found. Lesson 7 has no photograph.
+
+## Stage 4 note, lesson 02 second pass (2026-09-26)
+
+- RAC, "What is a cambelt and how do you replace it?", FAQ "When should a cambelt be changed?",
+  fetched live 2026-09-26 [V]: "generally, it's advised to replace it every 40,000 to 100,000
+  miles." The page's introduction says 60,000 to 100,000 (already recorded). The page disagrees
+  with itself; lesson 02 quotes both and leans on neither.
