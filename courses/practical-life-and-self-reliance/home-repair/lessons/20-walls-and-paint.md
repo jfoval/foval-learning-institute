@@ -1,6 +1,6 @@
 ---
 title: "Walls and paint: filling, preparing and painting"
-minutes: 95
+minutes: 100
 objectives:
   - >-
     Choose a filler and a paint finish for a described wall, using a maker's guidance labelled as a
@@ -21,14 +21,14 @@ quiz:
       room. On the paint maker's page this lesson read, what should go in the gap?
     options:
       - A flexible filler, which is the kind Dulux names for gaps along the tops of skirtings
-      - A general-purpose filler, sanded flush, because Dulux's page says any filler suits any gap
+      - A general-purpose filler, since Dulux says flexible fillers are only for outside walls
       - Nothing at all, since Dulux says to leave gaps near skirtings unfilled so the wall can move
       - A thick coat of gloss, since Dulux says a high-sheen finish seals small gaps as it dries
     answer: 0
     explain: >-
       Dulux's preparation page says to choose a filler for the job, and names a flexible gap filler
-      for around the tops of skirtings, windows and door frames. It doesn't say any filler suits any
-      gap: it describes fillers made for particular jobs. It doesn't say to leave gaps open, and its
+      for around the tops of skirtings, windows and door frames. It doesn't say flexible fillers are
+      only for outside walls; the gaps it names them for include the tops of skirtings, inside. It doesn't say to leave gaps open, and its
       account of gloss is about how much light the finish reflects, not about sealing anything.
       Dulux gives no reason why those gaps need a flexible filler, and this course supplies none.
   - q: >-
@@ -39,7 +39,7 @@ quiz:
       - Go ahead, because a full-strength first coat of emulsion is what Dulux says acts as the primer
       - Go ahead, but using solvent-based paint, which Dulux says is the only kind wet plaster takes
       - Put the mist coat on now, since Dulux says it seals damp plaster so the long wait can be skipped
-      - Wait for it to dry, then a mist coat, since Dulux says paint on wet plaster may crack and peel
+      - Wait for it to dry, then a mist coat, since Dulux says paint on wet plaster is likely to crack and peel
     answer: 3
     explain: >-
       Dulux says "plaster takes up to 4 weeks to dry completely" as a rule of thumb, that emulsion
@@ -66,22 +66,23 @@ quiz:
       nothing in them says a low figure makes airing the room unnecessary; EPA's advice is to
       ventilate when using products that give off VOCs, and to meet the label's own precautions.
   - q: >-
-      In a West Virginia house built in 1956, the window frames' paint is sound but dull. The
-      owner plans to power-sand them back to bare wood before repainting, wearing an N95. Applying
-      EPA's page for DIYers and this lesson, what should happen first?
+      In a house in Fort Wayne built in 1962, the paint on the stair banister is flaking where
+      hands rub it. The owner plans to scrape it back with a wire brush before repainting, wearing
+      an N95. Applying EPA's page for DIYers and this lesson, what should happen first?
     options:
-      - Sand as planned, since an N95 is what EPA lists and it makes power sanding lead-safe on its own
+      - Scrape as planned, since an N95 is what EPA lists and it makes scraping lead-safe on its own
       - Stop and go to lesson 19, as EPA says a pre-1978 home may have lead paint, and advises hiring
-      - Hand-sand instead of power-sanding, since EPA's worry is the power tool, not the sanding
-      - Wash the frames with sugar soap first, since clean paint can be sanded without lead dust
+      - Sand it instead of scraping, since EPA's worry is the wire brush and not the old paint itself
+      - Wash it with sugar soap first, since clean paint can be scraped without making lead dust
     answer: 1
     explain: >-
       EPA says "If your home was built before 1978, it may have lead-based paint", and it
       "recommends homeowners hire lead-safe certified contractors for all RRP projects in pre-1978
-      homes". EPA's DIY practices are several things together, and the respirator it names is an
-      N-100, not an N95, so the mask alone isn't the answer. Hand sanding still sands, and cleaning
-      the surface doesn't change what's in the layers underneath. Sound paint also raises the
-      question lesson 19 answers, whether it needs stripping at all.
+      homes"; for someone who does it themselves, the same page gives seven practices, which
+      lesson 19 sets out. The respirator EPA names is an N-100, not an N95, and a mask is one part
+      of one practice, so the mask alone isn't the answer. Sanding raises the same dust as scraping,
+      and cleaning the surface doesn't change what's in the layers underneath. Flaking paint in an
+      older home is exactly the point where this lesson sends you to lesson 19.
   - q: >-
       After painting a bedroom in a US apartment, a tenant has two part-used cans of solvent-based
       trim paint and plans to keep them in the bedroom closet with the lids pressed on. What does
@@ -168,9 +169,9 @@ telling you the cause is still there. Paint over it and you have hidden the evid
 Dulux describes the finishes by how much light they reflect: "To hide imperfections, use velvety
 matt emulsion. Satin and silk are mid-sheen finishes that look slightly polished and reflect some
 light. Eggshell sits somewhere between the two, with a surface that looks as its name suggests.
-Choose a gloss finish for a shiny look that reflects lots of light."[1] That gives you the reason for
-the choice, as far as Dulux gives one: a flat finish hides a wall's dents, and a shiny one shows
-them. A wall that isn't perfectly flat looks better in matt.
+Choose a gloss finish for a shiny look that reflects lots of light."[1] Dulux's reason for the
+choice, as far as it gives one, is that matt hides imperfections. That a shinier finish shows them
+more is this course's reading of "reflects lots of light", not Dulux's words.
 
 "Emulsion" is the British name for ordinary wall paint thinned with water. In American shops the
 name you will see for water-based wall paint is "latex", and Purdue's bulletin uses it ("acrylic
@@ -180,9 +181,10 @@ what's in it. Dulux also says synthetic brushes suit water-based paints, because
 "don't swell up and cause tramlines to appear in the paint".[1]
 
 Where you see "solvent-based" or "oil-based", the paint is thinned with a solvent instead of water.
-The UK law in the section on labels below defines the two by how the thickness is adjusted: with
-water, or with an organic solvent.[3] That difference is also the difference in what you breathe
-while it dries, which is the section after that.
+The UK law in the section on labels below calls them "water-borne" and "solvent-borne", and defines
+them by how the paint's thickness is adjusted: with water, or with an organic solvent.[3] Both kinds
+give off some VOCs (the limits in the table below are above zero for both, and EPA says paints
+contain organic solvents). What you breathe while it dries is the section after that.
 
 ## Filling holes and cracks
 
@@ -202,12 +204,11 @@ this course supplies none. Its method, for filling:[1]
 
 The drying time is for the fillers Dulux sells; the filler's own instructions give yours. Dulux says
 sanding is needed because it "ensures your fresh, new paint will adhere to the surface properly".[1]
-That's the mechanism it offers, and the only one.
 
 Filling screw holes and small cracks in a plain plastered wall is **Yours**. Two things change that.
-The first is step 4, which sands. On a newer wall that is gypsum dust, which lesson 13, "Tools, dust
-and fumes: a small kit used safely", put among HSE's "general" dusts, and its advice on masks and
-clean-up applies. On old paintwork it's lesson 19's question, and on a textured coating the answer is
+The first is step 4, which sands. On a newer wall that makes plaster and filler dust. Lesson 13,
+"Tools, dust and fumes: a small kit used safely", gave HSE's kinds of dust (gypsum, in plasterboard,
+among the "general" ones), and its advice on masks and clean-up applies. On old paintwork it's lesson 19's question, and on a textured coating the answer is
 no. The second is the crack itself. This course read no source on reading cracks: which are
 shrinkage, which are movement, which mean the building is moving. Structural work is one of the jobs
 lesson 1 named as needing a professional, and a crack you can't account for, or one that comes back
@@ -276,9 +277,7 @@ Its steps:[2]
    Dulux says this is what helps the top coat stick. Any flaws can be sanded or filled once it is dry.
 4. **Top coat** as normal.
 
-Dulux's "up to 4 weeks" is a rule of thumb from one maker. This course saw other Dulux figures only
-in a search summary and couldn't confirm them, so it gives none of them.
-The honest version: drying time depends on the plaster, the thickness and the weather, and the
+Dulux's "up to 4 weeks" is a rule of thumb from one maker. So: drying time depends on the plaster, the thickness and the weather, and the
 plasterer who did the wall and the maker of the paint you are using are the people to ask. Dulux's
 ratio is for its emulsions; another maker's tin may give its own. And its method is written for
 British plastered walls. Nothing this course read covers a new plaster skim in an American house,
@@ -300,7 +299,8 @@ would decide.
 
 This section states law. This is general information, not legal advice.
 
-In the UK, most decorative paints come under the Volatile Organic Compounds in Paints, Varnishes and
+In the UK, paints and varnishes for the walls, woodwork and fittings of buildings (aerosols
+excepted) come under the Volatile Organic Compounds in Paints, Varnishes and
 Vehicle Refinishing Products Regulations 2012. A volatile organic compound, or VOC, is defined there
 as an organic compound with an initial boiling point at or below 250°C (482°F).[3] The Regulations apply to
 products that "are to be used in any part of the United Kingdom" (with a further condition for
@@ -313,15 +313,15 @@ unless its VOC content is within the limit for its kind, and it carries the labe
 requires. That label must show "the sub-category of the product and the relevant VOC limit values,
 measured in g/l", and "the maximum content of VOC in g/l of the product in a ready to use
 condition".[3] "Ready to use" matters: the Regulations define VOC content as the mass of VOCs "in the
-formulation of the product in its ready to use condition", so a paint you are meant to thin is
-measured thinned.
+formulation of the product in its ready to use condition", and regulation 4 applies the limits to a
+product that has to have solvent added before use in its ready-to-use state.
 
 Notice who the law binds. It's the person placing the tin on the market. Nothing in it tells you how
 to use the paint, and nothing in it binds a householder. What it gives you is a number to read.
 
 A few of the limits in Schedule 2, for the kinds of paint in this lesson:[3]
 
-| Sub-category | Water-based limit | Solvent-based limit |
+| Sub-category | Water-borne limit | Solvent-borne limit |
 |---|---|---|
 | (a) Interior matt walls and ceilings | 30 g/l | 30 g/l |
 | (b) Interior glossy walls and ceilings | 100 g/l | 100 g/l |
@@ -334,8 +334,9 @@ solvent-based trim paint's limit more than twice as high as a water-based one's.
 product's own maximum, which may sit well under its limit.
 
 In the US, this course read no federal rule on labelling a consumer paint's VOC content, so it says
-nothing about what an American tin must show. What it read is EPA's advice, in the next section, and
-EPA's own first rule for any such product: "Meet or exceed any label precautions."[4]
+nothing about what an American tin must show. What it read is EPA's advice, in the next section. Its
+list of steps opens: "Increase ventilation when using products that emit VOCs." "Meet or exceed any
+label precautions."[4]
 
 :::checkpoint Two tins in a British shop. One says "Interior matt walls and ceilings", limit 30 g/l, max 2 g/l. The other says "Interior/exterior trim and cladding paints", solvent-based, limit 300 g/l, max 290 g/l. Which gives off more solvent as it dries, and what doesn't the label tell you?
 
@@ -348,12 +349,16 @@ come from the tin's own instructions and from ventilation advice, next.
 
 ## Air, leftovers and strippers
 
+Part of this section states law. This is general information, not legal advice.
+
 [EPA](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality),
 the US Environmental Protection Agency, says "Paints, varnishes and wax all contain organic
 solvents", and lesson 13 gave its figures for how far indoor levels rise, especially while stripping
 paint. EPA is also frank about how much is not known: "At present, not much is known about what health
 effects occur from the levels of organics usually found in homes."[4] Its advice doesn't wait on that.
-For painting, it lists "providing for maximum ventilation during painting", and where a label says to
+Its general step is "Increase ventilation when using products that emit VOCs", and among its steps
+against benzene, which it says comes partly from paint supplies, it lists "providing for maximum
+ventilation during painting". Where a label says to
 use a product in a well-ventilated area, lesson 13 gave EPA's order: outdoors or with an exhaust fan,
 otherwise open windows.[4]
 
@@ -387,21 +392,35 @@ stripper, in either country, is used by its own label.
 
 This is lesson 19's decision, and this lesson only marks where it comes. If the paintwork you are
 preparing is old enough to fall inside lesson 19's dates, the question isn't how to sand it but
-whether to disturb it at all. For the UK, the British Coatings Federation says in its guidance for the
-public that "overcoating is the safest option" for old paint in sound condition, especially where the
-lead paint is not the top layer.[9] For the US, EPA says it's safest to assume the area you are renovating "has lead-based paint"
-if you can't find out the home's age, and it "recommends homeowners hire lead-safe certified
-contractors for all RRP projects in pre-1978 homes" (RRP is renovation, repair and painting).[10]
+whether to disturb it at all. The two countries' advice differs, so here it is one country at a
+time.
+
+**In the UK**, the British Coatings Federation says in its guidance for the public not to remove lead
+paint that is in sound condition, especially if the lead paint is not the top layer: "overcoating is
+the safest option to prevent exposure".[9] Where sound paint needs preparing for the new coat, it says
+to rub it down wet, so no dust is made. Lesson 19 labels that **Yours, on conditions**: the paint is
+sound, and any rubbing down is wet.
+
+**In the US**, EPA's page for do-it-yourselfers says: "DIY projects can easily create dangerous lead
+dust, so EPA recommends homeowners hire lead-safe certified contractors for all RRP projects in
+pre-1978 homes." (RRP is renovation, repair and painting.) If you can't find out the home's age, it
+says "it’s safest to assume the area you are renovating has lead-based paint and use the DIY lead-safe
+work practices described below".[10] Those are seven practices, which lesson 19 sets out, and doing
+the job yourself on those terms is lesson 19's **Yours, on conditions**.
+
 Everything after that, the methods that are allowed, the ones that are not, the heat limits and the
 law, is in lesson 19.
 
-So, for this lesson's purposes: sound old paint that only needs a fresh colour is cleaned and
-overcoated, and anything that needs stripping, or flaking paint in an older home, is a lesson 19
+So, for this lesson's purposes: in the UK, sound old paint that only needs a fresh colour is painted
+over without disturbing it, which the BCF calls the safest option, and any rubbing down is done wet.
+In the US, EPA's first advice for any renovation, repair or painting job in a pre-1978 home is a
+lead-safe certified contractor, and doing it yourself means EPA's seven practices in lesson 19. In
+either country, anything that needs stripping, or flaking paint in an older home, is a lesson 19
 question before it's a painting one.
 
-## A living room in the Vale of Glamorgan
+## A living room in the Forest of Dean
 
-Take the simple case first. In a house in the Vale of Glamorgan built in 2006, the owner wants to
+Take the simple case first. In a house in the Forest of Dean built in 2006, the owner wants to
 repaint the living room walls. There are six screw holes where a shelf came down, a hairline crack
 over the door, and the walls are the original matt emulsion, a bit grubby near the light switch.
 
@@ -415,45 +434,51 @@ over the door, and the walls are the original matt emulsion, a bit grubby near t
    plates (not loosened, the course's line).[1]
 4. **Clean.** Sugar soap, then clean water, and let it dry.[1]
 5. **Fill and sand.** Fill the holes with a filling knife; none is deeper than 10 mm, so one layer.
-   Let it dry for the time the filler gives, then sand smooth and dust off.[1] It is gypsum dust from a
+   Let it dry for the time the filler gives, then sand smooth and dust off.[1] It is plaster and filler dust from a
    newer wall; lesson 13's clean-up advice (no dry sweeping) applies.
-6. **Paint.** Window open while painting and afterwards: EPA's "providing for maximum ventilation
-   during painting", applied in Wales as this course's reading, plus whatever the tin adds.[4] The walls in
+6. **Paint.** Window open while painting and afterwards: EPA's "Increase ventilation when using
+   products that emit VOCs", applied in England as this course's reading, plus whatever the tin
+   adds.[4] The walls in
    two coats, working away from the window, then the woodwork if it's being done.[1]
 
 This is **Yours**. What made it simple is step 1: a house new enough that neither lesson 18 nor
 lesson 19 had anything to say.
 
-## A renovation in Delaware
+## A renovation in Youngstown
 
 Now one with a wrinkle, and a gap for you.
 
-In a 1920s house in Delaware, the owners have had a back bedroom's walls skimmed with a thin coat of
-new plaster. It has been ten days, the walls look dry to them, and they want to paint this weekend,
-full-strength, because their guests arrive in a fortnight. The same room has the original door,
-with thick layers of paint that have begun to crack. They want to strip it back to the wood and
-varnish it, and one of them has already bought a heat gun.
+In a 1920s house in Youngstown, the owners have had a back bedroom's walls skimmed with a thin coat
+of new plaster. It has been ten days, the walls look dry to them, and they want to paint this
+weekend, full-strength, because their guests arrive in two weeks. The same room has the original
+door, with thick layers of paint that have begun to crack. They want to strip it back to the wood and
+varnish it, and one of them has already bought a tin of paint stripper.
 
 Two questions sit in this room, and they go to different places.
 
-**The walls.** Dulux's rule of thumb is "up to 4 weeks", and ten days is inside it.[2] Walls that
-look dry aren't Dulux's test, and Dulux says the time depends on the material and the weather. The
-plasterer who did the skim knows what was used and how thick; the paint maker knows its own paint.
-Dulux's account of the cost of rushing is that emulsion on wet plaster is "likely to crack and peel
-off". When the wall is dry, a mist coat, then the colour. And this is a US wall, so Dulux's figures
-are one British maker's, applied here as this course's reading, and the plasterer and the paint
-maker's instructions come first.
+**The walls.** Dulux's rule of thumb is "up to 4 weeks", and ten days is inside it.[2] Dulux gives
+no way of telling by eye that a wall is dry, and says the time depends on the material and the
+weather. This is a US wall, and nothing this course read covers a US skim coat, so Dulux's wait and
+mist coat are one British maker's method, not the answer here. The people who know are the plasterer
+who did the skim (what was used, how thick) and the maker of the paint they plan to use, and the
+question to ask both is when it can be painted and what goes on first. What Dulux does say about
+rushing, for its own paint: emulsion on wet plaster is "likely to crack and peel off". **Yours, on
+conditions**: the plasterer's and the paint maker's say-so on timing and first coat.
 
 :::checkpoint Now the door. Before you open this: what is the first question about it, where does the answer come from, and what does EPA recommend?
 
 The first question is its age, not how to strip it. The house was built in the 1920s, and EPA says
 "If your home was built before 1978, it may have lead-based paint; the older your home, the more
 likely it has lead-based paint."[10] Thick old layers on an original door are the kind of paint that
-may hold it. So this is lesson 19's question before it is a decorating one: whether the door needs
-stripping at all or can be cleaned and overcoated, and, if it must be stripped, which methods and
-heat limits lesson 19's sources allow, before the heat gun comes out of its box. EPA "recommends homeowners hire lead-safe
-certified contractors for all RRP projects in pre-1978 homes".[10] Lesson 23, "Hiring a
-tradesperson, and when to stop", is where hiring is covered. None of this depends on the guests.
+may hold it. So this is lesson 19's question before it is a decorating one, whenever the guests
+arrive: whether the door needs stripping at all or can be cleaned and overcoated, and, if it must be
+stripped, which methods lesson 19's sources allow, before the tin is opened. (The stripper itself is
+used by its own label, and if it contains methylene chloride, EPA's line in the section above
+applies.) EPA recommends homeowners hire "lead-safe certified contractors for all RRP projects in
+pre-1978 homes", or, if they do it themselves, the seven practices on the same page, which lesson 19
+sets out.[10] Those are lesson 19's labels: in the US, EPA's first advice is a certified contractor;
+doing it yourself is **Yours, on conditions**, the conditions being EPA's seven practices. Lesson
+23, "Hiring a tradesperson, and when to stop", is where hiring is covered.
 :::
 
 The two questions in that house look alike, since both are about waiting, but they're different
@@ -471,8 +496,8 @@ on the plaster and the weather; paint on wet plaster is "likely to crack and pee
 **"The mist coat is optional if you use more coats."** Dulux gives the sealing job to the thinned
 coat.[2]
 
-**"A low VOC number means no need to open a window."** The label is a legal requirement on the
-seller, about what is in the tin; EPA's advice is to ventilate while painting whatever the product.[3][4]
+**"A low VOC number means no need to open a window."** The label is a legal requirement on
+whoever puts the tin on the market, about what is in the tin; EPA's advice is to ventilate while painting whatever the product.[3][4]
 
 **"Leftover paint is fine in the cupboard with the lid on."** EPA: gases can leak even from closed
 containers.[4]
@@ -504,13 +529,24 @@ information, not legal advice.
    area's household hazardous waste goes.
 :::
 
-:::checkpoint Three surfaces, overcoat or strip, or stop. (1) A front door in England, fitted and painted in 2015, paint sound but faded. (2) A 1930s baseboard (skirting) in a US house, sound but chipped at one corner. (3) A 1970s living room ceiling in Scotland with a swirled textured finish, to be painted a new colour. Decide for each, and say which lesson decides it.
+:::checkpoint Three surfaces, overcoat or strip, or stop. (1) An inside door in England, fitted and painted in 2015, paint sound but faded. (2) A 1930s baseboard (skirting) in a US house, sound but chipped at one corner. (3) A stippled textured coating on the landing wall of a 1980s house in Scotland, to be painted a new colour. Decide for each, and say which lesson decides it.
 
-(1) Sound, and painted long after the UK dates the sources give (the British Coatings Federation's
-cut-off for testing is "Pre-1995"), so cleaned, prepared and repainted with this lesson's steps.[9] (2) A 1930s house is pre-1978, so EPA says it may have lead paint.[10]
-Whether and how to deal with the chipped corner is lesson 19's question, and nothing gets sanded
-before it is answered. (3) A textured ceiling coating in a house from before 2000 is a stop for anything that would fill, sand or scrape it. Whether and how
-it can be painted without disturbing it is lesson 19's subject, not this one's.
+(1) Not a lesson 19 question: painted in 2015, long after the UK dates the sources give (the British
+Coatings Federation's cut-off for testing is "Pre-1995").[9] So it's cleaned, prepared and repainted
+with this lesson's steps and the tin's own instructions. **Yours.**
+
+(2) A 1930s house is pre-1978, so EPA says it may have lead paint.[10] Whether and how to deal with
+the chipped corner is lesson 19's question, and nothing gets sanded before it is answered. In the US,
+EPA's first advice is a certified contractor; doing it yourself is **Yours, on conditions**, the
+conditions being EPA's seven practices.
+
+(3) A textured coating in a building from before 2000 is on HSE's list of places asbestos may be, and
+anything that would fill, sand or scrape it stops. Nothing this course read says whether a textured
+coating that might contain asbestos can be painted over. What HSE does say, for a home where you
+suspect asbestos, is that "it is often best to leave them where they are", especially if they are in
+good condition and unlikely to get damaged, and that you can ask an environmental health officer at
+your council.[14] So the coating is left alone, and the question of painting it goes to someone
+trained in asbestos work, or to the council's environmental health officer. **Call someone.**
 :::
 
 ## For your plan
@@ -541,7 +577,7 @@ stop", covers hiring a decorator, including, in the US, a lead-safe certified on
   Read here in full. A maker's page that promotes its products, but the clearest account this course
   found of the wait and the mist coat, with the reason.
 - **Legislation.gov.uk, [the VOC Regulations 2012](https://www.legislation.gov.uk/uksi/2012/1715).**
-  Read here: regulations 3 to 5 and Schedules 1 and 2, revised text. Short, and Schedule 2 is the whole
+  Read here: regulations 2 to 5 and Schedules 1 and 2, revised text. Short, and Schedule 2 is the whole
   table your tin's label comes from.
 - **EPA, ["Volatile Organic Compounds' Impact on Indoor Air Quality"](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality).**
   Read here in full. The US government's page on solvents and paints at home.
@@ -564,3 +600,4 @@ stop", covers hiring a decorator, including, in the US, a lead-safe certified on
 11. Health and Safety Executive, ["Introduction to asbestos safety"](https://www.hse.gov.uk/asbestos/introduction/index.htm), parts 1 and 2. **Read: full text of parts 1 and 2, re-read 25 September 2026.** Written for people at work. <!-- SOURCES Part D D2; lesson 11 gate closure; Stage 4 note, lesson 14 -->
 12. US Consumer Product Safety Commission, [Publication 5133, "Preventing Home Fires: Arc Fault Circuit Interrupters (AFCIs)"](https://www.cpsc.gov/s3fs-public/5133.pdf), dated R042012. **Read: full text.** <!-- SOURCES Part A §3 -->
 13. Health and Safety Executive, [*Electricity at work: Safe working practices*, HSG85](https://www.hse.gov.uk/pubns/priced/hsg85.pdf), third edition, 2013. **Read: the whole PDF extracted; "Proving dead" paragraphs 53 to 55 read.** Workplace guidance, used here only for what it says about non-contact testers. <!-- SOURCES Part D D36 -->
+14. Health and Safety Executive, ["Asbestos: FAQs"](https://www.hse.gov.uk/asbestos/faq.htm), updated 4 September 2025. **Read: full text, re-read 26 September 2026.** Great Britain. <!-- SOURCES Part D D1; Stage 4 note, lesson 20 -->

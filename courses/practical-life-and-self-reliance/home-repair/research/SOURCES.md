@@ -2538,8 +2538,9 @@ Read: summary pages and contents of both (pdftotext), not the annexes.
 
 #### D6. Control of Asbestos Regulations 2012 (SI 2012/632), legislation.gov.uk
 https://www.legislation.gov.uk/uksi/2012/632/contents/made ; regulation 3
-Read: contents page and regulation 3 (as made), direct fetch. Regulations 4, 11, 15, 16 not read
-in the text (known only via HSE's description in D1 and D2).
+Read: contents page and regulation 3 (as made), direct fetch. Regulation 4 not read in the text
+(known only via HSE's description in D1 and D2); regulations 11, 15 and 16 read live at lesson 19's
+Stage 4 (see "Stage 4 note, lesson 19").
 
 - Reg 3(1): the Regulations apply to a self-employed person as to an employer and employee. That,
   with HSE's statements in D1/D2, is the basis for saying they bind work, not a householder doing
@@ -6053,8 +6054,10 @@ the head) and place in a bag with the damp cloth."
 
 https://www.legislation.gov.uk/uksi/2012/632/regulation/3. [V] reg 3(1): "These Regulations apply to
 a self-employed person as they apply to an employer and an employee and as if that self-employed
-person were both an employer and an employee." Reg 3(2) to (4) disapply some duties for sporadic,
-low-intensity work; not used.
+person were both an employer and an employee." Reg 3(2) disapplies some duties for sporadic,
+low-intensity work; reg 3(3) extends an employer's duties to "any other person, whether at work or not,
+who may be affected by the work activity"; reg 3(4) is not used (corrected at Stage 4, see "Stage 4
+note, lesson 19").
 
 ### GOV.UK, "Asbestos in your home" (D7), re-read via the content API
 
@@ -6955,3 +6958,85 @@ line in Part D D20 had been recorded without "to prevent exposure"; the whole cl
 - **BCF HS032 v2.2** (PDF, re-read whole): [V] "Remove paint if it is in a sound condition, especially
   if the lead paint is not the top layer – overcoating is the safest option to prevent exposure" (a
   DO NOT item); "Pre-1995" (in the DO line on testing).
+
+## Stage 4 note, lesson 19 (2026-09-26)
+
+Strings the lesson 19 fixer added to the lesson, each re-read live today with curl (generic browser
+User-Agent) and string-matched, and one correction. The Stage 4 review file,
+`reviews/19-asbestos-lead-and-radon.md`, has the findings.
+
+**Correction (F6).** The lesson 19 gate closure said "Reg 3(2) to (4) disapply some duties for
+sporadic, low-intensity work". Only reg 3(2) does that (of regs 9, 18(1)(a) and 22). Reg 3(3) is the
+duty to others, [V] "the employer is, so far as is reasonably practicable, under a like duty in respect
+of any other person, whether at work or not, who may be affected by the work activity carried out by
+that employer". It is the legal root of HSE's line that contractors in your home "have a legal duty to
+protect you". Reg 3(4) concerns fire and rescue authorities and ships; not used. The entry above is
+corrected in place.
+
+**Control of Asbestos Regulations 2012, regs 11, 15 and 16** (D6; now read, live):
+https://www.legislation.gov.uk/uksi/2012/632/regulation/11 , /15 , /16. [V] reg 11(1): "Every employer
+must— (a) prevent the exposure to asbestos of any employee employed by that employer so far as is
+reasonably practicable;". Reg 15(1): [V] "In the event of an accident, incident or emergency related to
+the unplanned release of asbestos at the workplace, the employer must ensure that—". Reg 16: [V] "Every
+employer must prevent or, where this is not reasonably practicable, reduce to the lowest level
+reasonably practicable the spread of asbestos from any place where work under the employer's control is
+carried out." Each duty is an employer's; reg 3(1) extends them to the self-employed. D6's "not read"
+note is updated for 11, 15 and 16 (reg 4 still unread).
+
+**Health and Safety at Work etc. Act 1974, ss 52 and 53** (new):
+https://www.legislation.gov.uk/ukpga/1974/37/section/52 and /section/53. [V] s 52(1)(a): "“work” means
+work as an employee or as a self-employed person;". [V] s 53(1): "“self-employed person” means an
+individual who works for gain or reward otherwise than under a contract of employment, whether or not he
+himself employs others;". With regs 3, 11, 15 and 16, these are the basis for **the course's reading**
+(labelled as a reading in lesson 19) that the Regulations do not reach an owner-occupier's own job. No
+HSE page read says so in terms: HSE's "not engaged in any work activity" sentence is about liability to
+contractors (FAQ and introduction part 1).
+
+**Environmental Protection Act 1990, s 34(2A)** (new): https://www.legislation.gov.uk/ukpga/1990/43/section/34.
+[V] "It shall be the duty of the occupier of any domestic property in England or Wales to take all such
+measures available to him as are reasonable in the circumstances to secure that any transfer by him of
+household waste produced on the property is only to an authorised person or to a person for authorised
+transport purposes." England and Wales only; Scotland's and Northern Ireland's equivalents not read.
+
+**HSE, "Asbestos: FAQs"** (D1), further [V]: "Asbestos waste should only be handled by a licensed
+disposal site." "asbestos cement products (pipes, flues, roofs etc)" (the list item's own words; a
+garage or shed roof is the course's example, outside the list). The FAQ's "over 5000 deaths every year"
+names no place. **HSE, "Introduction to asbestos safety" part 1** (D2): [V] "Asbestos is the greatest
+cause of work-related deaths in Great Britain. Around 5,000 people die every year". D5 gives what the
+5,000 counts (mesothelioma, lung cancer and asbestosis together).
+
+**UKHSA, "Asbestos: general information"** (D4), via the content API, further [V]: "The UK Health
+Security Agency (UKHSA) does not recommend the DIY removal of asbestos without advice." "If you have any
+health concerns regarding exposure to asbestos seek guidance from your GP or contact NHS 111."
+
+**US EPA, "Lead Renovation, Repair and Painting Program"** (D14), further [V]: "If you decide to do the
+work yourself, make sure to use do-it-yourself (DIY) lead-safe work practices to protect you and your
+family." (It follows the hire-a-contractor recommendation.)
+
+**US EPA, "Lead-Safe Renovations for DIYers"** (D15), further [V]: "EPA recommends homeowners hire
+lead-safe certified contractors for all RRP projects in pre-1978 homes".
+
+**UKradon, "UK maps"** (D47), further [V]: "Every building contains radon but the levels are usually
+low. The chances of a higher level depend on the type of ground." None of the three pages says how radon
+enters a building; lesson 19 gives no route.
+
+**British Coatings Federation, HS032 v2.2** (D20), section 5, re-read: [V] "The precautions outlined
+below are recommended for both professional decorators and DIY decorators." [V] "The following
+precautions must be taken when renovating/removing old lead paint." Its four: [V] "Avoid the creation
+of lead-containing dust or fumes." "Prohibit anyone not involved in the work from the area, and
+preferably the building until the area has been thoroughly and effectively cleaned." The children and
+pregnant women line (D20). "Do not smoke, eat or drink in the work area." Preparation ("advised"):
+furniture out or covered with plastic sheeting sealed with tape; keep people out; [V] "Wear overalls,
+particulate filter face mask, and rubber or latex gloves within the work area, and remove them before
+leaving the area."; outside, cover soil and planting and avoid windy conditions. Clean-up: wash all
+surfaces in the work area, and vacuum with a HEPA-filtered vacuum. [V] "If you decide to proceed with
+decorating a lead-painted surface yourself" (its flowchart). The document gives no temperature.
+
+**The Fifth Circuit docket, No. 24-60193, as CourtListener shows it** (G-Z1), re-read ("Last Updated:
+Sept. 23, 2026, 3:25 p.m."): 16 June 2025, EPA motion to stay further proceedings, [V] "Reason: EPA will
+conduct a rulemaking to reassess the challenged final rule." (withdrawn 7 July 2025, when EPA asked for
+the stay [V] "through August 8, 2025", granted 9 July). 15 October 2025: [V] "COURT ORDER granting
+Motion to stay further proceedings in this court until Department of Justice attorneys are permitted to
+resume their usual civil litigation functions". 24 November 2025: stay lifted, briefing resumed.
+1 June 2026 argument; 2 June supplemental briefing directed, due 10 June; last entry 22 June 2026 (an
+EPA letter); no opinion. The docket is CourtListener's copy, and lesson 19 says so.

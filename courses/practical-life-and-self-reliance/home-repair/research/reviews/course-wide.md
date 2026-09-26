@@ -400,3 +400,24 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   flashing, should not need any form of consent", then repairs "especially if your home is listed or
   in a conservation area") is recorded for lesson 22.
 - **Quiz keys:** lesson 17 unchanged at 1,0,2,0,3,2.
+
+## 2026-09-26 — Lesson 20 fix pass: notes for later lessons
+
+- **The place grep in the drafting brief misses bare names and adjective uses** ("rural West
+  Virginia", "a Delaware house"), because it only matches after a preposition. Grep candidate places
+  as bare words across all of `courses/` and `curriculum/` (`grep -rlw`). Lesson 20 took Fort Wayne,
+  Youngstown and the Forest of Dean; West Virginia, Delaware and the Vale of Glamorgan dropped.
+- **Painting over a textured coating that may contain asbestos: no source read covers it.** A lesson
+  says so, gives HSE's FAQ advice (often best left where it is; the council's environmental health
+  officer), and labels it **Call someone**. Lesson 19 does not teach it, so no pointer should say it
+  does.
+- **EPA's "providing for maximum ventilation during painting" is a benzene step**, under "Keep
+  exposure to benzene to a minimum". EPA's general step is "Increase ventilation when using products
+  that emit VOCs." (first on its list; "Meet or exceed any label precautions." is second). Any later
+  lesson or podcast script keeps that scope.
+- **The BCF's overcoating line is "overcoating is the safest option to prevent exposure"**; SOURCES
+  had it without the last three words, now corrected. Old-paint advice goes one country at a time: the
+  BCF with its wet rub-down condition for the UK, EPA's certified-contractor sentence quoted whole
+  (with its DIY half where relevant) for the US.
+- **The VOC Regulations' terms are "water-borne" and "solvent-borne"**, and reg 4(3)'s ready-to-use
+  rule is for products that have to have solvent added, not a paint a user chooses to thin.
