@@ -5832,3 +5832,82 @@ agreement.").
 
 **G14 (Ren and Schaumberg 2024): not attempted.** Lesson 16 does not use the review's claim that
 disagreement lowers felt listening.
+
+## Gate closures, lesson 17 (2026-09-26)
+
+Fetched 26 September 2026 with curl and a generic browser User-Agent; no personal data sent.
+
+**Headlee, TED transcript, re-read in full**
+(https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation/transcript; the
+page's embedded transcript, about 1,960 words). The page's own data: recorded 1 May 2015; duration
+680 seconds; view count 33,048,911 on 26 September 2026. The talk cites no listening research
+(confirmed). Strings used in lesson 17 [V]:
+- "Pew Research did a study of 10,000 American adults, and they found that at this moment, we are
+  more polarized, we are more divided, than we ever have been in history."
+- "We're less likely to compromise, which means we're not listening to each other."
+- "Now, I actually use the exact same skills as a professional interviewer that I do in regular
+  life."
+- "if you just choose one of them and master it, you'll already enjoy better conversations"
+- "If you want to get out of the conversation, get out of the conversation, but don't be half in it
+  and half out of it."
+- "Don't think about your argument you had with your boss."
+- "You need to enter every conversation assuming that you have something to learn."
+- "Start your questions with who, what, when, where, why or how."
+- "you're going to respond to the most powerful word in that sentence"
+- "If they're talking about having lost a family member, don't start talking about the time you lost
+  a family member."
+- "It's not the same. It is never the same. All experiences are individual."
+- "things like look the person in the eye, think of interesting topics to discuss in advance"
+- "This is not the last one, but it is the most important one."
+- "Buddha said, and I'm paraphrasing"
+- Rule 10 is "Be brief. Be interested in other people." with no further explanation; the talk then
+  turns to her grandfather story.
+- The Coolidge line in the talk is "No man ever listened his way out of a job." (Part A (d)14 gives
+  "himself out of"; the talk's words are "his way out of".) Covey, as she quotes him: "Most of us
+  don't listen with the intent to understand. We listen with the intent to reply."
+
+**G17, Pew: closed.** Pew Research Center, "Political Polarization in the American Public", 12 June
+2014, https://www.pewresearch.org/politics/2014/06/12/political-polarization-in-the-american-public/
+(read: the report's overview page). The key sentence says Republicans and Democrats are more divided
+along ideological lines, and partisan antipathy deeper, "than at any point in the last two decades"
+[V; the sentence's two spaced dashes are Pew's own]. "Data are drawn from a national telephone survey
+of 10,013 adults, conducted from January through March of this year, and an ongoing series of
+follow-up surveys." [V] "The overall share of Americans who express consistently conservative or
+consistently liberal opinions has doubled over the past two decades from 10% to 21%." [V] Part A
+§6.1's [T] text is now [V]. The finding is about partisans of both parties; the step to "we're not
+listening" is Headlee's own inference.
+
+**G17, attributions: partly closed.**
+- "Illusion that it has taken place": Quote Investigator, "The Biggest Problem in Communication Is
+  the Illusion That It Has Taken Place", https://quoteinvestigator.com/2014/08/31/illusion/, read in
+  full (curl with compression; no bot challenge today). [V]: "There is no substantive evidence that
+  George Bernard Shaw who died in 1950 made this statement." "The earliest evidence located by QI
+  appeared in an article titled “Is Anybody Listening?” by William H. Whyte which was published in
+  “Fortune” magazine in 1950." "The linkage of the statement to George Bernard Shaw appears to be
+  spurious." The 1994 business book is the earliest Shaw attribution QI lists. Whyte's article itself
+  was not read and stays on the unread line.
+- "Two ears and one mouth": Diogenes Laertius, *Lives of Eminent Philosophers*, Book VII §23, R. D.
+  Hicks's translation (Loeb, 1925), Wikisource text
+  (https://en.wikisource.org/wiki/Lives_of_the_Eminent_Philosophers/Book_VII), read for §§21 to 24.
+  Of Zeno of Citium [V]: "The reason why we have two ears and only one mouth is that we may listen
+  the more and talk the less." Epictetus's works were not searched, so this establishes an ancient
+  attribution to Zeno, not that no similar line exists in Epictetus. Murphy's excerpt was not re-read
+  today.
+- Headlee's Buddha, Coolidge and Covey lines: Quote Investigator's own site search ("Coolidge
+  listened", "Covey listen", "intent to reply", "mouth is open", "two ears") returned no entry on
+  any of them. Not confirmed; no alternative source named. Covey's book was not read.
+
+**Zenger and Folkman 2016, re-read in full** (Internet Archive capture 20160720165625 of
+https://hbr.org/2016/07/what-great-listeners-actually-do). Agrees with Part D §7.1. Further [V]:
+"We identified those who were perceived as being the most effective listeners (the top 5%)."
+"Perhaps what the data is telling us is that making suggestions is not itself the problem; it may be
+the skill with which those suggestions are made." "Another possibility is that we’re more likely to
+accept suggestions from people we already think are good listeners." The opening: "People’s
+appraisal of their listening ability is much like their assessment of their driving skills" [V],
+with no source given.
+
+**G18, video: closed.** YouTube oEmbed for https://www.youtube.com/watch?v=R1vskiVDwl4 returns title
+"Celeste Headlee: 10 ways to have a better conversation | TED", author "TED",
+https://www.youtube.com/@TED: TED's own channel. Lesson 17 embeds it.
+
+**Unread line:** nothing named on it was read for lesson 17.

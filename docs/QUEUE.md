@@ -56,14 +56,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   conversations to Mental Fitness. Stage 2 is done: `research/OUTLINE.md` plans seventeen lessons
   (Tier B for 5, 9, 11, 14, 15 and 16; the Mental Fitness crisis callout on 10 and 11, enforced by
   the build), a 20-item test and a listening-journal project.
-  **Where it stands (2026-09-26):** lessons 1 to 9 drafted, 10 in drafting. Lessons 1 to 8 are
-  settled (Stage 4, fixes, re-check or fresh second pass) and have fact-checked scripts. Lesson 9
-  (Tier B) has its F and P review applied and **owes a targeted re-check**, then its script.
+  **Where it stands (2026-09-26, end of session):** all seventeen lessons drafted. Lessons 1 to
+  15 are settled (Stage 4 at their tier, fixes, targeted re-check or fresh second pass) and have
+  fact-checked scripts. Lesson 16 (Tier B) has reviewers F and P done, merged into
+  `research/reviews/16-listening-to-someone-who-disagrees.md` (4 medium F, 17 P, no high): **apply,
+  fresh second pass, then its script.** Lesson 17 is drafted and **owes Stage 4
+  (Tier A, full neutrality)**, then its script; its drafter cut contractions mechanically, so
+  read it for stiffness. Then the 20-item final test and the listening-journal
+  project (neither written; `npm run build:drafts` fails until the test exists), then publish and
+  open the course's audio-debt line at 17. Lesson 15 leaves five low items open in its review file.
   **Gates:** G2, G4 and G20 closed. G20 changes the outline: Leydon et al. 2018 is a partial
   replication of Heritage's "some"/"any" result, so "no replication found" is no longer true
   (lesson 6 reports both). G5 not closed (Beckman and Frankel refused; the 18 seconds is cited as
   Singh Ospina reports it). G3, the Gino integrity check on Yeomans et al. 2020, is open for lesson
-  16: OSF holds a 2024 integrity report; Retraction Watch still unchecked. G1 mostly closed at the
+  16: OSF holds a 2024 integrity report; Retraction Watch still unchecked. G3 closed (lesson 16): no retraction of Yeomans et al. 2020; the OSF integrity and reproducibility
+  reports are disclosed in the lesson. G1 mostly closed at the
   lesson 9 draft: Weger 2010 and 2014, Kluger 2024 and the four-lab preprint read in full. **The two
   PSPB papers stay abstract-only** (publisher-locked) and are used at abstract level only.
   SOURCES Part B §3.3 mislabels the first-author-gender moderator as non-significant (noted in
