@@ -136,7 +136,7 @@ read as a bad sign in more than one language, even if where the line falls in ea
 
 So if someone replies a fraction slower than you're used to, that is not yet evidence that they're
 reluctant. It may just be their normal pace, and if you're the faster one, you may be heard as
-jumping in. On the authors' account, neither of you is doing anything wrong.
+jumping in. On that account, neither of you is doing anything wrong.
 
 ## Where a listener looks
 
@@ -206,8 +206,9 @@ looks.
 
 ### The same look, read differently
 
-A second study asked not where people look, but how a look feels. Hironori Akechi and colleagues
-tested 20 Finnish and 20 Japanese university students, 10 women in each group, in 2013. Each sat
+A second study asked not where people look, but how a look feels. In a paper published in 2013,
+Hironori Akechi and colleagues tested 20 Finnish and 20 Japanese university students, 10 women in
+each group. Each sat
 facing a woman from their own country behind an electronic shutter that turned clear to show her
 looking straight at them, looking away, or with her eyes closed. Nobody talked. Both groups' hearts
 slowed in the same way to direct gaze, and both rated it as more arousing, so the body's response was
@@ -290,7 +291,7 @@ Ottilie is briefing a new colleague, Cosimo, on how their team handles customer 
 most of it he looks at the desk or out of the window, and at one point she wonders whether any of it
 is going in.
 
-List what his looking away could mean, using only this lesson so far and lesson 14. It could be a
+Using only this lesson so far and lesson 14, his looking away has several readings. It could be a
 habit of where a listener looks, of the kind Rossano's recordings found differs between communities.
 It could be that looking at someone's face makes it harder for him to listen, which, as the next
 section shows, many autistic people report. It could be that he's bored or thinking about something
@@ -401,8 +402,8 @@ abstract only.
   problematic both from an ethical and philosophy of science point of view".[12]
 - The 2026 study with Baron-Cohen among its authors, testing how accurately autistic and non-autistic adults
   read autistic and non-autistic storytellers' feelings, concluded: "Findings suggest partial support
-  for the double empathy problem theory" (its key interaction was a trend, not a significant
-  effect).[13] A 2026 study of observers judging filmed suspects
+  for the double empathy problem theory" (its key result was a trend, not a statistically
+  significant effect).[13] A 2026 study of observers judging filmed suspects
   reported that "The double empathy hypothesis was not supported".[14]
 
 So the empirical question is open. On this course's reading, what would settle it is larger studies of real, back-and-forth
@@ -426,7 +427,7 @@ works.
 The advice here comes from RNID, the UK charity for people who are deaf or have hearing loss,
 speaking from its community's experience. In this course's terms it is **practitioner advice**.
 
-:::predict Most people, talking to someone who has not caught what they said, do two things without thinking. What are they, and what would you expect a charity for deaf people to say about them?
+:::predict Many people, talking to someone who has not caught what they said, do two things without thinking. What are they, and what would you expect a charity for deaf people to say about them?
 
 They talk louder and they slow down. RNID asks people to avoid both shouting and speaking unnecessarily slowly, and to face the person and speak clearly instead.[16] RNID's page doesn't say why, and this course doesn't supply a reason of its own.
 :::

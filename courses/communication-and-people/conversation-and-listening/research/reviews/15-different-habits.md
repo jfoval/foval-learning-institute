@@ -358,3 +358,151 @@ the mediums (quiz 1 and 5 re-ran worked examples, "ask" option scored 4 of 6; ti
 re-taught lesson 1; hearing predict used RNID before introducing it). The fixer applied those. The
 fresh second pass therefore runs Reviewer P's passes (depth, pedagogy, cold start, voice) in full as
 well as the targeted re-check.
+
+## Fresh second pass (2026-09-26)
+
+A fresh context, doing two jobs because Reviewer P's findings were lost: (a) Reviewer P's passes 4
+to 6 in full (depth and pedagogy, cold start, voice and media), and (b) a targeted re-check of the
+fix commit 66cb5d7 (lesson diffed against 66cb5d7~1) with a neutrality re-count. Finding IDs below
+are this pass's own (P1... for pedagogy and voice, R1... for the re-check); they do not reconstruct
+the lost P1 to P19.
+
+**Re-fetched today** with curl, a generic browser User-Agent and no personal data, and string-matched
+after normalising quote marks: Akechi et al. 2013 (PLoS ONE HTML: the anger and approachability
+sentences, the generalisation caveat, "display rules and cultural norms", the pleasantness
+interaction p = .043 with the marginal simple effect p = .094, anger interaction p = .048, 10 women
+per group, university students); Williams et al. 2017 (Internet Archive capture 20250415130417:
+crossover, "sample sizes ... were inadequate", 13 homes, 42 dyads, three 1-hour sessions,
+34.6/13.6, 35.7/15.3, RTC change predicted by elderspeak change, "a speech style similar to baby
+talk", "readily recognize and react negatively to elderspeak", the coded features); Williams et al.
+2009 (the PMC PDF via the Internet Archive: "observational study", "experimentally manipulates",
+"aspects of elderspeak can improve resident cooperation", "simplification of grammar and
+vocabulary, slow rate", "value the warmth"); Hofstede 2011 (Internet Archive capture 20260915075456
+of the GVSU PDF: all six quoted strings, including his summary of Hall and "more than 400
+significant correlations"); Crompton et al. 2020 (Internet Archive PMC copy: "pre-registered",
+12.96/12.40/8.92, "replications are warranted", awareness of diagnostic status) and 2025 (Nature:
+the opening sentence, the after-the-fact caveat, the registered hypothesis that mixed chains would
+do worse, "more diverse sample"); the Livingston et al., Bollen and van Grunsven, Rum et al. and
+Brewer et al. abstracts (Europe PMC); the Kittler et al., Cardon and Fischer and Schwartz abstracts
+(Crossref); RNID, STAMMA, StoryCorps and the LanguageLine PDF (live); Stivers et al. 2009 (Internet
+Archive PMC copy: "within ≈250 ms either side", "quantitative only"). Rossano's p. 205 was not
+re-OCR'd; F's Table 7.1 check and the fixer's p. 205 read stand. Every string matched.
+
+### (b) Re-check of the fixes
+
+- **F1 to F9, and the fixer's P1 to P3 and three mediums: all resolved, and no new error found.**
+  The approachability sentence is now quoted verbatim, pleasantness is correctly given as marginal,
+  quiz 1's key and explanation match the paper. The elderspeak paragraph now reports the crossover
+  and the before-and-after nature of the figures correctly. The Livingston quotation opens at "Until
+  then" and the grant of potential is included. Rum's trend is disclosed. The 2009 study is read in
+  full and its own caveat and the other side are reported in its terms. Rossano is "300" throughout.
+- **Hofstede is now cited in his own terms**: his definition of a dimension, his validation claim
+  and his warning against stereotyping individuals, all string-matched. **Hall appears only as far
+  as read**: through Hofstede's one-sentence summary, labelled as such, and Kittler et al.'s
+  description, labelled as theirs, with "The course has no comparable statement from Hall himself."
+  Hall 1976 and *Culture's Consequences* stay on the `unread:` line and neither is cited.
+- **R1 (Low, carried, no action proposed).** The deficit reading still has no primary statement of
+  its own; it is stated by two papers that test double empathy (Crompton 2025's opening, Rum et
+  al.'s background) and one critic of it. The lesson says so in the body, which is the honest
+  handling under defect 10. Recorded so a later pass doesn't treat it as new.
+
+**Neutrality re-count.** *Double empathy:* deficit side three citations (Crompton 2025 opening, Rum
+background, Livingston), double-empathy side three (Milton, Crompton 2020, Bollen and van Grunsven);
+the two 2026 studies split (Rum partial and a trend, Brewer null); one misconception against each
+side; the mixed-chain non-replication gets the "Read that last sentence carefully" paragraph, and
+the task caveat is now applied both ways. Last word: Itzchakov and Bodie's value sentence, then the
+practical advice framed as shared by both readings. *National typologies:* Hofstede in his own
+voice twice (validation, and the individual-level warning), Hall at one remove, three critics each
+labelled by read level and by what they measured; last word is the course's labelled reading ("Watch
+and ask"). *Whole lesson:* the lesson's architecture (eye contact is a weak test of listening; ask
+the person) is labelled as the course's reading from three sources, and every group difference is
+tied to what was measured and in whom.
+
+**Turing test, OUTLINE perspectives:** an autistic adult (passes: language declared, accounts quoted
+as theirs, "staring relentlessly" kept, nothing asks anyone to perform eye contact); a social-deficit
+researcher (passes: critique quoted with its condition, 2020's positive result not read alone,
+caveat symmetric; would still want a primary statement, R1); a double-empathy researcher (passes:
+Milton in his own words, the 2025 null and Bollen's reply both reported); a reader who grew up in
+Japan and one who grew up in Finland (both pass now: each group's result is as the paper gives it,
+with the authors' generalisation caveat quoted); a Tzeltal speaker as the study describes the
+community (passes); an older reader (passes: elderspeak confined to dementia care, the step to
+healthy relatives labelled, "talk to them as you'd talk to anyone"); a reader who is deaf or hard of
+hearing (passes: "repeat or rephrase" restored, the plan starts with asking her); and, added, a
+Hofstede proponent (passes now) and a Hall proponent (passes as far as the course has read, with
+the gap declared).
+
+**Patronising or othering:** nothing found about autistic, older, deaf or hard-of-hearing people or
+any culture. The checkpoint, exercises and journal all forbid diagnosing or typing anyone. One
+placement note, not a finding: the distress pointer sits in the autism section, which could be read
+as linking autism with crisis; OUTLINE's safety decision puts it there deliberately, and its
+wording ("any of this") is general, so it stands.
+
+### (a) Reviewer P passes
+
+**Depth:** passes all three tests. Every section carries a named study with its N, setting and read
+level; the mechanism (attention shown in different channels; eye contact costing attention) is
+explained; two worked examples, the second with a gap; seven misconceptions; two exercises; four
+Go-deeper items with read levels. No padding found.
+
+**Re-teaching:** none. Lesson 01's timing is two recall paragraphs with no figures re-taught;
+lesson 05's STAMMA advice is one recall sentence before two new lines; lesson 14 appears only as
+"no body movement with one fixed meaning" and the GAO pointer, which lesson 14 itself sets up.
+
+**Quiz, measured by script:** keys 3,1,0,2,0,1 (all four used, no adjacent repeat); option-length
+spreads 3, 4, 3, 5, 1 and 12 characters; the key is joint-longest in items 1 and 4 and sole longest
+in none; "pick the shortest" scores about 3.3 of 6 (56%), under the pass mark. Each stem executed
+against its key and each explanation checked against the body and the sources: all correct. There
+is no "if you got X" diagnosis in the lesson; the two "If you expected..." lines in the predicts and
+"If your plan put the place or the manner first" trace correctly.
+
+**Think-blocks:** three `:::predict`, two `:::checkpoint`, two `:::exercise`; every block body has
+its blank lines and none collapses.
+
+**Chart:** rendered by eye in both themes at 420 px (rsvg-convert, tokens resolved from
+`site/assets/styles.css`). Every bar is 2.5 px per point from zero, every label sits clear of its
+bar and inside the viewBox, every bar is named in text so nothing depends on colour, and navy and
+oxblood stay distinct in the dark theme.
+
+**Voice:** no em dashes, no spaced en dashes, no banned words ("Foster" and "paradigm" occur only in
+source titles and author names). Contractions and bold measured by the fixer are unchanged.
+
+**Fixed inline (one edit each):**
+- **P1 (Medium, fixed).** The colleague example told the reader to "List what his looking away
+  could mean" and then printed the list in the next sentence, which is defect 4 (a self-check
+  printing its own answer) in a form the linter doesn't catch. Now "Using only this lesson so far
+  and lesson 14, his looking away has several readings." The real question stays in the checkpoint.
+- **P2 (Low, fixed).** "its key interaction was a trend, not a significant effect": "interaction" is
+  statistics vocabulary no earlier course teaches. Now "its key result was a trend, not a
+  statistically significant effect".
+- **P3 (Low, fixed).** "tested ... in 2013" gave the publication year as the testing year. Now "In a
+  paper published in 2013".
+- **P4 (Low, fixed).** "On the authors' account, neither of you is doing anything wrong" credited
+  Stivers et al. with a normative conclusion they don't draw. Now "On that account".
+- **P5 (Low, fixed).** The hearing predict opened "Most people ... do two things", an unsourced
+  quantifier. Now "Many people".
+
+**Open (for a fix pass; none blocks publication):**
+- **P6 (Low, cold start).** "theory of mind" (Milton paragraph, and "the theory-of-mind papers") is
+  never glossed, and no earlier course teaches it. A short gloss is needed, taken from a read source
+  rather than supplied.
+- **P7 (Low).** Simon Baron-Cohen is named with no word on who he is, so the name carries weight
+  the cold reader can't weigh. Either say why he's named, from a read source, or give the study
+  without the name.
+- **P8 (Low).** The dinner checkpoint says "using RNID's advice and nothing else", but its fourth
+  step (don't talk about her in front of her) is not on RNID's page. RNID's "Invite people back into
+  the conversation." (read today) would carry it, with a SOURCES append for the quotation.
+- **P9 (Low, quiz).** Items 1 and 2 are pure recall and item 2 asks what the gaze predict already
+  asked; item 4's key reuses the body's 72 and 311 (defect 5b). Four of six items are scenario or
+  evaluation items, so 4.3's half is met. In item 2 all four options carry an absolute or scope word
+  ("all three", "never"), against the target of two without.
+- **P10 (Low, voice).** "(a company's advice, labelled so)" is pipeline register; "gets these people
+  exactly backwards" ends a paragraph on a compressed moral; "you have the lesson in miniature" and
+  "Here are the two studies side by side" are mild tics. "neurotype" appears in the predict answer
+  in the course's own voice without a gloss (it can be inferred from context).
+
+**Checks after the inline fixes:** `npm run quotes conversation-and-listening`: 291 quotations, 0 not
+found. `npm run minutes`: 7,041 words, 90 modelled, `minutes: 90`, ok. `npm run validate`: exit 0.
+
+**Verdict: SETTLED.** Every F finding and every surviving P finding is resolved with no new error,
+the neutrality re-count and Turing tests pass, and P6 to P10 are low-severity polish for the next
+fix pass.
