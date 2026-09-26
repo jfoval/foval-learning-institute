@@ -476,3 +476,29 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   and cite the trap page for sealing first.
 - **Lesson 21 is at 102.47 modelled minutes** (100, with no headroom); R16's glosses were declined for
   that reason.
+
+## 2026-09-26 — Lesson 22 fix pass: notes for later lessons and scripts
+
+- **Wales: "before you start" is the householder's route only.** A registered installer's work needs no
+  prior notice; regulation 20(3) (Wales version) has the installer notify within 30 days after. Any
+  later lesson or script that sends a Welsh reader to building control first says "if you do it
+  yourself".
+- **The GOV.UK competent person list is England's** (authorised by MHCLG; the page says nothing about
+  Wales). Lesson 23 and any script call it that.
+- **The federal report's two electrician findings are two papers**: Kleiner and Park (2014), note 126,
+  on electricians' own injuries, and Carroll and Gaston (1981), note 136, on how many electricians there
+  are, in the jobs section. Neither is evidence about customers' safety. SOURCES corrected in place.
+- **The FTC's burden sentence is conditional** ("when it seems likely that anticompetitive effects will
+  outweigh any consumer benefits"); never quote its second half alone.
+- **Florida's electrical owner exemption** has its own disclosure statement (489.503(6)(c)); the
+  insurance line is 489.103(7)'s, for building work. Only a sale of "more than one such structure"
+  within a year is prima facie evidence against the electrical exemption.
+- **A socket near a bath or shower tray in England**: AD P Diagram 2 says sockets "should not be located
+  within 3m of a bath tub or shower tray". Any lesson or script that mentions one says so.
+- **s36's old period is still unread.** Say "10 years", from 1 October 2023 in England and 1 July 2026
+  in Wales, and that the course didn't read how it applies to older work; never "12 months".
+- **Lesson 22 is at 100 minutes with about 30 words of headroom** (102.3 modelled). Its second pass
+  cuts before it adds.
+- **Places:** Torfaen, West Dunbartonshire, Solihull and the Central Valley are lesson 22's. Conwy is
+  lesson 21's alone.
+- **Quiz keys:** lesson 22 unchanged at 0,2,3,1,3,0.

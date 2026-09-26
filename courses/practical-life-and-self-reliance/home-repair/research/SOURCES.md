@@ -6485,8 +6485,14 @@ strings re-matched ("today’s" is printed with a curly apostrophe). Also:
 - [V] "Other research suggests that licensing is not always adequate to address quality concerns, but
   may be complementary with other forms of regulation." (Phelan 1974, television repair, fraud lower
   where licensing was coupled with a state agency that investigated fraud.)
-- The electrician findings are Kleiner and Park (2014), *Monthly Labor Review*, "Life, Limbs and
-  Licensing"; the paper itself was not read (bls.gov returned 403).
+- The two electrician findings are two papers (corrected at lesson 22's Stage 4, 2026-09-26). Note
+  126, in "Impacts on Quality, Health, and Safety", is Kleiner and Park (2014), *Monthly Labor
+  Review*, "Life, Limbs and Licensing: Occupational Regulation, Wages, and Workplace Safety of
+  Electricians, 1992-2007": it measured the severity of injuries **to electricians themselves**, not
+  the safety of their customers' installations. Note 136, in "Impact on Employment and Wages", is
+  Carroll and Gaston (1981), *Southern Economic Journal*, "Occupational Restrictions and the Quality
+  of Service Received: Some Evidence": the report cites it for the number of electricians per head.
+  Neither paper was read (bls.gov returned 403).
 - The report's 25 percent is the State-licensed share (to 2008 data); the FTC page's "Nearly thirty
   percent" is a different, undated figure. Neither is set against the other as a change.
 
@@ -7129,3 +7135,61 @@ Archive `id_` captures, the rest live.
   to prevent new rodent infestations. Set traps throughout your home". The index page also uses the
   clean-up as the test for active rodents: [V] "safely clean the area". The seal page lists [V] "Around
   all electrical, water, gas, and sewer lines".
+
+## Stage 4 note, lesson 22 (2026-09-26)
+
+Read or re-read on 26 September 2026 by lesson 22's reviewer F and fixer, with curl (a browser
+User-Agent and no personal data in any header), then pdftotext or a plain HTML stripper; every [V]
+string below was string-matched in the extracted text. The Institute for Justice page was read from
+Internet Archive capture 20260712004730 (`id_` form, gunzipped). The federal report's electrician
+note is corrected in place under "The federal report (C33), read further".
+
+- **Approved Document P (England, 2013), Diagram 2**, the note beside the bath and shower zone: [V]
+  "Socket-outlets should not be located within 3m of a bath tub or shower tray" (pdftotext splits it
+  across layout lines). A lesson that puts a socket by a shower tray gives this beside the notice rule.
+- **SI 2023/993 reg 7(2)**, read (it was named, not read, among the gates): [V] "section 36 of the 1984
+  Act continues to apply, as that provision had effect immediately before 1st October 2023, in relation
+  to any notice given by a local authority under section 36(1) or (2) of the 1984 Act before that
+  date." It says nothing about work finished before that date for which no notice was given, so G-L6
+  stays open on that point; lesson 22's quiz uses work finished two years ago, inside the new period
+  on any reading.
+- **SI 2010/2214 (Wales version)**: reg 12(6)(a) and (b) exempt Schedule 3 work by a scheme member and
+  Schedule 4 work from a building notice, and reg 20(3) has the installer act [V] "not more than 30
+  days after the completion of the work". So in Wales, "before you start" is the householder's route
+  only. Welsh Schedule 4 para 1(a) to (e) frees replacements, repairs and bonding **anywhere**; para 2's
+  kitchen and special location condition applies only to added lights, switches, sockets and spurs.
+- **GOV.UK, "Building regulations approval"**, the competent person page: a scheme member will [V]
+  "give you a certificate within 8 weeks of completion". Regulation 20's 30 days is the installer's
+  duty to the occupier and the council; the two are given side by side, not set against each other.
+- **GOV.UK, competent person scheme list** (updated 17 September 2026): schemes are authorised by
+  MHCLG, and the page says nothing about Wales. Lessons call it England's list.
+- **Florida Statutes 489.503(6)(c)**, the electrical owner's disclosure statement: [V] "State law
+  requires electrical contracting to be done by licensed electrical contractors." [V] "You may not hire
+  an unlicensed person as your electrical contractor." [V] "If you sell or lease more than one building
+  you have wired yourself within 1 year after the construction is complete, the law will presume that
+  you built it for sale or lease". The insurance line lesson 22's draft used belongs to 489.103(7), the
+  building owner-builder statement, not to the electrical exemption.
+- **FTC prepared statement (2017)**, the full burden sentence: [V] "when it seems likely that
+  anticompetitive effects will outweigh any consumer benefits, the proponents of any restrictions should
+  bear the burden of justifying why they are needed." The shorter string recorded under G-L3 is its
+  second half and is never quoted without the condition.
+- **Institute for Justice** (capture 20260712004730, site navigation): [V] "IJ files cutting-edge
+  constitutional cases in state and federal courts". No page read calls IJ "a law firm"; lessons don't.
+- **SELECT, "UK’s biggest union supports the call for protection of title for electricians"** (June
+  2018): [V] "10 people were killed and more than 600 injured in electrical fault-related incidents in
+  2016 alone." It does not say how many involved unqualified work.
+- **ESF, "Advice for DIY-ers"**: the sentence before the one recorded, [V] "Although there are some jobs
+  people can do themselves, be aware of any potential electrical risks before starting DIY." ESF's
+  position is quoted with it.
+- **DCLG Part P impact assessment (2012)**, para 27: [V] "We received 158 responses to the
+  consultation. Of these, 25% came from electrical installation firms" [V] "A further 9% of respondents
+  were firms classified as building services engineers. Responses from local authority building control
+  accounted for 20% and homeowners were responsible for 11% of the replies." [V] "A further 11% came
+  from national representative or trade bodies, competent person scheme operators or other professional
+  bodies." Para 4: [V] "Competent person schemes monitor their members through regular inspections of
+  their work". The market-failure sentence recorded under G-L5 opens "Market failure potentially
+  arises", and lessons keep "potentially".
+- **HSG85 para 54** lists [V] "proprietary voltage detectors such as two-pole voltage detectors, test
+  lamps, or voltmeters with insulated probes and fused leads"; lessons name no instrument and keep to
+  "proper test equipment".
+- **Law Society TA6 notes**: answered live on 26 September 2026, and the strings C11 records re-matched.
