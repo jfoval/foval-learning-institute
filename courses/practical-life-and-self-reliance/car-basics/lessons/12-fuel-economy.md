@@ -1,6 +1,6 @@
 ---
 title: "Fuel economy: what maintenance buys, and the figures that were withdrawn"
-minutes: 70
+minutes: 75
 objectives:
   - >-
     State what fueleconomy.gov now says maintenance buys (about 0.6 per cent on average from correct
@@ -29,15 +29,15 @@ quiz:
     answer: 0
     explain: >-
       The page was revised on 27 June 2016 to "0.6% on average", up to 3% in some cases, assuming an
-      average under-inflation of 10% and 25% for the worst case. The article is quoting the 2010 to
-      2013 wording. The site didn't raise the figure, and it still gives numbers for tyres and for oil
+      average under-inflation of 10% and 25% for the worst case. The article is quoting the wording
+      the page carried from at least 2010 until the 2016 revision. The site didn't raise the figure, and it still gives numbers for tyres and for oil
       grade.
   - q: >-
       A driver's handbook says his car's turbocharged engine requires premium fuel. A friend says
       regular is fine "because it only costs you a bit of power". On fueleconomy.gov's octane page,
       which reply fits?
     options:
-      - Fine as long as he fills up with premium every third tank to clean the engine out afresh
+      - Fine as long as he fills up with premium every third tank to clean the engine out
       - Fine in winter, since knock only happens in hot weather, so switch back to premium in summer
       - Use what the maker requires, since lower octane can harm the engine and emissions parts
       - Fine for older cars only, since newer engines adjust to any fuel and can't be damaged by it
@@ -45,8 +45,8 @@ quiz:
     explain: >-
       fueleconomy.gov says to use the octane the maker requires, and that lower than required "can
       damage the engine and emissions control system over time" and "may also void your warranty".
-      Newer engines can adjust their timing to reduce knock, the page says, but power and fuel economy
-      still suffer. Nothing read supports a premium tank every so often or a seasonal switch.
+      Many newer vehicles can adjust their spark timing to reduce knock, the page says, but power and
+      fuel economy still suffer. Nothing read supports a premium tank every so often or a seasonal switch.
   - q: >-
       As general information: in Great Britain, a parent waits outside a school for fifteen minutes
       with the engine running to keep the heater on. What does the Highway Code's Rule 123 say?
@@ -63,7 +63,7 @@ quiz:
       for more than a couple of minutes. It names traffic and diagnosing faults as the exceptions, not
       cold weather, and it covers any engine.
   - q: >-
-      A restorer's classic car has a carburettor and a badly clogged air filter. On fueleconomy.gov's
+      A restorer's classic car has a carburettor and an air filter that is due for replacement. On fueleconomy.gov's
       current page, what can a new filter do for this car?
     options:
       - Nothing for fuel economy, since the site says a new filter never saves fuel on any car at all
@@ -78,7 +78,7 @@ quiz:
       was withdrawn by 2010. The no-gain line is about fuel-injected engines.
   - q: >-
       A tyre shop's sign says "Correct pressures save up to 5% on fuel". A customer's tyres are already
-      at the placard figure when she checks them. What will correcting her pressures save her?
+      at the placard figure when she checks them. What will the check save her in fuel?
     options:
       - About 5%, since the sign's figure applies to every car that has its pressures checked
       - Close to nothing, since the saving comes from fixing under-inflation she doesn't have
@@ -95,9 +95,9 @@ quiz:
 Search for fuel-saving tips and you'll meet the same numbers again and again. A new air filter
 gives you 10 per cent. Correct tyre (tire) pressures give you 3 per cent. Fixing a faulty oxygen sensor gives
 you 40 per cent. They sound official, and they were: each one was printed by fueleconomy.gov, the US
-government's fuel economy site. Each one was later withdrawn or cut, and you can date when. This lesson
-does two things. It says what maintenance actually buys in fuel, according to the current page, and it
-teaches you to date a figure and to tell a best case from an average, which is useful well beyond cars.
+government's fuel economy site. Each one was later withdrawn or cut, and you can date when. Here you'll
+see what maintenance actually buys in fuel on the current page, and learn to date a figure and tell a
+best case from an average, which is useful well beyond cars.
 
 :::callout Before the car lets you down
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
@@ -105,7 +105,7 @@ This course is education, not mechanical training, and not legal advice about yo
 
 Most of this lesson's figures are American, because the source that has measured and revised them is
 American, and they're in US units (miles per gallon, US gallons, dollars). One section states Great
-Britain's law on leaving an engine running, and it carries this label in short; here it is in full.
+Britain's law on leaving an engine running. That section opens with a short form of this label:
 This is general information, not legal advice. The rules differ between England and Wales, Scotland,
 Northern Ireland and each US state, and they change.
 
@@ -130,7 +130,7 @@ July 2023.[1][2] The page said this, capture by capture:
 Sources: [1][2]. The dates are when the Internet Archive saved each copy; a change happened somewhere
 between two captures, except the tyre revision, which the page itself dates.
 
-Three of the five figures fell or disappeared, one at a time.
+Four of the five figures fell or disappeared, in three changes. Only the oil grade stayed.
 
 ### The air filter: 10 per cent, then none
 
@@ -139,7 +139,7 @@ as much as 10 percent."[2] By December 2010 it carried a heading, "NEW INFORMATI
 answer: "A new study shows that replacing a clogged air filter on cars with fuel-injected,
 computer-controlled gasoline engines does not improve fuel economy but it can improve acceleration time
 by around 6 to 11 percent."[2] (Gasoline is petrol.) The study it named was from Oak Ridge in 2009.[2]
-For older cars with a carburettor, the 2010 page said a new filter "may improve fuel economy 2 to 6
+For older cars with a carburettor, the older way of mixing fuel and air, the 2010 page said a new filter "may improve fuel economy 2 to 6
 percent under normal replacement conditions or up to 14 percent if the filter is so clogged that it
 significantly affects drivability." And it added: "The effect of a clogged air filter on diesel
 vehicles will be tested in the near future."[2]
@@ -151,17 +151,18 @@ or on diesel engines, "does not improve fuel economy, but it can improve acceler
 Why would a filter matter to one kind of engine and not the other? fueleconomy.gov's [myths page](https://www.fueleconomy.gov/feg/myths.shtml) gives
 the reason: modern fuel-injected engines "have on-board computers that automatically adjust the
 fuel-air ratio to the proper level."[3] The page does not take the explanation further, and nor does
-this course. A carburettor, the older way of mixing fuel and air, is the case where fueleconomy.gov
+this course. A carburettor is the case where fueleconomy.gov
 says the filter still affects fuel economy.[1][3]
 
 :::predict The 10 per cent figure appeared on the 2007 page with no qualification about the kind of engine. Before reading on: what kind of car do you think it was true for, if any?
-Older cars with a carburettor. The 2010 page gave up to 14 per cent for a carbureted car with a filter so clogged it "significantly affects drivability", and 2 to 6 per cent in normal conditions. So 10 per cent was within the range for an old, badly neglected carbureted car, and wrong for nearly every car on the road in 2007, which had fuel injection.
+Older cars with a carburettor. The 2010 page gave up to 14 per cent for a carbureted car with a filter so clogged it "significantly affects drivability", and 2 to 6 per cent in normal conditions. So, on this course's reading, 10 per cent was within the range for an old, badly neglected carbureted car, and, on the 2010 page's account, wrong for most petrol cars made from the early 1980s onward, which have fuel injection.
 :::
 
-### Tyre pressure: cut about fivefold
+### Tyre pressure: cut more than fivefold
 
 In 2007 the page said correct pressures could improve mileage "by around 3.3 percent", and that
-under-inflated tyres lowered it "by 0.4 percent for every 1 psi drop in pressure of all four tires".
+under-inflated tyres lowered it "by 0.4 percent for every 1 psi drop in pressure of all four tires"
+(1 psi is about 0.07 bar).
 The 2010 and 2013 pages said "up to 3.3 percent" and 0.3 per cent per psi.[2] Today's page says: "You
 can improve your gas mileage by 0.6% on average" (it goes on, "up to 3% in some cases"), and
 "Under-inflated tires can lower gas mileage by about 0.2% for every 1 psi drop in the average pressure
@@ -172,20 +173,22 @@ arithmetic). The old figure didn't vanish. It became the top of the new range.
 
 ### Tune-up and the oxygen sensor: gone without a word
 
-From 2007 to 2021, the page said: "Fixing a car that is noticeably out of tune or has failed an
+From 2007 to 2021 the page carried these two sentences (quoted here as in 2007; later copies write %
+for percent): "Fixing a car that is noticeably out of tune or has failed an
 emissions test can improve its gas mileage by an average of 4 percent, though results vary based on the
 kind of repair and how well it is done. Fixing a serious maintenance problem, such as a faulty oxygen
 sensor, can improve your mileage by as much as 40 percent."[2] The capture of 8 July 2021 still has
 both sentences. The capture of 6 July 2023 doesn't; in their place is a paragraph headed "Address
 Engine Issues Promptly", about the check-engine light, which lesson 11, "Dashboard warning lights",
-quoted.[2] None of the pages read says why the figures went, so this course does not guess. The 40 per
-cent figure is still widely repeated, and it was never an average: the page itself said "as much as".
+quoted.[2] None of the pages read says why the figures went, so this course does not guess. You may still
+meet the 40 per cent figure, and it was never an average: the page itself said "as much as".
 
 ### Oil grade: the one that stayed
 
 "You can improve your gas mileage by 1%–2% by using the manufacturer's recommended grade of motor oil",
 the page says now, and it said the same in 2007. Its example: using 10W-30 "in an engine designed to
-use 5W-30 can lower your gas mileage by 1%–2%."[1][2] The grade is in your handbook; checking the oil
+use 5W-30 can lower your gas mileage by 1%–2%."[1][2] The current page gives a second: "Using 5W-30
+in an engine designed for 5W-20 can lower your gas mileage by 1%–1.5%."[1] The grade is in your handbook; checking the oil
 level is lesson 9's subject, "Under the bonnet: oil, coolant, brake fluid and screenwash".
 
 ## Best case and average
@@ -197,8 +200,8 @@ scenarios)."[1] So 0.6 per cent is what correcting the average amount of under-i
 per cent is what correcting a car a quarter under buys.
 
 That tells you something the headline doesn't. Both figures are savings from fixing under-inflation. A
-car whose tyres are already at the placard figure has nothing to fix, and checking them saves no fuel
-at all, though it's still the check lesson 7, "Tyres I: pressure, the placard and TPMS", said to do,
+car whose tyres are already at the placard figure has nothing to fix, and on this course's reading of
+that footnote, checking them saves no fuel at all, though it's still the check lesson 7, "Tyres I: pressure, the placard and TPMS", said to do,
 for other reasons.
 
 Now put a second government source beside it. NHTSA, the US road safety regulator, says: "Properly
@@ -209,7 +212,7 @@ question is which kind it is, and the second is what it assumes.
 
 The dollar figures move for another reason, too. Every version of the page converts its percentages
 into money at an assumed fuel price, and the assumption changes: $3.10 a gallon in 2007, $2.87 in
-2010, $3.25 in 2013, $2.37 in 2019, $3.02 in 2021, $3.60 in 2023, and $4.32 now.[1][2] A saving in
+2010, $3.25 in 2013, $2.37 in 2019, $3.09 in 2021, $3.58 in 2023, and $4.32 now.[1][2] A saving in
 cents per gallon is a percentage multiplied by a price, and it's only as current as the price.
 
 ### A year's saving, worked
@@ -221,14 +224,14 @@ gallons a year (12,000 divided by 30). Suppose her tyres are, like fueleconomy.g
 10 per cent under-inflated, and she starts keeping them at the placard figure.
 
 - 0.6 per cent of 400 gallons is 2.4 gallons.
-- At the page's assumed $4.32 a gallon, 2.4 gallons is about $10.37 a year.
+- At the page's assumed $4.32 a gallon, 2.4 gallons is about $10 a year.
 
 The page's own table rounds the saving to $0.03 a gallon, which over 400 gallons would be $12. The
 difference is rounding: 0.6 per cent of $4.32 is about 2.6 cents, and the table shows 3.[1]
 
-If her tyres had been a quarter under, the worst case, the saving would be up to 3 per cent: 12
-gallons, about $51.84 a year at the same price. That is real money, and it's also a car whose tyres
-were dangerously soft, which is the better reason to fix them.
+If her tyres had been a quarter under, the worst case, the saving would be up to 3 per cent: about 12
+gallons, roughly $50 a year at the same price. That is real money, and it's also a car whose tyres
+were a quarter under their placard figure, which is the better reason to fix them.
 
 Now a UK case with a gap. A driver in Wellingborough spends, say, £1,500 a year on fuel (this course's
 round number, not a price). He reads the 0.6 per cent figure and decides pressures aren't worth
@@ -255,23 +258,25 @@ course does not teach changing filters, for the reasons lesson 1 gave.
 Octane is the other place people spend money for fuel economy. fueleconomy.gov's [octane page](https://www.fueleconomy.gov/feg/octane.shtml) defines
 it: "Octane rating is the measure of a fuel's ability to resist "knocking" or "pinging" during
 combustion, caused by the air/fuel mixture detonating prematurely in the engine."[5] Lesson 2, "The
-engine: petrol, diesel, and the drive to the wheels", showed the compression stroke; knock is the
-mixture going off before the spark should light it.
+engine: petrol, diesel, and the drive to the wheels", showed the compression stroke. The page takes
+knock no further than that definition, and nor does this course.
 
-In the US, the page says, regular is 87, midgrade 88 to 90 and premium 91 to 94. Those are US pump
+In the US, the page says, regular is typically 87, midgrade 88 to 90 and premium 91 to 94. Those are US pump
 numbers. This course read no official UK page on octane, so it gives no UK figures; match your
 handbook's requirement to what the pump says.
 
 What the page says to use: "You should use the octane rating required for your vehicle by the
 manufacturer. So, check your owner's manual. Most gasoline vehicles are designed to run on 87 octane,
 but others are designed to use higher octane fuel."[5] It gives the reason some engines need more:
-they have a higher compression ratio or a turbocharger or supercharger, and "Increasing pressure in the
+they squeeze the mixture harder (a higher compression ratio), or they have a turbocharger or
+supercharger, which the page says forces "more air into the engine". And "Increasing pressure in the
 cylinder allows an engine to extract more mechanical energy from a given air/fuel mixture but requires
 higher octane fuel to keep the mixture from pre-detonating."[5]
 
 Going below what the maker requires is the costly mistake. The page: "Using a lower octane fuel than
 required can cause the engine to run poorly and can damage the engine and emissions control system over
-time. It may also void your warranty." Newer engines can adjust their timing to reduce knock, "but
+time. It may also void your warranty." Many newer vehicles can adjust their spark timing to reduce
+knock, the page says, "but
 engine power and fuel economy will still suffer."[5]
 
 Going above it mostly buys nothing: "under normal driving conditions, you may get little to no
@@ -280,7 +285,7 @@ benefit." The page distinguishes a handbook that requires premium from one that 
 required but the car will run better on it, "it's really up to you. The cost increase is typically
 higher than the fuel savings."[5] The myths page adds the exception: under severe duty, "such as towing
 or hauling heavy loads (especially in hot weather), higher octane fuel might improve performance and
-gas mileage".[3]
+gas mileage and reduce carbon dioxide (CO2) emissions by a few percent".[3]
 
 Which fuel to buy is **Yours, on conditions**, and the condition is the handbook's word, required or
 recommended.
@@ -293,6 +298,10 @@ though the engine should not be subjected to extreme loads until it has reached 
 temperature. Plus, the quickest way to warm up a vehicle's engine is to drive it."[3] Its cold-weather
 page puts a number on it, attributed to the makers: "Most manufacturers recommend driving off gently
 after about 30 seconds."[6] Your handbook may give its own advice, and it governs.
+
+:::predict Before reading on: which uses more fuel, restarting a warm engine or letting it idle for a minute?
+A minute of idling. The paragraph below gives fueleconomy.gov's figure for a restart, "about 10 seconds worth of fuel", so a minute of idling uses about six restarts' worth, on this course's arithmetic.
+:::
 
 The second belief is that restarting burns more fuel than idling. The myths page: "Modern fuel-injected
 engines start very efficiently, especially when warmed up. Idling can use a quarter to a half gallon of
@@ -325,9 +334,11 @@ faults."[9]
 The regulations say it more fully. Regulation 98 requires a driver, when the vehicle is stationary, to
 stop its machinery so far as necessary to prevent noise or exhaust emissions, and it doesn't apply
 when the vehicle is stationary "owing to the necessities of traffic", or where the machinery has to
-run so that a failure can be examined.[10] Regulation 107 is about a car left on a road with no
-licensed driver attending it: that isn't allowed "unless the engine is stopped and any parking brake
-with which the vehicle is required to be equipped is effectively set."[11] Northern Ireland has its own
+run so that a failure can be examined, or where it has to run for a purpose other than driving the
+vehicle.[10] Regulation 107 is about a car left on a road with no licensed driver attending it: that
+isn't allowed "unless the engine is stopped and any parking brake with which the vehicle is required
+to be equipped is effectively set", with exceptions for fire, police and ambulance use, and for a
+vehicle safely placed whose engine drives machinery on it.[11] Northern Ireland has its own
 rules, which this course didn't read, and it didn't research US anti-idling rules either.
 
 So there are three voices on idling here, and they line up. The Highway Code's MUST is the law: not
@@ -347,17 +358,20 @@ economy by around 2% to 8% in city driving, 6% to 17% on the highway, and 10% to
 speeds (65 mph to 75 mph)."[7] (65 to 75 mph is about 105 to 120 km/h, this course's conversion.) The
 Energy Saving Trust gives the UK version without numbers: roof racks, boxes and bars "increase drag and
 fuel costs, especially at higher speeds, so try to take them off when they're not being used."[8] The
-roof box is the biggest figure in this lesson, bigger than any maintenance item, and it costs nothing
+roof box's figure is bigger than any maintenance figure the current page gives, and it costs nothing
 to take off.
 
 The last one is a real disagreement. The Energy Saving Trust: "It's more fuel efficient to open a
 window than use air conditioning when driving, even at higher speeds."[8] fueleconomy.gov: "Roll the
 windows down at lower speeds; use the AC at highway speeds." Its reason: "Open windows increase
 aerodynamic drag (wind resistance), making your vehicle use more energy to push through the air. This
-effect is quite small at low speeds but increases at highway speeds."[12] fueleconomy.gov cites an Oak
-Ridge test for that; the Energy Saving Trust's page gives no reason or test. Neither page read gives a
-figure for how much one beats the other at speed, and this course does not settle it. It is not a rule
-of any kind, and your comfort is a fair tiebreaker.
+effect is quite small at low speeds but increases at highway speeds."[12] fueleconomy.gov cites two
+published studies for that, which this course did not read; the Energy Saving Trust's page gives no
+reason or test. Neither page read gives a figure for how much one beats the other at speed, and this
+course does not settle it. Both pages agree on one thing. The Energy Saving Trust says open windows
+"are not always pleasant on very hot days or at higher speeds, so if you need to use air conditioning,
+try to use it sparingly", and fueleconomy.gov says not to use the AC "more than needed".[8][12] It is
+not a rule of any kind.
 
 ## What people get wrong
 
@@ -374,7 +388,8 @@ it was dropped between July 2021 and July 2023.[2]
 to no benefit" otherwise.[3][5]
 
 **"Warm the engine up before you drive."** "The quickest way to warm up a vehicle's engine is to drive
-it"; in Great Britain, leaving it running unnecessarily while stationary on a public road is covered by a MUST NOT.[3][9]
+it"; in Great Britain the Highway Code also has a rule on it (see "Leaving an engine running in Great
+Britain: the rule" above).[3][9]
 
 **"Restarting uses more fuel than idling."** About 10 seconds' worth, says fueleconomy.gov.[7]
 
@@ -393,7 +408,7 @@ service intervals.
 ## Practice
 
 :::exercise A dated sort, and your car's octane
-Take 15 minutes over this. You'll need your car's handbook, or the maker's handbook online, and nothing else. Use your own car's handbook, or the handbook of a car whose keeper agrees. Don't drive for this exercise, and don't open the bonnet or the fuel filler.
+Take 15 minutes over this. You'll need your car's handbook, or the maker's handbook online, and nothing else. Use your own car's handbook, or the handbook of a car whose keeper agrees. Don't drive for this exercise, and don't open the bonnet (hood) or the fuel filler.
 
 1. **Date each claim.** For each of these, write the year range when fueleconomy.gov printed it and what the current page says instead, or "still current": (a) "a clogged air filter costs as much as 10 percent"; (b) "correct tyre pressure: up to 3.3 percent"; (c) "the right oil grade: 1 to 2 percent"; (d) "fixing a faulty oxygen sensor: as much as 40 percent"; (e) "correct tyre pressure: 0.6 percent on average".
 
@@ -407,9 +422,9 @@ Take 15 minutes over this. You'll need your car's handbook, or the maker's handb
 :::checkpoint Check steps 1 and 2 against this.
 (a) Printed in 2007; withdrawn by December 2010. The current page: no fuel gain on fuel-injected petrol or diesel engines, better acceleration; a few per cent on carbureted cars.
 
-(b) The 2010 and 2013 wording ("around 3.3 percent" in 2007). Revised on 27 June 2016 to 0.6 per cent on average.
+(b) From at least December 2010 until the revision of 27 June 2016 (in 2007 it read "around 3.3 percent"). The current page says 0.6 per cent on average.
 
-(c) Still current, and unchanged since 2007. It's a range, 1 to 2 per cent, with 1 to 1.5 per cent for the 5W-30 in place of 5W-20 example.
+(c) Still current, and unchanged since 2007. It's a range, 1 to 2 per cent, with 1 to 1.5 per cent for the page's 5W-30 in place of 5W-20 example.
 
 (d) Printed from at least 2007 to at least July 2021; gone by July 2023. It was a best case ("as much as").
 
@@ -445,8 +460,8 @@ service intervals.
   free. Read here in full. The plainest explanation read of what octane is and when it matters. US
   pump numbers throughout.
 - **The Internet Archive's [December 2007 copy of the maintenance page](https://web.archive.org/web/20071226033438/http://www.fueleconomy.gov/feg/maintain.shtml)**,
-  free. Read here in full. Put it beside today's page and read them together; it's the plainest
-  lesson read here in how official advice changes.
+  free. Read here in full. Put it beside today's page and read them together. It shows more
+  plainly than anything else in this lesson how official advice changes.
 
 ## Sources
 
@@ -486,5 +501,4 @@ service intervals.
     as amended. England, Wales and Scotland. **Read: the whole regulation on the live page, 26
     September 2026.** <!-- lesson 11/12 gate closures -->
 12. fueleconomy.gov, ["Fuel Economy in Hot Weather"](https://www.fueleconomy.gov/feg/hotweather.shtml),
-    undated. **Read: full body text, re-read 26 September 2026.** The Oak Ridge test it cites was not
-    read. <!-- SOURCES Part A §6; lesson 11/12 gate closures -->
+    undated. **Read: full body text, re-read 26 September 2026.** The studies it cites were not read. <!-- SOURCES Part A §6; lesson 11/12 gate closures -->

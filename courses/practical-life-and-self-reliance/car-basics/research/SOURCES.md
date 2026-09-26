@@ -388,7 +388,7 @@ Each is named by a source in a part. The parts' (b) lists have the sources and e
 | 6 | Right to repair and vehicle data (Massachusetts) | **Contested**, legal and value. Owner and independent-shop access against automakers' cybersecurity and safety claims. District court upheld the 2020 law in February 2025; the appeal outcome is unknown. Mention only if needed, both sides named, and never describe the 2014 MOU (unread) | D §7 |
 | 7 | Should the GB first MOT move to four years? Should no-MOT carry points? | **Policy, settled for now** on four years (rejected 2018 and 2024); **undecided** on penalties (consultation closed May 2026, no outcome). State the current rule | C (c) |
 | 8 | Oil-change intervals: normal or severe schedule? | **Contested empirical and partly commercial.** Read the handbook's definition of severe service honestly, or use the monitor | A (c)2 |
-| 9 | Windows or air conditioning at speed | **Contested empirical**, small either way. EST: windows even at higher speeds; fueleconomy.gov citing ORNL: AC at highway speed. Not a rule | A (c)1 |
+| 9 | Windows or air conditioning at speed | **Contested empirical**; no page read measures the gap (corrected 2026-09-26 at lesson 12 Stage 4: this row said "small either way", which no source read supports). EST: windows even at higher speeds; fueleconomy.gov citing two SAE papers (not labelled Oak Ridge by the page): AC at highway speed. Not a rule | A (c)1 |
 | 10 | Charging practice: extension leads, 80%, overnight | **Contested practice.** Nissan and NFPA: never an extension cord; ESF allows an outdoor-rated reel as a fallback. ESF lists overnight charging under AVOID while NHTSA advises plugging in at night in winter. Teach the strict version and the handbook; do not teach "80%" as fire safety | B (c)7, 8 |
 | 11 | Charging light: stop now or check soon? | **Practical judgement**, handbook governs. RAC: do not drive; Highway Code and Ford: check as soon as possible [Stage 4 note, lesson 05, 2026-09-26: wrong for the Highway Code, whose general advice for a light that comes on while driving is "stop and investigate"; see B (c)5's note]; Nissan (EV): stop immediately. Explain why (the car runs on the battery until it is flat) | B (c)5 |
 | 12 | Jump-lead removal with engines running or off | **Established only** that the order reverses and the handbook governs; HSE, Ford and the AA differ | B (c)6 |
@@ -1184,7 +1184,7 @@ What it establishes:
 - Tyres: "Under-inflated tyres increase your fuel consumption and can be dangerous, so check them at least once a month and before long journeys." [V]
 - Idling: "Many newer cars automatically turn off when stationary in neutral. If yours doesn't, turn off your engine if you're going to be stationary for more than a minute." [V]
 - EV regen: "use the higher levels of regen once you're comfortable to do so." [V]
-- Conflict with fueleconomy.gov: "It's more fuel efficient to open a window than use air conditioning when driving, even at higher speeds." [V] fueleconomy.gov, citing an ORNL test (SAE 2014-01-1614), advises the reverse at highway speeds. See (c).
+- Conflict with fueleconomy.gov: "It's more fuel efficient to open a window than use air conditioning when driving, even at higher speeds." [V] fueleconomy.gov, citing two SAE papers (its references 1 and 4; the page does not call them Oak Ridge work), advises the reverse at highway speeds. See (c). (Corrected 2026-09-26 at lesson 12 Stage 4: this line said "an ORNL test".)
 Good for: the UK voice on the same tips; the one place UK and US official-ish advice disagree.
 
 #### CalRecycle (California state agency), "Check Your Number, Because 3,000 Miles May Be Too Early to Change Your Oil"
@@ -1291,7 +1291,7 @@ For a learner, the best three free links are AFDC's "How do ... work" pages (cle
 
 ### (c) Contested questions
 
-1. **Windows or air conditioning at speed.** Energy Saving Trust: opening a window is more efficient "even at higher speeds" [V]. fueleconomy.gov, citing ORNL's 2014 test: windows at low speed, AC at highway speed. *Contested empirical.* The effect depends on the car's shape, the speed and the outside temperature. The lesson should present both, say the difference is small either way, and not make it a rule.
+1. **Windows or air conditioning at speed.** Energy Saving Trust: opening a window is more efficient "even at higher speeds" [V]. fueleconomy.gov, citing two SAE papers (2013 and 2014; the page does not call either Oak Ridge work): windows at low speed, AC at highway speed. *Contested empirical.* The effect depends on the car's shape, the speed and the outside temperature. The lesson should present both, attribute each, and not make it a rule. (Corrected 2026-09-26 at lesson 12 Stage 4: this item said "say the difference is small either way", but no page read measures the gap, and fueleconomy.gov's one AC figure is "more than 25%" under very hot conditions. It also said "ORNL's 2014 test".)
 2. **Oil-change intervals: handbook versus "severe service".** Many handbooks give a "normal" and a "severe" schedule, and a great deal of ordinary driving (short trips, cold starts, towing) meets "severe". AAA says oil-life monitors replace the severe schedule. *Contested empirical, and partly commercial* (garages profit from shorter intervals; makers advertise longer ones). Teach: read your own handbook's definition of severe service honestly, or use the monitor if fitted.
 3. **How much fuel economy maintenance buys.** The figures have been revised down repeatedly (air filter, tyres, tune-up). *Established* in the narrow sense that current federal figures are small (0.6% tyres, 1% to 2% oil grade); the popular larger figures are out of date. Not really contested among sources, but contested in the wider market, which is why it matters to teach.
 4. **Whether a diesel suits a low-mileage urban driver.** The AA and RAC both advise against a DPF diesel for mainly short, slow trips. *Established* as a practical matter by two motoring bodies; no source disagrees. It is a purchasing judgement, so frame it as advice.
@@ -5724,7 +5724,9 @@ words, and lesson 10 does not repeat it: it says the paragraph doesn't list whic
   weather could result in impaired windshield vision and increase the risk of injury or accident." [V];
   "Do not operate the washers when the washer reservoir is empty. This could cause the washer pump to
   overheat." [V]. p. 91: "The wiper blades could be dirty, worn or damaged." [V]. p. 170 (hybrid,
-  Auto-Start-Stop) and p. 184 (high voltage battery precautions), the same warning: "Apply the parking
+  Auto-Start-Stop) [corrected 2026-09-26 at lesson 09's Stage 4: not hybrid; p. 170 is in the chapter
+  "Auto-Start-Stop - Gasoline", per the contents and the page's side tab; see "Stage 4 note, lesson 09"]
+  and p. 184 (high voltage battery precautions), the same warning: "Apply the parking
   brake, shift into park (P), switch the ignition off and remove the key before you open the hood or have
   any service or repair work completed. If you do not switch the ignition off, the engine could restart
   at any time." [V]. p. 193: "Look at the brake fluid reservoir to see where the brake fluid level is
@@ -6161,9 +6163,9 @@ fetched with the `id_` suffix; maintenance section of each read in full):
 - **20190104073529.** Tyres: "Updated Information You can improve your gas mileage by 0.6% on average"
   [V], "Revised June 27, 2016." [V]; filter as the current page [V]; tune-up "an average of 4%" and oxygen
   sensor "as much as 40%" [V]; "$2.37/gallon" [V].
-- **20210708122652.** As 2019, tune-up and oxygen-sensor sentences still present [V]; "$3.02/gallon" [V].
+- **20210708122652.** As 2019, tune-up and oxygen-sensor sentences still present [V]; "$3.09/gallon" [V]. (Corrected 2026-09-26 at lesson 12 Stage 4: the first record had "$3.02"; the capture serves 3.09 in the price span, the input and `regpricedef`.)
 - **20230706032230.** Tune-up and oxygen-sensor sentences absent; "Address Engine Issues Promptly" [V]
-  heads the check-engine paragraph; tyres and filter as now [V]; "$3.60/gallon" [V].
+  heads the check-engine paragraph; tyres and filter as now [V]; "$3.58/gallon" [V]. (Corrected 2026-09-26 at lesson 12 Stage 4: the first record had "$3.60"; the capture serves 3.58 in all three places.)
 
 No capture read says why any figure changed, except the 2010 filter note's "A new study shows".
 
@@ -6223,8 +6225,10 @@ read in full. "Under very hot conditions, AC use can reduce a conventional vehic
 than 25%, particularly on short trips." [V]; "Driving with your windows down can also reduce fuel economy.
 Open windows increase aerodynamic drag (wind resistance), making your vehicle use more energy to push
 through the air. This effect is quite small at low speeds but increases at highway speeds." [V]; "Roll the
-windows down at lower speeds; use the AC at highway speeds." [V]. Its sources are Oak Ridge papers, one of
-them on the `unread:` line by number; the lesson says "an Oak Ridge test" and names none.
+windows down at lower speeds; use the AC at highway speeds." [V]. For the windows lines it cites its
+references 1 and 4, two SAE papers (2013 and 2014), and the page labels only reference 3 as ORNL; the
+lesson says "two published studies" and names none. (Corrected 2026-09-26 at lesson 12 Stage 4: this
+entry said the sources were "Oak Ridge papers" and the lesson "an Oak Ridge test".)
 
 **NHTSA, "Tires"**, Internet Archive capture 20260924154655, re-read. "Properly inflating your tires can
 save you as much as 11 cents per gallon on fuel. Yet only 19 percent of consumers properly inflate their
@@ -6294,3 +6298,293 @@ personal data in any header).
   wiper blades could be dirty, worn or damaged." [V]
 - **The Highway Code, Annex 6** (content API), re-read: "Check the fluid levels in your vehicle at least
   weekly." [V]
+
+## Stage 4 note, lesson 12 (2026-09-26)
+
+Re-read with curl (default User-Agent, no personal data in any header) on 26 September 2026.
+
+- **fueleconomy.gov maintenance page, captures 20210708122652 and 20230706032230** (`id_` and rendered):
+  the assumed price is "$3.09" in 2021 and "$3.58" in 2023, in the `fuelpricebott` span, the
+  `gblfuelprice` input and `regpricedef` alike [V]. The two bullets in "Lesson 12 reads" are corrected in
+  place. No sum in lesson 12 used either price.
+- **The same page, capture 20101226073534**: "This kind of engine is prevalent on most gasoline cars
+  manufactured from the early 1980s onward." [V] (follows the "A new study shows" sentence).
+- **fueleconomy.gov, "Fuel Economy in Hot Weather"** (live): "Don't use the AC more than needed or set the
+  temperature lower than needed." [V]. Its data sources for the windows lines are its references 1 and 4,
+  both SAE papers; reference 3 is the only one the page gives as an ORNL report. The lesson names none.
+- **fueleconomy.gov, "Selecting the Right Octane Fuel"** (live): "Many newer vehicles can adjust the spark
+  timing to reduce knock" [V] and "In the U.S., unleaded gasoline typically has octane ratings of 87" [V]
+  re-read; the lesson's lead-ins now keep "Many" and "typically".
+- **C&U regulations 98 and 107** (live, legislation.gov.uk): 98(2)(b)'s second limb, "or where the
+  machinery is required to be worked for a purpose other than driving the vehicle" [V], and 107(2)'s
+  exceptions (fire, police, ambulance; a vehicle "in such a position and condition as not to be likely
+  to endanger any person or property" whose engine drives machinery on it [V]) re-read; the lesson now
+  paraphrases both.
+- **(c)1 and the neutrality table row 9** no longer say "small either way" (corrected in place, dated).
+  Neither page read measures the windows-against-AC gap.
+
+## Gate closures, lesson 15/16 (2026-09-26)
+
+Read by the lessons 15 and 16 drafter on 26 September 2026 with curl (a generic browser User-Agent, no
+personal data), pandoc or a small HTML stripper, the GOV.UK content API, the eCFR versioner API and
+pdftotext. Sites that refuse automated readers (nhtsa.gov, cdc.gov, 911.gov, tesla.com: HTTP 403 today)
+were read through the Internet Archive captures named. **[V]** as above. Nothing here clears an entry on
+the `unread:` line.
+
+### Lesson 15 reads
+
+- **The Highway Code, Rules 226 to 237** (content API, `public_updated_at` 2021-09-14), read in full.
+  Rule 228: "Take an emergency kit of de-icer and ice scraper, torch, warm clothing and boots, first aid
+  kit, jump leads and a shovel, together with a warm drink and emergency food in case you get stuck or
+  your vehicle breaks down." [V] Rule 229, headed "Before you set off" [V]: "you MUST be able to see, so
+  clear all snow and ice from all your windows" [V]; "you MUST ensure that lights are clean and number
+  plates are clearly visible and legible" [V]; "make sure the mirrors are clear and the windows are
+  demisted thoroughly" [V]; "remove all snow that might fall off into the path of other road users" [V];
+  "check your planned route is clear of delays and that no further snowfalls or severe weather are
+  predicted." [V] "Laws CUR reg 30, RVLR reg 23, VERA sect 43 & RV(DRM)R reg 11" [V]. Only the first two
+  items carry MUST; the other three are advice. Rule 237: "Keep your vehicle well ventilated to avoid
+  drowsiness." [V]
+- **The Highway Code, Introduction** (content API, `public_updated_at` 2022-07-01): "This Highway Code
+  applies to England, Scotland and Wales." [V] "Such rules are identified by the use of the words
+  ‘MUST/MUST NOT’." [V] "The Highway Code may be used in evidence in any court proceedings under the
+  Traffic Acts (see The road user and the law) to establish liability. This includes rules which use
+  advisory wording such as ‘should/should not’ or ‘do/do not’." [V] (So a capitalised "DO NOT" in a rule
+  is advisory wording, not a MUST NOT.)
+- **The Highway Code, Annex 6** (content API, `public_updated_at` 2022-01-29), re-read in full. "Before
+  winter. Ensure that the battery is well maintained and that there are appropriate anti-freeze agents
+  in your radiator and windscreen bottle." [V] "Vehicle security" opens "When you leave your vehicle you
+  should" [V], then "remove the ignition key and engage the steering lock" [V]; "lock the car, even if
+  you only leave it for a few minutes" [V]; "never leave children or pets in an unventilated car" [V].
+  The children line is a should, advice, under "Vehicle security". Overheating: "If your engine
+  overheats, you should wait until it has cooled naturally." [V]
+- **The Highway Code, Rules 103 to 158**, Rule 123 re-read (as "Gate closures, lesson 11/12" records it,
+  unchanged): "You MUST NOT leave a parked vehicle unattended with the engine running or leave a vehicle
+  engine running unnecessarily while that vehicle is stationary on a public road." [V]
+- **Met Office, "6 simple checks to prepare your vehicle for winter"** (live, HTTP 200), read in full.
+  "The RAC recommends using the acronym ‘FORCES’ to remember the simple winter checks:" [V] "Battery
+  problems are the reason for more RAC call-outs in winter than anything else." [V] "The RAC recommends
+  changing your tyres before they get to the low limit and ideally a minimum tread depth of 3mm in icy
+  or very wet conditions." [V] The page also repeats the 20p "within the legal limit" wording and says to
+  "replace bulbs or fuses if required" [V]; neither is used.
+- **National Highways, "Travelling in snow and ice"** (live), read in full: "Check the weather forecast.
+  If snow or ice is expected, consider delaying your journey until it clears." [V] Winter kit list:
+  "Water", "De-icer", "Food", "Warm clothes", "Ice scraper", "Fully charged mobile and car charger",
+  "Torch", "Blankets", "Boots", "Snow shovel", "Sunglasses to cope with the low winter sun" [V].
+- **National Highways, "Travelling in extreme heat"** (live), read in full: "During particularly hot
+  weather, make sure your engine stays within the normal operating temperature range. If it begins to
+  overheat, find somewhere safe to stop and allow it cool down." [V, grammar as in source] "If hot
+  weather is forecast, take plenty of drinking water with you – enough for you and your passengers" [V;
+  the dash is the page's]. Summer kit: "drinking water", "snacks that won’t be affected by the heat", "a
+  fully charged mobile phone and a charger", "a hat", "sunglasses", "sun block", "any emergency medication
+  you may need" [V].
+- **NHTSA, "Winter Weather Driving Tips"**, Internet Archive capture 20260812080428 (the newest capture;
+  live 403), read in full today. "If you are stopped or stalled in wintry weather, stay focused on
+  yourself and your passengers, your car, and your surroundings." [V] "Stay with your car and don’t
+  overexert yourself." [V] "Let your car be seen. Put bright markers on the antenna or windows and keep
+  the interior dome light on." [V] "Be mindful of carbon monoxide poisoning. Make sure your exhaust pipe
+  is clear of any snow and run your car only sporadically" [V], then after the page's em dash "just long
+  enough to stay warm. Don’t run your car for long periods of time with the windows up or in an enclosed
+  space." [V] "As the outside temperature drops, so does tire inflation pressure." [V] "When the
+  temperature drops, so does battery power." [V] "Have a mechanic check your battery, charging system,
+  belts, and for any other needed repairs or replacements." [V] "Improperly installed floor mats in your
+  vehicle could interfere with the operation of the accelerator or brake pedal, increasing the risk of a
+  crash." [V] "Make sure your vehicle’s reservoir is full of high-quality “winter” fluid with de-icer
+  before winter weather hits." [V] "Consider installing snow tires" [V]. Kit: "a snow shovel, broom, and
+  ice scraper;" [V] "abrasive material (sand or kitty litter), in case your vehicle gets stuck in the
+  snow;" [V] "blankets for protection from the cold; and" [V] "a cell phone and charger, water, food, and
+  any necessary medicine." [V] "Keep your gas tank close to full whenever possible." [V] EVs: "The battery
+  drain due to heating can be minimized by keeping your electric vehicle as warm as possible during
+  freezing temperatures." [V] "A common way to do this is plugging your vehicle in at night during the
+  winter" [V] (a spaced en dash follows; split before it).
+- **CDC, "Clear Snow from Tailpipes"** (PSA toolkit), capture 20260725201242 (live 403), read in full:
+  "Before you drive after a storm, check to be sure that your vehicle's tailpipe is clear of snow. If the
+  tailpipe is blocked, carbon monoxide, an odorless, colorless, and deadly gas produced by your engine
+  can build up quickly inside your vehicle, poisoning anyone inside." [V]
+- **CDC, MMWR, "Carbon Monoxide Poisonings Associated with Snow-Obstructed Vehicle Exhaust Systems --
+  Philadelphia and New York City, January 1996"**, capture 20260725225621 (live 403), read in full. Case
+  1: "A 4-year-old girl who had accompanied her family while they were digging their car out of a deep
+  snow embankment became cold; to warm the child, she was placed in the car with both the engine and
+  heater running while deep snow surrounded the rear of the automobile." [V] "The child's grandmother and
+  sister also were in the car but exited the vehicle after a few minutes when the grandmother became
+  dizzy and lightheaded." [V] She was "allowed to remain in the car for approximately 30 minutes before
+  she was found to be unconscious and could not be awakened." [V] She was treated and "discharged on
+  January 9." [V] Case 2: "the patient informed his wife he was going to test the car to ensure it would
+  run after the severe storm. He made no attempt to remove any snow surrounding the car before starting
+  the engine." [V] He was found unconscious about an hour later, and "residual deficits in short-term
+  memory persisted." [V] Case 3: an 81-year-old found in a running car "surrounded by deep snow" [V] was
+  declared dead. The second city: "During January 8-9, a total of 21 persons were admitted directly to
+  the Jacobi Medical Center or transferred from other hospitals for hyperbaric oxygen therapy because of
+  CO poisoning." [V] "In addition, one fatal case of CO poisoning was reported in which the victim was not
+  admitted to the hospital." [V] "The 21 persons admitted to the hospital were found unconscious inside
+  automobiles with engines running." [V] "Of these blizzard-related cases, eight were aged less than 16
+  years and 12 were aged greater than 50 years" [V]. Editorial note: "CO is a component of vehicle
+  exhaust, and CO can seep into the cabin of a vehicle through leaks or cracks in the floorboard if the
+  exhaust pipe is obstructed." [V] "Because CO is colorless, tasteless, odorless, and nonirritating, its
+  presence usually is not detected." [V] "Following heavy snowfalls, the public should be reminded to
+  inspect vehicles to ensure that exhaust pipes are cleared of snow before engines are started." [V]
+- **CDC, "Carbon Monoxide Poisoning Basics"**, capture 20260920191925, re-read (as "Stage 4 note, lesson
+  10" records it): "Never run your car or truck inside a garage that is attached to a house, even with
+  the garage door open." [V] and "Always open the door to a detached garage to let in fresh air when you
+  run a car or truck inside." [V]
+- **Toyota, 2023 Corolla Owner's Manual (OM02568U), US**, PDF re-read, p. 46 ("Exhaust gas
+  precautions"): "Exhaust gases include harmful carbon monoxide (CO), which is colorless and odorless."
+  [V] "Do not leave the engine running in an area with snow build-up, or where it is snowing. If
+  snowbanks build up around the vehicle while the engine is running, exhaust gases may collect and enter
+  the vehicle." [V] "If the vehicle is in a poorly ventilated area or a closed area, such as a garage,
+  stop the engine." [V]
+- **Caltrans, "Winter Driving Tips"** (live), read in full: "You must stop and put on chains when
+  highway signs indicate chains are required. You can be cited by the California Highway Patrol and
+  fined if you don't." [V] "The speed limit when chains are required is 25 or 30 miles an hour." [V]
+  "Chains must be installed on the drive wheels." [V] "When you put on chains, wait until you can pull
+  completely off the roadway to the right. Do not stop in a traffic lane where you will endanger yourself
+  and block traffic." [V] "When stalled, stay with your vehicle and try to conserve fuel while maintaining
+  warmth. Be alert to any possible exhaust or monoxide problems." [V] The chain rules are the state
+  department's summary of California law; the Vehicle Code section behind them was not read.
+- **RAC Drive, "Winter tyres"** (live), read in full: "Winter tyres aren’t mandatory in the UK." [V]
+  "You can identify winter tyres by the symbols on the sidewall. These are the M+S symbol and the
+  three-peak mountain snowflake (3PMSF) symbol, and both are industry standards." [V] The page also says
+  driving with snow on the car "could land you with a big fine" [V]; not used (no primary read).
+- **fueleconomy.gov, "Fuel Economy in Cold Weather"** (live), read in full: "Fuel economy tests show
+  that, in city driving, a conventional gasoline car's gas mileage is roughly 15% lower at 20°F than it
+  would be at 77°F. It can drop as much as 24% for short (3- to 4-mile) trips." [V] "Engine and
+  transmission friction increases in cold temperatures due to cold engine oil and other drive-line
+  fluids." [V] "It takes longer for your engine to reach its most fuel-efficient temperature." [V]
+  "idling gets 0 miles per gallon" [V; the page's em dash precedes it].
+- **AAA (The Auto Club Group), "AAA: Hot Tips For Motorists During Extreme Heat"**, dated "(June 14,
+  2022)" [V], live, read in full: "If a vehicle's battery is more than three years old, get it tested by
+  a trained technician to determine how much more life it has." [V] "Inflate tires to the pressure
+  recommended by the vehicle manufacturer, not the number molded into the tire sidewall." [V] "Check all
+  vehicle fluids including coolant, motor oil, transmission fluid, power steering fluid and brake fluid
+  to ensure they are filled to the appropriate levels." [V] "Never leave children or animals unattended
+  in a car, not even for a short period of time. Outside air temperatures in the nineties can rise to
+  125 degrees inside the vehicle very quickly and can cause brain damage or death." [V]
+- **AAA Mountain West, "How Cold Weather Impacts Your Battery"** (live), re-read: "while winter weather
+  is most likely to cause your battery to fail, it’s actually hot weather that does most of the damage,
+  which becomes evident when the temperature drops and more power is required to get the car started."
+  [V]
+- **NHTSA, "Heatstroke"** (the page now titled "Child Heatstroke Prevention: Prevent Hot Car Deaths"
+  [V]), capture 20260924021947 (live 403), read in full today. "More than 1,000 children have died of
+  heatstroke, because they were left or became trapped in a hot car over the past 25 years." [V] "A
+  child's body temperature rises three to five times faster than an adult's." [V] "In 2025, 31 children
+  died of heatstroke in vehicles." [V] "Never leave a child in a vehicle unattended for any length of
+  time. Rolling windows down or parking in the shade does little to change the interior temperature of
+  the vehicle." [V] "Make it a habit to check your entire vehicle" [V], then, after the page's em dash,
+  "before locking the doors and walking away." [V] "Over 50% of pediatric vehicular heatstroke deaths are
+  a result of a parent or caregiver forgetting a child in a car." [V] "Ask your childcare provider to call
+  if your child doesn’t show up for care as expected." [V] "Place a personal item like a purse or
+  briefcase in the back seat, as another reminder to look before you lock." [V] "Store car keys and fobs
+  out of a child's reach and teach children that a vehicle is not a play area." [V] "Always lock your car
+  when you aren't using it." [V] "Over 230 children have died from vehicular heatstroke since 1998
+  because they gained access to a vehicle and became trapped." [V] "If you see a child alone in a locked
+  car, act immediately and call 911. A child in distress due to heat should be removed from the vehicle
+  as quickly as possible and rapidly cooled." [V] The page gives no mechanism for how a parked car heats
+  up, and no source read for this lesson does; nor did this course read any law, in Great Britain,
+  Northern Ireland or any US state, on leaving a child or an animal in a car or on breaking into a car to
+  reach one. No UK figure for child deaths in hot cars was found.
+
+### Lesson 16 reads
+
+- **The Highway Code, Rules 275 to 287** (content API, `public_updated_at` 2021-09-14), re-read in full
+  today; every quotation in Part E §1 matches. Additionally: Rule 283 also lists "be prepared to give
+  first aid (see First aid on the road and Useful websites)" [V] and "DO NOT remove a motorcyclist’s helmet
+  unless it is essential and you are trained to do so" [V]; its Rule 277 cross-reference reads "(see Rule
+  277 on how to identify your location on a motorway or other high-speed road)" [V]; its last line is "If
+  you are involved in any other medical emergency, you should contact the emergency services in the same
+  way." [V] Rule 281: "You should slow down and be prepared to move safely into another lane or stop."
+  [V] Rule 286's MUST list opens "If you are involved in a collision which causes damage or injury to any
+  other person, vehicle, animal or property, you MUST" [V]. None of Rules 275, 276, 280 (its "other roads"
+  line), 283 or 285 uses MUST: by the Introduction, their "should" and "DO NOT" are advisory wording.
+- **The Highway Code, Rule 116** (Rules 103 to 158, content API), re-read: as Part E §1 records it, and
+  "Law RVLR reg 27" [V]. The regulation itself was not re-read; the lesson states the Code's rule and
+  names the regulation it cites, nothing more.
+- **National Highways, "How to check your vehicle"** (live), re-read: "Every year our traffic officers
+  deal with more than 85,000 breakdowns. Over 40 per cent of these are caused by vehicles running out of
+  fuel, poor tyre maintenance, power loss and engine trouble." [V] "Always keep your tank at least one
+  quarter full to avoid running out of fuel." [V] "You can be issued a Fixed Penalty Notice in some
+  locations if your breakdown was foreseeable, which includes running out of fuel." [V] The law behind the
+  last line was not read (gate G-L10 stays open; the lesson attributes it with its "in some locations").
+- **AAA Club Alliance, "The Key To Staying Safe When Your Car Breaks Down"** (live), re-read in full; the
+  quotations in Part E §3 match. Additionally: "You should never leave your vehicle if you haven’t pulled
+  over, particularly if there is traffic moving around it." [V] "This is an ideal distance that will put
+  you and any passengers away from the danger of flying debris should the disabled vehicle be struck."
+  [V, the sentence after "40 feet"] "possibly running over the driver, tow operator, or rolling into
+  traffic," [V, the rest of the neutral sentence].
+- **NHTSA, "Move Over: It's the Law"**, capture 20260917235712 (live 403), read in full today; the Part E
+  §3 quotations match. The "19 states and Washington, DC" line is still undated on the page.
+- **California Vehicle Code § 21809** (leginfo, live), re-read in full. Status line "(Amended by Stats.
+  2025, Ch. 58, Sec. 1. (AB 390) Effective January 1, 2026.)" [V]. Part E §3's quotations match.
+  Subdivision (a)(2): "slow to a reasonable and prudent speed that is safe for existing weather, road,
+  and vehicular or pedestrian traffic conditions." [V]
+- **California DMV, California Driver Handbook, Section 8** (live), re-read; Part E §3's quotations
+  match. The railroad-crossing heading is "Disabled Vehicles on Railroad Tracks" [V], and the first case
+  opens "If your vehicle stalls or stops while blocking part of a train track with a train approaching
+  and warning lights flashing:" [V]; the second "If you do not see a train approaching and warning lights
+  are not flashing:" [V]. The FSP line: "During commute times, the CHP FSP provides free emergency
+  roadside services in certain areas." [V]
+- **eCFR, 49 CFR 392.22** (versioner API, as of 2026-09-01), re-read in full: (a) "the driver of the
+  stopped commercial motor vehicle shall immediately activate the vehicular hazard warning signal
+  flashers" [V]; (b)(1) "as soon as possible, but in any event within 10 minutes" [V]; placement as Part
+  E §3 records. **49 CFR 393.95(f)** re-read: "Three bidirectional emergency reflective triangles that
+  conform to the requirements of Federal Motor Vehicle Safety Standard No. 125, § 571.125 of this title;
+  or" [V] "At least 6 fusees." [V, as (f)(2) opens]. Both are in FMCSA's rules for commercial motor
+  vehicles.
+- **911.gov, "Calling 911"**, capture 20260907153825 (the newest capture; live 403), read in full today:
+  "An emergency is any situation that requires immediate assistance from the police, fire department or
+  ambulance." [V] "The location of the emergency, including the street address" [V]; "The phone number
+  you are calling from" [V]; "The nature of the emergency" [V]. "Be prepared to follow any instructions
+  the call-taker gives you." [V] "Do not hang up until the call-taker instructs you to do so." [V] "Last
+  Updated: 01/24/2023" [V]. The number 911 is also on NHTSA's heatstroke page (capture 20260924021947,
+  above).
+- **AAA Foundation for Traffic Safety, "Understanding the Circumstances of Roadside Fatalities"** (live),
+  re-read: the Part E §3 quotation matches, and the victims listed are "roadside assistance providers,
+  law enforcement officers, emergency medical services providers, and motorists who exited their own
+  disabled vehicles as well as “Good Samaritans” attempting to help them." [V] So the 2,100 counts
+  responders as well as motorists.
+- **Nissan North America, 2024 LEAF Owner's Manual (US)**, PDF re-read, pp. 6-13 to 6-14 ("Towing your
+  vehicle", "Towing recommended by NISSAN"): "NISSAN recommends that your vehicle be towed with the
+  driving (front) wheels off the ground or that the vehicle be placed on a flatbed truck as illustrated."
+  [V] "Never tow with the front wheels on the ground or four wheels on the ground (forward or backward),
+  as this may cause serious and expensive damage to the motor." [V] "NISSAN recommends that you have a
+  service operator tow your vehicle." [V] "Never ride in a vehicle that is being towed." [V] **Nissan UK's
+  online 2023 LEAF manual returned HTTP 404 today** for every page tried, including the base URL, and has
+  no Internet Archive capture; its Part E §4 quotations could not be re-read, so lesson 16 cites the US
+  handbook instead.
+- **Tesla, Model 3 Owner's Manual (UK English), "Instructions for Transporters"**: live 403 today; the
+  only capture is 20241004175445 (October 2024), re-read today; the Part E §4 quotations match. Gate
+  G-H2 stays open: the lesson cites the capture with its date and quotes no speed or distance.
+- **Not closed.** G-N3 (Northern Ireland's Highway Code): not attempted; the fallback is written. G-L9
+  (whether UK law requires a car to carry a triangle): not read; the lesson says so. G-L15 (a dated Move
+  Over count): not read; the fallback is written. G-R5 (text-to-911): not read; not stated.
+
+## Stage 4 note, lesson 09 (2026-09-26)
+
+- **Ford, 2024 Maverick Owner's Manual, p. 170: the chapter is petrol, not hybrid.** Re-read today from
+  Internet Archive capture 20250505042038 (`id_` raw PDF, pdftotext -raw). The contents list the
+  chapter heading "Auto-Start-Stop - Gasoline" [V] over "What Is Auto-Start-Stop ....170" and
+  "Auto-Start-Stop Precautions ....170" [V]. Printed p. 170's side tab reads "Auto-Start-Stop -
+  Gasoline" [V] (p. 169's belongs to the Hybrid Electric Vehicle Information chapter; p. 184's reads
+  "High Voltage Battery - Hybrid Electric Vehicle (HEV)" [V]). Under "AUTO-START-STOP PRECAUTIONS" on
+  p. 170: "WARNING: Apply the parking brake, shift into park (P), switch the ignition off and remove the
+  key before you open the hood or have any service or repair work completed. If you do not switch the
+  ignition off, the engine could restart at any time. Failure to follow this instruction could result
+  in personal injury or death." [V] The same box is on p. 184 for the hybrid. So Ford gives the restart
+  warning for the petrol truck's stop-start as well as for the hybrid; no lesson may say only hybrids
+  and EVs carry it on Ford's authority. The lesson 09/10 gate-closure entry above is corrected in place.
+- **Ford p. 308**, the dipstick overview: "Minimum. A", "Nominal. B", "Maximum. C" [V]: three marks, not
+  two. **Ford p. 309**: "Coolant concentration should be checked using a refractometer." [V]; "Do not
+  remove the coolant reservoir cap when the engine is on or the cooling system is hot." [V]
+- **The AA, "How to check and top up your car engine oil"**, re-read live today: "If the top of the oil
+  streak is between the minimum and maximum marks, the level is fine. If the level is below halfway
+  between the marks, then we would recommend adding some oil. If it's close to or even below the minimum
+  mark, then you need to add some oil." [V] "This darkening is quite normal and is nothing to worry
+  about. It can even look black right after you refill it, when new oil mixes with leftover old oil.
+  However, if it's black and the texture is sludgy, it'll need replacing." [V] Quote the middle sentence
+  of each only with its neighbour.
+- **Nissan, 2024 LEAF (US)**, re-read live today: p. 8-2, "To avoid injury, always disconnect the
+  negative 12-volt battery cable before working near the fan." [V] The "below the minimum or MIN mark"
+  sentence is in the brake warning light section (pp. 2-17 and 2-20), not the p. 9-3 checklist, which
+  says "Make sure that the brake fluid levels are between the MAX and MIN lines on the reservoir." [V]
+- **Toyota, 2023 Corolla (US), OM02568U**, re-read live today: "It is normal for the brake fluid level to
+  go down slightly as the brake pads wear out or when the fluid level in the accumulator is high." [V]
+- **C&U reg 34(1)**, re-read live today: "one or more efficient automatic windscreen wipers" [V]; reg
+  34(6) "while a vehicle is being used on a road" [V].

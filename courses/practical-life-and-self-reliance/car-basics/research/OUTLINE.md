@@ -1325,7 +1325,7 @@ file (the project), so the project assembles itself.
   a fuel-injected engine) and date each withdrawn figure; decide on octane from the handbook (US
   grades; UK figures not read); explain what idling, warm-up, weight and a roof box cost, and state,
   as general information, Great Britain's rule on leaving an engine running (Rule 123); describe the
-  windows-or-air-conditioning disagreement as the small, unsettled thing it is.
+  windows-or-air-conditioning disagreement as the unsettled thing it is.
 - **Core ideas:** Part A §6's captures: the air filter's "as much as 10 percent" (December 2007) gone by
   December 2010 on ORNL's 2009 study (named as "a 2009 Oak Ridge study", decision 13); tyres' "around
   3.3 percent" (2007) to "0.6% on average" (revised 27 June 2016); the 4 per cent tune-up and 40 per
@@ -1339,7 +1339,10 @@ file (the project), so the project assembles itself.
   sealed container "for at least a year". **Driving more efficiently**, maintenance-adjacent only (roof
   boxes, weight, idling). **Rule 123** (MUST NOT; CUR regs 98 and 107); US anti-idling rules not
   researched. **Windows or air conditioning**: the Energy Saving Trust (capture) against fueleconomy.gov
-  citing an Oak Ridge test; small either way; no rule.
+  citing two published studies; each attributed; no rule. (Corrected 2026-09-26 at lesson 12 Stage 4:
+  this said "citing an Oak Ridge test; small either way", but the page does not call its window studies
+  Oak Ridge work, and no page read measures the gap. The draft's table of dated captures, in place of
+  the planned SVG timeline, was kept at the same review.)
 - **Mechanism to explain:** why a best case and an average differ (fueleconomy.gov's own assumptions:
   10 per cent average under-inflation, 25 per cent worst case); why a clogged filter hurt carburetted
   cars and not fuel-injected ones is as far as fueleconomy.gov explains it.

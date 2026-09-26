@@ -180,3 +180,15 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
   if the view is significantly affected; damage "not adversely affecting driver's view" is still a Minor.
   Zone A has no height in words; the manual's drawing fills the swept area's height within its width.
 - **Quiz keys:** 10 0,1,2,0,3 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 12 fix pass: notes for later lessons
+
+- **fueleconomy.gov's assumed fuel prices** by capture: $3.10 (2007), $2.87 (2010), $3.25 (2013), $2.37
+  (2019), $3.09 (2021), $3.58 (2023), $4.32 (live, 26 September 2026). The first SOURCES record had 2021
+  and 2023 wrong ($3.02, $3.60); read the price from the capture's `regpricedef`, not by eye.
+- **Windows against air conditioning** is attributed, never sized: no page read measures the gap, so no
+  lesson says "small either way". fueleconomy.gov's window advice cites two SAE papers, and the page does
+  not call them Oak Ridge work; say "two published studies". Lesson 15 (hot weather) should match.
+- **Knock** is the octane page's "detonating prematurely" and no further (decision 14); "before the spark"
+  describes pre-ignition, which no source read covers.
+- **Quiz keys:** 12 0,2,0,3,1 (unchanged by the fix).
