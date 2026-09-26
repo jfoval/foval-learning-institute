@@ -1,6 +1,6 @@
 ---
 title: "Let them finish: interruption, overlap and silence"
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Classify an overlap as a continuer, a terminal overlap, help with a word, choral talk or an
@@ -231,8 +231,9 @@ returns in the gender section as one of three positions.
 Tobiah and Mireille share an office. When Mireille explains something, Tobiah comes in with
 "Yes, and that means..." before she's finished, building on her point with obvious enthusiasm.
 Mireille stops each time. Tobiah reads her stopping as having finished; Mireille reads his overlaps
-as not letting her finish. Each thinks the other is being a little rude, and each is reading the
-other through their own habit.
+as not letting her finish. Each thinks the other is being a little rude. On Tannen's account, each
+is reading the other through their own habit, and Mireille's side of it isn't imagined: she really
+doesn't get to finish.
 
 Now a third colleague joins them. Gwilym stammers. When he blocks on a word, Tobiah, being helpful,
 supplies it. It is the same move Emeric made at line 4, help with a word, and in the campsite story
@@ -262,8 +263,8 @@ and each deserves its own case.
 In 1975 Don Zimmerman and Candace West published a small study that launched a
 large literature.[5] They recorded 31 two-person conversations: three quarters in coffee shops, drug
 stores and other public places in a university community, the rest in private homes. The participants
-were white and apparently middle class. The recordings were made without the speakers' knowledge;
-the authors sought consent afterwards, which they could not always do in public places, and the tapes
+were white and apparently middle class. The authors made their recordings without the speakers'
+knowledge; they sought consent afterwards, which they could not always do in public places, and the tapes
 were erased once transcribed. (No exercise in this course asks you to record anyone without their agreement first.)
 
 In 20 same-sex conversations they found 7 interruptions and 22 overlaps, spread fairly evenly between
@@ -326,8 +327,8 @@ here means the gap between the two figures was unlikely to be chance.[6]
   was a significant moderator too.
 - **Group size.** The difference was larger in groups of three or more than in pairs (d = .13 in
   pairs; for groups the paper prints .31 in one place and .63 in another, so this course gives no
-  single figure). The authors list it among their most notable results, though their direct test of
-  groups against pairs was only borderline. Their gloss is a dominance reading: "To the extent that
+  single figure). The authors list it among their most notable results, though their direct tests of
+  groups against pairs were borderline at best. Their gloss is a dominance reading: "To the extent that
   intrusive interruption is a manifestation of dominance, larger and more public group settings may
   be especially likely to elicit this behavior in men."
 - **Who was talking to whom.** Men interrupted slightly more in same-gender talk (d = .24) than in
@@ -394,7 +395,7 @@ Look at the bottom three bars. In mixed-gender talk taken alone the difference w
 smaller than in same-gender talk (.24). But the authors found that gap was not statistically
 reliable, studies that reported both kinds of talk together showed .56, and their reading was that
 the gender make-up of the conversation made no consistent difference. What did make a difference
-was the definition, the setting, the activity and the size of the group: the gap was concentrated
+was the definition, the setting, the activity and, less firmly, the size of the group: the gap was concentrated
 in intrusive interruptions, and it grew in unstructured, sociable talk, in groups and in the few
 natural settings studied.
 
@@ -417,11 +418,16 @@ natural settings studied.
 The dominance side has an answer to that last objection. Tannen herself reports it, from Henley and
 Kramarae in 1988: that treating men's and women's talk as a difference of style is "covering up real
 domination with a cloth of cultural difference". Her reply: "Though I am sympathetic to this view, my
-conscience tells me we cannot have it both ways."[7] The dominance side can also point out, on this
-course's reading, that the meta-analysis's intrusive category already sets friendly overlap aside,
-and that is where the difference was concentrated. Tannen also opens her conclusion "As a woman who has personally
-experienced the difficulty many women report in getting heard in some interactions with men".[7]
-That experience is real whichever position is right, and an average over 43 mostly short studies
+conscience tells me we cannot have it both ways."[7] Her reason is that counting overlap as
+dominance would brand high-involvement speakers, many women among them, as pushy. The dominance
+side can answer in turn, on this course's reading, that the meta-analysis's intrusive category
+already sets friendly overlap aside, and that is where the difference was concentrated.
+
+Tannen's own conclusion holds both sides at once. She opens it "As a woman who has personally
+experienced the difficulty many women report in getting heard in some interactions with men", says
+that is why the men-interrupt-women studies tempt her, and then, as a high-involvement speaker,
+objects to their treating her own style as a fault.[7] The experience she starts from, of not
+getting heard, is real whichever position is right, and an average over 43 mostly short studies
 can't say what happened in any one woman's meetings.
 
 What would settle it: large studies of natural conversation, with an agreed definition of intrusive
@@ -429,9 +435,9 @@ interruption, coders who don't know the study's hypothesis, samples beyond one c
 class, and the participants' own sense of whether they were interrupted. Later studies exist, but
 this course has not reviewed them.
 
-The accurate summary of what this course read: a small average difference in floor-taking
-interruptions, which varies strongly with the setting. That is not a verdict on the dispute, which is
-as much about what the difference means, whether power, situation or style, as about its size.
+The accurate summary of what this course read: an average difference in floor-taking interruptions
+that the meta-analysts called "small but substantial", and which varies strongly with the setting.
+That is not a verdict on the dispute, which is as much about what the difference means, whether power, situation or style, as about its size.
 
 ## What medicine measured
 

@@ -491,3 +491,77 @@ quotes conversation-and-listening`: no miss in lesson 05. `npm run validate`: ex
 this file.
 
 **Status after review:** clean.
+
+## Fresh second pass (2026-09-26)
+
+**Checker:** one fresh-context re-checker (neither drafter, reviewer nor fixer), against 96b28ca,
+with a full neutrality re-audit because F5 failed the Turing test. Re-fetched today by curl (generic
+browser User-Agent, no personal data): Anderson and Leaper 1998 (eScholarship PDF), Tannen 1989
+(author's site PDF; the two-column scan must be read without `pdftotext -layout`, which splits
+sentences and made six strings look missing), Zimmerman and West 1975 (Stanford scan, pp. 111, 112,
+116, 125, 126 OCR'd at 200 dpi), Langewitz 2002 and Singh Ospina 2019 (Internet Archive captures of
+PMC126654 and PMC6318197). Every new or changed quotation string-matched after normalising
+punctuation and spacing: all 23 match, including "contextual-interactive model of gender", "Contrary
+to expectation...", the group-size gloss, "concluded that there is no consistent evidence...", "both
+contradicted and confirmed", "Neither, however...", the Henley and Kramarae line, "Though I am
+sympathetic...", "As a woman who has personally experienced...", and both new Langewitz sentences.
+New figures confirmed on the page: Table 2 96% (46) and 4% (2); "Ten of the 11", "3 of the 20",
+"eleven times to her two"; .56 (k = 5), .73, .76, .13, .31 and .63; setting and activity Z values;
+group size Z = 1.47 (p < .10) and .25 (n.s.); 14 doctors, one hour, five-minute advice.
+
+**F1 to F14 and P1 to P14:** all resolved in the text as recorded. Numbers redone: SVG at 600 px per
+unit from x = 20 (.15 = 90, .33 = 198, .24 = 144, .11 = 66, .56 = 336; 0.2 at 140, 0.4 at 260, 0.5
+at 320, 0.6 at 380), all exact; 2002 to 2019 is seventeen years; 46 + 2 = 48. Chart rendered headless
+(Chrome, site stylesheet, `prefers-color-scheme` emulated) at 375 and 720 px in both themes: every
+label inside the 420 x 404 viewBox by `getBBox`, no dashed line crosses a label, bars legible on
+both grounds. Quiz: keys 3,0,1,3,2,1; spreads 2, 4, 6, 4, 12, 7; no key is the sole longest; each
+item has at least two options without an absolute; each explanation matches its key and answers
+every distractor.
+
+**Neutrality, counted across the whole lesson.** Dominance: Z&W given two quotations, their own
+limit, and now their answer to the clustering objection and the status-reversal footnote; best case
+with .73, .76 and groups; the Henley and Kramarae rejoinder; the intrusive-category answer (labelled
+the course's reading, since no post-1989 dominance scholar was read); A&L's group-size gloss quoted
+as a dominance reading. Contextual: explained at length, the chart, three limitations. Style: a
+section, a bullet, the reply to the rejoinder, and its limits (participant, handful, lens not map).
+"No consistent difference": now in its scholarly form (James and Clarke, Aries, via A&L) as well as
+the slogan. Misconception list: one slogan per side. Last word in the section: power, situation or
+style named together. **Turing test:** dominance passes now (it is explained, answers Tannen, and is
+no longer only limitations); contextual passes; style passes after fix 3 below; "myth" passes.
+
+**Seven one-edit fixes made here:**
+1. **The talked-over colleague.** "Each thinks the other is being a little rude, and each is reading
+   the other through their own habit" stated Tannen's reading of a man overlapping a woman in the
+   course's voice, and made Mireille's accurate complaint ("not letting her finish") a misreading.
+   Now attributed ("On Tannen's account") with "Mireille's side of it isn't imagined: she really
+   doesn't get to finish", which is Tannen's own concession.
+2. **Tannen's conclusion trimmed of its turn** (defect 9, cut against the style view's shape). The
+   lesson quoted only "As a woman who has personally experienced...", which read as Tannen siding
+   with the dominance studies; the sentence goes on "I am tempted to embrace the studies... As a
+   high-involvement style speaker, however, I am offended...". Now paraphrased with the turn, in its
+   own paragraph, and the experience sentence keeps the last word.
+3. "We cannot have it both ways" was quoted with no reason; her reason (the counting would brand
+   high-involvement speakers, many women among them, as pushy) is now one sentence, and the
+   dominance side's answer follows it rather than preceding it.
+4. The fix-pass summary said flatly that "the size of the group" made a difference, two paragraphs
+   after saying its tests were borderline; now "and, less firmly, the size of the group". The bullet's
+   "direct test ... was only borderline" is now "direct tests ... were borderline at best" (one was
+   marginal, the other n.s.).
+5. The closing summary had "a small average difference" for d = .33, dropping the authors' "but
+   substantial" in the direction of the "myth" side; now quotes "small but substantial".
+6. F4's fix generalised to "The recordings were made without the speakers' knowledge"; footnote 5
+   says the teaching-assistant tape was given to the authors. Now "The authors made their
+   recordings...".
+7. `minutes:` 85 to 90 (measured 90 after these edits).
+The two Tannen paraphrases and the Z&W and A&L details are appended to SOURCES as "Fresh second
+pass, lesson 05 (2026-09-26)".
+
+**Noted, not changed:** A&L's operational-definition moderator was not significant on the focused
+tests (Z = .99); the lesson rests "larger for intrusive" on the blocking analysis, as the authors do.
+Quiz 6's explanation answers "overlaps under a second" with lesson 2's silences, which is adjacent
+rather than exact; not wrong.
+
+No em dashes or spaced en dashes. `npm run quotes conversation-and-listening`: 121 sourced quotations,
+0 not found. `npm run minutes`: 90, matching. `npm run validate` exits 0.
+
+**Verdict: SETTLED.**

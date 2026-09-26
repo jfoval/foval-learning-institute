@@ -4005,3 +4005,27 @@ should not be interrupted."
 **Singh Ospina et al. 2019** [V]: "Our estimate is much briefer perhaps because many completed
 statements correspond to patients indicating that they had no concerns." (re-confirmed; the lesson's
 lead-in now keeps the "perhaps").
+
+## Fresh second pass, lesson 05 (2026-09-26)
+
+Tannen 1989 re-fetched today (author's site PDF, `pdftotext` without `-layout`, which the two-column
+scan needs). [V], for the two sentences lesson 5 now paraphrases:
+- After "we cannot have it both ways": "If we accept the research in one paradigm -- the
+  men-interrupt-women one -- then we are forced into a position that claims that high-involvement
+  speakers, such as Blacks and Jews and, in many circumstances, women, are pushy, aggressive, or
+  inconsiderately or foolishly noisy."
+- The conclusion continues past the string recorded above: "I am tempted to embrace the studies that
+  find that men interrupt women: It would allow me to explain my experience in a way that blames
+  others. As a high-involvement style speaker, however, I am offended by the labeling of a feature of
+  my conversational style as loathsome, based on the standard of those who do not share or
+  understand it." Quoting only the opening clause reads as her siding with the dominance studies;
+  the lesson now gives the turn.
+
+Zimmerman and West 1975, footnote 5 (p. 125, OCR today): the teaching-assistant segment came from a
+tape the authors "were given", not one they made, so the lesson says "The authors made their
+recordings without the speakers' knowledge" rather than "The recordings were".
+
+Anderson and Leaper 1998, p. 242: operational definition was not a significant moderator on the
+focused tests (Z = .99, n.s. for both); the intrusive difference rests on the blocking analysis.
+Group size: combined significance marginal (Z = 1.47, p < .10), combined effect sizes n.s. (Z = .25).
+Familiarity, which the lesson calls non-significant: Z = .25 and .04, n.s.
