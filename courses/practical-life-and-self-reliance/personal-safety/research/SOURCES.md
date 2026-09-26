@@ -5007,7 +5007,7 @@ Crisis Scotland, DSA Helpline, Victim Support Scotland, Rape Crisis NI, VictimCo
 Free pages.
 
 ### G9 closed: the CPS rape myths annex is live
-- **Where it is now:** Annex A, "Tackling Rape Myths and Stereotypes", is the last section of the
+- **Where it is now:** Annex A, "Tackling Rape Myths and Stereotypes", is a late section (Annex B follows it) of the
   CPS *Rape and Sexual Offences Prosecution Guidance - Full Page Version*,
   `https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a`,
   dated "24 June 2026", "updated: 29 Jun 2026, 30 Jun 2026" [V]. England and Wales. The old

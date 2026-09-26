@@ -176,3 +176,70 @@ session's render work); no line names this lesson or lesson 10.
 
 **Status after review:** needs second pass (F1, F2, F4, F5 and F6 rewrote passages a survivor will
 read closely; the content note's layout wants a look at 375 px).
+
+## 2026-09-25 — Lesson 11 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, under the Reviewer F part of `research/pipeline-briefs.md`, scoped
+to the fix pass in 55cb815. Every primary re-read live today: the CPS full-page guidance (all 31
+annex and consent-chapter strings the lesson uses string-matched, with each one's position in the
+page); s.74 on legislation.gov.uk ("up to date ... on or before 25 September 2026"); every number
+and hour in the content note on its own page (Rape Crisis E&W, Victim Support get-help and about-us,
+Live Fear Free, Rape Crisis Scotland, Victim Support Scotland, DSA Helpline, Rape Crisis NI, Victim
+Support NI contact and home, VictimConnect, RAINN in a browser); Rape Crisis's supporter and men's
+pages; the ONS article (every figure in "Who, and where" and the quiz); PubMed E-utilities for
+Kozlowska, Möller and Brecklin and Ullman; Crossref for Ullman 1997, Tark and Kleck 2014 and 2004;
+the OJP abstract for Block and Skogan. Sums redone by hand (43.2 + 37.8 known; 38.2 + 28.5 = 66.7 in
+a home; 100 − 48.3; 14.7% as one in seven). The lesson built with `--drafts` in a scratch copy and
+measured at 375 px. Read as a survivor who froze, one who fought back, one assaulted by a partner,
+and a man.
+
+**First-pass fixes checked.** F1 (live annex, 24 June 2026, scream myth in the live wording), F2
+(the "something else drives both" bullet: Kozlowska's clause whole, "may", overlapping groups,
+Möller's history link, "none of it makes a freeze a measure of how bad an attack was"), F3 and F4
+(the two lines at the head of the resistance section), F5 (both sides of the reluctant-choice
+passage, *Ali and Ashraf*), F6 (no tie between partner harm and lesson 12's trial), F7 (quiz 6
+explanation), F8 (lesson 10's three edits), F11, F13, F20, F21, F23, F26 and P3: each present and
+right against today's primaries. Lesson 10's edits: the Kozlowska quotation matches PubMed
+26062169 with its clause; "a last resort ... active defences have failed" is the abstract's; line
+518's Tark and Kleck is the 2004 paper, whose abstract does say self-protection "reduced the
+likelihood of property loss and injury"; the new rape clause matches Tark and Kleck 2014's last
+sentence; Block and Skogan's non-forceful finding is as the OJP abstract gives it. Content note: all
+numbers, hours, ages and conditions match today's pages; every spaced number carries non-breaking
+spaces; safety callout byte-identical to lesson 10's. At 375 px the note is 1,509 px tall in seven
+short paragraphs, each opening with its bold nation, no horizontal scroll (taller than the old
+single paragraph's 1,327 px, but scannable by nation, which was P3's point). Quiz keys 0,2,1,2,0,3;
+option lengths 84 to 86, 84 to 86, 84 to 86, 81 to 85, 85 to 88, 82 to 86; each explanation read
+against its key; no item asks what a victim should have done.
+
+**Findings**
+- S1 [minor] "Its legal guidance on rape ends with an annex": the live page has an Annex B
+  (statutory limitations on offences abroad) after Annex A. SOURCES' gate closure says Annex A "is
+  the last section" and carries the same error; correct it there (outside this reviewer's files).
+- S2 [minor] "Beside them, the annex gives its reasons" introduced the "survival responses ... flop,
+  freeze or befriend" wording, which is from an earlier section of the annex; the version beside the
+  two myths is "flop, freeze or to befriend the attacker", which the lesson then placed "elsewhere".
+- S3 [minor, safety] The reluctant-choice scope read "a long-term relationship"; the annex says "a
+  long-term loving relationship". Without "loving", a reader assaulted by an abusive partner could
+  take the reluctant-choice line as covering her.
+- S4 [minor] Quiz 6 explanation: "Ullman's review found consistent evidence" drops the abstract's
+  "suggests".
+- S5 [minor] "not to take over or make decisions for the person" drops Rape Crisis's "unless they
+  ask you too" (sic).
+- S6 [minor] "At the far end of it are two kinds of stillness": Kozlowska's list ends with
+  quiescent immobility (the point F8 made for lesson 10).
+- S7 [minor] "Möller's study also tied the freeze to the woman's own history": the abstract's word
+  is "associated".
+- S8 [minor, not fixed] Quiz 2 and 5 still echo the body's shapes (a man assaulted by someone he
+  knew; a woman telling a colleague about a partner). New people, places and numbers, and the items
+  test transfer; left as P9 left it, since rewriting would change keys.
+
+**Fixed in this pass:** S1 ("has an annex"); S2 ("The annex gives its reasons, in an earlier
+section on how victims respond and again beside those entries"; "beside the freezing myth the annex
+spells it out as befriending the attacker"); S3 ("long-term loving relationship"); S4 ("found that
+consistent evidence suggested"); S5 ("unless they ask"); S6 ("Late in it come two kinds of
+stillness"); S7 ("found the freeze associated with ... not only with the attack"). Lesson 10
+unchanged. `npm run minutes` 100, `minutes: 100` unchanged; `npm run quotes personal-safety` 228
+quotations, 0 misses; `npm run validate` exits 1 on one line only, cooking-fundamentals'
+audio-debt count (another session's work); no line names lesson 10 or 11.
+
+**Status after review:** clean

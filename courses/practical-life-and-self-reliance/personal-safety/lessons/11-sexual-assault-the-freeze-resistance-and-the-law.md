@@ -116,7 +116,7 @@ quiz:
       - Only averages across many incidents, which say nothing of what was possible in one
     answer: 3
     explain: >-
-      Ullman's review found consistent evidence that forceful resistance helped avoid rape, and Tark
+      Ullman's review found that consistent evidence suggested forceful resistance helped avoid rape, and Tark
       and Kleck's abstract found that most resistance, forceful or not, went with fewer completed
       rapes and made no significant difference to further injury. Those are averages across
       incidents, from studies that cannot randomise anyone, and they say nothing about what was
@@ -186,7 +186,7 @@ not resist.
 ## Freezing comes first
 
 Lesson 10, "What fear does to you, and the robbery decision", set out one account of the body's
-defence responses, from [a review by Kozlowska and colleagues](https://doi.org/10.1097/HRP.0000000000000065). At the far end of it are two kinds of
+defence responses, from [a review by Kozlowska and colleagues](https://doi.org/10.1097/HRP.0000000000000065). Late in it come two kinds of
 stillness that are not the brief freeze of a startled moment: "tonic immobility and collapsed
 immobility are responses of last resort to inescapable threat, when active defense responses have
 failed".[3] Lesson 10 left one question for
@@ -244,7 +244,7 @@ This is general information, not legal advice. The law differs by state, and bet
 Wales, Scotland and Northern Ireland.
 
 The Crown Prosecution Service (CPS) prosecutes crime in England and Wales. Its legal guidance on
-rape ends with an annex written for its own lawyers, [*Tackling Rape Myths and
+rape has an annex written for its own lawyers, [*Tackling Rape Myths and
 Stereotypes*](https://www.cps.gov.uk/prosecution-guidance/rape-and-sexual-offences-prosecution-guidance-full-page-version#annex-a),
 which lists beliefs that come up in rape cases, marks each as false, and tells prosecutors how to
 answer them. This course read it on the CPS site on 25 September 2026, in the version dated 24 June
@@ -254,7 +254,7 @@ answer them. This course read it on the CPS site on 25 September 2026, in the ve
 
 Two entries on its list are this lesson's subject: "A real rape victim would never freeze when
 attacked, they would fight back" and "If the victim didn't scream, fight, or get injured then it
-could not have been rape".[4] Beside them, the annex gives its reasons. "When under threat, the brain will
+could not have been rape".[4] The annex gives its reasons, in an earlier section on how victims respond and again beside those entries. "When under threat, the brain will
 implement instinctual survival responses that the victim will not necessarily have any control
 over", and those responses are "not just fight or flight, but flop, freeze or befriend".[4] It adds
 that people who are raped often become unable to move or fight from terror or shock, and that some
@@ -262,8 +262,8 @@ co-operate with the person raping them because they are afraid of being killed o
 hurt.[4]
 
 So the CPS and the Stockholm study, one from law and one from medicine, describe the same thing: a
-response the person does not choose and may not be able to control. Notice the word "befriend" in the CPS list; elsewhere the
-annex spells it out as befriending the attacker.[4] Lesson 10 met a similar word in Taylor's
+response the person does not choose and may not be able to control. Notice the word "befriend" in the CPS list; beside the freezing
+myth the annex spells it out as befriending the attacker.[4] Lesson 10 met a similar word in Taylor's
 "tend-and-befriend", taught there as a proposal rather than a finding. On this course's reading, the
 CPS uses "befriend" to describe what victims do, for prosecutors answering a myth, not to settle the
 science.
@@ -286,7 +286,7 @@ consenting.[4]
 
 That doesn't make every reluctant yes a crime, and the guidance says so too. It records that a jury
 may need help telling a reluctant but free choice apart from giving in out of fear of something
-worse, especially but not only in a long-term relationship, and that context decides which it
+worse, especially but not only in a long-term loving relationship, and that context decides which it
 was.[4] It sets the other half beside it: prosecutors should consider what impact a relationship had
 on someone's freedom to consent, including domestic abuse and controlling or coercive behaviour, and
 a case it cites held that submission obtained by a high level of psychological coercion, in any
@@ -439,8 +439,8 @@ not a claim any of the authors made.
   well as in what they did, and that difference could also bear on whether the rape was completed.
   On Kozlowska's account the freeze can come after active defence has failed, so some people may
   resist first and freeze after, and the two groups may not even be separate. No study read here
-  measures any of this. Möller's study also tied the freeze to the woman's own history, earlier
-  trauma among it, not only to the attack.[2] So none of it makes a freeze a measure of how bad an
+  measures any of this. Möller's study also found the freeze associated with the woman's own history, earlier
+  trauma among it, not only with the attack.[2] So none of it makes a freeze a measure of how bad an
   attack was: it is the body's response to the threat as the person met it.
 - **Chance.** Tark and Kleck's abstract calls their sample large, which makes chance a less
   likely explanation, though the abstract gives no numbers.[7]
@@ -518,7 +518,7 @@ is Rape Crisis's own point, that freezing is an automatic response to fear and n
 Nothing in the three tells her what a court would decide, and nothing asks her to explain herself.
 
 **What stays with her.** Rape Crisis tells supporters not to take over or make decisions for the
-person, and not to tell anyone else without their permission.[11] Whether she calls a line, sees a
+person unless they ask, and not to tell anyone else without their permission.[11] Whether she calls a line, sees a
 doctor, tells anyone else or goes to the police is hers to decide, in her own time. The Rape Crisis
 Support Line is also open to friends and family supporting someone, so you can call it yourself.[11]
 
