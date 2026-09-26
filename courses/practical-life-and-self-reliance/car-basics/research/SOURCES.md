@@ -4072,3 +4072,363 @@ Good for: seasonal lesson and the breakdown-in-winter box. Symptoms and treatmen
 - RAC tyre repair page; AA breakdown and tyre pages.
 
 Part's own list (superseded): Ford Focus owner manual; Ford Fiesta owner manual; VW Golf owner's manual; BMW owner's handbook; BS AU 159 itself; HSG261; INDG434; ORR stopped vehicle detection letter; ORR quality assurance of smart motorways; smart motorway stocktake third year progress report; Smart Motorway Safety Evidence Stocktake and Action Plan 2020; Transport Committee Rollout and safety of smart motorways; The safety of smart motorways blog; FCC Text to 911; Be an Ace with Jacks; NEISS data; Roadside Assistance Providers Fatally Struck by Vehicles; GHSA Move Over; NCSL Move Over; 91 FR 7870; GEM Motoring Assist winter driving tips; UKHSA carbon monoxide guidance; RAC How to repair a tyre; AA breakdown advice
+
+---
+
+## Gate closures, lesson 03 (2026-09-26)
+
+Read by the lesson 3 drafter on 26 September 2026 with curl (a browser User-Agent, no personal
+data) and a small HTML stripper, the GOV.UK content API, and pdftotext plus a visual read of the
+rendered PDF page. **[V]** as above. Nothing here clears an entry on the `unread:` line: EPA's
+guidance letters IACD-2025-10 and IACD-2026-05 were **not** read and stay on it.
+
+**G-H11 (US DEF inducement for light-duty vehicles): partly closed, from the fact sheet, not the
+letters.**
+
+- US EPA, "Fact Sheet: Diesel Exhaust Fluid (DEF) Guidance", EPA-420-F-25-011, August 2025,
+  https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P101HKDJ.pdf. **Read: both pages in full, and page 2's
+  tables read visually from the rendered page**, which settles Part A's caution about garbled
+  extraction. The table headed "HD PICKUPS AND LD CARS" [V] gives, for "HD Pickups and Light Duty
+  Cars" [V]: Initial "n/a", Secondary "n/a", Final timing "4,200 miles / 80 hours" [V] and level
+  "45 mph" [V]; the red "Before" column gives timing "4 hours" and level "5 mph" [V]. So the
+  guidance's final step for this class is a 45 mph limit after 4,200 miles or 80 hours, against the
+  earlier 5 mph within four hours. It is guidance: the first bullet reads "EPA is issuing guidance
+  urging engine and equipment manufacturers to revise their DEF system software in existing
+  vehicles and equipment to reduce derates." [V] Also: "However, these sensors can fail,
+  triggering an automatic derate." [V] The MY2027 sentence Part A records ("Starting with model
+  year (MY) 2027 ...") is on this fact sheet, not on the web page.
+- US EPA, "Diesel Exhaust Fluid", https://www.epa.gov/regulations-emissions-vehicles-and-engines/diesel-exhaust-fluid,
+  **re-read in full**; still "Last updated on July 9, 2026" [V]. New lines: "By law, EPA cannot
+  mandate field fixes for in-use vehicles and nonroad equipment, which is why the Agency is
+  issuing voluntary guidance to manufacturers on system modifications to reduce derates." [V] "In
+  2022, EPA finalized a revised inducement strategy, starting with model year 2027 heavy-duty
+  on-highway vehicles and engines." [V] The page also lists, as a link title only (not read), a
+  "Proposed Rule: Amendments and Nonconformance Penalties for Model Year 2027 and Later Heavy-Duty
+  Highway Engines and Amendments to Inducement Provisions for SCR-Equipped Diesel Engines" [V]. The
+  page is addressed to "farmers, truckers, and other diesel vehicle operators" [V]. Partisan
+  framing on the page ("The Trump EPA is taking this action") is not used.
+
+**G-L16 (tampering enforcement): not closed.** The statute only, re-read:
+
+- 42 U.S.C. § 7522, https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section7522&num=0&edition=prelim,
+  "Text contains those laws in effect on September 25, 2026" [V]. **Read: § 7522(a) in full.**
+  Opening words: "The following acts and the causing thereof are prohibited-" [V] (the site's
+  hyphen). (a)(3)(A) and (B) as Part D records. The paragraph closing (a) adds: "Nothing in
+  paragraph (3) shall be construed to require the use of manufacturer parts in maintaining or
+  repairing any motor vehicle or motor vehicle engine." [V] and no prohibited act where "the action
+  is for the purpose of repair or replacement of the device or element" [V] and "such action
+  thereafter results in the proper functioning of the device or element" [V].
+
+**Re-read live for lesson 3 (decision 9: every rule re-read, whole section once):**
+
+- The Road Vehicles (Construction and Use) Regulations 1986 (SI 1986/1078), **regulation 61A**, as
+  amended, https://www.legislation.gov.uk/uksi/1986/1078/regulation/61A. **Read: the whole
+  regulation and its table on the live page.** Extent shown "E+W+S". "There are currently no known
+  outstanding effects" [V]. 61A(1): "This regulation shall apply to motor vehicles first used on or
+  after 1st January 2001." [V] 61A(3): "no person shall use, or cause or permit to be used, on a road
+  a motor vehicle if the motor vehicle does not comply with such limit values as may apply to it"
+  [V] under the listed Directives, "unless the following conditions are satisfied" [V]: (a) "the
+  failure to meet the limit values does not result from an alteration to the propulsion unit or
+  exhaust system of the motor vehicle" [V]; (b) that normal periodic servicing would not bring it
+  within the limits; (c) that the failure does not result from an emission-control device being
+  "other than in good and efficient working order" [V]. 61A(4): where a car with such a device
+  fails the limit values and conditions (a) and (b) are met, "nothing in paragraph (3) shall prevent
+  the motor vehicle being driven to a place where the device is to be repaired or replaced." [V]
+  (the site's amendment markers removed). 61A(8)(c): "“limit values” means the permitted amounts
+  of gaseous and particulate pollutants and smoke and evaporative emissions" [V].
+- DVSA and DfT, "Diesel particulate filters" (the HTML publication inside the guidance note),
+  https://www.gov.uk/government/publications/diesel-particulate-filters-guidance-note/diesel-particulate-filters,
+  **re-read in full** through the content API; still dated 4 December 2013. The offence paragraph
+  in full: "It is an offence under the Road vehicles (construction and use) regulations
+  (Regulation 61a(3)) to use a vehicle which has been modified in such a way that it no longer
+  complies with the air pollutant emissions standards it was designed to meet. Removal of a DPF
+  will almost invariably contravene these requirements, making the vehicle illegal for road use."
+  [V] Also: "It does this by trapping solid particles while letting gaseous components escape."
+  [V]; "This has led to some diesel vehicle owners removing their DPFs." [V]; "A vehicle might still
+  pass the MOT visible smoke emissions test, which is primarily intended to identify vehicles that
+  are in a very poor state of repair" [V]. The landing page's summary: "their removal is almost
+  always illegal." [V]
+- DVSA, MOT inspection manual, section 8 "Nuisance",
+  https://www.gov.uk/guidance/mot-inspection-manual-for-private-passenger-and-light-commercial-vehicles/8-nuisance,
+  **re-read**: section GOV.UK updated 24 June 2025; manual 1 June 2026. 8.2.2.1 adds, not recorded
+  in Part A: "If a diesel particulate filter has clearly been cut open and rewelded, you should
+  reject it unless the vehicle presenter can show evidence that there was a valid reason to cut it
+  open, such as for filter cleaning." [V] The defects "Evidence that the diesel particulate filter
+  has been tampered with" and "Exhaust on a vehicle fitted with a diesel particulate filter emits
+  visible smoke of any colour" are both "Major" [V], as Part C records.
+
+**The motoring organisations' pages, re-read in full (G-N1: every figure re-read):**
+
+- RAC, "Diesel particulate filters" (URL as Part A), `dateModified` 2026-08-03 as before. Every Part A
+  quotation still stands. New lines from the article body (the FAQ block is still not used):
+  "If your warning light continues to stay on, turns red, or additional DPF lights come on, do not
+  leave it too long before getting it checked out." [V] "There is no need to call out the RAC if
+  your DPF warning light is glowing." [V] "if it fails to extinguish, take your car to a garage."
+  [V] "On some models the engine may not restart after a number of miles" [V]. Active
+  regeneration's signs, as a list: "Engine note change", "Cooling fans running", "A slight increase
+  in fuel consumption", "Increased idle speed", "Deactivation of automatic Stop/Start", "A hot,
+  acrid smell from the exhaust" [V]. "This is why car makers often go as far as recommending
+  city-bound or short-hop drivers choose a petrol or electric car instead of diesel." [V] (the RAC's
+  claim about makers; no maker's statement read). "Some garages can clean blocked DPFs, in a
+  process called forced regeneration." [V]
+- The AA, "Diesel particulate filters" (URL as Part A): **dated "updated 7 August 2017"** [V] (Part A
+  extracted no date). Every Part A quotation still stands. New lines: "Follow any advice in your
+  vehicle handbook." [V] "If there's a fault with the DPF or the differential pressure sensor, which
+  lets your car know the DPF's status, the engine management light might also come on." [V] "You'll
+  have to get a dealer to do a manual or 'forced' filter regeneration." [V] The page's "What prevents
+  normal regeneration?" list includes "Frequent short journeys where the engine doesn't get hot",
+  "The wrong type of engine oil", "Going over the recommended service interval" [V] and the
+  low-fuel line. "a DPF in a car used correctly should be good for well over 100,000 miles." [V]
+  During active regeneration "you may notice" [V] cooling fans, faster idle, Stop/Start not
+  working, more fuel used, "A hot, acrid smell from the exhaust." [V]
+- The AA, "What is AdBlue?" (URL as Part A): **"Published: 05 January 2017 | Updated: 11 July
+  2024"** [V]. **A correction to Part A's entry.** The line Part A records as the "Wrong-tank
+  action", "Don't turn on the ignition or start the engine and call us for help.", sits under the
+  heading "What happens if I put diesel in the AdBlue tank?" [V], so it is the AA's advice for
+  **diesel in the AdBlue tank**, not AdBlue in the fuel tank. For **AdBlue in the fuel tank** the
+  AA says: "Putting it directly into your fuel tank could cause expensive damage to your fuel tank,
+  pump and injection system. If you start the engine it's likely to be an expensive write-off, so
+  don't touch the ignition." [V] and "You'll need to get the tank drained and the contents disposed
+  of safely before you can refill it." [V] OUTLINE's lesson 3 entry carries Part A's attribution;
+  the lesson uses the corrected one. Other new lines: "You can refill the Adblue tank yourself."
+  [V]; "Follow any instructions given in your handbook or on the pack" [V]; "AdBlue is non-toxic
+  but can cause irritation to your skin and eyes and may damage the paintwork" [V]; "It's not a
+  major safety issue, but if you don't top up, you'll eventually run out of AdBlue and you won't be
+  able to start the car." [V]; "usually accompanied by a milage countdown" [V] (sic); "But it could
+  be as high as a litre every 350 miles." [V]; "The solution should always be 32.5% urea and 67.5%
+  de-ionised water." [V]; "If you run out of AdBlue while you're driving, then the engine's power and
+  performance will be reduced to limit its emissions." [V]; the filler is "(usually) blue" [V]. The
+  "uric acid crystals" line is still on the page and is still not repeated.
+- AFDC, "How Do Diesel Vehicles Work?": re-read; the Part A quotations stand unchanged.
+
+## Gate closures, lesson 02 (2026-09-26)
+
+*Read by the lesson 02 drafter on 26 September 2026, curl with a browser user agent plus a small HTML
+stripper, and pdftotext for the Toyota PDF. Quotations marked [V] were copied from that extracted
+text. Gates G-H12 (what oil does inside an engine) and G-H3 (belt against chain; interference
+engines) were **not** closed: nothing read explains either, and lesson 2 writes both fallbacks.*
+
+- **US DOE, Vehicle Technologies Office, "Internal Combustion Engine Basics"**
+  (https://www.energy.gov/eere/vehicles/articles/internal-combustion-engine-basics). Re-read in full;
+  `dateModified` 2023-06-22 unchanged; the Part A quotations stand. Also: "Combustion, also known as
+  burning, is the basic chemical process of releasing energy from a fuel and air mixture." [V]; "In
+  an internal combustion engine (ICE), the ignition and combustion of the fuel occurs within the
+  engine itself." [V]; "The engine then partially converts the energy from the combustion to work."
+  [V]; "The engine consists of a fixed cylinder and a moving piston. The expanding combustion gases
+  push the piston, which in turn rotates the crankshaft. Ultimately, through a system of gears in the
+  powertrain, this motion drives the vehicle's wheels." [V, the passage whole]; "The expansion of the
+  combustion gases pushes the piston during the power stroke." [V]; "There are two kinds of internal
+  combustion engines currently in production: the spark ignition gasoline engine and the compression
+  ignition diesel engine." [V]. The page names the exhaust stroke
+  and does not describe it, and it does not describe the piston's travel in any stroke.
+- **AFDC, "How Do Gasoline Cars Work?"** Re-read; Part A quotations stand. Also, from the intro: "In a
+  spark-ignited system, the fuel is injected into the combustion chamber and combined with air." [V];
+  and the glossary: "Exhaust system: The exhaust system channels the exhaust gases from the engine out
+  through the tailpipe." [V]; "Fuel injection system: This system introduces fuel into the engine's
+  combustion chambers for ignition." [V]
+- **AFDC, "How Do Diesel Vehicles Work?"** Re-read; Part A's sentence is in the page's introduction.
+  The glossary words it differently: "Internal combustion engine (compression-ignited): In this
+  configuration, fuel is injected into the combustion chamber and ignited by the high temperature
+  achieved when a gas is greatly compressed." [V]
+- **fueleconomy.gov, "Where the Energy Goes: Gasoline Vehicles"** (https://www.fueleconomy.gov/feg/atv.shtml).
+  Re-read in full, with the diagrams' alt and title text. This closes the "rest leaves as heat" step
+  the OUTLINE gives lesson 2, which Part A recorded only as a gloss. The opening passage whole: "Only
+  about 12%–30% of the energy from the fuel you put in a conventional vehicle is used to move it down
+  the road, depending on the drive cycle. The rest of the energy is lost to engine and driveline
+  inefficiencies or used to power accessories." [V]; "In gasoline-powered
+  vehicles, most of the fuel's energy is lost in the engine, primarily as heat. Smaller amounts of
+  energy are lost through engine friction, pumping air into and out of the engine, and combustion
+  inefficiency." [V]; "Energy is lost in the transmission and other parts of the driveline." [V];
+  "The water pump, fuel pump, oil pump, ignition system, and engine control system use energy
+  generated by the engine." [V] (on this page, beside the parasitic-loss label); "Any time you use
+  your brakes in a conventional vehicle, energy initially used to overcome inertia and propel the
+  vehicle is lost as heat through friction at the brakes." [V]; "Note: Energy use and losses vary
+  from vehicle to vehicle. These estimates are provided to illustrate the general differences in
+  energy flow in different vehicle types during different drive cycles." [V]. The diagrams' labels
+  (alt text, flattened): **city** (EPA FTP-75), "Engine Losses: 71% - 75%", "Energy to Wheels: 14% -
+  20%", "Drivetrain Losses: 4% to 5%", "Parasitic Losses: 5% - 7%"; **highway** (EPA HWFET, "average
+  speed of about 48 mph and no intermediate stops" [V]), "Engine Losses: 64% - 69%", "Energy to
+  Wheels: 22% - 30%", "Drivetrain Losses: 3% to 5%", "Parasitic Losses: 3% - 4%". The combined
+  diagram gives energy to wheels as "18% to 25%" in one label and "16% - 25%" in another, so the
+  combined figures are not used.
+- **fueleconomy.gov, "Diesel Vehicles"**. Re-read; Part A quotations stand. The sentence continues:
+  "Diesel engines are more fuel-efficient and have more low-end torque than similar-sized gasoline
+  engines" [V].
+- **fueleconomy.gov, "Advanced Transmission Technologies"**. Re-read in full with its table. "Adding
+  gears allows your engine to operate at a more efficient speed more often." [V]; "Most conventional
+  transmissions use a fixed number of metal gears to control the ratio between engine speed and wheel
+  speed." [V]; table, "compared to a 4-speed automatic transmission" [V]: 6 gears 2%, 7 gears 2%–3%, 8
+  gears 3%–4% (cells, flattened; source National Academy of Sciences 2015). DCT paragraph in full:
+  "Dual clutch transmissions (DCTs) combine the efficiency of manual transmissions with the
+  convenience of automatics. Automatic transmissions are less efficient than manuals due to parasitic
+  losses. DCTs operate much like manual transmissions, except that they use two clutches and
+  automatic shifting. They are generally not quite as smooth as regular automatics, but
+  manufacturers are making strides to improve this." [V]. **The same site's myths page says
+  automatics now often match or beat manuals**; a lesson reports both, the myths page as the current
+  comparison of one model's two versions.
+- **fueleconomy.gov, "Fuel Economy Myths and Misconceptions"**. Re-read; the manual-versus-automatic
+  answer in full: "Advances in automatic transmissions have improved their efficiency to the point
+  that the automatic version of a vehicle often gets the same or better fuel economy than the version
+  with a manual transmission." [V] It continues: "For vehicles offered in both automatic and manual transmissions,
+  consumers can easily compare fuel economy using our Find a Car feature." [V]
+- **fueleconomy.gov, "Keeping Your Vehicle in Shape"**, oil paragraph. Re-read: "Also, look for
+  motor oil that says "Energy Conserving" on the API performance symbol to be sure it contains
+  friction-reducing additives." [V]. The nearest any source read comes to what oil does; it is not
+  a mechanism, and G-H12 stays open.
+- **RAC, "What is a cambelt and how do you replace it?"** Re-read in full; Part A quotations stand.
+  Also: "The camshaft controls the opening and closing of the engine's valves, controlling the
+  air-fuel mixture that enters and is expelled from the engine." [V]; "A cambelt controls the timing
+  of a vehicle's internal combustion engines between when the valves to the engine cylinders open and
+  close. This controls the flow of air in and out of the engine." [V]; "A damaged cambelt can lead to
+  further, serious damage to the rest of the vehicle, resulting in costly repairs and potential engine
+  failure." [V]; "If it fails it could result in catastrophic damage to the engine." [V]; the page
+  lists five signs (misfire, poor idling, unusual noises, difficulty starting, a cracked or frayed
+  belt) directly before "Many cambelts show no obvious symptoms before failure." [V]; "Regardless of
+  the cost, it's important to have a cambelt change done at the manufacturer's recommended interval."
+  [V]; "However, if you ask your local mechanic to check the cambelt at the annual service then they
+  should inform you of any problems." [V]. Its naming sentence contains a spaced en dash and is
+  paraphrased, not quoted. Its price table (sourced to a comparison site) and its "Stop the car
+  immediately" line are not used. Its "Cam chains" section was not relied on (G-H3).
+- **DENSO Europe, "Why might the glow plug warning light come on?"** Re-read; Part A quotations stand.
+  Also: "Although the glow plug warning light is designed to illuminate briefly before starting the
+  engine, it should not be ignored if it remains on while the engine is running." [V]; "the glow plug
+  warning light will come on as the vehicle's ignition is turned on, because this warning is to inform
+  the driver that the glow plugs are going through their heating cycle in order for them to be hot
+  enough to make starting the engine quick and efficient." [V]
+- **Toyota Motor Sales USA, 2023 Corolla Owner's Manual (OM02568U)**, pp. 305 to 307, "Do-it-yourself
+  maintenance" (oil and coolant), read in full in pdftotext -layout. p. 305: "A certain amount of
+  engine oil will be consumed while driving." [V]; p. 306: "To prevent serious engine damage" [V]
+  (a NOTICE heading) above "Check the oil level on a regular basis." [V]; "Avoid overfilling, or the
+  engine could be damaged." [V]; p. 307: "The cooling system may be under pressure and may spray hot
+  coolant if the cap is removed, causing serious injuries, such as burns." [V]; "Coolant is neither
+  plain water nor straight antifreeze. The correct mixture of water and antifreeze must be used to
+  provide proper lubrication, corrosion protection and cooling." [V]; if the level drops soon after
+  topping up, "Visually check the radiator, hoses, engine coolant reservoir caps, drain cock and water
+  pump." [V]. These are Toyota's, for that car, and say nothing of how coolant carries heat.
+
+## Gate closures, lesson 03 (2026-09-26), continued
+
+Further [V] lines from the same re-reads of 26 September 2026 (the earlier lesson 03 section above
+has the read levels), recorded because lesson 3 quotes them:
+
+- RAC DPF page, article body: the light is "a piped box that has dots in the middle" [V], varying by
+  maker; "Problems can occur, however, if the journey is too short, as the regeneration process may
+  not complete fully." [V]; "sometimes even puts the car into a restricted 'limp-home mode'" [V];
+  "removing a DPF can also invalidate your car insurance policy" [V].
+- AA DPF page: "our patrols are often called to cars with a blocked DPF." [V]; passive regeneration
+  happens "when the exhaust temperature's high enough, on motorways or fast A-roads." [V]; "The
+  collected soot is burnt off, leaving only a tiny ash residue." [V]; "If you ignore a DPF warning
+  light and keep driving in a relatively slow, stop/start pattern, soot will build up" [V]; "Driving
+  at speed alone won't be enough." [V]; "The wrong type of engine oil – check your handbook" [V];
+  "without additive the DPF will quickly become blocked." [V]; "Removing a DPF could also invalidate
+  any insurance cover because it makes the vehicle illegal for road use." [V]; "If you're buying a new
+  car and will use it mainly for town-based, stop/start driving you'd be wise to avoid diesels fitted
+  with a particulate filter" [V]; "It's sometimes suggested that you can get a DPF cut out of the
+  exhaust and the engine management software reprogrammed rather than pay to get it repaired." [V]
+- AA AdBlue page: "If you start the engine it's likely to be an expensive write-off, so don't touch
+  the ignition." (as above); "You'll usually see a text warning on the dashboard when there's around
+  1500 miles' worth of AdBlue left." [V]; "AdBlue crystalises on soft surfaces such as upholstery and
+  carpets." [V] (sic).
+
+## Gate closures, lesson 01 (2026-09-26)
+
+*Read on 26 September 2026 by the lesson 1 drafter, with curl and a browser User-Agent (no personal
+data in any header), text extracted with a small HTML stripper, the GOV.UK content API, the eCFR
+versioner API or pdftotext. Quotations marked [V] were copied from that extracted text.*
+
+**G-N1 (lesson 1: the callout's numbers).** Re-read today:
+- **999**: The Highway Code, "Breakdowns and incidents (275 to 287)", GOV.UK content API (page
+  updated 14 September 2021). The live-lane step: "call 999 immediately and ask for the police" [V],
+  in Rules 277, 278 and 279's boxes as read. Great Britain.
+- **911**: 911.gov "Calling 911", Internet Archive capture 20260907153825 (live site 403 to curl):
+  "An emergency is any situation that requires immediate assistance from the police, fire department
+  or ambulance." [V] US.
+- 112 not re-read; not printed.
+
+**G-N3 (Northern Ireland's Highway Code): not closed.** The breakdown and motorway rules were not
+read. Read instead, for lesson 1's one line on jurisdiction: nidirect, "The Highway Code" (contents
+page, dateModified 21 September 2026) and "Introduction to the Highway Code" (dateModified 22
+September 2026), https://www.nidirect.gov.uk/articles/highway-code and
+https://www.nidirect.gov.uk/articles/introduction-highway-code, main text of both. What they establish:
+- Northern Ireland has its own version: "The Highway Code for Northern Ireland is also called The
+  Highway Code or the Code." [V] Its contents page lists sections by rule range, including
+  "Breakdowns and incidents (274 to 287)" [V] (GB's GOV.UK heading reads 275 to 287). The rules
+  themselves were not opened.
+- The same two voices: rules that are legal requirements "are identified by the use of the words
+  'must' and 'must not'" [V]; other rules "may be used in evidence in any court proceedings under the
+  Traffic Legislation to establish liability" [V].
+- Why the versions differ: "Northern Ireland is largely responsible for its own road safety policy and
+  legislation which explains the differences that exist between the Northern Ireland and Great
+  Britain versions of the Highway Code." [V]
+The callout keeps "Great Britain" (OUTLINE decision 4's fallback).
+
+**Primaries re-read for lesson 1, with what they add to the parts above.**
+- **GOV.UK (DVSA), "Check your vehicle is safe to drive"** (Part C §3), full text, content API,
+  updated 5 April 2018. Quotations stand. Also: "Every time you drive you should check:" [V] "the
+  windscreen, windows and mirrors are clean" [V], "all lights work" [V], "the brakes work" [V];
+  "Your vehicle’s handbook will tell you how often to check the:" [V] "engine oil" [V], "water level
+  in the radiator or expansion tank" [V], "brake fluid level" [V], "battery" [V], "windscreen and rear
+  window washer bottles - top up with windscreen washer fluid if necessary" [V] (hyphen as in
+  source), "tyres - they must have the correct tread depth and be free of cuts and defects" [V]; "The
+  handbook will also tell you when your vehicle needs to be serviced." [V]
+- **The Highway Code, "Introduction"** (Part C §4), full text, content API, updated 1 July 2022.
+  Quotations stand. Also: "Such rules are identified by the use of the words 'MUST/MUST NOT'." [V]
+  (spacing inside the quotation marks normalised).
+- **The Highway Code, Annex 6** (Parts B §1, C §4), full text, content API, updated 29 January
+  2022. Quotations stand. Also: "lights, indicators, reflectors, and number plates MUST be kept clean
+  and clear" [V]; "Check the fluid levels in your vehicle at least weekly." [V]; "Low brake fluid may
+  result in brake failure and a crash." [V]; "If your vehicle pulls to one side when braking, it is
+  most likely to be a brake fault or incorrectly inflated tyres. Consult a garage or mechanic
+  immediately" [V]; the shock-absorber item survives only in part in the extracted text, "continues
+  to bounce after pushing down on the front or rear, its shock absorbers are worn" [V]; "If your
+  engine overheats, you should wait until it has cooled naturally." [V] The laws cited under the
+  vehicle maintenance paragraph: "Laws RVLR 1989 regs 23 & 27 , & CUR regs 30 & 61" [V].
+- **DVSA, MOT inspection manual, "Introduction"**, content API, manual updated 1 June 2026, "Applies
+  to England, Scotland, and Wales" [V]. Read in full. Quotations stand. The mild-hybrid sentence in
+  full: "Many mild hybrids only use 48V systems which may use blue coloured insulation, rather than
+  orange, as these are not regarded as being high voltage. However, the wiring on these systems
+  should still be avoided." [V]
+- **nidirect, "The MOT certificate"** (Part C §2), full text. Quotation stands.
+- **49 CFR 571.110 (FMVSS 110)**, eCFR versioner API, point in time 2026-09-24. S4.3 read in full.
+  Quotations stand.
+- **49 CFR 571.139 (FMVSS 139)**, eCFR versioner API, point in time 2026-09-24. S3 definitions and
+  S5.5 read. Quotation stands. S5.5(c): each tyre must be marked on each sidewall with "The maximum
+  permissible inflation pressure" [V].
+- **NHTSA, "Tires"**, capture 20260924154655, full page re-read. Quotations stand. Also: "On new
+  vehicles, the label will be located on the driver’s side doorjamb, called a “B-pillar.”" [V]
+- **Toyota, 2023 Corolla Owner's Manual (OM02568U)** (Part E §4), PDF re-read today, pp. 372 and 376
+  to 378: quotations stand. **New, p. 397 ("8-1. Specifications", "Tires and wheels"):** the
+  recommended cold pressures differ by the tyres fitted. "Type A", tyre size "195/65R15 91S": front
+  "33 psi (230 kPa, 2.3 kgf/cm2 or bar)" [V], rear "30 psi (210 kPa, 2.1 kgf/cm2 or bar)" [V].
+  "Type B", "205/55R16 91H": front "35 psi (240 kPa, 2.4 kgf/cm2 or bar)" [V], rear "33 psi (230
+  kPa, 2.3 kgf/cm2 or bar)" [V]. Compact spare, every type: "60 psi (420 kPa, 4.2 kgf/cm2 or bar)"
+  [V]. "Wheel nut torque 76 ft•lbf (103 N•m, 10.5 kgf•m)" [V] for each type.
+- **Honda, 2024 Civic Sedan, "If a Tire Goes Flat"** (Part E §4), online, full section re-read.
+  Quotations stand (torque "80 lbf∙ft (108 N∙m, 11 kgf∙m)"; compact spare "under 50 mph (80
+  km/h)").
+- **Mazda3 Owner's Manual, European English, 8GD7-EE-17H** (Part E §4): pages 08020102 and 08020303
+  re-read. Quotations stand ("Do not exceed 80 km/h (50 mph)." [V] on 08020102; torque "108―147
+  (12―14, 80―108)" N·m (kgf·m, ft·lbf) on 08020303).
+- **Nissan (UK), 2023 LEAF online manual** (Part E §4): the pages now end in `.shtml` (the `.html`
+  addresses in Part E return 404). Re-read "installing-spare-tyre-1.shtml" and
+  "temporary-use-spare-wheel-tyre-1.shtml": "Wheel nut tightening torque: 108 N·m (11 kg-m, 80
+  ft-lb)" [V]; "Do not drive your vehicle faster than 80 km/h (50 MPH)" [V].
+- **Nissan, 2024 LEAF Owner's Manual (US)** (Part B §5), PDF re-read: the EV-8 quotation stands.
+- **Ford, 2024 Maverick Owner's Manual** (Part B §2), capture 20250505042038 re-read: p. 309, "Do not
+  remove the coolant reservoir cap when the engine is on or the cooling system is hot. Wait 10
+  minutes for the cooling system to cool down." [V] stands (printed page 309 confirmed).
+- **California BAR, "Maintenance and repairs"** (Part A §6), full text re-read. Quotation stands. The
+  paragraph continues: "Manuals are available online. Visit the manufacturer’s website to find
+  yours." [V]
+- **fueleconomy.gov, "Tips for Hybrids, Plug-in Hybrids, and Electric Vehicles"** (Part A §2), re-read.
+  Quotation stands; the next sentence: "The automaker knows how to operate and maintain your vehicle
+  to maximize fuel economy, driving range, and battery life." [V]
+- **CalRecycle, "Check Your Number"** (Part A §6), re-read. Quotations stand.
+- **AAA, "How Often Should You Change Your Oil?"** (Part A §6), re-read. Quotation stands.
+- **TyreSafe, "Check your pressures"** (last updated September 16, 2026) and **"Checking Tyre Tread
+  Depth"** (last updated September 16, 2026) (Part B §1), re-read. Quotations stand ("in your vehicle
+  manual, on a plaque in one of the front door sills or the inside of your fuel cap." [V]; "Tyre and
+  safety experts recommend replacing tyres at 3mm" [V]).
+
+**G-N4 (photographs), lesson 1: not closed.** A Wikimedia Commons search found no openly licensed
+photograph of a tyre placard. The lesson has no photograph.

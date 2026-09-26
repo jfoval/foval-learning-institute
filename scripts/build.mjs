@@ -1142,6 +1142,8 @@ const REPETITION_EXEMPT = [
   "in the us pull as far onto the right shoulder as you can",
   "never put any part of your body under a car held up only by a jack",
   "the law on a car s condition differs between great britain northern ireland and each us state",
+  // and its general-information label.
+  "the rules differ between england and wales scotland northern ireland and each us state",
   "the law differs by state and between england and wales scotland and northern ireland",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
