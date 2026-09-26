@@ -168,3 +168,15 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **Michelin's product claim** (one tyre, over 18,000 miles, "below the official level for a new tyre")
   is used without the product name and always with "no test cited".
 - **Quiz keys:** 08 3,0,1,0,2,1 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 10 fix pass: notes for later lessons
+
+- **Running an engine in a garage.** CDC (capture 20260920191925) rules out an *attached* garage "even
+  with the garage door open" but tells readers to open a *detached* garage's door. Any lesson that runs
+  the engine for a check says "outdoors, never inside a garage, even with the door open" and labels the
+  every-garage line as the course's own precaution (lesson 10 is the model). Lesson 15 (winter idling)
+  should match.
+- **MOT glass damage:** over 10 mm in zone A or 40 mm elsewhere is what the tester looks at; failure only
+  if the view is significantly affected; damage "not adversely affecting driver's view" is still a Minor.
+  Zone A has no height in words; the manual's drawing fills the swept area's height within its width.
+- **Quiz keys:** 10 0,1,2,0,3 (unchanged by the fix).

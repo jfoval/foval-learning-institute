@@ -24,7 +24,7 @@ quiz:
       - Regulation 23(1) reaches a fitted stop lamp, and the daylight exception can't apply
       - Nothing applies, since stop lamps are extras that regulation 23 doesn't list at all
       - The daylight exception covers it, because the lamp failed before this trip began
-      - Only the MOT matters, since a stop lamp gets looked at just once a year, at the test
+      - The MOT is where this is judged, since a stop lamp is checked at the yearly test
     answer: 0
     explain: >-
       Regulation 23(2)(b) lists stop lamps among the lamps "with which it is fitted", so regulation
@@ -33,20 +33,22 @@ quiz:
       lamp that failed during the journey in progress, or one whose repair has already been
       arranged. The regulation applies whenever the car is used on a road, not only at the MOT.
   - q: >-
-      At an MOT in Great Britain, a car has a 15 mm chip just to the left of the steering wheel's
-      centre line, inside the area the wipers sweep. How does DVSA's inspection manual treat it?
+      As general information: at an MOT in Great Britain, a car has a 30 mm chip inside the area the
+      wipers sweep, 400 mm to the left of the steering wheel's centre line. How does DVSA's
+      inspection manual treat it?
     options:
-      - It passes, because damage counts at the MOT only once it is more than 40 mm across
-      - It's over zone A's 10 mm, so it's checked, and fails if it badly affects the view
-      - It fails automatically, since any chip in front of the driver is a Major defect
-      - It isn't checked, because zone A is on the passenger's side of the screen, not his
+      - It's over 10 mm, the figure for damage anywhere the wipers sweep, so it's checked
+      - It's outside zone A and under the 40 mm figure there, so it's over neither figure
+      - It fails automatically, since any chip in the area the wipers sweep is a Major defect
+      - It's in zone A, because zone A is the half of the swept area on the passenger's side
     answer: 1
     explain: >-
-      Zone A is 290 mm wide, centred on the steering wheel and inside the swept area, so a chip just
-      beside the wheel's centre line is in it, and the manual's figure there is 10 mm, not the 40 mm
-      that applies in the rest of the swept area. Nor is it automatic: the manual says failure for
-      damage "is only justified if the damage significantly affects the driver's view of the road",
-      which is the tester's judgement.
+      Zone A is 290 mm wide and centred on the steering wheel, so it reaches 145 mm either side of
+      the wheel's centre (this course's arithmetic); 400 mm to the left is outside it, not on a
+      passenger's half. In the rest of the swept area the manual's figure is 40 mm, and a 30 mm chip
+      is under it; the 10 mm figure is zone A's only. Nothing is automatic either: even over a
+      figure, the manual says failure "is only justified if the damage significantly affects the
+      driver's view of the road".
   - q: >-
       As general information: a car at a New York inspection has a crack 12 inches long running in
       from the edge of the windshield, with its last two inches inside the area the wiper clears.
@@ -75,19 +77,21 @@ quiz:
     explain: >-
       National Highways says to ask a friend, "or park your vehicle near a reflective surface eg a
       window or garage door", then press the brake pedal. Nothing this course read says a dashboard
-      shows that a brake light is working. Leaving it to a yearly test misses the months in between,
-      and the reflection method works in daylight, which is when the lesson's walk-round is done.
+      shows that a brake light is working. Leaving it to a yearly test misses the months in between.
+      And National Highways gives the reflection method with no time of day attached, and nothing
+      this course read says a brake light can't be seen in daylight.
   - q: >-
       A car's wiper blades are 14 months old and still clear the glass without streaks. Which
       describes what the sources in this lesson say?
     options:
       - The law in Great Britain says wiper blades must be changed at least every 12 months
-      - Nissan's handbook says to replace blades every year, whatever they look like
+      - Nissan's handbook gives a yearly blade change, and the Met Office page agrees
       - Nothing to decide yet, since blades only need a look once they have stopped working
       - A yearly change is advice on a Met Office page; Nissan's handbook goes by wear
     answer: 3
     explain: >-
-      The Met Office page, which reproduces the RAC's checklist, says "It's recommended to change
+      The Met Office page, which reproduces the checklist of the RAC, a motoring organisation that
+      sells breakdown cover, says "It's recommended to change
       wiper blades every 12 months". Nissan's handbook says to check them "if they do not wipe
       properly" and to replace them if they are worn. Neither is law: the regulation in Great Britain
       requires wipers to be kept in efficient working order and sets no interval. And the Met Office
@@ -101,7 +105,7 @@ do; the number-plate lamp and the rear lights tell them you're there at all. Nat
 government-owned company that runs England's motorways and major A-roads, puts it plainly: "If your
 indicators, hazard lights, headlights, fog lights, reverse lights or brake lights aren't working
 properly, you're putting yourself and others at risk." And, it adds, "They can be a reason for your
-vehicle to fail its MoT."[1] The windscreen and the wipers are the same bargain the other way round:
+vehicle to fail its MoT."[1] The windscreen (windshield in the US) and the wipers are the same bargain the other way round:
 they're how you see. This lesson is the walk-round that checks all of it, and the law in Great
 Britain that sits behind each item.
 
@@ -126,20 +130,23 @@ sequence, turn on your indicators, hazard lights, headlights and fog lights to c
 working", and "Press the brake pedal to check your brake lights, and finally select reverse to
 ensure your reverse light is working."[1]
 
-Nissan's handbook for the 2024 LEAF, sold in the US, has the same list with two additions: "Clean
+Nissan's handbook for the 2024 LEAF, sold in the US, covers the same ground in its own list and adds two things: "Clean
 the headlights on a regular basis. Make sure that the headlights, stop lights, taillights, turn
 signal lights, and other lights are all operating properly and installed securely. Also check
 headlight aim."[2] Aim is the one item on that list a walk-round can't settle. The MOT checks it in
 Great Britain, and lesson 21, "The MOT and Northern Ireland's vehicle test", covers the test.
 
 Two lights are easy to forget. The number-plate lamp, which only comes on with the other lights and
-sits where you never look. And the reversing lamp, which needs reverse selected. That step deserves
-care, and what follows is this course's own precaution rather than National Highways': select
-reverse only with the parking brake on and your foot held firmly on the brake, with any helper
-standing to the side of the car, never behind it. If that isn't possible, leave the reversing lamp
-for another day. And if the engine has to run for the lights to work, do this outdoors, never in a
-closed garage; Home Repair and Maintenance lesson 11, "Carbon monoxide and the alarms that warn you",
-explains why.
+sits where you never look. And the reversing lamp, which needs reverse selected. Both precautions
+that follow are this course's own, not National Highways'. Select reverse only with the parking
+brake on and your foot held firmly on the brake, with any helper standing to the side of the car,
+never behind it. If that isn't possible, leave the reversing lamp for another day. And if the engine
+has to run for the lights to work, do this outdoors, never inside a garage, even with the door open.
+The Centers for Disease Control and Prevention (CDC), the US public-health agency, says: "Never run
+your car or truck inside a garage that is attached to a house, even with the garage door
+open."[14] Its words are about a garage joined to a house; this course keeps a running engine out
+of every garage. Home Repair and Maintenance lesson 11, "Carbon monoxide and the alarms that warn
+you", explains why.
 
 The Highway Code, which applies in Great Britain, adds that "lights, indicators, reflectors, and
 number plates MUST be kept clean and clear".[3] That is a MUST, a legal requirement, and it is why the
@@ -160,18 +167,19 @@ beads do not form when rinsing with clear water."[2]
 
 ### Wipers and blades
 
-The Met Office's winter checklist, which reproduces the RAC's, says to "check your wipers are doing the
+The Met Office's winter checklist, which reproduces the RAC's (the RAC sells breakdown cover and
+repairs), says to "check your wipers are doing the
 job by spraying some washer fluid and checking they clean the windscreen", then run your fingers
 along the blades "to check for splits". It adds: "It's recommended to change wiper blades every 12
-months."[4] That is advice, not law, and it comes from a motoring organisation's list on a weather
-service's page.
+months."[4] That is advice, not law, and it comes from that checklist, on a weather service's
+page.
 
 Nissan's handbook ties the blades to how they work rather than to the calendar: "Check for cracks or
 wear if they do not wipe properly", and "Replace the wiper blades if they are worn." It also says
 what a worn blade does: "Worn windshield wiper blades can damage the windshield and impair driver
-vision."[2] Ford's handbook for the 2024 Maverick, sold in the US and Canada, answers the commonest
-question the same way: streaks and smears mean "The wiper blades could be dirty, worn or damaged."
-Ford also says why the walk-round sprays before it wipes: "Do not operate the wipers on a dry
+vision."[2] Ford's handbook for the 2024 Maverick, sold in the US and Canada, answers the question
+"Why are there streaks and smears on the windshield?" the same way: "The wiper blades could be
+dirty, worn or damaged." Ford also gives a reason to spray before you wipe: "Do not operate the wipers on a dry
 windshield. This could scratch the glass or damage the wiper blades."[5]
 
 Changing a blade is **Yours, on conditions**: where your handbook shows how for your car, and only
@@ -179,27 +187,26 @@ by its method. Nissan's and Ford's handbooks each describe it for their own car,
 differ. This course doesn't generalise from them, and teaches nothing on the wiper arms themselves.
 Washer fluid was lesson 9's, "Under the bonnet: oil, coolant, brake fluid and screenwash".
 
-## A dead lamp in Welshpool
+## The law on lamps, in Great Britain
+
+This is general information, not legal advice.
 
 On a Sunday afternoon in Welshpool, a neighbour helps with the walk-round and reports that the car's
 only number-plate lamp is out. Everything else works. The owner means to drive to work on Monday
 morning, in daylight, and home again after dark. Two questions: which rule reaches that lamp, and do
-the words of the daylight exception fit the plan? The next section gives the rules; try to answer
-before the checkpoint at its end.
-
-## The law on lamps, in Great Britain
-
-This is general information, not legal advice.
+the words of the daylight exception fit the plan? The rules follow; try to answer before the
+checkpoint below.
 
 The rule is regulation 23 of the Road Vehicles Lighting Regulations 1989, which applies in England,
 Wales and Scotland. [Regulation 23(1)](https://www.legislation.gov.uk/uksi/1989/1796/regulation/23)
 says: "No person shall use, or cause or permit to be used, on a road a vehicle unless every lamp,
 reflector, rear marking and device to which this paragraph applies is in good working order and, in
 the case of a lamp, clean."[6] It applies to two groups. The first is lamps a vehicle is required by
-the Regulations to have, and the list includes headlamps, front and rear position lamps, the rear
+the Regulations to have, and the list includes headlamps, front and rear position lamps (your
+handbook will show which switch position lights them), the rear
 registration plate lamp, the rear fog lamp, reflectors, daytime running lamps and the reversing lamp.
-The second is lamps it has, whether required or not, and that list includes "every" stop lamp,
-direction indicator, hazard warning signal device and front fog lamp "with which it is fitted".[6]
+The second is lamps it has, whether required or not, and that list includes "every" stop lamp (the
+brake lights), direction indicator, hazard warning signal device and front fog lamp "with which it is fitted".[6]
 Which lamps your car is required to have is set elsewhere in the Regulations, which this course
 didn't read.
 
@@ -220,7 +227,8 @@ Regulation 23(1) reaches the rear registration plate lamp, which is on the list 
 where the Regulations require one. For Monday morning, the exception's words need either a lamp that
 failed during the journey in progress, which this one didn't (it was dead on Sunday), or repair
 arrangements already made "with all reasonable expedition"; on this course's reading of the words,
-the exception fits the morning only if the second is true. For the drive home after dark, the
+the exception fits the morning only if the second is true, and the regulation doesn't say what
+counts as reasonable expedition; this course read nothing that does. For the drive home after dark, the
 exception's words don't reach at all, because they apply only between sunrise and sunset. What the
 owner does is theirs to decide; the question this course can answer is what the regulation says.
 :::
@@ -274,8 +282,8 @@ For wipers, regulation 34 requires "one or more efficient automatic windscreen w
 a windscreen, unless the driver can see ahead without looking through it, and lesson 9 quoted its
 paragraph (6): fitted wipers and washers are to be kept in efficient working order, and properly
 adjusted, at all times while the car is used on a road.[9] Notice what it doesn't say. It sets no
-age for a blade. A blade that clears the glass meets its words at fourteen months old; one that
-smears doesn't at six.
+age for a blade. On this course's reading, a blade that clears the glass meets its words at two
+years old; one that smears doesn't at six months.
 
 Window tints get two sentences in Annex 6: "You MUST NOT use a vehicle with excessively dark tinting
 applied to the windscreen, or to the glass in any front window to either side of the driver." And:
@@ -285,41 +293,47 @@ this course didn't read, so the lesson goes no further than those two sentences.
 
 ## The windscreen at the MOT: zone A
 
+This is general information, not legal advice.
+
 At the MOT, the windscreen is judged by where the damage is as well as how big it is. DVSA's manual
 tells testers to check for "damage in windscreen zone A more than 10mm in diameter" and "damage in the
 remainder of the windscreen's swept area more than 40mm in diameter". Zone A is "in the swept area of
 the windscreen", "290mm wide" and "centred on the steering wheel".[10]
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-label="Schematic of a windscreen seen from inside a right-hand-drive car. A band 290 millimetres wide, centred on the steering wheel and inside the area the wipers sweep, is zone A, where the MOT checks damage over 10 millimetres. In the rest of the swept area the figure is 40 millimetres. Not to scale.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-label="Schematic of a windscreen seen from inside a right-hand-drive car. A band 290 millimetres wide, centred on the steering wheel and inside the area the wipers sweep, is zone A, where the MOT checks damage over 10 millimetres. In the rest of the swept area the figure is 40 millimetres. Not to scale.">
   <title>Windscreen zone A at the MOT in Great Britain (schematic)</title>
-  <desc>A windscreen outline, with a shaded area inside it for the area the wipers sweep. A narrower band, labelled A, runs from the bottom of the swept area upwards, centred above a circle labelled steering wheel on the right-hand side, as in a right-hand-drive car. Text below: zone A is 290 millimetres wide, centred on the steering wheel and inside the swept area, and damage over 10 millimetres there is checked; in the rest of the swept area the figure is 40 millimetres; damage fails only if it significantly affects the driver's view. Source: DVSA MOT inspection manual, section 3.2, section updated 29 November 2024, read 26 September 2026. Schematic, not to scale.</desc>
+  <desc>A windscreen outline, with a shaded area inside it for the area the wipers sweep. A narrower band, labelled A, fills the swept area's full height within its width, centred above a circle labelled steering wheel on the right-hand side, as in a right-hand-drive car. Text below: zone A is 290 millimetres wide, centred on the steering wheel and inside the swept area, and damage over 10 millimetres there is checked; in the rest of the swept area the figure is 40 millimetres; damage fails only if it significantly affects the driver's view. Source: DVSA MOT inspection manual, section 3.2, section updated 29 November 2024, read 26 September 2026. Schematic, not to scale.</desc>
   <text x="20" y="26" font-size="16" font-weight="700" fill="var(--text, #111418)">Windscreen zone A, MOT (Great Britain)</text>
   <polygon points="45,50 375,50 400,210 20,210" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <path d="M 40,205 Q 60,75 210,70 Q 360,75 380,205 Z" fill="var(--navy, #0f2a4a)" fill-opacity="0.15" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <rect x="254" y="92" width="76" height="113" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.3" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <path d="M 254,205 L 254,74.7 Q 300.3,83.5 330,108.3 L 330,205 Z" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.3" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
   <text x="283" y="156" font-size="20" font-weight="700" fill="var(--text, #111418)">A</text>
   <text x="80" y="160" font-size="15" fill="var(--text, #111418)">swept area</text>
   <circle cx="292" cy="245" r="22" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-  <text x="175" y="250" font-size="15" fill="var(--text-2, #4a5260)">steering wheel</text>
+  <text x="262" y="250" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">steering wheel</text>
   <line x1="292" y1="205" x2="292" y2="223" stroke="var(--text-2, #4a5260)" stroke-width="1.5" stroke-dasharray="4 3"/>
   <text x="20" y="298" font-size="15" fill="var(--text, #111418)">Zone A: 290 mm wide, centred on the wheel,</text>
   <text x="20" y="320" font-size="15" fill="var(--text, #111418)">inside the swept area. Checked: over 10 mm.</text>
   <text x="20" y="342" font-size="15" fill="var(--text, #111418)">Rest of the swept area: over 40 mm.</text>
-  <text x="20" y="364" font-size="15" fill="var(--text-2, #4a5260)">Fails only if it badly affects the view.</text>
+  <text x="20" y="364" font-size="15" fill="var(--text-2, #4a5260)">Fails only if it significantly affects the view.</text>
   <text x="20" y="386" font-size="15" fill="var(--text-2, #4a5260)">Schematic, not to scale; right-hand drive.</text>
+  <text x="20" y="408" font-size="15" fill="var(--text-2, #4a5260)">Source: DVSA MOT manual 3.2, 29 Nov 2024.</text>
 </svg>
 
 The drawing is this course's schematic of the manual's words, on a right-hand-drive car, and it isn't
-to scale: the manual gives zone A's width and says it sits in the swept area, and gives no height.
+to scale: the manual gives zone A's width and says it sits in the swept area, and gives no height in
+words; its own drawing, linked below, shows the band running the full height of the swept area.
 
 The figures are only half the rule. The manual goes on: "Failure for damage is only justified if the
 damage significantly affects the driver's view of the road." And a good repair isn't damage at all:
 "An 'invisible' or barely detectable repair, finished flush with the surrounding glass, does not
 count as damage."[10] So the 10 and 40 mm figures tell the tester what to look at; whether it fails
-is a judgement about the view.
+is a judgement about the view. If it doesn't, damage "not adversely affecting driver's view" is
+still recorded as a Minor defect in the manual's table, which doesn't fail the car.[10]
 
 The wipers are in the same section. A "Wiper blade defective" is Minor; "Wiper blade missing or
-obviously not clearing the windscreen" is Major.[10]
+obviously not clearing the windscreen" is Major.[10] Washers "not working or not providing
+sufficient fluid to clear the windscreen" are Major too.[10]
 
 ### One chip, two inspections
 
@@ -341,7 +355,7 @@ the wiped area. A 12 mm chip is not that, so the rule doesn't reject it. But tha
 saying it passes: the page also tells the inspector to check the windshield's condition, and gives no
 figure for a chip, so what the inspector makes of it is not something this course can say from the
 page. If the chip grows into a crack that reaches 11 inches with any part in the wiped area, the
-rule does apply. Two places, two tests of the same glass, and neither is the other's.
+rule does apply.
 :::
 
 ## In the US
@@ -365,7 +379,7 @@ this course read. Among them, the lists look like this:
 | | Great Britain | New York, as read |
 |---|---|---|
 | Where the lamp duty comes from | Lighting Regulations reg 23, whenever the car is used on a road | The DMV page's "safe operating condition" and the inspection list |
-| Windscreen damage figure | Zone A 10 mm; rest of swept area 40 mm; fails only if the view is significantly affected | Cracks 11 inches or longer with any part in the wiped area |
+| Windscreen damage figure | Zone A 10 mm; rest of swept area 40 mm; fails only if the view is significantly affected | Cracks 11 inches or longer with any part in the wiped area; the glass's "condition" is checked, with no figure |
 | Washers | Required, kept working (reg 34); Major at the MOT if not | Not on the inspection page's list |
 
 This course read no US state's statute on lamps or glass itself, only these inspection pages, and it
@@ -388,18 +402,20 @@ the driver's vision.
 swept area, and even then it fails only if the view is significantly affected; a flush repair
 doesn't count as damage.[10]
 
-**"I can check my own brake lights."** Not from the driver's seat. A helper, or a window or garage
-door behind the car, as National Highways says.[1]
+**"You can see whether your brake lights work from the driver's seat."** You can't. A helper, or a
+window or garage door behind the car, as National Highways says.[1]
 
 ## Practice
 
 :::exercise The walk-round
 Take 15 minutes over this, in daylight. Use your own car, or one whose keeper agrees, parked off the
-road on level ground with the parking brake on. Ask a helper, or park with the back of the car toward
-a window or garage door. If the engine has to run for the lights, do it outdoors, never in a closed
-garage. Don't drive the car for the exercise, and don't open or take apart any lamp.
+road on level ground with the parking brake on. Ask a helper, or, if the car is already parked with
+its back toward a window or garage door, use the reflection; don't move the car for this. If the
+engine has to run for the lights, do it outdoors, never inside a garage, even with the door open.
+Don't drive the car for the exercise, and don't open or take apart any lamp.
 
-1. **Front.** Headlamps (dipped and main beam), front position lamps, front indicators, hazard lights
+1. **Front.** Headlamps (dipped and main beam; low and high beam in the US), front position lamps
+   (your handbook shows the switch position), front indicators, hazard lights
    and any front fog lamps. Note each as working or not, and wipe each lens clean.
 2. **Rear.** Rear lamps, indicators, brake lights (your helper or the reflection), rear fog lamp and
    the number-plate lamp. Check the reversing lamp only with your foot firmly on the brake and your
@@ -415,11 +431,12 @@ garage. Don't drive the car for the exercise, and don't open or take apart any l
 
 :::checkpoint Check your log. Which findings are yours to deal with, which need someone else, and which would matter at a Great Britain MOT?
 
-A dirty lens or plate is **Yours**: clean it. A lamp that doesn't work is a bulb or unit to replace:
-**Yours, on conditions** only where your handbook shows how for that lamp, and otherwise **Call
+A dirty lens or plate is **Yours**: clean it. A lamp that doesn't work needs putting right:
+**Yours, on conditions** only where your handbook shows how to change that bulb, and otherwise **Call
 someone**. Damage to the glass is **Call someone**, and the sooner the better while it may still be a
 repair. A streaking blade is **Yours, on conditions** where your handbook shows the change. At a GB
-MOT, a headlamp, stop lamp or indicator that doesn't work is a Major defect by the table above, and so
+MOT, a headlamp, stop lamp or indicator that doesn't work is a Major defect by the table above
+(Dangerous if every stop lamp is out), and so
 is a dead number-plate lamp unless another still lights the plate; a chip over 10 mm in zone A, or
 over 40 mm in the rest of the swept area, is one the tester will look at.
 :::
@@ -430,7 +447,7 @@ This lesson adds the walk-round to your car file's checks log: lights front and 
 and wipers, with the date and anything found. Beside it, from your handbook: which bulbs or lamps it
 shows you how to change, if any, and how it describes changing a wiper blade. Pair the walk-round with
 lesson 9's under-bonnet check and you have the owner's routine; how often is your choice, and the
-Highway Code's advice for fluids is weekly.
+Highway Code's advice is to check the fluid levels at least weekly.
 
 ## Connections
 
@@ -495,3 +512,7 @@ inspections, emissions tests and tread law", the US states.
     <!-- SOURCES Part D §1; lesson 09 gate closures -->
 13. Virginia State Police, ["Vehicle Safety Inspection"](https://vsp.virginia.gov/safety-and-enforcement/vehicle-safety-inspection/),
     undated. **Read: the web page in full, re-read 26 September 2026.** <!-- SOURCES Part D §1; lesson 09 gate closures -->
+14. Centers for Disease Control and Prevention, ["Carbon Monoxide Poisoning Basics"](https://www.cdc.gov/carbon-monoxide/about/index.html),
+    12 January 2026, read from Internet Archive capture 20260920191925 (the live page refuses automated
+    readers). US. **Read for this lesson: the page's car and truck prevention lines, 26 September
+    2026.** The live page is linked for the reader. <!-- SOURCES Stage 4 note, lesson 10 -->

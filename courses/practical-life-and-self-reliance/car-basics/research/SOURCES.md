@@ -6270,3 +6270,27 @@ machinery [summarised].
   readers), read 26 September 2026 [V]: "We are the only retailer that performs in-house,
   independent tire tests." A US online tyre retailer. Lesson 08 labels it so wherever AAA's report
   of its braking test appears. Its test reports were not read.
+
+## Stage 4 note, lesson 10 (2026-09-26)
+
+Read by the lesson 10 fixer on 26 September 2026, with curl and a generic browser User-Agent (no
+personal data in any header).
+
+- **CDC, "Carbon Monoxide Poisoning Basics"** (https://www.cdc.gov/carbon-monoxide/about/index.html),
+  page updated 12 January 2026, read from Internet Archive capture 20260920191925 (live page HTTP 403
+  to curl). Under "Automobile": "Never run your car or truck inside a garage that is attached to a
+  house, even with the garage door open." [V] The next line, not quoted in lesson 10: "Always open the
+  door to a detached garage to let in fresh air when you run a car or truck inside." [V] Lesson 10's
+  "never inside a garage, even with the door open" is labelled as the course's own precaution, stricter
+  than the CDC's for a detached garage. Home Repair lesson 11 quotes the same attached-garage line.
+- **DVSA, MOT inspection manual, section 3** (GOV.UK content API, `public_updated_at` 2024-11-29), 3.2
+  defect table: "(a)(i) Windscreen or window damaged or seriously discoloured but not adversely
+  affecting driver's view" Minor [V]; "(a)(ii) Windscreen or window damaged or seriously discoloured and
+  affecting the driver's view of the road or of an obligatory external mirror" Major [V]. The zone A
+  drawing (winscreen_zone_A.png) shows the band filling the swept area's full height within its width;
+  the text gives no height.
+- **Ford, 2024 Maverick Owner's Manual**, capture 20250505042038 (pdftotext), "Wipers and Washers –
+  Frequently Asked Questions": "Why are there streaks and smears on the windshield?" [V], answered "The
+  wiper blades could be dirty, worn or damaged." [V]
+- **The Highway Code, Annex 6** (content API), re-read: "Check the fluid levels in your vehicle at least
+  weekly." [V]
