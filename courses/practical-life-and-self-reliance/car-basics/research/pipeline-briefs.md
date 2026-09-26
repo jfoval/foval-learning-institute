@@ -180,6 +180,14 @@ written, so this course does not learn it again.
   advice to have the car checked. AFDC's word is "combustion chamber"; no source read says "direct
   injection". Quiz keys: besides the relaxed rule, no run of four may match another lesson's keys
   shifted by a constant at any offset.
+- **2026-09-26, from lessons 5 and 6 at Stage 4:** the Highway Code's charge-light line is never
+  quoted without Annex 6's sentence before it ("stop and investigate the problem, as you could have a
+  serious fault"). The AA's "number one cause" for batteries is quoted only as the AA's claim, never
+  ranked in the course's voice, and its battery-life figures keep the advice attached to them. HSE's
+  battery leaflet is a 2011 workplace leaflet, labelled so, and its paragraph 7 never goes without
+  paragraph 16's explosion warning. FMVSS 135 requires "an indicator" for brake conditions; a
+  separate ABS or regenerative-braking indicator is yellow, so no lesson says those faults light "the
+  brake warning light".
 
 ## Drafting brief: Car Basics, Stage 3
 

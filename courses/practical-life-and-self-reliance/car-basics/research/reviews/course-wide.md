@@ -100,3 +100,22 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 
 The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 03 1,3,0,2,0,3;
 04 0,2,3,0,1. Read the lessons, not this file, when checking a new lesson's keys.
+
+## 2026-09-26 — Lesson 05 fix pass: notes for later lessons
+
+- **The Highway Code is a stop source for a warning light that comes on while driving, never a "check
+  soon" one.** Annex 6: "If they do not, or if they come on while you are driving, stop and investigate
+  the problem, as you could have a serious fault." The charge-light sentence adds a check ("This should
+  also be checked..."). SOURCES Part B (c)5, the contested-questions row 11 and OUTLINE lesson 5 carried
+  the check-soon framing; SOURCES is marked, OUTLINE is not (orchestrator). Lessons 11, 13, 16 and the
+  test.
+- **The AA's "number one cause of breakdowns"** (maintenance page) is quoted only as the AA's claim,
+  never in the course's voice; its flat-battery page says "one of the top 10". Suggested as a dated
+  bullet for pipeline-briefs "Course conventions" (not added by the fixer).
+- **The AA's battery-life lines travel with their advice**: "3 to 5 years, so ... replace it ... before
+  it lets you down" (maintenance) and "5 and 7 years but you should only consider changing a car
+  battery when it's showing signs of deterioration" (jump page). All three AA pages sell batteries.
+- **HSE's valve-regulated line (para 7) travels with para 16**: "An explosion is likely if this happens
+  close to an ignition source." Lesson 13.
+- **Nissan's frozen-battery line is the LEAF's**; no source read gives a freezing temperature.
+- **Quiz keys:** 05 3,2,1,2,0,1 (unchanged by the fix).

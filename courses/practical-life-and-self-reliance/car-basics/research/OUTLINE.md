@@ -1009,7 +1009,7 @@ file (the project), so the project assembles itself.
   week). **Battery life**: the AA's two figures (3 to 5 years on one page, 5 to 7 on two others) and
   AAA's "more than 3 to 5 years ... worth getting it tested": the lesson says "several years; have it
   tested from about three" and shows the disagreement. **The charge light, a practical disagreement**
-  (Part B (c)5): the Highway Code "should also be checked as soon as possible"; Ford "Have your vehicle
+  (Part B (c)5): the Highway Code "should also be checked as soon as possible" [Stage 4 correction, 2026-09-26: Annex 6's sentence just before says any warning light that comes on while driving means "stop and investigate the problem, as you could have a serious fault", so the Code is a stop source and is never quoted without it]; Ford "Have your vehicle
   checked as soon as possible"; the RAC "You should not drive"; Nissan's LEAF "Immediately stop". The
   handbook governs, and the lesson says why the answers differ as far as the sources explain it (a
   conventional car runs on the battery until it is flat; the Highway Code names lights and "other

@@ -390,7 +390,7 @@ Each is named by a source in a part. The parts' (b) lists have the sources and e
 | 8 | Oil-change intervals: normal or severe schedule? | **Contested empirical and partly commercial.** Read the handbook's definition of severe service honestly, or use the monitor | A (c)2 |
 | 9 | Windows or air conditioning at speed | **Contested empirical**, small either way. EST: windows even at higher speeds; fueleconomy.gov citing ORNL: AC at highway speed. Not a rule | A (c)1 |
 | 10 | Charging practice: extension leads, 80%, overnight | **Contested practice.** Nissan and NFPA: never an extension cord; ESF allows an outdoor-rated reel as a fallback. ESF lists overnight charging under AVOID while NHTSA advises plugging in at night in winter. Teach the strict version and the handbook; do not teach "80%" as fire safety | B (c)7, 8 |
-| 11 | Charging light: stop now or check soon? | **Practical judgement**, handbook governs. RAC: do not drive; Highway Code and Ford: check as soon as possible; Nissan (EV): stop immediately. Explain why (the car runs on the battery until it is flat) | B (c)5 |
+| 11 | Charging light: stop now or check soon? | **Practical judgement**, handbook governs. RAC: do not drive; Highway Code and Ford: check as soon as possible [Stage 4 note, lesson 05, 2026-09-26: wrong for the Highway Code, whose general advice for a light that comes on while driving is "stop and investigate"; see B (c)5's note]; Nissan (EV): stop immediately. Explain why (the car runs on the battery until it is flat) | B (c)5 |
 | 12 | Jump-lead removal with engines running or off | **Established only** that the order reverses and the handbook governs; HSE, Ford and the AA differ | B (c)6 |
 | 13 | Repairing run-flat tyres | **Contested practice** among industry bodies and makers | E (c)3 |
 | 14 | Is an extended service contract worth buying? | **Value / individual judgement.** Personal Finance's question | D (c) |
@@ -1960,7 +1960,7 @@ Read: fetched but the extract contained only site navigation (page likely moved 
 2. **Tyre age.** Established that tyres age; contested how fast. NHTSA: "six to 10 years"; NHTSA winter page: "every six years" (some makers); RAC: "every five or six years" for low-mileage cars. No UK legal age limit for private cars (Annex 6 limits apply to heavy vehicles and minibuses). Contested empirical.
 3. **How often to check pressures.** Highway Code: weekly. NHTSA, AAA, TyreSafe: monthly. AA: every 2 weeks. RAC: fortnightly (via Met Office). Not a real dispute; present "at least monthly, and before long journeys, and the Highway Code says weekly".
 4. **Battery life.** AA contradicts itself: "3 to 5 years" (maintenance tips, 2025) and "5 and 7 years" (flat battery and jump-start pages). AAA: get it tested after "3 to 5 years" or "more than three years old". Contested empirical; lesson should say "typically several years; get it tested from about three years".
-5. **Charging light: stop now or get it checked soon?** RAC: "You should not drive if the battery warning light is on". Highway Code Annex 6: "should also be checked as soon as possible". Ford p. 113: "Have your vehicle checked as soon as possible." Nissan (EV) p. 2-16: "Immediately stop the vehicle in a safe location". The honest answer is: the car will run only until the battery is flat (conventional car) and may lose power steering, lights and in some cars the engine; in an EV the handbook says stop. Contested practical judgement; handbook governs.
+5. **Charging light: stop now or get it checked soon?** RAC: "You should not drive if the battery warning light is on". Highway Code Annex 6: "should also be checked as soon as possible". Ford p. 113: "Have your vehicle checked as soon as possible." Nissan (EV) p. 2-16: "Immediately stop the vehicle in a safe location". The honest answer is: the car will run only until the battery is flat (conventional car) and may lose power steering, lights and in some cars the engine; in an EV the handbook says stop. Contested practical judgement; handbook governs. [Stage 4 note, lesson 05, 2026-09-26: framed wrongly. Annex 6's sentence before the charge-light line says a warning light that comes on while you are driving means "stop and investigate the problem, as you could have a serious fault" [V], and the charge-light line adds a check ("also"). The Highway Code is not a check-soon source; see the lesson 05 Stage 4 note at the end of this file.]
 6. **Jump lead removal: engines running or off?** HSE: stop the good vehicle, leave the dead one running, then disconnect. Ford: run both engines three minutes, then disconnect. AA: "Turn off both cars' engines" before disconnecting, yet also "Don't remove the jump leads while the car engines are running" and the booster-pack method removes leads with the engine running. Nissan: disconnect after the EV is in READY. Established only that the order is reversed and the handbook governs.
 7. **Extension leads for EV charging.** Nissan: "Never use extension cords". NFPA: "Do not use extension cords with the charger." ESF (2019): never a domestic multi-socket lead, but an outdoor-rated reel cable is acceptable if you must. Contested practical; lesson should give the strict version and say the handbook governs.
 8. **Charge to 80% and don't charge straight after a drive.** Derbyshire FRS recommends both as fire-risk measures; ESF lists "Charging the battery continuously or overnight" under AVOID; NHTSA recommends plugging in at night in winter. No maker handbook I read says 80% is a fire-safety measure. Contested empirical; do not teach as safety fact.
@@ -5481,3 +5481,53 @@ API: "CC0" [V], http://creativecommons.org/publicdomain/zero/1.0/deed.en. The fi
 wear indicator). The picture shows a worn tread with "TWI" moulded near the shoulder; no brand is
 legible. The file page itself, read the same day, states "This file is made available under the
 Creative Commons CC0 1.0 Universal Public Domain Dedication." [V]
+
+## Stage 4 note, lesson 05 (2026-09-26)
+
+*Read by the lesson 05 fixer on 26 September 2026 with curl and a browser User-Agent (no personal data in
+any header), text extracted by stripping tags, pdftotext -raw for HSE, or the GOV.UK content API.
+Quotations marked [V] were copied from that extracted text.*
+
+- **Correction: the Highway Code on the charge warning light.** Annex 6 (content API,
+  `public_updated_at` 2022-01-29), re-read in full. The paragraph directly before the charge-light
+  sentence: "When you turn the ignition key, warning lights will be illuminated but will go out when the
+  engine starts (except the handbrake warning light). If they do not, or if they come on while you are
+  driving, stop and investigate the problem, as you could have a serious fault." [V] Then "If the charge
+  warning light comes on while you are driving, it may mean that the battery isn’t charging. This should
+  also be checked as soon as possible to avoid loss of power to lights and other electrical systems." [V]
+  The "also" adds a check on top of the stop-and-investigate advice. **Never cite the Highway Code as a
+  "check soon" source for this light**; it sits with the stop-now sources, as advice (no MUST). Part B
+  (c)5 and the contested-questions row 11 near the top carried the wrong framing and are marked in place.
+  OUTLINE's lesson 5 entry carries it too and was not edited (fixer's scope).
+- **The AA, "How to jump start a car in 9 steps"** (https://www.theaa.com/breakdown-cover/advice/using-jump-leads),
+  "Last updated: 26 June 2024" [V]. Re-read. The battery-life line, whole: "On average, batteries last
+  between 5 and 7 years but you should only consider changing a car battery when it's showing signs of
+  deterioration." [V] and "If the battery's more than 5 years old and seems like it's struggling to start
+  the car, get it checked out." [V] After a jump: "Charge the battery by driving normally (not in
+  stop-start traffic) for at least 30 minutes." [V] The page advertises the AA's battery replacement
+  service ("our Battery Assist team can replace a car battery on the same day" [V]). Part B's
+  "On average, batteries last between 5 and 7 years" [V] was the line's first half only.
+- **The AA, "10 essential car maintenance tips"**, "Updated: 10 July 2025" [V]. Re-read. The life line,
+  whole: "Most car batteries have a life of 3 to 5 years, so if yours is getting a bit old replace it with
+  a new one before it lets you down." [V] Directly followed by "Replace your battery easily with Battery
+  Assist" [V]. "Battery problems are the number one cause of breakdowns at any time of year, and
+  particularly for vehicles that aren't used very often." [V] gives no data, year or geography: quote it
+  only as the AA's claim, never in the course's voice.
+- **The AA, "What to do if your car has a flat battery"**, "Last updated 11 January 2024" [V]. Re-read.
+  Part B's "2 or 3 years" line stands whole: "However, our mechanics see cases where the battery has
+  failed after only 2 or 3 years because of how the car was driven." [V] "A flat battery is one of the
+  top 10 breakdown causes." [V] stands.
+- **The AA press release "AA gives power to electric drivers"**, 23 July 2021, re-read. Part A's
+  quotations stand. The "onboard computer system" line is Ben Sheridan's, "AA Patrol of the Year" [V].
+- **HSE INDG139(rev1)**, re-read (pdftotext -raw). Para 16, whole: "Valve-regulated (‘maintenance-free’)
+  batteries are much less likely to release hydrogen than vented batteries. However, it is still
+  important to take care when charging them. Gas pressure may build up inside the battery if it is
+  charged too quickly or for too long. If this happens, the pressure relief valves in the battery may
+  open and let the gases escape. An explosion is likely if this happens close to an ignition source." [V]
+  Para 7's valve-regulated line is not to be quoted without para 16's warning.
+- **fueleconomy.gov, "Driving More Efficiently"**, re-read. The 5-mile line sits under "Avoid Excessive
+  Idling", in "Best Practices" introduced by "Turning your engine off when your vehicle is parked can
+  save you money." [V]
+- **Checked and not found:** no source read says a Nissan handbook tells owners to clean the battery
+  terminals; only Ford's p. 457 "Battery connections. Clean if necessary." [V] (lesson 05 gate closures)
+  is on record.

@@ -1,13 +1,13 @@
 ---
 title: "The 12 V battery: what it does, and why short trips flatten it"
-minutes: 80
+minutes: 85
 objectives:
   - >-
     Explain what the 12 V battery does in a petrol or diesel car, a hybrid and an electric car, and
     what recharges it in each
   - >-
-    Explain, from the sources, why repeated short trips and hot weather shorten a battery's life, and
-    read the signs that a battery is failing
+    Explain, from the sources, why repeated short trips shorten a battery's life, say what the
+    sources say about heat and cold, and read the signs that a battery is failing
   - >-
     Decide what a charge warning light calls for in a conventional car and in an electric car, from
     the handbook, and say why the sources disagree
@@ -33,23 +33,26 @@ quiz:
       isn't the first step: the AA says a battery that struggles can simply not be getting enough
       charge, and names too many short journeys as a cause, so the pattern of use comes first. And short trips are the problem, not a relief.
   - q: >-
-      A driver's charge warning light comes on during a journey. His handbook says to stop in a safe
-      place at once and call the dealer. A passenger reads out the Highway Code's advice that the
-      light should be checked as soon as possible. Which instruction governs this car?
+      A driver in Great Britain sees his charge warning light come on during a journey. His handbook
+      says to stop in a safe place at once and call the dealer. His passenger finds a different
+      model's handbook online, which says only to have the car checked as soon as possible. Which
+      instruction governs this car?
     options:
-      - The Highway Code, because it's the official source for drivers in Great Britain
-      - Whichever is less strict, since the two sources disagree about the light
-      - The handbook for this car, because the maker says what the light means on it
-      - The Highway Code, because a handbook can't ask for more than the law does
+      - The other model's handbook, since it's the newer and the more lenient one
+      - Whichever of the two is less strict, since the two makers disagree
+      - The handbook for this car, because its maker says what the light means
+      - The other handbook, because a stop-now rule is only for electric cars
     answer: 2
     explain: >-
-      The Highway Code's line on the charge light is advice (a should, not a MUST), and it is general:
-      it doesn't know which car you have. Makers disagree about this light even between petrol cars:
-      Toyota's 2023 Corolla handbook says stop, Ford's 2024 Maverick handbook says have it checked as
-      soon as possible. So the handbook for the car in front of you governs, and where it asks for more
-      than general advice, you do what it asks. Picking the less strict answer inverts that.
+      Makers disagree about this light even between petrol cars: Toyota's 2023 Corolla handbook says
+      stop, and Ford's 2024 Maverick handbook says have it checked as soon as possible. So the handbook
+      for the car in front of you governs. A handbook for another model says nothing about this car,
+      however new it is; picking the less strict answer inverts the rule; and Toyota's stop-now is for
+      a petrol car, not only for electric ones. In Great Britain the Highway Code's advice points the
+      same way as this driver's handbook: a warning light that comes on while you drive means stop and
+      investigate.
   - q: >-
-      A friend is about to look at the battery under her bonnet and asks what HSE's guidance says is
+      A friend is about to look at the battery under her bonnet and asks what HSE's workplace guidance says is
       unlikely to hurt her with an ordinary 12 V car battery. Which is it?
     options:
       - A sudden hydrogen explosion, since that only happens in workplace battery rooms
@@ -69,8 +72,8 @@ quiz:
       A courier's van battery fails on the first frosty morning of the winter. He concludes that the
       cold killed a battery that was fine all summer. What does AAA's account say about that?
     options:
-      - He's right; heat helps a battery, and cold is the only thing that damages it
-      - He's wrong; the cold only matters for diesel engines, and his van is petrol
+      - He's right; a battery that starts all summer can't have been damaged
+      - He's wrong; it was the cold alone, since heat actually helps a battery
       - Partly right; cold reveals the failure, but heat did most of the damage earlier
       - He's wrong; batteries fail at random, and the weather has nothing to do with it
     answer: 2
@@ -78,8 +81,9 @@ quiz:
       AAA says "while winter weather is most likely to cause your battery to fail, it's actually hot
       weather that does most of the damage", and that cold slows the battery's chemical reaction while
       starting in winter "requires more power". So the frost is when the damage shows, not usually
-      when it was done. AAA's account isn't about petrol against diesel, and it plainly ties failure
-      to the weather rather than to chance.
+      when it was done. A battery that started all summer can still have been damaged by the summer's
+      heat, and AAA says heat does harm rather than help. AAA's account also plainly ties failure to
+      the weather rather than to chance.
   - q: >-
       While checking under the bonnet with the car off, an owner spots a green and blue powdery crust
       on one of the battery's terminals. What does AAA say it points to?
@@ -92,7 +96,7 @@ quiz:
     explain: >-
       AAA: "If your battery leaks acid, you'll see a green or blue powdery substance on the terminals",
       and "Leaking or a swollen battery can often indicate your battery is near failure." Nothing in
-      the sources makes it road salt or coolant, and the owner shouldn't wipe or touch it: it's acid.
+      the sources makes it road salt or coolant, and the owner shouldn't wipe or touch it: it comes from leaking acid.
       Leave it, and have the battery looked at; the AA says never to jump-start a battery that looks
       damaged or is leaking.
   - q: >-
@@ -114,11 +118,13 @@ quiz:
       a test would tell.
 ---
 
-Every car on the road has a small battery, whatever drives its wheels, and it is the part most likely
-to leave you stuck. The AA, a motoring organisation that sells breakdown cover and repairs, puts it
+Every car on the road has a small battery, whatever drives its wheels, and when it fails the car
+usually won't start. The AA, a motoring organisation that sells breakdown cover and repairs, puts it
 bluntly on its [maintenance page](https://www.theaa.com/breakdown-cover/advice/car-maintenance-tips):
 "Battery problems are the number one cause of breakdowns at any time of year, and particularly for
-vehicles that aren't used very often."[1] This lesson explains what that battery does in each kind
+vehicles that aren't used very often."[1] That's the AA's claim about its own call-outs, and the
+page gives no figures behind it; its flat-battery page calls a flat battery "one of the top 10
+breakdown causes".[8] This lesson explains what that battery does in each kind
 of car, why the way a car is used wears it out, how to read the signs before it fails, what to do
 when its warning light comes on, and what a lead-acid battery can do to the person standing over it.
 
@@ -138,20 +144,20 @@ Start with a petrol or diesel car. The US Department of Energy's
 [Alternative Fuels Data Center](https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work) (AFDC)
 says: "The battery provides electricity to start the engine and power vehicle
 electronics/accessories."[2] AAA's Mountain West club (AAA clubs are US motoring clubs that sell
-roadside assistance and run a repair network) adds the half that people miss: "A car battery
+roadside assistance and run a repair network) adds what the alternator is for: "A car battery
 provides the power to start your car and run some accessories, but it doesn't provide continual
 power (that's the job of the alternator)."[3]
 
 So the battery starts the car and runs some of its accessories. Once the engine is running, AAA
-says, the alternator "powers the vehicle while it's running", and it recharges the battery.[3] That is
-as far as this course goes on the alternator. It did not read a source that explains how one works
+says, the alternator "powers the vehicle while it's running", and it recharges the battery.[3] That's
+as far as this course goes on the alternator. It didn't read a source that explains how one works
 for owners; the technicians' textbooks in Go deeper have chapters on the charging system. What matters
 for this lesson is the arrangement: a battery that starts the car, and a part that recharges it only
 while the engine runs.
 
 A hybrid or an electric car is different, and lesson 4, "Hybrids and electric cars: how they work",
-showed how. NHTSA, the US road-safety regulator, says these cars typically don't use a conventional
-alternator for the 12 V battery; a DC-DC converter steps the big battery's voltage down to recharge
+showed how. NHTSA, the US road-safety regulator, says fully electric cars and many hybrids typically don't use
+a conventional alternator for the 12 V battery; a DC-DC converter steps the big battery's voltage down to recharge
 it instead.[4] In a hybrid, AFDC says the 12 V battery starts the car "before the traction battery is
 engaged".[5] Nissan's 2024 LEAF handbook, for the US, describes its own car in one line: "The DC/DC
 converter converts 400–volt Li-ion battery voltage to charge the 12-volt battery."[6] (The dash in
@@ -159,35 +165,36 @@ converter converts 400–volt Li-ion battery voltage to charge the 12-volt batte
 
 :::checkpoint Without scrolling up to lesson 4: in an electric car with a fully charged main battery, why can the car still refuse to start, and what part normally stops that happening?
 
-NHTSA says the 12 V battery "powers lighting and instrumentation systems", in an AA patrol's words it "starts the onboard computer system", and in a hybrid it starts the car before the big battery is engaged, so if it is flat the car may not wake up, however full the main battery is. The part that normally keeps it charged is the DC/DC converter, which steps the main battery's voltage down to recharge the 12 V battery. The range gauge shows the main battery only. In the AA's 2021 figures, the 12 V battery was one of the two commonest causes of electric-car breakdowns, and the AA's flat-battery page says "The 12 volt battery on an electric vehicle can be just as problematic as a conventional vehicle."
+NHTSA says the 12 V battery "powers lighting and instrumentation systems", in an AA patrol's words it "starts the onboard computer system",[16] and in a hybrid it starts the car before the big battery is engaged, so if it is flat the car may not wake up, however full the main battery is. The part that normally keeps it charged is the DC/DC converter, which steps the main battery's voltage down to recharge the 12 V battery. The range gauge shows the main battery only. In the AA's 2021 figures, the 12 V battery was one of the two commonest causes of electric-car breakdowns,[16] and the AA's flat-battery page says "The 12 volt battery on an electric vehicle can be just as problematic as a conventional vehicle."
 :::
 
 One habit matters for plug-in cars. The AA says "Many plug-in vehicles automatically
 maintain the 12- volt battery when they're plugged in" (the gap after "12-" is the AA's), and that
 the handbook will tell you whether yours does. It adds: "If you haven't got your vehicle plugged in,
-it's good practice to plug in at least once a month to help maintain systems."[1] That is the AA's
+it's good practice to plug in at least once a month to help maintain systems."[1] That's the AA's
 advice, and the handbook is the authority on your car.
 
 | Kind of car | What starts it | What recharges the 12 V battery | Source |
 |---|---|---|---|
 | Petrol or diesel | The 12 V battery turns the engine over | The alternator, while the engine runs | AFDC; AAA |
 | Hybrid | The 12 V battery starts the car before the big battery is engaged | Typically a DC-DC converter from the big battery; NHTSA says "many" hybrids work this way, not all | AFDC; NHTSA |
-| Battery-electric | The 12 V battery "starts the onboard computer system", in an AA patrol's words | A DC/DC converter from the big battery | NHTSA; the AA; Nissan for the LEAF |
+| Battery-electric | The 12 V battery "starts the onboard computer system", in an AA patrol's words[16] | A DC/DC converter from the big battery | NHTSA; the AA; Nissan for the LEAF |
 
 ## Why short trips flatten it
 
 Put the sources below side by side and a picture comes out of them, which is this course's reading
 rather than any one source's sentence: each start draws on the battery, each drive recharges it, and
-a drive that is too short does not finish the job. No source this course read puts numbers on how much a
+a drive that is too short doesn't finish the job. No source this course read puts numbers on how much a
 start takes, so the picture stays in words. If the drives are short week after week, the battery never
 gets back to full.
 
-The sources that give figures give them as advice, not as measurements, and they do not agree to the
+The sources that give figures give them as advice, not as measurements, and they don't agree to the
 mile:
 
 - [fueleconomy.gov](https://www.fueleconomy.gov/feg/driveHabits.jsp), run by the US Department of
-  Energy and the Environmental Protection Agency, in a list of best practices it credits to a 2015
-  Argonne National Laboratory study of starting systems: "Drive at least 5 miles between start
+  Energy and the Environmental Protection Agency, in a list of best practices, in its advice on
+  switching the engine off rather than idling, that it credits to a 2015 Argonne National Laboratory
+  study of starting systems: "Drive at least 5 miles between start
   cycles to fully recharge the battery."[7]
 - AAA's Mountain West club: "Drive for at least a 30-minute stretch once a week. Repeated short trips
   can drain your battery without giving your alternator a chance to recharge it."[3]
@@ -243,8 +250,9 @@ concluding that, the AA suggests three quick checks that cost nothing: "Make sur
 tank."; "If the central locking isn't working, your key fob might have died so try a spare key."; and
 "If you can't turn the ignition, check the wheels aren't jammed against the kerb."[8] If it is the
 battery, a jump start is **Yours, on conditions**, and lesson 13, "A flat battery and jump-starting",
-sets them. One of them matters in a Kirkwall January: Nissan's handbook says "Do not attempt to jump
-start a frozen battery. It could explode and cause serious injury."[6] After a jump, AAA's advice is to drive "for at least 30 minutes" and to check the battery
+sets them. One of them is about the cold: the battery must not be frozen. Nissan gives the reason for
+the LEAF in its handbook: "Do not attempt to jump start a frozen battery. It could explode and cause
+serious injury."[6] After a jump, AAA's advice is to drive "for at least 30 minutes" and to check the battery
 "to ensure a bad battery wasn't the root cause", and to have it tested.[3] Then the habit changes: one
 longer drive a week, as AAA advises.
 
@@ -253,23 +261,30 @@ longer drive a week, as AAA advises.
 The AA's flat-battery page lists what else wears a battery: "Batteries can fail for other reasons,
 like too much vibration from the engine, over-charging, corrosion and extreme temperatures."[8] Its
 words on the cold match AAA's: cold weather slows the car's "internal processes", and "With severe
-enough temperatures your car battery will have a reduced capability to hold a charge."[8]
+enough temperatures your car battery will have a reduced capability to hold a charge."[8] Heat is
+harder. AAA says it does most of the damage, but no source this course read says how heat does it;
+the technicians' textbooks in Go deeper cover how a battery is built.
 
-How long should one last? The sources don't agree, and one of them doesn't agree with itself:
+How long should one last? The sources don't agree, and the AA doesn't agree with itself across three
+pages:
 
 | Source | What it says | Date |
 |---|---|---|
-| The AA, maintenance tips | "Most car batteries have a life of 3 to 5 years" | updated 10 July 2025 |
+| The AA, maintenance tips | "Most car batteries have a life of 3 to 5 years, so if yours is getting a bit old replace it with a new one before it lets you down." | updated 10 July 2025 |
 | The AA, flat-battery page | "Most batteries will last somewhere between 5 and 7 years", and, further down the same page, "anywhere from 3-6 years" | last updated 11 January 2024 |
+| The AA, jump-start page | "On average, batteries last between 5 and 7 years but you should only consider changing a car battery when it's showing signs of deterioration." | last updated 26 June 2024 |
 | AAA Mountain West | "If you've had your car battery for more than 3 to 5 years, it's worth getting it tested." Also: "Get your battery tested annually before winter." | no date shown |
 
-None of these gives the data behind its number.[1][3][8] The AA's flat-battery page adds a rule of
-thumb from its own mechanics: if an engine struggles to start "before the battery is 5 years old", the
+None of these gives the data behind its number.[1][3][8][10] So the AA advises both ways on different
+pages: replace an ageing battery before it lets you down, or change one only when it shows signs of
+deterioration. It sells batteries on all three pages. The flat-battery page also says its mechanics
+"see cases where the battery has failed after only 2 or 3 years because of how the car was driven",
+and it adds a rule of thumb: if an engine struggles to start "before the battery is 5 years old", the
 likely causes are that "The battery isn't getting enough charge", "The car's doing too many short
 journeys", or a fault draining the battery or affecting charging; after five years, "The battery's
 getting tired and may need replacing."[8] So this course's reading of the three: a battery lasts
 several years, how many depends on how the car is used, and it's worth having it tested from about
-three years old, and before winter. That is a reading, not a figure any one source gives.
+three years old, and before winter. That's a reading, not a figure any one source gives.
 
 Where would you find your battery's age? A service record or a receipt is the surest place. This
 course read no source on reading a date from the battery itself, so it can't tell you where to look
@@ -277,7 +292,7 @@ on yours.
 
 :::checkpoint A car's battery is four years old. On a cold morning the engine turns over slowly, the headlights look dimmer than usual, and last month it needed a jump start after the owner left an interior light on. Which of AAA's warning signs does it show, and what would the AA's rule of thumb say about a battery that struggles at four years?
 
-Three of AAA's signs: "Slow Crank", "Dim Lights", and "Needed a Jump" (AAA's advice after a jump is to check the battery "to ensure a bad battery wasn't the root cause"). Its age puts it past AAA's "more than 3 to 5 years" test point. The AA's rule of thumb says a battery that struggles before five years is more likely short of charge, doing too many short journeys, or being drained by a fault than simply worn out, so a test, and a look at how the car is used, comes before assuming it needs replacing. The interior light last month is a known cause of one flat battery, and the AA says that when a battery is drained that way there's "a decent chance" a jump start or a recharge will revive it, which is one more reason to test rather than guess.
+Three of AAA's signs: "Slow Crank", "Dim Lights", and "Needed a Jump" (AAA's advice after a jump is to check the battery "to ensure a bad battery wasn't the root cause"). At four years it is inside AAA's "3 to 5 years" window, where AAA says it's worth getting it tested. The AA's rule of thumb says a battery that struggles before five years is more likely short of charge, doing too many short journeys, or being drained by a fault than simply worn out, so a test, and a look at how the car is used, comes before assuming it needs replacing. The interior light last month is a known cause of one flat battery, and the AA says that when a battery is drained that way there's "a decent chance" a jump start or a recharge will revive it, which is one more reason to test rather than guess.
 :::
 
 ## Signs that a battery is on its way out
@@ -295,8 +310,10 @@ AAA's list is the most complete the course read, and it's written for owners:[3]
 - **Battery light.** Which gets its own section next.
 
 The AA adds the flickering dash lights from the Kirkwall case.[8] Of all these, the one that changes
-what you do is the leak. A powdery crust on a terminal is acid, and this course's line is: don't
-touch it, don't wipe it, and don't try to jump-start the car. The AA says "Never try to jump start a
+what you do is the leak. A powdery crust on a terminal comes from leaking acid, and this course's line is: don't
+touch it, don't wipe it, and don't try to jump-start the car. Some handbooks list cleaning the battery
+connections as an owner's job, Ford's for the Maverick among them;[14] this course doesn't teach it, as
+its own scope decision. The AA says "Never try to jump start a
 battery that looks damaged or is leaking", and lesson 13 comes back to it.[10] That makes a leaking or
 swollen battery **Call someone**. Toyota's 2023 Corolla handbook for the US gives the look-only
 version of this check among its do-it-yourself checks: "Make sure that the battery terminals are not corroded and
@@ -305,19 +322,21 @@ exercise below says how.
 
 ## The charge warning light
 
-This is the light that sources disagree about most, and the disagreement is instructive.
+The sources disagree about this light.
 
 **What it means.** The Highway Code, for Great Britain, says: "If the charge warning light comes on
 while you are driving, it may mean that the battery isn't charging."[12] The RAC, a motoring
 organisation that sells breakdown cover and repairs, gives the likely reasons: "a faulty alternator,
 bad electrical connection or damaged cabling. The battery itself may be faulty or worn out."[13] AAA
-makes the point that surprises people: "A battery light doesn't usually mean you need (just) a
+adds: "A battery light doesn't usually mean you need (just) a
 battery, but if it goes on, your battery might have been fatally damaged by a bad alternator."[3] So
 the light is about charging, and the fault is often somewhere other than the battery.
 
 It also comes on every time you start the car, as a bulb check. Ford's 2024 Maverick handbook for the
 US: "It illuminates when you switch the ignition on."[14] The Highway Code's line is that warning
-lights "will be illuminated but will go out when the engine starts".[12] A charge light that goes out
+lights "will be illuminated but will go out when the engine starts", and that if one doesn't go out,
+or comes on while you are driving, you should "stop and investigate the problem, as you could have a
+serious fault".[12] A charge light that goes out
 after starting is normal; one that stays on, or comes on while you drive, is the one this section is
 about.
 
@@ -325,7 +344,7 @@ about.
 
 | Source | Whose, and for which car | What it says to do |
 |---|---|---|
-| The Highway Code, Annex 6 | Advice (a should, not a MUST), Great Britain, any car | "This should also be checked as soon as possible to avoid loss of power to lights and other electrical systems." |
+| The Highway Code, Annex 6 | Advice (a should, not a MUST), Great Britain, any car | For any warning light that comes on while you drive: "stop and investigate the problem, as you could have a serious fault". Of this light: "This should also be checked as soon as possible to avoid loss of power to lights and other electrical systems." |
 | Ford | Handbook, 2024 Maverick, US and Canada, petrol or hybrid | "Have your vehicle checked as soon as possible." |
 | Toyota | Handbook, 2023 Corolla, US, petrol | "Immediately stop the vehicle in a safe place and contact your Toyota dealer." |
 | Nissan | Handbook, 2024 LEAF, US, electric | "Immediately stop the vehicle in a safe location and have the system checked." |
@@ -334,10 +353,12 @@ about.
 
 Sources: [3][6][11][12][13][14].
 
-Look at the second and third rows. Two cars with petrol engines, sold in the same country, and their makers give
+Look at the Ford and Toyota rows. Two cars with petrol engines, sold in the same country, and their makers give
 different instructions for the same light. That is the strongest reason in this lesson for the rule
 lesson 1 set: the handbook for this car governs. The motoring organisations' answers are general, and
 both sell breakdown or roadside services; the Highway Code's is advice for every car in Great Britain.
+The Highway Code sits with the stop-now rows: its general advice for a light that comes on while you
+drive is to stop and investigate, and its charge-light sentence asks for a check as well.
 
 **Why they differ, as far as the sources say.** The Highway Code gives its reason in the sentence: to
 avoid "loss of power to lights and other electrical systems". The RAC's is that driving on "may
@@ -346,10 +367,12 @@ battery "doesn't provide continual power (that's the job of the alternator)", an
 reading is this: with the charging system not working, a conventional car is running on what's left in
 the battery, and nothing on the dashboard says how long that is. No source read says how long, and the
 makers, who know their own cars, don't all answer the same way. For an electric car, Nissan's reason is in its handbook: when the light stays on
-in the ready state, "The DC/DC converter system may not be functioning properly."[6]
+in the ready state, "The DC/DC converter system may not be functioning properly".[6]
 
 Stopping "in a safe place" is the part the callout at the top covers. On a motorway or other fast
-road, what counts as safe is lesson 16's and lesson 17's subject.
+road, what counts as safe is the subject of lesson 16, "When the car stops: where, who stands where, and the
+call", and lesson 17, "Motorways and fast roads: go left, the live lane, and the smart motorway
+question".
 
 ### Two cars, one morning, near Juneau
 
@@ -358,17 +381,12 @@ come on as they drive to work. One drives a 2024 Nissan LEAF; the other a 2024 F
 petrol engine. Each has the handbook in the glovebox.
 
 The LEAF's handbook says the light is about the DC/DC converter, and when it comes on "a chime sounds"
-and the display flashes "Stop the vehicle".[6] It says to stop "in a safe location" and have the
-system checked, and it adds a line that matters for what happens next: "Do not charge the 12-volt
-battery while this warning light is illuminated. It may lead to a malfunction of the DC/DC converter
-system."[6]
-
-The Maverick's handbook says the light, with the engine running, "indicates your vehicle requires
-service. Have your vehicle checked as soon as possible."[14]
+and the display flashes "Stop the vehicle".[6] The Maverick's handbook has its own entry for the
+light.[14]
 
 :::predict Before opening this: what does each driver do next, according to their own handbook? And if a friend turns up with a charger for the LEAF's 12 V battery, what should the LEAF's owner say?
 
-The LEAF's driver stops as soon as it is safe to, and has the system checked; Nissan recommends its own dealers for that. If a friend offers to charge the 12 V battery while the light is on, the answer on Nissan's handbook is no: "Do not charge the 12-volt battery while this warning light is illuminated." The Maverick's driver has Ford's instruction, "checked as soon as possible", which on Ford's wording is not a stop-now. What "as soon as possible" means on a given road is a judgement Ford leaves to the driver, and this course's reading is that a car running on what's left in its battery should not be taken on a long journey first. Had the second car been a 2023 Corolla, Toyota's handbook would have said stop, like Nissan's.
+The LEAF's driver stops as soon as it is safe to: Nissan's handbook says "Immediately stop the vehicle in a safe location and have the system checked", and recommends its own dealers for that. If a friend offers to charge the 12 V battery while the light is on, the answer on Nissan's handbook is no: "Do not charge the 12-volt battery while this warning light is illuminated. It may lead to a malfunction of the DC/DC converter system." Nissan ties this light to the converter, the part that charges the 12 V battery, which is the clue to the charger question. The Maverick's driver has Ford's instruction: with the engine running, the light "indicates your vehicle requires service. Have your vehicle checked as soon as possible." On Ford's wording, that isn't a stop-now. What "as soon as possible" means on a given road is a judgement Ford leaves to the driver, and this course's reading is that a car running on what's left in its battery should not be taken on a long journey first. Had the second car been a 2023 Corolla, Toyota's handbook would have said stop, like Nissan's.
 :::
 
 ## What a lead-acid battery can do to you
@@ -392,7 +410,8 @@ risk is a connection: "Many explosions happen when batteries are being connected
 That last line is why lesson 13 teaches exactly where the final jump lead goes. Some batteries
 release less gas: HSE says that in "valve-regulated" (maintenance-free) batteries, "any hydrogen and
 oxygen produced during charging does not escape but is converted back into water", though it adds
-that they still need care when charged.[15]
+that if one is charged too quickly or for too long its valves may let the gas out, and "An explosion is
+likely if this happens close to an ignition source."[15]
 
 **Acid.** HSE: battery electrolytes contain sulphuric acid or potassium hydroxide, and "These very
 corrosive chemicals can permanently damage the eyes and produce serious chemical burns to the
@@ -408,7 +427,7 @@ amount of electricity flows through the metal object, making it very hot very qu
 things not to do near a battery includes wearing "a watch, ring, chain, bracelet or any other metal
 item".[15]
 
-**Not a shock.** This one surprises people the other way. HSE: "Most batteries produce
+**Not a shock.** HSE: "Most batteries produce
 quite low voltages, and so there is little risk of electric shock."[15] So a 12 V battery can burn you,
 damage your eyes or explode, but on HSE's account a shock is the one thing it's unlikely to give you.
 The same leaflet says,
@@ -429,14 +448,14 @@ handbook is where your maker's method is, if it gives one.
 the cold is when a weakened battery can no longer do the harder winter start.
 
 **"The battery light means I need a new battery."** AAA: it "doesn't usually mean you need (just) a
-battery". It is a charging warning, and the RAC's list of causes starts with the alternator.
+battery". It's a charging warning, and the RAC's list of causes starts with the alternator.
 
 **"A jump start fixes a flat battery."** A jump starts the car. The battery still needs recharging,
-which is why AAA and the AA both say drive for 30 minutes afterwards, and it may be worn, which is why
-AAA says check it.
+which is why AAA and the AA both say drive for 30 minutes afterwards (the AA says driving normally,
+not in stop-start traffic), and it may be worn, which is why AAA says check it.[3][10]
 
-**"An electric car doesn't have a 12 V battery."** Lesson 4 corrected this; it is worth saying again
-because it is the misconception that strands people. The AA: the 12 V battery on an electric car "can
+**"An electric car doesn't have a 12 V battery."** Lesson 4 corrected this; it's worth saying again
+because it's the misconception that strands people. The AA: the 12 V battery on an electric car "can
 be just as problematic as a conventional vehicle".
 
 **"A 12 V battery can give you a dangerous shock."** HSE says there is "little risk of electric
@@ -451,14 +470,14 @@ Take 15 minutes over these. Part 1 is on paper. Parts 2 and 3 use your own car's
 
 2. From your handbook (or the maker's online handbook), write down: where the 12 V battery is, or where the handbook's jump-start points are if the battery is hidden; the handbook's exact words for the charge warning light (what it means, and whether it says stop now or check soon); and anything the handbook says about a car that's little used or driven on short trips. If your car plugs in, add whether the handbook says plugging in maintains the 12 V battery.
 
-3. If you want to look at the battery itself, and it's under the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes. Take the key or fob away from the car. For a hybrid or electric car, remember from lesson 4 that an engine can restart if the ignition is left on and a cooling fan can start without warning, so switch off fully and look without reaching in. Open the bonnet only by the handbook's method. Look, from where you stand, with nothing in your hands and no rings or watch hanging over the battery: is there any green or blue powder on the terminals, any crack, or any swelling of the case? Do not touch the battery, its terminals or its cables, do not lean over it, and do not smoke or use a flame nearby. If you see powder, a crack or a swollen case, leave it alone: write it down, and treat it as Call someone. Do not open, touch or reach past anything orange, anything blue in a mild hybrid, or anything labelled high voltage. Anything you cannot name, leave alone and note as unknown.
+3. If you want to look at the battery itself, and it's under the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes, and let it cool. Take the key or fob away from the car. For a hybrid or electric car, remember from lesson 4 that an engine can restart if the ignition is left on and a cooling fan can start without warning, so switch off fully and look without reaching in. Open the bonnet only by the handbook's method. If your handbook asks for safety glasses near the battery, as Toyota's does for the 2023 Corolla, wear them or skip this part. Look, from where you stand, with nothing in your hands and no rings or watch hanging over the battery: is there any green or blue powder on the terminals, any crack, or any swelling of the case? Do not touch the battery, its terminals or its cables, do not lean over it, and do not smoke or use a flame nearby. If you see powder, a crack or a swollen case, leave it alone: write it down, and treat it as Call someone. Do not open, touch or reach past anything orange, anything blue in a mild hybrid, or anything labelled high voltage. Anything you cannot name, leave alone and note as unknown.
 
 4. Add to your notes the battery's age if you know it, from a service record or a receipt, and when it was last tested.
 :::
 
 :::checkpoint Check yourself on part 2. A handbook's words for the charge light fall into one of two kinds. Which kind is "Have your vehicle checked as soon as possible", which is "Immediately stop the vehicle in a safe place", and what do you do if your own handbook says nothing at all about the light?
 
-The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises getting it checked as soon as possible; the RAC says don't drive; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
+The first is a check-soon instruction (Ford's wording for the Maverick), the second a stop-now instruction (Toyota's for the Corolla, and in similar words Nissan's for the LEAF). If your handbook is silent, the course cannot supply a rule for your car, because makers disagree. The Highway Code, for Great Britain, advises that a warning light coming on while you drive means "stop and investigate the problem", and that this one should also be checked as soon as possible; the RAC says don't drive; this course's reading is that a car running on what's left in its battery should not be driven far, and the maker's dealer or a garage can tell you what your model does. Write down which kind your handbook gives, in its own words, and put it on your car file's warning-light page.
 :::
 
 ## For your plan
@@ -524,7 +543,8 @@ this lesson come back. Lesson 15, "Winter and summer", returns to the cold. Firs
 9. fueleconomy.gov, ["Fuel Economy in Cold Weather"](https://www.fueleconomy.gov/feg/coldweather.shtml).
    **Read: full body text, re-read 26 September 2026.** <!-- SOURCES Part A §6 -->
 10. The AA, ["How to jump start a car in 9 steps"](https://www.theaa.com/breakdown-cover/advice/using-jump-leads).
-    A motoring organisation, as above. **Read: full text.** No date shown. <!-- SOURCES Part B §4 -->
+    Last updated 26 June 2024. A motoring organisation, as above; the page advertises the AA's own
+    battery replacement service. **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part B §4; lesson 05 Stage 4 note -->
 11. Toyota Motor Sales USA, *2023 Corolla Owner's Manual* (OM02568U), US market, PDF. **Read for this
     lesson: pp. 309 to 310 ("Battery") and p. 357 ("Charging system warning light"), 26 September
     2026.** A maker's handbook for its own car. <!-- lesson 05 gate closures; SOURCES Part E §4 for the handbook -->
@@ -538,8 +558,12 @@ this lesson come back. Lesson 15, "Winter and summer", returns to the cold. Firs
 14. Ford Motor Company, *2024 Maverick Owner's Manual*, edition 202307, US and Canada, read from
     Internet Archive capture 20250505042038 (Ford's site refuses automated readers). **Read in full:
     printed pages 89, 90, 113, 114, 164, 184, 193 and 283 to 286, 308, 309; p. 113 re-read 26
-    September 2026.** Used here: p. 113 ("Battery"). A maker's handbook for its own car, sold as
+    September 2026.** Used here: p. 113 ("Battery") and p. 457 ("Check Every Six Months"). A maker's handbook for its own car, sold as
     petrol or full hybrid. <!-- SOURCES Part B §2, §3; lesson 05 gate closures -->
 15. Health and Safety Executive, [*Using electric storage batteries safely*](https://www.hse.gov.uk/pubns/indg139.pdf),
     INDG139(rev1), July 2011. Great Britain's workplace safety regulator, writing for workplaces.
     **Read: full text, re-read 26 September 2026.** <!-- SOURCES Part B §4; lesson 05 gate closures -->
+16. The AA (a motoring organisation that sells breakdown cover and repairs),
+    ["AA gives power to electric drivers"](https://www.theaa.com/about-us/newsroom/aa-gives-power-to-electric-drivers),
+    press release, 23 July 2021. The figures are the AA's own call-outs in 2021. **Read: full text,
+    re-read 26 September 2026.** <!-- SOURCES Part A, the AA press release -->
