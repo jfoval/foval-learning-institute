@@ -1,6 +1,7 @@
 ---
 title: Reading a crime number
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/02-reading-a-crime-number.mp3
 objectives:
   - >-
     Explain the difference between a police count and a victim survey in the US and in England and
