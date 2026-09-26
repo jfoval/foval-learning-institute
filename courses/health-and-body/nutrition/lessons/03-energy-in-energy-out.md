@@ -1,6 +1,7 @@
 ---
 title: Energy in, energy out
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/nutrition/03-energy-in-energy-out.mp3
 objectives:
   - >-
     Explain energy balance, and why a rule that assumes a fixed daily deficit overpredicts weight
