@@ -1,6 +1,6 @@
 ---
 title: "Electricity: what trips, and why"
-minutes: 100
+minutes: 105
 objectives:
   - >-
     Explain what a fuse or circuit breaker protects (the wiring, from fire), what an RCD or GFCI
@@ -9,29 +9,30 @@ objectives:
     Apply the test routine for an RCD or GFCI and the reset steps a UK network operator and a US
     utility give, including what to switch off first and what to do if a device won't stay on
   - >-
-    Decide, for a described trip, whether it is yours to reset once, a plug-in appliance to take
+    Decide, for a described trip, whether it is yours to reset, a plug-in appliance to take
     out of use, or a job for an electrician, and state whose rule sits behind the decision
   - >-
     Explain why a switched-off main breaker and a silent volt stick don't make anything behind the
     cover safe to touch, and where the law and this course leave wiring
 quiz:
   - q: >-
-      In a rented flat in Lanarkshire, a toaster's element has broken and is touching the toaster's
-      metal body. Someone lifts it by the body with one hand while the other rests on the steel
-      sink. The circuit carries no more current than usual. Which device is built to act here?
+      Behind a rented flat in Lanarkshire, an extension lead runs out to a string of garden lights,
+      and after heavy rain its socket end is lying in a puddle on the patio. The lights draw no more
+      current than usual, yet a switch at the consumer unit drops. Which device is built to act?
     options:
-      - The RCD, which cuts off when current leaks out by a path other than the proper return
-      - The circuit breaker, which trips at once whenever anyone touches an appliance's metal
-      - The toaster's plug fuse, which blows the moment the toaster's body becomes charged
-      - The main switch, which disconnects the whole flat when it senses a person being shocked
+      - The RCD, which acts when some of the current going out doesn't come back the proper way
+      - The circuit breaker, because any water near a socket counts as an overload on the circuit
+      - The lead's plug fuse, which is there to blow whenever rain water gets into a socket outside
+      - The main switch, which drops by itself whenever the unit detects water near an outlet
     answer: 0
     explain: >-
-      This is CPSC's own example of a ground fault: a live part touching a metal case, and a person
-      giving the current a path to a grounded object. The RCD (the GFCI in the US) is the device for
-      shock; ESF says it "protects you from electric shocks if a product is faulty". A breaker or a
-      plug fuse acts on too much current, and a leak through a person doesn't overload anything,
-      which is why CPSC says breakers and fuses are there to stop the wiring causing a fire. The main
-      switch is a switch that a person operates. It senses nothing.
+      A breaker or a plug fuse acts when too much current is drawn (SCE, of the breaker; ESF, of the
+      plug fuse), and the stem says the current is no more than usual, so SCE's overload, too much
+      plugged in, isn't what happened. CPSC says breakers and fuses "function primarily to prevent
+      the home wiring system from causing a fire". The RCD is the device ESF says "protects you from
+      electric shocks if a product is faulty", and on CPSC's account of the GFCI it acts when current
+      going out differs from current coming back. No source read describes the main switch as
+      detecting anything.
   - q: >-
       A homeowner in Nevada tests a GFCI receptacle in the garage the way CPSC describes: a lamp
       plugged in and switched on, then the test button pressed. The lamp stays lit. What does CPSC
@@ -45,9 +46,10 @@ quiz:
     explain: >-
       CPSC's sheet says that if the light doesn't go out, the GFCI "is not working or has not been
       correctly installed", and to contact a qualified electrician to correct the wiring or replace
-      it. The test button makes the leak itself, so it needs no bigger load and no person. A tripped
-      GFCI would have left the lamp dark in the first place. Correcting the wiring is not a job this
-      course teaches.
+      it. HSE says the test button is there "to check that its mechanism is free and functioning",
+      and CPSC's routine uses an ordinary lamp only to show whether the power went off, so no bigger
+      load and no person are needed. A tripped GFCI would have left the lamp dark in the first
+      place. Correcting the wiring is not a job this course teaches.
   - q: >-
       At 8 p.m. in a terraced house in Pembrokeshire every light goes out. The houses either side
       still have lights on. At the consumer unit, one switch near the main switch is down. On
@@ -65,29 +67,29 @@ quiz:
       power doesn't come back. The "T" button tests an RCD by tripping it; it doesn't reset
       anything. And holding a switch on is what the course's stop rule forbids.
   - q: >-
-      In a townhouse in Louisiana, a breaker trips. The owner unplugs everything in the rooms that
-      went dark, resets the breaker as SCE describes, and it trips again at once with nothing
-      plugged in. What do this lesson's sources point to?
+      In a townhouse in Louisiana, one breaker trips most afternoons when a window air conditioner
+      and a laser printer in the home office run at the same time. It holds when either runs alone,
+      and neither cord shows any damage. On SCE's list of causes, what fits, and what is yours?
     options:
-      - Reset it once more with a firmer push, as SCE says a reset clears an overload on the circuit
-      - Fit a breaker with a higher rating in its place, since this one clearly can't take the load
-      - Leave it off and call an electrician, as the fault is likely in the wiring or a fitting
-      - Plug one lamp back in at a time until it trips, then use the circuit without that socket
+      - A short in the wiring, so leave the breaker off from now on and call an electrician today
+      - A breaker too small for the room, so have one with a higher rating fitted in its place
+      - Too much on one circuit, so run them at different times; if it still trips, call someone
+      - A faulty printer, so throw it out, since a breaker trip always points to one appliance
     answer: 2
     explain: >-
-      With nothing plugged in, SCE's plug-in causes (too much plugged in, a damaged cord or plug)
-      are gone, which leaves its other causes: a short in a receptacle, switch or fixture, or faulty
-      wiring. SCE says reset a repeating breaker "only when you've corrected the problem", and
-      correcting wiring is an electrician's work; the course's box says leave it off. Another push
-      is holding it on by another name. A bigger breaker defeats the device that protects the
-      wiring, and none of the sources describes it as a fix. Hunting socket by socket is a method no
-      source read gives, and a dead socket is not a repair.
+      The trip follows the two loads together and never either alone, which fits the first of SCE's
+      causes, "too many lamps and appliances plugged in". Plugging less into a circuit is yours, on
+      this course's split of SCE's list. If it goes on tripping after that, SCE says of a breaker
+      that trips repeatedly to reset it "only when you've corrected the problem", and "You can also
+      call an electrician." Jumping straight to the wiring skips SCE's first cause. A bigger breaker
+      is fitting, which is an electrician's work, and SCE's own line on fuses is to replace one with a
+      new one "of the same amperage". Nothing in the stem points to the printer rather than the pair.
   - q: >-
       A family in a 1920s house in New Hampshire have old wiring and ordinary breakers. A relative says a
       GFCI fitted by the kitchen sink covers them against wiring fires as well. On CPSC's two
       sheets, what's the best reply?
     options:
-      - CPSC says AFCIs address fire and GFCIs shock, and it tells you to have an electrician fit AFCIs
+      - CPSC says AFCIs address fire and GFCIs shock, and only an electrician should fit AFCIs
       - CPSC says a GFCI also detects arcing in the walls, so one by the sink covers the whole house
       - CPSC says ordinary breakers already respond to early arcing, so no extra device is needed
       - CPSC says GFCIs and AFCIs are the same device under two names, so either one covers them
@@ -101,8 +103,8 @@ quiz:
       the work is inside a panel that is usually live.
   - q: >-
       A neighbour in County Antrim says: "It's the law that you test your RCD every three months."
-      Using the course's question (law or advice, whose, and where?), which reply fits what this
-      lesson read?
+      Using the course's question (law or advice, whose, and where?), which reply, as general
+      information, fits what this lesson read?
     options:
       - It's the law in Northern Ireland alone, and nowhere else in the UK, under its own rules
       - Nothing read makes it law; HSE's leaflet says "regularly" and the maker says how often
@@ -121,22 +123,28 @@ It is nine at night and half the house has gone dark. The kettle had just boiled
 machine had just started its spin, or nothing at all seemed to be happening. Somewhere in a
 cupboard a switch has dropped. That switch is doing one of two things. It may be telling you the
 circuit had more asked of it than it could safely carry, which is a nuisance you can usually clear.
-Or it may be telling you current has gone somewhere it shouldn't, perhaps through a faulty
-appliance, perhaps through the wiring in a wall, and that is a fault reporting itself. Telling
+Or it may be telling you something is faulty: a short, in a US utility's word, or current going
+somewhere it shouldn't, perhaps through a faulty appliance, perhaps through the wiring in a wall.
+That is a fault reporting itself. Telling
 those apart, and knowing what the sources let you do about each, is this lesson.
 
 :::callout Before you pick up a tool
 This course is education, not a trade qualification, and not legal advice about your own home. It teaches no gas work and no wiring. If you smell gas in Great Britain, open doors and windows, turn the gas off at the meter if you can do it safely (not if the meter is in a cellar or basement), and call 0800 111 999; in Northern Ireland the number is 0800 002 001. In the US, leave straight away and call 911 or your gas utility once you're outside. In either country, don't light a flame or touch an electrical switch. Isolate the water or power before you open anything up, and if a breaker, RCD or GFCI keeps tripping, leave it off and call an electrician. Which jobs the law leaves to a registered or licensed trade differs between England, Wales, Scotland, Northern Ireland and each US state, and it changes.
 :::
 
-One clause in that box is this lesson's whole subject: "if a breaker, RCD or GFCI keeps tripping,
-leave it off and call an electrician". By the end you'll know what "keeps" means in the sources'
-own words, what you may do before you reach that point, and why the line sits where it does.
+One clause in that box is what the rest of the page unpacks: "if a breaker, RCD or GFCI keeps
+tripping, leave it off and call an electrician". By the end you'll know what the sources say a
+device that keeps tripping is telling you, what you may do before you reach that point, and why the
+line sits where it does.
+
+Where this lesson touches the law, this is general information, not legal advice. The rules differ
+between England, Wales, Scotland and Northern Ireland, and between US states and cities, and they
+change.
 
 ## Two jobs, two kinds of device
 
 Lesson 1, "How a house works, and where it switches off", said the devices in a consumer unit or
-panel aren't all doing the same job. Here's the difference properly.
+panel aren't all doing the same job. The difference, properly, is this.
 
 ### Breakers and fuses look after the wiring
 
@@ -163,17 +171,18 @@ The second job belongs to a different device, and the two countries call it by d
 the residual current device (RCD) in the UK, and the ground fault circuit interrupter (GFCI, or
 sometimes GFI) in the US. ESF says an RCD "protects you from electric shocks if a product is
 faulty."[2] In 1989 CPSC said a GFCI "shuts down the power in milliseconds" when current leaks to
-ground.[3]
+ground (to earth, in British terms).[3]
 
 :::predict Before reading how it works: a kettle's flex is worn and its live wire is touching the kettle's metal body. You pick it up with one hand while the other hand is on the tap. The kettle is drawing no more current than usual. Will the circuit breaker trip? And whatever does cut the power, how could it possibly know you're there?
 
-Don't count on the breaker. Nothing here is an overload or a short in SCE's sense, and CPSC says
-breakers and fuses are there for the wiring, not for you. The device built for this is the RCD or
+Don't count on the breaker. The kettle is drawing no more current than usual, so there's no
+overload for it to act on, and CPSC says breakers and fuses are there mainly for the wiring, not
+for you. The device built for this is the RCD or
 GFCI, and it does not know you're there. What it notices, on CPSC's account below, is that some of
 the current that went out to the kettle didn't come back, which means it has gone somewhere else.
 :::
 
-CPSC's [GFCI fact sheet](https://www.cpsc.gov/s3fs-public/099_0.pdf) gives the mechanism, and it is the only account of it this course read: "A
+CPSC's [GFCI fact sheet](https://www.cpsc.gov/s3fs-public/099_0.pdf) gives the mechanism most fully of anything this course read: "A
 GFCI constantly monitors current flowing through a circuit. If the current flowing into the circuit
 differs by a very small amount (as little as 0.006 amperes) from the returning current, the GFCI
 interrupts power faster than a blink of an eye to prevent a lethal dose of electricity."[4] It is
@@ -192,8 +201,10 @@ more than 30 milliamps (mA)."[5] The page from ESF that explains how an RCD work
 this course's research tried to read it, so the lesson gives you CPSC's account of the GFCI and
 does not claim a British source said the same about the RCD.
 
-Two cautions. CPSC's 0.006 amperes (6 milliamps) and HSE's 30 mA come from different countries'
-standards, and neither is a translation of the other. And notice HSE's "some, but not all": an RCD
+Two cautions. CPSC's 0.006 amperes (6 milliamps) is how small a difference a GFCI can detect, on a
+US agency's fact sheet. HSE's 30 mA is the most a people-protecting RCD's rated tripping current may
+be, in a British workplace leaflet. They measure different things, from different sources, and this
+course read nothing that compares them. And notice HSE's "some, but not all": an RCD
 is a backstop. HSE's own list starts "an RCD is a valuable safety device, never bypass it".[5]
 
 :::checkpoint Two appliances, two faults. (1) A fan heater, a two-way adaptor and an extension lead with a toaster on it are all running from one socket, and after ten minutes the circuit goes dead. (2) A lawnmower cable has been nicked by its own blade and, on a wet lawn, it goes dead the moment it is switched on. Which kind of device most likely acted in each, and what was it protecting?
@@ -203,7 +214,8 @@ cable from overheating. (2) The RCD or GFCI. Current leaking from a damaged cabl
 is a ground fault, CPSC's case in outdoor form, and the device was protecting whoever was holding
 the mower. CPSC's sheet suggests portable GFCI protection whenever you use electrically powered garden
 equipment.[4] If you got them the other way round, go back to the
-kettle: a breaker counts how much current flows, and an RCD or GFCI checks whether it all came back.
+kettle: a breaker or fuse acts on too much current, and an RCD or GFCI checks whether it all came
+back.
 :::
 
 ### AFCIs: a third job, fire from arcing
@@ -232,7 +244,11 @@ whole house, and your unit's labels or an electrician can tell you which parts i
 
 If there is no test button, you're not alone and you're not necessarily in danger. ESF: "Older units
 may not have an RCD or circuit breakers, but this does not necessarily mean they are unsafe or
-require upgrading."[7] It adds a way to get the protection without touching the unit: "If you don’t
+require upgrading." It goes straight on: "An EICR will tell you if yours is still safe or not."[7]
+An EICR, an Electrical
+Installation Condition Report, is an inspection a registered electrician carries out. ESF's FAQ adds
+that upgrading a fusebox without RCD protection "would be recommended", "but it is not urgent".[13]
+ESF also gives a way to get the protection without touching the unit: "If you don’t
 have RCD protection, use an RCD plug on the socket where the product is plugged in."[2] HSE says the
 same for workplaces, that where an RCD can't be built into the board or the socket, "a plug
 incorporating an RCD or a plug-in RCD adaptor can also provide additional safety".[5] A plug-in RCD
@@ -254,8 +270,9 @@ course's reading of that sentence, not a line from the sheet: an ordinary-lookin
 gone dead may be downstream of a GFCI receptacle somewhere else, perhaps in another room, that has
 tripped. Check the GFCI receptacles before you decide a breaker is to blame.
 
-Where GFCIs are required is set by the model electrical code, and only where a state or city has
-adopted it. CPSC's sheet lists when that code started requiring them: outdoors from 1973,
+This paragraph touches US law. This is general information, not legal advice. Where GFCIs are
+required is set by the model electrical code, and only where a state, county or city has adopted
+it. CPSC's sheet lists when that code started requiring them: outdoors from 1973,
 bathrooms from 1975, garages from 1978, kitchens from 1987, crawl spaces and unfinished basements
 from 1990, wet bar sinks from 1993, laundry and utility sinks from 2005. Read that list as history.
 It stops at 2005, and CPSC's own sheet adds, "The NEC typically only applies to new
@@ -268,13 +285,13 @@ Two facts from lesson 1 come back every time electricity does, and they apply to
 says panel boxes "are usually electrically live, even with the main circuit breakers turned
 off".[6] And HSE's guidance for people who work on electrical systems does not recommend
 "non-contact devices such as 'volt sticks'" for proving anything dead.[9] So the front of the box is
-yours: the main switch, each breaker's switch, the test buttons, the labels. The cover, and
-everything behind it, is somebody else's.
+yours: the door in front of the switches if it has one, the main switch, each breaker's switch, the
+test buttons, the labels. Anything held on with screws, and everything behind it, is somebody
+else's. That is this course's line, and lesson 1's.
 
 ## Testing the button
 
-The test button is the one piece of electrical testing a householder is given, and both countries'
-sources give it to you.
+The test button is the check both countries' sources hand a householder for these devices.
 
 In the UK, HSE's leaflet says an RCD "has a test button to check that its mechanism is free and
 functioning" and that "you should use this regularly".[5] It does not say how often, and the leaflet
@@ -282,7 +299,8 @@ is workplace guidance that describes itself as "not compulsory". You may have re
 should be tested every three months. This course saw that figure only in a search summary and
 couldn't find it on a page it could read, so it does not give it. The instructions from the unit's
 maker say how often. Pressing the button should make the RCD trip, and ESF says that "will switch
-off the power to the areas of the home it protects".[7] You then switch it back on.
+off the power to the areas of the home it protects".[7] You then switch it back on. If it doesn't
+trip, ESF's FAQ says to "get a registered electrician to investigate".[13]
 
 In the US, CPSC's sheet says to test every GFCI "At least once a month", "After a power failure",
 and according to the maker's instructions.[4] The Electrical Safety Foundation International (ESFi), a
@@ -311,13 +329,14 @@ their health. Check before you press, not after.
 Before you touch your own box, the two UK network operators this course read say to find out whether the problem is
 yours at all. [National Grid Electricity Distribution](https://powercuts.nationalgrid.co.uk/power-cut-advice/what-to-do), one of Britain's electricity
 distribution networks, says: "First, check to see if it's a power cut or a problem with your fuses. Speak
-to your neighbours, or during the night, check the street lights."[11] [SSEN](https://www.ssen.co.uk/power-cuts-emergencies/what-to-do-during-a-power-cut/), another network, adds a check you can do from your own hall: see if
+to your neighbours, or during the night, check the street lights."[11] [SSEN](https://www.ssen.co.uk/power-cuts-emergencies/what-to-do-during-a-power-cut/), another network, adds a check of its own: see if
 any switches are off, and "check if your meter has a display, if it does, this means power is
 coming into your property."[12]
 
 If the whole street is dark, the fault is the network's, and both networks give 105 as the number
-for a power cut.[11][12] If only your house is dark, or only part of it, it is
-your box.
+for a power cut.[11][12] If only your house is dark, start with your own box. SSEN's meter check
+tells you whether power is reaching the house at all, and both networks say to call them if a reset
+doesn't bring it back.
 
 ### Resetting: the UK network operators
 
@@ -335,10 +354,12 @@ internal issue."[12]
 
 ### Resetting: a US utility
 
-SCE numbers its steps, and here they are in order.[1]
+SCE numbers five steps. Here are the first four, in order; the fifth, for a breaker that trips
+again, is in the next section.[1]
 
 1. "Turn off light switches and unplug appliances in all rooms that have lost power."
-2. Find the breaker box and open its cover, which here means the door in front of the switches. The
+2. Find the breaker box and "open the cover". SCE says no more. This course reads it as the
+   door in front of the switches, which you open by hand, and never anything screwed on. The
    breakers inside "may be labeled" by room.
 3. Find the tripped breaker, at "off" or in the middle position.
 4. Push it all the way to "off", then back to "on". "This should clear any overload and return
@@ -351,27 +372,34 @@ it, so it does not offer a reason.
 
 ### What the two countries agree on
 
-Read side by side, the sources share a shape. Take the load off first: switch off or unplug what is
-on the dead circuit. Then put the switch back to on, once (SCE's step 4 says all the way off
-first, then on). Where they differ is scope: SSEN's full reset of every switch, and SCE's single breaker.
+Read side by side, National Grid and SCE share a shape: take the load off first, by switching off
+or unplugging what is on the dead circuit, then put the switch back to on (SCE's step 4 says all
+the way off first). SSEN's full reset is a different route: every switch off, then the big ones on
+and the small ones one by one. None of the three says to keep trying.
 
-The label for this is **Yours**: resetting a tripped device once, from the front of the box, with
-the load off. The sources that give it are a UK network operator and a US utility, writing advice
-for their own customers. Nothing this course read makes it law, and nobody is required to do it themselves.
+The label for this is **Yours**: resetting a tripped device from the front of the box, with the
+load off. The sources that give it are UK network operators and a US utility, writing advice for
+their own customers. Nothing this course read makes it a legal duty, either way.
 
 ## When it trips again
 
-Every source this course read on it agrees, and this is the rule the box at the top of the lesson carries.
+The two network pages say nothing about what to do if a switch trips again. Three of the sources this
+course read do speak to it, and they point the same way, towards the rule the box at the top of
+the lesson carries.
 
 ESF's [FAQ](https://www.electricalsafetyfirst.org.uk/safety-advice/your-questions-answered/), about the British RCD: "If the RCD in your fusebox keeps tripping, there is likely to be a
 fault that needs investigating", "either with a particular appliance or the wiring itself", and
 "You should get a registered electrician to investigate".[13] HSE, in its workplace leaflet: "if it
-trips, it is a sign there is a fault".[5] SCE, about the US breaker: "If a breaker trips repeatedly,
+trips, it is a sign there is a fault", and it adds that the system is checked "before using it
+again". Where one trips often and no fault can be found, HSE says to consult the RCD's maker: "if it
+trips frequently and no fault can be found in the system, consult the manufacturer of the
+RCD".[5] SCE, about the US breaker: "If a breaker trips repeatedly,
 reset it only when you've corrected the problem. You can also call an electrician."[1] Its news site
 puts the next step plainly: "Hire a qualified, licensed electrical contractor to troubleshoot the
 issue and perform repairs."[8]
 
-What does SCE think the problem might be? Its list is worth reading closely: "too many lamps and
+What does SCE think the problem might be? Its step 5 says a breaker that trips again "could be"
+tripping for any of several reasons, and the list is worth reading closely: "too many lamps and
 appliances plugged in; a damaged cord or plug; a short-circuit in a receptacle, switch, or fixture;
 or faulty wiring."[1] Then it says, "Be sure to identify and fix problems." Look at where that list
 splits. The first two causes are things you can see and take out of use without opening anything:
@@ -380,13 +408,16 @@ when a plug shows burn marks or feels hot is "Unplug and contact the retailer, m
 qualified repair technician."[2] The last two causes are inside the walls and the fittings, and
 fixing those is wiring. So this course draws its line through the middle of SCE's list. The first
 two are **Yours**. The last two are **Call someone**, and so is any trip you can't pin on the first
-two.
+two. SCE's news site does not split the list at all: its version ends "faulty wiring or circuit
+breakers", so the breaker itself can be the cause, and it sends a breaker that trips again to "a
+qualified, licensed electrical contractor".[8]
 
 :::predict You've unplugged everything in the rooms that went dark, reset the breaker once, and it trips again the instant you push it to on. What is the likeliest place for the fault, on SCE's list, and why?
 
 The wiring, a receptacle, a switch or a fitting. With nothing plugged in, SCE's first two causes
 (too much plugged in, a damaged cord or plug) can't be the reason, so the plug-in half of its list
-is ruled out, and what is left is inside the walls. That is an electrician's job, and the device stays
+is ruled out, and what is left is inside the walls and fittings, or, on SCE's news site's list, the
+breaker itself. That is an electrician's job, and the device stays
 off until one has looked. If you expected "try again", notice that SCE's own words are to reset a
 repeating breaker "only when you've corrected the problem".
 :::
@@ -400,11 +431,14 @@ call an electrician.
 You'll see a method on plenty of websites for finding the faulty appliance: plug things back one
 at a time until the trip comes back. This course didn't find it on any official or network
 operator's page it could read, so it does not give it as a step. What the sources give is enough:
-take the load off, reset once, and treat a second trip as a fault.
+take the load off and reset. If it trips again with the load still off, SCE's plug-in causes are
+ruled out, and that is a fault for an electrician. If it goes on tripping, whatever is plugged in,
+ESF's "keeps tripping" applies. The one-reset line is this course's reading of those sources, not a
+sentence any of them contains.
 
 ### A GFCI in a bathroom
 
-Here's the simple case. In a 1980s split-level house in New Jersey, the GFCI receptacle by the
+The simple case first. In a 1980s split-level house in New Jersey, the GFCI receptacle by the
 bathroom basin trips every time the owner's daughter switches on her hair dryer. The lights in the
 bathroom are still on, and so is everything else in the house.
 
@@ -418,29 +452,30 @@ bathroom are still on, and so is everything else in the house.
    where it shouldn't. So the dryer is the suspect. That is this course's reasoning from the two
    sources, not a verdict from either of them.
 5. **What she does.** She does not plug the dryer back in to watch it trip again. She takes it out of
-   use and follows ESF's line for a faulty product: the retailer, the manufacturer or a repair
-   technician.[2] If the GFCI had tripped again with nothing plugged into it, the job would have
-   become **Call someone**. And if she wants the outlet itself checked, ESF's advice for a device
-   that keeps tripping is an electrician in any case, since its fault may be "either with a
-   particular appliance or the wiring itself".[13]
+   use. SCE lists "a damaged cord or plug" among its causes and says "Be sure to identify and fix
+   problems", and a dryer she can't inspect inside is fixed by not using it. That is this course's
+   reading of SCE, not a line SCE applies to hair dryers.[1] If the GFCI had tripped again with
+   nothing plugged into it, the job would have become **Call someone**: SCE's news site says to
+   "Hire a qualified, licensed electrical contractor to troubleshoot the issue and perform
+   repairs."[8]
 
 ### A kitchen RCD at three in the morning
 
 Now the wrinkle. In a 2000s semi in Herefordshire, the RCD covering the kitchen and the ground
-floor sockets has tripped in the night three times in a fortnight, always around 3 a.m. Each time
-the household finds the fridge-freezer silent and the microwave clock blinking in the morning.
+floor sockets tripped in the night, around 3 a.m. The household found the fridge-freezer silent and
+the microwave clock blinking in the morning.
 Nobody is using anything at that hour. The dishwasher is not on a timer, and nothing is on in the
 garage.
 
-1. **Which device?** The RCD, with its "T" button, and its switch is down while the main switch is
-   up. So it is the shock device, not an overload. One trip is a reason to look; ESF's "fault that
-   needs investigating" is for an RCD that keeps tripping.
+1. **Which device?** The switch that dropped has a "T" button, so it is an RCD, the device ESF says
+   protects you from shocks if a product is faulty. A single night trip is a reason to look. ESF's
+   "fault that needs investigating" is for an RCD that keeps tripping.
 2. **Is it the network?** No. The rest of the house has power, and so do the neighbours. National
    Grid's first check rules the network out.
 3. **The first reset.** They switch off at the wall or unplug what is on those circuits, as National
    Grid says, and put the RCD back on. It holds, and they plug things back in for the day.
 
-:::checkpoint Before you read on: it trips again the next night. On the sources, what do they do now, and what can they usefully do while they wait?
+:::checkpoint Before you read on: it trips again the next night, and again the night after, each time with the household asleep. On the sources, what do they do now, and what can they usefully do while they wait?
 
 It "keeps tripping", in ESF's words, so it is a fault "either with a particular appliance or the
 wiring itself", and ESF's advice is a registered electrician.[13] The box at the top says leave it
@@ -460,27 +495,29 @@ stop. None of it needed the cover off.
 
 ## What the law and this course leave shut
 
+This section states law. This is general information, not legal advice.
+
 Everything so far happens at the front of the box. Behind it, the law depends on where you live,
 and this course draws its own line in any case.
 
 In England, the law lets a householder do some electrical work. Some of it needs building control
-told before it starts, and the rest needs no notice but still has to meet the regulations. Wales,
-Scotland, Northern Ireland and each US state and city have rules of their own. This is general
-information, not legal advice. The rules differ between England, Wales, Scotland and Northern
-Ireland, and between US states and cities, and they change. Lesson 18, "Who may do what: reserved
-work, and the argument about licensing", sets the rules out place by place.[14]
+told before it starts, and the rest needs no notice but still has to meet the regulations.[14]
+Wales, Scotland, Northern Ireland and each US state and city have rules of their own. Lesson 18,
+"Who may do what: reserved work, and the argument about licensing", sets the rules out place by
+place.
 
 This course teaches the procedure for none of it: no socket, switch, light fitting, consumer unit
 or proving-dead method. That is a scope decision about what a page can teach and check, and it is
 this course's, not a claim that the work is unlawful where the law allows it. ESF, a charity that
 campaigns on electrical safety, advises that "Any electrical work should be left to competent
-professionals."[15] That is ESF's advice, and the course's decision rests on its own reason: proving
+professionals."[15] For anything behind the cover, the label is **Call someone**. That is ESF's
+advice, and the course's decision rests on its own reason: proving
 a circuit dead needs a proper tester and the training to use it, as HSE's guidance for electrical
 workers describes, and a page can't watch you do it.[9]
 
 ## Why it is worth the trouble
 
-The shock figures this course found are American. CPSC's latest report gives "an estimated average
+The shock figures this course found are American. CPSC's report of November 2023 gives "an estimated average
 of 100 electrocution fatalities associated with consumer products per year over the 3-year period
 from 2018 through 2020", with the caveat that the incidents "were not necessarily caused by the
 product."[16] An earlier CPSC memo counted an average of 196 a year in homes from 1995 to 1999, put
@@ -491,20 +528,24 @@ owed to GFCIs is an estimate, and the memo presents its figures as estimates.
 
 ## What people get wrong
 
-**"The breaker protects you from a shock."** It protects the wiring from fire. The RCD or GFCI
-protects the person (CPSC).[3][4]
+**"The breaker protects you from a shock."** Its job is mainly the wiring: CPSC says breakers and
+fuses "function primarily to prevent the home wiring system from causing a fire". Shock is the
+RCD's or GFCI's job.[3][4]
 
-**"An RCD that trips is being oversensitive."** ESF: if it keeps tripping, there is likely a fault
-in an appliance or the wiring, for a registered electrician. HSE: if it trips, it is a sign of a
-fault.[5][13]
+**"An RCD that trips is being oversensitive."** Don't assume it. ESF: if it keeps tripping, there
+is likely a fault in an appliance or the wiring, for a registered electrician. HSE's workplace
+leaflet treats a trip as a sign of a fault, and only where frequent trips turn up no fault does it
+point to the RCD itself, and then to its maker.[5][13]
 
 **"A GFCI and an AFCI are the same thing."** CPSC: AFCIs address fire, GFCIs shock.[6]
 
 **"If it won't stay on, hold it on for a moment."** Holding, taping or wedging a device on defeats
-the thing it is there to do. Reset once with the load off; if it trips again, leave it off.[1][13]
+the thing it is there to do. Reset with the load off. If it trips again with nothing plugged in, or
+keeps tripping, leave it off and call an electrician.[1][13]
 
-**"My consumer unit has no RCD, so it has to be replaced."** ESF: "not necessarily". A plug-in RCD
-adds protection at the socket.[2][7]
+**"My consumer unit has no RCD, so it has to be replaced."** ESF: "not necessarily"; an inspection
+(an EICR) tells you, and ESF recommends an upgrade without calling it urgent. A plug-in RCD adds
+protection at the socket meanwhile.[2][7][13]
 
 **"Main breaker off, panel dead; volt stick silent, wire dead."** Lesson 1 took both apart: CPSC
 says panels are usually live with the main breakers off, and HSE does not recommend volt sticks for
@@ -538,7 +579,7 @@ Don't take any cover off, open any fitting, or use a tester or volt stick on any
 :::
 
 :::exercise Sort six trips
-Work through these on paper. For each, choose one: **reset once** (yours), **take the appliance out
+Work through these on paper. For each, choose one: **reset with the load off** (yours), **take the appliance out
 of use** (yours), or **call an electrician**. Say whose advice sits behind your choice. Write your
 answers before you open the checkpoint.
 
@@ -549,29 +590,33 @@ answers before you open the checkpoint.
 3. A US house: the panel has a breaker whose handle is warm, with a scorch mark beside it.
 4. A UK house: after a storm, the street is dark and so are the neighbours' windows.
 5. A US house: a GFCI receptacle in the garage won't reset after a test.
-6. A US house: a breaker has tripped three times this week, each time with a different appliance
-   running.
+6. A US house: the kitchen breaker trips once, on a busy evening, with the toaster, the microwave
+   and a slow cooker all running. With those switched off and unplugged, it resets and holds.
 :::
 
 :::checkpoint Check your six.
 
 1. **Take the appliance out of use.** The trip follows the kettle, so the kettle is the suspect, and
-   ESF's advice for a faulty product is the retailer, maker or a repair technician. Resetting once
-   is fine; plugging the kettle back in to test it is not. If the RCD trips again without the
-   kettle, it becomes an electrician's job (ESF).
-2. **Call an electrician.** A second trip with the load off is ESF's fault "either with a
-   particular appliance or the wiring itself", and here there is no appliance left.
+   ESF's advice for a faulty product is the retailer, maker or a repair technician. Resetting with
+   the kettle unplugged is fine; plugging the kettle back in to test it is not. If the RCD trips
+   again without the kettle, it becomes an electrician's job, as in number 2.
+2. **Call an electrician.** With everything switched off, no appliance is left to blame. ESF
+   describes the fault behind an RCD that keeps tripping as "either with a particular appliance or
+   the wiring itself", and sends it to a registered electrician. Treating the first repeat with the
+   load off as that fault is this course's reading.
 3. **Call an electrician.** Heat and scorching at the panel are a fault showing itself, and the
-   panel is usually live (CPSC). Don't open it. ESF's FAQ lists burn marks among the signs that send
-   you to a registered electrician.
+   panel is usually live (CPSC). Don't open it. SCE's line for anything you're unsure of is "call an
+   electrician".
 4. **Neither: it is a power cut.** National Grid Electricity Distribution's first check. Report it
    on 105 if the network hasn't already said it knows.
 5. **Call an electrician.** CPSC says replace it; replacing a receptacle is wiring, which this
    course does not teach.
-6. **Call an electrician.** A breaker that trips repeatedly with no single appliance to blame is
-   SCE's "reset it only when you've corrected the problem", and the problem is not one you can see.
+6. **Reset with the load off.** This is SCE's first cause, "too many lamps and appliances plugged
+   in", and its steps 1 to 4 are exactly what was done. Run fewer of them at once. If it trips
+   repeatedly even so, SCE says to reset it "only when you've corrected the problem", and "You can
+   also call an electrician."
 
-If you gave 3 as "reset once", look again: a warm, scorched breaker is not a trip to clear.
+If you gave 3 as "reset", look again: a warm, scorched breaker is not a trip to clear.
 :::
 
 ## For your plan
@@ -580,7 +625,7 @@ This lesson adds three things to your home plan. To the **calendar**: the RCD or
 at the interval the maker gives (UK) or monthly (CPSC, US), labelled **Yours**, and the University
 of Georgia checklist's line, to "test ground fault interrupters to ensure proper protection".[18] To your **map**: the
 drawing of the box, with the RCDs, GFCIs and what each covers. To the **stop list**: a device that
-trips again after one reset with the load off; a device that fails its test; any sign of heat or
+trips again with the load off, or keeps tripping; a device that fails its test; any sign of heat or
 scorching at the box; and anything behind the cover. Each carries ESF's, CPSC's or SCE's advice as
 the rule behind it.
 
@@ -625,7 +670,7 @@ out who may do which electrical work, place by place.
    [cpsc.gov](https://www.cpsc.gov/Newsroom/News-Releases/1989/Easily-Installed-Device-Protects-Family-Against-Electrocution).
    **Read: full text.** <!-- SOURCES Part D D39 -->
 4. US Consumer Product Safety Commission, [*GFCIs Fact Sheet*, Document 099](https://www.cpsc.gov/s3fs-public/099_0.pdf).
-   **Read: full text, re-read 25 September 2026.** Undated on the sheet. Its list of code
+   **Read: full text, re-read 25 September 2026.** The sheet carries the code 092010 in its footer. Its list of code
    requirements stops at 2005. <!-- SOURCES Part A §3; lesson 05 gate closure, re-read -->
 5. Health and Safety Executive, [*Electrical safety and you: A brief guide*, INDG231(rev1)](https://www.hse.gov.uk/pubns/indg231.pdf),
    first published April 2012, reprinted August 2013. **Read: full text, 25 September 2026.**
@@ -643,7 +688,7 @@ out who may do which electrical work, place by place.
    third edition, 2013. **Read: the whole PDF extracted; "Proving dead" paragraphs 53 to 55 read.**
    Workplace guidance, used here only for what it says about non-contact testers.
    <!-- SOURCES Part D D36 -->
-10. Electrical Safety Foundation (ESFi), "Ground Fault Circuit Interrupters" and "Ground Fault
+10. Electrical Safety Foundation International (ESFi), "Ground Fault Circuit Interrupters" and "Ground Fault
     Circuit Interrupters: Preventing Electrocution Since 1971/1973", read from Internet Archive
     captures 20250524154705 and 20251123184045 (the live site blocks automated readers).
     **Read: full page text of each capture**; the second is an infographic's text.
@@ -655,12 +700,13 @@ out who may do which electrical work, place by place.
     **Read: full text, 25 September 2026.** For its own network areas.
     <!-- lesson 05 gate closure G-E5, G-N1 -->
 13. Electrical Safety First, ["FAQ for Electrical Safety"](https://www.electricalsafetyfirst.org.uk/safety-advice/your-questions-answered/),
-    the answer to "If my RCD keeps 'tripping', what action is required?". **Read: full text,
+    the answers to "If my RCD keeps 'tripping', what action is required?" and "Can an RCD fail?", and
+    the answer on fuseboxes without RCD protection. **Read: full text,
     re-read 25 September 2026.** <!-- SOURCES Part A §3, Part B §3; lesson 05 gate closure, re-read -->
 14. HM Government, [Approved Document P, *Electrical safety: dwellings*](https://assets.publishing.service.gov.uk/media/5a802da7ed915d74e622ceed/BR_PDF_AD_P_2013.pdf),
     2013 edition, for use in England. **Read: full text.** Paragraphs 2.7, 3.8 and 3.13 for the
     sentence on England. <!-- SOURCES Part C C6 -->
-15. Electrical Safety First, ["Advice for DIY-ers"](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/diyers/).
+15. Electrical Safety First, ["Advice for DIY-ers"](https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/diy-ers/).
     **Read: full text.** No page date shown. <!-- SOURCES Part D D34, Part C C31 -->
 16. US Consumer Product Safety Commission, [*Electrocutions Associated With Consumer Products: 2011-2020*](https://www.cpsc.gov/s3fs-public/Electrocutions-2011-to-2020.pdf)
     (Hanway, Massie and Seebruck, November 2023). **Read: the executive summary and Table 5.**

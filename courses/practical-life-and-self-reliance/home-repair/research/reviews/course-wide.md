@@ -81,3 +81,47 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   3's keys as they stood at review (3,1,2,0,2); rechecked against lessons 2 to 6 as they now stand. The fixer of any later lesson should check value shifts, not only positional
   ones. Places used in lesson 1: Wales, Norfolk, Oregon, Nebraska, a 1930s semi in England, the
   American Midwest.
+
+## 2026-09-25 — Lesson 07 fix pass: notes for later lessons
+
+- **Topping up a sealed heating system is now on OUTLINE decision 1's list** (dated amendment, R2
+  option (a)), only by the boiler's own user instructions where they give the user a method. Any
+  exercise that has a reader top up carries the conditions in the exercise: a user filling method
+  in the manual, controls clearly identifiable under or built into the boiler, the boiler off and
+  cold, own home or the landlord's agreement (a renter asks the landlord), and a loop elsewhere or
+  unidentifiable controls go to the installer or a heating engineer. Ideal's method is for combis
+  only; Worcester Bosch's has the user take off the boiler's bottom panel for its built-in links, so
+  never write that a maker's user task "doesn't open the boiler".
+- **DOE's tankless page converts 5 gallons to 15.2 litres, which is wrong** (18.9 L). Any lesson
+  giving DOE's flow figure gives the litres as the course's own conversion (SOURCES "Stage 4 note,
+  lesson 07").
+- **DOE does give the reason for its heat pump setback rule** (backup heat is less efficient and
+  costs more). Lesson 10 or any later heat pump mention should not say it gives none.
+- **EST describes a TRV by flow, not as a target temperature.** Keep to its wording.
+- **Quiz keys unchanged for lesson 7** (3,0,3,2,1), rechecked against lessons 1 to 6 and 8 as they
+  now stand, value shifts included.
+
+## 2026-09-25 — Lesson 05 fix pass: notes for later lessons
+
+- **The trip rule is "keeps tripping", not "a second trip".** No source read says reset once or that
+  a second trip means a fault. SCE's step 5 says a second trip "could be" an overload among other
+  causes; its repeat rule is for a breaker that "trips repeatedly"; ESF's is for an RCD that "keeps
+  tripping"; HSE's workplace leaflet treats any trip as a sign of a fault and sends frequent trips
+  with no fault found to the RCD's maker. What the sources support: a trip that comes back with the
+  load still off rules out SCE's plug-in causes and goes to an electrician; a device that keeps
+  tripping goes to an electrician. Any "one reset" line in lessons 6, 18 or the assessments is this
+  course's reading and says so. SOURCES' gate closure and synthesis carried the old wording; the
+  gate closure is corrected, and the synthesis's "after one reset" ("Safety-critical guidance", item 2) is
+  left as the course's own rule.
+- **ESF is a UK charity**: never the authority for a US case. US cases use SCE, CPSC or a named US
+  body.
+- **SCE's "open the cover" is undefined.** The course's line is the door in front of the switches,
+  opened by hand, never anything screwed on, and it is given as the course's reading.
+- **A "T" button does not prove a device is not acting on overload** (CPSC's GFCI breaker protects
+  against both). Name the device from the button; don't infer the cause from it.
+- **New quotable strings** (SOURCES "Stage 4 note, lesson 05"): ESF's "If this doesn't work, you
+  should get a registered electrician to investigate" for a failed RCD test; ESF's "would be
+  recommended ... but it is not urgent" for a fusebox without RCD protection; "An EICR will tell you
+  if yours is still safe or not."; CPSC's "states, counties or local jurisdictions".
+- **Quiz keys:** lesson 05 unchanged at 0,2,3,2,0,1. Keys so far: 01 1,3,0,2,3,0; 02 2,0,3,1,3; 03
+  3,1,0,1,2; 04 3,2,0,1,3,2; 05 0,2,3,2,0,1; 06 1,3,2,1,2,0; 07 3,0,3,2,1; 08 1,2,1,3,0.

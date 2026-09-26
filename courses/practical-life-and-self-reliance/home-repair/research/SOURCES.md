@@ -877,7 +877,7 @@ The 6219 handbook (below) records a change "Unit 133 – change ‘ring main’ 
 
 #### CPSC, "GFCIs Fact Sheet" (CPSC Document 099)
 https://www.cpsc.gov/s3fs-public/099_0.pdf
-Read: full text, pdftotext (two pages; layout is two-column, so I checked each quoted phrase in context). Undated on the sheet.
+Read: full text, pdftotext (two pages; layout is two-column, so I checked each quoted phrase in context). The footer carries the code "092010" above "Pub. 099" (probably a September 2010 revision code; the sheet doesn't say). (Stage 4 note, lesson 05: formerly "Undated on the sheet".)
 - A GFCI "is an inexpensive electrical device that can either be installed in your electrical system or built into a power cord to protect you from severe electrical shocks." [V]
 - How: it compares current out and back; if they differ "as little as 0.006 amperes" [V] it cuts power. (Note: 0.006 A is 6 mA. The UK RCD rating for personal protection is 30 mA; the two figures are not the same standard. Gate.)
 - "A ground fault is an unintentional electrical path between a power source and a grounded surface." [V]
@@ -3726,8 +3726,10 @@ Read: full text. The same utility's news site; the same five steps in other word
 which is the checklist Part A §3 recorded), UK Power Networks' "What are trip switches" and SP Energy
 Networks' power-cut page (both 403). No source read gives the "plug back in one at a time" method
 for finding a faulty appliance, so a lesson does not teach it as a step. What the sources do give
-is: unplug or switch off before resetting (National Grid, SCE), reset once, and a second trip means
-a fault (ESF FAQ, SCE).
+is: unplug or switch off before resetting (National Grid, SCE), and a device that "keeps tripping"
+(ESF FAQ) or "trips repeatedly" (SCE) goes to an electrician. (Stage 4 note, lesson 05: this line
+formerly read "reset once, and a second trip means a fault (ESF FAQ, SCE)". No source says "once"
+or "a second trip"; SCE's step 5 says a second trip "could be" an overload among other causes.)
 
 **The 30 mA figure (G-E1): closed from HSE, for workplaces.** HSE, *Electrical safety and you: A
 brief guide*, INDG231(rev1), first published 04/12, reprinted 08/13,
@@ -3741,8 +3743,10 @@ https://www.hse.gov.uk/pubns/indg231.pdf. Read: full text (6 pages), pdftotext. 
   still snippet only), so the fallback stands: the maker's instructions say how often. And a UK
   account of how an RCD detects a fault: HSE's "detects some, but not all, faults" is all that was
   read, so the mechanism stays CPSC's, given for the GFCI.
-- 30 mA and CPSC's 0.006 A (6 mA) are different standards' figures. Never set side by side as
-  equivalent.
+- 30 mA and CPSC's 0.006 A (6 mA) measure different things (CPSC's is the smallest difference a
+  GFCI can detect; HSE's the ceiling on a people-protecting RCD's rated tripping current), and
+  neither source attributes its figure to a standard. Never set side by side as equivalent. (Stage 4
+  note, lesson 05: formerly "different standards' figures", which no source read says.)
 
 **G-E4 (current NEC GFCI locations): not closed.** NFPA's code text needs an account; ESFi's live
 site returned 403 before (Part A); the search results were manufacturers' and trade blogs. Fallback:
@@ -4056,3 +4060,73 @@ was also checked and not used.)
 
 G-W10 (EST savings in pounds): left out. G-L11 (the building regulations document on unvented hot
 water): not read, not named. No US tank water heater page from DOE could be read.
+
+## Stage 4 note, lesson 07 (2026-09-25)
+
+Lesson 7, "Heating: boilers, radiators and furnaces", Stage 4 Tier A. The reviewer re-read these
+live (curl with a browser User-Agent, pandoc or pdftotext) or from the named Internet Archive `id_`
+capture on 2026-09-25 and string-checked each [V] against the extracted text. The fixer adds them
+here so the lesson's quotations match SOURCES.
+
+**A correction: DOE's litre conversion is wrong.** DOE's archived "Tankless or Demand-Type Water
+Heaters" (capture 20250102084025) prints "2–5 gallons (7.6–15.2 liters) per minute" [V as printed].
+5 US gallons is about 18.9 litres (15.2 litres is 4 gallons; 1 US gallon is 3.785 litres). The
+lesson gives the gallons as DOE's and the litres as the course's own conversion, "about 7.6 to 19
+litres"; 41 gallons is about 155 litres by the same conversion. The Part A §1 line above keeps DOE's
+text as printed.
+
+- **Worcester Bosch pressure FAQ** (live): "When the heating system is cool, the pressure should be between 1 and 1.5 bar" [V]; "water has been lost from the system and must be replaced" [V]; "(about 2.75 bar or more)" [V]; "If pressure rises by more than 1 bar when the heating is up to temperature then the expansion vessel may require repressurising. This will require a service engineer." [V]; "The pressure in the system will usually require topping up once or twice a year." [V]; "If you are having to repressurise your heating system much more frequently, please contact your installer." [V]
+- **Worcester Bosch *System Filling Guide*** (file dated 03/05/2016, pages 6 and 7): "A sealed system relies on an operating pressure of between 1 and 1.5 bar to deliver heating and hot water at a consistently comfortable and reliable level." [V]; "Watch the gauge closely as the system fills. It may fill quite quickly so be ready to shut off the link when the needle is between 1 and 1.5 bar." [V]; "If the pressure is or rises above 1.5 bar. Bleed a radiator until the pressure gauge returns to between 1 and 1.5 bar." [V]; for the keyed and keyless links, "Remove the bottom panel by pulling the catch down and then pulling the panel forward and down to remove." [V]
+- **Worcester Bosch bleed page** (live): "colder at the top than at the bottom" [V]; "could mean that sludge has built up in your radiator and you might need your system cleaned." [V]; "Turn off your heating system and wait for the radiators to cool" [V]; "Keep the radiator key turned until water starts to flow steadily and then turn the radiator key clockwise to close the valve." [V]; "Boiler pressure can be lost when bleeding radiators." [V] The page says nothing about bleeding again and again; that point is Vaillant's alone.
+- **Ideal, "Topping up the pressure"** (live): "The following guidance is intended for combi boilers where the filling loop or filling controls are clearly identifiable underneath or built into the boiler." [V]; "The system pressure should be checked and adjusted while the boiler is cold." [V]; "The normal cold operating pressure is between 1.0 and 1.5 bar." [V]; "Only continue if you can clearly identify the correct filling controls. Do not operate unidentified valves underneath the boiler." [V]; "Open them gradually, as the pressure may rise quickly." [V]; "The pressure gauge measures the pressure within the whole central-heating circuit, not just the boiler." [V]; "It becomes more likely that there is a fault when the pressure drops repeatedly over a period of days or weeks, falls to zero, or requires frequent topping up." [V]; "The pressure drops repeatedly over days or weeks" [V]; "Step 6. Vent (Bleed) all the radiators" [V] (seven steps in all: bleeding, then checking the pressure again, comes before switching back on); "We recommend checking your system for visible leaks, weeping valves or wet patches along pipework regularly." [V] Ideal also says "System and heat-only boilers may use an external filling loop" (reviewer's reading of the live page).
+- **Baxi** (live): "The normal operating water pressure for your boiler and central heating system is between 1.0 and 2.0 bar." [V] (no mention of cold or hot); "If the pressure drops below 1.0 bar, you need to repressurise it." [V]; "should not go higher than about 2.5 bar" [V].
+- **Vaillant bleed page** (live): "Air will naturally rise as it is lighter than water" [V]; "particularly towards the top of the radiator where the air is likely to end up lodged" [V]; "wait approximately 1 hour (or 2 hours to be cautious)" [V]; "All thermostat valves need to be open." [V]; "For reference, it looks like a small, round hole with a little square inside." [V]; "A quarter to half a turn should be sufficient to open the valve enough for air to escape." [V]; "Don't close the valve too tight, otherwise you might damage it." [V]; "The boiler should read between 1 to 1.5 bar of pressure when the central heating is cold." [V]; "If you have to repeatedly bleed radiators, then discuss this with your installer when the boiler is serviced as there may be an underlying problem." [V]; "the oxygen in the air in the system causes corrosion which can result in leaking and debris in your radiators" [V].
+- **Vaillant, "Why is my radiator not working?"** (live): "If the entire radiator is not getting hot and showing no signs of trapped air, you should then check the valve on your radiator" [V]; "blocked by sludge or limescale" [V]; "call a professional heating engineer" [V].
+- **Vaillant, "Hot water tank temperature"** (live): "fed by a cold water storage tank (usually in the loft or airing cupboard)" [V]; "The water in the tank is fed directly from the cold water mains. It doesn’t require a cold water storage tank." [V]
+- **EST "Boilers"** (capture 20260919232017): "Combi boilers don’t use a hot water cylinder" [V]; "System boilers have a separate water cylinder to store hot water." [V]; "have two extra header tanks to store cold water, usually installed in the loft if there is one." [V]; "The flue is made of plastic. If it’s made of metal, it’s unlikely to be a condensing boiler." [V]; "over half of what you spend in a year on energy bills" [V]; condensing boilers "capture and reuse more of the heat from gases that normally escape in the boiler's flue" [V] (reviewer's string; the page's apostrophe style not re-checked by the fixer, so the lesson paraphrases it). The page gives no year and no geography for the energy-bills figure.
+- **EST heating page** (capture 20260417064839): "turning up your room thermostat won’t make your home heat any faster!" [V]; "turns the heating on until the room reaches the temperature you’ve set. Once it reaches the set temperature, it turns the heating off until the temperature drops again." [V]; "For most people, this is between 18°C and 21°C." [V]; "work by sensing the air temperature around them. If the room is warmer than the setting on the TRV, the valve will close a little." [V]; "This reduces the volume of hot water flowing into the radiator." [V]; the lowest TRV setting "will reduce the volume of hot water flowing into the radiator" [V]; "sets the temperature of the water that’s pumped from the boiler through the radiators" [V]. EST describes a TRV in terms of flow, not as a target temperature.
+- **DOE "Furnaces and Boilers"** (capture 20250102062644): "Furnaces heat air and distribute the heated air through the house using ducts. Boilers heat water, and provide either hot water or steam for heating." [V]; "An AFUE of 90% means that 90% of the energy in the fuel becomes heat for the home" [V]; "which can be as much as 35% of the energy for output of the furnace when ducts are located in the attic, garage, or other partially conditioned or unconditioned space." [V]; "should be provided by a heating system professional" [V]; "Furnace heat exchangers mix combustion gases with house air when they leak" [V]; "an important safety reason to have them inspected" [V]; 56% to 70%; 98.5%.
+- **DOE heat pump pages** (captures 20250102062920 and 20241231180018): "Do not set back the heat pump's thermostat if it causes the backup heating to come on." [V]; "Backup heating systems, such as electric resistance or electric strip heaters, are usually more expensive to operate because they are less efficient." [V] (the next sentence on the same page: DOE does give the reason); "You should have a professional technician service your heat pump at least once a year." [V]; "Clean or change filters every 3 months or as recommended by the manufacturer or installer." [V]; "up to 75% compared to electric resistance heating" [V].
+- **DOE air conditioner** (capture 20241215045250): "every month or two during the cooling season" [V].
+- **DOE tankless** (capture 20250102084025): "2–5 gallons (7.6–15.2 liters) per minute" [V as printed; conversion wrong, above]; "41 gallons or less" [V]; "24%–34%" [V]; "Read your owner's manual for specific maintenance recommendations." [V]
+- **ENERGY STAR checklist** (live): "Check all gas (or oil) connections, gas pressure, burner combustion and heat exchanger." [V]; "Inspect, clean, or change air filters once a month in your central air conditioner, furnace, and/or heat pump. Your contractor can show you how to do this." [V]
+- **Carrier, furnace filters** (live): "matches the size required by your unit" [V]; "Remove the blower cabinet door or duct-mounted access panel to access the current filter." [V]; "Air should flow from the ductwork into the furnace." [V]; "The arrows should point toward the blower motor." [V]
+- **SI 1998/2451 reg 3** (legislation.gov.uk, extent E+W+S): 3(1) "No person shall carry out any work in relation to a gas fitting or gas storage vessel unless he is competent to do so." [V]; 3(3) binds employers and self-employed persons, who must be "a member of a class of persons approved for the time being by the Health and Safety Executive" [V].
+- **HSE "Gas safety: home owners"** (live): "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer." [V]
+- **Wikimedia Commons, File:Radiator sleutel.jpg** (Commons API): Artist Sil10napel; Credit "Own work"; LicenseShortName "CC BY-SA 4.0"; AttributionRequired "true"; DateTimeOriginal 2020-08-11. The caption now links the file page and the licence.
+- Not re-read at this review: L56 paragraphs and the Gas Safe capture (cited as recorded above).
+
+## Stage 4 note, lesson 05 (2026-09-25)
+
+The lesson 05 reviewer ("Electricity: what trips, and why") re-fetched every primary the lesson
+cites with curl (browser User-Agent) plus pandoc or pdftotext on 2026-09-25; the fixer re-fetched
+HSE INDG231, CPSC 099, the ESF FAQ, ESF's home-buyers page and ESF's DIY address the same day and
+string-matched the lines below.
+
+New strings, each checked live:
+- HSE, INDG231(rev1), the RCD list, the item after "if it trips, it is a sign there is a fault": "if it trips frequently and no fault can be found in the system, consult the manufacturer of the RCD" [V]
+- ESF, FAQ (https://www.electricalsafetyfirst.org.uk/safety-advice/your-questions-answered/), "Can an RCD fail?": "RCDs can be regularly checked using the test button on the device. If this doesn't work, you should get a registered electrician to investigate." [V]
+- ESF, FAQ: "If, for example, your fusebox does not have RCD protection, it would be recommended that you upgrade your fusebox so that it meets the latest standard, but it is not urgent." [V]
+- CPSC 099, of the GFCI circuit breaker: "Protects against both a ground fault and a circuit overload" [V]; of the NEC: it "may be adopted into law by states, counties or local jurisdictions" [V].
+- ESF, home-buyers page (the old "RCDs Explained" address), the sentence after "require upgrading.": "An EICR will tell you if yours is still safe or not." [V] The page expands EICR as "Electrical Installation Condition Report (EICR)" [V].
+
+Corrections:
+- **CPSC 099 is not undated.** Its footer reads "092010" above "Pub. 099", probably a September
+  2010 revision code (compare 5133's "R042012"); the sheet doesn't say. Corrected in place in Part A
+  §3.
+- **ESF's DIY page has moved.** https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/diyers/
+  now redirects to https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/diy-ers/.
+  Cite the new address.
+- **"Reset once, and a second trip means a fault" is not the sources' rule.** Corrected in place in
+  "Gate closures, lesson 05". NGED and SSEN say nothing about a repeat trip. SCE's step 5 says a
+  second trip "could be" an overload, a damaged cord or plug, a short or faulty wiring; its repeat
+  rule is for a breaker that "trips repeatedly". ESF's is for an RCD that "keeps tripping". HSE's
+  "if it trips, it is a sign there is a fault" is about any trip, in a workplace, and is followed by
+  the frequent-trip item above. What a lesson can support: a trip that comes back with the load
+  still off rules out SCE's plug-in causes and goes to an electrician; a device that keeps tripping
+  goes to an electrician. The synthesis's "after one reset" ("Safety-critical guidance", item 2) is this
+  course's own rule and is labelled so wherever a lesson uses it.
+- **6 mA and 30 mA are not "different standards' figures"** in any source read. Corrected in place.
+- **SCE's "open the cover" is undefined on both SCE pages.** The gloss "the panel door in front of
+  the switches" in the lesson 05 gate closure is the drafter's reading, not [V]; a lesson gives it as
+  this course's reading.
