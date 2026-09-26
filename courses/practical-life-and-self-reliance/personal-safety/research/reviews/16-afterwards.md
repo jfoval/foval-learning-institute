@@ -222,3 +222,84 @@ fix pass exited 0.
 **Status after review:** needs second pass (the NI compensation paragraph, the rewritten quiz items 1,
 4, 5 and 6, the new project rubric and the re-set scenarios E and F should be read fresh, and the
 table measured at 375 px).
+
+## Second pass (2026-09-25)
+
+One fresh-context reviewer, reading both files against the primaries fetched live by curl on 25
+September 2026: the IOPC page, guide and A4 poster, nidirect, the CPS/NPCC leaflet, GOV.UK's
+arrest, contact-police and compensation pages and the Victims' Code (content API), OVC's two pages,
+VictimConnect, VSS's two pages, VSNI, Victim Support's About us, Help and support and Get help pages,
+Florida ch. 776 and NCSL. 911.gov refused both curl and WebFetch (403), so its three quotations
+were checked against SOURCES only.
+
+**Findings and what was done**
+- S1 [major, safety] Quiz 2's explanation said ending the call after pressing 55 "would leave the
+  police not knowing where she is". The guide says only that 55 doesn't track location; it doesn't
+  say the police can't know otherwise. **Fixed**: the explanation now gives the guide's own reason
+  to stay on, that after the 55 the call handler "will attempt to communicate with you by asking
+  simple yes or no questions". The body's silent-call wording and quiz 2's key read correctly:
+  silence without 55 ends a mobile call, the cough or tap answers questions, 55 puts it through.
+- S2 [major] The leaflet's clear-case half was trimmed of its hedge. The leaflet says "In some
+  cases, for instance where the facts are very clear, or where less serious injuries are involved,
+  the investigation will be concluded very quickly"; the lesson quoted it from "the facts" as a
+  rule. **Fixed** in the force section. Anil's case, the predict and the misconception already hedge
+  ("depends", "can be concluded").
+- S3 [minor] Northern Ireland: "late applications accepted where it 'wasn't reasonable'" overstated
+  nidirect's "may still be accepted". **Fixed.** The rest of the paragraph matches the page: the
+  £1,000 minimum, the police-report request, both refusal reasons verbatim, no stated reporting
+  requirement, and Victim Support (the link goes to VSNI) for free help.
+- S4 [minor] The body quotes the IOPC poster ("by coughing or tapping the handset if you can"),
+  but footnote 2 listed only the page and guide. **Fixed**: the poster is added to footnote 2 and
+  read in full.
+- S5 [minor] A stray leading space on the body's first line. **Fixed.**
+- S6 [minor, not fixed] Project scenario E is still lesson 9's worked case "Third in the queue" with
+  a different setting: a customer in a queue, a weapon at the counter, a cashier, the till. The
+  model answer calls it "lesson 9's other case", so it reads as deliberate application, but OUTLINE
+  says the eight scenarios are "none reused". F follows lesson 9's exercise item 2 in the same way
+  (someone attacked, people watching, point at one and give them the call). Both model answers
+  check out against lessons 1, 9 and 10 and First Aid 1 (35% against 90.9%, the abstract only, the
+  three official sources in lesson 10, "give people jobs", Direct's four questions, the second rung).
+  Whoever next edits the project should decide either to keep them and note in OUTLINE that E and
+  F apply lesson 9's two cases on purpose, or to re-shape them. That is not a one-line edit.
+- S7 [minor, not fixed] Rubric, the plans: Full marks needs a check-in with a person, but the
+  privacy rule says not to agree one that would show where you go, and "Nobody to check in with"
+  allows none. Such a reader caps at Partly there. That still passes, so nobody fails for safety,
+  but a sentence saying a check-in left out for either reason can still earn Full marks would be
+  fairer. The pass rule ("no part at Not yet and nothing on the list below") and the safe-skip rule
+  ("counts as complete. Write "skipped" and nothing else") read correctly, and they agree with the
+  privacy rule and Part 6's assault exemption.
+- S8 [minor, accepted] Quiz 5's key ("no questioning until she has had it") leaves out GOV.UK's
+  "with some exceptions", which the explanation carries. It is accepted because the item asks for
+  a right, and the exceptions are the police's.
+- S9 [minor, accepted] Quiz 3's explanation says the crime reference number "comes from" the
+  Victims' Code. GOV.UK's claim page also asks for one for the three-nation scheme. What the
+  explanation says about support is still right.
+- S10 [minor, course-wide] The crisis callout's "116 123" and "13 11 14" have ordinary spaces, not
+  non-breaking ones. This is the shared callout text, so it is left for a course-wide pass.
+
+**Checked and clean.** Quiz keys 2,3,1,2,0,1, by script against lessons 1 to 15 on disk (14 read
+2,3,0,1,0,3; 15 read 0,1,3,2,1,2): all four positions used, no adjacent repeat, not identical to or a
+shift of any lesson, at most 3 positions shared (5, 9, 11, 12, 14), and no shared run above 3 at
+any offset from -2 to +2 (runs of 3 at offset 0 with 5 and 11, and at ±1 or -2 with 2, 7 and 8,
+all within the lesson-12 rule). Quiz items 1, 4, 5 and 6: each key is right on its source, and each
+explanation names the distractors by content. Option lengths are 67 to 83 characters, and no key is
+the sole longest or shortest. Every body quotation from the pages listed above matched the live page
+verbatim. `npm run quotes personal-safety`: 0 not found. Nothing reads as advice on what to say to
+police: every mention sends the reader to a lawyer, and the caution misconception gives both halves.
+The callouts match the course's standard text. The content note sits directly before "After a
+sexual assault", and its claim that the subject appears nowhere else in the lesson holds (grep).
+Phone numbers in the content note carry non-breaking spaces. There are no em or en dashes in either
+file. The reporting table measured 629 px tall at 375 px (it was 896), with no horizontal overflow.
+The project has no tables. `npm run minutes`: 100, unchanged.
+
+**For SOURCES (not edited here, since another fixer holds it):** add to "Gate closures, lesson 16"
+the IOPC guide's "the police call handler will attempt to communicate with you by asking simple yes
+or no questions", now quoted in quiz 2's explanation, and the poster's URL,
+https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_Solution_poster_A4_ENG.pdf,
+beside the Part D §8.1 poster entry. The leaflet's "In some cases, for instance" line is already
+there.
+
+`npm run validate`: exit 0.
+
+**Verdict: CLEAN.** S6 and S7 are minor and recorded for the next edit of the project. Neither
+blocks.

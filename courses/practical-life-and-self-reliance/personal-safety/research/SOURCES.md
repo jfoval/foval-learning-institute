@@ -5849,3 +5849,8 @@ National Domestic Violence Hotline, guns page:
 
 Gate G17 stays open. No source read shows which critics published on the gun-in-the-home studies, so
 lesson 15 names none ("Kleck among them" removed at the second pass).
+
+## Gate closures, lesson 16, second pass (2026-09-25)
+
+- IOPC silent solution guide: [V] "the police call handler will attempt to communicate with you by asking simple yes or no questions" (quoted in lesson 16, quiz 2 explanation).
+- IOPC Silent Solution poster, beside the Part D §8.1 poster entry: https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_Solution_poster_A4_ENG.pdf

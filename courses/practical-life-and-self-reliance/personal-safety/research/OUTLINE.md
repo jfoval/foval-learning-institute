@@ -1642,7 +1642,8 @@ pepper spray, the US spray statutes and the gun evidence; "Afterwards" is lesson
   4. **Decisions made in advance**, each one sentence with its source: when you leave (lesson 8); your
      rule for the property case (lesson 10); when you would call as a bystander (lesson 9).
   5. **Three write-ups** from a bank of eight scenarios the course supplies (drafted with the test,
-     none reused): one de-escalation, one bystander, one legal question in your own jurisdiction (the
+     none reused; Stage 4 note, 2026-09-25: scenarios E and F apply lesson 9's worked case and
+     its exercise item 2 in new settings, on purpose, as practice on the bystander cases): one de-escalation, one bystander, one legal question in your own jurisdiction (the
      questions a court would ask, labelled general information).
   6. **A class decision** (lesson 12): a class scored against both checklists, or a written reason for
      not taking one.

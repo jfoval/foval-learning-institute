@@ -47,8 +47,9 @@ quiz:
       put through to police. Staying silent and not pressing 55 will lead to the call being
       terminated." So silence alone doesn't bring officers, and silent calls from a mobile are ended
       if nobody presses 55. Its guide also says "Pressing 55 does not allow police to track your
-      location", which is why ending the call after pressing it would leave the police not knowing
-      where she is. The page's steps are to respond by coughing or tapping if you can, and, if
+      location", and once the call is put through, the guide says the police call handler "will
+      attempt to communicate with you by asking simple yes or no questions", so the 55 isn't a signal
+      to hang up. The page's steps are to respond by coughing or tapping if you can, and, if
       prompted, to press 55; it's the 55 that gets the call put through.
   - q: >-
       Hamza was punched and hurt outside a shop in Greenock, in Scotland, six months ago. He decided
@@ -120,7 +121,7 @@ quiz:
       lock guards the next bike but leaves the way in as it was. Spreading changes over a year, or
       waiting, runs against the finding that repeats come quickly.
 ---
- The earlier lessons in this course were about lowering the odds and about the moment itself. This
+The earlier lessons in this course were about lowering the odds and about the moment itself. This
 one is about the hour, the day and the weeks after something has happened to you: a theft, a
 break-in, an assault, a con, or a frightening night where nothing was taken but something was lost
 all the same. A few decisions come up then, when you're least ready for them: which number to call,
@@ -286,8 +287,8 @@ claim "is not dependent on the conviction of an offender."[7][8] And a person hu
 lesson 9's bystander comes in.[8]
 
 **Northern Ireland** has its own scheme. [nidirect](https://www.nidirect.gov.uk/articles/claiming-compensation-criminal-injuries),
-the Northern Ireland government's public site, gives a two-year limit, with late applications
-accepted where it "wasn’t reasonable" to apply sooner, and a minimum award of £1,000. When an
+the Northern Ireland government's public site, gives a two-year limit, though late applications
+may still be accepted where it "wasn’t reasonable" to apply sooner, and a minimum award of £1,000. When an
 application arrives, "a request will be made for a police report about the incident." Among the
 reasons it lists for reducing or refusing an award are "your failure to co-operate with the police,
 or with Compensation Services" and "your delay in informing the police, or other organisation, or
@@ -385,8 +386,9 @@ what comes before any court.
 [leaflet for householders](https://www.cps.gov.uk/sites/default/files/documents/publications/Householders-2018.pdf)
 says "the police have a duty to investigate incidents involving a death or injury", and that they
 "may need to conduct a forensic examination and/or obtain your account of events".[16] The same
-paragraph says that where "the facts are very clear, or where less serious injuries are involved,
-the investigation will be concluded very quickly, without any need for arrest", and that the
+paragraph says that "In some cases, for instance where the facts are very clear, or where less
+serious injuries are involved, the investigation will be concluded very quickly, without any need
+for arrest", and that the
 forensic examination and the account belong to "more complicated cases, such as where a death or
 serious injury occurs".[16] It was written
 about intruders at home, the subject of lesson 14, "The home and property", and applying it to the
@@ -634,8 +636,9 @@ Emergency Preparedness covers disasters and emergencies beyond crime.
 1. GOV.UK, ["Contact the police"](https://www.gov.uk/contact-police). **Read: in full (content
    API); re-read, 25 September 2026.** <!-- SOURCES Part D §8.1; lesson 16 gate closure (G5) -->
 2. Independent Office for Police Conduct, [Silent Solution](https://www.policeconduct.gov.uk/our-work/key-areas-of-work/silent-solution)
-   page and its [guide](https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_solution_guide.pdf),
-   England and Wales. **Read: both in full, 25 September 2026.** <!-- SOURCES Part B B26, Part D §8.1; lesson 01 gate closure G7 -->
+   page, its [guide](https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_solution_guide.pdf)
+   and its [poster](https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_Solution_poster_A4_ENG.pdf),
+   England and Wales. **Read: all three in full, 25 September 2026.** <!-- SOURCES Part B B26, Part D §8.1; lesson 01 gate closure G7 -->
 3. 911.gov, ["Frequently Asked Questions"](https://www.911.gov/calling-911/frequently-asked-questions/),
    last updated 03/08/2023. **Read: via browser.** <!-- SOURCES Part D §8.1; lesson 01 gate closure -->
 4. Bureau of Justice Statistics, S. N. Tapp and E. J. Coen, [*Criminal Victimization, 2024*](https://bjs.ojp.gov/document/cv24.pdf),

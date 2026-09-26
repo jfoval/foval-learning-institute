@@ -250,6 +250,8 @@ Mark each part yourself, or with someone you trust, at one of three levels.
   with a time, an action and a person. Partly there: steps present but one or two unlabelled, or a
   check-in with no agreed action if the message does not come. Not yet: a step called tested that the
   course called untested, or a check-in nobody agreed to.
+  A check-in left out for safety, or because you have nobody to check in with, can still earn
+  Full marks: write which, and the plan is marked on its steps.
 - **The decisions.** Full marks: one sentence each, consistent with its source, with what the
   source did and did not measure. Partly there: consistent with the source, but the line on what it
   measured missing. Not yet: a decision the source does not support, or no source.
