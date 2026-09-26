@@ -1117,8 +1117,15 @@ const REPETITION_EXEMPT = [
   // and its decision 9 general-information label, which every lesson touching the law repeats.
   "this is general information not legal advice",
   // Home Repair's safety callout, which every lesson carries word for word.
+  "this course is education not a trade qualification",
   "it teaches no gas work and no wiring",
+  "if you smell gas in great britain open doors and windows",
+  "in the us leave straight away and call 911 or your gas utility",
+  "in either country don t light a flame or touch an electrical switch",
   "isolate the water or power before you open anything up",
+  "which jobs the law leaves to a registered or licensed trade differs",
+  // and its general-information label, which every lesson stating a rule repeats.
+  "the rules differ between england wales scotland and northern ireland and between us states",
   "the law differs by state and between england and wales scotland and northern ireland",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",

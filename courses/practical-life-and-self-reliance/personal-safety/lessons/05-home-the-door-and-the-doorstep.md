@@ -229,8 +229,8 @@ get these devices to the people most at risk, which gives the request some backi
 their suggestion, not a rule anywhere this course read.[1]
 
 **Step 3: price it.** They look up, for their own area, what a deadlock, window locks and an outside
-sensor light would cost to fit. This course names no products and no prices; fitting a lock is Home
-Repair and Maintenance's, the course after this one.
+sensor light would cost to fit. This course names no products and no prices, and it doesn't teach fitting a
+lock.
 
 **Step 4: label it.** Each request is tested, in this course's labels, in the sense lesson 1 gave:
 a strong comparison between households in England and Wales measured burglary with entry, against
@@ -608,7 +608,8 @@ con in full. Digital Literacy lesson 10 has passwords, which this course leaves 
 
 **Forward.** Lesson 6, "Out and away", takes the same grid onto the street, where the evidence is
 thinner. Lesson 14 is the law if it ever comes to force at home, and lesson 16 covers reporting and
-support. Home Repair and Maintenance, the next course on the Core, teaches fitting a lock.
+support. Home Repair and Maintenance, the next course on the Core, covers how the rest of a house
+works and which jobs to leave to a trade.
 
 ## Go deeper
 
