@@ -1,6 +1,6 @@
 # Sources: Conversation and Listening
 
-<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Kalla and Broockman 2020, Williams Kemper Hummert 2003, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
+<!-- unread: Looking Out Looking In 16th edition full text, Everyday Encounters full text, Interplay 16th edition full text, DeVito 16th edition full text, Reflect and Relate full text, Hargie Skilled Interpersonal Communication chapters, Brownell Listening 7th edition text, Worthington Bodie Fitch-Hauser Listening 3rd edition text, Wolvin and Coakley Listening, Rankin 1930, Rankin 1926 dissertation, Janusik and Wolvin 2009 full text, Barker et al 1980, Nichols 1948, Conaway 1982, Vangelisti Knapp Daly 1990 full text, Derber 1979, Derber 2000, We Need to Talk full book, You're Not Listening full book, Supercommunicators full book, Difficult Conversations, Stokoe Talk, Sidnell Conversation Analysis, Kaplan Gimbel Harris 2016, Stephens Silbert Hasson 2010, Dunbar Marriott Duncan 1997, Beckman Frankel 1984, Savitsky et al 2011, Silani Singer egocentricity bias study, Watson Barker Weaver 1995, Glenn 1989, Whyte 1950 Fortune, Conversational Style 1984, That's Not What I Meant 1986, West and Zimmerman 1983, Murray 1985, Roberts Francis Morgan 2006, Roberts Margutti Takano 2011, Heldner and Edlund 2010, Emler 1990, Emler 1994, Landis and Burtt 1924, Sprecher 2021, Sandstrom and Dunn 2014 barista, Sandstrom and Dunn 2014 weak ties, Wolf Nafe Tomasello 2021, Sprecher 2025 liking gaps, Liu et al 2023, Mehl et al 2007, Leaper and Ayres 2007, Edelsky 1981, Dahmardeh and Dunbar 2017, Stanley Bradbury Markman 2000 full text, Gottman 2000 reply full text, Hafen and Crane 2003, Itzchakov Kluger Castro 2017 full text, Itzchakov DeMarree 2018 full text, Kluger and Itzchakov 2022 Annual Review, High and Dillard 2012 full text, Teding van Berkhout 2016 full text, Lundahl 2010 full text, Zaki 2014 full text, Weisz et al 2021 full text, Feng and Magen 2016 full text, Castro et al 2018, Itzchakov 2023 loneliness, Itzchakov 2024 depolarization full text, Cameron 2019, Williams 2026 digital empathy meta-analysis, Marini 2019, Rogers Farson 1957 full booklet, Rogers 1952 HBR, Burleson 2003 chapter, Bloom Against Empathy book, Weisz and Zaki 2018, Batson primary papers, Miller Rollnick MI 4th edition, Gordon 1970 PET, Stinson Ickes 1992, Bodie 2014 MTMM, Heyman Slep 2001, Elliott 2018 empathy meta-analysis, Kluger 2021 social relations model, Nickerson 1999, Savitsky 2011 closeness-communication bias, Zee Bolger review, Girme visible support, Feng 2009, Thomas Maio empathy study, Welker 2023, Ren Schaumberg 2024, Mehrabian and Wiener 1967, Mehrabian and Ferris 1967, Silent Messages, Lapakko 1997 full text, Lapakko 2007, Trimboli and Walker 1987, Oxford Reference Mehrabian entry, GAO-14-159 full report, GAO-17-608R, Aamodt and Custer 2006, Jordan et al. 2019 full text, Ambady and Rosenthal 1993, Cuddy Schultz Fosse 2018, Carney Cuddy Yap 2015 reply, Korner Roseler Schutz 2022, Jonas et al. 2017 CRSP, Gronau et al. 2017, Crede 2019, McSweeney 2002 full text, Hall Beyond Culture 1976, Hofstede Culture's Consequences, Gudykunst primary works, 50 Great Myths of Popular Psychology, Luke 2019 Lessons from Pinocchio, Mann et al. 2012 NLP, Levine expert questioning studies, Ekman and Friesen 1971, Chartrand and Bargh 1999 full text, Argyle et al. 1970, Harrigan 2005, Hartwig and Bond 2011 full text, Bond and DePaulo 2008 full text, Porter and ten Brinke 2008 full text, Elkjaer et al. 2022 full text, Elfenbein and Ambady 2002 full text, Gendron et al. 2014 full text, Crivelli et al. 2016 full text, Cowen et al. 2021 full text, Hauch et al. 2016 full text, Levine 2014 TDT full text, Kittler Rygl Mackinnon 2011 full text, Cardon 2008 full text, Fischer and Schwartz 2011 full text, Carney Cuddy Yap 2010 full text, Hale and Hamilton 2016 review full text, Skills for Communicating with Patients 3rd ed, Motivational Interviewing 3rd ed, Never Split the Difference, Beckman and Frankel 1984, Marvel 1999, Gould 2005, DeCou and Schumann 2018, Polihronis 2022, McGuire 2026, Back 2007 Oncotalk, Talevski 2020, Morgan 2018 MHFA meta-analysis, LaCour and Green 2014, Broockman and Kalla 2016, Williams Kemper Hummert 2003, Edmondson 1999, Woolley 2010, Crede and Howardson 2017, Kurtz 2003 Academic Medicine, Dyche 2004, Ten things MI is not 2009, Ryan Hummert Boich 1995, Giles CAT primary, Broockman Kalla Aronow 2015 irregularities, Duhigg 2016, Minson 2024 receptiveness transmission, Essential Partners research archive, HLAA tips, Stuttering Foundation advice, Veterans History Project guidance, Smithsonian Folklife guide, Samaritans difficult conversation tips, NHS suicide page, Mediate.com, CEDR, Joiner interpersonal theory, Klonsky and May three-step theory, Gould ASIST Lifeline evaluation -->
 
 *Stage 1 research, 2026-09-26. Written before any lesson is drafted. Five researchers each worked
 one part of the subject in parallel, in a fresh context, from a shared brief. Part A covers the
@@ -5716,3 +5716,119 @@ elderspeak" on the `unread:` line is cleared by the full-text read below.
 - **Beyond Culture (Hall 1976):** the Internet Archive copies (beyondculture0000hall and
   beyondculture0000hall_t6d8) are access-restricted lending items; search inside returns "Item not
   available". Not read.
+
+## Gate closures, lesson 16 (2026-09-26)
+
+Stage 3 drafting of lesson 16 ("Listening to someone who disagrees with you"). Every source below was
+fetched today with curl and a generic browser User-Agent; no personal data was sent anywhere. Strings
+marked [V] were copied from the extracted text today (PDF curly quotes and apostrophes normalised to
+straight ones where the lesson uses straight ones).
+
+**G3, the Gino integrity check on Yeomans, Minson, Collins, Chen and Gino 2020: closed. No
+correction, retraction or expression of concern found; Yeomans et al. 2020 may be used (decision 17).**
+- **Retraction Watch database**: the full public release as Crossref distributes it
+  (https://gitlab.com/crossref/retraction-watch-data/-/raw/main/retraction_watch.csv, 72,684
+  records, latest notice dated 19 September 2026), searched by DOI and by author. **No record for doi
+  10.1016/j.obhdp.2020.03.011 and no record with Yeomans (this Yeomans) as author.** The database does
+  list notices on other papers with Francesca Gino as a co-author (retractions: PNAS 2012 paper,
+  retracted 2021; two *Psychological Science* papers and one JPSP paper, retracted 2023; a JPSP paper,
+  2024; an OBHDP paper, 2024; an expression of concern on a PSPB paper, 2025). None is this paper.
+  Lesson 16 says nothing about them (decision 17). A search of retractionwatch.com for "Yeomans"
+  returned no posts.
+- **Crossref**, api.crossref.org/v1/works/10.1016/j.obhdp.2020.03.011: no "update-to", "updated-by"
+  or relation entries.
+- **OSF Integrity Audit project** (https://osf.io/rymv8/, "Integrity Audit"; files 2020_integrity.pdf
+  and 2020_reproducibility.pdf), both **read in full**:
+  - *Post-Publication Integrity Report* (checker Nick Beazley-Long, Bristol University; template by
+    Michael Yeomans; compiled 7 October 2024). Every checklist item for Studies 1A, 1B, 2, 3, 4A and
+    4B is "Y" (raw data available; not tampered, with comments; matches OSF; cleaning code available
+    and reproduces the cleaned data). Comment C1: "The raw data available to download from Qualtrics
+    matches the data deposited in OSF except for the last collected entry in Qualtrics." [V]
+  - *Post-Publication Reproducibility Report* (Dr Reny Baykova, University of Sussex, hired as an
+    external consultant by Imperial College London; initial report 3 June 2024, final 12 October
+    2024). Summary table, "Do the analysis code and clean data produce the numbers in the main text?":
+    Study 1 N, Study 2 N, Study 3 N, Study 4 P. Figures: Study 1 N→P, Study 2 N, Study 4 N. Reasons in
+    the comments: rounding not in the code (C1), signs of t-values (C2), last-digit differences (C3),
+    larger numeric differences (C4), unset random seeds (C5a; some seeds later reverse-engineered by
+    the authors, C5b), materials not found (C6a), code errors (C13). For results lesson 16 uses: Study
+    2 partner-rated receptiveness against algorithm, reported β = 0.29, reproduced 0.31 (C4);
+    self-rated dispositional, reported β = −0.08, t = 1.1, p = .275, reproduced −0.09, t = −1.2,
+    p = .232; collaboration predicted by algorithmic receptiveness, reported 0.23, reproduced 0.24;
+    Study 4 algorithm-rated receptiveness t = 7.3 reported, 7.4 reproduced (C3); attrition 17.2% vs
+    12.6% computed in a script whose paths had to be edited (C6b, C13). One Study 2 result the lesson
+    does not use crossed the significance threshold on reproduction (value of disagreement, reported
+    p = .06, reproduced p = .017). "The reproducibility audit also did not cover the reproducibility
+    of the inferential conclusions reported in the paper." [V]
+- **Yeomans et al. 2020 re-read for Studies 2 and 4** (https://receptiveness.net/assets/papers/Conversational.pdf):
+  Study 2: 270 began, 238 analysed (119 dyads), from "a continuing education program for state and
+  local government executives" [V], summers 2017 and 2018; issues were the death penalty, public
+  sector unions and the public reaction to police confrontations; participants were "seated at
+  individual computer terminals so that they could not identify their partner" [V] and discussed
+  "for approximately 20 min" [V] "via an online chat" [V]. Study 4A/4B: responders replied to a
+  statement opposing their own view on one of two social issues; 1,548 MTurk raters, blind to
+  condition, and "raters and responders always held opposing positions on the issue" [V]. Recipe
+  responses "were rated as more persuasive by ideological opponents than responses from the control
+  condition" [V] (standardized β = 0.24); the authors call the result "surprising, both to us and to
+  the participants" [V]; the intervention "was rated as harder to execute in a future interaction
+  with a disagreeing other" [V].
+
+**G11, deep canvassing: closed for Kalla and Broockman 2020; not closed for Broockman and Kalla 2016.**
+- **Kalla, J. L., and Broockman, D. E. (2020)**, APSR 114(2). **Read: the main text of the authors'
+  accepted manuscript** (eScholarship, https://escholarship.org/content/qt4d77v7n9/qt4d77v7n9.pdf,
+  dated 17 November 2019), not the online appendix or scripts. **The unread-line entry "Kalla and
+  Broockman 2020" is cleared by this read** (this append does not edit line 3; the orchestrator
+  should remove it). Design of Experiment 1 (fall 2018, central Tennessee, Fresno and Orange County):
+  7,870 baseline respondents randomised by household to Full Intervention, Abbreviated Intervention
+  (identical but without the exchange of narratives) or a one-minute placebo; 2,374 reached;
+  follow-ups at about 4 days, 30 days and 3 to 6 months. Experiments 2 and 3 (2016; Atlanta,
+  Cleveland, Jacksonville, Scottsdale) on transgender people, door-to-door with video narratives and
+  by phone. Strings [V]: "We define the non-judgmental exchange of narratives as a strategy where an
+  individual attempts to persuade another person by providing to or eliciting from them narratives
+  about relevant personal experiences while non-judgmentally listening to the views they express.";
+  the canvass training told canvassers to "make it clear [to voters] we're not there to judge them
+  and we're curious about their honest experience, whatever it is."; "face-to-face conversations
+  deploying arguments alone had no effects on voters' exclusionary immigration policy or prejudicial
+  attitudes, but otherwise identical conversations also including the non-judgmental exchange of
+  narratives durably reduced exclusionary attitudes for at least four months (d = 0.08)"; "(ds =
+  0.08, 0.04)"; "we do not wish to overstate the substantive size of the effects we estimated";
+  "many social psychologists would traditionally consider effect sizes of the sizes we observed
+  (intent-to-treat effects of d = 0.08 in Experiments 1 and 2 and d = 0.04 in Experiment 3) small";
+  "what consequences would result if both sides of an issue engaged in this strategy, especially in
+  a traditional partisan campaign?"; "no doubt some narratives would fail to persuade on some topics
+  (e.g., as occurred in an experiment on door-to-door canvassing on abortion, reported in Broockman,
+  Kalla and Sekhon 2017, Section 6)" (that paper not read). Effects are intent-to-treat among all who
+  opened the door; complier estimates are larger (Table 1: 0.16 and 0.22 against 0.08 and 0.10).
+  "unauthorized immigrants" is used "because it is considered neutral and is not used by advocates
+  on either side" [V]. The paper cites Paluck (2009, not read) for norms that discourage exclusionary
+  behaviour reducing "the consequences of intergroup prejudice, even though this does not reduce
+  exclusionary attitudes themselves" [V], and says such efforts "may therefore need to balance the
+  value of creating conditions in which individuals do not feel threatened by discussing their
+  attitudes and experiences with those who wish to persuade them" [V]. Funders and partner
+  organisations are listed in the paper's first note (advocacy foundations and community groups).
+- **Broockman and Kalla 2016**: an author PDF exists (ocf.berkeley.edu/~broockma/); downloaded, **not
+  read**. Stays on the unread line; lesson 16 does not describe it.
+- **Retraction Watch, "Science retracts troubled gay canvassing study against LaCour's objections"**
+  (28 May 2015), **re-read in full**. The notice as reproduced [V]: "Science, with the concurrence of
+  author Donald P. Green, is retracting the 12 December 2014 Report"; "(i) Survey incentives were
+  misrepresented."; "(ii) The statement on sponsorship was false."; "independent researchers have
+  noted certain statistical irregularities in the responses"; "LaCour has not produced the original
+  survey data from which someone else could independently confirm the validity of the reported
+  findings."; "Michael J. LaCour does not agree to this Retraction." **Stage 3 note for Part E §6.4:**
+  the page does not name who identified the irregularities; SOURCES' attribution to Broockman, Kalla
+  and Aronow rests on the unread report, and lesson 16 does not repeat it. The Retraction Watch
+  database classifies the retraction's reasons as "Ethical Violations by Author;
+  Falsification/Fabrication of Data; Manipulation of Results" [V]; the lesson gives the notice's
+  wording, not the database's classification.
+
+**Practitioner pages re-read today (all HTTP 200), each quoted string found on the live page:**
+Braver Angels' reconciliation article (the LAPP text, "based on techniques used in couples therapy",
+"Speak for yourself; don't interpret what's going on in the other person's mind."); Braver Angels,
+"What we do": "A small, balanced group of Reds and Blues engage in exercises to help clarify
+disagreements, reduce stereotyped thinking and discover common values." [V]; Essential Partners, "Our
+Method" ("We never ask people to change their views."; founded "by a group of behavioral health
+researchers and practitioners"); Mental Health First Aid US ALGEE page ("Try to be accepting, even if
+you don't agree with what they are saying."); PON listening page ("Acknowledgment doesn't mean
+agreement.").
+
+**G14 (Ren and Schaumberg 2024): not attempted.** Lesson 16 does not use the review's claim that
+disagreement lowers felt listening.
