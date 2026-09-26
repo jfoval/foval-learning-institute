@@ -103,3 +103,46 @@ lesson; `npm run quiz` nothing for this lesson.
 **Status after review:** needs second pass, targeted at R1 to R4 (R1 is a safety correction): the GB
 motorway boundary sentence and its footnote, the Rule 123 reading and should line in the law section
 and step 1, and the Toyota reading, the Binghamton answer and Q3.
+
+## Second pass (2026-09-26)
+**Reviewer:** one fresh-context reviewer, targeted at R1 to R4, then every other fix. Primaries re-read
+today with curl (generic browser User-Agent): GOV.UK content API for Rules 274 to 287 (2021-09-14),
+103 to 158 (2023-09-17) and 226 to 237; C&U reg 107 on legislation.gov.uk; Toyota OM02568U p. 46 from
+the PDF; NHTSA Heatstroke capture 20260924021947 and winter tips capture 20260812080428;
+fueleconomy.gov and National Highways' snow page live.
+
+**Checked and holding.**
+- R1: Rule 277's "DO NOT return to your vehicle even if it's raining, cold or dark" matches (the page
+  has a curly apostrophe), sits under "Additional rules for motorways (rules 277 to 278)", and is
+  "DO NOT" wording, so "which is advice" is right. Nothing in the body, the Binghamton answer, the quiz
+  or the checkpoints tells a reader in Great Britain to stay in a car on a motorway or fast road.
+  National Highways' snow page has no stay-in-the-car advice, so "no UK official advice for a car stuck
+  in snow anywhere else" holds.
+- R2 and R3: Rule 123's MUST line and should line match; the exceptions are traffic and diagnosing
+  faults; reg 107's "not attended by a person licensed to drive it" matches. Both readings labelled;
+  lesson 12 quotes the rule in full and describes reg 107, as claimed.
+- R4: Toyota's snow line is verbatim under "When parking" on p. 46. The body reading is labelled and
+  scoped to the US; the Binghamton answer has the 911 call and First Aid lesson 15; Q3's key and
+  explanation match.
+- NHTSA's "does little" is right at all five places (Q4, Q5, the predict, Annex 6 paragraph,
+  misconception); the capture reads "does little".
+- The cuts: no chain law, no "US" winter law, chains carry no job label; headings and misconceptions
+  match the content. R5 to R23 all present as recorded. fueleconomy.gov's full sentence re-read live.
+- Quiz: each explanation read against its options. Keys 3,1,2,0,2 checked by script against lessons 01
+  to 14 and 16 to 19 on disk: no identical sequence, no value shift, no shared run of four.
+- No em dashes or spaced en dashes; callout byte-identical to `CAR_BASICS_SAFETY` (node string match).
+  `npm run minutes`: 90 (6,861 body words). `npm run quotes car-basics`: no miss in this lesson.
+
+**One-edit fixes applied.**
+1. Objective 3 said Toyota's handbook says what to do "when stranded"; its line is a parking line (R4).
+   Now "what NHTSA and the CDC say to do when stranded in snow, and where Toyota's handbook differs".
+2. Q3's stem now carries "On this course's reading" (decision 22 keeps the label in the test).
+3. Step 1 said the law's second part is "unsettled" for defrosting, which implies a legal dispute the
+   course didn't read. Now "a question this course can't answer".
+4. The Binghamton answer's handbook step now carries "on this course's reading".
+5. National Highways' kit was "a similar UK list"; it runs England's roads (decision 2). Now "a similar
+   list for its roads".
+6. The idling misconception's short-spells advice is now "on NHTSA's advice for the US", so it can't
+   reach a car on a motorway in Great Britain.
+
+**Verdict: CLEAN.**

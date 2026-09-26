@@ -10,8 +10,8 @@ objectives:
     State, as general information, which parts of the Highway Code's Rule 229 on clearing a car are
     law in Great Britain and which are advice, and apply Rule 123 to leaving a car running to defrost
   - >-
-    Explain how a snow-blocked exhaust poisons the people in a stationary car, and set out what NHTSA,
-    the CDC and Toyota's handbook say to do when stranded in snow, including where they differ
+    Explain how a snow-blocked exhaust poisons the people in a stationary car, and set out what NHTSA
+    and the CDC say to do when stranded in snow, and where Toyota's handbook differs
   - >-
     Explain, from NHTSA's figures and AAA's and the Highway Code's advice, why a parked car is no place
     for a child or an animal whatever the windows and the shade, and plan the habits NHTSA gives against the two ways it happens
@@ -52,7 +52,7 @@ quiz:
   - q: >-
       A driver's handbook says not to leave the engine running where it is snowing. A US government
       winter page says that when stranded you may run the engine in short spells with the exhaust
-      clear. Which governs for this driver's car?
+      clear. On this course's reading, which governs for this driver's car?
     options:
       - The government page, because a federal regulator always outranks any carmaker's handbook
       - Neither of them, because the two disagree and so neither one can be relied on at all
@@ -263,8 +263,8 @@ nothing on what counts as attending. The second part is about running an engine 
 stationary on a public road. The Code names only standing in traffic and diagnosing faults as times it's
 permissible, and this course read nothing that says whether defrosting is one. The rule's advice, its should line, is clear,
 though: "Generally, if the vehicle is stationary and is likely to remain so for more than a couple of
-minutes, you should apply the parking brake and switch off the engine".[10] So the law's second part is
-unsettled for defrosting, and the Code's advice is not. Twenty minutes of standing is a switched-off
+minutes, you should apply the parking brake and switch off the engine".[10] So how the law's second part
+applies to defrosting is a question this course can't answer, and the Code's advice is not in doubt. Twenty minutes of standing is a switched-off
 engine and a scraper.
 
 **Step 2: the glass.** Rule 229's first MUST is all snow and ice from all windows: the windscreen, the
@@ -354,8 +354,8 @@ advice this course read, for the US.
 NHTSA's kit list for the car is the practical side of staying put: "a snow shovel, broom, and ice
 scraper;" "abrasive material (sand or kitty litter), in case your vehicle gets stuck in the snow;"
 "blankets for protection from the cold; and" "a cell phone and charger, water, food, and any necessary
-medicine."[5] National Highways, which runs England's motorways and major A roads, gives a similar UK
-list, and its first advice is to "Check the weather forecast. If snow or ice is expected, consider
+medicine."[5] National Highways, which runs England's motorways and major A roads, gives a similar
+list for its roads, and its first advice is to "Check the weather forecast. If snow or ice is expected, consider
 delaying your journey until it clears."[15]
 
 ### A night near Binghamton
@@ -367,7 +367,7 @@ the roads are cleared in the morning.
 
 :::predict Before opening this: set out what the two adults should do through the night, in order, from the sources in this section. What's the danger this section is about, and would they notice it coming?
 
-First, the call has been made, so the car is now their shelter: NHTSA says "Stay with your car and don't overexert yourself." Before the engine runs again, one of them clears the snow from the exhaust pipe (the rear is buried, which is exactly the report's four-year-old's situation). The car's handbook comes next: if it says not to run the engine where it is snowing, as Toyota's does, they don't, and they rely on blankets and clothing. If it does not, they follow NHTSA: run the engine only in short spells to warm up, not for long with the windows up, and clear the pipe again before each spell, because the snow is still falling. They make the car visible, with something bright on the aerial and the dome light on. If the cold itself becomes the danger, that's an emergency: they call 911 again, and what cold does to a person is First Aid lesson 15's. The danger this section is about is carbon monoxide from a pipe that has filled again, and they would not know: the CDC says it is odourless and colourless, and the grandmother in the report noticed only that she felt dizzy and lightheaded. What its signs are, and what to do, is First Aid lesson 14's.
+First, the call has been made, so the car is now their shelter: NHTSA says "Stay with your car and don't overexert yourself." Before the engine runs again, one of them clears the snow from the exhaust pipe (the rear is buried, which is exactly the report's four-year-old's situation). The car's handbook comes next, on this course's reading: if it says not to run the engine where it is snowing, as Toyota's does, they don't, and they rely on blankets and clothing. If it does not, they follow NHTSA: run the engine only in short spells to warm up, not for long with the windows up, and clear the pipe again before each spell, because the snow is still falling. They make the car visible, with something bright on the aerial and the dome light on. If the cold itself becomes the danger, that's an emergency: they call 911 again, and what cold does to a person is First Aid lesson 15's. The danger this section is about is carbon monoxide from a pipe that has filled again, and they would not know: the CDC says it is odourless and colourless, and the grandmother in the report noticed only that she felt dizzy and lightheaded. What its signs are, and what to do, is First Aid lesson 14's.
 :::
 
 ## Getting the car ready for summer
@@ -460,7 +460,7 @@ is why the autumn test in the checkpoint above comes before the cold rather than
 little to change the interior temperature of the vehicle."
 
 **"Idling in the snow to keep warm is fine."** Only with the exhaust clear and only in short spells, on
-NHTSA's advice, and not at all if your handbook says otherwise. The CDC's report is about people who
+NHTSA's advice for the US, and not at all if your handbook says otherwise. The CDC's report is about people who
 did exactly that with the pipe blocked.
 
 **"A peephole in the ice will do."** In Great Britain, Rule 229's MUST covers all your windows. The
