@@ -6439,7 +6439,8 @@ the `unread:` line.
   [V] "Do not leave the engine running in an area with snow build-up, or where it is snowing. If
   snowbanks build up around the vehicle while the engine is running, exhaust gases may collect and enter
   the vehicle." [V] "If the vehicle is in a poorly ventilated area or a closed area, such as a garage,
-  stop the engine." [V]
+  stop the engine." [V] "If you smell exhaust gases in the vehicle even when the trunk lid is closed, open the
+  windows and have the vehicle inspected at your Toyota dealer as soon as possible." [V]
 - **Caltrans, "Winter Driving Tips"** (live), read in full: "You must stop and put on chains when
   highway signs indicate chains are required. You can be cited by the California Highway Patrol and
   fined if you don't." [V] "The speed limit when chains are required is 25 or 30 miles an hour." [V]
