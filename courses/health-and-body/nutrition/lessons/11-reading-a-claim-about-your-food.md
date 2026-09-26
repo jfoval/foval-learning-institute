@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your food
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/nutrition/11-reading-a-claim-about-your-food.mp3
 objectives:
   - >-
     Sort a claim about food with the institute's questions, asking "instead of what?" first, and
