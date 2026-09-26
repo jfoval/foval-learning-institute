@@ -1406,7 +1406,8 @@ woman as people at risk across the course (decision 7), and no place name is reu
   illustration only (D §3.1). **Escape**: England and Wales, a factor, not a duty (s.76(6A)); Scotland,
   violence as "a last resort" and a safe escape "is the course he should have taken", except in defence
   of another; New York, retreat before deadly force outside your dwelling "with complete personal
-  safety"; Florida, no duty for someone lawfully present and not engaged in criminal activity; Texas,
+  safety", and only where the other person is using or about to use deadly force (§35.15(2)(a); the
+  crimes in 2(b) and 2(c) carry no retreat clause; Stage 4 note, lesson 13); Florida, no duty for someone lawfully present and not engaged in criminal activity; Texas,
   the fact-finder "may not consider" a failure to retreat; the NCSL's "at least 31 states" and its
   cautions; teach the categories, not a count (D §4.5). **Escape first in practice everywhere**: even
   NRA Women's page: "if you are able to leave a situation without having to use force, I highly

@@ -3245,7 +3245,7 @@ reading.
 
 ### 3. Primary sources: Scotland
 
-#### 3.1 Judicial Institute for Scotland, *Jury Manual* (PDF version of 3 September 2024, chapter "Self-Defence", pp. 44.3 to 45.3, read in full)
+#### 3.1 Judicial Institute for Scotland, *Jury Manual* (PDF version of 3 September 2024, chapter "Self-Defence", pp. 45.1 to 45.5 by the PDF's own page footers, read in full; Stage 4 note, lesson 13: first written as pp. 44.3 to 45.3, which is the Provocation chapter's end)
 This is the model direction Scottish judges give juries, the most authoritative free statement of
 Scots self-defence law. Scots law is common law: **s.76 does not apply**, and there is no
 householder rule. Differences from England that a lesson must show:
@@ -3274,6 +3274,12 @@ householder rule. Differences from England that a lesson must show:
    moment of attack". [V]
 5. Revenge excluded: "if he acted in revenge, retaliation or anger, that would be a criminal assault,
    not self-defence." [V]
+6. **No flat aggressor rule** (Stage 4 note, lesson 13; wording in "Gate closures, lesson 13"). Para 7:
+   "It is not accurate to say that a person who kills someone in a quarrel which he himself started,
+   by provoking it or entering into it willingly, cannot plead self-defence if his victim then
+   retaliates." [V] The quarrel direction (pp. 45.4 to 45.5): "So, self-defence can be claimed by the
+   original attacker or the person attacked. Whether or not it can be claimed successfully depends on
+   the circumstances." [V]
 
 **Secondary:** crime.scot (a Scottish criminal-defence practitioner's blog, read in full, 944 words)
 summarises Doherty (1954 JC 1) in the same three conditions and gives a lay example: "if someone
@@ -3294,10 +3300,12 @@ The MPC is not law anywhere by itself but shaped many state codes and is what US
   for the purpose of protecting himself against the use of unlawful force by such other person on
   the present occasion." [V]
 - §3.04(2)(b): deadly force only if "necessary to protect himself against death, serious bodily
-  harm, kidnapping or sexual intercourse compelled by force or threat"; and not if "the actor knows
+  injury, kidnapping or sexual intercourse compelled by force or threat"; and not if "the actor knows
   that he can avoid the necessity of using such force with complete safety by retreating", except
   "the actor is not obliged to retreat from his dwelling or place of work, unless he was the initial
-  aggressor". [V] That is duty to retreat plus castle doctrine in one clause.
+  aggressor". [V] That is duty to retreat plus castle doctrine in one clause. (Stage 4 note, lesson
+  13: first written "serious bodily harm"; the text says "serious bodily injury", checked in the ALI
+  *Official Draft and Explanatory Notes* (1985) copy at legal-tools.org.)
 - §3.09(2): the MPC's belief test is subjective, but a reckless or negligent belief removes the
   justification for offences of recklessness or negligence. [V] Useful for a footnote on how US
   jurisdictions differ on "reasonable belief"; most state statutes (below) say "reasonably
@@ -3305,7 +3313,8 @@ The MPC is not law anywhere by itself but shaped many state codes and is what US
 - §3.06(3)(d): deadly force to protect property is allowed only against someone dispossessing the
   actor of his dwelling, or committing "arson, burglary, robbery or other felonious theft or property
   destruction" who has used or threatened deadly force, or where lesser force would expose the actor
-  "to substantial danger of serious bodily harm". [V]
+  "to substantial danger of serious bodily injury". [V] (Stage 4 note, lesson 13: first written
+  "bodily harm".)
 
 #### 4.2 Florida Statutes ch. 776 (the 2026 Florida Statutes, leg.state.fl.us, read in full)
 The model stand-your-ground statute (2005).
@@ -3322,7 +3331,9 @@ The model stand-your-ground statute (2005).
 - §776.032(1): immunity "from criminal prosecution and civil action", where "criminal prosecution"
   "includes arresting, detaining in custody, and charging or prosecuting". [V]
 - §776.041: not available to someone committing a forcible felony, or (with exceptions) the initial
-  aggressor.
+  aggressor. (Stage 4 note, lesson 13: the forcible-felony exclusion, (1), has no way back; only the
+  provoker, (2), has the two exceptions. §776.012(1), force short of deadly force with no duty to
+  retreat, and §776.08's list are in "Gate closures, lesson 13".)
 
 #### 4.3 New York Penal Law §35.15 (nysenate.gov, revision of 2024-09-06, read via browser)
 A duty-to-retreat state, for contrast.
@@ -3334,6 +3345,15 @@ A duty-to-retreat state, for contrast.
   personal safety, to oneself and others he or she may avoid the necessity of so doing by
   retreating; except that the actor is under no duty to retreat if he or she is: (i) in his or her
   dwelling and not the initial aggressor". [V]
+- (Stage 4 note, lesson 13.) The retreat duty is only in subdivision 2(a), where the other person
+  "is using or about to use deadly physical force". 2(b) allows deadly force against "a kidnapping,
+  forcible rape, forcible aggravated sexual abuse, a crime formerly defined in section 130.50 of this
+  chapter by force, or robbery" [V], and 2(c) against a burglary as §35.20 allows, with no retreat
+  clause in either. Subdivision 1 has three exclusions, not one: (a) "The latter's conduct was
+  provoked by the actor with intent to cause physical injury to another person" [V], with no
+  withdrawal exception; (b) the initial aggressor, with the withdrawal exception above; (c) "The
+  physical force involved is the product of a combat by agreement not specifically authorized by
+  law." [V] Re-read in a browser, 25 September 2026.
 
 #### 4.4 Texas Penal Code ch. 9 (statutes.capitol.texas.gov, read via browser)
 Worth one paragraph because it is the best-known exception to the rule that you may not kill to
@@ -3407,12 +3427,18 @@ use) and mention that opponents call them "shoot-first".
 (updated January 29, 2026; read the summary, findings and the in-depth section). RAND grades
 evidence as "inconclusive, limited, moderate, or supportive" [V], supportive being the strongest:
 "There is supportive evidence that stand-your-ground laws increase total and firearm homicides." [V]
-Of the higher-quality homicide studies, "six ... found effects consistent with stand-your-ground laws
-increasing homicides; two of those studies showed statistically significant increases and one found
-a suggestive effect." [V] Defensive gun use, mass shootings, police shootings, suicide: all
+RAND's full sentence (Stage 4 note, lesson 13: first written with an elision that hid that these are
+all six higher-quality studies of fifteen): "Homicides: Fifteen studies evaluated the relationship
+between stand-your-ground laws and homicides or murders. The six higher-quality studies found effects
+consistent with stand-your-ground laws increasing homicides; two of those studies showed
+statistically significant increases and one found a suggestive effect." [V] Defensive gun use, mass shootings, police shootings, suicide: all
 "inconclusive". RAND adds a limit that matters for fairness: most studies consider "only state
 statutes, not case law", so comparison groups may include states that already had SYG by case law.
-[V] **Classification for a lesson:** state RAND's grading as RAND's, attributed ("RAND's review rates
+[V] (Stage 4 note, lesson 13: RAND writes "almost all research we have reviewed", and its next
+sentence gives the counterpoint, that statutes may affect behaviour differently from case law; it
+also says the ideal analyses would separate criminal violence from self-defence. Both [V] in "Gate
+closures, lesson 13". Give the limit with its counterpoint, and the deterrence and escalation
+mechanisms both in RAND's conditional voice.) **Classification for a lesson:** state RAND's grading as RAND's, attributed ("RAND's review rates
 the evidence ... as supportive"), not as settled fact in the course's voice, and give the
 proponents' deterrence argument alongside. Also note what SYG does *not* change: the defender must
 still reasonably believe deadly force necessary (Florida §776.012, NRA Women's list of elements).
@@ -5318,3 +5344,105 @@ a browser user agent; RAINN not re-fetched, read by Reviewer F in a browser the 
 - VictimConnect: [V] "We can only talk, text, or chat with you if you are currently physically safe."
 
 - RAINN home page (browser): [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español. Call 800.656.HOPE (4673)"
+
+## Gate closures, lesson 13 (2026-09-25)
+
+From lesson 13's Stage 4 review (Reviewer F, primaries fetched 2026-09-25 into the review's
+scratchpad: CJIA 2008 s.76 and CLA 1967 ss.3 and 11 on legislation.gov.uk; the CPS guidance at
+capture 20240723174716; the Jury Manual PDF of 3 September 2024; the MPC from the ALI's *Official
+Draft and Explanatory Notes* (1985) at legal-tools.org; Florida ch. 776 (2026); NY Penal Law §35.15
+(revision of 2024-09-06, browser); Texas Penal Code ch. 9 (browser); NCSL; NRA Women (Deering);
+NRA-ILA; Giffords; RAND's stand-your-ground and methodology pages; the CPS/NPCC householder leaflet;
+GOV.UK "Being arrested: your rights"). Reviewer F's 56 strings below were script-checked against
+those copies, 56 of 56 found (curly quotes normalised; the Jury Manual's footnote digits and page
+footers removed). The fixer re-fetched Florida ch. 776 and CLA 1967 s.11 by curl and re-read NY
+§35.15 and Texas ch. 9 in a browser on 25 September 2026; every string below from those four was
+found, and the fixer's seven additions at the end come from the same reads (the CPS line from
+Reviewer F's copy of the capture).
+
+### Corrections (also noted in place)
+- **Part D §3.1:** the chapter is pp. 45.1 to 45.5 by the PDF's footers (44.x is Provocation); the law
+  paragraphs are 45.1 to 45.2, the model direction 45.2 to 45.4, the quarrel direction 45.4 to 45.5.
+  Scotland has **no flat aggressor rule** (para 7 and the quarrel direction, below).
+- **Part D §4.1:** MPC §3.04(2)(b) and §3.06(3)(d) say "serious bodily injury", not "harm". The copy
+  read is the ALI's 1985 *Official Draft and Explanatory Notes*, which prints the text adopted in 1962.
+- **Part D §4.2:** §776.041(1) (someone committing a forcible felony) has no way back; only (2) has
+  the withdrawal and exhausted-escape exceptions. §776.032(1) gives immunity from arrest, prosecution
+  and civil action to someone whose force the chapter justifies: never write that stand your ground
+  removes "only" the duty to retreat in Florida.
+- **Part D §4.3 and OUTLINE lesson 13:** New York's retreat duty is only in §35.15(2)(a); (2)(b) and
+  (2)(c) carry no retreat clause. §35.15(1) has three exclusions, and (1)(a), provocation with intent
+  to injure, has no way back.
+- **Part D §5.1:** RAND's homicide sentence is given whole (all six higher-quality studies of
+  fifteen). RAND writes "almost all research we have reviewed", adds a counterpoint to its case-law
+  limit, says ideal analyses would separate criminal violence from self-defence, and states the
+  deterrence mechanism conditionally ("if a deterrent effect exists").
+- **s.76 amendment extent:** the notes say "(E.W. or in so far as this provision applies in relation
+  to service offences)", and the same holds for (2)(aa), (10)(a)(ia) and words in (6), (8) and (9).
+- **CLA 1967 Part I** does not extend to Scotland or Northern Ireland (s.11(1)).
+
+### Verbatim block
+
+- CJIA 2008 s.76 (legislation.gov.uk): [V] "76Reasonable force for purposes of self-defence etc.E+W+N.I." (heading as extracted)
+- s.76(2)(b): [V] "the defences provided by section 3(1) of the Criminal Law Act 1967 (c. 58) or section 3(1) of the Criminal Law Act (Northern Ireland) 1967 (c. 18 (N.I.)) (use of force in prevention of crime or making arrest)."
+- s.76(10)(b): [V] "references to self-defence include acting in defence of another person; and"
+- s.76 note F5: [V] "S. 76(6A) inserted (E.W. or in so far as this provision applies in relation to service offences) (14.5.2013) by Legal Aid, Sentencing and Punishment of Offenders Act 2012"
+- s.76 note F3: [V] "S. 76(5A) inserted (E.W. or in so far as this provision applies in relation to service offences) (25.4.2013) by Crime and Courts Act 2013"
+- s.76 note F2: [V] "S. 76(2)(aa) inserted (E.W. or in so far as this provision applies in relation to service offences) (14.5.2013)"
+- s.76(7)(b): [V] "that evidence of a person's having only done what the person honestly and instinctively thought was necessary for a legitimate purpose constitutes strong evidence that only reasonable action was taken by that person for that purpose."
+- CLA 1967 s.3(1): [V] "A person may use such force as is reasonable in the circumstances in the prevention of crime, or in effecting or assisting in the lawful arrest of offenders or suspected offenders or of persons unlawfully at large." (s.11(1): Part I "shall not extend to Scotland or to Northern Ireland")
+- CPS guidance, capture 20240723174716: [V] "Section 76(7) sets out two considerations that should be taken into account when deciding whether the force used was reasonable. Both are adopted from existing case law."
+- CPS: [V] "This section adopts almost precisely the words of Lord Morris in (Palmer v R [1971] AC 814)"
+- CPS: [V] "The mere fact that a defendant went somewhere to exact revenge from the victim did not of itself rule out the possibility that in any violence that ensued, self defence was necessarily unavailable as a defence."
+- CPS: [V] "However, where the defendant initially sought the confrontation (R v Balogun [2000] 1 Archbold News 3)"
+- CPS (Balogun as quoted): [V] "A man who is attacked or believes that he is about to be attacked may use such force as is both necessary and reasonable in order to defend himself."
+- CPS: [V] "It is not necessary that the defendant demonstrates by walking away that he does not want to engage in physical violence: (R v Bird 81 Cr App R 110)."
+- Jury Manual (PDF 3 Sept 2024), Self-Defence chapter pp. 45.1 to 45.5; para 4a (p. 45.2): [V] "Where an accused alleges that he had acted in defence of a third party, no question of avoiding the attack by escaping the scene can arise, since that is inconsistent with intervention on another's behalf."
+- Jury Manual para 7 (p. 45.2): [V] "It is not accurate to say that a person who kills someone in a quarrel which he himself started, by provoking it or entering into it willingly, cannot plead self-defence if his victim then retaliates."
+- Model direction (p. 45.3): [V] "(That applies also if it is a friend or relative who is in danger.)"
+- Model direction (p. 45.3): [V] "The danger must be immediate, not in the future."
+- Model direction (p. 45.3): [V] "The accused can only use violence as a last resort. If there were other ways he could reasonably have avoided the attack, he should have taken them."
+- Model direction (p. 45.4): [V] "If he went beyond what you thought was reasonable force, if a defensive act became an offensive one, he would be guilty of assault."
+- Model direction, where weapon used (p. 45.4): [V] "Normally striking someone with a fist would not justify retaliating with a knife because there is no real proportion between a blow with a fist and retaliation with a knife."
+- Model direction (p. 45.4): [V] "In applying these tests, you have to allow for fear, and the heat of the moment. Do not judge the accused's actions too finely."
+- Quarrel direction (pp. 45.4 to 45.5): [V] "So, self-defence can be claimed by the original attacker or the person attacked. Whether or not it can be claimed successfully depends on the circumstances."
+- MPC, ALI *Official Draft and Explanatory Notes* (1985), legal-tools.org/doc/08d77d: [V] "MODEL PENAL CODE OFFICIAL DRAFT AND EXPLANATORY NOTES Complete Text of Model Penal Code as Adopted at the 1962 Annual Meeting of The American Law Institute"
+- MPC §3.04(2)(b): [V] "The use of deadly force is not justifiable under this Section unless the actor believes that such force is necessary to protect himself against death, serious bodily injury, kidnapping or sexual intercourse compelled by force or threat"
+- MPC §3.04(2)(b)(ii)(A): [V] "the actor is not obliged to retreat from his dwelling or place of work, unless he was the initial aggressor or is assailed in his place of work by another person whose place of work the actor knows it to be"
+- MPC §3.06(3)(d): [V] "substantial danger of serious bodily injury"
+- Florida Statutes 2026 §776.012(1): [V] "A person is justified in using or threatening to use force, except deadly force, against another when and to the extent that the person reasonably believes that such conduct is necessary to defend himself or herself or another against the other's imminent use of unlawful force. A person who uses or threatens to use force in accordance with this subsection does not have a duty to retreat before using or threatening to use such force."
+- §776.041(2)(b): [V] "In good faith, the person withdraws from physical contact with the assailant and indicates clearly to the assailant that he or she desires to withdraw and terminate the use or threatened use of force, but the assailant continues or resumes the use or threatened use of force."
+- §776.032(1): [V] "is justified in such conduct and is immune from criminal prosecution and civil action for the use or threatened use of such force"
+- NY Penal Law §35.15 (rev. 2024-09-06, browser), (1)(a): [V] "(a) The latter's conduct was provoked by the actor with intent to cause physical injury to another person; or"
+- §35.15(1)(c): [V] "(c) The physical force involved is the product of a combat by agreement not specifically authorized by law."
+- §35.15(2)(b): [V] "He or she reasonably believes that such other person is committing or attempting to commit a kidnapping, forcible rape, forcible aggravated sexual abuse, a crime formerly defined in section 130.50 of this chapter by force, or robbery"
+- Texas Penal Code §9.31(a) (browser): [V] "a person is justified in using force against another when and to the degree the actor reasonably believes the force is immediately necessary to protect the actor against the other's use or attempted use of unlawful force."
+- §9.31(b)(1): [V] "(1) in response to verbal provocation alone;"
+- §9.31(b)(4)(A): [V] "the actor abandons the encounter, or clearly communicates to the other his intent to do so reasonably believing he cannot safely abandon the encounter;"
+- §9.31(f): [V] "For purposes of Subsection (a), in determining whether an actor described by Subsection (e) reasonably believed that the use of force was necessary, a finder of fact may not consider whether the actor failed to retreat."
+- RAND SYG (updated January 29, 2026): [V] "Given the availability of the traditional self-defense doctrine for situations in which safe retreat is not possible, stand-your-ground laws primarily apply when an individual could safely retreat from an attack or when the availability of safe retreat is ambiguous."
+- RAND: [V] "By reducing the threshold for the justified use of lethal force for self-protection, stand-your-ground laws could increase defensive gun use and, if a deterrent effect exists, may reduce rates of crime and violence."
+- RAND: [V] "Alternatively, by lowering the legal risks of using deadly force, these laws could escalate aggressive encounters, resulting in more firearm homicides or injuries."
+- RAND: [V] "Because almost all research we have reviewed considers only state statutes, not case law, existing studies may inadvertently include states with practically similar stand-your-ground policies in both their treated groups"
+- RAND: [V] "It is possible, however, that stand-your-ground statutes have different effects on public behavior than case law, in which case the focus on statutes might be justified."
+- RAND: [V] "the ideal analyses would distinguish between the effects on criminal violence and the effects on violence committed in self-defense."
+- RAND: [V] "Homicides: Fifteen studies evaluated the relationship between stand-your-ground laws and homicides or murders. The six higher-quality studies found effects consistent with stand-your-ground laws increasing homicides; two of those studies showed statistically significant increases and one found a suggestive effect."
+- RAND: [V] "yet our data infrastructure to measure defensive gun use is extremely weak."
+- RAND: [V] "As of January 1, 2025, 35 states had stand-your-ground statutes or statutes that expand castle doctrine to apply beyond the home." (a fourth count; not for a lesson)
+- RAND Methodology: [V] "Supportive evidence. This designation was made when at least three studies not compromised by serious methodological weaknesses found suggestive or significant effects in the same direction using at least two independent data sets."
+- CPS/NPCC householder leaflet ("Revised 2018"): [V] "However, you are still allowed to use reasonable force to recover your property and make a citizen's arrest."
+- Leaflet: [V] "A rugby tackle or a single blow would probably be reasonable."
+- Deering, NRA Women (June 28, 2024): [V] "But if you live in a Stand Your Ground state, the choice is yours."
+- Deering: [V] "It's important to understand that while Stand Your Ground laws remove any obligation to retreat, you are still required to meet the other elements of self-defense before you're legally justified to use deadly force"
+- Deering: [V] "It can even help your legal defense later if you can prove you tried to retreat before you resorted to lethal force."
+- Giffords Law Center, SYG page: [V] "As a result, these laws encourage the escalation of violence in everyday conflicts."
+- Giffords: [V] "tying the hands of law enforcement and depriving victims of remedies by providing blanket immunity from criminal prosecution and civil lawsuits to individuals who claim they were acting in self-defense."
+- Giffords: [V] "In many cases, the race of the attacker and victim are highly significant factors in whether an attack is determined to be justified."
+- GOV.UK "Being arrested: your rights" (updated 2025-01-23): [V] "The law on being arrested is different in Scotland, different in Northern Ireland, or if you're arrested abroad." ("Legal advice at the police station": [V] "You have the right to free legal advice if you are questioned by the police.")
+- MPC §3.11(2) (fixer, legal-tools copy): [V] "\"deadly force\" means force that the actor uses with the purpose of causing or that he knows to create a substantial risk of causing death or serious bodily injury."
+- Texas Penal Code §9.01(3) (fixer, browser, chapter 9 page): [V] "\"Deadly force\" means force that is intended or known by the actor to cause, or in the manner of its use or intended use is capable of causing, death or serious bodily injury."
+- Florida §776.06(1) (fixer, curl): [V] "As applied to a law enforcement officer or correctional officer acting in the performance of his or her official duties, the term “deadly force” means force that is likely to cause death or great bodily harm" (the chapter's only definition of deadly force; it is for officers)
+- Florida §776.08 (fixer, curl): [V] "“Forcible felony” means treason; murder; manslaughter; sexual battery; carjacking; home-invasion robbery; robbery; burglary; arson; kidnapping; aggravated assault; aggravated battery; aggravated stalking; aircraft piracy; unlawful throwing, placing, or discharging of a destructive device or bomb; and any other felony which involves the use or threat of physical force or violence against any individual."
+- Florida §776.041(1) (fixer, curl): [V] "Is attempting to commit, committing, or escaping after the commission of, a forcible felony; or"
+- Florida §776.032(1) (fixer, curl): [V] "includes arresting, detaining in custody, and charging or prosecuting"
+- CPS guidance, capture 20240723174716 (fixer, from Reviewer F's copy): [V] "the more unreasonable the belief, the less likely it is that the court will accept it was honestly held."

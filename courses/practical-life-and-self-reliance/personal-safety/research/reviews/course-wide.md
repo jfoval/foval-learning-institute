@@ -315,3 +315,32 @@
   was rewritten so it names no assault before the note).
 - **Quiz keys:** lesson 12 is 0,3,1,0,2,1 (unchanged). Lesson 13's fixer should recheck under the
   lesson 12 rule against lessons 1 to 12.
+
+## 2026-09-25 — from lesson 13's Stage 4 fix
+
+- **SOURCES Part D §3.1, §4.1, §4.2, §4.3 and §5.1 corrected** (Stage 4 notes in place; lines in
+  "Gate closures, lesson 13"). Lesson 14 and any script on lessons 13 or 14 must not say: that the
+  MPC says "serious bodily harm" (§3.04(2)(b) and §3.06(3)(d) say "injury"); that New York's retreat
+  duty covers every use of deadly force (only 2(a), against deadly force; robbery, kidnapping,
+  forcible rape and burglary under 2(b) and 2(c) carry no retreat clause); that every US aggressor
+  rule has a way back (NY (1)(a) and Florida §776.041(1) have none); that Scotland bars whoever
+  started a quarrel (para 7 and the quarrel direction say the opposite); that stand your ground in
+  Florida removes "only" the duty to retreat (§776.032(1) immunity); or the Jury Manual's pages as
+  44.3 to 45.3 (45.1 to 45.5).
+- **Deadly force has a sourced gloss now**: MPC §3.11(2) (quoted) and Texas §9.01(3); New York's
+  §10.00 unread; Florida's chapter defines it only for officers (§776.06). Lesson 14 can point back
+  to lesson 13's paragraph rather than define it again.
+- **Neutrality on stand your ground is by parallel structure**: equal space for each side in its own
+  words (Giffords' escalation and immunity lines, not only "stepping away"), RAND's mechanisms both in
+  RAND's conditional voice, and any link the course draws between a side and the law drawn for both
+  sides and labelled as the course's. Lesson 14's castle-doctrine and carrying sections should keep
+  the same shape.
+- **The label (decision 9) in a law-heavy lesson**: once in the intro, at the top of each H2 that
+  states law, once per table, and in the exercise; not in H3s under a labelled H2, hidden answers or
+  quiz explanations (the quiz stem says "as general information"). Lesson 13 went from 25 to 12.
+  Lesson 14 could follow it; the "Course conventions" line could record it.
+- **Escape rules in scenarios**: a law lesson has to test escape with an escape available. Say
+  once that the way out is there because the law asks about it, not because anyone who didn't take
+  it is to blame, and write scenarios without "instead".
+- **Quiz keys:** lesson 13 is now 2,1,3,0,3,1. Lesson 14's fixer should rerun the check against
+  lessons 1 to 13 (lesson 12's keys were read as 0,3,1,0,2,1 while its fixer was at work).
