@@ -30,14 +30,14 @@ quiz:
   # --- A DPF light with the tank low (L3) ---
   - q: >-
       A diesel estate in Alnwick, England, has done nothing but short runs for weeks, and its amber
-      DPF light comes on. The fuel gauge shows about a fifth of a tank, and the handbook says to
-      drive at a steady speed for a while. A dual carriageway with a 60 mph limit starts a mile
+      DPF light comes on. The fuel gauge shows about a fifth of a tank, and the handbook's page on
+      the light allows a steady run. A dual carriageway with a 60 mph limit starts a mile
       away, with a filling station on the way. On the AA's and the RAC's advice, what comes first?
     options:
-      - The run now, as ten minutes above 40 mph clears the light whatever the fuel level
-      - A forced regeneration at a dealer, since short trips mean a run can't clear it
+      - The run now, as ten minutes above 40 mph clears the light at this fuel level
+      - A forced regeneration at a dealer, since short trips mean a run can't clear the filter
       - Fill up first, as under about a quarter of a tank can stop it; only then the run
-      - Nothing yet, as the car starts its own regeneration once the tank is nearly dry
+      - Wait, as the car starts its own regeneration once the tank is nearly dry
     answer: 2
     explain: >-
       The AA says a fuel level "generally less than a quarter of a tank" will "prevent active
@@ -48,50 +48,48 @@ quiz:
       a steady run. A forced regeneration is for the car the AA describes in restricted performance
       mode, when "Driving at speed alone won't be enough"; a light after short trips is the case the
       run is for. The run is yours, on conditions (the handbook, enough fuel, a suitable road); a
-      light that won't clear is a garage's. Both the AA and the RAC sell breakdown cover and repairs.
+      light that won't clear is Call someone. Both the AA and the RAC sell breakdown cover and repairs.
 
-  # --- A full hybrid that won't wake (L4) ---
+  # --- What charges a hybrid's 12 V battery (L4) ---
   - q: >-
-      A full hybrid with no charging socket has stood on a drive in Tenby, Wales, for a month. The
-      owner presses the start button and the screens stay dark. He says the hybrid battery was
-      nearly full when he parked, so a battery can't be the problem. On the sources lesson 4 read,
-      what's the likeliest explanation?
+      A full hybrid with no charging socket, in Tenby, Wales, is about to set off on a long run. Its
+      owner says the engine's alternator will top up the 12 V battery on the way, as it did in his old
+      petrol car. On the sources lesson 4 read, what typically recharges a hybrid's 12 V battery?
     options:
-      - The traction battery after all, since in a hybrid it's the one that starts the car
-      - No battery, as it needs plugging in at home overnight to wake its hybrid system
-      - The traction battery, which a jump start from another car's leads would bring back
-      - The 12 V battery, which in a hybrid starts the car before the big one is engaged
+      - An alternator on the engine, as in a petrol car, charging it while the engine runs
+      - A mains charger clipped onto the 12 V battery at home, since the car has no socket
+      - Nothing while driving, so only a jump start from another car can top it up
+      - Typically a DC-DC converter, stepping the big battery's voltage down, says NHTSA
     answer: 3
     explain: >-
-      AFDC says that in a hybrid "the low-voltage auxiliary battery provides electricity to start the
-      car before the traction battery is engaged", so on this course's reading a hybrid with a flat
-      12 V battery may not start however full its traction battery is, and the AA lists "The car
-      hasn't been used for a while" among the commonest reasons for a dead battery. The traction
-      battery isn't what starts it, on AFDC's account. A full hybrid "cannot be plugged in to charge the battery", AFDC says, so
-      there's no socket to use. And NHTSA says "The high-voltage battery found in EVs and HEVs cannot
-      be jumped"; it's the 12 V battery that in most cases can, by the handbook's method (lesson 13),
-      and anything on the high-voltage side is Call someone.
+      NHTSA: "Typically, fully electric and many hybrid-electric vehicles do not use a conventional
+      alternator to recharge the 12-volt battery. Instead, these vehicles use a DC-DC converter to
+      step high-voltage from the battery pack down to low-voltage". It says "many", not all, so the
+      handbook for his car is what says how his car does it. No source lesson 4 read gives a mains
+      charger as the way a hybrid keeps its 12 V battery up, and a jump start (lesson 13) is for a
+      flat battery, by the handbook's method, not the routine charge. Nothing on the high-voltage side
+      is touched: the converter is the car's own, and anything on that side is Call someone.
 
-  # --- A charge light, and whose handbook governs (L5) ---
+  # --- A LEAF's charge light, and no alternator (L5) ---
   - q: >-
-      On a drive home in Muncie, the charge warning light on a 2023 Toyota Corolla sold in the US
-      comes on and stays on. The driver remembers that a friend's Ford Maverick handbook says only
-      to have the car checked as soon as possible. What does the Corolla's own handbook tell him?
+      In Kalispell, the 12 V charge warning light on a 2024 Nissan LEAF sold in the US comes on while
+      the car is in READY and stays on. The driver says an electric car has no alternator, so the
+      light can't mean anything. What does Nissan's handbook say?
     options:
-      - Carry on home and have it checked soon, as Ford's Maverick handbook says for its light
-      - Fit a new 12 V battery first, since the light means the battery itself has failed
-      - Stop in a safe place right away and contact a Toyota dealer, as its handbook says
-      - Wait and see, since the light is the bulb check a car runs when it's switched on
+      - Carry on, since with no alternator the light can't be reporting a charging fault
+      - Stop and plug in, since the light means the Li-ion battery is running out of range
+      - Stop in a safe place right away and have the system checked, as its handbook says
+      - Fit a new 12 V battery first, since the light means that battery itself has failed
     answer: 2
     explain: >-
-      Toyota's handbook for the 2023 Corolla says: "Immediately stop the vehicle in a safe place and
-      contact your Toyota dealer." Ford's "Have your vehicle checked as soon as possible." is Ford's,
-      for its truck, and two makers giving different instructions for the same light is exactly why
-      the handbook for the car in front of you governs. AAA's Mountain West club, which sells roadside
-      assistance, says a battery light "doesn't usually mean you need (just) a battery". And the bulb
-      check is a light that comes on at switch-on and goes out (Ford: "It illuminates when you switch
-      the ignition on."), not one that comes on while driving and stays on. Stopping somewhere safe is
-      yours; the cause is Call someone.
+      Nissan's handbook for the 2024 LEAF sold in the US: "Immediately stop the vehicle in a safe
+      location and have the system checked." The light is for the converter's job. NHTSA says such
+      cars "use a DC-DC converter" in place of a conventional alternator, and Nissan says that when
+      the light stays on in the ready state, "The DC/DC converter system may not be functioning
+      properly". So no alternator is no reason to ignore it. The range gauge reports the Li-ion
+      battery; this light is the 12 V side's. And it doesn't name a new battery as the fix: AAA, whose
+      clubs sell roadside assistance and run a repair network, says a battery light "doesn't usually
+      mean you need (just) a battery". Stopping somewhere safe is yours; the cause is Call someone.
 
   # --- A red brake light that isn't the parking brake (L6) ---
   - q: >-
@@ -123,7 +121,7 @@ quiz:
       minutes?
     options:
       - 19.5 psi, since the trigger is 25 per cent below the placard, whatever the tyre
-      - 23 psi, since that is the floor Table 1 of the standard sets for any car's tyre
+      - 23 psi, since that is the floor Table 1 of the standard sets for passenger tyres
       - 20 psi, since Table 1's floor for these tyres is higher than 25 per cent under
       - 13 psi, since the standard only requires the light once half the air has gone
     answer: 2
@@ -158,8 +156,8 @@ quiz:
       itself impose requirements on any person". The only federal tread rule this course found that
       binds a driver is 49 CFR 393.75, for commercial vehicles, but Part 570's figure does cover cars,
       for states that inspect. Between inspections, the DMV's page says New York's vehicles must be in
-      "safe operating condition whenever they are driven". The argument over replacing tyres above the
-      legal floor (lesson 8) is a separate question, and this item takes no side in it.
+      "safe operating condition whenever they are driven". NHTSA's advice, for any car in the US, is
+      that tyres "are not safe and should be replaced" at 2/32 inch; that's advice, not law.
 
   # --- A silent petrol engine is not an off engine (L9) ---
   - q: >-
@@ -175,8 +173,8 @@ quiz:
     answer: 3
     explain: >-
       Ford prints the same warning for the petrol truck's Auto-Start-Stop as for the hybrid: apply
-      the parking brake, shift into park, switch the ignition off and remove the key before the hood
-      is opened, because "If you do not switch the ignition off, the engine could restart at any
+      the parking brake, shift into park, switch the ignition off and remove the key before the bonnet
+      (hood) is opened, because "If you do not switch the ignition off, the engine could restart at any
       time." A silent car is not an off car, petrol included. For the dipstick, Ford says to check
       before starting, or "switch the engine off after warm up and wait 15 minutes for the oil to drain
       into the oil pan", since "Checking the oil level too soon could result in an inaccurate reading."
@@ -223,8 +221,9 @@ quiz:
       light is on then you should stop as soon as safely possible and switch off the engine." If the
       level is fine, it says "the oil pump may be faulty", and it advises calling for recovery if you
       have breakdown cover, "as driving any further could damage the engine." Topping up past the
-      maximum mark is a harm of its own: the AA says too much oil is "just as bad" as too little,
-      and Ford that above the maximum "may cause engine damage". A good level is the RAC's reason for suspecting the
+      maximum mark is a harm of its own: the AA, which also sells breakdown cover and repairs, says
+      too much oil is "just as bad" as too little, and Ford, in its Maverick handbook, that above the
+      maximum "may cause engine damage". A good level is the RAC's reason for suspecting the
       pump, not the light. And its route of waiting and driving on is for the temperature light, not
       this one. Stopping and reading the level are yours; the cause is Call someone.
 
@@ -298,9 +297,10 @@ quiz:
   - q: >-
       As general information: on a frosty morning in Galashiels, Scotland, a driver clears the ice
       from every window but leaves frost over the headlamps and the rear number plate, and a layer of
-      snow on the bonnet. Against the Highway Code's Rule 229, what's left undone?
+      snow on the bonnet. Which of Rule 229's lines does she still have to meet, and which of them
+      are MUSTs?
     options:
-      - Nothing in law, since Rule 229's only MUST is the one about clearing the windows
+      - The snow line alone, as Rule 229's one MUST is about clearing the windows
       - Two MUSTs, since removing snow from the bonnet is a legal duty just as the lights are
       - Advice only, since lamps and plates are left to the MOT rather than to Rule 229
       - A MUST on the lamps and plate; advice on the snow that might slide off the bonnet
@@ -314,26 +314,29 @@ quiz:
       the Traffic Acts". The MOT is a yearly test, and Rule 229 is about every winter drive. Clearing
       the car is yours.
 
-  # --- A warning triangle on an ordinary road (L16) ---
+  # --- A breakdown in fog on an ordinary road (L16) ---
   - q: >-
-      As general information: in daylight on a straight B-road near Machynlleth, Wales, a car breaks
-      down with two wheels on the carriageway and a wide, firm verge beside it. The driver has a
-      warning triangle. Which describes the Highway Code's Rule 276 on the triangle?
+      As general information: on a foggy afternoon on a straight road near Llanidloes, Wales, a car
+      breaks down partly in its lane, with a firm verge beside it. The driver has a warning triangle
+      and a reflective vest. Which describes the Highway Code's Rule 276 for this stop?
     options:
-      - A MUST, at least 45 metres behind, since Rule 276 is the Code's law on breakdowns
-      - Advice, at least 45 metres behind on the same side, and placed with great care
-      - Advice, 45 metres ahead of the car and facing oncoming traffic on the far side
-      - None needed, since under Rule 116 a stopped car's hazard lights take its place
+      - "A MUST in fog: the triangle 45 metres back, as Rule 276 turns to law in poor visibility"
+      - "Advice only: hazards and sidelights on, a reflective vest, triangle 45 m back with care"
+      - Advice, but a reflective vest is for night, so the driver can leave it in the boot
+      - Nothing more, since Rule 116 makes hazard lights a MUST for any car stopped in fog
     answer: 1
     explain: >-
-      Rule 276 says to "put a warning triangle on the road at least 45 metres (147 feet) behind your
-      broken-down vehicle on the same side of the road", to "take great care when placing or
-      retrieving them", and never to use them on motorways. None of its lines uses MUST, and the
-      Code's introduction marks legal requirements with "MUST/MUST NOT", so it's advice. Rule 116's
-      MUST NOT is about hazard lights while driving; stopped, they "may be used" when the car is
-      obstructing traffic, and nothing read says they replace a triangle. This course read nothing on
-      whether the law requires a car to carry one. Placing it is yours, on conditions: an ordinary
-      road, great care, and nobody standing between the car and oncoming traffic.
+      None of Rule 276's lines uses MUST, and the Code's introduction marks legal requirements with
+      "MUST/MUST NOT", so every step here is advice, fog or no fog. A car partly in its lane is in the
+      way, and the rule advises hazard lights "if your vehicle is causing an obstruction"; "if
+      possible, keep your sidelights on if it is dark or visibility is poor"; "reflective clothing at
+      night or in poor visibility", so fog calls for the vest by day; and the triangle "at least 45
+      metres (147 feet) behind" on the same side, with "Always take great care when placing or
+      retrieving them". Rule 116's MUST NOT is about hazard lights while driving; stopped, they "may
+      be used" when the car is obstructing traffic, which makes them advice, not a duty. This course
+      read nothing on whether the law requires a car to carry a triangle. Placing it is yours, on
+      conditions: an ordinary road, great care, and nobody standing between the car and oncoming
+      traffic.
 
   # --- A narrow shoulder on a California freeway (L17) ---
   - q: >-
@@ -351,37 +354,40 @@ quiz:
       The handbook's default is "Stay inside your vehicle with your seat belt on until help arrives",
       but it names cases where it's "safer to get out of your vehicle and stay away": "Not enough space
       on the shoulder.", "A guardrail." and "An area for you to safely stay away from freeway lanes."
-      Two of those hold here, and any one is enough; a guardrail is only one of them. "Exit on the
+      One of those plainly holds here, not enough space, and any one is enough; on this course's
+      reading the open ground may meet the third as well. A guardrail is only one of them. "Exit on the
       right side so you are away from traffic". The list's "Return to your vehicle as soon as you can"
       is, on this course's reading, the default case's step; where an exception applies, staying away
       governs until help arrives. Behind the car is where a struck car goes, and AAA Club Alliance,
-      whose clubs sell roadside assistance, gives at least 40 feet from it. These are US steps for a US
+      whose clubs sell roadside assistance and run a repair network, gives at least 40 feet from it. These are US steps for a US
       road; 911 is for an emergency.
 
   # --- A space saver, and regulation 27(3) (L18) ---
   - q: >-
       As general information: a car's rear tyre goes flat as its driver pulls into a village hall car
       park near Oswestry, England: firm, level tarmac, away from the road, in daylight. The car
-      carries a space saver, a jack and a handbook with the method. The nearest tyre fitter is along
-      a 60 mph A-road. Which fits the sources, and regulation 27(3) of the Construction and Use
-      Regulations?
+      carries a space saver, a jack, a wheel chock and a handbook with the method. The nearest tyre
+      fitter is along a 60 mph A-road. Which fits the sources, and regulation 27(3) of the
+      Construction and Use Regulations?
     options:
       - Call someone, since regulation 27(3) bars a space saver from any road over 50 mph
       - Change it; the handbook's limit then applies, and 27(3)'s exemption ends above 50
       - Change it; 27(3) then holds her to 50 mph, whatever lower figure her handbook gives
-      - Change it; 27(3) is silent on speed, so the handbook alone governs the drive there
+      - Seal it rather than change it, since a sealed tyre can take the 60 mph road there
     answer: 1
     explain: >-
       Every condition for a wheel change holds: not a motorway or other fast road, off the road,
-      firm and level, the car's own kit and a handbook with the method, and nobody between the car and
-      traffic. So it's yours, on conditions. Regulation 27(3) says the unsuitable-tyre rule "does not
+      firm and level, the car's own kit, chock included, and a handbook with the method, and nobody
+      between the car and traffic. So it's yours, on conditions. Regulation 27(3) says the unsuitable-tyre rule "does not
       prohibit the use on a road of a passenger vehicle (not being a bus) by reason only of the fact
       that a wheel of the vehicle is fitted with a temporary use spare tyre, unless the vehicle is
       driven at a speed exceeding 50 mph." That's an exemption that ends above 50 mph: not a ban on
-      faster roads, not a speed limit for the car, and not silence. The handbook's own limit sits
-      beside it and may be the same or lower, and where it's stricter it's the one to follow. The
-      spare is for getting to the fitter: Mazda says
-      "VERY short periods", Honda "Replace with a full-size tire as soon as possible".
+      faster roads and not a speed limit for the car. The handbook's own limit sits beside it and
+      may be the same or lower, and where it's stricter it's the one to follow. A sealant kit
+      wouldn't buy the faster road either: each kit read has you drive below 50 mph (80 km/h) to
+      spread the sealant, and Nissan says its sealant "cannot permanently seal a punctured tire". The
+      spare is for getting to the fitter: Mazda says "VERY short periods", Honda "Replace with a
+      full-size tire as soon as possible".
 
   # --- What ends a wheel change (L19) ---
   - q: >-
@@ -390,7 +396,7 @@ quiz:
       the boot; and her passenger is waiting in the car. One nut on the flat wheel is a locking nut,
       and its key isn't in the car. On this course's reading, which of these ends the wheel change?
     options:
-      - The missing locking-nut key, which no handbook read covers, so it's Call someone
+      - The missing locking-nut key, which the handbooks read don't cover, so Call someone
       - The passenger in the car, since a car with anyone in it can never be jacked up
       - The car sitting in P, which Mazda says won't hold a car on its jack without chocks
       - Nothing, since a longer bar on the brace will free the locking nut once it's raised
@@ -413,7 +419,7 @@ quiz:
       and didn't know. On the Road Traffic Act 1988, Schedule 2 and section 48 of the Road Traffic
       Offenders Act 1988, which fits?
     options:
-      - Section 42, with no points, since the cut is in the sidewall, not in the tread itself
+      - Section 42, without points, since the cut is in the sidewall, not in the tread itself
       - Section 41A, with 3 points; s.48 lifts them only if she proves no cause to suspect
       - Section 41A, but s.48 is a defence that clears her if she says she didn't know
       - Section 40A only, since cord showing is a danger of injury in the Act's own words
@@ -456,23 +462,25 @@ quiz:
       whether periodic safety inspection reduces crashes. On GAO's 2015 account of why the question
       is hard, which would do most to settle it?
     options:
-      - Crash data from thorough vehicle exams, by state, with inspection and without
+      - Crash data from thorough vehicle exams, for every state, with inspection and without
       - Another count of cars that fail and are repaired, like Pennsylvania's 529,000 in 2014
-      - A survey of the officials who run the programmes, on whether their programmes work
+      - Police crash reports from states that ended inspection, before and after the change
       - A list of what modern cars' onboard diagnostics watch, since that settles it
     answer: 0
     explain: >-
       GAO found the research "remains inconclusive", and said why: component failure is "a factor in
       about 2 to 7 percent of crashes", there's "no comprehensive database for all police reported
-      crashes in the United States", the national sample "is not set up to be representative at the
-      state level", and, as some literature and safety advocate organisations told GAO, police
-      officers "often do not have the time and resources to conduct a thorough vehicle check". On
-      this course's reading of those gaps, data that fills them, representative state by state and
-      with other causes of crashes controlled for, is what would test the question. Pennsylvania's count shows defects found and fixed, not crashes prevented. The
-      officials' view is one side's case, as GAO reports it. The Texas sponsors' claim that onboard
-      systems "can detect any potential issues" would need its own test, a count of inspection
-      defects the car had already flagged, and wouldn't measure crashes either. None of this says
-      which side is right.
+      crashes in the United States", and the national sample "is not set up to be representative at
+      the state level". On this course's reading of those gaps, data that fills them, from thorough
+      vehicle exams, representative state by state and with other causes of crashes controlled for,
+      is what would test the question. Police reports are the data GAO found wanting: as some
+      literature and safety advocate organisations told GAO, officers "often do not have the time and
+      resources to conduct a thorough vehicle check", and GAO said its own before-and-after look at
+      two states that dropped inspection "does not provide sufficient evidence to conclude that
+      inspection programs did not have an effect on crash rates". Pennsylvania's count shows defects
+      found and fixed, not crashes prevented. The Texas sponsors' claim that onboard systems "can
+      detect any potential issues" would need its own test, a count of inspection defects the car had
+      already flagged, and wouldn't measure crashes either. None of this says which side is right.
 
   # --- A "Stop Drive" recall letter, UK (L23) ---
   - q: >-
@@ -483,18 +491,20 @@ quiz:
       - Driving on gently is fine meanwhile, since the delay in the repair is the dealer's
       - The code isn't law, its own text says, so its Stop Drive wording sets her no limit
       - A current MOT shows the car is fit, so the notice only matters on the repair date
-      - The code's Stop Drive row says the car must not be driven, and GOV.UK says so too
+      - The code's Stop Drive row says the car must not be driven; GOV.UK's line fits too
     answer: 3
     explain: >-
       DVSA's code describes a "Safety Recall (Stop Drive)" as: "The definition of a safety defect is
       met, and there is an immediate threat to safety so the vehicle must not be driven." GOV.UK: "If
       your vehicle has a serious safety defect, the manufacturer will write to you to tell you what to
-      do. You must not drive the vehicle." A wait for a slot changes neither. The code's line that it
+      do. You must not drive the vehicle." GOV.UK's page doesn't say which recalls that sentence
+      covers; on this course's reading it goes with the letter, and this letter is a Stop Drive. A
+      wait for a slot changes neither. The code's line that it
       "is not an interpretation or reframing of the law" describes what the code is; nothing read
       turns it into leave to drive a stop-drive car, and GOV.UK adds that you're legally responsible
       for a vehicle that is "safe to drive whenever you drive it". An MOT records one day. On this
-      course's reading she asks the maker and the dealer how the repair will be arranged; the repair
-      is Call someone.
+      course's reading she doesn't drive it, and asks the maker and the dealer how the repair will be
+      arranged; the repair is Call someone.
 
   # --- An extended warranty, an independent garage, UK (L24) ---
   - q: >-
@@ -512,32 +522,35 @@ quiz:
       The CMA's guidance says a warranty, "whether standard or extended", that makes cover depend on
       dealer-only servicing is "likely to be caught by the Chapter I prohibition"; and, at 5.39, that
       where an extended warranty is sold "years after the purchase of the vehicle", independent
-      garages seem less likely to be shut out "even if" it carries servicing restrictions. Which? notes
-      that some extended warranties require a main dealer. So, on this course's reading, the terms she
-      bought matter, and the guidance promises nothing either way. It speaks of "the consumer's right"
-      without creating one, and this course read no UK statute giving one. 16 CFR 700.10 is US law.
-      The FTC's "not a warranty as defined by federal law" is US law too; The Motor Ombudsman's code
-      calls such cover a warranty. Reading the booklet and asking for the refusal in writing is yours.
+      garages seem less likely to be shut out "even if" it carries servicing restrictions. Which?,
+      which earns commission from some retailer links, notes that some extended warranties require a
+      main dealer. So, on this course's reading, the terms she bought matter, and the guidance
+      promises nothing either way. It speaks of "the consumer's right" without creating one, and this
+      course read no UK consumer statute on the point. 16 CFR 700.10 is US law. The FTC's "not a
+      warranty as defined by federal law" is US law too; The Motor Ombudsman's code (it is funded by
+      the garages it accredits) calls such cover a warranty. Reading the booklet and asking for the refusal in writing is yours.
 
-  # --- A small estimate in Michigan (L25) ---
+  # --- A customer who asked to be consulted, Michigan (L25) ---
   - q: >-
-      As general information: a shop in Traverse City, Michigan, gives a written estimate of $90 for a
-      small repair. The customer signs no waiver and doesn't ask to be consulted, and the shop doesn't
-      ask again. Under MCL 257.1332 as read, what's the most it may charge?
+      As general information: a shop in Traverse City, Michigan, gives a written estimate of $400. No
+      waiver is signed, and when she leaves the car the customer asks to be phoned before anything over
+      the estimate. The shop doesn't phone and bills $430. Under MCL 257.1332 as read, what's the most
+      it may charge without her consent?
     options:
-      - $99, as the lesser of 10% or $50 is only $9 on an estimate of $90
-      - $100, since the allowance is the greater of $10 or 10%, up to $50
-      - $140, as Michigan lets a shop add $50 to any written estimate
-      - $90, since no Michigan shop may go over an estimate without consent
+      - $400, since she asked to be consulted, which removes the allowance
+      - $440, since the lesser of 10% or $50 is $40 on an estimate of $400
+      - $450, since Michigan lets a shop add $50 to a written estimate
+      - $430, since the bill is within 10 per cent of the estimate anyway
     answer: 0
     explain: >-
       Michigan: if no waiver is signed "and the estimated price is exceeded by not more than 10% or
       $50.00, whichever is lesser, the facility is not required to obtain the written or oral consent
-      of the customer for the excess charge unless specifically requested by the customer." Ten per
-      cent of $90 is $9, less than $50, so $99 (this course's arithmetic). The greater of $10 or 10%,
-      capped at $50, is Florida's rule, and it would give $100: the two states part only below $100.
-      $50 over is Michigan's cap only from $500 up, and allowing nothing is California's and New
-      York's rule. Whose rule is it? Law, Michigan's, as general information. Checking a bill against
+      of the customer for the excess charge unless specifically requested by the customer." She
+      asked, so on this course's reading of those words the allowance without consent doesn't reach
+      this bill, and $400 is the most. Had she not asked, 10 per cent of $400 is $40, less than $50,
+      so the most would have been $440 (this course's arithmetic), and $430 would have been within
+      it; her request is what takes that away. $50 over is Michigan's cap only from $500 up. Whose
+      rule is it? Law, Michigan's, as general information. Checking a bill against
       it, and keeping every estimate and invoice, is yours. If the shop won't settle, the FTC's routes
       are the state's Attorney General or a local consumer protection agency, or small claims court.
 ---
@@ -558,9 +571,10 @@ This course is education, not mechanical training, and not legal advice about yo
 :::
 
 Every question puts you with a car the lessons didn't visit: a new town, a new fault, a new set of
-numbers. The people and cars are invented, and so are any handbook figures a question gives "for this
-question"; the rules, handbook lines, advice and findings in the explanations are the real ones the
-lessons read, each with its source and the place and car it covers.
+numbers. The people are invented, and so are any handbook figures a question gives "for this
+question"; the cars named by maker and model are real, and the rules, handbook lines, advice and
+findings in the explanations are the real ones the lessons read, each with its source and the place
+and car it covers.
 
 Where the advice differs between Great Britain and the US, the question names the place, and that
 place's advice is the one to answer by. A question on the law opens with the words as general
