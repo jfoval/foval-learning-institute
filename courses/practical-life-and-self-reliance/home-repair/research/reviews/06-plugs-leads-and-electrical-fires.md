@@ -146,3 +146,58 @@ says, and the lead predict and exercise step 2 were rebuilt without a load sum. 
 should read the law H2 against SI 2020/312 regs 2 and 3 and Schedule 1, the warning-signs section
 and kitchen checkpoint against ESF's three pages, the new predict and exercise against decision 1
 and ESF's sockets page, and quiz items 1, 4, 5 and 6.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** a fresh-context second-pass reviewer, reading the fixed lesson against primaries
+fetched live on 25 September 2026 with curl (browser User-Agent) and pandoc: SI 2020/312 reg 2,
+reg 3 and Schedule 1 on legislation.gov.uk (no outstanding effects; as amended by SI 2025/1043);
+ESF's plugs and fuses, socket-outlets, FAQ and home-buyers pages; GOV.UK "Fire safety in the home"
+(still Home Office, "Applies to England", updated 25 May 2022); the saved NFPA PDF (all six pages).
+
+**Checked and correct.** Every first-pass fix (R1 to R22) reads as the resolutions say. The law H2:
+"specified tenancy" (reg 2), before the tenancy commences (3(1)(c)), "at intervals of no more than
+5 years" or the report's earlier date (3(2)), existing tenants within 28 days (3(3)(b)), new tenants
+before they occupy (3(3)(e)(i)), and all eight live Schedule 1 exclusions (paras 2 to 9; para 1
+omitted in 2025). ESF's 13A list in exercise step 2 matches the plugs page word for word; the 700 to
+3,000 watt guide, the lead-rating sentence, the no-lead-into-lead rule, the cable-reel lines, the
+"Check plugs and sockets" pair (on both the plugs and sockets pages), the FAQ's registered-electrician
+sentence, the home-buyers crackling line and survey line, and GOV.UK's wiring-signs sentence all
+string-match. NFPA's 32,620, 430, 68%, 23% and 52%, and 80% contributing factor, match; no page of the
+six attributes any fire to DIY or to who did the work. The exercise's limit contains decision 1's
+words exactly ("open a consumer unit, panel, socket or fitting, or use a volt stick or tester on
+anything"), and adds the plug and the damaged-socket rule. Nothing reads as a wiring step: the only
+hands-on task is a same-rating plug fuse change with the plug out of the socket, inside decision 7's
+list, and "This course does not teach wiring a plug" stands. Quiz 1, 4, 5 and 6: each key is right on
+the primaries, each explanation matches its key, and the distractors are wrong for the reasons given.
+Keys 1,3,2,1,2,0 checked by script against lessons 01 to 08 on disk: all four positions, no adjacent
+repeat, not identical to or a pure shift of any, no shared run of four at offsets 0 or ±1. Option
+spreads 4, 3, 2, 4, 2, 2. No em dash; the only en dash is inside NFPA's quoted "2015–2019"; the FAQ's
+spaced hyphens are ESF's own punctuation inside the quotation.
+
+**Findings:**
+- S1 [minor, fixed] The lead predict said "Lesson 5 made the wider point: the breaker in the box is
+  there mainly for the house's wiring, not for whatever lead you've plugged into it." Lesson 5 gives
+  CPSC's "primarily to prevent the home wiring system from causing a fire" and contrasts the wiring
+  with the person, never with a lead. Now: "Lesson 5 gave CPSC's wider point: the breakers and fuses
+  in the box are there mainly for the house's wiring, and the lead has its own rating."
+- S2 [minor, fixed] "a tenancy ... that pays rent": reg 2(b) is a tenancy that "provides for payment
+  of rent (whether or not a market rent)". Now "that provides for rent to be paid".
+- S3 [minor, not fixed, note only] Schedule 1 para 3(3): a tenancy that either party can end before
+  7 years does not count as "7 years or more". The lesson's "a tenancy for a term of 7 years or more"
+  omits this, and SOURCES' Stage 4 note does not record para 3(3), so it is not added here. A later
+  fixer may add it after a SOURCES note; the section's general-information label and "This course
+  teaches no tenancy law beyond that" carry the reader meanwhile.
+- S4 [minor, not fixed, note only] The kitchen checkpoint puts a hot kettle plug on the appliance's
+  side by the course's split, while GOV.UK lists "hot plugs and sockets" among signs of dangerous or
+  loose wiring. The checkpoint says "on this course's split" and both finds end at **Call someone**,
+  so nothing unsafe follows; a later edit could note GOV.UK's reading beside it.
+- S5 [minor, not fixed, note only] Source 8's read level is "key findings and the first two pages",
+  but the body and quiz 6 say "the report attributes none of them to DIY". This pass read all six
+  pages and the statement holds; SOURCES D37's read level could be raised to the whole report when
+  SOURCES is next edited.
+
+After the two fixes: `npm run minutes` 65 (unchanged); `npm run quotes home-repair` 0 not found;
+`npm run validate` exit 0, no line naming this file.
+
+**Verdict:** CLEAN.

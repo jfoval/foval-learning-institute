@@ -211,8 +211,8 @@ on extension cords.
 No. "Nothing has tripped or blown yet" is not one of ESF's tests. Its test is the total of what is
 plugged in against the rating marked on the lead, and two appliances ESF's guide would fuse at 13A,
 sharing a lead rated 10A, is the case to check before you use them together: with ESF's socket
-overload calculator, or the makers' instructions.[1][3] Lesson 5 made the wider point: the breaker
-in the box is there mainly for the house's wiring, not for whatever lead you've plugged into it.
+overload calculator, or the makers' instructions.[1][3] Lesson 5 gave CPSC's wider point: the breakers
+and fuses in the box are there mainly for the house's wiring, and the lead has its own rating.
 :::
 
 ## The warning signs
@@ -269,7 +269,7 @@ residential premises" a copy of the report "within 28 days of the inspection and
 give a new tenant a copy before that tenant moves in.[5]
 
 A specified tenancy, in the Regulations, is a tenancy of a home in England that is the tenant's only
-or main residence, that pays rent, and that is not on the list of exclusions in Schedule 1. That
+or main residence, that provides for rent to be paid, and that is not on the list of exclusions in Schedule 1. That
 list covers a tenant who shares a toilet, washing facilities, a kitchen or a living room with the
 landlord or a member of the landlord's family; a long lease, or a tenancy for a term of 7 years or
 more; student halls of residence; hostels and refuges; care homes; hospitals and hospices; some
