@@ -75,7 +75,7 @@ quiz:
       rating a recorded "sure" in reply to a request. They were tested in one language group, and
       the authors themselves say 600 ms isn't an absolute value; where the line falls in other
       languages, or in other kinds of talk, wasn't measured. The finding was about a delayed yes, so
-      "only about no" is wrong, and nothing in it came from an international survey.
+      the option calling it a delayed "no" is wrong, and nothing in it came from an international survey.
   - q: >-
       An app promises to "train you to reply faster so people feel closer to you", citing a study
       of students' conversations. Suppose the study is like the one this lesson described. What's
@@ -367,8 +367,8 @@ talk, the other what to do when someone may not have finished.
 ## What people get wrong
 
 **"Any pause means no."** A long delay makes an unwelcome answer likelier, but most refusals in the
-phone recordings came without one, and a pause of a few hundred milliseconds mostly signals a "yes,
-but", not a "no".[3]
+phone recordings came without one, and after a pause of a few hundred milliseconds the likelier
+thing is a hedged reply of either kind, such as a "yes, but", not necessarily a "no".[3]
 
 **"A hedged refusal is dishonest."** Delay, a preface, an appreciation and an account are the usual
 shape of a refusal in recorded talk (about three in four in one count).[3][4] The person using them

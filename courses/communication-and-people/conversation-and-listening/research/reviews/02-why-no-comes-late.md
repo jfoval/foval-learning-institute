@@ -132,3 +132,51 @@ script today against lessons 01 (2,3,1,2,1,0), 03 (2,3,0,1,2,0), 04 (1,0,2,3,0,2
 Teodor, Ximena, Senna, Iolo (quiz); Birgit, Emrys, Casimir, Hollis (body); unchanged.
 
 **Status after review:** clean.
+
+## Targeted re-check (2026-09-26)
+
+Fresh context. Read the reviewer's findings, the fixer's resolutions and `git diff 7fcfb28~1 7fcfb28`
+on the lesson. Primaries re-fetched live today with curl (generic browser User-Agent, no personal
+data): Roberts and Francis 2013 (the Internet Archive capture named in the gate closure), Kendrick and
+Torreira 2015 (White Rose PDF, pdftotext), Templeton et al. 2022 (PMC8794835), and Pomerantz 1984
+(author's PDF; page image 20 re-OCR'd with tesseract at 200 dpi).
+
+**Findings.** R1 to R20 are all resolved in the text. "sure" is used throughout, the Purdue sample,
+classroom setting and both author caveats are in, the 2011 study is two-sided and called earlier, the
+four "lesson 1 showed" lines now claim only average gaps, flat rejections are in, Emrys is "he", and
+the Pomerantz silence sentence is paraphrased and labelled where the course extends it.
+
+**New and changed lines against the live primaries.** Every quotation and figure the fix added
+string-matches: "sure" as the response token; 380 undergraduates, "recruited by classroom", "a group
+of friends"; both scope sentences; the 2011 "regardless of language background", "something
+basically perceptual" and "only three silence conditions"; flat rejections n = 18 against normal
+n = 54, modes of about -50 and 325 ms, and overlap "1.8% vs. 33.3%, respectively" (normal then
+flat); the >300 ms sentence; the cook extract labelled "JS:II:48 (Pomerantz 1984:77)"; Templeton's
+"However..." sentence and n = 450 on Mechanical Turk (the page prints "( n = 450)", so the gate's
+string differs only in that spacing); Pomerantz p. 94, which matches the gate closure word for word.
+Nothing in SOURCES.md needed correcting.
+
+**Sums, by hand.** 54 + 18 = 72 dispreferreds; 18/72 = 25%, so "about three in four" cushioned;
+72/195 = 36.9%, the lesson's 37%. A third of flat rejections in overlap: 33.3% of 18 = 6. Quiz 1's
+new explanation, "among replies that come this late, refusals outnumber acceptances": the 25% and
+8.9% are shares of each group, so in counts 25% of 72 = 18 against 8.9% of 123 = about 11. It holds.
+
+**Two one-edit fixes made here.**
+- "What people get wrong", first item: "a pause of a few hundred milliseconds mostly signals a "yes,
+  but", not a "no"" put a claim about rejections on a result about format. Kendrick and Torreira
+  found that after 300 ms preferred formats drop to 41.6%, for acceptances and rejections alike. Now
+  "after a pause of a few hundred milliseconds the likelier thing is a hedged reply of either kind,
+  such as a "yes, but", not necessarily a "no"", which matches the body.
+- Quiz 4's explanation quoted "only about no", which isn't in any option (the class of slip R12 fixed
+  in quiz 3). It's now "the option calling it a delayed "no"". This was there before the fix.
+
+**Quiz.** Keys 1,0,3,2,3,0, unchanged. Option-length spreads 4, 5, 6, 3, 6, 8. One correction to the
+fixer's measures: quiz 3's key (81) is also the sole shortest, by 1 character, not only quiz 6's. A
+1-character gap gives no signal. Each explanation re-read against its key, and each rules out its
+distractors.
+
+No em dashes and no spaced en dashes. `npm run quotes conversation-and-listening`: 70 of 70 found.
+`npm run minutes`: 75 declared, 80 measured, inside precision. `npm run validate` exits 0, and no line
+names this lesson.
+
+**Verdict: SETTLED.**
