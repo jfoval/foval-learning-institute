@@ -8077,3 +8077,330 @@ the content API. Nothing here clears an entry on the `unread:` line. No earlier 
   and investigate the problem, as you could have a serious fault." [V] No MUST in the line.
 - **GOV.UK (DVLA), "Penalty points (endorsements)"**, re-read: CU20's description in full is as Part C
   §3 records it, including "(excluding brakes, steering or tyres)" [V]. Lesson 20 no longer trims it.
+
+## Gate closures, lesson 22/23 (2026-09-26)
+
+Read by the lesson 22 and 23 drafter on 26 September 2026 with curl (a generic browser User-Agent),
+pandoc or a Python HTML stripper, pdftotext, the GOV.UK content API and the eCFR versioner API.
+Every quotation below is [V], copied from text extracted that day. Where a site refuses automated
+readers the Internet Archive capture is named. Save Page Now worked for one New York DMV page
+(capture 20260926112204); it returned an error for the other New York page and for both NHTSA pages,
+so those were read from the newest captures that exist (July and 24 September 2026).
+
+### Lesson 22: the national picture (GAO)
+
+- **GAO-15-705**, August 2015, re-read in full including appendices II and III from the Internet
+  Archive's copy of https://www.gao.gov/assets/gao-15-705.pdf (capture 20260109053421). Part D §1's
+  quotations stand. Additionally: "As of July 2015, we found 16 states with periodic inspection
+  programs." [V]; "Between 1967 and 1976, DOT could withhold a percentage of federal-aid highway funds
+  apportioned to a state that did not implement a periodic motor vehicle inspection program; the mid
+  1970’s was the high-water mark for these programs, with 31 states and the District of Columbia
+  implementing programs. Since 1976, after legislation limited NHTSA’s authority to withhold
+  federal-aid highway funding, the number of states with programs has declined." [V]; "Since that
+  change, states have been able to choose whether or not to follow the guidelines in developing their
+  highway safety programs." [V]; NHTSA's guideline "recommends that states should have a program for
+  periodic inspection of all registered vehicles to reduce the number of vehicles with existing or
+  potential conditions that may contribute to crashes or increase the severity of crashes that do
+  occur" [V]; "11 of the 16 states with inspection programs require an annual vehicle safety
+  inspection, three states require a biennial inspection, and two states require time frames other
+  than annual or biennial." [V]; on NHTSA's in-use standards (49 CFR Part 570, not read by this
+  course): "the standards specify that tread on a tire shall not be less than two thirty–seconds
+  (2/32”) of an inch deep" and "These minimum standards apply to all states that choose to implement
+  a vehicle safety inspection program." [V]
+- **GAO on the evidence**: "Officials whom we interviewed from all 15 states said their programs help
+  identify vehicles with safety problems and remove these unsafe vehicles from the roadways or compel
+  owners to make repairs that otherwise might not be performed." [V]; "For example, Pennsylvania
+  officials provided 2014 data showing that more than 529,000 vehicles (about 20 percent of the state’s
+  2.7-million registered vehicles) underwent repairs in order to pass inspection after initially
+  failing." [V] (note: the Highlights page words this differently; the lesson quotes this, the body's,
+  sentence); "Virginia officials told us they believed that their state’s roadways were safer because
+  their program identified safety problems in over 1.4 million—or 19 percent—of the state’s
+  7.5-million vehicles, in 2014." [V] (the lesson quotes only "believed that their state’s roadways
+  were safer" and paraphrases the rest to avoid the dashes); "700,000 of those vehicles were rejected
+  for brake-related issues" [V]; Rhode Island's officials: "vehicles are staying in service longer" [V];
+  "DOT data show that the average age of passenger vehicles has consistently increased from 1995 to
+  2013, from an average age of 8.4 to 11.4 years." [V]; "Despite the consensus among the state
+  inspection program officials we interviewed that these programs improve vehicle condition, research
+  remains inconclusive about the effect of safety inspection programs on crash rates." [V]; "Among the
+  three studies of U.S. vehicle inspection programs, none were able to establish a statistically
+  significant effect of safety inspection programs on crashes involving either fatalities or
+  injuries." [V]; footnote 15: "We reviewed 29 studies", of which the methodology and findings of 6
+  "were reliable enough to include" [V]; "While our literature review did not yield any studies
+  establishing that vehicle safety inspections reduce crashes, this does not necessarily demonstrate
+  that inspections do not have such an effect." [V]; "There is no comprehensive database for all police
+  reported crashes in the United States." [V]; NASS-GES "is not set up to be representative at the
+  state level" [V]; police officers "often do not have the time and resources to conduct a thorough
+  vehicle check" [V]; NHTSA's 2005 to 2007 crash causation survey: "vehicle component failures were
+  found to be present in 6.8% of crashes." [V]; on New Jersey and Oklahoma, the crash rate "did not
+  significantly change for either state. However, this analysis does not provide sufficient evidence
+  to conclude that inspection programs did not have an effect on crash rates" [V]; component failure "a
+  factor in about 2 to 7 percent of crashes" [V]. Appendix III: Keall and Newstead (2013), New
+  Zealand, six-monthly against annual, crashes down "8%" with a confidence interval "(0.4–15%)" that
+  "indicated considerable statistical uncertainty" [V]; Christensen and Elvik (2007) and Fosser (1992),
+  Norway: inspection improved technical condition with no significant effect on crash or accident rates.
+- **GAO on the case for ending inspection and on oversight**: "In 2001, an Oklahoma Senate Press
+  Release stated there was no evidence that vehicle safety inspection programs resulted in decreased
+  highway accidents or injuries statewide and that eliminating the program would save Oklahomans $12
+  million." [V]; New Jersey's Motor Vehicle Commission Chief Administrator "announced that with a lack
+  of conclusive data on program effectiveness and with the current (2010) fiscal crisis, New Jersey
+  could not justify the program’s expense" [V]; "Eleven of 15 states cited oversight efforts as a
+  challenge." [V]; a second state's officials said it was a challenge "to ensure that stations do not
+  intentionally pass vehicles that should have failed the inspection" [V]; a 2008 state study found
+  inspections "were taking 5 minutes, on average" against "between 15 and 30 minutes" [V].
+- **G-L11**: fallback written. GAO's July 2015 count with "fewer since" (Texas). No other state's
+  current page was read, and the lesson gives no current total.
+- **G-L12**: fallback written, with one addition. BAR's page (below) is the California programme read.
+  GAO's appendix II lists neither California among the 16 states then inspecting nor among the 16
+  that had repealed a programme; the lesson says exactly that and no more.
+- **G-G2**: PennDOT's safety inspection page (below) still links an effectiveness study PDF. Not read,
+  not cited, not named.
+
+### Lesson 22: the states
+
+- **PennDOT, "Safety Inspection Program"**, https://www.pa.gov/agencies/dmv/vehicle-services/inspection-and-safety-requirements/safety-inspection-program,
+  re-read in full: "Pennsylvania requires vehicle safety inspections to ensure that vehicles are
+  maintained for safe operation. Safety Inspections can prevent vehicle failure on the highways and
+  crashes that may result in injuries or death." [V] (G-N5, a state's own statement of why it
+  inspects); "Vehicle safety inspections are performed at official PennDOT Inspection Stations
+  (usually a repair garage or a service station with a repair shop). Inspection fees are posted at
+  official inspection stations." [V]
+- **PennDOT, consumer FAQs**, re-read in full. Part D §1's list of items stands, beginning "suspension
+  components, steering, braking systems, tires and wheels" and ending "the body, and the chassis." [V];
+  "For most vehicles in the 42 county, Non-I/M region this safety inspection will also include a Visual
+  Anti-Tampering Check." [V]; stickers "valid for one year from the month of inspection" [V].
+- **PennDOT, Pub 45 (2-26)**, § 175.80(d) and (e)(1) re-read in full. (d)(2): "Provided that the make
+  and model year of the vehicle would have originally been equipped with the device, reject if one or
+  more of the following apply" [V], then "(i) The catalytic converter has been removed, disconnected or
+  is the wrong type for the certified vehicle configuration." [V] and the same test for the EGR valve,
+  PCV valve, fuel inlet restrictor, air pump and evaporative controls. (e)(1)(i) as Part D §1 records.
+- **New York DMV, "New York State Vehicle Safety/Emissions Inspection Program"**, fresh Archive
+  capture 20260926112204. Part D §1's quotations stand. Additionally: "The New York State vehicle
+  safety inspection program helps make sure every vehicle registered in this state meets the minimum
+  standards for safe operation on public streets and highways." [V]; "Motor vehicles are required by
+  law to be in safe operating condition whenever they are driven on a public street or roadway in New
+  York State." [V]; "Each vehicle registered in New York State must be inspected at least every 12
+  months." [V]; "The inspection station must have your permission before beginning any repairs." [V];
+  "You are not required to have your vehicle repaired or re-inspected at the station that performed
+  the initial inspection." [V]; airbag lamp "This is an advisement only and not cause for rejection."
+  [V]; "The 1990 Federal Clean Air Act requires New York State to conduct an inspection program to help
+  reduce harmful emissions from most passenger cars and light-duty trucks. The emissions inspection is
+  done at the same time as the annual safety inspection." [V]; the OBDII test "examines the
+  Malfunction Indicator Lamp (MIL), also known as the "check engine" light, for
+  operation/illumination" [V]; "You cannot renew a vehicle registration unless the DMV has a computer
+  record that the vehicle passed the required emissions inspection within the last 12 months" [V].
+- **New York DMV, "About New York State Inspections"**, capture 20260703020606 (a fresh capture
+  failed), re-read in full. Exemptions from emissions include "electric-powered" [V]. Moving to New
+  York: "If your vehicle was registered in another state which issues an inspection sticker, you do not
+  need to have your vehicle inspected immediately. Your out-of-state inspection remains valid until it
+  expires or for one year after the registration date, whichever comes first." [V]; "If the previous
+  inspection was performed in a jurisdiction that does not issue an inspection sticker, you must have
+  your vehicle inspected in New York." [V] The fines are as Part D §1 records; the lesson cut them.
+- **Virginia State Police, "Vehicle Safety Inspection"**, re-read in full: the page refers to the
+  "Official Annual Motor Vehicle Inspection Manual" [V]; items "Brake fluid", "Power steering fluid"
+  and "No parts removed, disconnected, or rendered inoperable." [V], with "(NOTE: This includes the
+  catalytic converter and the fuel tank filler pipe.)" [V]; the airbag item includes "Any defects in
+  the air bag system noted by the air bag readiness light" and a light that "stays on continuously" [V];
+  "ALL DEFECTS MUST BE CORRECTED AND THE VEHICLE REINSPECTED WITHIN 15 DAYS. THE DRIVER MAY BE SUBJECT
+  TO RECEIVING A TRAFFIC SUMMONS FOR ANY DEFECT STILL PRESENT WHEN THE VEHICLE IS OPERATED ON THE
+  HIGHWAY." [V]
+- **Virginia State Police, "Vehicle Inspection FAQs"**, re-read in full: a rejection sticker "It, in
+  itself, places no travel restrictions on the vehicle; however, it does not provide any exception to
+  any statute governing equipment defects." [V] Part D §1's "must be reinspected within twelve months
+  ..." sentence is in the FAQ answer about new vehicles bought in Virginia, not a general statement; the
+  lesson uses the manual's title ("Annual") for the frequency instead.
+- **Virginia manual (approved March 17, 2026)**, 19VAC30-70-40 and -130 re-read in full. Part D §1's
+  quotations stand, including "$20 for each inspection of any other vehicle, including trailers and
+  motor homes." [V]; "has installed on any axle a space saver emergency spare tire that is intended for
+  temporary use." [V]; "Do not take measurements from the tread wear indicators." [V]
+- **Texas DPS, news release, 3 January 2025**, re-read in full. Part D §1's quotations stand.
+  Additionally: "Even though vehicle safety inspections have been eliminated for most vehicles, the
+  department reminds Texans to regularly service their vehicles to keep themselves and other motorists
+  safe on the road. Regular maintenance ensures the proper operation of your vehicle’s headlights,
+  taillights, horn, mirrors, windshield wipers, tires and other critical functions. Driving a vehicle
+  without many of these properly working safety features is against the law and puts everyone at
+  risk." [V] The statute behind "against the law" was not read.
+- **Texas House Committee on Homeland Security and Public Safety, bill analysis, HB 3297, committee
+  report (unamended)**, https://capitol.texas.gov/tlodocs/88R/analysis/html/HB03297H.htm, read in
+  full (G-N5): "Most states have done away with their mandatory vehicle inspection programs since the
+  federal government ended the program requirement in 1976." [V]; "The impact of the mandatory vehicle
+  safety inspection program on road safety is not strong enough to justify the program's existence."
+  [V]
+- **Texas Senate Research Center, bill analysis, HB 3297, engrossed, 5/10/2023**,
+  https://capitol.texas.gov/tlodocs/88R/analysis/html/HB03297E.htm, read in full (G-N5). The
+  author's/sponsor's statement of intent: "Interested parties question whether vehicle safety
+  inspection programs do enough to contribute to road safety to justify their existence. Vehicle
+  inspections are costly, time-consuming, and often provide little benefit to public safety. The
+  process requires Texans to take time off work or out of their busy schedules to have their vehicles
+  inspected at a designated location. This can be especially difficult for those living in rural
+  areas, where inspection stations may be few and far between. Many of the items checked during an
+  inspection are not related to safety. For example, inspectors often check the tint on windows and
+  the condition of license plates, which have no bearing on whether a vehicle is safe to drive. These
+  inspections do little to improve road safety and serve only to generate revenue for the state.
+  Furthermore, advances in vehicle technology have made inspections even more unnecessary. Modern
+  vehicles are equipped with onboard diagnostic systems that constantly monitor their performance and
+  can detect any potential issues." [V]
+- **Texas House Research Organization, bill digest, HB 3297, 5/4/2023**,
+  https://hro.house.texas.gov/pdf/ba88r/hb3297.pdf, read in full. No supporters' or opponents'
+  arguments. Witnesses "For" (all registered, did not testify) included Continental Automotive Group,
+  Mecum Auction, the Nueces County Tax Assessor Collector, Tesla, the Texas Conservative Coalition
+  Research Institute, the Texas Public Policy Foundation, the Texas Recreational Vehicle Association
+  and True Texas Project; "Against" included DEKRA (inspection services), an official inspection
+  station, the Texas State Inspection Association (two witnesses who testified), and, registered only,
+  the Alliance for Automotive Innovation, Group 1 Automotive, Gulf States Toyota, the Houston Police
+  Officers' Union, the Texas Police Chiefs Association, the Texas Sheriffs Regional Alliance and
+  Toyota. "BACKGROUND: Some have suggested that the annual vehicle safety inspection program may not
+  have a significant impact on road safety." [V] The digest also describes provisions of the bill as
+  it stood on 4 May 2023 that the lesson does not state (it is not the enacted text).
+- **G-N5 closed in part.** A state's own statement of why it inspects (PennDOT; the New York DMV) and
+  the Texas legislature's stated reasons for HB 3297 were read. No statement in their own words was
+  found from the Texas groups that opposed the bill, or from AAA; the lesson says the digest gives
+  names only.
+- **California BAR, "Smog Check"**, https://www.bar.ca.gov/consumer/smog-check-program, re-read in
+  full. The page has changed since Part D §1: it now lists "Gasoline, hybrid, and alternative-fuel
+  vehicles - model year 1976 and newer" as needing a Smog Check, and adds "four model years and newer
+  (for change of ownership only)". Quotations used: "A Smog Check is required every other year to
+  renew your vehicle registration." [V]; "eight model years and newer" [V]; "a 2020 model-year vehicle
+  will need a Smog Check for registration renewal in 2028 (2020 + 8 = 2028)." [V]; "Electric vehicles"
+  [V] among those that don't need one; "A vehicle will not pass a Smog Check with the check engine
+  light on." [V]; "Modified or non-approved software will cause a vehicle to fail a Smog Check." [V];
+  the report "also identifies any open safety recalls for your vehicle." [V]; "Inspection prices are
+  not regulated by BAR." [V]
+
+### Lesson 22: emissions (federal)
+
+- **EPA, "Vehicle Emissions Inspection & Maintenance (I/M): General Information for Motorists"**,
+  re-read in full. "The 1990 Amendments to the Clean Air Act established I/M requirements for several
+  areas across the country." [V]
+- **EPA-420-F-21-067 (October 2021)**, re-read in full. "Vehicle inspection and maintenance, or I/M, is
+  the periodic inspection of the emissions control systems of motor vehicles." [V]; "States are
+  responsible for developing their own I/M program to meet EPA’s I/M regulations" [V]; "Visual
+  inspections deter tampering by checking for the presence of certain required emission control parts
+  (e.g., catalytic converter replaced with a straight pipe)." [V]; tailpipe testing "primarily for
+  vehicles that are model year 1995 and older" [V]; "Beginning with the 1996 model year, vehicles have
+  been equipped with OBD computerized systems. The OBD system continuously monitors the emission
+  control systems and will activate the ‘‘Check Engine’’ light on the dashboard if a fault, also known
+  as a Diagnostic Trouble Code (DTC), is detected – most commonly from the catalytic converter or an
+  oxygen sensor." [V] (the source's own spaced dash; the lesson splits the quotation around it).
+- **42 U.S.C. § 7522(a)(3)**, re-read live on uscode.house.gov. Part D §4's quotations stand.
+
+### Lesson 23: the UK
+
+- **GOV.UK, "Check if a vehicle, part or accessory has been recalled"** (content API; public_updated_at
+  2018-03-27, updated_at 2026-09-09), re-read in full. Part C §6's quotations stand. Additionally:
+  "You can use the car registration number to check if it’s been recalled." [V]; "You can view:" then
+  "safety recalls that have not been checked or fixed" and "the car’s MOT history" [V]; "You need to
+  know the manufacturer, model and year of manufacture." [V]; "You need to get your car fixed or
+  replaced by the manufacturer if there’s a problem." [V]
+- **GOV.UK, "Vehicle recalls and faults"** (public_updated_at 2015-06-11, updated_at 2026-09-17),
+  re-read in full. Part C §6's quotations stand. Additionally: "If your vehicle is recalled for a safety
+  reason, you’ll usually be sent a letter by the manufacturer telling you:" [V]; "If you’re in England,
+  Scotland or Wales, the MOT certificate might also tell you if your vehicle has been recalled for a
+  safety reason. It’ll depend on the manufacturer." [V]; "If you find a serious defect that affects the
+  safety of your vehicle, one of its parts, or an accessory, report it to the manufacturer
+  immediately." [V]; what does not count, in full: "they can be found during routine maintenance and
+  servicing" [V]; "you’re warned about them by warning lights, noticeable changes in handling and
+  unusual noises" [V]; "they’re caused by you misusing the vehicle, for example overloading your
+  vehicle causing a tyre failure" [V].
+- **DVSA, "Vehicle safety defects and recalls: code of practice"** (public_updated_at 2024-03-06,
+  updated_at 2026-08-20), full text re-read. Part C §6's quotations stand, with the 7.4 rows in full:
+  "Safety Recall (Stop Drive)": "The definition of a safety defect is met, and there is an immediate
+  threat to safety so the vehicle must not be driven." [V]; "Safety Recall": "The definition of a
+  safety defect is met, but the threat is not immediate or can be mitigated with ‘reasonable’ consumer
+  action" [V]; "Consumer / Garage Warning" [V]. 3.1's second half: "and pose a significant risk to the
+  driver, occupants and others." [V] (after the source's own dash). 11.2 in full: "A recall is
+  considered to be closed for reporting purposes when the producer can show that a high proportion of
+  vehicles (normally 90%) believed to be in service have been rectified and the remaining safety risk
+  is low." [V] and "It is noted that whilst a recall would be closed for reporting purposes the recall
+  is still in place, and producers or distributors are still expected to act upon it should a vehicle
+  be presented, even though active management of the recall may have ceased." [V]
+- **nidirect, "A guide to booking your MOT/ vehicle test"**, re-read live: the notice "Citroën C3, DS3,
+  C4, DS4 and DS5 models 'stop drive' recall" [V] is still present, with "If you own one of the
+  affected models, the guidance from the manufacturer is to immediately cease using the vehicle. The
+  Driver and Vehicle Agency also strongly urges owners of affected vehicles to cease using them until
+  the necessary repairs have been completed in line with the manufacturer’s notification." [V]
+
+### Lesson 23: the US
+
+- **NHTSA, "Check for Recalls"**, capture 20260924153654 (newest; Save Page Now failed), re-read in full.
+  Part D §2's quotations stand. Additionally: the lookup now takes a licence plate as well as a VIN:
+  "When searching by license plate or VIN, you’ll learn if a specific vehicle needs to be repaired as
+  part of a recall." [V]; the heading "What won’t the license plate and VIN search show?" [V], and the
+  second item continues "VINs are added continuously so please check regularly." [V]; "Safety recalls
+  conducted by small vehicle manufacturers, including some ultra-luxury brands and specialty
+  applications." [V]; "A recall is issued when a manufacturer or NHTSA determines that a vehicle,
+  equipment, car seat, or tire creates an unreasonable safety risk or fails to meet minimum safety
+  standards." [V]; the owner's role: "When you receive a notification, follow any interim safety
+  guidance provided by the manufacturer and contact your local dealership to fix the recalled part for
+  free." [V]
+- **NHTSA, "Takata Recall Spotlight"**, capture 20260924153455 (newest; Save Page Now failed), re-read
+  in full (G-R7 closed with the capture date). Part D §2's quotations stand, including the 67 million,
+  28 and "at least 400" figures. Additionally: "DO NOT DRIVE warnings have been issued for certain
+  vehicles that are at a far higher risk for an air bag explosion that could injure or kill vehicle
+  occupants. These vehicles can and should be repaired immediately." [V]; "It is much more likely that
+  your air bag will perform properly and protect you in a crash than cause harm." [V]; bankruptcy and
+  class action mailings "are not part of the recall efforts" [V]; "Whether or not your vehicle is
+  impacted by the class action has no impact on your right to obtain a free recall repair." [V]; the
+  hotline "888-327-4236" [V] (G-N1).
+- **NHTSA booklet, November 2024 update**, capture 20260918233001, re-read in full. Part D §2's
+  quotations stand. Additionally: examples not considered safety-related include "Radios that do not
+  operate properly" and "Quality of paint or cosmetic blemishes" [V]; the notice letter must "remind
+  them that remedies are to be made available at no charge" [V]; reimbursement: "Manufacturers are
+  required to provide reimbursement for certain costs incurred by owners to remedy safety defect
+  conditions prior to a recall." [V] and "Documentation of the costs is required for reimbursement." [V];
+  "If you receive notification of a recall on a vehicle older than 15 years, it is still important to
+  have your car repaired to eliminate unnecessary safety risks." [V]; "In most cases, contractual
+  agreements between a manufacturer and its dealers require all dealers to honor the recall and remedy
+  defects at no extra charge – regardless of where the vehicle or equipment was originally purchased."
+  [V]; the hotline for checking recalls, "888‑327‑4236" [V] (printed with non-breaking hyphens in the
+  PDF).
+- **49 U.S.C. § 30120**, re-read live on uscode.house.gov, subsections (a), (b), (g) and (i). Part D
+  §2's quotations stand. (b)(1): a tyre must be presented "not later than 180 days after the later of"
+  [V] notification or, if the maker replaces it, notice that a replacement is available. (i)(1) limits a
+  dealer's sale or lease of a new motor vehicle in its possession, and a rental company's rental of a
+  covered rental vehicle, until the remedy; (i)(2): "Nothing in this subsection may be construed to
+  prohibit a dealer or rental company from offering the vehicle or equipment for sale, lease, or rent."
+  [V] Part D's reading that the section does not reach a private seller stands, labelled in the lesson
+  as the course's reading.
+- **49 CFR 574.7 and 574.8** (eCFR versioner API, 2026-09-01), 574.8(a) re-read in full and 574.7(a)'s
+  form requirements. 574.8(a)(1)(ii): an independent dealer may "Record the following information on a
+  paper tire registration form and return it to the tire manufacturer, or its designee, on behalf of the
+  tire purchaser, at no charge to the tire purchaser and within 30 days of the date of sale or lease"
+  [V]. 574.7(a) requires the form to "Include the sentence: “In case of a recall, we can reach you only
+  if we have your name and address.”" [V]
+- **G-L8**: fallback written. The Consumer Rights Act's goods sections are not used, and the product
+  safety regulations are not named; the code's own "not an interpretation or reframing of the law" is
+  quoted.
+
+### Places, keys, cuts
+
+- **Places**, checked with `grep -rlw` outside car-basics/research on 26 September 2026 and unused:
+  Blacksburg, Waco, Schenectady, Altoona (lesson 22); Louth, Flint (lesson 23). "Lincolnshire" is used
+  elsewhere, so Louth is placed "in England"; Flint is placed "in the US". McLennan (the county Waco is
+  in, general knowledge) and Blair (Altoona's) are named as counties, unused.
+- **Quiz keys**: lesson 22, 1,2,1,3,0; lesson 23, 2,3,0,1,3. Checked by script under the relaxed rule
+  against every lesson on disk (01 to 21) and each other.
+- **Cut for length in lesson 22**: New York's expired-sticker fines, the GAO appendix's history, EPA's
+  2018 figures.
+
+## Gate closures, lesson 22/23 (2026-09-26), continued
+
+Passages lesson 23 quotes whole, recorded whole here so each can be string-matched (each was read on
+the capture named above, 26 September 2026):
+
+- NHTSA, "Check for Recalls" (capture 20260924153654): "A recall is issued when a manufacturer or
+  NHTSA determines that a vehicle, equipment, car seat, or tire creates an unreasonable safety risk or
+  fails to meet minimum safety standards. Most decisions to conduct a recall and remedy a safety defect
+  are made voluntarily by manufacturers prior to any involvement by NHTSA." [V]
+- NHTSA, "Takata Recall Spotlight" (capture 20260924153455): "Please note that vehicles that have not
+  yet been recalled, but are scheduled to be recalled in the future under NHTSA’s Consent Order with
+  Takata, will not be searchable until they are actually recalled – this is an example of why it is so
+  important to check for recalls twice each year." [V] (the lesson stops before the source's dash);
+  "NHTSA has confirmed that 28 people in the United States have been killed when their defective Takata
+  PSAN air bag inflators exploded. In addition, at least 400 people in the United States have allegedly
+  been injured by exploding Takata air bag inflators." [V]; "It is much more likely that your air bag
+  will perform properly and protect you in a crash than cause harm. An air bag that is purposely
+  disabled has a 100-percent chance of failing to provide any protection in a crash." [V]
+- NHTSA booklet (capture 20260918233001): "Manufacturers may still provide a free remedy for older
+  vehicles, even though not legally required. If you receive notification of a recall on a vehicle
+  older than 15 years, it is still important to have your car repaired to eliminate unnecessary safety
+  risks." [V]
