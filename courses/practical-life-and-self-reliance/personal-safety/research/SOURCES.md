@@ -5446,3 +5446,96 @@ Reviewer F's copy of the capture).
 - Florida §776.041(1) (fixer, curl): [V] "Is attempting to commit, committing, or escaping after the commission of, a forcible felony; or"
 - Florida §776.032(1) (fixer, curl): [V] "includes arresting, detaining in custody, and charging or prosecuting"
 - CPS guidance, capture 20240723174716 (fixer, from Reviewer F's copy): [V] "the more unreasonable the belief, the less likely it is that the court will accept it was honestly held."
+
+## Gate closures, lesson 16 "Afterwards" (2026-09-25)
+
+*Read on 2026-09-25 by lesson 16's drafter (the lesson was planned as 15; the seam in lesson 14
+fired). GOV.UK pages through the content API; the others with curl (browser User-Agent) and an HTML
+stripper, except the Constitution Annotated, which refuses curl and was read in the in-app browser.
+Every line in quotation marks is [V], copied from the saved text, spelling, apostrophes and
+punctuation as the page has them. Scratch copies are not kept; the URL and date are the record.*
+
+**G5, re-read on the day.** GOV.UK "Contact the police" (content API; public_updated_at
+2017-03-07), unchanged from Part D §8.1: "Call 999 if you are reporting a crime that is in progress
+or if someone is in immediate danger." "Report crimes online or by calling 101 if they are not an
+emergency." "You can also call 101 to give information to the police or make an enquiry." "Calls to
+999, 101 or 0800 numbers are free." Scotland: "If you live in Scotland you can search by postcode to
+find and contact your local policing team". Victim Support (08 08 16 89 111), VictimConnect
+(855-484-2846; "We can only talk, text, or chat with you if you are currently physically safe."; "If
+you are in immediate danger, please call 911 for an immediate response."), Victim Support Scotland
+(0800 160 1985; "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"),
+Victim Support NI (Belfast 02890 243133, Foyle 02871 370086) and OVC "Help for Victims" all re-read:
+unchanged from "Gate closures G6, G27, G28" and lesson 01's.
+
+**G19 closed for the Miranda warnings only.** Library of Congress, *Constitution Annotated*,
+Amdt5.4.7.3 "Miranda and Its Aftermath"
+(https://constitution.congress.gov/browse/essay/amdt5-4-7-3/ALDE_00013688/), read in full in the
+in-app browser:
+- "In Miranda v. Arizona, the Supreme Court held that prosecutors may not use statements obtained during a custodial interrogation unless the interrogation was conducted pursuant to certain procedural safeguards."
+- "Specifically, the Court concluded that such statements are inadmissible at trial unless the individual subject to interrogation was informed of his or her right to remain silent, that any statements could be used against the subject in subsequent proceedings, and of his or her right to an attorney."
+- "However, the Court has created exceptions to the Miranda warnings over the years"
+- The Fifth Amendment's clause, as the essay prints it: "nor shall be compelled in any criminal case to be a witness against himself"
+What a lesson may say: the warnings above attach to custodial interrogation, as the Supreme Court
+held in 1966 and has kept to, with exceptions. The essays on what counts as custody
+(Amdt5.4.7.4), on the requirements (Amdt5.4.7.5) and on the exceptions (Amdt5.4.7.6), and the Sixth
+Amendment right to counsel, were **not read**: a lesson says nothing about when a person is in
+custody, when the warnings must be given, or the exceptions.
+
+**Florida §776.032(2)** (leg.state.fl.us, 2026 Florida Statutes, curl): "A law enforcement agency
+may use standard procedures for investigating the use or threatened use of force as described in
+subsection (1), but the agency may not arrest the person for using or threatening to use force
+unless it determines that there is probable cause that the force that was used or threatened was
+unlawful."
+
+**GOV.UK, "Being arrested: your rights"** (content API, public_updated_at 2025-01-23), beyond Part D
+§8.2: "If you’re arrested, you’ll usually be taken to a police station, held in custody in a cell and
+then questioned." "The police may question you about the crime you’re suspected of - this will be
+recorded. You do not have to answer the questions but there could be consequences if you do not."
+"You have the right to free legal advice (legal aid) if you’re questioned at a police station."
+"Once you’ve asked for legal advice, the police cannot question you until you’ve got it" (the
+sentence goes on after a spaced en dash, "with some exceptions"; split around it). The custody
+rights list's fifth item has a spaced en dash; do not quote it whole.
+
+**GOV.UK, "Claim compensation if you were the victim of a violent crime"** (content API,
+public_updated_at 2018-05-29), beyond Part D §8.3:
+- "The crime must be reported to the police before you apply."
+- "The crime must have happened in England, Wales or Scotland."
+- "You do not need to wait until the police investigation is complete, or until a court case has finished."
+- "Your claim will be assessed on:" with, among four items, "information from the police, including the evidence you gave them" and "your criminal record".
+- "The process is different if the crime happened in Northern Ireland"
+
+**Northern Ireland, criminal injuries compensation.** nidirect, "Claiming compensation for criminal
+injuries" (https://www.nidirect.gov.uk/articles/claiming-compensation-criminal-injuries), read in
+full; reached from the Department of Justice NI's "Compensation services" page, which GOV.UK's
+link names.
+- Eligibility, among six items: "have been injured seriously enough to qualify for at least the minimum award of £1000.00"; "are making your application within two years of the incident that caused your injury". (The item on where the violence happened carries a spaced en dash; its second half reads "an offender does not necessarily have to have been convicted of, or even charged with the crime".)
+- "As soon as your application is received your details will be registered and a request will be made for a police report about the incident."
+- Among the reasons compensation "can" be reduced or refused: "your criminal record"; "your failure to co-operate with the police, or with Compensation Services"; "your delay in informing the police, or other organisation, or person of the incident".
+- Help: "you can get free help and advice with the application process from" Victim Support (the page links Victim Support NI).
+The page does not say in words that the crime must be reported to the police.
+
+**Victims' Code, England and Wales.** GOV.UK, *Code of Practice for Victims of Crime in England and
+Wales (Victims' Code)*, HTML version (content API, public_updated_at 2025-01-29), searched and the
+Rights 2 to 5 sections read in full:
+- "The Code of Practice for Victims of Crime [footnote 1] (Victims’ Code) sets out the services and a minimum standard for these services that must be provided to victims of crime by organisations (referred to as service providers) in England and Wales."
+- 3.1: "This will include the basic details of the offence, a crime reference number and the contact details of the police officer dealing with your case."
+- 3.2: "Where the police consider there may be a risk of harm to you from sending the written confirmation, for example in domestic abuse cases, they must provide confirmation in a way that does not potentially risk your safety."
+- 4.4: "Services that support victims are there to help you cope and, as far as possible, recover after a crime. Access to support is free, even if the crime hasn’t been reported to the police."
+- 4.5 (paraphrase): someone who reports has the right to be referred to a support service "within 2 working days".
+- 4.6: "If you choose not to report the crime to the police, you still have the Right to access support services at any time."
+- 2.8 (paraphrase): a victim of sexual violence, gender-based violence or domestic abuse may ask for an interviewing officer of a gender of their choice, and the police must meet the request unless it would prejudice the fairness of the proceedings.
+- On Sexual Assault Referral Centres: "These centres have specially trained professionals who can give you both physical and mental health support if you have experienced rape or sexual assault, regardless of whether you choose to report the crime to the police or not."
+- 5.5: "Your claim is not dependent on the conviction of an offender."
+
+**Victim Support Scotland, "Get support"** (https://victimsupport.scot/get-support/), read in full:
+"If you have not reported the crime but want to discuss your options, we can do this with you. We
+can also help you report the crime if that’s what you decide." Home page: "offering non-judgmental
+and confidential support to anyone who has been affected by crime."
+
+**OVC, "Victim Assistance and Compensation in Your State"**
+(https://ovc.ojp.gov/help-for-victims/help-in-your-state), read in full: "All states receive Federal
+Victims of Crime Act (VOCA) funds from OVC to help support crime victim assistance and compensation
+programs." "You may be eligible for crime victim compensation benefits, including reimbursement for
+medical services, mental health counseling, lost wages, and other costs incurred as a result of the
+crime." No state's own compensation rules were read (Texas, California and New York pages tried;
+not found or blocked), so a lesson says nothing about reporting conditions or deadlines in any state.
