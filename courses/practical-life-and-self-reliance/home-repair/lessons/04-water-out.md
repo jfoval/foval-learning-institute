@@ -84,7 +84,7 @@ quiz:
   - q: >-
       Someone has poured an acid drain cleaner into a blocked bathroom basin and the water is still
       standing. They reach for a bleach-based cleaner, or a second brand of drain opener, to finish
-      the job. What do the official sources this lesson read say?
+      the job. What do the sources this lesson read say?
     options:
       - Add the bleach, since bleach and acid neutralise each other and the mixture is then safe to rinse away
       - Add an alkaline drain opener, since it will cancel out the acid and dissolve the blockage in one go
@@ -103,7 +103,7 @@ quiz:
       basement. A relative says it's what keeps sewer gas out and must never be touched. What does
       the one US city page this course read say, and what should the couple ask locally?
     options:
-      - The city page says it's still the main protection, so ask a plumber to check it every year
+      - The city page says it's still the main protection, so ask a plumber to check it once a year
       - The city page says every state bans them, so they must have it taken out before they move in
       - The city page says each fixture now has its own trap, so ask the local building department
       - The city page says house traps are only needed where the house has a sump pump in the basement
@@ -432,7 +432,8 @@ Where a question here turns on a rule, such as whose pipe something is or what y
 Here the sources give a householder a method. [WaterSafe](https://www.watersafe.org.uk/advice/common_plumbing_questions1/drainage/how-to-unblock-sink/), the UK register of approved plumbers run
 for the water industry, publishes a sequence for a sink with standing water in it.[10] It is written
 partly in American English ("faucet", and "P-trap" for the bend under the sink), and it's given
-here as WaterSafe gives it.
+here as WaterSafe gives it. It assumes nothing but water and waste is in the sink: if a chemical
+drain cleaner has gone in, don't start step 1, and read the paragraph after the list first.
 
 1. **Get the water out.** "Before attempting to unclog the drain, remove as much standing water as
    possible", scooping it into another drain that works.
@@ -457,8 +458,8 @@ here as WaterSafe gives it.
 
 WaterSafe's page says nothing about drain cleaners, so read its order as being for a sink with only
 water and waste in it. **If a chemical drain cleaner is
-already in the sink, don't start it**: not the scooping, not the hot water, not the plunger, not the
-vinegar and not the trap. That instruction is this course's, not WaterSafe's, and the section on
+already in the sink, don't start it**: not the scooping, not your hands, not the hot water, not the
+plunger, not the baking soda and vinegar, not the snake and not the trap. That instruction is this course's, not WaterSafe's, and the section on
 drain chemicals below says why and what to do instead.
 
 For a sink with only water and waste in it, steps 1 to 7 are **Yours**: WaterSafe puts them in a householder's hands. Step 8 is where the job
@@ -556,11 +557,11 @@ nothing that disagrees.
 
 So if one product has not worked, don't add a second on top of it. As a job, a chemical drain
 cleaner is **Yours, on conditions**: the label's directions, goggles and gloves, a ventilated room,
-poured slowly and close to the drain, not too much of it into a drain that's completely blocked,
+poured carefully and close to the drain, not too much of it into a drain that's completely blocked,
 and nothing else added. Every one of those conditions is Poison Control's, a US poison centre's
-advice, and none of them is law in either country. The UK page this course read, UKHSA's, says
-only that correct use of household products containing sodium hydroxide isn't expected to cause
-harm, and to store them out of children's reach.
+advice, and none of them is law in either country. On using them, the UK page this course read,
+UKHSA's, says only that low-level exposure from correct use of household products containing
+sodium hydroxide isn't expected to cause harm, and to store them out of children's reach.
 
 If you've already poured one into a sink that is still full, no source this course read says what
 to do next. Poison Control's splash warning points away from anything that would throw that water

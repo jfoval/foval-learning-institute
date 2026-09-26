@@ -120,3 +120,52 @@ a holiday bungalow, New England; no towns added.
 adds a new instruction in the course's own voice ("don't start" WaterSafe's order with cleaner in
 the sink) and rewrites the conditions paragraph; a fresh reader should walk both as a householder
 with cleaner already in the sink, and check them against Poison Control's two pages.
+
+## Second pass (2026-09-25)
+
+**Reviewer:** fresh-context second pass under `research/pipeline-briefs.md`, on the drain-chemicals
+chain (R1 to R3) and a check of every first-pass fix. Re-fetched today with curl: Poison Control's
+drain-cleaner and spring-cleaning pages, UKHSA's sodium hydroxide page (GOV.UK content API,
+public_updated_at 2024-11-28) and WaterSafe's sink page (which mentions no chemical cleaner, only
+"chemical-free" baking soda and vinegar).
+
+**The chain, walked as a reader with cleaner already poured into a full sink.** The top of the
+lesson says only "never mix". WaterSafe's list came before the stop, so a reader going in order met
+"Get the water out" before being told not to start; and the stop named scooping, hot water,
+plunger, vinegar and trap but not the gloved hand (step 2), baking soda or the snake. The
+chemicals section then holds: the conditions, the course's own step ("Those last two sentences are
+this course's reading" covers exactly the two sentences it follows), and the plumber. The "Yours"
+label now reads "For a sink with only water and waste in it", which is correct.
+
+**Attribution.** Every named condition is Poison Control's: label directions, ventilation and never
+mix (spring cleaning), goggles and gloves, close to the drain, too much into a blocked drain, and
+the container closed and out of reach (drain cleaner). "Effective in clearing clogged drains" and
+the lye case "into a sink full of water" match. Nothing is credited to UKHSA that it doesn't say,
+except two small drifts fixed below.
+
+**Findings and fixes (all one edit):**
+- S1 [major] Stop placed after the list. Fixed: the lead-in now ends "It assumes nothing but water
+  and waste is in the sink: if a chemical drain cleaner has gone in, don't start step 1, and read
+  the paragraph after the list first."
+- S2 [minor] The stop's list left out the hands, baking soda and the snake. Fixed: "not the
+  scooping, not your hands, not the hot water, not the plunger, not the baking soda and vinegar,
+  not the snake and not the trap."
+- S3 [minor] "poured slowly": Poison Control says "carefully". Fixed.
+- S4 [minor] UKHSA "says only" ignored its exposure advice and dropped "low level". Fixed: "On
+  using them, ... says only that low-level exposure from correct use ...".
+- S5 [minor] Quiz 6: three of four options carried an absolute ("every year", "every state",
+  "only"), leaving the key as the only clean one. Fixed: "once a year".
+- S6 [minor] Quiz 5 stem "the official sources": Poison Control is a non-profit centre. Now "the
+  sources".
+- Not changed, noted: "a splash is not correct use" is a mild inference in the course's voice,
+  unlabelled; quiz 3's outside-drain explanation assumes the drain goes to a sewer (the key holds
+  either way); quiz 1 is the body's dried-trap case in a new place, a transfer item but a close one.
+
+**First-pass fixes R1 to R20:** each read in place and correct. Quiz 1 (stem, key 3, explanation
+naming each distractor, ASHI's hedge kept) and quiz 3 (bacon fat, key 0, Thames and Portland
+correctly credited) hold. Keys 3,2,0,1,3,2 against lessons 01 (1,3,0,2,3,0 on disk today), 02
+(2,0,3,1,3) and 03 (3,1,0,1,2): not identical, no shift, no shared run of four at offsets 0 or
+±1. Option-length spreads 10, 4, 5, 4, 7, 4 after S5. No em or en dashes; nothing that fails read
+aloud. `npm run minutes` 105, matches. `npm run validate` exit 0, no line naming this file.
+
+**Verdict: CLEAN.**
