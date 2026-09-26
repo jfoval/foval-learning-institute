@@ -1,6 +1,6 @@
 ---
 title: Asking better questions
-minutes: 90
+minutes: 95
 objectives:
   - >-
     Explain what the question-asking experiments found about follow-up questions and liking,
@@ -50,7 +50,7 @@ quiz:
       A pharmacist ends every consultation with "Do you have any questions?" and almost nobody asks
       one. Based on the studies in this lesson, what is the best-supported advice?
     options:
-      - Keep "any", since a UK trial showed the word makes no difference in any setting at all
+      - Keep "any", since the UK trial, the larger of the two, found the word made no difference
       - Switch to "some", since it has been proven to double the questions asked in every setting
       - Drop the question, since asking for more questions lengthens appointments considerably
       - 'Try "some", which costs nothing, though its effect was found for concerns in one US trial'
@@ -58,9 +58,10 @@ quiz:
     explain: >-
       One randomised US study found "something else" drew far more further concerns than "anything
       else", without lengthening visits; the authors only suggest it "may generalize" to "Do you have
-      any questions?". A UK feasibility trial saw no difference, but almost nobody there left with a
-      concern unsaid. So "proven in every setting" and "no difference anywhere" both go beyond the
-      evidence, and neither study found visits got longer. That "some" is worth trying is this
+      any questions?". The UK trial had more patients, but it was a feasibility trial reporting
+      descriptive figures only, and almost nobody there left with a concern unsaid, so its "no
+      visible difference" can't carry "keep 'any'" to a pharmacy. "Proven in every setting" goes
+      beyond the evidence too, and neither study found visits got longer. That "some" is worth trying is this
       course's reading of the two trials, not a tested result for pharmacies.
   - q: >-
       A friend has just had a job interview. Which way of asking about it follows the interviewers'
@@ -78,8 +79,8 @@ quiz:
       should be avoided, because the person doesn't know which part to answer. "You got it, didn't
       you?" is a tag question that tells her the answer you want.
   - q: >-
-      During a disagreement about the washing-up, Evander asks, "Don't you think it's a bit odd that
-      I'm always the one who does it?" In this lesson's terms, what kind of question is it?
+      During a disagreement about the bins, Evander asks, "Wouldn't you say it's a bit odd that I'm
+      always the one who takes them out?" In this lesson's terms, what kind of question is it?
     options:
       - A follow-up question, since it builds on what the two of them have been talking about
       - An open question, since it can't be answered properly with a plain yes or a plain no
@@ -87,7 +88,7 @@ quiz:
       - A statement in the form of a question, one of the counterfeit kinds the textbooks list
     answer: 3
     explain: >-
-      The question carries Evander's point ("I always do it") and invites agreement, which is what
+      The question carries Evander's point ("I always take them out") and invites agreement, which is what
       the textbooks mean by a question that makes a statement, one of the counterfeit kinds.
       Essential Partners would call it a challenge in disguise. It can be answered yes or no, so it
       isn't open. Being about the topic doesn't make it a follow-up in the study's sense, and nobody
@@ -97,27 +98,28 @@ quiz:
       he's doing. Which approach fits the practitioner advice in this lesson best?
     options:
       - One open question about how he's doing, then letting him decide what he wants to say
-      - '"Why did it happen?", since Acas gives "Why did you leave?" as a good open question'
+      - '"Why did it happen?", since Acas gives "Why did you leave?" as an example of an open question'
       - A string of questions about the vet, the illness and the timing, to show her interest
       - No questions whatever, since Gordon's roadblock list shows that asking is not listening
     answer: 0
     explain: >-
       One open question, then room to answer, is what the helping traditions share. Whether "why" is
-      a good opener is a disagreement between traditions (negotiators avoid it as interrogatory), and
-      with someone grieving it risks sounding like a demand for an explanation. A string of questions
-      is the stacked, interrogating kind that the 2026 review says can backfire. And the roadblock
-      list is practitioner lore that conflicts with the question-asking evidence, not a rule against
+      a good opener is a disagreement between traditions (negotiators avoid it as interrogatory, and
+      Acas warns that a probing "why" can leave people feeling threatened), and with someone grieving
+      it risks sounding like a demand for an explanation. A string of questions is the interrogating
+      kind that the roadblock list and the 2026 review both warn about, when questions serve the
+      asker's agenda. And the roadblock list objects to intensive, interrogating questioning, not to
       asking.
 ---
 
-Most advice about being good company tells you what to say. The strongest experimental evidence on
-the subject is about what to ask. In a set of experiments with strangers, people who were told to
+Most advice about being good company tells you what to say. Some of the clearest experimental
+evidence on the subject is about what to ask. In a set of experiments with strangers, people who were told to
 ask more questions were liked more by the person they were talking to, and the askers didn't see it
 coming.[1] In a clinic, one word in a doctor's question mattered: patients with more than one
 concern said yes to "something else?" about nine times in ten, and to "anything else?" about half
 the time.[2]
 
-Questions are the listener's main tool, and they go wrong in ways that are easy to miss: the
+Questions are one of the listener's main tools, and they go wrong in ways that are easy to miss: the
 question that changes the subject, the one that's really a statement, the three questions fired at
 once, the "Any questions?" that closes a meeting in silence. This lesson looks at what the
 experiments found and what they didn't, sorts questions into types you can recognise, and ends with
@@ -132,40 +134,41 @@ secretly told to ask **at least nine questions** or **at most four**.
 
 :::predict Partners of the people told to ask at least nine questions rated how much they liked them, and so did partners of the people told to ask at most four. Before reading on: did the askers themselves expect that asking more would make them better liked?
 
-No. The partners of high askers did like them more. But when the askers were asked to predict how much their partner liked them, the prediction didn't differ between the two groups, and across everyone, how many questions a person asked was unrelated to how much they expected to be liked (r = −.02, essentially zero).[1]
+No. The partners of high askers did like them more. But when the askers were asked to predict how much their partner liked them, the prediction didn't differ between the two groups, and across everyone, how many questions a person asked was unrelated to how much they expected to be liked (r = −.02, close to zero).[1]
 :::
 
 The numbers. Partners of high askers rated their liking at 5.79 on a 1 to 7 scale, against 5.31 for
 partners of low askers, an effect of d = .35.[1] Mental Fitness lesson 2, "What a small effect is,
-and what the other group got", gave you a way to read that: on that lesson's arithmetic on the normal
+and what the other group got", gave you a way to read that with g, and d is the same kind of number:
+on that lesson's arithmetic on the normal
 curve, which is the course's calculation rather than a figure from the study, 0.35 puts the average
 rating from a high asker's partner above about 64% of the ratings from low askers' partners, if the
 ratings are spread in the bell shape the arithmetic assumes. And the comparison group
 matters: it wasn't people who asked nothing. It was people told to ask at most four questions in
 fifteen minutes.
 
-A second study repeated it online, with participants recruited through Amazon's Mechanical Turk and
-both people in each pair given an instruction. High askers were again liked more (d = .27).[1] Then a
+A second study repeated it online, with participants recruited through Amazon's Mechanical Turk (a
+website where people are paid for short online tasks) and both people in each pair given an instruction. High askers were again liked more (d = .27).[1] Then a
 third group, outside observers, read the transcripts of those online chats and rated the people in
 them. The observers did **not** like the high askers more. They liked the people who had been asked
 a lot of questions, perhaps, the authors suggest, because people who answered many questions came
-across as fuller, more interesting people.[1] So the liking came from being asked, and it was felt by
-the person being asked, not by people watching.
+across as fuller, more interesting people.[1] So the warmth towards the asker was felt by the person
+being asked, not by people watching; the watchers warmed to the one answering.
 
 Why would asking make you liked? The authors' answer is **responsiveness**, which they describe as
 "an interpersonal construct that captures listening, understanding, validation, and care".[3] Coders
 who read the chats rated high askers as more responsive (d = .30), and in the authors' words,
 "responsiveness explains the effect of question-asking on liking".[3] That is their mechanism,
-tested as a statistical mediator, not seen directly.
+supported by a statistical test of whether responsiveness carries the effect from asking to liking,
+not seen directly.
 
 What kind of evidence is this? **One group's programme**: several studies, from one research group,
-with strangers chatting by text, in a US university lab and online. And it has a history worth knowing. In 2025 the
+with strangers chatting by text, in a US university lab and online. And it has been checked since. In 2025 the
 journal published a correction after an independent audit of the data and analysis. The notice says
 "The audit confirmed that all the conclusions in the paper are valid", that the corrected errors were
 "minor errors in how some results were reported", and that "no reason was found to doubt the
 integrity of the data collection".[3] The audit reports are [public](https://osf.io/rymv8/), and the
-figures in this section are ones the auditor reproduced, within rounding. That is what a finding looks like when
-someone has checked it, and it is worth being able to read.
+figures in this section are ones the auditor reproduced, within rounding.
 
 ## Six kinds of question
 
@@ -200,6 +203,8 @@ As an opener it is fine. Now Lorcan has three ways to go.
   and it could only come from someone who heard it.
 - The alternative after "Yes, lovely": "Did you see the news about the office move?" is a **full
   switch**. Nothing is wrong with the question. It just tells Saoirse the holiday was a formality.
+- And after the levadas, "Did you get to Lisbon too?" would be a **partial switch**: still travel,
+  but no longer her levadas.
 
 And if Saoirse had asked first, "Have you been away this year?", Lorcan's "No, but have you been
 anywhere nice?" would be a **mirror** question, bouncing her question back.
@@ -230,12 +235,14 @@ give specific rewrites:
 - Celeste Headlee, in her TED talk, suggests asking "What was that like?" rather than "Were you
   terrified?".[7]
 
-Those are **practitioner advice**, and the reason behind them is simple enough: a closed question
+That is **practitioner advice**, and the reason behind them is simple enough: a closed question
 supplies the frame (a bad week, OK or not OK, terrified or not) and leaves the other person only to
 confirm it.
 
-Two cautions keep this from becoming a rule. StoryCorps lists questions like "Do you have any
-regrets?" in its bank of great questions for recorded conversations.[8] It is closed in form, and between two people who care about the answer it opens a story.
+Two cautions keep this from becoming a rule. StoryCorps lists questions like "Did you always know
+you wanted to be a parent?" in its bank of great questions for recorded conversations.[8] It is
+closed in form, and on this course's reading, between two people who care about the answer, it opens
+a story.
 And closed questions have their own job. Acas, the UK's workplace conciliation service, suggests open
 questions at the start of a difficult conversation, then probing ones, then closed ones to check the
 facts,[9] and the medical framework you met in lesson 5 describes its question style as an "open to
@@ -248,7 +255,9 @@ Interviewers, whose job is getting people to talk, agree on one more rule. The S
 history guide: "Ask one question at a time and try to ask simple questions."[11] Poynter's list for
 journalists: "Ask one question at a time. This isn't multiple choice."[12] Acas lists **multiple
 questions** (its example asks what happened, how you felt and what you did about it, all in one) as
-a type that "should be avoided", because the person is not sure which part to answer.[9]
+a type that "should be avoided", because the person is not sure which part to answer.[9] (Essential
+Partners, writing prepared questions for a group to answer in turn, say "When two questions are
+closely related, ask them together."[18] That's a different job from asking in the moment.)
 
 Lesson 5's advice applies to the stacked question: ask once, and leave the silence.
 
@@ -256,14 +265,15 @@ Lesson 5's advice applies to the stacked question: ask once, and leave the silen
 
 Here the traditions part company. The FBI's model for crisis negotiation, as three researchers
 describe it, avoids "why": "Why" statements "are usually avoided, as they tend to be perceived as
-interrogatory".[13] Acas gives "Why did you leave?" as its example of a good open question,[9] and the
+interrogatory".[13] Acas gives "Why did you leave?" as its first example of an open question, though the same guide
+warns that a probing "why" ("Why did you say that?") can leave the person feeling threatened.[9] The
 Smithsonian guide suggests "how, why, when, where, who" to open up a yes-or-no answer.[11]
 
 Both are **practitioner advice**, from different settings: a negotiator talking to someone in crisis,
 and a workplace manager or an oral historian looking for an account. This course found no study
 comparing "why" with "what" or "how" in ordinary conversation, so it leaves the disagreement where it
-is. On this course's reading, it helps to notice what "why" asks for: a reason, which can sound like
-a demand to justify yourself.
+is. The difference may be narrower than it looks: the negotiators and Acas both warn that a "why" can
+land as a demand to justify yourself, and they differ on how often that risk is worth taking.
 
 ## "Some" and "any"
 
@@ -284,7 +294,7 @@ On unmet concerns, the "anything" question, the form the textbooks of medical in
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img" aria-labelledby="cl6-sa-title cl6-sa-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="cl6-sa-title">Patients raising a further concern, by the doctor's wording</title>
-  <desc id="cl6-sa-desc">Two horizontal bars on a scale from 0 to 100 percent. "Is there something else": 90.3 percent of patients with more than one concern said yes. "Is there anything else": 53.1 percent. From Heritage and colleagues 2007, 20 US family physicians, 224 acute-care visits.</desc>
+  <desc id="cl6-sa-desc">Two horizontal bars on a scale from 0 to 100 percent. "Is there something else": 90.3 percent of patients with more than one concern said yes. "Is there anything else": 53.1 percent. From Heritage and colleagues 2007, 20 US family physicians; the bars are the patients in the two question arms who had listed more than one concern.</desc>
   <text x="20" y="34" font-size="15" fill="var(--text, #111418)">"Is there something else...?"</text>
   <rect x="20" y="42" width="325" height="28" fill="var(--navy, #0f2a4a)"/>
   <text x="353" y="62" font-size="15" fill="var(--text, #111418)">90.3%</text>
@@ -299,15 +309,16 @@ On unmet concerns, the "anything" question, the form the textbooks of medical in
 
 *Share of patients with more than one previsit concern who answered yes. Heritage and colleagues,
 Journal of General Internal Medicine, 2007: 20 family physicians in two US areas, 224 acute-care
-visits. Drawn by this course from the figures in the paper.[2]*
+visits in the study; the bars are the patients in the two question arms who had listed more than one
+concern. Drawn by this course from the figures in the paper.[2]*
 
 The unmet concerns tell the same story. In the visits with no special question, 37% of patients with
-more than one concern left with one unmentioned. With "something", the adjusted figure fell to 9%.
+more than one concern left with one unmentioned. With "something", the figure adjusted for differences between patients fell to 9%.
 With "anything", the difference from asking nothing wasn't statistically significant. Neither
 question made visits longer (they averaged 11.4 minutes).[2]
 
-The authors' explanation is grammatical. "Any" is a word that belongs in negative sentences (to take
-this course's example, you say "I haven't got any change", not "I've got any change"), so on their
+The authors' explanation is grammatical. "Any" is a word that belongs in negative sentences (their
+example: you say "I haven't got any samples", not "I've got any samples"), so on their
 account "anything else?" quietly signals that the expected answer is no, and "something else?"
 doesn't.[2] That is **their account**, not something
 the study tested separately. **This course's reading** is that it fits lesson 2, "Why 'no' comes
@@ -316,16 +327,19 @@ in lesson 2 turned "D'they have a good cook there?" into "Nothing special?".
 
 ### Has it held up?
 
-This is a **single study**: 20 volunteer doctors, two areas, and the authors call it small. So the
+This is a **single study**: 20 volunteer doctors, two areas, and the authors call it relatively
+small, too small to detect modest differences, so they ask for caution about its non-significant
+results, including "anything" against asking nothing. So the
 next question is whether anyone repeated it, and this course found one attempt.
 
 In the UK, Geraldine Leydon and colleagues, with Heritage among the authors, ran a three-arm
-**feasibility trial** with 21 GPs in Dorset, Hampshire and Wiltshire and 320 patients: "any", "some",
-or usual care.[14] They drew on the US study "but not replicating the design", and as a feasibility
+**feasibility trial** (a small trial run to see whether a full trial could be done, not large enough
+to test the effect) with 21 GPs in Dorset, Hampshire and Wiltshire and 320 patients: "Are there ANY
+other concerns that you'd like to discuss today?", the same with SOME, or usual care.[14] They drew on the US study "but not replicating the design", and as a feasibility
 study they reported descriptive figures only. The wording "seemed to have no bearing on the number of
 patient concerns elicited, on consultation length or on patient satisfaction".[14] But there was
 little for any question to fix: only 9 of 252 patients reported leaving with a planned concern
-unmentioned, spread across all three arms. The authors list differences from the US study: the UK
+unmentioned, across all patients and all three arms (about 4%). The authors list differences from the US study: the UK
 patients were older and mostly white, they came with long-standing problems as well as new ones, and
 UK general practice is free at the point of access. Their conclusion: the wording "may not be as
 important as the placement of the GP solicitation", that is, asking early.[14]
@@ -335,22 +349,22 @@ interviews with 379 children aged 4 to 12, children answered "no" more often to 
 to "some" ones,[15] and in 138 recorded visits at an urban academic hospital, the authors recommend
 "what else" over "anything else".[16] Neither repeats the 2007 trial.
 
-So where does that leave "any"? **This course's reading**: in a US clinic where many patients left
-with something unsaid, one word made a large difference; in a UK trial where almost nobody did, there
+So where does that leave "any"? **This course's reading**: in a US clinic where more than a third
+of patients with several concerns left with one unsaid, one word made a large difference; in a UK trial where almost nobody did, there
 was nothing for the word to change. The one thing both found is that asking didn't make visits
 longer.
 
 ### The meeting that ends in silence
 
 Philippa runs a weekly team meeting. She finishes her update with "Any questions?", pauses for two
-seconds, and says "Great, thanks everyone." Nobody ever asks anything. Should she say "Are there some
-questions?" instead?
+seconds, and says "Great, thanks everyone." Nobody ever asks anything. Should she say "Is there something
+you'd like to ask?" instead?
 
 Here's what the evidence can and can't tell her. The 2007 study tested "something else" against
 "anything else" for concerns in a doctor's visit, and the authors suggest only that the relative failure of "any"
 "may generalize" to questions framed the same way, and they give as their example the "almost
-ubiquitous" *Do you have any questions?*.[2] That is a suggestion, not a finding, and a team meeting is not a clinic. The UK trial adds that when asking comes early and
-people are used to speaking up, the word may matter less.
+ubiquitous" *Do you have any questions?*.[2] That is a suggestion, not a finding, and a team meeting is not a clinic. The UK trial adds that when the question comes early, as
+it did in both studies, the word may matter less than the timing.
 
 **This course's reading**: "some" costs Philippa nothing, so it is a reasonable thing to try. But two
 things from earlier lessons are likely to matter at least as much, and neither needs a study of
@@ -363,11 +377,11 @@ better in her team is something she can only find out by trying it.
 ## When a question isn't one
 
 Some questions are statements, traps or arguments in a question's clothing. The textbook tradition
-calls them **counterfeit questions**. Adler, Proctor and Manning's *Looking Out, Looking In* lists
+calls them **counterfeit questions**. The chapter outline for the 13th edition of Adler and Proctor's *Looking Out, Looking In* lists
 questions that trap, tag questions, questions that make statements, questions that carry hidden
 agendas, questions that seek a "correct" answer, and questions based on unchecked assumptions.[17]
-This course read that book's chapter outline, not the chapter, so the list is names only; the
-examples below are this course's.
+This course read that outline, not the chapter, so the list is names only; the examples below are
+this course's.
 
 - A **trap**: "Didn't you say you'd be home by six?", asked by someone who knows you did.
 - A **tag question**: "You're coming, aren't you?", which tells you the answer wanted.
@@ -378,15 +392,17 @@ examples below are this course's.
   that the person was.
 
 Acas adds **leading questions**, which "should be avoided",[9] and Essential Partners, who run
-structured dialogues between people on opposite sides of divisive issues, give their groups this
-agreement: "If you ask a question, be sure it reflects genuine curiosity and is not a challenge in
+structured dialogues between people on opposite sides of divisive issues, script the people leading their groups to
+invite questions this way: "If you ask a question, be sure it reflects genuine curiosity and is not a challenge in
 disguise."[18]
 
 :::checkpoint Your turn. Anouk and Osric share a flat. Type each of Osric's six questions (follow-up, full switch, mirror, introductory, open or closed, and any counterfeit kind) before you open this.
 
+Osric: (1) "How's it going?" (He's only just walked in.)
+
 Anouk: "I went to the climbing wall after work."
 
-Osric: (1) "How's it going?" (He's only just walked in.) (2) "Oh yeah, how was it?"
+Osric: (2) "Oh yeah, how was it?"
 
 Anouk: "Hard. I got stuck on the overhang for ages."
 
@@ -396,21 +412,24 @@ Anouk: "No. Did you get the train in the end?"
 
 Osric: (5) "I did. Did you drive?" (6) "Isn't climbing a bit pointless when you could just go for a run?"
 
-(1) Introductory, and closed in form, though nobody answers "how's it going?" with a yes. (2) A follow-up, and open. (3) A follow-up on her answer, and open: the kind the experiments found went with being liked. (4) A full switch, closed, and a counterfeit: a tag question with an accusation inside it. (5) "Did you drive?" is a mirror of sorts, asked back after he answered hers, and closed. (6) A statement dressed as a question, and a challenge in disguise.
+(1) Introductory. Open in form, since it starts with "how", but in practice it gets a one-word "fine", so it does a closed question's job. (2) A follow-up, and open. (3) A follow-up on her answer, and open: the kind the experiments found went with being liked. (4) A full switch, closed, and a counterfeit: a tag question with an accusation inside it. (5) "Did you drive?" is a mirror of sorts, asked back after he answered hers, and closed. (6) Rhetorical in the study's scheme, closed, and a statement dressed as a question: a challenge in disguise.
 
-If you typed (5) as a follow-up: it follows up her question, not something she told him, and the study's scheme calls a question asked back after the partner's question a mirror. If you called (1) open because it can't really be answered yes or no, that's fair, and it's the StoryCorps point from the other side: the form of a question and what it does can come apart.
+If you typed (5) as a follow-up: it follows up her question, not something she told him, and the study's scheme calls a question asked back after the partner's question a mirror. If you typed (1) closed because nobody gives it more than a word, that's fair: it's the StoryCorps point from the other side, where the form of a question and what it does come apart.
 :::
 
 ## When not to ask
 
-A list that practitioners have used for decades points the other way. Gordon's "twelve
-roadblocks" to listening, as a US government treatment manual reproduces them, include "questioning,
-probing" as number 11, and the manual says: "If you engage in any of these 12 activities, you are
-talking and not listening."[19] That is **practitioner lore**: no study this course found tests the
-twelve as a set, and on questions it sits against the experiments above, where follow-up questions
-went with being heard.
+A list that practitioners have used for decades adds a warning. Gordon's "twelve roadblocks" to
+listening, as a US government treatment manual reproduces them, include "questioning or probing" as
+number 11, with the note that "intensive questioning can disrupt communication, and sometimes the
+client feels as if he or she is being interrogated". The manual says of all twelve: "If you engage in
+any of these 12 activities, you are talking and not listening."[19] Yet the same manual lists asking
+open questions first among its own core skills.[19] So the lore isn't against questions; it's against
+a certain kind. It is still **practitioner lore**: no study this course found tests the twelve as a
+set.
 
-The two can be squared, on **this course's reading**, by looking at whose agenda a question serves. A
+The manual's line can be taken further, on **this course's reading**, by looking at whose agenda a
+question serves. A
 follow-up is about what the other person chose to tell you. A probe is often about what you want to
 know: the details of the illness, the name of the ex, the salary. The 2026 review draws a similar
 line, citing a 2025 study this course hasn't read: questioning goes with stronger connection when it
@@ -441,8 +460,8 @@ distinguished statistically from asking nothing about unmet concerns; in one UK 
 people asked was unrelated to how much they expected to be liked.[1]
 
 **"Never ask 'why'" and "'Why' is the best open question."** Both are one tradition's practice. The
-negotiators avoid it, workplace and oral-history guides recommend it, and no study this course found
-settles it.[9][11][13]
+negotiators avoid it, the workplace guide uses it with a warning, the oral historians suggest it, and
+no study this course found settles it.[9][11][13]
 
 ## Practice
 
@@ -515,8 +534,8 @@ people find hardest to ask.
   [2025 audit reports](https://osf.io/rymv8/) beside it. Table 2 gives an example of each question
   type. This course read the full text and the audit.
 - **Alison Wood Brooks and Leslie John, ["The surprising power of questions"](https://hbr.org/2018/05/the-surprising-power-of-questions),
-  *Harvard Business Review*, 2018.** A plain summary of the question research for managers, read in
-  full at the course's research stage. The magazine may meter access.
+  *Harvard Business Review*, 2018.** A plain summary of the question research for managers. This course
+  read the full text. The magazine may meter access.
 
 ## Sources
 
@@ -574,13 +593,15 @@ people find hardest to ask.
     clinician agenda-setting questions in routine ambulatory encounters: a mixed method study.
     *Patient Education and Counseling*, 115, 107889. **Read: the abstract only**, through PubMed, 26
     September 2026. Observational, 138 visits. <!-- lesson 05/06 gate closures, G20 -->
-17. Adler, Proctor and Manning, *Looking Out, Looking In* (Cengage). **Read: the publisher's chapter
-    outline for the 13th edition; the chapter text was not read.** <!-- SOURCES Part A §1.1; G15 fallback -->
+17. Adler, R. B., and Proctor, R. F., II, *Looking Out, Looking In*, 13th edition (Cengage, c. 2010);
+    the current 16th edition adds Manning. **Read: the publisher's chapter outline for the 13th
+    edition; the chapter text was not read.** <!-- SOURCES Part A §1.1; G15 fallback -->
 18. Essential Partners, [*Fostering Dialogue Across Divides*](https://whatisessential.org/sites/default/files/inline-images/FDAD/FDAD-EssentialPartners-2018.pdf)
-    (2018). **Read: the agreements, go-round and pause sections**, the question agreement re-read 26
-    September 2026. Practitioner method. <!-- SOURCES Part E §6.2; lesson 05/06 gate closures -->
+    (2018). **Read: the agreements, go-round and pause sections**, and §4.1.13 to §4.1.14 on posing questions,
+    re-read 26 September 2026. Practitioner method. <!-- SOURCES Part E §6.2; lesson 05/06 gate closures -->
 19. SAMHSA (2019). *TIP 35: Enhancing Motivation for Change in Substance Use Disorder Treatment*,
     Exhibit 3.5, "Gordon's 12 Roadblocks to Active Listening", [PDF](https://library.samhsa.gov/sites/default/files/tip-35-pep19-02-01-003.pdf).
-    **Read: the exhibit**; Gordon's original 1970 book was not read. <!-- SOURCES Part C §6.5; lesson 05/06 gate closures -->
+    **Read: the exhibit and the chapter's section on the core skills (OARS)**, re-read 26 September
+    2026; Gordon's original 1970 book was not read. <!-- SOURCES Part C §6.5; lesson 05/06 gate closures -->
 20. Oral History Association, [*Principles and Best Practices*](https://oralhistory.org/wp-content/uploads/2025/10/2025-OHA-Principles-and-Best-Practices-Complete.pdf)
     (2025). **Read: the interviewing and ethics sections**, re-read 26 September 2026. <!-- SOURCES Part E §5.1; lesson 05/06 gate closures -->

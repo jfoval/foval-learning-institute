@@ -1627,7 +1627,7 @@ Coverage: the Rogers and Farson origin of "active listening" and Rogers' 1957 co
 #### 6.5 Gordon's twelve roadblocks (practitioner lore)
 
 - **Source read:** SAMHSA (2019). *TIP 35: Enhancing Motivation for Change in Substance Use Disorder Treatment*, Exhibit 3.5 "Gordon's 12 Roadblocks to Active Listening", source "Gordon, 1970". Full PDF: https://library.samhsa.gov/sites/default/files/tip-35-pep19-02-01-003.pdf (public domain).
-- **The list (as given in TIP 35):** 1 ordering, directing, commanding; 2 warning, cautioning, threatening; 3 giving advice, making suggestions, or providing solutions prematurely or when unsolicited; 4 persuading with logic, arguing, lecturing; 5 moralising, preaching, telling people what they should do; 6 judging, criticising, disagreeing, blaming; 7 agreeing, approving, praising; 8 shaming, ridiculing, labelling; 9 interpreting, analysing; 10 reassuring, sympathising, consoling; 11 questioning, probing; 12 withdrawing, distracting, humouring, changing the subject. TIP 35: "If you engage in any of these 12 activities, you are talking and not listening." [V]
+- **The list (as given in TIP 35):** 1 ordering, directing, commanding; 2 warning, cautioning, threatening; 3 giving advice, making suggestions, or providing solutions prematurely or when unsolicited; 4 persuading with logic, arguing, lecturing; 5 moralising, preaching, telling people what they should do; 6 judging, criticising, disagreeing, blaming; 7 agreeing, approving, praising; 8 shaming, ridiculing, labelling; 9 interpreting, analysing; 10 reassuring, sympathising, consoling; 11 questioning, probing (*corrected 2026-09-26, Stage 4 note, lesson 06: the exhibit's item reads "Questioning or probing", and its gloss objects to intensive, interrogating questioning; see "Gate closures, lesson 06 review"*); 12 withdrawing, distracting, humouring, changing the subject. TIP 35: "If you engage in any of these 12 activities, you are talking and not listening." [V]
 - **Caution:** item 3's qualifier "prematurely or when unsolicited" appears to be SAMHSA's adaptation; Gordon's original *Parent Effectiveness Training* (1970) wording not checked. Gordon Training International says the list dates to Gordon's 1950s leadership courses; I did not verify that page's text.
 - **Evidence status:** no study I found tests the twelve as a set. Several items conflict with evidence: praise and reassurance are low-level person-centred responses in Burleson's hierarchy (consistent), but questioning is a roadblock here while follow-up questions predict liking elsewhere (Puzzle 7), and advice is sometimes as welcome as reflection (Weger 2014). Present as a useful checklist of habits, not as findings.
 
@@ -3610,8 +3610,9 @@ neither cited study was read.
 - Essential Partners, *Fostering Dialogue Across Divides*, pause section: "Most moments of silence are
   anything but empty." "Pauses also promote better listening, because most listeners can concentrate
   better when they know there will be a pause during which they can gather their thoughts." Question
-  agreement: "If you ask a question, be sure it reflects genuine curiosity and is not a challenge in
-  disguise."
+  agreement (*corrected 2026-09-26, Stage 4 note, lesson 06: not one of the §2.4 agreements; it is the
+  facilitator's invitation in §4.1.14, see "Gate closures, lesson 06 review"*): "If you ask a question,
+  be sure it reflects genuine curiosity and is not a challenge in disguise."
 - Acas, *Challenging conversations*: leading questions ("You’re not suggesting that …?"; "You must
   admit that …?") and multiple questions both "These questions should be avoided."; the open-question
   example "Why did you leave?".
@@ -3625,3 +3626,59 @@ neither cited study was read.
 
 **Not attempted:** G19 (Project Aristotle; lesson 5 does not mention it). The Brooks and John reprint
 URL at CEBMA now returns 404; lesson 6 cites it only in Go deeper, at its HBR address.
+
+## Gate closures, lesson 06 review (2026-09-26)
+
+Stage 4 fix pass of lesson 6 ("Asking better questions"). Each string below was re-confirmed today
+against its primary: PDFs fetched with curl (generic browser User-Agent, no personal data in any
+header) and converted with pdftotext; web pages fetched the same way and stripped of markup. Nothing
+on the unread line was cleared. Two labels in earlier entries are corrected in place and noted there
+(Part C §6.5's item 11; the lesson 05/06 section's "Question agreement").
+
+- **SAMHSA TIP 35** (URL as Part C §6.5), Exhibit 3.5, item 11: "Questioning or probing" [V], not
+  "questioning, probing". Its gloss: "Do not mistake questioning for good listening." [V]; "intensive
+  questioning can disrupt communication, and sometimes the client feels as if he or she is being
+  interrogated." [V] (the text layer drops the "fi" ligature elsewhere in the gloss, as "fnd"; the
+  quoted strings contain none). Chapter 3, "Core Skills of MI: OARS": the first of the four is
+  "Asking Open questions" [V]; "Use open questions to invite clients to tell their story rather than
+  closed questions, which merely elicit brief information." [V]. **Stage 4 note:** the manual does
+  not set questions against listening; it objects to intensive questioning and teaches open questions
+  as a core skill.
+- **Acas, *Challenging conversations*** (URL as Part E §4.4), question table, pp. 12 to 13: "Why did
+  you leave?" is the first example in the "Open question" row [V], whose drawbacks are that the person
+  "may talk too much, drift away from the subject you have in mind" [V]; the table does not call it
+  good. "Probing/reflective questions", example "Why did you say that?" [V], drawbacks: "The employee
+  may feel threatened. Attention must be given to anticipating and monitoring the effect on the
+  person." [V]. Leading and multiple questions: "These questions should be avoided." [V, re-confirmed].
+- **Heritage et al. 2007** (PMC2305862): the polarity example is the authors' own: "I haven’t got any
+  samples" and "I’ve got any samples." [V]. Limitations: "The study was relatively small and lacked
+  statistical power to distinguish small differences, so that findings that were not statistically
+  significant should be viewed with some caution." [V]. Sample: "a final sample of 224 visits for
+  analysis, 20 of which were used only for evaluating the priming effects of the survey, and 204 of
+  which constituted the primary analytic sample" [V]; unmet concerns were analysed in the 99 patients
+  with more than one previsit concern (20 of 99 with any unmet concern, all arms) [V]; the 37% is the
+  nonintervention cases with more than one previsit concern [V]; "covariate-adjusted proportions"
+  [V].
+- **Leydon et al. 2018** (accepted manuscript PDF, https://eprints.qut.edu.au/223692/1/1-s2.0-S0738399118301137-main.pdf):
+  the two arms' questions, "Are there ANY other concerns that you’d like to discuss today?" and "Are
+  there SOME other concerns that you’d like to discuss today?" [V]; both asked "once patients have
+  presented their first concern" [V]; 9 of 252 across the three arms [V, re-confirmed]; the
+  differences the authors list include a service "free at the point of access" [V]. **Stage 4 note:**
+  nothing in the paper says UK patients are more used to speaking up; lesson 6 no longer says so.
+  The "some" arm's mean consultation was 1.4 minutes longer than control (11.6 against 10.2), which
+  the authors do not treat as an effect ("did not appear to impact on the consultation length" [V]).
+- **Essential Partners, *Fostering Dialogue Across Divides*** (URL as Part E §6.2): §4.1.14, on the
+  move from go-rounds to freer conversation, the facilitator invites contributions in four ways, the
+  first "Ask a genuine question. “Is there something someone said that you’d like to understand
+  better? If you ask a question, be sure it reflects genuine curiosity and is not a challenge in
+  disguise.”" [V]. §4.1.13, on writing go-round questions: "When two questions are closely related,
+  ask them together. Participants are likely to touch on the second while answering the first in any
+  case." [V].
+- **StoryCorps, "Great Questions"** (URL as Part E §5.3): "Did you always know you wanted to be a
+  parent?" [V], a closed question without "any".
+- **Adler, *Looking Out, Looking In*, 13th edition, author line.** The outline PDF was not re-found
+  today (its URL is not recorded in Part A §1.1). The Internet Archive's catalogue record for the 13th
+  enhanced edition (identifier `lookingoutlookin0013adle`, Cengage Learning, 2010) gives the creator
+  as "Adler & Proctor 2" [V, metadata], and bookseller listings give Ronald B. Adler and Russell F.
+  Proctor II [T]. Manning joined for a later edition. Lesson 6 now says "Adler and Proctor" for the
+  13th edition, as lesson 4 already did.
