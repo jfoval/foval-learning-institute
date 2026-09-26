@@ -2095,7 +2095,7 @@ Establishes:
 - [V] "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer."
 - [V] "It is illegal for anyone to use a gas appliance if they suspect it is unsafe."
 - Suspected leak: call the National Gas Emergency number 0800 111 999, open doors and windows, shut off at the meter control valve if you know where it is.
-- Moving a bayonet-fitted cooker temporarily to clean behind it is not "work"; [V] "Any other type of installation/reinstallation is regarded as gas work and must be carried out by a Gas Safe registered engineer." (That sentence sits in the tenant section and is advice.)
+- Moving a bayonet-fitted cooker temporarily to clean behind it is not "work"; [V] "Any other type of installation/reinstallation is regarded as gas work and must be carried out by a Gas Safe registered engineer." (That sentence sits in the landlord section, as item 5 of HSE's tips on tenants' own appliances, not the tenant section; corrected at Stage 4, lesson 10, 2026-09-26.)
 - [V] "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." (HSE, undated figure.)
 - HSE Gas Safe page: Gas Safe Register covers natural gas and LPG work in [V] "Great Britain, Northern Ireland, the Isle of Man and Guernsey"; launched 1 April 2009, replacing CORGI; run by Capita Gas Registration and Ancillary Services Ltd under a concession from HSE. ID card: [V] "The front of the card has a photograph, a registration number and an expiry date and the reverse shows the different categories of work that the engineer is qualified to undertake, eg cookers, boilers, gas fires."
 
@@ -5475,3 +5475,73 @@ is the commonest outside MHCLG's cooking appliances and electrical distribution 
 **Scottish Government, "Fire and smoke alarms: the law"** (D26): the mains-wired line continues,
 after a spaced en dash, with [V] "these should be replaced every 10 years". Not used in a lesson:
 the open-plan rule, one alarm [V] "no more than 7.5 metres from any point in the room".
+
+## Stage 4 note, lesson 10 (2026-09-26)
+
+Re-read live on 26 September 2026 with curl (browser User-Agent, no personal data in any header)
+and pandoc or pdftotext, by reviewer F and, for the statutes and the phone numbers, by the fixer the
+same day. Each [V] string-matched in the extracted text.
+
+- **Correction to C15.** HSE's bayonet-cooker line and "Any other type of
+  installation/reinstallation ..." sit in the **landlord** section of "Domestic gas: frequently
+  asked questions", as items 4 and 5 of HSE's tips on tenants' own appliances, not in the tenant
+  section. [V] "Free-standing cookers connected by a flexible connector (bayonet fitting), are not
+  considered to be 'readily movable', but can be moved, temporarily, eg to clean the space they
+  normally occupy; this type of activity is not regarded as 'work' within the meaning of these
+  Regulations." The tenant section has the specimen letter and names form LGSR1.
+- **HSE, L56 (5th edn, 2018).** Legal-status page, the sentence before the one C14 records: [V]
+  "You may use alternative methods to those set out in the Code in order to comply with the law."
+  Para 83, the sentence after "do-it-yourself gas engineers ...": [V] "The level and range of
+  competence should match the full extent of work done, but needs only to be sufficient for and
+  relevant to that work." Para 91: [V] "all gas engineering businesses, including self-employed gas
+  engineers, are (subject to the limited exceptions in regulation 3(4)) required to be in membership
+  of a class of persons approved by HSE, whether they carry out such work as their main or part
+  activity." Para 93 is dated to the edition: [V] "At the time of publication of this edition of the
+  ACOP, the only body with such approval is the Gas Safe Register". Para 94: [V] "Regulation 3
+  extends to work on portable or mobile space heaters, eg LPG cabinet heaters". Para 95: people
+  covered by the reg 3(4) exceptions [V] "need to have the required competence and ensure that they
+  follow instructions, eg given by the gas supplier/appliance manufacturer, as appropriate."
+- **HSE, "Gas Safe Register"** (newschemecontract.htm): [V] "Under the Gas Safety (Installation and
+  Use) Regulations 1998 for a gas engineering business to legally undertake gas work that is within
+  the scope of the Regulations they must be on the Gas Safe Register."
+- **HSE, "Gas safety: home owners"** (faqownerocc.htm), re-read by the fixer 26 September 2026
+  (gate G-N1 for the helpline): [V] "If in any doubt you can ring Gas Safe Register 0800 408 5500 or
+  check their website to see if the engineer is registered." [V] "By inputting the licence number
+  from the engineers ID card. Consumers will be able to see pictures of the registered engineers and
+  details of their qualifications. This information can also be sent through as a picture message
+  to a mobile phone by calling the freefone helpline on 0800 408 5500." The same page offers a text
+  route (the business registration number or the engineer's seven-digit licence number to 85080);
+  not used in a lesson. Advice Line 0800 300 363 and its hours unchanged.
+- **Gas Safe Register, "Don't DIY" (capture 20251023004454):** [V] "Working with gas can be
+  dangerous, so it’s crucial that you never try to fix, fit or move appliances like your boiler or
+  cooker yourself." Also [V] "Never try to remove or repair a gas appliance yourself".
+- **SI 1998/2451, reg 34** (live, no known outstanding effects): [V] "(1) The responsible person
+  for any premises shall not use a gas appliance or permit a gas appliance to be used if at any time
+  he knows or has reason to suspect that it cannot be used without constituting a danger to any
+  person." [V] "(2) For the purposes of paragraph (1) above, the responsible person means the
+  occupier of the premises, the owner of the premises and any person with authority for the time
+  being to take appropriate action in relation to any gas fitting therein."
+- **SI 1998/2451, reg 36** (live, no known outstanding effects): "relevant premises" are those
+  occupied for residential purposes under [V] "a licence" as well as a lease; "lease" includes [V]
+  "a lease for a term of less than 7 years" and [V] "a tenancy for a periodic term". Reg 36(7): [V]
+  "Where there is no relevant gas appliance in any room occupied or to be occupied by the tenant in
+  relevant premises, the landlord may, instead of ensuring that a copy of the record referred to in
+  paragraph (6) above is given to the tenant, ensure that there is displayed in a prominent position
+  in the premises ... a copy of the record".
+- **SI 1998/2451, reg 3(4)** re-read live, unchanged: [V] "The requirements of paragraph (3) above
+  shall not apply in respect of" the two hose and regulator replacements.
+- **SI 1998/2451, introduction:** made [V] "in exercise of the powers conferred on him by sections
+  15(1), (2), (4)(a), (5), (6)(b) and 82(3)(a) of ... the Health and Safety at Work etc. Act 1974".
+- **Health and Safety at Work etc. Act 1974, s 53(1)** (live; the page lists outstanding changes to
+  the Act, none read as touching this definition): [V] "“self-employed person” means an individual
+  who works for gain or reward otherwise than under a contract of employment, whether or not he
+  himself employs others;"
+- **Interpretation Act 1978, s 11** (live, no known outstanding effects): [V] "Where an Act confers
+  power to make subordinate legislation, expressions used in that legislation have, unless the
+  contrary intention appears, the meaning which they bear in the Act."
+- **Texas Occupations Code s 1301.551** (TSBPE unofficial June 2023 text, reviewer F): requires a
+  municipality of more than 5,000 inhabitants to regulate plumbing by ordinance and to require a
+  permit before plumbing, apart from listed minor replacements. Not used in a lesson (no string
+  recorded); lesson 22 may use it after re-reading.
+- **Use in lesson 10:** applying s 53 through s 11 to a paid occasional favour (the £60 case) is the
+  course's reading, labelled as such; no source read applies reg 3(3) to that case in terms.

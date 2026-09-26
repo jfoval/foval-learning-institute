@@ -205,3 +205,49 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Places now used by lesson 11:** Cumbria and Kentucky (quiz), plus Cheshire, the Scottish
   Borders, Lancashire and Indiana.
 - **Quiz keys:** lesson 11 unchanged at 2,3,1,0,3.
+
+## 2026-09-26 — Lesson 12 fix pass: notes for later lessons
+
+- **England's advice is not "the UK advice".** GOV.UK marks "Fire safety in the home" as England
+  only, and Fire Kills names no nation. Say "England's advice" (Fire Kills, the Home Office guide);
+  Wales and Northern Ireland alarm law and advice were not read.
+- **MHCLG Table 5.1 has two columns.** Across all dwelling fires, siting reasons are 66% of failures
+  to operate and battery reasons about 5%; in fires with a casualty, batteries about 16% and siting
+  about 19%, with "other" commonest. Quote either column only with its scope (SOURCES "Stage 4
+  note, lesson 12").
+- **MHCLG's footnote 10 says "can be"** poorly sited, not "usually". Fire Kills' "more than a third"
+  is undated and a different measure from MHCLG's (about 9% of dwelling fires).
+- **The tumble dryer** is the commonest appliance outside MHCLG's cooking appliances and electrical
+  distribution categories, not the commonest non-cooker appliance (microwaves and toasters are
+  cooking appliances there).
+- **Renters in quizzes:** a keyed answer never has a renter move, fit or remove anything; the
+  landlord is asked.
+- **Places now used by lesson 12:** Gloucestershire, Derbyshire, the Pacific Northwest, Perthshire.
+- **Quiz keys:** lesson 12 now 2,0,1,2,3 (was 0,1,3,2,0, a positional shift of lesson 04's).
+
+## 2026-09-26 — Lesson 10 fix pass: notes for later lessons
+
+- **HSE's bayonet-cooker lines are landlord guidance**, items 4 and 5 of its tips on tenants' own
+  appliances in the landlord section of "Domestic gas: frequently asked questions" (SOURCES C15
+  corrected). Any later use says so, and gives the Register's "never try to fix, fit or move"
+  beside it.
+- **"The exact position" on gas is the Gas Safety Regulations' position.** In England and Wales the
+  Building Regulations 2010 also list a heat-producing gas appliance (Schedule 3 item 1); lesson 22
+  owns that, and Scotland's building warrant regime (C18).
+- **The £60 reasoning** (a paid occasional favour is self-employment under HSWA s 53, carried into
+  the 1998 Regulations by IA 1978 s 11) is recorded in SOURCES as [V] and is always labelled the
+  course's reading. Lesson 22 may reuse it with that label.
+- **Checking an engineer:** HSE's home-owner page asks for "the licence number from the engineers ID
+  card"; its card page calls the front's number a registration number. The Register's helpline,
+  0800 408 5500, was re-read on HSE's page on 26 September 2026. Lesson 23 re-reads it on its own
+  drafting day (G-N1).
+- **L56 para 93 is dated** ("At the time of publication of this edition"). Cite HSE's live
+  newschemecontract page for the Register as the approved class.
+- **Places:** lessons 11 to 15 reused lesson 10's first-draft places (Rutland in 11's quiz, Isle of
+  Wight in 14 and 18, Bedfordshire in 12 and 14, Moray in 13 and 15). Lesson 10 now uses only
+  Rutland of those; the others are the later lessons' to keep or change. Iowa is First Aid
+  lesson 15's.
+- **Quiz-key near-miss (reviewer P):** lesson 15's last four keys plus 2 equal lesson 10's first
+  four at offset 1. The written rule doesn't bar a value-shifted run; if the rule is extended, the
+  change is lesson 15's.
+- **Quiz keys:** lesson 10 unchanged at 0,1,3,1,3,2.
