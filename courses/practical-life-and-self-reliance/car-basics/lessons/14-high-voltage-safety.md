@@ -109,7 +109,7 @@ quiz:
       - The garage is the safest place for it, since it keeps the rain off a damaged battery
       - The garage is fine if the car is left unplugged and the garage door stays open
       - Charge it first in the driveway, so the battery can be tested before it goes inside
-      - Not in a garage or within 50 feet of the house; contact the dealer if the battery is suspect
+      - Not in a garage or within 50 feet of the house; contact the dealer if it's damaged
     answer: 3
     explain: >-
       NHTSA: flooded vehicles "lead to high-voltage shock hazards, which could lead to a fire", and
