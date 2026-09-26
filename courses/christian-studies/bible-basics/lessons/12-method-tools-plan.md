@@ -1,6 +1,7 @@
 ---
 title: "A way of reading you can keep: method, tools, and a plan"
 minutes: 150
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/12-method-tools-plan.mp3
 objectives:
   - Apply the four questions (what kind of writing, where in the story, what it meant then, what it means now) to a whole short book from a cold start
   - Use context in widening circles (sentence, paragraph, book, testament, Bible) to check a reading of a single verse
