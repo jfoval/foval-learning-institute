@@ -1,6 +1,7 @@
 ---
 title: Stock and sauces
 minutes: 130
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/10-stock-and-sauces.mp3
 objectives:
   - >-
     Explain where a stock's body and its savouriness each come from, and why a stock kept below the

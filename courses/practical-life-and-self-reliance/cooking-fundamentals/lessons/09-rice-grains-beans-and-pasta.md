@@ -1,6 +1,7 @@
 ---
 title: Rice, grains, beans and pasta
 minutes: 140
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/09-rice-grains-beans-and-pasta.mp3
 objectives:
   - >-
     Explain what hot water does to starch, and use it to cook rice by absorption and in excess
