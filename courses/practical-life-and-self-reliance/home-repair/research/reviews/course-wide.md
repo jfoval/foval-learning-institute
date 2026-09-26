@@ -502,3 +502,70 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Places:** Torfaen, West Dunbartonshire, Solihull and the Central Valley are lesson 22's. Conwy is
   lesson 21's alone.
 - **Quiz keys:** lesson 22 unchanged at 0,2,3,1,3,0.
+
+## 2026-09-26 — Final test review (2026-09-26)
+
+Fresh-context review of `assessments/final-test.md` (24 items, 23 lessons), with lessons 22 and 23
+as they stand after their fix passes. Every item read against its lesson passage; every quotation in
+the test string-matched against SOURCES.md and the lesson (all 30 match).
+
+**Across the test.** Blueprint (OUTLINE "Assessments"): covered, one item per lesson and two for
+lesson 22 (notifiable in England; what the federal report found and didn't), lesson 23 on the
+federal cancellation rule. Keys ABACBABDADBCDCDBCDADACBC: six of each letter, no adjacent repeat, and
+no run of four shared with any lesson's quiz sequence (by script; value-shifted runs exist and are
+outside the stated rule). Shape and letter checks clean; option spread 12 at most; key longest in 6
+of 24, all by 0 to 8 characters. Places: all 23 unused anywhere in `courses/` or `curriculum/`
+(`grep -rlw`). Intro: 17 of 24 is right (16.8 rounded up); callout byte-identical to lesson 1's;
+45 minutes fits 2,741 words of stems and options and 2,827 of explanations (Personal Finance's 24
+items take 45, Personal Safety's 50). No duplication between items.
+
+**Fixed in place (clear, contained edits):**
+- UK/US mixed in an answer: item 5's reasoning credited to ESF "and SCE" (US) in an English case,
+  now the course's reasoning; item 15's "either country's rule" (UK in a US item) removed; item 16's
+  HSE footing and top-three-steps lines (UK in a US item) replaced with OSHA's top-step rule and a
+  holding distractor; item 20's EPA ventilation line (US in a Scottish item) replaced with the tin's
+  own instructions.
+- Places that name a US town as well, in UK-only items: Andover, Telford, Falmouth, Hastings now
+  carry "England"; Tobermory (item 20, a law item) now carries "Scotland", as the intro promises.
+- Replays of a lesson's own case: item 3 (lesson 3's "lever held on by a small screw" and "maker's
+  name has worn off") now a smooth-bodied lever with no cover or nut; item 7 (lesson 7's
+  Northamptonshire wording copied) reworded, 1.3 bar; item 10 (lesson 10 quiz 1's hob and videos)
+  now a gas fire; item 16 (lesson 16's own sentence, a stepladder folded flat) now part-opened, which
+  tests the card's "partially closed" clause.
+- Shape tells: item 12 had three "Keep it" options against one "Replace it" (now two and two);
+  item 13's stem asked "what's wrong with the mask?", which only the key answered (now "is that mask
+  enough for the job?"); item 15's key was the point where two option families met (now a clean
+  two-by-two, a third or a quarter, top rung or not); item 6 had two "None" options (one now a
+  heavier-reel misconception, answered from ESF's 700 to 3,000 watt guide); item 22 had three "No
+  notice" options (one now the "all bathroom work" misconception, and the explanation says the zone,
+  not the room, decides).
+- Against the lesson or the notes: item 18's "the patch goes on the calendar" was a step no lesson
+  gives (removed); item 21's "CDC's order" now "CDC's steps" (lesson 21 note); item 22's "building
+  notice" was not lesson 22's term (now "notice to a building control body", and the certifier is
+  "registered"); item 22's 2-metre bathroom ceiling now a sloping loft ceiling, so the case is
+  physically plausible; item 23's key "it judged no trade" now "it urged no trade's reform", and the
+  explanation says Kleiner and Park is the workers' own safety (lesson 22 note) and drops "proved
+  nothing either way"; item 24's stem asked "can she cancel", a verdict on a person, now whether a
+  Monday notice is within the rule's period; item 2 now says the family own the house, since a
+  renter's route is the landlord.
+
+**Checked and left:** items 22 to 24 match lessons 22 and 23 as they now stand (reg 12(6A), the 2.25 m
+and 0.6 m zone, P1, the three routes; the report's appendix lines, its endorsement of careful
+licensing and its scope line; the Cooling-Off Rule's $25, invited seller, Saturday rule and
+exclusions). Every law item (2, 10, 11, 20, 22, 24) opens "As general information" and names its
+place. No key is gas work, wiring or a barred job. Job labels match their lessons.
+
+**Not fixed, for a later pass if wanted (minor):**
+- Item 2 is close to lesson 2's closing sentence (England, meter outside, nothing indoors, United
+  Utilities to the supply pipe); and United Utilities writes for its own customers, not Grantham's.
+  Left: every variant tried needed a source line lesson 2 does not have. The explanation already
+  scopes United Utilities to its own customers.
+- Item 13 reuses lesson 13's worked example (an MDF shelf power-sanded indoors); the FFP2 twist is
+  new. Fix if wanted: make the job cutting MDF with a circular saw in a garage.
+- Item 21 applies lesson 21's own line ("one mouse is a reason to find its way in, not yet a reason
+  for poison") to its own case. Fix if wanted: two mice seen in a week and droppings in one
+  cupboard, keyed on CDC's trap-before-poison line.
+- Items 2 and 4 apply an American source (EPA's meter and dye tests; ASHI on the vent) in an English
+  case, as lessons 2 and 4 themselves do with labels; neither is an emergency step or a rule.
+
+**Verdict: CLEAN.** `npm run validate` exits 0; quiz shape and letter checks pass on the file.

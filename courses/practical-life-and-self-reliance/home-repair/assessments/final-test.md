@@ -29,7 +29,7 @@ quiz:
 
   # --- The meter test and the dye test, and whose pipe (L2) ---
   - q: >-
-      As general information: a family in Grantham, England, have their water meter in a chamber
+      As general information: a family who own their house in Grantham, England, have their water meter in a chamber
       by the pavement. With no water used for two hours, the meter moves. The dye test leaves both
       toilet bowls clear, and every tap and pipe they can see indoors is dry. On what lesson 2 read,
       where is the leak most likely, and whose is it to have repaired?
@@ -52,21 +52,22 @@ quiz:
 
   # --- A dripping tap, and whose fix it is (L3) ---
   - q: >-
-      The single-lever basin tap in a bathroom in Telford keeps dripping long after it's turned
-      off. Its handle is held on by a small screw, there's no leaflet, and the maker's name has
-      worn off. On lesson 3's reading, what's the route?
+      The single-lever basin tap in a bathroom in Telford, England, keeps dripping long after it's
+      turned off. Its lever sits on a smooth, round body with no cover to unscrew and no nut in
+      sight, and nobody in the house knows who made it or where its paperwork went. On lesson 3's
+      reading, what's the route?
     options:
-      - Leave it shut up without the maker's instructions, and have a plumber look at it meanwhile
+      - Keep it closed up without the maker's instructions, and have a plumber look at it meanwhile
       - Follow Southern Water's washer steps, since a worn washer is the usual cause of a drip
-      - Undo the small screw and look inside, since that's how to tell a washer tap from a cartridge
+      - Prise the lever off and look inside, since that's how to tell a washer tap from a cartridge
       - Leave it dripping, since Bristan says some drip after use from water left in the tap body
     answer: 0
     explain: >-
       Lesson 3 read one method that needs no leaflet, Southern Water's, and it's for a washer tap
-      whose cover unscrews to show a hexagonal nut. A tap that doesn't open that way, such as a
-      lever held on by a small screw, stays shut until you have its maker's instructions, which is
-      this course's rule, and without them it's a plumber's job. Undoing the screw to look is
-      getting inside by a method nobody gave you for this tap. Bristan's line about a short drip
+      whose cover unscrews to show a hexagonal nut. A tap that doesn't open that way, like this
+      one, stays shut until you have its maker's instructions, which is this course's rule, and
+      without them it's a plumber's job. Prising the lever off to look is getting inside by a
+      method nobody gave you for this tap. Bristan's line about a short drip
       after use is about its own tap, and this one drips long after, which Bristan puts, for its
       tap, possibly down to the cartridge.
 
@@ -93,7 +94,7 @@ quiz:
 
   # --- Which device acted, and what to do (L5) ---
   - q: >-
-      In a house in Andover, a switch with a "T" button on it drops one evening and the garage and
+      In a house in Andover, England, a switch with a "T" button on it drops one evening and the garage and
       kitchen sockets go dead. With an old garage fridge unplugged, the switch goes back on and
       holds for a fortnight; it drops again the first time the fridge is plugged back in. On
       lesson 5's sources, which device is this, and what's the step?
@@ -107,7 +108,7 @@ quiz:
       Electrical Safety First says a switch with a "Test" or "T" button is an RCD, the device it
       says protects you from electric shocks if a product is faulty. The trip follows the fridge
       and not the load on the circuit, so the fridge is the suspect, which is this course's
-      reasoning from ESF and SCE, not a verdict from either. ESF's advice for a faulty appliance is
+      reasoning, not a verdict from ESF. ESF's advice for a faulty appliance is
       "Unplug and contact the retailer, manufacturer, or a qualified repair technician", so it
       doesn't go back in to be tested again. Holding an RCD on is what HSE's "never bypass it" and
       the course's stop rule rule out. Moving the fridge to another socket moves a suspect
@@ -121,7 +122,7 @@ quiz:
       First's rules for leads and reels, what's the problem?
     options:
       - It needs unwinding fully, since ESF says a reel's rating can drop to 3 or 4A when wound
-      - None, since the reel's 13A marking matches the fuse in the washer's own plug exactly
+      - It needs a heavier-duty reel, since 2,000 watts is more than any 13A lead can carry
       - None while nothing trips, since the RCD would cut the power before a reel could overheat
       - It needs a second lead plugged into the reel, so the two can share the load between them
     answer: 0
@@ -129,16 +130,18 @@ quiz:
       ESF says cable reels should be fitted with a thermal cut-out, and "Make sure they are fully
       unwound if you need the full current rating", because the rating "is typically as low as 3
       or 4A when wound". The 13A marked on the reel is its full rating, which ESF ties to its being
-      fully unwound. ESF's test is the total plugged
-      in against the lead's own rating, not whether anything has tripped, and lesson 5 showed that
+      fully unwound. A 2,000-watt washer sits inside the 700 to 3,000 watts that ESF's guide puts
+      on a 13A fuse, so what ESF asks for here is the reel unwound, not a heavier one. ESF's test
+      is the total plugged in against the lead's own rating, not whether anything has tripped, and
+      lesson 5 showed that
       an RCD is there to protect people from shock, not the cable from overheating. And ESF says not
       to plug one extension lead into another, as the plug in the wall socket could overheat.
 
   # --- The cold radiator and the gauge (L7) ---
   - q: >-
-      In a house in Barnstaple with a combi boiler, one radiator is hot along the top and cold
-      along the bottom. The owner bled it anyway: no hiss, just water straight away. The gauge,
-      1.2 bar cold before, now reads 0.9 bar cold. The manual gives 1 to 1.5 bar cold and a filling
+      In a house in Barnstaple with a combi boiler, one radiator stays cold along its lower edge
+      while its top is hot. The owner tried bleeding it, and water came out at once with no air.
+      The gauge, 1.3 bar cold before, now reads 0.9 bar cold. The manual gives 1 to 1.5 bar cold and a filling
       method for the user, with the loop under the boiler. What fits the maker pages lesson 7 read?
     options:
       - Bleed it again until the bottom warms, then top up once, as air can sit low in a radiator
@@ -201,7 +204,7 @@ quiz:
   # --- The gas law, Great Britain (L10) ---
   - q: >-
       As general information: a retired man in Stranraer, Scotland, has watched videos and wants
-      to swap the gas hob in his own kitchen himself, unpaid, with no gas training. Which statement
+      to replace the gas fire in his own sitting room himself, unpaid, with no gas training. Which statement
       of the Gas Safety Regulations and the advice is accurate?
     options:
       - It's banned for him outright, as regulation 3 says anyone doing gas work must be registered
@@ -249,7 +252,7 @@ quiz:
       - Keep it, since an alarm that sounds on its monthly test is working as it should
       - Keep it, but fit a new 9-volt battery, which starts its ten years over again
       - Replace it, since USFA says alarms are replaced 10 years from the manufacture date
-      - Keep it until it starts to chirp, since the chirp is how an alarm says it has worn out
+      - Replace it once it starts to chirp, as the chirp is how an alarm says it has worn out
     answer: 2
     explain: >-
       USFA says alarms "need to be replaced 10 years from the manufacture date", and eleven years
@@ -263,11 +266,11 @@ quiz:
   - q: >-
       Someone in Penzance plans to power-sand a stack of MDF shelves in a spare room, with no
       extraction on the sander, wearing a well-fitted FFP2 mask after HSE's pre-use check. On
-      HSE's guidance, what's wrong with the mask?
+      HSE's guidance, is that mask enough for the job?
     options:
       - It's fine, as a mask marked FFP2 is a respirator and so meets HSE's advice for wood dust
       - It's fine, as a pre-use check that finds no leak lifts an FFP2 to a factor of 20
-      - Just the room, as MDF makes general dust, which HSE's wood dust advice leaves out
+      - Yes, for this job, as MDF makes general dust, which HSE's wood dust advice leaves out
       - It falls short, as HSE's sheets set a factor of 20 for wood dust, and FFP2 gives 10
     answer: 3
     explain: >-
@@ -307,41 +310,43 @@ quiz:
       employers and its QuickCard as the practice to follow, how should it be set and used?
     options:
       - About 4 feet 8 inches out, a third of its working length, and off the three top rungs
-      - About 7 feet out, half of its working length, and off the three top rungs of the ladder
-      - About 3 feet 6 inches out, a quarter of its working length, and standing on the top rung is fine
+      - About 4 feet 8 inches out, a third of its working length, and the top rung is fine to use
+      - About 3 feet 6 inches out, a quarter of its working length, and the top rung is fine to use
       - About 3 feet 6 inches out, a quarter of its working length, and off the three top rungs
     answer: 3
     explain: >-
-      OSHA's rule puts the foot "approximately one-quarter of the working length" from the top
-      support, and 14 feet divided by 4 is 3 feet 6 inches (the course's arithmetic). The
-      QuickCard says "Do not stand on the three top rungs" of a straight, single or extension
-      ladder. A third or a half of the length would set the ladder far shallower than either
-      country's rule. Both are workplace rules and bind nobody at home; lesson 15 follows them as
-      the most carefully specified practice read.
+      OSHA's rule for employers puts the foot "approximately one-quarter of the working length"
+      from the top support, and 14 feet divided by 4 is 3 feet 6 inches (the course's arithmetic).
+      A third of the length, 4 feet 8 inches, puts the foot further out than OSHA's quarter. OSHA's
+      QuickCard, which is workplace advice, says "Do not stand on the three top rungs" of a
+      straight, single or extension ladder, so the top rung isn't fine to use. Neither binds anyone
+      at home; lesson 15 follows them as the most carefully specified ladder practice this course
+      read.
 
   # --- A stepladder rule (L16) ---
   - q: >-
-      In a narrow hallway in Saginaw there's no room to open a stepladder, so the owner plans to
-      fold it flat, lean it against the wall like a single ladder, and climb it to reach a high
-      shelf. On OSHA's QuickCard, what's the answer?
+      In a narrow hallway in Saginaw there's no room to open a stepladder fully, so the owner plans
+      to spread its legs only part of the way, rest its top against the wall, and climb it to reach
+      a high shelf. On OSHA's QuickCard, what's the answer?
     options:
-      - Fine, if it's set a quarter of its length out, like a leaning ladder
-      - Not like that, as the card says a stepladder isn't used as a single ladder
-      - Fine, if someone stands at the bottom and foots it for the whole of the climb
-      - Fine, as long as they keep off the top three steps while they're up it
+      - Fine, if its feet are a quarter of its length out, like a leaning ladder
+      - Not like that, as the card says a stepladder isn't used partly closed
+      - Fine, if someone stands at the bottom and holds it for the whole climb
+      - Fine, as long as they keep off the very top step while they're up it
     answer: 1
     explain: >-
-      OSHA's QuickCard, which is advice, says not to use a self-supporting ladder such as a
-      stepladder as a single ladder or in a partially closed position, and folding one flat and
-      leaning it on a wall is exactly that. The quarter-of-the-length rule is for a ladder built to
-      lean. Footing is HSE's last resort for securing a leaning ladder, not a way to make a closed
-      stepladder into one. Keeping off the top three steps is a rule for a stepladder standing open
-      on its own four feet. The answer is a stepladder that fits, a different way to reach the shelf,
-      or someone else.
+      OSHA's QuickCard, which is workplace advice, says not to use a self-supporting ladder such as
+      a stepladder as a single ladder or in a partially closed position, and a stepladder with its
+      legs part-spread and its top resting on a wall is being used partly closed. The quarter-of-the-length rule is for
+      a ladder built to lean. Someone holding the bottom doesn't change what the card rules out, and
+      nothing read offers it as a way to make a part-closed stepladder safe. Keeping off the top
+      step, OSHA's rule for employers on a stepladder, doesn't help either: the card rules out the
+      position whatever step you stand on. The answer is a stepladder that fits, a different way to
+      reach the shelf, or someone else.
 
   # --- A damp patch traced outside (L17) ---
   - q: >-
-      In a house in Falmouth, a brown stain on the top-floor bedroom ceiling, beside the chimney
+      In a house in Falmouth, England, a brown stain on the top-floor bedroom ceiling, beside the chimney
       breast, spreads after storms and dries out in settled weather. What do the sources lesson
       17 read point to, and what's the owner's part?
     options:
@@ -362,7 +367,7 @@ quiz:
 
   # --- Diagnosing a kind of damp (L18) ---
   - q: >-
-      In a house in Hastings, a damp patch on the kitchen ceiling sits right under the upstairs
+      In a house in Hastings, England, a damp patch on the kitchen ceiling sits right under the upstairs
       bathroom. It grows on evenings after the bath has been used and dries on days nobody
       bathes, whatever the weather. Of GOV.UK's four kinds of damp, which fits best?
     options:
@@ -378,8 +383,7 @@ quiz:
       Penetrating damp comes from outside and would follow the rain. Condensation damp, in GOV.UK's
       words, is moisture that "cools and condenses onto colder parts of the buildings", not water
       soaking through a floor, and nothing here ties the patch to the cooking.
-      Finding the leak is a plumber's job, Call someone, and a renter tells the landlord; the patch
-      goes on the calendar to recheck once the leak is fixed.
+      Finding the leak is a plumber's job, Call someone, and a renter tells the landlord.
 
   # --- The lead-safe choice, UK (L19) ---
   - q: >-
@@ -403,7 +407,7 @@ quiz:
 
   # --- Reading a VOC label (L20) ---
   - q: >-
-      As general information: in a shop in Tobermory, two tins of interior matt wall paint both show
+      As general information: in a shop in Tobermory, Scotland, two tins of interior matt wall paint both show
       a limit of 30 g/l. One says it contains max 3 g/l VOC, the other max 27 g/l. A friend says the
       labels mean the two are the same. What do the labels the VOC Regulations require show?
     options:
@@ -419,8 +423,8 @@ quiz:
       30 is the same on both tins; the maximum is each product's own, and 27 is nine times 3 (the
       course's arithmetic). Both are within the limit, which is what regulation 4 asks. A lower
       maximum means less VOC in the tin, not a faster escape. And the label is a rule for whoever
-      sells the tin; EPA's advice to increase ventilation when using products that emit VOCs still
-      applies to both.
+      sells the tin: it says nothing about how long to air the room, which is for each tin's own
+      instructions.
 
   # --- Integrated pest management (L21) ---
   - q: >-
@@ -436,7 +440,7 @@ quiz:
     explain: >-
       EPA's steps run threshold, identify, prevent, then control, and it says "Sighting a single
       pest does not always mean control is needed". On this course's reading, one mouse is a reason
-      to find its way in, not yet a reason for poison. CDC's order is seal up, trap up, clean up:
+      to find its way in, not yet a reason for poison. CDC's steps are seal up, trap up and clean up, and on trapping it says:
       "Traditional snap traps are recommended to reduce rodent populations around the home. Only
       use poison or bait stations for mouse and rat infestations that persist." CDC advises against
       glue traps, because they scare rodents into urinating, which raises the risk of illness. No
@@ -446,11 +450,11 @@ quiz:
   # --- Notifiable or comply-only, England (L22) ---
   - q: >-
       As general information: a householder in Banbury, England, wants a light fitting on an
-      existing circuit moved to a new spot on the bathroom ceiling, 2 metres up and directly above
-      the shower tray. Under the Building Regulations as lesson 22 read them for England, which is
-      right?
+      existing circuit moved to a new spot on the low, sloping ceiling of a loft bathroom, 2 metres
+      up and directly above the shower tray. Under the Building Regulations as lesson 22 read them
+      for England, which is right?
     options:
-      - No notice is needed, since England took bathrooms off the notifiable list in April 2013
+      - It's notifiable, as England makes all electrical work in a bathroom notifiable, wherever it is
       - No notice is needed, since new circuits and consumer units are all England makes notifiable
       - It's notifiable, as an alteration to an existing circuit within a special location
       - No notice and no standard apply, since moving a light fitting counts as a repair job
@@ -459,10 +463,12 @@ quiz:
       Regulation 12(6A) makes three kinds of electrical work notifiable in England: a new circuit,
       a replacement consumer unit, and "any addition or alteration to existing circuits in a
       special location". The space round a shower tray up to 2.25 metres from the floor is a
-      special location, so a fitting 2 metres up above the tray is inside it. England's 2013 change
-      left that third kind on the list. And requirement P1 applies to electrical work whether it's
-      notifiable or not. The routes are a registered competent person, a third-party certifier
-      appointed before work starts, or a building notice before work starts. This course's label is
+      special location, so a fitting 2 metres up above the tray is inside it. That, not the room,
+      is what makes it notifiable: the zone runs 0.6 metres out from the tray, and work on an existing
+      circuit outside it needs no notice in England, bathroom or not. England's 2013 change left that third kind on the list.
+      And requirement P1 applies to electrical work whether it's notifiable or not. The routes are
+      a registered competent person, a registered third-party certifier appointed before the work
+      begins, or notice to a building control body before the work begins. This course's label is
       still Call someone: Electrical Safety First's advice, and this course's decision to teach no
       wiring.
 
@@ -473,17 +479,17 @@ quiz:
       not find?
     options:
       - It found licensed electricians' work caused more house fires than unlicensed work did
-      - Stricter rules didn't significantly change electricians' injuries; it judged no trade
+      - Stricter rules didn't significantly change electricians' injuries; it urged no trade's reform
       - It recommended that the states end the licensing of electricians and of plumbers alike
       - It found stricter licensing clearly improved electrical safety in the homes it studied
     answer: 1
     explain: >-
       The report's research appendix says the research "does not find large improvements in
       quality or health and safety from more stringent licensing", and it reports that stricter
-      requirements "did not significantly affect the severity of injuries" among electricians. It
-      also says careful licensing can protect health and safety, and that it is "beyond the scope
-      of this report" to recommend reforms for specific occupations, so it proved nothing about
-      electricians either way. It made no finding that licensed work caused more fires, and it
+      requirements "did not significantly affect the severity of injuries" among electricians,
+      which is the workers' own safety, not their customers'. It also says careful licensing can
+      protect health and safety, and that it is "beyond the scope of this report" to recommend
+      reforms for specific occupations, so it can't carry the campaigner's claim. It made no finding that licensed work caused more fires, and it
       recommended no end to any licence. Lesson 22 takes no side on whether licensing should be wider or narrower.
 
   # --- Cancelling, US federal (L23) ---
@@ -491,7 +497,7 @@ quiz:
       As general information: in Hagerstown, in a state whose own rules this course didn't read, a
       homeowner invites a salesman round for a quote and signs at her kitchen table on a Friday for
       $3,400 of gutter guards. It isn't an emergency, and no federal holiday falls that week. Under
-      the FTC's Cooling-Off Rule, can she cancel on the Monday?
+      the FTC's Cooling-Off Rule, is a cancellation sent on the Monday still within its period?
     options:
       - No, since the rule doesn't reach a sale where she invited the seller to her home
       - No, since three business days from the Friday ran out at midnight on the Sunday
