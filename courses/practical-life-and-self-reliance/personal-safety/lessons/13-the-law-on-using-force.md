@@ -25,7 +25,7 @@ quiz:
       count?
     options:
       - It defeats his defence, since in England a mistaken belief must be a reasonable one
-      - It doesn't count, since the court judges only what really happened in the underpass
+      - It doesn't count, since the court judges what really happened in the underpass
       - It bears on whether he truly held the belief, not on whether he can rely on it
       - It counts only if he'd been drinking, the one limit section 76 puts on belief
     answer: 2
@@ -49,8 +49,8 @@ quiz:
     answer: 1
     explain: >-
       The Jury Manual's direction says violence must be a last resort and "If there was a safe means
-      of escape, that is the course he should have taken", with the escape one the accused "can
-      reasonably be expected to adopt". The door is in the question because that is what the
+      of escape, that is the course he should have taken", and its statement of the law says the
+      escape must be one the accused "can reasonably be expected to adopt". The door is in the question because that is what the
       direction asks about, not because anyone who didn't use a door is to blame. A belief held
       without reasonable grounds is enough in England and Wales, not in Scotland. "Cruel excess" is
       one of Scotland's questions, not the only one. Retreat as a factor only is England and Wales's
@@ -78,7 +78,7 @@ quiz:
       and Wales, Scotland, New York, Florida and Texas, as general information, what question does
       the beating raise?
     options:
-      - Whether any threat was still happening, since each defence here rests on a present one
+      - Whether a threat was still happening, since each defence here rests on a present one
       - Nothing new, since force that began as self-defence stays self-defence until it ends
       - Whether the stick counts as a weapon, since a weapon changes how force is judged
       - Whether he had a duty to retreat, since every place in the lesson decides that first
@@ -347,7 +347,7 @@ it cannot tell you how a court there treats the chance to escape.
 
 ### Getting away first, in practice
 
-Put the table away and one thing is left that even the page written for people who carry guns says.
+Put the table away and one thing is left, and even the page written for people who carry guns says it.
 Jo Deering, writing for [NRA Women](https://www.nrawomen.com/content/what-is-a-duty-to-retreat) in
 2024 against duty-to-retreat laws, still says: "if you are able to leave a situation without having
 to use force, I highly recommend you do so".[10] Scotland makes escape close to a condition, England
@@ -434,8 +434,8 @@ cases, though not in all.
 - **Florida.** Section 776.041 gives no way back to someone committing a forcible felony. A felony is
   the US word for a serious crime, and Florida's list of forcible felonies (§776.08) includes murder,
   robbery, burglary, kidnapping and aggravated assault. Someone who provoked the force has a way back
-  only after a good-faith withdrawal made clear, or in danger of death or great bodily harm with
-  every other reasonable means of escape used up.[6]
+  only after a good-faith withdrawal made clear, with the other person carrying on, or in imminent
+  danger of death or great bodily harm with every other reasonable means of escape used up.[6]
 - **Texas.** The way back is abandoning the encounter, or clearly saying so when it can't safely be
   abandoned, with the other person carrying on. Texas adds that force is not justified "in response
   to verbal provocation alone".[8]
@@ -503,7 +503,7 @@ The same person can be the defender at 11.02 and not at 11.03.
 
 :::checkpoint Change one fact. At 11.03 the man doesn't run: he drops the bottle, puts both hands up and says "I'm done, I'm leaving", and walks backwards towards the door. Dale steps forward and hits him. Which rule in this lesson describes what the man just did, and in which jurisdictions? And what question does Dale's blow now face?
 
-The withdraw-and-say-so rules of the three US statutes. New York lets someone who started it rely on the defence again if he "has withdrawn from the encounter and effectively communicated such withdrawal" and the other person carries on; Florida asks for a good-faith withdrawal made clear, and Texas for abandoning the encounter or clearly saying so.[6][7][8] They bear on the man's own position if Dale carries on and the man defends himself; in New York a court might also ask whether he provoked Dale's force intending to injure, which has no way back.[7] Dale's blow faces the imminence question in every jurisdiction read: was any force still coming at him?
+The withdraw-and-say-so rules of the three US statutes. New York lets someone who started it rely on the defence again if he "has withdrawn from the encounter and effectively communicated such withdrawal" and the other person carries on; Florida asks for a good-faith withdrawal made clear, and Texas for abandoning the encounter or clearly saying so.[6][7][8] They bear on the man's own position if Dale carries on and the man defends himself; in New York a court might also ask whether he provoked Dale's force intending to injure, and in Florida whether lifting the bottle was a forcible felony such as aggravated assault, and neither has a way back.[6][7] Dale's blow faces the imminence question in every jurisdiction read: was any force still coming at him?
 :::
 
 ## Stand your ground or a duty to retreat
@@ -588,9 +588,10 @@ Four things belong beside that finding, each from RAND.[13]
   comparison group, which RAND says may shrink the measured effects. It adds: "It is possible,
   however, that stand-your-ground statutes have different effects on public behavior than case law,
   in which case the focus on statutes might be justified."
-- **What the homicide counts can't yet separate.** RAND says "the ideal analyses would distinguish
+- **What the ideal studies would separate.** RAND says "the ideal analyses would distinguish
   between the effects on criminal violence and the effects on violence committed in self-defense",
-  and that most data sources lack the detail to do it.
+  and that most existing data sources lack the detail to tell defensive gun use in the home from
+  defensive gun use elsewhere, where the laws newly apply.
 - **A weak measure.** RAND calls the data for measuring defensive gun use extremely weak.
 
 Lesson 2's five questions ask what a figure measured; RAND's grades answer a different question, how
@@ -749,7 +750,7 @@ law in general.
    replacement. Judges are quoted only as the CPS quotes them. <!-- SOURCES Part D §2.3; access note 1; gate G10 fallback; lesson 13 gate closure (Balogun, Palmer lines) -->
 4. Judicial Institute for Scotland, [*Jury Manual*](https://www.judiciary.scot/docs/librariesprovider3/judiciarydocuments/judicial-institute-publications/jury-manual-pdf-version-3-september-2024.pdf),
    PDF version of 3 September 2024, chapter "Self-Defence". **Read: the chapter in full, pp. 45.1 to
-   45.5**, including its model direction on a quarrel. Cases are given only as the manual states
+   45.6**, including its model direction on a quarrel. Cases are given only as the manual states
    them. <!-- SOURCES Part D §3.1; lesson 13 gate closure (paras 4a, 7, model and quarrel directions) -->
 5. American Law Institute, *Model Penal Code*, §§3.04, 3.09 and 3.11 (the text adopted in 1962).
    **Read: §§3.01 to 3.11 from a university teaching copy; §§3.04, 3.09 and 3.11 re-read, 25 September

@@ -180,3 +180,74 @@ personal-safety`: 0 not found. `npm run validate`: exit 0, no line names this fi
 
 **Status after review:** needs second pass (the neutrality restructure, the new quiz item 6 and the
 new deadly-force and forcible-felony glosses should be read fresh).
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context reviewer, all passes. Re-fetched by curl on 25 September 2026 and
+string-matched: s.76 CJIA 2008 and CLA 1967 ss.3 and 11 (legislation.gov.uk XML); Florida ch. 776
+(live); the CPS capture 20240723174716; the Jury Manual PDF (chapter text, page footers read);
+the MPC at legal-tools.org; RAND's stand-your-ground and methodology pages; Giffords; Deering;
+NRA-ILA; the CPS/NPCC householders leaflet; GOV.UK. NY §35.15 and Texas §§9.31 and 9.32 are behind
+bot checks on their official sites and were read from the public.law mirrors of the same text
+(NY revision of 2024-09-06); every quotation and paraphrase matched. Quiz keys and option shapes
+measured by script.
+
+**First-pass fixes.** All of F1 to F24 and P1 to P23 checked in the text as described in
+"Resolutions applied"; every one is present and correct against the primaries, except the two
+noted below (S3, S6), where the fix carried a small inaccuracy of its own.
+
+**Findings**
+- S1 [major, fact] The RAND bullet (F5 fix) said RAND reports that "most data sources lack the
+  detail" to separate criminal violence from self-defence. RAND's sentence about missing detail is
+  about where defensive gun use happens (the home, against the places the laws newly cover); it
+  says homicide and crime data are "readily available". **Fixed:** heading now "What the ideal
+  studies would separate", and the lack of detail is stated as RAND states it.
+- S2 [minor, quiz shape] Item 1: the key was the only option with no absolute ("must", "only",
+  "only"). **Fixed:** "only" cut from option B (78 characters). Item 4: only one distractor was
+  absolute-free. **Fixed:** "any threat" to "a threat" in the key. Lengths now 77 to 83 and 80 to
+  84.
+- S3 [minor, fact] Sources [4] gave the Jury Manual chapter as pp. 45.1 to 45.5; its footnotes are
+  on p. 45.6 (page footers read in the PDF text). **Fixed in the lesson.** SOURCES Part D §3.1 still
+  says 45.5: one small edit for the orchestrator.
+- S4 [minor, fact] Florida's provoker "way back" omitted that the assailant must continue or resume
+  (§776.041(2)(b)), which the lesson states for New York and Texas, and "imminent" before danger in
+  (2)(a). **Fixed.**
+- S5 [minor, fact and balance] Checkpoint "Change one fact" gave New York's no-way-back clause for
+  the bottle man but not Florida's §776.041(1) forcible-felony exclusion, which the lesson teaches
+  one section earlier with aggravated assault on the list. **Fixed** in the same question form ("a
+  court might also ask ... and in Florida whether lifting the bottle was a forcible felony such as
+  aggravated assault"), no verdict.
+- S6 [minor, attribution] Quiz 2's explanation put "can reasonably be expected to adopt" in the
+  model direction; it is in the manual's statement of the law (para 4). **Fixed.**
+- S7 [minor, voice] "one thing is left that even the page written for people who carry guns says"
+  did not parse on reading aloud. **Fixed:** "one thing is left, and even the page ... says it."
+- S8 [minor, neutrality, not fixed] The stand-your-ground H2 ends on Florida's immunity, framed as
+  "part of what Giffords objects to", so the duty-to-retreat side has the last word in that H2. The
+  count elsewhere is even (Deering two quotations and NRA-ILA two against Giffords four; both sides
+  matched to the law in the paired H3; the value paragraph gives each position one sentence), and
+  the immunity paragraph is statute text, not argument. Left: no proponent's reply to the immunity
+  criticism was read, and inventing one would be worse. Worth a line in Stage 1 if the course is
+  re-researched.
+- S9 [note, not this file] `npm run validate` warns that the Connections sentence on Introduction to
+  Law is repeated in lesson 14. Per courses rule 2(c) the fix is in the later lesson, 14.
+
+**Checked and clean.** Statutory wording: s.76(3), (4)(a) and (b), (5), (6), (6A), (7), (10)(b) and
+the extent notes; CLA s.3(1) and s.11(1); §776.012(1) and (2), §776.032(1), §776.041, §776.06(1),
+§776.08; NY §35.15(1)(a) to (c) and (2)(a) to (c); Texas §9.31(a), (b)(1), (b)(4), (e), (f),
+§9.32(c), (d), §9.01(3) by its paraphrase; MPC §3.04(1), (2)(b), §3.11(2). CPS: Palmer, Deana,
+Lord Morris and "adopts almost precisely", Balogun, Rashford, the retreat line, the unreasonable-
+belief paraphrase. Jury Manual: paras 1 to 4a and 7, the model direction, the quarrel direction.
+RAND: every quotation, the four-grade scale, "supportive" as defined, "almost all", the case-law
+counterpoint, the January 29, 2026 date. Giffords, Deering and NRA-ILA quotations verbatim (Deering's
+inner quotation marks correctly nested). Leaflet lines, including the rugby-tackle line. Lesson 10
+cross-reference matches lesson 10's second experiment. Neutrality: both positions in their
+proponents' words, described in the same structure, with the value/empirical split stated and
+held. Safety callout byte-identical with lessons 10 to 12; no instruction on technique; the
+exercise is written work only; the Ines checkpoint points to reporting and the callout. Places
+(Lowestoft, Paisley, Buffalo) and names used nowhere else in the course. Quiz keys 2,1,3,0,3,1:
+all four positions, no adjacent repeat, not identical to or a shift of any of lessons 1 to 12, no
+shared run of four at offsets 0 or ±1 (script). No em or en dashes; no banned words. `npm run
+minutes` 110 (unchanged); `npm run quotes personal-safety` 0 not found; `npm run validate` exit 0.
+
+**Verdict: CLEAN.** The one major finding (S1) was a single wrong attribution, fixed in place from
+the page itself; nothing left needs a fresh read.

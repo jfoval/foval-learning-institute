@@ -3245,7 +3245,7 @@ reading.
 
 ### 3. Primary sources: Scotland
 
-#### 3.1 Judicial Institute for Scotland, *Jury Manual* (PDF version of 3 September 2024, chapter "Self-Defence", pp. 45.1 to 45.5 by the PDF's own page footers, read in full; Stage 4 note, lesson 13: first written as pp. 44.3 to 45.3, which is the Provocation chapter's end)
+#### 3.1 Judicial Institute for Scotland, *Jury Manual* (PDF version of 3 September 2024, chapter "Self-Defence", pp. 45.1 to 45.6 (footnotes on 45.6) by the PDF's own page footers, read in full; Stage 4 note, lesson 13: first written as pp. 44.3 to 45.3, which is the Provocation chapter's end)
 This is the model direction Scottish judges give juries, the most authoritative free statement of
 Scots self-defence law. Scots law is common law: **s.76 does not apply**, and there is no
 householder rule. Differences from England that a lesson must show:
@@ -5361,7 +5361,7 @@ found, and the fixer's seven additions at the end come from the same reads (the 
 Reviewer F's copy of the capture).
 
 ### Corrections (also noted in place)
-- **Part D §3.1:** the chapter is pp. 45.1 to 45.5 by the PDF's footers (44.x is Provocation); the law
+- **Part D §3.1:** the chapter is pp. 45.1 to 45.6 by the PDF's footers (44.x is Provocation); the law
   paragraphs are 45.1 to 45.2, the model direction 45.2 to 45.4, the quarrel direction 45.4 to 45.5.
   Scotland has **no flat aggressor rule** (para 7 and the quarrel direction, below).
 - **Part D §4.1:** MPC §3.04(2)(b) and §3.06(3)(d) say "serious bodily injury", not "harm". The copy
