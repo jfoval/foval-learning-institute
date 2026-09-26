@@ -165,3 +165,86 @@ audio-debt line (another session's render chain); no line names this file.
 **Status after review:** needs second pass (the critics' and proponents' cases, the content note and
 the survivor lines were rewritten, and a fresh reader should check them against the Turing test and
 as a survivor would read them).
+
+## 2026-09-25 — Lesson 12 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, under the Reviewer F part of `research/pipeline-briefs.md`, scoped
+to the rewritten "Where the effort should go", the content note, the survivor lines, the quiz,
+EAAA's figures and the gap wording, plus a check of every first-pass finding claimed fixed.
+Primaries read from the first pass's scratch copies: PubMed 26061837 (NEJM abstract), Senn 2017
+full text and Table 4, PubMed 27562036, 37966676, 30514264, 38085205, 24733880, 37037692, 39183675
+and 38109360, the Crossref Hollander abstracts, London Met 5706, the STOP SV capture, the NWMAF
+guide and the UConn page. Every support line re-fetched live today (nine by curl with a browser
+user agent; RAINN, which blocks curl, in a browser tab): every number, hours line and eligibility
+line in the note matches its page. Sums redone by hand: 4.6/9.8, 100/4.6, 100/0.6 and 100/8.5,
+5.9/9.3, 100/5.9, 100/3.7, 100/0.4, 100/8.0, the Table 4 differences and relative reductions, and
+p = .02/.10/.13; all correct.
+
+**Findings**
+- S1 [major, safety] Objective 1 ("how its effect on completed rape changed") renders above the
+  body, and so above the content note (build.mjs puts objectives before `lesson-content`), and it
+  is also the page's meta description. F1's "nothing before the note names rape" was fixed in the
+  opening but not here. **Fixed:** "how its main effect changed over two years".
+- S2 [minor, neutrality, defect 26] The proponents' paragraph quoted Senn 2017's "with no effect on
+  the occurrence of rape..." but dropped the same sentence's "two recent exceptions combine
+  bystander and social norms approaches", a trim that strengthens their case. **Fixed:** the
+  exceptions added in paraphrase.
+- S3 [minor, fact] Malawi's "RR 0.68, 95% CI 0.56, 0.82" was in quotation marks, but the abstract
+  reads "(risk ratio [RR] 0.68, 95% CI 0.56, 0.82)". **Fixed:** unquoted, "a risk ratio of 0.68,
+  95% interval 0.56 to 0.82". (Quotes count now 253.)
+- S4 [minor, gap wording] Checkpoint answer (b): "most places and people have no evidence at all"
+  widened F6's "this course found". **Fixed:** "for most places and people this course found no
+  evidence at all".
+- S5 [minor, gap wording] Class B checkpoint: "finding no trials is not evidence that classes
+  fail" contradicted the body's "weak evidence either way". **Fixed:** "says little either way about
+  whether classes work".
+- S6 [minor, fact] "the one place in the course where all three kinds of claim ... appear together"
+  is a whole-course claim no one has checked (lessons 13 and 14 mix all three too). **Fixed:** "a
+  place in the course".
+- S7 [minor, fact, F23 follow-up] "It was written for classes for women, transgender and non-binary
+  people ... and it says so": the guide says only that a good instructor knows the facts about
+  violence aimed at those groups. **Fixed:** "written with ... in mind: those are the groups whose
+  risks it asks an instructor to know."
+- S8 [note, no change] Quiz: keys 0,3,1,0,2,1 confirmed; option-length spreads 6, 1, 3, 5, 3, 4.
+  In Q4 and Q6 the key is the longest option (by 1 and 4 characters), not enough to be a tell. Q6
+  is a value question, correctly keyed, and its explanation leaves the value part open. No item
+  asks what a victim should have done; Q3's explanation now matches the body. Explanations name
+  distractors by content.
+- S9 [note, no change] The content note lists "two quiz questions"; only Q3 names rape (Q1's
+  assaults are workplace ones). Left: over-warning is the safe side.
+
+**Scope checks, passed**
+- "Where the effort should go", Turing test both ways. The critics' case gives Hollander's list
+  whole, the displacement argument and Kettrey's recommendation in their own words, and says
+  plainly that no critic was read at length; a critic would sign its closing sentence. The
+  proponents' case (Hollander, Senn's three quotations, Kettrey's perpetration null, CDC) is the one
+  a proponent would write, and is framed "on its proponents' reading". Citations: critics 3
+  sources, proponents 4 (both sides use Hollander, Senn and Kettrey); the section's last word goes
+  to the critics' point about cost ("training still asks women to do the work"), balancing the
+  proponents' longer paragraph. "The course holds that one shared commitment and takes no side on
+  the rest": the course's voice adopts neither side here or in "What people get wrong". Lesson 6's
+  "closer than they look" cross-reference matches lesson 6's text. Vera-Gray and Kelly's quotation
+  and "responsiblise" match the repository abstract.
+- Content note: by nation (England and Wales, Wales, Scotland, Northern Ireland, the US), every
+  line with `[24]`, VictimConnect's safety condition and 911, "Domestic abuse and stalking" by
+  title, "You can leave this lesson at any point", two skip targets that exist. Every later return
+  of the subject is listed (checked by grep for rape, assault, sexual, victimi); the skip target
+  section names none. Only the objectives preceded it (S1).
+- Survivor lines, read as a survivor who never took a class (lines on "will not suggest", "You
+  don't have to take a class ... isn't a choice anyone can hold against you", "take your time") and
+  as one who took a class and was assaulted anyway ("hurt anyway", "the class didn't fail because
+  of you, and nor did you", Senn's "only the presence of a man willing..."): nothing implies either
+  should have done otherwise; every quotation string-matched in Senn 2017.
+- EAAA: 451/442, 91%, 5.2 vs 9.8, 46.3 (6.8 to 69.1), P=0.02, 3.4 vs 9.3, P<0.001; Table 4's
+  4.6/3.7/3.7, 34.0 and 31.3, p .02/.10/.13, [-8.5, -0.6] and [-8.5, 1.1], 63.2 to 63.9, 370
+  (185 a group): all match the primaries. "Significantly reduced ... over the entire follow-up
+  period" is the abstract's own claim and the next paragraph gives the table's non-significance.
+- Gap wording: every other "no trial / no controlled" line says "this course found" or "read".
+- First-pass findings F1 to F24 and P2 to P24 checked in the text: all present as the fix record
+  says, except F1 (the objective, S1), F4 (the trim, S2), F6 (S4) and F23 (S7), now fixed.
+
+**Measures after fixes.** `npm run minutes`: 95 (8,395 words), unchanged. `npm run quotes
+personal-safety`: 253 quotations, 0 missing. `npm run validate` exits 1 only on Nutrition's
+audio-debt line (another session's render chain); no line names this file.
+
+**Status after review:** clean

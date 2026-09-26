@@ -227,6 +227,10 @@ instead).
   No source counts how often people freeze in a robbery or street attack: freezing is "automatic,
   not chosen", never "common", outside lesson 11's sourced figure.
 
+- **From lesson 12's second pass (2026-09-25):** the build prints `objectives:` above the lesson
+  body, before any content note, and uses them as the page description. Where a lesson's title
+  doesn't already name sexual violence, abuse or killing, its objectives mustn't either.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:

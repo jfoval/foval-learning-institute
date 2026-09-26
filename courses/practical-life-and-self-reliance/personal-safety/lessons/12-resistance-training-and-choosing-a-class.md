@@ -4,7 +4,7 @@ minutes: 95
 objectives:
   - >-
     Describe the EAAA trial's result in absolute and relative terms, whom it studied, what it
-    taught, and how its effect on completed rape changed over two years
+    taught, and how its main effect changed over two years
   - >-
     Compare the evidence and the arguments for and against resistance education, including the
     trials beyond the campus and a meta-analysis whose reading is disputed, each side in its own
@@ -358,7 +358,7 @@ higher, which the protocol didn't reflect though it was published after the stud
 among the authors", and some of them disagree with the Expression of Concern.[9]
 
 **Malawi and South Sudan.** A [trial across 141 schools in Malawi](https://doi.org/10.1186/s12889-018-6220-0) found past-year sexual assault
-fell among students in programme schools, "RR 0.68, 95% CI 0.56, 0.82", but not in the others.[10]
+fell among students in programme schools (a risk ratio of 0.68, 95% interval 0.56 to 0.82), but not in the others.[10]
 A [study in South Sudan and the Kakuma refugee camp](https://doi.org/10.1016/j.jadohealth.2023.10.033) found annual rape rates fell "from 10.7% to 5.5%"
 in programme schools, and "there was no change in the control schools (10.0%-9.0%)".[11] The Malawi
 paper calls itself an implementation trial, and authors of both papers list Ujamaa organisations,
@@ -422,7 +422,7 @@ critical piece of the solution", to be offered while wider change comes through 
 education and "the few effective or promising interventions for boys". Their reason is that "few
 interventions with men have been rigorously evaluated", and those that work usually change
 attitudes for a few months "with no effect on the occurrence of rape or other forms of sexual
-assault".[2] They add that in most sexual assaults there is "no bystander present".[2] Kettrey's
+assault", with two recent exceptions that combine bystander and social-norms approaches.[2] They add that in most sexual assaults there is "no bystander present".[2] Kettrey's
 pooled evidence bears on that too: effects on perpetration were nonsignificant.[12] The CDC's 2016
 package calls empowerment training "a useful and effective complement" to preventing
 perpetration, which it names as its own emphasis.[5] At its strongest, in this
@@ -446,9 +446,9 @@ visible.[17] Their target is advice telling women to restrict themselves, which 
 tested. But training still asks women to do the work, which is the critics' point about cost and
 responsibility.
 
-:::checkpoint This question is the one place in the course where all three kinds of claim the institute keeps apart appear together: established or tested, contested, and value. Sort these three statements, with a reason for each. (a) In a randomised trial of first-year university women in Canada, a twelve-hour programme lowered the one-year risk of completed rape. (b) Empowerment self-defence programmes reduce sexual assault wherever they're run. (c) A university's prevention budget should go to resistance classes before programmes for men.
+:::checkpoint This question is a place in the course where all three kinds of claim the institute keeps apart appear together: established or tested, contested, and value. Sort these three statements, with a reason for each. (a) In a randomised trial of first-year university women in Canada, a twelve-hour programme lowered the one-year risk of completed rape. (b) Empowerment self-defence programmes reduce sexual assault wherever they're run. (c) A university's prevention budget should go to resistance classes before programmes for men.
 
-(a) is tested, for that population: a randomised trial measured the outcome that matters, with a wide interval and an effect that faded in the second year. (b) is contested: the campus trials mostly point one way, but the independent Nairobi trial found no effect and is itself disputed, the meta-analysis found small average effects, and most places and people have no evidence at all. (c) is a value question: evidence informs it, but who should carry the work of prevention is a judgement about what's fair.
+(a) is tested, for that population: a randomised trial measured the outcome that matters, with a wide interval and an effect that faded in the second year. (b) is contested: the campus trials mostly point one way, but the independent Nairobi trial found no effect and is itself disputed, the meta-analysis found small average effects, and for most places and people this course found no evidence at all. (c) is a value question: evidence informs it, but who should carry the work of prevention is a judgement about what's fair.
 
 If you filed (a) as established in general, notice the scope: the result is for the women studied, and lesson 1's labels keep that scope attached.
 :::
@@ -540,8 +540,9 @@ for in an instructor or programme:
 
 The guide sets no length and names no style. It credits part of its material to the National
 Coalition Against Sexual Assault.[18] In this course's labels, the guide is practitioner opinion:
-guidance from experienced teachers, not tested in a study. It was written for classes for women,
-transgender and non-binary people and others targeted for violence, and it says so.
+guidance from experienced teachers, not tested in a study. It was written with women, transgender
+and non-binary people and others targeted for violence in mind: those are the groups whose risks it
+asks an instructor to know.
 
 ### This course's checklist
 
@@ -612,7 +613,7 @@ reference rather than a standard.
 
 Something like: it can give him practice at noticing, talking and getting away, under some pressure, which, on this course's reading of lesson 10's police studies, may hold up better than reading alone, and it can tell him what the law says where he works, as general information. It can't promise he'll be safer in the car park, because the course found no controlled study of a class for men or for stranger violence, and whatever he gains will fade without the refresher.
 
-If you wrote that Class B makes him safe, look at the gap above. If you wrote that no class is worth it, that goes too far the other way: finding no trials is not evidence that classes fail.
+If you wrote that Class B makes him safe, look at the gap above. If you wrote that no class is worth it, that goes too far the other way: finding no trials says little either way about whether classes work.
 :::
 
 ## What people get wrong
