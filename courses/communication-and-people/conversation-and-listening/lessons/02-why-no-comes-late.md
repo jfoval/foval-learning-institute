@@ -20,15 +20,16 @@ quiz:
     options:
       - Nothing yet, since a silence before a reply carries no information about its content
       - The request's answer is being held back, and delays this long go more often with no
-      - A yes is coming, since a colleague who plans to refuse will usually say so at once
+      - A yes is coming, since someone who means to refuse starts at once and says so plainly
       - The colleague didn't hear the question, since a clear request is answered at once
     answer: 1
     explain: >-
       A request makes an answer due, so a silence after it is heard as the answer being withheld.
       In the English phone corpus this lesson used, late responses were mostly refusals and other
       unwelcome ones, although most refusals weren't late. "Carries no information" ignores that
-      shift in the odds, and "a refusal comes at once" has the pattern backwards. Not hearing is
-      possible, but "Thursday..." shows the colleague heard.
+      shift in the odds, and "a yes is coming" reverses what a long delay predicts: most refusals
+      do start quickly, but among replies that come this late, refusals outnumber acceptances. Not
+      hearing is possible, but "Thursday..." shows the colleague heard.
   - q: >-
       Ximena says to a friend: "My talk was a total mess, wasn't it?" Which reply has the shape the
       recordings research calls preferred here?
@@ -51,12 +52,12 @@ quiz:
       - You cut in straight away with "Eight, not nine", since a quick, flat fix is the kindest
       - You stay quiet whatever happens, since correcting a friend mid-story is never done
       - You wait for her to finish the story and then set out the right time in full detail
-      - "You leave her room to fix it, and if she doesn't, offer it lightly: \"Eight, wasn't it?\""
+      - You leave her room to fix it, and if she doesn't, ask her lightly if it was eight
     answer: 3
     explain: >-
       The research found that speakers fix their own trouble far more often than others do, and
-      that when others do correct, they usually soften it, with a question or an "I think". A
-      flat mid-sentence fix is the rare, unmodulated kind. "Never done at all" overstates it:
+      that when others do correct, they often soften it, with a question or an "I think". A
+      flat mid-sentence fix is the rare, unmodulated kind. "Never done" overstates it:
       other-correction happens, just less often and more gently. A full correction at the end
       isn't the pattern described either.
   - q: >-
@@ -65,16 +66,16 @@ quiz:
       What's the main problem with using the finding this way?
     options:
       - The finding was about a delayed "no", not a "yes", so it doesn't apply to agreeing
-      - The threshold is universal, so the plan is fine, but training is unlikely to work
-      - It comes from English-language experiments rating a "yes" to a request
+      - The threshold is universal, so the plan is sound and only the training needs care
+      - It comes from US students rating a "sure" to a request, in one language group only
       - The finding came from a large international survey, so it overstates the real effect
     answer: 2
     explain: >-
-      The thresholds this lesson gave come from English-language experiments in which listeners
-      rated recorded or simulated exchanges, all of them a "yes" to a request. They may not carry to
-      other languages, where "on time" is calibrated differently, or to other kinds of talk. The
-      finding was about a delayed yes, so "only about no" is wrong, and nothing in it came from an
-      international survey.
+      The listener thresholds this lesson gave come from American English-speaking US students
+      rating a recorded "sure" in reply to a request. They were tested in one language group, and
+      the authors themselves say 600 ms isn't an absolute value; where the line falls in other
+      languages, or in other kinds of talk, wasn't measured. The finding was about a delayed yes, so
+      "only about no" is wrong, and nothing in it came from an international survey.
   - q: >-
       An app promises to "train you to reply faster so people feel closer to you", citing a study
       of students' conversations. Suppose the study is like the one this lesson described. What's
@@ -83,14 +84,15 @@ quiz:
       - The study proves that faster replies cause closeness, so training your speed should help
       - The study found nothing, so the app's claim has no connection to any real research
       - The study was of phone calls between strangers in many countries, so it applies widely
-      - The link was correlational, and the authors say the fastest replies aren't controlled
+      - The link was correlational, and the authors say the fastest replies are unconscious
     answer: 3
     explain: >-
       In the real conversations the link between speed and felt connection was correlational:
       feeling connected might speed replies as much as the reverse. Only outside listeners' ratings
       were manipulated. And the authors' own argument is that the fastest replies are beyond
       conscious control, which cuts against training them. The study did find something, so "no
-      connection" is wrong, and it was one US college's students, not many countries.
+      connection" is wrong, and the conversations were one US college's students, not phone calls in
+      many countries.
   - q: >-
       Iolo is asked to join a quiz team and replies: "Oh, that sounds fun. The thing is, Mondays
       are my late shift, so..." How would this lesson describe the reply?
@@ -102,23 +104,24 @@ quiz:
     answer: 0
     explain: >-
       "Oh" delays, "that sounds fun" appreciates, "the thing is, Mondays are my late shift" gives
-      an account, and the refusal itself is left for the other person to hear. That's the ordinary
+      an account, and the refusal itself is left for the other person to hear. That's the usual
       shape of a refusal in the recordings, not a dishonest one, and the opening appreciation
       doesn't make it an acceptance. It isn't unfinished either: the answer has been given, in the
       form refusals usually take.
 ---
 
-You ask a friend whether she can help you move on Saturday. There is a pause. Then: "Oh... Saturday...
-well..." You know the answer before she gives it, and she knows you know. Neither of you was taught
-this. It is one of the most regular patterns conversation researchers have found in recorded talk:
-accepting and agreeing tend to be quick and plain, and refusing and disagreeing tend to be late and
-wrapped in other words. Knowing the pattern does three things for you as a listener. It lets you
-hear a "no" that is on its way and make it easier to say. It stops you reading every pause as bad
-news, because most are not. And it suggests why correcting someone flatly, mid-sentence, can land so
-much harder than the words alone would.
+You ask a friend whether she can help you move on Saturday. There's a pause. Then: "Oh... Saturday...
+well..." You know the answer before she gives it, and she knows you know. Nobody sat either of you
+down and taught you this. It's one of the most regular patterns conversation researchers have found
+in recorded English talk, and its timing half has been measured in ten languages: accepting and
+agreeing tend to be quick and plain, and refusing and disagreeing tend to be late and wrapped in
+other words. Knowing the pattern does three things for you as a listener. It lets you hear a "no"
+that's on its way and, on this course's reading, make it easier to say. It stops you reading every
+pause as bad news, because most aren't. And it suggests why correcting someone flatly, mid-sentence,
+can land so much harder than the words alone would.
 
 Lesson 1 showed that answers usually start within a fraction of a second. This lesson is about what
-happens when they do not.
+happens when they don't.
 
 ## Questions that make an answer due
 
@@ -129,7 +132,8 @@ positioning of component utterances, (3) different speakers producing each utter
 part of a pair limits what can count as a fitting second part: an invitation is answered by
 accepting or declining, not by a greeting.
 
-Their basic rule is the one lesson 1's rule 1a was an instance of. Once someone has recognisably
+You met one side of it in lesson 1: a question addressed to someone is one of the ways rule 1a
+picks the next speaker. The basic rule of the pair adds what that speaker must do. Once someone has recognisably
 produced a first pair part, "on its first possible completion its speaker should stop and a next
 speaker should start and produce a second pair part from the pair type of which the first is
 recognizably a member".[1] Like the turn-taking rules, this is **observed in recordings**: a pattern
@@ -137,8 +141,8 @@ conversation analysts found by close study of recorded English talk, not a measu
 is free from the [ISCA Schegloff archive](https://www.conversationanalysis.org/schegloff-publication-archive/).
 
 That rule turns a silence after a question into an event. Nothing is being said, but something is
-missing, and people treat the missing answer as meaning something. The clearest example in the
-literature comes from a recording that Anita Pomerantz published in 1984, and that Kendrick and
+missing, and people treat the missing answer as meaning something. A well-known example is a short
+recorded exchange that Harvey Sacks and later Anita Pomerantz (1984) discussed, and that Kendrick and
 Torreira reproduce in their 2015 study:[3]
 
 ```
@@ -155,7 +159,7 @@ it arrives.[3]
 
 :::predict In the ten-language study from lesson 1, answers that confirmed a yes/no question came faster than answers that disconfirmed it. Now take "You're not coming?" answered with "No, I'm not." It uses the word "no", but it confirms what the question proposed. Do you expect it to behave like a fast confirmation or a slow disconfirmation?
 
-Like a fast confirmation. The authors report that the advantage for confirming held even when the confirming answer was negative in form, with exactly this kind of example, so it is not a side effect of the word "no" being harder to say.[2]
+Like a fast confirmation. The authors report that the advantage for confirming held even when the confirming answer was negative in form, with exactly this kind of example, so it isn't a side effect of the word "no" being harder to say.[2]
 
 Across the ten languages, confirmations came between 100 and 500 ms faster than disconfirmations on average, a difference that was statistically significant in seven of the ten.[2] What came fast was going along with the question, whatever words did it.
 :::
@@ -163,8 +167,9 @@ Across the ten languages, confirmations came between 100 and 500 ms faster than 
 ## The shape of yes and the shape of no
 
 Pomerantz, a conversation analyst, studied what happens after someone gives an assessment ("Isn't
-it lovely out?", "That was a good film") and the other person agrees or disagrees.[4] Her chapter is
-observed in recordings, and this course read it through an OCR of the scanned pages on
+it lovely out?", "That was a good film") and the other person agrees or disagrees.[4] Her chapter
+reports patterns observed in recorded American English conversation, and this course read it
+through an OCR of the scanned pages on
 [her own website](https://www.apomerantz.com/wp-content/uploads/2015/04/agreeingdisag23d.pdf), so
 what follows is her findings in this course's words, not quotations. Agreements and disagreements
 came in different shapes:
@@ -176,7 +181,7 @@ came in different shapes:
   had not yet been said.
 
 Conversation analysts call the first shape **preferred** and the second **dispreferred**. The words
-are technical and a little misleading. "Preferred" does not mean what either person wants. It names the
+are technical and a little misleading. "Preferred" doesn't mean what either person wants. It names the
 reply the sequence is built for, the one that can come plainly and at once, and "dispreferred" names
 the one that arrives late and cushioned. The same pattern appears in replies to invitations,
 offers and requests, where accepting is the preferred reply and declining the dispreferred one.[3]
@@ -193,21 +198,25 @@ Reply 1 is the preferred shape. It starts at once, says yes outright, fills the 
 else, and moves straight on to the next thing, a question about the time.
 
 Reply 2 has the parts that Kendrick and Torreira, summarising earlier conversation analysis, list
-as what a refusal of an invitation uses and an acceptance does not,[3] plus Pomerantz's unstated
-"no":
+as what a refusal of an invitation uses and an acceptance doesn't,[3] plus a sixth this course adds
+from Pomerantz: in her recordings of disagreements with assessments, the disagreement was sometimes
+never stated, and refusals can work the same way.
 
 - **Delay.** "Oh..." and the pauses push the substance of the answer back.
 - **A preface.** "Well" is one of the markers most closely tied to a coming refusal (you will see the
   number below).
 - **A qualification.** "Friday's a bit..." starts to soften and give a reason without finishing.
 - **An appreciation.** "I'd love to" appreciates the invitation before anything else.
-- **An account.** "It's my sister's birthday" explains why she can't, with a reason that is not about
+- **An account.** "It's my sister's birthday" explains why he can't, with a reason that isn't about
   Birgit.
 - **No "no".** The refusal is never said. Birgit has to hear it, and she will.
 
-None of that is evasive. It is the ordinary shape of a refusal in recorded talk. On this course's
-reading, a flat "No." would land harder with Birgit than all six parts together, because it gives a
-refusal the shape of an agreement.
+None of that is evasive. It's the usual shape of a refusal in recorded talk, though not the only
+one. In Kendrick and Torreira's calls, about three refusals in four came with some of this
+cushioning; the other quarter were what they call "flat rejections", plain and early, a third of
+them starting before the other person had finished.[3] On this course's reading, a flat "No." can
+land harder with Birgit than the cushioned version, because it gives a refusal the fast, plain
+shape of an acceptance; the study didn't measure how either landed.
 
 Now you try the gap. Casimir asks you, "Could you help me carry a sofa up to my flat on Sunday?" You
 can't. The blunt reply is "No, I can't." Before you open the checkpoint, rewrite it in the shape
@@ -217,7 +226,7 @@ the recordings show, with at least four of the six parts.
 
 "Oh... Sunday... ah, I wish I could. I'm away till the evening. Could it wait till Monday?"
 
-That has a delay ("Oh... Sunday..."), a preface ("ah"), an appreciation ("I wish I could"), an account ("I'm away till the evening"), and no "no". The offer at the end is not one of the parts the research names. It is this course's suggestion: it gives Casimir something he can say yes to.
+That has a delay ("Oh... Sunday..."), a preface ("ah"), an appreciation ("I wish I could"), an account ("I'm away till the evening"), and no "no". The offer at the end isn't one of the parts the research names. It is this course's suggestion: it gives Casimir something he can say yes to.
 
 If your rewrite had an account but no delay at all, it may read as more abrupt than you meant. On this course's reading, a fast reply has the shape of a "yes", so a fast refusal can land harder than its words.
 :::
@@ -233,7 +242,7 @@ free](https://eprints.whiterose.ac.uk/id/eprint/116177/1/Kendrick_and_Torreira_2
 "well", the chance that it was a dispreferred one was 0.78, and when it had none of the markers they
 coded (a "well", an "um", an in-breath) it was 0.21.[3]
 
-Then the timing, and it is not what the pattern above might lead you to expect. Most responses of
+Then the timing, and it's not what the pattern above might lead you to expect. Most responses of
 both kinds came within about 0 to 700 ms, and many dispreferred ones came early. But "after
 approximately 700 ms, the proportion of dispreferreds was greater than that of preferreds".[3] Among
 the dispreferred responses, 25% came after that point, against 8.9% of the preferred ones. The
@@ -241,21 +250,23 @@ authors put the result in one sentence worth reading twice: "we do not find that
 characteristic of dispreferred actions, since short gaps are the most frequent before dispreferreds,
 we do find that dispreferred actions are characteristic of long delays."[3]
 
-So a long delay shifts the odds towards an unwelcome answer. It does not decide the answer, and a
-short one tells you very little. They also found that even small departures from a normal gap, over
-about 300 ms, made a plain, unqualified acceptance less likely and a "yes, but" more likely.[3]
+So a long delay shifts the odds towards an unwelcome answer. It doesn't decide the answer, and a
+pause under about 300 ms tells you almost nothing. They also found that even small departures from
+a normal gap, over about 300 ms, made a plain, unqualified acceptance less likely, and a hedged
+reply of either kind, such as a "yes, but", more likely.[3]
 
 :::checkpoint Lesson 1 warned that "the gap is 200 ms" names the centre of a spread. Is Kendrick and Torreira's 700 ms the typical gap before a "no"?
 
 No. Short gaps were the most frequent kind before dispreferred responses too. The 700 ms is the point after which dispreferred responses outnumbered preferred ones in this collection of 195 English phone-call responses.
 
-It is a statement about which answer is likelier once a silence has run long, not about how long a "no" usually takes.
+It's a statement about which answer is likelier once a silence has run long, not about how long a "no" usually takes.
 :::
 
 The other side of the question is the listener's: when does a delay start to sound like reluctance?
-**Roberts and Francis, 2013** (a single study) ran a between-groups listening experiment with 380
-people. They rated constructed dialogues in which a request was answered with an identical "yes",
-after a silence set somewhere between 200 and 1,200 ms in 100 ms steps, for how willing the person
+**Roberts and Francis, 2013** (a single study) played recorded phone calls between friends, acted
+for the study, to 380 undergraduates at one US university, Purdue, who heard them in their
+classrooms. Each call ended with a request answered by the same recorded "sure", after a silence set
+somewhere between 200 and 1,200 ms in 100 ms steps, and the students rated how willing the person
 answering was.[5] "There was a notable drop-off in ratings at 600 ms and a statistically
 significant difference in ratings between 700 and 800 ms."[5] Beyond about 900 ms, ratings stopped
 falling further. An earlier experiment by the same group, which this course knows only from the
@@ -264,26 +275,32 @@ descriptions in these two papers, found the same direction: rated willingness fe
 
 Put the two together and you have a finding with a clear scope. In English-language recordings and
 experiments, a delay of well under a second before a reply shifts both the odds of an unwelcome answer
-and how willing a "yes" sounds. **Keep the scope attached.** The 600 to 800 ms figures are from
-English-language listeners rating a "yes" to a request in the lab. Lesson 1 showed that the tempo
-each community treats as "on time" differs by fractions of a second, so the point at which a delay
-starts to mean something may sit elsewhere in other languages; a cross-language follow-up exists,
-but this course has not read it. Lesson 15 takes up the differences.
+and how willing a "sure" sounds. Keep the scope attached. The 600 to 800 ms figures come from
+American English speakers, US undergraduates, rating a "sure" to a friend's request. The authors say
+so themselves: they were "only testing the effect in one language group (American English
+speakers)", and they add that "600 ms should not be treated as an absolute value".[5]
+
+Lesson 1 showed that the average gap differs between languages by fractions of a second, and gave
+Stivers and colleagues' argument, which they didn't test, that each community is tuned to its own
+tempo. Roberts and Francis also report a second earlier study by Roberts and colleagues, from
+2011, with American English, Italian and Japanese speakers: longer silences drew more negative
+ratings in all three, and Roberts and Francis suggest something here may be shared across
+languages. But that study used only three gap lengths, so where the line falls in each language
+isn't known.[5] This course hasn't read the 2011 study. Lesson 15 takes up the differences.
 
 ## When the preference flips
-
-This part shows that preference is not about what anyone wants.
 
 :::predict Hollis has just fumbled a card trick at a party and says to you: "I'm hopeless at this, aren't I?" Which reply do you expect has the preferred shape here, fast and plain? And what would a one-second pause before your "No" tell Hollis?
 
 The preferred reply is a fast, plain disagreement: "No, you're not, you nearly had it." After someone runs themselves down, Pomerantz found, the usual preference reverses. Agreeing would be criticising them, so it is the reply that comes late and wrapped, and disagreeing, which supports them, comes quickly and outright.[4]
 
-So a one-second pause before "No" puts your disagreement in the dispreferred shape. On this course's reading of Pomerantz, Hollis is likely to hear the pause as the part of the answer that agrees: Pomerantz notes that people may hesitate or hedge rather than agree with such a criticism outright, so the hesitation itself can carry it.[4]
+So a one-second pause before "No" puts your disagreement in the dispreferred shape. Pomerantz notes that after a self-deprecation a silence can itself be heard as agreement not yet said. On this course's reading, a pause before your "No" can carry some of that, so Hollis may hear the pause as the part that agrees.[4]
 :::
 
 This reversal is the reason conversation analysts treat preference as a feature of the sequence, not
 of anyone's wishes. Pomerantz notes that people treat disagreeing with each other as uncomfortable,
-and yet after "I'm hopeless, aren't I?" disagreement is exactly what comes fast.[4] What decides the shape is what the first turn made due.
+and yet after "I'm hopeless, aren't I?" disagreement is exactly what comes fast, because that's the
+reply the first turn made due.[4]
 
 ## Letting people fix their own trouble
 
@@ -299,7 +316,7 @@ same turn ("We went on the Tuesday, no, the Wednesday"), just after the turn end
 after the other person's response. When another person notices the trouble, what they usually do is
 not fix it but point to it, with a "What?" or a "Who?", and leave the fix to the speaker.[6]
 
-And when others do correct, they soften it: "When other-corrections are done, they are frequently
+And when others do correct, they often soften it: "When other-corrections are done, they are frequently
 modulated in form."[6] They add uncertainty ("Quail, I think") or put the correction as a question.
 One common form is "Y'mean X?". In one of the paper's recordings, Lori says single beds are "awfully
 thin tuh sleep on", someone says "What?", she repeats "Single beds", and Ellen offers "Y'mean
@@ -314,12 +331,12 @@ less rare, and they suggest it is part of how children learn to monitor and fix 
 
 The first is already done: a self-repair in the same turn, the most common kind. Nobody else needs to do anything.
 
-For the second, the recordings suggest leaving room first, since the speaker may catch it. If they do not, the usual correction is a soft one, put as a check: "Four, wasn't it?" or "You mean four?" That gives your colleague the fix to accept, which is how the repair research describes other-correction working when it is done.
+For the second, on this course's reading of the repair research, leave room first, since the speaker may catch it. If they don't, the usual correction is a soft one, put as a check: "Four, wasn't it?" or "You mean four?" That gives your colleague the fix to accept, which is how the repair research describes other-correction working when it is done.
 :::
 
 ## Fast replies and feeling close
 
-One more finding pulls the other way, and it is worth having in view before lesson 5 teaches the value
+One more finding pulls the other way, and it's worth having in view before lesson 5 teaches the value
 of leaving a silence.
 
 **Templeton and colleagues, 2022**, studied conversations at one US college, [Dartmouth, in a paper
@@ -333,46 +350,48 @@ gaps shortened, lengthened or left alone, and rated the sped-up versions as more
 
 The authors' interpretation reaches beyond what they measured: "Because extremely short response times (<250
 ms) preclude conscious control, they provide an honest signal that even eavesdroppers use to judge how
-well two people "click.""[7] That is **their argument, not something they tested**. The link in real
+well two people “click.”"[7] That's their argument, not something they tested. The link in real
 conversations was correlational, so feeling connected could speed replies as much as the reverse, and
 only the outside listeners' ratings were manipulated. The authors also flag their own limits: one
 college's students making polite get-to-know-you talk, and in arguments, they write, "fast response
-times might actually signal that two people are not listening to each other".[7] This course found no
-independent replication.
+times might actually signal that two people are not listening to each other", though they add that
+fast turn-taking may still show investment in the partner or the topic, and that more research is
+needed.[7] This course found no independent replication.
 
-So it is a single set of studies, and it does not support advice to "reply faster". On the authors' own
-argument, the fastest replies are not under conscious control, and lesson 1 showed that what counts as
-fast is calibrated locally. On this course's reading, the finding and the practitioners' advice to
+So it's a single set of studies, and it doesn't support advice to "reply faster". On the authors' own
+argument, the fastest replies aren't under conscious control, and lesson 1 gave Stivers and
+colleagues' argument that what counts as fast is set locally. On this course's reading, the finding and the practitioners' advice to
 pause, which lesson 5 sets out, are not rivals: one describes what goes with feeling in sync in easy
 talk, the other what to do when someone may not have finished.
 
 ## What people get wrong
 
 **"Any pause means no."** A long delay makes an unwelcome answer likelier, but most refusals in the
-phone recordings came without one, and most short pauses mean nothing in particular.[3] It shifts the
-odds; it does not read minds.
+phone recordings came without one, and a pause of a few hundred milliseconds mostly signals a "yes,
+but", not a "no".[3]
 
-**"A hedged refusal is dishonest."** Delay, a preface, an appreciation and an account are the normal
-shape of a refusal in recorded talk.[3][4] The person using them is not hiding the answer; they are
-giving it in the form both of you can hear.
+**"A hedged refusal is dishonest."** Delay, a preface, an appreciation and an account are the usual
+shape of a refusal in recorded talk (about three in four in one count).[3][4] The person using them
+isn't hiding the answer; they're giving it in the form both of you can hear.
 
 **"Correcting someone mid-sentence helps them."** The system gives speakers the first chances to fix
-their own trouble, self-repair is far more common, and corrections by others are usually softened.[6]
+their own trouble, self-repair is far more common, and corrections by others are often softened.[6]
 A flat interruption to fix someone skips all of that.
 
 **"Reply faster and people will feel closer."** One set of studies of US students found faster
 replies went with feeling connected, correlationally; its authors argue the fastest replies are
-beyond conscious control, and what counts as fast is local.[7][2]
+beyond conscious control, and, on Stivers and colleagues' argument, what counts as fast is
+local.[7][2]
 
-**"The 600 to 800 ms thresholds apply everywhere."** They come from English-language listeners
-rating a "yes" to a request in the lab.[5] Other languages calibrate "on time" differently, and other
-kinds of talk have not been tested in what this course read.
+**"The 600 to 800 ms thresholds apply everywhere."** They come from American English-speaking
+undergraduates rating a "sure" to a request.[5] Average gaps differ between languages, and nobody in
+what this course read tested where the line falls in other languages or other kinds of talk.
 
 ## Practice
 
 :::exercise Three noticed, five rewritten, one move tried
 
-This exercise has three kinds of work: **notice**, **rewrite on paper**, and **try one move**.
+This exercise has three kinds of work: notice, rewrite on paper, and try one move.
 
 Take 25 minutes now for the rewrites. The journal entries and the move happen over the coming week, a few minutes each.
 
@@ -386,7 +405,7 @@ Take 25 minutes now for the rewrites. The journal entries and the move happen ov
    - (b) A friend says the new café is the best in town. You disagree. "It isn't."
    - (c) A friend says the match was on Saturday; it was Sunday. "Wrong, it was Sunday."
    - (d) A friend says, "I'm a terrible cook, aren't I?" (You like her cooking.)
-   - (e) Someone trying on a jacket asks, "Does this look all right?" It does not suit them.
+   - (e) Someone trying on a jacket asks, "Does this look all right?" It doesn't suit them.
 3. **Try one move.** Once this week, when you ask someone for something and hear a delayed,
    prefaced reply ("Oh... well..."), offer an easy way out before they finish ("No worries if it's
    a bad week"). Write down what happened, including if nothing did. This move is this course's
@@ -420,7 +439,7 @@ This lesson leans on lesson 1's timing: a delay is only heard against a baseline
 usually start within a fraction of a second. "Y'mean X?" returns in lesson 8, "Saying it back", as the
 natural form of an understanding check. Lesson 13, "How it ends, and how it went", builds endings
 out of the same preference, and lesson 15, "Different habits: culture, autism, age and hearing",
-takes up how communities calibrate "on time" differently.
+takes up how timing differs between communities.
 
 ## Go deeper
 
@@ -457,9 +476,10 @@ takes up how communities calibrate "on time" differently.
    PDF on the author's site**; paraphrased, not quoted. Observed in recordings. <!-- SOURCES Part B §1.3; lesson 01/02 gate closures -->
 5. Roberts, F., and Francis, A. L. (2013). Identifying a temporal threshold of tolerance for silent
    gaps after requests. *JASA Express Letters*, 133(6), EL471–EL477.
-   [doi:10.1121/1.4802900](https://doi.org/10.1121/1.4802900). **Read: full text** (author PDF) at
-   Stage 1; the publisher's copy refused an automated reader on 26 September 2026. Single study, n =
-   380, English. <!-- SOURCES Part B §2.3 -->
+   [doi:10.1121/1.4802900](https://doi.org/10.1121/1.4802900). **Read: full text**, from an
+   Internet Archive capture (2022) of the publisher's page, read 26 September 2026; the publisher's
+   copy refused an automated reader. Single study, n = 380 undergraduates at Purdue University,
+   American English. <!-- SOURCES Part B §2.3; lesson 02 review gate closures -->
 6. Schegloff, E. A., Jefferson, G., and Sacks, H. (1977). The preference for self-correction in the
    organization of repair in conversation. *Language*, 53(2), 361–382. **Read: full text** (ISCA
    archive PDF), re-read 26 September 2026. Observed in recordings. <!-- SOURCES Part B §1.4; lesson 01/02 gate closures -->

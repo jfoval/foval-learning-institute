@@ -678,7 +678,7 @@ The five books below dominate US introductory interpersonal courses. All five gi
 - **Citation:** Worthington, D. L., & Bodie, G. D. (2017/2018). Defining listening: A historical, theoretical, and pragmatic assessment. In D. L. Worthington & G. D. Bodie (Eds.), *The Sourcebook of Listening Research: Methodology and Measures* (pp. 3 to 17). Wiley. DOI 10.1002/9781119102991.ch1. Copyright line reads "© 2018 John Wiley & Sons" [V].
 - **What I read:** full text of chapter 1 as the publisher's free excerpt PDF (catalogimages.wiley.com), about 6 pages of dense text [V]. The rest of the Sourcebook (measure profiles, including Profile 60 "Time Studies" and Profile 36 LSP-R): not read.
 - **Content:**
-  - Table 1.1 lists 17 definitions of listening from Tucker (1925) to Bostrom (2011). Rankin (1926): "The ability to understand spoken language" [V]; Wolvin and Coakley (1988): "The process of receiving, attending to, and assigning meaning to aural stimuli" [V]; ILA (1996): "The process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages" [V].
+  - Table 1.1 lists 18 definitions of listening (a "Sample of Listening Definitions") from Tucker (1925) to Bostrom (2011). [Corrected 2026-09-26, lesson 03 review: Stage 1 counted 17; the table has 18 rows, re-counted against the PDF.] Rankin (1926): "The ability to understand spoken language" [V]; Wolvin and Coakley (1988): "The process of receiving, attending to, and assigning meaning to aural stimuli" [V]; ILA (1996): "The process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages" [V].
   - Listening is treated as having **affective** (motivation, attitudes), **behavioural** (responses, eye contact, questions) and **cognitive** (attending, comprehending, interpreting, evaluating) components, citing Halone, Cunconan, Coakley and Wolvin (1998).
   - On the foundational study: Nichols (1948) "played six 10‐minute audio‐recorded lectures to a sample of undergraduate students", with 10 multiple-choice questions after each; students "recalled an average of 68% of the lecture material" [V]. Note this is **68%, not 50%**, and it is lecture comprehension, not conversation.
   - Kelly (1965, 1967) found early listening tests "were more highly correlated with tests of intelligence than with each other" [V], which undermined the idea of listening as a single measurable skill.
@@ -690,7 +690,7 @@ The five books below dominate US introductory interpersonal courses. All five gi
 #### 2.2 The International Listening Association definition
 
 - ILA website page "Listening Definition": "the process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages" (1996) [V, listen.org, fetched today]. The LibreTexts Usera text dates it to 1995 and cites *Listening Post* 53, p. 4 (April 1995) [V]; Worthington and Bodie give 1996 [V]. Date is inconsistent across sources (gate).
-- Note that it is a consensus definition by a professional association, adopted for teaching; Worthington and Bodie list it alongside others and argue against privileging any one.
+- Note that it is a consensus definition by a professional association; Worthington and Bodie list it alongside others and argue against privileging any one. [2026-09-26, lesson 03 review: "adopted for teaching" is not on the ILA page or in Worthington and Bodie; do not repeat it.]
 
 #### 2.3 Brownell, *Listening: Attitudes, Principles, and Skills* (HURIER)
 
@@ -712,7 +712,7 @@ The five books below dominate US introductory interpersonal courses. All five gi
 #### 2.6 Listening styles: LSP-16 and its revision (a live correction the open textbook misses)
 
 - **Citation:** Bodie, G. D., Worthington, D. L., & Gearhart, C. C. (2013). The Listening Styles Profile-Revised (LSP-R): A scale revision and evidence for validity. *Communication Quarterly*, 61(1), 72 to 90. DOI 10.1080/01463373.2012.720343.
-- **What I read:** the author-posted published PDF; abstract and opening [V]. Results tables not read in detail.
+- **What I read:** the author-posted published PDF; abstract and opening [V]; the discussion also read at Stage 3 and re-read at Stage 4 of lesson 3 (2026-09-26; see the lesson 03/04 and lesson 03 review gate closures). Results tables not read in detail.
 - **Finding:** "The Listening Styles Profile (LSP-16) is the most widely used self-report listening instrument in the communication discipline. Unfortunately, researchers have utilized the instrument despite its uncharacteristically low reliability estimates and unvalidated factor structure." [V] The revision proposes four factors: "relational, analytical, task-oriented, and critical listening" [V].
 - **Consequence:** the four styles taught in the UMN open textbook (people-, action-, content-, time-oriented; Watson, Barker and Weaver 1995) rest on the old instrument that its own field says had low reliability. The Janusik compilation (2.8) also records the claim, attributed to Watson et al. 1995, that people with more than one listening style "are typically ineffective communicators" [V], while the UMN text says 40% of people have more than one style and choose by situation [V]. A later Bodie line of work treats styles as habits, not types (Janusik compilation cites Bodie et al. 2019 "Connective, Reflective, Analytical, and Conceptual" [V]; not read).
 - **What a lesson may say:** people report different listening preferences and can adapt them; the popular four-type scheme came from a measure later revised because it was unreliable. **May not** present "listening styles" as fixed personality types.
@@ -1074,7 +1074,7 @@ Design: 195 preferred and dispreferred responding actions (for example acceptanc
 
 **Roberts, F., Francis, A. L., & Morgan, M. (2006). The interaction of inter-turn silence with prosodic cues in listener perceptions of "trouble" in conversation. *Speech Communication*, 48(9), 1079–1093. DOI 10.1016/j.specom.2006.02.001.** Read: not read directly; described in Kendrick and Torreira 2015 and Roberts and Francis 2013. Listeners heard simulated phone calls in which a request ("Can you give me a ride over there?") was accepted ("Sure!") after 0, 600 or 1200 ms; rated willingness fell as the gap grew. A cross-linguistic replication (Roberts, Margutti & Takano 2011, Italian and Japanese) is cited but I did not read it.
 
-**Roberts, F., & Francis, A. L. (2013). Identifying a temporal threshold of tolerance for silent gaps after requests. *JASA Express Letters*, 133(6), EL471–EL477. DOI 10.1121/1.4802900.** Read: full text (author PDF). Between-groups design, n = 380, gaps from 200 to 1200 ms in 100 ms steps before an identical "yes". "There was a notable drop-off in ratings at 600 ms and a statistically significant difference in ratings between 700 and 800 ms" [V]; after about 900 ms, a floor.
+**Roberts, F., & Francis, A. L. (2013). Identifying a temporal threshold of tolerance for silent gaps after requests. *JASA Express Letters*, 133(6), EL471–EL477. DOI 10.1121/1.4802900.** Read: full text (author PDF). Between-groups design, n = 380, gaps from 200 to 1200 ms in 100 ms steps before an identical "sure" (*corrected 2026-09-26, Stage 4 note, lesson 02: this entry said "yes"; the token was "sure", see "Gate closures, lesson 02 review"*). "There was a notable drop-off in ratings at 600 ms and a statistically significant difference in ratings between 700 and 800 ms" [V]; after about 900 ms, a floor.
 
 **What a lesson may say.** Listeners hear delay before a "yes" as reluctance, and the effect appears at well under a second (roughly 600 to 800 ms in these English experiments). **Keep to English-language, lab-rated, request-acceptance findings**; do not generalise the threshold to all cultures or contexts.
 
@@ -3324,3 +3324,110 @@ Nothing on the unread line was cleared.
 - **Stivers et al. 2009** (PMC2705608, re-read). "Within the set of answers, those that are
   confirmations are delivered faster than disconfirmations in all languages, between 100 and 500 ms
   faster on average" [V].
+
+## Gate closures, lesson 02 review (2026-09-26)
+
+Stage 4 of lesson 2 ("Why "no" comes late"). Re-read today by the lesson 2 fixer with curl (generic
+browser User-Agent) and pandoc or pdftotext; strings marked [V] were copied from that text today.
+Nothing on the unread line was cleared: Roberts, Francis and Morgan 2006 and Roberts, Margutti and
+Takano 2011 stay unread and are cited only as Roberts and Francis 2013 describe them.
+
+- **Roberts and Francis 2013, full text** from the Internet Archive capture of the publisher's page,
+  https://web.archive.org/web/20220728204324/http://asa.scitation.org/doi/10.1121/1.4802900 (the
+  publisher's copy returns 403 to an automated reader). The stimulus: "the identical affirmative
+  response token (“sure”) was edited into each target conversation" [V]. **Stage 4 note, lesson 02:**
+  Part B §2.3 said "an identical "yes""; it was "sure", and that entry is corrected in place.
+  Sample and setting: "Three-hundred and eighty undergraduate students were compensated $2.00 each
+  for completing a 6 min listening task." [V], under a Purdue University protocol; "participants were
+  recruited by classroom" [V], and each of 22 classrooms heard the same recorded instructions and
+  "several telephone conversations among a group of friends" [V], acted and edited for the study.
+  Scope, in the authors' words: "600 ms should not be treated as an absolute value" [V], "particularly
+  since we were only testing the effect in one language group (American English speakers)" [V]. On
+  Roberts, Margutti and Takano 2011 (American English, Italian, Japanese), as reported here: it
+  "found that negative judgments increase with increasing lengths of silence, regardless of language
+  background" [V]; "The similarity of judgments across languages and cultures suggests that there may
+  be something basically perceptual, not language-specific, about the assessment of inter-turn silent
+  delays of response." [V]; "However this assumption is based on evidence from only three silence
+  conditions (no gap, 600 ms, and 1200 ms)" [V]. 2011 is earlier than 2013, so it is not a
+  "follow-up".
+- **Kendrick and Torreira 2015** (White Rose submitted version, as in the lesson 01/02 section).
+  Flat rejections: "the data also include many dispreferred actions that lack these components and
+  thereby employ a turn format that formally resembles a typical preferred action" [V], "which we
+  call flat rejections" [V]; "flat rejections (n=18, 9.2%)" [V] against "normal rejections (n=54,
+  27.7%)" [V], so 18 of 72 dispreferreds, a quarter; "Flat rejections occur significantly earlier
+  than normal rejections, with modes of approximately -50 and 325 ms, respectively" [V]; in overlap
+  with the prior turn "1.8% vs. 33.3%, respectively" [V]. The paper does not report how flat
+  rejections were received. The 300 ms result: "Small departures from a normal gap duration (>300 ms)
+  decrease the likelihood of an unqualified acceptance and increase the likelihood that a response,
+  be it acceptance or rejection, will have a dispreferred turn format." [V] Provenance of the cook
+  extract: labelled "JS:II:48 (Pomerantz 1984:77)" [V] and "presented to illustrate this point (see
+  Sacks, 1973/1987, p. 64; Pomerantz, 1984, p. 76-7; Schegloff, 2007, p. 71" [V].
+- **Templeton et al. 2022** (PMC8794835). The sentence after the conflict caveat: "However, it may
+  also be the case that rapid turn taking is still signaling psychological investment, either in the
+  partner or the topic being discussed. More research is needed to better understand the role of
+  response times in different conversational contexts." [V] Study 3: "Participants (n = 450)
+  recruited on Amazon’s Mechanical Turk" [V].
+- **Pomerantz 1984**, p. 94 (the author's PDF, page image 20, re-OCR'd today with tesseract at 200
+  dpi and **checked against the page image by eye**): "When a recipient of a self-deprecation is
+  silent, that silence is a way of performing (and is interpretable as such) an unstated, or
+  as-yet-unstated agreement/coparticipant criticism." [V-OCR, checked] It is in the body text, not
+  the notes. Used in lesson 2 in paraphrase only. The chapter does not name a language; its
+  extracts are from American English collections (SBL, NB, JS and others), as the lesson 02 reviewer
+  identified them.
+
+## Gate closures, lesson 03 review (2026-09-26)
+
+Stage 4 fix pass of lesson 3 ("Hearing is not listening"). Each string below was re-confirmed today
+against its primary: PDFs fetched with curl (generic browser User-Agent, no personal data in any
+header) and converted with pdftotext; the Carnegie page read by eye from the Internet Archive page
+image. Nothing on the unread line was cleared; Wolvin 1977, which the reviewer read, was not read
+here and is not cited. Two corrections to earlier entries are made in place and noted there (Part A
+§2.1's count of 17, now 18; Part A §2.2's "adopted for teaching", withdrawn).
+
+- **Rogers and Farson (1987 excerpt)**,
+  https://wholebeinginstitute.com/wp-content/uploads/Rogers_Farson_Active-Listening.pdf: "Active
+  listening is an important way to bring about changes in people." [V]; "Active listening aims to
+  bring about changes in people." [V]; "it relies upon definite techniques" [V] (followed in the
+  original by an em dash, not quoted); "clinical and research evidence" [V]; the listened-to become
+  "less defensive, more democratic, and less authoritarian" [V]. **Stage 4 note on Part C §1.1:**
+  "grounded in attitudes, not a technique" is half the picture; the excerpt also calls itself a set
+  of "definite techniques" aimed at change in the speaker and the group.
+- **Carnegie** (Internet Archive `dli.bengal.10689.22160`, page image n119, printed p. 105): "I had
+  listened because I was genuinely interested. And he felt it." [V, page image; the text layer reads
+  "1 was genu¬ inely"].
+- **Bodie, Worthington and Gearhart 2013 (LSP-R)**, authors' copy (URL as Part A §2.6): the
+  originators' construct, "characteristic or habitual ways of listening" [V], in the authors' own
+  sentence on Watson, Barker and Weaver 1995 (which stays on the unread line; quote only as the
+  LSP-R gives it); "consistent over repeated administrations" [V, re-confirmed]; their suggested
+  test, "experimental procedures that present participants with various situations in which certain
+  styles would be preferred over others" [V]; the introduction says the LSP-16 "remains the most
+  widely used" [V].
+- **Ickes 1993** (https://greatergood.berkeley.edu/images/uploads/Empathic_Accuracy.pdf): Ickes,
+  Stinson, Bissonnette and Garcia 1990 studied "38 mixed-sex (male-female) dyads" of strangers [V];
+  of the self-report correlations, "most of these correlations were negative rather than positive"
+  [V]; his suggested reasons for the lack of metaknowledge (p. 605, offered, not tested): perceivers
+  "rarely seek explicit feedback" [V]; "to be polite or avoid giving offense" [V]; "even when the
+  perceiver has failed to understand them" [V].
+- **Nichols and Stevens 1957** (https://archive.org/details/areyoulistening00ralp, text layer; the
+  reviewer checked pp. 5 to 7 and 78 against the page images): p. 78, "people can comprehend speech
+  at more than 300 words per minute" [V], attributed to unnamed "Experiments in the field of speech";
+  reading at "1,200 words per minute" [V]. Their Rankin source is "Listening Ability," *Proceedings
+  of the Ohio State Educational Conference*, pp. 172-183, printed 1939 in the bibliography while the
+  text dates the survey 1929 [V]. The caveat is a paragraph after the figures (the Detroit schools'
+  52% and 8% intervene), and the neglected skills were "speaking and listening" [V].
+- **Usera 7.1** (URL as the lesson 03/04 section): the 42% cites "Rankin, P. T. (1926). The
+  measurement of the ability to understand spoken language. University of Michigan." [V]. **Stage 4
+  note on Part A §3.1:** "as reported by the listening field's own compilers" rests on the Janusik
+  and Rouillard compilation, which is never cited; lessons say only that other retellings give 42%,
+  citing Usera.
+- **Worthington and Bodie 2018, chapter 1**: Table 1.1 is titled "Sample of Listening Definitions"
+  and has 18 rows [V]; Kelly's finding "led listening scholars to reevaluate listening and its facets
+  in terms of a complex, multifaceted process" [V]; the cognitive processes, "attending to,
+  understanding, receiving, and interpreting" (citing Halone et al. 1998) [V].
+- **Itzchakov and Bodie 2026**, abstract re-read through the Crossref API (Wiley served a bot
+  challenge): "Although extensive evidence shows that good listening benefits emotional, cognitive,
+  motivational, and relational outcomes, the field lacks consensus about what listening is" [V].
+- **Headlee, TED Ideas excerpt**, re-read: Derber "writes that it 'is the key manifestation of the
+  dominant attention-getting psychology in America.'" [V]. The excerpt says nothing of status, class,
+  gender or fairness; that reading of Derber exists in this file only from web summaries (Part A §7)
+  and is not taught.
