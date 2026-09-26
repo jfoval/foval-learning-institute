@@ -5231,10 +5231,11 @@ records was found. Added, [V]:
 - "Without proper grading, gutters and downspouts, some of this water flows into the basement."
 - "There are just three sources of moisture:" then "Liquid water from rain or ground-water.", "Interior moisture sources such as humidifiers, unvented clothes dryers, bathrooms and cooking, as well as the moisture in concrete after construction.", "Exterior humid air that enters the basement and condenses on cooler surfaces."
 - Symptoms listed include "Water trickling out of walls.", "Standing water on floor.", "Saturated base of concrete block walls; a ring of dampness." and "Condensation on cold walls and floor in summer."
-- "In the summertime, basement windows may be opened for fresh air. If the outside air is warm and humid, it will condense on the cool basement wall and floor surfaces."
+- "In the summertime, basement windows may be opened for fresh air. If the outside air is warm and humid, it will condense on the cool basement wall and floor surfaces. Many homeowners see this moisture and believe they are experiencing basement wall leakage, when in fact the accumulated moisture is from condensation."
 - "If the ground around a foundation is level or slopes toward the house, water is directed into the basement. The soil next to the house is often backfilled without proper compaction and later settles."
 - "Place earth around the house so that it slopes away from the foundation wall a minimum of 1 inch per foot for at least 6 feet."
-- "Missing gutters and downspouts cause rainwater to be directed toward the foundation perimeter." and "It is depositing the huge volume of rainwater from the roof in a single concentrated location near the basement."
+- "Missing gutters and downspouts cause rainwater to be directed toward the foundation perimeter." The downspout lines in full: "A downspout without an extender or splash block is worse than no downspout at all. It is depositing the huge volume of rainwater from the roof in a single concentrated location near the basement."
+- On regrading: "Sloping the grade away from the house, which may require hauling fill to the site, is very important."
 - "The best way to approach any building problem is to first do the things that are easy and low-cost."
 - "Dehumidification can be used as a means of reducing the symptoms of humidity and odor in a basement, but it is not a permanent or complete solution."
 - "It is appealing to solve a basement moisture problem with a membrane or coating on the inside." and "The water is still there, however, and eventually, these systems deteriorate or simply move the water to another pathway into the basement."
@@ -5268,7 +5269,8 @@ England's historic environment, and the pages are written for owners of older ho
 - Rainwater pipes: "Inspect when it is raining and note leakages"; "Clear any blockages"; "Check rear side of pipes with a mirror and look for cracks and corrosion"; "Are pipes securely fixed to the wall?"; "Are there any signs of staining or algae growth, or any washed-out mortar joints, on the wall behind the pipe?"
 - Pitched roofs: "Inspections should be carried out twice a year and after storms or high winds"; "Debris on the ground will give an indication of roof problems"; "Are there any loose, slipped, broken or missing slates or tiles?"; "Is there a lot of moss? This could block gutters and damage slates and tiles"; "Look for signs of dampness on ceilings as a possible indication of roof leaks"
 - Flashings: "Are all flashings fixed into the wall?"; "Ensure that flashings are dressed down and have not been blown or moved away from the surface of the wall"
-- Drainage gullies: "Inspections should be carried out every autumn and preferably more often"; "Check that drainage gullies are free from silt, debris, vegetation and other objects"
+- Drainage gullies: "Inspections should be carried out every autumn and preferably more often"; "Check that drainage gullies are free from silt, debris, vegetation and other objects"; "Make sure that all gully inlets are covered by a grating"
+- Maintenance plan: "Think of the building as a whole, including its interior and the surrounding site. Consider such issues as surface water drainage or the proximity of trees."
 - Base of wall: "Check to ensure that ground levels are at least 150mm below the level of any known damp-proof course or 150mm below internal floor levels"; "Ensure that vents are not obstructed"; "Remove plants and vegetation abutting and growing on the building"
 - Exterior walls: "Look for defects in stonework, brickwork and rendering"
 The pages give no method for clearing a gutter or a pipe, and say nothing about who should do it or
@@ -5280,7 +5282,7 @@ Full text. Everything recorded was found. Added, [V]: the common causes list ope
 
 ### RICS, Historic England and PCA, Joint Position Statement 2022 (Part A §6), re-read live
 
-Full text, pdftotext. Everything recorded was found. Added, [V]: "This is in contrast to modern construction, which relies on impermeable barriers to prevent moisture entering the fabric."; the report should cover "The importance of regular building maintenance and how a lack of even basic maintenance can lead to problems arising. This is especially important and relevant to roofs, gutters, hidden gutters, rainwater disposal and changes in external ground levels."; a surveyor documents changes to materials, "(e.g. retrofitting or use of impermeable mortars in repointing and rendering)".
+Full text, pdftotext. Everything recorded was found. The definition's two closing sentences together, [V]: "Traditional construction absorbs moisture but allows it to evaporate when conditions become drier. This is in contrast to modern construction, which relies on impermeable barriers to prevent moisture entering the fabric." Added, [V]: "This is in contrast to modern construction, which relies on impermeable barriers to prevent moisture entering the fabric."; the report should cover "The importance of regular building maintenance and how a lack of even basic maintenance can lead to problems arising. This is especially important and relevant to roofs, gutters, hidden gutters, rainwater disposal and changes in external ground levels."; a surveyor documents changes to materials, "(e.g. retrofitting or use of impermeable mortars in repointing and rendering)".
 
 ### Babergh and Mid Suffolk District Councils, "Wood-boring insects" (Part B §5), re-read live
 
@@ -5302,8 +5304,30 @@ https://www.hse.gov.uk/construction/safetytopics/roofwork.htm. Read: full text; 
 
 ### HSE, "Asbestos: FAQs" (Part D D1) and "Asbestos essentials task sheets" (Part D D3), re-read live
 
-FAQ "Updated 2025-09-04"; index "Updated 2025-09-19". [V] FAQ: "Asbestos may be part of any commercial or domestic building which was built or refurbished before the year 2000."; the list includes "asbestos cement products (pipes, flues, roofs etc)"; "Do not try to repair or remove any asbestos materials yourself if you have not had any training for non-licensed asbestos work."; "it is often best to leave them where they are". Index, titles only, [V]: "A10. Cleaning debris from guttering on an asbestos cement (AC) roof"; "A14. Removing asbestos cement (AC) sheets, gutters, etc. and dismantling a small AC structure"; **new**: "A21. Removing asbestos-containing bituminous products, such as roofing felt, gutter linings or damp-proof courses". The sheets themselves were not read.
+FAQ "Updated 2025-09-04"; index "Updated 2025-09-19". [V] FAQ: "Asbestos may be part of any commercial or domestic building which was built or refurbished before the year 2000."; the list includes "asbestos cement products (pipes, flues, roofs etc)"; "Do not try to repair or remove any asbestos materials yourself if you have not had any training for non-licensed asbestos work."; "it is often best to leave them where they are"; "Work involving some lower risk asbestos-containing materials (eg asbestos cement products and textured decorative coatings, among others) can be carried out if a risk assessment demonstrates that the control limit will not be exceeded" (in the answer on non-licensed work, which is about work by trained workers); "ACMs need to be legally disposed of as hazardous waste. This should not be mixed with normal household waste." Index, titles only, [V]: "A10. Cleaning debris from guttering on an asbestos cement (AC) roof"; "A14. Removing asbestos cement (AC) sheets, gutters, etc. and dismantling a small AC structure"; **new**: "A21. Removing asbestos-containing bituminous products, such as roofing felt, gutter linings or damp-proof courses". The sheets themselves were not read.
 
 ### HSE, "Safe use of ladders and stepladders", page 4 (types of ladder), re-read live
 
 [V] "have a strong upper resting point (ie do not rest it against weak upper surfaces such as glazing or plastic gutters)"; the 30-minute guide on page 2, re-read, unchanged.
+
+## Gate closures, lesson 18 (2026-09-26), addendum
+
+Further lines from the same 26 September re-reads (see "Gate closures, lesson 18" above), used in
+the lesson's paraphrase.
+
+- EPA: [V] "If there has been a lot of water damage, and/or mold growth covers more than 10 square
+  feet, consult EPA's Mold Remediation in Schools and Commercial Buildings." (the guide is named, not
+  read); [V] "If you choose to hire a contractor (or other professional service provider) to do the
+  cleanup, make sure the contractor has experience cleaning up mold." [V] "Absorbent or porous
+  materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy."
+- GOV.UK: [V] "Mould can be removed from hard surfaces with an appropriate cleaning product and
+  should be left to dry completely." [V] "Product guidance should be followed during application to
+  protect those undertaking the work and the tenants living in the home."
+- GOV.UK's internal checks include [V] "consistently high relative humidity, as assessed using a
+  moisture meter or environmental monitors".
+- EPA, the hygrometer sentence in full: [V] "Relative humidity can be measured with a moisture or
+  humidity meter, a small, inexpensive ($10-$50) instrument available at many hardware stores."
+- The Architects' Journal, Terry Brown's first sentence in full: [V] "It’s right to question the
+  diagnostic skills of commercial damp proofing firms, but to state categorically there is no such
+  thing as rising damp undermines a whole litany of rules of brickwork detailing I’ve adhered to all
+  my professional life."
