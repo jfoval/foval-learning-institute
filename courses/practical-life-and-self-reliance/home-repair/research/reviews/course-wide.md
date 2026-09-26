@@ -54,3 +54,30 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   **UGA's septic pumping** is hire-a-professional, Call someone. **ASHI's jug** is an analogy, not a
   diagnosis of a gurgle.
 - **Quiz keys unchanged for lesson 4** (3,2,0,1,3,2).
+
+## 2026-09-25 — Lesson 01 fix pass: notes for later lessons
+
+- **The general-information label is settled** in the briefs' conventions (dated bullet): the full
+  decision 9 sentence once in the opening, at the top of each H2 that states law, and in the
+  exercise; never in H3s under a labelled H2, hidden answers or quiz explanations; law quiz stems say
+  "as general information". Lesson 4 used the short first sentence at its H2s and exercise; bringing
+  it to the full sentence is one edit per place, for the orchestrator to call. The within-lesson
+  25-word duplicate check warns on every lesson that follows the convention (lessons 1 and 2 now);
+  exempting the label in `build.mjs` is a platform change, not done here.
+- **The course's reading on water near electrics now includes the box itself**: go to the consumer
+  unit or panel only if the box and the wall around it are dry, with no water on it, in it or running
+  towards it, and you can reach it without standing in water or touching anything wet. Lessons 5 and
+  12 (and any flood or leak case) should use this wording, and say that for a US panel it is the
+  course's own reading: no American source on water near a panel has been read.
+- **WSSC is one Maryland utility.** Its outside valve is a scheduled, charged service for its own
+  customers, not an emergency route; its open-a-faucet step is the only US burst-pipe-type order read
+  (SOURCES "Stage 4 note, lesson 01"). Lever valves close with a quarter turn, and a sprinklered home
+  keeps the sprinkler pipe live; any exercise that has the reader turn a valve should carry both.
+- **Atmos and HSE's home-owner page give no switch advice.** "Every source says don't touch a switch"
+  is false; name Cadent, SSE Airtricity, Con Edison and SoCalGas.
+- **Personal Safety lesson 5 no longer says this course teaches fitting a lock** (commit 66e65db).
+  Nothing in this course should say it does, or that that lesson promised it.
+- **Quiz keys:** lesson 1 is now 1,3,0,2,3,0. The drafted 1,3,0,2,0,3 was a +2 value shift of lesson
+  3's keys as they stood at review (3,1,2,0,2); rechecked against lessons 2 to 6 as they now stand. The fixer of any later lesson should check value shifts, not only positional
+  ones. Places used in lesson 1: Wales, Norfolk, Oregon, Nebraska, a 1930s semi in England, the
+  American Midwest.

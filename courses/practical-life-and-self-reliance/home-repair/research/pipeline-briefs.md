@@ -133,6 +133,20 @@ something a later lesson needs adds a dated bullet at the end.
   Hiring 17). OUTLINE and this file use the new numbers; "Gate closures, lesson NN" headings already
   in SOURCES.md keep the numbers they were written under.
 
+- **2026-09-25: where the general-information label goes** (decision 9, settled at lesson 1's Stage 4,
+  following Personal Safety's pattern). The full sentence ("This is general information, not legal
+  advice. The rules differ between England, Wales, Scotland and Northern Ireland, and between US
+  states and cities, and they change.") goes **once in the lesson's opening** (after the callout), **at
+  the top of each H2 section that states law**, and **in the exercise** where the exercise asks about
+  law. After the first, those places carry the short form, "This is general information, not legal
+  advice.", because the build flags a 25-word passage repeated within a lesson (2026-09-25). It does **not** go at every mention, in an H3 under an H2 that already carries it, in a hidden
+  checkpoint or predict answer, or in a quiz explanation; a quiz item on the law says "as general
+  information" in its stem instead, as Personal Safety's do. A misconception that concerns the law points
+  back to the labelled section rather than restating the rule. So a lesson that states law gives it
+  its own H2 (lesson 1: "Gas and the law, in brief") rather than an H3 inside a practical section.
+  The within-lesson 25-word duplicate check in `build.mjs` warns on the repeated sentence; that
+  warning is expected under this convention until the check exempts the label.
+
 ---
 
 ## Drafting brief: Home Repair and Maintenance, Stage 3

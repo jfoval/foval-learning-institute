@@ -3671,8 +3671,9 @@ day. Sites that refused automated reading are named with what they returned.
 
 **UK. National Grid Electricity Distribution, "What to do during a power cut"**
 https://powercuts.nationalgrid.co.uk/power-cut-advice/what-to-do (page title "National Grid - What
-to do"). Read: full text. No date shown. A distribution network operator (the Midlands, the South
-West and South Wales), writing for its own customers about power cuts.
+to do"). Read: full text. No date shown. A distribution network operator, writing for its own
+customers about power cuts. The page does not name the areas it covers, and this course did not
+read a page that does.
 - "First, check to see if it's a power cut or a problem with your fuses. Speak to your neighbours, or during the night, check the street lights. You'll soon know whether it's a power cut or not." [V]
 - "Find your fuse box and check that the trip switch is set to 'On' (It's the biggest switch and is usually red). If it's in the 'Off' position, turn off anything plugged into the sockets (or pull out the plugs) and turn the switch to 'On'. If the power doesn't come back on, you can call our Contact Centre 24/7/365" [V] (no full stop after "24/7/365" on the page).
 - "Turn off or unplug any sensitive and expensive electrical equipment." [V] (in a power cut, against surges)
@@ -3684,8 +3685,8 @@ West and South Wales), writing for its own customers about power cuts.
 
 **UK, second source. SSEN (Scottish and Southern Electricity Networks), "What to do during a power cut"**
 https://www.ssen.co.uk/power-cuts-emergencies/what-to-do-during-a-power-cut/ (redirected from
-/Powercuts/whattodo/). Read: full text. A distribution network operator (north of Scotland, and
-central southern England).
+/Powercuts/whattodo/). Read: full text. A distribution network operator; the page does not name
+its areas.
 - "If everyone has power and you don’t, check your fuse box to see if any switches are in the ‘off’ position and check if your meter has a display, if it does, this means power is coming into your property." [V]
 - "Complete a full reset of your fuse box by turning OFF the main larger switches and then all your smaller switches. Repeat the process by turning ON the larger switches first, then turn the smaller switches on one by one. This reset can help identify if there is an internal issue." [V]
 - "If you have checked with your neighbours and reset your internal switches and still have no power, report it to us on our Power Track site" and "call us on 105" [V].
@@ -3874,3 +3875,43 @@ new ones also by the fixer):
 - WRc: "based primarily on messaging" [V]; "flushable products are not the real problem for sewer networks." [V]; operated by Water UK since 2019, ended at the beginning of March 2024; WIS 4-02-06.
 - SI 2025/1218: made 18 November 2025; in force 19 May 2027; reg 1(3) extends to England and Wales, applies to England only; reg 3(1) as recorded above; exemptions regs 5 to 7.
 - UGA Circular 1082 (reviewed June 2021): "Hire a professional to pump your septic tank to prevent backup." [V] "every 3 - 7 years" [V].
+
+## Stage 4 note, lesson 01 (2026-09-25)
+
+Lines the lesson 01 Stage 4 reviewer read live on 2026-09-25 (curl with a browser User-Agent, HTML
+stripped) that Part A §1 did not record, re-read by the fixer the same day by the same method. Each
+string below was matched in the extracted text.
+
+**WSSC Water, "Find and Operate Your Home's Main Water Valve"** (Part A §1; the page says it was last
+modified 24 April 2026). Additions:
+- Lever handles: "Slowly turn level handle valves ¼ turn, until the handle is not parallel with the pipe. It should stop at a ¼ turn." [V] ("level" is the page's typo for "lever"; quote from "until" or paraphrase.)
+- After closing the main valve: "Open a tub or sink faucet (hot and cold) on the highest level of the home to relieve pressure, and watch that spout to ensure that water has stopped flowing." [V] "Then continue to open faucets throughout the home to drain-down as needed." [V] "If draining down the home, be sure to de-energize the water heater and boiler where applicable by shutting off power to electric water heaters and any type of boiler." [V] This is WSSC's advice to its own customers, and the only US burst-pipe-type order this course read; no US agency's order was read.
+- The outside valve, in full: "please call a registered master plumber or WSSC Water at 301-206-4002 to work this valve. WSSC Water charges fees to turn water service on and off." [V] "Customers must agree to have these charges billed to their water and sewer accounts before scheduling this service." [V] It describes a scheduled, charged service for WSSC's own customers, not an emergency response and not other utilities' practice.
+- Meters: some are "underground within a “pit” at or near the property line or right-of-way" [V]. The page doesn't say the outside valve is "often" in a pit; Part B's comparison table's "often in a meter pit" overstates it.
+- House types: "Crawl-space plus a basement – the shut-off valve may be where the water enters the basement; in some older homes, the shut-off may be inside the crawl space." [V] (the page's spaced dash; don't quote across it). "Crawl-space with no basement" and "Slab-on-grade construction": near the water heater or under the kitchen sink, "but anywhere is possible." [V]
+- Sprinklers: "Unless it is a sprinkler pipe that is leaking, you should only shut off the plumbing supply and leave the sprinkler piping charged/live." [V]
+
+**WaterSafe, "How can I locate my internal stop tap"** (Part A §1). Additions:
+- "If you over tighten or use excessive force you may damage the stop tap." [V] (the reason WaterSafe gives for "never force it").
+- "You should be able to operate the valve yourself." [V]
+
+**Re-read live by the lesson 01 reviewer, 2026-09-25** (curl with a browser User-Agent and HTML
+strip, or pdftotext; each string matched in the extracted text). Recorded so later lessons can rely on
+the date:
+- National Gas, emergency-contacts: "Smell gas or suspect a leak? Call 0800 111 999 * (24 hours a day – free to call)." [V] "Turn off the meter at the control handle unless the meter is in the cellar." [V]
+- Cadent, smell-gas: "you should call us immediately on 0800 111 999* at any time of the day or night." [V] "Open doors and windows to ventilate the property. Turn off the gas at the mains tap. This can usually be located near the gas meter and has a handle that can be turned 90 degrees. If the gas leak is in a cellar or basement, do not enter and instead evacuate the building." [V] Among its Don'ts: "Turn any power or light switches on or off." [V]
+- Cadent, locating-your-meter-and-turning-off-the-gas: the ECV passage as Part A §4 records it [V]; "To access the meter you will need a key to open the door to the gas meter box." [V]
+- SSE Airtricity Gas Supply NI, in-an-emergency: "phone the 24-hour Northern Ireland Gas Emergency Service on 0800 002 001" [V]; "Turn off the gas supply at the meter, unless the meter is located in a cellar or basement – in which case, do not enter." [V]; "Do no turn on or off any electrical switches, including door entry systems." [V] (the page's typo). SSE Airtricity is one of Northern Ireland's gas suppliers, not the only one.
+- legislation.gov.uk, SI 1998/2451 reg 3: extent "E+W+S"; 3(1) "No person shall carry out any work in relation to a gas fitting or gas storage vessel unless he is competent to do so." [V]; "no known outstanding effects".
+- legislation.gov.uk, SR 2004/63 reg 3 (N.I.): 3(1) "A person shall not carry out any work in relation to a gas fitting or gas storage vessel unless he is competent to do so." [V]; approval under 3(3) is "by the Executive"; no known outstanding effects.
+- HSE L56 (fifth edition, 2018): para 52, "'work' includes do-it-yourself activities" [V] and "membership of an HSE-approved class of persons (under regulation 3(3)) is required only by businesses carrying out gas-fitting work." [V]; para 83 and ACOP para 81(a) as the gas-law section records them.
+- HSE, faqownerocc.htm: "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer." [V] Its leak steps: "Shut off the gas supply at the meter control valve (if you know where it is)" [V], with no cellar condition. It says nothing about switches.
+- Gas Safe Register, home-improvements page, Wayback 20251023004454: "Don’t DIY with gas appliances, always use a Gas Safe registered engineer" [V]; "you can perform the tasks set out in the user’s instructions, (provided by the appliance manufacturer) that are intended for the user to carry out. This would not be a breach of the law." [V]; "e.g., a cooker tap control knob" [V].
+- Met Office, frozen-or-burst-pipes: the burst order, the electrics sentence and the six-monthly check as Part A §1 records them [V].
+- CCW, both pages: as Part A §1 and Part B §3 record them [V].
+- ESF: after-a-flood, rcds-explained, plugs-and-fuses and FAQ strings as the lesson 01 gate closure and Part A §3 record them [V].
+- CPSC 5133 (R042012) and release 89-031 (Wayback 20260311171701): as recorded [V], including "function primarily to prevent the home wiring system from causing a fire." The CPSC 5133 instruction is about installing AFCIs; the live-panel fact is the reason it gives, not general advice about panels.
+- HSE HSG85 (third edition, 2013) para 54: "neither is the use of non-contact devices such as ‘volt sticks’" [V].
+- Con Edison: "Leave immediately and take others with you." [V] "Call 911 or 1-800-752-6633." [V] "Don’t light a match, smoke, flip a switch, ring a doorbell, or touch appliances or electronics, including your phone." [V] SoCalGas: "IMMEDIATELY EVACUATE THE AREA and call us from a safe location" [V]; "DO NOT turn electrical appliances or lights on or off" [V]. Atmos: "If you suspect a leak, call 911 and Atmos Energy from a safe distance" [V]; no switch advice in the extracted text, so "every source says don't touch a switch" is not true of Atmos or of HSE's page.
+- Approved Document H 2015: "Under working and test conditions traps should retain a minimum seal of 25mm of water or equivalent." [V] (the qualifier is "working and test", not "working" alone); para 1.29 "discharge stacks should be ventilated" [V].
+- ASHI: "Vent piping allows air into the system so drains flow easily." [V] Goodlife Centre: "Plumbing = water in and water out." [V] UGA Circular 1082, "Reviewed June 2021": "label switches if needed." [V]

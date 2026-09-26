@@ -186,8 +186,7 @@ side of the boundary, not at your tap. If the pressure there falls below 7 metre
 more, and does so again within 28 days, other than during necessary works or a drought, the
 regulations give the customer a payment: £50 in England, up to £250 in a financial year, and £25 in
 Wales, once in a financial year. There are further exceptions in the text.[11] This is general
-information, not legal advice. The rules differ between England, Wales, Scotland and Northern
-Ireland, and between US states and cities, and they change. This course didn't research Scotland
+information, not legal advice. This course didn't research Scotland
 or Northern Ireland.
 
 "Metres head" sounds odd until you see how WaterSafe explains it in plain words. It says water
