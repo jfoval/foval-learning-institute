@@ -19,7 +19,7 @@ about: >-
   the MOT manual's check.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all seven nits fixed (usually, the handbook condition, a principal effect, the derate requirement and its software condition, the RAC wording, the Ripon route). Regulation 61A now gives the lesson's unless-conditions shape. 2026-09-26, neutrality audit fixes (N8): the Laredo line now names the maker's dealer or a garage that works on that make, not the dealer alone, as the lesson does; a fresh check is owed."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all seven nits fixed (usually, the handbook condition, a principal effect, the derate requirement and its software condition, the RAC wording, the Ripon route). Regulation 61A now gives the lesson's unless-conditions shape. 2026-09-26, neutrality audit fixes (N8): the Laredo line now names the maker's dealer or a garage that works on that make, not the dealer alone, as the lesson does; a fresh check is owed. 2026-09-26, labels changed (neutrality audit N4 and N5): the RAC and the AA are now labelled at first use as motoring organisations that sell breakdown cover and repairs, in lesson 3's words; a fresh check is owed. Re-checked 2026-09-26 after the label change: fresh fact-check PASS WITH NITS; the regeneration hedge and 7522's knowledge condition restored."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -36,7 +36,7 @@ S1: A diesel's exhaust carries soot and a group of gases called nitrogen oxides.
 
 S2: A filter fills up, though.
 
-S1: It does, so it has to empty itself. The government's guidance note calls that regeneration: burning the soot to gas at a very high temperature. Soot only burns when the exhaust is hot enough for long enough. On a long, fast run that happens by itself. If you don't drive like that, the car has a backup, active regeneration. When the filter reaches a set limit, normally about forty five percent in the RAC's words, the engine injects extra fuel to heat the exhaust. The AA says that happens every three hundred miles or so and takes five to ten minutes.
+S1: It does, so it has to empty itself. The government's guidance note calls that regeneration: burning the soot to gas at a very high temperature. Soot only burns when the exhaust is hot enough for long enough. On a long, fast run that happens by itself. If you don't drive like that, the car has a backup, active regeneration. The RAC and the AA both describe it. Both are motoring organisations that sell breakdown cover and repairs, and neither is an official body. When the filter reaches a set limit, normally about forty five percent in the RAC's words, the engine injects extra fuel to heat the exhaust. The AA says that happens every three hundred miles or so and takes five to ten minutes.
 
 S2: And five to ten minutes is longer than my trip to the shops.
 
@@ -44,7 +44,7 @@ S1: That's the catch. Switch off halfway through and the RAC says the regenerati
 
 S2: So the light comes on. Then what?
 
-S1: Your handbook first. Then the AA and the RAC agree: about ten minutes at over forty miles an hour should finish the regeneration and clear the light. It's the motoring organisations' advice, not the law or a maker's instruction, so your handbook wins where it says something. And it means a road where forty is legal and safe at the time. Neither suggests breaking a limit, and neither does this course.
+S1: Your handbook first. Then the AA and the RAC agree: about ten minutes at over forty miles an hour should be able to finish the regeneration and clear the light. It's the motoring organisations' advice, not the law or a maker's instruction, so your handbook wins where it says something. And it means a road where forty is legal and safe at the time. Neither suggests breaking a limit, and neither does this course.
 
 S2: Walk me through a real one.
 
@@ -76,7 +76,7 @@ S1: General information, not legal advice, and the two countries kept apart. In 
 
 S2: And the US?
 
-S1: Federal law, the Clean Air Act. It prohibits knowingly removing or disabling an emission part after sale, and making, selling or fitting a part with a principal effect of defeating one. On the course's reading, a delete kit is that kind of part. Repair that leaves the part working is not prohibited.
+S1: Federal law, the Clean Air Act. It prohibits knowingly removing or disabling an emission part after sale, and making, selling or fitting a part with a principal effect of defeating one, where the person knows or should know it's for that use. On the course's reading, a delete kit is that kind of part. Repair that leaves the part working is not prohibited.
 
 S2: The full lesson also has what else blocks a filter, including the wrong oil, the ash, what happens if you ignore the light, which cars use AdBlue and how often it needs refilling, the insurance question and the fines, six dashboards to sort, whether to buy a diesel, and an exercise with your own handbook. It's all free at Foval Learning Institute dot org.
 

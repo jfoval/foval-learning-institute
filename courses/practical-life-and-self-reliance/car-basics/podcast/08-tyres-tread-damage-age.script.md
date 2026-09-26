@@ -20,14 +20,14 @@ about: >-
   would settle it. Each holder is labelled with what it sells where it speaks. No
   verdict; the episode closes on what would settle the question. Words per side, by script: replace
   earlier 279 (TyreSafe, the RAC, the AA, AAA, Tire Rack), design over depth 162 (Michelin), NHTSA
-  at the floor 52, the driver 85. Leaves out what tread is for, new-tyre depth, the fines, points and
+  at the floor 52, the driver 88. Leaves out what tread is for, new-tyre depth, the fines, points and
   section 48 exemption, the Hawes case, the gauge, wear bars and coins, damage, age and the spare,
   AAA's warranty claim and its brand and price-point lines, the chart, the misconceptions and the
   exercise; the sign-off names the fines and points, Hawes, measuring, damage, age and the spare,
   the chart and the exercise.
 speakers: 2
 approx_minutes: 8
-checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note). 2026-09-26, lesson 22 Stage 4: John's line opening the US tread turn now says 'The federal tread rules that bind a driver cover commercial vehicles' (was 'Federal tread rules cover commercial vehicles'), because 49 CFR 570.9 sets 2/32 inch for passenger cars as a standard for state inspection systems, which binds states that inspect, not drivers; lesson 8 corrected the same day. Re-checked 2026-09-26 after the US tread line changed (lesson 22's 49 CFR 570 correction): fresh fact-check PASS WITH NITS, two optional framing nits left as they are."
+checked: "2026-09-26, fresh-context fact-check against the lesson: PASS WITH NITS; all three nits fixed (the chart in the sign-off, TyreSafe and the RAC in the evidence turn, the about note). 2026-09-26, lesson 22 Stage 4: John's line opening the US tread turn now says 'The federal tread rules that bind a driver cover commercial vehicles' (was 'Federal tread rules cover commercial vehicles'), because 49 CFR 570.9 sets 2/32 inch for passenger cars as a standard for state inspection systems, which binds states that inspect, not drivers; lesson 8 corrected the same day. Re-checked 2026-09-26 after the US tread line changed (lesson 22's 49 CFR 570 correction): fresh fact-check PASS WITH NITS, two optional framing nits left as they are. 2026-09-26, labels changed (neutrality audit N5): the AA's 'which sells repairs' in the cost turn is now 'which sells breakdown cover and repairs', and AAA's 'the clubs that run a repair network' in the evidence turn now also says they sell roadside assistance, the base labels lesson 8 uses; a fresh check is owed. Re-checked 2026-09-26 after the label changes: fresh fact-check PASS WITH NITS; optional nits left."
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -76,11 +76,11 @@ S1: NHTSA sells nothing, and puts its advice at the floor: tyres are not safe an
 
 S2: And the person paying for the tyres?
 
-S1: TyreSafe, the industry-backed charity, and the AA, which sells repairs, both urge replacing before the floor, and give rough figures. TyreSafe says tyres at three millimetres may last between ten and twenty thousand miles, though actual lifespan can vary widely, and at two millimetres about a thousand. The AA says around a thousand at two. Those are estimates, not measurements. No source read puts a price on those miles, and Michelin, which makes and sells tyres, gives no figure for its case on budgets either.
+S1: TyreSafe, the industry-backed charity, and the AA, which sells breakdown cover and repairs, both urge replacing before the floor, and give rough figures. TyreSafe says tyres at three millimetres may last between ten and twenty thousand miles, though actual lifespan can vary widely, and at two millimetres about a thousand. The AA says around a thousand at two. Those are estimates, not measurements. No source read puts a price on those miles, and Michelin, which makes and sells tyres, gives no figure for its case on budgets either.
 
 S2: Can the evidence settle it?
 
-S1: AAA's own test, from the clubs that run a repair network, was new tyres against four thirty-seconds, not four against two. AAA's tyre-care page reports a comparison of the disputed depths, from research by Tire Rack, a US online tyre retailer that runs its own tyre tests, which the course didn't read. As AAA reports it, a pickup truck at seventy miles an hour on wet pavement stopped a hundred and twenty two feet shorter, twenty four percent, on tyres passing the quarter test, at four thirty-seconds, than on tyres passing only the penny test, at two. TyreSafe's and the RAC's forty four percent comes from a report the course didn't read. Michelin, which makes and sells tyres, gives no test comparing depths. It does claim one of its own tyres, after over eighteen thousand miles of use, has a braking distance below the official level for a new tyre, with no test cited.
+S1: AAA's own test, from the clubs that sell roadside assistance and run a repair network, was new tyres against four thirty-seconds, not four against two. AAA's tyre-care page reports a comparison of the disputed depths, from research by Tire Rack, a US online tyre retailer that runs its own tyre tests, which the course didn't read. As AAA reports it, a pickup truck at seventy miles an hour on wet pavement stopped a hundred and twenty two feet shorter, twenty four percent, on tyres passing the quarter test, at four thirty-seconds, than on tyres passing only the penny test, at two. TyreSafe's and the RAC's forty four percent comes from a report the course didn't read. Michelin, which makes and sells tyres, gives no test comparing depths. It does claim one of its own tyres, after over eighteen thousand miles of use, has a braking distance below the official level for a new tyre, with no test cited.
 
 S2: So the disputed-depth comparisons reach us through parties who cite them, and Michelin's claim cites no test.
 
