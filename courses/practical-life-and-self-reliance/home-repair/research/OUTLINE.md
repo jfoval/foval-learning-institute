@@ -6,7 +6,7 @@ lessons, all written. Sequenced for how the ideas build and for where the danger
 standards 3.4 domain as a whole** (`sensitive_domain: false` stays), but it states law in two
 countries and four UK nations and gives instructions that can hurt someone if wrong. So every legal
 statement, phone number and safety step is fact-checked against the primary, not against SOURCES,
-and **lesson 16, the licensing question, gets the neutrality audit** because occupational licensing
+and **lesson 18, the licensing question, gets the neutrality audit** because occupational licensing
 is an economics question (standards 3.4 lists economics; SOURCES opening).*
 
 ## How many lessons, and why
@@ -19,22 +19,22 @@ the number and changes what is in the lessons:
   mechanism: a radiator cold at the top is air and cold at the bottom is sludge, which is only
   obvious once you know how a sealed system works. So the dripping tap and the running toilet sit in
   lesson 3, after the supply in lesson 2, the blocked trap in lesson 4 with the drains, resetting a trip in lesson
-  5 with the protective devices, and bleeding a radiator in lesson 6 with the heating. The two
+  5 with the protective devices, and bleeding a radiator in lesson 7 with the heating. The two
   suggested repairs lessons are gone, and their slots go to damp (split in two) and to walls and
   paint.
 - **The building envelope is two lessons, not one.** The suggested lesson 7 carried the roof,
   gutters, grading, four kinds of damp, condensation, mould, ventilation and the rising damp dispute.
-  That is past two hours. **Lesson 11** keeps water out (roof, gutters, ground, walls, penetrating
-  damp); **lesson 12** deals with damp inside (condensation, mould, ventilation, rising damp).
-- **Carbon monoxide gets its own lesson, with smoke alarms, after gas.** Gas (lesson 7) carries the
+  That is past two hours. **Lesson 13** keeps water out (roof, gutters, ground, walls, penetrating
+  damp); **lesson 14** deals with damp inside (condensation, mould, ventilation, rising damp).
+- **Carbon monoxide gets its own lesson, with smoke alarms, after gas.** Gas (lesson 9) carries the
   leak drill and the law, which is enough for a sitting. CO comes from every fuel, not only gas, and
   the course's point about it (an alarm is not the protection; servicing is) pairs naturally with the
-  smoke-alarm routine, so lesson 8 is "the alarms and what they're not".
+  smoke-alarm routine, so lesson 10 is "the alarms and what they're not".
 - **Tools and ladders move before the envelope**, because clearing a gutter is a ladder job, and
   before hazards and decorating, because the before-you-drill routine is where asbestos first has to
   stop someone.
-- **Decorating is lesson 14, after the hazards.** Lead paint is taught once, in lesson 13, and lesson
-  14 applies it (overcoat or strip) rather than reteaching it.
+- **Decorating is lesson 16, after the hazards.** Lead paint is taught once, in lesson 15, and lesson
+  16 applies it (overcoat or strip) rather than reteaching it.
 - **The seasonal checklist is the project, not a lesson** (SOURCES open concern 1). Every lesson
   contributes its routine items and the project assembles them.
 
@@ -47,37 +47,47 @@ the number and changes what is in the lessons:
 4. **Water out: traps, vents and blocked drains.** The water seal and the vent; smells and gurgles;
    what goes down; the end of Fine to Flush; who clears which blockage; a blocked sink.
 5. **Electricity: what trips, and why.** Breakers and fuses protect the wiring; RCDs and GFCIs
-   protect people; AFCIs; testing and resetting; plug fuses and leads; warning signs; why the panel
-   stays live and a volt stick proves nothing.
-6. **Heating and hot water.** Boilers, cylinders and sealed systems; furnaces, filters and heat
-   pumps; the cold radiator; the thermostat and the TRV; scald against legionella.
-7. **Gas: the smell, the valve, the law and the engineer.** Each country's leak steps; odour fade;
+   protect people; AFCIs; testing and resetting; the stop rule; why the panel stays live and a volt
+   stick proves nothing.
+6. **Plugs, leads and electrical fires.** Plug fuses; extension leads, adaptors and cable reels;
+   warning signs; inspection; what the fire figures count.
+7. **Heating: boilers, radiators and furnaces.** Boilers, cylinders and sealed systems; furnaces,
+   filters and heat pumps; the cold radiator; the thermostat and the TRV.
+8. **Hot water: scalds, legionella and the tank.** Scald against legionella; the tap thermometer;
+   the T&P valve and the tundish.
+9. **Gas: the smell, the valve, the law and the engineer.** Each country's leak steps; odour fade;
    the Gas Safety Regulations exactly; the card and its categories; the user tasks; the US.
-8. **Carbon monoxide, smoke and the alarms that warn you.** Where CO comes from and the order of
-   protection; generators and other things never to run indoors; chimneys; CO and smoke alarm law and
-   siting in England, Scotland and the US; testing and replacing.
-9. **Tools, dust and fumes: a small kit used safely.** Misuse and the tool; power-tool rules; masks
-   and what they don't stop; before you drill; silica and solvents; batteries.
-10. **Ladders and working at height.** Whether to use one; the numbers; securing it; stepladders; what
+10. **Carbon monoxide, smoke and the alarms that warn you.** Where CO comes from and the order of
+    protection; generators and other things never to run indoors; chimneys; CO and smoke alarm law
+    and siting in England, Scotland and the US; testing and replacing.
+11. **Tools, dust and fumes: a small kit used safely.** Misuse and the tool; power-tool rules; masks
+    and what they don't stop; before you drill; silica and solvents; batteries.
+12. **Ladders and working at height.** Whether to use one; the numbers; securing it; stepladders; what
     the US injury data show; no UK figure.
-11. **Keeping water out: roof, gutters, ground and walls.** Penetrating damp; the volume of rain;
+13. **Keeping water out: roof, gutters, ground and walls.** Penetrating damp; the volume of rain;
     gutters, downpipes, grading and flashing; basements; cheap outside causes first.
-12. **Damp inside: condensation, mould, ventilation and rising damp.** The four kinds of damp;
+14. **Damp inside: condensation, mould, ventilation and rising damp.** The four kinds of damp;
     condensation; mould and the bleach disagreement; build tight, ventilate right; rising damp, each
     side in its own words.
-13. **Asbestos, lead paint and radon: what not to disturb.** Assume by date; leave it if it's sound;
+15. **Asbestos, lead paint and radon: what not to disturb.** Assume by date; leave it if it's sound;
     the law and the advice together; lead-safe practice; radon action levels.
-14. **Walls and paint: filling, preparing and painting.** Fillers and finishes; new plaster; the VOC
+16. **Walls and paint: filling, preparing and painting.** Fillers and finishes; new plaster; the VOC
     label; ventilating for paints and strippers; old paint, overcoated or stripped.
-15. **Pests: find the cause, then control it.** Integrated pest management; rodents, cockroaches, bed
+17. **Pests: find the cause, then control it.** Integrated pest management; rodents, cockroaches, bed
     bugs, moths, woodworm and termites; poisons each country allows; glue traps.
-16. **Who may do what: reserved work, and the argument about licensing.** Notifiable and compliant
+18. **Who may do what: reserved work, and the argument about licensing.** Notifiable and compliant
     in each UK nation; US licensing, permits and homeowner exemptions in five named places; what
     follows non-compliant work; the licensing question and the DIY-electrics question, each side in
     its own words.
-17. **Hiring a tradesperson, and when to stop.** The stop rules gathered; checking a trader; quotes
+19. **Hiring a tradesperson, and when to stop.** The stop rules gathered; checking a trader; quotes
     and estimates; deposits, payment and cancellation in each country; liens; the scam pattern. The
     project.
+
+*Note, 2026-09-25: two lessons split at drafting, so the list above is nineteen lessons, not the
+sixteen this section argued for (or the seventeen after lesson 2's split). The electricity lesson
+split at its named seam into lessons 5 and 6, and the heating and hot water lesson, which had no
+named seam, split at the natural boundary the drafter found into lessons 7 and 8, a cut the
+orchestrator accepted. The reasoning below about lesson count is left as written at Stage 2.*
 
 **Why this order.** The first lesson is the emergency one, because the thing a householder most
 needs is to stop water, power and gas in the dark (every source on each service puts finding the
@@ -89,12 +99,13 @@ been taught (woodworm is "a symptom of excess damp", Part B §5; mice come in th
 comes late on purpose.** Whether adding a socket in a kitchen is notifiable means nothing to a reader
 who doesn't yet know what a circuit or a consumer unit is, and the licensing argument is about jobs
 the reader has now met. Every lesson before 16 still names the jurisdiction of any rule it states
-and points to lesson 16 by title for the rest.
+and points to lesson 18 by title for the rest.
 
 **Why not fewer.** Every merge that was tried (water in with water out; gas with CO; tools with
 ladders; the two damp lessons) produced a lesson past two hours. **Why not more.** Hot water sits in
-the heating lesson because in a UK home the boiler makes it. Frozen and burst pipes sit in lessons 1
-and 2, not in a winter lesson. Smoke alarms sit with CO. Radon is a short section of lesson 13.
+the heating lesson because in a UK home the boiler makes it (written at Stage 2; the two split at
+drafting into lessons 7 and 8, see the note above). Frozen and burst pipes sit in lessons 1
+and 2, not in a winter lesson. Smoke alarms sit with CO. Radon is a short section of lesson 15.
 Flooding, storms and grid-down are Emergency Preparedness's (Term 24).
 
 **Lesson length.** Planned between 70 and 95 measured minutes (measured minutes include exercises
@@ -106,13 +117,19 @@ lessons if its draft passes 100 measured minutes:
   toilets"). **Fired on 2026-09-25:** these are now lessons 2 and 3, and every later lesson moved up
   by one;
 - lesson 5 at "Plugs, leads and warning signs" ("Electricity: what trips, and why" and "Plugs,
-  leads and electrical fires");
-- lesson 12 at "Rising damp" ("Damp inside: condensation, mould and ventilation" and "Rising damp:
+  leads and electrical fires"). **Fired on 2026-09-25:** these are now lessons 5 and 6;
+- lesson 14 at "Rising damp" ("Damp inside: condensation, mould and ventilation" and "Rising damp:
   the dispute and the diagnosis");
-- lesson 13 at "Lead paint" ("Asbestos: what not to disturb" and "Lead paint and radon");
-- lesson 16 at "Does licensing make work safer?" ("Who may do what" and "The argument about
+- lesson 15 at "Lead paint" ("Asbestos: what not to disturb" and "Lead paint and radon");
+- lesson 18 at "Does licensing make work safer?" ("Who may do what" and "The argument about
   licensing"). **If this seam fires, the second lesson carries the neutrality audit** and the first
   does not need it.
+
+**Not a named seam, but split on 2026-09-25:** the heating and hot water lesson (then lesson 6) had
+no seam; the drafter cut it at the natural boundary between the heating system and its stored hot
+water, and the orchestrator accepted the cut. It is now lessons 7, "Heating: boilers, radiators and
+furnaces", and 8, "Hot water: scalds, legionella and the tank". With the electricity split, every
+lesson after it moved up by two from the seventeen-lesson numbering.
 
 A split renumbers the course; cross-references in lessons use titles as well as numbers so a split
 is a find-and-replace.
@@ -255,7 +272,7 @@ number in it is re-read on the network's own page on the day lesson 1 is drafted
 G-E5's source changes how the tripping rule should read, it changes in the constant and every lesson
 in one edit.
 
-**The callout is not the lesson.** Lesson 7 teaches the full leak steps for each country, including
+**The callout is not the lesson.** Lesson 9 teaches the full leak steps for each country, including
 the ones the callout leaves out (SoCalGas on odour fade, Con Edison on phones and doorbells, SSE's
 "Never leave it to anyone else to call"). A short paragraph after the callout may explain one clause
 where the lesson needs it.
@@ -273,7 +290,7 @@ good practice anywhere by the course's reading). Every rule a lesson gives carri
 **who says it** (a statute, a regulator's code or guidance, an official body's advice, a maker's
 instruction for its own product, a trade body, an extension service), **whether it is law or
 advice**, and **where it applies**. Introduced in lesson 1, used in every lesson, and made the whole
-subject of lesson 16.
+subject of lesson 18.
 
 **The job labels, taught in lesson 1 and used in every lesson.** Every job the course names carries
 one of three labels, in the prose, not as a badge:
@@ -343,7 +360,7 @@ not taught.** SOURCES open concern 2 settles the scope and this outline adopts i
   notifiable), Scotland (most work in a house needs no warrant; standard 4.5 always applies) and
   Northern Ireland (no statutory building regulation for domestic electrical work, ESF), and in the
   five US places read. **No lesson describes how to replace a socket, a switch, a light fitting or a
-  consumer unit, or how to prove a circuit dead.** Lesson 16 says why in one plain paragraph: proving
+  consumer unit, or how to prove a circuit dead.** Lesson 18 says why in one plain paragraph: proving
   dead needs a two-pole tester used by HSG85's prove-test-prove sequence and training, and a page
   cannot check a learner's work (SOURCES open concern 2). That is the course's scope decision,
   labelled as the course's, not a claim that the work is illegal where it is legal.
@@ -367,7 +384,7 @@ at Height Regulations and OSHA bind work, not DIY; they are still the best-speci
 electrics in England (legal with notice; ESF advises a registered electrician). **Rule:** the legal
 position and the advice sit in adjacent sentences, the law first and labelled as general
 information, then the advice with its source, and the job label follows the advice. A lesson never
-states only one half. Lesson 13 names the pattern outright, having seen it in lessons 7 and 10.
+states only one half. Lesson 15 names the pattern outright, having seen it in lessons 9 and 12.
 
 **9. The law is general information, labelled at the point of use, every time.** Every passage that
 states a legal rule carries, at that point: "This is general information, not legal advice. The rules
@@ -434,7 +451,7 @@ course folder):
 > and helpline the course prints (the gas networks, HSE's advice line, the US National Lead
 > Information Center, 105), and every threshold it states (California B&P 7048, the £42 in reg 7(4),
 > the FTC's $25 and $130, s36(4)). Each August, when the Home Office publishes its fire analysis,
-> update lesson 5's and lesson 8's England figures. Check that energy.gov/energysaver is still gone
+> update lesson 6's and lesson 10's England figures. Check that energy.gov/energysaver is still gone
 > and that LA455's revision has not changed its numbers.
 
 **12. Read-level discipline and the unread line.** A lesson may not cite, name or quote anything on
@@ -508,7 +525,7 @@ and gives only the method its sources give, and says so where they give none. Sp
   and its response, the 0800 111 999 number and Poison Help in the US, and ended by saying this
   course "can assume you know carbon monoxide's signs and why every room with a burning appliance
   needs an alarm". **This course builds on all of it by name and reteaches none of it**: no symptoms,
-  no rescue. Lessons 5 and 8 point back. **Lesson 8 must reconcile First Aid lesson 14's "every room
+  no rescue. Lessons 5 and 10 point back. **Lesson 10 must reconcile First Aid lesson 14's "every room
   with a burning appliance" line with the siting rules by jurisdiction** (England's appliance room,
   1 to 3 m away; the US's every level and outside sleeping areas), gently, as a refinement and not a
   correction, after the drafter opens First Aid lesson 14 and reads the sentence.
@@ -524,10 +541,10 @@ and gives only the method its sources give, and says so where they give none. Sp
 - **Cooking Fundamentals** (Term 3). Lesson 4 owns kitchen hygiene. Fats, oils and grease down the sink
   are this course's (lesson 4).
 - **Digital Literacy** (Term 1) and **Using AI Effectively** (Term 1). Checking a trader's claim on the
-  scheme's own site is the lateral reading Digital Literacy taught; lesson 17 uses it by name without
+  scheme's own site is the lateral reading Digital Literacy taught; lesson 19 uses it by name without
   reteaching it.
 - **Logic and Argument** (Term 1). Lesson 7 (the strongest version first) is the rule for every
-  contested block (lessons 12, 15, 16).
+  contested block (lessons 14, 17, 18).
 - **Car Basics** (Term 3, next). Owns the car. This course keeps CO from a car in an attached garage
   (CDC) as a house hazard.
 - **Emergency Preparedness** (Term 24). Owns floods, storms and grid-down. This course keeps the
@@ -545,7 +562,7 @@ mould they didn't cause. Rules:
   "Approaches that attach blame to occupants' behaviour are unjust and counterproductive". The
   guidance also says small adjustments help (pan lids, doors shut). The lesson gives both, in that
   order, and never the second without the first.
-- **Awaab Ishak's death** is named once, in lesson 12, as GOV.UK names it, with the fact of the
+- **Awaab Ishak's death** is named once, in lesson 14, as GOV.UK names it, with the fact of the
   guidance that followed, and no detail beyond GOV.UK's sentence.
 - **Renters get one pointer where it matters** (damp, gas checks, alarms): report it to the landlord in
   writing (EPA: report leaks and moisture to the owner), and the landlord duties the course read (the
@@ -578,17 +595,17 @@ because the course is not a 3.4 domain. **But every lesson's reviewer checks eve
 phone number, threshold and safety step against the primary, not SOURCES**, and redoes every sum.
 **Tier B, split (two reviewers, F and P, as Personal Safety ran it)** for:
 
-- **lesson 7** (gas law: the claim most likely to be stated wrongly);
-- **lesson 13** (asbestos and lead: the law allows more than the advice, and the advice is what keeps
+- **lesson 9** (gas law: the claim most likely to be stated wrongly);
+- **lesson 15** (asbestos and lead: the law allows more than the advice, and the advice is what keeps
   someone alive);
-- **lesson 16** (the licensing question and the DIY-electrics value question). **Reviewer F runs the
+- **lesson 18** (the licensing question and the DIY-electrics value question). **Reviewer F runs the
   full neutrality audit** (standards 3.5) and names the perspectives checked: at least a reader who
   favours occupational licensing for safety (an electrician, a trade body), a reader who favours
   deregulation (a free-market economist, someone kept out of a trade by licensing costs), and a
   householder who does their own work.
 
-The **neutrality pass** also runs, inside Tier A, on the contested blocks of lesson 6 (scald against
-legionella), lesson 12 (rising damp) and lesson 15 (glue traps, woodworm). It is skipped, with the
+The **neutrality pass** also runs, inside Tier A, on the contested blocks of lesson 8 (scald against
+legionella), lesson 14 (rising damp) and lesson 17 (glue traps, woodworm). It is skipped, with the
 one line the review brief asks for, in lessons with no contested or value claims.
 
 **18. Quiz and test items.** Each item on a law, an official step or an emergency names the
@@ -604,69 +621,69 @@ Each gap SOURCES names is either planned around or a gate a drafter closes befor
 needs it, with the fallback to write if it cannot be closed. **A closed gate is recorded in SOURCES.md
 in a dated "Gate closures, lesson NN" section at the end, with its read level, and any unread entry it
 clears is removed from the unread line in the same commit.** Almost all need only an ordinary
-browser; none needs John. **Three gates block drafting:** lesson 5 waits for G-E5, and lesson 16
+browser; none needs John. **Three gates block drafting:** lesson 5 waits for G-E5, and lesson 18
 waits for G-L3 and G-N2 (or drafts only its first half, below).
 
 | Gate | Lessons | What to do | If it cannot be closed |
 |---|---|---|---|
-| **G-N1 Every phone number and dated figure, re-read at drafting** | 1 (callout), 7, 8, 13, 17 | Re-read on the service's own page: Cadent and National Gas (0800 111 999), SSE Airtricity Gas Supply NI (0800 002 001), HSE's Gas Safety Advice Line, the National Lead Information Center, the Met Office's 105; record number, hours and date in SOURCES | Print no number not re-read within the week; link the service's page. **The callout's two numbers are not optional**: if either cannot be re-read, the orchestrator is told before lesson 1 ships. |
-| **G-N2 The case for licensing in its proponents' own words** | 16 | Find and read the strongest statement by those who favour occupational licensing of electricians, plumbers or gas fitters: a trade body, a union or a registration scheme arguing its own case (for example Electrical Safety First's campaign for registration, a US electrical contractors' or electricians' body, or a state board's own rationale). Record it with [V] quotations | **Together with G-L3, blocks the second half of lesson 16.** If either cannot be closed, lesson 16 drafts only "Who may do what" (its seam's first half), and "The argument about licensing" waits, with a `docs/QUEUE.md` line. The course does not teach a contested question with one side in its own words and the other in a government report's. |
-| **G-L3 The Institute for Justice and FTC positions on licensing** | 16 | Read IJ's *License to Work* summary (or its current edition's) and an FTC statement on occupational licensing; record [V] quotations; remove "Institute for Justice" and "License to Work" from the unread line | See G-N2. |
-| **G-L4 The case for letting householders do their own electrical work, in its own words** | 16 | Find a read statement of the liberty and cost case (a consultation response, a homeowners' or self-build association, the government's own reasoning for the 2013 change if G-L5 finds it) | The DIY-electrics value question is not taught as a two-sided block. The lesson states the rules (established fact), reports ESF's position attributed, and says the course did not find the other side argued in its own words. |
-| **G-L5 The 2013 Part P review and its arguments** | 5, 16 | Read the consultation or the government response | Report the 2013 change as a fact (AD P "Main changes"), not the reasons or the debate. |
+| **G-N1 Every phone number and dated figure, re-read at drafting** | 1 (callout), 5, 9, 10, 15, 19 | Re-read on the service's own page: Cadent and National Gas (0800 111 999), SSE Airtricity Gas Supply NI (0800 002 001), HSE's Gas Safety Advice Line, the National Lead Information Center, the Met Office's 105; record number, hours and date in SOURCES | Print no number not re-read within the week; link the service's page. **The callout's two numbers are not optional**: if either cannot be re-read, the orchestrator is told before lesson 1 ships. |
+| **G-N2 The case for licensing in its proponents' own words** | 18 | Find and read the strongest statement by those who favour occupational licensing of electricians, plumbers or gas fitters: a trade body, a union or a registration scheme arguing its own case (for example Electrical Safety First's campaign for registration, a US electrical contractors' or electricians' body, or a state board's own rationale). Record it with [V] quotations | **Together with G-L3, blocks the second half of lesson 18.** If either cannot be closed, lesson 18 drafts only "Who may do what" (its seam's first half), and "The argument about licensing" waits, with a `docs/QUEUE.md` line. The course does not teach a contested question with one side in its own words and the other in a government report's. |
+| **G-L3 The Institute for Justice and FTC positions on licensing** | 18 | Read IJ's *License to Work* summary (or its current edition's) and an FTC statement on occupational licensing; record [V] quotations; remove "Institute for Justice" and "License to Work" from the unread line | See G-N2. |
+| **G-L4 The case for letting householders do their own electrical work, in its own words** | 18 | Find a read statement of the liberty and cost case (a consultation response, a homeowners' or self-build association, the government's own reasoning for the 2013 change if G-L5 finds it) | The DIY-electrics value question is not taught as a two-sided block. The lesson states the rules (established fact), reports ESF's position attributed, and says the course did not find the other side argued in its own words. |
+| **G-L5 The 2013 Part P review and its arguments** | 5, 18 | Read the consultation or the government response | Report the 2013 change as a fact (AD P "Main changes"), not the reasons or the debate. |
 | **G-E5 A step-by-step for resetting a tripped circuit and isolating a faulty appliance** | 5 | Read an authoritative page: ESF, a consumer unit maker's user instructions, or a US utility or ESFi page; record it | **Lesson 5 is not drafted until this closes.** It is an outcome of the course and a thing a reader does in the dark. If no source can be found in a day's search, lesson 5 teaches the diagnosis and the stop rule only, says the course found no official step-by-step, and the orchestrator trims the outcome. |
 | **G-E1 The RCD's rating and test interval; a UK account of how an RCD works** | 5 | Read a readable ESF page, the IET On-Site Guide's consumer summary or an RCD maker's user instructions | No rating is given. UK test interval: "the maker's instructions say how often" (not ESF's three months). The mechanism is CPSC's, given for the GFCI, with "the RCD does the same job" (decision 7). |
 | **G-E2 Ring and radial circuits; MCB ratings** | 5 | Read a primary (IET, an electrical scheme's consumer page) | "Ring final circuit" is named as the trade term for "ring main" (City & Guilds); no definitions, no ratings. |
-| **G-E3 BS 7671's current edition; "safe zones"** | 5, 9, 16 | Read the IET's current-edition page | Name "BS 7671" only; "cables often run straight up, down or across from sockets and switches, and a detector is still needed". |
+| **G-E3 BS 7671's current edition; "safe zones"** | 5, 11, 18 | Read the IET's current-edition page | Name "BS 7671" only; "cables often run straight up, down or across from sockets and switches, and a detector is still needed". |
 | **G-E4 Current NEC GFCI and AFCI locations** | 5 | Read NFPA's or ESFi's primary page | CPSC's list, labelled "as CPSC listed them; the list stops at 2005", and "the code applies as each state adopts it". |
-| **G-E6 ESF's "almost half" figures** | 5 | Read ESF's source | Never stated (decision 11). |
-| **G-E7 Plug fuses by appliance** | 5 | Not needed | "Use the rating the manufacturer specifies"; ESF's two examples per rating only if re-read. |
-| **G-E8 NFPA current web guidance** | 5, 8 | Read NFPA's pages in a browser | The dated NFPA reports, with their data years. |
-| **G-W1 T&P valve: what it does, how and how often to test; water heater flushing** | 6 | Read a water heater maker's manual | No test and no interval. "UGA's checklist lists it; your heater's manual says how; if you'd rather not, it's a job to have checked." No flushing interval (ASHI's monthly tip is a trade body's, attributed if used at all). |
+| **G-E6 ESF's "almost half" figures** | 6 | Read ESF's source | Never stated (decision 11). |
+| **G-E7 Plug fuses by appliance** | 6 | Not needed | "Use the rating the manufacturer specifies"; ESF's two examples per rating only if re-read. |
+| **G-E8 NFPA current web guidance** | 6, 10 | Read NFPA's pages in a browser | The dated NFPA reports, with their data years. |
+| **G-W1 T&P valve: what it does, how and how often to test; water heater flushing** | 8 | Read a water heater maker's manual | No test and no interval. "UGA's checklist lists it; your heater's manual says how; if you'd rather not, it's a job to have checked." No flushing interval (ASHI's monthly tip is a trade body's, attributed if used at all). |
 | **G-W2 UK cistern mechanics** | 3 | Read a maker's or water company's page on the parts of a push-button and a lever cistern | Dye test, overflow sign and United Utilities' figures; the fix goes to the maker's instructions or a WaterSafe plumber. No parts diagram. |
 | **G-W3 Plunging a sink, removing a trap, chemical drain cleaners** | 4 | Read a water company's or maker's method and a regulator's or poison centre's page on drain cleaners | No method. AD H para 1.6 (traps are made removable or have a cleaning eye); Thames Water on whose blockage it is; prevention. **The orchestrator trims "a blocked sink" from the outcomes.** |
 | **G-W4 Ofwat's 7 m (0.7 bar) guaranteed minimum** | 2 | Read Ofwat or the regulations | Attributed to WaterSafe: "WaterSafe says water companies are committed to ...". |
 | **G-W5 The Met Office burst-pipe sentence on electrics** | 1, 2 | Read ESF's current advice on water near electrics | The course's plain reading, labelled as the course's: don't touch wet fittings; go to the consumer unit only if you can reach it without standing in water or touching anything wet; otherwise keep clear and call an electrician. |
-| **G-W6 Thermostatic mixing valves** | 6 | Read a primary on TMVs | Not named. The two hazards, the two numbers, and "a trade-off to raise with an installer". |
-| **G-W7 Boiler pressure for other makes** | 6 | Read one or two more makers' manuals | "Check your boiler's manual; Worcester Bosch and Vaillant, for example, give 1 to 1.5 bar cold", for sealed systems only. |
-| **G-W8 The gas emergency control valve, open and closed** | 1, 7 | Read a network's meter guide | Cadent's words only (near the meter; a handle that turns 90 degrees). No colour, no position. A licensed photograph only if its caption can be checked. |
-| **G-W9 Awaab's Law; HHSRS review; wet wipes bans outside England** | 4, 12 | Read the primaries | Not named. England's wipes Regulations "come into force 18 months after the day on which they are made", with the date the legislation page shows. |
-| **G-W10 Energy Saving Trust savings in pounds** | 6, 12 | Re-read with the price period | Left out. |
-| **G-G1 The legal basis for Gas Safe's "both parties" line** | 7 | Search for a provision or a prosecution | Attributed to Gas Safe or left out (decision 6). |
-| **G-G2 HSENI's approval of the Gas Safe Register in Northern Ireland** | 7, 16 | Read an HSENI page | Northern Ireland's regulation 3 mirrors Great Britain's; HSE says the Register covers Northern Ireland. "HSENI" is not named. |
-| **G-G3 HSE's source for "around 7 people die"** | 7, 8 | Read HSE's statistics | Attributed and undated: "HSE says around 7 people die each year ...". |
+| **G-W6 Thermostatic mixing valves** | 8 | Read a primary on TMVs | Not named. The two hazards, the two numbers, and "a trade-off to raise with an installer". |
+| **G-W7 Boiler pressure for other makes** | 7 | Read one or two more makers' manuals | "Check your boiler's manual; Worcester Bosch and Vaillant, for example, give 1 to 1.5 bar cold", for sealed systems only. |
+| **G-W8 The gas emergency control valve, open and closed** | 1, 9 | Read a network's meter guide | Cadent's words only (near the meter; a handle that turns 90 degrees). No colour, no position. A licensed photograph only if its caption can be checked. |
+| **G-W9 Awaab's Law; HHSRS review; wet wipes bans outside England** | 4, 14 | Read the primaries | Not named. England's wipes Regulations "come into force 18 months after the day on which they are made", with the date the legislation page shows. |
+| **G-W10 Energy Saving Trust savings in pounds** | 7, 14 | Re-read with the price period | Left out. |
+| **G-G1 The legal basis for Gas Safe's "both parties" line** | 9 | Search for a provision or a prosecution | Attributed to Gas Safe or left out (decision 6). |
+| **G-G2 HSENI's approval of the Gas Safe Register in Northern Ireland** | 9, 18 | Read an HSENI page | Northern Ireland's regulation 3 mirrors Great Britain's; HSE says the Register covers Northern Ireland. "HSENI" is not named. |
+| **G-G3 HSE's source for "around 7 people die"** | 9, 10 | Read HSE's statistics | Attributed and undated: "HSE says around 7 people die each year ...". |
 | **G-G4 Isle of Man and Channel Islands gas numbers** | 1 | Only if a lesson says "UK" broadly | The callout and lessons name Great Britain and Northern Ireland only. |
-| **G-L1 IRC R105** | 16 | Read it in a browser | "The model codes that states adopt"; nothing about exempt work from the code. |
-| **G-L2 Texas Occupations Code 1305 official text; TSBPE and TDLR; a state GC licence** | 16 | Read the official statute site in a browser | TDLR's description, attributed, with its "Municipal or regional regulations may override" note; nothing about a general contractor licence. |
-| **G-L6 The previous s36(4) period** | 16 | Read the pre-2023 text and SI 2023/993 reg 7 | "10 years" only; no "it used to be 12 months". |
-| **G-L7 A later Scottish domestic handbook** | 16 | Check gov.scot | The 2022 handbook, "as read on 25 September 2026", with a line to check the current one. |
-| **G-L8 Scottish approved certifier scheme names** | 16 | Read the scheme pages | No scheme named for Scotland. |
-| **G-L9 California local permits; New York State outside NYC; Massachusetts** | 16 | Optional | Planned around: five places named as examples; the reader is sent to the local building department. |
-| **G-L10 TA6 question numbers** | 16 | Read the form | No question numbers; "the Law Society's property information form asks about ...". |
-| **G-L11 Approved Documents G, J (ventilation) and H beyond Section 1; Party Wall Act; permitted development** | 4, 6, 8, 16 | Read if a lesson needs them | Not stated. "Planning is separate: 'You might need both'" (GOV.UK). |
-| **G-L12 CRA ss.54, 56, 57; Consumer Credit Act s.75; TrustMark's endorsement** | 17 | Read on legislation.gov.uk and a government source | Section 75 as "Citizens Advice says"; "Consumer Credit Act" is on the unread line and not named until read. Remedies: s.55 only. TrustMark as it describes itself. |
-| **G-L13 US lien law outside California** | 17 | Optional | California only, labelled as California's. |
-| **G-L14 The Glue Traps (Offences) Act 2022** | 15 | Read it | No UK statement on glue traps' legality. CDC's advice ("Do not use glue traps and live traps") as US guidance; the humaneness question described as a value question. |
-| **G-R1 Sticking doors, silicone sealant, wallpaper, filling** | 14 | Read a maker's sealant and filler instructions and an extension-service page on a sticking door | Filling from Dulux only (choose a filler for the job; flexible filler for gaps); no door, sealant or wallpaper method; UGA's "re-caulk" as a checklist line in the project. |
-| **G-R2 The VOC Regulations 2012, revised text** | 14 | Read the revised version | "As made", with "the rules have probably been amended since leaving the EU; check the tin". |
-| **G-R3 EPA's methylene chloride rules (2019, 2024)** | 9, 14 | Read the rule pages | No legal statement. EPA's own lines: methylene chloride is "converted to carbon monoxide in the body"; use strippers outdoors or with ventilation as the label says. |
-| **G-R4 Wasp nests** | 15 | Read a council, BPCA or NHS source | Not mentioned. |
-| **G-R5 EPA 2008 decision; CRRU pack sizes; hantavirus in the UK** | 15 | Optional | EPA's restrictions page and HSE; CDC's clean-up as US guidance that the course applies anywhere, labelled as the course's step. |
-| **G-R6 USFA dryer fire figure** | 8 | Read the USFA source | No figure; USFA's steps only. |
-| **G-R7 NFPA 211** | 8 | Optional | Attributed to CSIA, "citing NFPA 211". |
-| **G-H1 Any UK ladder-injury figure** | 10 | Read RoSPA's or NHS's primary | No UK figure; the lesson says the course found none, and uses US figures labelled US. |
-| **G-H2 WAHR reg 3(3)(b) and householders controlling a trade** | 10, 17 | Read HSE's guidance on domestic clients | "The Regulations govern work, not your own DIY." Nothing about a householder's duty when hiring. |
-| **G-H3 LA455 and HSE pages 7 and 8 (inspection; product standards)** | 10 | Read them | Pre-use check only; no product standard named. |
-| **G-H4 Assigned protection factors; eye protection standards** | 9 | Read OSHA Table 1 | No APF for an N95; eye protection in general terms. |
-| **G-H5 CPSC's lithium-ion and ladder pages** | 9, 10 | Read in a browser | London Fire Brigade for batteries, labelled London; no US battery figure. |
-| **G-Z1 EPA's chrysotile rule, current status** | 13 | Read the docket or Federal Register | "EPA finalised a ban in March 2024"; nothing about its status since. |
-| **G-Z2 Scotland's in-force date for interlinked alarms** | 8 | Read the Tolerable Standard Guidance | "Every home in Scotland must have interlinked fire alarms" (Scottish Government), no date. |
-| **G-Z3 UL 2034, UL 217, UL 2201, PGMA G300** | 8 | Read them or an official page naming them | Not named. |
-| **G-Z4 HSE asbestos essentials sheets; disposal rules** | 13 | Read the sheets and a council page | No method. Disposal through the council (England and Wales via GOV.UK's finder); Scotland, Northern Ireland and US states "check with your council or state". |
-| **G-Z5 Renovate Right contents; HUD Lead Safe Housing Rule** | 13 | Read them | Named only as the pamphlet a US contractor must give you. |
-| **G-Z6 UK radon deaths; the 2005 Surgeon General advisory** | 13 | Read the primaries | No UK death figure; the advisory as EPA reports it. |
+| **G-L1 IRC R105** | 18 | Read it in a browser | "The model codes that states adopt"; nothing about exempt work from the code. |
+| **G-L2 Texas Occupations Code 1305 official text; TSBPE and TDLR; a state GC licence** | 18 | Read the official statute site in a browser | TDLR's description, attributed, with its "Municipal or regional regulations may override" note; nothing about a general contractor licence. |
+| **G-L6 The previous s36(4) period** | 18 | Read the pre-2023 text and SI 2023/993 reg 7 | "10 years" only; no "it used to be 12 months". |
+| **G-L7 A later Scottish domestic handbook** | 18 | Check gov.scot | The 2022 handbook, "as read on 25 September 2026", with a line to check the current one. |
+| **G-L8 Scottish approved certifier scheme names** | 18 | Read the scheme pages | No scheme named for Scotland. |
+| **G-L9 California local permits; New York State outside NYC; Massachusetts** | 18 | Optional | Planned around: five places named as examples; the reader is sent to the local building department. |
+| **G-L10 TA6 question numbers** | 18 | Read the form | No question numbers; "the Law Society's property information form asks about ...". |
+| **G-L11 Approved Documents G, J (ventilation) and H beyond Section 1; Party Wall Act; permitted development** | 4, 7, 8, 10, 18 | Read if a lesson needs them | Not stated. "Planning is separate: 'You might need both'" (GOV.UK). |
+| **G-L12 CRA ss.54, 56, 57; Consumer Credit Act s.75; TrustMark's endorsement** | 19 | Read on legislation.gov.uk and a government source | Section 75 as "Citizens Advice says"; "Consumer Credit Act" is on the unread line and not named until read. Remedies: s.55 only. TrustMark as it describes itself. |
+| **G-L13 US lien law outside California** | 19 | Optional | California only, labelled as California's. |
+| **G-L14 The Glue Traps (Offences) Act 2022** | 17 | Read it | No UK statement on glue traps' legality. CDC's advice ("Do not use glue traps and live traps") as US guidance; the humaneness question described as a value question. |
+| **G-R1 Sticking doors, silicone sealant, wallpaper, filling** | 16 | Read a maker's sealant and filler instructions and an extension-service page on a sticking door | Filling from Dulux only (choose a filler for the job; flexible filler for gaps); no door, sealant or wallpaper method; UGA's "re-caulk" as a checklist line in the project. |
+| **G-R2 The VOC Regulations 2012, revised text** | 16 | Read the revised version | "As made", with "the rules have probably been amended since leaving the EU; check the tin". |
+| **G-R3 EPA's methylene chloride rules (2019, 2024)** | 11, 16 | Read the rule pages | No legal statement. EPA's own lines: methylene chloride is "converted to carbon monoxide in the body"; use strippers outdoors or with ventilation as the label says. |
+| **G-R4 Wasp nests** | 17 | Read a council, BPCA or NHS source | Not mentioned. |
+| **G-R5 EPA 2008 decision; CRRU pack sizes; hantavirus in the UK** | 17 | Optional | EPA's restrictions page and HSE; CDC's clean-up as US guidance that the course applies anywhere, labelled as the course's step. |
+| **G-R6 USFA dryer fire figure** | 10 | Read the USFA source | No figure; USFA's steps only. |
+| **G-R7 NFPA 211** | 10 | Optional | Attributed to CSIA, "citing NFPA 211". |
+| **G-H1 Any UK ladder-injury figure** | 12 | Read RoSPA's or NHS's primary | No UK figure; the lesson says the course found none, and uses US figures labelled US. |
+| **G-H2 WAHR reg 3(3)(b) and householders controlling a trade** | 12, 19 | Read HSE's guidance on domestic clients | "The Regulations govern work, not your own DIY." Nothing about a householder's duty when hiring. |
+| **G-H3 LA455 and HSE pages 7 and 8 (inspection; product standards)** | 12 | Read them | Pre-use check only; no product standard named. |
+| **G-H4 Assigned protection factors; eye protection standards** | 11 | Read OSHA Table 1 | No APF for an N95; eye protection in general terms. |
+| **G-H5 CPSC's lithium-ion and ladder pages** | 11, 12 | Read in a browser | London Fire Brigade for batteries, labelled London; no US battery figure. |
+| **G-Z1 EPA's chrysotile rule, current status** | 15 | Read the docket or Federal Register | "EPA finalised a ban in March 2024"; nothing about its status since. |
+| **G-Z2 Scotland's in-force date for interlinked alarms** | 10 | Read the Tolerable Standard Guidance | "Every home in Scotland must have interlinked fire alarms" (Scottish Government), no date. |
+| **G-Z3 UL 2034, UL 217, UL 2201, PGMA G300** | 10 | Read them or an official page naming them | Not named. |
+| **G-Z4 HSE asbestos essentials sheets; disposal rules** | 15 | Read the sheets and a council page | No method. Disposal through the council (England and Wales via GOV.UK's finder); Scotland, Northern Ireland and US states "check with your council or state". |
+| **G-Z5 Renovate Right contents; HUD Lead Safe Housing Rule** | 15 | Read them | Named only as the pamphlet a US contractor must give you. |
+| **G-Z6 UK radon deaths; the 2005 Surgeon General advisory** | 15 | Read the primaries | No UK death figure; the advisory as EPA reports it. |
 | **G-N3 Fitting and maintaining a door lock** | (none planned) | Read a primary on fitting a lock (a locksmiths' body, police Secured by Design, a maker's instructions) | Not taught; named in lesson 1's "left out"; `docs/QUEUE.md` research-gap line (decision 14). |
-| **G-N4 Licensed photographs** | 1 to 8, 11, 13, 15 | For each photograph a lesson wants, find an open-licence file and record its URL, credit and licence in the caption | No photograph; an SVG schematic drawn from the sourced description, labelled "schematic", or none. |
+| **G-N4 Licensed photographs** | 1 to 10, 13, 15, 17 | For each photograph a lesson wants, find an open-licence file and record its URL, credit and licence in the caption | No photograph; an SVG schematic drawn from the sourced description, labelled "schematic", or none. |
 
 **Planned around, no gate:** the manuals' content (chapter headings only); Haynes (not named); the
 T&P valve's mechanism (gate G-W1's fallback); the US water pressure standard (none read: the US half
@@ -712,12 +729,12 @@ project assembles itself.
   circuits (UGA); the panel is "usually electrically live, even with the main circuit breakers turned
   off" (CPSC 5133), which is why a householder's work stops at the front. **Gas.** The emergency control
   valve near the meter, "a handle that can be turned 90 degrees" (Cadent; gate G-W8); not in a cellar;
-  in the US, the utility's advice is to leave (preview of lesson 7; the reader locates the meter and
+  in the US, the utility's advice is to leave (preview of lesson 9; the reader locates the meter and
   does not turn anything). **The burst-pipe order** (Met Office; CCW): stop tap off, heating and boiler
   off (and the immersion heater, CCW), open the taps to drain, soak up, call a WaterSafe plumber,
   photograph the damage for the insurer (CCW; pointer to Personal Finance lesson 8); water near
   electrics by gate G-W5. **The course:** the three job labels and the question (decision 5); the gas
-  law in one sentence with a pointer to lesson 7; the law as general information (decision 9); nations
+  law in one sentence with a pointer to lesson 9; the law as general information (decision 9); nations
   and states named (decision 2); UK and US side by side (decision 3); what is left out, said once,
   including fitting locks, wallpapering and wasp nests as not researched.
 - **Mechanism to explain:** why one valve stops the whole house (the supply enters by one pipe from the
@@ -735,7 +752,7 @@ project assembles itself.
 - **Misconceptions to address:** clockwise opens a valve (WSSC's note: a search summary had it
   backwards; WaterSafe and WSSC agree clockwise closes); the stop tap in the pavement is the one to use
   (it's the company's); switching off the main makes the panel safe to open (CPSC); "it's illegal to do
-  any gas work yourself" (preview; lesson 7); a stiff stop tap needs more force.
+  any gas work yourself" (preview; lesson 9); a stiff stop tap needs more force.
 - **Practice:** **your shut-off map** (the first project deliverable): find the stop tap or main valve,
   photograph it, try it slowly and back with the limits of decision 1 written in, time it, note if it
   is stiff; find the consumer unit or panel and label what you can; find the gas meter and its valve
@@ -757,8 +774,8 @@ project assembles itself.
 *Note, 2026-09-25: the lesson outlined here as "Water in: supply, leaks, taps and toilets" (~95 min)
 passed its seam and split at "Taps and toilets", as the seam list above planned. This section keeps
 the supply, leaks and frozen pipes; lesson 3 below takes taps and toilets. Every later lesson moved up
-by one, so the course is now seventeen lessons, and the numbers throughout this file are the new
-ones.*
+by one, so the course was then seventeen lessons. (Two further splits on the same day, at lessons 5
+and 7 below, made it nineteen; the numbers throughout this file are the nineteen-lesson ones.)*
 
 - **Objectives:** explain who owns which part of the water supply in England and Wales, and what the
   bucket test and the pressure standard show; apply the meter test and the dye test to find a leak,
@@ -799,7 +816,7 @@ ones.*
 - **Sources:** Part A §1 (CCW, WaterSafe pressure, EPA Fix a Leak Week, Red Cross); Part B §3 (EPA
   WaterSense pages, United Utilities, Red Cross, CCW winter advice); gate G-W4.
 - **Connects:** lesson 1's stop tap; leads to lesson 3 (the tap that drips), lesson 4 (where the water
-  goes) and lesson 6 (the hot side). Personal Finance lesson 1 (where your money goes), for the water
+  goes) and lessons 7 and 8 (the hot side). Personal Finance lesson 1 (where your money goes), for the water
   bill.
 - **Spaced review of:** lesson 1's "isolate before you open anything up" and its stop tap.
 - **Neutrality:** the thaw order (decision 3), each country's advice as given.
@@ -835,7 +852,7 @@ ones.*
 - **Images:** licensed photograph of a washer tap's parts or a ceramic cartridge (gate G-N4).
 - **Sources:** Part B §3 (EPA WaterSense pages, Southern Water, Bristan, United Utilities); gate G-W2.
 - **Connects:** lesson 1's stop tap; lesson 2's leak tests and drip arithmetic; leads to lesson 4
-  (where the water goes) and lesson 6 (the hot side).
+  (where the water goes) and lessons 7 and 8 (the hot side).
 - **Spaced review of:** lesson 1's "isolate before you open anything up" and its stop tap; lesson 2's
   dye test.
 - **Neutrality:** none contested.
@@ -884,19 +901,33 @@ ones.*
   2015". Licensed photograph of a trap with a cleaning eye (gate G-N4).
 - **Sources:** Part A §2 (AD H, ASHI, Superior, Thames Water, Portland, WRc, The Water Report, SI
   2025/1218); Part B §3 (Thames Water blockages); Part B §6 (UGA septic); gates G-W3, G-W9.
-- **Connects:** lesson 2; Cooking Fundamentals lesson 4 (hygiene stays there); leads to lesson 12
+- **Connects:** lesson 2; Cooking Fundamentals lesson 4 (hygiene stays there); leads to lesson 14
   (traumatic damp from leaking waste pipes).
 - **Spaced review of:** lesson 1's flows; lesson 2's "whose pipe is it?" applied to drains.
 - **Neutrality:** the flushability dispute, attributed to each sector body; the safe practice not in
   dispute.
 
-### 5. Electricity: what trips, and why (~90 min; seam: split at "Plugs, leads and warning signs" if the draft passes 100)
+### 5. Electricity: what trips, and why (~90 min; seam fired, see the note)
 
-- **Objectives:** explain what a fuse or circuit breaker protects (the wiring, from fire), what an RCD
-  or GFCI protects (people, from shock), and what an AFCI adds; apply the test-and-reset routine for an
-  RCD or GFCI and the stop rule for a device that keeps tripping; identify the right plug fuse (UK), the
-  limits of extension leads, and the warning signs of an overloaded or failing circuit; explain why a
-  switched-off main breaker and a silent volt stick don't make anything safe to touch.
+*Note, 2026-09-25: the lesson outlined here as "Electricity: what trips, and why" (~90 min) passed
+its seam and split at "Plugs, leads and warning signs", as the seam list above planned: the first
+half alone measured 120 before trimming, and the whole about 145. This section keeps the devices,
+testing and resetting, the stop rule and what stays shut; lesson 6 below takes plug fuses, leads,
+the warning signs, inspection and the fire figures. Every later lesson moved up by one at this
+split, and by one more at the heating and hot water split (see lesson 7's note), so the course is
+now nineteen lessons, and the numbers throughout this file are the new ones. Gate G-E5 closed at
+drafting (National Grid Electricity Distribution, SSEN and Southern California Edison), but no
+source gave a method for isolating a faulty appliance by plugging things back one at a time, so
+the lesson says it didn't find one and teaches none.*
+
+- **Objectives:** explain what a fuse or circuit breaker protects (the wiring, from fire), what an
+  RCD or GFCI protects (people, from shock), and what an AFCI adds, using the source that says each;
+  apply the test routine for an RCD or GFCI and the reset steps a UK network operator and a US
+  utility give, including what to switch off first and what to do if a device won't stay on;
+  decide, for a described trip, whether it is yours to reset once, a plug-in appliance to take out
+  of use, or a job for an electrician, and state whose rule sits behind the decision; explain why a
+  switched-off main breaker and a silent volt stick don't make anything behind the cover safe to
+  touch, and where the law and this course leave wiring.
 - **Core ideas:** the reason to care: a trip at 9 p.m. is either a nuisance or a fault reporting itself,
   and the difference is the whole lesson. **Two jobs, two devices**: CPSC 1989, a GFCI "shuts down the
   power in milliseconds", "whereas circuit breakers and fuses function primarily to prevent the home
@@ -909,65 +940,109 @@ ones.*
   consumers "with adequate knowledge and skills", breaker GFCIs by an electrician, stated as CPSC's
   and labelled with decision 7's scope line; the dated NEC list as history, gate G-E4; ESFi's monthly
   test). **Testing and resetting**: the test buttons (ESF: pressing it "will switch off the power to
-  the areas of the home it protects"); the reset by gate G-E5's source; "keeps tripping" means a fault
-  "either with a particular appliance or the wiring itself" for a registered electrician (ESF). **Plug
-  fuses** (ESF: replace "only with another of the same rating"; 3 A and 13 A; BS 1362 and BS 1363; brown
-  live, blue neutral, green and yellow earth; only open a plug once it is out of the socket; "follow the
-  manufacturer", gate G-E7). **Leads and sockets** (ESF: most extension leads 13 A, some 10 A; cable
-  reels rated as low as 3 or 4 A when wound; don't daisy-chain; GOV.UK: one plug per socket where
-  possible). **Warning signs** (GOV.UK: "scorch marks, hot plugs and sockets, fuses that blow or
-  circuit-breakers that trip for no obvious reasons, or flickering lights"; ESF: crackling, curled labels
-  or scorching on fittings). **Inspection** (ESF recommends an EICR "at least every 10 years" for an
-  owner-occupied home; England's landlords must have one at no more than 5 years, SI 2020/312, stated
-  as law; a home survey "will not cover electrical safety", ESF). **Why it matters, in numbers**: England
-  2025/26, electrical distribution plus non-cooking electrical appliances about a quarter of accidental
-  dwelling fires (decision 11); GOV.UK's "around 4,000 fires"; NFPA 2015 to 2019; CPSC's 100
-  electrocutions a year 2018 to 2020; the GFCI share as an estimate (contested question 14). **What
-  stays shut**: the panel is live (CPSC); a volt stick doesn't prove dead (HSG85 para 54); the wiring the
-  law allows a householder in England is lesson 16's, and this course teaches none of it (decision 7).
+  the areas of the home it protects"); the reset by gate G-E5's sources; "keeps tripping" means a fault
+  "either with a particular appliance or the wiring itself" for a registered electrician (ESF). **Why
+  it matters, in numbers**: CPSC's 100 electrocutions a year 2018 to 2020; the GFCI share as an
+  estimate (contested question 14). **What stays shut**: the panel is live (CPSC); a volt stick doesn't
+  prove dead (HSG85 para 54); the wiring the law allows a householder in England is lesson 18's, and
+  this course teaches none of it (decision 7).
 - **Mechanism to explain:** too much current heats a wire, and the breaker or fuse opens before the
   wire gets hot enough to start a fire (CPSC 1989's statement of what they are for; the lesson adds no
   thermal detail a source doesn't give); the GFCI compares current out and back (CPSC 099); the RCD by
   gate G-E1 or decision 7's fallback; why a volt stick can mislead (HSG85 recommends against it for
   proving dead; the lesson gives HSE's recommendation and no electronics).
 - **Worked examples:** (a) simple: a GFCI in a US bathroom trips when a hair dryer is plugged in; test,
-  reset, try again without the dryer; if it holds, the dryer is the suspect (by G-E5's source). (b)
+  reset, try again without the dryer; if it holds, the dryer is the suspect (by G-E5's sources). (b)
   wrinkle: an RCD in a UK kitchen trips most nights around 3 a.m.; nothing obvious is on; the reader
-  works through what the sources say (a fault in an appliance or the wiring), what they can safely do
-  (G-E5's isolation method, if it gives one), and where it stops (a registered electrician). A plug
-  fuse example with a gap: a table lamp's 3 A fuse blows, the reader chooses the replacement and what
-  a second blow means.
-- **Misconceptions to address:** breakers protect you from shock (CPSC); a bigger fuse fixes a fuse
-  that keeps blowing (ESF: same rating only); an AFCI and a GFCI do the same thing (CPSC 5133); an RCD
-  that trips is being a nuisance (ESF); switching off the main makes the panel safe (CPSC); a volt stick
-  that stays silent proves the wire dead (HSG85); an old consumer unit without RCDs must be replaced
-  (ESF: "not necessarily"); "almost half of house fires are electrical" (decision 11).
+  works through what the sources say (a fault in an appliance or the wiring), what they can safely do,
+  and where it stops (a registered electrician).
+- **Misconceptions to address:** breakers protect you from shock (CPSC); an AFCI and a GFCI do the
+  same thing (CPSC 5133); an RCD that trips is being a nuisance (ESF); switching off the main makes the
+  panel safe (CPSC); a volt stick that stays silent proves the wire dead (HSG85); an old consumer unit
+  without RCDs must be replaced (ESF: "not necessarily").
 - **Practice:** press your RCD or GFCI test button and reset it (decision 1's limits and a warning about
-  what loses power); draw your consumer unit or panel and mark what each device protects; a fuse-and-
-  lead audit of one room; sort eight scenarios into "reset once", "unplug and investigate" (per G-E5)
-  and "call an electrician", answers behind a checkpoint.
-- **Images:** licensed photographs of a UK consumer unit with RCD and a GFCI receptacle (G-N4). SVG bar
-  chart: England's accidental dwelling fire causes, 2025/26, from FIRE0602 (electrical distribution
-  3,410; other electrical appliances 2,739; cooking appliances 9,928 unsplit by fuel; the rest), labelled
-  as the course's arithmetic from the published counts.
-- **Sources:** Part A §3 (ESF, IET, City & Guilds, CPSC 099, ESFi, CPSC 5133); Part B §3 (ESF plugs and
-  fuses, ESF RCD FAQ); Part C (C6 only for the pointer, C12, C30); Part D §4 (D33 to D40); gates G-E1 to
-  G-E8, G-L5.
+  what loses power); draw your consumer unit or panel and mark what each device protects; sort six
+  trips into "reset once", "unplug and take out of use" and "call an electrician", answers behind a
+  checkpoint.
+- **Images:** licensed photographs of a UK consumer unit with RCD and a GFCI receptacle (G-N4), or
+  none (the draft used G-N4's fallback). No chart; the fire-causes chart belongs to lesson 6.
+- **Sources:** Part A §3 (ESF, IET, City & Guilds, CPSC 099, ESFi, CPSC 5133); Part B §3 (ESF plugs
+  and fuses, ESF RCD FAQ), §6; Part C (C6 only for the pointer, C31); Part D §4 (D34, D36, D38 to
+  D40); gates G-E1 to G-E5, G-L5, and "Gate closures, lesson 05" in SOURCES.
 - **Connects:** First Aid lesson 2 ("power off before you touch") and lesson 10 (electrical burns),
-  neither retaught; lesson 1's panel; leads to lesson 9 (drilling near cables) and lesson 16 (what the
-  law lets a householder do).
+  neither retaught; lesson 1's panel; lesson 3's isolate-first. Leads to lesson 6 (the plug), lesson
+  11 (drilling near cables) and lesson 18 (what the law lets a householder do).
 - **Spaced review of:** lesson 1's "the panel stays live"; lesson 3's isolate-first.
 - **Neutrality:** the GFCI share as an estimate, attributed; ESF's campaigning position labelled as a
   charity's.
 
-### 6. Heating and hot water (~90 min)
+### 6. Plugs, leads and electrical fires (~60 min)
 
-- **Objectives:** identify a home's heating and hot water system (combi, system or regular boiler;
-  furnace, boiler or heat pump; tank or tankless heater) and explain what its main parts do; diagnose a
-  cold radiator as air or sludge and describe bleeding it and restoring the pressure to the maker's
-  figure; explain why turning the thermostat up doesn't heat a home faster and what a TRV does; compare
-  the scald and legionella temperature advice and explain why neither "turn it down" nor "turn it up" is
-  safe advice on its own.
+*Split from lesson 5 on 2026-09-25 at its named seam (see the note there). Measured 60 minutes when
+placed, under the 70 to 95 this file planned; it stands as its own lesson because the seam named
+it, and the two halves together are about 160.*
+
+- **Objectives:** identify the right replacement fuse for a UK plug, and decide what a fuse that
+  blows again means; apply the limits of extension leads, adaptors and cable reels to a described
+  room; identify the warning signs of an overloaded or failing circuit that the sources list, and say
+  what each source says to do about them; explain what the fire figures for England and the US count
+  and don't count, and why "almost half of house fires are electrical" doesn't follow from them.
+- **Core ideas:** the reason to care: most of the electricity a household handles goes through a plug
+  and often a lead, and that's where a householder can do the most without opening anything. **Plug
+  fuses** (ESF: replace "only with another of the same rating"; 3 A and 13 A, 5 A in some older
+  equipment; BS 1362 and BS 1363; only open a plug once it is out of the socket; "Check manufacturer's
+  instructions if you are not sure which fuse to use", gate G-E7; ESF's and GOV.UK's example lists
+  disagree, so the maker decides). **Leads and sockets** (ESF: most extension leads 13 A, some 10 A or
+  less; cable reels rated as low as 3 or 4 A when wound, and a thermal cut-out; don't plug one lead into
+  another; GOV.UK: one plug per socket where possible). **Warning signs** (GOV.UK: "scorch marks, hot
+  plugs and sockets, fuses that blow or circuit-breakers that trip for no obvious reasons, or
+  flickering lights"; ESF: burn marks, arcing sounds, for a registered electrician), split between the
+  appliance (the retailer, maker or a repair technician, ESF) and the wiring (a registered electrician).
+  **Inspection** (ESF recommends an EICR "at least every 10 years" for an owner-occupied home;
+  England's landlords must have one at no more than 5 years, SI 2020/312, stated as law with decision
+  9's label; a home survey "will not cover electrical safety", ESF). **The fire figures**: England
+  2025/26, electrical distribution plus non-cooking electrical appliances about a quarter of accidental
+  dwelling fires (decision 11); GOV.UK's "around 4,000 fires"; NFPA 2015 to 2019, equipment involved
+  and none attributed to DIY; ESF's "almost half" never printed.
+- **Mechanism to explain:** what a plug fuse is for, in ESF's words (it blows on "an overload or a
+  fault" and stops the cable and appliance overheating); why a wound cable reel carries less (ESF's
+  rating; no thermal detail beyond it). The course's own reading that a bigger fuse could let the
+  flex overheat is labelled as the course's.
+- **Worked examples:** a plug fuse with a gap: a table lamp's 3 A fuse blows, the reader replaces it
+  with the same rating, and decides what a second blow means before the answer is shown. A
+  checkpoint on two kitchen finds (a hot kettle plug; a scorched, crackling socket) and whose each is.
+- **Misconceptions to address:** a bigger fuse fixes a fuse that keeps blowing (ESF: same rating only);
+  every vacuum cleaner takes a 13 A (or 5 A) fuse; if nothing trips, the lead is fine; the survey will
+  have checked the electrics; "almost half of house fires are electrical" (decision 11).
+- **Practice:** a plug-and-lead audit of one room, looking only, sorted into fine, change the habit,
+  take out of use, or call an electrician, with whose advice sits behind each.
+- **Images:** optional SVG bar chart: England's accidental dwelling fire causes, 2025/26, from FIRE0602
+  (electrical distribution 3,410; other electrical appliances 2,739; cooking appliances 9,928 unsplit
+  by fuel; the rest), labelled as the course's arithmetic from the published counts. Not drawn at
+  placing.
+- **Sources:** Part A §3 (ESF); Part B §3 (ESF plugs and fuses); Part C C12, C30; Part D §4 (D33 to
+  D35, D37); gates G-E6, G-E7, G-E8, and "Gate closures, lesson 05" in SOURCES.
+- **Connects:** lesson 5 (the devices and the stop rule, taken to the plug). Leads to lesson 10 (fire
+  and smoke alarms) and lesson 11 (electricity near cables in a wall).
+- **Spaced review of:** lesson 5's split between the appliance and the wiring; lesson 1's
+  isolate-first, as "a plug is opened only when it's out of the socket".
+- **Neutrality:** none contested; ESF labelled as a campaigning charity; the fire figures with their
+  counting rules.
+
+### 7. Heating: boilers, radiators and furnaces (~90 min)
+
+*Note, 2026-09-25: the lesson outlined here as "Heating and hot water" (~90 min) split into two
+lessons at drafting. It had no named seam; the drafter cut at the natural boundary between the
+heating system and the hot water it stores, and the orchestrator accepted the cut. This section
+keeps the systems, pressure, radiators, controls and US heating equipment; lesson 8 below takes the
+scald and legionella trade-off, the T&P valve and the tundish. Every later lesson moved up by one
+more (see lesson 5's note).*
+
+- **Objectives:** identify a home's heating and hot water system (a combi, system or regular boiler;
+  a furnace, boiler or heat pump; a storage or tankless water heater) and explain what its main parts
+  do; diagnose a cold radiator as air or sludge, and describe bleeding it and restoring the pressure
+  to the figure in the boiler's own instructions; explain why turning the thermostat up doesn't heat
+  a home faster, what a TRV does, and what an AFUE figure leaves out.
 - **Core ideas:** the reason to care: the heating is the most expensive system in the house to run and
   the one whose small faults (a cold radiator, falling pressure) most often become an engineer's call-out
   that wasn't needed. **UK boilers** (EST: combi, "don't use a hot water cylinder"; system, "a separate
@@ -984,22 +1059,17 @@ ones.*
   21°C for most people; TRVs "work by sensing the air temperature around them", 0 to 6; flow
   temperature). **US systems** (DOE, as archived: furnaces heat air through ducts, boilers heat water;
   AFUE and duct losses "as much as 35%"; a leaking heat exchanger mixes combustion gases with house air,
-  pointer to lesson 8; maintenance by "a heating system professional"; heat pumps serviced "at least
+  pointer to lesson 10; maintenance by "a heating system professional"; heat pumps serviced "at least
   once a year", filters "every 3 months", don't set back if it brings on backup heat; air conditioners,
   filters "every month or two" in season, 2 feet clear; ENERGY STAR, "Inspect, clean, or change air
   filters once a month", and the condensate drain; the reconciliation "check monthly, change when dirty
-  and at least as often as the maker says", contested question 5 of Part A). **Hot water** (US tank and
-  tankless, DOE's flow and efficiency figures as archived; CPSC 5098's 120°F and its exposure times;
-  HSE's 60°C storage against legionella and "Testing ... is not usually required" for homes; gate
-  G-W6; the T&P valve by gate G-W1's fallback; adjusting an electric heater's thermostats means power
-  off at the breaker and panels off, CPSC 5098, and is labelled **Call someone** for this course).
-  **Boiler repairs are gas work** (lesson 7).
+  and at least as often as the maker says", contested question 5 of Part A). **Tankless heaters** (DOE's
+  flow and efficiency figures as archived). **Boiler repairs are gas work** (lesson 9).
 - **Mechanism to explain:** air collects at the top of a radiator and sludge settles at the bottom
   (Worcester Bosch's diagnosis; the lesson gives the diagnosis as the source gives it); a sealed system
   holds pressure, and bleeding lets water out with the air, which is why pressure drops (Worcester
   Bosch, Vaillant); a room thermostat and a TRV decide when heat stops, not how fast it comes (EST's
-  account of each, in EST's words); why hot water can scald and why cooler stored water can grow
-  legionella (CPSC's times; HSE's "keep the hot water hot").
+  account of each, in EST's words).
 - **Worked examples:** (a) simple: in a UK flat with a combi, the bedroom radiator is cold at the top.
   Bleed it, watch the gauge fall from 1.2 to 0.8 bar, top it up by the boiler's instructions to the
   maker's figure. (b) wrinkle: a radiator is cold at the bottom and bleeding does nothing, and the
@@ -1008,26 +1078,68 @@ ones.*
   changed and whose owner turns the thermostat right down at night.
 - **Misconceptions to address:** turning the thermostat up heats faster (EST); a radiator cold at the
   bottom needs bleeding (Worcester Bosch); 1 to 1.5 bar applies to every boiler (two makers, sealed
-  systems, check your manual); an AFUE figure is what you get (DOE: duct losses); turn the water heater
-  down to save money, or up to be safe (decision 5's pair).
+  systems, check your manual); an AFUE figure is what you get (DOE: duct losses).
 - **Practice:** identify your system (boiler and flue type, cylinder, loft tanks; US: furnace or heat
   pump, filter size and date); read your boiler's pressure gauge cold and hot and compare with its
-  manual; find and date your filter; bleed a radiator only if one is cold at the top (decision 1). A
-  checkpoint on the scald and legionella numbers for a described household with a toddler.
-- **Images:** SVG chart of CPSC 5098's exposure times (150°F two seconds; 140°F six; 130°F thirty;
-  120°F five minutes), labelled "CPSC, third-degree burns in most adults". Licensed photographs of a
-  bleed valve and a pressure gauge (G-N4).
-- **Sources:** Part A §1 (EST boilers, DOE tankless, CPSC 5098, HSE legionella, T&P notes), §5 (Worcester
-  Bosch, EST controls, DOE furnaces, heat pumps, air conditioners, ENERGY STAR); Part B §3 (Worcester
-  Bosch and Vaillant bleeding); gates G-W1, G-W6, G-W7, G-W10.
-- **Connects:** lesson 2 (the cold side); leads to lesson 7 (the fuel) and lesson 8 (what a heat
+  manual; find and date your filter; bleed a radiator only if one is cold at the top (decision 1).
+- **Images:** licensed photographs of a bleed valve and a pressure gauge (G-N4), or none.
+- **Sources:** Part A §1 (EST boilers, DOE tankless), §5 (Worcester Bosch, EST controls, DOE furnaces,
+  heat pumps, air conditioners, ENERGY STAR); Part B §3 (Worcester Bosch and Vaillant bleeding); gates
+  G-W7, G-W10, and "Gate closures, lesson 06" in SOURCES.
+- **Connects:** lesson 2 (bar, for the cold side); lesson 3 (why a hot tap might not stop). Leads to
+  lesson 8 (how hot the stored water should be), lesson 9 (the fuel) and lesson 10 (what a heat
   exchanger leak lets out).
 - **Spaced review of:** lesson 1's isolate-first (heating off, cool before bleeding); lesson 2's pressure
   in bar.
+- **Neutrality:** none contested; makers labelled as writing about their own boilers (decision 10).
+
+### 8. Hot water: scalds, legionella and the tank (~65 min)
+
+*Split from the heating lesson on 2026-09-25 (see lesson 7's note).*
+
+- **Objectives:** compare the scald and legionella temperature advice and explain why neither "turn
+  it down" nor "turn it up" is safe advice on its own; apply CPSC's tap-thermometer check and read the
+  result against CPSC's exposure times; identify a storage water heater's T&P valve or an unvented
+  cylinder's tundish, and state what the makers read here say about checking each and who deals with
+  a fault.
+- **Core ideas:** the reason to care: the same tap can hurt two ways, and advice that reads only one
+  of them is half the picture. **Scalds** (CPSC 5098's 120°F and its exposure times; the tap
+  thermometer; adjusting an electric heater's thermostats means power off at the breaker and panels
+  off, CPSC 5098, and is labelled **Call someone** for this course; A. O. Smith, about its own gas
+  heaters, on the dial's starting point). **Legionella** (HSE's 60°C storage and "keep the hot water
+  hot, cold water cold and keep it moving"; lower risk with no storage; "Testing ... is not usually
+  required" for homes; empty properties; guidance for landlords in Great Britain, by analogy only for
+  owner-occupiers). **Holding both** (a trade-off described; the course picks no temperature; mixing
+  valves as A. O. Smith describes them, and in the UK a question for an installer, gate G-W6). **The
+  T&P valve** (gate G-W1, closed at drafting with A. O. Smith's manual for its own heaters: what the
+  valve is for, its check "at least once a year", never capping the discharge line, thermal expansion;
+  UGA's spring and autumn listing; no test taught). **Draining** (A. O. Smith's six months against
+  ASHI's monthly gallon, each attributed). **The tundish** on an unvented cylinder (Vaillant: a drip is
+  for a qualified engineer).
+- **Mechanism to explain:** why hot water can scald and why cooler stored water can grow legionella
+  (CPSC's times; HSE's "keep the hot water hot"); what a T&P valve is for, in A. O. Smith's words.
+- **Worked examples:** (a) simple: an older man alone in a bungalow with a combi and an electric
+  shower; the legionella side low on HSE's account, the scald side leaning, and the thermometer first.
+  (b) a checkpoint case: a US family with a toddler and a gas storage heater at 140°F, weighing both.
+- **Misconceptions to address:** turn the water heater down to be safe, or up to be safe (decision 5's
+  pair); every home needs legionella testing (HSE); a dripping T&P valve should be capped (A. O.
+  Smith); a dripping tundish is normal (Vaillant).
+- **Practice:** take the tap's temperature first thing in the morning; find and look at the T&P valve
+  and its pipe, or the tundish, without lifting or touching anything (decision 1); find what the
+  heater's manual says and who it says should do each job.
+- **Images:** SVG chart of CPSC 5098's exposure times (150°F two seconds; 140°F six; 130°F thirty;
+  120°F five minutes), labelled "CPSC, third-degree burns in most adults".
+- **Sources:** Part A §1 (CPSC 5098, HSE legionella, T&P notes), §2 (ASHI); Part B §6 (UGA); gates
+  G-W1, G-W6, and "Gate closures, lesson 06" in SOURCES.
+- **Connects:** lesson 7 (the systems); lesson 5 (the breaker behind an electric heater); First Aid
+  and CPR lesson 10 (what to do for a scald, not retaught). Leads to lesson 9 (the fuel side of a gas
+  heater).
+- **Spaced review of:** lesson 1's list of what the course leaves out (the T&P test); lesson 7's
+  cylinders.
 - **Neutrality:** scald against legionella: two established hazards and a trade-off, described; the
   course picks no temperature (neutrality pass in review, decision 17).
 
-### 7. Gas: the smell, the valve, the law and the engineer (~80 min)
+### 9. Gas: the smell, the valve, the law and the engineer (~80 min)
 
 - **Objectives:** apply the official gas-leak steps for Great Britain, Northern Ireland or the US to a
   described situation, and state what the two countries' advice shares and where it differs; state
@@ -1070,7 +1182,7 @@ ones.*
 - **Misconceptions to address:** "it's illegal to do any gas work yourself"; "it's legal, so it's fine";
   no smell means no leak; ring the neighbour's doorbell or use your phone indoors (US: don't); a Gas Safe
   card means the engineer can do any gas job (the categories); a CO alarm means the boiler needn't be
-  serviced (lesson 8); US steps and UK steps are interchangeable.
+  serviced (lesson 10); US steps and UK steps are interchangeable.
 - **Practice:** write your gas-leak card for your country (not the other one); locate your meter and
   valve without touching it; a described Gas Safe card, front and back, and three jobs to check against
   its categories; sort ten jobs into user task, gas work and not gas work at all, behind a checkpoint.
@@ -1078,13 +1190,13 @@ ones.*
 - **Sources:** SOURCES "The gas-work law, stated exactly" (whole); Part A §4 (Cadent, National Gas, SSE
   NI, HSE FAQs, SoCalGas, Con Edison, Atmos); Part C C13 to C17, C25, C27, C29; Part B §6 (HSE gas
   FAQs, checking an engineer); gates G-G1 to G-G4, G-W8, G-N1.
-- **Connects:** lesson 1's valve; lesson 6's boiler; First Aid lesson 14 (the CO response, not
-  retaught). Leads to lesson 8.
+- **Connects:** lesson 1's valve; lesson 7's boiler; First Aid lesson 14 (the CO response, not
+  retaught). Leads to lesson 10.
 - **Spaced review of:** lesson 1's job labels (the gas law is the first full case of "the law allows
   more than the advice"); lesson 5's "no switches" reasoning.
 - **Neutrality:** G-G1, attributed or omitted. **Tier B split review** (decision 17).
 
-### 8. Carbon monoxide, smoke and the alarms that warn you (~85 min)
+### 10. Carbon monoxide, smoke and the alarms that warn you (~85 min)
 
 - **Objectives:** explain where carbon monoxide in a home comes from and put its protections in order
   (correct installation, annual servicing, clear flues and chimneys, ventilation, then an alarm), with
@@ -1152,13 +1264,13 @@ ones.*
 - **Sources:** Part D §3 (D23 to D32), §5 (D41, D42), §4 (D33, D35); Part B §6 (NFPA tip sheet, USFA,
   Home Office, HSE FAQs, HETAS, CSIA, USFA dryer flyer); Part A §5 (DOE on heat exchangers); gates
   G-G3, G-Z2, G-Z3, G-R6, G-R7, G-E8.
-- **Connects:** First Aid lessons 2 and 14 (the signs and the response, not retaught); lessons 6 and 7.
-  Leads to lesson 12 (never block the ventilation a fuel appliance needs) and Car Basics (a car in an
+- **Connects:** First Aid lessons 2 and 14 (the signs and the response, not retaught); lessons 7 and 9.
+  Leads to lesson 14 (never block the ventilation a fuel appliance needs) and Car Basics (a car in an
   attached garage).
-- **Spaced review of:** lesson 7's annual service; lesson 1's gas valve.
+- **Spaced review of:** lesson 9's annual service; lesson 1's gas valve.
 - **Neutrality:** none contested; the siting difference is not a dispute (Part D (c)4).
 
-### 9. Tools, dust and fumes: a small kit used safely (~80 min)
+### 11. Tools, dust and fumes: a small kit used safely (~80 min)
 
 - **Objectives:** explain how misuse turns an ordinary hand tool into an injury, using OSHA's examples,
   and apply its power-tool precautions; choose respiratory protection for dust (FFP2 or FFP3; N95) and
@@ -1167,7 +1279,7 @@ ones.*
   asbestos; charge and store lithium-ion packs by the fire service's advice.
 - **Core ideas:** the reason to care: the tool injures when it's used for the wrong job or in the wrong
   state, and the dust injures years later. **The kit** is defined by the jobs this course teaches, not
-  by a shopping list (decision 10): each item is tied to a lesson (a radiator key to lesson 6, a spanner
+  by a shopping list (decision 10): each item is tied to a lesson (a radiator key to lesson 7, a spanner
   to lesson 3, a torch to lesson 1), and the list is labelled as the course's. **Hand tools** (OSHA 3080:
   harm from "misuse and improper maintenance"; a chisel as a screwdriver, a loose hammer head, sprung
   wrench jaws, a mushroomed chisel head; "dull tools can cause more hazards than sharp ones"). **Power
@@ -1183,7 +1295,7 @@ ones.*
   something on the circuit while scanning, then power off before drilling; ESF's commonest DIY mistakes,
   "cutting through power leads, drilling into wiring, or trying to repair an electrical item while it
   is switched on"; ESF's check that the power is off for non-electrical DIY; where cables run by decision
-  13; HSE: "drilling into a wall" disturbs asbestos, "stop work immediately", pointer to lesson 13).
+  13; HSE: "drilling into a wall" disturbs asbestos, "stop work immediately", pointer to lesson 15).
   **Silica** (HSE: in bricks, tiles, concrete and mortar; cutting makes dust "too fine to see with
   normal lighting"; "the biggest risk to construction workers after asbestos"; silicosis irreversible).
   **Solvents** (EPA: indoor VOCs up to ten times outdoor, stripping "1,000 times", ventilate, buy what
@@ -1210,12 +1322,12 @@ ones.*
   (G-N4).
 - **Sources:** Part B §1 (OSHA 3080, LFB, OPSS, HSE masks, NIOSH, Bosch); Part A §7 (North Seattle);
   Part D §4 (D34, D36), §6 (D43, D45), §1 (D2 on drilling); gates G-E3, G-H4, G-H5, G-R3.
-- **Connects:** lesson 5 (live cables, volt sticks); leads to lesson 10 (height) and lesson 13 (the
+- **Connects:** lesson 5 (live cables, volt sticks); leads to lesson 12 (height) and lesson 15 (the
   materials that stop a job).
 - **Spaced review of:** lesson 5's "a volt stick proves nothing" and the panel.
 - **Neutrality:** none contested; manufacturer guidance labelled (decision 10).
 
-### 10. Ladders and working at height (~80 min)
+### 12. Ladders and working at height (~80 min)
 
 - **Objectives:** decide whether a ladder is the right equipment for a job, putting risk before
   duration, and state whom the ladder rules were written for; set up and use a leaning ladder and a
@@ -1266,20 +1378,20 @@ ones.*
 - **Sources:** Part B §2 (LA455, HSE web guide, WAHR reg 3, OSHA 1926.1053, OSHA QuickCard, D'Souza,
   Barbat, Wakim, Socias, CPSC 2020, CPSC older adults, RoSPA); Part D D38 (ladder electrocutions); gates
   G-H1, G-H2, G-H3, G-H5.
-- **Connects:** lesson 9; leads to lesson 11 (gutters) and lesson 14 (ceilings).
-- **Spaced review of:** lesson 5's overhead-line and power reasoning; lesson 7's "the law allows more
+- **Connects:** lesson 11; leads to lesson 13 (gutters) and lesson 16 (ceilings).
+- **Spaced review of:** lesson 5's overhead-line and power reasoning; lesson 9's "the law allows more
   than the advice" in its ladder form (the law doesn't bind you; the practice still applies).
 - **Neutrality:** footing against a helper, emphasis not conflict.
 
-### 11. Keeping water out: roof, gutters, ground and walls (~75 min)
+### 13. Keeping water out: roof, gutters, ground and walls (~75 min)
 
 - **Objectives:** explain how rain gets into a building (penetrating damp) and trace a damp patch to its
   likely outside cause; apply the checks for gutters, downpipes, ground levels and flashing, with the
   sources' figures in each country; distinguish summer condensation in a basement from a leak; plan the
-  outside checks from the ground, or from a ladder by lesson 10's rules.
+  outside checks from the ground, or from a ladder by lesson 12's rules.
 - **Core ideas:** the reason to care: most damp inside starts outside, and the outside causes are the
   cheapest to fix (SOURCES essential 4; the JPS's cheap-causes-first reading). **Four kinds of damp**,
-  introduced (GOV.UK's definitions; full treatment in lesson 12), with **penetrating damp** here: "water
+  introduced (GOV.UK's definitions; full treatment in lesson 14), with **penetrating damp** here: "water
   that gets into the building from outside due to defects in the walls, roofs, windows or floors".
   **GOV.UK's external checks** ("damaged or blocked pipes, gutters or downpipes", broken window seals,
   cracks in render, "missing or broken roof finishes", a "bridged (compromised) damp proof course").
@@ -1294,20 +1406,20 @@ ones.*
   traditional solid walls "absorb moisture but allow it to evaporate"; Babergh on cement render and
   modern paints on old buildings trapping damp). **Basements** (UMN: summer condensation mistaken for
   leakage; sump pumps from lesson 4). **Termites** kept away by dry soil at the foundation (EPA),
-  pointer to lesson 15. **Asbestos cement gutters and roofs** (HSE's task sheet title for AC guttering),
-  pointer to lesson 13: stop. **Roof work itself** is left out (not taught; the lesson says so).
+  pointer to lesson 17. **Asbestos cement gutters and roofs** (HSE's task sheet title for AC guttering),
+  pointer to lesson 15: stop. **Roof work itself** is left out (not taught; the lesson says so).
 - **Mechanism to explain:** the arithmetic of rain on a roof (UMN's figure; the reader works their own);
   why water at the foot of a wall ends up inside (grading and bridging, as UMN and the PCA state them);
   why an old solid wall behaves differently from a modern cavity wall (the JPS's definition of
   traditional construction, in its words).
 - **Worked examples:** (a) simple: a damp patch high on a bedroom wall of a 1950s semi in England,
   directly under a gutter that overflows in heavy rain; the chain from gutter to wall, and the fix
-  (clear the gutter by lesson 10's rules or hire it; check the joint). (b) wrinkle: a US basement wall is
+  (clear the gutter by lesson 12's rules or hire it; check the joint). (b) wrinkle: a US basement wall is
   wet every July and dry in winter, and a contractor has quoted for waterproofing. The reader weighs
   UMN's condensation point against the leak explanation and decides what to check first (a gap), and
   the lesson stops at what the sources support.
 - **Misconceptions to address:** a wet basement wall in summer means a leak (UMN); a downspout without
-  an extension is fine (UMN); a damp patch low on a wall is rising damp (pointer to lesson 12); gutters
+  an extension is fine (UMN); a damp patch low on a wall is rising damp (pointer to lesson 14); gutters
   need clearing once a year (UGA).
 - **Practice:** work out how much water your roof sheds in an inch or 25 mm of rain; an outside walk-
   round from the ground (gutters, downpipes, ground against the walls, render, flashing), photographed
@@ -1316,13 +1428,13 @@ ones.*
   the roof-volume arithmetic.
 - **Sources:** Part A §6 (GOV.UK, UMN, PCA, JPS), §7 (UGA); Part B §5 (Babergh, EPA termites), §6 (UGA);
   Part D D3 (task sheet titles only).
-- **Connects:** lesson 10 (the gutters are a ladder job); leads to lesson 12 (damp inside) and lesson 15
+- **Connects:** lesson 12 (the gutters are a ladder job); leads to lesson 14 (damp inside) and lesson 17
   (termites, woodworm).
-- **Spaced review of:** lesson 4's drains (where the downpipe goes); lesson 10's rest points (never a
+- **Spaced review of:** lesson 4's drains (where the downpipe goes); lesson 12's rest points (never a
   plastic gutter).
-- **Neutrality:** none contested here; rising damp deferred to lesson 12.
+- **Neutrality:** none contested here; rising damp deferred to lesson 14.
 
-### 12. Damp inside: condensation, mould, ventilation and rising damp (~90 min; seam: split at "Rising damp" if the draft passes 100)
+### 14. Damp inside: condensation, mould, ventilation and rising damp (~90 min; seam: split at "Rising damp" if the draft passes 100)
 
 - **Objectives:** distinguish the four kinds of damp and explain how condensation forms and where;
   apply the humidity targets and the moisture-first rule to a mould problem, including how large a patch
@@ -1349,7 +1461,7 @@ ones.*
   systems "Can cause backdrafting in combustion appliances"; GOV.UK: replacement windows need trickle
   vents; pan lids on, doors shut; EST: don't block extractor fans, airbricks, wall vents or trickle vents,
   "You must not block fixed ventilation openings needed for flueless or open-flue gas heaters", pointer
-  to lesson 8). **Rising damp** (contested question 1): the PCA ("simply due to the process of external
+  to lesson 10). **Rising damp** (contested question 1): the PCA ("simply due to the process of external
   ground water being drawn up through brickwork by what is known as capillary action"; the tide-mark;
   salts; bridging; a specialist survey); the RICS journal's account of Sellers' thesis ("a real
   phenomenon that warrants treatment", "does provide effective control") and of Hart v Large; the
@@ -1369,7 +1481,7 @@ ones.*
   moisture source, and what to do if the patch is bigger than EPA's 10 square feet. (b) wrinkle: a damp
   company's surveyor reads a meter at skirting height in an 1890s solid-walled terrace in Wales and
   quotes for injection and replastering. The reader applies the JPS's standards (proportionate; declared
-  interest; meter readings and salts), checks lesson 11's outside causes first, and writes the three
+  interest; meter readings and salts), checks lesson 13's outside causes first, and writes the three
   questions to ask. **The example reaches no verdict on whether this wall has rising damp** (decision
   17; standards 3.1).
 - **Misconceptions to address:** a meter reading means rising damp (GOV.UK, JPS); bleach is the fix
@@ -1383,15 +1495,15 @@ ones.*
   needed.
 - **Sources:** Part A §6 (GOV.UK, EPA, CDC, UMN, DOE, PCA, RICS 2020, AJ 2009, JPS 2022, Historic England,
   Cadw); Part B §6 (EST draught-proofing); Part D D48; gate G-W9.
-- **Connects:** lesson 11 (outside first); lesson 8 (ventilation for fuel appliances); Logic and Argument
-  lesson 7 (the strongest version first). Leads to lesson 15 (woodworm as a symptom of damp).
-- **Spaced review of:** lesson 4's traps (a leaking waste pipe as traumatic damp); lesson 11's four kinds
+- **Connects:** lesson 13 (outside first); lesson 10 (ventilation for fuel appliances); Logic and Argument
+  lesson 7 (the strongest version first). Leads to lesson 17 (woodworm as a symptom of damp).
+- **Spaced review of:** lesson 4's traps (a leaking waste pipe as traumatic damp); lesson 13's four kinds
   introduced.
 - **Neutrality:** rising damp, each side in its own words, the JPS as common ground, no verdict; trade
   bodies' interests stated in the JPS's own terms (it requires declarations) without insinuation against
   either side; the bleach disagreement attributed; no blame. **Neutrality pass in review** (decision 17).
 
-### 13. Asbestos, lead paint and radon: what not to disturb (~95 min; seam: split at "Lead paint" if the draft passes 100)
+### 15. Asbestos, lead paint and radon: what not to disturb (~95 min; seam: split at "Lead paint" if the draft passes 100)
 
 - **Objectives:** identify where asbestos may be in a UK or US home, by date and by material, and apply
   the stop-work rule; state the law and the official advice on a householder repairing or removing
@@ -1456,20 +1568,20 @@ ones.*
 - **Images:** the UK lead-dates table (a table, not a chart). No photographs of asbestos products unless
   licensed and captioned with HSE's point that you can't identify asbestos by eye.
 - **Sources:** Part D §1 (D1 to D11), §2 (D13 to D22), §6 (D46, D47); gates G-Z1, G-Z4, G-Z5, G-Z6.
-- **Connects:** lesson 9 (drilling; masks, and why an FFP mask isn't the answer to lead dust without
-  EPA's other practices); lesson 7's pattern (the law allows more than the advice). Leads to lesson 14
-  (old paint) and lesson 17 (hiring a licensed or certified contractor).
-- **Spaced review of:** lesson 7 and lesson 10's "law against advice"; lesson 12's ventilation.
+- **Connects:** lesson 11 (drilling; masks, and why an FFP mask isn't the answer to lead dust without
+  EPA's other practices); lesson 9's pattern (the law allows more than the advice). Leads to lesson 16
+  (old paint) and lesson 19 (hiring a licensed or certified contractor).
+- **Spaced review of:** lesson 9 and lesson 12's "law against advice"; lesson 14's ventilation.
 - **Neutrality:** contested question 4 (AC removal: law established, advisability a value judgement on
   which every official source says no without training); contested question 5 (lead testing).
   **Tier B split review** (decision 17).
 
-### 14. Walls and paint: filling, preparing and painting (~70 min)
+### 16. Walls and paint: filling, preparing and painting (~70 min)
 
 - **Objectives:** choose a filler and a paint finish for a described job, using both countries' names;
   put the preparation of a wall in order and apply the maker's rules for new plaster; read a UK paint
   tin's VOC label and apply EPA's ventilation advice for paints and strippers; decide for old paintwork
-  whether to overcoat or strip, applying lesson 13's lead rules.
+  whether to overcoat or strip, applying lesson 15's lead rules.
 - **Core ideas:** the reason to care: preparation decides how a paint job looks, and old paint decides
   how safe it is. **Finishes** (Dulux: matt hides imperfections, satin, silk, eggshell and gloss reflect
   more light; "emulsion" is UK water-based wall paint, broadly US "latex", and no US source defined it,
@@ -1482,7 +1594,7 @@ ones.*
   **Fumes** (EPA: VOCs indoors up to ten times outdoors, "1,000 times" during stripping; ventilate; if the
   label says well-ventilated, work outdoors or open windows; buy only what you need; leftovers to
   household hazardous-waste collection, not the bin; methylene chloride by gate G-R3). **Height**
-  (lesson 10's stepladder rules for a ceiling). **Old paint** (lesson 13: overcoat sound paint; wet
+  (lesson 12's stepladder rules for a ceiling). **Old paint** (lesson 15: overcoat sound paint; wet
   methods; no dry sanding, no flame).
 - **Mechanism to explain:** why new plaster needs a mist coat (Dulux gives the rule; the lesson gives
   Dulux's instruction and no chemistry it doesn't give); why solvent fumes build up indoors (EPA's
@@ -1491,22 +1603,22 @@ ones.*
   2000s house and repainting in matt emulsion, in order. (b) wrinkle: a newly skimmed wall in a US
   renovation, painted after ten days because the owner is in a hurry, beside a 1920s door with thick
   paint layers the owner wants stripped back. The reader decides the plaster question (the maker's
-  advice) and the door question (lesson 13's rules) in a gap.
+  advice) and the door question (lesson 15's rules) in a gap.
 - **Misconceptions to address:** paint new plaster straight away (Dulux); any mask protects against
-  stripper fumes (lesson 9, HSE); dry-sand old paint (lesson 13); pour leftover paint down the drain or
+  stripper fumes (lesson 11, HSE); dry-sand old paint (lesson 15); pour leftover paint down the drain or
   in the bin (EPA; lesson 4).
 - **Practice:** read a paint tin's label (UK: find the VOC figure; US: find the ventilation instruction);
   plan a room's repaint step by step with the time each step waits; an overcoat-or-strip decision for
   three described surfaces, behind a checkpoint.
 - **Images:** none required; a licensed photograph of a UK tin's VOC panel only if one is found (G-N4).
 - **Sources:** Part B §4 (EPA VOCs, SI 2012/1715, Dulux), §2 (HSE stepladders); Part D D19, D20 (via
-  lesson 13), D45; gates G-R1, G-R2, G-R3.
-- **Connects:** lessons 10 and 13. Leads to lesson 17 (hiring a decorator; lead-safe certified in the
+  lesson 15), D45; gates G-R1, G-R2, G-R3.
+- **Connects:** lessons 12 and 15. Leads to lesson 19 (hiring a decorator; lead-safe certified in the
   US).
-- **Spaced review of:** lesson 13's lead rules, applied; lesson 9's masks and vapour.
+- **Spaced review of:** lesson 15's lead rules, applied; lesson 11's masks and vapour.
 - **Neutrality:** none contested; Dulux labelled as a maker's page (decision 10).
 
-### 15. Pests: find the cause, then control it (~80 min)
+### 17. Pests: find the cause, then control it (~80 min)
 
 - **Objectives:** apply integrated pest management's four steps to a described pest problem; deal with
   mice or rats in the CDC's order (seal up, trap up, clean up), with its clean-up precautions, and state
@@ -1560,13 +1672,13 @@ ones.*
   to teach the signs.
 - **Sources:** Part B §5 (CDC, EPA rodenticides, HSE, CRRU, EPA IPM, EPA bed bugs, UC IPM, DeVries x2, EPA
   termites, NHM, Babergh, NHS, BPCA, NPMA note); gates G-L14, G-R4, G-R5.
-- **Connects:** lessons 11 and 12 (damp and gaps); Cooking Fundamentals lesson 4 (food storage hygiene
-  stays there). Leads to lesson 17 (hiring a pest controller).
-- **Spaced review of:** lesson 12's moisture-first rule; lesson 11's outside walk-round.
+- **Connects:** lessons 13 and 14 (damp and gaps); Cooking Fundamentals lesson 4 (food storage hygiene
+  stays there). Leads to lesson 19 (hiring a pest controller).
+- **Spaced review of:** lesson 14's moisture-first rule; lesson 13's outside walk-round.
 - **Neutrality:** glue traps' humaneness described as a value question; woodworm attributed; the pest
   trade's commercial position not characterised from snippets. **Neutrality pass in review.**
 
-### 16. Who may do what: reserved work, and the argument about licensing (~95 min; seam: split at "Does licensing make work safer?" if the draft passes 100)
+### 18. Who may do what: reserved work, and the argument about licensing (~95 min; seam: split at "Does licensing make work safer?" if the draft passes 100)
 
 **A contested-question lesson. It gets the neutrality audit** (decision 17), whatever tier the rest of
 the course runs at, and its second half is not drafted until gates G-L3 and G-N2 close.
@@ -1605,7 +1717,7 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
   owner-builder, personally signing the permit, the one-year presumption and the disclosure statement's
   insurance line; Washington's property-owner permit and its 12 months; New York City's licensed trades
   even for permit-exempt work; the model codes named only as "the model codes that states adopt", gate
-  G-L1). **Gas, recalled** (lesson 7's exact position, one paragraph, spaced). **Why this course teaches
+  G-L1). **Gas, recalled** (lesson 9's exact position, one paragraph, spaced). **Why this course teaches
   no wiring** (decision 7's paragraph, labelled as the course's scope decision). **Does licensing make work
   safer?** (the seam). The contested block, standards 3.1 kind 2, and the value block, kind 3:
   - *The evidence the course read*: the 2015 federal report (C33), attributed to its three authoring
@@ -1616,7 +1728,7 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
     the severity of injuries suffered among electricians"; oral examination or experience requirements
     "associated with fewer per capita electricians"; **and the same report's endorsement of licensing
     aimed at "legitimate public health and safety" concerns**, so the report is never presented as simply
-    against licensing. The NFPA and ESF figures from lesson 5, with decision 11's scope notes: neither
+    against licensing. The NFPA and ESF figures from lesson 6, with decision 11's scope notes: neither
     measures the risk of unlicensed or DIY work.
   - *The case for licensing, in its proponents' own words* (gate G-N2; with ESF's "Any electrical work
     should be left to competent professionals" and its survey of electricians, attributed as a campaigning
@@ -1657,14 +1769,14 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
 - **Images:** the four-nations table and the five-places table (tables, not charts).
 - **Sources:** Part C C1 to C12, C18 to C28, C30 to C33, and (d); synthesis findings 1 to 6, the gas
   section, contested questions 2, 3 and 16; Part D D34 (ESF DIY); gates G-L1 to G-L11, G-N2, G-G2.
-- **Connects:** lessons 5 and 7 (the jobs); Logic and Argument lesson 7 (charity) and lesson 9 (relative
+- **Connects:** lessons 5, 6 and 9 (the jobs); Logic and Argument lesson 7 (charity) and lesson 9 (relative
   risk into absolute, for "two out of 12 studies"); Digital Literacy's lateral reading (checking a claim
-  on the body's own site). Leads to lesson 17 (hiring by the rules this lesson set out).
-- **Spaced review of:** lesson 7's gas law; lesson 5's panel and volt stick; the job labels.
+  on the body's own site). Leads to lesson 19 (hiring by the rules this lesson set out).
+- **Spaced review of:** lesson 9's gas law; lesson 5's panel and volt stick; the job labels.
 - **Neutrality:** the core of the course's neutrality risk (see "Neutrality notes"). **Tier B split
   review; full neutrality audit** (decision 17). Every legal statement re-read live (decision 9).
 
-### 17. Hiring a tradesperson, and when to stop (~85 min)
+### 19. Hiring a tradesperson, and when to stop (~85 min)
 
 - **Objectives:** decide when a job has passed the point to stop and call someone, using the course's
   stop rules gathered from every lesson; check a tradesperson's registration, licence, insurance and
@@ -1674,12 +1786,12 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
   and the payment demands to refuse.
 - **Core ideas:** the reason to care: most of this course ends, somewhere, in "call someone", and the
   someone is where money and harm meet. **The stop rules, gathered** (the "Call someone" jobs from
-  lessons 1 to 16, one table: gas work; inside a panel; a breaker that keeps tripping; a boiler repair;
+  lessons 1 to 18, one table: gas work; inside a panel; a breaker that keeps tripping; a boiler repair;
   asbestos; mould over the size limit; roof work; the outside water valve; the T&P test if you'd rather
   not). **Checking** (Citizens Advice, England: two or three recent references and speak to the customers
   yourself, "written references aren't always genuine"; ring the business; check membership on the
   scheme's own site; be wary of a mobile number only; TrustMark as it describes itself; FMB: some claim
-  membership "when they're not"; the Gas Safe card and its categories, lesson 7; HETAS-approved sweeps;
+  membership "when they're not"; the Gas Safe card and its categories, lesson 9; HETAS-approved sweeps;
   WaterSafe plumbers; BPCA's criteria; the US: FTC, "use only licensed and insured contractors", confirm
   the licence with the state or county; CSLB as one state's board; EPA: separate firms for asbestos
   inspection and removal, a lead-safe certified contractor). **Quotes and estimates** (Citizens Advice:
@@ -1727,28 +1839,34 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
   certified); gates G-L12, G-L13, G-H2.
 - **Connects:** Personal Safety lesson 5; Personal Finance lessons 8 and 10; Digital Literacy's lateral
   reading; every earlier lesson's "Call someone" jobs. The project.
-- **Spaced review of:** lesson 7's card check; lesson 16's jurisdiction worksheet; lesson 13's certified
+- **Spaced review of:** lesson 9's card check; lesson 18's jurisdiction worksheet; lesson 15's certified
   contractors.
 - **Neutrality:** none contested; no scheme endorsed (decision 10).
 
 ## Assessments
 
 - **Course-end test: 24 items, at least 17 application, every item a scenario not used in a lesson.**
-  Blueprint: lesson 1 (1: the shut-off and burst-pipe order for a described home, with electrics near
-  water), 2 (2: read a meter-test and dye-test result and name the leak; the thaw order for a named
-  country), 4 (1: diagnose a smell or gurgle from the seal and vent), 5 (2: which device protects what, in
-  a described fault; reset once, investigate, or call, for a device that keeps tripping), 6 (1: a cold
-  radiator top or bottom, with the pressure after bleeding), 7 (2: the leak steps for a named country;
-  the exact gas-law position for a described householder or friend, Great Britain), 8 (2: the order of
-  CO protection or a generator plan; CO alarm siting in a named jurisdiction), 9 (1: a detector's or a
-  mask's limit in a described job), 10 (2: a ladder setup by the numbers for a named country; the securing
-  order), 11 (1: trace a damp patch or a wet basement to its likely outside cause), 12 (1: diagnose a kind
-  of damp, or what a meter reading on an old wall can and can't show), 13 (2: the law and the advice on a
-  householder and asbestos, together; the lead-safe choice for a described job with its source), 14 (1:
-  new plaster, or reading a VOC label), 15 (1: IPM or foggers against baits), 16 (2: notifiable or
-  comply-only for a job in a named UK nation; what the federal report found and did not show about
-  licensing, **never which side is right**), 17 (2: cancellation rights for a described contract,
-  including the urgent-repairs exclusion; the California deposit or a lien). **Every law item names its
+  Blueprint (renumbered for nineteen lessons on 2026-09-25, still 24 items, with lessons 2, 5 and 12
+  trimmed from two items to one to give lessons 3, 6 and 8 one each): lesson 1 (1: the shut-off and
+  burst-pipe order for a described home, with electrics near water), 2 (1: read a meter-test and
+  dye-test result and name the leak, or the thaw order for a named country), 3 (1: a dripping tap
+  diagnosed as a washer or ceramic-disc tap, or a running toilet in a named country, and whose fix it
+  is), 4 (1: diagnose a smell or gurgle from the seal and vent), 5 (1: which device acted in a described
+  fault, and reset once, take the appliance out of use, or call, for a device that keeps tripping), 6
+  (1: a replacement plug fuse and what a second blow means, or a lead's limits in a described room), 7
+  (1: a cold radiator top or bottom, with the pressure after bleeding), 8 (1: the scald and legionella
+  trade-off for a described household, or what a weeping T&P valve or dripping tundish calls for), 9
+  (2: the leak steps for a named country; the exact gas-law position for a described householder or
+  friend, Great Britain), 10 (2: the order of CO protection or a generator plan; CO alarm siting in a
+  named jurisdiction), 11 (1: a detector's or a mask's limit in a described job), 12 (1: a ladder
+  setup by the numbers for a named country, or the securing order), 13 (1: trace a damp patch or a wet
+  basement to its likely outside cause), 14 (1: diagnose a kind of damp, or what a meter reading on an
+  old wall can and can't show), 15 (2: the law and the advice on a householder and asbestos, together;
+  the lead-safe choice for a described job with its source), 16 (1: new plaster, or reading a VOC
+  label), 17 (1: IPM or foggers against baits), 18 (2: notifiable or comply-only for a job in a named UK
+  nation; what the federal report found and did not show about licensing, **never which side is
+  right**), 19 (2: cancellation rights for a described contract, including the urgent-repairs
+  exclusion; the California deposit or a lien). **Every law item names its
   jurisdiction and asks which rule applies, never whether something is legal for the reader (decisions 9
   and 18). No item's correct answer is gas work, a wiring step or anything decision 1 bars.** No item's
   correct answer depends on a gate that did not close. Keys chosen by script under the rule in the
@@ -1758,19 +1876,20 @@ the course runs at, and its second half is not drafted until gates G-L3 and G-N2
   the parts that don't change anything and notes the rest for the landlord (decision 15). Deliverable:
   1. **The shut-off map** (lesson 1): where each shut-off is, how it operates, how long the stop tap took,
      any that were stiff, the consumer unit or panel labelled.
-  2. **The emergency cards** (lessons 1 and 7): burst pipe; smelling gas, for your own country only; a
+  2. **The emergency cards** (lessons 1, 5 and 9): burst pipe; smelling gas, for your own country only; a
      device that keeps tripping.
   3. **The calendar**: monthly, spring and autumn, and yearly items, drawn from UGA Circular 1082 and the
      UK sources, adapted to your home and climate, each item with its job label and its source. It must
-     include at least: alarm tests and replacement dates (lesson 8); boiler or furnace service and
-     chimney sweep (lessons 6, 7, 8); filters (lesson 6); the stop tap check (lesson 1, Met Office); the
-     RCD or GFCI test (lesson 5); gutters, downpipes and ground (lesson 11); vents and extractors (lesson
-     12); pipes before winter (lesson 2); the pest walk-round (lesson 15).
-  4. **The stop list** (lessons 5, 7, 13, 16): the jobs you will not do, each with the rule behind it,
+     include at least: alarm tests and replacement dates (lesson 10); boiler or furnace service and
+     chimney sweep (lessons 7, 9, 10); filters (lesson 7); the stop tap check (lesson 1, Met Office); the
+     RCD or GFCI test (lesson 5); the plug-and-lead audit (lesson 6); the tap temperature and the water
+     heater's own valve and draining intervals (lesson 8); gutters, downpipes and ground (lesson 13); vents and extractors (lesson
+     14); pipes before winter (lesson 2); the pest walk-round (lesson 17).
+  4. **The stop list** (lessons 5, 6, 8, 9, 15, 18): the jobs you will not do, each with the rule behind it,
      law or advice, whose and where.
-  5. **The call list** (lesson 17): each trade you might need, and how you would check them in your
+  5. **The call list** (lesson 19): each trade you might need, and how you would check them in your
      jurisdiction.
-  6. **One repair, written up** (lessons 2 to 6 or 14): diagnosis, isolation, the fix, the check, and what
+  6. **One repair, written up** (lessons 2 to 8 or 16): diagnosis, isolation, the fix, the check, and what
      would have made you stop; or, if nothing needs fixing, a written plan for the likeliest one.
   **Rubric:** each part complete for the reader's jurisdiction; every calendar item labelled and sourced;
   stop list consistent with the reader's nation or state; repair write-up in the right order with a stop
@@ -1794,30 +1913,30 @@ advice, decision 5); that neither country's advice is called wrong (decision 3);
 advice sit together where they differ (decision 8); and that no mechanism or method was added from
 general knowledge (decision 13).
 
-- **Occupational licensing** (lesson 16). Contested empirical (economics). Both sides in their proponents'
+- **Occupational licensing** (lesson 18). Contested empirical (economics). Both sides in their proponents'
   own words (gates G-N2 and G-L3); the federal report's findings and its own endorsement of targeted
   licensing both reported; no side's evidence called weak in the course's voice; what would settle it
   said. **Full neutrality audit** (decision 17), checked against a licensing proponent, a deregulation
   proponent and a householder.
-- **Householders doing their own electrical work** (lesson 16). Value question. The rules differ
+- **Householders doing their own electrical work** (lesson 18). Value question. The rules differ
   (established); ESF's position and the other side's (G-L4) described, not resolved. The course's own
   decision not to teach wiring is stated as a teaching judgement about what a page can check, not as a
   position on the value question.
-- **The gas law and Gas Safe's "both parties" line** (lesson 7). Law stated exactly; the Register's
+- **The gas law and Gas Safe's "both parties" line** (lesson 9). Law stated exactly; the Register's
   interpretation attributed or omitted (G-G1). The Register is not criticised for saying it.
-- **Rising damp** (lesson 12). Contested empirical (frequency and treatment). The PCA and the RICS-reported
+- **Rising damp** (lesson 14). Contested empirical (frequency and treatment). The PCA and the RICS-reported
   thesis, and the sceptics as quoted, each in their own words; the 2022 JPS signed by both as common
   ground; GOV.UK's "often misdiagnosed" as the official English line, attributed. The trade body's
   interest is stated only as the JPS itself frames declared interests, without insinuation; no verdict.
 - **Flushable wipes** (lesson 4). WRc's dissent and the decision to end Fine to Flush, each attributed.
-- **Hot water temperature** (lesson 6). Two established hazards; the trade-off described.
-- **Bleach and mould** (lesson 12). Minor contested practice; each body attributed.
-- **Asbestos cement removal; lead testing** (lesson 13). Law established; advisability a value
+- **Hot water temperature** (lesson 8). Two established hazards; the trade-off described.
+- **Bleach and mould** (lesson 14). Minor contested practice; each body attributed.
+- **Asbestos cement removal; lead testing** (lesson 15). Law established; advisability a value
   judgement where every official source says the same; stated together.
-- **Glue traps and woodworm** (lesson 15). Glue traps' humaneness a value question; woodworm's commercial
+- **Glue traps and woodworm** (lesson 17). Glue traps' humaneness a value question; woodworm's commercial
   treatment view not characterised from snippets.
-- **Deposits** (lesson 17). California's law and England's guidance kept apart, neither called better.
-- **Damp and blame** (lessons 11, 12). GOV.UK's no-blame statement first, then the adjustments; no
+- **Deposits** (lesson 19). California's law and England's guidance kept apart, neither called better.
+- **Damp and blame** (lessons 13, 14). GOV.UK's no-blame statement first, then the adjustments; no
   sentence implies the occupant caused it.
 - **Trade bodies, charities and makers.** ESF (a campaigning charity), the PCA (a trade body), WRc
   (which ran the scheme it defends), Thames Water (its commissioned survey), Dulux, Worcester Bosch,

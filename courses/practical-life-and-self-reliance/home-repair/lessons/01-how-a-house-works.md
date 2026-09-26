@@ -133,7 +133,7 @@ This course is education, not a trade qualification, and not legal advice about 
 :::
 
 That box opens every lesson in this course, word for word. Its gas advice splits by country on
-purpose: British gas networks and American gas utilities give different first steps, and lesson 7,
+purpose: British gas networks and American gas utilities give different first steps, and lesson 9,
 "Gas: the smell, the valve, the law and the engineer", sets them side by side. Follow your own
 country's.
 
@@ -173,7 +173,7 @@ GFCIs to protect the person. Lesson 5, "Electricity: what trips, and why", takes
 **Fuel in, combustion products out.** Gas (or oil, or wood) comes in, burns in a boiler, a
 furnace, a cooker or a fire, and what is left after burning has to leave by a flue (the pipe or
 duct that carries it outside) or a chimney. The gas has a shut-off at the meter. The way out has no
-switch to find, and lesson 8, "Carbon monoxide, smoke and the alarms that warn you", is about
+switch to find, and lesson 10, "Carbon monoxide, smoke and the alarms that warn you", is about
 keeping it working.
 
 That gives you three controls to find: water, power and gas.
@@ -276,7 +276,7 @@ Two more facts go wherever electricity does in this course. First, a pocket "vol
 that stays silent proves nothing: Britain's Health and Safety Executive (HSE), in its guidance for
 people who work on electrical systems, says the use of "non-contact devices such as 'volt sticks'"
 is not recommended for proving a circuit dead.[10] Second, the course teaches no wiring at all.
-Lesson 16, "Who may do what: reserved work, and the argument about licensing", explains which electrical work the law lets a householder do in each UK nation and in five
+Lesson 18, "Who may do what: reserved work, and the argument about licensing", explains which electrical work the law lets a householder do in each UK nation and in five
 US places, and teaches the procedure for none of it. This is the course's decision about what a page
 can check, not a claim that the work is unlawful wherever you are.
 
@@ -329,7 +329,7 @@ strongly advises that all gas appliances, flues and pipework should be installed
 maintained and serviced at least annually by a Gas Safe registered engineer."[18] [Gas
 Safe](https://web.archive.org/web/20251023004454/https://www.gassaferegister.co.uk/gas-safety/home-gas-safety/home-improvements/)
 says "Don’t DIY with gas appliances, always use a Gas Safe registered engineer", and that a
-householder can do the tasks the maker's user instructions give the user.[19] Lesson 7 has the
+householder can do the tasks the maker's user instructions give the user.[19] Lesson 9 has the
 rest.
 
 ## When a pipe bursts
@@ -544,8 +544,8 @@ calendar: **try the stop tap every six months**, the Met Office's interval.[2]
 
 Next, lesson 2, "Water in: supply, leaks and frozen pipes",
 goes to the other side of the stop tap, and lesson 3, "Taps and toilets", to the tap that drips and
-the toilet that runs. Lessons 5 and 7 come back to the consumer unit and the gas meter in full, and
-lesson 16 is where "law or advice, whose, and where?" becomes the whole subject.
+the toilet that runs. Lessons 5 and 9 come back to the consumer unit and the gas meter in full, and
+lesson 18 is where "law or advice, whose, and where?" becomes the whole subject.
 
 ## Go deeper
 

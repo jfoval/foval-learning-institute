@@ -3915,3 +3915,144 @@ the date:
 - Con Edison: "Leave immediately and take others with you." [V] "Call 911 or 1-800-752-6633." [V] "Don’t light a match, smoke, flip a switch, ring a doorbell, or touch appliances or electronics, including your phone." [V] SoCalGas: "IMMEDIATELY EVACUATE THE AREA and call us from a safe location" [V]; "DO NOT turn electrical appliances or lights on or off" [V]. Atmos: "If you suspect a leak, call 911 and Atmos Energy from a safe distance" [V]; no switch advice in the extracted text, so "every source says don't touch a switch" is not true of Atmos or of HSE's page.
 - Approved Document H 2015: "Under working and test conditions traps should retain a minimum seal of 25mm of water or equivalent." [V] (the qualifier is "working and test", not "working" alone); para 1.29 "discharge stacks should be ventilated" [V].
 - ASHI: "Vent piping allows air into the system so drains flow easily." [V] Goodlife Centre: "Plumbing = water in and water out." [V] UGA Circular 1082, "Reviewed June 2021": "label switches if needed." [V]
+
+## Gate closures, lesson 06 (2026-09-25)
+
+Read by the lesson 6 drafter on 2026-09-25, curl with a browser User-Agent plus pandoc (HTML) or
+pdftotext (PDF); Internet Archive captures through the `id_` raw form. Every [V] below was
+string-checked against the extracted text on the day. The draft passed 100 measured minutes and
+was split at the heating / hot water seam (lesson 6, "Heating: boilers, radiators and furnaces";
+the hot water half held for the orchestrator), so some items below are used by that second half.
+
+### G-W7 closed: boiler pressure for other makes, and repressurising
+
+**Worcester Bosch, *System Filling Guide*** (https://www.worcester-bosch.co.uk/files/news/System_filling_guide.pdf),
+linked from the pressure FAQ in Part A §5. Eight pages; the file carries "03/05/2016". Read: full
+text. A maker's guide for its own boilers.
+- "A sealed system relies on an operating pressure of between 1 and 1.5 bar to deliver heating and hot water at a consistently comfortable and reliable level." [V] (the layout splits it across a diagram; the words are in this order)
+- Three filling methods "depending on which the installer has fitted": an external filling link ("A looped hose method"), a keyed filling link and a keyless filling link, the last two "found beneath and to the right of the boiler". [V for the quoted words]
+- "Watch the gauge closely as the system fills. It may fill quite quickly so be ready to shut off the link when the needle is between 1 and 1.5 bar." [V]
+- "If the pressure is or rises above 1.5 bar. Bleed a radiator until the pressure gauge returns to between 1 and 1.5 bar." [V] (sic, full stop after "bar")
+- If refilling is needed "on a very regular basis, a plumber should be called to check for leaks in pipes or more likely, radiator valves." [V]
+- It also gives a customer service number for a spare filling key; not used and not re-read.
+
+**Ideal Heating, "Topping up the pressure on your Ideal Boiler"** (https://idealheating.com/tips-and-advice/topping-up-boiler-pressure).
+Read: full text. A maker, about its own boilers.
+- "The following guidance is intended for combi boilers where the filling loop or filling controls are clearly identifiable underneath or built into the boiler." [V]
+- System and heat-only boilers with an external filling loop: "contact your installer or a suitably qualified heating engineer for assistance." [V]
+- "A central-heating system can need repressurising once or twice a year without this indicating a boiler fault." [V] Small losses when air leaves by automatic air vents, when radiators are bled, through heating and cooling, and through tiny amounts at valves and joints.
+- "The pressure gauge measures the pressure within the whole central-heating circuit, not just the boiler." [V]
+- "It becomes more likely that there is a fault when the pressure drops repeatedly over a period of days or weeks, falls to zero, or requires frequent topping up." [V]
+- "Switch the boiler off and allow the heating system to cool. The system pressure should be checked and adjusted while the boiler is cold." [V]
+- "The normal cold operating pressure is between 1.0 and 1.5 bar." [V]
+- "Only continue if you can clearly identify the correct filling controls. Do not operate unidentified valves underneath the boiler." [V]
+- "Open them gradually, as the pressure may rise quickly." [V]; at about 1.0 to 1.5 bar cold, return the valves; "Leaving a filling valve partially open may cause the system pressure to continue rising." [V]
+- "The pressure may rise slightly while the heating is operating. This is normal" [V]
+- Contact Ideal if "The pressure drops repeatedly over days or weeks" [V], falls to zero, needs topping up more than once or twice a year, rises too quickly, will not increase, or water leaks from the boiler. Contact the installer or "local Gas Safe engineer" [V] for an external loop, a removed hose, controls you can't identify, leaks from radiators or pipework, or recent work.
+- "We recommend checking your system for visible leaks, weeping valves or wet patches along pipework regularly." [V]
+- The page footer carries a gas-leak line ("ventilate your home, shut off the gas, and call 0800 111 999"); not used.
+
+**Baxi, "What should my boiler pressure be set at?"** (https://www.baxi.co.uk/help-and-advice/faqs/what-should-my-boiler-pressure-be-set-at).
+Read: full text. A maker, about its own boilers.
+- "The normal operating water pressure for your boiler and central heating system is between 1.0 and 2.0 bar." [V]
+- "If the pressure drops below 1.0 bar, you need to repressurise it." [V]
+- When heating, the needle "should not go higher than about 2.5 bar" [V]; if too high, a safety valve discharges water; bleeding radiators may bring it down.
+- **So the makers differ:** Worcester Bosch, Vaillant and Ideal give 1 to 1.5 bar cold; Baxi gives 1.0 to 2.0 as its normal operating range. The lesson says so and sends the reader to their own boiler's manual.
+
+**Worcester Bosch pressure FAQ and bleed page, Vaillant bleed page: re-read on the live pages.**
+Text as recorded in Part A §5 and Part B §3. Additional [V] lines from Vaillant's "How to bleed a
+radiator":
+- "While this typically affects unvented systems more frequently, it can - and will - happen to every home heating system at some point." [V] (not used; the page's spaced hyphens)
+- "wait approximately 1 hour (or 2 hours to be cautious)" [V]; "All thermostat valves need to be open." [V]
+- "For reference, it looks like a small, round hole with a little square inside." [V]
+- "A quarter to half a turn should be sufficient to open the valve enough for air to escape." [V]
+- "Don't close the valve too tight, otherwise you might damage it." [V]
+- "Air will naturally rise as it is lighter than water, so bleed all radiators in the ground floor before heading upstairs if you have a multi-story property." [V]
+- "If you have to repeatedly bleed radiators, then discuss this with your installer when the boiler is serviced as there may be an underlying problem." [V]
+- FAQ: "Additionally, the oxygen in the air in the system causes corrosion which can result in leaking and debris in your radiators." [V]
+- Worcester Bosch bleed page: "Keep the radiator key turned until water starts to flow steadily and then turn the radiator key clockwise to close the valve." [V]
+
+**Vaillant, "Why is my radiator not working?"** (https://www.vaillant.co.uk/advice/heating-tips/home-advice/why-is-my-radiator-not-working/).
+Read: full text. Used only for: if the entire radiator isn't heating and shows no sign of trapped
+air, check the valve setting; a valve "blocked by sludge or limescale" [V] is for a professional
+heating engineer. **Not used, and a drafter should not use it:** its pressure paragraph calls the
+gauge a display of "the level of water pressure being sent to the boiler from the mains" [V] and
+says the correct level "is usually set at 1 bar" [V], which conflicts with Vaillant's own bleed page.
+
+**Vaillant, "Hot water tank temperature"** (https://www.vaillant.co.uk/advice/heating-tips/home-advice/hot-water-tank-temperature/).
+Read: full text. Used only for vented and unvented cylinders:
+- A vented cylinder "is fed by a cold water storage tank (usually in the loft or airing cupboard)." [V]
+- An unvented one: "The water in the tank is fed directly from the cold water mains. It doesn’t require a cold water storage tank." [V]
+- **Not used:** its 60°C to 65°C recommendation and "below 50°C" legionella line (a maker's figures on a health question; HSE is the source used), and its statement that tanks "are now required by law to be fitted with a thermostat" [V], which cites no provision.
+
+**Vaillant, "What is a tundish?"** (https://www.vaillant.co.uk/advice/heating-tips/home-advice/what-is-a-tundish/).
+Read: full text. About unvented systems.
+- "A tundish is a device placed close to the pressure release valve that allows people to see if water has escaped the system due to excessive water pressure." [V]
+- "It is important to call a qualified boiler engineer if your tundish is dripping. This is a sign that either there is a fault with the pressure release valve or water pressure in the system is rising too high." [V]
+- **Not used:** "it is illegal to make adjustments to a boiler system without proper training, as determined by the Local Authority Building Control" [V] (no provision cited; it would contradict the gas-law convention if repeated) and its building-regulations detail (the document it names is on the unread line).
+
+### G-W1 closed for one maker: the T&P valve and tank flushing
+
+**A. O. Smith, *Residential Gas Water Heaters, Direct Vented Gas Models: Installation and Operating Manual*, 326940-001**
+(https://assets.aosmith.com/damroot/Original/10001/326940.pdf), PDF created May 2014 (code 1404).
+Read: the sections on thermal expansion, the temperature-pressure relief valve and its test,
+temperature regulation, maintenance, and draining, refilling and flushing; the rest searched. A
+maker's manual for its own heaters; not a general rule.
+- "The purpose of a temperature-pressure relief valve is to prevent excessive temperatures and pressures in the storage tank." [V]
+- "It is recommended that the temperature-pressure relief valve be checked to ensure it is in operating condition at least once a year." [V] Elsewhere: "The T&P valve must be manually operated at least once a year." [V]
+- Warnings: "water may be extremely hot" [V]; "Use care when operating valve as the valve may be hot." [V]
+- If the valve fails to reset "and continues to release water, immediately close the cold water inlet to the water heater and drain the water heater" [V], and replace the valve.
+- "Excessive water pressure is the most common cause of temperature-pressure relief valve leakage. Excessive water system pressure is most often caused by “thermal expansion” in a “closed system.”" [V] "The T&P valve is not intended for the constant relief of thermal expansion." [V] An expansion tank "must be installed on all closed systems"; "Contact a plumbing service agency or your retail supplier regarding the installation of a thermal expansion tank." [V]
+- "Do not plug, block, or cap the discharge line." [V]
+- "It is recommended that the tank be drained and flushed every 6 months to remove sediment which may build up during operation." [V]
+- "FOR YOUR SAFETY AND SATISFACTORY OPERATION, IT IS RECOMMENDED THAT THIS HEATER BE CHECKED ONCE A YEAR BY A COMPETENT SERVICE PERSON." [V]
+- Temperature: "The preferred starting point is 120°F at the “HOT” setting." [V] "Important: Adjusting the thermostat past the 120°F mark on the temperature dial will increase the risk of scald injury." [V]
+- The manual prints a burn-time table credited to a 1978 CPSC memorandum; its figures differ from CPSC 5098's and **are not used** (the lesson keeps to CPSC 5098 alone).
+
+### G-W6 partly closed: mixing valves, one US maker's mention
+
+A. O. Smith's manual (above): "Valves for reducing the point-of-use temperature by mixing cold and
+hot water are available (see Figure 8). Also available are inexpensive devices that attach to
+faucets to limit hot water temperatures. Contact a licensed plumber or the local plumbing
+authority." [V] No UK source on thermostatic mixing valves was read; the gate stays open for the UK.
+
+### Filters: a maker's method, and ENERGY STAR re-read
+
+**ENERGY STAR, "Maintenance Checklist"**, re-read live. As Part A §5, and the sentence after the
+filter line: "Inspect, clean, or change air filters once a month in your central air conditioner, furnace, and/or heat pump. Your contractor can show you how to do this." [V]
+
+**Carrier, "Furnace Filter Replacement: The How & Why of Changing Furnace Filters"**
+(https://www.carrier.com/us/en/residential/hvac-resources/furnaces/changing-furnace-filters/).
+Read: full text. A US furnace maker's page, with product promotion; used only for the method.
+- Buy a filter "that matches the size required by your unit." [V]
+- Steps: locate it (blower compartment or the duct into the furnace); turn the system off at the thermostat or the power switch on the outside of the cabinet; open the access panel; note the arrow; "Air should flow from the ductwork into the furnace." [V]; slide it out; fit the new one with the arrows the same way, "toward the blower motor" [V]; close the panel; power on.
+- Its intervals ("about every three months", 1-inch filters about monthly) are Carrier's; the lesson uses DOE's and ENERGY STAR's.
+
+### Re-read at drafting
+
+- **CPSC 5098** re-read (PDF): text as Part A §1. Also: "The majority of injuries and deaths involving tap water scalds are to the elderly and children under the age of five." [V] The check: "hold a candy or meat thermometer under faucet for most accurate reading first thing in the morning or at least two hours after water use." [V] Gas water heaters: "call your local gas company for instructions." [V] Electric: "Call your local electric company to adjust the thermostat." [V] (the sheet is in two columns; pdftotext interleaves them, and the words read in column order)
+- **HSE, "Legionella and landlords' responsibilities"** re-read live, full text. Beyond Part A §1:
+  - "Legionnaires' disease is a potentially fatal form of pneumonia caused by the inhalation of small droplets of contaminated water containing legionella. All man-made hot and cold water systems are likely to provide an environment where legionella can grow." [V]
+  - "The risks from hot and cold water systems in most residential settings are generally considered to be low owing to regular water usage and turnover." [V]
+  - "For most domestic hot and cold water systems, temperature is the most reliable way of ensuring the risk of exposure to legionella bacteria is minimised" [V] (the sentence continues after a spaced dash: "keep the hot water hot, cold water cold and keep it moving." [V])
+  - "The risk is further lowered where instantaneous water heaters (for example combi boilers and electric showers) are installed because there is no water storage." [V]
+  - Tenants should "not adjust the temperature setting of the calorifier" [V] and should "inform you as the landlord if the hot water is not heating properly or there are any other problems with the system" [V].
+  - Empty properties: "outlets on hot and cold water systems should be used at least once a week to maintain a degree of water flow and minimise the chances of stagnation." [V] "consideration should be given to implementing a suitable flushing regime or other measures such as draining the system if it is to remain vacant for long periods." [V]
+  - "Health and safety law does not require landlords to obtain or produce a ‘legionella test certificate’." [V]
+  - Scope: the page is written for landlords in Great Britain and says nothing about owner-occupiers.
+- **Energy Saving Trust, "Boilers"** (capture 20260919232017) and **"The most economical ways to use your central heating"** (capture 20260417064839), re-read from the captures. Also: "Heating and hot water accounts for over half of what you spend in a year on energy bills" [V]; the room thermostat "turns the heating on until the room reaches the temperature you’ve set. Once it reaches the set temperature, it turns the heating off until the temperature drops again." [V]; "room thermostats need a free flow of air" [V]; the boiler's dial "sets the temperature of the water that’s pumped from the boiler through the radiators to heat your home. This is known as the boiler flow temperature." [V] The TRV scale line carries a spaced en dash ("0 – 6"); the lesson paraphrases it.
+- **DOE Energy Saver captures** 20250102062644, 20250102062920, 20241215045250, 20250102084025 re-read: text as Part A §1 and §5.
+- **Gas Safety (Installation and Use) Regulations 1998, regulation 3**, re-read on legislation.gov.uk: 3(1) and 3(3) as recorded in "The gas-work law, stated exactly".
+
+### G-N4, one photograph
+
+**Wikimedia Commons, "File:Radiator sleutel.jpg"** (https://commons.wikimedia.org/wiki/File:Radiator_sleutel.jpg),
+by Sil10napel, own work, 11 August 2020, licence **CC BY-SA 4.0**, checked through the Commons API
+on 25 September 2026. It shows a radiator bleed valve with a square recess and the key beside it.
+Viewed; no brand visible. (A public-domain photo of a key alone, "File:Radiator bleedscrew.jpg",
+was also checked and not used.)
+
+### Gates left open
+
+G-W10 (EST savings in pounds): left out. G-L11 (the building regulations document on unvented hot
+water): not read, not named. No US tank water heater page from DOE could be read.

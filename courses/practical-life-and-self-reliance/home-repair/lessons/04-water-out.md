@@ -616,7 +616,7 @@ with drainage as the one that falls by gravity and has no shut-off, and the cour
 labels. Lesson 2, "Water in: supply, leaks and frozen pipes", dealt
 with the pressurised side and whose pipe the supply is; this lesson asked the same ownership
 question of the pipes that take water away. First Aid and CPR lessons 10 and 14 own what to do
-when a chemical hurts someone. Ahead, lesson 12, "Damp inside: condensation, mould, ventilation and
+when a chemical hurts someone. Ahead, lesson 14, "Damp inside: condensation, mould, ventilation and
 rising damp", comes back to water that goes where it shouldn't inside a house, and takes up bleach and
 mould, where the CDC's never-mix line comes from.
 

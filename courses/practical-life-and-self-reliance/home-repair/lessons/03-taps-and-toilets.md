@@ -177,7 +177,7 @@ take a few minutes to stop the water altogether, so give it that.[5] Southern Wa
 why a tap might keep running beyond that, and this course will not guess. The Energy Saving Trust
 says a regular boiler has two extra header tanks to store cold water, usually installed in the
 loft,[6] but no source read here says whether those tanks feed a tap that the stop tap doesn't
-control. Lesson 6, Heating and hot water, covers how those systems are laid out. Until you know how
+control. Lesson 7, Heating: boilers, radiators and furnaces, covers how those systems are laid out. Until you know how
 your hot water reaches the tap, a hot tap that won't stop is a reason to stop there and ask a
 plumber.
 
@@ -188,7 +188,7 @@ may take.[5] She should not unscrew anything.
 
 She should turn the hot tap off, then put the stop tap back on slowly, since WaterSafe says to turn
 a stop tap on and off slowly and never force it.[5] Then she can either find out how the hot water
-in that house is supplied (lesson 6) or call a plumber. Opening a tap that still has water behind
+in that house is supplied (lesson 7) or call a plumber. Opening a tap that still has water behind
 it is the mess Southern Water's first step is there to prevent.
 :::
 
@@ -402,8 +402,9 @@ leaflet decides which label a job gets.
 Lesson 1, How a house works, and where it switches off, gave you the stop tap and the three job
 labels. Lesson 2, Water in: supply, leaks and frozen pipes, gave you the meter test, the dye test and
 the arithmetic that says a drip matters. Lesson 4, Water out: traps, vents and blocked drains, goes
-to the other side of the plughole. Lesson 6, Heating and hot water, explains the hot side and the
-kinds of system, including the regular boiler's loft tanks.
+to the other side of the plughole. Lesson 7, Heating: boilers, radiators and furnaces, explains the
+kinds of system, including the regular boiler's loft tanks, and lesson 8, Hot water: scalds,
+legionella and the tank, asks how hot the water from the hot side should be.
 
 
 ## Go deeper
