@@ -1,6 +1,7 @@
 ---
 title: Burns, cuts and small injuries
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/10-burns-cuts-and-small-injuries.mp3
 objectives:
   - >-
     Sequence first aid for a heat burn under US and UK guidance, including how long to cool it and

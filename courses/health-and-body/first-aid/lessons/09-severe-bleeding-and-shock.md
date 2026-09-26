@@ -1,6 +1,7 @@
 ---
 title: Severe bleeding and shock
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/09-severe-bleeding-and-shock.mp3
 objectives:
   - >-
     Recognise life-threatening bleeding and sequence its control under AHA/Red Cross 2024 and RCUK
