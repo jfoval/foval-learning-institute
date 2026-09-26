@@ -853,6 +853,15 @@ function lintLessons() {
             fail(`${file}: Personal Safety lessons 15 and 16 carry the crisis callout word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
+        // Home Repair and Maintenance: every lesson carries the same safety callout, word for word:
+        // no gas work and no wiring taught, each country's gas-leak steps, isolate first, and that
+        // the reserved-work rules differ by nation and state. research/OUTLINE.md decision 4.
+        if (cdir.name === "home-repair" && path.basename(lessonsDir) === "lessons") {
+          const HOME_REPAIR_SAFETY = ":::callout Before you pick up a tool\nThis course is education, not a trade qualification, and not legal advice about your own home. It teaches no gas work and no wiring. If you smell gas in Great Britain, open doors and windows, turn the gas off at the meter if you can do it safely (not if the meter is in a cellar or basement), and call 0800 111 999; in Northern Ireland the number is 0800 002 001. In the US, leave straight away and call 911 or your gas utility once you're outside. In either country, don't light a flame or touch an electrical switch. Isolate the water or power before you open anything up, and if a breaker, RCD or GFCI keeps tripping, leave it off and call an electrician. Which jobs the law leaves to a registered or licensed trade differs between England, Wales, Scotland, Northern Ireland and each US state, and it changes.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(HOME_REPAIR_SAFETY))
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Home Repair lesson carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
@@ -1107,6 +1116,9 @@ const REPETITION_EXEMPT = [
   "the law differs between england and wales scotland northern ireland and each us state",
   // and its decision 9 general-information label, which every lesson touching the law repeats.
   "this is general information not legal advice",
+  // Home Repair's safety callout, which every lesson carries word for word.
+  "it teaches no gas work and no wiring",
+  "isolate the water or power before you open anything up",
   "the law differs by state and between england and wales scotland and northern ireland",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",

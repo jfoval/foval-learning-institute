@@ -17,20 +17,23 @@ description: >-
   and CPR and Personal Safety in Term 3.
 outcomes:
   - >-
-    Explain how water, drainage, electricity, gas and heating are laid out in a typical home, and
-    find and use the main shut-offs in an emergency
+    Explain how water, drainage, electricity, heating and gas are laid out in a typical UK or US home,
+    and find and use the main shut-offs in an emergency
   - >-
-    Choose and use a basic tool kit safely, including working at height on a ladder
+    Diagnose and carry out the common repairs the sources put in a householder's hands (a dripping tap,
+    a running toilet, a blocked sink, a cold radiator, a tripped circuit, a filled and painted wall) and
+    check the result
   - >-
-    Carry out common repairs (a dripping tap, a blocked drain or trap, a running toilet, a sticking
-    door, filling and painting a wall, bleeding a radiator, resetting a tripped circuit) and check
-    the result
+    Use a small tool kit, dust and eye protection and a ladder safely, and recognise hidden cables,
+    asbestos and old lead paint as reasons to stop
   - >-
-    Recognise damp, condensation, leaks, pests and failing seals early, and say what causes each
+    Explain what causes damp, condensation, mould, carbon monoxide and common pests, and what prevents
+    each
   - >-
-    Say which jobs the rules in the UK and in US states reserve for registered or licensed trades,
-    how to hire and check a tradesperson, and when to stop and call one
+    State which jobs the law in each UK nation and in named US states reserves for a registered or
+    licensed trade, and describe the argument over whether licensing makes work safer, each side in its
+    own terms
   - >-
-    Plan a seasonal maintenance schedule for your own home
-prerequisites: [first-aid]
+    Check and hire a tradesperson, and plan a seasonal maintenance schedule for your own home
+prerequisites: [first-aid, personal-safety]
 sensitive_domain: false

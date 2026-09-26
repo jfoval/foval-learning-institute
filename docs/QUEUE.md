@@ -48,7 +48,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   agree at its next edit); lessons 13, 15 and 16 run 100 to 110 minutes.
   **Home Repair and Maintenance is drafting** (2026-09-25), the sixth of Term 3: Stage 1 is done,
   `research/SOURCES.md` (UK and US side by side; the gas-work law quoted exactly), then the outline.
-  Its licensing lesson gets the neutrality pass though the course is not flagged sensitive.
+  Outline done: 16 lessons (`research/OUTLINE.md`), briefs and conventions in
+  `research/pipeline-briefs.md`; the build enforces its safety callout. **Research gaps, none
+  blocking:** fitting a lock (Personal Safety's outline gave locks to this course, but Stage 1 read no
+  source on fitting one, so it is not taught), wallpaper, sticking doors and silicone. Lesson 15's
+  licensing argument waits on gates G-L3 and G-N2 (each side in its own words); lesson 4 on G-E5.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
