@@ -102,3 +102,72 @@ County, Ventura County, Clackmannanshire, Humberside, Nottinghamshire, Riverside
 **Status after review:** needs second pass. The consumer-law changes are substantial (which 14 days
 apply to a supply-and-fit contract, reg 36(2), section 50's condition, §429.2(b)), and the new text in
 Megan's steps 4 and 5, the table cells and quiz 1's explanation has not had a reviewer's eyes.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context Stage 4 second-pass reviewer under `research/pipeline-briefs.md`.
+Re-read live today (curl with a browser User-Agent, no personal data): legislation.gov.uk data.xml for
+SI 2013/3134 regs 5, 27, 28, 29, 30, 31, 34, 35 and 36, and CRA 2015 ss.49, 50, 54, 55, 56 and 57; the
+eCFR renderer for 16 CFR Part 429 (whole Part); leginfo for BPC 7159, 7159.5 and Civil Code 1689.5,
+1689.6 and 1689.7; the CSLB guide PDF; Citizens Advice, "Before you get work done on your home" (the
+section 75, deposit and payment lines). Lessons 3, 5, 7, 8, 10, 12, 14, 15, 16, 17, 18, 19 and 21 (21 as
+it stands in the working tree) opened for the stop table.
+
+**Cancellation table, cell by cell.** UK: off-premises over £42 (reg 5, 27(3)), 14 days from the
+contract for a service (30(2)) or from physical possession of goods for a sales contract, which reg 5
+defines to include goods-and-services (30(3)), reg 31's 12 months, reg 28(1)(e) and 28(2), and reg
+36(4) and 36(6) all match. Federal: §429.0(a) $25 at the residence, $130 elsewhere, invitation
+included; §429.0(f) business day; §429.1(a)-(b) notice and duplicate form; §429.0(a)(3) and (5)
+exclusions with the extras clause; §429.1(g) ten business days; §429.2(b) wording. All match.
+California: §7159(b) over $500; (e)(6)(A)(i) place-of-business exception for the three- and five-day
+notices only; (e)(7) seven business days for a declared state or local emergency; 10-day refund in the
+notice text; the CSLB guide's service-and-repair exception. All match.
+
+**Megan and quiz 1 against the goods-run-from-delivery rule.** Step 4 (sales contract, 14 days from
+delivery) is right. Step 5 is right: reg 36(1) bars starting the service within the cancellation
+period, however it is computed, without a durable-medium request, and the proportionate payment is
+labelled as the course's reading. Quiz 1's explanation (both clocks, nothing delivered, reg 31) is
+right, and its key stands. One defect found in the general paragraph above them (S1).
+
+**Findings and fixes (one edit each, applied):**
+1. S1 [minor, fixed] The early-work paragraph said that once "the job" is finished after an asked-for
+   early start the right is gone (reg 36(2)). Reg 36(2) applies only to a service contract; a
+   supply-and-fit job such as Megan's boiler is a sales contract (reg 5), so the sentence read as
+   covering her. Now "once a service-only job is finished".
+2. S2 [minor, fixed] The paragraph under the stop table said "the law would let you do more ...
+   (asbestos is the clearest case: HSE and EPA)", which stated lesson 19's reading of the asbestos
+   Regulations as fact. Now "(on this course's reading, asbestos is the clearest case)". The table row
+   and quiz 6 already carried the label; lesson 19 lines 265 to 268 give it as "a reading of the text,
+   not a ruling", which quiz 6 reports accurately.
+
+**Checked and passing.** CRA s.49 and s.50(1) quotations; s.54(6) other remedies; s.55(1) and (2)(b)
+quotations; s.56(2) "where appropriate" and s.56(4) 14 days; s.57(1). Section 75 band and deposit line
+match Citizens Advice word for word. BPC §7159(d)(8)(C) notice text and 12-point bold, (d)(9) progress
+payment statement, (c)(4) release promise, the Mechanics Lien Warning; §7159.5(a)(3) cap. CSLB guide:
+special-order, "handful of licensees", lien sentences, four years, place-of-business exception. Every
+stop-table row matches its lesson as it stands, including the new lesson 21 row (CDC for rodents in
+ducts or out of reach, the professional-product label or HSE, EPA and termites, bed bugs and woodworm
+as the course's line). Quiz keys 1,3,2,0,3,1 pass the relaxed rule (all four used, no adjacent repeat,
+not identical to or a value shift of lessons 01 to 22, no shared run of four at offsets 0 or ±1 with
+lessons 18 to 22). No em dashes, no en dashes.
+
+**Minor, not fixed (not one obviously-right, word-neutral edit; none blocks):**
+- Lesson 21 row: "EPA: termites need a state-licensed professional" drops EPA's "In most cases"
+  (lesson 21 line 499); the firm's state licence is unconditional.
+- Table, UK "Money back" cell gives what you pay (reg 36(4)), not the trader's refund time (reg 34(4)
+  to (6)); true but answers a different question from its row.
+- Humberside checkpoint: "What cancelling something already fitted costs her ... is set by
+  regulations this course did not read" is only partly so; reg 36(6)(b), which was read, says she
+  bears no cost for fitting begun without a durable-medium request. The goods side (regs 34(9), 35)
+  was not read.
+- "When the work is wrong": s.56(3)(b) says "within a reasonable time and without significant
+  inconvenience"; the lesson gives only the first half.
+
+**Voice.** Five contractions expanded ("doesn't teach" once, "didn't read" four times); offset by
+cutting "then", "in particular", "whole" and ", not this lesson's". Contractions now about 7 per 1,000
+body words (true contractions, outside quotations), inside the 5 to 8 band.
+
+**Final measures:** 7,338 words by `npm run minutes` (unchanged), `minutes: 100`, ok. `npm run quotes
+home-repair`: 609 quotations, 0 not found. `npm run validate`: exit 0, no line for this file.
+
+**Verdict: CLEAN.**

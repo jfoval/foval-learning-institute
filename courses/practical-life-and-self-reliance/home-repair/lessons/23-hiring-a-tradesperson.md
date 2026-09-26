@@ -181,8 +181,8 @@ you've never met belongs on the list.
 
 Look down the middle column and three kinds of reason turn up. Some stops are the law's: in Great
 Britain, a business doing gas work must be registered. Some are the advice's, where the law would
-let you do more and the advice read says don't (asbestos is the clearest case: HSE and EPA). And some are this course's own, because it read no method, or the work is wiring, which it
-explains and doesn't teach. The first kind is lesson 22's subject. All three belong on your stop
+let you do more and the advice read says don't (on this course's reading, asbestos is the clearest case). And some are this course's own, because it read no method, or the work is wiring, which it
+explains and does not teach. The first kind is lesson 22's subject. All three belong on your stop
 list, but label them honestly: "it's illegal" is a different claim from "every body I read advises
 against it", and a reader who finds the first claim false may stop believing the second.
 
@@ -306,7 +306,7 @@ service to a consumer.[10]
 - Section 49: the trader "must perform the service with reasonable care and skill".
 - Section 50: anything "said or written to the consumer" by or for the trader about itself or the
   service, if you took it into account in deciding, is treated as a term of the contract. Whether a
-  claim painted on a van was said to you, this course didn't read, so get it into the written quote.
+  claim painted on a van was said to you, this course did not read, so get it into the written quote.
 - Section 51: where no price was fixed, "the consumer must pay a reasonable price for the service,
   and no more". Section 52 does the same for time.
 - Section 57: a term that tries to exclude the section 49 duty is not binding on you.
@@ -389,7 +389,7 @@ Three points in that table are the ones people miss.
 **The 14 days and early work.** For the work itself, [the Regulations](https://www.legislation.gov.uk/uksi/2013/3134/part/3) do not stop it starting in the 14 days, but the
 trader "must not begin" unless you have made an express request, and for an off-premises contract the
 request must be "on a durable medium", which the Regulations define to include paper or email.[11]
-If you then cancel, you pay for what was done, in proportion. And once the job is finished, if you
+If you cancel, you pay for what was done, in proportion. And once a service-only job is finished, if you
 asked for the early start and acknowledged you'd lose the right, the right is gone (regulation
 36(2)). If the trader never gave you the cancellation information, you pay nothing for it.
 
@@ -411,7 +411,7 @@ The shower mixer, not the pipe repair. She specifically asked him to come for an
 regulation 28(1)(e) removes the right to cancel that. The mixer is a good other than a part the
 repair needed, supplied on the same visit, so regulation 28(2) keeps the right for it: it's an
 off-premises contract, over £42, and she's well inside 14 days.[11] What cancelling something
-already fitted costs her, and what happens to it, is set by regulations this course didn't read, so
+already fitted costs her, and what happens to it, is set by regulations this course did not read, so
 the answer stops at the right itself.
 :::
 
@@ -426,7 +426,7 @@ within a reasonable time, without significant inconvenience to you, and "must be
 costs incurred in doing so (including in particular the cost of any labour or materials)". Only if
 putting it right is impossible, or the trader fails to do it within a reasonable time, do you move to
 a price reduction, which can, where appropriate, be the full price, refunded within 14 days of the trader agreeing
-(section 56). The Act doesn't stop you seeking other remedies too, but this course didn't read how
+(section 56). The Act doesn't stop you seeking other remedies too, but this course did not read how
 those work. Citizens Advice's practical order:[1] as soon as something's wrong, ask the trader to put
 it right, agree how, and get that agreement in writing.
 
@@ -439,7 +439,7 @@ guide says you have four years to file a complaint with it about a faulty projec
 
 Personal Safety lesson 5 taught the pressure pattern and the call-back rule, and Personal Finance
 lesson 10 taught why the way you pay decides whether you can get money back. This lesson adds only the
-signs the FTC lists for contractors in particular.
+signs the FTC lists for contractors.
 
 From its home improvement page: scammers knock on your door saying they're in the area, say "they
 have materials left over from a previous job", push for an immediate decision, want everything up
@@ -481,7 +481,7 @@ life.
 5. **Early start.** She wants it in next week. So she emails him asking him to start then; an email is
    a durable medium. On this course's reading, if she cancelled after he'd started, she'd pay for the
    fitting done, in proportion; what happens to a boiler already fitted is set by regulations this
-   course didn't read.[11]
+   course did not read.[11]
 6. **Paying.** He asks for £285 up front for the boiler. Citizens Advice's advice is to avoid a
    deposit where she can; she pays it by credit card, which Citizens Advice says may give her a
    section 75 claim, and she pays the rest when it is fitted and working.[1] Her last step, from
@@ -528,12 +528,12 @@ for their Preliminary Notices, which can arrive up to 20 days after they start o
 stage only for work done, as the contract's payment schedule says, and at each payment get a lien
 release for that portion, which the contract must promise. For a supplier who has sent a notice,
 she can pay with a joint check made out to the roofer and the supplier.[8][9] Paying the roofer in
-full, on time, does not protect her by itself: that is the whole point of the warning.
+full, on time, does not protect her by itself: that is the point of the warning.
 :::
 
 The insurance check stays in her name. The FTC's answer is to arrange with her bank or credit union
 for a certificate of completion, so the bank pays the contractor for each stage after she has
-approved it.[7] What her policy covers is Personal Finance lesson 8's question, not this lesson's.
+approved it.[7] What her policy covers is Personal Finance lesson 8's question.
 
 ## What people get wrong
 
