@@ -135,7 +135,7 @@ wood burner, a water heater, a cooker, and anything with an engine. The fuel isn
 burning going wrong, or the fumes having nowhere to go, is.
 
 CPSC adds two facts that explain why this gas kills people who would have run from smoke. The
-first is that it gives no warning. Petrol engines "may not emit an irritating exhaust smoke, even
+first is that it gives no warning. Petrol (gasoline) engines "may not emit an irritating exhaust smoke, even
 though they produce large amounts of CO", and badly vented gas appliances "may emit potentially
 lethal amounts of CO without any irritating fumes to alert potential victims to the danger."[4]
 The second is speed. Carbon monoxide binds to haemoglobin, the oxygen carrier in blood, with "an
@@ -218,7 +218,7 @@ says alarms are no replacement for maintenance and safety checks.[7][2] The alar
    to make sure the appliance "is serviced and maintained by a competent person and the chimney is
    regularly swept."[1] In the US, CDC: "Have your heating system, water heater, and any other gas,
    oil, or coal burning appliances serviced by a qualified technician every year."[6] Servicing is
-   **Call someone**; booking it is yours.
+   **Call someone**; booking it is yours, or in a let home in Great Britain your landlord's (lesson 10).
 3. **The flue or chimney is clear.** The next section.
 4. **The air it needs isn't blocked.** The Energy Saving Trust, the UK's government-funded energy
    advice body, warns people draught-proofing their homes: "You must not block fixed ventilation
@@ -577,7 +577,7 @@ faulty to your landlord.
 
 :::checkpoint Check your walk-round. For each of these findings, what does it point to, and whose job is it?
 
-**A boiler whose last service you can't date:** book one. **Call someone** (a Gas Safe registered
+**A boiler whose last service you can't date:** book one, or ask your landlord if you rent. **Call someone** (a Gas Safe registered
 engineer in Great Britain; a qualified technician in the US).[2][6]
 
 **Soot or staining on or around an appliance:** HSE's sign of incomplete burning. Stop using it
@@ -621,15 +621,14 @@ lesson only kept out of the garage.
 
 - **Approved Document J**, [the 2022 PDF](https://assets.publishing.service.gov.uk/media/6336e58be90e0772dc9651a2/ADJ_2022.pdf),
   free. This course read requirement J3 and the carbon monoxide alarm paragraphs, not the whole
-  document. Paragraphs 3.43 to 3.45 are a page, and they are the guidance for a new gas boiler in
-  England.
+  document. Paragraphs 3.43 to 3.45 are England's guidance for a new gas boiler.
 - **Scottish Government, ["Fire and smoke alarms: the law"](https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/)**,
-  free. Read for this lesson: the two sections on what each home needs and what to buy. The clearest
-  statement read of what one nation's rule asks of every home, owned or rented.
+  free. Read here: its two sections on what each home needs and what to buy. What
+  one nation's rule asks of every home, owned or rented.
 - **CPSC, ["Non-Fire Carbon Monoxide Deaths Associated with the Use of Consumer Products: 2022 Annual Estimates"](https://www.cpsc.gov/s3fs-public/Non-Fire-Carbon-Monoxide-Deaths-Associated-with-the-Use-of-Consumer-Products-2022-Annual-Estimates.pdf)**,
   May 2026, free. Read here: the summary, the introduction and Table 1. Table 1 shows eleven years
-  of deaths by product, and the introduction explains, better than any safety leaflet, why engines
-  are so dangerous.
+  of deaths by product, and the introduction explains why engines
+  are dangerous.
 
 ## Sources
 

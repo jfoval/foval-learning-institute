@@ -287,3 +287,78 @@ sharply than the lesson does. Use the lesson's own gloss ("occupation patterns")
     as "search snippets" only. That matches OUTLINE's note ("not characterised from snippets"), but
     extending the council's surveyor advice to every house is the course's reading. Label it so at
     that sentence.
+
+---
+
+## Open findings applied (2026-09-26)
+
+N1 to N8 applied in one pass; N9 left open as notes. Every edit traces to a [V] quotation or a
+statement already in SOURCES and in the lesson's own sources or a named earlier lesson; no new
+quotation was added that SOURCES does not hold. `npm run quotes home-repair` finds all 605
+quotations in SOURCES; `npm run validate` exits 0. No lesson's measured minutes went up: lessons 1, 4,
+5 and 11 were already at 105 before this pass and stay there with net words at or below where they
+started (cuts in Go deeper and Connections offset the additions); lesson 21 dropped from 105 to 100.
+Scripts that repeated a changed sentence were edited to match, and their `checked:` entry carries
+"2026-09-26 neutrality-audit edit mirrored": 01, 02, 03, 04, 07, 11, 18.
+
+- **N1 (lesson 8).** The exercise checkpoint's 49°C line now gives CPSC's own words ("may be
+  necessary for residential water heaters to reduce or eliminate the risk of most tap water scald
+  injuries") and HSE's legionella side in full: below the 50°C outlet figure in HSE's low-risk
+  example, and HSE's 60°C control for stored water. The 60°C line now adds that 60°C is HSE's
+  stored-water figure and sends the reader to HSE's page as well as to who lives there. Both lines
+  end on the household and the manual, not on either side. Also: HSE's care-settings clause on
+  vulnerable people at basins restored ("should be in place"); the Go deeper entry for HSE's landlord
+  page describes its coverage instead of "the plainest official account". Line 245 (people only on the
+  scald side) left as it is; the script does not carry any changed line.
+- **N2 (lesson 23).** A "Before you pay anyone" paragraph after the stop table: the landlord first if
+  you rent (either country); HSE's free Gas Safety Advice Line (Great Britain, lesson 10; the
+  number stays in lesson 10, where it was re-read); the council's environmental health officer for
+  asbestos questions (Great Britain, HSE, lesson 19); the state radon programme for a kit (US, EPA,
+  lesson 19). No prices. The project's Part 5 line ("and the free route, if there is one") was not
+  added.
+- **N3 (renters).** Landlord condition ("if it's your home to repair or your landlord agrees")
+  added at each body **Yours** the audit listed: lesson 2 thawing a pipe; lesson 3 the washer tap
+  and the flapper; lesson 4 steps 1 to 7; lesson 7 bleeding, in the body and the checkpoint. The
+  scripts for 02, 03, 04 and 07 mirror it. Lesson 23's table has a new row, "Any of these, or any
+  repair, in a rented home": tell the landlord first; the yearly gas check (Great Britain), alarms
+  and the electrical report (England) are the landlord's by law (lessons 6, 10 to 12). Lesson 12 now
+  gives reg 4(1)(b), the first-day check, from SOURCES D23. Annual-service pointers to the landlord's
+  regulation 36 check added in lesson 7's For your plan and lesson 11 (the servicing step and the
+  checkpoint). Lesson 18: clearing an existing vent is **Yours**, in a rented home too, in both places
+  (GOV.UK: trickle vents "controllable by the tenant"); a very small mould patch is yours "and
+  reported if you rent" in all three places, and in script 18. Lesson 1's quiz 1 left.
+- **N4 (UK default).** "No US source was read; the British guidance is the one this course has"
+  added at lesson 15's Gulf Coast gutter, lesson 17 quiz 5 (Ozarks) and lesson 5's "Is it you, or the
+  network?"; lesson 18 quiz 3 (Galloway) now says no Scottish guidance was read and GOV.UK's line is
+  England's. UK words glossed at first use in each lesson: torch (flashlight), loft (attic),
+  spanner (wrench), bin (trash), nappies (diapers), washing-up liquid (dish soap), tip (the dump),
+  flex (cord), A&E (the emergency department), skirting (baseboard), plasterboard (drywall), tin
+  (can), petrol (gasoline); "hoover" replaced by "vacuum". Scripts 03 (spanner) and 11 (petrol)
+  mirror it. The lead-order alternation, the quiz balance and lesson 4's and 7's units were not
+  done: each is a next-pass item for the lesson concerned.
+- **N5 (grading).** Grades replaced with descriptions of what the page covers: "clearest",
+  "plainest", "most practical", "most complete", "better than any safety leaflet", "short and exact",
+  "is blunt" and "bluntly" in lessons 1, 4, 5, 7, 9, 11, 12, 13, 16, 17, 18, 19, 20, 21 and 23. Lesson
+  1's ESF "is more careful" is now "adds a condition", in the script too. Lesson 4's WRc entry is
+  "WRc's case for flushability testing, from the body that ran the tests", with The Water Report
+  added to Go deeper beside it. "Clearest case" where it describes an example rather than a source
+  (lesson 2, lesson 23 and its script) was left.
+- **N6 (lesson 22).** After the Institute for Justice's "higher costs, limited access to services or
+  both.": "As quoted, it gives no figure for how much prices rise in any one trade.", matching the
+  caveat on SELECT's figures. Quiz 6 now says "a group that campaigns for the right to earn a
+  living", the Institute's own framing, in place of "a free-market group". The lesson 14 wording and
+  the householder-side source (G-L4) are left for the next research pass.
+- **N7 (damp trade).** Lesson 18's Islay quiz is now a building-conservation surveyor recommending
+  lime replastering that her own firm would do, held to the joint statement's standards (obvious
+  defects first, monitoring, declared interest); the key stays at position 0. "The research case"
+  is now "The thesis comes to this course through the journal of RICS". Terry Brown's reply stays,
+  labelled as the article's choice. Script 18's "Lifestyle. That word again." is now "What does it
+  mean by lifestyle?", followed by the lesson's own "occupation patterns" gloss. Lesson 17's Finger
+  Lakes case left as it is.
+- **N8 (project).** The overhead-line fail now reads 6 m in Great Britain (HSE's guidance) or OSHA's
+  10 feet (about 3 metres), a rule for US employers, in the US. Cash is an automatic fail only in
+  the US and only where the contractor insists on it, which is how lesson 23 gives the FTC's scam
+  sign; wire transfer, gift card and signing over the insurance check stay. The call list's full
+  marks now include "a way to pay that leaves a record, as lesson 23 advises".
+- **N9.** Not applied. The EST descriptor, Jeff Howell's descriptor, the trade-body descriptors,
+  lesson 23's unsourced "or honest" and lesson 21's woodworm label stay open as written above.

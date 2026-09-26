@@ -9,7 +9,7 @@ checked: >-
   damp could benefit from greater academic investigation is restored; and the sceptics' words, not
   their whole case, are said to come from one 2009 report. The balance was kept: each side is given
   in its own words, the dating caveat still runs both ways, and neither side gets a verdict or the
-  last word. Sign-off re-read against the finished script.
+  last word. Sign-off re-read against the finished script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Eighteenth episode for Home
@@ -54,7 +54,7 @@ S1: The lesson deals with that before any tip. The GOV.UK guidance says it is to
 
 S2: Now the mould. How much can I clean myself?
 
-S1: The two countries word it differently. The US Environmental Protection Agency gives a size: less than about ten square feet, and in most cases you can handle the job yourself. That's a little under a square metre, on the course's conversion. GOV.UK gives no measurement. It says most tenants could reasonably be expected to remove condensation and very small amounts of mould using an appropriate mould and mildew cleaner, and that larger areas of mould should only be addressed by qualified professionals. So a small patch on a hard surface is Yours, on conditions: small enough, on a surface you can clean without pulling anything apart, with the moisture found, and in your own home or one where the landlord agrees. Anything larger, or behind wallpaper or panelling, is Call someone. And whatever the size, find the water. EPA's whole argument is in one sentence: the key to mold control is moisture control.
+S1: The two countries word it differently. The US Environmental Protection Agency gives a size: less than about ten square feet, and in most cases you can handle the job yourself. That's a little under a square metre, on the course's conversion. GOV.UK gives no measurement. It says most tenants could reasonably be expected to remove condensation and very small amounts of mould using an appropriate mould and mildew cleaner, and that larger areas of mould should only be addressed by qualified professionals. So a small patch on a hard surface is Yours, on conditions: small enough, on a surface you can clean without pulling anything apart, and with the moisture found. If you rent, it's yours too, and reported to the landlord. Anything larger, or behind wallpaper or panelling, is Call someone. And whatever the size, find the water. EPA's whole argument is in one sentence: the key to mold control is moisture control.
 
 S2: Then rising damp, where the sources stop agreeing.
 
@@ -76,7 +76,7 @@ S2: Is there anything both sides signed?
 
 S1: A joint position statement from twenty twenty two, by the surveyors' Institution, Historic England and the trade body and adopted by conservation bodies. It never uses the words rising damp. It says moisture in old solid walled buildings may not be down to a construction failure. It says salts can influence a resistance meter. And it says deal with the obvious defects first, including ventilation, ground levels and lifestyle, then allow time for monitoring, and reassess before other treatments.
 
-S2: Lifestyle. That word again.
+S2: What does it mean by lifestyle?
 
 S1: The statement doesn't define it. Elsewhere its list for surveyors says occupation patterns can influence the moisture within the building, and it says nothing about blame. And GOV.UK's line stands beside it: blaming damp and mould on lifestyle choices is totally unreasonable.
 

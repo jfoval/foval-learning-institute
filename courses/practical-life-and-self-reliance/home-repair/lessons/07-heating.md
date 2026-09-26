@@ -145,7 +145,7 @@ advice body, sorts the boilers into three kinds.[1]
   bathrooms.
 - **System.** "System boilers have a separate water cylinder to store hot water."
 - **Regular (heat-only).** These work like system boilers, but "have two extra header tanks to
-  store cold water, usually installed in the loft if there is one."[1]
+  store cold water, usually installed in the loft if there is one."[1] (The loft is the attic.)
 
 A condensing boiler, in EST's account, is one built to capture and reuse more of the heat in the
 gases that would otherwise escape up its flue, and EST adds a quick way to spot one from outside:
@@ -329,7 +329,8 @@ Two UK makers publish the method for householders, [Worcester
 Bosch](https://www.worcester-bosch.co.uk/support/troubleshooting/faqs/all-faqs/how-to-bleed-a-radiator)
 and [Vaillant](https://www.vaillant.co.uk/advice/heating-tips/home-advice/how-to-bleed-a-radiator/),
 and they agree on the steps. It is **Yours**, on both makers' advice, for a radiator on a wet
-central heating system with a bleed valve at the top.[7][8]
+central heating system with a bleed valve at the top, if it's your home to repair or your landlord
+agrees.[7][8]
 
 1. **Find the cold ones.** Worcester Bosch says run the heating first and feel which radiators are
    colder at the top. Vaillant adds: use gloves, because they'll be hot.[7][8]
@@ -553,7 +554,7 @@ agrees; if it isn't, ask your landlord.
 
 :::checkpoint Check your walk-round against this. For each finding, what does it point to, and whose job is it?
 
-**Warm all over:** nothing to do. **Cold at the top:** air; bleeding is **Yours** (Worcester Bosch,
+**Warm all over:** nothing to do. **Cold at the top:** air; bleeding is **Yours** if it's your home to repair or your landlord agrees (Worcester Bosch,
 Vaillant), then check the pressure, and top it up only on step 4's conditions. **Cold at the bottom:** likely sludge;
 **Call someone** (Worcester Bosch). **Cold all over:** check the radiator's valve setting first
 (Vaillant); if the valve is right and it is still cold, a heating engineer.[7][8][9] **Several
@@ -563,7 +564,7 @@ radiators needing bleeding again and again:** tell the installer at the next ser
 ## For your plan
 
 This lesson adds to the **calendar**: the boiler, furnace or heat pump serviced once a year by a
-professional (HSE for gas appliances; DOE for heat pumps; ENERGY STAR's autumn heating check-up),
+professional (HSE for gas appliances, and in a let home in Great Britain the landlord's yearly check, lesson 10; DOE for heat pumps; ENERGY STAR's autumn heating check-up),
 the filter checked monthly and changed at least as often as its maker says, the boiler pressure
 read cold in autumn before the heating season. It adds
 to the **map**: which system you have, where the gauge and filling controls or the filter are,
@@ -589,7 +590,7 @@ takes up what a leaking heat exchanger lets out.
   the three kinds of filling link. Even with another make, it shows you what to look for under the
   boiler.
 - **Energy Saving Trust, ["The most economical ways to use your central heating"](https://energysavingtrust.org.uk/take-control-your-heating-home/)**,
-  free. Read here in full from an Internet Archive capture. The clearest account read of what a
+  free. Read here in full from an Internet Archive capture. What a
   room thermostat, a TRV and the boiler's flow temperature each do. Its savings figures in pounds
   are tied to a price period, which is why this lesson left them out.
 - **ENERGY STAR, ["Maintenance Checklist"](https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist)**,

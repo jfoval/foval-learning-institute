@@ -7,7 +7,7 @@ checked: >-
   lesson's American source "on the valve", not its only American source; and "know where the meter
   is and then leave it alone" is labelled as the course's advice, with the lesson's note that it
   read no American instructions for turning a meter off. Sign-off re-read against the finished
-  script.
+  script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). First episode for Home
@@ -72,7 +72,7 @@ S1: In the UK, the Met Office's: stop tap off, boiler off, open the taps to drai
 
 S2: And if the water reaches the electrics?
 
-S1: The Met Office says don't touch them, and switch them off at the fuse box. Electrical Safety First, a UK charity, is more careful: switch off at the consumer unit only if it is safe to do so, and get a registered electrician if there's any sign of water inside it. Neither says what makes it safe, so this is the course's own reading, not a quotation. Go to the box only if it and the wall around it are dry, with no water on it, in it or running towards it, and you can reach it without standing in water or touching anything wet. Otherwise keep clear and call an electrician. For an American panel that reading is the course's own; it read no American source on it.
+S1: The Met Office says don't touch them, and switch them off at the fuse box. Electrical Safety First, a UK charity, adds a condition: switch off at the consumer unit only if it is safe to do so, and get a registered electrician if there's any sign of water inside it. Neither says what makes it safe, so this is the course's own reading, not a quotation. Go to the box only if it and the wall around it are dry, with no water on it, in it or running towards it, and you can reach it without standing in water or touching anything wet. Otherwise keep clear and call an electrician. For an American panel that reading is the course's own; it read no American source on it.
 
 S2: Last thing. How will the course tell me what I can do myself?
 

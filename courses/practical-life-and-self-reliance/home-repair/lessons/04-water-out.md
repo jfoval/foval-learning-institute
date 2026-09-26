@@ -54,7 +54,7 @@ quiz:
       After frying bacon for breakfast, someone has a pan of cooling fat to get rid of. Which of
       these do the sources in this lesson support?
     options:
-      - Let it set, scrape it into the bin, and wipe the pan with a paper towel
+      - Let it set, scrape it into the bin (trash), and wipe the pan with a paper towel
       - Flush it down the toilet, so that it misses the kitchen pipes altogether
       - Rinse it out under the hot tap with the plug out while it's still runny
       - Pour it down the outside drain by the back door, away from the sink
@@ -241,7 +241,7 @@ drains".[2] A gurgle alone is not on it. A gurgling drain that also empties slow
 one that smells.
 
 :::checkpoint A friend's bathroom smells of drains every morning, but the basin, bath and toilet all empty quickly and are used every day. Using the two mechanisms so far, why is a dried-out trap now a weaker explanation, and what's left?
-A trap in daily use keeps being refilled, which is the opposite of the rarely used basin in ASHI's example, so drying out is unlikely. What's left is the seal being lost some other way, or gas getting in where there is no seal at all. ASHI names one such case: "a damaged pipe behind a wall or in the attic", a costly repair that needs a plumber.[5] The sources this course read don't go further, and neither should a householder with a torch: it's a plumber's diagnosis.
+A trap in daily use keeps being refilled, which is the opposite of the rarely used basin in ASHI's example, so drying out is unlikely. What's left is the seal being lost some other way, or gas getting in where there is no seal at all. ASHI names one such case: "a damaged pipe behind a wall or in the attic", a costly repair that needs a plumber.[5] The sources this course read don't go further, and neither should a householder with a torch (flashlight): it's a plumber's diagnosis.
 :::
 
 ## A first case: the basin nobody uses
@@ -319,13 +319,13 @@ What to do instead is where the sources agree:
   the drain."[6]
 - **Catch the scraps.** Portland recommends a sink strainer, and ASHI says don't pour grease, fat,
   "coffee grounds or other food products" down the drain.[6][5]
-- **Chemicals go to the tip.** Thames Water: take chemicals, solvents, engine oil and paint to your
+- **Chemicals go to the tip (the dump).** Thames Water: take chemicals, solvents, engine oil and paint to your
   local refuse or recycling site.[2]
 
 Cooking Fundamentals lesson 4, "What makes people ill, and the rules that stop it", kept the sink
 clean for the food's sake. What happens after the plughole is this course's.
 
-:::predict Plenty of people rinse a greasy pan under a very hot tap with a squirt of washing-up liquid, reasoning that the fat will stay runny until it's well away. Before reading on, what do you think the sources say about that?
+:::predict Plenty of people rinse a greasy pan under a very hot tap with a squirt of washing-up liquid (dish soap), reasoning that the fat will stay runny until it's well away. Before reading on, what do you think the sources say about that?
 None of them endorses it. Portland says not to run water over pans to wash grease down the drain at all, and gives the reason: fat "gets thick and sticky when it cools".[6] No source this course read says washing-up liquid carries fat safely to the sewer. Wipe the pan first and bin the paper.
 :::
 
@@ -335,7 +335,7 @@ This section ends with England's new law on wet wipes. This is general informati
 advice.
 
 On the toilet side, Thames Water's rule has a name: the **three Ps**, "pee, poo and (toilet) paper":
-"nothing else should be flushed!"[2] Wipes, sanitary items, nappies and condoms go in the bin.
+"nothing else should be flushed!"[2] Wipes, sanitary items, nappies (diapers) and condoms go in the bin.
 And wet wipes block pipes, it says, "even the ones labelled ‘flushable’".[2] In its survey a
 quarter of respondents thought disposable wipes were safe to flush.[1]
 
@@ -462,7 +462,7 @@ already in the sink, don't start it**: not the scooping, not your hands, not the
 plunger, not the baking soda and vinegar, not the snake and not the trap. That instruction is this course's, not WaterSafe's, and the section on
 drain chemicals below says why and what to do instead.
 
-For a sink with only water and waste in it, steps 1 to 7 are **Yours**: WaterSafe puts them in a householder's hands. Step 8 is where the job
+For a sink with only water and waste in it, steps 1 to 7 are **Yours**, if it's your home to repair or your landlord agrees: WaterSafe puts them in a householder's hands. Step 8 is where the job
 becomes **Call someone**, a plumber (WaterSafe's register lists approved ones in the UK), and
 Thames Water's advice for a blockage in your own drains points the same way.[2] If your trap has a
 cleaning eye rather than nuts, WaterSafe's page does not cover it and this course did not find a
@@ -611,28 +611,27 @@ cleaning products.[12]
 
 ## Connections
 
-Lesson 1, "How a house works, and where it switches off", introduced the house as a set of flows,
-with drainage as the one that falls by gravity and has no shut-off, and the course's three job
-labels. Lesson 2, "Water in: supply, leaks and frozen pipes", dealt
+Lesson 1, "How a house works, and where it switches off", introduced drainage as the flow that falls by
+gravity and has no shut-off, and the course's three job labels. Lesson 2, "Water in: supply, leaks and frozen pipes", dealt
 with the pressurised side and whose pipe the supply is; this lesson asked the same ownership
 question of the pipes that take water away. First Aid and CPR lessons 10 and 14 own what to do
 when a chemical hurts someone. Ahead, lesson 18, "Damp inside: condensation, mould, ventilation and
-rising damp", comes back to water that goes where it shouldn't inside a house, and takes up bleach and
-mould, where the CDC's never-mix line comes from.
+rising damp", takes up bleach and mould, and the CDC's never-mix line.
 
 ## Go deeper
 
-- **WaterSafe, [How do you unblock a sink with standing water in it?](https://www.watersafe.org.uk/advice/common_plumbing_questions1/drainage/how-to-unblock-sink/)** The whole sequence this lesson used, on one page, from the water industry's plumber register. Worth printing and keeping under the sink.
-- **Thames Water, [Blockages and blocked drains](https://www.thameswater.co.uk/help/water-and-waste-help/blockages).** One company's clearest statement of whose blockage is whose, with the signs. If you're elsewhere in the UK, look for your own water company's equivalent.
-- **City of Superior, Wisconsin, [Sewer Smarts and Plumbing Basics](https://www.superiorwi.gov/963/Sewer-Smarts-and-Plumbing-Basics).** A US city's illustrated walk through a house's drains, with house traps, floor drains, sump pumps and backwater valves. This course read the full page.
-- **WRc, [After Fine to Flush, what happens next?](https://www.wrcgroup.com/headlines/bite-sized-views/after-fine-to-flush,-what-happens-next/)** The strongest case read for flushability testing, from the organisation that ran it. Read it beside Thames Water's "even the ones labelled ‘flushable’" to see the disagreement whole.
+- **WaterSafe, [How do you unblock a sink with standing water in it?](https://www.watersafe.org.uk/advice/common_plumbing_questions1/drainage/how-to-unblock-sink/)** The whole sequence this lesson used, on one page, from the water industry's plumber register.
+- **Thames Water, [Blockages and blocked drains](https://www.thameswater.co.uk/help/water-and-waste-help/blockages).** One company's statement of whose blockage is whose, with the signs. Elsewhere in the UK, look for your own water company's equivalent.
+- **City of Superior, Wisconsin, [Sewer Smarts and Plumbing Basics](https://www.superiorwi.gov/963/Sewer-Smarts-and-Plumbing-Basics).** A US city's illustrated walk through a house's drains, with house traps, floor drains, sump pumps and backwater valves.
+- **WRc, [After Fine to Flush, what happens next?](https://www.wrcgroup.com/headlines/bite-sized-views/after-fine-to-flush,-what-happens-next/)** WRc's case for flushability testing, from the body that ran the tests. Read it beside Thames Water's "even the ones labelled ‘flushable’" and The Water Report's account to see the disagreement whole.
+- **The Water Report, [Fine to flush certification to go down the pan](https://www.thewaterreport.co.uk/single-post/fine-to-flush-certification-to-go-down-the-pan).** A UK water-industry news site's report of why the scheme ended.
 
 ## For your plan
 
 This lesson adds three things. To the **calendar**: run water into any drain that rarely gets used
 (ASHI), a monthly half gallon for a US basement floor drain (Superior), the sump hose off in autumn
 and on in spring, each labelled **Yours**, and septic pumping every 3 to 7 years (UGA), which is
-**Call someone**: the date on the calendar is yours, the pumping is a professional's. To the **stop list**: a sink that still backs up after the trap is cleared,
+**Call someone**. To the **stop list**: a sink that still backs up after the trap is cleared,
 and any drain cleaner on top of another, with WaterSafe's and Poison Control's advice as the rule
 behind each. And to your **map of the house**: where each trap is and how it opens, from
 the walk-round.

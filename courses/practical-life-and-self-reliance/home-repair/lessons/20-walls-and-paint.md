@@ -9,7 +9,7 @@ objectives:
     Put the preparation of a room in order, and apply the paint maker's rules for new plaster,
     including the wait and the mist coat
   - >-
-    Read a UK paint tin's VOC label for what the law makes it say, and apply EPA's ventilation,
+    Read a UK paint tin's (can's) VOC label for what the law makes it say, and apply EPA's ventilation,
     buying and disposal advice to a painting job
   - >-
     Decide, before any sanding or stripping, whether a wall or a piece of old paintwork sends you
@@ -17,7 +17,7 @@ objectives:
 quiz:
   - q: >-
       In a 1990s bungalow in County Fermanagh, there's an open gap about the width of a pencil
-      lead along the top of a skirting board, where it meets the wall. The owner is repainting the
+      lead along the top of a skirting board (baseboard), where it meets the wall. The owner is repainting the
       room. On the paint maker's page this lesson read, what should go in the gap?
     options:
       - A flexible filler, which is the kind Dulux names for gaps along the tops of skirtings
@@ -207,7 +207,7 @@ sanding is needed because it "ensures your fresh, new paint will adhere to the s
 
 Filling screw holes and small cracks in a plain plastered wall is **Yours**. Two things change that.
 The first is step 4, which sands. On a newer wall that makes plaster and filler dust. Lesson 13,
-"Tools, dust and fumes: a small kit used safely", gave HSE's kinds of dust (gypsum, in plasterboard,
+"Tools, dust and fumes: a small kit used safely", gave HSE's kinds of dust (gypsum, in plasterboard or drywall,
 among the "general" ones), and its advice on masks and clean-up applies. On old paintwork it's lesson 19's question, and on a textured coating the answer is
 no. The second is the crack itself. This course read no source on reading cracks: which are
 shrinkage, which are movement, which mean the building is moving. Structural work is one of the jobs
@@ -372,7 +372,7 @@ Then the leftovers. EPA:[4]
 - Don't keep what you won't use. "Because gases can leak even from closed containers, this single
   step could help lower concentrations of organic chemicals in your home." What you do keep, EPA
   says, goes somewhere well ventilated and out of children's reach.
-- Don't bin it. "Do not simply toss these unwanted products in the garbage can." EPA sends you to a
+- Don't put it in the bin (trash). "Do not simply toss these unwanted products in the garbage can." EPA sends you to a
   local collection day for toxic household wastes, where one exists.
 
 That is US advice. In England, Thames Water, a water company, says: "Take chemicals, solvents, engine
@@ -576,16 +576,14 @@ stop", covers hiring a decorator, including, in the US, a lead-safe certified on
 ## Go deeper
 
 - **Dulux, ["Dr Dulux: How to paint new plaster"](https://www.dulux.co.uk/en/expert-help/dr-dulux-painting-on-new-plaster).**
-  Read here in full. A maker's page that promotes its products, but the clearest account this course
-  found of the wait and the mist coat, with the reason.
+  Read here in full. A maker's page that promotes its products: the wait and the mist coat, with the reason it gives.
 - **Legislation.gov.uk, [the VOC Regulations 2012](https://www.legislation.gov.uk/uksi/2012/1715).**
   Read here: regulations 2 to 5 and Schedules 1 and 2, revised text. Short, and Schedule 2 is the whole
   table your tin's label comes from.
 - **EPA, ["Volatile Organic Compounds' Impact on Indoor Air Quality"](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality).**
   Read here in full. The US government's page on solvents and paints at home.
 - **Purdue Extension, ["Paint Failure Problems and Their Cure"](https://www.extension.purdue.edu/extmedia/ncr/NCR-133.html).**
-  Read here in full. From 1988 and about outside woodwork, but the plainest account this course read
-  of why paint fails where water gets in.
+  Read here in full. From 1988 and about outside woodwork: why paint fails where water gets in.
 
 ## Sources
 

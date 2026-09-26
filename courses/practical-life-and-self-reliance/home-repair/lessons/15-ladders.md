@@ -283,7 +283,7 @@ Setting the angle is **Yours**: nothing in it needs anything but a tape and the 
 
 ### Above the landing, and at the top
 
-If you climb a ladder to step off it onto something (a loft floor, a platform), HSE's guidance and
+If you climb a ladder to step off it onto something (a loft or attic floor, a platform), HSE's guidance and
 OSHA's rule both want it to carry on above that point, so you have something to hold as you step off and
 on. HSE: ladders used to reach another level should be tied and "extend at least 1 m above the
 landing point to provide a secure handhold".[1] OSHA: the side rails "shall extend at least 3 feet
@@ -447,7 +447,8 @@ the same side of the house, about 2 metres (6 or 7 feet) to one side of the wind
 
 The gutter first. HSE says not to rest a ladder against plastic gutters, and LA455 shows a stand-off
 device as one way to rest a ladder against the wall instead.[1][2] So on HSE's guidance, the ladder
-does not go on the gutter at all. The stand-off is a piece of equipment he'd have to get and fit by
+does not go on the gutter at all. This course read no US source on ladders and gutters, so the
+British guidance is the one it has. The stand-off is a piece of equipment he'd have to get and fit by
 its maker's instructions.
 
 Then the cable. HSE's rule is not to work within 6 m horizontally of any overhead power line unless

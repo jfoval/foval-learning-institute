@@ -6,7 +6,7 @@ checked: >-
   against the lesson on 2026-09-26: verdict PASS WITH NITS. Both nits fixed: the Indiana case now
   sets up the lead through the kitchen door to the fridge and a heater before the generator advice
   refers to it; and England's landlord rule is limited to tenancies the 2015 Regulations cover and
-  keeps "wholly or partly" as living accommodation. Sign-off re-read against the finished script.
+  keeps "wholly or partly" as living accommodation. Sign-off re-read against the finished script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Eleventh episode for Home
@@ -38,7 +38,7 @@ S1: The Health and Safety Executive calls carbon monoxide a colourless, odourles
 
 S2: Why does it catch people who'd run from smoke?
 
-S1: The US Consumer Product Safety Commission gives two facts. No warning: petrol engines may not give off an irritating exhaust smoke, even though they make large amounts of carbon monoxide. And speed. It binds to the oxygen carrier in blood with about two hundred and fifty times the affinity of oxygen, and with the fast rising levels an engine produces, people can be incapacitated and lose consciousness before they can leave.
+S1: The US Consumer Product Safety Commission gives two facts. No warning: petrol engines, gasoline engines in American English, may not give off an irritating exhaust smoke, even though they make large amounts of carbon monoxide. And speed. It binds to the oxygen carrier in blood with about two hundred and fifty times the affinity of oxygen, and with the fast rising levels an engine produces, people can be incapacitated and lose consciousness before they can leave.
 
 S2: How many people does it kill?
 

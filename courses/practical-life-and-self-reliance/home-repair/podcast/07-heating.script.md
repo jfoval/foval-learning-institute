@@ -9,7 +9,7 @@ checked: >-
   is for a system or heat-only boiler with its loop elsewhere; and Vaillant's wait is about an hour
   "or two to be cautious". The checker's observation that the gas-smell actions are not in the
   episode is a coverage choice, not an error, and was left. Sign-off re-read against the finished
-  script.
+  script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Seventh episode for Home
@@ -64,7 +64,7 @@ S1: First, where is it cold? Worcester Bosch says radiators that need bleeding a
 
 S2: And bleeding itself is mine?
 
-S1: Yours, on Worcester Bosch's and Vaillant's advice, for a radiator on a wet system with a bleed valve at the top. In outline: heating off, and wait for the radiators to cool, Vaillant says about an hour, or two to be cautious. Key in, cloth under the valve, open slowly anticlockwise until it hisses, and close it when water runs, not too tight. Then check the gauge before the heating goes back on, because you've let water out with the air.
+S1: Yours, on Worcester Bosch's and Vaillant's advice, for a radiator on a wet system with a bleed valve at the top, if it's your home to repair or your landlord agrees. In outline: heating off, and wait for the radiators to cool, Vaillant says about an hour, or two to be cautious. Key in, cloth under the valve, open slowly anticlockwise until it hisses, and close it when water runs, not too tight. Then check the gauge before the heating goes back on, because you've let water out with the air.
 
 S2: Give me a case where it isn't that simple.
 

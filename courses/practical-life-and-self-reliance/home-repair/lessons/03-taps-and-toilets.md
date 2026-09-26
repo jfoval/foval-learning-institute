@@ -155,12 +155,13 @@ against you.
 
 This is [Southern Water's method](https://web.archive.org/web/20260515022127/https://www.southernwater.co.uk/help-and-support/how-to-fix-a-dripping-tap/),
 written by an English water company for a UK washer tap: the kind with a cover, a hexagonal nut, a
-jumper plate and a washer.[1] It is **Yours**, on Southern Water's advice.
+jumper plate and a washer.[1] It is **Yours**, on Southern Water's advice, if it's your home to
+repair or your landlord agrees.
 
 1. Turn off the water at your stop tap. Southern Water says to do this always, before taking the
    tap apart, to avoid a potential mess.
 2. Turn the dripping tap on full. A few drops may come out before it stops completely.
-3. Unscrew the tap's cover to reveal the hexagonal nut. Loosen the nut with a spanner and lift out
+3. Unscrew the tap's cover to reveal the hexagonal nut. Loosen the nut with a spanner (wrench) and lift out
    the whole tap top. Lay the parts out in the order you took them off, so they go back together
    the same way.
 4. Lift out the jumper plate, unscrew the nut with pliers (Southern Water's tool), and replace the
@@ -176,7 +177,7 @@ is not off, and you do not open it. That rule is this course's. WaterSafe does s
 take a few minutes to stop the water altogether, so give it that.[5] Southern Water does not say
 why a tap might keep running beyond that, and this course will not guess. The Energy Saving Trust
 says a regular boiler has two extra header tanks to store cold water, usually installed in the
-loft,[6] but no source read here says whether those tanks feed a tap that the stop tap doesn't
+loft (attic),[6] but no source read here says whether those tanks feed a tap that the stop tap doesn't
 control. Lesson 7, Heating: boilers, radiators and furnaces, covers how those systems are laid out. Until you know how
 your hot water reaches the tap, a hot tap that won't stop is a reason to stop there and ask a
 plumber.
@@ -237,8 +238,8 @@ its own or leak silently. EPA calls replacing it a quick fix. Its tip is to take
 a picture of it, to the shop so that the new one fits, and to check the width and whether it has a
 foam float. The owner's manual, if you have it, or the maker's website has information on
 replacement parts.[3] EPA gives no step-by-step on the page, and this course read none. It is
-**Yours, on conditions**: the flapper made for your toilet, and the water isolated first, which is
-this course's rule from the callout. EPA adds that a hardware store or a licensed plumber can help
+**Yours, on conditions**: the flapper made for your toilet, the water isolated first, which is
+this course's rule from the callout, and your home to repair or your landlord's agreement. EPA adds that a hardware store or a licensed plumber can help
 if you need it.[3]
 
 **In a UK toilet,** [United Utilities](https://www.unitedutilities.com/help-and-support/your-water-supply/your-pipes/leakage/inside-leaks/)

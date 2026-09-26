@@ -9,7 +9,7 @@ checked: >-
   include not too much into a completely blocked drain; the Thames Water passage carries the full
   "not legal advice" label and the public-sewers condition; the US line is now about who owns the
   pipe from the house to the city's main; and WaterSafe is "the UK register of approved plumbers,
-  run for the water industry". Sign-off re-read against the finished script.
+  run for the water industry". Sign-off re-read against the finished script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Fourth episode for Home
@@ -75,7 +75,7 @@ S1: WaterSafe, the UK register of approved plumbers, run for the water industry,
 
 S2: So which of that is mine?
 
-S1: The first seven steps are Yours, and the last is Call someone. But one condition, and it's the course's, not WaterSafe's. The order assumes only water and waste are in the sink. If a chemical drain cleaner has already gone in, don't start it. Not the scooping, not your hands, not the hot water, not the plunger, not the baking soda and vinegar, not the snake and not the trap.
+S1: The first seven steps are Yours, if it's your home to repair or your landlord agrees, and the last is Call someone. But one condition, and it's the course's, not WaterSafe's. The order assumes only water and waste are in the sink. If a chemical drain cleaner has already gone in, don't start it. Not the scooping, not your hands, not the hot water, not the plunger, not the baking soda and vinegar, not the snake and not the trap.
 
 S2: And the chemical cleaners themselves?
 

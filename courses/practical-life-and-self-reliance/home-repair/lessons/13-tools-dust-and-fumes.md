@@ -68,7 +68,7 @@ quiz:
       HSE page read here gives a reduced factor for a beard: "useless" is its word.
   - q: >-
       Before varnishing a floor in a closed bedroom in Hawaii, a homeowner plans to wear an N95
-      because the tin says the vapour is harmful. What do NIOSH and EPA, as this lesson read them,
+      because the tin (can) says the vapour is harmful. What do NIOSH and EPA, as this lesson read them,
       point to?
     options:
       - The N95 is fine, since NIOSH says it filters at least 95% of what's in the air around you
@@ -169,14 +169,14 @@ sources, applied at home as this course's reading.
 
 This course does not give a shopping list, and it names no brand. The kit is whatever the jobs in
 these lessons asked for, and the list below is this course's, drawn from the methods it has already
-taught. Most of the tools are there because a named source's method used them; the torch is the
+taught. Most of the tools are there because a named source's method used them; the torch (flashlight) is the
 course's own.
 
 | Tool | The job, and whose method | Lesson |
 |---|---|---|
 | A torch | Looking at shut-offs, plugs and leads in poor light (this course's) | 1, 6 |
 | A bucket | WaterSafe's flow test at the kitchen tap | 2 |
-| A spanner and pliers | Southern Water's washer change on a UK tap | 3 |
+| A spanner (wrench) and pliers | Southern Water's washer change on a UK tap | 3 |
 | Rubber gloves, a flat-bottomed sink plunger, a bucket, adjustable pliers | WaterSafe's blocked sink, with the trap last | 4 |
 | A radiator key, a cloth, gloves | Worcester Bosch's and Vaillant's bleeding method | 7 |
 | A candy or meat thermometer | CPSC's check of the water at the hot tap | 8 |
@@ -303,7 +303,7 @@ damage your health and some types can eventually even kill."[3] It names three k
 HSE says silica is in most rocks, sand and clay, and in "bricks, tiles, concrete and mortar". Cutting,
 drilling, grinding and polishing them makes dust, and "Some of this dust is fine enough to get deep
 into your lungs." That fine dust is "too fine to see with normal lighting". And: "Silica is the
-biggest risk to construction workers after asbestos."[6] On silicosis, HSE's page is blunt about the
+biggest risk to construction workers after asbestos."[6] On silicosis, HSE's page says this about the
 thing that makes it different from a cut: "The effect continues to develop after exposure has
 stopped and is irreversible."[6]
 
@@ -448,7 +448,7 @@ nausea.[11]
 EPA's advice, for a product whose label says to use it in a well-ventilated area: "go outdoors or in
 areas equipped with an exhaust fan to use it. Otherwise, open up windows to provide the maximum
 amount of outdoor air possible."[11] Buy small: "buy only as much as you will use right away". And
-don't bin the leftovers: "Do not simply toss these unwanted products in the garbage can." Use a
+don't bin (throw out) the leftovers: "Do not simply toss these unwanted products in the garbage can." Use a
 household hazardous waste collection if your area runs one.[11] That is US advice. For the UK, this
 course read no official page on solvents at home, so it says only: read the tin, and follow the
 maker's instructions. Lesson 20, "Walls and paint: filling, preparing and painting", comes back to
@@ -672,10 +672,10 @@ kit further than repairs.
 ## Go deeper
 
 - **HSE, [*Construction dust*, CIS36](https://www.hse.gov.uk/pubns/cis36.pdf).** Six pages, free, read
-  here in full. Written for employers, but the clearest account this course found of the three kinds of
+  here in full. Written for employers: the three kinds of
   dust and the order of the controls, with a table of common jobs.
 - **OSHA, [*Hand and Power Tools*, OSHA 3080](https://www.osha.gov/sites/default/files/publications/osha3080.pdf).**
-  Read here in full. Dated, workplace-facing, and still the plainest list of how tools hurt people and
+  Read here in full. Dated and workplace-facing: a list of how tools hurt people and
   what stops it.
 - **EPA, ["Volatile Organic Compounds' Impact on Indoor Air Quality"](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality).**
   Read here in full. The US government's page on solvents and paints at home, with its ventilation

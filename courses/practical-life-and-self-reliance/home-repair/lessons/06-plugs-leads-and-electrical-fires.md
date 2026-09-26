@@ -181,7 +181,7 @@ bulb is fine. The plug is a moulded one, and the fuse inside its carrier reads 3
 
 One blown fuse can be a one-off. A second is the lamp telling you something draws too much current
 "either because of an overload or a fault", ESF's words, and a table lamp is not overloading
-anything. So the fault is in the lamp or its flex. It is no longer a fuse job. ESF lists fuses
+anything. So the fault is in the lamp or its flex (cord). It is no longer a fuse job. ESF lists fuses
 blowing among the signs not to ignore, and its advice for them is "Unplug and contact the retailer,
 manufacturer, or a qualified repair technician."[1] What it never means is a 13A fuse "to stop it
 blowing": ESF's rule is the same rating. ESF says the fuse is there to stop the cable and appliance
@@ -335,7 +335,7 @@ ESF's test is the total against it.[3]
 for wiring and non-cooking appliances, with cooking appliances not split by fuel.[7]
 
 :::exercise One room's plugs and leads
-Take 20 minutes over this, in one room, with a torch and a notebook. Don't open anything: no plug,
+Take 20 minutes over this, in one room, with a torch (flashlight) and a notebook. Don't open anything: no plug,
 and no consumer unit, panel, socket or fitting. Don't use a volt stick or tester on anything. Don't
 touch a plug or socket that's cracked, broken or scorched; note it and leave it. If you rent, this
 is all looking and noting.

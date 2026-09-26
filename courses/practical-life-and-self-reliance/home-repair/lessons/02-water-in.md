@@ -315,7 +315,7 @@ This is advice, and each country's comes from its own bodies.
 is to find your stop tap, lag exposed pipes (wrap them in insulation), fit covers on outside taps, put insulating jackets on
 tanks, cisterns and boilers, fix dripping taps, and keep a registered plumber's number handy.[9]
 The Met Office says: "Make sure you know where your stop tap is and check it’s working every six
-months." It also says to leave the heating on low if you go away, and to insulate pipes in the loft
+months." It also says to leave the heating on low if you go away, and to insulate pipes in the loft (attic)
 or roof space.[8]
 
 **In the US,** the Red Cross says to drain and store outdoor hoses, close the inside valves that
@@ -359,7 +359,7 @@ so many words why the stop tap goes off first. CCW doesn't say why the immersion
 go off, and the Met Office's frozen-pipe steps don't mention them. This course won't invent the
 reasons, and it calls neither country's order the wrong one.
 
-Thawing a pipe you can reach is **Yours**, on the Met Office's and the Red Cross's advice; CCW's
+Thawing a pipe you can reach is **Yours**, if it's your home to repair or your landlord agrees, on the Met Office's and the Red Cross's advice; CCW's
 steps also say to contact a registered plumber before the pipe bursts.[9] If it has already split,
 go to lesson 1's burst-pipe order, and then **Call someone**: CCW says a burst pipe needs a
 professional plumber.[9] If water is reaching a socket, a light or anything plugged in, or dripping

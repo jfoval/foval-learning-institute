@@ -70,7 +70,7 @@ quiz:
       A couple in Warwickshire with an unvented cylinder notice water dripping into the open funnel on
       the pipe near the cylinder's valve. What does the maker page this lesson read say?
     options:
-      - Tighten the valve beside the funnel a quarter turn with a spanner to stop the drip
+      - Tighten the valve beside the funnel a quarter turn with a spanner (wrench) to stop the drip
       - Turn the cylinder's thermostat down, since a dripping funnel means the water is too hot
       - Put a bowl under it and check again in a month, as a small drip is part of normal use
       - It's a sign of a fault with the valve or of rising pressure, for a qualified engineer
@@ -259,7 +259,8 @@ vulnerable, and it adds hostels and staffed or sheltered housing. It says scald 
 "should not introduce other risks, for example from legionella bacteria". Where stored water above
 60°C and distributed water above 50°C are being used to control legionella, it says baths and
 showers should be fitted with "thermostatic mixer valves (TMVs)" so the water doesn't go above 44°C;
-at basins, where there's no full body immersion, it calls the risk much lower.[8] That's HSE's
+at basins, where there's no full body immersion, it calls the risk much lower, though for someone
+assessed as vulnerable at basins it says controls on the outlet temperature "should be in place".[8] That's HSE's
 guidance for care settings, and it says nothing about private homes. This course read no source, in
 either country, on whether a mixing valve lets a household keep stored water hot for legionella and
 still deliver cooler water at the tap, so it can't tell you that. In a home, it's a question to
@@ -373,13 +374,16 @@ Take 25 minutes over this. Nothing here opens or adjusts anything, so it suits a
 :::checkpoint Check your notes against this. What does each finding tell you, and whose job is the next step?
 
 **Tap reading at or above 60°C (140°F):** on CPSC's figures, six seconds or less to a third-degree
-burn for most adults. Weigh who lives there; if you want it lower, follow the heater's own
+burn for most adults, and it's at or above the 60°C that HSE names for stored water against legionella.
+Weigh who lives there, and HSE's page on legionella; if you want it lower, follow the heater's own
 instructions, and for any thermostat behind a cover on an electric heater or immersion heater,
 this course's label is **Call someone**. If you rent in Great Britain, HSE's guidance is that
 tenants don't adjust the cylinder and tell the landlord about problems; in a US apartment whose hot
-water comes from the building's furnace, CPSC says to contact the building manager.[1][2] **Reading at or below 49°C (120°F):** CPSC's
-recommended level; if there's a stored tank that goes unused for long spells, that's the side
-HSE's guidance speaks to.[2] **Water at the T&P pipe, or a dripping tundish:** **Call someone**, a
+water comes from the building's furnace, CPSC says to contact the building manager.[1][2] **Reading at or below 49°C (120°F):** in CPSC's
+words, a setting of 120°F "may be necessary for residential water heaters to reduce or eliminate
+the risk of most tap water scald injuries".[1] If the water comes from a stored cylinder or tank,
+it's also below the 50°C at the outlets in HSE's own low-risk example, and HSE's control for stored
+water is 60°C.[2] Weigh who lives there, as above, and the heater's manual. **Water at the T&P pipe, or a dripping tundish:** **Call someone**, a
 plumber for a weeping T&P valve (A. O. Smith) or a qualified engineer for the tundish
 (Vaillant).[3][6] **The manual's own intervals** for testing the valve or draining the tank:
 those go on your calendar, with the manual as their source.
@@ -411,8 +415,8 @@ fuel side of a gas water heater or boiler.
 - **US CPSC, [Publication 5098, "Avoiding Tap Water Scalds"](https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf)**,
   free. Read here in full. One page: the exposure times and how to take your tap's temperature.
 - **HSE, ["Legionella and landlords' responsibilities"](https://www.hse.gov.uk/legionnaires/legionella-landlords-responsibilities.htm)**,
-  free. Read here in full. Written for landlords in Great Britain, and the plainest official
-  account read of why domestic legionella risk is usually low and what keeps it that way.
+  free. Read here in full. Written for landlords in Great Britain: why HSE counts the legionella
+  risk in most homes as low, what it names as controls, and what a landlord's assessment covers.
 - **A. O. Smith, [*Residential Gas Water Heaters: Installation and Operating Manual*](https://assets.aosmith.com/damroot/Original/10001/326940.pdf)**,
   2014, free. Read here in its sections on temperature, the relief valve and its installation,
   thermal expansion, maintenance and draining. One maker's manual for its own direct-vent models, and an example of what a heater's manual may

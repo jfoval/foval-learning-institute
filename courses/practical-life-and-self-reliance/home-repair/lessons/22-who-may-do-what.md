@@ -105,8 +105,8 @@ quiz:
       statement is a claim to check, not the check.
   - q: >-
       Two readers dismiss sources in the licensing argument. One says a plumbers' association's
-      claim is false because its members gain from licensing. The other says a free-market group's
-      report is false because it campaigns against licensing. On the rule this lesson takes from
+      claim is false because its members gain from licensing. The other says the report of a group
+      that campaigns for the right to earn a living is false because it campaigns against licensing. On the rule this lesson takes from
       Logic and Argument lesson 8, which is right?
     options:
       - Neither, since an interest means check harder, not that it's false
@@ -513,7 +513,7 @@ year of required education and experience, at least one exam, and $295 in fees".
 to the customer: "one of the most consistent findings in licensing research is that by
 limiting entry, and thus competition, licensing leads to higher earnings for licensees", and
 "consumers pay the price for those higher earnings through higher costs, limited access to services or
-both."[30]
+both."[30] As quoted, it gives no figure for how much prices rise in any one trade.
 
 Both concede ground. The FTC says licensing "can serve important goals and, when used appropriately,
 protect consumers from harm", and warns in turn about "self-interested boards whose members represent the

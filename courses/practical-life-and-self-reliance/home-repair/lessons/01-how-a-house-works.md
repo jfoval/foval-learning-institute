@@ -123,7 +123,7 @@ quiz:
 Burst pipes rarely pick a good time. When one goes, there is one valve that stops the water to the
 whole house, one switch that cuts the power to every circuit, and one handle that shuts off the gas.
 If you've found them already, a burst costs you a mop and a plumber. If you're looking for them with
-a torch while the kitchen ceiling bulges, it can cost a ceiling, a floor and the wiring in between.
+a torch (flashlight) while the kitchen ceiling bulges, it can cost a ceiling, a floor and the wiring in between.
 This lesson finds all three with you, in a British home and an American one, and gives you the order
 to use them in. It also sets out how the course sorts every job, because "can I do this myself?"
 has a different answer for a tap, a fuse box and a gas pipe, and again in Wales and in Texas.
@@ -362,7 +362,7 @@ that, call a plumber; that step is this course's line, not WSSC's.
 This is the part that can hurt someone, and the Met Office's wording needs care. It says: "If
 water has leaked near your electrics, do not touch them and switch them off at the fuse box."[2]
 Read quickly, that tells you to go to the fuse box whatever state it is in. ESF's current [advice
-after flooding](https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/electrical-safety-after-a-flood/) is more careful. "Switch off the electricity supply at the consumer unit/ fusebox,
+after flooding](https://www.electricalsafetyfirst.org.uk/safety-advice/home-and-people/house-maintenance/electrical-safety-after-a-flood/) adds a condition. "Switch off the electricity supply at the consumer unit/ fusebox,
 only if it is safe to do so." And: "Seek professional advice from a registered electrician if there
 is any sign of water inside the consumer unit/ fusebox or any signs of arcing or overheating." It
 also says: "Keep away from any exposed wiring as it may still be live."[20]
@@ -550,10 +550,9 @@ lesson 22 is where "law or advice, whose, and where?" becomes the whole subject.
 ## Go deeper
 
 - **WaterSafe, ["How can I locate my internal stop tap to turn off my water in an emergency?"](https://www.watersafe.org.uk/advice/general_plumbing_advice/winter_advice/locate-internal-stop-tap/)**,
-  free: the clearest British account of where the stop tap is and how to use it.
+  free: a British account of where the stop tap is and how to use it.
 - **WSSC Water, ["Find and Operate Your Home's Main Water Valve"](https://www.wsscwater.com/customer-service/report-problem/find-and-operate-your-main-water-valve)**,
-  free: a Maryland utility's guide for its own customers, and the most practical American page on
-  the valve by house type.
+  free: a Maryland utility's guide for its own customers, with the valve set out by house type.
 - **University of Georgia Cooperative Extension, [*Home Maintenance Checklist*, Circular 1082](https://www.fcs.uga.edu/docs/HomeMaintChecklist_update_6.21.pdf)**,
   reviewed June 2021, free: three pages of spring and autumn checks that the course project borrows
   from.

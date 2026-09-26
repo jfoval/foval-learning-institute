@@ -355,7 +355,7 @@ second. Write your answers before you open the checkpoint.
    minutes' work).
 2. Clearing leaves from a gutter along the whole front of a two-storey house, from a leaning ladder
    moved every couple of metres (about two hours' work, done in one go).
-3. Climbing from a stepladder up through a ceiling hatch into the loft, to fetch a box of
+3. Climbing from a stepladder up through a ceiling hatch into the loft (attic), to fetch a box of
    decorations and carry it down.
 :::
 
@@ -404,8 +404,7 @@ does not teach it.
   page 4, "Types of ladder and using them safely", free. Read here in full. The stepladder list and
   the six questions for a no-handhold task, for workplaces in Great Britain.
 - **Socias and colleagues, ["Occupational Ladder Fall Injuries: United States, 2011"](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6316a2.htm)**,
-  *MMWR*, 2014, free. Read here in full, from an archived copy. Short, and the clearest source this
-  course found on how low most injuring falls are.
+  *MMWR*, 2014, free. Read here in full, from an archived copy. Short: US workplace figures on how low most injuring falls are.
 - **D'Souza and colleagues, ["Ladder-related injuries treated in emergency departments in the United States, 1990-2005"](https://pubmed.ncbi.nlm.nih.gov/17478268/)**,
   2007. Read here as the abstract only. The study behind the most-quoted American ladder figures.
 

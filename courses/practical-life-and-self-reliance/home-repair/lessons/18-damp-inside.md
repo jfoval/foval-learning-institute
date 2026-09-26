@@ -62,30 +62,31 @@ quiz:
     answer: 2
     explain: >-
       CDC says never to mix bleach with ammonia or other cleaners, and EPA says the same about
-      ammonia because toxic fumes could be produced. Neither says an open window or dilution makes a
+      ammonia because toxic fumes could be produced. This course read no Scottish guidance on
+      cleaning mould; the GOV.UK line below is England's. Neither says an open window or dilution makes a
       mix safe; CDC's dilution is for bleach and water alone. GOV.UK's guidance, for England, says
       mould and mildew products should be used in preference to bleach, for health and safety
       reasons. EPA doesn't call bleach a first choice: it says a biocide such as bleach is not
       recommended as a routine practice in mould cleanup.
   - q: >-
-      A damp company's surveyor visits a stone cottage on Islay, gets high readings on an electrical
-      resistance meter at the foot of a wall, and quotes for injecting a damp-proof course. Which of
-      these does the 2022 joint position statement ask of surveyors?
+      A surveyor from a building-conservation firm visits a stone cottage on Islay, finds damp at the
+      foot of a wall, and recommends stripping the cement plaster inside and replastering in lime,
+      work her own firm would do. Which of these does the 2022 joint position statement ask of her?
     options:
-      - Deal with obvious defects such as ground levels first, monitor, then reassess
-      - Refuse to quote, since the statement finds injected damp-proofing to be useless
-      - Treat the high reading as proof, since a meter is the statement's main method
-      - Never quote for any work, since a surveyor who quotes can't also diagnose it
+      - Obvious defects such as ground levels first, then monitor, and declare her firm's interest
+      - Nothing, since the statement is written for damp-proofing firms, not conservation ones
+      - Go straight to the lime, since the statement sides with the conservation bodies on method
+      - Never quote for any work, since a surveyor who quotes can't also diagnose the problem
     answer: 0
     explain: >-
-      Section 5 of the statement asks surveyors to deal with obvious defects first (it names
-      ventilation and ground levels among them), allow a period for monitoring and natural
-      evaporation, and reassess before other treatments. It takes no position on whether injected
-      damp-proofing works; the words "rising damp" don't appear in it. It lists resistance meters as
-      one method among many and says surveyors should understand how salts might influence one, so a
-      reading isn't proof. And it expects that surveyors and contractors may quote: what it asks is
-      that they report objectively, suggest only proportionate work, and declare any financial
-      interest in what they specify.
+      The statement is aimed at anyone providing consultancy advice or surveys to owners and buyers,
+      so it binds her as much as a damp company's surveyor. Section 5 asks surveyors to deal with
+      obvious defects first (it names ventilation and ground levels among them), allow a period for
+      monitoring and natural evaporation, and reassess before other treatments. It takes no side on
+      method: the trade body signed it with the conservation bodies, and the words "rising damp"
+      don't appear in it. And it expects that surveyors may quote: what it asks is that they report
+      objectively, suggest only proportionate work, and declare any financial interest in what they
+      specify.
   - q: >-
       After new double glazing and draught-proofing, a couple in a 1970s semi in Halifax, in the Calder valley, notice
       more condensation than before. They taped over the new windows' trickle vents because of the
@@ -216,8 +217,8 @@ end of this lesson asks for two weeks of them.
 ## Before any tip: whose fault it isn't
 
 Every piece of advice for cutting indoor moisture risks sounding like an accusation, and a lot of
-damp is lived with by people who did not cause it and can't fix it. The GOV.UK guidance is blunt
-about this, and this lesson puts it before any tip: "We are absolutely clear that it is totally
+damp is lived with by people who did not cause it and can't fix it. The GOV.UK guidance speaks
+to this, and this lesson puts it before any tip: "We are absolutely clear that it is totally
 unreasonable to blame damp and mould in the home on ‘lifestyle choices’." It goes on: "It is
 unavoidable that everyday tasks, such as cooking, bathing, washing and drying laundry will
 contribute to the production of indoor moisture." Lesson 17 gave the next sentence, which puts the
@@ -326,8 +327,8 @@ This is where the two countries' guidance is worded differently.
 
 So a small patch on a hard surface is **Yours, on conditions**: small enough (under about 10 square
 feet on EPA's figure, and "very small amounts" on GOV.UK's), on a surface you can clean without
-pulling anything apart, with the moisture found, and in your own home or one where the landlord
-agrees. Anything larger, anything soaked with sewage, and anything hidden behind wallpaper,
+pulling anything apart, and with the moisture found. If you rent, it's yours too, and reported to
+the landlord: GOV.UK expects most tenants to deal with very small amounts. Anything larger, anything soaked with sewage, and anything hidden behind wallpaper,
 panelling or a carpet is **Call someone**. The hidden kind is on that list for a reason both
 countries give: GOV.UK warns that "removal of carpets or wallpaper can lead to a significant release
 of mould spores", and EPA that "removal of wallpaper can lead to a massive release of spores if there
@@ -384,8 +385,8 @@ mix household cleaning products at all.
 
 ### A flat on Wearside, in January
 
-A woman renting a first-floor flat on Wearside moves her wardrobe to hoover behind it and finds black
-mould on the wall, about 50 cm by 30 cm, at skirting height. It is an outside wall. The wall above the
+A woman renting a first-floor flat on Wearside moves her wardrobe to vacuum behind it and finds black
+mould on the wall, about 50 cm by 30 cm, at skirting (baseboard) height. It is an outside wall. The wall above the
 wardrobe line is clean.
 
 **Which kind?** It's behind furniture, low on a cold outside wall, in winter, which is almost word for
@@ -457,7 +458,7 @@ with a qualified damp specialist) it is impossible to advise what the exact caus
 Where salts have got into the plaster, it says, the plaster may need replacing with salt-resistant
 plaster.[8]
 
-The research case is reported in the journal of the Royal Institution of Chartered Surveyors (RICS).
+The thesis comes to this course through the journal of the Royal Institution of Chartered Surveyors (RICS).
 Two chartered surveyors, Michael Cooper and Andrew Thompson, wrote there in 2020 that rising damp "could benefit
 from greater academic investigation", and summarised a 2017 University of Salford doctoral thesis by
 Leslie Sellers as concluding: "Rising damp is a real phenomenon that warrants treatment and the
@@ -482,7 +483,7 @@ he gave his reason: "Cement-based and most lime-based mortars will not allow wat
 through."[10] This course read the
 article, not his book.
 
-The same article carried a reply. Terry Brown, of GMW Architects, said: "It’s right to question the
+The article itself set a reply beside them; the choice of reply is the article's. Terry Brown, of GMW Architects, said: "It’s right to question the
 diagnostic skills of commercial damp proofing firms, but to state categorically there is no such
 thing as rising damp undermines a whole litany of rules of brickwork detailing I’ve adhered to all my
 professional life." And: "Of course there is no reason why inherited conventional wisdom shouldn’t be
@@ -615,7 +616,7 @@ to contact local, state, or federal health or housing authorities."[2]
 For a renter in either country, the practical part is the same: photograph and mark the patch
 (GOV.UK), report it (EPA), and keep your own dated notes of what you reported and when, which is this
 course's suggestion rather than either source's. Cleaning a very small patch is yours on GOV.UK's
-account. Anything that changes the building, from a new vent to a new window, is something to agree
+account, and reported. Anything that changes the building, from a new vent to a new window, is something to agree
 with the landlord first, on this course's reading.
 
 ## What people get wrong
@@ -669,11 +670,10 @@ opens, unscrews or disturbs anything, so it suits a renter too.
 
 :::checkpoint Check your notes against this. What does each finding tell you, and whose job is the next step?
 
-**A fan that doesn't run, or a vent blocked or taped:** clearing a vent is **Yours** (if it's your
-home, or your landlord agrees); a dead fan is **Call someone**, the landlord if you rent. **A vent near
+**A fan that doesn't run, or a vent blocked or taped:** clearing a vent is **Yours**, in a rented
+home too; a dead fan is **Call someone**, the landlord if you rent. **A vent near
 a fuel-burning appliance:** it stays open, always (lesson 11). **A mould patch under about 10 square
-feet (0.93 m²) on a hard surface:** yours to clean by the steps in this lesson, if it's your home to
-repair or the landlord agrees, and reported if you rent. **Over that, or behind wallpaper or
+feet (0.93 m²) on a hard surface:** yours to clean by the steps in this lesson, and reported if you rent. **Over that, or behind wallpaper or
 panelling:** **Call someone**. **The diary**, on this course's reading of the sources: condensation that
 tracks cooking, showers or indoor drying points to ventilation first; condensation on one cold wall regardless of what's happening
 points to that wall, and that's worth showing a surveyor or the landlord, with the diary.
@@ -701,8 +701,7 @@ takes up woodworm.
 ## Go deeper
 
 - **GOV.UK, ["Understanding and addressing the health risks of damp and mould in the home"](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2)**,
-  updated April 2026, free. Read here in full. Written for landlords in England, and the clearest
-  official account read of the kinds of damp, what causes them and what to check.
+  updated April 2026, free. Read here in full. Written for landlords in England: the kinds of damp, what causes them and what to check.
 - **US EPA, [*A Brief Guide to Mold, Moisture and Your Home*](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home)**,
   free. Read here in full. The size rule, what to wear and how to tell when a clean-up is finished,
   on one page.

@@ -240,7 +240,7 @@ containing viruses to get into the air". Its steps for a home:[6]
 3. **Soak.** Spray the droppings and urine with a household disinfectant, or a bleach solution, "1
    part bleach to 9 parts water", until very wet. "Let it soak for 5 minutes or according to
    instructions on the disinfectant label."
-4. **Wipe** with paper towels into a covered bin, then disinfect the surfaces round it.
+4. **Wipe** with paper towels into a covered bin (trash can), then disinfect the surfaces round it.
 5. **Dead mice and nests:** spray, soak, and bag twice, each bag knotted.
 6. **Wash** gloved hands, take the gloves off, and wash your hands.
 
@@ -271,7 +271,7 @@ says to read the label before you buy.[7]
 ### In Great Britain and Northern Ireland
 
 Rodent poisons come under the GB Biocidal Products Regulation in Great Britain and the EU's in
-Northern Ireland, HSE's page says. On the commonest kind, HSE is blunt: anticoagulants "present a
+Northern Ireland, HSE's page says. On the commonest kind, HSE says anticoagulants "present a
 higher risk to people and non-target animals than is normally acceptable for authorisation in Great
 Britain and Northern Ireland", and are authorised only because the harm to society of not allowing
 them would outweigh that, with strict controls. HSE's advice is to "consider other available control
@@ -446,8 +446,7 @@ for monitoring.[19] All of it is **Yours**.
 
 ## Woodworm: old holes, live holes and damp
 
-"Woodworm" is the everyday name for wood-boring insects. The clearest official page this course
-read is a heritage page from Babergh and Mid Suffolk District Councils in Suffolk, about older and
+"Woodworm" is the everyday name for wood-boring insects. This course read a heritage page from Babergh and Mid Suffolk District Councils in Suffolk, about older and
 listed buildings in their area.[20] Its first point is that active and old attacks are hard to tell
 apart: "It can be difficult to prove whether you have an active infestation of wood-boring insects,
 at most times of the year. Adult insects mainly emerge in the spring."
@@ -585,7 +584,7 @@ intended for outdoor use."[18]
 ## Practice
 
 :::exercise A pest walk-round
-Take 30 minutes over this, with a torch and a notebook. It is looking and listing. Don't touch or
+Take 30 minutes over this, with a torch (flashlight) and a notebook. It is looking and listing. Don't touch or
 sweep any droppings, don't set poison or a fogger, and don't fill, pack or disturb anything round a
 gas pipe, meter or electricity cable. Don't climb a ladder for it. If you rent, you list; changing
 anything waits for your landlord's agreement.

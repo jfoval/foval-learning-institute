@@ -104,14 +104,15 @@ quiz:
       and that all roofs should be treated as fragile until a competent person says otherwise, which
       rules out a roof that looks sound. That HSE's pages are written for work settles what binds
       whom, not whether the job is safe. Footing a ladder is about getting up a ladder, not about
-      walking on a roof.
+      walking on a roof. This course read no US source on roof work, so the British guidance is the
+      one it has.
   - q: >-
       A 1970s house in the Lake District has a garage whose cement gutters and roof sheets might
       be asbestos cement. The gutters are full of moss. As the Health and Safety Executive advises
       for Great Britain, what should the owner do?
     options:
       - Scrape the gutters clean, since asbestos cement is lower risk and any adult may handle it
-      - Snap off the worst length of gutter, bag it, and take it to the tip along with the garden waste
+      - Snap off the worst length of gutter, bag it, and take it to the tip (the dump) along with the garden waste
       - Leave the gutters and sheets alone for now, as HSE says don't repair or remove them untrained
       - Jet-wash the gutters from the ground, which keeps the owner off a ladder and the dust wet
     answer: 2
@@ -145,7 +146,7 @@ count".
 
 ## Four kinds of damp, and the one that comes from outside
 
-The clearest official account of damp this course read is English government guidance written for
+The official guidance on damp this course uses most is English government guidance written for
 landlords, "[Understanding and addressing the health risks of damp and mould in the
 home](https://www.gov.uk/government/publications/damp-and-mould-understanding-and-addressing-the-health-risks-for-rented-housing-providers/understanding-and-addressing-the-health-risks-of-damp-and-mould-in-the-home--2)".
 It names four kinds. Condensation damp is moisture from inside the home settling on cold surfaces,
@@ -160,7 +161,7 @@ are not sealed off from each other. The guidance says "traumatic or penetrating 
 exacerbate condensation dampness", so a wall wetted from outside can make the room's own moisture
 worse.[1]
 
-Two more things from the same guidance belong at the start. It is blunt about blame: "We are
+Two more things from the same guidance belong at the start. It speaks directly to blame: "We are
 absolutely clear that it is totally unreasonable to blame damp and mould in the home on ‘lifestyle
 choices’", and it puts the fundamental cause in "building deficiencies, inadequate ventilation,
 inadequate heating and/or poor energy efficiency, not tenants’ normal domestic activities".[1]
@@ -646,7 +647,7 @@ and the argument about rising damp. Lesson 19 is where asbestos cement is taught
   homes in England, in the order a walk-round takes.
 - **University of Minnesota Extension, ["Moisture in basements: causes and
   solutions"](https://extension.umn.edu/moisture-and-mold-indoors/moisture-basements-causes-and-solutions)**,
-  free. Read here in full. The clearest account this course read of where basement water comes from and what to fix
+  free. Read here in full. Where basement water comes from and what to fix
   in what order, written for Minnesota basements.
 - **RICS, Historic England and the PCA, ["Investigation of moisture and its effects on traditional
   buildings"](https://ihbc.org.uk/toolbox/docs/JPS2022%20Investigation%20of%20moisture%20v3.pdf)**,

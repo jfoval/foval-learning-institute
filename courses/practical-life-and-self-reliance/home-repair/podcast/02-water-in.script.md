@@ -6,7 +6,7 @@ checked: >-
   against the lesson on 2026-09-26: verdict PASS WITH NITS. Both nits fixed: the thawing order now
   names the Consumer Council for Water in full rather than "the Council for England and Wales"; and
   the homeowner arranging the repair of a leak on their side is credited to the Consumer Council.
-  Sign-off re-read against the finished script.
+  Sign-off re-read against the finished script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Second episode for Home
@@ -71,7 +71,7 @@ S1: That depends on your country, and it's the lesson's clearest case of the cou
 
 S2: Which one's right?
 
-S1: The course calls neither country's order wrong, and won't invent reasons the pages don't give. Neither UK page says in so many words why the stop tap goes off first. Follow your own country's. But one rule all three sources give: no naked flame, no blowtorch, ever. The Met Office says direct heat may damage the pipe and could start a fire. Thawing a pipe you can reach is Yours, though the Council's steps also say to contact a registered plumber before it bursts. If it's already split, it's lesson one's burst-pipe order, then Call someone.
+S1: The course calls neither country's order wrong, and won't invent reasons the pages don't give. Neither UK page says in so many words why the stop tap goes off first. Follow your own country's. But one rule all three sources give: no naked flame, no blowtorch, ever. The Met Office says direct heat may damage the pipe and could start a fire. Thawing a pipe you can reach is Yours, if it's your home to repair or your landlord agrees, though the Council's steps also say to contact a registered plumber before it bursts. If it's already split, it's lesson one's burst-pipe order, then Call someone.
 
 S2: Put it together for me.
 

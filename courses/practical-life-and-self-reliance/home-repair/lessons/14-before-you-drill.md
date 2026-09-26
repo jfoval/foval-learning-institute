@@ -223,7 +223,7 @@ can't tell whether a material contains asbestos simply by looking at it, unless 
 doubt, treat the material as if it contains asbestos and leave it alone", and on its list of don'ts:
 "Don't saw, sand, scrape, or drill holes in asbestos-containing materials."[4]
 
-A textured ceiling, an old board that looks like plasterboard, anything in a pre-2000 British home
+A textured ceiling, an old board that looks like plasterboard (drywall), anything in a pre-2000 British home
 or an older American one that you are not sure of: don't drill it. That is a stop, not a judgement
 call, and lesson 19, "Asbestos, lead paint and radon: what not to disturb", is where the course
 teaches what comes next. That stop is this course's line, built on HSE's and EPA's advice. What the

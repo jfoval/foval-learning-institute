@@ -507,7 +507,7 @@ CPR lesson 14's, and is not retaught here.
 - **Cadent, ["What to do if you smell gas"](https://cadentgas.com/smell-gas)**, free, read here in
   full. Cadent's steps for its own network, with its page on finding your meter linked from it.
 - **SoCalGas, ["Natural Gas Leaks"](https://www.socalgas.com/safety/safety-and-prevention/natural-gas-leak)**,
-  free, read here in full. The clearest account read of odour fade and the signs to see and hear,
+  free, read here in full. Odour fade and the signs to see and hear,
   written for the utility's own customers.
 - **Con Edison, ["Gas Safety"](https://www.coned.com/en/safety/energy-safety/gas-safety)**, free,
   read here in full. The one page read that gives the reason for the "don't touch" list.

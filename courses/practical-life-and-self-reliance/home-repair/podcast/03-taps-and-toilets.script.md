@@ -6,7 +6,7 @@ checked: >-
   against the lesson on 2026-09-26: verdict PASS WITH NITS. All three nits fixed: United Utilities
   is now "a water company", as this lesson calls it; the hot tap still running is now "well past
   that, say ten minutes later", so ten minutes is the Devon case and not a cut-off; and Bristan is
-  "a UK tap maker", the lesson's words. Sign-off re-read against the finished script.
+  "a UK tap maker", the lesson's words. Sign-off re-read against the finished script; 2026-09-26 neutrality-audit edit mirrored.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Third episode for Home
@@ -43,7 +43,7 @@ S1: No source the course read gives a test from the outside. What tells you is t
 
 S2: Walk me through Southern Water's, then.
 
-S1: It's written for a UK washer tap, and on Southern Water's advice it's Yours. Turn off the water at the stop tap. Turn the dripping tap on full, and a few drops may come out before it stops. Unscrew the cover, loosen the nut with a spanner, lift out the tap top, and lay the parts out in the order they came off. Lift out the jumper plate, undo the nut with pliers, and put in a new washer. Then reassemble.
+S1: It's written for a UK washer tap, and on Southern Water's advice it's Yours, if it's your home to repair or your landlord agrees. Turn off the water at the stop tap. Turn the dripping tap on full, and a few drops may come out before it stops. Unscrew the cover, loosen the nut with a spanner, a wrench,, lift out the tap top, and lay the parts out in the order they came off. Lift out the jumper plate, undo the nut with pliers, and put in a new washer. Then reassemble.
 
 S2: Any trap in that?
 
@@ -63,7 +63,7 @@ S1: America's Environmental Protection Agency, EPA, gives no step by step, and t
 
 S2: Now the toilet that runs.
 
-S1: The course read nothing that says one country's part fits the other's toilet. In an American toilet, the part EPA names is the flapper, the rubber seal that holds water in the tank. EPA says check it periodically and replace it at least every five years. A worn one can make the toilet flush on its own, or leak silently. That's Yours, on conditions: the flapper made for your toilet, and the water isolated first, which is the course's rule.
+S1: The course read nothing that says one country's part fits the other's toilet. In an American toilet, the part EPA names is the flapper, the rubber seal that holds water in the tank. EPA says check it periodically and replace it at least every five years. A worn one can make the toilet flush on its own, or leak silently. That's Yours, on conditions: the flapper made for your toilet, the water isolated first, which is the course's rule, and your home to repair or your landlord's agreement.
 
 S2: And a British one?
 

@@ -20,7 +20,7 @@ objectives:
 quiz:
   - q: >-
       A woman owns and lives in a 1980s semi in Midlothian. In her airing cupboard she finds a
-      cracked board that looks like plasterboard, and she wants to cut it out and fit a new one
+      cracked board that looks like plasterboard (drywall), and she wants to cut it out and fit a new one
       herself. As general information, which answer states the law and HSE's advice correctly?
     options:
       - The Regulations bind her as the owner, so she'd need an HSE licence to cut that board out
@@ -77,7 +77,7 @@ quiz:
       surface, that is one of the BCF's reasons to treat or remove old lead paint even when it's
       sound.
   - q: >-
-      A homeowner in Surrey tries a DIY lead test kit on the 1970s skirting boards before sanding
+      A homeowner in Surrey tries a DIY lead test kit on the 1970s skirting boards (baseboards) before sanding
       them, and it shows no lead. What does the British Coatings Federation say about that result?
     options:
       - The skirting is probably lead-free, so it can be sanded like newer paint
@@ -225,7 +225,7 @@ EPA: "If you think there may be asbestos in your home, don't panic." And: "Do le
 asbestos-containing materials alone."[7] Looking at a suspect material now and then, without
 touching it, is **Yours**.
 
-:::checkpoint A British house built in 1996 has a cement water tank in the loft, a textured ceiling in the hall, and plain plasterboard walls put up in a 2012 extension. Which of the three are on HSE's list, and what does HSE say to do about them if they are sound?
+:::checkpoint A British house built in 1996 has a cement water tank in the loft (attic), a textured ceiling in the hall, and plain plasterboard walls put up in a 2012 extension. Which of the three are on HSE's list, and what does HSE say to do about them if they are sound?
 
 The tank and the ceiling. The house was built before 2000, and HSE's list includes water tanks and
 "textured decorative coatings (commonly referred to as Artex)".[1] The 2012 extension is after 2000,
@@ -758,8 +758,8 @@ you hire is trained, licensed or certified for the work.
   The US homeowner's do's and don'ts.
 - **EPA, ["Lead-Safe Renovations for DIYers"](https://www.epa.gov/lead/lead-safe-renovations-diyers).**
   The seven practices, as the method to follow if you do the work yourself.
-- **British Coatings Federation, "Lead in painted surfaces"**, linked above. The most complete current
-  UK guidance this course found, from a trade body.
+- **British Coatings Federation, "Lead in painted surfaces"**, linked above. A trade body's
+  guidance for the general public on repainting and removal, UK.
 
 ## Sources
 

@@ -33,7 +33,7 @@ quiz:
   - q: >-
       As general information: a landlord in Derbyshire lets a three-storey house in England on a
       tenancy the 2015 Regulations cover. The ground floor has the kitchen and living room, the first
-      floor the bedrooms, and the converted loft a bathroom only. Where does regulation 4 require
+      floor the bedrooms, and the converted loft (attic) a bathroom only. Where does regulation 4 require
       smoke alarms?
     options:
       - On all three floors, since the regulation counts a bathroom as living accommodation
@@ -128,6 +128,8 @@ The law first, where this course read it. In England, the [Smoke and Carbon Mono
 landlord of a tenancy they cover to make sure "a smoke alarm is equipped on each storey of the
 premises on which there is a room used wholly or partly as living accommodation".[1] The regulation
 treats a bathroom or lavatory as living accommodation, and counts a hall or landing as a room.[1]
+The landlord must also check that each alarm is "in proper working order on the day the tenancy
+begins if it is a new tenancy".[1] If you rent in England, that first-day check is the landlord's.
 The Regulations bind landlords; this course read no rule that requires an owner-occupier in England
 to fit an alarm in an existing home.
 
@@ -397,8 +399,8 @@ are treated; nothing here replaces it.
   free. Read here: the introduction and section 5. The section on smoke alarm function is short,
   and it's where the chart in this lesson came from.
 - **Scottish Government, ["Fire and smoke alarms: the law"](https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/)**,
-  free. Read here in its "What each home needs" and "Where and what to buy" sections. The clearest
-  statement read of what one nation's rule asks of every home.
+  free. Read here in its "What each home needs" and "Where and what to buy" sections. What
+  one nation's rule asks of every home.
 - **US Fire Administration, ["Smoke alarms"](https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/)**,
   free. Read here in full. The US routine, battery by battery, in one page.
 

@@ -178,6 +178,13 @@ you've never met belongs on the list.
 | A mains-wired smoke alarm | England's Home Office guide, Scotland's factsheet and USFA (US): a qualified electrician | 12 |
 | A cistern with no maker's leaflet | This course read no method | 3 |
 | Rodents in ducts or out of reach, a pest that needs a professional-only product, persistent bed bugs, active woodworm, termites | CDC sends the rodents to a professional; the product's label (US) or HSE (GB) keeps it from the public; EPA: termites need a state-licensed professional; bed bugs and woodworm are this course's line | 21 |
+| Any of these, or any repair, in a rented home | Tell the landlord first. In Great Britain the landlord's yearly gas check is the law's; in England, so are the alarms and the electrical report | 6, 10 to 12 |
+
+**Before you pay anyone**, ask whether someone you don't have to pay can help. If you rent, in
+either country, that's the landlord. In Great Britain, HSE runs a free Gas Safety Advice Line for
+questions about gas safety (lesson 10), and names your council's environmental health officer for
+asbestos questions at home (lesson 19). In the US, your state's radon programme can help you find a
+test kit (lesson 19).
 
 Look down the middle column and three kinds of reason turn up. Some stops are the law's: in Great
 Britain, a business doing gas work must be registered. Some are the advice's, where the law would
@@ -218,8 +225,8 @@ Then the checks, from its page ["Before you get work done on your home"](https:/
   ring the business to check it exists and the person works for them. Be wary of a mobile number and
   nothing else.
 - **Membership.** Check any scheme, competent person scheme or trade association the trader
-  names on that body's own website. The Federation of Master Builders, a trade association, puts the
-  reason bluntly: "some places claim to be a member when they're not".[4]
+  names on that body's own website. The Federation of Master Builders, a trade association, gives the
+  reason: "some places claim to be a member when they're not".[4]
 - **Insurance.** Ask to see the trader's policies and check they don't run out before the job
   ends. Citizens Advice says "If a trader which has employees doesn’t have employer’s liability
   insurance, they are breaking the law", and to tell your own buildings insurer about the work.
@@ -616,13 +623,12 @@ and paying, and Digital Literacy lesson 11 the own-route rule.
 ## Go deeper
 
 - **Citizens Advice, ["Before you get work done on your home"](https://www.citizensadvice.org.uk/consumer/getting-home-improvements-done/before-you-get-building-work-done/).**
-  Read here in full. England's most complete checklist, and the source of most of this lesson's UK
+  Read here in full. A checklist for England, and the source of most of this lesson's UK
   advice.
 - **FTC, ["How To Avoid Scams After Weather Emergencies and Natural Disasters"](https://consumer.ftc.gov/articles/how-avoid-scams-after-weather-emergencies-and-natural-disasters).**
   Read here in full. Short, and worth reading before the storm rather than after it.
 - **Contractors State License Board, [*A Consumer Guide to Home Improvement Contracts*](https://www.cslb.ca.gov/Resources/GuidesAndPublications/HomeImprovementContractsConsumerGuide.pdf).**
-  Read here in full. California's, but its account of liens is the clearest explanation this course
-  found of why paying the contractor isn't the end of it. It doesn't mention the seven-day right in
+  Read here in full. California's, but its account of liens explains why paying the contractor isn't the end of it. It doesn't mention the seven-day right in
   the statute, so read it beside section 7159.
 
 ## Sources

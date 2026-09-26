@@ -173,7 +173,7 @@ sometimes GFI) in the US. ESF says an RCD "protects you from electric shocks if 
 faulty."[2] In 1989 CPSC said a GFCI "shuts down the power in milliseconds" when current leaks to
 ground (to earth, in British terms).[3]
 
-:::predict Before reading how it works: a kettle's flex is worn and its live wire is touching the kettle's metal body. You pick it up with one hand while the other hand is on the tap. The kettle is drawing no more current than usual. Will the circuit breaker trip? And whatever does cut the power, how could it possibly know you're there?
+:::predict Before reading how it works: a kettle's flex (cord) is worn and its live wire is touching the kettle's metal body. You pick it up with one hand while the other hand is on the tap. The kettle is drawing no more current than usual. Will the circuit breaker trip? And whatever does cut the power, how could it possibly know you're there?
 
 Don't count on the breaker. The kettle is drawing no more current than usual, so there's no
 overload for it to act on, and CPSC says breakers and fuses are there mainly for the wiring, not
@@ -337,7 +337,7 @@ coming into your property."[12]
 If the whole street is dark, the fault is likely to be the network's, and both networks give 105 as the number
 for a power cut.[11][12] If only your house is dark, start with your own box. SSEN's meter check
 tells you whether power is reaching the house at all, and both networks say to call them if a reset
-doesn't bring it back.
+doesn't bring it back. This course read no US utility's page on telling the two apart.
 
 ### Resetting: the UK network operators
 
@@ -633,7 +633,7 @@ the rule behind it.
 ## Connections
 
 First Aid and CPR lesson 2 taught you to make sure the power is off before touching someone in
-contact with a supply, and lesson 10 taught that the NHS sends every electrical burn to 999 or A&E. This lesson
+contact with a supply, and lesson 10 taught that the NHS sends every electrical burn to 999 or A&E (the emergency department). This lesson
 does not reteach either; it is about the devices that try to stop both being needed. Lesson 1, "How a
 house works, and where it switches off", found the box and set the rule that its front is yours and
 its inside is not. Lesson 3, "Taps and toilets", taught isolating the water before opening a tap,
@@ -642,16 +642,16 @@ and the reset here has the same shape: take the load off first.
 Lesson 6, "Plugs, leads and electrical fires", takes the same devices down to the plug in the
 wall: which fuse goes in a plug, what an extension lead will carry, the warning signs of a circuit
 in trouble, and what the fire figures do and don't say. Lesson 14, "Before you drill: cables,
-pipes and what's in the wall", comes back to electricity when you drill a wall near cables, and lesson 22 sets
+pipes and what's in the wall", comes back to cables in walls, and lesson 22 sets
 out who may do which electrical work, place by place.
 
 ## Go deeper
 
 - **CPSC, [GFCIs Fact Sheet](https://www.cpsc.gov/s3fs-public/099_0.pdf).** Two pages, free, read
-  here in full. The clearest account this course found of what a GFCI does, with the test routine
+  here in full. What a GFCI does, the test routine
   and CPSC's dated list of where the code has required them.
 - **CPSC, [Preventing Home Fires: Arc Fault Circuit Interrupters](https://www.cpsc.gov/s3fs-public/5133.pdf).**
-  One page, read here in full. Short and exact about the difference between fire and shock devices,
+  One page, read here in full. On the difference between fire and shock devices,
   and why the installation is an electrician's.
 - **Southern California Edison, ["How do I reset my circuit breakers?"](https://www.sce.com/customer-service-center/help-center/outages/general/reset-circuit-breakers).**
   Read here in full. The US reset steps and warnings, from a utility, for its own customers.

@@ -392,7 +392,7 @@ Mark each part yourself, or with someone you trust, at one of three levels.
   advice called law.
 - **The call list.** Full marks: every trade your home needs, each with its register found by your
   own route and one check at the door; the cancellation period, the deposit rule marked law or
-  advice, and three questions. Partly there: the trades and registers, with checks or the contract
+  advice, a way to pay that leaves a record, as lesson 23 advises, and three questions. Partly there: the trades and registers, with checks or the contract
   rules missing. Not yet: no registers, or a register reached through a trader's own link or number.
 - **The repair.** Full marks: an eligible job, all five headings, every step attributed to its lesson
   or the maker, and a stop point in the lesson's words; or the same as a plan. Partly there: the
@@ -418,11 +418,13 @@ lesson said can hurt someone:
 - a generator anywhere but outside, at least 20 feet (about 6 metres) from the house with the
   exhaust facing away, charcoal burned indoors, or a gas oven used for heat
   (lesson 11);
-- a ladder resting on a plastic gutter or glass, or any job within 6 m of an overhead line (lesson
-  15);
+- a ladder resting on a plastic gutter or glass, or any job within 6 m of an overhead line in
+  Great Britain (HSE's guidance), or within OSHA's 10 feet (about 3 metres), a rule for US
+  employers, in the US (lesson 15);
 - a fogger for cockroaches, or sweeping or vacuuming rodent droppings (lesson 21);
-- paying a contractor in cash, or, in the US, paying by wire transfer or gift card, or signing your
-  insurance check over to a contractor (lesson 23).
+- in the US, paying by wire transfer or gift card, paying cash to a contractor who insists on it,
+  or signing your insurance check over to a contractor, each a sign of a scam in the FTC's list
+  (lesson 23).
 
 ## What this project is not
 
