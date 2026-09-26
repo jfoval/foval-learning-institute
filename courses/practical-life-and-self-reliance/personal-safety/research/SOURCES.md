@@ -2579,7 +2579,9 @@ situational and the victim's to make, and that nobody who complied or resisted c
 - **Metropolitan Police Department, Washington DC, "Guarding Against Robbery and Assault"**
   (brochure, January 2011, PDF, read in full): "Don't resist. Give up your property— don't give up
   your life." On carjacking: "If the carjacker threatens you with a gun or other weapon, GIVE UP
-  YOUR CAR!" [V]
+  YOUR CAR!" [V] (Stage 4 note, lesson 10: under the same heading it lists running away, hiding,
+  screaming and raising an alarm as preventive "Self defense measures"; see "Gate closures, lesson
+  10". Do not reproduce the unsourced line that follows them.)
 - **OSHA 3153** (above) lists, among the topics late-night retail training may include, "turning
   over money or valuables without resistance". [V] (Stage 4 note, lesson 09: a recommendation and a
   "Topics may include" item; never write that OSHA "tells" employers to train it.)
@@ -2603,9 +2605,15 @@ situational and the victim's to make, and that nobody who complied or resisted c
   Rape, Robbery and Assault*** (NIJ, 1985; NCJRS abstract read in full, report not read). US
   National Crime Survey, 1973 to 1979. "Generally, nonforceful resistance was related to more
   favorable victim outcomes. Victims who resisted by screaming, running away, reasoning with their
-  attackers, or other nonforceful means were less likely to be injured". Limitations stated: the
-  survey "excludes crimes in which the victim dies, and it does not obtain data on the sequencing of
-  victim and offender actions". [V] This is a middle position: not "do nothing", but not "fight".
+  attackers, or other nonforceful means were less likely to be injured and more likely to avoid
+  completion of the crime." Limitations stated: the survey "excludes crimes in which the victim dies,
+  and it does not obtain data on the sequencing of victim and offender actions". [V] (Stage 4 note,
+  lesson 10: the quotation previously stopped at "injured", cutting the half that favours
+  resistance. The abstract also says the effects "varied with victim and offender characteristics,
+  the crime setting, and whether or not the offender used a weapon" [V], without saying in which
+  direction. Non-forceful resistance going with better outcomes than none is evidence against
+  "Don't resist" as written, so this study is not support for the compliance side; it is filed here
+  only because it is usually cited in this argument. See "Gate closures, lesson 10".)
 - **Unread, snippet only:** Zimring and Zuehl (1986) studied Chicago robbery killings and are
   usually cited for the finding that resisting victims were over-represented among those killed;
   Kleck and DeLone (1993) found, per a search snippet, that unarmed physical force against a robber
@@ -2614,22 +2622,30 @@ situational and the victim's to make, and that nobody who complied or resisted c
 **Best case in its proponents' terms**: a robber wants property and speed; a compliant victim
 gives both and ends the encounter; the people most at risk of being killed in a robbery are those
 who resist, and that is the one outcome surveys of survivors can never capture. Property is
-replaceable. Police in both countries, and the US workplace regulator, advise compliance.
+replaceable. London's Metropolitan Police and the Washington, DC police advise compliance, and the
+US workplace regulator lists it as a training topic. (Stage 4 note, lesson 10: previously "Police in
+both countries", which is two forces; none of the three official pages cites Faulkner, Smith or
+Block and Skogan, so no study may be said to "stand behind" the advice.)
 
 #### 3.2 The case that resistance often helps
 
 - **Tark and Kleck, "Resisting crime: the effects of victim action on the outcomes of crimes"**,
-  *Criminology* 2004;42:861-909. **Abstract only (Crossref API).** 27,595 personal contact crime
+  *Criminology* 2004;42:861-910 (Stage 4 note, lesson 10: Crossref gives 861-910). **Abstract only
+  (Crossref API).** 27,595 personal contact crime
   incidents from the NCVS, 1992 to 2001, sixteen self-protection actions. "self‐protection in
   general, both forceful and nonforceful, reduced the likelihood of property loss and injury,
   compared to nonresistance." "The appearance, in past research, of resistance contributing to
   injury was found to be largely attributable to confusion concerning the sequence of SP actions and
   injury. In crimes where both occurred, injury followed SP in only 10 percent of the incidents."
-  They conclude "victim resistance appears to be generally a wise course of action." [V] Resistance
-  with a gun appeared among the most protective actions; "some of the findings were unstable due to
-  the small numbers of sample cases." [V] Part D handles guns; this part should not.
+  The sentence in full: "Combined with the fact that injuries following resistance are almost
+  always relatively minor, victim resistance appears to be generally a wise course of action." [V]
+  And: "A variety of mostly forceful tactics, including resistance with a gun, appeared to have the
+  strongest effects in reducing the risk of injury, though some of the findings were unstable due to
+  the small numbers of sample cases." [V] (Stage 4 note, lesson 10: both sentences were previously
+  given without their first halves.) Part D handles guns; this part should not.
 - **Guerette and Santana, "Explaining Victim Self-Protective Behavior Effects on Crime Incident
-  Outcomes"**, *Crime & Delinquency* (online 2008). **Abstract only (Crossref).** NCVS 1992 to 2004,
+  Outcomes"**, *Crime & Delinquency* 56(2), 2010, pp. 198-226 (online 27 June 2008, per Crossref).
+  **Abstract only (Crossref).** NCVS 1992 to 2004,
   robbery and rape. "Greater levels of victim resistance increase the effort needed by offenders,
   resulting in some cases in a 93% and 92% decrease in the odds of a robbery and rape being
   completed, respectively, compared to when no resistance is used." [V] Note that this outcome is
@@ -2642,7 +2658,11 @@ replaceable. Police in both countries, and the US workplace regulator, advise co
 
 **Best case in its proponents' terms**: once you account for whether injury came before or after
 resistance, resistance rarely provokes injury; many attackers use force first, so non-resistance
-does not buy safety; resistance, especially non-forceful (running, shouting), often ends the crime.
+does not buy safety; resistance of both kinds cut property loss and injury (Tark and Kleck), and
+mostly forceful tactics appeared to cut injury most; greater resistance cut the odds of a robbery
+being completed (Guerette and Santana). (Stage 4 note, lesson 10: previously "especially
+non-forceful (running, shouting)", which is Block and Skogan's finding, not any resistance-side
+source's.)
 
 #### 3.3 What would settle it, and how a lesson should frame it
 
@@ -2655,7 +2675,10 @@ read says hand it over, and the resisters' own data do not contradict that. Wher
 wants more than property (to move you somewhere, to hurt you, to sexually assault you), the
 calculation changes, and the sexual assault evidence (§4) points toward resistance. A good lesson
 teaches the distinction between **a demand for property** and **an attack on the person**, and says
-plainly that the law in neither country requires a victim to resist or to comply.
+plainly that the law in neither country requires a victim to resist or to comply. (Stage 4 note,
+lesson 10: no statute, guidance or case on a robbery victim's duties was read, so a lesson may say
+only that no source this course read suggests the law anywhere the course covers requires a victim
+to hand property over or to resist, with the general-information label.)
 
 ---
 
@@ -2804,20 +2827,32 @@ assaults. A lesson should give both in their own terms and reach no verdict on t
 - **Taylor and colleagues, "tend-and-befriend"**, *Psychol Rev* 2000 (abstract): "Although
   fight-or-flight may characterize the primary physiological responses to stress for both males and
   females, we propose that, behaviorally, females' responses are more marked by a pattern of
-  'tend-and-befriend.'" [V] A theory with a published critique (2002 comment); teach as a proposal.
+  'tend-and-befriend.'" [V] A theory; teach as a proposal. (Stage 4 note, lesson 10: PubMed lists
+  "Comment in Psychol Rev. 2002 Oct;109(4):745-50; discussion 751-3." The comment was not read, so
+  it may not be called a critique.)
 - **Artwohl, "Perceptual and Memory Distortions During Officer Involved Shootings"** (2008 update of
   her 2002 FBI LEB article, AELE workshop PDF, read in full). Survey of 157 officers after shootings:
   "diminished sound 84%", "tunnel vision 79%", "memory loss for part of the event 52%". [V]
   Voluntary written survey, collected after group debriefings, by a police psychologist; the author
   herself says "the exact percentages don't matter". Good for "your senses and memory will not
-  behave normally", with those caveats.
+  behave normally", with those caveats. (Stage 4 note, lesson 10: the figures are officers'. Artwohl
+  writes that "The same concept applies to other eyewitnesses and the suspects as well" as her view,
+  without data, so carrying the figures to anyone else is labelled; her 21% for something recalled
+  that had not happened is "not huge" but "certainly not trivial", never "common". The debriefing
+  instruction is a design choice she defends, not a caveat she offers. See "Gate closures, lesson
+  10".)
 - **Training under stress**: Nieuwenhuys and Oudejans, *Cogn Process* 2011 (abstract): 27 officers;
   after training with an opponent who shot back with soap cartridges, "shot accuracy of the
   experimental group no longer deteriorated under anxiety", still present at 4 months. [V] But
   Nieuwenhuys and colleagues, *Appl Ergon* 2015 (abstract, 57 officers): threat-induced errors in
   shoot/don't-shoot decisions "persisted" despite three weeks' practice and "may be hard to prevent
-  within the limits of available practice". [V] Together: stress-exposed practice helps skills
-  more than it helps judgement, and neither comes from a page.
+  within the limits of available practice". [V] Together: practice with an opponent who shot back
+  helped accuracy hold up; three weeks of practice did not remove threat's effect on shoot
+  decisions. (Stage 4 note, lesson 10: previously "stress-exposed practice helps skills more than it
+  helps judgement". The 2015 abstract says only that officers "were divided over four different
+  practice groups and practiced their shooting decisions for three consecutive weeks", and that the
+  effects "remained equally strong for all practice groups" [V]; it does not say any group practised
+  under threat, and nothing compares the size of threat's effects on skill and on judgement.)
 - **Practitioner claims to handle carefully.** Grossman's *On Combat* and Siddle's heart-rate
   "conditions" (e.g., fine motor skill failing above a stated heart rate) are widely taught in
   self-defence and police training. I found no peer-reviewed validation of the specific thresholds
@@ -4872,3 +4907,89 @@ asocial) point here.
   crime happened in Northern Ireland" [V]
 - **Victim Support NI, home page**: "We offer a free and confidential service, whether or not the
   crime has been reported, regardless of how long ago the crime took place." [V]
+
+## Gate closures, lesson 10 (2026-09-25)
+
+From lesson 10's Stage 4 review (Reviewer F, primaries fetched 2026-09-25 into the review's
+scratchpad; each [V] string script-checked against the fetched copy, 30 of 30 found; the fixer
+re-checked Tark and Kleck, Block and Skogan, Nieuwenhuys 2015, Artwohl, OSHA 3153, the DC brochure,
+Faulkner and Smith by string match before editing). Small notes marked "Stage 4 note, lesson 10" sit
+in place in Part C §3.1, §3.2, §3.3 and §5.
+
+### Corrections to Part C
+- **§3.2, Tark and Kleck:** pages are 861-910 (Crossref), not 861-909. The abstract's gun sentence in
+  full: "A variety of mostly forceful tactics, including resistance with a gun, appeared to have the
+  strongest effects in reducing the risk of injury, though some of the findings were unstable due to
+  the small numbers of sample cases." The "wise course" sentence in full: "Combined with the fact
+  that injuries following resistance are almost always relatively minor, victim resistance appears
+  to be generally a wise course of action." [V] The best-case line's "especially non-forceful
+  (running, shouting)" is not from any resistance-side source; struck.
+- **§3.1, Block and Skogan** (NCJRS, re-read): "The types of victim resistance used and their impact
+  on physical injury and crime completion varied with victim and offender characteristics, the crime
+  setting, and whether or not the offender used a weapon." "Victims who resisted by screaming,
+  running away, reasoning with their attackers, or other nonforceful means were less likely to be
+  injured and more likely to avoid completion of the crime." "The National Crime Survey excludes
+  crimes in which the victim dies, and it does not obtain data on the sequencing of victim and
+  offender actions, so it cannot be known whether resistance preceded or followed attack."
+  Annotation: "This study examined all completed or attempted rapes, robberies, and assaults
+  recorded in the National Crime Survey from 1973 and 1979". [V]
+- **§3.1, DC brochure**, same heading "If Someone Tries to Rob You": "Self defense measures are most
+  effective when applied as preventive steps—avoiding the crime in the first place. These measures
+  include running away, hiding, screaming, and raising an alarm" [V] (the dash is the brochure's;
+  split around it if quoted; the line after it is unsourced and is not reproduced).
+- **§3.1, best-case line:** "Police in both countries" is two forces, London's Met and Washington,
+  DC's MPD; none of the three official pages cites Faulkner, Smith or Block and Skogan (OSHA 3153's
+  reference list searched).
+- **§3.1, Smith:** "Data have been collected for this study from almost 2,000 crime reports and
+  witness statements for robbery." "This information was collected from seven force basic command
+  units (BCUs)." "In addition, robberies in two British Transport force areas were also analysed".
+  "The sample may not be representative as such, but by focusing on BCUs in different areas with
+  different levels of recorded robbery, the study aims to capture something of the diversity of the
+  problem." Blitz: "Violence is used to overwhelm, stun or control the victim prior to the removal of
+  any property or prior to any demands to hand over property." [V]
+- **§3.1, Faulkner** (PubMed 11757047): "Injury risk was strongly associated with the following
+  characteristics: employee resistance, robberies without firearms or money taken, daytime and
+  merchandise robberies, stores with limited escape routes and no cash policy or drop safe, older
+  clerks, and surrounding areas with lower valued buildings, less expensive rent, more vacant
+  structures, and younger residents." Affiliation: "National Institute for Occupational Safety and
+  Health, University of Pittsburgh, Pittsburgh, Pennsylvania 15261, USA." [V] The abstract does not
+  say the robberies were of one chain.
+- **§3.3:** "the law in neither country requires a victim to resist or to comply" has no primary
+  behind it; a lesson may say only that no source read suggests such a requirement.
+- **§5, Nieuwenhuys 2015:** "After an initial pretest, officers were divided over four different
+  practice groups and practiced their shooting decisions for three consecutive weeks." "Despite
+  practice, these effects persisted on the posttest and remained equally strong for all practice
+  groups." [V] The abstract does not say any group practised under threat; the synthesis now reads
+  "practice with an opponent who shot back helped accuracy; three weeks of practice did not remove
+  threat's effect on shoot decisions". Neither 2011 nor 2015 abstract states the officers'
+  nationality; the authors' affiliations are in Amsterdam and Nijmegen.
+- **§5, Roelofs:** "Whereas freezing is a form of behavioural inhibition accompanied by
+  parasympathetically dominated heart rate deceleration, fight-or-flight reactions are associated
+  with sympathetically driven heart rate acceleration." "Recent neuroimaging studies in humans have
+  indicated that similar brain regions may be involved in human freezing." [V] (Animal research.)
+- **§5, Kozlowska:** "Evolution has endowed all humans with a continuum of innate, hard-wired,
+  automatically activated defense behaviors, termed the defense cascade." The last-resort clause
+  continues "tonic immobility and collapsed immobility are responses of last resort to inescapable
+  threat, when active defense responses have failed". [V]
+- **§5, Taylor:** "Comment in Psychol Rev. 2002 Oct;109(4):745-50; discussion 751-3." [V] Not read;
+  "critique" is not established.
+- **§5, Artwohl:** "In the present study a written survey composed by the author was given to 157
+  officers involved in shootings at multiple agencies. Approximately two thirds of these surveys were
+  given to officers by the author within a few weeks after their shooting." "Filling out of the
+  surveys was voluntary and the great majority of officers who were given the survey returned them
+  to the author." "The author found that 21% of the officers "saw, heard, or experienced something
+  during the event that I later found out had not really happened." Although this number is not
+  huge, as Honig and Roland pointed out, it is certainly not trivial." "The same concept applies to
+  other eyewitnesses and the suspects as well." "All that really matters is that independent studies
+  using different methodologies have found that memory and perceptual distortions do in fact occur
+  to some degree in officer involved shootings" [V] (the PDF's curly quotes normalised). On the
+  debriefing instruction, her reason: "many officers are not fully aware of their own memory and
+  perceptual distortions until they are confronted with evidence that their memories and
+  perceptions are not as complete and accurate as they had previously thought." [V]
+- **§2.3, OSHA 3153:** list heading "Topics may include the following:" [V] (already noted for
+  lesson 9; lesson 10's draft repeated the error).
+- **§3.1, Met** (capture 20250812180728, id_): the sentence opens "Finally – and this is so
+  important to remember – if you’re threatened with violence, don’t risk your personal safety.
+  Property can be replaced, you can’t." [V] (spaced dashes; quote only from "if you're").
+- **§3.2, Guerette and Santana:** *Crime & Delinquency* 56(2), pp. 198-226 (Crossref; online 27 June
+  2008).

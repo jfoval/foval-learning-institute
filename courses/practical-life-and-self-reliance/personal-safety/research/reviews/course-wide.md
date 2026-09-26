@@ -226,3 +226,32 @@
   before quoting the bullet.
 - **Quiz keys:** lesson 9 is 2,0,1,3,0,2 (unchanged). Lesson 10's fixer should rerun the check
   against lessons 1 to 9 under the relaxed rule.
+
+## 2026-09-25 — from lesson 10's Stage 4 fix
+
+- **SOURCES Part C §3.1, §3.2, §3.3 and §5 corrected** (Stage 4 notes in place; lines in "Gate
+  closures, lesson 10"). A later lesson or podcast script must not say: that Block and Skogan
+  support "don't resist" (non-forceful resistance went with less injury *and* fewer completed
+  crimes; quote the sentence whole, and its weapon clause has no direction); that the resistance
+  side says "especially running and shouting" (Tark and Kleck's abstract says "mostly forceful
+  tactics" did most for injury, with "unstable" findings); Tark and Kleck's "wise course" without its
+  premise ("injuries following resistance are almost always relatively minor"); that any study
+  "stands behind" the official advice (none of the three pages cites one); that the law "in neither
+  country" requires compliance or resistance (no primary read: write "no source this course read
+  suggests", with the label); that Nieuwenhuys 2015 tested practice under threat, or that threat
+  damages judgement "most"; or Artwohl's figures for anyone but officers without a label, or 21% as
+  "common" (she says "not huge" but "certainly not trivial").
+- **For lesson 11**, which carries resistance to rape: Block and Skogan's stranger-crime finding
+  includes rape, and lesson 10 now says lesson 11's evidence "points the same way" only "as the
+  research behind this course summarises it". Lesson 11 should support that or lesson 10's line
+  changes. Lesson 10 also promises lesson 11 comes back to tonic immobility "because the research on
+  it was done in that setting".
+- **Two police forces are not two countries**: write "London's Metropolitan Police" and "the
+  Washington, DC police", never "police in both countries". The drafting brief's "Course conventions"
+  could carry it beside the OSHA line.
+- **The minutes model double-counts an exercise that states its own time on top of numbered steps.**
+  Lesson 10's "Take 20 minutes" plus eight steps priced 40; it now says "It's a twenty-minute task"
+  and measures 85. Lessons 3 to 7 (100 to 110 minutes) may carry the same double count; a later
+  pass could check each exercise's priced total against its real length.
+- **Quiz keys:** lesson 10 is 3,2,0,2,1,0 (unchanged). Lesson 11's fixer should rerun the check
+  against lessons 1 to 10 under the relaxed rule.
