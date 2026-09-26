@@ -1851,7 +1851,7 @@ What I read: abstract (PubMed and ERIC). Four meta-analyses; 66 cues in 153 samp
 What I read: search snippets only (Semantic Scholar, OJP abstract page failed to load). Reported: 108 studies, 16,537 participants; professional lie catchers 55.51% versus students and citizens 54.22%; confidence, age, experience, education and sex unrelated to accuracy. Snippet only; gate before use.
 
 **2.7 Vrij, A., Hartwig, M., and Granhag, P. A. (2019). Reading lies: Nonverbal communication and deception. *Annual Review of Psychology*, 70, 295-317. doi:10.1146/annurev-psych-010418-103135.**
-What I read: full text (PDF of the published version hosted at gwern.net; the University of Portsmouth portal lists it). Abstract: "the nonverbal cues to deceit discovered to date are faint and unreliable and that people are mediocre lie catchers when they pay attention to behavior" [V]. Of 50 cues with at least six measurements, 35 were at least partly nonverbal and 25 of those 35 (71%) showed no relation to deception; verbal cues did better (average d = 0.30; 8 of 18 related). Microexpressions: Porter and ten Brinke (2008) is described as "the first and, to date, only published experiment" [V] on microexpressions and deception; microexpressions appeared in 2% of fragments and six of the 14 were shown by truth tellers. NLP eye movements: no support (Mann et al. 2012; Wiseman et al. 2012); the NLP founders never claimed eye movements reveal lies. Objective multi-cue computer classification in Hartwig and Bond (2014) reached only 67.68%. Training on vocal and visual cues gives small gains; content-based training gives medium gains (citing Hauch et al.). Airport screening: they know of no peer-reviewed research on what officers should look for, and cite GAO 2017 that the TSA lacked valid evidence for most of its behavioural indicators. Summary points include that stereotypical views "are hard to debunk" [V]. **May say** all of the above with this citation.
+What I read: full text (PDF of the published version hosted at gwern.net; the University of Portsmouth portal lists it). Abstract: "the nonverbal cues to deceit discovered to date are faint and unreliable and that people are mediocre lie catchers when they pay attention to behavior" [V]. Of 50 cues with at least six measurements, 35 were at least partly nonverbal and 25 of those 35 (71%) showed no relation to deception; 8 of 18 verbal cues were related to deception, and the authors call the verbal results "more promising" [V]; among the Table 1 cues that were related, the eight with a verbal element averaged d = 0.30 and those with a nonverbal element d = 0.26 (corrected 2026-09-26, lesson 14 review: 0.30 is not an average over verbal cues in general; see "Gate closures, lesson 14 review"). Microexpressions: Porter and ten Brinke (2008) is described as "the first and, to date, only published experiment" [V] on microexpressions and deception; microexpressions appeared in 2% of fragments and six of the 14 were shown by truth tellers. NLP eye movements: no support (Mann et al. 2012; Wiseman et al. 2012); the NLP founders never claimed eye movements reveal lies. Objective multi-cue computer classification in Hartwig and Bond (2014) reached only 67.68%. Training on vocal and visual cues gives small gains; content-based training gives medium gains (citing Hauch et al.). Airport screening: they know of no peer-reviewed research on what officers should look for, and cite GAO 2017 that the TSA lacked valid evidence for most of its behavioural indicators. Summary points include that stereotypical views "are hard to debunk" [V]. **May say** all of the above with this citation.
 
 **2.8 Wiseman, R., Watt, C., ten Brinke, L., Porter, S., Couper, S.-L., and Rankin, C. (2012). The eyes don't have it: Lie detection and neuro-linguistic programming. *PLoS ONE*, 7(7), e40259. doi:10.1371/journal.pone.0040259.**
 What I read: full text. Three studies testing the NLP-derived claim that looking up to the right signals lying and up to the left signals truth (for right-handers). Study 1: 32 right-handed participants (12 men, mean age 22.3) each lied and told the truth in a filmed interview about hiding or placing a phone; two coders (ICC 0.89) counted up-right and up-left gazes and glances; no significant differences on any of four measures. Study 2: 50 participants (21 told the NLP pattern, 29 controls) judged 32 clips; accuracy 16.33 vs 16.59 correct out of 32, confidence 4.65 vs 4.58; no differences. Study 3: 52 real televised appeals for missing relatives (26 later shown to be lying); no up-right or up-left gazes at all, and glances did not differ. Conclusion: "it would seem irresponsible for such practitioners to continue to encourage people to make important decisions on the basis of such claims" [V]. Replicated in direction by Mann et al. 2012 (not read). Samples are modest. **May say:** the NLP eye-direction lie cue was tested three ways and found nothing.
@@ -1980,7 +1980,7 @@ Weaknesses: not peer-reviewed; the method is described in one paragraph; ratings
 
 **C2. Is lie detection from behaviour ever reliable?**
 - *Mainstream deception research* (Bond and DePaulo; Vrij, Hartwig, Granhag; Luke): nonverbal cues are "faint and unreliable"; accuracy about 54%; behavioural screening (SPOT) unsupported. Best case: 206 documents, 24,483 judges, tiny cross-study spread; experts no better; expert survey consensus on gaze.
-- *Verbal and interview-based approaches* (Vrij; Granhag and Hartwig's Strategic Use of Evidence; Levine's truth-default theory): detection improves when interviewers elicit and check content, use evidence strategically, or rely on context; Levine reports high accuracy with expert questioning (not read). Best case: Hauch et al. training meta-analysis (content-cue training beats nonverbal); Vrij et al.'s verbal-cue average d = 0.30.
+- *Verbal and interview-based approaches* (Vrij; Granhag and Hartwig's Strategic Use of Evidence; Levine's truth-default theory): detection improves when interviewers elicit and check content, use evidence strategically, or rely on context; Levine reports high accuracy with expert questioning (not read). Best case: Hauch et al. training meta-analysis (content-cue training beats nonverbal); Vrij et al.: 8 of 18 verbal cues related to deception against 10 of 35 nonverbal (the related verbal cues averaged d = 0.30, the related nonverbal ones 0.26; corrected 2026-09-26).
 - *Practitioner and Ekman-school view* (Ekman; SPOT designers; BAI/Reid; synergology): trained observers can read emotional leakage and microexpressions. Best case offered: Porter and ten Brinke's finding that emotional leakage occurred in every participant at least once. Against: microexpressions rare and in truth tellers too; METT training null; GAO findings.
 - What would settle it: preregistered high-stakes field studies with ground truth (like the televised-appeals archive), comparing trained and untrained judges and questioning methods.
 - Classification: for demeanour-only detection, close to **established** (poor); for interview-based methods, **contested empirical.**
@@ -5248,3 +5248,316 @@ Boothby et al. 2018 (121), searched for "replication". No direct replication of 
 or of the liking-gap studies by an outside team was found; related studies exist, including two
 independent-lab abstracts already on the unread line, and were not read. The lesson says "this
 course found none", keeping Part B §5.2's "I found no registered or many-labs replication".
+
+## Gate closures, lesson 15 (2026-09-26)
+
+Read live on 26 September 2026 by the lesson 15 drafter, with curl (generic browser User-Agent, no
+personal data in any header), converted with pdftotext or by stripping markup; PMC articles through
+the Europe PMC full-text API or Internet Archive captures (PMC blocks curl). Quotations below are
+[V] from today's text unless marked. **For the orchestrator (not done here, because this section is
+an append):** the entry "Williams 2017 CHAT trial" on the `unread:` line is cleared by the full
+text below; nothing else on the line was read in full.
+
+- **G4, Rossano, Brown and Levinson 2009: closed.** Author copy from MPG PuRe
+  (https://pure.mpg.de/rest/items/item_64423_13/component/file_102833/content, 63 scanned pages),
+  OCR'd with tesseract at 200 dpi, and pp. 207, 239 and 240 checked by eye against the page images.
+  Design: "we selected roughly ten dyads and searched for question–response sequences until we had
+  300 such sequences for each cultural" group (p. 205, OCR, not eye-checked). Results, p. 207,
+  checked against the image: "in each language Q-speakers look at Q-recipients more often than vice
+  versa" [V, image-checked; italic in the original]; speakers gazed at addressees in 65.7% of
+  questions in Tzeltal, 73% in Italian and 79.7% in Yélî Dnye; recipients at speakers in 42.3%,
+  63.3% and 67.3% (Table 7.1: 197, 219, 239 and 127, 190, 202 of 300). p. 239: "The difference in
+  gaze behavior observed between Tzeltal, Italian, and Yélî Dnye strongly challenges the view that
+  looking at the speaker's face would always be the default gaze behavior for a recipient." [V,
+  image-checked; note the subject is "The difference in gaze behavior observed between Tzeltal,
+  Italian, and Yélî Dnye", not "the data" as Part D §5.3 has it]. Also p. 239: "Q-speaker gaze
+  behavior seems to be much more similar across languages than Q-recipient gaze behavior." and the
+  limitation "especially because of its restriction to question sequences" [V, image-checked]. p.
+  240: "we feel obliged to emphasize that Tzeltal participants are similar to the Italian when they
+  speak but not when they listen to questions." [V, image-checked]; the substitute for gaze in
+  Tzeltal "seems to be provided by the repetition response system" (pp. 239 to 240). p. 230 (OCR,
+  not eye-checked): Tzeltal recipients of a telling "are expected to respond at regular intervals
+  with significant verbal material, repeating parts of the immediately prior utterance", and a
+  repeat rather than "yes" is the default affirmative answer to a yes/no question; Extract 6: asked
+  whether "big Mrs." (an honorific for the addressee's mother) is still alive, the answer is "She's
+  alive." (the translation line).
+- **Akechi et al. 2013 re-read in full** (PLoS ONE HTML). The participants were "university students
+  recruited from the University of Tampere in Finland and the University of Tokyo and other
+  universities in Japan", 20 in each group, 10 women each; each faced a model "from their own
+  cultural background" through a liquid-crystal shutter, with no conversation. "Japanese participants
+  rated the model as angrier when the model displayed a direct rather than an averted gaze, whereas
+  gaze direction had no effect on Finnish participants' anger ratings." [V] The authors' own limit:
+  "It should also be noted that, in the present study, we collected data from individuals
+  representing only one Western and one East Asian country. Thus, we do not know to which extent the
+  present results generalize to Western and East Asian cultures, in general." [V] Conclusion:
+  differences "mainly emerge from differential display rules and cultural norms rather than from the
+  effects of culture on the development of behavioural and physiological responses to direct gaze."
+  [V]
+- **Trevisan et al. 2017 re-read in full** (Europe PMC XML, PMC5705114). The authors' own term is
+  "people with self-declared ASD", not "autistic people" (decision 13's wording is the course's, and
+  the lesson says so). A forum post they quote: "I can’t concentrate while making eye contact,
+  particularly if I need to listen to what the other person is saying to me." [V, a participant's
+  words as quoted by the authors]. Authors: "for some individuals, eye contact is most difficult when
+  listening to what someone else is saying—inconveniently when eye contact is most socially
+  expected." [V] Some participants said they are accused of "staring relentlessly" [V], so not every
+  account is of looking away. Limits in their words: "We could not verify diagnosis of our
+  participants." [V], and no member-checking.
+- **Crompton et al. 2020 re-read in full** (Europe PMC XML, PMC7545656). Means as Part D §6.2
+  (12.40 non-autistic, 12.96 autistic, 8.92 mixed). Limitations: "the sample size was relatively
+  modest, and replications are warranted." and "participants were aware of the diagnostic status of
+  the person with whom they were interacting, which could have affected their behaviour." [V]
+- **Crompton et al. 2025, now read in full** (Nature HTML; Part D §6.3 had the abstract and opening).
+  Opening sentence: "Autism is clinically defined by social communication deficits, suggesting that
+  autistic people may be less effective at sharing information, particularly with one another." [V]
+  Abstract: "We found no difference in information transfer between single-neurotype and
+  mixed-neurotype chains. Non-autistic chains indicated higher rapport, and disclosing diagnosis
+  improved rapport. This result challenges assumptions about autistic communication deficits but
+  contrasts with prior findings." [V] Sample: 311 adults (154 autistic, 157 non-autistic) in 54
+  chains at Edinburgh, Nottingham and the University of Texas at Dallas; "all participants were
+  drawn from the USA and UK" [V]. Rapport detail: as senders ("teachers"), non-autistic chains
+  rated rapport higher than mixed and autistic chains; as receivers ("learners"), same-neurotype
+  chains did not differ from each other and both were above mixed. Disclosure: significant for
+  learners, not for teachers (P = 0.054). The authors' explanations: "One likely explanation for
+  results differing between the two studies is the increased heterogeneity of the sample." and "The
+  experimental context tested here may have failed to capture difficulties experienced in real-world
+  cross-neurotype interactions." [V]
+- **Milton 2012 re-read** (Kent repository PDF): the two Part D §6.1 quotations confirmed, and the
+  paper's target, "autism being defined as a deficit in ‘theory of mind’" [V].
+- **G12, double empathy after 2025: closed at abstract level.** Europe PMC search ("double empathy",
+  2025 to 2026, 221 hits) found published critiques and replies; each read as its abstract only
+  (the Psychological Review pages return an Incapsula challenge to curl, and no preprint was found):
+  - Livingston, L. A., Hargitai, L. D., and Shah, P. (2025). The double empathy problem: a
+    derivation chain analysis and cautionary note. *Psychological Review*, 132(3), 744–757.
+    doi:10.1037/rev0000468. Abstract: the DEP "is most popular in research on conditions, like
+    autism, which are characterized by social cognitive difficulties"; "The DEP is poorly
+    conceptualized, and we find that it is being conflated with many other constructs"; "we caution
+    against the translation of DEP research into applied settings." [V-abstract]
+  - Bollen, C., and van Grunsven, J. (2026). In defense of the double empathy problem hypothesis.
+    *Psychological Review*. doi:10.1037/rev0000605. Abstract: they argue Livingston et al.'s
+    "warning note is problematic both from an ethical and philosophy of science point of view."
+    [V-abstract]
+  - Rum, Y., Feldman, N., Genzer, S., Allison, C., Golan, O., Perry, A., and Baron-Cohen, S. (2026).
+    Nuances of double empathy in autistic and non-autistic people. *Molecular Autism*.
+    doi:10.1186/s13229-026-00723-2. Abstract: 141 autistic and 94 non-autistic adults, video
+    stories; no main effects of rater or target neurotype on empathic accuracy; a trend-level
+    interaction (p = .059, d = 0.13); "Social communication difficulties in autism were traditionally
+    attributed to deficits in empathy" and "Findings suggest partial support for the double empathy
+    problem theory" [V-abstract].
+  - Brewer, N., Lucas, C. A., Logos, K., Young, R. L., and Lim, A. (2026). *Law and Human Behavior*.
+    doi:10.1037/lhb0000679. Abstract: observers rating filmed suspects; "The double empathy
+    hypothesis was not supported" [V-abstract].
+  - Also found, not used: Fellowes 2026 (JADD, a methodology critique), De Laet et al. 2025 (a
+    PsyArXiv preprint, not peer reviewed).
+- **G13, elderspeak: partly closed.** Williams, Perkhounkova, Herman and Bossen 2017 read in full
+  (PMC5881770, Internet Archive capture 20250415130417): 13 nursing homes randomised, 42 dyads of
+  29 staff and 27 residents with dementia; elderspeak "a speech style similar to baby talk, that is
+  used extensively by NH staff" [V]; coding included "diminutives, collective pronoun
+  substitutions" and prosody such as "exaggerated voice intonation, high pitch, shouting" [V];
+  elderspeak fell from 34.6% by 13.6 points, resistiveness from 35.7% by 15.3 points; limits:
+  "small sample size", the Hawthorne effect, attrition [V]. The paper reports, citing others,
+  "Cognitively intact older adults readily recognize and react negatively to elderspeak, and research
+  shows that elderspeak fails to improve older adult’s comprehension" [V, as reported by Williams et
+  al.; Kemper and Harden 1999 and Leland 2008 not read]. Williams et al. 2009: the PMC page gives the
+  abstract only (the text is a scanned PDF, not opened); abstract confirms Part E §6.5, including
+  "Elderspeak (infantilizing communication used by nursing staff)" [V-abstract]. No primary
+  accommodation source (Giles; Ryan, Hummert and Boich 1995) was read, so accommodation theory is
+  not taught.
+- **Practitioner pages re-read today.** RNID (page last updated 2 June 2026): "Please face me when you
+  talk to me. Lots of people rely on lipreading to some degree to understand."; "Don't be afraid to
+  repeat or rephrase and try something different."; "Ask someone how they want to be communicated
+  with"; "Not all deaf people and people with hearing loss are the same."; "avoid shouting, speaking
+  too fast or unnecessarily slow" (after a spaced dash in the original); "You should always follow
+  the advice of the person with communication needs."; "In a noisy place, move to a quieter area if
+  possible."; "Use pen on paper, text on device screens, or whiteboards to write what you want to
+  say." STAMMA: the three lesson 5 quotations confirmed, plus "Stay neutral and keep natural eye
+  contact." and "Knowing that someone stammers doesn't mean you know anything else about them."
+  LanguageLine (Minnesota Department of Health PDF): "SPEAK DIRECTLY TO THE CUSTOMER"; "You and your
+  customer can communicate directly with each other as if the interpreter were not there."; "SPEAK
+  NATURALLY, NOT LOUDER - Speak at your normal pace, not slower."; "Speak in one sentence or two
+  short ones at a time." StoryCorps "Great Questions": "What is your earliest memory?", "How has your
+  life been different than what you’d imagined?", "What are the most important lessons you’ve
+  learned in life?", "Where did you grow up?" confirmed.
+- **Not read:** HLAA's tips and the Stuttering Foundation's advice (not attempted; the lesson uses
+  RNID and STAMMA only). Hall's and Hofstede's books, and the full texts of Kittler et al., Cardon,
+  McSweeney and Fischer and Schwartz, remain unread; the lesson says the typologies' own case is
+  unread. Hessels 2020 not re-read.
+
+## Gate closures, lesson 12 review (2026-09-26)
+
+Stage 4 fix pass on lesson 12 ("Strangers, small talk and going deeper"), applying
+`reviews/12-strangers-small-talk-and-going-deeper.md`. Every primary below was fetched today with curl
+and a generic browser User-Agent (no personal data); PDFs converted with pdftotext, HTML stripped to
+text; strings marked [V] were string-matched after normalising curly quotes, ligatures and line-break
+hyphens (straight quotes given here). PMC blocks curl, so Milek et al. was read from the Internet
+Archive capture of PMC6139582. Nothing on the unread line is cleared: Sandstrom and Dunn 2014 (weak
+ties), Liu et al. 2023 and "Sprecher 2025 liking gaps" stay unread; the Sprecher 2025 paper below is a
+different article (*Personal Relationships*, barriers to weak-tie interaction).
+
+**Kardas, Kumar and Epley 2022**, JPSP 122(3), 367 to 398 (Epley lab author PDF, the URL the lesson
+links). **Read: the full text** (re-read today).
+- Experiment 1a, question 1 [V]: "For what in your life do you feel most grateful? Tell the other
+  participant about it." (the lesson quotes the first sentence; R1).
+- Experiment 2, a shallow question [V]: "How did you celebrate last Halloween?" (R1).
+- Experiment 2, awkwardness [V]: participants in the shallow condition "expected their conversations to
+  feel less awkward than participants in the deep condition, t(87) = 11.58, p < .001, 95%
+  CIdifference [3.17, 4.48], d = 2.49, and also experienced less awkwardness, t(87) = 5.22, p < .001,
+  95% CIdifference [.84, 1.87], d = 1.12." Midpoints 3.83 and 1.36, a ratio of 2.8, against the
+  authors' own "roughly four times larger" [V] (R3; the lesson keeps the quotation and gives the
+  course's arithmetic, labelled).
+- Experiment 2, loneliness [V]: deep condition "reported feeling significantly more lonely than
+  participants in the shallow condition ... d = .48"; General Discussion [V]: "participants in
+  Experiment 2 felt somewhat lonelier" (R12).
+- Experiment 6b, within-person [V]: "Participants reported that their deep conversations felt only
+  marginally more awkward than their shallow conversations ... but that they felt significantly more
+  connected to their partner ... Happiness did not differ significantly between the deep and shallow
+  conversations" (R10).
+- General Discussion, shallow conversations [V]: "participants across our experiments also tended to
+  report positive experiences after relatively shallow conversations, and tended to report more
+  positive (and slightly less negative) experiences in these conversations than they anticipated as
+  well." (R4).
+- Limitations, the supermarket paragraph, the sentences after the one SOURCES already carried [V]:
+  "The deeper question one might consider asking in the supermarket line might still yield a better
+  conversation than expected. In fact, we think people might be even more likely to underestimate the
+  positive outcomes of deep conversations in naturalistic settings outside the lab." ... "Our
+  experiments may provide a more conservative test of whether people underestimate the value of deep
+  conversations compared with more naturally occurring conversations." ... "In daily life, listeners
+  may be even more concerned about intimate details that another person freely shares with them.
+  Nevertheless, it could also be that listeners form more negative inferences about another person's
+  interest or intent when they raise deeper conversation topics in daily life, such as inferring that
+  another person is interested in a romantic relationship or is potentially trying to manipulate or
+  take advantage of a listener in some way. It is possible these inferences are not anticipated by
+  those trying to start a conversation, in which case the gap between expected and actual outcomes of
+  deeper conversations might vary across contexts." (R2: the authors argue both directions.)
+- Limitations, culture [V]: "Cultures may vary in their openness to strangers, with individualistic
+  cultures generally being more accepting and open to strangers and collectivistic cultures
+  prioritizing ingroup relationships." and "Cultures could vary in the relative frequency of deep
+  versus shallow conversations because they vary in their social expectations rather than in their
+  social experiences." (R5).
+
+**Schroeder, Lyons and Epley 2022**, JEP: General 151(5) (Epley lab author PDF). **Read: the full
+text** (re-read today).
+- Discussion [V]: "they document a robust positive effect of connecting with strangers even in a
+  culture well-known for being reserved" (R9; the lesson quotes the last six words).
+- Experiment 1 discussion and footnote 7 [V]: "participants in the current experiment imagined
+  successfully following the instructions that they had been given", whereas the 2014 instructions
+  "asked commuters to imagine trying to enact the experimental instructions"; footnote 7: "This change
+  to the instructions was unintentional." (R9).
+- General Discussion [V]: "Although we do not know the exact percentage of riders on our
+  participants' trains would be willing to have a conversation, 78% of participants in the
+  conversation condition of Experiment 1 reported having a conversation of some kind" (R7).
+
+**Epley and Schroeder 2014**, JEP: General 143(5) (Epley lab author PDF). **Read: the full text**
+(re-read today).
+- Experiment 3a (64 commuters, a survey only) [V]: "In reality, all who returned our surveys reported
+  talking with the person they attempted to connect with, and not a single person reported being
+  rebuffed. The seven who reported being unable to talk in Experiment 1a reported that nobody sat next
+  to them." The "all who returned our surveys" refers to the talkers of the experience experiments,
+  not the 3a respondents (R7).
+- Experiment 1b [V]: "Sixty-six commuters ... completed the survey during their train ride and mailed
+  it back (a 63% response rate)" (R13a).
+- Openers [V]: "We therefore e-mailed all of the participants from the connection conditions of
+  Experiments 1a, 2a, and 4a who gave us valid e-mail addresses (n = 62)"; 1a train, 2a bus, 4a taxi;
+  "The overall response rate ... was 50% (n = 31)"; of those remembering, "29% asked about current
+  events (e.g., "What do you think of the weather?", discussing an upcoming election), and 39% asked a
+  personal question" (R13b, c).
+
+**Milek et al. 2018**, Psychological Science 29(9) (Internet Archive capture of PMC6139582). **Read:
+the full text** (re-read today).
+- Limitations [V]: "Whether it is the satisfied person who attracts more substantive conversations or
+  whether having substantive conversations makes people more satisfied with their lives is still to be
+  clarified in future (experimental) research." (R1).
+- Limitations [V]: "Third, we did not account for the broader social context of the sampled
+  interactions, that is with whom participants were having small talk or substantive conversations
+  (e.g., a stranger vs. a friend). Future research should clarify whether small talk and substantive
+  conversations may relate differentially with well-being in different social or normative contexts.
+  For example, Sandstrom and Dunn (2014) showed that more daily weak-tie interactions (e.g., a small
+  chat with a coffee barista, work colleague, yoga classmate) predicted greater average well-being."
+  (R4; Sandstrom and Dunn stays unread and is not named in the lesson.)
+- Abstract N = 486; the pooled grand totals are "N = 429" [V] (figure note) (R13d).
+
+**Folk and Dunn**, published version: Folk, D., and Dunn, E. (2024). How can people become happier? A
+systematic review of preregistered experiments. *Annual Review of Psychology*, 75, 467 to 493,
+doi 10.1146/annurev-psych-022423-030818 (Crossref record and the OSF preprint record's DOI field,
+checked today). Read level unchanged: the preprint's abstract and "Be more sociable" section (R20).
+
+**Transparent Replications Report #7** (re-read today): participants "think of an acquaintance with
+whom they have pleasant interactions", and in the Initiator condition "were told to imagine that they
+happened to be thinking of the person whose initials they provided, and that they hadn't spent time
+with that person in awhile" [V]. The lesson's "an acquaintance they hadn't seen for a while" is in the
+report, so R11 is declined.
+
+**New, abstract level (R8).** Each read today; none is a replication of the commuter or deep-talk
+designs.
+- **Sun, J., Harris, K., and Vazire, S. (2020).** Is well-being associated with the quantity and
+  quality of social interactions? JPSP 119(6), 1478 to 1496, doi 10.1037/pspp0000272. **Read: the
+  abstract** (OSF preprint record xdvsa, and the same abstract in the published record via OpenAlex).
+  [V, preprint]: "Participants (N = 256, 3,206 observations) wore the Electronically Activated Recorder
+  (EAR), an unobtrusive audio recorder, and completed experience sampling method (ESM) self-reports of
+  their momentary social interactions, happiness, and feelings of social connectedness, four times
+  each day for one week." ... "Conversational (conversational depth and self-disclosure) and relational
+  (knowing and liking one's interaction partners) aspects of social interaction quality were also
+  generally associated with greater well-being, but the effects were larger and more consistent for
+  self-reported (vs. observer-reported) quality variables, within-person (vs. between-person)
+  associations, and for predicting social connectedness (vs. happiness)." Vazire is an author of Mehl
+  2010 and Milek 2018, so this is the same group.
+- **Sprecher, S. (2025).** Barriers to interaction with new weak ties: are self-presentation concerns
+  and forecasts of benefits miscalibrated? *Personal Relationships* 32(1), doi 10.1111/pere.12589.
+  **Read: the abstract** (Crossref deposit). [V]: "With data combined from several laboratory studies
+  that involved pairs of strangers who engaged in a getting-acquainted task" ... "The participants
+  experienced lower self-presentation concerns in the interaction than they had expected and enjoyed
+  the interaction and liked their conversation partner more than they had expected." Also: variation
+  "as a function of shyness (and social anxiety)". Single author, Illinois State University, outside
+  the Epley network.
+- **Ascigil, E., Gunaydin, G., Selcuk, E., Sandstrom, G. M., and Aydin, E. (2023).** Minimal social
+  interactions and life satisfaction: the role of greeting, thanking, and conversing. *Social
+  Psychological and Personality Science* 16(2), 202 to 213 (online 17 November 2023), doi
+  10.1177/19485506231209793. **Read: the abstract** (Crossref deposit). [V]: "we examined not only
+  conversations but also momentary interactions (i.e., greeting and thanking) in a large, nationally
+  representative, non-WEIRD sample from Turkey ( N = 3,266). We used an instrumental variable approach
+  to provide evidence for the direction of the association" ... "replicating one of our key findings in
+  a very large, English-speaking, convenience sample ( N = 60,141). Across the two samples, we found
+  that having conversations with strangers and weak ties, as well as simply greeting and thanking weak
+  ties, predicted greater life satisfaction." Survey data, not an experiment; Sandstrom is a co-author.
+- **Ishiguro, I. (2023).** Minimal social interactions and subjective well-being in the Japanese
+  context: examination of mediation processes using a national representative sample. *Social
+  Sciences and Humanities Open* 8(1), 100713, doi 10.1016/j.ssaho.2023.100713. **Read: the abstract**
+  (DOAJ record; ScienceDirect returns 403). [V]: "Minimal social interactions are brief interactions
+  with non-intimates or strangers." ... "The survey targeted 2,100 Japanese residents, and 957
+  respondents were included in the analyses" ... "minimal social interaction was positively
+  correlated with happiness". Correlational survey, early 2022.
+
+## Gate closures, lesson 14 review (2026-09-26)
+
+Read on 26 September 2026 by the lesson 14 fixer, with curl and a generic browser User-Agent, no
+personal data. Quotations string-matched against the fetched text. Nothing on the unread line was
+cleared.
+
+- **Vrij, Hartwig and Granhag 2019** (gwern.net PDF of the published version, re-fetched), p. 301
+  [V]: "The results for the verbal cues are more promising than those for the nonverbal cues. Eight
+  of the cues listed in Table 1 contain a verbal element, and the average effect size for the eight
+  cues is d = 0.30. Moreover, only a small majority of verbal cues (10 out of 18, or 55%) was
+  unrelated to deception." And [V]: "Ten of the 14 cues listed in Table 1 have a nonverbal element,
+  and the average effect size for these nine cues is d = 0.26." (The paper's own "ten ... these
+  nine" mismatch; a lesson gives the 0.26 without a count.) **Correction to Part D §2.7 and C2**,
+  made in place: 0.30 averages the verbal cues that were related to deception, against 0.26 for the
+  related nonverbal ones; the contrast is in the share related (8 of 18 against 10 of 35).
+- **Denault et al. 2020** (copmadrid, live, HTTP 200) [V]: "the specific study often presented as
+  supporting the BAI foundations (Horvath, Jayne, & Buckley, 1994) suffers from fatal
+  methodological shortcomings (e.g., small sample, no comparison group of untrained or lay
+  evaluators; Kassin, 2015; Masip et al., 2011; Vrij, 2008)". **Horvath, Jayne and Buckley 1994 not
+  read**; lesson 14 names it only as the study supporters point to, in Denault et al.'s description.
+- **Carney 2016** (Berkeley Haas PDF, live), item 10 [V]: "The self-report DV was p-hacked in that
+  many different power questions were asked and those chosen were the ones that “worked.”" Opening
+  [V, fragment]: no embodied effect "on internal or psychological outcomes".
+- **GAO-14-159 report** (Internet Archive capture of 25 November 2020 of
+  https://www.gao.gov/assets/660/658923.pdf, re-fetched), p. 51 [V]: "We acknowledge that behavior
+  detection holds promise for use in certain circumstances and in conjunction with certain other
+  technologies." Matches the lesson 14 closure.
+- **Hale and Hamilton 2016, *Scientific Reports*** (Internet Archive capture of 2 February 2025 of
+  PMC5064448). Abstract re-read [V]: "In Study 1, 50 participants interacted with two avatars who
+  either mimicked their head and torso movements at a 1 or 3 second time delay or did not mimic ...
+  Rapport was higher towards mimicking avatars, with no effect of timing." Full text searched, not
+  read end to end; from the General Discussion [V]: "Of the two studies we report here, we consider
+  Study 2 to be the more definitive. This is because Study 1 was an exploratory study", and of Study
+  1's rapport result, "there was only weak evidence for this effect". The *Neuroscience and
+  Biobehavioral Reviews* review stays on the unread line.

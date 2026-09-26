@@ -71,16 +71,17 @@ quiz:
     options:
       - The studies found no effect at all once personality had been taken into account
       - The studies were run only with people who already enjoyed meeting new people
-      - The studies were independent replications by labs on several continents
-      - Mostly one lab network, US and UK samples, and short, single conversations
+      - The studies were independent replications run by labs on several continents
+      - The studies were mostly one network's, with US and UK samples and short talks
     answer: 3
     explain: >-
       The commuter and deep-talk experiments come mostly from one network of labs, with commuters,
       students and professionals in the US and UK, and they measured how people felt after one short
       conversation. That's what "everyone" and "happier" leave out. Personality didn't remove the
-      commuter effect; the authors report it survived controlling for the Big Five. Participants
-      were assigned at random, not chosen for liking strangers. And the London study was a
-      conceptual replication by the same group, not an independent one from other continents.
+      commuter effect; the authors report it survived controlling for the five broad personality
+      traits psychologists measure. Participants were assigned at random, not chosen for liking
+      strangers. And the London study was a conceptual replication by the same group, not an
+      independent one from other continents.
   - q: >-
       Two researchers disagree about whether small talk or deeper conversation matters more for how
       people feel. Which new study would do most to settle the empirical part of their disagreement?
@@ -91,42 +92,42 @@ quiz:
       - A count of how often deep questions appear in popular books of conversation advice
     answer: 1
     explain: >-
-      Both sides' own authors name what's missing: evidence that follows people through their
+      This is what both sides' authors called for: evidence that follows people through their
       ordinary days, comparing each person's days with more substantive talk against days with more
       small talk, and field experiments over weeks. A preference survey measures what people think
       they like, which is partly a value question and not the effect. Another single lab session
       repeats the design the evidence already leans on. Counting questions in advice books says what
       is recommended, not what happens.
   - q: >-
-      On a long train journey, Hortense says hello to the woman beside her. The woman gives a
+      On a long train ride, Hortense says hello to the woman beside her. The woman gives a
       one-word reply, puts her headphones back in and returns to her book. What does this lesson's
       evidence license?
     options:
       - Keep going, since the studies show strangers want to talk more than they appear to
       - Ask something deeper, since deep talk goes better than people expect it to go
       - Try again in ten minutes, since the only real barrier is the first few seconds
-      - Leave it, as the studies measured willing partners and her reply is a clear no
+      - Leave it, as no study here tested pressing on and her reply reads as a no
     answer: 3
     explain: >-
       The experiments were about people's expectations before they tried, and the partners in them
       either knew they were in a study or chose to answer. None of them licenses carrying on after
-      someone has declined. A one-word answer and a return to the book are a no without the word, of the kind
-      lesson 2 said refusals often are, and a preference for quiet is a legitimate one. Pressing on because strangers want
-      to talk more than they seem, asking deeper, or trying again later all treat a clear no as a
-      miscalibration to be corrected, which is not what any study here tested.
+      someone has declined. A one-word answer and a return to the book are, on this course's reading, a
+      no without the word, of the kind lesson 2 said refusals often are, and a preference for quiet is
+      a legitimate one. Pressing on because strangers want to talk more than they seem, asking deeper,
+      or trying again later all treat that no as a miscalibration to be corrected, which is not what
+      any study here tested.
 ---
 
-On most commuter trains, nobody talks to the stranger in the next seat. It's so ordinary that it
-hardly looks like a choice. In 2014 two psychologists at the University of Chicago treated it as one.
-They asked commuters at a station south of the city to talk to a stranger on the way to work, or to
-sit in silence, and then asked how the journey had gone. They also asked other commuters to predict
-the answer. The two groups did not agree, and the gap between them is the first half of this lesson.
+On most commuter trains, nobody talks to the stranger in the next seat. It hardly looks like a choice.
+In 2014 two psychologists at the University of Chicago treated it as one: they asked commuters to talk
+to a stranger on the way to work, or to sit in silence, and asked other commuters to predict how it
+would go. The two groups did not agree, and the gap between them is the first half of this lesson.
 
 The second half is about a finding you may already have met. In 2010 a study that had students wear
 small recorders reported that the happiest of them had about a third as much small talk as the least
-happy. It drew a lot of attention. Eight years later a larger study, with two of the same authors, looked
-again. What it found is a good lesson in how much weight one study can bear, and it sits alongside a
-set of experiments on going deeper with strangers that's easy to overread.
+happy. Eight years later a larger study, with two of the same authors, looked again, and what it found
+shows how much weight one study can bear. Between the two sit experiments on going deeper with
+strangers that are easy to overread.
 
 ## The commute experiments
 
@@ -135,48 +136,45 @@ began at the Homewood, Illinois, station of the Metra commuter rail.[1] Research
 approached 118 people walking alone to the platform for an inbound morning train, and gave each one
 of three instructions: have a conversation with a new person on the train, keep to yourself and enjoy
 your solitude, or commute as you normally would. At the end of the ride, each person filled in a short
-survey about how happy, sad and productive the journey had been, and posted it back. Ninety-seven
+survey about how happy, sad and productive the ride had been, and posted it back. Ninety-seven
 people's surveys were analysed; seven people in the talking group couldn't follow the instruction
 because nobody sat next to them.[1]
 
-Separately, the researchers asked 66 other commuters at the same station to imagine the same three
-instructions and predict how each journey would go.[1]
+Separately, 66 other commuters at the same station imagined the same three instructions and returned
+predictions of how each commute would go.[1]
 
 :::predict Which group do you think had the more positive commute, the talkers or the people told to keep to themselves? And what do you think the other commuters predicted?
 
 The talkers reported a more positive commute than the people told to sit in solitude, and no less productive a one.[1] Their conversations lasted about 14 minutes on average.
 
-The commuters who were only imagining it predicted the opposite: that talking to a stranger would make for a less pleasant, and less productive, journey than keeping to themselves.[1]
+The commuters who were only imagining it predicted the opposite: that talking to a stranger would make for a less pleasant, and less productive, commute than keeping to themselves.[1]
 :::
 
-The difference between talking and solitude was d = 0.63.[1] Mental Fitness lesson 2, "What a small
-effect is, and what the other group got", gave you a way to read a number like that: on its
-arithmetic on the normal curve, which is the course's calculation and not a figure from the study, it
-puts the average talker's commute ahead of about 74% of the solitude group's. And the comparison
+The difference between talking and solitude was d = 0.63.[1] On the normal-curve arithmetic of Mental
+Fitness lesson 2, "What a small effect is, and what the other group got", which is the course's
+calculation and not the study's, that puts the average talker's commute ahead of about 74% of the
+solitude group's. And the comparison
 group matters. The talkers were compared with people *told* to sit in silence. Against the commuters
 told to travel as normal, whose ratings fell in between, the difference was not statistically
 significant.[1]
 
-Why did the predictions go so wrong? In a later experiment with train commuters, people said they'd be
-more interested in talking than they thought other people would be, and guessed that fewer than 47%
-of their fellow passengers would be willing to talk. Among those who returned their surveys, everyone
-who tried had managed a conversation, and not a single person reported being rebuffed. The
-authors' conclusion about the risk of rejection: "As far as we can tell, it posed no risk at all."[1]
-Keep the scope of that sentence in view: it rests on the people who posted their surveys back, on
-morning trains near Chicago.
+The predictions went wrong for a reason a later experiment found. In it, train commuters who were
+only surveyed said they would be more interested in talking than they thought other people would be, and
+guessed that fewer than 47% of their fellow passengers would be willing to talk. Among the commuters
+in the earlier experiments who had been told to talk and returned their surveys, everyone who tried
+had managed a conversation, and not a single person reported being rebuffed. The authors' conclusion
+about the risk of rejection: "As far as we can tell, it posed no risk at all."[1] That rests on the
+surveys posted back from morning trains near Chicago.
 
 In the paper's summary, the mistaken preference for solitude "stems partly from underestimating
-others' interest in connecting".[1] Two more experiments fill that in. Travellers leaving Chicago
-Midway airport by taxi were asked to talk to the driver or keep quiet; the riders who often talked to
-drivers predicted correctly that talking would be more pleasant, and the ones who rarely did
-predicted the reverse.[1] And in a lab waiting room, people who were talked *to* had as positive an
-experience as the people instructed to do the talking.[1]
+others' interest in connecting".[1] In taxis from Chicago Midway airport, riders who often talked to
+drivers predicted correctly that talking would be more pleasant, and those who rarely did predicted
+the reverse. In a lab waiting room, people who were talked *to* enjoyed it as much as the talkers.[1]
 
-One detail from the paper is worth keeping. The authors later e-mailed the commuters who had talked
-and asked how they'd started. Of the 31 who replied, most who remembered had opened with something
-about current events, such as the weather, or a personal question such as "How are you?" or "Where
-are you from?". None mentioned the experiment. In the authors' words, "they tried to say something
-worth responding to."[1] The opening lines, in other words, were small talk.
+The authors later e-mailed the people who had talked, on trains, buses and in taxis, to ask how they
+started. Of the 31 who replied, most who remembered opened with current events, such as the
+weather, or a personal question such as "Where are you from?". None mentioned the experiment. In the authors' words, "they tried to say something
+worth responding to."[1] Most of those openers, on this course's reading, were small talk.
 
 ### London, eight years later
 
@@ -188,7 +186,9 @@ solitude or to travel as usual. About 78% of the talking group reported actually
 conversation.[2]
 
 But one thing had changed. Unlike the Chicago commuters, these commuters *expected* talking to be
-more pleasant. So a second experiment, with 148 commuters at the same stations, asked what was
+more pleasant. The authors noticed afterwards that their instructions had changed by accident: the
+London commuters had imagined succeeding at a conversation, where the Chicago ones had imagined
+trying.[2] So a second experiment, with 148 commuters at the same stations, asked what was
 holding them back. They predicted that *trying* to have a conversation would be less pleasant than
 having one, that starting a conversation would be harder than ending it, and that only about a
 quarter of fellow passengers would be willing to talk.[2] The paper's summary: "People may avoid
@@ -198,38 +198,39 @@ more likely to infer that others did not want to talk and hence did not try".[2]
 
 The London paper opens with its own counterpoint. In 2016 a commuter handed out "Tube chat?" badges
 on the London Underground, and a rival campaign answered with badges that read "Do not even think
-about talking to me".[2] The authors treat that as a reaction their data speak to. It is also a
-reminder that some people on a train really don't want to talk, and this lesson comes back to them.
+about talking to me".[2] Some people on a train really don't want to talk; this lesson comes back
+to them.
 
 ### What kind of evidence this is
 
-These are **one group's programme**: several experiments from Epley, Schroeder and their
-collaborators, with commuters in two countries. The London study is what's called a conceptual
-replication, the same question asked with a changed design, and it was run by the same group, so it
-does not count as independent. This course searched the papers that cite both studies and found no
-direct replication of the commuter experiments by an outside team.
+These are **one group's programme**, with commuters in two countries. The London study is a
+conceptual replication, the same question asked with a changed design, by the same group, so it isn't
+independent. This course searched the papers that cite both and found no direct replication by an
+outside team.
 
-An independent review does include the London study. Dunigan Folk and Elizabeth Dunn, reviewing preregistered
-experiments on how people might become happier, include the London study among three that "provide
+Dunigan Folk and Elizabeth Dunn, independently reviewing preregistered experiments on how people
+might become happier, include the London study among three that "provide
 compelling initial support for the idea that behaving in a more sociable manner may boost positive
-feelings."[9] Notice the hedges in their sentence, "initial" and "may", and keep them.
+feelings."[9] Keep their hedges, "initial" and "may".
 
 The same network has found the same pattern elsewhere. In five preregistered experiments with 1,093
 people, participants expected a conversation with a new acquaintance to grow less enjoyable as it went
-on, and it stayed as enjoyable or became more so.[4] In another set, people expected to learn less from
-talking to a stranger than they reported learning.[5]
+on, and it stayed as enjoyable or became more so;[4] in another set, people learned more from a
+stranger than they expected.[5] And one lab outside the network has found something similar: Susan
+Sprecher, pooling several lab studies of strangers getting acquainted, reports in her abstract that
+they worried less about the impression they made, enjoyed it more and liked each other more than
+they expected.[13] It is the same gap, not a repeat of the commuter design.
 
 :::checkpoint A colleague says: "That train study proves people want to be talked to by strangers." Using what the two studies found and who was in them, what would you say back?
 
-The studies found that commuters assigned to talk had a more positive journey than those assigned to sit in silence, and that most people underestimated how willing others would be. That is a finding about expectations and averages, in commuters near Chicago and London who had been given an instruction by a researcher. It doesn't show that everyone wants to be talked to, and the London paper itself describes a campaign of badges saying the opposite.
+Commuters assigned to talk had a more positive commute than those assigned to silence, and most underestimated how willing others would be. This is a finding about expectations and averages, in commuters near Chicago and London given a researcher's instruction. It doesn't show that everyone wants to be talked to, and the London paper itself describes badges saying the opposite.
 
 It also isn't independent confirmation yet: both studies come from the same group, and an outside review calls the evidence "initial".
 :::
 
 ## Going deeper
 
-If small talk with a stranger goes better than people expect, what about a real conversation? In
-[twelve experiments](https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b685_OverlyShallowKardasKumarEpley.pdf),
+Next, deeper conversation. In [twelve experiments](https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b685_OverlyShallowKardasKumarEpley.pdf),
 Michael Kardas, Amit Kumar and Nicholas Epley asked strangers to discuss deep questions, some of them
 borrowed from a 1997 procedure you'll meet below, and to predict beforehand how it would go.[3]
 
@@ -250,20 +251,22 @@ and predicted, then reported, how awkward and how connected they felt.[3]
 The deep group overestimated awkwardness far more: the gap between expected and felt awkwardness was d = 2.23 in the deep condition, against d = 0.55 in the shallow one.[3]
 
 The deep conversations did feel somewhat more awkward than the shallow ones, but in the authors' words, "the difference in participants' expectations was roughly four times larger than the difference that participants actually experienced."[3]
+
+By the paper's own figures, the expected difference was about 3.8 points on the awkwardness scale and the felt one about 1.4, so nearer three times than four. Either way, the expected difference was much the larger.[3]
 :::
 
 Both groups also underestimated how connected they would feel to their partner, by about the same amount.[3]
-And one result went the other way. People in the deep condition reported feeling slightly *lonelier*
-afterwards than people in the shallow one. The authors did not predict it, and they say they are
+And one result went the other way. People in the deep condition reported feeling somewhat *lonelier*
+afterwards than people in the shallow one (d = .48). The authors did not predict it, and they say they are
 "reluctant to conclude that this effect is a general consequence of deep conversations rather than an
 idiosyncratic consequence of the specific questions", pointing to the two about embarrassing moments
 and crying, which may have brought back bad memories.[3] They measured loneliness in no other
-experiment, so nobody knows how robust it is.
+experiment, so nobody knows whether it would hold up.
 
 ### The reason the authors propose
 
-Why would people misjudge a deep conversation so badly? The authors' answer, which several of the
-experiments tested, is that people expect others to care less about what they disclose than others
+The authors' explanation for such a large misjudgement, which several of the experiments tested, is
+that people expect others to care less about what they disclose than others
 actually do.[3] Statistically, that underestimate of the partner's interest accounted for part of the
 gap between expected and felt awkwardness. When people talked with a close friend, family member or
 partner, whose interest they already knew, their predictions were more accurate. And when the last two
@@ -274,7 +277,7 @@ interactions."[3]
 
 ### What was less consistent
 
-Two things are easy to miss in the headline. First, whether a deep conversation felt *better* than a
+Two things are easy to miss. First, whether a deep conversation felt *better* than a
 shallow one, as distinct from better than expected, varied. People in deep conditions felt more
 connected than those in shallow or control conditions in two experiments and not in two others, and
 were at most marginally happier in any of them. The authors call these "somewhat inconsistent differences".[3]
@@ -283,17 +286,23 @@ Second, the clearest comparison came when the same people had both kinds of conv
 short conversations, one shallow and one deep, 120 people expected to prefer the shallow one.
 Afterwards, they preferred the deep one. Asked which set of questions they would choose for a future
 session, though, they showed no clear preference either way; what moved was the direction of their
-prediction, from shallow towards deep.[3]
+prediction, from shallow towards deep. They also felt more connected to the deep partner, while the
+deep conversation felt only marginally more awkward and no happier.[3]
 
-These are **one group's programme** too, and the authors are frank about the limits. Everyone knew
+These are **one group's programme** too, and the authors name the limits. Everyone knew
 they were in an experiment and that the other person would talk back. Each conversation was a single short one. All the experiments ran in the
 United States, within a narrow period. And they give their own example of how this might not carry
 over: a question about the last time someone cried "might be received much differently when you raise
 the question to the person standing next to you in the supermarket line than it was in our
 experiments."[3] In daily life, they add, a listener might read a deep question as romantic interest,
-or as an attempt to manipulate.
+or as an attempt to manipulate. But they argue the other way in the same paragraph: "The deeper
+question one might consider asking in the supermarket line might still yield a better conversation
+than expected." Because their participants knew the other would talk back, the authors suggest the
+experiments "may provide a more conservative test" than daily life. If listeners draw inferences the
+askers don't anticipate, they write, the gap "might vary across contexts". Which way it goes outside
+the lab is untested.[3]
 
-They also make a suggestion that bears on the rest of this lesson. Because conversation naturally
+They also suggest that because conversation naturally
 becomes more personal as it goes on, "relatively shallow questions could act as a gateway to deeper
 conversation".[3] In one experiment, people in the comparison condition, whose questions were light,
 rated their conversations as more intimate than the questions themselves.[3]
@@ -304,8 +313,7 @@ Several of the deep questions came from a procedure published in 1997 by Arthur 
 widely known as "the 36 questions".[6] Pairs of students who did not know each other spent 45 minutes
 working through three sets of slips, 15 minutes a set, and the questions deepened as they went. The
 first slip asked: "Given the choice of anyone in the world, whom would you want as a dinner guest?"
-The last asked each person to share a personal problem and ask the other's advice.[6] The procedure,
-in the paper's abstract, has pairs carry out tasks "that gradually escalate in intensity".[6]
+The last asked each person to share a personal problem and ask the other's advice.[6]
 
 In the first study, run during a class session of a large US psychology course, pairs who did the
 escalating tasks reported more closeness afterwards than pairs given small-talk questions for the same
@@ -313,31 +321,28 @@ escalating tasks reported more closeness afterwards than pairs given small-talk 
 2's arithmetic, again the course's own, that puts the average pair doing the deepening questions ahead
 of about 81% of the small-talk pairs. It is a **single study** of students in a classroom.
 
-The two later studies tested the procedure's other ingredients: matching pairs who didn't disagree on
-things that mattered to them, telling them they would like each other, and telling them the goal was to
-get close. None made a significant overall difference. The paper's summary: "only the first, the
+The two later studies tested other ingredients: matching pairs who didn't disagree on important attitudes, telling them they would like
+each other, and making closeness the goal. None made a significant overall difference. The paper's summary: "only the first, the
 nature of the tasks themselves (self-disclosure, etc., vs. small talk), made a significant overall
 difference."[6]
 
-What did the study not find? It did not find that anyone fell in love. That framing came from a 2015
+The study did not find that anyone fell in love. That framing came from a 2015
 newspaper essay, not from the paper, which set out to create a feeling of closeness in a lab so that
 closeness could be studied.[6] The authors ask their own question and answer it: "So are we producing
 real closeness? Yes and no." They add that "it seems unlikely that the procedure produces loyalty,
-dependence, commitment, or other relationship aspects that might take longer to develop."[6] In their
-debriefings they told students that "this is an unusual way to form relationships".[6] Seven weeks
+dependence, commitment, or other relationship aspects that might take longer to develop."[6] Seven weeks
 after one of the studies, 57% of pairs had talked again at least once, a figure the authors
 themselves caution has no comparison group.[6]
 
 :::checkpoint A friend says: "There's a list of 36 questions that makes two strangers fall in love." Using what the 1997 paper did and didn't find, what's accurate and what isn't?
 
-Accurate: in one classroom study, pairs of students who worked through gradually deepening questions for 45 minutes felt closer afterwards than pairs given small-talk questions, and the content of the questions was the ingredient that mattered.
+Accurate: in one classroom study, student pairs working through gradually deepening questions for 45 minutes felt closer than pairs given small-talk questions, and the questions' content was what mattered.
 
-Not accurate: nobody measured love. The authors' own answer to whether the closeness was real is "Yes and no", and they think it unlikely the procedure produces commitment or the other things that take longer. The love framing came from a newspaper essay years later.
+Not accurate: nobody measured love. The authors' answer to whether the closeness was real is "Yes and no", and they doubt it produces commitment. The love framing came from a newspaper essay years later.
 :::
 
-Look at how the procedure is built. It does not open deep. It opens with a dinner guest and whether
-you'd like to be famous, and gets to the hard questions over three quarters of an hour. That is worth
-holding on to for the argument below.
+Notice that the procedure doesn't open deep: it starts with a dinner guest and gets to the hard
+questions over three quarters of an hour.
 
 ## The small-talk finding that didn't hold
 
@@ -352,9 +357,7 @@ The headline result: well-being went with less small talk (r = −.33) and more 
 conversation (r = .28), and the happiest students had "roughly one third as much small talk (10.2%
 vs. 28.3%)" as the least happy.[7] The authors were careful in the paper itself: "Naturally, our
 correlational findings are causally ambiguous." Happy people might draw others into deeper
-conversation, or deeper conversation might make people happier.[7] But the finding travelled. When
-the replication came, its authors noted that the original "has garnered considerable scientific and
-lay interest".[8]
+conversation, or deeper conversation might make people happier.[7]
 
 ### What the replication did
 
@@ -379,8 +382,7 @@ Substantive conversation held: r = .23 as a share of all recordings, and .15 as 
 Small talk didn't: r = .05 as a share of recordings, and −.08 as a share of conversations, with intervals that included zero.[8]
 :::
 
-The chart lines up the like-for-like numbers, using the life-satisfaction column of the 2010 table
-because life satisfaction is what the replication measured.
+The chart lines up the like-for-like numbers.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="cl12-st-title cl12-st-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="cl12-st-title">Small talk, substantive talk and life satisfaction, 2010 and pooled 2018</title>
@@ -406,7 +408,9 @@ because life satisfaction is what the replication measured.
   <text x="10" y="237" font-size="15" fill="var(--text-2, #4a5260)">Pooled</text>
   <rect x="270" y="222" width="92" height="20" fill="var(--oxblood, #8b1e2d)"/>
   <text x="368" y="237" font-size="15" fill="var(--text, #111418)">+.23</text>
-  <line x1="270" y1="28" x2="270" y2="248" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="270" y1="30" x2="270" y2="82" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="270" y1="110" x2="270" y2="164" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="270" y1="192" x2="270" y2="248" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <line x1="150" y1="252" x2="390" y2="252" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <text x="150" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−.3</text>
   <text x="270" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
@@ -415,47 +419,44 @@ because life satisfaction is what the replication measured.
 </svg>
 
 *Correlations with life satisfaction. 2010: Mehl, Vazire, Holleran and Clark, Psychological Science,
-79 undergraduates, the life-satisfaction column of their Table 1 (the headline −.33 was small talk as
-a share of conversations against an index combining life satisfaction and happiness). Pooled: Milek
+79 undergraduates, the life-satisfaction column of their Table 1, because life satisfaction is what
+the replication measured. Pooled: Milek
 and colleagues, Psychological Science 2018, the original sample plus three adult samples, 429 people
 in these analyses. Drawn by this course from the figures in the two papers.[7][8]*
 
 The replication's authors didn't soften it. The abstract says: "The failure to replicate the original
 small-talk effect is theoretically and practically important".[8] The discussion goes further: "The
 negative correlation suggested by the underpowered original study seems to have been a false-positive
-finding."[8] Two of the people writing those sentences had written the original. And personality,
+finding."[8] (Underpowered: too small a sample to find an effect that size reliably.)
+Two of the people writing those sentences had written the original. And personality,
 including how extraverted people were, did not substantially change any of the links, a null the
 authors warn "should not be mistaken for evidence of absence".[8]
 
 ### What the replication teaches
 
-Label it the way this course labels things. The small-talk link **failed to replicate**, in a pooled
+So the small-talk link **failed to replicate**, in a pooled
 replication that included the original authors. The substantive-talk link **replicated** in the same
 study, somewhat smaller. And everything here is a **correlation**: Milek's own limits section says
 that whether "the satisfied person" draws more substantive conversation, or substantive conversation
 makes people more satisfied, "is still to be clarified".[8] A correlation of .23 is not a 23%
 improvement in anything, and it isn't a cause.
 
-You've seen this shape before. Note-Taking and Personal Knowledge lesson 4, "What happened when people
-checked", showed a replication that confirmed one part of a famous claim and not the other, and made
-the point that "it failed to replicate" throws away the interesting part. It fits here too: half the
-2010 finding held up. And lesson 3's habit of tracing a number to where it came from applies: the
-number that travelled, the third as much small talk, rested on 79 students and a measure that, counted
-another way, showed nothing even at the time.
+Note-Taking and Personal Knowledge lesson 4, "What happened when people checked", made the point that
+"it failed to replicate" can throw away the interesting part, and half the 2010 finding held up. And
+lesson 3's tracing habit applies: the number that travelled rested on 79 students and a measure that,
+counted another way, showed nothing even at the time.
 
 ### Eulalie's resolution
 
-Eulalie read about the 2010 study when it came out, and decided small talk was a waste of her time.
-She stopped chatting with the neighbours at the bins and at the bus stop, and saved her conversations
-for friends she could talk to properly. She's since heard that there was a replication.
-
-Work through what she should now conclude before you open the checkpoint. Take it in three steps:
+Eulalie read about the 2010 study when it came out, decided small talk was a waste of her time, and
+stopped chatting with the neighbours at the bins. She has since heard of a replication. Work out
+what she should conclude before opening the checkpoint, in three steps:
 what the replication found about small talk, what it found about substantive talk, and what neither
 study could show about her.
 
 :::checkpoint What should Eulalie conclude, in three sentences?
 
-About small talk: the pooled replication found no reliable link between small talk and life satisfaction, so the reason she gave herself for dropping it did not hold up. It does not show small talk makes people happier either; a null result is just a null.
+About small talk: the pooled replication found no reliable link with life satisfaction, so her reason for dropping it didn't hold up. Nor does it show small talk makes people happier; a null is just a null.
 
 About substantive talk: people who had more of it tended to be more satisfied with life, in both studies, but that's a correlation in groups of people and can't say which way the influence runs.
 
@@ -476,45 +477,58 @@ kinds of conversation preferred the deep one.[3] Mehl and colleagues' 2010 discu
 possibility that happiness could be increased by encouraging substantive conversation, and the
 replication kept the substantive link.[7][8]
 
-**The small-talk position.** Small talk is not harmful: the pooled replication found no link with life
-satisfaction, over 486 people recorded in their ordinary days.[8] And small talk is often how depth
-is reached. The commuters opened with the weather and "Where are you from?"; Aron's procedure starts
-with a dinner guest and escalates; and Kardas and colleagues themselves suggest shallow questions may
-be "a gateway to deeper conversation".[1][3][6] Lesson 13, "How it ends, and how it went", will show the
-closing of a conversation doing necessary work; **this course's reading** is that openings do the same
-work at the other end, testing whether the other person wants to go on.
+**The small-talk position.** Small talk is worth having in itself. The commuters' conversations were
+the pleasant ones, and those who later said how they started mostly opened with something like the
+weather or "Where are you from?".[1] Across Kardas and
+colleagues' own experiments, people "tended to report positive experiences after relatively shallow
+conversations", and better than expected.[3] Beyond the US and UK, a nationally
+representative survey of 3,266 people in Turkey found that talking with strangers and loose
+acquaintances, and even just greeting and thanking them, went with greater life satisfaction, and a
+survey of 957 people in Japan found brief contact with strangers and non-intimates went with greater
+happiness.[14][15] Those are surveys, not experiments, and this course read their abstracts only. The
+pooled replication found no link between small talk and life satisfaction across 429 people, but its
+authors note they could not tell whether the small talk was with "a stranger vs. a friend", and point to
+research on brief chats with a barista or a classmate as a reason it may matter more in some
+settings.[8] Small talk is also how depth is often reached: Aron's procedure starts with a dinner
+guest, and Kardas and colleagues suggest shallow questions may be "a gateway to deeper
+conversation".[3][6] This is the case as these papers make it; the course hasn't read a book-length
+defence of small talk. Lesson 13, "How it ends, and how it went", shows the closing of a conversation
+doing necessary work; **this course's reading** is that openings do the same work at the other end,
+testing whether the other person wants to go on.
 
-**What would settle it.** The researchers on both sides name the same gaps. Milek and colleagues
+**What would settle it.** Both sides name the same gaps. Milek and colleagues
 suggest comparing each person's days with a lot of small talk against their days with mostly
 substantive conversation, rather than comparing different people.[8] Kardas and colleagues call for
-field experiments and diaries over longer periods, outside the lab.[3] And all of the experiments so
-far are from the US and UK.
+field experiments and diaries over longer periods, outside the lab.[3] A 2020 study from Vazire's group
+went some way towards the first: over a week of recordings of 256 people, deeper conversation went with
+greater well-being, more consistently within the same people than between them, and more when
+people rated the depth themselves than when observers did.[16] It is the same group,
+and it measured depth, not small talk. And all of the experiments so far are from the US and UK.
 
 **What is a value question.** How much you want from a conversation with the person at the bus stop,
 how much of yourself you want to share with someone you've just met, and what counts as prying are not
-things an experiment can decide. People differ, and so do the norms of the places they live.
+things an experiment can decide.
 
 **This course's reading**, taken from both sides' evidence: small talk and depth aren't rivals, and in
 these studies people tended to stop short of the depth they'd have enjoyed.
 
 ## People who'd rather read
 
-The evidence in this lesson is about expectations: most people, before they try, underestimate how
-willing others are to talk, and how well it will go. It is not evidence that everyone wants to be talked
+The evidence in this lesson is about expectations: most people in these US and UK studies, before
+they tried, underestimated how willing others were to talk, and how well it would go. It is not evidence that everyone wants to be talked
 to, or that a no is a mistake. Two cases make the difference clear.
 
 ### Gaspard on the 7:40
 
-Gaspard takes the same bus every morning, and the same woman, Kerensa, is often at the stop. He's
-thought for months about saying something and hasn't, because he assumes she wouldn't welcome it.
-That is almost exactly the London finding: the dread was about starting, and it rested on a guess about
-the other person's interest.[2] If he says something ordinary about the bus being late, the
-evidence suggests the conversation, if it happens, will probably go better than he fears.
+Gaspard takes the same bus every morning, and Kerensa is often at the stop. For months he hasn't said
+anything, because he assumes she wouldn't welcome it. This is the London finding: the dread was about
+starting, and rested on a guess about the other person's interest.[2] If he says something ordinary
+about the bus being late, the evidence suggests a conversation, if it happens, will probably go better
+than he fears.
 
 Now suppose that on the morning he tries, Kerensa has her headphones in and a book open. She looks up,
 says "Mm, it's always late," and goes back to the book. The London authors note that headphones and
-phones are "an imperfect signal that one is uninterested in talking to others."[2] Imperfect means
-sometimes wrong, not always. But a short reply and a return to the book are not a headphone signal. Lesson 2, "Why 'no' comes
+phones are "an imperfect signal that one is uninterested in talking to others."[2] But Kerensa has done more than wear headphones. Lesson 2, "Why 'no' comes
 late", showed that a refusal often never uses the word. Here the no comes as a one-word answer that
 offers nothing to pick up, and a turn back to the page; reading it that way is this course's reading,
 not a finding from these studies. Nothing in any of them licenses carrying on after that. The partners in the experiments either knew they were in a study or chose to answer.
@@ -522,14 +536,17 @@ not a finding from these studies. Nothing in any of them licenses carrying on af
 **This course's reading**: the evidence is a reason to try once, lightly, in a place where the other
 person can easily decline, and to take the answer you get.
 
-### Privacy is a preference, not a miscalibration
+### Privacy: a preference to respect, and an open question
 
-Some people keep to themselves on trains because they would simply rather. Some come from families or
-places where you don't ask a near-stranger about their life, and asking would be rude. The badges
-saying "Do not even think about talking to me" were a joke with a point.[2] Kardas and colleagues
-themselves say cultures may differ in openness to strangers, and they predict that expectations vary
-more between cultures than experiences do; that is their prediction, not something they tested.[3]
-None of the studies here measured how people who value privacy feel after a stranger breaks it.
+Some people keep to themselves on trains because they prefer to. Kardas and colleagues note that "Cultures may vary in their openness to strangers", and in some families and
+places asking a near-stranger about their life is rude: a norm, not an error.[3] The London
+authors, who began with those badges, describe their own setting as "a culture well-known for being
+reserved"; the effect held there, in one British commuter setting.[2] Kardas and colleagues also predict that cultures differ more in what people
+expect from deep talk than in how it goes, which would make some reticence a misjudgement in their
+sense; this is untested.[3] Either way, a
+stated preference for quiet is the other person's to hold, which is this course's reading and a value,
+not a finding. None of the studies here measured how people who value privacy feel after a stranger
+breaks it.
 
 Nor is any of this about introverts needing fixing. In the pooled replication, personality didn't
 substantially change the links between conversation and life satisfaction.[8] In the 1997 study,
@@ -537,9 +554,8 @@ introverted pairs became less close than extraverted pairs when nobody mentioned
 close when getting close was the stated task; the authors call that result tentative.[6] Neither
 finding says introverts should talk more.
 
-Anything beyond an everyday conversation in a public place you already use, such as meeting someone
-you've only talked to online, is Personal Safety lesson 6's subject, "Out and away: streets, travel and
-meeting people".
+Anything beyond an everyday conversation in a public place, such as meeting someone from online, is
+Personal Safety lesson 6's subject, "Out and away: streets, travel and meeting people".
 
 ## Who was in the room
 
@@ -553,27 +569,24 @@ compared with what?
 | Deep talk, 2022 | Executives, master's students, park visitors, online samples, run in the US | Shallow questions; people's own predictions | One group's programme |
 | 36 questions, 1997 | Students in a US psychology class | Small-talk questions for 45 minutes | Single study |
 | Small talk, 2010 | 79 undergraduates, recorded for four days | Other students (a correlation) | Failed to replicate for small talk |
-| Pooled, 2018 | The original students plus three adult samples, 486 people | Other people (a correlation) | Replication, with the original authors |
+| Pooled, 2018 | The original students plus three adult samples, 486 people (429 in the pooled analyses) | Other people (a correlation) | Replication, with the original authors |
 
-Three things follow. First, most of the experimental evidence comes from **one network of labs**,
-Epley and his collaborators, with US and UK samples, and the partners were strangers in a short, one-off
-conversation. Second, this course found no direct replication of the commuter or deep-talk experiments
-by an outside team. The one outside replication it found in this area is of a related finding from a
-different lab: a study by Liu and colleagues, in which people imagined reaching out to an
-acquaintance they hadn't seen for a while, underestimated how much it would be appreciated. A team at
-Transparent Replications repeated one of its studies online with 742 people and reported: "This finding
-was replicated in our study."[11] The effect was smaller than the original's (d = .25 against .32), and
-the study was about imagined outreach, not conversation with strangers. Third, the barrier may shrink
-with practice. In a preregistered study at one US and one UK university, 286 students used a scavenger
-hunt app for a week, and those prompted to talk to a stranger every day expected fewer rejections
-by the end, and still did a week later. The paper begins by noting that "Previous research has
+Three things follow. First, most of the experimental evidence comes from **one network of labs**, with
+US and UK samples and short, one-off conversations. Second, this course found no direct replication of the commuter or deep-talk experiments
+by an outside team; Sprecher's lab result is a related finding, not a replication. The one outside
+replication it found is of a finding, as the report describes it, by Liu and colleagues that people underestimate how much an
+acquaintance they haven't seen for a while would appreciate hearing from them: imagined outreach, not
+talking to strangers. Transparent Replications repeated it with 742 people: "This finding was
+replicated in our study." The effect was smaller (d = .25 against .32).[11] Third, the barrier may shrink
+with practice. In a preregistered study at one US and one UK university, 286 students used an app for
+a week, and those prompted to talk to a stranger daily expected fewer rejections by the end, and a
+week later. The paper notes that "Previous research has
 attempted but failed to get people to realize that their concerns about talking to strangers are
 overblown."[10] Two of its authors are in the same wider network.
 
-What do people talk about, once they're talking? Mostly people: a 2025 analysis of 535 informal
+Once people are talking, they mostly talk about people: a 2025 analysis of 535 informal
 conversations in Polish classed about 85% of their content as social, and earlier estimates from
-smaller samples put it nearer two thirds, depending on how "social" is defined.[12] Neither figure
-means gossip in the unkind sense.
+smaller samples put it nearer two thirds, depending on how "social" is defined.[12]
 
 ## What people get wrong
 
@@ -586,15 +599,14 @@ when people had only one, and the researchers on the depth side suggest small ta
 depth.[3][8]
 
 **"Strangers don't want to be talked to."** Commuters in both rail studies guessed that fewer than half
-of their fellow passengers, and in London only about a quarter, would be willing. Of those who
-returned surveys in the first study, nobody reported being rebuffed.[1][2]
+of their fellow passengers, and in London only about a quarter, would be willing. The studies didn't
+count how many would have been; the London authors say they don't know. What they found is that those
+who tried mostly managed a conversation, and in Chicago nobody who returned a survey reported being
+rebuffed.[1][2]
 
 **"Everyone secretly wants to be talked to."** The studies measured averages and expectations among
 people who'd been given a researcher's instruction, or who chose to answer. They didn't measure people
 who had signalled they'd rather not, and a no is a no.[2][3]
-
-**"Deep questions will be awkward."** People in the experiments expected deep talk with a stranger to
-be far more awkward than it turned out to be.[3]
 
 **"The 36 questions make people fall in love."** The 1997 procedure produced more felt closeness than
 small-talk questions in one classroom study; its authors doubt it produces commitment.[6]
@@ -612,7 +624,7 @@ This is a **try one move** exercise, and it's entirely optional. Skip it if you'
 
 1. Choose an everyday public setting you already use: a queue, a shop counter, a bus stop, a waiting room. Nowhere you'd have to go out of your way to be. Keep it to the length of an ordinary exchange.
 2. Before you say anything, write down three predictions on a scale from 1 to 10: how willing you think the other person will be to talk, how awkward it will feel, and how pleasant it'll be.
-3. Say one ordinary thing: the weather, the queue, something you can both see. If you get a short reply, stop there. Either of you can end it the moment you want to.
+3. Say one ordinary thing: the weather, the queue, something you can both see. If you get a short reply, stop there. Either of you can end it the moment you want to. If the other person is at work, keep to what the exchange already involves.
 4. Within an hour, write the same three ratings for what actually happened, and one sentence on how it went. "They didn't want to talk" is a result, and a fine one.
 
 Name nobody and describe nobody in a way that could identify them. Anything beyond an ordinary exchange in public is Personal Safety lesson 6's subject. One conversation won't tell you much: in the week-long study, expectations shifted over repeated tries, so if you do this more than once, keep the predictions each time.
@@ -633,39 +645,35 @@ Don't choose a question about loss, fear or anything painful: those belong in co
 
 ## For your journal
 
-This lesson adds two things to note. For a conversation with someone you did not know, write what you
-expected before it started and how it went, so that over time you can see whether your predictions run
-pessimistic. And for any conversation, note whether it stayed at small talk, went somewhere more
-substantive, and what moved it there: a follow-up question, a disclosure, or the passing of time. For
-the project, "one question a level deeper, with an easy way to pass" is a habit you could practise and
-measure.
+After talking with someone you didn't know, note what you expected and how it went, to see whether
+your predictions run pessimistic. After any conversation, note whether it went past small talk and what
+moved it. For the project, "one question a level deeper, with an easy way to pass" is a habit you could
+practise and measure.
 
 ## Connections
 
 Lesson 4, "How listening goes wrong", showed why talking about yourself pulls so strongly; this lesson
 adds that people underestimate how much others want to hear it, at least from a stranger in a study.
 Lesson 6's follow-up questions are the ordinary way a small-talk opener turns into something more
-substantive. Lesson 2's point that a refusal often never says "no" is how you hear a stranger's. Lesson 3's tracing habit
-and lesson 9's label, "one group's programme", both get a workout here. Mental Fitness lesson 2 gave
-you the arithmetic for the effect sizes, and Note-Taking and Personal Knowledge lesson 4 the idea that
-a replication can confirm half a claim.
+substantive. Lesson 7, "Ask, don't guess", showed guesses about what someone thinks going wrong in ways
+asking fixes; this lesson's misjudgements are about what strangers want, and trying is the check.
+Lesson 2's point that a refusal often never says "no" is how you hear a stranger's, and lesson 9's
+label, "one group's programme", gets a workout here.
 
-Lesson 13, "How it ends, and how it went", takes the other end of the conversation. The same research
-network found that people misjudge when a conversation should end, and how much the other person liked
-them, and that lesson asks whether those misjudgements are the same kind as the ones here. Social
-Skills and Etiquette, a later course, builds its introductions and occasions on these findings.
+Lesson 13, "How it ends, and how it went", takes the other end of the conversation: the same network
+found that people in its studies misjudge when a conversation should end, and how much the other person
+liked them. Social
+Skills and Etiquette, a later course, is where introductions and occasions will go next.
 
 ## Go deeper
 
 - **Anne Milek and colleagues, ["'Eavesdropping on happiness' revisited"](https://pmc.ncbi.nlm.nih.gov/articles/PMC6139582/)**
-  (2018). A replication written by a team that included the original authors, and a clear example of
-  reporting a result against your own earlier finding. This course read the full text.
+  (2018). A team reporting a result against its own earlier finding. This course read the full text.
 - **Michael Kardas, Amit Kumar and Nicholas Epley, ["Overly shallow?"](https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b685_OverlyShallowKardasKumarEpley.pdf)**
-  (2022). Read the general discussion for the inconsistencies and limits the headline leaves out. This
-  course read the full text.
+  (2022). Read the general discussion for the limits the headline leaves out. This course read the
+  full text.
 - **Juliana Schroeder, Donald Lyons and Nicholas Epley, ["Hello, stranger?"](https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b683_SchroederLyonsEpley%20Hello%20Stranger.pdf)**
-  (2022). Short, readable, and the source of the finding that starting is the hard part. This course
-  read the full text.
+  (2022). Short and readable. This course read the full text.
 - **Transparent Replications, [Report #7](https://replications.clearerthinking.org/replication-2023jpsp124-4/)**
   (2023). What an independent replication looks like, laid out for a general reader. This course read
   the report.
@@ -707,9 +715,10 @@ Skills and Etiquette, a later course, builds its introductions and occasions on 
    the association between life satisfaction and observed daily conversation quantity and quality.
    *Psychological Science*, 29(9), 1451–1462. [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6139582/).
    **Read: the full text**, re-read 26 September 2026. Four samples pooled, N = 486. <!-- SOURCES Part B §7.4; lesson 12 gate closure -->
-9. Folk, D., and Dunn, E. How can people become happier? A systematic review of pre-registered
-   experiments. Preprint accepted for the *Annual Review of Psychology*. [PsyArXiv](https://osf.io/8r2uq/).
-   **Read: the abstract and the "Be more sociable" section**, 26 September 2026. <!-- lesson 12 gate closure -->
+9. Folk, D., and Dunn, E. (2024). How can people become happier? A systematic review of preregistered
+   experiments. *Annual Review of Psychology*, 75, 467–493. [DOI](https://doi.org/10.1146/annurev-psych-022423-030818);
+   [preprint](https://osf.io/8r2uq/). **Read: the preprint's abstract and its "Be more sociable"
+   section**, 26 September 2026. <!-- lesson 12 gate closure; lesson 12 review gate closure -->
 10. Sandstrom, G. M., Boothby, E. J., and Cooney, G. (2022). Talking to strangers: a week-long
     intervention reduces psychological barriers to social connection. *Journal of Experimental Social
     Psychology*, 102, 104356. [Accepted manuscript](https://osf.io/29q8j/). **Read: the abstract, the
@@ -724,3 +733,17 @@ Skills and Etiquette, a later course, builds its introductions and occasions on 
     [Cambridge Core](https://www.cambridge.org/core/journals/language-and-cognition/article/how-much-conversation-content-is-actually-social-human-conversational-behaviour-revisited/61BF5C91583F04053BE9471ED96FAE1D).
     **Read: the full text.** The earlier, smaller estimates (the two-thirds figure) are as this paper
     reports them; this course did not read those studies. <!-- SOURCES Part B §8.2 -->
+13. Sprecher, S. (2025). Barriers to interaction with new weak ties: are self-presentation concerns and
+    forecasts of benefits miscalibrated? *Personal Relationships*, 32(1). [DOI](https://doi.org/10.1111/pere.12589).
+    **Read: the abstract**, 26 September 2026. <!-- lesson 12 review gate closure -->
+14. Ascigil, E., Gunaydin, G., Selcuk, E., Sandstrom, G. M., and Aydin, E. (2023). Minimal social
+    interactions and life satisfaction: the role of greeting, thanking, and conversing. *Social
+    Psychological and Personality Science*, 16(2), 202–213. [DOI](https://doi.org/10.1177/19485506231209793).
+    **Read: the abstract**, 26 September 2026. <!-- lesson 12 review gate closure -->
+15. Ishiguro, I. (2023). Minimal social interactions and subjective well-being in the Japanese context.
+    *Social Sciences and Humanities Open*, 8(1), 100713. [DOI](https://doi.org/10.1016/j.ssaho.2023.100713).
+    **Read: the abstract**, 26 September 2026. <!-- lesson 12 review gate closure -->
+16. Sun, J., Harris, K., and Vazire, S. (2020). Is well-being associated with the quantity and quality
+    of social interactions? *Journal of Personality and Social Psychology*, 119(6), 1478–1496.
+    [DOI](https://doi.org/10.1037/pspp0000272). **Read: the abstract (preprint and published
+    record)**, 26 September 2026. <!-- lesson 12 review gate closure -->
