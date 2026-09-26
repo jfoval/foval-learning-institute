@@ -23,7 +23,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Terms 1 and 2 are FINISHED. Term 3's first five courses are published and written**
   (Nutrition, Strength and Fitness, Cooking Fundamentals on 2026-09-24; First Aid and CPR and
-  **Personal Safety on 2026-09-25**; Cooking and Nutrition are also FINISHED, every episode live).
+  **Personal Safety on 2026-09-25**). Cooking, Nutrition, Strength and Fitness, Bible Basics and First
+  Aid are FINISHED, every episode live; Personal Safety's episodes are rendering.
   First Aid: sixteen lessons, each through a Tier B two-reviewer Stage 4 plus a fresh second
   pass where the fix was heavy, the course-wide neutrality audit, a 24-item test and the project,
   both reviewed, and sixteen fact-checked scripts). Its briefs and measured drafting patterns are

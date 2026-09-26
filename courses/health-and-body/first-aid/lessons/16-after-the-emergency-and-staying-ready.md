@@ -1,6 +1,7 @@
 ---
 title: After the emergency, and staying ready
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/first-aid/16-after-the-emergency-and-staying-ready.mp3
 objectives:
   - >-
     Describe what happens at the handover to the ambulance crew, what a rescuer may feel afterwards,
