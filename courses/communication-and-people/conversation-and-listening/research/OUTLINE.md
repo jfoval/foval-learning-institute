@@ -606,7 +606,7 @@ Sources and the quiz (decision 20). Each finding carries its label and the cours
   and say whether either was a problem for the people talking. Then the first **journal** entry: one
   ordinary conversation today, written up from memory, with nobody identifiable (decision 1).
 - **Images:** SVG bar of the Switchboard split (77%, 19.2%, 3.8%) beside the 30.1% of transfers that
-  overlapped, captioned with source, corpus and year; optional dot plot of the four language means
+  overlapped, captioned with source, corpus and year; optional dot plot of three language means and the all-ten mean
   SOURCES records (Japanese +7, overall +208, Italian +310, Danish +469), captioned "four of the ten
   languages; polar questions only".
 - **Sources:** synthesis findings 4, essentials 1 and 2; Part B §1.1, §2.1, §2.2, (a)1 to 3, (d) D7

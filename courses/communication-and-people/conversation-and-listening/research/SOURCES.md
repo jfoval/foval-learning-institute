@@ -3226,3 +3226,101 @@ text extracted today.
   disagreements as preferred and agreements as dispreferred" [V-OCR]) and that a recipient "may
   hesitate, hedge, or even minimally disagree rather than agree with the criticism" [V-OCR, the OCR
   read "evén"]. Used in paraphrase only; not checked against the page image by eye.
+
+## Gate closures, lesson 04 review (2026-09-26)
+
+Stage 4 of lesson 4 ("How listening goes wrong"). Pages re-read today with curl (generic browser
+User-Agent) and converted to text; strings marked [V] were copied from that text today and matched
+by script. This section also records two Stage 4 notes on earlier entries in this file.
+
+**Tamir and Mitchell 2012, full text re-read** (https://pmc.ncbi.nlm.nih.gov/articles/PMC3361411/).
+- Comparisons. Study 1a: the other "was always a fictional, unfamiliar target" [V]. Study 1b: "The
+  other person was the President of the United States at the time of data collection" [V] (George W.
+  Bush or Barack Obama). Studies 2 and 4: the other "was always the current head of state at the time
+  of data collection, Barack Obama" [V]; Study 2's third option was "a trivia item" [V]. No study
+  compared talking about yourself with listening to a conversation partner.
+- Setting. Studies 1a and 1b: consent "approved by the Human Studies Committee of the Massachusetts
+  General Hospital or by the Committee on the Use of Human Subjects at Harvard University" [V].
+  Studies 2, 3 and 4: approved "by the Committee on the Use of Human Subjects at Harvard University"
+  [V]. The main text gives no other demographics. **Stage 4 note on Part B §8.1:** "What a lesson
+  may say" should be read with these limits: the pull is measured against judging others' opinions
+  and answering trivia, in US lab samples, not against listening.
+
+**Headlee, TED Ideas excerpt** (https://ideas.ted.com/why-we-should-all-stop-saying-i-know-exactly-how-you-feel/).
+Of a reply that congratulates a friend on a promotion and then mentions your own hopes: "Such a
+response could be fine, as long as we allow the focus to shift back to the other person again.
+However, the healthy balance is lost when we repeatedly shine the attention back on ourselves." [V]
+And: "While reciprocity is an important part of any meaningful conversation" [V]. Her position is
+less absolute than the TED rule "Don't equate your experience with theirs".
+
+**Huang et al. 2017, general discussion** (https://www.hbs.edu/ris/Publication%20Files/Huang%20et%20al%202017_6945bc5e-3b3e-4c0a-addd-254c9e603c60.pdf).
+The limit is hedged: "it may be the case that one can ask too many questions, annoying the
+conversation partner while not revealing sufficient information about oneself. When one asks too
+many questions without reciprocating self-disclosure, liking may decrease." [V] Speculation in a
+discussion section, not a finding. The same paragraph: "People do not want to talk about themselves
+indefinitely without reciprocity" [V] and "prior research suggests that higher turn-taking in
+reciprocal selfdisclosure increases liking (Sprecher et al., 2013)" [V] (the hyphen is lost at a line
+break in the PDF). Sprecher et al. 2013 was not read; cite it only as reported by Huang et al.
+
+**Brooks and John 2018, "stilted dynamic"** (authors' copy,
+https://sites.nd.edu/cfge/files/2018/06/How-to-Ask-Great-Questions.pdf). The sentence is "The
+high-high pairs find that too many questions can also create a stilted dynamic." [V] It reports
+students' experience of a Harvard Business School classroom exercise in which both partners were told
+to ask many questions. It is not research and does not bear on withholding disclosure or matching
+stories. Lesson 4 no longer cites it.
+
+**UMN *Communication in the Real World* 5.2** (Internet Archive capture 20241228174458).
+- The full sentence: "matching stories isn’t considered empathetic listening, but occasionally doing
+  it doesn’t make you a narcissistic listener." [V]
+- Pseudo-listening: "If a friend needs someone to talk but you’re really tired or experiencing some
+  other barrier to effective listening, it may be worth engaging in pseudo-listening as a relational
+  maintenance strategy" [V]. The listener is the tired one.
+- Response preparation sits under "Cognitive and Personal Barriers", not under "Bad Listening
+  Practices". Rehearsal "is an important part of the listening process that takes place between the
+  recalling and evaluation and/or the evaluation and responding stage." [V]
+- "Rationalization is another form of distorted listening through which we adapt, edit, or skew
+  incoming information to fit our existing schemata." [V]
+
+**Stage 4 note on Part A (c) C3 and the synthesis's contested question 3.** "Self-disclosure research
+(DeVito's disclosure section) treats reciprocal disclosure as how closeness is built" was supplied,
+not read: only the 15th edition's contents heading "Conversational Disclosure" was seen. Adler's
+13th-edition outline lists "empathizing" and "agreement" among supporting responses, which is not a
+statement that telling your own story helps. The read statement of the matching side is Huang et
+al.'s discussion paragraph above.
+
+## Gate closures, lesson 01 review (2026-09-26)
+
+Read live on 26 September 2026 by the lesson 1 Stage 4 fixer, with curl (generic browser
+User-Agent) and pdftotext or an HTML strip. Quotations are [V], copied from text extracted today.
+Nothing on the unread line was cleared.
+
+- **Linguistic Data Consortium, Switchboard-1 Release 2, LDC97S62**
+  (https://catalog.ldc.upenn.edu/LDC97S62, catalogue description read, HTTP 200). "Switchboard-1
+  Release 2 was developed by Texas Instruments in 1990-1991" [V]; "Switchboard is a collection of
+  around 2,400 two-sided telephone conversations among 543 speakers (302 male, 241 female) from all
+  areas of the United States." [V]; "A computer-driven robot operator system handled the calls,
+  giving the caller appropriate recorded prompts, selecting and dialing another person (the callee)
+  to take part in a conversation, introducing a topic for discussion and recording the speech from
+  the two subjects into separate channels until the conversation was finished." [V]; "(1) no two
+  speakers would converse together more than once; and (2) no one spoke more than once on a given
+  topic." [V] Levinson and Torreira 2015's 348 conversations are "annotations included in the
+  NXT-Switchboard Corpus release (Calhoun et al., 2010)" [V], a layer on these recordings. The page
+  does not say the callers were strangers; the lesson says "paired by an automated operator" and no
+  more.
+- **Levinson 2016** (MPG PuRe author PDF, re-read). "It follows that responses must be planned in
+  the middle of the incoming turn which is being responded to (average turn duration is around 2 s)"
+  [V]; lesson 1 paraphrases it. The modal "around 200 ms" cites his references 2, 4 and 5 (Stivers et
+  al. 2009, Levinson and Torreira 2015, and Heldner and Edlund 2010).
+- **Levinson and Torreira 2015** (PMC4464110, re-read). Section 5 quotes Heldner and Edlund 2010
+  (unread) concluding that precision timing "can neither be used in arguments in favor of projection,
+  nor against reaction as models of timing in turn-taking" [V, as quoted by Levinson and Torreira],
+  and replies "We believe these conclusions are misguided" [V]. The 3.8% is "simultaneous speech by
+  both speakers (either between-overlaps or within-overlaps)" [V], a share of the recording including
+  silence.
+- **Sacks, Schegloff and Jefferson 1974** (ISCA archive PDF, re-read). The cross-cultural footnote
+  continues: "We can report the validity of our assertions for the materials we have examined, and
+  apparently for Thai materials examined by Moerman 1972, New Guinea creole materials examined by G.
+  Sankoff (personal communication)" [V].
+- **Stivers et al. 2009** (PMC2705608, re-read). "Within the set of answers, those that are
+  confirmations are delivered faster than disconfirmations in all languages, between 100 and 500 ms
+  faster on average" [V].
