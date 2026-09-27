@@ -1,6 +1,7 @@
 ---
 title: "When the car stops: where, who stands where, and the call"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/16-when-the-car-stops.mp3
 objectives:
   - >-
     Choose where to stop by the Highway Code's "place of relative safety", and apply Rule 276 to a
