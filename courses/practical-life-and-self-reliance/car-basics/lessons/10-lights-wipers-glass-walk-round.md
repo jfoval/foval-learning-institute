@@ -1,6 +1,7 @@
 ---
 title: "Lights, wipers, glass and the walk-round"
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/10-lights-wipers-glass-walk-round.mp3
 objectives:
   - >-
     State, as general information, what the law in Great Britain requires of a car's lamps, glass,
