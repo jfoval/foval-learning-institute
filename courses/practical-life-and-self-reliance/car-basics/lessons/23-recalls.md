@@ -1,6 +1,7 @@
 ---
 title: "Recalls: checking, what's free, and \"stop drive\""
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/23-recalls.mp3
 objectives:
   - >-
     Check a car for open safety recalls in the UK by registration and in the US by VIN or
