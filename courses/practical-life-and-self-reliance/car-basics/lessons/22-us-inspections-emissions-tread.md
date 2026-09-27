@@ -1,6 +1,7 @@
 ---
 title: "The US: state inspections, emissions tests and tread law"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/22-us-inspections-emissions-tread.mp3
 objectives:
   - >-
     Describe, as general information, the shape of US law on a car's condition (no national test; 16
