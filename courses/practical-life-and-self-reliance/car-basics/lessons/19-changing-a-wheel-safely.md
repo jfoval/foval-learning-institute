@@ -1,6 +1,7 @@
 ---
 title: "Changing a wheel safely"
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/19-changing-a-wheel-safely.mp3
 objectives:
   - >-
     Decide whether a place is fit for a wheel change, using the handbooks' conditions and the Highway
