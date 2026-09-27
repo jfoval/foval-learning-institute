@@ -1,6 +1,7 @@
 ---
 title: "Smoke alarms: where they go, and why they stay silent"
 minutes: 65
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/12-smoke-alarms.mp3
 objectives:
   - >-
     State where the law (England's landlord rule, Scotland's standard) and official advice (England,
