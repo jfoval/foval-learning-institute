@@ -1,6 +1,7 @@
 ---
 title: "Carbon monoxide and the alarms that warn you"
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/11-carbon-monoxide.mp3
 objectives:
   - >-
     Explain where carbon monoxide in a home comes from, put its protections in order (correct
