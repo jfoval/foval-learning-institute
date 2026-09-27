@@ -1,6 +1,7 @@
 ---
 title: "The 12 V battery: what it does, and why short trips flatten it"
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/05-the-12-v-battery.mp3
 objectives:
   - >-
     Explain what the 12 V battery does in a petrol or diesel car, a hybrid and an electric car, and
