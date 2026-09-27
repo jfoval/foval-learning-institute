@@ -1,6 +1,7 @@
 ---
 title: "Hybrids and electric cars: how they work"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/04-hybrids-and-electric-cars.mp3
 objectives:
   - >-
     Explain how a battery-electric car, a full hybrid, a mild hybrid and a plug-in hybrid each
