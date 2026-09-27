@@ -1,6 +1,7 @@
 ---
 title: What a car is made of, and why the handbook comes first
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/01-what-a-car-is-made-of.mp3
 objectives:
   - >-
     Explain the car as a set of systems (engine or motor, 12 V electrics, brakes, steering and
