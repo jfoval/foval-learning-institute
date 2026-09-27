@@ -1,6 +1,7 @@
 ---
 title: "High voltage: hybrid and EV safety, charging at home, fire and flood"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/14-high-voltage-safety.mp3
 objectives:
   - >-
     Identify a car's high-voltage parts from the handbook and the colour code, with the MOT
