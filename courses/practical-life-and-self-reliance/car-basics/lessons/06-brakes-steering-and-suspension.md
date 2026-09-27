@@ -1,6 +1,7 @@
 ---
 title: "Brakes, steering and suspension"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/06-brakes-steering-and-suspension.mp3
 objectives:
   - >-
     Explain, from what the US standards establish, why brake fluid has to be kept away from moisture,
