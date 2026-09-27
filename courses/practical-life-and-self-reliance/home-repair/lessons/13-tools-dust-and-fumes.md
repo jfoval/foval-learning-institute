@@ -1,6 +1,7 @@
 ---
 title: "Tools, dust and fumes: a small kit used safely"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/13-tools-dust-and-fumes.mp3
 objectives:
   - >-
     Explain how misuse and poor upkeep turn an ordinary hand tool into an injury, using OSHA's
