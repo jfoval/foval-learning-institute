@@ -79,7 +79,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
   **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
   is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;
-  audio owed. **Left open, none blocking:** lesson 16's recovery checkpoint is partly answered by the
+  **FINISHED 2026-09-27**, all twenty-five episodes live. **Home Repair episodes 1 to 13 are live;
+  14 to 23 wait on Google's 50-a-day request limit** (hit at 00:30 CDT 2026-09-27, retry after
+  about 19:00 CDT), and are then the last audio Term 3 owes. **Left open, none blocking:** lesson 16's recovery checkpoint is partly answered by the
   text above it (S4), and nidirect's "First aid on the road" line is not yet in SOURCES (S5);
   lesson 6's four minor items in its review file; lesson 11's New York airbag page has been
   reworded since it was quoted (re-read and requote). Proposed: a six-monthly re-check of its dated
