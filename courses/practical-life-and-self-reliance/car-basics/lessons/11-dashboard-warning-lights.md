@@ -1,6 +1,7 @@
 ---
 title: "Dashboard warning lights"
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/11-dashboard-warning-lights.mp3
 objectives:
   - >-
     Explain the colour code in ISO 2575 (red, yellow or amber, green, blue) and state where the
