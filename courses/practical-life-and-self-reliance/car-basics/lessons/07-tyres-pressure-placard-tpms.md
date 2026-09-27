@@ -1,6 +1,7 @@
 ---
 title: "Tyres I: pressure, the placard and TPMS"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/07-tyres-pressure-placard-tpms.mp3
 objectives:
   - >-
     Find the carmaker's cold tyre pressure for a car (the placard, the fuel flap, the handbook), and
