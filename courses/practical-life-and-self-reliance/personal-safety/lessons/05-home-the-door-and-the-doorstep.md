@@ -1,6 +1,7 @@
 ---
 title: Home, the door and the doorstep
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/05-home-the-door-and-the-doorstep.mp3
 objectives:
   - >-
     Explain what the England and Wales evidence shows about locks and lights in combination, and

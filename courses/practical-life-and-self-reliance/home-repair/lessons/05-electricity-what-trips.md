@@ -1,6 +1,7 @@
 ---
 title: "Electricity: what trips, and why"
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/05-electricity-what-trips.mp3
 objectives:
   - >-
     Explain what a fuse or circuit breaker protects (the wiring, from fire), what an RCD or GFCI

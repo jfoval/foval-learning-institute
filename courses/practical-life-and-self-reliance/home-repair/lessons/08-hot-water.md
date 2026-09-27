@@ -1,6 +1,7 @@
 ---
 title: "Hot water: scalds, legionella and the tank"
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/08-hot-water.mp3
 objectives:
   - >-
     Compare the scald and legionella temperature advice, and explain what each body's advice

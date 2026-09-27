@@ -1,6 +1,7 @@
 ---
 title: "Plugs, leads and electrical fires"
 minutes: 65
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/06-plugs-leads-and-electrical-fires.mp3
 objectives:
   - >-
     Identify the right replacement fuse for a UK plug, and decide what a fuse that blows again means

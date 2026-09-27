@@ -1,6 +1,7 @@
 ---
 title: "Out and away: streets, travel and meeting people"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/06-out-and-away.mp3
 objectives:
   - >-
     Sort common street and travel advice by the evidence behind it, using the course's four labels

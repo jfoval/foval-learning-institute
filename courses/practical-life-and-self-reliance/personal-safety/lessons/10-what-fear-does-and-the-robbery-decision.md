@@ -1,6 +1,7 @@
 ---
 title: What fear does to you, and the robbery decision
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/10-what-fear-does-and-the-robbery-decision.mp3
 objectives:
   - >-
     Describe what sudden threat does to movement, perception and memory, including freezing, and

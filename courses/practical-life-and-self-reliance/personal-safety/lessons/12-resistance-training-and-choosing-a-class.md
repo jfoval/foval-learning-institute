@@ -1,6 +1,7 @@
 ---
 title: Resistance training, and choosing a class
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/12-resistance-training-and-choosing-a-class.mp3
 objectives:
   - >-
     Describe the EAAA trial's result in absolute and relative terms, whom it studied, what it

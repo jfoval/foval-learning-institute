@@ -1,6 +1,7 @@
 ---
 title: "Sexual assault: the freeze, resistance and the law"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/11-sexual-assault-the-freeze-resistance-and-the-law.mp3
 objectives:
   - >-
     State where responsibility for a sexual assault lies, and what the prosecutors' guidance for

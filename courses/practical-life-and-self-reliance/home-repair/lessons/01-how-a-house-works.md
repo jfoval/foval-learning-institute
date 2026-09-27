@@ -1,6 +1,7 @@
 ---
 title: How a house works, and where it switches off
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/01-how-a-house-works.mp3
 objectives:
   - >-
     Explain the house as a set of flows (pressurised water in, drainage out by gravity through sealed

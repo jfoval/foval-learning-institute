@@ -1,6 +1,7 @@
 ---
 title: Domestic abuse and stalking
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/07-domestic-abuse-and-stalking.mp3
 objectives:
   - >-
     Recognise the patterns the services describe as domestic abuse and stalking, including

@@ -1,6 +1,7 @@
 ---
 title: "Water out: traps, vents and blocked drains"
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/04-water-out.mp3
 objectives:
   - >-
     Explain how a trap's water seal and a ventilated stack keep sewer air out of a house, and use

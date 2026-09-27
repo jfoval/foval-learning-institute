@@ -1,6 +1,7 @@
 ---
 title: Talking it down
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/08-talking-it-down.mp3
 objectives:
   - >-
     Describe the course's order of options in a threatening encounter, and explain why leaving stays

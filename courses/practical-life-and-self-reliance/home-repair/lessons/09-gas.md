@@ -1,6 +1,7 @@
 ---
 title: "Gas: the smell and the valve"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/09-gas.mp3
 objectives:
   - >-
     Apply the official gas-leak steps for Great Britain, Northern Ireland or the US to a described

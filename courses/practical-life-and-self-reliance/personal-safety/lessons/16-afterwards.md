@@ -1,6 +1,7 @@
 ---
 title: Afterwards
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/16-afterwards.mp3
 objectives:
   - >-
     Decide whether a described situation calls for 999, 101, an online report or none at all in the

@@ -1,6 +1,7 @@
 ---
 title: Carrying something for protection
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/personal-safety/15-carrying-something-for-protection.mp3
 objectives:
   - >-
     Explain why carrying an ordinary object "for self-defence" can be an offence in England and
