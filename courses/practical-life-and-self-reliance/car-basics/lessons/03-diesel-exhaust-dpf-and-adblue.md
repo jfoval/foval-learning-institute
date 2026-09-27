@@ -1,6 +1,7 @@
 ---
 title: "Diesel exhaust: the DPF and AdBlue"
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/car-basics/03-diesel-exhaust-dpf-and-adblue.mp3
 objectives:
   - >-
     Explain what a diesel particulate filter does, how it empties itself by regeneration, and why
