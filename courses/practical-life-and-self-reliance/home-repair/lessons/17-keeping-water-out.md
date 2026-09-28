@@ -1,6 +1,7 @@
 ---
 title: "Keeping water out: roof, gutters, ground and walls"
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/17-keeping-water-out.mp3
 objectives:
   - >-
     Explain what penetrating damp is, and trace a damp patch on an inside wall to its likely outside
