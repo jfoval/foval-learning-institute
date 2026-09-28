@@ -1,6 +1,7 @@
 ---
 title: "Pests: find the cause, then control it"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/21-pests.mp3
 objectives:
   - >-
     Apply integrated pest management's steps (threshold, identify, prevent, then control) to a
