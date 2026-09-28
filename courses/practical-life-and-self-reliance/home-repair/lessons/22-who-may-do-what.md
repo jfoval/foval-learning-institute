@@ -1,6 +1,7 @@
 ---
 title: "Who may do what: reserved work, and the argument about licensing"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/22-who-may-do-what.mp3
 objectives:
   - >-
     For a described electrical job, state whether it must meet the rules and whether it must be
