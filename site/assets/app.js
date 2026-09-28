@@ -53,9 +53,11 @@
   const account = () => load(K.auth, null);
   let navChecked = 0;   // when the Friends link last asked whether anything is waiting
   function setAccount(a) {
+    const was = (account() || {}).token;
     if (a) save(K.auth, a);
     else lsRemove(K.auth);
-    navChecked = 0; updateNav();
+    if ((a || {}).token !== was) navChecked = 0;   // a sync rewrites this too; only a new session re-asks
+    updateNav();
   }
   const signedIn = () => Boolean(API && account() && account().token);
 
@@ -66,7 +68,7 @@
     if (t) headers.Authorization = `Bearer ${t}`;
     const r = await fetch(API + path, { method, headers, body: body ? JSON.stringify(body) : undefined, keepalive });
     const data = await r.json().catch(() => ({}));
-    if (r.status === 401 && t) { setAccount(null); throw new Error("Your session expired. Sign in again."); }
+    if (r.status === 401 && t) { setAccount(null); throw new Error("Your session expired. Log in again."); }
     if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
     return data;
   }
@@ -92,6 +94,7 @@
     save(K.activity, state.activity || {});
     if (state.prefs) save(K.prefs, state.prefs);
     if (state.name) lsSet("foval.name", state.name);
+    backfillReviewBank();
   }
 
   let syncTimer = null, syncing = false;
@@ -163,6 +166,26 @@
       if (!bank[key]) bank[key] = { ease: 2.5, interval: 1, due: Date.now() + DAY, reps: 0, lapses: 0, last: null };
     });
     save(K.review, bank);
+  }
+  // Every finished lesson's questions belong in the bank, however the lesson got finished:
+  // passed here, synced from another device, pasted in by hand, or passed before the bank
+  // existed. Only the missing ones are added, from the index's quiz counts, so no course
+  // content has to load. A backlog is spread over the next week rather than landing at once.
+  function backfillReviewBank() {
+    const prog = load(K.progress, {}), bank = load(K.review, {});
+    let added = 0;
+    for (const c of COURSES) {
+      for (const l of c.lessons) {
+        if (!(prog[c.id] || {})[l.id]?.done) continue;
+        for (let qi = 0; qi < (l.quizCount || 0); qi++) {
+          const key = `${c.id}/${l.id}/${qi}`;
+          if (bank[key]) continue;
+          bank[key] = { ease: 2.5, interval: 1, due: Date.now() + DAY * (1 + (added++ % 7)), reps: 0, lapses: 0, last: null };
+        }
+      }
+    }
+    if (added) { save(K.review, bank); scheduleSync(); }
+    return added;
   }
   function gradeReview(key, correct) {
     const bank = load(K.review, {}); const it = bank[key]; if (!it) return;
@@ -838,12 +861,15 @@
     let lessonsDone = 0, minutes = 0;
     COURSES.forEach(c => c.lessons.forEach(l => { if ((prog[c.id] || {})[l.id]?.done) { lessonsDone++; minutes += l.minutes || 0; } }));
     const finished = started.filter(courseComplete); const rs = reviewStats();
+    // Me is where a signed-in learner reaches their account; the nav has no separate slot for it.
+    const me = signedIn() ? `<p class="me-links">@${esc((account() || {}).username || "")} · <a href="#/friends">Friends</a> · <a href="#/signin">Account settings</a></p>` : "";
     if (!started.length) {
-      return render(`<div class="empty"><h2>Nothing here yet</h2><p>Start any course and your transcript begins.</p><a class="btn btn-primary" href="#/path">Start the path</a></div>`, "My learning");
+      return render(`<div class="empty"><h2>Nothing here yet</h2>${me}<p>Start any course and your transcript begins.</p><a class="btn btn-primary" href="#/path">Start the path</a></div>`, "My learning");
     }
     render(`
       <span class="eyebrow">Transcript</span>
       <h1>My learning</h1>
+      ${me}
       <div class="stats">
         <div class="stat-card"><b>${finished.length}</b><span>courses completed</span></div>
         <div class="stat-card"><b>${lessonsDone}</b><span>lessons completed</span></div>
@@ -857,7 +883,7 @@
       ${finished.length ? `<section class="section"><h2>Completed</h2><ul class="lesson-list">${finished.map(c => `<li><a href="#/certificate/${c.id}"><span class="lesson-num">✓</span><span>${esc(c.title)}</span><span class="lesson-time">certificate</span></a></li>`).join("")}</ul></section>` : ""}
       <section class="section">
         <h3>Your data</h3>
-        <p class="muted">${API ? `Everything is stored in this browser. ${signedIn() ? `It also syncs to <a href="#/signin">your account</a>, so it follows you between devices.` : `<a href="#/signin">Sign in</a> and it follows you between devices. You can also move it by hand.`}` : "Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap."}</p>
+        <p class="muted">${API ? `Everything is stored in this browser. ${signedIn() ? `It also syncs to <a href="#/signin">your account</a>, so it follows you between devices.` : `<a href="#/signin">Log in</a> and it follows you between devices. You can also move it by hand.`}` : "Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap."}</p>
         <div class="btn-row">
           <button class="btn btn-secondary" id="exportBtn">Copy my data</button>
           <button class="btn btn-secondary" id="importBtn">Paste my data</button>
@@ -935,7 +961,7 @@
         </ol>
         <h2>Privacy</h2>
         <p>${API
-          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your username, the email address you gave us, your friends list and that progress, and nothing else. Your password is scrambled on your own device before it is sent, so we never see it. Friends you accept see the lessons you finish and the days you study, never your scores. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">log in</a>, it also syncs to our database so it follows you between devices, and then we hold your username, the email address you gave us, your friends list and that progress, and nothing else. Your password is scrambled on your own device before it is sent, so we never see it. Friends you accept see the lessons you finish and the days you study, never your scores. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
           : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
@@ -1017,7 +1043,7 @@
     render(`
       <div class="prose signin">
         <span class="eyebrow">Your account</span>
-        <h1>${creating ? "Make an account." : "Sign in."}</h1>
+        <h1>${creating ? "Make an account." : "Log in."}</h1>
         <p class="lede">You do not need an account to learn here, and you never will. An account carries your completed lessons, your review schedule and your streak between devices, and lets you add friends and follow each other's progress. Nothing you have done in this browser is lost by signing in; it is merged in.</p>
         ${creating ? `
         <form id="signupForm">
@@ -1029,12 +1055,12 @@
           <div class="btn-row"><button class="btn btn-primary" type="submit">Make my account</button></div>
           <p class="signin-note" aria-live="polite"></p>
         </form>
-        <p>Already have one? <a href="#/signin">Sign in</a>.</p>
+        <p>Already have one? <a href="#/signin">Log in</a>.</p>
         <p class="muted">By making an account you agree to the <a href="#/community">community rules</a>. They are short.</p>` : `
         <form id="signinForm">
           ${field("Username", "username", "text", `autocomplete="username" autocapitalize="none" spellcheck="false" required`)}
           ${field("Password", "password", "password", `autocomplete="current-password" required`)}
-          <div class="btn-row"><button class="btn btn-primary" type="submit">Sign in</button></div>
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Log in</button></div>
           <p class="signin-note" aria-live="polite"></p>
         </form>
         <p><a href="#/reset">Forgot your password?</a></p>
@@ -1042,7 +1068,7 @@
         <h2>What we keep</h2>
         <p>Your username, your name if you give one, your email address, and the progress you can already see on <a href="#/my-learning">your page</a>. Your password is scrambled on your own device before it is sent, so we never see or store it. Your friends see the lessons you finish and the days you study; nobody else sees anything. You can delete the whole account from the account page.</p>
       </div>
-    `, creating ? "Make an account" : "Sign in");
+    `, creating ? "Make an account" : "Log in");
 
     if (creating) {
       const form = main.querySelector("#signupForm"), kit = formKit(form);
@@ -1233,7 +1259,7 @@
     return n;
   }
   function needSignIn(title) {
-    render(`<div class="empty"><h2>${title}</h2><p>Friends need an account, so you can find each other. Reading and learning never do.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-primary" href="#/signin?new=1">Make an account</a><a class="btn btn-secondary" href="#/signin">Sign in</a></div></div>`, title);
+    render(`<div class="empty"><h2>${title}</h2><p>Friends need an account, so you can find each other. Reading and learning never do.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-primary" href="#/signin?new=1">Make an account</a><a class="btn btn-secondary" href="#/signin">Log in</a></div></div>`, title);
   }
 
   async function viewFriends() {
@@ -1293,7 +1319,7 @@
 
   async function viewFriend(username) {
     if (!API) return viewNotFound();
-    if (!signedIn()) return needSignIn("Sign in to see your friends");
+    if (!signedIn()) return needSignIn("Log in to see your friends");
     const seq = ++routeSeq;
     let f;
     try { f = await apiCall(`/friends/${encodeURIComponent(username)}`); }
@@ -1341,17 +1367,19 @@
     });
   }
 
-  // The last nav slot is Sign in, or Friends once signed in, with a count when something is
-  // waiting there. One slot, not two: a seventh link pushes the nav off a phone screen. The
-  // account page is linked from Friends and from Me.
+  // Signed out, the Me slot is a Log in button. Signed in it is Me again, with Friends after
+  // it, counting anything waiting there. Six links is the most a phone's nav holds; the
+  // account page is linked from Me and from Friends. Signed out, a learner's own progress
+  // is still at #/my-learning, linked from the footer and the home page.
   function updateNav() {
-    const nav = document.querySelector(".site-nav");
-    if (!nav || !API) return;
+    const nav = document.querySelector(".site-nav"), me = document.getElementById("meLink");
+    if (!nav || !me || !API) return;
     const on = signedIn();
-    let fr = document.getElementById("friendsLink"), acct = document.getElementById("accountLink");
-    if (on && acct) acct.remove();
-    if (!on && fr) fr.remove();
-    if (!on) { if (!acct) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">Sign in</a>`); return; }
+    let fr = document.getElementById("friendsLink");
+    me.setAttribute("href", on ? "#/my-learning" : "#/signin");
+    me.textContent = on ? "Me" : "Log in";
+    me.classList.toggle("nav-login", !on);
+    if (!on) { if (fr) fr.remove(); return; }
     if (!fr) { nav.insertAdjacentHTML("beforeend", `<a href="#/friends" id="friendsLink">Friends</a>`); fr = document.getElementById("friendsLink"); }
     if (Date.now() - navChecked > 60000) {
       navChecked = Date.now();
@@ -1437,5 +1465,6 @@
     document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
   }
 
+  backfillReviewBank();
   route();
 })();

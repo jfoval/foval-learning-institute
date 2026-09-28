@@ -492,6 +492,10 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 
 /* Friends. A list of people or finished lessons with one action at the right. */
 .btn-sm { padding: .4rem .8rem; font-size: .88rem; }
+/* Signed out, the nav's last slot is a Log in button rather than a link. */
+.site-nav a.nav-login { padding: .3rem .8rem; border: 1.5px solid var(--line-strong); border-radius: var(--radius); background: none; color: var(--text); font-weight: 600; }
+.site-nav a.nav-login:hover, .site-nav a.nav-login.active { background: var(--surface-2); }
+.me-links { color: var(--text-2); margin: -.25rem 0 1rem; }
 .friend-list { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--line-strong); }
 .friend-list li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .8rem .5rem; border-bottom: 1px solid var(--line); }
 .friend-list li > span:first-child { min-width: 0; overflow-wrap: anywhere; }

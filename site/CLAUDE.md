@@ -66,9 +66,10 @@ The static site. Everything a learner sees.
   sign-in link and no network calls. Setting it before the Worker is deployed gives every visitor a
   broken sign-in page. `window.FOVAL_HELP_EMAIL` beside it is where password resets and reports
   go; nothing is mailed automatically.
-- **The nav has room for six links on a phone.** Signed out the sixth is Sign in; signed in it is
-  Friends, and the account page is reached from Friends and from Me. A seventh link overflows at
-  375px.
+- **The nav has room for six links on a phone.** With accounts on, the Me slot is a Log in button
+  when signed out; signed in it is Me again with Friends after it, and the account page is reached
+  from Me and from Friends. A seventh link overflows at 375px. With `FOVAL_API` empty the nav is
+  unchanged.
 
 ## The build output is not in git
 
