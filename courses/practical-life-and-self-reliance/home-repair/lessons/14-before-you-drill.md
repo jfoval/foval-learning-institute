@@ -1,6 +1,7 @@
 ---
 title: "Before you drill: cables, pipes and what's in the wall"
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/14-before-you-drill.mp3
 objectives:
   - >-
     Apply the before-you-drill routine to a real wall: check what the wall is made of, scan with the
