@@ -1,6 +1,7 @@
 ---
 title: Ladders and working at height
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/15-ladders.mp3
 objectives:
   - >-
     Decide whether a ladder is the right equipment for a described job, putting risk before
