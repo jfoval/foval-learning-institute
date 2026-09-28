@@ -490,6 +490,17 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .signin-note { font-size: .92rem; color: var(--text-2); min-height: 1.4em; margin: .5rem 0 0; }
 .signin-note.bad { color: var(--danger); }
 
+/* Friends. A list of people or finished lessons with one action at the right. */
+.btn-sm { padding: .4rem .8rem; font-size: .88rem; }
+.friend-list { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--line-strong); }
+.friend-list li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .8rem .5rem; border-bottom: 1px solid var(--line); }
+.friend-list li > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.friend-list .btn-row { margin-top: 0; flex-wrap: nowrap; }
+.friend-list li.fresh { border-left: 3px solid var(--gold); padding-left: .75rem; }
+.friend-list .btn, .cheered { flex-shrink: 0; }
+.cheered { font-size: .88rem; font-weight: 600; color: var(--success); }
+.nav-dot { display: inline-block; min-width: 1.2rem; padding: 0 .3rem; margin-left: .2rem; border-radius: 999px; background: var(--oxblood); color: var(--bg); font-size: .72rem; line-height: 1.2rem; text-align: center; }
+
 /* A path term with nothing written yet is shown in full like every other, a shade quieter. */
 .term-soon .term-num, .term-soon h2 { color: var(--text-2); }
 

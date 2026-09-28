@@ -1,4 +1,4 @@
--- Foval Learning Institute: accounts and learner state.
+-- Foval Learning Institute: accounts, learner state, friends.
 -- Shares the D1 database with the feedback Worker. Feedback keeps its own table and its
 -- own write-only Worker; nothing here can read it.
 --
@@ -6,25 +6,26 @@
 -- against the browser's own values without parsing. The exceptions are the human-readable
 -- audit columns on users, which nothing merges.
 
+-- A username and a password. The email is kept on record so John can answer a reset
+-- request (see workers/api/README.md, "Password resets"); nothing is ever mailed to it by
+-- this Worker, and it is not checked, so it is not unique.
+--
+-- The password never reaches this Worker. The browser stretches it with PBKDF2-SHA256,
+-- 600,000 rounds, salted with the username, and sends the 32-byte result (the "key").
+-- The Worker stores SHA-256(pw_salt + key). A copy of this table therefore costs an
+-- attacker 600,000 rounds per password guess, the same as if the Worker had done the
+-- stretching, while the Worker spends microseconds of CPU. docs/AUTH_OPTIONS.md.
 CREATE TABLE IF NOT EXISTS users (
-  id             TEXT PRIMARY KEY,
-  email          TEXT NOT NULL UNIQUE,
-  email_verified INTEGER NOT NULL DEFAULT 0,
-  name           TEXT NOT NULL DEFAULT '',
-  created_at     TEXT NOT NULL DEFAULT (datetime('now')),
-  last_seen_at   TEXT NOT NULL DEFAULT (datetime('now'))
+  id            TEXT PRIMARY KEY,
+  username      TEXT NOT NULL UNIQUE,      -- lowercase, [a-z0-9_], 3 to 20
+  email         TEXT NOT NULL DEFAULT '',
+  pw_salt       TEXT NOT NULL,
+  pw_hash       TEXT NOT NULL,
+  failed_logins INTEGER NOT NULL DEFAULT 0,
+  locked_until  INTEGER NOT NULL DEFAULT 0,
+  created_at    TEXT NOT NULL DEFAULT (datetime('now')),
+  last_seen_at  TEXT NOT NULL DEFAULT (datetime('now'))
 );
-
--- One row per way a learner can sign in. Signing in with Google and with an email code
--- at the same address lands on the same user, because users.email is unique.
-CREATE TABLE IF NOT EXISTS identities (
-  provider         TEXT NOT NULL,          -- 'google' | 'email'
-  provider_user_id TEXT NOT NULL,
-  user_id          TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-  created_at       TEXT NOT NULL DEFAULT (datetime('now')),
-  PRIMARY KEY (provider, provider_user_id)
-);
-CREATE INDEX IF NOT EXISTS identities_user ON identities (user_id);
 
 -- Only the SHA-256 of the session token is stored, so a copy of this table is not a
 -- set of live sessions.
@@ -38,16 +39,13 @@ CREATE TABLE IF NOT EXISTS sessions (
 CREATE INDEX IF NOT EXISTS sessions_user ON sessions (user_id);
 CREATE INDEX IF NOT EXISTS sessions_expiry ON sessions (expires_at);
 
--- Six-digit sign-in codes. One live code per address; asking for a new one replaces it.
--- The code is stored as an HMAC under AUTH_SECRET, not in the clear.
-CREATE TABLE IF NOT EXISTS login_codes (
-  email      TEXT PRIMARY KEY,
+-- A one-time reset code, written by `npm run reset-code` when John answers a request.
+-- Stored as SHA-256, one per user, forty-eight hours, five attempts.
+CREATE TABLE IF NOT EXISTS reset_codes (
+  user_id    TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
   code_hash  TEXT NOT NULL,
   expires_at INTEGER NOT NULL,
-  attempts   INTEGER NOT NULL DEFAULT 0,
-  sent_at    INTEGER NOT NULL,
-  window_at  INTEGER NOT NULL,            -- start of the current send-rate window
-  sent_count INTEGER NOT NULL DEFAULT 1
+  attempts   INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE IF NOT EXISTS profiles (
@@ -88,3 +86,33 @@ CREATE TABLE IF NOT EXISTS study_sessions (
   count   INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (user_id, day)
 );
+
+-- Friends. A request is one row; accepting it deletes the request and writes the
+-- friendship both ways, so "who are my friends" is one indexed lookup.
+CREATE TABLE IF NOT EXISTS friend_requests (
+  from_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  to_id   TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  at      INTEGER NOT NULL,
+  PRIMARY KEY (from_id, to_id)
+);
+CREATE INDEX IF NOT EXISTS friend_requests_to ON friend_requests (to_id);
+
+CREATE TABLE IF NOT EXISTS friends (
+  user_id   TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  friend_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  since     INTEGER NOT NULL,
+  PRIMARY KEY (user_id, friend_id)
+);
+
+-- A cheer on a lesson a friend finished. Private: only the person cheered sees it, and
+-- nothing counts them publicly. One per friend per lesson.
+CREATE TABLE IF NOT EXISTS cheers (
+  from_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  to_id   TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  course  TEXT NOT NULL,
+  lesson  TEXT NOT NULL,
+  at      INTEGER NOT NULL,
+  seen    INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (from_id, to_id, course, lesson)
+);
+CREATE INDEX IF NOT EXISTS cheers_to ON cheers (to_id, at);

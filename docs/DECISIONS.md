@@ -323,10 +323,21 @@ worth keeping for one fact: the paused **John Project**, ref `ebkuhylfhyfretagpc
 empty on 2026-09-05, `auth.users` 0 rows, `storage.buckets` 0 rows, not referenced by any repo or
 deployment. It is safe for John to delete whenever he wants the slot back.)
 
-John picked the shape too: write the session layer in the Worker we already have, ship Google
-sign-in and six-digit email codes first, add email and password later. Passwords are the one method
-that needs the $5 a month Workers Paid plan, because hashing costs 50 to 100 ms and Workers Free
-allows 10 ms of CPU.
+**Changed 2026-09-28: username and password, no Google, no emailed codes.** John wanted sign-up
+without setting up an OAuth client or a mail-sending account, and asked whether passwords really
+needed the $5 plan. They do not, if the browser does the expensive part: it stretches the password
+with PBKDF2 at 600,000 rounds and the Worker stores a salted SHA-256 of the result, so a leaked
+table costs an attacker the full stretch per guess while the Worker spends microseconds. Resets are
+by hand: the learner emails John from the address on file, he runs `npm run reset-code`, and sends
+the code only to the address the script prints. `workers/api/README.md` has the detail. The Google
+and email-code version is in git at `0b2f579` if it is ever wanted again; the email-code half would
+need a mail sender and the Google half an OAuth client, which is what this avoided.
+
+**Friends went in with it**, in the shape John picked: add by username, see the lessons a friend
+finishes and the days they study (never scores), and a private cheer on a finished lesson that only
+the person cheered sees, with no public counts. That replaced the roadmap's "no likes" line with
+something narrower rather than reversing it. The community rules at `#/community` were written
+before any of it can switch on, as Phase 4 required.
 
 ---
 

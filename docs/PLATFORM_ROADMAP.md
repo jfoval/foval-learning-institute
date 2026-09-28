@@ -38,24 +38,23 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 **Goal:** sign in on any device and your progress follows you.
 
 - **Backend: Cloudflare Worker plus D1** (`workers/api/`). Superseded the original Supabase plan when the project moved to Cloudflare in September 2026; the Worker and database were already deployed and proven by the feedback endpoint. Written and tested, not yet deployed. Alternatives weighed in `docs/AUTH_OPTIONS.md`.
-- **Auth:** Google sign-in and a six-digit code by email. Not passwords: hashing one costs 50 to 100 ms of CPU and the Workers Free plan allows 10 ms, so passwords alone would put this on a paid plan for a method the other two already cover. Add them if learners ask.
+- **Auth:** a username and a password, stretched in the browser so the Worker stays inside the free plan's 10 ms. An email is kept on record for resets, which John answers by hand with `npm run reset-code`. Changed from Google and email codes on 2026-09-28; `docs/DECISIONS.md` §11.
 - **Tables:** `users`, `identities`, `sessions`, `login_codes` for the sign-in itself; `profiles`, `lesson_progress` (user, course, lesson, done, score, at), `review_items` (user, item key, ease, interval, due, reps, lapses, last), `study_sessions` (for streaks and hours). Feedback keeps its own table and its own write-only Worker.
 - **Sync strategy:** the browser stays the source of truth; on sign-in, merge local progress with the server (a lesson stays done, the higher score wins, a review item keeps the schedule further ahead, the larger day tally wins). Signing in cannot lose progress. No feature is lost for signed-out users, and nothing here needs an account to work. Writes are batched on a timer because D1's free plan counts row writes and, since 1 September 2026, fails queries once the daily cap is hit.
 - **Content stays static.** The site keeps loading `courses.js` from GitHub Pages; only learner state goes to D1. The two can never be out of step in a way that matters.
 - Migration path: Phase 1's local progress format is designed to map 1:1 onto these tables.
 ### State of the work: written, tested, NOT deployed
 
-`workers/api/` is written and tested: 28 Worker checks and 12 browser checks pass against a local
-D1. It is inert until `window.FOVAL_API` in `site/index.html` is set to the deployed URL; while
+`workers/api/` is written and tested: 75 Worker checks pass against a local D1, and the pages were
+walked through in a browser with two accounts on 2026-09-28. It now includes friends and cheers. It is inert until `window.FOVAL_API` in `site/index.html` is set to the deployed URL; while
 that is empty the site behaves exactly as before, with no sign-in link and no network calls, which
 is what is on `main`. Nothing is blocked; accounts simply have not been built. See
 `docs/DECISIONS.md` §11 for why this is Cloudflare and not Supabase.
 
-**What is left needs John**, because it needs credentials and two free accounts. The steps are in
-`workers/api/README.md`: apply `schema.sql` to the existing `foval-feedback` database, create a
-Google OAuth client and a Resend account (both free), set four secrets with `wrangler secret put`,
-`wrangler deploy`, then set `FOVAL_API`. **That order matters**; setting `FOVAL_API` first gives
-every visitor a broken sign-in page. `wrangler` is not authenticated in agent sessions on Claude
+**What is left needs John only for a login.** No outside accounts and no secrets. The steps are in
+`workers/api/README.md`: `wrangler login` with the account that owns `foval-feedback`, apply
+`schema.sql`, `wrangler deploy`, then set `FOVAL_API`. **That order matters**; setting `FOVAL_API`
+first gives every visitor a broken sign-in page. `wrangler` is not authenticated in agent sessions on Claude
 Code on the web, and the network policy there blocks `workers.dev` and the live site, so a session
 there can write and test the Worker but cannot deploy it.
 
@@ -91,7 +90,7 @@ and the site keeps working with no network.
 **Goal:** learning with people you know, without turning into a social network.
 
 - **Rules first**: community guidelines, moderation procedure, and an appeals process are written and published before any social feature switches on. Moderation decisions are logged. Removing someone for criticising Foval is never a valid reason.
-- **Connections**: add friends and family by username. See each other's transcript, streak, and what you're each studying now. That's it. No feed, no likes.
+- **Connections** (built with Phase 2, 2026-09-28): add friends and family by username. See the lessons each other finishes, streaks, and what you're each studying now. A friend can **cheer** a finished lesson: private to the person cheered, no public counts, no feed, no ranking. Rules at `#/community`, written first.
 - **Study groups**: a small group takes a course together on a shared schedule; a group page shows everyone's progress on it. Works for families, couples, book clubs, teams.
 - **Accountability**: opt-in weekly email or push to your connections: "Alex finished Logic and Argument this week." Opt-in nudges when you go quiet.
 - **Discussion per lesson**: a thread under each lesson for questions and answers. Moderated. Good answers get folded back into the lesson via the content pipeline.

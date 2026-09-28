@@ -1,28 +1,79 @@
-# Accounts and sync
+# Accounts, sync and friends
 
-Sign in with Google or with a six-digit code sent to an email address, and your progress
-follows you between devices. Cloudflare Worker plus D1, sharing the database the feedback
-Worker already uses. No passwords: see `docs/AUTH_OPTIONS.md` for why not, and what it
-would cost to add them.
+Make an account with a username and a password, and your progress follows you between
+devices. Add friends by username, see the lessons they finish, and cheer them on. Cloudflare
+Worker plus D1, sharing the database the feedback Worker already uses, on the Workers Free
+plan. No email is ever sent from here.
 
 Nothing here is switched on until `window.FOVAL_API` in `site/index.html` points at the
 deployed Worker. While it is empty the site behaves exactly as it always has: progress in
 the browser, no account, no network calls, no sign-in link. That is the safe default and
 it is what is committed.
 
+## Passwords on the free plan
+
+Stretching a password on the server costs 50 to 100 ms of CPU and the Workers Free plan
+allows 10 ms, which is why this used to say "no passwords". So the stretching happens in
+the learner's browser instead: `passwordKey` in `site/assets/app.js` runs PBKDF2-SHA256,
+600,000 rounds (OWASP's figure), salted with `foval-login-v1:<username>`, and sends only
+the 32-byte result. The Worker stores `SHA-256(random salt + that result)`.
+
+- **A leaked users table** still costs an attacker 600,000 rounds per guess, exactly as if
+  the Worker had done the stretching, because the stored hash is of the stretched value.
+- **The Worker spends microseconds**, not milliseconds.
+- **The stretched value is what signs you in**, so it is as sensitive in transit as a
+  password would be. It travels over TLS like one.
+- **A username cannot be renamed**, because the browser's salt is the username. Renaming
+  would mean a new password.
+- It takes a second or so on an old phone. That is the cost, and it is paid once per sign-in.
+
+Ten wrong passwords in a row lock the account for fifteen minutes. Separately, the
+`AUTH_LIMIT` binding allows twenty sign-up, sign-in or reset calls a minute from one IP
+address (the address is used as the key and never stored), and `SOCIAL_LIMIT` allows thirty
+friend or cheer calls a minute from one account.
+
+## Password resets
+
+There is no automatic reset, by choice: it would need an email-sending account. Instead:
+
+1. The learner emails `window.FOVAL_HELP_EMAIL` (set in `site/index.html`) from the
+   address they signed up with, and says their username. `#/reset` tells them how.
+2. John runs
+   ```
+   npm run reset-code -- <username>
+   ```
+   It prints the email address on file and a one-time code (`ABCD-EFGH`, forty-eight hours,
+   five attempts), plus a message ready to paste.
+3. **John sends the code to the address the script printed, never to an address given in
+   the request.** That is the whole identity check: whoever reads that inbox owns the
+   account. A request from a different address gets a reply saying to write from the
+   address on the account.
+4. The learner enters username, code and a new password on `#/reset`. Every other device
+   is signed out.
+
+The script uses `wrangler d1 execute --remote`, so it needs `npx wrangler login` on the
+machine it runs on, with an account that can reach the `foval-feedback` database.
+
 ## What it does
 
 | Route | Method | What it is for |
 |---|---|---|
-| `/auth/google/start` | GET | Redirects to Google. No Origin header, so it sits outside the origin check. |
-| `/auth/google/callback` | GET | Google returns here; sends the browser to `#/signin?token=...`. |
-| `/auth/email/start` | POST | Mails a six-digit code. Five an hour per address. |
-| `/auth/email/verify` | POST | Code for a session token. Five attempts, ten-minute life, single use. |
-| `/auth/session` | GET | Who is this. |
-| `/auth/signout` | POST | Deletes the session row. |
-| `/state` | GET | The learner's progress, review bank, streak days and prefs. |
-| `/state` | PUT | Push local state, merge, get the merged result back. |
-| `/account` | POST | Delete the account and every row of it. |
+| `/auth/signup` | POST | `{username, email, key, name?}`. Username 3 to 20 of `[a-z0-9_]`, stored lowercase |
+| `/auth/signin` | POST | `{username, key}` |
+| `/auth/reset` | POST | `{username, code, key}`, a code from `npm run reset-code` |
+| `/auth/session` | GET | Who is this: username, email, name |
+| `/auth/signout` | POST | Deletes the session row |
+| `/auth/password` | POST | `{oldKey, newKey}`. Signs out every other device |
+| `/account/email` | POST | Change the email on record |
+| `/account` | POST | Delete the account, its friendships, requests and cheers, and every row of progress |
+| `/state` | GET, PUT | The learner's progress, review bank, streak days and prefs; PUT merges |
+| `/friends` | GET | Friends with a summary each, requests both ways, cheers received |
+| `/friends/<username>` | GET | A friend's finished lessons and study days. Friends only; never scores |
+| `/friends/request` | POST | `{username}`. If they had already asked you, you are friends at once |
+| `/friends/accept` | POST | `{username}` |
+| `/friends/remove` | POST | `{username}`. Declines, cancels or unfriends, whichever applies |
+| `/cheer` | POST | `{username, course, lesson}`. Friends only, finished lessons only, once each |
+| `/cheers/seen` | POST | Marks your cheers seen |
 
 The session token is returned in the body and sent back as `Authorization: Bearer`, not as
 a cookie, because the site and the Worker are on different origins and third-party cookies
@@ -30,6 +81,14 @@ are going away. **When the site moves to Cloudflare Pages** (`docs/PLATFORM_ROAD
 an origin, switch to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path.
 That is a real improvement, not a tidy-up: a bearer token in `localStorage` is readable by
 any script that gets onto the page.
+
+## What friends see
+
+Your name if you gave one, your username, the lessons you finish and when, and the days you
+study in the last four months. Not your quiz scores, your review bank or your email. Anyone
+with your username can send a request; nothing more is visible until you accept. A cheer is
+seen only by the person cheered, and nothing is counted publicly. The rules are at
+`#/community` and in `docs/PLATFORM_ROADMAP.md` Phase 4.
 
 ## The merge
 
@@ -46,49 +105,35 @@ Local-only fields, feedback above all, are preserved when the merged state is wr
 
 ## Deploying it
 
-The Worker is written and tested but **has never been deployed**. These steps need
-credentials the agent sessions do not have.
+Written and tested, **never deployed**. No outside accounts are needed: no Google client,
+no Resend. Only the Cloudflare account the feedback Worker already runs on.
 
-1. **Create the tables.** They go in the existing `foval-feedback` database alongside the
-   feedback table.
+1. **Log in** with the Cloudflare account that owns `foval-feedback`: `npx wrangler login`.
+   (On 2026-09-28 the login on John's Mac could not reach that database, error 7403.)
+2. **Create the tables** in the existing database, beside the feedback table:
    ```
    npx wrangler d1 execute foval-feedback --remote --file=workers/api/schema.sql
    ```
-2. **Google OAuth client.** Google Cloud console, APIs and Services, Credentials, Create
-   OAuth client ID, type Web application. Authorised redirect URI:
-   `https://foval-api.<subdomain>.workers.dev/auth/google/callback`. Free.
-3. **Resend.** Sign up, verify the sending domain, create an API key. Free to 3,000 emails
-   a month. Then check `MAIL_FROM` in `wrangler.jsonc` matches the verified domain.
-4. **Set the secrets** (run each, paste the value when asked):
-   ```
-   npx wrangler secret put AUTH_SECRET          --cwd workers/api   # 32+ random bytes
-   npx wrangler secret put GOOGLE_CLIENT_ID     --cwd workers/api
-   npx wrangler secret put GOOGLE_CLIENT_SECRET --cwd workers/api
-   npx wrangler secret put RESEND_API_KEY       --cwd workers/api
-   ```
-   A good `AUTH_SECRET`: `openssl rand -base64 48`.
-5. **Deploy:** `npx wrangler deploy --cwd workers/api`
-6. **Switch it on:** put the deployed URL in `window.FOVAL_API` in `site/index.html`,
-   commit, push. The sign-in link appears on the next page load.
+3. **Deploy:** `npx wrangler deploy --cwd workers/api`. It prints the Worker's URL.
+4. **Switch it on:** put that URL in `window.FOVAL_API` in `site/index.html`, check
+   `FOVAL_HELP_EMAIL` beside it, commit, push. Sign in and Friends appear on the next load.
 
-Order matters at step 6. Setting `FOVAL_API` before the tables exist gives every visitor a
+Order matters at step 4. Setting `FOVAL_API` before the tables exist gives every visitor a
 broken sign-in page.
 
 ## Running it locally
 
 ```
-node scripts/mailstub.mjs                       # prints the sign-in code instead of mailing it
+npx wrangler d1 execute foval-feedback --local --file=schema.sql --cwd workers/api
 npx wrangler dev --local --port 8788 --cwd workers/api
 node workers/api/test.mjs
 ```
 
-`wrangler dev` reads `workers/api/.dev.vars`, which is not in git. It needs `AUTH_SECRET`,
-`RESEND_API_KEY` (any string), and `MAIL_ENDPOINT=http://127.0.0.1:4179/emails` so the
-tests can read the code back instead of sending mail. Apply the schema to the local
-database once with `npx wrangler d1 execute foval-feedback --local --file=schema.sql`.
-
-`test.mjs` covers the origin policy, the code lifecycle (wrong code, reuse, expiry), the
-session lifecycle, and every merge rule above. 28 checks. Run it before every deploy.
+`test.mjs` covers the origin policy, sign-up and sign-in, lockout, the rate limit, every
+merge rule, friends and cheers end to end, password changes, a reset through the real
+`reset-code` script, and account deletion. 75 checks. Run it before every deploy. To try
+the pages, `npm run build`, set `FOVAL_API` to `http://127.0.0.1:8788` in
+`dist/index.html` (not `site/`), and `npm run serve`.
 
 ## The write budget
 
@@ -97,4 +142,5 @@ rather than warn once that is hit. So: progress is one row per lesson updated in
 `PUT /state` only writes rows the server does not already agree with (pushing an unchanged
 state writes nothing), and the browser flushes on a fifteen-second timer and when the tab
 goes away rather than on every answered card. A learner finishing a course costs about ten
-writes, so the cap is roughly ten thousand learners finishing a course on the same day.
+writes; a friend request, an acceptance or a cheer costs one to three. Reading a friend's
+page writes nothing.

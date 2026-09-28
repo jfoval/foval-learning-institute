@@ -1,23 +1,26 @@
-// Foval Learning Institute: accounts and learner state.
+// Foval Learning Institute: accounts, learner state, friends.
 //
-// Sign in with Google, or with a six-digit code mailed to an address. No passwords:
-// hashing one costs 50 to 100 ms of CPU and the Workers Free plan allows 10 ms, so
-// passwords are the one sign-in method that would put this on a paid plan. See
-// docs/AUTH_OPTIONS.md for the whole argument.
+// Sign in with a username and a password. The password never reaches this Worker: the
+// browser stretches it with PBKDF2-SHA256 at 600,000 rounds, salted with the username,
+// and sends the 32-byte result. The Worker stores a salted SHA-256 of that. A leaked
+// users table still costs an attacker the full 600,000 rounds per guess, and the Worker
+// spends microseconds of CPU rather than the 50 to 100 ms that server-side stretching
+// would, which is what keeps this on the Workers Free plan's 10 ms. docs/AUTH_OPTIONS.md.
+//
+// No email is ever sent. The address a learner gives is kept on record; a forgotten
+// password is a message to John, who runs `npm run reset-code <username>` and mails the
+// one-time code to the address on file himself. workers/api/README.md, "Password resets".
 //
 // The session token is returned in the JSON body and sent back as `Authorization:
 // Bearer`. It is not an HttpOnly cookie, because the site is served from a different
 // origin than this Worker and third-party cookies are on their way out. When the site
 // moves to Cloudflare Pages (docs/PLATFORM_ROADMAP.md, "Going private") and shares an
-// origin with this Worker, switch
-// to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path.
+// origin with this Worker, switch to an HttpOnly, Secure, SameSite=Lax cookie and delete
+// the bearer path.
 //
-// Secrets, set with `wrangler secret put`:
-//   AUTH_SECRET           random 32+ bytes, HMAC key for sign-in codes and OAuth state
-//   GOOGLE_CLIENT_ID      OAuth client, web application
-//   GOOGLE_CLIENT_SECRET
-//   RESEND_API_KEY        for the sign-in code emails
-// Vars in wrangler.jsonc: SITE_ORIGIN, MAIL_FROM.
+// Bindings in wrangler.jsonc: DB, and two rate limiters, AUTH_LIMIT (per IP, never
+// stored) and SOCIAL_LIMIT (per account). Either may be absent in a test, and then
+// nothing is limited.
 
 const ALLOWED_ORIGINS = new Set([
   "https://www.fovallearninginstitute.org",
@@ -28,12 +31,13 @@ const ALLOWED_ORIGINS = new Set([
 ]);
 
 const SESSION_DAYS = 60;
-const CODE_TTL_MS = 10 * 60 * 1000;
-const CODE_MAX_ATTEMPTS = 5;
-const CODE_MAX_PER_HOUR = 5;
-const STATE_TTL_MS = 10 * 60 * 1000;      // Google round trip
+const LOCK_AFTER = 10;                    // wrong passwords in a row
+const LOCK_MS = 15 * 60 * 1000;
+const RESET_MAX_ATTEMPTS = 5;
 const MAX_BODY = 512 * 1024;
 const MAX_SYNC_ROWS = 5000;               // per state push, per table
+const MAX_FRIENDS = 200;
+const MAX_PENDING = 50;                   // outgoing requests not yet answered
 
 /* ---------- small helpers ---------- */
 
@@ -43,10 +47,6 @@ const randomToken = (bytes = 32) => b64url(crypto.getRandomValues(new Uint8Array
 
 async function sha256(text) {
   return b64url(await crypto.subtle.digest("SHA-256", enc.encode(text)));
-}
-async function hmac(secret, text) {
-  const key = await crypto.subtle.importKey("raw", enc.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
-  return b64url(await crypto.subtle.sign("HMAC", key, enc.encode(text)));
 }
 // Comparison that does not leak where two strings first differ.
 function timingSafeEqual(a, b) {
@@ -71,36 +71,31 @@ const json = (body, status, origin) =>
 
 const normEmail = e => String(e ?? "").trim().toLowerCase();
 const validEmail = e => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e) && e.length <= 254;
+const normUsername = u => String(u ?? "").trim().toLowerCase();
+const validUsername = u => /^[a-z0-9_]{3,20}$/.test(u);
+const validKey = k => typeof k === "string" && /^[A-Za-z0-9_-]{43}$/.test(k);   // 32 bytes, base64url
 const num = (v, d = 0) => (Number.isFinite(Number(v)) ? Number(v) : d);
 const clip = (v, n) => (typeof v === "string" ? v.slice(0, n).trim() : "");
+const nowText = () => new Date().toISOString().replace("T", " ").slice(0, 19);
 
 async function readJson(request) {
   if (Number(request.headers.get("Content-Length") || 0) > MAX_BODY) throw new Error("too large");
   return await request.json();
 }
 
-/* ---------- users and sessions ---------- */
+// True when the limiter says no. The IP is the key and is never written anywhere.
+async function limited(binding, key) {
+  if (!binding) return false;
+  try { return !(await binding.limit({ key })).success; } catch { return false; }
+}
 
-async function findOrCreateUser(env, { email, name, provider, providerUserId, verified }) {
-  const existing = await env.DB.prepare("SELECT id, name FROM users WHERE email = ?").bind(email).first();
-  let userId = existing?.id;
-  const now = new Date().toISOString().replace("T", " ").slice(0, 19);
+/* ---------- passwords and sessions ---------- */
 
-  if (!userId) {
-    userId = crypto.randomUUID();
-    await env.DB.batch([
-      env.DB.prepare("INSERT INTO users (id, email, email_verified, name, created_at, last_seen_at) VALUES (?, ?, ?, ?, ?, ?)")
-        .bind(userId, email, verified ? 1 : 0, clip(name, 120), now, now),
-      env.DB.prepare("INSERT OR IGNORE INTO profiles (user_id, display_name, updated_at) VALUES (?, ?, ?)")
-        .bind(userId, clip(name, 120), Date.now()),
-    ]);
-  } else {
-    await env.DB.prepare("UPDATE users SET last_seen_at = ?, email_verified = MAX(email_verified, ?), name = CASE WHEN name = '' THEN ? ELSE name END WHERE id = ?")
-      .bind(now, verified ? 1 : 0, clip(name, 120), userId).run();
-  }
-  await env.DB.prepare("INSERT OR IGNORE INTO identities (provider, provider_user_id, user_id) VALUES (?, ?, ?)")
-    .bind(provider, providerUserId, userId).run();
-  return userId;
+const hashKey = (salt, key) => sha256(`${salt}:${key}`);
+
+async function newPassword(key) {
+  const salt = randomToken(16);
+  return { salt, hash: await hashKey(salt, key) };
 }
 
 async function createSession(env, userId) {
@@ -111,16 +106,16 @@ async function createSession(env, userId) {
   return token;
 }
 
-// Returns { userId, email, name } or null. Touches last_used_at at most once a day, so a
-// day of reading lessons costs one write rather than one per request.
+// Returns { userId, username, email, name } or null. Touches last_used_at at most once a
+// day, so a day of reading lessons costs one write rather than one per request.
 async function authenticate(env, request) {
   const header = request.headers.get("Authorization") || "";
   const token = header.startsWith("Bearer ") ? header.slice(7).trim() : "";
   if (!token) return null;
   const hash = await sha256(token);
   const row = await env.DB.prepare(
-    `SELECT s.user_id, s.expires_at, s.last_used_at, u.email, u.name
-       FROM sessions s JOIN users u ON u.id = s.user_id
+    `SELECT s.user_id, s.expires_at, s.last_used_at, u.username, u.email, p.display_name
+       FROM sessions s JOIN users u ON u.id = s.user_id LEFT JOIN profiles p ON p.user_id = s.user_id
       WHERE s.token_hash = ?`).bind(hash).first();
   if (!row) return null;
   const now = Date.now();
@@ -129,144 +124,243 @@ async function authenticate(env, request) {
     return null;
   }
   if (now - row.last_used_at > 86400000) {
-    await env.DB.prepare("UPDATE sessions SET last_used_at = ? WHERE token_hash = ?").bind(now, hash).run();
+    await env.DB.batch([
+      env.DB.prepare("UPDATE sessions SET last_used_at = ? WHERE token_hash = ?").bind(now, hash),
+      env.DB.prepare("UPDATE users SET last_seen_at = ? WHERE id = ?").bind(nowText(), row.user_id),
+    ]);
   }
-  return { userId: row.user_id, email: row.email, name: row.name };
+  return { userId: row.user_id, username: row.username, email: row.email, name: row.display_name || "" };
 }
 
-/* ---------- email sign-in codes ---------- */
+const publicUser = me => ({ username: me.username, email: me.email, name: me.name });
 
-async function sendCode(env, email, code) {
-  if (!env.RESEND_API_KEY) throw new Error("no mail sender configured");
-  const r = await fetch(env.MAIL_ENDPOINT || "https://api.resend.com/emails", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      from: env.MAIL_FROM,
-      to: [email],
-      subject: `${code} is your Foval sign-in code`,
-      text: [
-        `Your sign-in code is ${code}.`,
-        "",
-        "It works once and expires in ten minutes.",
-        "If you did not ask to sign in, you can ignore this. Nothing has changed on your account.",
-        "",
-        "Foval Learning Institute",
-      ].join("\n"),
-    }),
-  });
-  if (!r.ok) throw new Error(`mail send failed: ${r.status}`);
+async function signUp(env, body, origin) {
+  const username = normUsername(body.username);
+  const email = normEmail(body.email);
+  const name = clip(body.name, 120);
+  if (!validUsername(username)) return json({ error: "A username is 3 to 20 letters, numbers or underscores." }, 400, origin);
+  if (!validEmail(email)) return json({ error: "That does not look like an email address." }, 400, origin);
+  if (!validKey(body.key)) return json({ error: "Something went wrong preparing your password. Reload and try again." }, 400, origin);
+
+  const taken = await env.DB.prepare("SELECT 1 FROM users WHERE username = ?").bind(username).first();
+  if (taken) return json({ error: "That username is taken." }, 409, origin);
+
+  const userId = crypto.randomUUID();
+  const pw = await newPassword(body.key);
+  const now = nowText();
+  try {
+    await env.DB.batch([
+      env.DB.prepare("INSERT INTO users (id, username, email, pw_salt, pw_hash, created_at, last_seen_at) VALUES (?, ?, ?, ?, ?, ?, ?)")
+        .bind(userId, username, email, pw.salt, pw.hash, now, now),
+      env.DB.prepare("INSERT OR IGNORE INTO profiles (user_id, display_name, updated_at) VALUES (?, ?, ?)")
+        .bind(userId, name, Date.now()),
+    ]);
+  } catch (err) {
+    // Two sign-ups racing for one name: the UNIQUE constraint settles it.
+    if (/UNIQUE/i.test(String(err && err.message))) return json({ error: "That username is taken." }, 409, origin);
+    throw err;
+  }
+  const token = await createSession(env, userId);
+  return json({ ok: true, token, user: { username, email, name } }, 200, origin);
 }
 
-async function startEmailSignIn(env, body, origin) {
+async function signIn(env, body, origin) {
+  const username = normUsername(body.username);
+  const bad = () => json({ error: "That username and password do not match." }, 401, origin);
+  if (!validUsername(username) || !validKey(body.key)) return bad();
+
+  const u = await env.DB.prepare("SELECT id, email, pw_salt, pw_hash, failed_logins, locked_until FROM users WHERE username = ?").bind(username).first();
+  if (!u) return bad();
+  const now = Date.now();
+  if (u.locked_until > now) {
+    return json({ error: "Too many wrong passwords. Try again in fifteen minutes." }, 429, origin);
+  }
+  if (!timingSafeEqual(u.pw_hash, await hashKey(u.pw_salt, body.key))) {
+    const failed = u.failed_logins + 1;
+    await env.DB.prepare("UPDATE users SET failed_logins = ?, locked_until = ? WHERE id = ?")
+      .bind(failed >= LOCK_AFTER ? 0 : failed, failed >= LOCK_AFTER ? now + LOCK_MS : 0, u.id).run();
+    return bad();
+  }
+  if (u.failed_logins) await env.DB.prepare("UPDATE users SET failed_logins = 0 WHERE id = ?").bind(u.id).run();
+  const token = await createSession(env, u.id);
+  const p = await env.DB.prepare("SELECT display_name FROM profiles WHERE user_id = ?").bind(u.id).first();
+  return json({ ok: true, token, user: { username, email: u.email, name: p?.display_name || "" } }, 200, origin);
+}
+
+// A reset code from John. It replaces the password, signs out every device, and signs
+// this one in.
+async function resetWithCode(env, body, origin) {
+  const username = normUsername(body.username);
+  const code = String(body.code ?? "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  const bad = () => json({ error: "That code is wrong or has expired. Ask John for a new one." }, 401, origin);
+  if (!validUsername(username) || !code || !validKey(body.key)) return bad();
+
+  const row = await env.DB.prepare(
+    "SELECT r.user_id, r.code_hash, r.expires_at, r.attempts FROM reset_codes r JOIN users u ON u.id = r.user_id WHERE u.username = ?")
+    .bind(username).first();
+  if (!row || row.expires_at <= Date.now()) return bad();
+  if (row.attempts >= RESET_MAX_ATTEMPTS) {
+    await env.DB.prepare("DELETE FROM reset_codes WHERE user_id = ?").bind(row.user_id).run();
+    return bad();
+  }
+  if (!timingSafeEqual(row.code_hash, await sha256(code))) {
+    await env.DB.prepare("UPDATE reset_codes SET attempts = attempts + 1 WHERE user_id = ?").bind(row.user_id).run();
+    return bad();
+  }
+  const pw = await newPassword(body.key);
+  await env.DB.batch([
+    env.DB.prepare("UPDATE users SET pw_salt = ?, pw_hash = ?, failed_logins = 0, locked_until = 0 WHERE id = ?").bind(pw.salt, pw.hash, row.user_id),
+    env.DB.prepare("DELETE FROM reset_codes WHERE user_id = ?").bind(row.user_id),
+    env.DB.prepare("DELETE FROM sessions WHERE user_id = ?").bind(row.user_id),
+  ]);
+  const token = await createSession(env, row.user_id);
+  return json({ ok: true, token }, 200, origin);
+}
+
+async function changePassword(env, me, body, origin) {
+  if (!validKey(body.oldKey) || !validKey(body.newKey)) return json({ error: "Fill in both passwords." }, 400, origin);
+  const u = await env.DB.prepare("SELECT pw_salt, pw_hash FROM users WHERE id = ?").bind(me.userId).first();
+  if (!u || !timingSafeEqual(u.pw_hash, await hashKey(u.pw_salt, body.oldKey))) {
+    return json({ error: "Your current password is not right." }, 401, origin);
+  }
+  const pw = await newPassword(body.newKey);
+  await env.DB.batch([
+    env.DB.prepare("UPDATE users SET pw_salt = ?, pw_hash = ? WHERE id = ?").bind(pw.salt, pw.hash, me.userId),
+    env.DB.prepare("DELETE FROM sessions WHERE user_id = ?").bind(me.userId),
+  ]);
+  // Every other device is signed out; this one gets a fresh session.
+  const token = await createSession(env, me.userId);
+  return json({ ok: true, token }, 200, origin);
+}
+
+async function changeEmail(env, me, body, origin) {
   const email = normEmail(body.email);
   if (!validEmail(email)) return json({ error: "That does not look like an email address." }, 400, origin);
+  await env.DB.prepare("UPDATE users SET email = ? WHERE id = ?").bind(email, me.userId).run();
+  return json({ ok: true, user: { ...publicUser(me), email } }, 200, origin);
+}
 
+/* ---------- friends and cheers ---------- */
+
+const findUser = (env, username) =>
+  env.DB.prepare("SELECT u.id, u.username, p.display_name AS name FROM users u LEFT JOIN profiles p ON p.user_id = u.id WHERE u.username = ?")
+    .bind(normUsername(username)).first();
+const areFriends = async (env, a, b) =>
+  Boolean(await env.DB.prepare("SELECT 1 FROM friends WHERE user_id = ? AND friend_id = ?").bind(a, b).first());
+
+async function befriend(env, a, b) {
   const now = Date.now();
-  const prior = await env.DB.prepare("SELECT window_at, sent_count FROM login_codes WHERE email = ?").bind(email).first();
-  let windowAt = prior?.window_at ?? now;
-  let sentCount = prior?.sent_count ?? 0;
-  if (now - windowAt > 3600000) { windowAt = now; sentCount = 0; }
-  if (sentCount >= CODE_MAX_PER_HOUR) {
-    return json({ error: "Too many codes asked for. Try again in an hour." }, 429, origin);
-  }
-
-  const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1000000).padStart(6, "0");
-  await env.DB.prepare(
-    `INSERT INTO login_codes (email, code_hash, expires_at, attempts, sent_at, window_at, sent_count)
-     VALUES (?, ?, ?, 0, ?, ?, ?)
-     ON CONFLICT(email) DO UPDATE SET
-       code_hash = excluded.code_hash, expires_at = excluded.expires_at, attempts = 0,
-       sent_at = excluded.sent_at, window_at = excluded.window_at, sent_count = excluded.sent_count`)
-    .bind(email, await hmac(env.AUTH_SECRET, `${email}:${code}`), now + CODE_TTL_MS, now, windowAt, sentCount + 1).run();
-
-  await sendCode(env, email, code);
-  // Deliberately the same answer whether or not the address has an account here.
-  return json({ ok: true, sent: true }, 200, origin);
+  await env.DB.batch([
+    env.DB.prepare("INSERT OR IGNORE INTO friends (user_id, friend_id, since) VALUES (?, ?, ?)").bind(a, b, now),
+    env.DB.prepare("INSERT OR IGNORE INTO friends (user_id, friend_id, since) VALUES (?, ?, ?)").bind(b, a, now),
+    env.DB.prepare("DELETE FROM friend_requests WHERE (from_id = ? AND to_id = ?) OR (from_id = ? AND to_id = ?)").bind(a, b, b, a),
+  ]);
 }
 
-async function verifyEmailSignIn(env, body, origin) {
-  const email = normEmail(body.email);
-  const code = clip(body.code, 6);
-  if (!validEmail(email) || !/^\d{6}$/.test(code)) return json({ error: "Check the address and the six-digit code." }, 400, origin);
-
-  const row = await env.DB.prepare("SELECT code_hash, expires_at, attempts FROM login_codes WHERE email = ?").bind(email).first();
-  const bad = () => json({ error: "That code is wrong or has expired. Ask for a new one." }, 401, origin);
-  if (!row || row.expires_at <= Date.now()) return bad();
-  if (row.attempts >= CODE_MAX_ATTEMPTS) {
-    await env.DB.prepare("DELETE FROM login_codes WHERE email = ?").bind(email).run();
-    return bad();
-  }
-  if (!timingSafeEqual(row.code_hash, await hmac(env.AUTH_SECRET, `${email}:${code}`))) {
-    await env.DB.prepare("UPDATE login_codes SET attempts = attempts + 1 WHERE email = ?").bind(email).run();
-    return bad();
-  }
-  await env.DB.prepare("DELETE FROM login_codes WHERE email = ?").bind(email).run();
-
-  const userId = await findOrCreateUser(env, { email, name: "", provider: "email", providerUserId: email, verified: true });
-  const token = await createSession(env, userId);
-  return json({ ok: true, token, user: { email, name: "" } }, 200, origin);
+// Everything the Friends page needs in one call: friends with a one-line summary each,
+// requests both ways, and the cheers this learner has been sent.
+async function listFriends(env, me) {
+  const [friends, recent, incoming, outgoing, cheers] = await Promise.all([
+    env.DB.prepare(
+      `SELECT u.username, p.display_name AS name, f.since,
+              (SELECT COUNT(*) FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.done = 1) AS lessons_done,
+              (SELECT MAX(day) FROM study_sessions s WHERE s.user_id = u.id) AS last_day
+         FROM friends f JOIN users u ON u.id = f.friend_id LEFT JOIN profiles p ON p.user_id = u.id
+        WHERE f.user_id = ? ORDER BY last_day DESC, u.username`).bind(me.userId).all(),
+    env.DB.prepare(
+      `SELECT u.username, lp.course, lp.lesson, lp.at
+         FROM friends f JOIN users u ON u.id = f.friend_id JOIN lesson_progress lp ON lp.user_id = u.id
+        WHERE f.user_id = ? AND lp.done = 1
+          AND lp.at = (SELECT MAX(at) FROM lesson_progress x WHERE x.user_id = u.id AND x.done = 1)`).bind(me.userId).all(),
+    env.DB.prepare(
+      `SELECT u.username, p.display_name AS name, r.at FROM friend_requests r JOIN users u ON u.id = r.from_id
+         LEFT JOIN profiles p ON p.user_id = u.id WHERE r.to_id = ? ORDER BY r.at DESC`).bind(me.userId).all(),
+    env.DB.prepare(
+      `SELECT u.username, r.at FROM friend_requests r JOIN users u ON u.id = r.to_id WHERE r.from_id = ? ORDER BY r.at DESC`).bind(me.userId).all(),
+    env.DB.prepare(
+      `SELECT u.username, p.display_name AS name, c.course, c.lesson, c.at, c.seen FROM cheers c JOIN users u ON u.id = c.from_id
+         LEFT JOIN profiles p ON p.user_id = u.id WHERE c.to_id = ? ORDER BY c.at DESC LIMIT 50`).bind(me.userId).all(),
+  ]);
+  const latest = {};
+  for (const r of recent.results) latest[r.username] = { course: r.course, lesson: r.lesson, at: r.at };
+  return {
+    friends: friends.results.map(f => ({
+      username: f.username, name: f.name || "", since: f.since,
+      lessonsDone: f.lessons_done, lastDay: f.last_day || null, latest: latest[f.username] || null,
+    })),
+    incoming: incoming.results.map(r => ({ username: r.username, name: r.name || "", at: r.at })),
+    outgoing: outgoing.results.map(r => ({ username: r.username, at: r.at })),
+    cheers: cheers.results.map(c => ({ username: c.username, name: c.name || "", course: c.course, lesson: c.lesson, at: c.at, seen: !!c.seen })),
+  };
 }
 
-/* ---------- Google ---------- */
-
-async function googleStart(env, url) {
-  if (!env.GOOGLE_CLIENT_ID) return new Response("Google sign-in is not configured.", { status: 503 });
-  const issued = Date.now();
-  const nonce = randomToken(16);
-  const state = `${issued}.${nonce}.${await hmac(env.AUTH_SECRET, `${issued}.${nonce}`)}`;
-  const auth = new URL("https://accounts.google.com/o/oauth2/v2/auth");
-  auth.searchParams.set("client_id", env.GOOGLE_CLIENT_ID);
-  auth.searchParams.set("redirect_uri", `${url.origin}/auth/google/callback`);
-  auth.searchParams.set("response_type", "code");
-  auth.searchParams.set("scope", "openid email profile");
-  auth.searchParams.set("state", state);
-  auth.searchParams.set("prompt", "select_account");
-  return Response.redirect(auth.toString(), 302);
+// A friend's page: the lessons they have finished and when, and the days they studied.
+// Scores and the review bank stay private even from friends.
+async function friendDetail(env, me, username, origin) {
+  const them = await findUser(env, username);
+  if (!them || !(await areFriends(env, me.userId, them.id))) return json({ error: "You can only see the progress of your friends." }, 404, origin);
+  const since = new Date(Date.now() - 120 * 86400000).toISOString().slice(0, 10);
+  const [progress, days, mine] = await Promise.all([
+    env.DB.prepare("SELECT course, lesson, at FROM lesson_progress WHERE user_id = ? AND done = 1").bind(them.id).all(),
+    env.DB.prepare("SELECT day FROM study_sessions WHERE user_id = ? AND day >= ? AND count > 0").bind(them.id, since).all(),
+    env.DB.prepare("SELECT course, lesson FROM cheers WHERE from_id = ? AND to_id = ?").bind(me.userId, them.id).all(),
+  ]);
+  const done = {};
+  for (const r of progress.results) (done[r.course] ||= {})[r.lesson] = r.at;
+  return json({
+    ok: true, username: them.username, name: them.name || "", done,
+    days: days.results.map(r => r.day), cheered: mine.results.map(r => `${r.course}/${r.lesson}`),
+  }, 200, origin);
 }
 
-async function googleCallback(env, url) {
-  const back = (params) => Response.redirect(`${env.SITE_ORIGIN}/#/signin?${params}`, 302);
-  const state = url.searchParams.get("state") || "";
-  const code = url.searchParams.get("code") || "";
-  const [issued, nonce, sig] = state.split(".");
-  if (!code || !issued || !nonce || !sig) return back("error=state");
-  if (!timingSafeEqual(sig, await hmac(env.AUTH_SECRET, `${issued}.${nonce}`))) return back("error=state");
-  if (Date.now() - Number(issued) > STATE_TTL_MS) return back("error=expired");
+async function social(env, me, path, body, origin) {
+  if (path === "/cheers/seen") {
+    await env.DB.prepare("UPDATE cheers SET seen = 1 WHERE to_id = ? AND seen = 0").bind(me.userId).run();
+    return json({ ok: true }, 200, origin);
+  }
 
-  const tokenRes = await fetch("https://oauth2.googleapis.com/token", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({
-      code,
-      client_id: env.GOOGLE_CLIENT_ID,
-      client_secret: env.GOOGLE_CLIENT_SECRET,
-      redirect_uri: `${url.origin}/auth/google/callback`,
-      grant_type: "authorization_code",
-    }),
-  });
-  if (!tokenRes.ok) return back("error=google");
-  const { id_token: idToken } = await tokenRes.json();
-  if (!idToken) return back("error=google");
+  const them = await findUser(env, body.username);
+  if (!them) return json({ error: "No one has that username. Check the spelling with your friend." }, 404, origin);
+  if (them.id === me.userId) return json({ error: "That is you." }, 400, origin);
+  const friends = await areFriends(env, me.userId, them.id);
 
-  // The id_token came straight from Google's token endpoint over TLS in a request we
-  // made ourselves, so reading the claims is enough; there is no third party in the path
-  // whose signature we would be checking.
-  let claims;
-  try {
-    claims = JSON.parse(atob(idToken.split(".")[1].replace(/-/g, "+").replace(/_/g, "/")));
-  } catch { return back("error=google"); }
-  const issuers = ["accounts.google.com", "https://accounts.google.com"];
-  if (!issuers.includes(claims.iss) || claims.aud !== env.GOOGLE_CLIENT_ID) return back("error=google");
-  if (!claims.exp || Number(claims.exp) * 1000 <= Date.now()) return back("error=expired");
-  const email = normEmail(claims.email);
-  if (!validEmail(email) || claims.email_verified === false) return back("error=email");
-
-  const userId = await findOrCreateUser(env, {
-    email, name: claims.name || "", provider: "google", providerUserId: String(claims.sub), verified: true,
-  });
-  const token = await createSession(env, userId);
-  return back(`token=${encodeURIComponent(token)}`);
+  if (path === "/friends/request") {
+    if (friends) return json({ ok: true, status: "friends" }, 200, origin);
+    const theyAsked = await env.DB.prepare("SELECT 1 FROM friend_requests WHERE from_id = ? AND to_id = ?").bind(them.id, me.userId).first();
+    if (theyAsked) { await befriend(env, me.userId, them.id); return json({ ok: true, status: "friends" }, 200, origin); }
+    const counts = await env.DB.prepare(
+      "SELECT (SELECT COUNT(*) FROM friends WHERE user_id = ?) AS f, (SELECT COUNT(*) FROM friend_requests WHERE from_id = ?) AS r")
+      .bind(me.userId, me.userId).first();
+    if (counts.f >= MAX_FRIENDS) return json({ error: `You have ${MAX_FRIENDS} friends, which is the most an account can have.` }, 400, origin);
+    if (counts.r >= MAX_PENDING) return json({ error: "You have a lot of requests nobody has answered yet. Cancel some first." }, 400, origin);
+    await env.DB.prepare("INSERT OR IGNORE INTO friend_requests (from_id, to_id, at) VALUES (?, ?, ?)").bind(me.userId, them.id, Date.now()).run();
+    return json({ ok: true, status: "requested" }, 200, origin);
+  }
+  if (path === "/friends/accept") {
+    const asked = await env.DB.prepare("SELECT 1 FROM friend_requests WHERE from_id = ? AND to_id = ?").bind(them.id, me.userId).first();
+    if (!asked && !friends) return json({ error: "That request is no longer there." }, 404, origin);
+    await befriend(env, me.userId, them.id);
+    return json({ ok: true, status: "friends" }, 200, origin);
+  }
+  if (path === "/friends/remove") {
+    // Declines their request, cancels mine, or ends a friendship: whichever applies.
+    await env.DB.batch([
+      env.DB.prepare("DELETE FROM friends WHERE (user_id = ? AND friend_id = ?) OR (user_id = ? AND friend_id = ?)").bind(me.userId, them.id, them.id, me.userId),
+      env.DB.prepare("DELETE FROM friend_requests WHERE (from_id = ? AND to_id = ?) OR (from_id = ? AND to_id = ?)").bind(me.userId, them.id, them.id, me.userId),
+    ]);
+    return json({ ok: true, status: "none" }, 200, origin);
+  }
+  if (path === "/cheer") {
+    const course = clip(body.course, 128), lesson = clip(body.lesson, 128);
+    if (!friends) return json({ error: "You can only cheer a friend." }, 403, origin);
+    const done = await env.DB.prepare("SELECT 1 FROM lesson_progress WHERE user_id = ? AND course = ? AND lesson = ? AND done = 1")
+      .bind(them.id, course, lesson).first();
+    if (!done) return json({ error: "They have not finished that one yet." }, 400, origin);
+    await env.DB.prepare("INSERT OR IGNORE INTO cheers (from_id, to_id, course, lesson, at) VALUES (?, ?, ?, ?, ?)")
+      .bind(me.userId, them.id, course, lesson, Date.now()).run();
+    return json({ ok: true }, 200, origin);
+  }
+  return json({ error: "No such endpoint." }, 404, origin);
 }
 
 /* ---------- learner state ---------- */
@@ -374,6 +468,8 @@ async function putState(env, me, client, origin) {
 
 /* ---------- router ---------- */
 
+const ACCOUNT_TABLES_BY_USER = ["review_items", "lesson_progress", "study_sessions", "profiles", "sessions", "reset_codes"];
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin");
@@ -381,22 +477,23 @@ export default {
     const path = url.pathname.replace(/\/+$/, "") || "/";
 
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(origin) });
-
-    // Google redirects the browser here with no Origin header, so those two routes are
-    // outside the origin check. Everything else is called by our own page with fetch.
-    if (path === "/auth/google/start") return googleStart(env, url);
-    if (path === "/auth/google/callback") return googleCallback(env, url);
-
     if (!origin || !ALLOWED_ORIGINS.has(origin)) return json({ error: "Origin not allowed." }, 403, origin);
 
     try {
-      if (path === "/auth/email/start" && request.method === "POST") return await startEmailSignIn(env, await readJson(request), origin);
-      if (path === "/auth/email/verify" && request.method === "POST") return await verifyEmailSignIn(env, await readJson(request), origin);
+      if (request.method === "POST" && (path === "/auth/signup" || path === "/auth/signin" || path === "/auth/reset")) {
+        if (await limited(env.AUTH_LIMIT, request.headers.get("CF-Connecting-IP") || "local")) {
+          return json({ error: "Too many tries from here. Wait a minute and try again." }, 429, origin);
+        }
+        const body = await readJson(request);
+        if (path === "/auth/signup") return await signUp(env, body, origin);
+        if (path === "/auth/signin") return await signIn(env, body, origin);
+        return await resetWithCode(env, body, origin);
+      }
 
       const me = await authenticate(env, request);
 
       if (path === "/auth/session" && request.method === "GET") {
-        return me ? json({ signedIn: true, user: { email: me.email, name: me.name } }, 200, origin) : json({ signedIn: false }, 200, origin);
+        return me ? json({ signedIn: true, user: publicUser(me) }, 200, origin) : json({ signedIn: false }, 200, origin);
       }
       if (path === "/auth/signout" && request.method === "POST") {
         const header = request.headers.get("Authorization") || "";
@@ -409,20 +506,37 @@ export default {
       if (!me) return json({ error: "Sign in first." }, 401, origin);
       if (path === "/state" && request.method === "GET") return json({ ok: true, state: await getState(env, me) }, 200, origin);
       if (path === "/state" && request.method === "PUT") return await putState(env, me, await readJson(request), origin);
+      if (path === "/auth/password" && request.method === "POST") return await changePassword(env, me, await readJson(request), origin);
+      if (path === "/account/email" && request.method === "POST") return await changeEmail(env, me, await readJson(request), origin);
+
+      if (path === "/friends" && request.method === "GET") return json({ ok: true, ...(await listFriends(env, me)) }, 200, origin);
+      if (path.startsWith("/friends/") && request.method === "GET") {
+        return await friendDetail(env, me, decodeURIComponent(path.slice("/friends/".length)), origin);
+      }
+      if (request.method === "POST" && ["/friends/request", "/friends/accept", "/friends/remove", "/cheer", "/cheers/seen"].includes(path)) {
+        if (await limited(env.SOCIAL_LIMIT, me.userId)) return json({ error: "Slow down a little and try again in a minute." }, 429, origin);
+        return await social(env, me, path, path === "/cheers/seen" ? {} : await readJson(request), origin);
+      }
+
       if (path === "/account" && request.method === "POST") {
         // Sign out everywhere and delete everything. Value 1: no lock on the door,
         // and no lock on the way out either.
         // Explicit rather than relying on ON DELETE CASCADE being switched on.
+        const id = me.userId;
         await env.DB.batch([
-          "review_items", "lesson_progress", "study_sessions", "profiles", "sessions", "identities",
-        ].map(t => env.DB.prepare(`DELETE FROM ${t} WHERE user_id = ?`).bind(me.userId))
-          .concat([env.DB.prepare("DELETE FROM users WHERE id = ?").bind(me.userId)]));
+          ...ACCOUNT_TABLES_BY_USER.map(t => env.DB.prepare(`DELETE FROM ${t} WHERE user_id = ?`).bind(id)),
+          env.DB.prepare("DELETE FROM friends WHERE user_id = ? OR friend_id = ?").bind(id, id),
+          env.DB.prepare("DELETE FROM friend_requests WHERE from_id = ? OR to_id = ?").bind(id, id),
+          env.DB.prepare("DELETE FROM cheers WHERE from_id = ? OR to_id = ?").bind(id, id),
+          env.DB.prepare("DELETE FROM users WHERE id = ?").bind(id),
+        ]);
         return json({ ok: true, deleted: true }, 200, origin);
       }
       return json({ error: "No such endpoint." }, 404, origin);
     } catch (err) {
       const message = String(err && err.message || err);
       if (message === "too large") return json({ error: "Body too large." }, 413, origin);
+      if (err instanceof SyntaxError) return json({ error: "That request was not valid JSON." }, 400, origin);
       console.error(path, message);
       return json({ error: "Something broke on our side." }, 500, origin);
     }
