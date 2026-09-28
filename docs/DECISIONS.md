@@ -333,6 +333,14 @@ the code only to the address the script prints. `workers/api/README.md` has the 
 and email-code version is in git at `0b2f579` if it is ever wanted again; the email-code half would
 need a mail sender and the Google half an OAuth client, which is what this avoided.
 
+**The same day John asked for an admin page, and made two calls there.** Sign-up emails may be
+exported for a newsletter: he chose "export everyone" over an opt-in box, so the sign-up form, the
+account page and the About page now say the email is used for resets and now and then for news,
+never sold or shared. And traffic is counted by the Worker itself (views and visits per page per
+day, no cookie, no IP, capped at 20,000 views a day to protect D1's write budget) rather than by a
+third-party script. §10's open item applies: that is now analytics, disclosed in the footer and on
+About, and still no privacy policy page.
+
 **Friends went in with it**, in the shape John picked: add by username, see the lessons a friend
 finishes and the days they study (never scores), and a private cheer on a finished lesson that only
 the person cheered sees, with no public counts. That replaced the roadmap's "no likes" line with

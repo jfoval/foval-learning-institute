@@ -178,6 +178,39 @@ ok('deleting alice succeeds', (await call('/account', { method: 'POST', token: a
 ok('her request to bob went with her', (await call('/friends', { token: bToken })).body.incoming.length === 0);
 ok('her username is free again', (await call('/auth/signin', { method: 'POST', body: { username: alice, key: derive(alice, 'reset') } })).status === 401);
 
+console.log('help requests and page views');
+ok('a ticket needs an email', (await call('/ticket', { method: 'POST', body: { kind: 'question', message: 'hi' } })).status === 400);
+ok('a signed-out ticket is taken', (await call('/ticket', { method: 'POST', body: { kind: 'reset', username: bob, email: 'bob@example.com' } })).status === 200);
+ok('a page view is counted', (await call('/hit', { method: 'POST', body: { path: '/course/x/lesson/y', visit: true } })).status === 200);
+ok('a friend page is counted without the username', (await call('/hit', { method: 'POST', body: { path: `/friends/${bob}` } })).status === 200);
+ok('nonsense paths are not stored as sent', (await call('/hit', { method: 'POST', body: { path: '<script>' } })).status === 200);
+
+console.log('admin');
+const ADMIN = process.env.ADMIN || 'boss_test';   // wrangler dev --var ADMIN_USERNAMES:boss_test
+const bossKey = derive(ADMIN, 'boss password');
+let boss = await call('/auth/signup', { method: 'POST', body: { username: ADMIN, email: 'boss@example.com', key: bossKey } });
+if (boss.status === 409) boss = await call('/auth/signin', { method: 'POST', body: { username: ADMIN, key: bossKey } });
+const bossToken = boss.body.token;
+ok('a learner cannot open admin', (await call('/admin/summary', { token: bToken })).status === 404);
+ok('signed out cannot either', (await call('/admin/users')).status === 401);
+ok('the session says who is admin', (await call('/auth/session', { token: bossToken })).body.user?.admin === true);
+const sum = (await call('/admin/summary', { token: bossToken })).body;
+ok('the summary counts users and tickets', sum.counts?.users >= 2 && sum.counts.open_tickets >= 1, JSON.stringify(sum.counts));
+ok('traffic shows up by page', sum.top.some(t => t.path === '/course/x/lesson/y') && sum.top.some(t => t.path === '/friends/:user'));
+ok('no username leaked into traffic', !JSON.stringify(sum.top).includes(bob));
+ok('no raw nonsense stored', !JSON.stringify(sum.top).includes('script'));
+const users = (await call('/admin/users', { token: bossToken })).body.users;
+ok('the users list carries emails', users.some(u => u.username === bob && u.email === 'bob@example.com'));
+const tix = (await call('/admin/tickets', { token: bossToken })).body.tickets;
+const tk = tix.find(t => t.username === bob);
+ok('the reset request is listed with the email on file', tk && tk.email_on_file === 'bob@example.com');
+const rc = (await call('/admin/reset-code', { method: 'POST', token: bossToken, body: { username: bob } })).body;
+ok('admin can issue a reset code', /^[A-Z2-9]{4}-[A-Z2-9]{4}$/.test(rc.code || '') && rc.email === 'bob@example.com');
+ok('and it works', (await call('/auth/reset', { method: 'POST', body: { username: bob, code: rc.code, key: derive(bob, 'bob new') } })).status === 200);
+ok('closing a ticket', (await call('/admin/ticket', { method: 'POST', token: bossToken, body: { id: tk.id, status: 'closed', note: 'sent code' } })).status === 200);
+ok('it leaves the open list', !(await call('/admin/tickets', { token: bossToken })).body.tickets.some(t => t.id === tk.id));
+ok('feedback is readable', Array.isArray((await call('/admin/feedback', { token: bossToken })).body.feedback));
+
 console.log('signing out');
 ok('sign-out succeeds', (await call('/auth/signout', { method: 'POST', token: bToken })).status === 200);
 ok('the session is dead', (await call('/state', { token: bToken })).status === 401);

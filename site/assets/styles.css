@@ -486,7 +486,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 
 /* Sign in */
 .signin form { margin: 0 0 1rem; }
-.signin .fb-field input { display: block; width: 100%; max-width: 22rem; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
+.signin .fb-field select, .signin .fb-field textarea, .signin .fb-field input { display: block; width: 100%; max-width: 22rem; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
 .signin-note { font-size: .92rem; color: var(--text-2); min-height: 1.4em; margin: .5rem 0 0; }
 .signin-note.bad { color: var(--danger); }
 
@@ -496,6 +496,25 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .site-nav a.nav-login { padding: .3rem .8rem; border: 1.5px solid var(--line-strong); border-radius: var(--radius); background: none; color: var(--text); font-weight: 600; }
 .site-nav a.nav-login:hover, .site-nav a.nav-login.active { background: var(--surface-2); }
 .me-links { color: var(--text-2); margin: -.25rem 0 1rem; }
+
+/* Admin. John's page: tickets, sign-ups, traffic, feedback. */
+.admin-tabs { margin: 1.5rem 0; }
+.admin-tabs a.chip { text-decoration: none; }
+.ticket { border: 1px solid var(--line); border-top: 2px solid var(--line-strong); padding: 1rem 1.1rem; margin: 0 0 1rem; }
+.ticket header { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: .4rem; }
+.ticket p { margin: .35rem 0; overflow-wrap: anywhere; }
+.ticket .ticket-msg { white-space: pre-wrap; background: var(--surface-2); padding: .6rem .75rem; }
+.ticket textarea { display: block; width: 100%; margin-top: .35rem; font: inherit; font-size: .95rem; padding: .5rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
+.ticket .btn-row { margin-top: .5rem; }
+.ticket .bad { color: var(--danger); }
+.ticket .code { font-family: var(--mono); letter-spacing: .05em; }
+.admin-table th, .admin-table td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.admin-table th { font-size: .85rem; color: var(--muted); font-weight: 600; }
+.bars { display: flex; align-items: flex-end; gap: 2px; height: 160px; border-bottom: 1px solid var(--line-strong); margin-top: 1rem; }
+.bar-col { flex: 1; height: 100%; display: flex; align-items: flex-end; }
+.bar-col:hover { background: var(--surface-2); }
+.bar { width: 100%; background: var(--navy); border-radius: 4px 4px 0 0; min-height: 0; }
+.bars-axis { display: flex; justify-content: space-between; font-size: .82rem; color: var(--muted); margin: .35rem 0 1.5rem; }
 .friend-list { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--line-strong); }
 .friend-list li { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .8rem .5rem; border-bottom: 1px solid var(--line); }
 .friend-list li > span:first-child { min-width: 0; overflow-wrap: anywhere; }

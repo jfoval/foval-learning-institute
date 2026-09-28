@@ -961,7 +961,7 @@
         </ol>
         <h2>Privacy</h2>
         <p>${API
-          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">log in</a>, it also syncs to our database so it follows you between devices, and then we hold your username, the email address you gave us, your friends list and that progress, and nothing else. Your password is scrambled on your own device before it is sent, so we never see it. Friends you accept see the lessons you finish and the days you study, never your scores. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">log in</a>, it also syncs to our database so it follows you between devices, and then we hold your username, the email address you gave us, your friends list and that progress, and nothing else. Your password is scrambled on your own device before it is sent, so we never see it. Friends you accept see the lessons you finish and the days you study, never your scores. Your email is used for password resets and occasional news from the institute, and is never sold or shared. We also count how many times each page is viewed, with no cookies and nothing that says who you are. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
           : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
@@ -1050,7 +1050,7 @@
           ${field("Username <span class=\"muted\">(3 to 20 letters, numbers or _; your friends find you by it)</span>", "username", "text", `autocomplete="username" autocapitalize="none" spellcheck="false" pattern="[A-Za-z0-9_]{3,20}" maxlength="20" required`)}
           ${field("Your name <span class=\"muted\">(optional; what your friends see)</span>", "name", "text", `autocomplete="name" maxlength="120"`)}
           ${field("Email address", "email", "email", `autocomplete="email" required`)}
-          <p class="muted" style="font-size:.9rem;margin:-.25rem 0 .5rem">Kept on record only in case you forget your password. Nothing is ever sent to it unless you ask for a reset.</p>
+          <p class="muted" style="font-size:.9rem;margin:-.25rem 0 .5rem">Used if you forget your password, and now and then for news from the institute.</p>
           ${newPasswordFields()}
           <div class="btn-row"><button class="btn btn-primary" type="submit">Make my account</button></div>
           <p class="signin-note" aria-live="polite"></p>
@@ -1066,7 +1066,7 @@
         <p><a href="#/reset">Forgot your password?</a></p>
         <p>New here? <a href="#/signin?new=1">Make an account</a>. It takes a minute.</p>`}
         <h2>What we keep</h2>
-        <p>Your username, your name if you give one, your email address, and the progress you can already see on <a href="#/my-learning">your page</a>. Your password is scrambled on your own device before it is sent, so we never see or store it. Your friends see the lessons you finish and the days you study; nobody else sees anything. You can delete the whole account from the account page.</p>
+        <p>Your username, your name if you give one, your email address, and the progress you can already see on <a href="#/my-learning">your page</a>. Your email is used for password resets and, now and then, for news from the institute; it is never sold or shared. Your password is scrambled on your own device before it is sent, so we never see or store it. Your friends see the lessons you finish and the days you study; nobody else sees anything. You can delete the whole account from the account page.</p>
       </div>
     `, creating ? "Make an account" : "Log in");
 
@@ -1115,8 +1115,9 @@
         <p class="lede">There is no automatic reset yet. A person handles it, usually within a day.</p>
         <h2>1. Ask for a code</h2>
         ${HELP_EMAIL
-          ? `<p>Email <a href="${mail}">${esc(HELP_EMAIL)}</a> <strong>from the address you signed up with</strong> and say your username. The code is only ever sent to the address on your account, never to one given in a message, so nobody else can take it over.</p>
-             <div class="btn-row"><a class="btn btn-secondary" href="${mail}">Write the email</a></div>`
+          ? `<p>Send a request with your username and <strong>the email address you signed up with</strong>. The code is only ever sent to the address on your account, never to one given in a request, so nobody else can take it over.</p>
+             <div class="btn-row"><a class="btn btn-secondary" href="#/help?kind=reset">Ask for a reset code</a></div>
+             <p class="muted">Or email <a href="${mail}">${esc(HELP_EMAIL)}</a> from that address.</p>`
           : `<p>Resets are not open yet. Your progress is still in this browser, and nothing is lost.</p>`}
         <h2>2. Use the code</h2>
         <form id="resetForm">
@@ -1160,7 +1161,7 @@
 
         <h2>Email on record</h2>
         <form id="emailForm">
-          ${field("Used only if you forget your password", "email", "email", `autocomplete="email" value="${esc(a.email || "")}" required`)}
+          ${field("Used for password resets and, now and then, news from the institute", "email", "email", `autocomplete="email" value="${esc(a.email || "")}" required`)}
           <div class="btn-row"><button class="btn btn-secondary" type="submit">Save</button></div>
           <p class="signin-note" aria-live="polite"></p>
         </form>
@@ -1406,10 +1407,208 @@
           <li><strong>Encourage.</strong> That is what cheers are for.</li>
         </ol>
         <h2>When something goes wrong</h2>
-        <p>You can decline a request or remove a friend at any time, and they are not told. If someone breaks these rules, ${HELP_EMAIL ? `email <a href="mailto:${esc(HELP_EMAIL)}">${esc(HELP_EMAIL)}</a>` : "tell us through the feedback form on any lesson"} with their username and what happened.</p>
+        <p>You can decline a request or remove a friend at any time, and they are not told. If someone breaks these rules, ${API ? `<a href="#/help?kind=report">report them</a>` : "tell us through the feedback form on any lesson"} with their username and what happened.</p>
         <p>An account that breaks these rules can have its name changed or be deleted. Every such decision is written down with the reason, and you can ask for it to be looked at again by replying to the message that told you. Nobody is ever removed for criticising Foval.</p>
       </div>
     `, "Community rules");
+  }
+
+  /* ---------- help ----------
+     A request goes into the tickets table and John works it from #/admin. Nothing is
+     mailed; he answers from his own inbox. */
+  const HELP_KINDS = { reset: "I forgot my password", report: "Report someone", question: "A question or a problem", other: "Something else" };
+  function viewHelp(params) {
+    if (!API) return viewNotFound();
+    const a = account() || {};
+    const kind = HELP_KINDS[params.get("kind")] ? params.get("kind") : "question";
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Help</span>
+        <h1>Ask for help.</h1>
+        <p class="lede">This goes to John, who reads every one and answers by email, usually within a day.</p>
+        <form id="helpForm">
+          <label class="fb-field">What is it about?<select name="kind">${Object.entries(HELP_KINDS).map(([k, v]) => `<option value="${k}"${k === kind ? " selected" : ""}>${v}</option>`).join("")}</select></label>
+          ${field("Your username <span class=\"muted\">(if you have one)</span>", "username", "text", `autocapitalize="none" spellcheck="false" maxlength="20" value="${esc(a.username || "")}"`)}
+          ${field("Your email address", "email", "email", `autocomplete="email" required value="${esc(a.email || "")}"`)}
+          <p class="muted" id="resetHint" style="font-size:.9rem;margin:-.25rem 0 .5rem"${kind === "reset" ? "" : " hidden"}>For a password reset, use the address you signed up with. The code only ever goes to the address on your account.</p>
+          <label class="fb-field">What happened, or what do you need?<textarea name="message" rows="5" maxlength="4000"></textarea></label>
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Send</button></div>
+          <p class="signin-note" aria-live="polite"></p>
+        </form>
+        <p class="muted">Or write to <a href="mailto:${esc(HELP_EMAIL)}">${esc(HELP_EMAIL)}</a>.</p>
+      </div>
+    `, "Help");
+    const form = main.querySelector("#helpForm"), kit = formKit(form);
+    form.kind.addEventListener("change", () => { main.querySelector("#resetHint").hidden = form.kind.value !== "reset"; });
+    form.addEventListener("submit", async e => {
+      e.preventDefault(); kit.busy(true);
+      try {
+        await apiCall("/ticket", { method: "POST", body: { kind: form.kind.value, username: cleanUsername(form.username.value), email: form.email.value.trim(), message: form.message.value.trim() } });
+        form.innerHTML = `<p class="signin-note">Sent. John will answer at ${esc(form.email.value.trim())}.</p>`;
+      } catch (err) { kit.say(err.message, true); kit.busy(false); }
+    });
+  }
+
+  /* ---------- page views ----------
+     One small request per page, counted by day and page on the Worker. No cookie, no id:
+     "visit" only says whether this is the first page this tab has shown. */
+  let lastHit = "";
+  function countView(path) {
+    if (!API || path === lastHit || path.startsWith("/admin")) return;
+    lastHit = path;
+    let visit = false;
+    try { visit = !sessionStorage.getItem("foval.seen"); sessionStorage.setItem("foval.seen", "1"); } catch { /* counted as a view only */ }
+    // text/plain keeps it a simple request, so there is no preflight round trip.
+    fetch(API + "/hit", { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ path, visit }), keepalive: true }).catch(() => {});
+  }
+
+  /* ---------- admin ----------
+     John's page. Not linked anywhere; the Worker refuses every /admin call from anyone not
+     in ADMIN_USERNAMES, so the page itself holds nothing. */
+  const day = t => new Date(t).toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  const csvCell = v => /[",\n]/.test(String(v ?? "")) ? `"${String(v).replace(/"/g, '""')}"` : String(v ?? "");
+  function download(name, text, type) {
+    const url = URL.createObjectURL(new Blob([text], { type }));
+    const link = Object.assign(document.createElement("a"), { href: url, download: name });
+    document.body.appendChild(link); link.click(); link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  async function viewAdmin(params) {
+    if (!API || !signedIn()) return viewNotFound();
+    const tab = ["tickets", "users", "traffic", "feedback"].includes(params.get("tab")) ? params.get("tab") : "tickets";
+    const status = params.get("status") === "closed" ? "closed" : "open";
+    const seq = ++routeSeq;
+    let sum, data;
+    try {
+      [sum, data] = await Promise.all([
+        apiCall("/admin/summary"),
+        tab === "tickets" ? apiCall(`/admin/tickets?status=${status}`) : tab === "users" ? apiCall("/admin/users") : tab === "feedback" ? apiCall("/admin/feedback") : Promise.resolve({}),
+      ]);
+    } catch { if (seq === routeSeq) viewNotFound(); return; }
+    if (seq !== routeSeq) return;
+    const c = sum.counts;
+    const tabs = [["tickets", `Tickets${c.open_tickets ? ` (${c.open_tickets})` : ""}`], ["users", `Sign-ups (${c.users})`], ["traffic", "Traffic"], ["feedback", `Lesson feedback${c.feedback_new ? ` (${c.feedback_new} new)` : ""}`]];
+
+    render(`
+      <span class="eyebrow">Admin · private</span>
+      <h1>The institute, today.</h1>
+      <div class="stats">
+        <div class="stat-card"><b>${c.users}</b><span>accounts, ${c.users_7d} this week</span></div>
+        <div class="stat-card"><b>${c.active_7d}</b><span>active this week</span></div>
+        <div class="stat-card"><b>${sum.daily.reduce((n, d) => n + d.visits, 0)}</b><span>visits, last 30 days</span></div>
+        <div class="stat-card"><b>${c.lessons_done}</b><span>lessons finished by accounts</span></div>
+        <div class="stat-card"><b>${c.friendships}</b><span>friendships, ${c.cheers} cheers</span></div>
+        <div class="stat-card"><b>${c.open_tickets}</b><span>open tickets</span></div>
+      </div>
+      <nav class="filters admin-tabs" aria-label="Admin sections">${tabs.map(([k, v]) => `<a class="chip${k === tab ? " active" : ""}" href="#/admin?tab=${k}"${k === tab ? ' aria-current="page"' : ""}>${v}</a>`).join("")}</nav>
+      <div id="adminBody">${tab === "tickets" ? adminTickets(data.tickets, status) : tab === "users" ? adminUsers(data.users) : tab === "feedback" ? adminFeedback(data.feedback) : adminTraffic(sum)}</div>
+    `, "Admin");
+
+    if (tab === "users") {
+      main.querySelector("#exportBtn").addEventListener("click", () => {
+        const rows = [["username", "email", "name", "joined", "last_seen", "lessons_done"], ...data.users.map(u => [u.username, u.email, u.name, u.created_at, u.last_seen_at, u.lessons_done])];
+        download(`foval-signups-${today()}.csv`, rows.map(r => r.map(csvCell).join(",")).join("\n") + "\n", "text/csv");
+      });
+      main.querySelector("#copyBtn").addEventListener("click", async e => {
+        const list = [...new Set(data.users.map(u => u.email).filter(Boolean))].join(", ");
+        try { await navigator.clipboard.writeText(list); e.target.textContent = "Copied"; } catch { prompt("Copy these:", list); }
+      });
+    }
+    if (tab === "tickets") wireTickets(data.tickets, status);
+  }
+
+  function adminTickets(tickets, status) {
+    const other = status === "open" ? "closed" : "open";
+    return `
+      <p class="muted">${tickets.length} ${status}. <a href="#/admin?tab=tickets&status=${other}">Show ${other}</a>.</p>
+      ${tickets.length ? tickets.map(t => {
+        const mismatch = t.kind === "reset" && t.email_on_file && t.email_on_file !== t.email;
+        return `<article class="ticket" data-id="${t.id}">
+          <header><strong>${esc(HELP_KINDS[t.kind] || t.kind)}</strong><span class="muted">${new Date(t.at).toLocaleString()}</span></header>
+          <p>${t.username ? `@${esc(t.username)} · ` : ""}<a href="mailto:${esc(t.email)}">${esc(t.email)}</a>${t.kind === "reset" ? (t.email_on_file ? (mismatch ? ` · <span class="bad">not the address on file (${esc(t.email_on_file)})</span>` : " · matches the address on file") : ` · <span class="bad">no account by that username</span>`) : ""}</p>
+          ${t.message ? `<p class="ticket-msg">${esc(t.message)}</p>` : ""}
+          <label class="fb-field">Your note<textarea rows="2" data-note>${esc(t.note)}</textarea></label>
+          <div class="btn-row">
+            ${t.kind === "reset" && t.email_on_file ? `<button class="btn btn-primary btn-sm" data-act="code">Make a reset code</button>` : ""}
+            <button class="btn btn-secondary btn-sm" data-act="${status === "open" ? "close" : "reopen"}">${status === "open" ? "Close" : "Reopen"}</button>
+            <button class="btn btn-secondary btn-sm" data-act="save">Save note</button>
+          </div>
+          <div class="reset-out" hidden></div>
+        </article>`;
+      }).join("") : `<p class="muted">Nothing ${status}.</p>`}`;
+  }
+  function wireTickets(tickets, status) {
+    main.querySelectorAll(".ticket").forEach(box => {
+      const t = tickets.find(x => String(x.id) === box.dataset.id);
+      const note = () => box.querySelector("[data-note]").value;
+      box.querySelectorAll("button[data-act]").forEach(b => b.addEventListener("click", async () => {
+        b.disabled = true;
+        try {
+          if (b.dataset.act === "code") {
+            const r = await apiCall("/admin/reset-code", { method: "POST", body: { username: t.username } });
+            const body = `Hi,\n\nHere is the code to reset the password for ${r.username}: ${r.code}\n\nGo to https://www.fovallearninginstitute.org/#/reset, enter your username, this code and a new password. It works once and expires in 48 hours.\n\nIf you did not ask for this, ignore it. Nothing changes until the code is used.\n\nJohn\nFoval Learning Institute`;
+            const out = box.querySelector(".reset-out");
+            out.hidden = false;
+            out.innerHTML = `<p>Code <strong class="code">${esc(r.code)}</strong>, good for 48 hours. Send it to <strong>${esc(r.email)}</strong>, the address on file, and nowhere else.</p>
+              <div class="btn-row"><a class="btn btn-primary btn-sm" href="mailto:${esc(r.email)}?subject=${encodeURIComponent("Your Foval password reset")}&body=${encodeURIComponent(body)}">Write the email</a></div>`;
+            box.querySelector("[data-note]").value = (note() ? note() + "\n" : "") + `Reset code made ${new Date().toLocaleDateString()}, for ${r.email}.`;
+            b.disabled = false;
+            return;
+          }
+          const next = b.dataset.act === "close" ? "closed" : b.dataset.act === "reopen" ? "open" : status;
+          await apiCall("/admin/ticket", { method: "POST", body: { id: t.id, status: next, note: note() } });
+          if (next !== status) box.remove(); else { b.textContent = "Saved"; b.disabled = false; }
+        } catch (err) { alert(err.message); b.disabled = false; }
+      }));
+    });
+  }
+
+  function adminUsers(users) {
+    return `
+      <div class="btn-row" style="margin-top:0"><button class="btn btn-primary btn-sm" id="exportBtn">Export CSV</button><button class="btn btn-secondary btn-sm" id="copyBtn">Copy all emails</button></div>
+      <p class="muted">The CSV has username, email, name, join date, last seen and lessons finished. It imports into Mailchimp, Buttondown or Substack as it is.</p>
+      <div class="table-wrap"><table class="admin-table">
+        <thead><tr><th>Username</th><th>Email</th><th>Name</th><th>Joined</th><th>Last seen</th><th>Lessons</th><th>Friends</th></tr></thead>
+        <tbody>${users.map(u => `<tr><td>@${esc(u.username)}</td><td>${esc(u.email)}</td><td>${esc(u.name || "")}</td><td>${esc(u.created_at.slice(0, 10))}</td><td>${esc(u.last_seen_at.slice(0, 10))}</td><td>${u.lessons_done}</td><td>${u.friends}</td></tr>`).join("") || `<tr><td colspan="7" class="muted">No accounts yet.</td></tr>`}</tbody>
+      </table></div>`;
+  }
+
+  // Thirty days of views as one series of bars. Days with no row are drawn as zero, so the
+  // gaps are real. Each bar's number is in its label and in the table under it.
+  function adminTraffic(sum) {
+    const byDay = Object.fromEntries(sum.daily.map(d => [d.day, d]));
+    const days = Array.from({ length: 30 }, (_, i) => new Date(Date.now() - (29 - i) * DAY).toISOString().slice(0, 10))
+      .map(d => byDay[d] || { day: d, views: 0, visits: 0 });
+    const max = Math.max(1, ...days.map(d => d.views));
+    const total = days.reduce((n, d) => n + d.views, 0), visits = days.reduce((n, d) => n + d.visits, 0);
+    const signups = Object.fromEntries(sum.signups.map(s => [s.day, s.n]));
+    return `
+      <h2>Page views per day, last 30 days</h2>
+      <p class="muted">${total} views in ${visits} visits. Most in a day: ${max === 1 && !total ? 0 : max}. Counted by the site itself: no cookies, no IP addresses. Counting stops for the day at ${sum.cap.toLocaleString()} views to protect the database's free write limit.</p>
+      <div class="bars" role="img" aria-label="Page views per day for the last 30 days, ${total} in all">
+        ${days.map(d => `<div class="bar-col" title="${day(d.day + "T12:00:00Z")}: ${d.views} views, ${d.visits} visits${signups[d.day] ? `, ${signups[d.day]} sign-ups` : ""}"><div class="bar" style="height:${(100 * d.views / max).toFixed(1)}%"></div></div>`).join("")}
+      </div>
+      <div class="bars-axis"><span>${day(days[0].day + "T12:00:00Z")}</span><span>today</span></div>
+      <h2>Top pages, last 7 days</h2>
+      <div class="table-wrap"><table class="admin-table">
+        <thead><tr><th>Page</th><th>Views</th></tr></thead>
+        <tbody>${sum.top.map(t => `<tr><td>${esc(t.path)}</td><td>${t.views}</td></tr>`).join("") || `<tr><td colspan="2" class="muted">Nothing counted yet.</td></tr>`}</tbody>
+      </table></div>
+      <h2>By day</h2>
+      <div class="table-wrap"><table class="admin-table">
+        <thead><tr><th>Day</th><th>Views</th><th>Visits</th><th>Sign-ups</th></tr></thead>
+        <tbody>${days.slice().reverse().filter(d => d.views || signups[d.day]).map(d => `<tr><td>${esc(d.day)}</td><td>${d.views}</td><td>${d.visits}</td><td>${signups[d.day] || 0}</td></tr>`).join("") || `<tr><td colspan="4" class="muted">Nothing counted yet.</td></tr>`}</tbody>
+      </table></div>`;
+  }
+
+  function adminFeedback(rows) {
+    return rows.length ? rows.map(f => {
+      const t = itemTitle(f.course, f.lesson);
+      return `<article class="ticket"><header><strong><a href="${t.href}">${esc(t.lesson)}</a></strong><span class="muted">${esc(f.received_at)}${f.triaged ? " · triaged" : ""}</span></header>
+        <p class="muted">${esc(t.course)}${f.clarity ? ` · clarity ${f.clarity}/5` : ""}</p>
+        ${f.struggled ? `<p><b>Struggled with:</b> ${esc(f.struggled)}</p>` : ""}${f.improve ? `<p><b>Would improve:</b> ${esc(f.improve)}</p>` : ""}${f.site ? `<p><b>About the site:</b> ${esc(f.site)}</p>` : ""}</article>`;
+    }).join("") + `<p class="muted">The newest hundred. Triage happens with <code>/triage-feedback</code>, which marks them.</p>` : `<p class="muted">No feedback yet.</p>`;
   }
 
   function viewNotFound() { render(`<div class="empty"><h2>Page not found</h2><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not found"); }
@@ -1418,7 +1617,7 @@
   function route() {
     const raw = location.hash.replace(/^#/, "") || "/";
     const [path, qs] = raw.split("?"); const params = new URLSearchParams(qs || "");
-    setActiveNav(path); updateNav(); let m;
+    setActiveNav(path); updateNav(); countView(path); let m;
     if (path === "/") return viewHome();
     if (path === "/courses") return viewCourses(params.get("subject"));
     if (path === "/path") return viewPath();
@@ -1434,6 +1633,8 @@
     if (path === "/friends") return viewFriends();
     if ((m = path.match(/^\/friends\/([^/]+)$/))) return viewFriend(decodeURIComponent(m[1]));
     if (path === "/community") return viewCommunity();
+    if (path === "/help") return viewHelp(params);
+    if (path === "/admin") return viewAdmin(params);
     if (path === "/about") return viewAbout();
     if (path === "/about-john") return viewAboutJohn();
     viewNotFound();
@@ -1454,9 +1655,10 @@
 
   if (API) {
     updateNav();
+    const help = document.getElementById("helpLink"); if (help) help.hidden = false;
     // The footer's promise has to stay true now that progress can leave the browser.
     const privacy = document.getElementById("privacyLine");
-    if (privacy) privacy.textContent = "No paywalls, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";
+    if (privacy) privacy.textContent = "No paywalls, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices. We count page views, with no cookies and nothing that identifies you.";
     // Pull anything the other device did, but not on every page load.
     if (signedIn() && Date.now() - ((account() || {}).syncedAt || 0) > 300000) syncNow().catch(() => {});
     // keepalive so the flush survives the page going away.

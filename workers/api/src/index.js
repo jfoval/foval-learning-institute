@@ -20,7 +20,8 @@
 //
 // Bindings in wrangler.jsonc: DB, and two rate limiters, AUTH_LIMIT (per IP, never
 // stored) and SOCIAL_LIMIT (per account). Either may be absent in a test, and then
-// nothing is limited.
+// nothing is limited. Vars: ADMIN_USERNAMES, comma-separated, the accounts that may
+// open #/admin.
 
 const ALLOWED_ORIGINS = new Set([
   "https://www.fovallearninginstitute.org",
@@ -38,6 +39,8 @@ const MAX_BODY = 512 * 1024;
 const MAX_SYNC_ROWS = 5000;               // per state push, per table
 const MAX_FRIENDS = 200;
 const MAX_PENDING = 50;                   // outgoing requests not yet answered
+const TRAFFIC_DAILY_CAP = 20000;          // page views counted per UTC day; see schema.sql
+const RESET_TTL_MS = 48 * 3600 * 1000;
 
 /* ---------- small helpers ---------- */
 
@@ -466,6 +469,117 @@ async function putState(env, me, client, origin) {
   return json({ ok: true, state: merged, wrote: stmts.length }, 200, origin);
 }
 
+/* ---------- help requests and page views ---------- */
+
+const TICKET_KINDS = new Set(["reset", "report", "question", "other"]);
+
+async function createTicket(env, me, body, origin) {
+  const kind = TICKET_KINDS.has(body.kind) ? body.kind : "other";
+  const email = normEmail(body.email || me?.email);
+  const username = me?.username || normUsername(body.username).slice(0, 20);
+  const message = clip(body.message, 4000);
+  if (!validEmail(email)) return json({ error: "Give an email address so John can answer." }, 400, origin);
+  if (kind !== "reset" && !message) return json({ error: "Say what you need." }, 400, origin);
+  await env.DB.prepare("INSERT INTO tickets (at, kind, username, email, message) VALUES (?, ?, ?, ?, ?)")
+    .bind(Date.now(), kind, username, email, message).run();
+  return json({ ok: true }, 200, origin);
+}
+
+// The route as the app sees it, with anything personal taken out. Unknown shapes are
+// counted as "(other)" rather than stored as sent.
+function normPath(raw) {
+  let p = String(raw ?? "").split("?")[0].slice(0, 160);
+  if (!/^\/[a-z0-9/_-]*$/i.test(p)) return "(other)";
+  p = p.replace(/^\/friends\/[^/]+$/, "/friends/:user");
+  if (p.startsWith("/admin")) return null;       // John's own page views are not traffic
+  return p;
+}
+
+async function countHit(env, body, origin) {
+  const path = normPath(body.path);
+  if (path === null) return json({ ok: true }, 200, origin);
+  const day = new Date().toISOString().slice(0, 10);
+  const total = await env.DB.prepare("SELECT COALESCE(SUM(views), 0) AS n FROM traffic WHERE day = ?").bind(day).first();
+  if (total.n >= TRAFFIC_DAILY_CAP) return json({ ok: true, capped: true }, 200, origin);
+  await env.DB.prepare(
+    `INSERT INTO traffic (day, path, views, visits) VALUES (?, ?, 1, ?)
+     ON CONFLICT(day, path) DO UPDATE SET views = views + 1, visits = visits + excluded.visits`)
+    .bind(day, path, body.visit ? 1 : 0).run();
+  return json({ ok: true }, 200, origin);
+}
+
+/* ---------- admin ---------- */
+
+const isAdmin = (env, me) => Boolean(me) &&
+  String(env.ADMIN_USERNAMES || "").split(",").map(s => s.trim().toLowerCase()).filter(Boolean).includes(me.username);
+
+// The same code scripts/reset-code.mjs writes: eight characters with no 0/O or 1/I/L.
+async function issueResetCode(env, userId) {
+  const ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  const raw = Array.from(crypto.getRandomValues(new Uint8Array(8)), b => ALPHABET[b % ALPHABET.length]).join("");
+  await env.DB.prepare(
+    `INSERT INTO reset_codes (user_id, code_hash, expires_at, attempts) VALUES (?, ?, ?, 0)
+     ON CONFLICT(user_id) DO UPDATE SET code_hash = excluded.code_hash, expires_at = excluded.expires_at, attempts = 0`)
+    .bind(userId, await sha256(raw), Date.now() + RESET_TTL_MS).run();
+  return `${raw.slice(0, 4)}-${raw.slice(4)}`;
+}
+
+async function admin(env, path, request, url, origin) {
+  const day = n => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
+
+  if (path === "/admin/summary") {
+    const [counts, daily, top, signups] = await Promise.all([
+      env.DB.prepare(`SELECT
+          (SELECT COUNT(*) FROM users) AS users,
+          (SELECT COUNT(*) FROM users WHERE created_at >= datetime('now', '-7 days')) AS users_7d,
+          (SELECT COUNT(*) FROM users WHERE last_seen_at >= datetime('now', '-7 days')) AS active_7d,
+          (SELECT COUNT(*) FROM friends) / 2 AS friendships,
+          (SELECT COUNT(*) FROM cheers) AS cheers,
+          (SELECT COUNT(*) FROM lesson_progress WHERE done = 1) AS lessons_done,
+          (SELECT COUNT(*) FROM tickets WHERE status = 'open') AS open_tickets,
+          (SELECT COUNT(*) FROM feedback) AS feedback,
+          (SELECT COUNT(*) FROM feedback WHERE triaged = 0) AS feedback_new`).first(),
+      env.DB.prepare("SELECT day, SUM(views) AS views, SUM(visits) AS visits FROM traffic WHERE day >= ? GROUP BY day ORDER BY day").bind(day(29)).all(),
+      env.DB.prepare("SELECT path, SUM(views) AS views FROM traffic WHERE day >= ? GROUP BY path ORDER BY views DESC LIMIT 15").bind(day(6)).all(),
+      env.DB.prepare("SELECT substr(created_at, 1, 10) AS day, COUNT(*) AS n FROM users WHERE created_at >= ? GROUP BY day ORDER BY day").bind(day(29)).all(),
+    ]);
+    return json({ ok: true, counts, daily: daily.results, top: top.results, signups: signups.results, cap: TRAFFIC_DAILY_CAP }, 200, origin);
+  }
+  if (path === "/admin/users") {
+    const rows = await env.DB.prepare(
+      `SELECT u.username, u.email, p.display_name AS name, u.created_at, u.last_seen_at,
+              (SELECT COUNT(*) FROM lesson_progress lp WHERE lp.user_id = u.id AND lp.done = 1) AS lessons_done,
+              (SELECT COUNT(*) FROM friends f WHERE f.user_id = u.id) AS friends
+         FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created_at DESC`).all();
+    return json({ ok: true, users: rows.results }, 200, origin);
+  }
+  if (path === "/admin/tickets") {
+    const status = url.searchParams.get("status") === "closed" ? "closed" : "open";
+    const rows = await env.DB.prepare(
+      `SELECT t.*, u.email AS email_on_file FROM tickets t LEFT JOIN users u ON u.username = t.username
+        WHERE t.status = ? ORDER BY t.at DESC LIMIT 200`).bind(status).all();
+    return json({ ok: true, tickets: rows.results }, 200, origin);
+  }
+  if (path === "/admin/feedback") {
+    const rows = await env.DB.prepare("SELECT * FROM feedback ORDER BY id DESC LIMIT 100").all();
+    return json({ ok: true, feedback: rows.results }, 200, origin);
+  }
+  if (request.method !== "POST") return json({ error: "No such endpoint." }, 404, origin);
+  const body = await readJson(request);
+  if (path === "/admin/ticket") {
+    const status = body.status === "closed" ? "closed" : "open";
+    await env.DB.prepare("UPDATE tickets SET status = ?, note = ?, closed_at = ? WHERE id = ?")
+      .bind(status, clip(body.note, 4000), status === "closed" ? Date.now() : null, num(body.id)).run();
+    return json({ ok: true }, 200, origin);
+  }
+  if (path === "/admin/reset-code") {
+    const u = await env.DB.prepare("SELECT id, username, email FROM users WHERE username = ?").bind(normUsername(body.username)).first();
+    if (!u) return json({ error: "No account has that username." }, 404, origin);
+    return json({ ok: true, username: u.username, email: u.email, code: await issueResetCode(env, u.id) }, 200, origin);
+  }
+  return json({ error: "No such endpoint." }, 404, origin);
+}
+
 /* ---------- router ---------- */
 
 const ACCOUNT_TABLES_BY_USER = ["review_items", "lesson_progress", "study_sessions", "profiles", "sessions", "reset_codes"];
@@ -490,10 +604,21 @@ export default {
         return await resetWithCode(env, body, origin);
       }
 
+      if (path === "/hit" && request.method === "POST") {
+        if (await limited(env.SOCIAL_LIMIT, `hit:${request.headers.get("CF-Connecting-IP") || "local"}`)) return json({ ok: true }, 200, origin);
+        return await countHit(env, await readJson(request), origin);
+      }
+
       const me = await authenticate(env, request);
 
+      if (path === "/ticket" && request.method === "POST") {
+        if (await limited(env.AUTH_LIMIT, request.headers.get("CF-Connecting-IP") || "local")) {
+          return json({ error: "Too many tries from here. Wait a minute and try again." }, 429, origin);
+        }
+        return await createTicket(env, me, await readJson(request), origin);
+      }
       if (path === "/auth/session" && request.method === "GET") {
-        return me ? json({ signedIn: true, user: publicUser(me) }, 200, origin) : json({ signedIn: false }, 200, origin);
+        return me ? json({ signedIn: true, user: { ...publicUser(me), admin: isAdmin(env, me) } }, 200, origin) : json({ signedIn: false }, 200, origin);
       }
       if (path === "/auth/signout" && request.method === "POST") {
         const header = request.headers.get("Authorization") || "";
@@ -509,6 +634,9 @@ export default {
       if (path === "/auth/password" && request.method === "POST") return await changePassword(env, me, await readJson(request), origin);
       if (path === "/account/email" && request.method === "POST") return await changeEmail(env, me, await readJson(request), origin);
 
+      if (path.startsWith("/admin/")) {
+        return isAdmin(env, me) ? await admin(env, path, request, url, origin) : json({ error: "No such endpoint." }, 404, origin);
+      }
       if (path === "/friends" && request.method === "GET") return json({ ok: true, ...(await listFriends(env, me)) }, 200, origin);
       if (path.startsWith("/friends/") && request.method === "GET") {
         return await friendDetail(env, me, decodeURIComponent(path.slice("/friends/".length)), origin);
@@ -528,6 +656,8 @@ export default {
           env.DB.prepare("DELETE FROM friends WHERE user_id = ? OR friend_id = ?").bind(id, id),
           env.DB.prepare("DELETE FROM friend_requests WHERE from_id = ? OR to_id = ?").bind(id, id),
           env.DB.prepare("DELETE FROM cheers WHERE from_id = ? OR to_id = ?").bind(id, id),
+          // Help requests carry the email too, and "every row" has to mean it.
+          env.DB.prepare("DELETE FROM tickets WHERE username = ?").bind(me.username),
           env.DB.prepare("DELETE FROM users WHERE id = ?").bind(id),
         ]);
         return json({ ok: true, deleted: true }, 200, origin);

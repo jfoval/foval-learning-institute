@@ -31,6 +31,23 @@ Ten wrong passwords in a row lock the account for fifteen minutes. Separately, t
 address (the address is used as the key and never stored), and `SOCIAL_LIMIT` allows thirty
 friend or cheer calls a minute from one account.
 
+## The admin page
+
+`#/admin` on the site, linked from nowhere. The Worker answers `/admin/*` only for an account
+whose username is in `ADMIN_USERNAMES` (`wrangler.jsonc`; `johnfoval`), and says 404 to anyone
+else, so the page holds nothing on its own. Four tabs:
+
+- **Tickets**: requests from `#/help` (resets, reports, questions). A reset shows whether the
+  address given matches the one on file, and "Make a reset code" does what `npm run
+  reset-code` does, with an email to the address on file ready to send. Close, reopen, notes.
+- **Sign-ups**: every account with its email; Export CSV and Copy all emails. Since
+  2026-09-28 the sign-up form says the email is used for resets and now and then for news.
+- **Traffic**: page views and visits per day for thirty days, and the top pages for seven,
+  counted by `POST /hit` from the site. No cookie, no IP stored; a friend's page is counted as
+  `/friends/:user`. Counting stops for the day at 20,000 views, so traffic can never use up
+  the D1 write budget that accounts need.
+- **Lesson feedback**: the newest hundred rows of the feedback table.
+
 ## Password resets
 
 There is no automatic reset, by choice: it would need an email-sending account. Instead:
@@ -132,7 +149,8 @@ node workers/api/test.mjs
 
 `test.mjs` covers the origin policy, sign-up and sign-in, lockout, the rate limit, every
 merge rule, friends and cheers end to end, password changes, a reset through the real
-`reset-code` script, and account deletion. 75 checks. Run it before every deploy. To try
+`reset-code` script, account deletion, help tickets, page counting and the admin routes. 94
+checks; run the Worker with `--var ADMIN_USERNAMES:boss_test` for the admin ones. Run it before every deploy. To try
 the pages, `npm run build`, set `FOVAL_API` to `http://127.0.0.1:8788` in
 `dist/index.html` (not `site/`), and `npm run serve`.
 

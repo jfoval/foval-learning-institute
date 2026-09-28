@@ -116,3 +116,30 @@ CREATE TABLE IF NOT EXISTS cheers (
   PRIMARY KEY (from_id, to_id, course, lesson)
 );
 CREATE INDEX IF NOT EXISTS cheers_to ON cheers (to_id, at);
+
+-- Support requests from the Help page: password resets, reports, questions. John works them
+-- from #/admin. Status is 'open' or 'closed'; the note is his, never shown to the learner.
+CREATE TABLE IF NOT EXISTS tickets (
+  id        INTEGER PRIMARY KEY AUTOINCREMENT,
+  at        INTEGER NOT NULL,
+  kind      TEXT NOT NULL,                -- 'reset' | 'report' | 'question' | 'other'
+  username  TEXT NOT NULL DEFAULT '',
+  email     TEXT NOT NULL,
+  message   TEXT NOT NULL DEFAULT '',
+  status    TEXT NOT NULL DEFAULT 'open',
+  note      TEXT NOT NULL DEFAULT '',
+  closed_at INTEGER
+);
+CREATE INDEX IF NOT EXISTS tickets_status ON tickets (status, at);
+
+-- Page views, counted by the site itself: one row per UTC day per page, no cookies, no IP,
+-- nothing about who. A "visit" is the first page of a browser tab's session. Each view is one
+-- row write, so the Worker stops counting for the day at a ceiling (TRAFFIC_DAILY_CAP) and
+-- leaves the rest of D1's 100,000 daily writes to accounts.
+CREATE TABLE IF NOT EXISTS traffic (
+  day    TEXT NOT NULL,                   -- YYYY-MM-DD, UTC
+  path   TEXT NOT NULL,                   -- the app route, with usernames replaced
+  views  INTEGER NOT NULL DEFAULT 0,
+  visits INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (day, path)
+);
