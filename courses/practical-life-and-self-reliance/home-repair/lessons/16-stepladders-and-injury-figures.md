@@ -1,6 +1,7 @@
 ---
 title: Stepladders, and what the ladder injury figures count
 minutes: 65
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/16-stepladders-and-injury-figures.mp3
 objectives:
   - >-
     Apply HSE's stepladder guidance and OSHA's stepladder rules to a described job, including the
