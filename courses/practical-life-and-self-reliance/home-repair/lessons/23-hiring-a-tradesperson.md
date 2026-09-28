@@ -1,6 +1,7 @@
 ---
 title: "Hiring a tradesperson, and when to stop"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/23-hiring-a-tradesperson.mp3
 objectives:
   - >-
     Decide when a job has reached one of this course's stop points, and say for each whether the
