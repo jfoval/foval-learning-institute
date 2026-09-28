@@ -1,6 +1,7 @@
 ---
 title: "Asbestos, lead paint and radon: what not to disturb"
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/home-repair/19-asbestos-lead-and-radon.mp3
 objectives:
   - >-
     Identify where asbestos may be in a UK or US home, by the date of the building and by the
