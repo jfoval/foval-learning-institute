@@ -78,13 +78,12 @@
     window.FOVAL_FEEDBACK_ENDPOINT = "https://foval-feedback.johnfoval.workers.dev";
   </script>
   <script>
-    // Accounts and cross-device sync (workers/api). Leave empty and the site behaves as it
-    // always has: progress in this browser, no account, no network calls. Set it to the
-    // deployed Worker's URL to switch sign-in on. See docs/AUTH_OPTIONS.md.
-    window.FOVAL_API = "";
+    // Accounts, sync and friends (workers/api), live since 2026-09-28. Empty it and the
+    // site goes back to progress in this browser only, with no account and no network calls.
+    window.FOVAL_API = "https://foval-api.johnfoval.workers.dev";
     // Where a learner writes to ask for a password reset or to report someone. Nothing is
     // mailed automatically; John answers with `npm run reset-code`. workers/api/README.md.
-    window.FOVAL_HELP_EMAIL = "johnfoval@gmail.com";
+    window.FOVAL_HELP_EMAIL = "help@fovallearninginstitute.org";   // Namecheap forwards it to John
   </script>
   <script src="data/courses.js?v=fe17fc83"></script>
   <script src="assets/app.js?v=dcc5cec0"></script>

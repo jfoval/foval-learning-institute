@@ -11,6 +11,21 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-28 — Accounts, friends and cheers are live
+
+**A learner can now make an account with a username and a password**, and their progress, review
+schedule and streak follow them between devices. It stays optional: nothing that worked without an
+account needs one. The password is stretched in the browser (PBKDF2, 600,000 rounds) and the
+Worker stores a salted hash of the result, which is what keeps it on the Workers Free plan; no
+Google client and no mail-sending account were needed. Resets are by hand: the learner writes to
+help@fovallearninginstitute.org, which forwards to John, and he answers with `npm run reset-code`.
+
+**Friends:** add someone by username, see the lessons they finish and the days they study (never
+scores), and cheer a finished lesson. A cheer is private to the person cheered, with no public
+counts. The community rules at `#/community` went up with it. The nav's Me slot is a Log in button
+until you log in. The Review bank now also fills from lessons finished on another device or before
+the bank existed, spread over a week. `docs/DECISIONS.md` §11 has the reasoning.
+
 ## 2026-09-26 — Car Basics is published and written
 
 **Car Basics went live, the seventh and last course of Term 3**, which makes Term 3 fully published:

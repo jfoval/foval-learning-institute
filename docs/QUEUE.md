@@ -727,14 +727,6 @@ authority. It was duplicated here until 2026-09-19 and the two copies had drifte
 numbers. Resolved on 2026-09-18: 4a and `/make-podcast` both say 1,000 to 1,200 and nothing
 states a different target, so there is no longer a disagreement to settle.
 
-0. **Accounts and friends are built, on `main`, and switched off. Deploying is John's one step.**
-   Username and password (stretched in the browser, so still the free plan), progress sync,
-   friends by username, private cheers, and `#/community`. No Google client or Resend needed any
-   more. **Blocked on a Cloudflare login:** on 2026-09-28 the wrangler login on John's Mac got
-   error 7403 on `foval-feedback`, so run `npx wrangler login` with the account that owns it, then
-   the three commands in `workers/api/README.md` "Deploying it", then set `FOVAL_API`. After it is
-   live, a reset request is `npm run reset-code -- <username>`.
-
 1. **The only human check in the pipeline, and it has never run.** Both items under "Standing
    items" below have been open since 2026-09-05. The drafter and the reviewer are the same model,
    so until John reads a lesson as a learner nothing in this institute has been read by a person.

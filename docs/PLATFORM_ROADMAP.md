@@ -43,7 +43,7 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 - **Sync strategy:** the browser stays the source of truth; on sign-in, merge local progress with the server (a lesson stays done, the higher score wins, a review item keeps the schedule further ahead, the larger day tally wins). Signing in cannot lose progress. No feature is lost for signed-out users, and nothing here needs an account to work. Writes are batched on a timer because D1's free plan counts row writes and, since 1 September 2026, fails queries once the daily cap is hit.
 - **Content stays static.** The site keeps loading `courses.js` from GitHub Pages; only learner state goes to D1. The two can never be out of step in a way that matters.
 - Migration path: Phase 1's local progress format is designed to map 1:1 onto these tables.
-### State of the work: written, tested, NOT deployed
+### State of the work: live since 2026-09-28
 
 `workers/api/` is written and tested: 75 Worker checks pass against a local D1, and the pages were
 walked through in a browser with two accounts on 2026-09-28. It now includes friends and cheers. It is inert until `window.FOVAL_API` in `site/index.html` is set to the deployed URL; while
@@ -51,10 +51,9 @@ that is empty the site behaves exactly as before, with no sign-in link and no ne
 is what is on `main`. Nothing is blocked; accounts simply have not been built. See
 `docs/DECISIONS.md` §11 for why this is Cloudflare and not Supabase.
 
-**What is left needs John only for a login.** No outside accounts and no secrets. The steps are in
-`workers/api/README.md`: `wrangler login` with the account that owns `foval-feedback`, apply
-`schema.sql`, `wrangler deploy`, then set `FOVAL_API`. **That order matters**; setting `FOVAL_API`
-first gives every visitor a broken sign-in page. `wrangler` is not authenticated in agent sessions on Claude
+**Deployed 2026-09-28** and switched on in `site/index.html`. The old, empty Google-era tables were
+dropped first (John ran the drop; zero rows in each), then `schema.sql` applied, then the Worker
+deployed and smoke-tested live. The steps are in `workers/api/README.md` for a redeploy. `wrangler` is not authenticated in agent sessions on Claude
 Code on the web, and the network policy there blocks `workers.dev` and the live site, so a session
 there can write and test the Worker but cannot deploy it.
 

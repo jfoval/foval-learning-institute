@@ -5,10 +5,9 @@ devices. Add friends by username, see the lessons they finish, and cheer them on
 Worker plus D1, sharing the database the feedback Worker already uses, on the Workers Free
 plan. No email is ever sent from here.
 
-Nothing here is switched on until `window.FOVAL_API` in `site/index.html` points at the
-deployed Worker. While it is empty the site behaves exactly as it always has: progress in
-the browser, no account, no network calls, no sign-in link. That is the safe default and
-it is what is committed.
+`window.FOVAL_API` in `site/index.html` points the site at the deployed Worker. Emptying it
+turns every account feature off: progress in the browser only, no network calls, no
+Log in button.
 
 ## Passwords on the free plan
 
@@ -105,8 +104,10 @@ Local-only fields, feedback above all, are preserved when the merged state is wr
 
 ## Deploying it
 
-Written and tested, **never deployed**. No outside accounts are needed: no Google client,
-no Resend. Only the Cloudflare account the feedback Worker already runs on.
+**Live since 2026-09-28** at `https://foval-api.johnfoval.workers.dev`. These are the
+steps it took, for a redeploy or a rebuild. No outside accounts are needed: no Google
+client, no Resend. Only the Cloudflare account the feedback Worker already runs on.
+The Workers Free plan accepted both rate-limit bindings.
 
 1. **Log in** with the Cloudflare account that owns `foval-feedback`: `npx wrangler login`.
    (On 2026-09-28 the login on John's Mac could not reach that database, error 7403.)

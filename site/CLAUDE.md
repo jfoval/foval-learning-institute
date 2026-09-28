@@ -61,11 +61,10 @@ The static site. Everything a learner sees.
 - **Two links still point into the public GitHub repo** via the `REPO` constant in `assets/app.js`:
   "Report a problem" on every lesson, and "editorial standards" on the About page. Both 404 the day
   the repo goes private. See `docs/PLATFORM_ROADMAP.md`.
-- **`window.FOVAL_API` in `index.html` is deliberately empty.** The accounts Worker is written and
-  tested but not deployed; while this is empty the site behaves exactly as it does now, with no
-  sign-in link and no network calls. Setting it before the Worker is deployed gives every visitor a
-  broken sign-in page. `window.FOVAL_HELP_EMAIL` beside it is where password resets and reports
-  go; nothing is mailed automatically.
+- **`window.FOVAL_API` in `index.html` switches accounts on.** Live since 2026-09-28, pointing at
+  `foval-api.johnfoval.workers.dev`. Emptying it turns every account feature off and the site goes
+  back to browser-only progress. `window.FOVAL_HELP_EMAIL` beside it (help@, forwarded to John by
+  Namecheap) is where password resets and reports go; nothing is mailed automatically.
 - **The nav has room for six links on a phone.** With accounts on, the Me slot is a Log in button
   when signed out; signed in it is Me again with Friends after it, and the account page is reached
   from Me and from Friends. A seventh link overflows at 375px. With `FOVAL_API` empty the nav is
