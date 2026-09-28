@@ -9,8 +9,12 @@ self.addEventListener("activate", e => {
 });
 self.addEventListener("fetch", e => {
   if (e.request.method !== "GET" || !e.request.url.startsWith(self.location.origin)) return;
+  // The page itself is asked for fresh every time. GitHub Pages lets a browser reuse it for ten
+  // minutes, which meant a deploy stayed invisible to recent visitors for that long; everything
+  // else the page loads carries a content hash in its URL, so reusing it is always safe.
+  const page = e.request.mode === "navigate" || /\/(index\.html)?$/.test(new URL(e.request.url).pathname);
   e.respondWith(
-    fetch(e.request).then(res => {
+    (page ? fetch(e.request.url, { cache: "no-cache", credentials: "same-origin" }) : fetch(e.request)).then(res => {
       // Only a good response is worth keeping: a cached 404 would outlive the fix.
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); }
       return res;
