@@ -64,7 +64,11 @@ The static site. Everything a learner sees.
 - **`window.FOVAL_API` in `index.html` is deliberately empty.** The accounts Worker is written and
   tested but not deployed; while this is empty the site behaves exactly as it does now, with no
   sign-in link and no network calls. Setting it before the Worker is deployed gives every visitor a
-  broken sign-in page.
+  broken sign-in page. `window.FOVAL_HELP_EMAIL` beside it is where password resets and reports
+  go; nothing is mailed automatically.
+- **The nav has room for six links on a phone.** Signed out the sixth is Sign in; signed in it is
+  Friends, and the account page is reached from Friends and from Me. A seventh link overflows at
+  375px.
 
 ## The build output is not in git
 

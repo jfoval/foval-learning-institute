@@ -51,11 +51,11 @@
      keeps the further-ahead schedule) and the merged result comes back. Writes are
      batched on a timer because D1's free plan counts row writes, not requests. */
   const account = () => load(K.auth, null);
+  let navChecked = 0;   // when the Friends link last asked whether anything is waiting
   function setAccount(a) {
     if (a) save(K.auth, a);
     else lsRemove(K.auth);
-    const link = document.getElementById("accountLink");
-    if (link) link.textContent = a && a.token ? "Account" : "Sign in";
+    navChecked = 0; updateNav();
   }
   const signedIn = () => Boolean(API && account() && account().token);
 
@@ -935,7 +935,7 @@
         </ol>
         <h2>Privacy</h2>
         <p>${API
-          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your email address and that progress, and nothing else. There is no password to leak, because there is no password. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your username, the email address you gave us, your friends list and that progress, and nothing else. Your password is scrambled on your own device before it is sent, so we never see it. Friends you accept see the lessons you finish and the days you study, never your scores. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
           : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
@@ -968,102 +968,187 @@
     `, "John Foval");
   }
 
-  /* ---------- sign in ---------- */
-  const SIGNIN_ERRORS = {
-    state: "That sign-in link did not come back the way it left. Start again.",
-    expired: "That took too long and the link expired. Start again.",
-    google: "Google did not complete the sign-in. Try again, or use an email code.",
-    email: "Google did not give us a verified email address for that account.",
-  };
+  /* ---------- sign in ----------
+     A username and a password. The password never leaves this page: passwordKey stretches
+     it with PBKDF2 (600,000 rounds, salted with the username) and only the result is sent.
+     That is what lets the Worker stay on the free plan without storing anything a leaked
+     table would make cheap to crack. workers/api/src/index.js has the other half. */
+  const HELP_EMAIL = window.FOVAL_HELP_EMAIL || "";
+
+  async function passwordKey(username, password) {
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveBits"]);
+    const bits = await crypto.subtle.deriveBits(
+      { name: "PBKDF2", hash: "SHA-256", salt: new TextEncoder().encode(`foval-login-v1:${username}`), iterations: 600000 }, base, 256);
+    return btoa(String.fromCharCode(...new Uint8Array(bits))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+  const cleanUsername = u => String(u || "").trim().toLowerCase();
+
+  // A form's note line and a busy state for its submit button, shared by every account form.
+  function formKit(form) {
+    const note = form.querySelector(".signin-note");
+    const btn = form.querySelector("button[type=submit]");
+    return {
+      say(text, bad) { note.textContent = text; note.className = "signin-note" + (bad ? " bad" : ""); },
+      busy(on) { btn.disabled = on; },
+    };
+  }
+  const field = (label, name, type, extra = "") =>
+    `<label class="fb-field">${label}<input type="${type}" name="${name}" ${extra}></label>`;
+  const newPasswordFields = (label = "Password") =>
+    field(`${label} <span class="muted">(at least 8 characters)</span>`, "password", "password", `autocomplete="new-password" minlength="8" required`) +
+    field("The same again", "password2", "password", `autocomplete="new-password" minlength="8" required`);
+  function checkNewPassword(form, kit) {
+    if (form.password.value.length < 8) { kit.say("Use at least 8 characters.", true); return false; }
+    if (form.password.value !== form.password2.value) { kit.say("The two passwords are not the same.", true); return false; }
+    return true;
+  }
+  function signedInAs(r, username) {
+    const u = r.user || {};
+    setAccount({ token: r.token, username: u.username || username, email: u.email || "", name: u.name || "", syncedAt: 0 });
+    if (u.name && !lsGet("foval.name")) lsSet("foval.name", u.name);
+  }
 
   function viewSignIn(params) {
     if (!API) return viewNotFound();
-
-    // Google sends the browser back with the session token in the fragment, which never
-    // reaches a server or a log. Take it, then drop it out of the address bar.
-    const incoming = params.get("token");
-    if (incoming) {
-      setAccount({ token: incoming, email: "", name: "", syncedAt: 0 });
-      history.replaceState(null, "", "#/signin");   // no history entry, and no token left in the bar
-      return route();
-    }
-
-    const note = SIGNIN_ERRORS[params.get("error")] || "";
     const a = account();
-    if (a && a.token) return viewSignedIn(a, note);
+    if (a && a.token) return viewSignedIn(a);
+    const creating = params.get("new") === "1";
 
     render(`
       <div class="prose signin">
         <span class="eyebrow">Your account</span>
-        <h1>Sign in so your progress follows you.</h1>
-        <p class="lede">You do not need an account to learn here, and you never will. An account does one thing: it carries your completed lessons, your review schedule and your streak between your phone and your computer. Nothing you have done in this browser is lost by signing in; it is merged in.</p>
-        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
-        <div class="btn-row"><a class="btn btn-primary" href="${API}/auth/google/start">Continue with Google</a></div>
-        <h2>Or get a code by email</h2>
-        <form id="emailForm">
-          <label class="fb-field">Your email address<input type="email" name="email" autocomplete="email" required></label>
-          <div class="btn-row"><button class="btn btn-secondary" type="submit">Email me a code</button></div>
+        <h1>${creating ? "Make an account." : "Sign in."}</h1>
+        <p class="lede">You do not need an account to learn here, and you never will. An account carries your completed lessons, your review schedule and your streak between devices, and lets you add friends and follow each other's progress. Nothing you have done in this browser is lost by signing in; it is merged in.</p>
+        ${creating ? `
+        <form id="signupForm">
+          ${field("Username <span class=\"muted\">(3 to 20 letters, numbers or _; your friends find you by it)</span>", "username", "text", `autocomplete="username" autocapitalize="none" spellcheck="false" pattern="[A-Za-z0-9_]{3,20}" maxlength="20" required`)}
+          ${field("Your name <span class=\"muted\">(optional; what your friends see)</span>", "name", "text", `autocomplete="name" maxlength="120"`)}
+          ${field("Email address", "email", "email", `autocomplete="email" required`)}
+          <p class="muted" style="font-size:.9rem;margin:-.25rem 0 .5rem">Kept on record only in case you forget your password. Nothing is ever sent to it unless you ask for a reset.</p>
+          ${newPasswordFields()}
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Make my account</button></div>
+          <p class="signin-note" aria-live="polite"></p>
         </form>
-        <form id="codeForm" hidden>
-          <p class="muted" id="codeSent"></p>
-          <label class="fb-field">The six-digit code<input type="text" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label>
-          <div class="btn-row"><button class="btn btn-primary" type="submit">Sign in</button><button class="btn btn-secondary" type="button" id="codeBack">Use a different address</button></div>
+        <p>Already have one? <a href="#/signin">Sign in</a>.</p>
+        <p class="muted">By making an account you agree to the <a href="#/community">community rules</a>. They are short.</p>` : `
+        <form id="signinForm">
+          ${field("Username", "username", "text", `autocomplete="username" autocapitalize="none" spellcheck="false" required`)}
+          ${field("Password", "password", "password", `autocomplete="current-password" required`)}
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Sign in</button></div>
+          <p class="signin-note" aria-live="polite"></p>
         </form>
-        <p class="signin-note" id="signinNote" aria-live="polite"></p>
+        <p><a href="#/reset">Forgot your password?</a></p>
+        <p>New here? <a href="#/signin?new=1">Make an account</a>. It takes a minute.</p>`}
         <h2>What we keep</h2>
-        <p>Your email address, so you can sign back in, and the progress you can already see on <a href="#/my-learning">your page</a>. Nothing else, and no password, because signing in uses a code or your Google account instead. You can delete the whole account, and everything in it, from this page once you are signed in.</p>
+        <p>Your username, your name if you give one, your email address, and the progress you can already see on <a href="#/my-learning">your page</a>. Your password is scrambled on your own device before it is sent, so we never see or store it. Your friends see the lessons you finish and the days you study; nobody else sees anything. You can delete the whole account from the account page.</p>
       </div>
-    `, "Sign in");
+    `, creating ? "Make an account" : "Sign in");
 
-    const emailForm = main.querySelector("#emailForm");
-    const codeForm = main.querySelector("#codeForm");
-    const noteEl = main.querySelector("#signinNote");
-    const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
-    let address = "";
+    if (creating) {
+      const form = main.querySelector("#signupForm"), kit = formKit(form);
+      form.addEventListener("submit", async e => {
+        e.preventDefault();
+        const username = cleanUsername(form.username.value);
+        if (!/^[a-z0-9_]{3,20}$/.test(username)) return kit.say("A username is 3 to 20 letters, numbers or underscores.", true);
+        if (!checkNewPassword(form, kit)) return;
+        kit.busy(true); kit.say("Making your account.");
+        try {
+          const key = await passwordKey(username, form.password.value);
+          const r = await apiCall("/auth/signup", { method: "POST", body: { username, key, email: form.email.value.trim(), name: form.name.value.trim() } });
+          signedInAs(r, username);
+          location.hash = "#/signin";
+          route();
+        } catch (err) { kit.say(err.message, true); kit.busy(false); }
+      });
+    } else {
+      const form = main.querySelector("#signinForm"), kit = formKit(form);
+      form.addEventListener("submit", async e => {
+        e.preventDefault();
+        const username = cleanUsername(form.username.value);
+        kit.busy(true); kit.say("Signing in.");
+        try {
+          const key = await passwordKey(username, form.password.value);
+          signedInAs(await apiCall("/auth/signin", { method: "POST", body: { username, key } }), username);
+          route();   // already on #/signin, so setting the hash would fire no event
+        } catch (err) { kit.say(err.message, true); kit.busy(false); }
+      });
+    }
+  }
 
-    emailForm.addEventListener("submit", async e => {
+  // No email goes out from here. A forgotten password is a message to John, who sends a
+  // one-time code to the address on file (npm run reset-code). workers/api/README.md.
+  function viewReset() {
+    if (!API) return viewNotFound();
+    const mail = HELP_EMAIL
+      ? `mailto:${HELP_EMAIL}?subject=${encodeURIComponent("Foval password reset")}&body=${encodeURIComponent("Username: \n\nPlease send me a reset code.")}`
+      : "";
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Your account</span>
+        <h1>Forgot your password?</h1>
+        <p class="lede">There is no automatic reset yet. A person handles it, usually within a day.</p>
+        <h2>1. Ask for a code</h2>
+        ${HELP_EMAIL
+          ? `<p>Email <a href="${mail}">${esc(HELP_EMAIL)}</a> <strong>from the address you signed up with</strong> and say your username. The code is only ever sent to the address on your account, never to one given in a message, so nobody else can take it over.</p>
+             <div class="btn-row"><a class="btn btn-secondary" href="${mail}">Write the email</a></div>`
+          : `<p>Resets are not open yet. Your progress is still in this browser, and nothing is lost.</p>`}
+        <h2>2. Use the code</h2>
+        <form id="resetForm">
+          ${field("Username", "username", "text", `autocomplete="username" autocapitalize="none" spellcheck="false" required`)}
+          ${field("Reset code", "code", "text", `autocomplete="one-time-code" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH" required`)}
+          ${newPasswordFields("New password")}
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Set my new password</button></div>
+          <p class="signin-note" aria-live="polite"></p>
+        </form>
+        <p class="muted">A code works once and lasts 48 hours. Setting a new password signs you out on every other device.</p>
+      </div>
+    `, "Reset your password");
+    const form = main.querySelector("#resetForm"), kit = formKit(form);
+    form.addEventListener("submit", async e => {
       e.preventDefault();
-      address = emailForm.email.value.trim();
-      const btn = emailForm.querySelector("button");
-      btn.disabled = true; say("Sending the code.");
+      const username = cleanUsername(form.username.value);
+      if (!checkNewPassword(form, kit)) return;
+      kit.busy(true); kit.say("Checking the code.");
       try {
-        await apiCall("/auth/email/start", { method: "POST", body: { email: address } });
-        emailForm.hidden = true; codeForm.hidden = false;
-        main.querySelector("#codeSent").textContent = `We sent a six-digit code to ${address}. It works once and expires in ten minutes.`;
-        say(""); codeForm.code.focus();
-      } catch (err) { say(err.message, true); }
-      btn.disabled = false;
-    });
-    main.querySelector("#codeBack").addEventListener("click", () => { codeForm.hidden = true; emailForm.hidden = false; say(""); });
-    codeForm.addEventListener("submit", async e => {
-      e.preventDefault();
-      const btn = codeForm.querySelector("button");
-      btn.disabled = true; say("Checking.");
-      try {
-        const r = await apiCall("/auth/email/verify", { method: "POST", body: { email: address, code: codeForm.code.value.trim() } });
-        setAccount({ token: r.token, email: address, name: (r.user || {}).name || "", syncedAt: 0 });
-        route();   // already on #/signin, so setting the hash would fire no event
-      } catch (err) { say(err.message, true); btn.disabled = false; }
+        const key = await passwordKey(username, form.password.value);
+        const r = await apiCall("/auth/reset", { method: "POST", body: { username, code: form.code.value, key } });
+        setAccount({ token: r.token, username, email: "", name: "", syncedAt: 0 });
+        location.hash = "#/signin";
+      } catch (err) { kit.say(err.message, true); kit.busy(false); }
     });
   }
 
-  function viewSignedIn(a, note) {
+  function viewSignedIn(a) {
     const last = a.syncedAt ? new Date(a.syncedAt).toLocaleString() : "not yet";
     render(`
       <div class="prose signin">
         <span class="eyebrow">Your account</span>
-        <h1>You are signed in.</h1>
-        <p class="lede" id="whoami">${a.email ? esc(a.email) : "Checking your account."}</p>
-        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
+        <h1 id="whoami">${a.username ? "@" + esc(a.username) : "You are signed in."}</h1>
         <p class="muted">Last synced: <span id="lastSync">${esc(last)}</span>. Your progress syncs on its own a few seconds after you finish a lesson or a review, and when you close the tab.</p>
         <div class="btn-row">
-          <button class="btn btn-primary" id="syncBtn">Sync now</button>
-          <a class="btn btn-secondary" href="#/my-learning">Your page</a>
+          <a class="btn btn-primary" href="#/friends">Friends</a>
+          <button class="btn btn-secondary" id="syncBtn">Sync now</button>
           <button class="btn btn-secondary" id="signoutBtn">Sign out</button>
         </div>
         <p class="signin-note" id="signinNote" aria-live="polite"></p>
+
+        <h2>Email on record</h2>
+        <form id="emailForm">
+          ${field("Used only if you forget your password", "email", "email", `autocomplete="email" value="${esc(a.email || "")}" required`)}
+          <div class="btn-row"><button class="btn btn-secondary" type="submit">Save</button></div>
+          <p class="signin-note" aria-live="polite"></p>
+        </form>
+
+        <h2>Change your password</h2>
+        <form id="pwForm">
+          ${field("Current password", "current", "password", `autocomplete="current-password" required`)}
+          ${newPasswordFields("New password")}
+          <div class="btn-row"><button class="btn btn-secondary" type="submit">Change password</button></div>
+          <p class="signin-note" aria-live="polite"></p>
+        </form>
+
         <h2>Leaving</h2>
-        <p>Signing out leaves everything in this browser exactly as it is; it only forgets the account. Deleting the account removes your email address and every row of your progress from our database, permanently, and cannot be undone. Your copy in this browser is untouched either way.</p>
+        <p>Signing out leaves everything in this browser exactly as it is; it only forgets the account. Deleting the account removes your username, email, friends and every row of your progress from our database, permanently. Your copy in this browser is untouched either way.</p>
         <div class="btn-row"><button class="btn btn-secondary" id="deleteBtn">Delete my account</button></div>
       </div>
     `, "Your account");
@@ -1071,13 +1156,13 @@
     const noteEl = main.querySelector("#signinNote");
     const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
 
-    if (!a.email) {
-      apiCall("/auth/session").then(r => {
-        if (!r.signedIn) return route();
-        setAccount(Object.assign({}, account(), { email: r.user.email, name: r.user.name }));
-        const who = main.querySelector("#whoami"); if (who) who.textContent = r.user.email;
-      }).catch(() => route());
-    }
+    // Fill in anything this browser does not know yet (after a reset, say).
+    apiCall("/auth/session").then(r => {
+      if (!r.signedIn) return route();
+      setAccount(Object.assign({}, account(), r.user));
+      const who = main.querySelector("#whoami"); if (who) who.textContent = "@" + r.user.username;
+      const em = main.querySelector("#emailForm input"); if (em && !em.value) em.value = r.user.email || "";
+    }).catch(() => {});
     if (!a.syncedAt) {
       say("Merging this browser with your account.");
       syncNow().then(() => { say("Merged. Everything you had here is on your account."); const el = main.querySelector("#lastSync"); if (el) el.textContent = new Date().toLocaleString(); })
@@ -1094,10 +1179,209 @@
       setAccount(null); route();
     });
     main.querySelector("#deleteBtn").addEventListener("click", async () => {
-      if (!confirm("Delete your account and every row of your progress from our database? This cannot be undone. Your copy in this browser is not touched.")) return;
+      if (!confirm("Delete your account, your friends list and every row of your progress from our database? This cannot be undone. Your copy in this browser is not touched.")) return;
       try { await apiCall("/account", { method: "POST" }); setAccount(null); route(); }
       catch (err) { say(err.message, true); }
     });
+
+    const emailForm = main.querySelector("#emailForm"), emailKit = formKit(emailForm);
+    emailForm.addEventListener("submit", async e => {
+      e.preventDefault(); emailKit.busy(true);
+      try {
+        const r = await apiCall("/account/email", { method: "POST", body: { email: emailForm.email.value.trim() } });
+        setAccount(Object.assign({}, account(), { email: r.user.email })); emailKit.say("Saved.");
+      } catch (err) { emailKit.say(err.message, true); }
+      emailKit.busy(false);
+    });
+    const pwForm = main.querySelector("#pwForm"), pwKit = formKit(pwForm);
+    pwForm.addEventListener("submit", async e => {
+      e.preventDefault();
+      if (!checkNewPassword(pwForm, pwKit)) return;
+      const username = (account() || {}).username;
+      if (!username) return pwKit.say("Reload the page and try again.", true);
+      pwKit.busy(true); pwKit.say("Changing it.");
+      try {
+        const [oldKey, newKey] = await Promise.all([passwordKey(username, pwForm.current.value), passwordKey(username, pwForm.password.value)]);
+        const r = await apiCall("/auth/password", { method: "POST", body: { oldKey, newKey } });
+        setAccount(Object.assign({}, account(), { token: r.token }));
+        pwForm.reset(); pwKit.say("Changed. Your other devices have been signed out.");
+      } catch (err) { pwKit.say(err.message, true); }
+      pwKit.busy(false);
+    });
+  }
+
+  /* ---------- friends ----------
+     Add people by username, see the lessons they finish and the days they study, and
+     cheer a finished lesson. A cheer is private: only the person cheered sees it, and
+     nothing is counted in public. No feed, no ranking. docs/PLATFORM_ROADMAP.md, Phase 4. */
+  const itemTitle = (cid, lid) => {
+    const c = COURSES.find(x => x.id === cid);
+    const item = c && courseItems(c).find(x => x.id === lid);
+    return { course: c ? c.title : cid, lesson: item ? item.title : lid, href: c && item ? `#/course/${c.id}/${c.lessons.includes(item) ? "lesson" : "assessment"}/${item.id}` : "" };
+  };
+  function ago(when) {
+    if (!when) return "";
+    const t = typeof when === "number" ? when : Date.parse(when + "T12:00:00");
+    const days = Math.floor((Date.now() - t) / DAY);
+    return days <= 0 ? "today" : days === 1 ? "yesterday" : days < 30 ? `${days} days ago` : new Date(t).toLocaleDateString();
+  }
+  const who = p => p.name ? `${esc(p.name)} <span class="muted">@${esc(p.username)}</span>` : `@${esc(p.username)}`;
+  function streakFrom(days) {
+    const set = new Set(days); let n = 0; const d = new Date();
+    if (!set.has(today())) d.setDate(d.getDate() - 1);
+    while (set.has(d.toISOString().slice(0, 10))) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function needSignIn(title) {
+    render(`<div class="empty"><h2>${title}</h2><p>Friends need an account, so you can find each other. Reading and learning never do.</p><div class="btn-row" style="justify-content:center"><a class="btn btn-primary" href="#/signin?new=1">Make an account</a><a class="btn btn-secondary" href="#/signin">Sign in</a></div></div>`, title);
+  }
+
+  async function viewFriends() {
+    if (!API) return viewNotFound();
+    if (!signedIn()) return needSignIn("Learn alongside your friends");
+    const seq = ++routeSeq;
+    let data;
+    try { data = await apiCall("/friends"); }
+    catch (err) { if (seq === routeSeq) render(`<div class="empty"><h2>Could not load your friends</h2><p>${esc(err.message)}</p><a class="btn btn-primary" href="#/friends">Try again</a></div>`, "Friends"); return; }
+    if (seq !== routeSeq) return;
+
+    const unseen = data.cheers.filter(c => !c.seen);
+    render(`
+      <span class="eyebrow">Friends · <a href="#/signin">your account</a></span>
+      <h1>Learning alongside.</h1>
+      ${data.cheers.length ? `<section class="section"><h2>Cheers for you</h2><ul class="friend-list">${data.cheers.slice(0, 12).map(c => { const t = itemTitle(c.course, c.lesson); return `<li class="${c.seen ? "" : "fresh"}"><span>${who(c)} cheered <a href="${t.href}">${esc(t.lesson)}</a><br><span class="muted">${esc(t.course)} · ${c.seen ? "" : "<strong>new</strong>, "}${ago(c.at)}</span></span></li>`; }).join("")}</ul></section>` : ""}
+      ${data.incoming.length ? `<section class="section"><h2>Asking to be friends</h2><ul class="friend-list">${data.incoming.map(r => `<li><span>${who(r)}</span><span class="btn-row"><button class="btn btn-primary btn-sm" data-act="accept" data-u="${esc(r.username)}">Accept</button><button class="btn btn-secondary btn-sm" data-act="remove" data-u="${esc(r.username)}">Decline</button></span></li>`).join("")}</ul></section>` : ""}
+      <section class="section signin">
+        <h2>Add a friend</h2>
+        <form id="addForm">
+          ${field("Their username", "username", "text", `autocapitalize="none" spellcheck="false" required`)}
+          <div class="btn-row"><button class="btn btn-secondary" type="submit">Send a request</button></div>
+          <p class="signin-note" aria-live="polite"></p>
+        </form>
+        <p class="muted">Yours is <strong>@${esc((account() || {}).username || "")}</strong>. Tell a friend, and they can add you.</p>
+      </section>
+      <section class="section"><h2>Your friends</h2>
+        ${data.friends.length ? `<ul class="friend-list">${data.friends.map(f => { const t = f.latest && itemTitle(f.latest.course, f.latest.lesson); return `<li><span><a href="#/friends/${encodeURIComponent(f.username)}">${who(f)}</a><br><span class="muted">${f.lessonsDone} lesson${f.lessonsDone === 1 ? "" : "s"} finished${t ? ` · latest: ${esc(t.lesson)}` : ""}${f.lastDay ? ` · studied ${ago(f.lastDay)}` : ""}</span></span><a class="btn btn-secondary btn-sm" href="#/friends/${encodeURIComponent(f.username)}">See progress</a></li>`; }).join("")}</ul>`
+          : `<p class="muted">No friends yet. Add someone by their username above.</p>`}
+      </section>
+      ${data.outgoing.length ? `<section class="section"><h2>Waiting for an answer</h2><ul class="friend-list">${data.outgoing.map(r => `<li><span>@${esc(r.username)} <span class="muted">· asked ${ago(r.at)}</span></span><button class="btn btn-secondary btn-sm" data-act="remove" data-u="${esc(r.username)}">Cancel</button></li>`).join("")}</ul></section>` : ""}
+      <p class="muted" style="margin-top:2rem">Friends see the lessons you finish and the days you study, not your quiz scores. <a href="#/community">Community rules</a>.</p>
+    `, "Friends");
+
+    // Opening this page is seeing the cheers; requests stay counted until they are answered.
+    setFriendsBadge(data.incoming.length);
+    if (unseen.length) apiCall("/cheers/seen", { method: "POST" }).catch(() => {});
+    main.querySelectorAll("button[data-act]").forEach(b => b.addEventListener("click", async () => {
+      if (b.dataset.act === "remove" && b.textContent === "Remove" && !confirm(`Remove @${b.dataset.u} from your friends?`)) return;
+      b.disabled = true;
+      try { await apiCall(`/friends/${b.dataset.act}`, { method: "POST", body: { username: b.dataset.u } }); viewFriends(); }
+      catch (err) { alert(err.message); b.disabled = false; }
+    }));
+    const form = main.querySelector("#addForm"), kit = formKit(form);
+    form.addEventListener("submit", async e => {
+      e.preventDefault();
+      kit.busy(true);
+      try {
+        const r = await apiCall("/friends/request", { method: "POST", body: { username: cleanUsername(form.username.value) } });
+        if (r.status === "friends") return viewFriends();
+        kit.say("Sent. They will see it on their Friends page."); form.reset();
+        setTimeout(viewFriends, 1200);
+      } catch (err) { kit.say(err.message, true); }
+      kit.busy(false);
+    });
+  }
+
+  async function viewFriend(username) {
+    if (!API) return viewNotFound();
+    if (!signedIn()) return needSignIn("Sign in to see your friends");
+    const seq = ++routeSeq;
+    let f;
+    try { f = await apiCall(`/friends/${encodeURIComponent(username)}`); }
+    catch (err) { if (seq === routeSeq) render(`<div class="empty"><h2>Not someone you can see</h2><p>${esc(err.message)}</p><a class="btn btn-primary" href="#/friends">Your friends</a></div>`, "Friends"); return; }
+    if (seq !== routeSeq) return;
+
+    const cheered = new Set(f.cheered);
+    const done = [];
+    for (const [cid, lessons] of Object.entries(f.done)) for (const [lid, at] of Object.entries(lessons)) done.push({ cid, lid, at });
+    done.sort((x, y) => y.at - x.at);
+    const courses = COURSES.map(c => ({ c, n: courseItems(c).filter(x => (f.done[c.id] || {})[x.id]).length, total: courseItems(c).length })).filter(x => x.n);
+    const cheerBtn = (cid, lid) => cheered.has(`${cid}/${lid}`)
+      ? `<span class="cheered">Cheered ✓</span>`
+      : `<button class="btn btn-secondary btn-sm" data-c="${esc(cid)}" data-l="${esc(lid)}">Cheer</button>`;
+
+    render(`
+      <div class="breadcrumb"><a href="#/friends">Friends</a> / @${esc(f.username)}</div>
+      <h1>${esc(f.name || "@" + f.username)}</h1>
+      ${f.name ? `<p class="muted">@${esc(f.username)}</p>` : ""}
+      <div class="stats">
+        <div class="stat-card"><b>${done.length}</b><span>lessons finished</span></div>
+        <div class="stat-card"><b>${courses.filter(x => x.n === x.total).length}</b><span>courses completed</span></div>
+        <div class="stat-card"><b>${streakFrom(f.days)}</b><span>day streak</span></div>
+        <div class="stat-card"><b>${f.days.filter(d => Date.parse(d) > Date.now() - 7 * DAY).length}</b><span>days studied this week</span></div>
+      </div>
+      <section class="section"><h2>Recently finished</h2>
+        ${done.length ? `<ul class="friend-list">${done.slice(0, 20).map(d => { const t = itemTitle(d.cid, d.lid); return `<li><span><a href="${t.href}">${esc(t.lesson)}</a><br><span class="muted">${esc(t.course)} · ${ago(d.at)}</span></span>${cheerBtn(d.cid, d.lid)}</li>`; }).join("")}</ul>`
+          : `<p class="muted">Nothing finished yet. When they finish a lesson it shows up here, and you can cheer it.</p>`}
+      </section>
+      ${courses.length ? `<section class="section"><h2>Courses</h2><ul class="lesson-list">${courses.map(x => `<li><a href="#/course/${x.c.id}"><span class="lesson-num">${x.n === x.total ? "✓" : ""}</span><span>${esc(x.c.title)}</span><span class="lesson-time">${x.n} of ${x.total}</span></a></li>`).join("")}</ul></section>` : ""}
+      <div class="btn-row" style="margin-top:2rem"><button class="btn btn-secondary" id="removeBtn">Remove from friends</button></div>
+    `, f.name || "@" + f.username);
+
+    main.querySelectorAll("button[data-c]").forEach(b => b.addEventListener("click", async () => {
+      b.disabled = true;
+      try {
+        await apiCall("/cheer", { method: "POST", body: { username: f.username, course: b.dataset.c, lesson: b.dataset.l } });
+        b.outerHTML = `<span class="cheered">Cheered ✓</span>`;
+      } catch (err) { alert(err.message); b.disabled = false; }
+    }));
+    main.querySelector("#removeBtn").addEventListener("click", async () => {
+      if (!confirm(`Remove @${f.username} from your friends? You will stop seeing each other's progress.`)) return;
+      try { await apiCall("/friends/remove", { method: "POST", body: { username: f.username } }); location.hash = "#/friends"; }
+      catch (err) { alert(err.message); }
+    });
+  }
+
+  // The last nav slot is Sign in, or Friends once signed in, with a count when something is
+  // waiting there. One slot, not two: a seventh link pushes the nav off a phone screen. The
+  // account page is linked from Friends and from Me.
+  function updateNav() {
+    const nav = document.querySelector(".site-nav");
+    if (!nav || !API) return;
+    const on = signedIn();
+    let fr = document.getElementById("friendsLink"), acct = document.getElementById("accountLink");
+    if (on && acct) acct.remove();
+    if (!on && fr) fr.remove();
+    if (!on) { if (!acct) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">Sign in</a>`); return; }
+    if (!fr) { nav.insertAdjacentHTML("beforeend", `<a href="#/friends" id="friendsLink">Friends</a>`); fr = document.getElementById("friendsLink"); }
+    if (Date.now() - navChecked > 60000) {
+      navChecked = Date.now();
+      apiCall("/friends").then(d => setFriendsBadge(d.incoming.length + d.cheers.filter(c => !c.seen).length)).catch(() => {});
+    }
+  }
+  function setFriendsBadge(n) {
+    const fr = document.getElementById("friendsLink");
+    if (fr) fr.innerHTML = n ? `Friends <span class="nav-dot" aria-label="${n} new">${n}</span>` : "Friends";
+  }
+
+  function viewCommunity() {
+    render(`
+      <div class="prose">
+        <span class="eyebrow">Community</span>
+        <h1>The rules for friends.</h1>
+        <p class="lede">The social side here is small on purpose: you add people you know, you see what they finish, and you cheer them on. There is no feed, no comments and no ranking. These rules cover the little that other people can see of you.</p>
+        <h2>What others can see</h2>
+        <p>Anyone who has your username can send you a friend request. Only people you accept see anything more: your name if you gave one, the lessons you finish and when, and the days you study. Nobody sees your quiz scores, your review bank or your email address.</p>
+        <h2>The rules</h2>
+        <ol>
+          <li><strong>Pick a decent username and name.</strong> Nothing obscene, hateful or pretending to be someone else.</li>
+          <li><strong>Only add people you know</strong>, or who asked you to. A request someone declines stays declined; do not keep sending it.</li>
+          <li><strong>Encourage.</strong> That is what cheers are for.</li>
+        </ol>
+        <h2>When something goes wrong</h2>
+        <p>You can decline a request or remove a friend at any time, and they are not told. If someone breaks these rules, ${HELP_EMAIL ? `email <a href="mailto:${esc(HELP_EMAIL)}">${esc(HELP_EMAIL)}</a>` : "tell us through the feedback form on any lesson"} with their username and what happened.</p>
+        <p>An account that breaks these rules can have its name changed or be deleted. Every such decision is written down with the reason, and you can ask for it to be looked at again by replying to the message that told you. Nobody is ever removed for criticising Foval.</p>
+      </div>
+    `, "Community rules");
   }
 
   function viewNotFound() { render(`<div class="empty"><h2>Page not found</h2><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not found"); }
@@ -1106,7 +1390,7 @@
   function route() {
     const raw = location.hash.replace(/^#/, "") || "/";
     const [path, qs] = raw.split("?"); const params = new URLSearchParams(qs || "");
-    setActiveNav(path); let m;
+    setActiveNav(path); updateNav(); let m;
     if (path === "/") return viewHome();
     if (path === "/courses") return viewCourses(params.get("subject"));
     if (path === "/path") return viewPath();
@@ -1118,6 +1402,10 @@
     if ((m = path.match(/^\/certificate\/([^/]+)$/))) return viewCertificate(m[1]);
     if (path === "/my-learning") return viewMyLearning();
     if (path === "/signin") return viewSignIn(params);
+    if (path === "/reset") return viewReset();
+    if (path === "/friends") return viewFriends();
+    if ((m = path.match(/^\/friends\/([^/]+)$/))) return viewFriend(decodeURIComponent(m[1]));
+    if (path === "/community") return viewCommunity();
     if (path === "/about") return viewAbout();
     if (path === "/about-john") return viewAboutJohn();
     viewNotFound();
@@ -1137,8 +1425,7 @@
   });
 
   if (API) {
-    const nav = document.querySelector(".site-nav");
-    if (nav) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">${signedIn() ? "Account" : "Sign in"}</a>`);
+    updateNav();
     // The footer's promise has to stay true now that progress can leave the browser.
     const privacy = document.getElementById("privacyLine");
     if (privacy) privacy.textContent = "No paywalls, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";

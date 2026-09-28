@@ -82,6 +82,9 @@
     // always has: progress in this browser, no account, no network calls. Set it to the
     // deployed Worker's URL to switch sign-in on. See docs/AUTH_OPTIONS.md.
     window.FOVAL_API = "";
+    // Where a learner writes to ask for a password reset or to report someone. Nothing is
+    // mailed automatically; John answers with `npm run reset-code`. workers/api/README.md.
+    window.FOVAL_HELP_EMAIL = "johnfoval@gmail.com";
   </script>
   <script src="data/courses.js?v=fe17fc83"></script>
   <script src="assets/app.js?v=dcc5cec0"></script>

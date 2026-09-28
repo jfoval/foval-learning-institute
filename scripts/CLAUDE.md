@@ -20,7 +20,7 @@ compile step anywhere in this repo.
 | `social-card.mjs` | `card` | Renders `site/assets/media/social-card.png` |
 | `net-quotes.mjs` | `net` | Fetches NET Bible verses for quotation (standards 4.7) |
 | `text-width.mjs` | — | Arial advance widths for the SVG overflow check; imported by `build.mjs` |
-| `mailstub.mjs` | — | Local stand-in for the accounts Worker's email sender, for `workers/api/test.mjs` |
+| `reset-code.mjs` | `reset-code` | Answers a password-reset request: prints the email on file and a one-time code. `workers/api/README.md` |
 | `tests/` | `test` | `node --test`: fixtures that must fail each lint, and a renderer snapshot |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.

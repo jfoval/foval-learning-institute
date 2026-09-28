@@ -1,7 +1,9 @@
 # Accounts: what goes in front of D1
 
-*Written 2026-09-06 for John. Nothing has been built. This is the decision that has to be made
-first, because it is the one that is expensive to reverse.*
+*Written 2026-09-06 for John. **Superseded 2026-09-28:** John chose a username and password with
+no outside accounts. The CPU objection below is answered by stretching the password in the
+browser rather than on the Worker, so it stays on the free plan. `workers/api/README.md`,
+"Passwords on the free plan", and `docs/DECISIONS.md` §11. Kept for the reasoning.*
 
 ## The situation
 
