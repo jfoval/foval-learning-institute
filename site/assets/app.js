@@ -452,9 +452,9 @@
         <div class="hero-media">${noMotion ? `<img src="assets/media/hero-poster.jpg" alt="" decoding="async">` : `<video autoplay muted loop playsinline poster="assets/media/hero-poster.jpg" onerror="this.style.display='none'"><source src="assets/media/hero.mp4" type="video/mp4"></video>`}</div>
         <div class="hero-inner">
           <div>
-            <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
-            <h1>A real education, free, for anyone who wants one.</h1>
-            <p class="lede">History, philosophy, mathematics, science, and Scripture, alongside what most schools skip: money, sales, health, and how to think. Checked against the sources and taught the way a good professor talks.</p>
+            <span class="eyebrow">Foval Learning Institute</span>
+            <h1>A free online school for anyone.</h1>
+            <p class="lede">Courses in history, philosophy, math, science, the Bible, money, and health. Read the lessons, take the quizzes, and learn at your own pace. No cost, and no account needed.</p>
             <div class="btn-row">
               <a class="btn btn-primary" href="#/path">Start the path</a>
               <a class="btn btn-secondary" href="#/courses">Browse the courses</a>
