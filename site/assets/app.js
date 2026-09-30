@@ -283,7 +283,7 @@
   function render(html, title) {
     main.innerHTML = html;
     main.removeAttribute("aria-busy");
-    document.title = title ? `${title} · Foval Learning Institute` : "Foval Learning Institute";
+    document.title = title ? `${title} · Foval Learning Institute` : "Foval Learning Institute: Free Online Courses";
     // A new page, not a scroll: jump, never animate up from the foot of a long lesson.
     window.scrollTo({ top: 0, behavior: "instant" });
     // Put keyboard and screen-reader focus on the new content rather than leaving it on
@@ -456,7 +456,7 @@
             <h1>A free online school for anyone.</h1>
             <p class="lede">Courses in history, philosophy, math, science, the Bible, money, and health. Read the lessons, take the quizzes, and learn at your own pace. No cost, and no account needed.</p>
             <div class="btn-row">
-              <a class="btn btn-primary" href="#/path">Start the path</a>
+              <a class="btn btn-primary" href="#/path">Start learning</a>
               <a class="btn btn-secondary" href="#/courses">Browse the courses</a>
             </div>
           </div>
@@ -484,7 +484,7 @@
         <div class="band-inner">
           <h2>An hour of real study beats a day of scrolling.</h2>
           <p>Everything here is built for that hour: lessons that make you work, questions that come back until they stay, and a record of what you can still do.</p>
-          <a class="btn btn-gold" href="#/path">Start the path</a>
+          <a class="btn btn-gold" href="#/path">Start learning</a>
         </div>
       </section>
       ${whyMore()}
@@ -508,7 +508,7 @@
         <div class="band-inner">
           <h2>Class is always in session.</h2>
           <p>No term dates, no tuition, no application. Pick a course and begin tonight.</p>
-          <div class="btn-row"><a class="btn btn-gold" href="#/path">Start the path</a><a class="btn btn-ghost" href="#/courses">Browse the courses</a></div>
+          <div class="btn-row"><a class="btn btn-gold" href="#/path">Start learning</a><a class="btn btn-ghost" href="#/courses">Browse the courses</a></div>
         </div>
       </section>
     `);
@@ -864,7 +864,7 @@
     // Me is where a signed-in learner reaches their account; the nav has no separate slot for it.
     const me = signedIn() ? `<p class="me-links">@${esc((account() || {}).username || "")} · <a href="#/friends">Friends</a> · <a href="#/signin">Account settings</a></p>` : "";
     if (!started.length) {
-      return render(`<div class="empty"><h2>Nothing here yet</h2>${me}<p>Start any course and your transcript begins.</p><a class="btn btn-primary" href="#/path">Start the path</a></div>`, "My learning");
+      return render(`<div class="empty"><h2>Nothing here yet</h2>${me}<p>Start any course and your transcript begins.</p><a class="btn btn-primary" href="#/path">Start learning</a></div>`, "My learning");
     }
     render(`
       <span class="eyebrow">Transcript</span>
